@@ -1,0 +1,76 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "zatxgnn-fhir-server",
+  "url": "https://zatxgnn.yao.care/fhir/metadata",
+  "version": "1.0.0",
+  "name": "ZaTxGNNFHIRServer",
+  "title": "ZaTxGNN FHIR Server",
+  "status": "active",
+  "experimental": true,
+  "date": "2026-03-03",
+  "publisher": "ZaTxGNN",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://zatxgnn.yao.care"
+        }
+      ]
+    }
+  ],
+  "description": "ZaTxGNN drug repurposing prediction data exposed as FHIR resources. Contains drug repurposing predictions.",
+  "kind": "instance",
+  "software": {
+    "name": "ZaTxGNN Static FHIR API",
+    "version": "1.0.0"
+  },
+  "implementation": {
+    "description": "Static FHIR resources served from GitHub Pages",
+    "url": "https://zatxgnn.yao.care/fhir"
+  },
+  "fhirVersion": "4.0.1",
+  "format": [
+    "application/fhir+json"
+  ],
+  "rest": [
+    {
+      "mode": "server",
+      "documentation": "Static FHIR API - read-only access to drug repurposing predictions",
+      "resource": [
+        {
+          "type": "MedicationKnowledge",
+          "profile": "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "token",
+              "documentation": "Drug identifier (slug)"
+            }
+          ]
+        },
+        {
+          "type": "ClinicalUseDefinition",
+          "profile": "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "subject",
+              "type": "reference",
+              "documentation": "Reference to MedicationKnowledge"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
