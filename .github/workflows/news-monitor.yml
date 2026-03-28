@@ -31,12 +31,9 @@ jobs:
             python scripts/generate_news_keywords.py
           fi
 
-      # Step 2: 平行執行所有 fetchers
-      - name: Fetch from all sources (parallel)
-        run: |
-          python scripts/fetchers/google_rss.py &
-          python scripts/fetchers/tzuchi_chiayi.py &
-          wait  # 等待所有 fetcher 完成
+      # Step 2: Fetch South Africa-specific news
+      - name: Fetch South Africa health news
+        run: python scripts/fetchers/za_news.py
 
       # Step 3: 統一處理（合併、匹配、去重、產生頁面）
       - name: Process and generate pages

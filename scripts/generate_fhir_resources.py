@@ -14,7 +14,7 @@ import pandas as pd
 
 # Australia-specific configuration
 BASE_URL = "https://zatxgnn.yao.care"
-JURISDICTION = "Za"
+JURISDICTION = "ZA"
 PUBLISHER = "yao.care"
 VERSION = "0.1.0"
 
