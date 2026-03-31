@@ -1,40 +1,31 @@
 # ZaTxGNN - South Africa Drug Repurposing Predictions
 
-Drug repurposing predictions for South Africa using the TxGNN knowledge graph.
+[![Website](https://img.shields.io/badge/Website-zatxgnn.yao.care-blue)](https://zatxgnn.yao.care)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Data Source
-
-- **SAHPRA** (South African Health Products Regulatory Authority)
-- **Medicine Price Registry** (MPR) via medicineprices.org.za API
-
-## Features
-
-- Knowledge graph-based drug repurposing predictions
-- FHIR R4 compliant resources
-- Evidence collection from ClinicalTrials.gov and PubMed
-- South African health news monitoring
-
-## Quick Start
-
-```bash
-# Install dependencies
-uv sync
-
-# Download drug data
-python scripts/download_mpr_data.py
-
-# Prepare external data
-uv run python scripts/prepare_external_data.py
-
-# Run KG prediction
-uv run python scripts/run_kg_prediction.py
-```
+Drug repurposing predictions for South Africa using the TxGNN model.
 
 ## Disclaimer
 
-This project is for research purposes only and does not constitute medical advice.
-Drug repurposing predictions require clinical validation before therapeutic application.
+- The results of this project are for research purposes only and do not constitute medical advice.
+- Drug repurposing candidates require clinical validation before application.
 
-## License
+## Project Overview
 
-MIT
+| Item | Count |
+|------|-------|
+| **Drug Reports** | 455 |
+| **Total Predictions** | 7,786,582 |
+
+## Prediction Methods
+
+### Knowledge Graph Method
+Direct querying of drug-disease relationships in the TxGNN knowledge graph, identifying potential repurposing candidates based on existing connections in the biomedical network.
+
+### Deep Learning Method
+Uses the TxGNN pre-trained neural network model to compute prediction scores, evaluating the likelihood of new therapeutic indications for approved drugs.
+
+## Links
+
+- Website: https://zatxgnn.yao.care
+- TxGNN Paper: https://doi.org/10.1038/s41591-023-02233-x
