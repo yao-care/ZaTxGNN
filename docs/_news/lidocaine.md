@@ -3,7 +3,7 @@ layout: default
 title: "Lidocaine 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Lidocaine 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Lidocaine 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/lidocaine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lidocaine/
 ---
 
 <p class="key-answer" data-question="Lidocaine 有什麼相關新聞？">
-<strong>Lidocaine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Lidocaine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/lidocaine/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>punctate epithelial keratoconjunctivitis（100.0%）</li>
-<li>papillary conjunctivitis（100.0%）</li>
-<li>rosacea conjunctivitis（99.9%）</li>
-<li>exposure keratitis（99.9%）</li>
-<li>atopic conjunctivitis（99.9%）</li>
-<li>conjunctival disorder（99.8%）</li>
-<li>nephrotic syndrome（99.8%）</li>
-<li>non-human animal disease（99.8%）</li>
-<li>tinea corporis（99.8%）</li>
-<li>sporadic idiopathic steroid-resistant nephrotic syndrome（99.8%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lidocaine/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

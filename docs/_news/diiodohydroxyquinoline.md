@@ -3,7 +3,7 @@ layout: default
 title: "Diiodohydroxyquinoline 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Diiodohydroxyquinoline 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Diiodohydroxyquinoline 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/diiodohydroxyquinoline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/diiodohydroxyquinoline/
 ---
 
 <p class="key-answer" data-question="Diiodohydroxyquinoline 有什麼相關新聞？">
-<strong>Diiodohydroxyquinoline</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Diiodohydroxyquinoline</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/diiodohydroxyquinoline/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>osteoradionecrosis（98.0%）</li>
-<li>radiodermatitis（96.3%）</li>
-<li>pneumonitis（95.7%）</li>
-<li>aspiration pneumonia (disease)（91.0%）</li>
-<li>type 2 diabetes nephropathy（90.6%）</li>
-<li>byssinosis（88.2%）</li>
-<li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies（87.3%）</li>
-<li>mixed mineral dust pneumoconiosis（82.8%）</li>
-<li>baritosis（82.7%）</li>
-<li>slate pneumoconiosis（82.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/diiodohydroxyquinoline/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

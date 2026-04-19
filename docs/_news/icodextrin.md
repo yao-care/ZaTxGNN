@@ -3,7 +3,7 @@ layout: default
 title: "Icodextrin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Icodextrin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Icodextrin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/icodextrin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/icodextrin/
 ---
 
 <p class="key-answer" data-question="Icodextrin 有什麼相關新聞？">
-<strong>Icodextrin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Icodextrin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/icodextrin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>irritable bowel syndrome（98.5%）</li>
-<li>non-syndromic esophageal malformation（97.4%）</li>
-<li>C1 inhibitor deficiency（97.3%）</li>
-<li>potassium deficiency disease（97.2%）</li>
-<li>serpinopathy with toxic serpin polymerization（97.1%）</li>
-<li>hereditary angioedema with C1Inh deficiency（96.8%）</li>
-<li>esophageal disease（96.8%）</li>
-<li>familial visceral myopathy（96.3%）</li>
-<li>renal tubular acidosis（95.8%）</li>
-<li>vitamin deficiency disorder（95.8%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/icodextrin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

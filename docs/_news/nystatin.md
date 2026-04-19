@@ -3,7 +3,7 @@ layout: default
 title: "Nystatin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Nystatin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Nystatin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/nystatin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nystatin/
 ---
 
 <p class="key-answer" data-question="Nystatin 有什麼相關新聞？">
-<strong>Nystatin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Nystatin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/nystatin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>vulvovaginitis（99.9%）</li>
-<li>disease of orbital region（99.9%）</li>
-<li>disease of orbital part of eye adnexa（99.9%）</li>
-<li>cystic teratoma（99.9%）</li>
-<li>spinal cord dermoid cyst（99.9%）</li>
-<li>postmenopausal atrophic vaginitis（99.9%）</li>
-<li>biotin metabolic disease（99.9%）</li>
-<li>vulvitis（99.8%）</li>
-<li>commissural lip fistula（99.8%）</li>
-<li>osteoradionecrosis of the mandible（99.8%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nystatin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

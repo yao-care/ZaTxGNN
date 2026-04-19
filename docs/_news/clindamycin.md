@@ -3,7 +3,7 @@ layout: default
 title: "Clindamycin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Clindamycin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Clindamycin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/clindamycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clindamycin/
 ---
 
 <p class="key-answer" data-question="Clindamycin 有什麼相關新聞？">
-<strong>Clindamycin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Clindamycin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/clindamycin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>punctate epithelial keratoconjunctivitis（100.0%）</li>
-<li>exposure keratitis（99.8%）</li>
-<li>non-human animal disease（99.7%）</li>
-<li>neurotrophic keratopathy（99.5%）</li>
-<li>epidemic keratoconjunctivitis（99.5%）</li>
-<li>postmenopausal atrophic vaginitis（99.0%）</li>
-<li>superior limbic keratoconjunctivitis（99.0%）</li>
-<li>keratomalacia（98.3%）</li>
-<li>ophthalmia nodosa（98.3%）</li>
-<li>toxic maculopathy due to antimalarial drugs（98.3%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/clindamycin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

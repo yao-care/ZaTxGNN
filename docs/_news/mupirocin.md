@@ -3,7 +3,7 @@ layout: default
 title: "Mupirocin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Mupirocin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Mupirocin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/mupirocin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mupirocin/
 ---
 
 <p class="key-answer" data-question="Mupirocin 有什麼相關新聞？">
-<strong>Mupirocin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Mupirocin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/mupirocin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>pleural empyema (disease)（99.5%）</li>
-<li>punctate epithelial keratoconjunctivitis（99.1%）</li>
-<li>neurotrophic keratopathy（98.5%）</li>
-<li>cutaneous candidiasis（98.3%）</li>
-<li>vaginal discharge（96.0%）</li>
-<li>exposure keratitis（95.9%）</li>
-<li>leukoplakia of vagina（95.8%）</li>
-<li>non-human animal disease（95.7%）</li>
-<li>staphylococcal scalded skin syndrome（95.6%）</li>
-<li>bacterial vaginosis（95.2%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mupirocin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

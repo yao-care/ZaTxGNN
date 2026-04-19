@@ -3,7 +3,7 @@ layout: default
 title: "Doxycycline 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Doxycycline 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Doxycycline 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/doxycycline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/doxycycline/
 ---
 
 <p class="key-answer" data-question="Doxycycline 有什麼相關新聞？">
-<strong>Doxycycline</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Doxycycline</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/doxycycline/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>punctate epithelial keratoconjunctivitis（99.9%）</li>
-<li>otitis externa（99.9%）</li>
-<li>postinfectious vasculitis（99.9%）</li>
-<li>post-bacterial disorder（99.9%）</li>
-<li>post-infectious syndrome（99.9%）</li>
-<li>infective urethral stricture（99.9%）</li>
-<li>Chagas cardiomyopathy（99.9%）</li>
-<li>infection-related hemolytic uremic syndrome（99.9%）</li>
-<li>exposure keratitis（99.8%）</li>
-<li>chronic gingivitis（99.8%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/doxycycline/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

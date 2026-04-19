@@ -3,7 +3,7 @@ layout: default
 title: "Nomegestrol acetate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Nomegestrol acetate 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Nomegestrol acetate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/nomegestrol_acetate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nomegestrol_acetate/
 ---
 
 <p class="key-answer" data-question="Nomegestrol acetate 有什麼相關新聞？">
-<strong>Nomegestrol acetate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Nomegestrol acetate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/nomegestrol_acetate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>candidiasis（98.8%）</li>
-<li>antithrombin deficiency type 2（98.5%）</li>
-<li>heparin cofactor 2 deficiency（98.5%）</li>
-<li>factor 5 excess with spontaneous thrombosis（98.5%）</li>
-<li>plasma cell myeloma（97.8%）</li>
-<li>gout（97.6%）</li>
-<li>indolent plasma cell myeloma（97.5%）</li>
-<li>heart neoplasm（97.4%）</li>
-<li>thrombotic disease（97.4%）</li>
-<li>rheumatoid arthritis（97.4%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nomegestrol_acetate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Bismuth subcarbonate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Bismuth subcarbonate 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Bismuth subcarbonate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/bismuth_subcarbonate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bismuth_subcarbonate/
 ---
 
 <p class="key-answer" data-question="Bismuth subcarbonate 有什麼相關新聞？">
-<strong>Bismuth subcarbonate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Bismuth subcarbonate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/bismuth_subcarbonate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>insomnia (disease)（99.4%）</li>
-<li>enterocolitis (disease)（96.9%）</li>
-<li>irritable bowel syndrome（96.8%）</li>
-<li>neurocirculatory asthenia（95.5%）</li>
-<li>acute intermittent porphyria（93.3%）</li>
-<li>sleep disorder, initiating and maintaining sleep（92.8%）</li>
-<li>adult-onset myasthenia gravis（92.0%）</li>
-<li>myasthenia gravis with thymus hyperplasia（91.8%）</li>
-<li>neonatal myasthenia gravis（91.3%）</li>
-<li>autoimmune disease of peripheral nervous system（91.3%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bismuth_subcarbonate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Iopamidol 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Iopamidol 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Iopamidol 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/iopamidol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/iopamidol/
 ---
 
 <p class="key-answer" data-question="Iopamidol 有什麼相關新聞？">
-<strong>Iopamidol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Iopamidol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/iopamidol/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>Prinzmetal angina（98.6%）</li>
-<li>female breast carcinoma（97.9%）</li>
-<li>migraine with brainstem aura（97.4%）</li>
-<li>migraine disorder（97.4%）</li>
-<li>tendinitis（96.7%）</li>
-<li>myositis fibrosa（96.6%）</li>
-<li>idiopathic granulomatous myositis（96.6%）</li>
-<li>hemoglobinopathy（96.4%）</li>
-<li>pulmonary hypertension（96.2%）</li>
-<li>fibromyalgia（96.1%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/iopamidol/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

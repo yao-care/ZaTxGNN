@@ -3,7 +3,7 @@ layout: default
 title: "Magnesium 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Magnesium 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Magnesium 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/magnesium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/magnesium/
 ---
 
 <p class="key-answer" data-question="Magnesium 有什麼相關新聞？">
-<strong>Magnesium</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Magnesium</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/magnesium/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>migraine disorder（98.0%）</li>
-<li>migraine with brainstem aura（98.0%）</li>
-<li>severe nonproliferative diabetic retinopathy（97.5%）</li>
-<li>bronchitis（96.0%）</li>
-<li>diabetic retinopathy（95.8%）</li>
-<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta（95.2%）</li>
-<li>dermatitis（95.0%）</li>
-<li>hyperthyroidism（95.0%）</li>
-<li>rheumatoid arthritis（94.9%）</li>
-<li>dry eye syndrome（94.2%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/magnesium/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

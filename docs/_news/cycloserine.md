@@ -3,7 +3,7 @@ layout: default
 title: "Cycloserine 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Cycloserine 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Cycloserine 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/cycloserine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cycloserine/
 ---
 
 <p class="key-answer" data-question="Cycloserine 有什麼相關新聞？">
-<strong>Cycloserine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Cycloserine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/cycloserine/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>irritable bowel syndrome（100.0%）</li>
-<li>acne (disease)（99.9%）</li>
-<li>gastroparesis (disease)（99.7%）</li>
-<li>conjunctivitis（99.3%）</li>
-<li>insomnia (disease)（99.2%）</li>
-<li>pharyngitis（99.0%）</li>
-<li>nasal cavity disease（99.0%）</li>
-<li>acute laryngopharyngitis（98.8%）</li>
-<li>postgastrectomy syndrome（98.8%）</li>
-<li>rhinitis（98.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cycloserine/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

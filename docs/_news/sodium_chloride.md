@@ -3,7 +3,7 @@ layout: default
 title: "Sodium chloride 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Sodium chloride 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Sodium chloride 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/sodium_chloride/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sodium_chloride/
 ---
 
 <p class="key-answer" data-question="Sodium chloride 有什麼相關新聞？">
-<strong>Sodium chloride</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Sodium chloride</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/sodium_chloride/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>breast fibrocystic disease（96.8%）</li>
-<li>vulvovaginitis（96.7%）</li>
-<li>vulvitis（96.3%）</li>
-<li>postmenopausal atrophic vaginitis（96.1%）</li>
-<li>ulceration of vulva（95.8%）</li>
-<li>vulvar neoplasm（95.8%）</li>
-<li>blunt duct adenosis of breast（95.8%）</li>
-<li>apocrine adenosis of breast（95.8%）</li>
-<li>benign mammary dysplasia（95.6%）</li>
-<li>fat necrosis of breast（94.3%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sodium_chloride/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

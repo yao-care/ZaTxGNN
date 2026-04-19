@@ -3,7 +3,7 @@ layout: default
 title: "Ivermectin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Ivermectin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Ivermectin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/ivermectin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ivermectin/
 ---
 
 <p class="key-answer" data-question="Ivermectin 有什麼相關新聞？">
-<strong>Ivermectin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Ivermectin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/ivermectin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>vulvovaginal candidiasis（100.0%）</li>
-<li>esophageal candidiasis（99.7%）</li>
-<li>anogenital human papillomavirus infection（99.5%）</li>
-<li>vulvovaginitis（99.4%）</li>
-<li>congenital candidiasis（99.2%）</li>
-<li>neonatal candidiasis（99.2%）</li>
-<li>candida glabrata（99.2%）</li>
-<li>postmenopausal atrophic vaginitis（99.2%）</li>
-<li>candidiasis, invasive（99.2%）</li>
-<li>vulvitis（99.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ivermectin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

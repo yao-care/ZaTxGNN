@@ -3,7 +3,7 @@ layout: default
 title: "Salicylic acid 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Salicylic acid 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Salicylic acid 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/salicylic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/salicylic_acid/
 ---
 
 <p class="key-answer" data-question="Salicylic acid 有什麼相關新聞？">
-<strong>Salicylic acid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Salicylic acid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/salicylic_acid/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>papillary conjunctivitis（99.9%）</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome（99.8%）</li>
-<li>brachydactyly-syndactyly syndrome（99.7%）</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome（99.5%）</li>
-<li>rosacea conjunctivitis（99.5%）</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type（99.5%）</li>
-<li>pseudoachondroplasia（99.5%）</li>
-<li>myosclerosis（99.5%）</li>
-<li>brachyolmia（99.4%）</li>
-<li>spondyloarthropathy, susceptibility to（99.3%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/salicylic_acid/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

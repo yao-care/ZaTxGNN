@@ -3,7 +3,7 @@ layout: default
 title: "Chromium 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Chromium 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Chromium 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/chromium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/chromium/
 ---
 
 <p class="key-answer" data-question="Chromium 有什麼相關新聞？">
-<strong>Chromium</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Chromium</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/chromium/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>osteoarthritis（98.7%）</li>
-<li>osteoarthritis susceptibility（98.5%）</li>
-<li>rheumatoid arthritis（98.5%）</li>
-<li>gout（98.0%）</li>
-<li>pseudoachondroplasia（98.0%）</li>
-<li>hepatic porphyria（97.9%）</li>
-<li>brachyolmia（97.8%）</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome（97.7%）</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type（97.7%）</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome（97.6%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/chromium/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

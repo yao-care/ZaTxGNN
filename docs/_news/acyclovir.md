@@ -3,7 +3,7 @@ layout: default
 title: "Acyclovir 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Acyclovir 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Acyclovir 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/acyclovir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/acyclovir/
 ---
 
 <p class="key-answer" data-question="Acyclovir 有什麼相關新聞？">
-<strong>Acyclovir</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Acyclovir</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/acyclovir/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>punctate epithelial keratoconjunctivitis（99.7%）</li>
-<li>common wart（99.5%）</li>
-<li>post-infectious neuralgia（99.2%）</li>
-<li>hepatitis C induced liver cirrhosis（99.2%）</li>
-<li>eosinophilic pustular folliculitis（99.2%）</li>
-<li>sequela of COVID-19（99.2%）</li>
-<li>vulvovaginal candidiasis（99.1%）</li>
-<li>papular urticaria（99.1%）</li>
-<li>disease of orbital region（99.1%）</li>
-<li>epidemic keratoconjunctivitis（99.1%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/acyclovir/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
