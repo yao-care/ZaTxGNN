@@ -3,7 +3,7 @@ layout: default
 title: "Salicylamide 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Salicylamide 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Salicylamide 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/salicylamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/salicylamide/
 ---
 
 <p class="key-answer" data-question="Salicylamide 有什麼相關新聞？">
-<strong>Salicylamide</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Salicylamide</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/salicylamide/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>pharyngitis（100.0%）</li>
-<li>nasal cavity disease（100.0%）</li>
-<li>acute laryngopharyngitis（100.0%）</li>
-<li>trigeminal autonomic cephalalgia（99.9%）</li>
-<li>common cold（99.9%）</li>
-<li>allergic urticaria（99.7%）</li>
-<li>lung disease（99.6%）</li>
-<li>massive neonatal aspiration syndrome（99.6%）</li>
-<li>respiratory syncytial virus bronchiolitis（99.6%）</li>
-<li>hantavirus infectious disease（99.5%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/salicylamide/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Apixaban 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Apixaban 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Apixaban 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/apixaban/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/apixaban/
 ---
 
 <p class="key-answer" data-question="Apixaban 有什麼相關新聞？">
-<strong>Apixaban</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Apixaban</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/apixaban/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>migraine disorder（99.0%）</li>
-<li>migraine with or without aura, susceptibility to（98.9%）</li>
-<li>leprosy（98.9%）</li>
-<li>rheumatoid arthritis（98.9%）</li>
-<li>migraine with brainstem aura（98.8%）</li>
-<li>Prinzmetal angina（98.4%）</li>
-<li>brachydactyly-syndactyly syndrome（98.2%）</li>
-<li>pulmonary hypertension（98.1%）</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome（98.0%）</li>
-<li>kyphoscoliotic heart disease（97.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/apixaban/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

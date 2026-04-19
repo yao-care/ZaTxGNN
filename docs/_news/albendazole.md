@@ -3,7 +3,7 @@ layout: default
 title: "Albendazole 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Albendazole 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Albendazole 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/albendazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/albendazole/
 ---
 
 <p class="key-answer" data-question="Albendazole 有什麼相關新聞？">
-<strong>Albendazole</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Albendazole</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/albendazole/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>alveolar echinococcosis（100.0%）</li>
-<li>coenurosis（99.8%）</li>
-<li>Cestode infectious disease（99.7%）</li>
-<li>dermatofibrosarcoma protuberans（98.8%）</li>
-<li>lung benign neoplasm（98.3%）</li>
-<li>lung hilum carcinoma（98.3%）</li>
-<li>inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia（98.3%）</li>
-<li>fibroma of lung（98.3%）</li>
-<li>hamartoma of lung（98.3%）</li>
-<li>intestinal helminthiasis（98.1%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/albendazole/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

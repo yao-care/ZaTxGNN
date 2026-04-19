@@ -3,7 +3,7 @@ layout: default
 title: "Nitrogen 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Nitrogen 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Nitrogen 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/nitrogen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nitrogen/
 ---
 
 <p class="key-answer" data-question="Nitrogen 有什麼相關新聞？">
-<strong>Nitrogen</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Nitrogen</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/nitrogen/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>16q24.1 microdeletion syndrome（99.7%）</li>
-<li>primary interstitial lung disease specific to childhood（99.7%）</li>
-<li>isolated pulmonary capillaritis（99.7%）</li>
-<li>congenital pulmonary lymphangiectasia（99.7%）</li>
-<li>benign neoplasm of adrenal gland（98.8%）</li>
-<li>malformation syndrome with odontal and/or periodontal component（98.8%）</li>
-<li>syndrome with a Dandy-Walker malformation as major feature（98.7%）</li>
-<li>isolated genetic hair shaft abnormality（98.6%）</li>
-<li>Ambras type hypertrichosis universalis congenita（98.6%）</li>
-<li>hypertrichosis (disease)（98.5%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nitrogen/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

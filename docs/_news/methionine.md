@@ -3,7 +3,7 @@ layout: default
 title: "Methionine 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Methionine 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Methionine 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/methionine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/methionine/
 ---
 
 <p class="key-answer" data-question="Methionine 有什麼相關新聞？">
-<strong>Methionine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Methionine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/methionine/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>acne (disease)（100.0%）</li>
-<li>severe nonproliferative diabetic retinopathy（100.0%）</li>
-<li>diabetes mellitus type 2 associated cataract（100.0%）</li>
-<li>immature cataract（100.0%）</li>
-<li>mature cataract（100.0%）</li>
-<li>nuclear senile cataract（100.0%）</li>
-<li>cortical cataract（100.0%）</li>
-<li>craniostenosis cataract（100.0%）</li>
-<li>tetanic cataract（100.0%）</li>
-<li>diabetic cataract（100.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/methionine/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Nicotinamide 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Nicotinamide 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Nicotinamide 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/nicotinamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nicotinamide/
 ---
 
 <p class="key-answer" data-question="Nicotinamide 有什麼相關新聞？">
-<strong>Nicotinamide</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Nicotinamide</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/nicotinamide/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>zinc, elevated plasma（97.8%）</li>
-<li>isolated congenital adermatoglyphia（94.8%）</li>
-<li>Beare-Stevenson cutis gyrata syndrome（93.7%）</li>
-<li>Werner syndrome（88.6%）</li>
-<li>pyogenic arthritis-pyoderma gangrenosum-acne syndrome（87.3%）</li>
-<li>demodicidosis of sebaceous gland（85.5%）</li>
-<li>dyspepsia（84.7%）</li>
-<li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies（84.7%）</li>
-<li>inherited cutis laxa（82.5%）</li>
-<li>syndromic oculocutaneous albinism（81.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nicotinamide/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Tolnaftate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Tolnaftate 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Tolnaftate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/tolnaftate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tolnaftate/
 ---
 
 <p class="key-answer" data-question="Tolnaftate 有什麼相關新聞？">
-<strong>Tolnaftate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Tolnaftate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/tolnaftate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>Majocchi granuloma（98.6%）</li>
-<li>ectothrix infectious disease（98.6%）</li>
-<li>cutaneous candidiasis（98.5%）</li>
-<li>endothrix infectious disease（98.5%）</li>
-<li>superficial mycosis（98.5%）</li>
-<li>tinea profunda（98.1%）</li>
-<li>ophthalmic herpes zoster（92.2%）</li>
-<li>orbital cellulitis（90.8%）</li>
-<li>skin disease caused by infection（90.5%）</li>
-<li>infectious mononucleosis（90.1%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tolnaftate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

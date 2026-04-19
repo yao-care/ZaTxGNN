@@ -3,7 +3,7 @@ layout: default
 title: "Calcium ascorbate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Calcium ascorbate 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Calcium ascorbate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/calcium_ascorbate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/calcium_ascorbate/
 ---
 
 <p class="key-answer" data-question="Calcium ascorbate 有什麼相關新聞？">
-<strong>Calcium ascorbate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Calcium ascorbate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/calcium_ascorbate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>insomnia (disease)（95.2%）</li>
-<li>diabetic cataract（94.3%）</li>
-<li>diabetes mellitus type 2 associated cataract（94.2%）</li>
-<li>craniostenosis cataract（94.2%）</li>
-<li>mature cataract（94.2%）</li>
-<li>immature cataract（94.2%）</li>
-<li>tetanic cataract（94.2%）</li>
-<li>cortical cataract（94.1%）</li>
-<li>nuclear senile cataract（94.1%）</li>
-<li>diabetic retinopathy（93.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/calcium_ascorbate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

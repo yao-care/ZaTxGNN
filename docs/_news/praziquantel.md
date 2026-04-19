@@ -3,7 +3,7 @@ layout: default
 title: "Praziquantel 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Praziquantel 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Praziquantel 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/praziquantel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/praziquantel/
 ---
 
 <p class="key-answer" data-question="Praziquantel 有什麼相關新聞？">
-<strong>Praziquantel</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Praziquantel</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/praziquantel/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>uterine corpus epithelioid leiomyosarcoma（97.3%）</li>
-<li>Plasmodium falciparum malaria（97.2%）</li>
-<li>retroperitoneal sarcoma（97.2%）</li>
-<li>uterine corpus myxoid leiomyosarcoma（97.2%）</li>
-<li>anus leiomyosarcoma（97.2%）</li>
-<li>small intestinal sarcoma（96.7%）</li>
-<li>gnathomiasis（96.5%）</li>
-<li>fascioliasis（96.3%）</li>
-<li>leiomyosarcoma（96.2%）</li>
-<li>dermatofibrosarcoma protuberans（95.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/praziquantel/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

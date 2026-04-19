@@ -3,7 +3,7 @@ layout: default
 title: "Conjugated estrogens 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Conjugated estrogens 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Conjugated estrogens 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/conjugated_estrogens/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/conjugated_estrogens/
 ---
 
 <p class="key-answer" data-question="Conjugated estrogens 有什麼相關新聞？">
-<strong>Conjugated estrogens</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Conjugated estrogens</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/conjugated_estrogens/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>migraine disorder（99.8%）</li>
-<li>migraine with brainstem aura（99.7%）</li>
-<li>antithrombin deficiency type 2（99.6%）</li>
-<li>factor 5 excess with spontaneous thrombosis（99.6%）</li>
-<li>rheumatoid arthritis（99.5%）</li>
-<li>heparin cofactor 2 deficiency（99.5%）</li>
-<li>Prinzmetal angina（99.5%）</li>
-<li>hemoglobinopathy（99.4%）</li>
-<li>migraine with or without aura, susceptibility to（99.4%）</li>
-<li>thrombophilia（99.4%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/conjugated_estrogens/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

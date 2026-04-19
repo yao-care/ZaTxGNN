@@ -3,7 +3,7 @@ layout: default
 title: "Roxithromycin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Roxithromycin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Roxithromycin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/roxithromycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/roxithromycin/
 ---
 
 <p class="key-answer" data-question="Roxithromycin 有什麼相關新聞？">
-<strong>Roxithromycin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Roxithromycin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/roxithromycin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>leprosy（99.7%）</li>
-<li>hypertrichosis (disease)（99.5%）</li>
-<li>malformation syndrome with odontal and/or periodontal component（99.3%）</li>
-<li>Ambras type hypertrichosis universalis congenita（99.3%）</li>
-<li>syndrome with a Dandy-Walker malformation as major feature（99.3%）</li>
-<li>isolated genetic hair shaft abnormality（99.3%）</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis（99.0%）</li>
-<li>pulmonary hypertension（99.0%）</li>
-<li>migraine disorder（98.9%）</li>
-<li>female breast carcinoma（98.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/roxithromycin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

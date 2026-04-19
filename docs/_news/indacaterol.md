@@ -3,7 +3,7 @@ layout: default
 title: "Indacaterol 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Indacaterol 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Indacaterol 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/indacaterol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/indacaterol/
 ---
 
 <p class="key-answer" data-question="Indacaterol 有什麼相關新聞？">
-<strong>Indacaterol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Indacaterol</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/indacaterol/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>nephrogenic syndrome of inappropriate antidiuresis（99.5%）</li>
-<li>headache disorder（99.5%）</li>
-<li>trigeminal autonomic cephalalgia（99.3%）</li>
-<li>paratenonitis（99.3%）</li>
-<li>calcific tendinitis（99.2%）</li>
-<li>hypertrichosis (disease)（99.2%）</li>
-<li>bronchial disease（99.2%）</li>
-<li>myositis（99.1%）</li>
-<li>anaphylaxis（99.1%）</li>
-<li>Ambras type hypertrichosis universalis congenita（99.1%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/indacaterol/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

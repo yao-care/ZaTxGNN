@@ -3,7 +3,7 @@ layout: default
 title: "Diclofenac 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Diclofenac 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Diclofenac 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/diclofenac/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/diclofenac/
 ---
 
 <p class="key-answer" data-question="Diclofenac 有什麼相關新聞？">
-<strong>Diclofenac</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Diclofenac</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/diclofenac/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>hypotrichosis simplex of the scalp（99.7%）</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type（99.7%）</li>
-<li>pseudoachondroplasia（99.7%）</li>
-<li>brachyolmia（99.7%）</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome（99.6%）</li>
-<li>congenital hypotrichosis milia（99.6%）</li>
-<li>myosclerosis（99.6%）</li>
-<li>diffuse alopecia areata（99.6%）</li>
-<li>juvenile idiopathic arthritis（99.2%）</li>
-<li>WHIM syndrome（99.2%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/diclofenac/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

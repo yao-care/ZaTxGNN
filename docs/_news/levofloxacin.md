@@ -3,7 +3,7 @@ layout: default
 title: "Levofloxacin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Levofloxacin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Levofloxacin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/levofloxacin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/levofloxacin/
 ---
 
 <p class="key-answer" data-question="Levofloxacin 有什麼相關新聞？">
-<strong>Levofloxacin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Levofloxacin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/levofloxacin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>punctate epithelial keratoconjunctivitis（99.9%）</li>
-<li>hyperamylasemia（99.9%）</li>
-<li>polyclonal hyperviscosity syndrome（99.9%）</li>
-<li>congenital analbuminemia（99.9%）</li>
-<li>blood group incompatibility（99.8%）</li>
-<li>premalignant hematological system disease（99.8%）</li>
-<li>monoclonal gammopathy（99.8%）</li>
-<li>hematological disease associated with an acquired peripheral neuropathy（99.8%）</li>
-<li>septicemic plague（99.8%）</li>
-<li>congenital hematological disorder（99.7%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/levofloxacin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

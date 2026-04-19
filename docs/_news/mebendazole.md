@@ -3,7 +3,7 @@ layout: default
 title: "Mebendazole 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Mebendazole 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Mebendazole 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/mebendazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mebendazole/
 ---
 
 <p class="key-answer" data-question="Mebendazole 有什麼相關新聞？">
-<strong>Mebendazole</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Mebendazole</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/mebendazole/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>acne (disease)（99.2%）</li>
-<li>leishmaniasis, diffuse cutaneous（98.4%）</li>
-<li>echinococcus granulosus infectious disease（95.6%）</li>
-<li>hordeolum（94.9%）</li>
-<li>alveolar echinococcosis（94.2%）</li>
-<li>inhalational botulism（93.8%）</li>
-<li>toxin-mediated infectious botulism（93.5%）</li>
-<li>impetigo（93.2%）</li>
-<li>Sorsby's fundus dystrophy（93.1%）</li>
-<li>demodicidosis of sebaceous gland（93.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mebendazole/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

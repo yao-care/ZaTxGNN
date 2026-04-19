@@ -3,7 +3,7 @@ layout: default
 title: "Vitamin A 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Vitamin A 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Vitamin A 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/vitamin_a/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vitamin_a/
 ---
 
 <p class="key-answer" data-question="Vitamin A 有什麼相關新聞？">
-<strong>Vitamin A</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Vitamin A</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/vitamin_a/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>congenital prothrombin deficiency（100.0%）</li>
-<li>biotin metabolic disease（99.8%）</li>
-<li>non-syndromic esophageal malformation（99.7%）</li>
-<li>injury（99.7%）</li>
-<li>cell proliferation disorder（99.6%）</li>
-<li>segmental odontomaxillary dysplasia（99.6%）</li>
-<li>florid cemento-osseous dysplasia（99.6%）</li>
-<li>perinatal disease（99.6%）</li>
-<li>disease by subcellular system affected（99.6%）</li>
-<li>radiation or chemically induced disorder（99.6%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/vitamin_a/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

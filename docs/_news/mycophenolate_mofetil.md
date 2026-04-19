@@ -3,7 +3,7 @@ layout: default
 title: "Mycophenolate mofetil 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Mycophenolate mofetil 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Mycophenolate mofetil 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/mycophenolate_mofetil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mycophenolate_mofetil/
 ---
 
 <p class="key-answer" data-question="Mycophenolate mofetil 有什麼相關新聞？">
-<strong>Mycophenolate mofetil</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Mycophenolate mofetil</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/mycophenolate_mofetil/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>HIV infectious disease（99.9%）</li>
-<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter（99.8%）</li>
-<li>bone Paget disease（99.7%）</li>
-<li>simian immunodeficiency virus infection（99.7%）</li>
-<li>feline acquired immunodeficiency syndrome（99.7%）</li>
-<li>multiple sclerosis（99.5%）</li>
-<li>hemosiderosis（99.5%）</li>
-<li>Heiner syndrome（99.5%）</li>
-<li>African iron overload（99.4%）</li>
-<li>neonatal hemochromatosis（99.4%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mycophenolate_mofetil/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

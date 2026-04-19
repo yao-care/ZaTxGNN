@@ -3,7 +3,7 @@ layout: default
 title: "Zinc acetate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Zinc acetate 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Zinc acetate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/zinc_acetate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/zinc_acetate/
 ---
 
 <p class="key-answer" data-question="Zinc acetate 有什麼相關新聞？">
-<strong>Zinc acetate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Zinc acetate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/zinc_acetate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>severe nonproliferative diabetic retinopathy（100.0%）</li>
-<li>bronchitis（100.0%）</li>
-<li>diabetic retinopathy（99.9%）</li>
-<li>acrodermatitis chronica atrophicans（99.8%）</li>
-<li>neonatal dermatomyositis（99.8%）</li>
-<li>acne keloid（99.8%）</li>
-<li>hydroa vacciniforme, familial（99.8%）</li>
-<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease（99.8%）</li>
-<li>amyopathic dermatomyositis（99.8%）</li>
-<li>urinary tract infection (disease)（99.6%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/zinc_acetate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

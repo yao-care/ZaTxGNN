@@ -3,7 +3,7 @@ layout: default
 title: "Diphenhydramine 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Diphenhydramine 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Diphenhydramine 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/diphenhydramine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/diphenhydramine/
 ---
 
 <p class="key-answer" data-question="Diphenhydramine 有什麼相關新聞？">
-<strong>Diphenhydramine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Diphenhydramine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/diphenhydramine/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>rosacea conjunctivitis（99.2%）</li>
-<li>rhinitis（98.3%）</li>
-<li>allergic urticaria（98.2%）</li>
-<li>cold urticaria（95.9%）</li>
-<li>cauda equina syndrome（95.6%）</li>
-<li>nasopharyngitis（95.0%）</li>
-<li>viral conjunctivitis（94.0%）</li>
-<li>neuralgia（92.3%）</li>
-<li>trigeminal autonomic cephalalgia（92.2%）</li>
-<li>glossodynia（92.1%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/diphenhydramine/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

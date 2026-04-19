@@ -3,7 +3,7 @@ layout: default
 title: "Procaine 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Procaine 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Procaine 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/procaine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/procaine/
 ---
 
 <p class="key-answer" data-question="Procaine 有什麼相關新聞？">
-<strong>Procaine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Procaine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/procaine/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>methemoglobinemia（99.5%）</li>
-<li>methemoglobinemia, alpha type（99.4%）</li>
-<li>Tourette syndrome（99.3%）</li>
-<li>anaphylaxis（99.3%）</li>
-<li>methemoglobin reductase deficiency（99.3%）</li>
-<li>hyperthyroidism（99.2%）</li>
-<li>fibromyalgia（99.2%）</li>
-<li>tendinitis（99.2%）</li>
-<li>idiopathic granulomatous myositis（99.2%）</li>
-<li>myositis fibrosa（99.2%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/procaine/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

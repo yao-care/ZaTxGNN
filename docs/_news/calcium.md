@@ -3,7 +3,7 @@ layout: default
 title: "Calcium 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Calcium 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Calcium 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/calcium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/calcium/
 ---
 
 <p class="key-answer" data-question="Calcium 有什麼相關新聞？">
-<strong>Calcium</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Calcium</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/calcium/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>thrombotic disease（98.2%）</li>
-<li>hemoglobinopathy（98.2%）</li>
-<li>female breast carcinoma（98.0%）</li>
-<li>partial deletion of the short arm of chromosome 16（97.7%）</li>
-<li>beta-thalassemia with other manifestations（97.6%）</li>
-<li>hemolytic anemia due to glucophosphate isomerase deficiency（97.4%）</li>
-<li>exostosis（97.0%）</li>
-<li>pyropoikilocytosis, hereditary（96.9%）</li>
-<li>vein disease（96.9%）</li>
-<li>non-inflammatory vasculopathy（96.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/calcium/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
