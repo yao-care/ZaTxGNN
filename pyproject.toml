@@ -3,33 +3,36 @@ name = "zatxgnn"
 version = "0.1.0"
 description = "South Africa Drug Repurposing Predictions - TxGNN Knowledge Graph"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
-    "pandas>=2.0",
-    "requests>=2.28",
-    "pyyaml>=6.0",
-    "openpyxl>=3.1",
+    "beautifulsoup4>=4.14.3",
+    "feedparser>=6.0.12",
     "httpx>=0.28.1",
+    "lxml>=6.1.0",
+    "numpy<3",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.0",
+    "pubchempy>=1.0.5",
+    "pytest>=9.0.3",
+    "pyyaml>=6.0.0",
+    "requests>=2.33.0",
+    "pygments>=2.20.0",
+    "tqdm>=4.67.1",
 ]
 
-[project.optional-dependencies]
-dev = [
-    "pytest>=7.0",
-    "pytest-cov>=4.0",
-    "ruff>=0.1",
-]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[dependency-groups]
+dev = [
+    "pytest-cov>=7.0.0",
+    "responses>=0.25.8",
+]
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/zatxgnn"]
-
-[tool.ruff]
-line-length = 120
-target-version = "py311"
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-python_files = ["test_*.py"]
