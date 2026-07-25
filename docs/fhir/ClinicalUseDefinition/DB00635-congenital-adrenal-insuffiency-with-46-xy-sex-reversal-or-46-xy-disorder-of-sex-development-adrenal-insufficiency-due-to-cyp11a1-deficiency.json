@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB00635-congenital-adrenal-insuffiency-with-46-xy-sex-reversal-or-46-xy-disorder-of-sex-development-adrenal-insufficiency-due-to-cyp11a1-deficiency",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:22:05.399672+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB00635",
+      "display": "Dynapayne"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "congenital-adrenal-insuffiency-with-46-xy-sex-reversal-or-46-xy-disorder-of-sex-development-adrenal-insufficiency-due-to-cyp11a1-deficiency",
+          "display": "Congenital adrenal insuffiency with 46, XY sex reversal OR 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency"
+        }
+      ],
+      "text": "Congenital adrenal insuffiency with 46, XY sex reversal OR 46,XY disorder of sex development-adrenal insufficiency due to CYP11A1 deficiency"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

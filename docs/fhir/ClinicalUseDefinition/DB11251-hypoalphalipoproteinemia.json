@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB11251-hypoalphalipoproteinemia",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:22:05.399672+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB11251",
+      "display": "Dynapayne"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "hypoalphalipoproteinemia",
+          "display": "hypoalphalipoproteinemia"
+        }
+      ],
+      "text": "hypoalphalipoproteinemia"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB08797-primary-interstitial-lung-disease-in-childhood-and-adulthood-due-to-alveolar-vascular-disorder",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:22:05.399672+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB08797",
+      "display": "Dynapayne"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "primary-interstitial-lung-disease-in-childhood-and-adulthood-due-to-alveolar-vascular-disorder",
+          "display": "primary interstitial lung disease in childhood and adulthood due to alveolar vascular disorder"
+        }
+      ],
+      "text": "primary interstitial lung disease in childhood and adulthood due to alveolar vascular disorder"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

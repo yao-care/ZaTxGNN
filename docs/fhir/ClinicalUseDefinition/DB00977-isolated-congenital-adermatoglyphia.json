@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB00977-isolated-congenital-adermatoglyphia",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:22:05.399672+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB00977",
+      "display": "Dynapayne"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "isolated-congenital-adermatoglyphia",
+          "display": "isolated congenital adermatoglyphia"
+        }
+      ],
+      "text": "isolated congenital adermatoglyphia"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

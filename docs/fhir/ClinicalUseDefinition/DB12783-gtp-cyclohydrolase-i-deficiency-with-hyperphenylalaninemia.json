@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB12783-gtp-cyclohydrolase-i-deficiency-with-hyperphenylalaninemia",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:22:05.399672+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB12783",
+      "display": "Dynapayne"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "gtp-cyclohydrolase-i-deficiency-with-hyperphenylalaninemia",
+          "display": "GTP cyclohydrolase I deficiency with hyperphenylalaninemia"
+        }
+      ],
+      "text": "GTP cyclohydrolase I deficiency with hyperphenylalaninemia"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}
