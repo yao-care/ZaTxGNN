@@ -113,7 +113,7 @@ rare diseases."
 
 | Item | Value |
 |------|-------|
-| Drug reports | 658 |
+| Drug reports | {{ site.drugs.size }} |
 | Regulatory authority | SAHPRA |
 | Deployed sites | 30 countries / regions |
 
