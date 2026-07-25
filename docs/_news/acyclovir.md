@@ -24,6 +24,7 @@ permalink: /news/acyclovir/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>：L5</li>
 </ul>
 <p><a href="{{ '/drugs/acyclovir/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
