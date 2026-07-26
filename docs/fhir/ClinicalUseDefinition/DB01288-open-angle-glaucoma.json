@@ -20,10 +20,10 @@
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
           "code": "open-angle-glaucoma",
-          "display": "open angle glaucoma"
+          "display": "open-angle glaucoma"
         }
       ],
-      "text": "open angle glaucoma"
+      "text": "open-angle glaucoma"
     }
   },
   "extension": [
