@@ -1,6 +1,6 @@
 {
   "resourceType": "ClinicalUseDefinition",
-  "id": "DB00150-open-angle-glaucoma",
+  "id": "DB01288-open-angle-glaucoma-2",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
@@ -10,7 +10,7 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00150",
+      "reference": "MedicationKnowledge/DB01288",
       "display": "Dynapayne"
     }
   ],
@@ -20,10 +20,10 @@
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
           "code": "open-angle-glaucoma",
-          "display": "open-angle glaucoma"
+          "display": "open angle glaucoma"
         }
       ],
-      "text": "open-angle glaucoma"
+      "text": "open angle glaucoma"
     }
   },
   "extension": [
