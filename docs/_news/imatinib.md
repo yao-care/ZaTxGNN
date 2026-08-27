@@ -3,7 +3,7 @@ layout: default
 title: "Imatinib 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Imatinib 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Imatinib 的相關健康新聞報導。原適應症：。預測適應症 9 個。"
 permalink: /news/imatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/imatinib/
 ---
 
 <p class="key-answer" data-question="Imatinib 有什麼相關新聞？">
-<strong>Imatinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Imatinib</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 9 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,17 @@ permalink: /news/imatinib/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>：L5</li>
+<li><strong>預測適應症</strong>（9 個）：<ul>
+<li>Heart fibrosarcoma | 99.94% | L4 | Hold（99.0%）</li>
+<li>Conventional fibrosarcoma | 99.93% | L2 | Research Question（99.0%）</li>
+<li>Kidney fibrosarcoma | 99.93% | L3 | Research Question（99.0%）</li>
+<li>Low grade fibromyxoid sarcoma | 99.93% | L5 | Hold（99.0%）</li>
+<li>Liposarcoma | 99.88% | L2 | Research Question（99.0%）</li>
+<li>Liver fibrosarcoma | 99.86% | L4 | Hold（99.0%）</li>
+<li>Autosomal recessive familial Mediterranean fever | 99.86% | L5 | Hold（99.0%）</li>
+<li>Ovarian myxoid liposarcoma | 99.85% | L5 | Hold（99.0%）</li>
+<li>Familial rhabdoid tumour | 99.83% | L5 | Hold（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/imatinib/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
