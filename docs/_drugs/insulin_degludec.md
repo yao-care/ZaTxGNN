@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Degludec
 parent: 僅模型預測 (L5)
-nav_order: 205
+nav_order: 257
 evidence_level: L5
 indication_count: 10
 ---

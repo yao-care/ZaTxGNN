@@ -2,7 +2,7 @@
 layout: default
 title: Docetaxel Trihydrate
 parent: 僅模型預測 (L5)
-nav_order: 179
+nav_order: 188
 evidence_level: L5
 indication_count: 0
 ---

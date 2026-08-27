@@ -2,7 +2,7 @@
 layout: default
 title: Fexofenadine Hydrochloride
 parent: 僅模型預測 (L5)
-nav_order: 192
+nav_order: 225
 evidence_level: L5
 indication_count: 0
 ---
