@@ -3,7 +3,7 @@ layout: default
 title: "Candesartan 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Candesartan 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Candesartan 的相關健康新聞報導。原適應症：。預測適應症 9 個。"
 permalink: /news/candesartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/candesartan/
 ---
 
 <p class="key-answer" data-question="Candesartan 有什麼相關新聞？">
-<strong>Candesartan</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Candesartan</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 9 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,17 @@ permalink: /news/candesartan/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>：L5</li>
+<li><strong>預測適應症</strong>（9 個）：<ul>
+<li>Migraine with brainstem aura | 99.96% | L3 | Research Question — related migraine subtype; no dedicated trials; mechanistic rationale via brainstem AT1R expression（99.0%）</li>
+<li>Migraine with or without aura, susceptibility to | 99.94% | L2 | Research Question — precision medicine angle; RAAS polymorphisms (ACE I/D) may predict ARB response（99.0%）</li>
+<li>Pulmonary hypertension | 99.93% | L4 | Hold — theoretical RAAS–pulmonary vascular link, but PAH is primarily driven by ET-1/NO/prostacyclin pathways; clinical trials retrieved were irrelevant（99.0%）</li>
+<li>Prinzmetal angina | 99.91% | L5 | Hold — theoretical AT1R–coronary spasm link, but calcium-channel–mediated mechanism dominates; no supporting data（99.0%）</li>
+<li>Kyphoscoliotic heart disease | 99.90% | L5 | Hold — mechanical aetiology predominates; ARB intervention not feasible（99.0%）</li>
+<li>Atrophoderma vermiculata | 99.87% | L5 | Hold — no biological rationale linking RAAS to this rare follicular skin disorder（99.0%）</li>
+<li>Ulerythema ophryogenesis | 99.86% | L5 | Hold — highly speculative AT1R–MAPK pathway hypothesis; no supporting data（99.0%）</li>
+<li>Benign prostatic hyperplasia | 99.84% | L5 | Hold — local prostatic RAAS is plausible but unvalidated clinically; would require Phase 1 exploration（99.0%）</li>
+<li>Alopecia | 99.78% | L5 | Hold — purely theoretical follicular vasculature hypothesis; no preclinical or clinical evidence（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/candesartan/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

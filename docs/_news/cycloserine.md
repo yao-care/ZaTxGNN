@@ -3,7 +3,7 @@ layout: default
 title: "Cycloserine 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Cycloserine 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Cycloserine 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
 permalink: /news/cycloserine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cycloserine/
 ---
 
 <p class="key-answer" data-question="Cycloserine 有什麼相關新聞？">
-<strong>Cycloserine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Cycloserine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ permalink: /news/cycloserine/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>：L5</li>
+<li><strong>預測適應症</strong>（10 個）：<ul>
+<li>Irritable Bowel Syndrome | 99.95% | L5 | 0 | 0 | Hold（99.0%）</li>
+<li>Acne | 99.91% | L5 | 0 | 0 | Hold（99.0%）</li>
+<li>Gastroparesis | 99.66% | L5 | 0 | 0 | Hold（99.0%）</li>
+<li>Conjunctivitis | 99.27% | L4 | 0 | 3 | Hold（99.0%）</li>
+<li>Insomnia | 99.21% | L4 | 3 | 2 | Hold ⚠️（99.0%）</li>
+<li>Pharyngitis | 99.01% | L5 | 0 | 0 | Hold（99.0%）</li>
+<li>Nasal Cavity Disease | 99.01% | L5 | 0 | 1 | Hold（99.0%）</li>
+<li>Acute Laryngopharyngitis | 98.85% | L5 | 0 | 0 | Hold（99.0%）</li>
+<li>Postgastrectomy Syndrome | 98.79% | L5 | 0 | 0 | Hold（99.0%）</li>
+<li>Rhinitis | 98.70% | L5 | 0 | 0 | Hold（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cycloserine/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

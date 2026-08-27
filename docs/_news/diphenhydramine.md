@@ -3,7 +3,7 @@ layout: default
 title: "Diphenhydramine 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Diphenhydramine 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Diphenhydramine 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
 permalink: /news/diphenhydramine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/diphenhydramine/
 ---
 
 <p class="key-answer" data-question="Diphenhydramine 有什麼相關新聞？">
-<strong>Diphenhydramine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Diphenhydramine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ permalink: /news/diphenhydramine/
 <strong>藥物資訊</strong>
 <ul>
 <li><strong>證據等級</strong>：L5</li>
+<li><strong>預測適應症</strong>（10 個）：<ul>
+<li>Rosacea Conjunctivitis | 99.20% | L5 | Hold（99.0%）</li>
+<li>Rhinitis | 98.35% | L1 | Proceed with Guardrails（99.0%）</li>
+<li>Allergic Urticaria | 98.24% | L1 | Proceed with Guardrails（99.0%）</li>
+<li>Cold Urticaria | 95.92% | L3 | Proceed with Guardrails（99.0%）</li>
+<li>Cauda Equina Syndrome | 95.57% | L5 | Hold（99.0%）</li>
+<li>Nasopharyngitis | 94.96% | L4 | Hold（99.0%）</li>
+<li>Viral Conjunctivitis | 93.97% | L5 | Hold（99.0%）</li>
+<li>Neuralgia | 92.30% | L4 | Research Question（99.0%）</li>
+<li>Trigeminal Autonomic Cephalalgia | 92.25% | L3 | Research Question（99.0%）</li>
+<li>Glossodynia | 92.08% | L5 | Hold（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/diphenhydramine/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
