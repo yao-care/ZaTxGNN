@@ -1,7 +1,7 @@
 {
   "generated": "2026-08-27",
-  "drug_count": 883,
-  "indication_count": 3226,
+  "drug_count": 915,
+  "indication_count": 3236,
   "drugs": [
     {
       "name": "Abacavir",
@@ -78006,6 +78006,14 @@
       ]
     },
     {
+      "name": "Lamotrigine",
+      "slug": "lamotrigine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "Lansoprazole",
       "slug": "lansoprazole",
       "brands": [],
@@ -79805,6 +79813,307 @@
       "original": "",
       "level": "L5",
       "indications": []
+    },
+    {
+      "name": "Tocopherol",
+      "slug": "tocopherol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tolnaftate",
+      "slug": "tolnaftate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tramadol",
+      "slug": "tramadol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trandolapril",
+      "slug": "trandolapril",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Travoprost",
+      "slug": "travoprost",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trazodone",
+      "slug": "trazodone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tretinoin",
+      "slug": "tretinoin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Triamcinolone",
+      "slug": "triamcinolone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Triamterene",
+      "slug": "triamterene",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trimethoprim",
+      "slug": "trimethoprim",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Triprolidine",
+      "slug": "triprolidine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Cold urticaria",
+          "score": 99.97,
+          "level": "L4"
+        },
+        {
+          "name": "Nasal cavity disease",
+          "score": 99.83,
+          "level": "L5"
+        },
+        {
+          "name": "Pharyngitis",
+          "score": 99.82,
+          "level": "L5"
+        },
+        {
+          "name": "Acute laryngopharyngitis",
+          "score": 99.82,
+          "level": "L5"
+        },
+        {
+          "name": "Recalcitrant atopic dermatitis",
+          "score": 99.7,
+          "level": "L5"
+        },
+        {
+          "name": "IgE responsiveness, atopic",
+          "score": 99.68,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Tryptophan",
+      "slug": "tryptophan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tyrosine",
+      "slug": "tyrosine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Umeclidinium",
+      "slug": "umeclidinium",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Valine",
+      "slug": "valine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Valproic Acid",
+      "slug": "valproic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Valsartan",
+      "slug": "valsartan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Chronic pulmonary heart disease (cor pulmonale) | L2 | S2 | Proceed with Guardrails | 7 clinical trials incl. a completed Phase 4 RCT (NCT02768298, sacubitril/valsartan vs. enalapril, N=201) and 20 literature items on sacubitril/valsartan in HFrEF with COPD/pulmonary comorbidity",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant renovascular hypertension | L4 | S1 | Research Question | Class-effect preclinical study directly on AT1 blockade (PMID 11560862), but no human trials",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Vancomycin",
+      "slug": "vancomycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Verapamil",
+      "slug": "verapamil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vilanterol",
+      "slug": "vilanterol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vildagliptin",
+      "slug": "vildagliptin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vitamin A",
+      "slug": "vitamin_a",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vitamin E",
+      "slug": "vitamin_e",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Warfarin",
+      "slug": "warfarin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zidovudine",
+      "slug": "zidovudine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zinc Acetate",
+      "slug": "zinc_acetate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zinc Chloride",
+      "slug": "zinc_chloride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Sjögren syndrome | 99.18% | L5 | No trials, no literature — algorithmic prediction only",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Dry eye syndrome | 99.18% | L2 | 2 completed trials (Phase 2 and Phase 4) using **zinc-hyaluronate / zinc-containing formulations**, not free zinc chloride — indirect support only",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Zinc Gluconate",
+      "slug": "zinc_gluconate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zinc Oxide",
+      "slug": "zinc_oxide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zinc Sulfate",
+      "slug": "zinc_sulfate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zolpidem",
+      "slug": "zolpidem",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
     }
   ],
   "indications": [
@@ -80731,6 +81040,17 @@
           "drug": "Dexchlorpheniramine Maleate",
           "slug": "dexchlorpheniramine_maleate",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acute laryngopharyngitis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Triprolidine",
+          "slug": "triprolidine",
+          "score": 99.82
         }
       ]
     },
@@ -82375,6 +82695,17 @@
       ]
     },
     {
+      "name": "Chronic pulmonary heart disease (cor pulmonale) | L2 | S2 | Proceed with Guardrails | 7 clinical trials incl. a completed Phase 4 RCT (NCT02768298, sacubitril/valsartan vs. enalapril, N=201) and 20 literature items on sacubitril/valsartan in HFrEF with COPD/pulmonary comorbidity",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Valsartan",
+          "slug": "valsartan",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Chronic pulmonary heart disease (cor pulmonale) | L3 | Research Question | 2 clinical/hemodynamic studies directly on felodipine; mechanism is a \"double-edged sword\" (same HPV-inhibition concern as above)",
       "drug_count": 1,
       "drugs": [
@@ -82529,6 +82860,17 @@
           "drug": "Cyclizine",
           "slug": "cyclizine",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cold urticaria",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Triprolidine",
+          "slug": "triprolidine",
+          "score": 99.97
         }
       ]
     },
@@ -83129,6 +83471,17 @@
           "drug": "Phenol",
           "slug": "phenol",
           "score": 99.04
+        }
+      ]
+    },
+    {
+      "name": "Dry eye syndrome | 99.18% | L2 | 2 completed trials (Phase 2 and Phase 4) using **zinc-hyaluronate / zinc-containing formulations**, not free zinc chloride — indirect support only",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Zinc Chloride",
+          "slug": "zinc_chloride",
+          "score": 99.0
         }
       ]
     },
@@ -84497,6 +84850,17 @@
           "drug": "Povidone-Iodine",
           "slug": "db06812",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "IgE responsiveness, atopic",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Triprolidine",
+          "slug": "triprolidine",
+          "score": 99.68
         }
       ]
     },
@@ -86069,6 +86433,17 @@
       ]
     },
     {
+      "name": "Malignant renovascular hypertension | L4 | S1 | Research Question | Class-effect preclinical study directly on AT1 blockade (PMID 11560862), but no human trials",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Valsartan",
+          "slug": "valsartan",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Manic bipolar affective disorder | 97.73% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -86585,6 +86960,17 @@
           "drug": "Codeine",
           "slug": "codeine",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Nasal cavity disease",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Triprolidine",
+          "slug": "triprolidine",
+          "score": 99.83
         }
       ]
     },
@@ -87418,6 +87804,17 @@
           "drug": "Povidone-Iodine",
           "slug": "db06812",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pharyngitis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Triprolidine",
+          "slug": "triprolidine",
+          "score": 99.82
         }
       ]
     },
@@ -88592,6 +88989,17 @@
       ]
     },
     {
+      "name": "Recalcitrant atopic dermatitis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Triprolidine",
+          "slug": "triprolidine",
+          "score": 99.7
+        }
+      ]
+    },
+    {
       "name": "Renal tubular acidosis | 99.06% | L4 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -89146,6 +89554,17 @@
         {
           "drug": "Zinc Chloride",
           "slug": "db14533",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Sjögren syndrome | 99.18% | L5 | No trials, no literature — algorithmic prediction only",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Zinc Chloride",
+          "slug": "zinc_chloride",
           "score": 99.0
         }
       ]
