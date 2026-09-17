@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Amoxicillin Trihydrate
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Amoxicillin Trihydrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidence Level: **L5** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -104,7 +104,7 @@ The Evidence Pack for Amoxicillin Trihydrate is critically incomplete — no TxG
 - **[High — DG002]** Retrieve MOA and pharmacological data from the DrugBank API; a DrugBank ID must first be assigned to this drug record
 - **[Pipeline]** Run the TxGNN KG and DL prediction pipeline to generate repurposing candidate indications and associated prediction scores
 - **[Regulatory]** Manually verify SAHPRA registration status for amoxicillin trihydrate and all related formulations via the SAHPRA online register
-- **[Data Quality]** Investigate why `total_licenses = 0` and `market_status = "未上市"` — confirm whether this reflects a true gap in SAHPRA registration data or a query/mapping error in the data pipeline
+- **[Data Quality]** Investigate why `total_licenses = 0` and `market_status = "Not marketed"` — confirm whether this reflects a true gap in SAHPRA registration data or a query/mapping error in the data pipeline
 
 > *This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
 ## Disclaimer

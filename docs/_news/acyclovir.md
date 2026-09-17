@@ -1,46 +1,46 @@
 ---
 layout: default
-title: "Acyclovir 相關新聞"
-parent: 健康新聞
+title: "Acyclovir News"
+parent: Health News
 nav_exclude: true
-description: "Acyclovir 的相關健康新聞報導。原適應症：。預測適應症 3 個。"
+description: "Health news related to Acyclovir. Original indication: . 3 predicted indications."
 permalink: /news/acyclovir/
 ---
 
-# Acyclovir 相關新聞
+# Acyclovir News
 
-[← 返回新聞總覽]({{ '/news/' | relative_url }})
+[← Back to News Overview]({{ '/news/' | relative_url }})
 
 ---
 
-<p class="key-answer" data-question="Acyclovir 有什麼相關新聞？">
-<strong>Acyclovir</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 3 個。
+<p class="key-answer" data-question="What news is there about Acyclovir?">
+<strong>Acyclovir</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
-本頁整合 Acyclovir 的 AI 預測適應症與最新健康新聞，橘色標示的適應症表示近期有相關新聞報導。
+This page combines the AI-predicted indications for Acyclovir with the latest health news. Indications highlighted in orange have recent news coverage.
 </div>
 
 <div class="drug-info-card">
-<strong>藥物資訊</strong>
+<strong>Drug Information</strong>
 <ul>
-<li><strong>證據等級</strong>：L5</li>
-<li><strong>預測適應症</strong>（3 個）：<ul>
-<li>Common Wart (intralesional Acyclovir) | L2 | 6 trials, incl. Phase 2/3 RCTs (n=92) | Research Question（99.0%）</li>
-<li>Post-Infectious Neuralgia (Postherpetic Neuralgia) | L2 | 12 trials (Valacyclovir/Acyclovir class) | Proceed with Guardrails（99.0%）</li>
-<li>Disease of Orbital Region (Herpetic ocular disease) | L2 | Multiple completed trials | Proceed with Guardrails（99.0%）</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>Common Wart (intralesional Acyclovir) | L2 | 6 trials, incl. Phase 2/3 RCTs (n=92) | Research Question (99.0%)</li>
+<li>Post-Infectious Neuralgia (Postherpetic Neuralgia) | L2 | 12 trials (Valacyclovir/Acyclovir class) | Proceed with Guardrails (99.0%)</li>
+<li>Disease of Orbital Region (Herpetic ocular disease) | L2 | Multiple completed trials | Proceed with Guardrails (99.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/acyclovir/' | relative_url }}">查看完整藥物報告 →</a></p>
+<p><a href="{{ '/drugs/acyclovir/' | relative_url }}">View full drug report →</a></p>
 </div>
 
-## 相關新聞（0 則）
+## Related News (0)
 
-*目前沒有相關新聞報導。當有新聞提到此藥物時，系統會自動收集並顯示在這裡。*
+*No related news yet. When news mentions this drug, it will be collected and shown here automatically.*
 
 
 <div class="disclaimer">
-<strong>免責聲明</strong>：本頁新聞由系統自動收集，僅供研究參考，不構成醫療建議。
+<strong>Disclaimer</strong>: The news on this page is collected automatically and is for research reference only; it does not constitute medical advice.
 </div>
 
 <style>

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Meloxicam
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 304
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -81,7 +81,7 @@ Currently no related clinical trials registered specific to Meloxicam and rheuma
 
 ## South Africa Market Information
 
-No SAHPRA registrations were identified for Meloxicam in this evidence pack (`market_status: 未上市 / Not marketed`, `total_licenses: 0`). Given that Meloxicam is a widely available NSAID internationally, this "not marketed" status should be independently verified against the current SAHPRA product register before any regulatory conclusions are drawn — it may reflect a data-collection gap in this pack rather than true absence from the South African market.
+No SAHPRA registrations were identified for Meloxicam in this evidence pack (`market_status: Not marketed / Not marketed`, `total_licenses: 0`). Given that Meloxicam is a widely available NSAID internationally, this "not marketed" status should be independently verified against the current SAHPRA product register before any regulatory conclusions are drawn — it may reflect a data-collection gap in this pack rather than true absence from the South African market.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levetiracetam
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 284
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -99,7 +99,7 @@ Importantly, this is not a novel mechanistic extrapolation: intravenous levetira
 
 ## South Africa Market Information
 
-Levetiracetam has **no active SAHPRA registrations** recorded in the evidence pack (`total_licenses: 0`, `market_status: "未上市"` / not marketed). No product name, dosage form, or approved indication text is available for South Africa at this time. This is a key gap for repurposing feasibility: any move toward status-epilepticus use in South Africa would first require a marketed, SAHPRA-registered levetiracetam product (or an import/named-patient access pathway) before formulary or clinical-guideline adoption can proceed.
+Levetiracetam has **no active SAHPRA registrations** recorded in the evidence pack (`total_licenses: 0`, `market_status: "Not marketed"` / not marketed). No product name, dosage form, or approved indication text is available for South Africa at this time. This is a key gap for repurposing feasibility: any move toward status-epilepticus use in South Africa would first require a marketed, SAHPRA-registered levetiracetam product (or an import/named-patient access pathway) before formulary or clinical-guideline adoption can proceed.
 
 ---
 

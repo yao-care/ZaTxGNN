@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dihydrocodeine
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Dihydrocodeine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -50,7 +50,7 @@ Using the report structure specified in the task prompt (no additional skill app
 | Predicted New Indication | Nasal Cavity Disease |
 | TxGNN Prediction Score | 99.99% (0.99991), model rank 120 |
 | Evidence Level | L5 (model prediction only — no clinical trials, no literature) |
-| South Africa Market Status | Not marketed (未上市) |
+| South Africa Market Status | Not marketed (Not marketed) |
 | Number of SAHPRA Registrations | 0 |
 | Recommended Decision | Hold |
 
