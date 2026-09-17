@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Oseltamivir
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 348
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Oseltamivir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -89,7 +89,7 @@ This is an **indirect, adjunctive mechanism**, not a direct antimicrobial or ant
 
 ## South Africa Market Information
 
-Oseltamivir currently has **no SAHPRA registrations on file** in this Evidence Pack (`market_status: 未上市` / Not marketed, `total_licenses: 0`). No product name, dosage form, or approved indication text is available for South Africa at this time.
+Oseltamivir currently has **no SAHPRA registrations on file** in this Evidence Pack (`market_status: Not marketed` / Not marketed, `total_licenses: 0`). No product name, dosage form, or approved indication text is available for South Africa at this time.
 
 ## Safety Considerations
 

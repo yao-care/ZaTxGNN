@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 健康新聞
+title: Health News
 nav_order: 30
 permalink: /news/
 has_children: true

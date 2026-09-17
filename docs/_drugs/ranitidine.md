@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ranitidine
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 389
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -78,7 +78,7 @@ Several lower-ranked candidates in this pack (peptic ulcer perforation, gastroje
 
 ## South Africa Market Information
 
-Currently no SAHPRA registrations are on record for ranitidine in this evidence pack (`total_licenses = 0`, `market_status = 未上市 / Not Marketed`).
+Currently no SAHPRA registrations are on record for ranitidine in this evidence pack (`total_licenses = 0`, `market_status = Not marketed / Not Marketed`).
 
 **Background context (not sourced from this evidence pack, requires verification):** ranitidine products were withdrawn globally in 2019–2020 after regulators detected NDMA (a probable human carcinogen) contamination in the active substance. This is a plausible explanation for the current absence of South African registrations, but it should be confirmed against SAHPRA's official withdrawal/market-status records before this candidate is advanced.
 

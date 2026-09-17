@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mebendazole
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Mebendazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -94,7 +94,7 @@ For cystic echinococcosis (*Echinococcus granulosus*), no registered clinical tr
 
 ## South Africa Market Information
 
-Mebendazole currently has **no SAHPRA registrations** and is not marketed in South Africa (`market_status: 未上市`, `total_licenses: 0`). No product, dosage form, or approved-indication data is available to summarize.
+Mebendazole currently has **no SAHPRA registrations** and is not marketed in South Africa (`market_status: Not marketed`, `total_licenses: 0`). No product, dosage form, or approved-indication data is available to summarize.
 
 ---
 
