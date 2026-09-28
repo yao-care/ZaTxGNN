@@ -3,7 +3,7 @@ layout: default
 title: "Bismuth subcarbonate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bismuth subcarbonate. Original indication: . 0 predicted indications."
+description: "Health news related to Bismuth subcarbonate. Original indication: . 10 predicted indications."
 permalink: /news/bismuth_subcarbonate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bismuth_subcarbonate/
 ---
 
 <p class="key-answer" data-question="What news is there about Bismuth subcarbonate?">
-<strong>Bismuth subcarbonate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Bismuth subcarbonate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Bismuth subcarbonate with th
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>insomnia (disease) (99.4%)</li>
+<li>enterocolitis (disease) (96.9%)</li>
+<li>irritable bowel syndrome (96.8%)</li>
+<li>neurocirculatory asthenia (95.5%)</li>
+<li>acute intermittent porphyria (93.3%)</li>
+<li>sleep disorder, initiating and maintaining sleep (92.8%)</li>
+<li>adult-onset myasthenia gravis (92.0%)</li>
+<li>myasthenia gravis with thymus hyperplasia (91.8%)</li>
+<li>neonatal myasthenia gravis (91.3%)</li>
+<li>autoimmune disease of peripheral nervous system (91.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bismuth_subcarbonate/' | relative_url }}">View full drug report →</a></p>
 </div>

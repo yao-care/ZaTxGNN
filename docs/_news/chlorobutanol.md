@@ -3,7 +3,7 @@ layout: default
 title: "Chlorobutanol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Chlorobutanol. Original indication: . 0 predicted indications."
+description: "Health news related to Chlorobutanol. Original indication: . 10 predicted indications."
 permalink: /news/chlorobutanol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/chlorobutanol/
 ---
 
 <p class="key-answer" data-question="What news is there about Chlorobutanol?">
-<strong>Chlorobutanol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Chlorobutanol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Chlorobutanol with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>erectile dysfunction (disease) (99.8%)</li>
+<li>migraine disorder (99.7%)</li>
+<li>migraine with brainstem aura (99.6%)</li>
+<li>Tourette syndrome (99.5%)</li>
+<li>trichotillomania (99.5%)</li>
+<li>attention deficit-hyperactivity disorder (99.4%)</li>
+<li>migraine with or without aura, susceptibility to (99.3%)</li>
+<li>localized pagetoid reticulosis (99.2%)</li>
+<li>faciodigitogenital syndrome (99.2%)</li>
+<li>atrophoderma vermiculata (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/chlorobutanol/' | relative_url }}">View full drug report →</a></p>
 </div>

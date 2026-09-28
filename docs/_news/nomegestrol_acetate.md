@@ -3,7 +3,7 @@ layout: default
 title: "Nomegestrol acetate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nomegestrol acetate. Original indication: . 0 predicted indications."
+description: "Health news related to Nomegestrol acetate. Original indication: . 10 predicted indications."
 permalink: /news/nomegestrol_acetate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nomegestrol_acetate/
 ---
 
 <p class="key-answer" data-question="What news is there about Nomegestrol acetate?">
-<strong>Nomegestrol acetate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nomegestrol acetate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Nomegestrol acetate with the
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>candidiasis (98.8%)</li>
+<li>antithrombin deficiency type 2 (98.5%)</li>
+<li>heparin cofactor 2 deficiency (98.5%)</li>
+<li>factor 5 excess with spontaneous thrombosis (98.5%)</li>
+<li>plasma cell myeloma (97.8%)</li>
+<li>gout (97.6%)</li>
+<li>indolent plasma cell myeloma (97.5%)</li>
+<li>heart neoplasm (97.4%)</li>
+<li>thrombotic disease (97.4%)</li>
+<li>rheumatoid arthritis (97.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nomegestrol_acetate/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Tryptophan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tryptophan. Original indication: . 0 predicted indications."
+description: "Health news related to Tryptophan. Original indication: . 10 predicted indications."
 permalink: /news/tryptophan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tryptophan/
 ---
 
 <p class="key-answer" data-question="What news is there about Tryptophan?">
-<strong>Tryptophan</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Tryptophan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Tryptophan with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>restless legs syndrome (99.7%)</li>
+<li>primary hereditary glaucoma (99.6%)</li>
+<li>open-angle glaucoma (99.5%)</li>
+<li>insomnia (disease) (99.5%)</li>
+<li>methemoglobinemia (99.3%)</li>
+<li>methemoglobinemia, alpha type (99.2%)</li>
+<li>methemoglobin reductase deficiency (99.1%)</li>
+<li>congenital prothrombin deficiency (99.0%)</li>
+<li>acne (disease) (98.6%)</li>
+<li>pregnancy associated osteoporosis (98.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tryptophan/' | relative_url }}">View full drug report →</a></p>
 </div>

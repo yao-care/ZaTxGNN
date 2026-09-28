@@ -3,7 +3,7 @@ layout: default
 title: "Calcium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Calcium. Original indication: . 0 predicted indications."
+description: "Health news related to Calcium. Original indication: . 10 predicted indications."
 permalink: /news/calcium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/calcium/
 ---
 
 <p class="key-answer" data-question="What news is there about Calcium?">
-<strong>Calcium</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Calcium</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Calcium with the latest heal
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>thrombotic disease (98.2%)</li>
+<li>hemoglobinopathy (98.2%)</li>
+<li>female breast carcinoma (98.0%)</li>
+<li>partial deletion of the short arm of chromosome 16 (97.7%)</li>
+<li>beta-thalassemia with other manifestations (97.6%)</li>
+<li>hemolytic anemia due to glucophosphate isomerase deficiency (97.4%)</li>
+<li>exostosis (97.0%)</li>
+<li>pyropoikilocytosis, hereditary (96.9%)</li>
+<li>vein disease (96.9%)</li>
+<li>non-inflammatory vasculopathy (96.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/calcium/' | relative_url }}">View full drug report →</a></p>
 </div>

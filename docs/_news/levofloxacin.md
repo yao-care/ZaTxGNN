@@ -3,7 +3,7 @@ layout: default
 title: "Levofloxacin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Levofloxacin. Original indication: . 0 predicted indications."
+description: "Health news related to Levofloxacin. Original indication: . 10 predicted indications."
 permalink: /news/levofloxacin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/levofloxacin/
 ---
 
 <p class="key-answer" data-question="What news is there about Levofloxacin?">
-<strong>Levofloxacin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Levofloxacin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Levofloxacin with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>punctate epithelial keratoconjunctivitis (99.9%)</li>
+<li>hyperamylasemia (99.9%)</li>
+<li>polyclonal hyperviscosity syndrome (99.9%)</li>
+<li>congenital analbuminemia (99.9%)</li>
+<li>blood group incompatibility (99.8%)</li>
+<li>premalignant hematological system disease (99.8%)</li>
+<li>monoclonal gammopathy (99.8%)</li>
+<li>hematological disease associated with an acquired peripheral neuropathy (99.8%)</li>
+<li>septicemic plague (99.8%)</li>
+<li>congenital hematological disorder (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/levofloxacin/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Thiamine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Thiamine. Original indication: . 0 predicted indications."
+description: "Health news related to Thiamine. Original indication: . 10 predicted indications."
 permalink: /news/thiamine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/thiamine/
 ---
 
 <p class="key-answer" data-question="What news is there about Thiamine?">
-<strong>Thiamine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Thiamine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Thiamine with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hyperthyroidism (99.4%)</li>
+<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.4%)</li>
+<li>primary hereditary glaucoma (99.4%)</li>
+<li>open-angle glaucoma (99.4%)</li>
+<li>pulmonary hypertension (99.0%)</li>
+<li>hyperthyroxinemia (98.9%)</li>
+<li>kyphoscoliotic heart disease (98.9%)</li>
+<li>Graves disease (98.2%)</li>
+<li>peripheral vascular disease (98.1%)</li>
+<li>neonatal thyrotoxicosis (97.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/thiamine/' | relative_url }}">View full drug report →</a></p>
 </div>

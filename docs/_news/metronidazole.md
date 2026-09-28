@@ -3,7 +3,7 @@ layout: default
 title: "Metronidazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Metronidazole. Original indication: . 0 predicted indications."
+description: "Health news related to Metronidazole. Original indication: . 10 predicted indications."
 permalink: /news/metronidazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/metronidazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Metronidazole?">
-<strong>Metronidazole</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Metronidazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Metronidazole with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pneumocystosis (100.0%)</li>
+<li>punctate epithelial keratoconjunctivitis (99.9%)</li>
+<li>ulcerative proctosigmoiditis (99.9%)</li>
+<li>nocardiosis (99.9%)</li>
+<li>postmenopausal atrophic vaginitis (99.8%)</li>
+<li>Cryptococcal meningitis (99.8%)</li>
+<li>papillary conjunctivitis (99.8%)</li>
+<li>myiasis (99.8%)</li>
+<li>cap polyposis (99.7%)</li>
+<li>ulceration of vulva (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/metronidazole/' | relative_url }}">View full drug report →</a></p>
 </div>

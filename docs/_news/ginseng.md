@@ -3,7 +3,7 @@ layout: default
 title: "Ginseng News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ginseng. Original indication: . 0 predicted indications."
+description: "Health news related to Ginseng. Original indication: . 10 predicted indications."
 permalink: /news/ginseng/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ginseng/
 ---
 
 <p class="key-answer" data-question="What news is there about Ginseng?">
-<strong>Ginseng</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ginseng</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Ginseng with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>drug-induced osteoporosis (100.0%)</li>
+<li>acne (disease) (99.9%)</li>
+<li>severe nonproliferative diabetic retinopathy (99.7%)</li>
+<li>hemorrhagic disease of newborn (99.7%)</li>
+<li>cortical cataract (99.6%)</li>
+<li>nuclear senile cataract (99.6%)</li>
+<li>diabetic retinopathy (99.5%)</li>
+<li>amenorrhea (disease) (99.5%)</li>
+<li>mature cataract (99.5%)</li>
+<li>tetanic cataract (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ginseng/' | relative_url }}">View full drug report →</a></p>
 </div>

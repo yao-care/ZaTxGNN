@@ -3,7 +3,7 @@ layout: default
 title: "Tocopherol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tocopherol. Original indication: . 0 predicted indications."
+description: "Health news related to Tocopherol. Original indication: . 10 predicted indications."
 permalink: /news/tocopherol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tocopherol/
 ---
 
 <p class="key-answer" data-question="What news is there about Tocopherol?">
-<strong>Tocopherol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Tocopherol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Tocopherol with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>sclerosing cholangitis (98.8%)</li>
+<li>pulmonary hypertension (98.5%)</li>
+<li>rheumatoid arthritis (98.4%)</li>
+<li>hypotrichosis simplex of the scalp (98.4%)</li>
+<li>congenital hypotrichosis milia (98.3%)</li>
+<li>kyphoscoliotic heart disease (98.3%)</li>
+<li>diffuse alopecia areata (98.1%)</li>
+<li>alopecia (98.1%)</li>
+<li>congestive heart failure (97.8%)</li>
+<li>peripheral vascular disease (97.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tocopherol/' | relative_url }}">View full drug report →</a></p>
 </div>

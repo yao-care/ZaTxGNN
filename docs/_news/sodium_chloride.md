@@ -3,7 +3,7 @@ layout: default
 title: "Sodium chloride News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sodium chloride. Original indication: . 0 predicted indications."
+description: "Health news related to Sodium chloride. Original indication: . 10 predicted indications."
 permalink: /news/sodium_chloride/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sodium_chloride/
 ---
 
 <p class="key-answer" data-question="What news is there about Sodium chloride?">
-<strong>Sodium chloride</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sodium chloride</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sodium chloride with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>breast fibrocystic disease (96.8%)</li>
+<li>vulvovaginitis (96.7%)</li>
+<li>vulvitis (96.3%)</li>
+<li>postmenopausal atrophic vaginitis (96.1%)</li>
+<li>ulceration of vulva (95.8%)</li>
+<li>vulvar neoplasm (95.8%)</li>
+<li>blunt duct adenosis of breast (95.8%)</li>
+<li>apocrine adenosis of breast (95.8%)</li>
+<li>benign mammary dysplasia (95.6%)</li>
+<li>fat necrosis of breast (94.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sodium_chloride/' | relative_url }}">View full drug report →</a></p>
 </div>

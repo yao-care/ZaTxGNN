@@ -3,7 +3,7 @@ layout: default
 title: "Calcium ascorbate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Calcium ascorbate. Original indication: . 0 predicted indications."
+description: "Health news related to Calcium ascorbate. Original indication: . 10 predicted indications."
 permalink: /news/calcium_ascorbate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/calcium_ascorbate/
 ---
 
 <p class="key-answer" data-question="What news is there about Calcium ascorbate?">
-<strong>Calcium ascorbate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Calcium ascorbate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Calcium ascorbate with the l
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>insomnia (disease) (95.2%)</li>
+<li>diabetic cataract (94.3%)</li>
+<li>diabetes mellitus type 2 associated cataract (94.2%)</li>
+<li>craniostenosis cataract (94.2%)</li>
+<li>mature cataract (94.2%)</li>
+<li>immature cataract (94.2%)</li>
+<li>tetanic cataract (94.2%)</li>
+<li>cortical cataract (94.1%)</li>
+<li>nuclear senile cataract (94.1%)</li>
+<li>diabetic retinopathy (93.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/calcium_ascorbate/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Mephenesin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mephenesin. Original indication: . 0 predicted indications."
+description: "Health news related to Mephenesin. Original indication: . 10 predicted indications."
 permalink: /news/mephenesin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mephenesin/
 ---
 
 <p class="key-answer" data-question="What news is there about Mephenesin?">
-<strong>Mephenesin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Mephenesin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Mephenesin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>metastatic melanoma (96.3%)</li>
+<li>non-cutaneous melanoma (95.7%)</li>
+<li>epithelioid cell melanoma (95.5%)</li>
+<li>choroideremia (95.5%)</li>
+<li>mature cataract (95.5%)</li>
+<li>tetanic cataract (95.5%)</li>
+<li>craniostenosis cataract (95.5%)</li>
+<li>diabetes mellitus type 2 associated cataract (95.5%)</li>
+<li>immature cataract (95.5%)</li>
+<li>eyelid melanoma (95.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mephenesin/' | relative_url }}">View full drug report →</a></p>
 </div>

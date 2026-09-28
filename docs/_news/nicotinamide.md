@@ -3,7 +3,7 @@ layout: default
 title: "Nicotinamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nicotinamide. Original indication: . 0 predicted indications."
+description: "Health news related to Nicotinamide. Original indication: . 10 predicted indications."
 permalink: /news/nicotinamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nicotinamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Nicotinamide?">
-<strong>Nicotinamide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nicotinamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Nicotinamide with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>zinc, elevated plasma (97.8%)</li>
+<li>isolated congenital adermatoglyphia (94.8%)</li>
+<li>Beare-Stevenson cutis gyrata syndrome (93.7%)</li>
+<li>Werner syndrome (88.6%)</li>
+<li>pyogenic arthritis-pyoderma gangrenosum-acne syndrome (87.3%)</li>
+<li>demodicidosis of sebaceous gland (85.5%)</li>
+<li>dyspepsia (84.7%)</li>
+<li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (84.7%)</li>
+<li>inherited cutis laxa (82.5%)</li>
+<li>syndromic oculocutaneous albinism (81.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nicotinamide/' | relative_url }}">View full drug report →</a></p>
 </div>

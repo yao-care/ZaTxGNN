@@ -3,7 +3,7 @@ layout: default
 title: "Candesartan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Candesartan. Original indication: . 9 predicted indications."
+description: "Health news related to Candesartan. Original indication: . 10 predicted indications."
 permalink: /news/candesartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/candesartan/
 ---
 
 <p class="key-answer" data-question="What news is there about Candesartan?">
-<strong>Candesartan</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Candesartan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Candesartan with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Migraine with brainstem aura | 99.96% | L3 | Research Question — related migraine subtype; no dedicated trials; mechanistic rationale via brainstem AT1R expression (99.0%)</li>
-<li>Migraine with or without aura, susceptibility to | 99.94% | L2 | Research Question — precision medicine angle; RAAS polymorphisms (ACE I/D) may predict ARB response (99.0%)</li>
-<li>Pulmonary hypertension | 99.93% | L4 | Hold — theoretical RAAS–pulmonary vascular link, but PAH is primarily driven by ET-1/NO/prostacyclin pathways; clinical trials retrieved were irrelevant (99.0%)</li>
-<li>Prinzmetal angina | 99.91% | L5 | Hold — theoretical AT1R–coronary spasm link, but calcium-channel–mediated mechanism dominates; no supporting data (99.0%)</li>
-<li>Kyphoscoliotic heart disease | 99.90% | L5 | Hold — mechanical aetiology predominates; ARB intervention not feasible (99.0%)</li>
-<li>Atrophoderma vermiculata | 99.87% | L5 | Hold — no biological rationale linking RAAS to this rare follicular skin disorder (99.0%)</li>
-<li>Ulerythema ophryogenesis | 99.86% | L5 | Hold — highly speculative AT1R–MAPK pathway hypothesis; no supporting data (99.0%)</li>
-<li>Benign prostatic hyperplasia | 99.84% | L5 | Hold — local prostatic RAAS is plausible but unvalidated clinically; would require Phase 1 exploration (99.0%)</li>
-<li>Alopecia | 99.78% | L5 | Hold — purely theoretical follicular vasculature hypothesis; no preclinical or clinical evidence (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine disorder (100.0%)</li>
+<li>migraine with brainstem aura (100.0%)</li>
+<li>migraine with or without aura, susceptibility to (99.9%)</li>
+<li>pulmonary hypertension (99.9%)</li>
+<li>Prinzmetal angina (99.9%)</li>
+<li>kyphoscoliotic heart disease (99.9%)</li>
+<li>atrophoderma vermiculata (99.9%)</li>
+<li>ulerythema ophryogenesis (99.9%)</li>
+<li>benign prostatic hyperplasia (disease) (99.8%)</li>
+<li>alopecia (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/candesartan/' | relative_url }}">View full drug report →</a></p>
