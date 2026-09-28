@@ -3,7 +3,7 @@ layout: default
 title: "Cefixime News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cefixime. Original indication: . 0 predicted indications."
+description: "Health news related to Cefixime. Original indication: . 10 predicted indications."
 permalink: /news/cefixime/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cefixime/
 ---
 
 <p class="key-answer" data-question="What news is there about Cefixime?">
-<strong>Cefixime</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cefixime</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cefixime with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Ureaplasma urethritis (99.0%)</li>
+<li>gonococcal urethritis (99.0%)</li>
+<li>uterine inflammatory disease (98.7%)</li>
+<li>xanthogranulomatous pyelonephritis (98.7%)</li>
+<li>laryngitis (98.1%)</li>
+<li>epiglottitis (97.8%)</li>
+<li>laryngotracheitis (97.5%)</li>
+<li>urogenital tuberculosis (96.7%)</li>
+<li>tracheal disease (94.7%)</li>
+<li>polyclonal hyperviscosity syndrome (94.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cefixime/' | relative_url }}">View full drug report →</a></p>
 </div>

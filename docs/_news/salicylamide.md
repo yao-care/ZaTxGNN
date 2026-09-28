@@ -3,7 +3,7 @@ layout: default
 title: "Salicylamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Salicylamide. Original indication: . 0 predicted indications."
+description: "Health news related to Salicylamide. Original indication: . 10 predicted indications."
 permalink: /news/salicylamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/salicylamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Salicylamide?">
-<strong>Salicylamide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Salicylamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Salicylamide with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pharyngitis (100.0%)</li>
+<li>nasal cavity disease (100.0%)</li>
+<li>acute laryngopharyngitis (100.0%)</li>
+<li>trigeminal autonomic cephalalgia (99.9%)</li>
+<li>common cold (99.9%)</li>
+<li>allergic urticaria (99.7%)</li>
+<li>lung disease (99.6%)</li>
+<li>massive neonatal aspiration syndrome (99.6%)</li>
+<li>respiratory syncytial virus bronchiolitis (99.6%)</li>
+<li>hantavirus infectious disease (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/salicylamide/' | relative_url }}">View full drug report →</a></p>
 </div>

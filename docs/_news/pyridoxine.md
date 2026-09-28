@@ -3,7 +3,7 @@ layout: default
 title: "Pyridoxine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pyridoxine. Original indication: . 0 predicted indications."
+description: "Health news related to Pyridoxine. Original indication: . 10 predicted indications."
 permalink: /news/pyridoxine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pyridoxine/
 ---
 
 <p class="key-answer" data-question="What news is there about Pyridoxine?">
-<strong>Pyridoxine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Pyridoxine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Pyridoxine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>gonococcal urethritis (93.9%)</li>
+<li>Ureaplasma urethritis (93.9%)</li>
+<li>urinary tract infection (disease) (93.6%)</li>
+<li>uterine inflammatory disease (92.5%)</li>
+<li>xanthogranulomatous pyelonephritis (92.3%)</li>
+<li>congenital prothrombin deficiency (88.3%)</li>
+<li>toxocariasis (86.3%)</li>
+<li>toxascariasis (85.8%)</li>
+<li>anisakiasis (85.5%)</li>
+<li>vitamin deficiency disorder (85.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/pyridoxine/' | relative_url }}">View full drug report →</a></p>
 </div>

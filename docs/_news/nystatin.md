@@ -3,7 +3,7 @@ layout: default
 title: "Nystatin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nystatin. Original indication: . 0 predicted indications."
+description: "Health news related to Nystatin. Original indication: . 10 predicted indications."
 permalink: /news/nystatin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nystatin/
 ---
 
 <p class="key-answer" data-question="What news is there about Nystatin?">
-<strong>Nystatin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nystatin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Nystatin with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>vulvovaginitis (99.9%)</li>
+<li>disease of orbital region (99.9%)</li>
+<li>disease of orbital part of eye adnexa (99.9%)</li>
+<li>cystic teratoma (99.9%)</li>
+<li>spinal cord dermoid cyst (99.9%)</li>
+<li>postmenopausal atrophic vaginitis (99.9%)</li>
+<li>biotin metabolic disease (99.9%)</li>
+<li>vulvitis (99.8%)</li>
+<li>commissural lip fistula (99.8%)</li>
+<li>osteoradionecrosis of the mandible (99.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nystatin/' | relative_url }}">View full drug report →</a></p>
 </div>

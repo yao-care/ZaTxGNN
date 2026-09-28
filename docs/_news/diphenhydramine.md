@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Diphenhydramine with the lat
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Rosacea Conjunctivitis | 99.20% | L5 | Hold (99.0%)</li>
-<li>Rhinitis | 98.35% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Allergic Urticaria | 98.24% | L1 | Proceed with Guardrails (99.0%)</li>
-<li>Cold Urticaria | 95.92% | L3 | Proceed with Guardrails (99.0%)</li>
-<li>Cauda Equina Syndrome | 95.57% | L5 | Hold (99.0%)</li>
-<li>Nasopharyngitis | 94.96% | L4 | Hold (99.0%)</li>
-<li>Viral Conjunctivitis | 93.97% | L5 | Hold (99.0%)</li>
-<li>Neuralgia | 92.30% | L4 | Research Question (99.0%)</li>
-<li>Trigeminal Autonomic Cephalalgia | 92.25% | L3 | Research Question (99.0%)</li>
-<li>Glossodynia | 92.08% | L5 | Hold (99.0%)</li>
+<li>rosacea conjunctivitis (99.2%)</li>
+<li>rhinitis (98.3%)</li>
+<li>allergic urticaria (98.2%)</li>
+<li>cold urticaria (95.9%)</li>
+<li>cauda equina syndrome (95.6%)</li>
+<li>nasopharyngitis (95.0%)</li>
+<li>viral conjunctivitis (94.0%)</li>
+<li>neuralgia (92.3%)</li>
+<li>trigeminal autonomic cephalalgia (92.2%)</li>
+<li>glossodynia (92.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/diphenhydramine/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Mupirocin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mupirocin. Original indication: . 0 predicted indications."
+description: "Health news related to Mupirocin. Original indication: . 10 predicted indications."
 permalink: /news/mupirocin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mupirocin/
 ---
 
 <p class="key-answer" data-question="What news is there about Mupirocin?">
-<strong>Mupirocin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Mupirocin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Mupirocin with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pleural empyema (disease) (99.5%)</li>
+<li>punctate epithelial keratoconjunctivitis (99.1%)</li>
+<li>neurotrophic keratopathy (98.5%)</li>
+<li>cutaneous candidiasis (98.3%)</li>
+<li>vaginal discharge (96.0%)</li>
+<li>exposure keratitis (95.9%)</li>
+<li>leukoplakia of vagina (95.8%)</li>
+<li>non-human animal disease (95.7%)</li>
+<li>staphylococcal scalded skin syndrome (95.6%)</li>
+<li>bacterial vaginosis (95.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mupirocin/' | relative_url }}">View full drug report →</a></p>
 </div>

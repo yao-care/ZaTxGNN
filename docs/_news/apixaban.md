@@ -3,7 +3,7 @@ layout: default
 title: "Apixaban News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Apixaban. Original indication: . 0 predicted indications."
+description: "Health news related to Apixaban. Original indication: . 10 predicted indications."
 permalink: /news/apixaban/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/apixaban/
 ---
 
 <p class="key-answer" data-question="What news is there about Apixaban?">
-<strong>Apixaban</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Apixaban</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Apixaban with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine disorder (99.0%)</li>
+<li>migraine with or without aura, susceptibility to (98.9%)</li>
+<li>leprosy (98.9%)</li>
+<li>rheumatoid arthritis (98.9%)</li>
+<li>migraine with brainstem aura (98.8%)</li>
+<li>Prinzmetal angina (98.4%)</li>
+<li>brachydactyly-syndactyly syndrome (98.2%)</li>
+<li>pulmonary hypertension (98.1%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (98.0%)</li>
+<li>kyphoscoliotic heart disease (97.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/apixaban/' | relative_url }}">View full drug report →</a></p>
 </div>

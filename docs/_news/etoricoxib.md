@@ -3,7 +3,7 @@ layout: default
 title: "Etoricoxib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Etoricoxib. Original indication: . 0 predicted indications."
+description: "Health news related to Etoricoxib. Original indication: . 10 predicted indications."
 permalink: /news/etoricoxib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/etoricoxib/
 ---
 
 <p class="key-answer" data-question="What news is there about Etoricoxib?">
-<strong>Etoricoxib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Etoricoxib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Etoricoxib with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine disorder (99.9%)</li>
+<li>migraine with brainstem aura (99.9%)</li>
+<li>migraine with or without aura, susceptibility to (99.8%)</li>
+<li>atrophoderma vermiculata (99.6%)</li>
+<li>ulerythema ophryogenesis (99.6%)</li>
+<li>pulmonary hypertension (99.5%)</li>
+<li>benign prostatic hyperplasia (disease) (99.5%)</li>
+<li>kyphoscoliotic heart disease (99.4%)</li>
+<li>headache disorder (99.3%)</li>
+<li>trigeminal autonomic cephalalgia (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/etoricoxib/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Magnesium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Magnesium. Original indication: . 0 predicted indications."
+description: "Health news related to Magnesium. Original indication: . 10 predicted indications."
 permalink: /news/magnesium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/magnesium/
 ---
 
 <p class="key-answer" data-question="What news is there about Magnesium?">
-<strong>Magnesium</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Magnesium</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Magnesium with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine disorder (98.0%)</li>
+<li>migraine with brainstem aura (98.0%)</li>
+<li>severe nonproliferative diabetic retinopathy (97.5%)</li>
+<li>bronchitis (96.0%)</li>
+<li>diabetic retinopathy (95.8%)</li>
+<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (95.2%)</li>
+<li>dermatitis (95.0%)</li>
+<li>hyperthyroidism (95.0%)</li>
+<li>rheumatoid arthritis (94.9%)</li>
+<li>dry eye syndrome (94.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/magnesium/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Cycloserine with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Irritable Bowel Syndrome | 99.95% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Acne | 99.91% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Gastroparesis | 99.66% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Conjunctivitis | 99.27% | L4 | 0 | 3 | Hold (99.0%)</li>
-<li>Insomnia | 99.21% | L4 | 3 | 2 | Hold ⚠️ (99.0%)</li>
-<li>Pharyngitis | 99.01% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Nasal Cavity Disease | 99.01% | L5 | 0 | 1 | Hold (99.0%)</li>
-<li>Acute Laryngopharyngitis | 98.85% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Postgastrectomy Syndrome | 98.79% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Rhinitis | 98.70% | L5 | 0 | 0 | Hold (99.0%)</li>
+<li>irritable bowel syndrome (100.0%)</li>
+<li>acne (disease) (99.9%)</li>
+<li>gastroparesis (disease) (99.7%)</li>
+<li>conjunctivitis (99.3%)</li>
+<li>insomnia (disease) (99.2%)</li>
+<li>pharyngitis (99.0%)</li>
+<li>nasal cavity disease (99.0%)</li>
+<li>acute laryngopharyngitis (98.8%)</li>
+<li>postgastrectomy syndrome (98.8%)</li>
+<li>rhinitis (98.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cycloserine/' | relative_url }}">View full drug report →</a></p>

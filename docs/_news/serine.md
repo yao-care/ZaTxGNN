@@ -3,7 +3,7 @@ layout: default
 title: "Serine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Serine. Original indication: . 0 predicted indications."
+description: "Health news related to Serine. Original indication: . 10 predicted indications."
 permalink: /news/serine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/serine/
 ---
 
 <p class="key-answer" data-question="What news is there about Serine?">
-<strong>Serine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Serine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Serine with the latest healt
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>familial visceral myopathy (100.0%)</li>
+<li>intestinal obstruction (100.0%)</li>
+<li>unclassified intestinal pseudoobstruction (100.0%)</li>
+<li>myopathic intestinal pseudoobstruction (100.0%)</li>
+<li>neuronal intestinal dysplasia, type B (100.0%)</li>
+<li>angle-closure glaucoma (99.9%)</li>
+<li>intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked (99.9%)</li>
+<li>exercise-induced malignant hyperthermia (99.9%)</li>
+<li>aqueous misdirection (99.9%)</li>
+<li>traumatic glaucoma (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/serine/' | relative_url }}">View full drug report →</a></p>
 </div>

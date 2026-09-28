@@ -3,7 +3,7 @@ layout: default
 title: "Diiodohydroxyquinoline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Diiodohydroxyquinoline. Original indication: . 0 predicted indications."
+description: "Health news related to Diiodohydroxyquinoline. Original indication: . 10 predicted indications."
 permalink: /news/diiodohydroxyquinoline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/diiodohydroxyquinoline/
 ---
 
 <p class="key-answer" data-question="What news is there about Diiodohydroxyquinoline?">
-<strong>Diiodohydroxyquinoline</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Diiodohydroxyquinoline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Diiodohydroxyquinoline with 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>osteoradionecrosis (98.0%)</li>
+<li>radiodermatitis (96.3%)</li>
+<li>pneumonitis (95.7%)</li>
+<li>aspiration pneumonia (disease) (91.0%)</li>
+<li>type 2 diabetes nephropathy (90.6%)</li>
+<li>byssinosis (88.2%)</li>
+<li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (87.3%)</li>
+<li>mixed mineral dust pneumoconiosis (82.8%)</li>
+<li>baritosis (82.7%)</li>
+<li>slate pneumoconiosis (82.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/diiodohydroxyquinoline/' | relative_url }}">View full drug report →</a></p>
 </div>
