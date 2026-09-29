@@ -2,7 +2,7 @@
 layout: default
 title: Neomycin
 parent: High Evidence (L1-L2)
-nav_order: 330
+nav_order: 336
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,93 +29,90 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Neomycin: From Bacterial Infection to Irritable Bowel Syndrome
+# Neomycin: From Antibacterial Use to Irritable Bowel Syndrome
 
 ## One-Sentence Summary
 
-Neomycin is a classical aminoglycoside antibiotic; South African regulatory registration data for its original indication is not currently on file (0 SAHPRA licenses). The TxGNN model predicts it may be effective for **Irritable Bowel Syndrome (IBS)**, specifically the methane-positive, constipation-predominant subtype, with **2 clinical trials** and **14 publications** currently supporting this direction.
-
----
+Neomycin is an aminoglycoside antibiotic marketed in South Africa in topical, ophthalmic and other forms. The TxGNN model predicts it may be useful for **Irritable Bowel Syndrome (IBS)**, particularly constipation-predominant IBS in patients who test positive for methane. This direction is supported by **2 clinical trials** and **14 publications**, but the trials are small and the key safety data are still missing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from SAHPRA/regulatory data (drug not registered in South Africa); as background, neomycin is a non-absorbable aminoglycoside classically used for bacterial infections and gut decontamination |
-| Predicted New Indication | Irritable Bowel Syndrome (methane-positive, constipation-predominant subtype) |
+| Original Indication | Not stated in the registration data provided (drug class: aminoglycoside antibiotic) |
+| Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 98.55% |
 | Evidence Level | L2 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 12 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known pharmacology, Neomycin is an aminoglycoside antibiotic that is poorly absorbed when given orally and acts locally within the gut lumen — a property that has long supported its use for bowel decontamination and hepatic encephalopathy management.
+Currently, detailed mechanism of action data is not available in the input. Based on the literature, oral neomycin is poorly absorbed and acts locally in the gut. It may reduce small intestinal bacterial overgrowth (SIBO) and methane-producing gut flora.
 
-Irritable bowel syndrome, particularly the methane-positive, constipation-predominant subtype (C-IBS), has been linked to small intestinal bacterial overgrowth (SIBO) and elevated colonic methanogen activity. As a non-absorbable, gut-restricted antibiotic, Neomycin can reduce intestinal methane production and bacterial load — a mechanistic link that is direct rather than a mere statistical co-occurrence in the knowledge graph.
+Methane production is linked to constipation-predominant IBS (C-IBS). Published analyses suggest that neomycin's benefit in C-IBS depends on methane status. It appears to help mainly patients with methane on breath testing. Combining neomycin with rifaximin looked more effective than either drug alone in methane-positive patients.
 
-However, the supporting evidence comes largely from small, single- or dual-center trials conducted 15–20 years ago, and repeated antibiotic courses carry known nephrotoxicity/ototoxicity risk. Clinically, Neomycin's role in this niche has been largely superseded by rifaximin, which shows a more favorable safety profile in more recent, larger studies.
-
----
+This link rests on the literature, not on a confirmed mechanism in the input data. Much of the supporting evidence concerns rifaximin, and the neomycin-specific studies are small.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00945334](https://clinicaltrials.gov/study/NCT00945334) | Phase NA | Completed | 37 | Double-blind, placebo-controlled comparison of Neomycin alone vs. Rifaximin+Neomycin in methane-positive, constipation-predominant IBS (conducted with Mayo Clinic and Georgia Regents University) |
-| [NCT00259155](https://clinicaltrials.gov/study/NCT00259155) | Phase 2 | Completed | 92 | Multicenter RCT of Rifaximin for SIBO/IBS; Neomycin referenced as the historical antibiotic comparator, noted to normalize the lactulose breath test in 20–25% of cases |
-
-No South African (SANCTR) or Pan-African (PACTR) trial registrations were identified for this indication.
-
----
+| [NCT00945334](https://clinicaltrials.gov/study/NCT00945334) | NA | Completed | 37 | Double-blind, placebo-controlled trial of neomycin vs rifaximin plus neomycin in methane-positive C-IBS. Directly on-drug and on-indication, but small. No results summary in the data provided. |
+| [NCT00259155](https://clinicaltrials.gov/study/NCT00259155) | Phase 2 | Completed | 92 | Randomized double-blind trial of rifaximin in SIBO and IBS. Neomycin is not the test drug, so this supports the antibiotic and dysbiosis rationale only indirectly. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [16832617](https://pubmed.ncbi.nlm.nih.gov/16832617/) | 2006 | RCT | Digestive Diseases and Sciences | Sub-analysis of a double-blind RCT: Neomycin improved constipation-predominant IBS specifically in patients whose breath test normalized (methane elimination correlated with symptom relief) |
-| [19996983](https://pubmed.ncbi.nlm.nih.gov/19996983/) | 2010 | RCT/Cohort | Journal of Clinical Gastroenterology | Combination of Rifaximin + Neomycin was most effective in methane-positive IBS patients versus either agent alone |
-| [40240267](https://pubmed.ncbi.nlm.nih.gov/40240267/) | 2025 | Cohort | Revista de Gastroenterología de México (English) | Prospective comparative study of Rifaximin, ciprofloxacin, and Neomycin for SIBO treatment in IBS patients |
-| [24788320](https://pubmed.ncbi.nlm.nih.gov/24788320/) | 2014 | Review | Digestive Diseases and Sciences | Reviews antibiotic treatment of constipation-predominant IBS; cites prior retrospective data that Rifaximin+Neomycin outperformed Neomycin alone |
-| [30288076](https://pubmed.ncbi.nlm.nih.gov/30288076/) | 2018 | Review | Clinical and Experimental Gastroenterology | Reviews antibiotic mechanisms (including Neomycin) and gut microbiota effects in IBS management |
-| [26819502](https://pubmed.ncbi.nlm.nih.gov/26819502/) | 2016 | Review | World Journal of Gastroenterology | Discusses SIBO and infectious mechanisms underlying IBS, supporting rationale for antibiotic therapy |
-| [31363445](https://pubmed.ncbi.nlm.nih.gov/31363445/) | 2019 | Review | Cureus | Reviews the relationship between methane production and constipation-predominant IBS |
-| [38700306](https://pubmed.ncbi.nlm.nih.gov/38700306/) | 2023 | Review | Journal of the Association of Physicians of India | Reviews gut dysbiosis in IBS, including the role of antibiotics such as Neomycin |
-| [24666019](https://pubmed.ncbi.nlm.nih.gov/24666019/) | 2014 | Review | Current Medical Research and Opinion | Reviews probiotics and antimicrobials, including Neomycin, in functional bowel disorder management |
-| [19303541](https://pubmed.ncbi.nlm.nih.gov/19303541/) | 2009 | Review | Gastroentérologie Clinique et Biologique | Reviews dietary and pharmacological options for IBS treatment |
-
----
+| [19996983](https://pubmed.ncbi.nlm.nih.gov/19996983/) | 2010 | RCT | J Clin Gastroenterol | Compared three antibiotic regimens in IBS patients with methane-positive breath tests. The rifaximin plus neomycin combination was most effective. |
+| [16832617](https://pubmed.ncbi.nlm.nih.gov/16832617/) | 2006 | RCT (subanalysis) | Dig Dis Sci | In C-IBS, neomycin improved constipation in a way that depended on the presence of methane. |
+| [12591062](https://pubmed.ncbi.nlm.nih.gov/12591062/) | 2003 | RCT (per title) | Am J Gastroenterol | Double-blind, placebo-controlled study. Normalisation of the lactulose breath test after antibiotic treatment correlated with symptom improvement. |
+| [24788320](https://pubmed.ncbi.nlm.nih.gov/24788320/) | 2014 | Review | Dig Dis Sci | Antibiotic treatment of C-IBS. Methane production is linked to constipation severity. A prior retrospective study suggested rifaximin plus neomycin beat neomycin alone. |
+| [40240267](https://pubmed.ncbi.nlm.nih.gov/40240267/) | 2025 | Prospective comparative study | Rev Gastroenterol Mex | Compared three antibiotic regimens for SIBO in Chilean IBS patients (symptom response and SIBO eradication). |
+| [22298980](https://pubmed.ncbi.nlm.nih.gov/22298980/) | 2011 | Not classified | Gastroenterol Hepatol | Overview of antibiotics for IBS, covering post-infectious IBS and SIBO. |
+| [30288076](https://pubmed.ncbi.nlm.nih.gov/30288076/) | 2018 | Review | Clin Exp Gastroenterol | Rifaximin in IBS-D: mechanism, gut microbiota effects, safety and tolerability. |
+| [24666019](https://pubmed.ncbi.nlm.nih.gov/24666019/) | 2014 | Review | Curr Med Res Opin | Role of probiotics and antimicrobials in managing functional bowel disorders, including IBS. |
+| [38700306](https://pubmed.ncbi.nlm.nih.gov/38700306/) | 2023 | Review | J Assoc Physicians India | Gut dysbiosis in IBS, including antibiotics and SIBO as contributing factors. |
+| [31363445](https://pubmed.ncbi.nlm.nih.gov/31363445/) | 2019 | Not classified | Cureus | Methane production and dysbiosis in C-IBS. |
 
 ## South Africa Market Information
 
-Neomycin currently has no SAHPRA product registrations on file (0 licenses; market status: not marketed). No dosage form or approved indication text is available for the South African market.
+Approved indication text was not provided for any of these registrations. No Essential Medicines List (EML) status data is available.
 
----
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| G1831 | Betnovate 'n' | Ointment |
+| G2023 (OM) | Neoderm | Cream |
+| H1236 (OM) | Covomycin 7.5ml | Not clearly specified in the data |
+| H.1158 | Maxitrol 3.5g | Eye ointment |
+| D/2.5/204 | Tegretol s | Suspension |
+
+The trials in IBS used oral neomycin. The five products above are topical, ophthalmic or unclear forms. An oral tablet is listed among the 12 registrations, but which product it is was not provided. "Tegretol s" is normally a carbamazepine product, so this entry may be a data-mapping error and should be checked against SAHPRA records.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Drug Interactions**: The interaction query returned no records.
+- **Contact allergy**: The retrieved literature repeatedly identifies neomycin as a frequent contact allergen, including in systematic and cohort studies of dermatitis patients. This is most relevant to topical use.
 
-*Note: A blocking data gap exists — TFDA/local PI warnings and contraindications for Neomycin have not yet been retrieved, which prevents a formal S1 safety pre-assessment.*
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Neomycin has no current SAHPRA registration in South Africa, and the safety data (warnings, contraindications, drug interactions) required to complete an initial S1 safety review is missing — a blocking gap. While the IBS indication reaches evidence level L2, supporting trials are small, dated, and largely superseded clinically by rifaximin, so the case does not yet support advancing to guardrail-based deployment.
+IBS is the only predicted indication with meaningful clinical support. That support comes from small trials (n=37 and n=92, one of which tested rifaximin rather than neomycin) and methane-dependent subgroup findings. The missing SAHPRA safety information is a blocking gap, so the candidate cannot yet move past safety screening.
+
+The other nine predicted indications are much weaker and stay on Hold. Peripheral arterial disease, acute laryngopharyngitis and ischaemic disease have prediction-only evidence. For dermatitis, the literature shows neomycin mainly as a cause of allergic contact dermatitis.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-equivalent PI warnings and contraindications (resolves blocking gap DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Assessment of registration pathway/feasibility for the South African market
-- Updated, adequately powered trial data on methane-positive IBS-C, ideally benchmarked against rifaximin
-- A renal and ototoxicity monitoring protocol, given known aminoglycoside class risk with repeated dosing
+- SAHPRA package insert warnings and contraindications for neomycin products
+- Confirmation of which oral neomycin product, if any, is registered in South Africa
+- Mechanism of action data (MOA)
+- A larger, adequately powered controlled trial in methane-positive C-IBS
+- An antimicrobial stewardship and resistance assessment for repeated antibiotic courses in a chronic functional condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

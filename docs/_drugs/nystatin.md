@@ -2,7 +2,7 @@
 layout: default
 title: Nystatin
 parent: Moderate Evidence (L3-L4)
-nav_order: 340
+nav_order: 347
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,14 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Nystatin: From Fungal Infections (Candidiasis) to Vulvovaginitis
+# Nystatin: From Topical Antifungal Use to Vulvovaginitis
 
 ## One-Sentence Summary
 
-> Nystatin is a polyene antifungal originally used to treat *Candida* (yeast) infections of the skin and mucous membranes.
-> The TxGNN model predicts it may be effective for **Vulvovaginitis**,
-> with **0 registered clinical trials** but **20 publications** currently supporting this direction.
-> Note: the evidence pack contains no SAHPRA-specific indication text or product information for Nystatin, as it is currently **not marketed** in South Africa.
+Nystatin is a polyene antifungal marketed in South Africa in topical and vaginal products, but the supplied data does not record its original approved indication.
+The TxGNN model predicts it may be effective for **vulvovaginitis**, and **19 publications** support this. There are **no registered clinical trials** for this indication.
+This is probably an established use rather than true repurposing, so it should be confirmed against the SAHPRA label.
 
 ---
 
@@ -44,60 +43,69 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Fungal infections (candidiasis) — based on established pharmacological knowledge; no SAHPRA-specific indication text is available (drug not marketed in South Africa) |
+| Original Indication | Not recorded in the supplied registration data |
 | Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 99.92% (rank 729) |
+| TxGNN Prediction Score | 99.92% |
 | Evidence Level | L3 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (data gap DG002). Based on well-established pharmacological knowledge, Nystatin is a **polyene antifungal** that binds directly to ergosterol in the fungal cell membrane, forming pores that cause leakage of intracellular contents and fungal cell death. Its efficacy against *Candida* species in fungal infections has been proven for decades.
+Nystatin binds ergosterol in the fungal cell membrane and forms pores. This causes leakage of cell contents and fungal cell death. Formal mechanism-of-action data was not available from DrugBank, so this description comes from the general pharmacology of polyene antifungals.
 
-Vulvovaginitis — and vulvovaginal candidiasis specifically — is estimated to be the second most common cause of vaginitis after bacterial vaginosis, with *Candida albicans* accounting for 85–90% of cases (PMID 25775428, 19454049). Because the causative organism of most vulvovaginitis cases is the same fungal genus Nystatin was developed against, the mechanistic link here is direct rather than speculative: this is closer to a well-established off-label/legacy use than a novel biological hypothesis.
+*Candida albicans* causes about 85–90% of vulvovaginal candidiasis cases, according to the BMJ Clinical Evidence reviews. Nystatin's ergosterol-targeting action is directly relevant to this organism. Nystatin has been used for vulvovaginal candidiasis since the 1950s, although azoles have since become the usual first choice (1992 review).
 
-Historically, Nystatin was in fact a first-line topical treatment for vulvovaginal candidiasis before being largely superseded by imidazole and triazole antifungals due to convenience of dosing (PMID 1436934). Contemporary literature also positions Nystatin as a relevant alternative in **fluconazole-resistant** vulvovaginal candidiasis (PMID 39771534, 32104010), suggesting renewed clinical interest where azole resistance is a concern.
+The prediction is therefore mechanistically sound. It is better described as a confirmation of established use than a new discovery.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for vulvovaginitis.
 
 ---
 
 ## Literature Evidence
 
+No randomised controlled trial was identified from the titles and abstracts. The table lists the most relevant items, with the strongest study types first.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | Cohort | Mycoses | In vitro fluconazole and nystatin susceptibility correlated with clinical outcome in 283 patients with complicated VVC (287 *Candida* isolates) |
-| [32104010](https://pubmed.ncbi.nlm.nih.gov/32104010/) | 2020 | In vitro study | Infection and Drug Resistance | Nystatin (and ZnO nanoparticles) downregulated SAP1-3 virulence gene expression in fluconazole-resistant *C. albicans* isolates from VVC |
-| [30359236](https://pubmed.ncbi.nlm.nih.gov/30359236/) | 2018 | Animal study | BMC Microbiology | Nystatin enhanced mucosal immune response and protected vaginal epithelial ultrastructure in a rat model of VVC |
-| [16047929](https://pubmed.ncbi.nlm.nih.gov/16047929/) | 2005 | Cohort | Ceska gynekologie | Vaginal combination therapy with nystatin and nifuratel evaluated for mixed/miscellaneous vulvovaginitis |
-| [37023426](https://pubmed.ncbi.nlm.nih.gov/37023426/) | 2023 | Comparative study | J Infect Dev Ctries | Compared tea tree oil (5%, 10%) and nystatin inhibition zones against vaginal *Candida* isolates in pregnancy |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Review | Obstet Gynecol Clin North Am | Reviews topical antifungals; notes nystatin was the original 1950s treatment for VVC, later surpassed by imidazoles/triazoles |
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | Update on fluconazole-resistant VVC management; nystatin discussed among alternative antifungal therapies |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | J Womens Health | Reviews boric acid for recurrent VVC, with nystatin as comparator context in azole-resistant disease |
-| [4919155](https://pubmed.ncbi.nlm.nih.gov/4919155/) | 1970 | Review | Med Clin North Am | General clinical review of nystatin pharmacology and use |
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clinical Evidence | Epidemiology of vulvovaginal candidiasis; *C. albicans* causes 85-90% of cases |
+| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | Cohort | Mycoses | Compared fluconazole and nystatin susceptibility with clinical outcome in 283 patients with complicated vulvovaginal candidosis. Fluconazole resistance was 0.8% and susceptible-dose-dependent 5.3% of 132 isolates. |
+| [21918792](https://pubmed.ncbi.nlm.nih.gov/21918792/) | 2012 | Clinical study | Acta Derm Venereol | Compared fluconazole and nystatin for vaginal *Candida* in Brazilian women (932 screened, 114 positive for yeasts). |
+| [31969236](https://pubmed.ncbi.nlm.nih.gov/31969236/) | 2019 | Clinical study | Acta Dermatovenerol Croat | GENIE study of oxytetracycline plus nystatin vaginal tablets in 189 women with non-specific or mixed vulvovaginal infections. Beneficial effects were reported in 100% of participants. |
+| [4584828](https://pubmed.ncbi.nlm.nih.gov/4584828/) | 1973 | Trial (design unclear) | J Obstet Gynaecol Br Commonw | Clotrimazole versus nystatin in vaginal moniliasis. No abstract is available. |
+| [16047929](https://pubmed.ncbi.nlm.nih.gov/16047929/) | 2005 | Clinical study | Ceska Gynekol | Mixed vulvovaginal infections treated with combined nifuratel and nystatin vaginal products. |
+| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | Update on fluconazole-resistant vulvovaginal candidiasis. Nystatin is among the alternatives discussed, with boric acid, oteseconazole and ibrexafungerp. |
+| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clin Evid | Evidence review of vulvovaginal candidiasis treatment. Earlier editions are also retrieved (2010, 2007). |
+| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Review | Obstet Gynecol Clin North Am | Topical antifungals. Nystatin has been surpassed by imidazoles and triazoles as first choice. |
+| [30359236](https://pubmed.ncbi.nlm.nih.gov/30359236/) | 2018 | Animal study | BMC Microbiol | In a rat model of vulvovaginal candidiasis, nystatin enhanced the immune response against *C. albicans* and protected the vaginal epithelium ultrastructure. |
+| [32104010](https://pubmed.ncbi.nlm.nih.gov/32104010/) | 2020 | Laboratory study | Infect Drug Resist | ZnO nanoparticles and nystatin against fluconazole-resistant *C. albicans* isolates from vulvovaginal candidiasis. |
 
 ---
 
 ## South Africa Market Information
 
-Nystatin currently has **0 SAHPRA registrations** and is **not marketed** in South Africa. No product listings, registration numbers, or approved indication text are available in this evidence pack.
+Approved indication text and manufacturer names were not included in the supplied registration data.
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| L/20.1.6/0394 | Nystacid | Ointment |
+| 50/20.1.1/0250 | Polygynax® | Pvc |
+| G1591 | Kenacomb | Cream |
+| G1592 | Kenacomb | Ointment |
+
+The dosage form recorded for Polygynax® is "Pvc". Please verify the exact form and active ingredients on the SAHPRA label. Essential Medicines List (EML) status was not supplied.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*Note: This evidence pack flags a blocking data gap (DG001) — no regulatory warnings/contraindications data was available for review — meaning a formal safety assessment (S1 stage) has not yet been completed for this candidate.*
 
 ---
 
@@ -106,13 +114,20 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanistic link is strong and long-established — *Candida* species cause the majority of vulvovaginitis cases, and Nystatin's antifungal action against *Candida* is well documented in 20 supporting publications, including data on efficacy against fluconazole-resistant strains. However, no clinical trials specifically test Nystatin in vulvovaginitis, and the drug is not currently registered in South Africa, so this remains guarded rather than a clear "Go."
+- Nystatin's mechanism fits Candida-driven vulvovaginitis, and the literature (reviews, a cohort study and several clinical studies) supports its use.
+- Evidence is graded L3 because no registered trials or randomised controlled trials were identified.
 
 **To proceed, the following is needed:**
-- Regulatory PI (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmed mechanism of action detail from DrugBank (DG002)
-- A SAHPRA registration/importation pathway assessment, since the product is not currently marketed in South Africa
-- Ideally, a prospective clinical trial or comparative study against standard-of-care azole antifungals for vulvovaginitis in a South African population
+- The SAHPRA package insert warnings and contraindications. This is a blocking gap for safety screening.
+- Confirmation of whether vulvovaginitis is already an approved indication on the local labels.
+- Formal mechanism-of-action data from DrugBank.
+- Confirmation of route compatibility, since the registered forms are an ointment, a cream and "Pvc".
+
+**Other predictions in the pack:**
+- **Vulvitis** is a research question at L4. Its literature overlaps with the vulvovaginitis evidence and is not independent.
+- **Orbital disease, cystic teratoma, spinal cord dermoid cyst, atrophic vaginitis, biotin metabolic disease, commissural lip fistula and osteoradionecrosis of the mandible** are on Hold at L5. They rest on model prediction alone, with no plausible mechanism or supporting studies.
+
+*This report is for research reference only and is not medical advice. Predicted candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

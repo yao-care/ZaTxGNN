@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Levofloxacin
-parent: High Evidence (L1-L2)
-nav_order: 286
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 292
+evidence_level: L4
 indication_count: 10
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Levofloxacin: From Bacterial Infections to Monoclonal Gammopathy (Infection Prophylaxis in Multiple Myeloma)
+# Levofloxacin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Levofloxacin is a broad-spectrum fluoroquinolone antibiotic; it is currently **not marketed in South Africa** (0 SAHPRA registrations) and no original-indication text is documented in this evidence pack. TxGNN scored ten new indications for this drug, but a review of the underlying evidence shows only one — **monoclonal gammopathy** (specifically, antibiotic prophylaxis during multiple myeloma induction therapy) — is supported by real clinical data, including a completed **Phase 3 RCT (TEAMM)** and multiple cohort studies. The other nine candidates (including the highest-scored one, punctate epithelial keratoconjunctivitis) have weak or no supporting evidence and are flagged **Hold**.
+Levofloxacin is a broad-spectrum fluoroquinolone antibiotic, used to treat bacterial infections.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but the evidence is very thin: **0 clinical trials** and **1 publication**, an outbreak report that does not test levofloxacin. The mechanism is not plausible for the organism described in that report, so this prediction should be treated as a model output only.
 
 ---
 
@@ -41,31 +42,29 @@ Levofloxacin is a broad-spectrum fluoroquinolone antibiotic; it is currently **n
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no SAHPRA license text available); Levofloxacin is generically a fluoroquinolone antibiotic used for bacterial infections |
-| Predicted New Indication | Monoclonal gammopathy (infection prophylaxis during myeloma induction chemotherapy) |
-| TxGNN Prediction Score | 99.81% (rank 1391 of predicted indications) |
-| Evidence Level | L1 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-**Note on indication selection:** TxGNN's single highest-scoring prediction was *punctate epithelial keratoconjunctivitis* (99.92%), but the evidence review found this mechanistically weak (the disease is typically viral/microsporidial, not bacterial, so it falls outside levofloxacin's mechanism) and it carries only one tangentially relevant case-series citation — hence a **Hold** recommendation. Among all ten candidates reviewed, monoclonal gammopathy is the only one with a completed Phase 3 RCT, so it is presented here as the featured candidate. *Septicemic plague* (L2, "Proceed with Guardrails") is a second notable candidate — see note below.
+| Original Indication | Bacterial infections (general antibacterial use; the SAHPRA registration records provided contain no indication text) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 99.92% |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for levofloxacin was not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, levofloxacin is a fluoroquinolone that kills bacteria by inhibiting DNA gyrase and topoisomerase IV, giving it broad Gram-negative and Gram-positive coverage.
+Levofloxacin kills bacteria by inhibiting DNA gyrase and topoisomerase IV. Detailed mechanism-of-action data are not available in the DrugBank record supplied, so this description reflects the known pharmacology of the fluoroquinolone class.
 
-The link to monoclonal gammopathy is **not** a direct treatment effect on plasma-cell biology or immunoglobulin production. Instead, patients newly diagnosed with multiple myeloma (a monoclonal gammopathy) have profound humoral immunodeficiency and are at high risk of serious infection during induction chemotherapy and neutropenia. Levofloxacin's established antibacterial activity makes it useful as **infection-prophylaxis**, reducing bloodstream infections and febrile episodes in this vulnerable population — an indication that is adjacent to, rather than a cure for, the underlying disease.
+The only linked paper describes an outbreak of **microsporidial** keratoconjunctivitis linked to swimming pool water in Taiwan. Microsporidia are eukaryotic organisms, not bacteria, and are not a recognised target of fluoroquinolones. Any benefit would be indirect, for example covering a bacterial co-infection of the eye. Nothing in the data shows this.
 
-This is supported by the UK TEAMM trial (a multicentre, double-blind, placebo-controlled Phase 3 RCT in newly diagnosed myeloma patients), which found levofloxacin prophylaxis reduced febrile episodes and possible/definite infections without significantly increasing *Clostridioides difficile* infection or resistant-organism carriage. Several smaller cohort studies in autologous stem-cell transplant and bortezomib-treated myeloma populations report consistent findings.
+The high TxGNN score (99.92%) is therefore not backed by a plausible pharmacological rationale. It probably reflects proximity in the knowledge graph rather than demonstrated benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (the supporting TEAMM trial appears in the literature evidence below rather than the clinical-trials evidence field of this pack).
+Currently no related clinical trials registered.
 
 ---
 
@@ -73,24 +72,20 @@ Currently no related clinical trials registered (the supporting TEAMM trial appe
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31668592](https://pubmed.ncbi.nlm.nih.gov/31668592/) | 2019 | RCT | The Lancet. Oncology | TEAMM trial: prophylactic levofloxacin in newly diagnosed myeloma reduced febrile episodes and infections vs placebo in a multicentre, double-blind, placebo-controlled Phase 3 RCT |
-| [29080369](https://pubmed.ncbi.nlm.nih.gov/29080369/) | 2018 | RCT | Clinical Transplantation | Retrospective comparison of ciprofloxacin vs levofloxacin prophylaxis in 297 autologous HSCT patients treated for multiple myeloma |
-| [26150022](https://pubmed.ncbi.nlm.nih.gov/26150022/) | 2015 | Cohort | Biol Blood Marrow Transplant | Levofloxacin prophylaxis reduced bloodstream infection and fever/neutropenia rates in myeloma patients undergoing autologous HSCT |
-| [37573150](https://pubmed.ncbi.nlm.nih.gov/37573150/) | 2023 | Cohort | Transplant Infectious Disease | Characterizes infectious complications after autologous HCT in myeloma patients with/without levofloxacin prophylaxis |
-| [25212681](https://pubmed.ncbi.nlm.nih.gov/25212681/) | 2014 | Cohort | International Journal of Hematology | Prophylactic oral levofloxacin reduced severe infection in 80 myeloma patients on bortezomib-based regimens |
-| [15791505](https://pubmed.ncbi.nlm.nih.gov/15791505/) | 2005 | Cohort | Clinical Infectious Diseases | Fluoroquinolone prophylaxis associated with reduced infection-related mortality in neutropenic hematologic malignancy patients |
-| [32304873](https://pubmed.ncbi.nlm.nih.gov/32304873/) | 2020 | Retrospective review | Biol Blood Marrow Transplant | Retrospective review of fluoroquinolone prophylaxis in autologous SCT — supports reconsidering routine use |
-| [32172361](https://pubmed.ncbi.nlm.nih.gov/32172361/) | 2020 | Review | Curr Hematol Malig Rep | Supportive care review in multiple myeloma, covering infection-prevention strategies including antibiotic prophylaxis |
-| [31690402](https://pubmed.ncbi.nlm.nih.gov/31690402/) | 2019 | HTA Report | Health Technology Assessment | Full TEAMM RCT health-technology-assessment report on prophylactic levofloxacin in newly diagnosed symptomatic myeloma |
-| [25591868](https://pubmed.ncbi.nlm.nih.gov/25591868/) | 2016 | Case Report | J Oncol Pharm Pract | Case of acute kidney injury from crystal nephropathy associated with combined pomalidomide and levofloxacin use — relevant safety signal for this population |
-
-*Note: This is an antibiotic-prophylaxis indication, not a cytotoxic anticancer indication for levofloxacin itself — the myeloma is treated by other agents; levofloxacin's role is infection prevention.*
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Outbreak report | American Journal of Ophthalmology | Reports an outbreak of microsporidial keratoconjunctivitis linked to water contamination in swimming pools in Taiwan. It does not evaluate levofloxacin as a treatment. |
 
 ---
 
 ## South Africa Market Information
 
-Levofloxacin has **no active SAHPRA registrations** in this evidence pack (0 licenses, market status "Not Marketed"). No product name, dosage form, or approved indication text is available to report.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 44/20.1.1/0249 | Zybact 250 Mg | Tablet | Not stated in the registration data |
+| A39/20.1.1/0578 | Levofloxacin-winthrop IV sol for infusion | Infusion | Not stated in the registration data |
+| 42/20.1.1/0632 | Lintrip 250 | Tablet | Not stated in the registration data |
+| 46/20.1.1/0978 | Levojub 500 | Film-coated tablet (Fct) | Not stated in the registration data |
+
+The available registrations cover oral tablets and an intravenous infusion. No ophthalmic (eye drop) product appears among them. This matters for the predicted eye indication.
 
 ---
 
@@ -98,25 +93,31 @@ Levofloxacin has **no active SAHPRA registrations** in this evidence pack (0 lic
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*Additional context from the literature review above: one case report describes acute kidney injury (crystal nephropathy) when levofloxacin was co-administered with pomalidomide in a myeloma patient — this combination should be flagged for renal monitoring if prophylactic levofloxacin is considered alongside immunomodulatory myeloma therapy.*
+No drug interaction records were found in the data provided. Fluoroquinolone class warnings (tendon, QT prolongation, CNS effects, peripheral neuropathy) apply in general, so check the PI before any use.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 3 RCT (TEAMM) plus multiple supportive cohort studies establish that levofloxacin prophylaxis reduces febrile/infectious complications in newly diagnosed myeloma patients during induction therapy or transplant-related neutropenia. This is an infection-prevention use, not a direct treatment for the malignancy, so the indication scope must be defined narrowly (prophylaxis during defined periods of immunosuppression/neutropenia) rather than as general treatment of monoclonal gammopathy.
+The prediction rests on a single outbreak report about a non-bacterial pathogen, with no trials and no plausible mechanism. Model output alone does not justify further work on this indication.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-equivalent Professional Information (PI) warnings and contraindications — currently a Blocking data gap (DG001), required before any safety assessment
-- Detailed mechanism-of-action documentation (DG002)
-- A SAHPRA regulatory pathway assessment, since levofloxacin has no current South African registration (market entry or import mechanism would be a prerequisite for any prophylactic-use protocol)
-- Local antimicrobial-stewardship review, given fluoroquinolone resistance and *C. difficile* risk considerations raised in the TEAMM trial literature
-- Renal-safety monitoring protocol for co-administration with immunomodulatory myeloma agents (per the pomalidomide case report above)
+- Evidence that levofloxacin has clinical benefit in punctate epithelial keratoconjunctivitis, such as ophthalmic studies or trials
+- Confirmation of a suitable ophthalmic formulation, since only oral and IV products are registered locally
+- The SAHPRA Professional Information, to complete the safety review
 
-**Other candidate of note (not detailed above):** *Septicemic plague* (evidence level L2, "Proceed with Guardrails") is supported by non-human-primate efficacy data underlying a 2012 US FDA Animal Rule approval; any use in South Africa would need an independent regulatory pathway assessment. The remaining eight predicted indications in this batch (punctate epithelial keratoconjunctivitis, hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, premalignant hematological disease, hematological disease with acquired peripheral neuropathy, congenital hematological disorder) have evidence level L4–L5 with no or only incidental supporting literature and are recommended **Hold**.
+**Other predicted indications for this drug (for reference):**
+- **Monoclonal gammopathy (myeloma infection prophylaxis)**: L1 evidence, including the TEAMM phase 3 RCT (PMID 31668592). Levofloxacin prevents infections here rather than treating the plasma-cell disorder. Decision: Proceed with Guardrails.
+- **Septicemic plague**: L4 evidence, from animal models only. Decision: Proceed with Guardrails.
+
+These two are much better supported than the eye indication and may be the better candidates to pursue.
+
+---
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

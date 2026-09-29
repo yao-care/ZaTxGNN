@@ -2,7 +2,7 @@
 layout: default
 title: Sodium Citrate
 parent: Model Prediction Only (L5)
-nav_order: 411
+nav_order: 419
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Citrate: From Original Indication Not on File to Papillary Conjunctivitis
+# Sodium Citrate: From an Unspecified Registered Indication to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Sodium citrate's original approved indication and mechanism of action are not recorded in the current evidence pack. The TxGNN model predicts potential efficacy for **Papillary Conjunctivitis**, but this is currently supported by **0 clinical trials** and **0 publications** — the prediction reflects only the AI model's score, with no corroborating clinical or mechanistic evidence.
+Sodium citrate is registered in South Africa, mainly in oral tablets and syrups, but the registration records supplied do not state its approved indication.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**.
+This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no original indication recorded; MOA data not on file) |
-| Predicted New Indication | Papillary Conjunctivitis |
-| TxGNN Prediction Score | 99.95% (rank 522) |
-| Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Original Indication | Not stated in the supplied registration records |
+| Predicted New Indication | Papillary conjunctivitis |
+| TxGNN Prediction Score | 99.95% |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 16 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for sodium citrate is not available in this evidence pack, and no original approved indication is on file either. Sodium citrate is a citrate salt used in various pharmaceutical contexts, but without confirmed original-indication or MOA data here, no validated pharmacological link to the predicted new indication can be established.
+Currently, detailed mechanism of action data is not available. Sodium citrate's original mechanism could not be retrieved, and the registration records give no approved indication. Without either, the link between its established use and papillary conjunctivitis cannot be assessed.
 
-For papillary conjunctivitis specifically, the evidence pack found **no clinical trials and no published literature** connecting sodium citrate to this condition, and no identifiable mechanistic relationship was found. The prediction rests solely on the TxGNN knowledge-graph model's score (99.95%, ranked 522 out of all candidate diseases evaluated for this drug).
+No plausible mechanism for this prediction is documented in the supplied data. The high TxGNN score (99.95%) reflects a pattern in the knowledge graph, not evidence that the drug works in this condition.
 
-Because there is neither prior indication data nor mechanistic rationale to anchor the prediction, its biological plausibility cannot currently be assessed. This candidate would require independent mechanistic or preclinical investigation before it can be meaningfully evaluated.
+Route of administration is also a concern. All registered sodium citrate products found are oral (tablets) or syrups and solutions. Conjunctivitis would normally need an ophthalmic formulation, and none is registered.
 
 ## Clinical Trial Evidence
 
@@ -65,7 +67,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Sodium citrate currently has no SAHPRA registration on file (0 licenses) and its market status is **Not Marketed** in South Africa.
+Sodium citrate has 16 SAHPRA registrations. The five below are the main ones. Several product names suggest codeine-containing combination products, so sodium citrate may be one component among several. The records supplied do not include approved indication text or Essential Medicines List (EML) status.
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 43/2.6.5/0042 | Rispevon | Tablet |
+| Reg. No. Y/2.8/306 | Paincodein | Tablet |
+| Reg. No. G/10.1/1112 | Broncleer & cod unboxed | Syrup |
+| Reg. No. G998 (OM) | Tussilinct cough | Syrup |
+| Reg. No. G1053 (ACT 101 OF 1965) | Phenorant with codeine | Syrup |
 
 ## Safety Considerations
 
@@ -76,15 +86,18 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (papillary conjunctivitis) has zero clinical trial or literature support and no identifiable mechanistic link — evidence level L5 means this is a model-prediction-only signal. Combined with missing original-indication, MOA, and PI safety data (a Blocking-severity data gap), there is currently no basis to advance this candidate past initial screening.
+The prediction is model-only (L5), with no trials, no literature, no documented mechanism and no ophthalmic product registered. Safety information from the package inserts is also missing.
+
+Other predicted indications are similarly weak. Only "stomach disease" has any supporting material (L4), and that is limited to in vitro gastric cancer cell studies, with no clinical evidence.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information (PI) for warnings, contraindications, and DDI data
-- Confirmation of sodium citrate's original approved indication(s) and mechanism of action
-- Preclinical or mechanistic research establishing biological plausibility for papillary conjunctivitis
-- Ongoing monitoring for emerging clinical trials or literature on this drug-disease pair
+- SAHPRA package insert warnings and contraindications, downloaded from the SAHPRA website
+- Mechanism of action data (for example, from the DrugBank API)
+- The approved indication for each registered product, to establish the original use
+- Evidence that a suitable ophthalmic formulation and route is feasible
+- Any clinical or preclinical study of sodium citrate in papillary conjunctivitis
 
-*Note: Two other TxGNN-predicted indications for this drug — stomach disease (rank 4) and intestinal obstruction (rank 10) — reached evidence level L4/decision stage S1 with some supportive trial and literature signals, and may warrant separate evaluation as more promising leads than the top-ranked prediction.*
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Cefpodoxime
 parent: Model Prediction Only (L5)
-nav_order: 103
+nav_order: 104
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,76 +33,65 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Cefpodoxime is a third-generation oral cephalosporin antibiotic, originally indicated for the treatment of bacterial infections including upper and lower respiratory tract infections and urinary tract infections.
-The TxGNN model predicts it may have activity against **Osteoarthritis Susceptibility** (top-ranked indication),
-however **no supporting clinical trials or published literature** currently exist for this repurposing direction, placing the evidence at the lowest confidence tier (**L5 — model prediction only**).
-
-Notably, all 10 top-ranked TxGNN predictions for this drug fall within musculoskeletal, skeletal dysplasia, or connective tissue disease clusters, a pattern consistent with a knowledge graph clustering artefact rather than independent mechanistic signals.
-
----
+Cefpodoxime is an oral third-generation cephalosporin antibiotic, used to treat bacterial infections.
+The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility**, but **0 clinical trials** and **0 publications** currently support this direction.
+This is a model-only prediction and should be treated as a hypothesis, not an actionable repurposing candidate.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (cephalosporin antibiotic class; not registered with SAHPRA) |
-| Predicted New Indication | Osteoarthritis Susceptibility |
+|------|------|
+| Original Indication | Not stated in the SAHPRA registration data (antibacterial cephalosporin) |
+| Predicted New Indication | Osteoarthritis susceptibility |
 | TxGNN Prediction Score | 99.35% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacological class information, Cefpodoxime is a third-generation cephalosporin antibiotic (beta-lactam class) whose antibacterial efficacy is established via inhibition of bacterial cell wall synthesis (penicillin-binding protein inhibition). It has no known cartilage-protective, matrix metalloproteinase (MMP)-inhibitory, or osteoarthritis-modifying activity.
+Currently, detailed mechanism of action data is not available in the record. Cefpodoxime is a third-generation cephalosporin. As a class, these drugs inhibit bacterial cell wall synthesis by binding penicillin-binding proteins. Its efficacy is in bacterial infections.
 
-The repurposing rationale analysis in this Evidence Pack explicitly identifies **no direct mechanistic link** between cefpodoxime and osteoarthritis susceptibility. While some antibiotic classes have genuine musculoskeletal research precedents — for example, tetracyclines such as doxycycline and minocycline have been investigated for MMP-3/MMP-13 inhibition in OA, and minocycline has Level 1 RCT data (the MIRA trial) in rheumatoid arthritis — **these mechanisms do not apply to the beta-lactam class**. Cefpodoxime has no immune-modulatory activity and no published data in any joint disease setting.
+**No established mechanistic link to osteoarthritis susceptibility was identified.** No human target relevant to genetic susceptibility to osteoarthritis is documented for cefpodoxime. The high TxGNN score (99.35%) comes from the knowledge-graph model alone, with no trial or publication behind it.
 
-The high TxGNN scores across all 10 predictions (0.986–0.993), spanning osteoarthritis, rheumatoid arthritis, skeletal dysplasias (brachyolmia, pseudoachondroplasia, acromesomelic dysplasia), and rare syndromes (colobomatous microphthalmia-rhizomelic dysplasia), are most parsimoniously explained by **musculoskeletal disease cluster proximity in the knowledge graph** rather than genuine pharmacological predictions. The near-identical score banding across unrelated skeletal conditions strongly supports a systematic cluster-scoring phenomenon rather than individual mechanistic signals.
-
----
+The other top-ranked predictions show the same pattern. All have scores of 98.6–99.2% and no supporting trials or literature:
+- **Osteoarthritis** (99.25%) and **rheumatoid arthritis** (99.24%): no known analgesic, disease-modifying or immunomodulatory action of cefpodoxime.
+- **Hemoglobinopathy** (98.84%): an inherited globin disorder. Any use would be indirect, such as infection prophylaxis, which is not a repurposing indication.
+- **Rare skeletal and developmental dysplasias** (brachyolmia, acromesomelic dysplasia Hunter-Thompson type, pseudoachondroplasia, brachyolmia-amelogenesis imperfecta syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome) and **myosclerosis**: genetic conditions with no plausible antibacterial mechanism. These are likely knowledge-graph artifacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR records were not identified in the evidence pack).
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## South Africa Market Information
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 54/20.1.1/0469 | Cefpodoxime 100 Mg Ascend | Tablet (oral) | Not stated in registration record |
+| Reg. No. 43/20.1.1/0245 | Orchid Cefpodoxime 40 Mg/ 5 Ml | Suspension | Not stated in registration record |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA via [https://www.sahpra.org.za](https://www.sahpra.org.za).
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-> **Note:** As cefpodoxime is not currently registered in South Africa, clinicians should consult the originator product's Professional Information from its country of registration and apply standard cephalosporin class precautions, including allergy history screening (cross-reactivity with penicillins) and renal dose adjustment.
-
----
+No drug-interaction records were found for this drug in the evidence pack.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All predicted indications for cefpodoxime are classified at evidence level L5 (model prediction only), with zero supporting clinical trials or publications identified across all 10 queried disease–drug pairs. The predicted indications — predominantly skeletal dysplasias, connective tissue diseases, and rare congenital syndromes — bear no established mechanistic connection to a beta-lactam antibiotic, and the scoring pattern is consistent with a knowledge graph clustering artefact. There is currently no scientific basis to advance this drug toward repurposing investigation for any of the predicted indications.
+The prediction rests on model output alone (evidence level L5). There are no clinical trials or publications, and no plausible mechanism links an antibacterial cephalosporin to osteoarthritis susceptibility or the other predicted conditions. Using an antibiotic outside its infection indications also carries antimicrobial-resistance concerns.
 
-**To proceed, the following would be needed:**
-
-- Formal MOA characterisation confirming any plausible non-antibacterial activity (e.g., anti-inflammatory, MMP-inhibitory, or immune-modulatory effects) — none are currently documented
-- At least one peer-reviewed hypothesis paper or preclinical study linking cefpodoxime to musculoskeletal or cartilage biology before clinical investigation could be ethically or scientifically justified
-- SAHPRA registration data and an approved Professional Information document, as the drug has no current South African regulatory status
-- Independent review of the TxGNN knowledge graph to assess whether the musculoskeletal cluster artefact affects other beta-lactam predictions systematically
-- If osteoarthritis is the therapeutic area of interest, exploration of better-evidenced antibiotic candidates (e.g., doxycycline, minocycline) with existing human data should be prioritised over cefpodoxime
-
----
-
-> **Disclaimer:** This report is for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application. This assessment is based on data available as of 5 April 2026.
+**To proceed, the following is needed:**
+- SAHPRA Professional Information (package insert) for warnings and contraindications, so that safety screening can begin
+- Mechanism of action data (for example from DrugBank) to test whether any human-target link exists
+- Any preclinical or observational evidence connecting cefpodoxime to osteoarthritis or rheumatoid arthritis. Without it, the candidate should not advance beyond model prediction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

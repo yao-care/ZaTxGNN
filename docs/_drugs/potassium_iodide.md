@@ -2,7 +2,7 @@
 layout: default
 title: Potassium Iodide
 parent: Model Prediction Only (L5)
-nav_order: 370
+nav_order: 378
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the drug-repurposing evaluation report format to turn this Evidence Pack into the SA pharmacist-facing report.
-
-# Potassium Iodide: From Undocumented Original Indication(s) to Nasal Cavity Disease
+# Potassium Iodide: From Parenteral Trace Element Products to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Potassium iodide's original indication and mechanism of action are not documented in this evidence pack (both flagged as data gaps); it is not currently marketed in South Africa. The TxGNN model predicts potential activity against **Nasal Cavity Disease**, but this is currently supported only by **4 case-report publications** (no clinical trials), most of them veterinary rather than human data.
-
----
+Potassium iodide (KI) is registered in South Africa as an ingredient of three infusion products (Peditrace, Addaven and Nutryelt), whose names suggest parenteral trace-element supplementation. The registered indication text was not supplied. The TxGNN model predicts it may be useful for **nasal cavity disease**, but there are **0 clinical trials** and only **4 case reports** (3 veterinary, 1 human), so the evidence is anecdotal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in evidence pack (data gap — no `original_indications` or SAHPRA/TFDA license text available) |
-| Predicted New Indication | Nasal Cavity Disease |
+| Original Indication | Not supplied in the SAHPRA records |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 (case reports/mechanistic reasoning only, no controlled trials) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 (case-report level only; no trials) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for potassium iodide in this evidence pack. Based on the literature that did surface, potassium iodide (as a saturated solution, SSKI) has a long-standing history as an antifungal agent for subcutaneous and mucosal mycoses (e.g. sporotrichosis, pythiosis, entomophthoromycosis), which is thought to relate to direct iodide antifungal activity and host immune modulation.
+Currently, detailed mechanism of action data is not available. KI is a long-established iodide salt. In the retrieved literature it has been used empirically against fungal and fungus-like infections, which is the only plausible link to nasal disease in this data.
 
-The predicted indication — nasal cavity disease — aligns with this established off-label antifungal use: three of the four supporting publications describe successful treatment of fungal infections of the nasal cavity (rhinofacial pythiosis in sheep, mycotic rhinitis in a horse, *Pseudallescheria boydii* nasal infection in a horse) and one describes nasofacial zygomycosis in a human patient responding to potassium iodide therapy. This gives the prediction biological plausibility.
+The four case reports describe KI given for rhinofacial pythiosis in sheep, mycotic rhinitis in a horse, and a *Pseudallescheria boydii* nasal infection in a horse (as sodium iodide IV, alongside miconazole). The one human report is a nasofacial zygomycosis case that responded rapidly to KI. The pattern is infectious or fungal nasal disease, not nasal disease in general.
 
-However, the evidence base is thin and skewed: three of the four reports are veterinary (sheep, horse) rather than human, all are single case reports (no controlled comparison), and the most recent human case report dates to 1994. There is no clinical trial evidence for this specific indication, and the drug's original approved indication(s) are not on file, which limits any mechanistic comparison to a known original use.
-
----
+The TxGNN score is very high (99.95%), but a model score is not clinical evidence. The prediction should be treated as a research question, not a treatment recommendation.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Nasal Cavity Disease.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7997795](https://pubmed.ncbi.nlm.nih.gov/7997795/) | 1994 | Case Report | Rev Inst Med Trop Sao Paulo | Human nasofacial zygomycosis case; rapid response to potassium iodide therapy |
-| [39576399](https://pubmed.ncbi.nlm.nih.gov/39576399/) | 2024 | Case Report | Veterinary Research Communications | Mycotic rhinitis (Aspergillus fumigatus) in a horse; treated with topical clotrimazole plus oral potassium iodide |
-| [34902797](https://pubmed.ncbi.nlm.nih.gov/34902797/) | 2022 | Case Report | Journal de Mycologie Médicale | Rhinofacial pythiosis in sheep successfully treated with potassium iodide |
-| [10976304](https://pubmed.ncbi.nlm.nih.gov/10976304/) | 2000 | Case Report | J Am Vet Med Assoc | *Pseudallescheria boydii* nasal cavity infection in a horse; treated with intranasal miconazole plus sodium iodide |
-
----
+| [34902797](https://pubmed.ncbi.nlm.nih.gov/34902797/) | 2022 | Case report (veterinary) | J Mycol Med | Successful KI treatment of rhinofacial pythiosis in sheep |
+| [39576399](https://pubmed.ncbi.nlm.nih.gov/39576399/) | 2024 | Case report (veterinary) | Vet Res Commun | Mycotic rhinitis (*Aspergillus fumigatus*) in a mare treated with topical clotrimazole plus oral KI |
+| [10976304](https://pubmed.ncbi.nlm.nih.gov/10976304/) | 2000 | Case report (veterinary) | J Am Vet Med Assoc | *Pseudallescheria boydii* nasal cavity infection in a horse; treated with intranasal miconazole and IV sodium iodide |
+| [7997795](https://pubmed.ncbi.nlm.nih.gov/7997795/) | 1994 | Case report (human) | Rev Inst Med Trop Sao Paulo | Nasofacial zygomycosis in a 64-year-old woman with rapid response to KI |
 
 ## South Africa Market Information
 
-Potassium iodide currently has no SAHPRA registrations on file and is not marketed in South Africa (0 licenses recorded). No product/dosage-form information is available to summarise here.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 29/24/0462 | Peditrace 10ml pdp100010 | Infusion |
+| Reg. No. 49/24/0996 | Addaven | Infusion |
+| Reg. No. 52/24/0031 | Nutryelt | Infusion |
 
----
+All three are injectable infusions. No intranasal or oral KI products appear in the registrations supplied, so the route used in the case reports (oral or topical) is not covered by any listed product.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-**Additional flag from this evidence pack:** while reviewing other TxGNN-predicted indications for this drug, allergic urticaria was flagged — the rationale explicitly notes that potassium iodide is a *known cause* of iodide-induced urticaria/vasculitis (an adverse reaction), not a treatment for it. This is a reminder to review iodide hypersensitivity history before any off-label antifungal use is considered.
-
----
+Two safety signals appeared in the retrieved literature for other predicted indications and are relevant to any repurposing use:
+- **Iodide hypersensitivity** is a known adverse reaction.
+- A 1972 case report describes **congenital goiter after maternal iodide ingestion**, which is relevant to use in pregnancy.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- Evidence for nasal cavity disease is limited to four case reports (mostly veterinary), with no clinical trials, and the drug is not currently marketed in South Africa.
-- Most critically, TFDA/SAHPRA-equivalent product warnings and contraindications are a **Blocking** data gap — the pack itself notes this prevents even an initial (S1) safety evaluation, so no repurposing decision can responsibly proceed yet.
+The only support is four case reports, mostly veterinary, in fungal nasal infections, with no clinical trials. A high model score alone does not justify moving forward, and the SAHPRA safety information has not yet been reviewed.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI): warnings, contraindications, and drug interactions (currently a Blocking data gap)
-- Mechanism of action data from DrugBank or equivalent source (currently a High-severity data gap)
-- The drug's documented original/approved indication(s), to enable a proper mechanistic comparison
-- Human clinical evidence (ideally comparative) for antifungal use in nasal/sinus mycosis, given current data is almost entirely veterinary case reports
-- Screening for iodide hypersensitivity history given the urticaria/vasculitis signal noted elsewhere in this evidence pack
+- SAHPRA package insert warnings and contraindications, which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- The registered indication text for the three infusion products
+- A clear target: fungal (e.g. zygomycosis, sporotrichosis-type) versus non-infectious nasal disease
+- Human clinical evidence for the nasal indication, since no trials are currently registered
+- A route-compatibility assessment, because the registered products are infusions only
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

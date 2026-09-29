@@ -2,15 +2,15 @@
 layout: default
 title: Fenofibrate
 parent: Moderate Evidence (L3-L4)
-nav_order: 219
-evidence_level: L3
+nav_order: 223
+evidence_level: L4
 indication_count: 7
 ---
 
 # Fenofibrate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,83 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-# Fenofibrate: From Dyslipidemia to Homozygous Familial Hypercholesterolemia
+# Fenofibrate: From Dyslipidaemia to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-> Fenofibrate is a fibrate-class, PPARα-agonist lipid-lowering agent whose core, well-established use is the treatment of hyperlipoproteinemia/dyslipidemia.
-> The TxGNN model predicts it may also be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**,
-> but this specific direction is currently supported by only **1 clinical trial** and **11 publications**, and the trial evidence itself is compromised — see below.
-
----
+Fenofibrate is a lipid-lowering drug, and the pack lists no approved indication text for it in South Africa. The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia (HoFH)**.
+The evidence is weak: **1 clinical trial** was retrieved, and it tests a different drug (alirocumab), plus **11 publications**, mostly reviews and older small studies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no SAHPRA/TFDA license data available). The pack's own mechanistic notes describe fenofibrate as a PPARα agonist whose established core use is hyperlipoproteinemia/dyslipidemia. |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia (HoFH) |
+| Original Indication | Not recorded in the SAHPRA data supplied (fenofibrate is generally used for dyslipidaemia) |
+| Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 99.91% |
-| Evidence Level | L3 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for fenofibrate is not available in this evidence pack (flagged as a High-severity data gap). Based on the mechanistic notes accompanying the model's other predictions, fenofibrate is a fibric-acid derivative and PPARα agonist: it activates lipoprotein lipase (LPL) and lowers ApoC-III, producing large reductions in triglycerides, modest LDL-C lowering, and increases in HDL-C. This is the pharmacological basis for its established use across the hyperlipoproteinemia spectrum (Types IIa/IIb/III/IV/V).
+Detailed mechanism of action data is not available in the pack. Fenofibrate is a PPARalpha agonist. It mainly lowers triglycerides by increasing lipoprotein lipase activity and reducing ApoC-III. It also lowers LDL-C modestly and raises HDL-C.
 
-HoFH, however, is a distinct and more extreme phenotype: it results from near-complete loss of functional LDL receptors, so LDL-C clearance is largely independent of the PPARα pathway that fenofibrate acts through. The model's own rationale for this candidate explicitly flags this as a weak mechanistic link, and notes that historical literature on fenofibrate in HoFH is limited to older, small studies in general Type II hyperlipidemia populations rather than confirmed HoFH cohorts.
+HoFH is caused by loss of LDL receptor function, and fenofibrate does not act on that pathway. The high TxGNN score most likely reflects a shared lipid-metabolism network neighbourhood, not a validated mechanism.
 
-**Important caveat:** The single clinical trial associated with this prediction (NCT03510715) does not actually test fenofibrate — it tests alirocumab (a PCSK9 inhibitor) in pediatric HoFH patients, and was linked here only because of disease-label overlap, not because it provides direct fenofibrate evidence. This significantly weakens the practical evidentiary basis for this specific indication, despite the high raw TxGNN score.
-
----
+Small older studies in familial hypercholesterolemia report modest LDL and apoB reductions. One 1984 cohort of type II hyperlipoproteinemia included a single HoFH patient, who showed the greatest fall in cholesterol. This is anecdotal. At best, fenofibrate would be an adjunct for residual triglycerides or mixed dyslipidaemia, not a primary LDL-lowering therapy.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Evaluated **alirocumab** (PCSK9 inhibitor), not fenofibrate, in children/adolescents with HoFH. Linked to this candidate only via disease-label overlap — not direct fenofibrate evidence and should not be relied upon to support this repurposing direction. |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Open-label alirocumab (a PCSK9 inhibitor) in children and adolescents aged 8-17 with HoFH. Fenofibrate is not studied, so this gives no direct evidence. It only shows HoFH is an active trial area. |
 
----
+No SANCTR or PACTR records were identified.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Cohort | Pharmacological Research Communications | 22 patients with Type II hyperlipoproteinemia treated with fenofibrate 300 mg/day; one patient with HoFH showed the greatest fall in total and LDL cholesterol — the most directly relevant human data found. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocrine Practice | AACE/ACE dyslipidemia management guideline; general framework for lipid-lowering therapy, not HoFH-specific. |
-| [24946816](https://pubmed.ncbi.nlm.nih.gov/24946816/) | 2014 | Review | Internal Medicine Journal | Liver transplantation for HoFH; discusses emerging lipid-lowering therapies as context, not fenofibrate efficacy data. |
-| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Review | Indian Heart Journal | Notes fenofibrate's most definite indication is severe hypertriglyceridemia (TG >500 mg/dL) to reduce pancreatitis risk — not positioned as an HoFH therapy. |
-| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Review | Annals of the NY Academy of Sciences | Reviews pharmacologic/surgical treatment of dyslipidemic children, listing fenofibrate among agents used, largely in non-HoFH familial hypercholesterolemia. |
-| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | Review | Indian Heart Journal | General review of LDL-C lowering with statins and PCSK9 inhibitors; fenofibrate not a focus. |
-| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | Pharmacokinetic study | Pharmacotherapy | Examines PK interactions of lomitapide (an approved HoFH adjunct) with commonly co-used lipid drugs including fenofibrate — relevant to co-administration safety, not fenofibrate monotherapy efficacy in HoFH. |
-| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Review | Current Atherosclerosis Reports | Dyslipidemia management in pregnancy; not specific to HoFH or fenofibrate. |
-| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Review | Pharmacotherapy | Reviews ezetimibe as a cholesterol absorption inhibitor; fenofibrate not discussed. |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Review | Drugs | Reviews atorvastatin pharmacology; included only via broad dyslipidemia topic overlap, not fenofibrate-specific. |
-
----
+| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Cohort | Pharmacol Res Commun | 22 type II hyperlipoproteinemia patients on fenofibrate 300 mg/day: LDL-C fell 24% (31% in familial hypercholesterolemia). One HoFH patient had the greatest fall. |
+| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Review | Indian Heart J | Non-statin drugs review. The most definite fenofibrate indication is fasting triglycerides >500 mg/dl, with a modest reduction in cardiovascular events. |
+| [24946816](https://pubmed.ncbi.nlm.nih.gov/24946816/) | 2014 | Review | Intern Med J | Liver transplantation for HoFH when standard drugs and LDL apheresis are insufficient. |
+| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Review | Ann N Y Acad Sci | Drug and surgical treatment of dyslipidaemic children. Fenofibrate is among agents that reduced lipids in familial hypercholesterolemia. |
+| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | Review | Indian Heart J | LDL-C lowering with statins and PCSK9 inhibitors. Indirect relevance. |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE dyslipidaemia management guideline. General context. |
+| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Review | Curr Atheroscler Rep | Dyslipidaemia management in pregnancy. Indirect relevance. |
+| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | Pharmacokinetic study | Pharmacotherapy | Lomitapide (approved for HoFH) pharmacokinetic interactions with lipid-lowering drugs, including fenofibrate. |
+| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Review | Pharmacotherapy | Ezetimibe review. Indirect relevance. |
+| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Review | Drugs | Atorvastatin review. Indirect relevance. |
 
 ## South Africa Market Information
 
-Fenofibrate is currently **not registered with SAHPRA** and has no licensed products recorded in this evidence pack (0 licenses, market status: Not Marketed).
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 52/7.5/0769 | Pravafen 40/160Mg | Capsule | Not stated in the data supplied |
 
----
+Pravafen is a fixed-dose pravastatin 40 mg / fenofibrate 160 mg combination. Essential Medicines List status is not available in the pack.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Note: Key warnings, contraindications, and TFDA PI data are flagged in this evidence pack as a Blocking-severity data gap — this must be resolved before any safety-related decision can be made.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link between fenofibrate's PPARα-mediated action and HoFH (a near-total LDL-receptor-deficiency disorder) is weak, and the only clinical trial associated with this specific candidate actually tests a different drug (alirocumab), not fenofibrate. The supporting literature is limited to small, decades-old cohort studies in general Type II hyperlipidemia rather than confirmed HoFH populations. Combined with the complete absence of SAHPRA registration and safety/PI data, this candidate does not currently meet the bar to proceed.
+The only retrieved trial for HoFH tests a different drug. The fenofibrate literature is small and old, and the mechanism does not address the LDL receptor defect. The evidence supports fenofibrate only as a possible adjunct for mixed dyslipidaemia, not as HoFH therapy.
+
+Rank 2, hyperlipoproteinemia, has L1 evidence (multiple completed Phase 3 RCTs of fenofibrate). It is essentially an established use of the drug rather than a new indication.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information (warnings, contraindications) — currently a Blocking data gap
-- Formal, validated mechanism-of-action documentation for fenofibrate — currently a High-severity data gap
-- Dedicated clinical evidence testing fenofibrate specifically (not PCSK9 inhibitors or other agents) in confirmed HoFH patients
-- Re-evaluation against the model's higher-confidence candidate, **hyperlipoproteinemia** (rank 2, Evidence Level L1, decision stage S3, "Proceed with Guardrails"), which the evidence pack itself notes is closer to fenofibrate's existing core pharmacological use rather than true repurposing, and may represent a more actionable near-term direction
+- The SAHPRA Professional Information (PI): approved indication, warnings and contraindications
+- Confirmed mechanism of action data
+- Fenofibrate-specific HoFH data, ideally a controlled study
+- Specialist lipid-clinic input on where fenofibrate could sit alongside PCSK9 inhibitors and lomitapide
+- Safety review for paediatric use and for interaction with other HoFH therapies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

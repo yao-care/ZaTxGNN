@@ -2,7 +2,7 @@
 layout: default
 title: Verapamil
 parent: Model Prediction Only (L5)
-nav_order: 458
+nav_order: 466
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,78 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Verapamil: From Cardiovascular Indications to Obsolete Bundle Branch Block
+# Verapamil: From Cardiovascular Calcium Channel Blocker to Bundle Branch Block (Obsolete Term)
 
 ## One-Sentence Summary
 
-Verapamil is a calcium channel blocker with an established cardiovascular pharmacology, though this evidence pack does not record its original approved indications or a sourced mechanism-of-action text. The TxGNN model's top-ranked prediction, **Obsolete Bundle Branch Block**, is not supported by any clinical trials or literature, and — more importantly — its own mechanistic rationale argues **against** benefit rather than for it. No candidate in this pack rises above weak, indirect evidence (L4 at best), so the overall recommendation is **Hold**.
-
----
+Verapamil is an L-type calcium channel blocker registered in South Africa in cardiovascular product categories, but the supplied registration data do not state its approved indications.
+The TxGNN model predicts it may be useful for **obsolete bundle branch block**, with **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is model output only, and the disease term is flagged "obsolete" in the ontology, so the high score is probably a knowledge-graph artifact.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no licenses or `original_indications` recorded) |
-| Predicted New Indication | Obsolete Bundle Branch Block ⚠️ (mechanistically contradictory — see below) |
+| Original Indication | Not stated in the SAHPRA registration data supplied |
+| Predicted New Indication | Obsolete bundle branch block |
 | TxGNN Prediction Score | 99.62% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 5 (4 unique registration numbers) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed, sourced mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, verapamil is a phenylalkylamine-class L-type calcium channel blocker with negative chronotropic, inotropic, and **dromotropic** (AV-conduction-slowing) effects, historically used for conditions such as hypertension, angina, and supraventricular arrhythmias.
+Currently, detailed mechanism of action data is not available in the DrugBank field. Verapamil is generally understood to be an L-type calcium channel blocker that slows atrioventricular (AV) nodal conduction.
 
-This negative-dromotropic action is precisely why the top-ranked prediction does not hold up mechanistically: bundle branch block and other severe cardiac conduction disorders are a **relative or absolute contraindication** for verapamil, not a target for treatment — the drug would be expected to worsen conduction delay rather than correct it. The disease label itself ("obsolete bundle branch block") also appears to be a deprecated/non-standard ontology term, which may explain why the model surfaced a high similarity score without any grounding in trials or literature.
+That mechanism is usually a safety concern in conduction disease, not a therapeutic rationale. Slowing conduction in a patient who already has a conduction defect, such as a bundle branch block, could worsen the problem. No mechanistic link to a benefit in this condition can be established from the data provided.
 
-For context, a lower-ranked candidate in the same pack — **malignant renovascular hypertension** (rank 2, score 99.27%) — has a more coherent mechanistic story (verapamil's vasodilatory/antihypertensive effect is pharmacologically plausible for any severe hypertension subtype) and is supported by two PubMed records, though both are only indirectly relevant (a review on aldosterone/renin ratio confounders and a pediatric case report) and rated Tier 3. This makes it a "Research Question" (S1) candidate rather than an actionable one, and is not the primary subject of this report per the ranking, but is noted here because it is more scientifically defensible than rank 1.
-
----
+The ontology flags the disease term as "obsolete". The 99.62% score (graph rank 2357) is therefore likely an artifact of how the knowledge graph maps the term. The term mapping should be verified before any further review.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered. No SANCTR, PACTR or ICTRP records were retrieved either.
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Verapamil is currently **not marketed** in South Africa under this evidence pack, with **0 SAHPRA registrations** on record. No product listings are available to summarize.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Q/7.1.4/161 | Verapamil 40 Oethmaan | Tablet | Not stated in supplied data |
+| 31/7.1/0637 | Verahexal 240 SR | Sustained-release tablet | Not stated in supplied data |
+| 31/7.1.3/0631 | Tarka | Sustained-release (Src) | Not stated in supplied data |
+| A39/7.1.3/0508 | Tarka 180mg/2mg | Sustained-release tablet | Not stated in supplied data |
 
----
+- The Tarka 180mg/2mg registration (A39/7.1.3/0508) appears twice in the source data and is shown once here.
+- Tarka appears to be a fixed-dose combination product containing verapamil. Confirm its composition against the PI.
+- Essential Medicines List (EML) status was not included in the data supplied.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Conduction disease:** Verapamil slows AV nodal conduction. This is a potential safety concern, not a benefit, in conduction disorders such as bundle branch block.
 
-Note: retrieval of the manufacturer's warnings/contraindications text is flagged as a **Blocking** data gap in this pack — it must be resolved before any formal safety (S1) review can proceed.
-
----
+No warnings, contraindications or drug interaction records were available in the supplied data. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked predicted indication (obsolete bundle branch block) is contradicted by verapamil's own pharmacology — its conduction-slowing effect would be expected to worsen, not treat, this condition — and has zero supporting trials or literature (L5).
-- No candidate in the full prediction set exceeds L4 evidence, and none has any completed clinical trial support.
-- Verapamil has no current SAHPRA registration in this dataset, and a Blocking data gap (missing PI warnings/contraindications) prevents any preliminary safety assessment.
+The prediction rests on model output alone (L5), with no trials or literature. The target disease term is obsolete, and verapamil's known conduction-slowing effect argues against a therapeutic role.
+
+**Other predicted indications (for context):**
+
+| Predicted Indication | Score | Evidence Level | Note |
+|------|------|------|------|
+| Malignant renovascular hypertension | 99.27% | L4 | Plausible vasodilation link, but the 2 retrieved papers are indirect and do not test verapamil. Suggested as a research question. |
+| Malignant hypertensive renal disease | 99.27% | L5 | Same score as the renovascular entry, suggesting a shared ontology parent. No evidence. |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.26% | L5 | The 20 retrieved papers are generic hypoxia literature, not verapamil-specific. Calcium channel blockers may worsen ventilation-perfusion matching in hypoxic lung disease. |
+| Pulmonary hypertension with unclear multifactorial mechanism | 99.26% | L5 | No evidence. Calcium channel blockers are generally limited to vasoreactive subsets. |
+| Braddock syndrome | 99.15% | L5 | No mechanistic link identified. |
+| Periodic paralysis with transient compartment-like syndrome | 99.08% | L5 | Ion channel involvement is conceivable, but there is no verapamil-specific evidence. |
 
 **To proceed, the following is needed:**
-- Retrieval of SAHPRA-approved PI text (warnings, contraindications, DDI) to close the Blocking data gap
-- A sourced, verified mechanism-of-action reference (e.g., DrugBank) rather than general pharmacology recall
-- Clarification of the "obsolete bundle branch block" ontology term and whether it maps to a clinically meaningful, current diagnosis
-- If pursuing repurposing further, prioritize the mechanistically coherent candidate (malignant renovascular hypertension) for a targeted literature/trial search rather than the top-scored but contradictory prediction
+- Verification of the "obsolete bundle branch block" term mapping in the knowledge graph
+- SAHPRA package insert warnings, contraindications and approved indications (blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A targeted literature review of calcium channel blockers in renovascular hypertension, the only prediction with any (indirect) literature
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

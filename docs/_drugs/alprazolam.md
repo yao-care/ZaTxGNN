@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Alprazolam
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 24
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,85 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Alprazolam: From Anxiety / Panic Disorder to Insomnia
+# Alprazolam: From Its Registered Indication (Not Stated in the Data) to Insomnia
 
 ## One-Sentence Summary
 
-Alprazolam is a benzodiazepine widely used internationally for anxiety disorders and panic disorder, acting by enhancing inhibitory GABA-A neurotransmission throughout the central nervous system.
-The TxGNN model predicts it may be effective for **Insomnia**, with a prediction confidence of **99.81%**;
-however, **no direct clinical trial or published literature** currently confirms alprazolam as a primary insomnia treatment, placing current evidence at Level 4 (mechanism-based only).
-
----
+Alprazolam is a benzodiazepine marketed in South Africa as tablets, but the data does not record its approved indication.
+The TxGNN model predicts it may be effective for **insomnia**, but **none of the 7 retrieved clinical trials tests alprazolam for insomnia** and **no supporting publications** were found.
+The prediction is therefore model-only for now.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Anxiety disorder / Panic disorder |
-| Predicted New Indication | Insomnia (disease) |
+|------|------|
+| Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.81% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 (the pack lists L4, but no mechanistic or preclinical study was retrieved) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 5 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Alprazolam is a triazolobenzodiazepine that potentiates GABA-A receptor-mediated chloride ion influx, increasing central inhibitory tone. This mechanism directly shortens sleep-onset latency and increases total sleep time — properties that are pharmacologically relevant to insomnia. The prediction is mechanistically sound: sleep and anxiety disorders both involve hyperarousal driven by GABA/glutamate imbalance and HPA axis dysregulation, and benzodiazepines have historically been used across both indications.
+Currently, detailed mechanism of action data is not available in the record. Alprazolam is a GABA-A positive allosteric modulator, and sedation is a plausible class effect of benzodiazepines. That gives a reasonable biological link to sleep problems.
 
-However, clinical suitability for insomnia is limited in practice. Shorter-acting Z-drugs (e.g., zolpidem) and low-dose sedating antidepressants are generally preferred for sleep induction; alprazolam's intermediate half-life (~11 hours), high abuse liability, and Schedule-controlled status place it well below first-line. Importantly, chronic use suppresses slow-wave sleep (SWS) and REM sleep, which can worsen overall sleep quality over time despite short-term benefit.
-
-From a South African perspective, the primary barrier is regulatory: alprazolam has **no SAHPRA registration** and is not marketed in South Africa. Even if evidence were stronger, a formal new drug application would be required before any clinical deployment. Modern insomnia management guidelines — including those aligned with WHO recommendations relevant to South African primary care — prioritise Cognitive Behavioural Therapy for Insomnia (CBT-I) as first-line, with pharmacotherapy as adjunctive only.
-
----
+The very high score (99.81%) most likely reflects closeness to other benzodiazepines in the knowledge graph. It does not show that alprazolam works for insomnia. Dependence, tolerance, withdrawal difficulty and safety in elderly patients also argue against advancing this indication without direct evidence.
 
 ## Clinical Trial Evidence
 
-The 7 trials retrieved for the alprazolam + insomnia query are largely tangential. None directly evaluates alprazolam as a primary treatment for chronic insomnia; they address BZD cessation, perioperative sedation, or different drugs entirely.
+None of the trials below tests alprazolam for insomnia. They are related only by drug family, setting or population.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | N/A | Unknown | 1,400 | Prospective cohort (Taiwan) examining risk-benefit of hypnotics including benzodiazepines in elderly patients with sleep disorders; assesses efficacy, safety, pharmacokinetics and pharmacogenetics — the most relevant trial for the BZD-insomnia question, but status is unknown |
-| [NCT00266409](https://clinicaltrials.gov/study/NCT00266409) | Phase 4 | Completed | 418 | Niravam™ (alprazolam ODT) combined with newly initiated SSRI/SNRI vs SSRI/SNRI alone in patients with GAD or panic disorder; anxiety-focused, not insomnia-focused |
-| [NCT04572750](https://clinicaltrials.gov/study/NCT04572750) | N/A | Completed | 170 | Electronic self-management programme to promote BZD cessation in US Veterans; cessation direction is opposite to evaluating insomnia efficacy — provides safety/dependence background only |
-| [NCT03327506](https://clinicaltrials.gov/study/NCT03327506) | Phase 4 | Unknown | 128 | Hypnosis vs alprazolam premedication for perioperative anxiety in gynaecological surgery; acute sedation, not chronic insomnia treatment |
-| [NCT01584440](https://clinicaltrials.gov/study/NCT01584440) | Phase 2 | Completed | 220 | AVP-923 (dextromethorphan/quinidine) for agitation in Alzheimer's disease; different drug and different indication |
-| [NCT01146600](https://clinicaltrials.gov/study/NCT01146600) | Phase 2 | Completed | 26 | Clarithromycin for hypersomnia (excessive sleepiness); different drug and opposite sleep disorder |
-| [NCT01893632](https://clinicaltrials.gov/study/NCT01893632) | Phase 2 | Terminated | 2 | Gabapentin for BZD dependence treatment; terminated early with only 2 participants enrolled — highlights BZD dependence risks rather than insomnia efficacy |
-
----
+| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | N/A (cohort) | Unknown | 1400 | Prospective cohort on risks and benefits of hypnotics for sleep disorders in elderly patients in Taiwan. Relevant to safety context; alprazolam-specific data unconfirmed |
+| [NCT04572750](https://clinicaltrials.gov/study/NCT04572750) | N/A | Completed | 170 | Self-management intervention to stop benzodiazepines in Veterans. About cessation, not efficacy |
+| [NCT03327506](https://clinicaltrials.gov/study/NCT03327506) | Phase 4 | Unknown | 128 | Hypnosis vs alprazolam premedication for perioperative anxiety. Anxiety setting, not insomnia |
+| [NCT00266409](https://clinicaltrials.gov/study/NCT00266409) | Phase 4 | Completed | 418 | Niravam (alprazolam) plus SSRI/SNRI vs SSRI/SNRI alone in generalised anxiety or panic disorder. Not insomnia |
+| [NCT01584440](https://clinicaltrials.gov/study/NCT01584440) | Phase 2 | Completed | 220 | AVP-923 vs placebo for agitation in Alzheimer's disease. Role of alprazolam unverified |
+| [NCT01146600](https://clinicaltrials.gov/study/NCT01146600) | Phase 2 | Completed | 26 | Clarithromycin for hypersomnia. Different drug and condition |
+| [NCT01893632](https://clinicaltrials.gov/study/NCT01893632) | Phase 2 | Terminated | 2 | Gabapentin for benzodiazepine dependence. Ended early; no efficacy information for alprazolam |
 
 ## Literature Evidence
 
-Currently no related literature directly evaluating alprazolam for insomnia is available.
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
-Alprazolam is **not currently registered with SAHPRA** and is not marketed in South Africa. No product licences are on record, and no dosage forms are available through registered channels. This constitutes a significant regulatory barrier: clinical use would require either a Section 21 unregistered medicine authorisation (for individual patients) or a full SAHPRA new drug application for any systematic repurposing programme.
+Five SAHPRA registrations were found, all oral tablets. The approved indication text and manufacturer are not recorded for any of them.
 
-> Healthcare professionals considering use under Section 21 should note that alprazolam is internationally classified as a controlled substance (Schedule IV in the USA; equivalent scheduling would apply in South Africa under the Medicines and Related Substances Act).
-
----
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 28/2.6/0001 | Biozane | Tablet |
+| Reg. No. 29/2.6/0182 | Azor | Tablet |
+| Reg. No. 30/2.6/0264 | Zopax | Tablet |
+| Reg. No. 31/2.6/0241 | Coprax | Tablet |
+| Reg. No. 32/2.6/0372 | Mylan alprazolam | Tablet |
 
 ## Safety Considerations
 
-Alprazolam has no SAHPRA-approved Professional Information (PI). Prescribers should consult the manufacturer's international prescribing information (FDA label, EMA SmPC). Based on internationally recognised data, the following are key considerations:
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-- **Dependence and withdrawal**: Physical dependence develops with regular use beyond 2–4 weeks; abrupt discontinuation can precipitate withdrawal seizures, requiring gradual taper
-- **Sedation and psychomotor impairment**: Falls, road traffic accidents, and cognitive impairment are significant risks, particularly in patients over 65
-- **Sleep architecture disruption**: Chronic use suppresses slow-wave sleep and REM sleep — potentially worsening the very condition being treated
-- **Respiratory depression**: Risk is substantially increased when co-administered with opioids, alcohol, or other CNS depressants; potentially fatal combinations
-- **Anterograde amnesia**: Documented in controlled studies with agoraphobia/panic patients receiving alprazolam
+Concerns raised in the evidence review for this drug class and use:
+- **Dependence, tolerance and withdrawal**: A 1988 controlled discontinuation report documents difficulty stopping alprazolam.
+- **Elderly patients**: Safety concerns argue against use without direct evidence.
 
-Report any adverse drug reactions to SAHPRA at [https://www.sahpra.org.za](https://www.sahpra.org.za).
-
----
+No drug interaction records were found in the database query.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction is mechanistically plausible — alprazolam's GABA-A enhancement does produce sedative-hypnotic effects relevant to insomnia. However, no dedicated clinical trial or published literature directly supports alprazolam for insomnia as a primary indication, evidence remains at L4 (mechanism-based only), and the drug has no SAHPRA registration in South Africa. Proceeding without stronger evidence and regulatory standing would not meet standard of care requirements.
+The insomnia prediction rests on a strong model score and a plausible class effect. There is no trial or publication testing alprazolam for insomnia, and the dependence and withdrawal risks are well documented.
 
-> **Important secondary finding:** The TxGNN model also predicted alprazolam for **Agoraphobia** (rank 3, TxGNN score 99.56%), which carries **L1 evidence** — supported by multiple completed multicentre RCTs published in *Archives of General Psychiatry* (1988), the *British Journal of Psychiatry* (1993, 1994), and a 2011 meta-analysis in *Journal of Clinical Psychopharmacology* — with a recommendation of **Proceed with Guardrails**. This indication is a substantially more actionable repurposing opportunity and warrants a dedicated evaluation report.
+**To proceed, the following is needed:**
+- Alprazolam-specific insomnia evidence (randomised trials or systematic reviews)
+- SAHPRA Professional Information warnings and contraindications (blocking gap for safety screening)
+- Approved indication text for the five registrations, and mechanism of action data from DrugBank
+- A dependence, withdrawal and elderly-safety plan if the indication is pursued
 
-**To proceed with the insomnia indication, the following is needed:**
-
-- Initiate SAHPRA registration (via new drug application or Section 21 pathway) as the primary regulatory prerequisite
-- Commission a dedicated Phase 2/3 RCT directly evaluating alprazolam for chronic insomnia against standard-of-care comparators (CBT-I, zolpidem, low-dose doxepin)
-- Obtain complete mechanism of action and full prescribing information via DrugBank API and manufacturer data
-- Conduct comparative effectiveness review vs. non-BZD insomnia options, including cost-effectiveness analysis relevant to the South African public health context
-- Establish a robust dependence monitoring and pharmacovigilance plan prior to any patient exposure, with particular attention to high-risk groups (elderly, those with prior substance use disorders)
+**Side note on agoraphobia (rank 3 prediction):** It has substantial evidence (multiple placebo-controlled RCTs and a 2023 network meta-analysis for panic disorder). It is likely already a labelled use, so it may not be true repurposing. Check it against the SAHPRA label before treating it as a repurposing signal.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

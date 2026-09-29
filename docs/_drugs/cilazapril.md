@@ -2,7 +2,7 @@
 layout: default
 title: Cilazapril
 parent: Model Prediction Only (L5)
-nav_order: 118
+nav_order: 119
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,86 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Cilazapril: From Hypertension to Pulmonary Hypertension with Unclear Multifactorial Mechanism
+# Cilazapril: From Hypertension to Pulmonary Hypertension (Unclear Multifactorial Mechanism)
 
 ## One-Sentence Summary
 
-Cilazapril is an angiotensin-converting enzyme (ACE) inhibitor belonging to a well-established drug class used in the treatment of hypertension and heart failure.
-The TxGNN model predicts it may be effective for **pulmonary hypertension with unclear multifactorial mechanism**,
-with **0 clinical trials** and **0 publications** currently supporting this specific direction.
-Evidence is limited to model prediction alone, placing this candidate at Evidence Level L5.
-
----
+Cilazapril is an ACE inhibitor marketed in South Africa. The registration data supplied do not state its approved indication, but it is understood to be used as an antihypertensive. The TxGNN model predicts it may be useful for **pulmonary hypertension with unclear multifactorial mechanism**, but there are currently **0 clinical trials** and **no drug-specific publications** supporting this direction. This is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension / Heart failure (ACE inhibitor class; no SAHPRA registration on record) |
+|------|------|
+| Original Indication | Not stated in the SAHPRA registration data supplied (cilazapril is understood to be an antihypertensive; the approved label must be verified) |
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 99.20% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Cilazapril is not available in this Evidence Pack. Based on known information, Cilazapril belongs to the ACE (angiotensin-converting enzyme) inhibitor class. ACE inhibitors work by blocking the conversion of Angiotensin I to Angiotensin II — a potent vasoconstrictor — thereby reducing systemic vascular resistance, lowering blood pressure, and attenuating vascular remodelling. Their efficacy in systemic hypertension and heart failure is supported by decades of clinical evidence across multiple drug class members (e.g. enalapril, ramipril, lisinopril).
+Detailed mechanism-of-action data are not available for this drug. Cilazapril is an ACE inhibitor, a class that lowers angiotensin II and reduces vasoconstriction. Its efficacy in systemic hypertension is class-established, and mechanistically it might be applicable to pulmonary vascular disease.
 
-The theoretical rationale for exploring Cilazapril in pulmonary hypertension rests on the known contribution of the renin-angiotensin-aldosterone system (RAAS) to pulmonary vascular pathology. Angiotensin II promotes pulmonary vasoconstriction and fibrotic remodelling of the pulmonary vasculature, both of which are hallmarks of pulmonary arterial hypertension. ACE inhibitors could, in principle, interrupt this pathological cycle and reduce pulmonary vascular resistance.
+However, none of the supplied data link cilazapril to pulmonary vascular disease. ACE inhibitors are not an established therapy for pulmonary arterial hypertension. The high TxGNN score (0.992) reflects a pattern in the knowledge graph, not confirmed pharmacology. The predicted disease group also spans several different mechanisms, which makes a single drug rationale harder to justify.
 
-However, the specific subtype targeted here — **pulmonary hypertension with unclear multifactorial mechanism** — presents a significant mechanistic barrier. By definition, the underlying drivers of this subtype remain poorly characterised, and there is currently no validated biomarker evidence confirming that RAAS overactivation is a dominant pathway. The mechanistic link between Cilazapril and this indication therefore represents an indirect, theoretical inference rather than a well-supported biological hypothesis. This substantially limits confidence in the prediction at this stage.
-
----
+Two other predictions for this drug are closer to its known pharmacology. They are malignant renovascular hypertension and malignant hypertensive renal disease, both RAAS-dependent conditions. Both are classed as research questions (L4, class-level reasoning only) and are worth a separate review.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered. This applies to ClinicalTrials.gov and to the ICTRP search, and no SANCTR or PACTR records were supplied.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+No drug-specific literature is available. The retrieval returned 20 publications for the related predicted condition, pulmonary hypertension owing to lung disease and/or hypoxia. They are keyword matches on "hypoxia" and cover general hypoxia biology in neurology, oncology, fibrosis and altitude physiology. Based on the titles and available abstracts, none mentions cilazapril or ACE inhibitors. No publications were retrieved for the top-ranked indication itself. These papers should not be counted as supporting evidence.
 
 ## South Africa Market Information
 
-Cilazapril is **not currently marketed in South Africa**. No product registrations are held with SAHPRA (South African Health Products Regulatory Authority), and the drug does not appear on the current Essential Medicines List (EML). Prescribers wishing to use this agent would need to explore Section 21 (unregistered medicine) authorisation pathways under the Medicines and Related Substances Act.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 29/7.1.3/0022 | Inhibace plus 5mg/12.5mg | Tablet (oral) | Not stated in the data supplied |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. As Cilazapril is not currently registered in South Africa, clinicians should consult the full manufacturer prescribing information from a jurisdiction where the drug is registered (e.g. the European Medicines Agency or Health Canada monograph). Report any adverse drug reactions to SAHPRA via the MedSafety reporting portal.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-> **Note for ACE inhibitor class:** As a class effect, ACE inhibitors carry well-known safety considerations including the risk of first-dose hypotension, hyperkalaemia, acute kidney injury (particularly in patients with bilateral renal artery stenosis or volume depletion), and ACE inhibitor-induced cough and angioedema. These class effects are especially relevant given the proposed repurposing target involves both pulmonary and renal vascular disease. Detailed drug-specific data for Cilazapril was not available in this Evidence Pack and must be verified before any clinical consideration.
-
----
+No interaction records were found in the DDI query. Two class-level concerns from the assessment need attention before any use in this setting:
+- Systemic vasodilators can worsen ventilation-perfusion matching in hypoxic lung disease.
+- ACE inhibitors carry a risk of renal function decline and hyperkalaemia in patients with compromised kidneys.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or published literature evidence supporting the use of Cilazapril specifically for pulmonary hypertension with unclear multifactorial mechanism. The current evidence base consists solely of a TxGNN computational model prediction (Evidence Level L5), and the proposed mechanistic link is theoretical, weakly supported, and complicated by the undefined pathological basis of this pulmonary hypertension subtype.
+The prediction rests only on a model score, with no trials and no drug-specific literature. The mechanistic link is unproven, and there is a plausible safety concern, since systemic vasodilation may worsen oxygenation in hypoxic lung disease. Key regulatory and safety data are also missing.
 
 **To proceed, the following is needed:**
+- The SAHPRA package insert (PI) to confirm the approved indication, warnings and contraindications. This is currently a blocking gap.
+- Mechanism-of-action data for cilazapril, for example from DrugBank.
+- A literature search for class-level evidence on ACE inhibitors in pulmonary hypertension, especially hypoxia-related forms.
+- A separate review of the malignant renovascular hypertension and malignant hypertensive renal disease predictions, which are more plausible.
 
-- **MOA data gap closure:** Retrieve full Cilazapril mechanism of action from the DrugBank API to enable a robust mechanistic plausibility assessment
-- **Regulatory safety review:** Obtain and parse the full prescribing information (PI/SmPC) from a jurisdiction where Cilazapril is approved to characterise warnings, contraindications, and drug interactions
-- **Patient population biomarker profiling:** Identify whether RAAS biomarkers (e.g. elevated plasma renin activity, elevated ACE levels) are measurable and elevated in patients with this multifactorial pulmonary hypertension subtype — this is the minimum biological prerequisite to justify further investigation
-- **Broader ACE inhibitor class evidence review:** Conduct a targeted literature search across the ACE inhibitor class (enalapril, ramipril) in pulmonary hypertension to determine whether any class-level signal exists before attributing a drug-specific prediction
-- **Regulatory feasibility check:** Assess SAHPRA Section 21 authorisation requirements given the complete absence of local registration
-- **DDI assessment:** Perform a drug-drug interaction review, particularly relevant if target patients are on established pulmonary hypertension therapies (e.g. phosphodiesterase-5 inhibitors, endothelin receptor antagonists)
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. All content should be reviewed by a qualified healthcare professional in the context of individual patient care.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

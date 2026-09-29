@@ -2,7 +2,7 @@
 layout: default
 title: Salicylic Acid
 parent: Model Prediction Only (L5)
-nav_order: 401
+nav_order: 409
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salicylic Acid: From Topical Keratolytic Use to Papillary Conjunctivitis
+# Salicylic Acid: From Topical Dermatological Use to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salicylic acid is a well-established topical keratolytic agent; however, this evidence pack contains no documented original indication or mechanism-of-action (MOA) data for the specific product under review. The TxGNN model predicts potential relevance to **papillary conjunctivitis**, but this prediction is currently supported by **zero clinical trials** and **zero publications** — it rests on the model score alone.
+Salicylic acid is registered in South Africa only in topical products (a lotion and an ointment).
+The TxGNN model predicts it may be useful for **papillary conjunctivitis**, but there are currently **no clinical trials** and **no publications** supporting this direction.
+This is a model-only prediction that needs a literature review before any further work.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (licenses list is empty) |
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available for this candidate. Salicylic acid is generally known as a keratolytic agent with mild anti-inflammatory and anti-keratinization activity, mechanisms it shares with its established dermatological uses. The rationale for the top prediction suggests a theoretical, indirect link between this keratolytic/anti-inflammatory activity and the epithelial hyperproliferation seen in papillary conjunctivitis.
+Detailed mechanism of action data is not available for this record. Salicylic acid is known to have anti-inflammatory activity through COX inhibition, and it acts as a keratolytic when applied to the skin. Papillary conjunctivitis is an inflammatory condition of the ocular surface (allergic or mechanical), so an anti-inflammatory link is plausible but indirect.
 
-That link is speculative rather than established. There is no data in this pack on ocular/topical ophthalmic safety for salicylic acid, and both the original indication and MOA fields are marked as data gaps — meaning there is no verified pharmacological baseline to compare against the new indication. Without that baseline, the mechanistic plausibility cannot be properly assessed.
+There is a major practical problem. Salicylic acid is an irritant and keratolytic, so applying the registered lotion or ointment to the eye would be unsafe. Any real use would need a completely different formulation and route, and route compatibility has not yet been assessed.
 
-It is also worth noting that 9 of the other 10 TxGNN-ranked candidates for this drug are rare genetic/skeletal syndromes (e.g., brachyolmia, pseudoachondroplasia, acromesomelic dysplasia) with no plausible mechanistic connection to salicylic acid's known pharmacology — consistent with these being knowledge-graph co-occurrence artifacts rather than genuine signals. This context further lowers confidence in the rank-1 prediction, which itself has no corroborating trial or literature evidence.
+The other top predictions show that a high score alone is not reliable. Most of the other nine predictions are rare congenital skeletal or developmental disorders (for example pseudoachondroplasia, brachyolmia and brachydactyly-syndactyly syndrome), and none has a plausible mechanistic link. These scores are most likely knowledge-graph artifacts. The only other indirect candidates are rosacea conjunctivitis and spondyloarthropathy susceptibility, and both are also unsupported by evidence.
 
 ## Clinical Trial Evidence
 
@@ -63,23 +64,34 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+## South Africa Market Information
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. L13.4.1/66 | Diprosalic | Lotion |
+| Reg. No. H/13.4.1/32 | Diprosalic | Ointment |
+
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+Ocular application of salicylic acid is a specific concern because of its irritant and keratolytic properties.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature evidence (Evidence Level L5, model prediction only), no SAHPRA registration or South African market presence, and blocking data gaps in both original indication and mechanism of action prevent even an initial safety assessment. The TxGNN score alone is insufficient to justify progression.
+The prediction rests on the model score alone, with no trials or publications. The only registered forms are topical skin products that are not suitable for ocular use.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI) warnings, contraindications, and drug interaction data
-- Documented original indication(s) and confirmed mechanism of action for the specific product/formulation
-- Confirmation of South African market/registration status
-- Preclinical or mechanistic data specifically supporting ocular/topical use relevant to papillary conjunctivitis
-- At minimum, case-report or observational evidence before advancing past S0
+- A literature review of salicylates and NSAIDs in allergic and papillary conjunctivitis
+- Detailed mechanism of action data (MOA)
+- The SAHPRA package insert, to obtain warnings and contraindications
+- A route and formulation feasibility assessment, since no ocular formulation is registered
+- The approved indication text for the registered products, which is currently blank in the registration data
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

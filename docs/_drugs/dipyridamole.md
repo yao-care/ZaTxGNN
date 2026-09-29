@@ -2,7 +2,7 @@
 layout: default
 title: Dipyridamole
 parent: Moderate Evidence (L3-L4)
-nav_order: 184
+nav_order: 187
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,87 +33,77 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dipyridamole is a phosphodiesterase inhibitor and adenosine reuptake inhibitor, used internationally as an antiplatelet agent and pharmacological cardiac stress testing adjunct, with no current SAHPRA registration in South Africa.
-The TxGNN model predicts a relationship with **Prinzmetal angina** (TxGNN score: 99.99%); however, **⚠️ this is a reverse indication** — available evidence consistently shows that dipyridamole *triggers* coronary vasospasm in variant angina patients rather than treating it.
-**15 publications** address this relationship, all within diagnostic or mechanistic contexts with no therapeutic use documented.
-
----
+Dipyridamole is an antiplatelet and coronary vasodilator agent. The registered South African product, Asasantin 200/25 Retard, is a dipyridamole-aspirin capsule; the registration data in the Evidence Pack does not state its approved indication.
+The TxGNN model predicts it may be effective for **Prinzmetal angina**, but the evidence is weak: **0 clinical trials** and **15 publications**, mostly diagnostic or descriptive, with one reporting a possible safety signal.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in South Africa; internationally used for antiplatelet therapy and pharmacological cardiac stress testing |
+|------|------|
+| Original Indication | Not stated in the SAHPRA registration data (see the note under "Why is This Prediction Reasonable?") |
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on established pharmacological knowledge, dipyridamole works through two complementary pathways: inhibition of phosphodiesterase (PDE) enzymes raises intracellular cAMP and cGMP levels, while blockade of adenosine reuptake transporters elevates local adenosine concentrations in the coronary microenvironment. Together these actions produce vasodilation and platelet aggregation suppression — the basis of its established use in antiplatelet therapy and cardiac stress testing.
+Currently, detailed mechanism of action data is not available. Dipyridamole is known to raise extracellular adenosine and act as a coronary vasodilator. In theory, this could relieve coronary spasm.
 
-**⚠️ Reverse Indication Warning:** Although TxGNN has identified a high-scoring association with Prinzmetal (variant) angina, the pharmacological reality is the opposite of a therapeutic one. Elevated adenosine concentrations — dipyridamole's primary downstream effect — act on A1 receptors in the coronary vasculature and can *provoke* vasospasm in susceptible patients. PMID 3421166 (1988) explicitly documents that dipyridamole pharmacological stress testing triggered coronary vasospasm in hospitalised variant angina patients, and the episode required intravenous aminophylline (an adenosine antagonist) to terminate. Early data from PMID 633593 (1978) similarly recorded that dipyridamole 50 mg given to Prinzmetal patients did not suppress attacks and that adrenergic blockade tended to aggravate rest angina.
+The retrieved literature does not support this at present. Most papers use dipyridamole as a *diagnostic stress agent* for imaging, not as a treatment. One paper reports that coronary vasospasm was triggered when dipyridamole-induced vasodilation was reversed with aminophylline in patients with variant angina. That is a possible safety signal, not therapeutic support. Coronary steal (diverting blood away from narrowed vessels) is also a recognised concern. The high model score therefore looks more like a knowledge-graph association than a clinical signal.
 
-All 15 retrieved publications are framed within diagnostic or mechanistic research contexts — dipyridamole was the stress *inducer*, not the therapeutic agent. This prediction most likely reflects knowledge graph network similarity between vasospastic and ischaemic coronary nodes rather than a genuine repurposing signal, and it carries an active patient safety risk that warrants an immediate Hold.
-
----
+The registration data lists no approved indication. Dipyridamole-aspirin combinations are generally used for secondary stroke prevention, but this should be confirmed against the SAHPRA-approved Professional Information (PI). The same Evidence Pack also predicts transient ischaemic attack (TIA) and stroke, where large trials such as ESPRIT and JASAP exist. That is likely an established use rather than true repurposing, and it should be assessed separately from this Prinzmetal angina prediction.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for dipyridamole as a treatment for Prinzmetal angina.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [3421166](https://pubmed.ncbi.nlm.nih.gov/3421166/) | 1988 | Clinical Study | Am J Cardiology | **Critical safety finding:** Dipyridamole stress testing provokes coronary vasospasm in variant angina patients; aminophylline required to reverse the episode |
-| [3190956](https://pubmed.ncbi.nlm.nih.gov/3190956/) | 1988 | Clinical Study | British Heart Journal | Short-term reproducibility of exercise testing in patients with ST elevation and different dipyridamole echocardiography responses; diagnostic use only |
-| [633593](https://pubmed.ncbi.nlm.nih.gov/633593/) | 1978 | Review | Japanese Circ Journal | Dipyridamole 50 mg administered to Prinzmetal patients did not suppress attacks; propranolol tended to aggravate rest angina |
-| [8417062](https://pubmed.ncbi.nlm.nih.gov/8417062/) | 1993 | Clinical Study | JACC | Novel echocardiographic sign of ischaemia: myocardial echodensity changes during dipyridamole-induced ischaemic episodes; mechanistic/diagnostic context |
-| [2022043](https://pubmed.ncbi.nlm.nih.gov/2022043/) | 1991 | Review | Circulation | Pathophysiological basis for non-invasive evaluation of coronary stenosis using dipyridamole and other pharmacological stressors |
-| [6779029](https://pubmed.ncbi.nlm.nih.gov/6779029/) | 1981 | Diagnostic Study | Japanese Circ Journal | Dipyridamole-loading myocardial imaging for CAD detection: diagnostic sensitivity 66%, improved to 87% combined with exercise |
-| [8634169](https://pubmed.ncbi.nlm.nih.gov/8634169/) | 1996 | Clinical Study | Portuguese J Cardiology | Three-year prognosis in suspected CAD patients with normal dipyridamole-thallium scintigraphy; diagnostic prognostication |
-| [7628141](https://pubmed.ncbi.nlm.nih.gov/7628141/) | 1995 | Case Report | Clinical Nuclear Medicine | Patient with migraine, asthma, and documented variant angina — dipyridamole used diagnostically with scintigraphic evidence of ischaemia |
-| [16630456](https://pubmed.ncbi.nlm.nih.gov/16630456/) | 2006 | Clinical Study | Chinese Cardiovascular Journal | Comparison of clinical features in typical versus atypical coronary artery spasm patients |
-| [2221701](https://pubmed.ncbi.nlm.nih.gov/2221701/) | 1990 | Review | Ann NY Acad Sciences | ECG diagnosis of transient myocardial ischaemia: sensitivity, specificity, and practical significance of different detection modalities |
+No therapeutic RCTs were found. The list below covers 10 of the 15 retrieved publications.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [633593](https://pubmed.ncbi.nlm.nih.gov/633593/) | 1978 | Small clinical series | Jpn Circ J | 26 patients with rest angina (13 with Prinzmetal's variant) were given several drugs including dipyridamole. Propranolol did not suppress attacks and tended to aggravate them. The dipyridamole result is not shown in the available abstract. |
+| [3421166](https://pubmed.ncbi.nlm.nih.gov/3421166/) | 1988 | Small series | Am J Cardiol | Tested whether rapid withdrawal of dipyridamole-induced vasodilation with aminophylline can trigger coronary vasospasm in variant angina (36 in-hospital patients). This is a safety signal, not evidence of benefit. |
+| [3190956](https://pubmed.ncbi.nlm.nih.gov/3190956/) | 1988 | Cohort | Br Heart J | 25 patients with exercise-induced ST elevation, grouped by dipyridamole echo response. Assessed reproducibility of exercise testing. Diagnostic, not therapeutic. |
+| [16630456](https://pubmed.ncbi.nlm.nih.gov/16630456/) | 2006 | Cohort | Zhonghua Xin Xue Guan Bing Za Zhi | Compared clinical features of typical and atypical coronary artery spasm. The abstract does not describe dipyridamole treatment results. |
+| [6779029](https://pubmed.ncbi.nlm.nih.gov/6779029/) | 1981 | Diagnostic study | Jpn Circ J | Dipyridamole-loading thallium-201 imaging in 38 patients had 66% diagnostic accuracy. Combined with exercise imaging, sensitivity rose from 71% to 87%. |
+| [8417062](https://pubmed.ncbi.nlm.nih.gov/8417062/) | 1993 | Diagnostic study | J Am Coll Cardiol | Studied increased echodensity in transiently asynergic myocardium as an echocardiographic sign of ischaemia. |
+| [8634169](https://pubmed.ncbi.nlm.nih.gov/8634169/) | 1996 | Cohort | Rev Port Cardiol | 3-year prognosis of patients with suspected coronary disease and a normal dipyridamole-thallium scan. Diagnostic and prognostic. |
+| [2022043](https://pubmed.ncbi.nlm.nih.gov/2022043/) | 1991 | Review | Circulation | Pathophysiological basis for noninvasive functional evaluation of coronary stenosis, including dipyridamole testing. |
+| [7628141](https://pubmed.ncbi.nlm.nih.gov/7628141/) | 1995 | Case report | Clin Nucl Med | Single patient with migraine, asthma and documented variant angina, examining whether "cardiac migraine" is a clinical entity. Not a treatment study. |
+| [2221701](https://pubmed.ncbi.nlm.nih.gov/2221701/) | 1990 | Review | Ann N Y Acad Sci | ECG diagnosis of transient myocardial ischaemia. Not a treatment study. |
 
 ## South Africa Market Information
 
-Dipyridamole currently has **no SAHPRA registrations** and is not available on the South African market. No approved product information or SAHPRA-approved PI documents exist in country. Should this drug be considered for any diagnostic use (e.g., pharmacological stress imaging), the responsible prescriber would need to follow an unregistered medicine access pathway and obtain the reference country PI directly from the originator.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 31/8/0641 | Asasantin 200/25 Retard | Capsule (oral) | Not stated in the registration data |
 
----
+The Evidence Pack contains no Essential Medicines List (EML) information for this product.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Literature-derived signal**: Coronary vasospasm was reported after aminophylline reversal of dipyridamole-induced vasodilation in variant angina patients (PMID 3421166).
+- **Theoretical concerns**: Coronary steal, and possible aggravation of sinus or AV node suppression through adenosine potentiation.
 
-**Specific safety note for this prediction:** Clinical literature consistently identifies dipyridamole as **contraindicated** in patients with Prinzmetal (variant) angina. The drug can provoke coronary vasospasm through adenosine-mediated mechanisms and must be avoided in this patient population. Whenever dipyridamole is used for pharmacological cardiac stress imaging in any setting, aminophylline must be immediately available as a reversal agent, and patients with known or suspected vasospastic angina must be identified and excluded prior to testing.
-
----
+The SAHPRA package insert warnings, contraindications and interaction data were not available. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This TxGNN prediction represents a pharmacological reverse indication — dipyridamole triggers the pathophysiological mechanism underlying Prinzmetal angina rather than treating it, and no therapeutic evidence exists anywhere in the literature to support this use.
+The prediction has no supporting therapeutic trials, and the literature is diagnostic or descriptive. One paper suggests dipyridamole-related vasodilation changes may trigger vasospasm in this very condition. The model score alone is not enough to justify clinical development.
 
 **To proceed, the following is needed:**
-
-- **No further development** of dipyridamole for Prinzmetal angina should be pursued; this finding should be documented as a safety contraindication rather than a repurposing candidate
-- If dipyridamole is being evaluated for cardiac stress imaging in South Africa, a formal contraindication screening protocol for vasospastic angina must be established before any unregistered medicine access application is submitted to SAHPRA
-- A **separate repurposing evaluation report** should be initiated for the two high-evidence indications identified in this same evidence pack:
-  - **Stroke disorder (Rank 2, L1):** 31 clinical trials including multiple completed Phase 3 RCTs; dipyridamole ER + aspirin combination (Aggrenox) has robust secondary prevention evidence
-  - **Transient ischemic attack (Rank 5, L1):** 15 clinical trials + 20 publications including Tier-1 meta-analyses (PMID 15569877, 11786451, 34399713) and the ESPRIT Phase 4 trial (n=4,500) — the strongest legitimate repurposing signal in this evidence pack
+- The SAHPRA package insert (warnings, contraindications, approved indication), which is currently a blocking gap
+- Mechanism of action data from DrugBank
+- Evidence of therapeutic benefit, such as controlled studies in Prinzmetal angina, and a review of the vasospasm and coronary steal safety signals
+- Separate assessment of the TIA/stroke prediction, which has far stronger trial and meta-analysis support but may simply be an existing indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

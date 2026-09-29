@@ -2,7 +2,7 @@
 layout: default
 title: Olopatadine
 parent: Model Prediction Only (L5)
-nav_order: 343
+nav_order: 350
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,72 +33,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Olopatadine is an H1-receptor antagonist and mast cell stabilizer whose established pharmacological target is allergic, histamine-mediated conjunctivitis.
-> The TxGNN model predicts it may be effective for **Rosacea Conjunctivitis**,
-> but this direction is currently supported by **no clinical trials** and **no published literature** — it is a model prediction only.
-
----
+Olopatadine is an H1 antihistamine and mast cell stabiliser, approved for allergic conjunctivitis.
+The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but **no clinical trials and no publications** currently support this prediction. It is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic conjunctivitis (per mechanistic description in evidence pack; not independently confirmed by a South African/SAHPRA-approved indication text, as none is on file) |
+| Original Indication | Allergic conjunctivitis (from the mechanistic notes; the SAHPRA registration data contains no indication text) |
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 99.41% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed, sourced mechanism-of-action data for Olopatadine is not available in this evidence pack (flagged as a High-severity data gap). Based on the mechanistic rationale text accompanying the model's predictions, Olopatadine is described as an H1-receptor antagonist combined with a mast cell stabilizer, with its pharmacological target being allergic/histamine-mediated conjunctival inflammation — consistent with its established use in allergic conjunctivitis.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Olopatadine is known as an H1 antagonist and mast cell stabiliser. Its efficacy in allergic conjunctivitis is established, and it may be applicable to inflammatory ocular surface conditions with an allergic component.
 
-Rosacea conjunctivitis, however, is primarily driven by meibomian gland dysfunction and vascular/neurogenic inflammatory pathways rather than histamine-mediated allergic inflammation. The evidence pack's own rationale for this candidate explicitly flags this as a **weak mechanistic link**: Olopatadine may plausibly relieve accompanying irritation or itching in some patients, but it does not address the core pathology of rosacea conjunctivitis.
-
-Because of this mismatch, and because no clinical trials or literature specifically evaluate Olopatadine in rosacea conjunctivitis, this candidate sits at evidence level L5 — a model prediction with no supporting real-world evidence, and decision stage S0 (Hold). By contrast, two lower-ranked candidates in this evidence pack — punctate epithelial keratoconjunctivitis and blepharoconjunctivitis — have at least indirect literature support and reached decision stage S1 ("Research Question"), which may be a more productive starting point for further investigation than the top-ranked candidate.
-
----
+The link to rosacea conjunctivitis is only indirect. Ocular rosacea is driven mainly by meibomian gland dysfunction and inflammation, not by histamine-mediated allergy. Olopatadine might relieve itch or allergic-type symptoms, but there is no evidence it treats the underlying disease. The high score reflects the knowledge-graph model, not clinical data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for this indication.
 
----
+Some lower-ranked predictions have limited, indirect literature, summarised below for context:
+
+| Predicted Indication | TxGNN Score | PMID | Year | Type | Key Findings |
+|------|------|------|------|------|---------|
+| Punctate epithelial keratoconjunctivitis | 98.81% | [22606467](https://pubmed.ncbi.nlm.nih.gov/22606467/) | 2011 | Case report | Limbitis after autologous serum drops in atopic keratoconjunctivitis. Olopatadine was part of background therapy and was not tested. |
+| Parasitic conjunctivitis | 97.89% | [34029500](https://pubmed.ncbi.nlm.nih.gov/34029500/) | 2021 | Preclinical | *Acanthamoeba* protein induced allergic conjunctivitis in a model. Antiallergic agents and resolvin D1 were evaluated. |
+| Blepharoconjunctivitis | 97.00% | [27911432](https://pubmed.ncbi.nlm.nih.gov/27911432/) | 2016 | Clinical study (design unconfirmed) | Eyelid hygiene before refractive surgery in chronic allergic blepharoconjunctivitis. Olopatadine was not evaluated. |
 
 ## South Africa Market Information
 
-Olopatadine is currently **not marketed** in South Africa, and there are **0 SAHPRA registrations** on file in this evidence pack. No product registration numbers, dosage forms, or approved indication texts are available to tabulate.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 53/21.5.1/0457 | Ryaltris | Spray | Not stated in the registration data |
 
----
+The only registered product is a spray, so compatibility with an ocular route for this predicted indication is unconfirmed. Essential Medicines List (EML) status was not available in the Evidence Pack.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
----
+No drug interaction records were found in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (rosacea conjunctivitis) has no clinical trial or literature support, and the evidence pack itself assesses the mechanistic link as weak — histamine-mediated allergic pathways do not correspond well to rosacea conjunctivitis's core pathology (meibomian gland dysfunction, vascular/neurogenic inflammation). The drug is also not currently marketed in South Africa, and key safety data (PI warnings, contraindications) are missing.
+The prediction has a high model score but no supporting trials or literature (L5), and the mechanistic link to rosacea conjunctivitis is weak. Safety information from the SAHPRA PI has not yet been reviewed, which blocks progression to safety screening.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Product Information (warnings, contraindications) — currently a Blocking data gap
-- Verified mechanism-of-action documentation from DrugBank or another authoritative source
-- Primary studies (preclinical or clinical) directly evaluating Olopatadine in rosacea conjunctivitis, rather than in unrelated allergic conjunctival conditions
-- Consider prioritizing the two S1-stage candidates (punctate epithelial keratoconjunctivitis; blepharoconjunctivitis) for further research, as they currently have somewhat stronger indirect literature support than the top-ranked candidate
+- SAHPRA package insert warnings and contraindications (download and parse the PI)
+- Detailed mechanism of action data (for example, from DrugBank)
+- Confirmation of the SAHPRA-approved indication and route, and whether an ophthalmic formulation is available in South Africa
+- Clinical evidence, at minimum a pilot study or case series, in ocular rosacea
+- A comparison against better-supported ocular allergy predictions (punctate epithelial keratoconjunctivitis, blepharoconjunctivitis) as alternative research questions
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

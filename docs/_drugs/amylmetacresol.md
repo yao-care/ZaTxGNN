@@ -29,37 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amylmetacresol: From Topical Antiseptic Use to Cauda Equina Syndrome
+# Amylmetacresol: From Throat Antisepsis to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Amylmetacresol (AMC) is a phenol-derivative topical antiseptic, best known as an active ingredient in antiseptic throat lozenges (e.g., Strepsils), where it disrupts bacterial cell membranes and inhibits enveloped viruses on oropharyngeal mucosal surfaces.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome** — a compressive spinal cord emergency — yet **no clinical trials and no published literature** currently support this direction, and the mechanistic rationale is extremely weak.
-Across all 10 predicted indications in this batch, evidence remains at **Level 5** (model prediction only), raising serious concern about knowledge graph structural false positives rather than genuine repurposing candidates.
+Amylmetacresol is a topical antiseptic used in throat lozenges. The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but there are **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on knowledge-graph proximity alone and is not backed by any mechanistic or clinical evidence.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No SAHPRA-registered indication; internationally used as a topical oropharyngeal antiseptic |
-| Predicted New Indication | Cauda Equina Syndrome |
+|------|------|
+| Original Indication | Throat antisepsis (lozenge use); the SAHPRA record provides no indication text |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | **Hold** |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established general pharmacology, Amylmetacresol is a topical antiseptic agent whose activity is confined to mucosal surfaces — it disrupts bacterial cell membranes and has demonstrated in vitro antiviral activity against enveloped viruses including herpes simplex virus (HSV). Its clinical application is strictly local (oropharyngeal cavity), and no systemic absorption, anti-inflammatory (systemic), neuroprotective, or central nervous system activity has been documented.
+Currently, detailed mechanism of action data is not available. Amylmetacresol is a topical antiseptic used in throat lozenges. Weak sodium channel blockade has been suggested in vitro, but this is unconfirmed.
 
-Cauda Equina Syndrome is a neurosurgical emergency arising from compression of the cauda equina nerve bundle — most commonly by lumbar disc herniation, spinal tumour, or epidural haematoma — and is managed primarily by urgent surgical decompression. There is no established pharmacological pathway by which a topical mucosal antiseptic could influence neurological decompression, neuroprotection, or spinal cord regeneration. The mechanistic link is, by the evidence pack's own analysis, extremely weak.
+**The prediction is not mechanistically supported.** Cauda equina syndrome is a compressive neurological emergency that needs urgent surgical decompression. An oropharyngeal antiseptic with minimal systemic exposure has no plausible role in treating it. The high TxGNN score (0.9999) reflects proximity in the knowledge graph, not evidence of benefit.
 
-The very high TxGNN score (99.99%) most likely reflects indirect multi-hop connections within the knowledge graph — for example, shared "infection" or "inflammation" intermediate nodes linking AMC to neurological conditions — rather than genuine biological relevance. This pattern repeats across all 10 predicted indications in this batch (neurological disorders, a cluster of 6 ocular diseases, gastrointestinal disease, and ciliary body tumours), none of which have a plausible direct mechanistic connection to a topical mucosal antiseptic. This is a known failure mode of graph-based prediction models when a drug node has few direct therapeutic edges but many indirect pathway connections.
+The other top predictions show the same pattern. They include irritable bowel syndrome, uveitis and other ocular conditions, and an obsolete neurogenic bladder term. None has clinical or preclinical data, and none has a supported mechanistic link. The ocular predictions are particularly weak, because the product is formulated for oropharyngeal use and no ocular safety data exist.
 
 ---
 
@@ -77,15 +75,21 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Amylmetacresol is **not currently registered with SAHPRA** and has no marketed products in South Africa. No product licences are on record.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. W/2.7/142 | Nurofen period pain (was Nurofen extra s… (name truncated in source record) | Tablet (oral) | Not listed in the source record |
 
-Healthcare professionals seeking product information should consult international reference sources where AMC-containing preparations are registered (e.g., British National Formulary; EMA-approved product information for Strepsils and equivalent formulations in the UK and EU).
+Essential Medicines List (EML) status was not provided in the source record.
+
+The source record lists only one registration, and it is a tablet. Amylmetacresol is normally a lozenge ingredient, so the product name and formulation should be checked against the SAHPRA register.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. As this drug is not currently registered in South Africa, consult international reference sources (e.g., British National Formulary, EMA product information) for safety data. Report any adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+The DrugBank interaction query returned no records for this drug. That does not mean no interactions exist.
 
 ---
 
@@ -94,17 +98,15 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications for Amylmetacresol are at Evidence Level L5 (model prediction only, with zero supporting clinical trials or publications). The top-ranked prediction — Cauda Equina Syndrome — has no plausible mechanistic link between a topical mucosal antiseptic and a compressive spinal neurological emergency. The consistent clustering of predictions around neurological, ocular, and gastrointestinal diseases without any supporting evidence strongly suggests knowledge graph structural artefacts (indirect shared nodes) rather than true repurposing signals.
+The prediction has no supporting trials, publications or plausible mechanism. It is a knowledge-graph output only (L5). The intended condition needs surgical decompression, so an oropharyngeal antiseptic is not a credible candidate.
 
 **To proceed, the following is needed:**
+- The SAHPRA package insert, to obtain warnings and contraindications. Safety screening cannot start without it.
+- Mechanism of action data (for example from DrugBank) to test whether any link to the predicted indication exists.
+- Confirmation of the registered product, formulation and approved indication (see the note under South Africa Market Information).
+- Any preclinical or clinical evidence for the predicted indication. Without it, the candidate should not advance beyond S0.
 
-- **MOA data**: Obtain full DrugBank pharmacological profile, mechanism of action, and any documented systemic pharmacokinetics for Amylmetacresol
-- **SAHPRA & international PI**: Retrieve approved prescribing information from jurisdictions where AMC is registered (UK MHRA, EMA) to fully characterise safety, contraindications, and known indications
-- **KG audit**: Investigate knowledge graph structural patterns — specifically audit shared infection and inflammation intermediate nodes — to identify and filter indirect associations before re-ranking predictions
-- **Highest-plausibility follow-up (if any)**: Among all 10 predictions, **Infectious Anterior Uveitis** (Rank 7) carries the highest — though still very limited — biological plausibility, given AMC's in vitro anti-HSV activity. Any further investigation should begin here and would minimally require preclinical ocular pharmacokinetic and pharmacodynamic data in animal models before clinical relevance can be assessed
-- **No clinical development pathway** should be initiated for any of these 10 indications without first establishing at least Level L4 (preclinical) evidence
-
-> ⚠️ **Disclaimer**: This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application. This analysis is based on computational model predictions and should not be used to guide prescribing or treatment decisions.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

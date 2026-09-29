@@ -2,7 +2,7 @@
 layout: default
 title: Morphine
 parent: Moderate Evidence (L3-L4)
-nav_order: 324
+nav_order: 330
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Morphine: From Moderate-to-Severe Pain to Myofascial Pain Syndrome
+# Morphine: From Severe Pain to Myofascial Pain Syndrome
 
 ## One-Sentence Summary
 
-Morphine is a mu-opioid receptor full agonist classically used for moderate-to-severe pain (analgesia). The TxGNN model predicts it may be effective for **Myofascial Pain Syndrome**, with **33 clinical trials** and **17 publications** identified in the surrounding evidence base — but none of them directly test morphine as a treatment for myofascial pain syndrome itself, so this signal should be read as a mechanistic hypothesis rather than clinical proof.
+Morphine is an opioid analgesic that is marketed in South Africa, though the SAHPRA registration records do not state an approved indication.
+The TxGNN model predicts it may be effective for **Myofascial Pain Syndrome**, but **33 registered trials** and **17 publications** contain **no trial testing morphine in this condition**.
+The prediction is therefore a hypothesis only, not an evidence-backed direction.
 
 ---
 
@@ -41,40 +43,42 @@ Morphine is a mu-opioid receptor full agonist classically used for moderate-to-s
 
 | Item | Content |
 |------|------|
-| Original Indication | Moderate-to-severe pain (opioid analgesia) — general pharmacological knowledge; not captured in this Evidence Pack's regulatory data |
-| Predicted New Indication | Myofascial Pain Syndrome |
+| Original Indication | Pain relief (opioid analgesic). The SAHPRA records provided do not state an indication text. |
+| Predicted New Indication | Myofascial pain syndrome |
 | TxGNN Prediction Score | 99.75% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this Evidence Pack. Based on general pharmacological knowledge, morphine is a full agonist at the mu-opioid receptor and its efficacy in relieving moderate-to-severe nociceptive pain is well established; mechanistically, broad-spectrum opioid analgesia could plausibly extend to pain arising from myofascial trigger points, since both involve central and peripheral nociceptive signalling.
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, morphine is a mu-opioid receptor agonist that produces central and peripheral analgesia. In principle this could relieve musculoskeletal pain such as myofascial pain.
 
-However, myofascial pain syndrome (MFPS) is a distinct clinical entity driven by localized muscle/fascial trigger points, muscle hyperirritability, and referred pain patterns — a pathophysiology that current first-line treatments (dry needling, trigger point injection, manual therapy, exercise) target directly, rather than through systemic opioid receptor blockade.
+The link between the original and new indication is therefore "pain to pain", and it is weak. The 33 matched trials are mostly non-drug or non-morphine studies (dry needling, exercise, photobiomodulation, brain stimulation) that were matched on the word "pain". The only direct signal is a 2026 study of morphine as an adjuvant in myofascial infiltration during spinal fusion surgery. Its design cannot be verified from the available record.
 
-The evidence pack itself flags this limitation directly: the TxGNN score most likely reflects morphine's general association with "pain" concepts in the knowledge graph rather than a disease-specific mechanistic link to MFPS. No identified clinical trial or publication tests morphine specifically as an MFPS therapy; the closest direct evidence is a single 2026 RCT using morphine as part of a peri-operative myofascial infiltration mixture, which is a narrow surgical-anaesthesia context rather than support for treating MFPS as a standalone condition.
+Opioids are generally not favoured for chronic myofascial pain because of dependence and hyperalgesia risk. Any future work should be limited to perioperative or infiltration adjunct use.
 
 ---
 
 ## Clinical Trial Evidence
 
+None of the trials below tests morphine for myofascial pain syndrome. They are the closest matches among the 33 registered trials.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06955923](https://clinicaltrials.gov/study/NCT06955923) | Phase 2 | Completed | 11 | Trigger point injections after total knee arthroplasty reduced pain scores/opioid use vs. sham; supports the MFPS-opioid interplay but did not test morphine directly. |
-| [NCT07413770](https://clinicaltrials.gov/study/NCT07413770) | NA | Recruiting | 60 | Classical massage (alone or with physiotherapy) evaluated for pain, muscle sensitivity, and quality of life in MFPS patients; non-pharmacological. |
-| [NCT05478928](https://clinicaltrials.gov/study/NCT05478928) | NA | Unknown | 60 | Compares invasive techniques (percutaneous microelectrolysis, dry needling) for myofascial trigger points using algometry; no opioid arm. |
-| [NCT04640896](https://clinicaltrials.gov/study/NCT04640896) | Phase 4 | Recruiting | 60 | Trigger point injections vs. traditional therapy for post-surgical cervical myofascial pain after anterior cervical surgery; non-opioid comparator. |
-| [NCT04684784](https://clinicaltrials.gov/study/NCT04684784) | NA | Completed | 46 | Dry needling effect on EMG activity at latent myofascial trigger points; no drug arm. |
-| [NCT03813485](https://clinicaltrials.gov/study/NCT03813485) | NA | Unknown | 24 | EMG comparison of dry needling at latent trigger points in tonic vs. phasic trapezius fibers; no drug arm. |
-| [NCT00580294](https://clinicaltrials.gov/study/NCT00580294) | NA | Completed | 12 | Pilot study of rapid rotation from morphine/oxycodone to oxymorphone; not MFPS-specific. |
-| [NCT01878019](https://clinicaltrials.gov/study/NCT01878019) | N/A | Completed | 92 | Naloxone (a morphine antagonist) used to probe brain pain responses in chronic pain patients; mechanistic tool study, not MFPS-specific. |
-| [NCT05069363](https://clinicaltrials.gov/study/NCT05069363) | NA | Recruiting | 20 | Feasibility trial of whole-body photobiomodulation for chronic pain; references morphine among current standard treatments but does not test it. |
-| [NCT06179199](https://clinicaltrials.gov/study/NCT06179199) | NA | Not yet recruiting | 40 | Evaluates tDCS analgesia in sedated ICU patients, citing side effects of excessive morphine use as rationale; not an MFPS trial. |
+| [NCT00580294](https://clinicaltrials.gov/study/NCT00580294) | N/A | Completed | 12 | Pilot of rapid rotation from morphine or oxycodone to oxymorphone in chronic pain. Opioid-class evidence only, with no controlled efficacy endpoint. |
+| [NCT06955923](https://clinicaltrials.gov/study/NCT06955923) | Phase 2 | Completed | 11 | Trigger point injections versus sham after knee replacement, aiming to reduce pain and opioid use. Non-opioid, no morphine arm. |
+| [NCT04640896](https://clinicaltrials.gov/study/NCT04640896) | Phase 4 | Recruiting | 60 | Trigger point injections versus traditional therapies for pain after anterior cervical surgery. |
+| [NCT04504812](https://clinicaltrials.gov/study/NCT04504812) | Phase 3 | Completed | 1937 | Sequenced non-surgical strategy for knee osteoarthritis pain, aimed at reducing opioid reliance. Not a morphine study. |
+| [NCT07413770](https://clinicaltrials.gov/study/NCT07413770) | N/A | Recruiting | 60 | Classical massage in myofascial pain syndrome. Non-drug. |
+| [NCT05478928](https://clinicaltrials.gov/study/NCT05478928) | N/A | Unknown | 60 | Invasive physiotherapy techniques (microelectrolysis, dry needling) in myofascial trigger points. Non-drug. |
+| [NCT04684784](https://clinicaltrials.gov/study/NCT04684784) | N/A | Completed | 46 | Dry needling versus sham on electromyographic activity in latent trigger points. Non-drug. |
+| [NCT05050656](https://clinicaltrials.gov/study/NCT05050656) | Phase 4 | Completed | 70 | Preoperative duloxetine and its effect on spinal anaesthesia and early postoperative pain. |
+| [NCT03271151](https://clinicaltrials.gov/study/NCT03271151) | Phase 4 | Completed | 160 | Duloxetine and opioid use after knee replacement. Tests an opioid-sparing strategy. |
+| [NCT01878019](https://clinicaltrials.gov/study/NCT01878019) | N/A | Completed | 92 | Brain responses to pain in chronic pain patients, using naloxone (an opioid antagonist). Mechanistic study. |
 
 ---
 
@@ -82,28 +86,35 @@ The evidence pack itself flags this limitation directly: the TxGNN score most li
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41664327](https://pubmed.ncbi.nlm.nih.gov/41664327/) | 2026 | RCT | Asian Spine Journal | Double-blind RCT comparing dexmedetomidine + morphine vs. plain ropivacaine for myofascial infiltration in thoracolumbar spinal fusion — the most direct morphine + myofascial evidence found, but limited to peri-operative infiltration. |
-| [35066974](https://pubmed.ncbi.nlm.nih.gov/35066974/) | 2022 | Cohort | Pain Practice | Retrospective cohort: a structured stretching program resolved myofascial pain and reduced opioid usage in "legacy pain" patients — an opioid-*reduction* outcome, not opioid efficacy evidence. |
-| [22648287](https://pubmed.ncbi.nlm.nih.gov/22648287/) | 2012 | Cohort | Journal of Anesthesia | Cervical facet joint injections added to a multimodal program improved long-standing cervical MFPS; opioids were not the primary intervention studied. |
-| [21419546](https://pubmed.ncbi.nlm.nih.gov/21419546/) | 2011 | Review | J Oral Maxillofac Surg | Reviews long-term opioid use in chronic temporomandibular joint dysfunction; evidence "neither supports nor refutes" opioid use in this myofascial-adjacent condition. |
-| [39793344](https://pubmed.ncbi.nlm.nih.gov/39793344/) | 2025 | Case series | Eur J Obstet Gynecol Reprod Biol | Pudendal nerve block after botulinum toxin injection for myofascial pelvic pain; no morphine arm. |
-| [20390305](https://pubmed.ncbi.nlm.nih.gov/20390305/) | 2010 | Observational | Schmerz | Altered pain thresholds during and after opioid withdrawal in chronic low back pain patients on long-term opioid therapy. |
-| [16713811](https://pubmed.ncbi.nlm.nih.gov/16713811/) | 2006 | Case series | J Oral Maxillofac Surg | TMJ arthrocentesis followed by intra-articular morphine infusion for refractory TMJ pain — direct morphine use, but in a TMJ/intra-articular context rather than systemic MFPS. |
-| [17870625](https://pubmed.ncbi.nlm.nih.gov/17870625/) | 2008 | RCT | European Journal of Pain | Compares epidural analgesia vs. intercostal cryoanalgesia for post-thoracotomy pain; morphine used as part of the epidural comparator regimen. |
-| [21691691](https://pubmed.ncbi.nlm.nih.gov/21691691/) | 2011 | Descriptive | Rev Assoc Med Bras | Descriptive study of therapeutic approaches in 56 patients with failed back surgery pain syndrome. |
-| [9214190](https://pubmed.ncbi.nlm.nih.gov/9214190/) | 1997 | Clinical study | Zh Nevrol Psikhiatr | Combined analgesic (caffetin) evaluated for acute cervicalgia/lumbar sciatica; not morphine-specific. |
+| [41664327](https://pubmed.ncbi.nlm.nih.gov/41664327/) | 2026 | Randomised trial (double-blind) | Asian Spine J | Dexmedetomidine plus morphine versus plain ropivacaine for myofascial infiltration in thoracolumbar spinal fusion. This is the only direct morphine and myofascial signal, and the design cannot be verified from the title. |
+| [17870625](https://pubmed.ncbi.nlm.nih.gov/17870625/) | 2008 | RCT | Eur J Pain | Epidural bupivacaine and morphine compared with intercostal nerve cryoanalgesia for post-thoracotomy pain in 107 patients. Not myofascial pain. |
+| [35066974](https://pubmed.ncbi.nlm.nih.gov/35066974/) | 2022 | Cohort | Pain Pract | Structured stretching programme for myofascial pain and opioid usage in "legacy pain" patients. |
+| [22648287](https://pubmed.ncbi.nlm.nih.gov/22648287/) | 2012 | Clinical study | J Anesth | Cervical facet joint injections added to multimodal treatment of long-standing cervical myofascial pain. |
+| [21419546](https://pubmed.ncbi.nlm.nih.gov/21419546/) | 2011 | Retrospective/observational | J Oral Maxillofac Surg | Long-term opioid use in temporomandibular joint dysfunction. The evidence can be neither supported nor refuted. |
+| [16713811](https://pubmed.ncbi.nlm.nih.gov/16713811/) | 2006 | Clinical report | J Oral Maxillofac Surg | Arthrocentesis followed by intra-articular morphine infusion for refractory temporomandibular joint pain. |
+| [20390305](https://pubmed.ncbi.nlm.nih.gov/20390305/) | 2010 | Clinical study | Schmerz | Altered pain thresholds during and after opioid withdrawal in chronic low back pain. |
+| [39793344](https://pubmed.ncbi.nlm.nih.gov/39793344/) | 2025 | Clinical study | Eur J Obstet Gynecol Reprod Biol | Pudendal nerve block for pain after OnabotulinumtoxinA injection for myofascial pelvic pain. |
+| [5654625](https://pubmed.ncbi.nlm.nih.gov/5654625/) | 1968 | Narrative review | Br Med J | "Pain in the face". Historical overview with no morphine-specific evidence. |
 
 ---
 
 ## South Africa Market Information
 
-No SAHPRA registrations for Morphine are recorded in this Evidence Pack (market status: **Not marketed**, 0 licenses on file). This does not necessarily reflect real-world availability of morphine formulations in South Africa — it reflects a data gap in the source dataset used to build this pack (see Conclusion below).
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. BV329 | Opium Camphorated Tinct | Liquid |
+| Reg. No. B769 (ACT 101) | Cyclimorph 1ml | Injection |
+| Reg. No. G2815 | Toothache Essence (Dozen) | Liquid |
+
+The registry records provided do not include approved indication text or manufacturer names. Essential Medicines List (EML) status could not be determined from the data supplied.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+The evidence review also raised class-level concerns that matter for this prediction: dependence, opioid-induced hyperalgesia, and the general unsuitability of opioids for chronic myofascial pain. No drug interaction records were found.
 
 ---
 
@@ -112,13 +123,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-- No clinical trial or publication in this pack directly tests morphine as a treatment for myofascial pain syndrome; the strongest available evidence (a 2026 RCT) only covers morphine as part of a peri-operative infiltration mixture, not systemic MFPS management. Evidence level is L4 (mechanism/rationale only), and the underlying mechanistic link is judged weak — likely a broad "pain" association in the knowledge graph rather than an MFPS-specific effect.
+The model score is very high (99.75%), but no trial tests morphine in myofascial pain syndrome and no Phase 3 RCT supports it. The retrieved trials are almost all non-morphine or non-drug studies matched on the word "pain", and the risk-benefit balance for chronic use is unfavourable.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings, contraindications) — currently a **blocking** data gap that prevents any safety (S1) evaluation
-- Confirmed mechanism-of-action data from DrugBank or equivalent source
-- A dedicated study of morphine (or an opioid class effect) specifically in an MFPS population, ideally against first-line non-opioid comparators (dry needling, trigger point injection, physiotherapy)
-- Given morphine's status as a controlled substance, a formal opioid risk-benefit assessment before considering use in a non-cancer, non-life-threatening chronic pain condition such as MFPS
+- SAHPRA package insert warnings and contraindications, which are needed before any safety screening
+- Mechanism of action data
+- The full text and design of the 2026 morphine myofascial infiltration study (PMID 41664327), to confirm whether it is a real morphine signal
+- A defined, limited use case (perioperative or infiltration adjunct) with a dependence and hyperalgesia monitoring plan
+- Consideration of the other predicted indications first. Restless legs syndrome has stronger, morphine-specific observational evidence (L3), including intrathecal morphine reports and a national opioid registry.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

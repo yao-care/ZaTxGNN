@@ -2,7 +2,7 @@
 layout: default
 title: Iopamidol
 parent: Model Prediction Only (L5)
-nav_order: 263
+nav_order: 268
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iopamidol: From Radiographic Contrast Imaging to Prinzmetal Angina
+# Iopamidol: From Diagnostic Contrast Imaging to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Iopamidol is a non-ionic, low-osmolality iodinated radiographic contrast medium used in diagnostic imaging procedures including computed tomography (CT), angiography, and myelography — it has no currently registered therapeutic indication. The TxGNN model predicts it may be relevant to **Prinzmetal Angina** (variant angina) with a score of **98.57%**, however **no clinical trials** and **no supporting publications** exist for this as a therapeutic application. The high prediction score is most likely a knowledge graph artefact arising from Iopamidol's extensive co-occurrence with cardiovascular disease nodes in imaging literature, rather than a genuine therapeutic signal.
-
----
+Iopamidol is an iodinated, non-ionic contrast agent used in diagnostic imaging.
+The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Radiographic contrast medium (CT, angiography, myelography) — no SAHPRA-registered therapeutic indication |
-| Predicted New Indication | Prinzmetal Angina (variant angina) |
+|------|------|
+| Original Indication | Diagnostic contrast imaging (the registry record gives no approved indication text) |
+| Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 98.57% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known pharmacological information, Iopamidol is a non-ionic, low-osmolality iodinated contrast agent (DrugBank: DB08947). Its molecular structure features an iodinated benzene ring with amide side chains (-CONH-) that confer both water solubility and reduced systemic toxicity compared to earlier ionic contrast media. Its entire clinical utility is derived from its radiodensity properties for anatomical imaging — it does not interact with cell surface receptors, enzymes, or intracellular signalling pathways in a therapeutic sense.
+Currently, detailed mechanism of action data is not available. Iopamidol is a non-ionic contrast medium used to visualise blood vessels and tissues on X-ray and CT imaging. It has no known vasodilatory or anti-vasospastic pharmacology.
 
-Prinzmetal angina (variant angina) is characterised by episodic coronary artery vasospasm occurring at rest. The pathological core involves dysregulation of vascular smooth muscle calcium channels and impaired nitric oxide (NO) bioavailability. Standard pharmacological management targets calcium channel blockers (e.g., amlodipine, diltiazem) and nitrates. Iopamidol's iodinated benzene ring structure has no known pharmacological intersection with coronary smooth muscle tone, calcium channel gating, or NO synthase activity.
+Prinzmetal angina is caused by coronary artery vasospasm, so treating it would need a drug that relaxes or protects vascular smooth muscle. Nothing in the available data suggests iopamidol does this. The high score (0.986) most likely reflects how the drug is connected to cardiovascular terms in the knowledge graph. That connection probably comes from its use in cardiac and vascular imaging, not from any therapeutic effect. On this evidence, the prediction is not mechanistically plausible.
 
-The high TxGNN score (0.986, ranked 6,418 globally) is most plausibly explained by indirect knowledge graph (KG) associations: Iopamidol is routinely used in coronary angiography and cardiac CT, generating dense co-occurrence linkages in biomedical literature with cardiovascular disease nodes — including Prinzmetal angina. This constitutes a **systematic false positive arising from diagnostic context co-occurrence**, not a therapeutic biological signal. The absence of any supporting clinical trial or literature evidence (L5) is consistent with this interpretation.
-
----
+The other top-ranked predictions show the same pattern. Where any evidence exists, it concerns iopamidol as a diagnostic tool or its safety in specific patients, not treatment:
+- **Female breast carcinoma:** one terminated early-phase feasibility trial of CEST MRI, [NCT02380209](https://clinicaltrials.gov/study/NCT02380209), enrolled 8 patients and used iopamidol as an imaging probe.
+- **Pulmonary hypertension:** 18 records, mostly about angiography, image quality and haemodynamic tolerability. They include a 1,996 safety series of 1,434 patients ([PMID 8539407](https://pubmed.ncbi.nlm.nih.gov/8539407/)).
+- **Tendinitis:** MR arthrography and imaging studies only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for Prinzmetal angina.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for Prinzmetal angina.
 
 ## South Africa Market Information
 
-Iopamidol is **not currently registered with SAHPRA** and is not marketed in South Africa. No product licences are on record for this active pharmaceutical ingredient. Healthcare professionals requiring this contrast agent should consult SAHPRA Section 21 authorisation pathways for unregistered medicines if clinical need arises.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Q/28/200 | Jopamiron 200 10Ml | Injection | Not stated in the registry record |
 
----
+Essential Medicines List (EML) status was not verified in the data provided.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. As Iopamidol is not registered in South Africa, consult the originator product's prescribing information for warnings, contraindications, and precautions — including contrast-induced nephropathy risk, hypersensitivity reactions, and restrictions in patients with renal impairment, thyroid disease, or myasthenia gravis. Report adverse drug reactions to SAHPRA.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Iopamidol is a diagnostic radiographic contrast agent with no established therapeutic mechanism of action. The TxGNN prediction for Prinzmetal angina is an L5 signal (model prediction only) with zero supporting clinical trials or publications, consistent with a knowledge graph artefact driven by cardiovascular imaging co-occurrence data rather than any genuine therapeutic biology. The drug is additionally not registered or marketed in South Africa, creating a significant regulatory barrier to any repurposing pathway.
+The prediction has no supporting trials or literature and no plausible therapeutic mechanism. Iopamidol's known role is diagnostic. Evidence Level L5 does not justify further development for Prinzmetal angina.
 
 **To proceed, the following is needed:**
-- **KG audit:** Determine whether the TxGNN training graph distinguishes diagnostic/imaging exposure from therapeutic intervention — contrast agents may systematically generate false positives across a broad range of disease nodes due to their widespread diagnostic use
-- **MOA verification:** Retrieve full pharmacology data from DrugBank API (DG002 remediation) to formally document the absence of therapeutic target engagement
-- **Regulatory pathway clarification:** If any repurposing hypothesis for Iopamidol is to be pursued, SAHPRA registration status and Section 21 authorisation requirements must be addressed as a prerequisite
-- **Model flag:** Consider tagging Iopamidol and other pure contrast/diagnostic agents in the candidate pipeline as a distinct class requiring separate evaluation criteria before standard repurposing analysis is applied
+- The SAHPRA package insert (warnings, contraindications and approved indication), which is needed before any safety screening
+- Mechanism of action data from DrugBank
+- A credible pharmacological rationale for coronary vasospasm, followed by preclinical evidence
+- A decision on whether the diagnostic-imaging findings (CEST MRI in breast cancer, pulmonary angiography) should be tracked as a separate diagnostic-use question rather than as therapeutic repurposing
 
----
-
-> ⚠️ **Disclaimer:** This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All content should be reviewed by qualified healthcare professionals before informing clinical decisions.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

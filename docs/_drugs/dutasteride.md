@@ -2,7 +2,7 @@
 layout: default
 title: Dutasteride
 parent: Model Prediction Only (L5)
-nav_order: 202
+nav_order: 206
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,84 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the txgnn-pipeline skill confirmed no additional formatting rules apply beyond the report template already provided — proceeding to generate the report directly from the Evidence Pack.
-
----
-
 # Dutasteride: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Dutasteride is a dual 5α-reductase inhibitor, internationally used to treat **benign prostatic hyperplasia (BPH)** by lowering dihydrotestosterone (DHT) levels. The TxGNN model's highest-scoring candidate indication is **Ambras type hypertrichosis universalis congenita**, a rare congenital hair-overgrowth disorder, but this prediction is currently supported by **zero clinical trials and zero published literature**, and the model's own rationale flags the underlying mechanism as a poor biological fit.
-
----
+Dutasteride is a 5-alpha reductase inhibitor. The registration data supplied lists no approved indication, but the drug is generally used for androgen-driven conditions such as benign prostatic hyperplasia, and this should be confirmed against the SAHPRA Professional Information (PI).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, with **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is model-only and the mechanistic link is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the SAHPRA registry (Dutasteride is not currently marketed in South Africa); internationally approved for benign prostatic hyperplasia |
+| Original Indication | Not stated in the SAHPRA registration data (benign prostatic hyperplasia is the usual use; confirm against the PI) |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 99.998% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (drugbank field flagged as a data gap). Based on what is embedded in the evidence pack's own repurposing rationale, Dutasteride acts as a dual 5α-reductase inhibitor that lowers DHT — the mechanism underlying its efficacy in androgen-driven conditions such as BPH and androgenetic alopecia.
+Dutasteride inhibits 5-alpha reductase types 1 and 2 and lowers dihydrotestosterone (DHT). Detailed mechanism-of-action data from DrugBank is not available in this pack, so the description above comes from the pack's mechanistic assessment.
 
-Ambras type hypertrichosis universalis congenita, however, is a rare congenital disorder caused by a chromosomal rearrangement at 8q24, producing generalised excess hair growth through a developmental pathway that is **not androgen-dependent**. The evidence pack's own mechanistic assessment explicitly notes this mismatch: even though "reducing hair growth" might superficially seem relevant to a hypertrichosis diagnosis, the disease's actual biology does not run through the DHT/5α-reductase axis that Dutasteride targets, so there is no established pharmacological basis for benefit.
+Ambras syndrome is a congenital condition caused by chromosomal rearrangements affecting TRPS1 regulation at 8q22. It is not primarily androgen-driven, so lowering DHT has no clear reason to help. The very high TxGNN score reflects a pattern in the knowledge graph. It may simply capture the drug's known association with hair-related conditions, possibly in the opposite direction (reducing hair growth rather than increasing it). Without clinical evidence, the score should not be read as support for efficacy.
 
-A further caution: this candidate's TxGNN score (99.998%) sits at overall model rank 50, and eight of the ten candidates in this evidence pack cluster in a similarly narrow, near-ceiling score band (99.56%–99.998%, ranks 50–2604) with no supporting trials or literature. This pattern is consistent with score saturation/embedding-proximity noise rather than a strong, discriminative therapeutic signal, and should be weighted accordingly when interpreting the ranking.
+### Other Predictions Reviewed
 
----
+None of the other top-10 predictions has supporting trial evidence. All are rated "Hold".
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 2 | Hypertrichosis | 99.997% | L5 | Indirect link only. Hypertrichosis is largely androgen-independent. |
+| 3 | Malformation syndrome with odontal/periodontal component | 99.997% | L5 | No credible link. The 20 retrieved papers concern periodontitis in general and none evaluates dutasteride. |
+| 4 | Syndrome with Dandy-Walker malformation | 99.996% | L5 | No plausible link. Likely a graph artefact. |
+| 5 | Isolated genetic hair shaft abnormality | 99.996% | L5 | Structural defect not driven by DHT. |
+| 6 | Hypotrichosis simplex of the scalp | 99.771% | L5 | Genetic, not DHT-mediated. Cannot extrapolate from androgenetic alopecia. |
+| 7 | Congenital hypotrichosis milia | 99.753% | L5 | No known androgen-dependent mechanism. |
+| 8 | Diffuse alopecia areata | 99.675% | L4 | Autoimmune. The one retrieved paper is a review of androgenetic alopecia in women and is a disease mismatch. |
+| 9 | Migraine with brainstem aura | 99.667% | L5 | Speculative link through neurosteroids. |
+| 10 | Familial isolated trichomegaly | 99.565% | L5 | Mechanism not established as androgen-dependent. |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered. No ClinicalTrials.gov, SANCTR, PACTR or ICTRP trials were retrieved for this prediction.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for the top-ranked prediction.
 
 ## South Africa Market Information
 
-Dutasteride currently holds **no SAHPRA product registrations** and is recorded as **not marketed** in South Africa in this evidence pack (0 licenses on file). No product-level dosage form or approved-indication data is therefore available from the local registry.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 55/21.12/0032 | Swifsul | Capsule | Not stated in the data |
+| Reg. No. 44/21.12/0850 | Duodart 0.5mg/0.4mg | Capsule (oral) | Not stated in the data |
 
----
+The Essential Medicines List (EML) status was not provided. Approved indication text should be taken from the SAHPRA package inserts.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*Note: this evidence pack flags SAHPRA/local warning and contraindication data as a **Blocking** data gap (DG001) — meaning a preliminary safety screen (S1) cannot be completed until this information is obtained.*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The candidate indication is supported only by TxGNN's model score (Evidence Level L5) — there are no clinical trials and no literature of any kind.
-- The evidence pack's own mechanistic analysis indicates the drug's DHT-lowering action does not plausibly address the non-androgen-dependent, chromosomally driven pathology of Ambras type hypertrichosis.
-- A **Blocking** data gap (missing SAHPRA/TFDA warnings and contraindications) prevents even an initial safety assessment (S1) from being started.
+The prediction rests on a model score alone (L5), with no trials or drug-specific literature. The biological link between DHT suppression and Ambras syndrome is weak. All ten predicted indications are also on hold.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings, precautions, contraindications) — currently a **Blocking** gap (DG001)
-- Confirmed mechanism-of-action data from DrugBank/primary sources — currently a **High**-severity gap (DG002)
-- Preclinical or mechanistic evidence directly linking the 5α-reductase/DHT pathway to Ambras type hypertrichosis pathophysiology
-- Clarification of whether pharmacological suppression of hair growth is even a clinically desired outcome for this congenital condition, as the current rationale itself is conditional ("if needed")
+- SAHPRA package insert data (approved indications, warnings, contraindications), because the missing safety data blocks safety screening
+- Mechanism-of-action data from DrugBank
+- Disease-specific preclinical or clinical evidence linking 5-alpha reductase inhibition to the predicted condition
+- A review of whether the model score reflects the opposite direction of effect (hair reduction rather than growth)
+- A route-compatibility assessment against the predicted indication
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

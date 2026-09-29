@@ -2,7 +2,7 @@
 layout: default
 title: Icodextrin
 parent: Model Prediction Only (L5)
-nav_order: 251
+nav_order: 256
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,80 +33,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Icodextrin is a high-molecular-weight glucose polymer osmotic agent, best known internationally for its use in peritoneal dialysis solutions (brand names: Extraneal, Adept) and post-surgical adhesion prevention — however, it holds **no current SAHPRA registration** in South Africa.
-The TxGNN model predicts it may be effective for **Irritable Bowel Syndrome (IBS)**, based primarily on its osmotic and gut-microbiome-modulating properties.
-This prediction is currently supported by **0 clinical trials** and **0 publications**, placing it at the lowest evidence tier.
-
----
+Icodextrin is a high-molecular-weight glucose polymer used as an osmotic agent in peritoneal dialysis.
+The TxGNN model predicts it may be effective for **irritable bowel syndrome**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in South Africa; internationally used as peritoneal dialysis osmotic agent (Extraneal) and post-surgical adhesion prevention (Adept) |
-| Predicted New Indication | Irritable Bowel Syndrome (IBS) |
+|------|------|
+| Original Indication | Peritoneal dialysis (osmotic agent). The registration data supplied contain no approved indication text. |
+| Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 98.53% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Icodextrin is an osmotic agent in peritoneal dialysis. It is not known to act on gut motility, visceral sensation or the gut-brain axis.
 
-Detailed mechanism of action data is not currently available in this Evidence Pack. Based on known pharmacological information, Icodextrin is a starch-derived glucose polymer (molecular weight ~16,800 Da). Its primary clinical utility derives from two osmotic properties: in peritoneal dialysis, it creates a sustained oncotic gradient across the peritoneal membrane, enabling prolonged ultrafiltration during long dwell times; in gynaecological surgery (Adept), it acts as a viscous hydroflotation agent to separate tissue surfaces and reduce post-surgical adhesion formation.
+No mechanistic link to irritable bowel syndrome has been established. Any gut-related effect would be speculative. The high score reflects a knowledge-graph association and not pharmacological evidence.
 
-The mechanistic rationale for IBS rests on two theoretical pillars. First, Icodextrin's constituent oligosaccharides (including maltose and short-chain glucose polymers produced during metabolism) could theoretically function as prebiotic substrates, modulating gut microbiota composition in a manner analogous to fructo-oligosaccharides. Second, its osmotic properties conceptually parallel those of osmotic laxatives such as polyethylene glycol (PEG), which are established treatments for certain IBS subtypes (IBS-C). These two properties together may have prompted the TxGNN knowledge graph to associate Icodextrin with IBS.
-
-However, a fundamental and likely insurmountable obstacle exists: Icodextrin is not formulated for oral administration. It is administered intraperitoneally (peritoneal dialysis) or intrauterinely (adhesion prevention). Repurposing for IBS would require a completely novel oral dosage form and safety/bioavailability profile that has not been explored. The IBS connection remains a computational inference at the model-prediction-only tier, with no supporting experimental, clinical, or observational evidence.
-
----
+The other nine top-ranked predictions (scores 95.8% to 97.4%) are also L5 with no supporting data. They include esophageal malformation, C1 inhibitor deficiency, hereditary angioedema, potassium deficiency, serpinopathy, renal tubular acidosis and vitamin deficiency. Several look like graph-topology artefacts, for example the overlapping C1 inhibitor deficiency and hereditary angioedema predictions. The prediction list as a whole should be treated with caution.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Icodextrin in irritable bowel syndrome.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Icodextrin in irritable bowel syndrome.
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
-Icodextrin holds **no current SAHPRA registrations**. The drug is not available on the South African market as a registered product. Healthcare professionals should note:
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 38/34/0172 | Extraneal 2L twinbag system 2 | Infusion | Not stated in supplied data |
+| Reg. No. 38/34/0172 | Extraneal 2L | Solution | Not stated in supplied data |
+| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not stated in supplied data |
 
-- The drug is not listed on the South African Essential Medicines List (EML).
-- Any future use would require SAHPRA Section 21 authorisation (unregistered medicine) or a full registration application.
-- Internationally registered formulations include Extraneal (peritoneal dialysis solution, Baxter) and Adept (adhesion-reduction solution, Hana Biosciences/Baxter), neither of which is registered in South Africa.
-
----
+**Data-source caveat:** The three entries share one registration number, so they appear to be presentations of a single registration. The Evidence Pack lists its regulatory input as "tfda", and the number format may not be a SAHPRA one. The SAHPRA registration status and the approved indication should be verified directly on the SAHPRA register. Essential Medicines List (EML) status is not available in the supplied data.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. As Icodextrin is not currently registered with SAHPRA, prescribers should consult the manufacturer's international prescribing information (Extraneal or Adept PI) and international pharmacovigilance databases prior to any use. Report adverse drug reactions to SAHPRA via the MedSafety reporting portal.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is currently zero clinical or preclinical evidence supporting Icodextrin for irritable bowel syndrome, and a fundamental route-of-administration incompatibility exists — the drug is not available in oral form. The TxGNN score of 98.53% reflects computational graph topology rather than translatable biological plausibility, and the drug is not registered in South Africa, adding a substantial regulatory barrier before any clinical application could be considered.
+The prediction has no clinical trials, no literature and no mechanistic support, and safety and mechanism data are missing. The prediction should not be acted on until supporting evidence exists.
 
-**To proceed, the following would be needed:**
+**To proceed, the following is needed:**
+- The SAHPRA package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
+- Confirmation of the SAHPRA registration status and number
+- Mechanism of action data from DrugBank
+- A plausible pharmacological rationale for irritable bowel syndrome, supported by preclinical or clinical evidence
+- Assessment of route compatibility, since icodextrin is given intraperitoneally and irritable bowel syndrome is managed with oral or other gut-directed therapy
 
-- **Preclinical proof of concept:** In vitro and animal studies demonstrating that Icodextrin (or its metabolites in oral form) modulates gut microbiota or intestinal motility in an IBS-relevant model.
-- **Oral formulation feasibility:** Pharmaceutical studies to determine whether an oral form is safe, bioavailable, and metabolically distinct from existing osmotic agents (e.g., PEG 3350, lactulose).
-- **Mechanism of action clarification:** Full DrugBank MOA data and pharmacodynamic characterisation via DrugBank API query (DG002 remediation).
-- **Safety data retrieval:** Full SAHPRA/international PI warnings and contraindications (DG001 remediation), including known adverse effects in PD patients (hypersensitivity reactions, false glucose meter readings with maltose-sensitive devices, sterile peritonitis).
-- **SAHPRA regulatory pathway:** Assessment of Section 21 or full registration requirements before any human use in South Africa.
-
-> ⚠️ **Disclaimer:** This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. All predictions are generated by the TxGNN computational model and must be interpreted in the context of clinical evidence and regulatory requirements.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

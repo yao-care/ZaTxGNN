@@ -2,7 +2,7 @@
 layout: default
 title: Travoprost
 parent: Model Prediction Only (L5)
-nav_order: 444
+nav_order: 452
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,60 +29,97 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Travoprost: From Glaucoma/Ocular Hypertension to Visceral Calciphylaxis
+# Travoprost: From Glaucoma to Visceral Calciphylaxis
 
 ## One-Sentence Summary
 
-Travoprost is a topical prostaglandin F2α (FP receptor) agonist used to lower intraocular pressure in open-angle glaucoma and ocular hypertension (based on the drug-class information embedded in the trial evidence within this pack; formal original-indication and MOA records are not yet available). The TxGNN model's top-ranked prediction for this drug is **Visceral Calciphylaxis**, but **no clinical trials and no literature** currently support this link, and the model's own generated rationale states there is no known biological basis for it — this is a pure graph-inference artifact.
+Travoprost is a topical prostaglandin F2-alpha (FP receptor) agonist eye drop, used to lower eye pressure in glaucoma and ocular hypertension.
+The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a computational signal only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma / ocular hypertension (inferred from trial evidence in this pack; not confirmed by a formal indication record) |
-| Predicted New Indication | Visceral Calciphylaxis |
+| Original Indication | Open-angle glaucoma / ocular hypertension (taken from the trial and literature record, because the SAHPRA indication text is blank) |
+| Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 99.9998% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Travoprost is not available in this evidence pack. Based on the information embedded in the supporting trial records, Travoprost belongs to the prostaglandin analogue (FP receptor agonist) class, and its efficacy in lowering intraocular pressure via the uveoscleral outflow pathway is well established for glaucoma and ocular hypertension.
+Currently, detailed mechanism of action data is not available in the record. Based on known information, travoprost is a topical prostaglandin FP receptor agonist. Its efficacy in glaucoma is well established, but the record contains no data linking it to visceral calciphylaxis.
 
-Visceral calciphylaxis is a vascular calcification disorder affecting deep tissue and organ vasculature — a pathology that is mechanistically unrelated to FP-receptor-mediated aqueous humor outflow. The evidence pack's own repurposing rationale is explicit on this point: *"no known mechanism links FP receptor agonism to vascular calcification pathology; the high TxGNN score appears to lack biological grounding and reflects only a graph-relational inference."*
+**No established mechanistic link supports this prediction.** The high score most likely reflects proximity to vascular terms in the knowledge graph, not a validated biological mechanism. Two further points weaken the case:
 
-In other words, this is a case where the model's numerical confidence (99.9998%) is not corroborated by any mechanistic plausibility or independent evidence. High TxGNN scores alone should not be interpreted as clinical validity — this candidate illustrates why supporting evidence (trials, literature, MOA) must always be checked before advancing a prediction.
+- Travoprost is given as eye drops, so systemic exposure is very low. It is unlikely to reach the vessels involved in visceral calciphylaxis at an effective level.
+- Visceral calciphylaxis is a systemic vascular calcification disorder, and no preclinical or clinical work connects FP receptor signalling to it.
+
+The other top-ranked predictions (thoracic outlet syndromes, angiodysplasia of the stomach, blue toe syndrome, spontaneous coronary artery dissection, lymphangiectasis and others) are also L5, Hold, and computational only.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for visceral calciphylaxis.
+
+**Note on other predictions.** The "vascular disease" prediction (rank 5) lists 15 trials. All of them are glaucoma or ocular hypertension studies, or ocular surface tolerability and conjunctival hyperemia studies. They do not test any vascular therapeutic benefit and appear to be keyword matches, so they are not counted as supporting evidence here.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for visceral calciphylaxis.
+
+**Note on other predictions.** The 20 publications listed under "vascular disease" are also about glaucoma treatment or conjunctival hyperemia. For "hemangioendothelioma" (rank 10), there is one case report of uveal effusion caused by topical travoprost in a patient with Sturge-Weber syndrome ([PMID 19107053](https://pubmed.ncbi.nlm.nih.gov/19107053/)) and one review of glaucoma in that syndrome ([PMID 21524602](https://pubmed.ncbi.nlm.nih.gov/21524602/)). The case report describes an adverse event, so it is a safety signal, not evidence of benefit.
+
+---
 
 ## South Africa Market Information
 
-Travoprost currently has no SAHPRA registrations and is not marketed in South Africa (0 licenses on file). No product/registration data is available for review.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 51/15.4/0099 | Ocutra Co | Drops | Not provided in the record |
+| Reg. No. A40/15.4/0511 | Duotrav 2.5ml | Drops | Not provided in the record |
+
+Both registrations are ophthalmic drops only. There is no systemic formulation on the South African market.
+
+---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+The following adverse-effect signals appear in the collected literature and trials (they are not from the PI):
+
+- **Conjunctival hyperemia** is common with topical prostaglandin analogues. One review reports it in up to 50% of patients on travoprost. A study in healthy African subjects found moderate hyperemia in 15 of 20 (70%) after a single dose ([PMID 17874490](https://pubmed.ncbi.nlm.nih.gov/17874490/)).
+- **Iris pigmentation change** has been followed in a dedicated five-year safety study of patients on the branded product ([NCT00047554](https://clinicaltrials.gov/study/NCT00047554)).
+- **Uveal effusion** with exudative retinal detachment was reported in a patient with Sturge-Weber syndrome ([PMID 19107053](https://pubmed.ncbi.nlm.nih.gov/19107053/)).
+
+No drug interaction records were found.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Visceral Calciphylaxis) is evidence level L5 — a model-only inference with zero clinical trials, zero literature, and an explicitly stated lack of mechanistic plausibility. Combined with the drug's non-marketed status in South Africa and outstanding MOA/safety data gaps, this candidate does not currently meet the bar to proceed.
+The prediction has no supporting trial or publication (L5), no plausible mechanism, and a route mismatch: an eye drop is being proposed for a systemic vascular disease. The trials and literature attached to related predictions are all on-label glaucoma or adverse-effect studies.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action record for Travoprost (DrugBank query is flagged as a blocking data gap)
-- SAHPRA-approved PI warnings, contraindications, and drug interaction data
-- Independent biological rationale or preclinical data connecting FP receptor agonism to vascular calcification, before further trial/literature search is warranted
-- Note for prioritization: within the same prediction batch, rank 5 ("vascular disease") reached decision stage S1 with 15 clinical trials and 20 publications, though the evidence pack flags that evidence as largely glaucoma-specific and mismatched to the "vascular disease" label — this may be a more productive candidate to re-evaluate with corrected search terms before Visceral Calciphylaxis is revisited
+- SAHPRA package insert warnings, contraindications and approved indication text. This is a blocking gap for safety screening.
+- Mechanism of action data, for example from DrugBank.
+- A stated biological hypothesis linking FP receptor signalling to calcification or vascular pathology in calciphylaxis, with supporting preclinical data.
+- A route and exposure assessment showing whether any formulation could reach the target tissue.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

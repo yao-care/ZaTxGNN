@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenol
-parent: Moderate Evidence (L3-L4)
-nav_order: 357
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 365
+evidence_level: L5
 indication_count: 8
 ---
 
 # Phenol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,67 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 </div>
 
-# Phenol: From Topical Caustic Agent to Acne Keloid
+# Phenol: From an Unrecorded Original Indication to Acrodermatitis Chronica Atrophicans
 
 ## One-Sentence Summary
 
-No original indication is recorded for phenol (DrugBank DB03255) in the current dataset, though it is broadly known as a caustic/keratolytic agent used in chemical skin peels. Of the **8 indications** predicted by the TxGNN model for this drug, only **Acne Keloid** is supported by actual literature (**4 publications** on phenol chemical peels); the remaining seven — including the top-scoring candidate, acrodermatitis chronica atrophicans (99.95%) — have **no clinical trial or literature evidence** and no plausible mechanism, and are explicitly flagged for **Hold**.
-
----
+Phenol is a long-established antiseptic and protein-denaturing chemical. In South Africa it is registered in one product, a syrup, and the record does not state an approved indication.
+The TxGNN model predicts it may be relevant to **acrodermatitis chronica atrophicans** (late-stage Lyme borreliosis of the skin).
+There are **0 clinical trials** and **0 publications** supporting this direction, so this is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in current data — phenol is generally used as a topical caustic/chemical-peel agent |
-| Predicted New Indication | Acne Keloid (the only one of 8 screened candidates with supporting evidence) |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails (Acne Keloid only; all other candidates are Hold) |
-
----
+| Predicted New Indication | Acrodermatitis chronica atrophicans |
+| TxGNN Prediction Score | 99.95% |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for phenol is not available (Data Gap). Based on known clinical use, phenol is a protein-denaturing caustic agent applied in dermatology as a **deep chemical peel** (e.g., Baker–Gordon and modified formulas such as Exoderm), where controlled epidermal/dermal injury induces collagen remodeling and re-epithelialization.
+Currently, detailed mechanism of action data is not available, and no original indication is recorded in the SAHPRA registration data. Phenol is known in general terms for antiseptic and protein-denaturing action. No mechanistic link to the predicted disease is documented.
 
-Acne keloid (acne keloidalis nuchae — scarring/keloidal reaction secondary to acne or follicular inflammation) involves excess fibrotic scar tissue. Phenol's established role in resurfacing acne scars and modulating hypertrophic/keloidal scarring through controlled tissue destruction and collagen remodeling gives this prediction a plausible, literature-anchored mechanistic basis — distinct from the other 7 predicted indications, which have no supporting evidence or mechanistic rationale (see summary below).
+Acrodermatitis chronica atrophicans is a late-stage skin manifestation of Lyme borreliosis and is treated with antibiotics. Phenol has no documented role in this condition. The very high score of 99.95% most likely reflects proximity in the knowledge graph rather than therapeutic evidence.
 
----
-
-## Other Screened Predictions (this drug's evidence pack covers 8 candidates)
-
-| Disease | TxGNN Score | Evidence Level | Decision |
-|---|---|---|---|
-| Acrodermatitis chronica atrophicans | 99.95% | L5 | Hold — no evidence, no mechanistic link |
-| Secondary interstitial lung disease (childhood, CTD-associated) | 99.95% | L5 | Hold — no evidence |
-| Neonatal dermatomyositis | 99.95% | L5 | Hold — only matching trial studies hydroxychloroquine, not phenol |
-| Amyopathic dermatomyositis | 99.95% | L5 | Hold — no evidence |
-| **Acne Keloid** | **99.94%** | **L3** | **Proceed with Guardrails** |
-| Hydroa vacciniforme, familial | 99.94% | L5 | Hold — no evidence |
-| Severe nonproliferative diabetic retinopathy | 99.46% | L5 | Hold — trials/literature found are disease-matched (fenofibrate, aspirin), not phenol-specific |
-| Dry eye syndrome | 99.04% | L5 | Hold — trials/literature found are disease-matched (nasal stimulation, omega-3, antimuscarinics), not phenol-specific |
-
----
+Phenol is also a corrosive and toxic agent. Any new use would need to be weighed against that hazard.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for phenol in Acne Keloid.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [17204096](https://pubmed.ncbi.nlm.nih.gov/17204096/) | 2007 | Cohort/Case series | The Journal of Dermatology | Modified phenol peel (Exoderm) evaluated for facial wrinkles, acne scars, and related skin problems in Asian patients, with reduced side effects such as hypertrophic scarring/keloid vs. classic phenol peels |
-| [16164153](https://pubmed.ncbi.nlm.nih.gov/16164153/) | 2005 | Review | Cutis | Reviews acne treatment in ethnic skin, noting increased risk of post-inflammatory hyperpigmentation and keloid scarring after acne lesions |
-| [866280](https://pubmed.ncbi.nlm.nih.gov/866280/) | 1977 | Review | Postgraduate Medicine | Discusses dermatoses common in Black patients, including keloidal folliculitis |
-| [4278481](https://pubmed.ncbi.nlm.nih.gov/4278481/) | 1974 | Case report | Fortschritte der Medizin | Treatment of scalp diseases with Crino-Kaban; relevance to phenol-specific acne keloid treatment not detailed in abstract |
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
-Phenol currently holds **no SAHPRA product registrations** in South Africa (market status: Not marketed; total registrations: 0).
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. G2011 (OM) | Biohist | Syrup | Not stated in the registration record |
 
----
+Essential Medicines List (EML) status could not be determined from the available data.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*(Note: TFDA/SAHPRA labelling warnings and contraindications for phenol are a Blocking data gap — required before any Stage 1 safety review can proceed.)*
-
----
-
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (Acne Keloid indication only — all other 7 predicted indications for phenol are **Hold**)
+**Decision: Hold**
 
 **Rationale:**
-- Phenol chemical peels have an established, literature-documented role in scar/keloid resurfacing, giving Acne Keloid a mechanistically plausible basis (L3) unlike the other 7 candidates, which lack any drug-specific evidence.
-- Phenol is not currently marketed or registered in South Africa, so there is no existing local regulatory pathway to build on.
+The prediction has no supporting trials, literature or mechanistic rationale, and phenol's toxicity profile argues against speculative new uses. The safety data required for even a first screening step are missing.
+
+Among the other model-predicted indications, only **acne keloid** has any indirect signal. It is graded L4 and marked as a research question. That signal comes from published reports on modified phenol chemical peels for acne scars (PMID [17204096](https://pubmed.ncbi.nlm.nih.gov/17204096/)). It is not evidence for acne keloidalis itself, and the peels carry cardiac, hepatic, renal and pigmentary risks.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action data via DrugBank or equivalent source (DG002)
-- SAHPRA registration/import pathway assessment for phenol topical products in South Africa
-- Direct clinical evidence (trial or controlled study) specifically evaluating phenol peel for acne keloid, since current literature is limited to case series and narrative reviews
+- The SAHPRA package insert (warnings and contraindications), which is currently a blocking gap
+- Mechanism of action data, for example from DrugBank
+- The original approved indication of the Biohist syrup registration
+- Any clinical or preclinical study of phenol in the predicted condition, before further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

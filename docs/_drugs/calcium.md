@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Calcium
-parent: Model Prediction Only (L5)
-nav_order: 87
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 88
+evidence_level: L4
 indication_count: 10
 ---
 
 # Calcium
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,96 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calcium: From Electrolyte Supplementation to Thrombotic Disease
+# Calcium: From No Recorded Indication to Thrombotic Disease
 
 ## One-Sentence Summary
 
-Calcium (DrugBank ID: DB01373) is an essential mineral and electrolyte supplement used globally to correct hypocalcaemia, support bone mineralisation, and facilitate cardiac resuscitation in emergency settings.
-The TxGNN model predicts it may have therapeutic relevance for **Thrombotic Disease** with a prediction score of **98.25%**,
-supported by **40 clinical trial registrations** and **20 publications** — though critically, no study has directly tested calcium supplementation as a primary intervention specifically targeting thrombotic disease, and the mechanistic direction of the prediction remains ambiguous.
+The supplied registration data record no approved indication for calcium in South Africa. The TxGNN model predicts it may be relevant to **thrombotic disease**, with a score of 98.25%. The search retrieved **40 clinical trials** and **20 publications**, but none tests calcium as a treatment for thrombosis, so this is a model signal and not clinical evidence.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypocalcaemia / electrolyte supplementation (no SAHPRA-registered products identified) |
-| Predicted New Indication | Thrombotic Disease |
-| TxGNN Prediction Score | 98.25% |
-| Evidence Level | L4 (Mechanistic and preclinical evidence only; no direct RCTs) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+|------|------|
+| Original Indication | Not stated in the supplied registration data (all approved-indication fields are empty) |
+| Predicted New Indication | Thrombotic disease |
+| TxGNN Prediction Score | 98.25% (model rank 7,514) |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current evidence package. Based on established physiology, calcium (Ca²⁺) plays a central role in haemostasis as **Coagulation Factor IV** — the only inorganic cofactor in the coagulation cascade. It is an obligate participant in the assembly of both the tenase complex (Factors VIIIa/IXa) and the prothrombinase complex (Factors Va/Xa) on activated platelet phospholipid surfaces, and is essential for prothrombin-to-thrombin conversion. Beyond coagulation factor activation, intracellular Ca²⁺ signalling drives platelet activation by mediating GPIIb/IIIa integrin conformational change, thromboxane A₂ synthesis, and dense granule exocytosis. A 2023 in vitro study (PMID 36453103) specifically demonstrated that plasma from patients with immune-mediated thrombotic thrombocytopenic purpura (iTTP) induces **calcium- and IgG-dependent** endothelial cell activation, directly implicating aberrant Ca²⁺ signalling as a trigger in a severe thrombotic microangiopathy. Calcium also serves as an obligate cofactor in the Protein C anticoagulant pathway: thrombomodulin-mediated activation of Protein C at the endothelial surface requires Ca²⁺, establishing calcium's role in both pro- and anticoagulant regulation (PMID 6099583).
+Detailed mechanism of action data for calcium is not available in the supplied data. Calcium ions are a physiological cofactor in blood coagulation and platelet activation, which explains why the knowledge graph links calcium to thrombosis.
 
-The pathophysiological relationship between calcium and thrombotic disease is, however, bidirectional and clinically complex. The TxGNN prediction does not specify a therapeutic direction — it cannot distinguish between calcium as a target to *supplement*, *modulate*, or *inhibit* in the context of thrombosis. **Critically, hypercalcaemia is itself a recognised prothrombotic state**, and epidemiological data suggest that excessive calcium supplementation may increase cardiovascular risk in certain populations. The retrieved clinical trials involve predominantly other pharmacological agents (statins, anticoagulants) or employ nadroparin **calcium** as a low molecular weight heparin salt in which calcium functions only as an inert counterion. The 20 retrieved publications are predominantly mechanistic studies examining calcium signalling in platelets and endothelial cells — providing biological plausibility for calcium's involvement in thrombosis, but offering no directional evidence that calcium supplementation would reduce thrombotic risk.
+That link points the wrong way for a treatment. Calcium's role in clotting suggests a pro-thrombotic or neutral effect, not a therapeutic one. The retrieved literature is mostly basic science on calcium signalling in platelets and endothelium, plus general reviews of calcium intake and cardiovascular risk. None of it shows that giving calcium treats or prevents thrombosis.
+
+The high TxGNN score reflects graph proximity, not clinical proof. Because the drug's original indication is also unrecorded, there is no clear "original-to-new" therapeutic relationship to assess.
 
 ---
 
 ## Clinical Trial Evidence
 
-> **Important note:** No clinical trials were identified that directly test calcium supplementation (e.g., calcium chloride, calcium gluconate) as a primary intervention for thrombotic disease. Trials are presented for contextual relevance. Trials labelled "nadroparin calcium" refer to a low molecular weight heparin salt in which calcium is the pharmacologically inert counterion, not the active agent.
+The search returned 40 trials. None tests calcium as the intervention for thrombotic disease. The table lists the most relevant ones, and most involve other drugs. Nadroparin *calcium* is a low molecular weight heparin, so the calcium there is only the salt form and not the active moiety.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00951574](https://clinicaltrials.gov/study/NCT00951574) | Phase 3 | Completed | 1,166 | Nadroparin calcium (LMWH, one subcutaneous injection/day) vs placebo for VTE prevention in patients with lung, breast, GI, ovarian, or H&N cancer on chemotherapy for up to 4 months; calcium here is the salt counterion only |
-| [NCT00421538](https://clinicaltrials.gov/study/NCT00421538) | Phase 3 | Completed | 260 | CACTUS-PTS: therapeutic-dose nadroparin vs placebo for 6 weeks in first symptomatic isolated distal (calf) DVT; primary endpoints were proximal DVT and symptomatic PE rates at 6 weeks |
-| [NCT04173429](https://clinicaltrials.gov/study/NCT04173429) | Phase 4 | Completed | 64 | Nadroparin calcium–warfarin sequential anticoagulation in cirrhotic patients with portal vein thrombosis; evaluated recanalization rate, rebleeding incidence, and safety |
-| [NCT05621915](https://clinicaltrials.gov/study/NCT05621915) | Observational | Completed | 43 | Prospective pharmacokinetic study of nadroparin calcium across COVID-19 severity stages; developed LMWH dosing model for critically ill patients with high thrombotic risk |
-| [NCT01528800](https://clinicaltrials.gov/study/NCT01528800) | Phase 2 | Completed | 85 | iPACK-HD: Vitamin K supplementation three times weekly to reduce coronary artery **calcification** progression in dialysis patients over 12 months vs placebo; calcium deposition measured as primary endpoint — indirectly relevant to calcium metabolism |
-| [NCT07164300](https://clinicaltrials.gov/study/NCT07164300) | N/A | Recruiting | 150 | Comparative tranexamic acid dosage regimens in cardiac surgery with cardiopulmonary bypass; intravenous calcium is routinely administered during bypass circuits but is not the study intervention |
-| [NCT01153243](https://clinicaltrials.gov/study/NCT01153243) | Phase 4 | Unknown | 117 | Vitamin D supplementation in African Americans with hypovitaminosis D and Type 2 DM; evaluates effect on thrombotic markers including high-sensitivity CRP — calcium–vitamin D metabolic axis studied indirectly |
-| [NCT00732576](https://clinicaltrials.gov/study/NCT00732576) | N/A | Completed | 57 | Omega-3 fatty acids combined with menaquinone-7 (Vitamin K2) on thrombotic tendency; investigates interaction between vascular calcification prevention and platelet-mediated thrombosis — calcium-vascular calcification axis |
-| [NCT04319627](https://clinicaltrials.gov/study/NCT04319627) | Phase 3 | Recruiting | 2,700 | SAVER: rosuvastatin vs placebo to prevent recurrent VTE in patients with DVT or PE; large ongoing Phase 3 trial illustrating the current therapeutic landscape — no calcium intervention |
-| [NCT04833764](https://clinicaltrials.gov/study/NCT04833764) | Phase 1/2 | Unknown | 30 | Adjunctive rosuvastatin with standard Factor Xa inhibitor anticoagulation for lower extremity DVT; evaluates prevention of post-thrombotic syndrome — no direct calcium involvement |
+| [NCT00951574](https://clinicaltrials.gov/study/NCT00951574) | Phase 3 | Completed | 1,166 | Nadroparin calcium (LMWH) versus placebo to prevent venous and arterial thromboembolism in cancer patients on chemotherapy |
+| [NCT00421538](https://clinicaltrials.gov/study/NCT00421538) | Phase 3 | Completed | 260 | Nadroparin versus placebo for symptomatic calf vein thrombosis |
+| [NCT04319627](https://clinicaltrials.gov/study/NCT04319627) | Phase 3 | Recruiting | 2,700 | Statins added to anticoagulation to reduce recurrent venous thromboembolism |
+| [NCT02679664](https://clinicaltrials.gov/study/NCT02679664) | Phase 2 | Unknown | 312 | Rosuvastatin pilot for recurrent VTE (not a calcium intervention) |
+| [NCT01528800](https://clinicaltrials.gov/study/NCT01528800) | Phase 2 | Completed | 85 | Vitamin K versus placebo on coronary artery calcification in haemodialysis patients (calcification is the outcome, not the drug) |
+| [NCT07303816](https://clinicaltrials.gov/study/NCT07303816) | Phase 4 | Not yet recruiting | 4,000 | Rosuvastatin to prevent cancer-associated VTE |
+| [NCT02526303](https://clinicaltrials.gov/study/NCT02526303) | N/A | Withdrawn | 0 | Anticoagulation for non-occlusive portal vein thrombosis in cirrhosis |
+| [NCT05621915](https://clinicaltrials.gov/study/NCT05621915) | N/A | Completed | 43 | Nadroparin calcium pharmacokinetics in COVID-19 (observational) |
+| [NCT00604825](https://clinicaltrials.gov/study/NCT00604825) | Phase 2 | Completed | 356 | GSK232802 for menopausal hot flushes (unrelated to calcium or thrombosis) |
+
+The only trial in the pack that tests calcium itself is [NCT05027048](https://clinicaltrials.gov/study/NCT05027048), a Phase 3 RCT of calcium chloride for blood loss from uterine atony at caesarean delivery (n=120, completed). It was retrieved under a different predicted indication and gives no support for thrombotic disease.
+
+No SANCTR or PACTR identifiers were supplied.
 
 ---
 
 ## Literature Evidence
 
+No RCTs or clinical studies of calcium therapy for thrombosis were retrieved. The publications are reviews and basic or mechanistic studies.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39796525](https://pubmed.ncbi.nlm.nih.gov/39796525/) | 2024 | Review | Nutrients | Vitamin D deficiency and thrombotic disease risk; VD regulates calcium and phosphate metabolism; VD deficiency linked to heightened thrombosis risk through modulation of coagulation factor expression, platelet reactivity, and endothelial function |
-| [36453103](https://pubmed.ncbi.nlm.nih.gov/36453103/) | 2023 | Mechanistic/In vitro | Haematologica | iTTP patient plasma induces **calcium- and IgG-dependent** endothelial cell activation; prospective study of 25 patients during acute iTTP identifies Ca²⁺-mediated endothelial response as a disease trigger in thrombotic microangiopathy |
-| [38880165](https://pubmed.ncbi.nlm.nih.gov/38880165/) | 2024 | Review/Mechanistic | Life Sciences | Altered Ca²⁺ flux dynamics and mitochondrial metabolism in platelet activation–related disease and ageing; Ca²⁺-dependent procoagulant phenotype formation highlighted as a potential therapeutic target in atherothrombosis |
-| [37563135](https://pubmed.ncbi.nlm.nih.gov/37563135/) | 2023 | Mechanistic/Animal | Nature Communications | MTH1 (nucleotide pool enzyme) regulates platelet mitochondria under oxidative stress; MTH1 deficiency impairs thrombin-induced Ca²⁺ mobilisation and reduces arterial/venous thrombus formation in vivo — demonstrates Ca²⁺ signalling as a key effector in thrombosis |
-| [26972052](https://pubmed.ncbi.nlm.nih.gov/26972052/) | 2016 | Mechanistic/Animal | Cell | Gut microbial metabolite TMAO enhances platelet hyperreactivity and thrombosis risk through Ca²⁺ release pathways; predicts incident thrombosis at 3 years in >4,000 subjects, linking microbiome to Ca²⁺-dependent platelet activation |
-| [22283597](https://pubmed.ncbi.nlm.nih.gov/22283597/) | 2012 | Review | Am J Cardiovasc Drugs | Calcium intake and CVD risk; laboratory studies show calcium may affect thrombotic mechanisms via vasodilation, inflammatory mediator modulation, and coagulation; epidemiological and RCT evidence remains inconclusive and shows potential for harm with excess supplementation |
-| [35165707](https://pubmed.ncbi.nlm.nih.gov/35165707/) | 2022 | Translational | European Heart Journal | Galectin-3 activates platelets via Dectin-1 receptor and downstream Ca²⁺ mobilisation; translational study in cardiovascular disease demonstrates Ca²⁺ as an obligate effector of platelet aggregation and arterial thrombus formation |
-| [31192861](https://pubmed.ncbi.nlm.nih.gov/31192861/) | 2019 | Cohort/Pathological | Am J Surgical Pathology | Vascular **calcium deposition and thrombosis** are hallmarks of calciphylaxis; fine vessel-wall calcium deposits (von Kossa stain) highly specific for calciphylaxis-associated thrombotic vasculopathy compared to other vascular diseases |
-| [6099583](https://pubmed.ncbi.nlm.nih.gov/6099583/) | 1984 | Review | Prog Hemostasis Thrombosis | Protein C anticoagulant pathway; activation of Protein C at the endothelial surface by thrombin–thrombomodulin complex requires Ca²⁺, establishing calcium as an obligate cofactor in physiological anticoagulation |
-| [36334396](https://pubmed.ncbi.nlm.nih.gov/36334396/) | 2022 | Cohort | Thrombosis Research | SCUBE1 — a calcium-dependent signal peptide-CUB-EGF adhesion protein — is significantly elevated and independently associated with thrombotic complications, disease severity, and in-hospital mortality in COVID-19 patients |
+| [22283597](https://pubmed.ncbi.nlm.nih.gov/22283597/) | 2012 | Review | Am J Cardiovasc Drugs | Reviews prospective studies and trials on calcium intake and cardiovascular disease. Discusses possible effects through cholesterol, vasodilation, inflammation and thrombosis, and notes both inadequate and excessive intake are of concern |
+| [39796525](https://pubmed.ncbi.nlm.nih.gov/39796525/) | 2024 | Review | Nutrients | Vitamin D deficiency and thrombotic disease. Vitamin D is discussed as a regulator of calcium metabolism, not calcium as therapy |
+| [36453103](https://pubmed.ncbi.nlm.nih.gov/36453103/) | 2023 | Preclinical/Mechanistic | Haematologica | Plasma from patients with immune TTP triggers calcium- and IgG-dependent endothelial activation, correlating with disease severity |
+| [38880165](https://pubmed.ncbi.nlm.nih.gov/38880165/) | 2024 | Review | Life Sci | Altered calcium fluxes and mitochondrial metabolism in platelet activation, with relevance to atherothrombosis and ageing |
+| [37563135](https://pubmed.ncbi.nlm.nih.gov/37563135/) | 2023 | Preclinical | Nat Commun | MTH1 protects platelet mitochondria and regulates platelet function and thrombosis. Its deficiency reduced thrombin-induced calcium mobilisation in mice |
+| [26972052](https://pubmed.ncbi.nlm.nih.gov/26972052/) | 2016 | Preclinical/Mechanistic | Cell | Gut-microbe metabolite TMAO enhances platelet hyperreactivity and thrombosis risk. Not a calcium-therapy study |
+| [35767715](https://pubmed.ncbi.nlm.nih.gov/35767715/) | 2022 | Preclinical | Blood | PTPN22 negatively modulates platelet function and thrombus formation in mice |
+| [35165707](https://pubmed.ncbi.nlm.nih.gov/35165707/) | 2022 | Translational | Eur Heart J | Galectin-3 enhances platelet aggregation and thrombosis via Dectin-1 |
+| [36334396](https://pubmed.ncbi.nlm.nih.gov/36334396/) | 2022 | Observational | Thromb Res | SCUBE1 is associated with thrombotic complications and in-hospital mortality in COVID-19 |
+| [41055696](https://pubmed.ncbi.nlm.nih.gov/41055696/) | 2026 | Preclinical | Blood | STK10 regulates platelet function in arterial thrombosis and thromboinflammation in knockout mice |
 
 ---
 
 ## South Africa Market Information
 
-No SAHPRA-registered products were identified for Calcium (DrugBank ID: DB01373) in this evidence pack (0 licences retrieved; market status: not marketed under this DrugBank entry).
+The pack reports 20 SAHPRA registrations, and the five below are the first listed. None includes an approved-indication text. They are multi-component products (parenteral nutrition, human serum) and not single-ingredient calcium products.
 
-Calcium-containing formulations are, however, broadly available in South Africa through various regulatory pathways:
-
-- **Parenteral calcium** (calcium gluconate, calcium chloride) is included on the **South African Essential Medicines List (EML)** for hospital use in the management of hypocalcaemia, hyperkalaemia, hypermagnesaemia, and as an adjunct in cardiac resuscitation.
-- **Oral calcium supplements** (alone or in combination with vitamin D) are widely available in South Africa as pharmacy supplements and scheduled medicines, though individual SAHPRA licence numbers were not retrieved in this search.
-
-Healthcare professionals requiring specific product information should consult the SAHPRA online medicines register at [sahpra.org.za](https://www.sahpra.org.za).
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| ARTICLE 21B (N/A) | ITN 7009a 2520ml | TPN | Not stated |
+| ARTICLE 21B (N/A) | ITN 2000a 2010ml | TPN | Not stated |
+| Exclusion under Section 36 & Section 14 | ITN8011XA 1520ml adult | TPN | Not stated |
+| Exclusion under Section 36 & Section 14 | ITN paediatric tpn 107 | TPN | Not stated |
+| T/30.3/704 | Stabilised Human Serum-5% Protein Solution | Infusion | Not stated |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-> **Prescriber alert:** Based on available pharmacological evidence, **high-dose calcium supplementation has been associated with increased cardiovascular risk in some epidemiological studies and meta-analyses** (excess calcium intake promoting arterial calcification and prothrombotic states). The use of supplemental calcium as a targeted therapy for thrombotic disease is not supported by current clinical evidence and may be potentially counterproductive. Any investigational use in this indication should include rigorous monitoring of ionised serum calcium levels.
 
 ---
 
@@ -123,19 +127,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model's high prediction score (98.25%) for calcium in thrombotic disease is biologically grounded in calcium's obligatory biochemical role as Coagulation Factor IV and its critical function in platelet Ca²⁺ signalling. However, this reflects calcium as a *mechanistic participant* in coagulation rather than as a *therapeutic drug candidate* for thrombosis. No Phase 2 or higher clinical trial has directly tested calcium supplementation for thrombotic disease, the mechanistic direction of any therapeutic hypothesis remains unresolved, and hypercalcaemia is itself a recognised prothrombotic condition — meaning supplementation could worsen rather than improve outcomes in this indication.
+The 98.25% TxGNN score is a model signal only. No retrieved trial or publication tests calcium as a therapy for thrombotic disease, and calcium's known role in coagulation suggests a pro-thrombotic or neutral effect. The pack's own review classes this as L4 with a Hold recommendation, and the other nine predicted indications are also Hold.
 
-**To proceed, the following would be needed:**
-
-- **Clearly defined mechanistic hypothesis:** Identify the specific clinical context in which calcium replacement may correct coagulation dysfunction (e.g., ionised hypocalcaemia in massive transfusion protocol, post-cardiac surgery, or severe sepsis-associated coagulopathy) — these represent the most pharmacologically defensible niches
-- **Preclinical proof-of-concept data:** Demonstrate that targeted calcium supplementation at physiological replacement doses modulates thrombotic risk in a relevant disease model, without inducing hypercalcaemia or paradoxical prothrombotic effects
-- **Review of calcium pharmacodynamics in the target population:** Clarify ionised vs. total calcium, route of administration, and monitoring parameters
-- **SAHPRA registration pathway assessment:** Determine the applicable regulatory category for the specific calcium formulation and indication in South Africa
-- **Population-level safety data:** Assess calcium supplementation and cardiovascular/thrombotic outcomes specific to South African patients, including nutrient-deficient or high-risk subgroups
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All website pages must include appropriate YMYL disclaimers. Data cut-off: 4 April 2026.*
+**To proceed, the following is needed:**
+- SAHPRA Professional Information (warnings and contraindications), which is currently missing and blocks safety screening
+- Mechanism of action data from DrugBank
+- Checking whether the prediction is a name-matching artefact, since the matched trials involve nadroparin calcium, vitamin K and statins, not calcium therapy
+- Any human study testing a calcium intervention with a thrombosis outcome
+- A defined original indication and the specific calcium salt and formulation under consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

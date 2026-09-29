@@ -2,7 +2,7 @@
 layout: default
 title: Ethinylestradiol
 parent: Moderate Evidence (L3-L4)
-nav_order: 213
+nav_order: 217
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,80 +29,75 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Ethinylestradiol: From Hormonal Contraception to Zinc, Elevated Plasma
+# Ethinylestradiol: From Hormonal Contraception to Elevated Plasma Zinc
 
 ## One-Sentence Summary
 
-> Ethinylestradiol is a synthetic estrogen; the evidence pack does not specify its original indication in South African regulatory records, though the supporting literature describes it in the context of combined oral contraceptive use.
-> The TxGNN model predicts a possible association with **Zinc, Elevated Plasma**, but this is currently supported only by **0 clinical trials** and **2 older literature reports** — both of which actually describe the *opposite* direction (oral contraceptives lowering, not raising, plasma zinc).
-> Given this direct contradiction and multiple missing data points, this candidate does not currently support a "Go" decision.
-
----
+Ethinylestradiol is a synthetic estrogen, widely used in oral contraceptive products. The supplied literature deals with contraceptives, and the registered indication text is not in the dataset.
+The TxGNN model predicts a link to **elevated plasma zinc**, but this is a laboratory finding rather than a treatable disease.
+There are **0 clinical trials** and **2 publications** (both from the 1970s), and neither shows a treatment benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (no `original_indications` or SAHPRA license data provided; literature context refers to combined oral contraceptive products) |
+| Original Indication | Not stated in the SAHPRA data supplied (literature context suggests oral contraception) |
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for ethinylestradiol in this evidence pack. Based on the supporting literature, ethinylestradiol is known clinically as a component of combined oral contraceptive formulations, where it is understood to alter hepatic synthesis of plasma-binding proteins (e.g. ceruloplasmin) and thereby influence trace-element distribution in blood.
+Detailed mechanism of action data is not currently available for this drug, so the prediction cannot be checked against known pharmacology.
 
-However, the mechanistic direction reported in the literature does **not** support the TxGNN prediction. The two cited studies (Sing et al., 1978; Lei et al., 1976) both describe oral contraceptive/estrogen exposure **lowering** plasma zinc levels (while raising plasma copper), not elevating them. "Zinc, elevated plasma" is also not a well-established clinical disease entity, and may reflect a graph-relationship artifact in the TxGNN knowledge graph rather than a genuine pharmacological signal.
+The high score probably reflects a real pharmacological association. Estrogens are known to alter circulating trace-element levels, for example by raising ceruloplasmin and copper and shifting zinc distribution. The knowledge graph may have picked up this link.
 
-Because the original indication, MOA, and South African regulatory status are all unavailable or absent for this drug, there is currently no independent basis to corroborate or contextualize this prediction beyond the contradictory literature noted above.
-
----
+An association is not a therapeutic rationale. "Elevated plasma zinc" is a laboratory abnormality, and raising plasma zinc is not an obvious treatment goal. The retrieved papers describe the drug's effect on mineral levels, not a benefit from treating this condition. The prediction should therefore be read as a graph association, not a repurposing opportunity.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [736629](https://pubmed.ncbi.nlm.nih.gov/736629/) | 1978 | Cohort | Archives of Gynecology | In women taking oral contraceptives (Ovulen-21, Demulen, Enovid-E, Ovral), plasma and endometrial **copper** rose significantly; plasma **zinc remained essentially unchanged** — no elevation observed. |
-| [961877](https://pubmed.ncbi.nlm.nih.gov/961877/) | 1976 | Cohort (animal) | American Journal of Physiology | In rats, mestranol (a related estrogen) **depressed** plasma zinc along with tibial copper and magnesium — direction opposite to the predicted indication. |
-
----
+| [736629](https://pubmed.ncbi.nlm.nih.gov/736629/) | 1978 | Observational (human) | Archives of Gynecology | In women taking oral contraceptives, plasma and endometrial copper were significantly raised, while zinc stayed reasonably constant. It does not show that zinc rises. |
+| [961877](https://pubmed.ncbi.nlm.nih.gov/961877/) | 1976 | Preclinical (rat) | American Journal of Physiology | Mestranol, a prodrug of ethinylestradiol, depressed plasma zinc in rats, the opposite direction to the prediction. It is only indirect evidence for ethinylestradiol. |
 
 ## South Africa Market Information
 
-No SAHPRA registrations are recorded in the evidence pack (`total_licenses: 0`); the drug's South African market status is Not Marketed. No product/dosage-form table is available.
+Five of the 20 registrations are shown. Approved indication text was not supplied for any of them, and Essential Medicines List (EML) status is not in the dataset.
 
----
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 44/18.8/0397 | Ynez | Fct |
+| Reg. No. 50/21.8.2/0590 | Contrezin | Tablet |
+| Reg. No. 47/21.8.2/0141 | Drasira | Tablet |
+| Reg. No. 34/20.2.2/0244 | Adco-dermed | Sha |
+| Reg. No. 49/18.8/0711 | Merdeza | Tablet |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The only available literature evidence directly contradicts the direction of the predicted indication (oral contraceptive/estrogen exposure is associated with *lower*, not elevated, plasma zinc), and no clinical trial evidence exists at all. Combined with missing MOA and safety data, this does not meet the bar to proceed.
+The TxGNN score is very high, but the only evidence is two indirect studies from the 1970s. One shows no change in zinc and the other shows a fall in zinc. The target is a laboratory finding, not a disease with a therapeutic goal. The evidence is at the model-prediction and preclinical level (L4), and the safety review cannot start without the package insert.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-equivalent Professional Information (warnings and contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank or equivalent source — currently a High-severity data gap (DG002)
-- Independent resolution of the mechanistic direction conflict (does estrogen exposure raise or lower plasma zinc in humans?)
-- Clarification of "zinc, elevated plasma" as a clinically meaningful, actionable indication before further evaluation
-- Confirmation of South African regulatory/market status specific to this jurisdiction, since current data reflects an absence of local licensing records rather than a confirmed non-marketed determination
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, to allow a mechanistic-link analysis
+- A clinical case for why raising plasma zinc is a valid therapeutic goal, or a decision to drop this candidate
+- Modern human data on ethinylestradiol and plasma zinc levels
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

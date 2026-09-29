@@ -2,7 +2,7 @@
 layout: default
 title: Miconazole
 parent: Moderate Evidence (L3-L4)
-nav_order: 316
+nav_order: 322
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Miconazole: From Fungal Infections to Acne (Disease)
+# Miconazole: From Topical Antifungal Use to Acne
 
 ## One-Sentence Summary
 
-> Miconazole is a long-established imidazole antifungal used to treat cutaneous and mucosal fungal infections. TxGNN's top-ranked prediction proposes potential efficacy for **Acne**, but this is currently supported by only **1 clinical trial** (suspended, low relevance) and **4 publications**, none of which directly test miconazole in acne. A lower-ranked but far better-supported candidate in this same evidence pack — superficial mycosis — has notably stronger evidence and a much more direct mechanistic fit.
+Miconazole is an azole antifungal, and in South Africa it is registered mainly as topical creams and gels.
+The TxGNN model predicts it may be effective for **acne**, but the support is thin: **1 suspended clinical trial** (a multi-drug combination that involves clotrimazole, not miconazole) and **4 publications**, of which only one is a clinical study.
+This is a research question, not a treatment recommendation.
 
 ---
 
@@ -41,23 +43,26 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on SAHPRA file (product not currently registered/marketed in South Africa); globally recognized as an antifungal for cutaneous and mucosal fungal infections |
-| Predicted New Indication | Acne (disease) |
+| Original Indication | The registration records give no approved-indication text. Miconazole is a topical azole antifungal. |
+| Predicted New Indication | Acne |
 | TxGNN Prediction Score | 99.54% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 9 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for miconazole is not available in this evidence pack. Based on general pharmacological knowledge, miconazole is an imidazole-class antifungal whose established mechanism involves inhibition of fungal ergosterol synthesis (14α-demethylase) and fungal peroxidases, disrupting the fungal cell membrane. Its efficacy in fungal skin and mucosal infections is well proven through decades of clinical use.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Miconazole is an azole antifungal that disrupts fungal ergosterol synthesis and membrane integrity. Its efficacy against superficial fungal infections is well established, and topical safety is generally well characterised.
 
-For the top-ranked predicted indication, **acne**, the supporting rationale in this evidence pack notes in-vitro data showing miconazole has inhibitory activity against *Propionibacterium acnes* and *Malassezia* — organisms implicated in acneiform folliculitis — giving a partial antimicrobial/antifungal rationale. However, this mechanism only partially overlaps with the primary pathophysiology of acne vulgaris (sebum overproduction, follicular inflammation, and *C. acnes* bacterial proliferation), so the link is indirect rather than core. The single associated clinical trial tested an unrelated combination product (not miconazole alone) and was suspended, further weakening the case.
+Three lines of reasoning link it to acne:
+- **Antibacterial activity:** an in vitro study found that azole antifungals are active against *Propionibacterium acnes* (now *Cutibacterium acnes*), isolated from patients with acne vulgaris (PMID 20045949).
+- **Anti-inflammatory effects:** a 2008 review describes reported effects of miconazole on skin disorders beyond fungal infection (PMID 18627330).
+- **Malassezia folliculitis:** this condition looks like acne and is often misdiagnosed as acne vulgaris (PMID 8593718). Some of the model's signal may therefore reflect fungal folliculitis rather than true acne.
 
-Notably, several lower-ranked candidates in this pack (superficial mycosis, tinea profunda, Majocchi granuloma, blastomycosis) sit squarely within miconazole's known antifungal mechanism and are supported by comparative clinical studies — these represent more clinically actionable "repurposing" signals than the acne prediction, even though they scored lower on TxGNN's novelty-weighted ranking.
+Laboratory activity against the acne bacterium and clinical benefit in acne are different things. No study in the Evidence Pack shows that miconazole improves acne in patients.
 
 ---
 
@@ -65,7 +70,9 @@ Notably, several lower-ranked candidates in this pack (superficial mycosis, tine
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | Suspended | 80 | Compared a combination cream (beclometasone 0.025% + gentamicin 0.1% + clotrimazole 1%) — not miconazole — in patients with contaminated dermatosis/acne-like lesions. Trial suspended; graded C relevance (different drug combination, cannot attribute efficacy to miconazole). |
+| [NCT01244256](https://clinicaltrials.gov/study/NCT01218256) | Phase 2/3 | Suspended | 80 | Compared a combination of beclomethasone, gentamicin and clotrimazole cream in contaminated dermatosis with bilateral symmetrical lesions. The combination cannot isolate any single drug's effect, the drug involved is clotrimazole rather than miconazole, and no results are available. |
+
+No SANCTR or PACTR registrations were found in the Evidence Pack.
 
 ---
 
@@ -73,24 +80,32 @@ Notably, several lower-ranked candidates in this pack (superficial mycosis, tine
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical/Split-face study | Skin Research and Technology | Split-face assessment of catamenial acne management; does not directly test miconazole. |
-| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Review | Expert Opinion on Pharmacotherapy | Reviews miconazole's broader effects on skin disorders as a "time-honored" imidazole antifungal. |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Cohort | Clinical and Experimental Dermatology | Describes Pityrosporum (Malassezia) folliculitis, frequently misdiagnosed as acne vulgaris; supports differential-diagnosis rationale rather than direct treatment evidence. |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro | Biological & Pharmaceutical Bulletin | In-vitro activity of azole antifungals, including miconazole, against *Propionibacterium acnes* isolates. |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical study (split-face) | Skin Res Technol | Split-face assessment in mild inflammatory catamenial acne. The retrieved abstract does not report results or state whether miconazole was tested. |
+| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Review | Expert Opin Pharmacother | Reviews the multiple effects of miconazole nitrate on skin disorders. |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biol Pharm Bull | Azole antifungals tested against *P. acnes* isolates from acne vulgaris patients, as a possible alternative given rising antibiotic resistance. |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Clinical study | Clin Exp Dermatol | 62 patients with Malassezia (Pityrosporum) folliculitis, which is frequently misdiagnosed as acne vulgaris. |
 
 ---
 
 ## South Africa Market Information
 
-No SAHPRA registrations are on file for this product (`total_licenses: 0`, market status: Not Marketed), so no registration table can be produced. Should this candidate advance, a South African market-entry pathway (new registration or import authorization) would need to be established before clinical use.
+Miconazole has 9 SAHPRA registrations. The 5 main ones are listed below. The records contain no approved-indication text or Essential Medicines List status for these products.
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 34/13.9.2/0182 | Dermazole | Cream |
+| Reg. No. 36/20.2.2/0233 | Vari miconazole 2% | "Geo" (as recorded) |
+| Reg. No. 33/13.9.2/0124 | Covarex | Cream |
+| Reg. No. 36/13.9.2/0509 | Sutharex Cream | Cream |
+| Reg. No. X/13.12/292 | Acneclear | Cream |
+
+The full record set also includes a vaginal cream.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Note: key warnings, contraindications, and drug–drug interaction data were not available in this evidence pack — this is flagged internally as a **Blocking** data gap that must be closed before any safety pre-assessment can proceed.)*
 
 ---
 
@@ -99,13 +114,18 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (acne) rests on L4 evidence — a single suspended, low-relevance trial testing an unrelated combination product, plus in-vitro and indirect literature. The mechanistic overlap with acne pathophysiology is partial, not core. Combined with the absence of any SAHPRA registration and a Blocking gap in label/safety data, this candidate is not ready to advance past a research question.
+The prediction score is high, but the clinical evidence is very weak. The only trial is suspended, has no results, and involves clotrimazole in a combination product. The publications show laboratory activity against the acne bacterium but no proof of clinical benefit. Part of the signal may come from Malassezia folliculitis being mistaken for acne. Safety data from the SAHPRA package insert have not been reviewed.
 
 **To proceed, the following is needed:**
-- Official SAHPRA/manufacturer Professional Information (PI) — warnings, contraindications, DDI (Blocking gap)
-- Confirmed mechanism-of-action data via DrugBank (High-priority gap)
-- A dedicated trial testing miconazole (not combination products) specifically in acne
-- Consideration of re-scoping this candidate toward **superficial mycosis** (evidence level L2, decision stage S2, "Proceed with Guardrails"), which has a completed comparative cohort study (miconazole vs. clotrimazole) and a direct mechanistic fit — a more immediately actionable repurposing signal within this same evidence pack
+- SAHPRA package insert warnings and contraindications, which are currently a blocking gap for safety screening
+- The labelled indications for the registered products and their EML status
+- Detailed mechanism of action data from DrugBank
+- Comparative clinical data in acne, with Malassezia folliculitis excluded or analysed separately
+- Confirmation that the acne-related product (Acneclear) is not already registered with an acne-related claim
+
+**Related note:** the model also ranks *superficial mycosis* highly (rank 7). This is very likely an existing labelled antifungal use rather than true repurposing, and it has the strongest evidence in the pack, including a 1989 comparative study of miconazole versus clotrimazole. Its label status should be verified before it is treated as a candidate. The other predicted indications (deep or hair-shaft dermatophyte infections, blastomycosis, gastrin secretion abnormality, papillary conjunctivitis) have weak or historical evidence and should stay on Hold.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

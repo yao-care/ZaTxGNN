@@ -2,7 +2,7 @@
 layout: default
 title: Clotrimazole
 parent: Model Prediction Only (L5)
-nav_order: 136
+nav_order: 138
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clotrimazole: From Superficial Fungal Infections to Acne
+# Clotrimazole: From Topical Antifungal Use to Acne
 
 ## One-Sentence Summary
 
-Clotrimazole is a broad-spectrum imidazole antifungal, globally established for the topical treatment of superficial fungal infections including tinea pedis, vulvovaginal candidiasis, and oropharyngeal candidiasis, though it currently holds no SAHPRA registration in South Africa.
-The TxGNN model ranks **Acne** as its #1 predicted new indication with a score of **99.86%**; however, this is currently supported by only **1 suspended Phase 2/3 combination trial** and **no published literature**, making this a highly speculative repurposing path at this stage.
-
----
+Clotrimazole is an azole antifungal, marketed in South Africa as creams and vaginal products.
+The TxGNN model predicts it may be effective for **acne**, but only **1 clinical trial** supports this. That trial tested a three-drug combination and is suspended. No publications were found.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Superficial fungal infections (globally established; no SAHPRA-registered indication) |
+|------|------|
+| Original Indication | Not stated in the SAHPRA registration data supplied. Clotrimazole is generally known as a topical and vaginal azole antifungal. |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 — Preclinical / mechanistic studies only |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 (the evidence pack labelled it L4, but no study that can be attributed to clotrimazole exists) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 7 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data was not retrieved in this Evidence Pack. Based on well-established pharmacological knowledge, clotrimazole is a synthetic imidazole antifungal belonging to the azole class. It inhibits fungal CYP51 (lanosterol 14α-demethylase), which depletes ergosterol and disrupts fungal cell membrane integrity — producing fungistatic activity and, at higher concentrations, fungicidal effects against *Candida* species and dermatophytes. This mechanism has been extensively confirmed across multiple indications including vulvovaginal candidiasis and superficial dermatomycoses.
+Currently, detailed mechanism of action data is not available in the evidence pack. Clotrimazole is an azole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis. It also has weak antibacterial and anti-inflammatory activity.
 
-Acne vulgaris involves a distinct pathophysiology: *Cutibacterium acnes* (formerly *Propionibacterium acnes*) colonisation, sebaceous gland hyperactivity, follicular hyperkeratosis, and localised inflammation. Clotrimazole has no established direct antibacterial activity against *C. acnes*, meaning there is no straightforward mechanistic link to conventional acne pathophysiology. A plausible indirect connection exists via ***Malassezia* folliculitis** (pityrosporum folliculitis) — a condition caused by *Malassezia* spp. yeasts that is susceptible to azole antifungals and can closely mimic the clinical appearance of acne. In this subtype, clotrimazole would be mechanistically appropriate.
+A fungal contribution to acne is plausible, for example from *Malassezia*, but it is unproven. Acne is mainly driven by sebum, follicular blockage, *Cutibacterium acnes* and inflammation. The very high TxGNN score is a graph-proximity result, and the package contains no mechanistic evidence to back it.
 
-The TxGNN model's high ranking score most likely reflects broad biological associations between fungal/follicular pathways in the knowledge graph, rather than a validated direct mechanism for acne vulgaris. Importantly, the only identified clinical trial was a multi-agent combination study (beclomethasone + gentamicin + clotrimazole) that was subsequently suspended, making it impossible to isolate any contribution from clotrimazole alone.
-
----
+Other predictions in the same run have much stronger support: vulvovaginitis (rank 2, including a completed Phase 3 trial, NCT00755053) and superficial mycosis (rank 9, Phase 2 and randomised comparisons). Both are consistent with clotrimazole's established antifungal use, so they are not novel repurposing. Acne is the weakest of the three.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | **Suspended** | 80 | Evaluated comparative efficacy of a triple combination cream (beclomethasone 0.025% + gentamicin 0.1% + clotrimazole 1%) in patients with contaminated dermatosis presenting with bilateral symmetrical acne-like lesions. The trial was suspended with no reported reason; the independent contribution of clotrimazole cannot be isolated from the combination. Evidence value for clotrimazole monotherapy in acne is negligible. |
+|---------|------|------|------|---------|
+| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | Suspended | 80 | Fixed combination of beclometasone 0.025% + gentamicin 0.1% + clotrimazole 1% cream (Glenmark) in contaminated dermatosis with bilateral symmetrical lesions. No results available. Any effect cannot be attributed to clotrimazole, and acne as the studied condition is not confirmed. |
 
----
+No SANCTR or PACTR registrations were identified in the evidence pack.
 
 ## Literature Evidence
 
-Currently no related literature available for clotrimazole specifically in acne.
+Currently no related literature available.
 
----
+## South Africa Market Information
+
+Seven registrations were found. The five below are the main ones. The approved-indication text is empty in the data supplied. Essential Medicines List (EML) status was not included.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 28/20.2.2/0419 | Clomaderm | Cream | Not stated in the data supplied |
+| Reg. No. 30/20.2.2/0416 | Fungispor | Cream | Not stated in the data supplied |
+| Reg. No. 30/20.2.2/0111 | Canesten duopak | Kit | Not stated in the data supplied |
+| Reg. No. 27/20.2.2/0285 | Medaspor vag | Vcr (as listed) | Not stated in the data supplied |
+| Reg. No. R/13.4.1/38 | Lotriderm | Cream | Not stated in the data supplied |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-> **Note:** Clotrimazole is not currently registered with SAHPRA (0 registrations found). Until local registration is established, healthcare professionals should consult internationally recognised prescribing information (e.g., US FDA, EMA, or UK MHRA) and apply appropriate clinical judgement.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN model score, the evidence base for clotrimazole in acne is insufficient to justify advancing this repurposing pathway: the sole identified clinical trial was a multi-component combination study that was suspended before completion, and no monotherapy literature exists for this indication. The mechanistic connection to conventional acne vulgaris is indirect and requires further characterisation before investment in clinical development.
+The only acne-linked trial tested a suspended combination product, so no effect can be attributed to clotrimazole. There is no literature or mechanistic evidence for acne, and the high TxGNN score alone is not enough to proceed.
 
 **To proceed, the following is needed:**
-- Preclinical evidence establishing clotrimazole's relevance to acne pathophysiology — for example, anti-*Malassezia* efficacy in folliculitis models or characterisation of any anti-inflammatory effects
-- Patient subgroup clarification: distinguish acne vulgaris from *Malassezia* folliculitis (pityrosporum folliculitis), where the mechanistic rationale is substantially stronger
-- A dedicated Phase 2 RCT evaluating clotrimazole monotherapy versus standard acne care
-- A SAHPRA registration strategy — noting that clotrimazole currently has **0 South African registrations**, which must be addressed before any local clinical use regardless of indication
-
-> **Strategic Note for South African Decision-Makers:** While acne is the #1 TxGNN-ranked prediction, two other predicted indications carry substantially stronger and more immediately actionable evidence in this dataset: **vulvovaginal candidiasis (Rank 2: L1 evidence, Proceed with Guardrails)** and **superficial mycosis (Rank 9: L1 evidence, Proceed with Guardrails)**. Both indications have multiple completed Phase 3 RCTs directly evaluating clotrimazole. Given that clotrimazole is not currently registered with SAHPRA despite being a globally recognised first-line antifungal, prioritising a registration submission for vulvovaginal candidiasis or superficial mycosis is likely to yield faster and more clinically impactful results for South African patients than pursuing the acne indication at this stage.
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All adverse events should be reported to SAHPRA.*
+- SAHPRA Professional Information (package insert) warnings and contraindications. This is a blocking gap for safety screening.
+- Mechanism of action data from DrugBank.
+- Controlled studies of clotrimazole monotherapy in acne, with a clear rationale such as a *Malassezia*-driven subtype.
+- Confirmation of the original approved indications from SAHPRA registration data.
+- Consider prioritising the label-concordant candidates, vulvovaginitis and superficial mycosis. Both are rated "Proceed with Guardrails" in the pack, although NCT00755053 needs confirmation that clotrimazole is the test arm.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

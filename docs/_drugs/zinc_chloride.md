@@ -2,7 +2,7 @@
 layout: default
 title: Zinc Chloride
 parent: Model Prediction Only (L5)
-nav_order: 466
+nav_order: 474
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,88 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Zinc Chloride: From an Unrecorded Original Indication to Severe Nonproliferative Diabetic Retinopathy
+# Zinc Chloride: From Parenteral Trace Element Supplementation to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Zinc chloride (DrugBank DB14533) has no recorded original indication or mechanism-of-action data in this evidence pack, and it is not currently marketed in South Africa. The TxGNN model predicts a possible role in **severe nonproliferative diabetic retinopathy**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is an algorithmic signal only.
-
----
+Zinc chloride is a trace element salt, and its registered South African products appear to be parenteral nutrition and trace element preparations. The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. It rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on record (no approved South African product, no DrugBank indication data) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
+| Original Indication | Not stated in the registration data. Product names (Peditrace, Addaven, TPN products) suggest parenteral trace element supplementation, but this is inferred rather than registered wording |
+| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.34% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 10 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for zinc chloride is not available in this evidence pack, and no original indication is on record — this drug does not have a South African market presence to anchor a "known efficacy" comparison. The prediction for severe nonproliferative diabetic retinopathy therefore rests entirely on the TxGNN knowledge-graph score (99.34%), with no corroborating clinical or literature evidence.
+Currently, detailed mechanism of action data is not available. Based on known information, zinc chloride is a zinc source used in trace element and nutrition formulations, and mechanistically it may be relevant to the eye because zinc is a cofactor for antioxidant enzymes such as SOD1.
 
-There is a theoretical rationale worth noting: zinc ions are a cofactor for antioxidant enzymes (e.g., Cu/Zn-superoxide dismutase) and have been studied in relation to oxidative stress and angiogenesis pathways, both of which are relevant to diabetic retinal disease. However, this link is speculative — it does not appear in any trial or publication captured for this candidate, and it should be treated as a hypothesis rather than supporting evidence.
-
-Because both the original-indication anchor and the mechanistic pathway are unverified, this candidate sits at the earliest possible stage of the repurposing pipeline (decision stage S0) and cannot be meaningfully differentiated from a generic high-scoring model output at this time.
-
----
+The link to diabetic retinopathy is a hypothesis only: zinc might modulate oxidative stress in the diabetic retina. Nothing in the supplied data confirms this. The similarity between the original and predicted indications has not been assessed. A high model score is not clinical evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for severe nonproliferative diabetic retinopathy.
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Zinc chloride has no SAHPRA-registered products and is not currently marketed in South Africa (0 licences on record).
+The registration data do not include approved indication text, so that column is omitted. Only 5 of the 10 registrations were supplied.
 
----
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Y/6.1/415 | Dopamine HCl Fresenius 5 ml 200 mg/5 ml | Injection |
+| 29/24/0462 | Peditrace 10 ml | Infusion |
+| 49/24/0996 | Addaven | Infusion |
+| ARTICLE 21B N/A | ITN 3007M 2500 ml | TPN |
+| EXCLUSION UNDER SECTION 36 & SECTION 14 | ITN 55A 600 ml | TPN |
 
-## Other Predicted Indications (For Reference)
-
-TxGNN also ranked two additional indications for zinc chloride, one of which has meaningfully stronger evidence than the lead candidate above:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Note |
-|------|---------|-------------|-----------------|------|
-| 2 | Sjögren syndrome | 99.18% | L5 | No trials, no literature — algorithmic prediction only |
-| 3 | Dry eye syndrome | 99.18% | L2 | 2 completed trials (Phase 2 and Phase 4) using **zinc-hyaluronate / zinc-containing formulations**, not free zinc chloride — indirect support only |
-
-For dry eye syndrome, [NCT02951910](https://clinicaltrials.gov/study/NCT02951910) (Phase 4, completed, n=20) and [NCT01541891](https://clinicaltrials.gov/study/NCT01541891) (Phase 2, completed, n=30) both evaluated zinc-containing ophthalmic formulations for ocular surface symptoms. These are compound preparations rather than zinc chloride alone, so the evidence is indirect, but this candidate is markedly better supported than the lead indication above and may warrant separate evaluation.
-
----
+- The dopamine product is an unexpected match for a zinc salt. Verify it against its ingredient list.
+- The last two entries carry no standard registration number. They appear to be special-access or exclusion entries.
+- All listed forms are parenteral, so no ocular or topical product is registered.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate is supported by a TxGNN score alone (L5, decision stage S0) — there is no original indication, no mechanism-of-action data, no clinical trial, and no literature evidence linking zinc chloride to severe nonproliferative diabetic retinopathy. The drug is also not marketed in South Africa, so there is no existing safety or usage data to draw on locally.
+The top prediction has no trials, no literature and no verified mechanism. Safety information is also missing, which blocks safety screening.
+
+**Other predictions in the pack:**
+- **Sjögren syndrome** (score 99.18%) has no trials or literature.
+- **Dry eye syndrome** (score 99.18%) is the only prediction with trials, rated L4 and worth a research question. Both trials are small, completed and indirect, and no results were supplied:
+  - [NCT02951910](https://clinicaltrials.gov/study/NCT02951910) is a Phase 4 trial (n=20) of zinc-hyaluronate, which is a different compound from zinc chloride.
+  - [NCT01541891](https://clinicaltrials.gov/study/NCT01541891) is a Phase 2 trial (n=30) of PRO-148 versus Systane. Its composition is unconfirmed.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for zinc chloride (DrugBank/pharmacology reference)
-- Preclinical or mechanistic studies directly linking zinc chloride to diabetic retinopathy pathways
-- At least one clinical trial or observational study specific to this indication
-- SAHPRA-approved Professional Information (PI), since no South African registration currently exists
-- If pursuing the better-evidenced dry eye syndrome signal instead, confirmation of whether zinc chloride alone (vs. zinc-hyaluronate complexes) shows comparable activity
+- SAHPRA package insert warnings and contraindications. This is a blocking gap.
+- Mechanism of action data, for example from DrugBank.
+- A targeted literature and trial search for zinc in diabetic retinopathy.
+- Confirmation of the original registered indication and of the dopamine product's link to zinc chloride.
+- An assessment of route compatibility, since all registered products are parenteral and the predicted indications are ocular.
+
+*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Phenoxymethylpenicillin
 parent: Model Prediction Only (L5)
-nav_order: 358
+nav_order: 366
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,65 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenoxymethylpenicillin: From Bacterial Infections to Epiglottitis
+# Phenoxymethylpenicillin: From Penicillin-Sensitive Bacterial Infections to Epiglottitis
 
 ## One-Sentence Summary
 
-Phenoxymethylpenicillin (Penicillin V, DrugBank DB00417) is a narrow-spectrum oral penicillin classically used for susceptible bacterial infections. The TxGNN model assigns its single highest-scoring candidate indication to **Epiglottitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the accompanying mechanistic review argues against biological plausibility.
-
----
+Phenoxymethylpenicillin (penicillin V) is an oral penicillin antibiotic, used for infections caused by penicillin-sensitive bacteria. The registration data supplied did not include an approved-indication text, so this original use is inferred from the drug class. The TxGNN model predicts it may be effective for **epiglottitis**, but **no clinical trials and no publications** were found for this pairing, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the evidence pack (Phenoxymethylpenicillin/Penicillin V is a narrow-spectrum beta-lactam antibiotic) |
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Phenoxymethylpenicillin is not available in this evidence pack. Based on known pharmacological classification, it is a narrow-spectrum beta-lactam antibiotic that acts by inhibiting bacterial cell wall synthesis through binding to penicillin-binding proteins (PBPs) — the same class-level mechanism referenced elsewhere in this evidence pack for its other candidate indications.
+Detailed mechanism of action data is not available in the Evidence Pack. Penicillin V is a beta-lactam, and beta-lactams inhibit bacterial cell wall synthesis by binding penicillin-binding proteins. Epiglottitis is a bacterial infection, so there is a plausible link at the class level, which probably explains the high model score.
 
-For epiglottitis specifically, the model's own rationale weighs against clinical applicability: the dominant causative organism, *Haemophilus influenzae*, is frequently resistant to narrow-spectrum penicillins, and epiglottitis is a life-threatening airway emergency that is managed with immediate broad-spectrum intravenous antibiotics — not an oral narrow-spectrum agent. In other words, while the TxGNN model produces a very high numerical prediction score, the underlying pharmacological and clinical logic does not support this repurposing direction, and no clinical trial, literature, or registry evidence currently exists to counterbalance that concern.
-
----
+The link weakens on closer inspection. The main causative organism, *Haemophilus influenzae* type b, often produces beta-lactamase, which inactivates penicillin V. Acute epiglottitis is also an airway emergency that needs parenteral therapy, and an oral tablet is unsuitable. The 99.90% score is a knowledge-graph prediction, not evidence of benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-No SAHPRA-registered products were found for this drug in the evidence pack (0 registrations; market status: not marketed).
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| G/20.1.2/145 | Incil Vk | Tablet | Not stated in the data provided |
 
----
+Only oral tablets are registered. No injectable form is registered, which matters because epiglottitis needs parenteral treatment.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The prediction carries a very high TxGNN score but no supporting clinical trial or literature evidence (Evidence Level L5), and the drug's mechanistic profile (narrow-spectrum, oral, poor coverage of *H. influenzae*) conflicts with the standard emergency, broad-spectrum IV management required for epiglottitis.
+There is no trial or literature support for epiglottitis, and the mechanism is a poor fit for the likely pathogen and the required route of administration. The prediction should not be advanced on the model score alone.
+
+Other candidates from the same run do not offer a better route forward:
+- **Laryngitis:** a double-blind trial of penicillin V (PMID 3918495) and the Cochrane reviews found no benefit.
+- **Gonococcal urethritis:** the only evidence is 1950s uncontrolled series, and gonococcal penicillin resistance is now widespread.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for Phenoxymethylpenicillin from DrugBank or an equivalent source
-- Local/regional antimicrobial susceptibility data for epiglottitis pathogens against Penicillin V
-- SAHPRA Professional Information (PI), including warnings, contraindications, and drug interaction data
-- Preclinical or observational evidence before any advancement beyond the current model-prediction-only stage
-
-*Note: This evidence pack also lists nine additional lower-scoring TxGNN candidates for this drug (e.g., laryngitis, gonococcal urethritis), several with partial historical literature support; these were not evaluated in this report, which is scoped to the top-ranked candidate only.*
+- The SAHPRA package insert (warnings, contraindications and approved indications), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Local *H. influenzae* type b beta-lactamase and penicillin susceptibility data
+- A specific clinical hypothesis that explains why an oral penicillin would be used instead of established parenteral therapy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

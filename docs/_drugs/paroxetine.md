@@ -2,7 +2,7 @@
 layout: default
 title: Paroxetine
 parent: Model Prediction Only (L5)
-nav_order: 354
+nav_order: 361
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,77 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Paroxetine: From SSRI Antidepressant Use to Ohdo Syndrome and Variants
+# Paroxetine: From SSRI Antidepressant to Ohdo Syndrome and Variants
 
 ## One-Sentence Summary
 
-Paroxetine (DrugBank DB00715) is generally classified as a selective serotonin reuptake inhibitor (SSRI), though the specific original indication is not documented in this evidence pack. The TxGNN model predicts a possible association with **Ohdo syndrome and variants**, a rare congenital chromatin-modification disorder, but this prediction is currently supported by **no clinical trials, no literature, and no mechanistic evidence** — only a model score.
-
----
+Paroxetine is a selective serotonin reuptake inhibitor (SSRI) marketed in South Africa. The SAHPRA registration records supplied do not state its approved indications.
+The TxGNN model predicts it may be relevant to **Ohdo syndrome and variants**, a group of rare congenital disorders.
+There are currently **0 clinical trials** and **0 publications** supporting this direction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in evidence pack (paroxetine is generally classified as an SSRI antidepressant; no sourced indication text available) |
+| Original Indication | Not stated in the SAHPRA registration records provided (paroxetine is an SSRI antidepressant) |
 | Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.11% (rank 4433) |
+| TxGNN Prediction Score | 99.11% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for paroxetine is not available in this evidence pack. Based on general pharmacological classification, paroxetine is an SSRI, believed to act by inhibiting serotonin reuptake at the presynaptic neuron. However, without a documented original indication or confirmed MOA, this cannot be formally linked to the predicted new indication.
+Currently, detailed mechanism of action data is not available in the input. Based on known information, paroxetine is an SSRI that acts on the serotonin transporter. Its original approved indications are not listed in the records supplied.
 
-Ohdo syndrome and variants are a group of rare congenital disorders caused by mutations in genes such as *KAT6B*, *MED12*, and *CUL4B*, which are involved in chromatin modification and transcriptional regulation — a disease mechanism unrelated to serotonin signaling as currently understood. The repurposing rationale supplied with this candidate explicitly states that **no direct biological connection** could be established between paroxetine's known pharmacology and the pathogenesis of Ohdo syndrome.
+Ohdo syndrome and its variants (for example, the KAT6B-related Say-Barber-Biesecker-Young-Simpson type) are rare congenital disorders. They are linked to chromatin and histone acetyltransferase dysfunction. Typical features include blepharophimosis, intellectual disability and developmental delay.
 
-This prediction should be treated as a **model-generated hypothesis only**. The TxGNN score reflects a statistical association within the knowledge graph, not a validated pharmacological or clinical relationship. No independent evidence (trials, literature, or case reports) currently corroborates it.
-
----
+**No supported mechanistic link was identified.** The candidate rests only on a high knowledge-graph score (0.991). There is no plausible way for serotonin reuptake inhibition to correct a developmental epigenetic defect, and no rationale for treating a congenital structural syndrome. Any benefit would at most be symptomatic, such as for comorbid anxiety or depression, and would not be disease-modifying. A high model score alone should therefore be read with caution.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Paroxetine is **not currently marketed** in South Africa under this evidence pack, with **0 SAHPRA registrations** on record. No product, dosage form, or approved-indication information is available.
+Six registrations are recorded. The five product entries below are listed; two of them share registration number A38/1.2/0612. The approved indication text was not provided for any of them.
 
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 42/1.2/0208 | Lenio | Tablet | Not stated in the record |
+| Reg. No. 36/1.2/0160 | Hexal-Paroxetine | Film-coated tablet (Fct) | Not stated in the record |
+| Reg. No. A39/1.2/0216 | Xet | Tablet | Not stated in the record |
+| Reg. No. A38/1.2/0612 | Aropax CR 12,5 | Tablet | Not stated in the record |
+| Reg. No. A38/1.2/0612 | Aropax CR | Tablet | Not stated in the record |
+
+All listed forms are oral.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*Note: This evidence pack flags a **blocking data gap** — SAHPRA/TFDA-equivalent warnings and contraindications are not yet available, which prevents completion of even a preliminary (Stage S1) safety assessment for this candidate.*
-
----
+No drug interaction records were found in the data supplied. Two known risks are relevant to a disorder that presents in childhood. Paroxetine carries risks in pregnancy, and a boxed warning for suicidality in young patients applies to the pediatric population.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (Ohdo syndrome and variants) is supported only by a TxGNN model score, with no clinical trials, no literature, and no established mechanistic link — the repurposing rationale itself concludes there is no direct biological connection to paroxetine's known pharmacology. In addition, a **Blocking** data gap on safety warnings/contraindications means this candidate cannot yet undergo initial safety screening.
+The candidate has a very high TxGNN score but no clinical trials, no literature and no plausible mechanistic link to a congenital chromatin-related disorder. Known pregnancy and paediatric risks further weaken any case for proceeding.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-equivalent Professional Information (PI) — warnings, contraindications, and drug interaction data (Blocking gap)
-- Confirmed mechanism of action (MOA) for paroxetine (High-priority gap)
-- Documented original indication(s) for paroxetine, sourced from regulatory records
-- Any preclinical or mechanistic studies linking SSRI pharmacology to chromatin-modification-related congenital disorders, if such evidence exists
-- Given Ohdo syndrome's rarity and genetic etiology, expert clinical genetics input before any further evaluation
+- Mechanism of action data (MOA), to test whether any biological link to KAT6B/histone acetylation pathways exists
+- The SAHPRA Professional Information (PI), covering approved indications, warnings and contraindications
+- Preclinical or mechanistic evidence, or at least case-level clinical reports, supporting the prediction
+- A defined target outcome (for example, symptom management of comorbid anxiety or depression) and a paediatric safety assessment, if this direction is pursued
+
+*This report is for research reference only and does not constitute medical advice. Predicted repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

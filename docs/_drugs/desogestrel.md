@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Desogestrel
-parent: Model Prediction Only (L5)
-nav_order: 160
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 163
+evidence_level: L4
 indication_count: 10
 ---
 
 # Desogestrel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,107 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Desogestrel: From Contraception to Acne
+# Desogestrel: From Oral Contraception to Amenorrhea
 
 ## One-Sentence Summary
 
-Desogestrel is a third-generation progestogen widely used as a component of combined oral contraceptives for pregnancy prevention. The TxGNN model predicts it may be effective for **Acne**, with **1 completed clinical trial** and **20 publications** currently supporting this direction. Among 10 predicted indications, acne stands out as the most evidence-supported candidate with a clear mechanistic rationale involving anti-androgenic effects on sebaceous gland activity.
+Desogestrel is a progestin used in oral contraceptive tablets, alone or combined with ethinylestradiol. The TxGNN model predicts it may be useful for **amenorrhea**. Support is thin: **2 clinical trials** and **16 publications** were retrieved, but none show desogestrel treating amenorrhea directly.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Contraception (oral contraceptive progestogen) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L2 (1 completed Phase 4 RCT) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Oral contraception (inferred from the product class; the registration data contain no approved indication text) |
+| Predicted New Indication | Amenorrhea |
+| TxGNN Prediction Score | 99.96% |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Desogestrel is a third-generation gonane progestogen that acts as a prodrug — it is converted in the body to its biologically active metabolite, etonogestrel (3-keto-desogestrel). Etonogestrel binds the progesterone receptor with high selectivity and has notably lower androgenic activity compared to older progestogens such as levonorgestrel. When combined with ethinylestradiol in oral contraceptive formulations, the combination suppresses ovarian androgen production and markedly increases sex hormone-binding globulin (SHBG), thereby reducing circulating free testosterone levels.
+Currently, detailed mechanism of action data is not available. Based on known information, desogestrel is a progestin that suppresses gonadotropins. Combined with ethinylestradiol, it provides cyclic hormonal support, so it may be applicable to functional or hypothalamic amenorrhea.
 
-Acne vulgaris is an androgen-dependent condition. Excess androgens stimulate sebaceous gland activity, increase sebum production, and contribute to follicular hyperkeratinisation — all key steps in acne pathogenesis. The mechanistic link between desogestrel-containing oral contraceptives and acne improvement is well-established: by suppressing free testosterone and reducing sebaceous gland stimulation, these formulations address a root hormonal driver of acne. Multiple clinical studies have confirmed that desogestrel/ethinylestradiol combinations reduce acne lesion counts, lower serum androstenedione and testosterone, and improve clinical acne grading in women with mild-to-moderate acne vulgaris.
-
-This makes the TxGNN prediction highly plausible. In fact, combined oral contraceptives containing third-generation progestogens (including desogestrel) are already recognised internationally as a treatment option for hormonal acne in women, though this specific indication is not formally registered for desogestrel-containing products in all jurisdictions.
+The link is plausible but unproven. The high TxGNN score is not backed by desogestrel-specific efficacy data. Combined pills mainly regulate withdrawal bleeding and do not restore ovulatory function. Amenorrhea also appears in the literature mostly as a bleeding pattern of progestin-only pills, not as a condition they treat.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
+| Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01466673](https://clinicaltrials.gov/study/NCT01466673) | Phase 4 | Completed | 201 | Direct head-to-head comparison of EE/norgestimate vs EE/desogestrel for treatment of mild-to-moderate acne vulgaris in women. Evaluated efficacy and safety of both regimens as acne therapy. |
-
-**Note:** Only 1 registered clinical trial was identified directly comparing desogestrel-containing oral contraceptives for acne treatment. However, the extensive literature base (below) includes multiple clinical studies that evaluated acne outcomes as primary or secondary endpoints.
+| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Phase 3 | Completed | 121 | Reproductive and endocrine function in young athletes, including oral or transdermal estrogen for bone health in athletes with amenorrhea. Desogestrel as an intervention arm is not evident, and amenorrhea is not clearly the primary endpoint. |
+| [NCT01588873](https://clinicaltrials.gov/study/NCT01588873) | Phase 4 | Unknown | 42 | Contraceptive pill versus vaginal ring on hormonal and metabolic markers in PCOS. Does not address amenorrhea treatment. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8894800](https://pubmed.ncbi.nlm.nih.gov/8894800/) | 1996 | Comparative trial | Int J Fertil Menopausal Stud | Compared desogestrel-containing OC (Marvelon) vs cyproterone acetate (Diane) for acne in Oriental women; both formulations effective. |
-| [8689881](https://pubmed.ncbi.nlm.nih.gov/8689881/) | 1996 | Clinical study | Contraception | EE/gestodene vs EE/desogestrel in 19 women with acne: both reduced androstenedione, testosterone, and free androgen index; acne improvement observed. |
-| [2956138](https://pubmed.ncbi.nlm.nih.gov/2956138/) | 1987 | Clinical study | Eur J Obstet Gynecol Reprod Biol | EE/desogestrel in oligomenorrhoeic adolescents with hyperandrogenism: significant reductions in LH, testosterone, androstenedione, and DHEA-S after 6 months. |
-| [2976224](https://pubmed.ncbi.nlm.nih.gov/2976224/) | 1988 | Clinical study | Acta Eur Fertil | EE/desogestrel in hyperandrogenic and normal adolescents: acne improved within 12 months; low side-effect incidence. |
-| [8200468](https://pubmed.ncbi.nlm.nih.gov/8200468/) | 1994 | Clinical study | Eur J Obstet Gynecol Reprod Biol | Biphasic EE/desogestrel OC in 33 acne patients: effective on endocrine correlates of hyperandrogenism; significant SHBG increase and free androgen reduction. |
-| [6084924](https://pubmed.ncbi.nlm.nih.gov/6084924/) | 1984 | Clinical study | Acta Derm Venereol | Desogestrel/EE vs levonorgestrel/EE in 54 female acne patients: desogestrel formulation produced greater SHBG increase and free testosterone reduction. |
-| [3161265](https://pubmed.ncbi.nlm.nih.gov/3161265/) | 1985 | Pharmacodynamic study | Acta Obstet Gynecol Scand Suppl | Evaluated androgenicity of progestogens with focus on desogestrel; demonstrated lower androgenic activity compared to older progestins. |
-| [12566804](https://pubmed.ncbi.nlm.nih.gov/12566804/) | 2003 | Review | Dermatology | Systemic acne treatment update: oral contraceptives with anti-androgenic progestins (including desogestrel) recommended for papulopustular and hormonal acne. |
-| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Review | Am J Med | Comprehensive review of progestin androgenicity: desogestrel classified among newer progestins with reduced androgenic effect. |
-| [8178905](https://pubmed.ncbi.nlm.nih.gov/8178905/) | 1994 | Review | Am J Obstet Gynecol | Clinical and metabolic profile of desogestrel: highly selective gonane progestin with favourable tolerability and non-contraceptive benefits including acne improvement. |
+| [11725730](https://pubmed.ncbi.nlm.nih.gov/11725730/) | 2001 | Not classified | J Reprod Med | Effect of decreasing ethinylestradiol doses in oral contraceptives on bone loss in young women with hypothalamic amenorrhea. |
+| [23221134](https://pubmed.ncbi.nlm.nih.gov/23221134/) | 2012 | Not classified | Georgian Med News | Management of central-origin oligomenorrhoea and amenorrhoea in 159 infertile women, compared with standard hormone therapy. |
+| [35261299](https://pubmed.ncbi.nlm.nih.gov/35261299/) | 2022 | Not classified | Gynecol Endocrinol | Bleeding profile of a drospirenone-only pill versus desogestrel 75 mcg. Amenorrhea appears as a bleeding pattern of progestin-only pills. |
+| [3161265](https://pubmed.ncbi.nlm.nih.gov/3161265/) | 1985 | Pharmacodynamic study | Acta Obstet Gynecol Scand Suppl | Androgenicity of progestogens, with a focus on desogestrel, alone and with ethinylestradiol. |
+| [8218004](https://pubmed.ncbi.nlm.nih.gov/8218004/) | 1993 | Comparative clinical study | Br J Obstet Gynaecol | Reliability, cycle control and side effects of two 150 µg desogestrel pills with 20 µg (Mercilon) or 30 µg ethinylestradiol. |
+| [18843653](https://pubmed.ncbi.nlm.nih.gov/18843653/) | 2008 | Systematic review (Cochrane) | Cochrane Database Syst Rev | 20 µg versus higher-dose estrogen combined pills: contraceptive effectiveness and bleeding patterns. |
+| [21249657](https://pubmed.ncbi.nlm.nih.gov/21249657/) | 2011 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Updated version of the same review. |
+| [8447356](https://pubmed.ncbi.nlm.nih.gov/8447356/) | 1993 | Not classified | Am J Obstet Gynecol | Tolerability profile of desogestrel/ethinyl estradiol and the non-contraceptive benefits of oral contraceptives. |
+| [1436906](https://pubmed.ncbi.nlm.nih.gov/1436906/) | 1992 | Not classified | Obstet Gynecol Surv | Overview of the newer progestogens desogestrel, norgestimate and gestodene. |
+| [1604074](https://pubmed.ncbi.nlm.nih.gov/1604074/) | 1992 | Review | Rev Med Liege | General review of hormonal contraception. |
 
 ## South Africa Market Information
 
-Desogestrel is currently **not registered** with SAHPRA (South African Health Products Regulatory Authority). There are no active marketing authorisations for desogestrel-containing products in South Africa.
-
-**Implication for repurposing:** Before desogestrel can be considered for acne treatment in South Africa, a SAHPRA registration (either as a new application or via Section 21 access) would be required. Healthcare professionals should note that desogestrel-containing products are widely available internationally (e.g., Marvelon, Mercilon, Cerazette) and are registered in multiple regulatory jurisdictions.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 49/18.8/0711 | Merdeza | Tablet (oral) | Not stated in registration data |
+| Y/18.8/78 | Mercilon | Tablet (oral) | Not stated in registration data |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information once the product is registered. In the interim, prescribers should consult international regulatory references (e.g., EMA SmPC, FDA labelling) for comprehensive safety data. Report adverse drug reactions to SAHPRA.
-
-**Key considerations from international labelling (for reference):**
-- Combined oral contraceptives containing desogestrel carry a known risk of venous thromboembolism (VTE), with third-generation progestogens associated with a slightly higher VTE risk compared to second-generation formulations
-- Contraindicated in women with a history of or current VTE, known thrombophilia, migraine with aura, breast cancer, or severe hepatic disease
-- Drug interactions include reduced contraceptive efficacy with CYP3A4 inducers (e.g., rifampicin, certain anticonvulsants, St John's Wort)
-
-## Other Predicted Indications Summary
-
-The TxGNN model generated 10 predicted indications for desogestrel. Besides acne, the table below summarises the remaining predictions and their assessment:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Rationale |
-|------|---------------------|-------------|---------------|----------------|-----------|
-| 1 | Amenorrhoea | 99.96% | L4 | Hold | Paradoxical: desogestrel POP actually *causes* amenorrhoea in 20–30% of users; association ≠ treatment |
-| 2 | Apocrine adenosis of breast | 99.92% | L5 | Hold | Benign breast lesion; no evidence for progestogen treatment |
-| 3 | Blunt duct adenosis of breast | 99.92% | L5 | Hold | Same score as #2; likely same knowledge graph node cluster |
-| 5 | Breast abscess | 99.89% | L5 | Hold | Infectious condition requiring antibiotics/drainage; no mechanistic basis |
-| 6 | Fat necrosis of breast | 99.89% | L5 | Hold | Physical trauma-related condition; no hormonal treatment basis |
-| 7 | Lactation disease | 99.87% | L4 | Hold | Desogestrel is safe *during* lactation, but does not *treat* lactation disorders |
-| 8 | Breast adenosis | 99.85% | L5 | Hold | Benign breast proliferation; no treatment evidence |
-| 9 | Primary ovarian failure | 99.72% | L5 | Research Question | Partial rationale — desogestrel could theoretically serve as HRT progestogen component, but natural progesterone preferred |
-| 10 | Fragile X syndrome (female carrier) | 99.55% | L5 | Hold | Extremely weak link via FXPOI; core neurological symptoms unrelated to progestogens |
-
-**Pattern observation:** Multiple breast-related conditions (ranks 2, 3, 5, 6, 8) received high TxGNN scores despite absent evidence, suggesting the model detects structural proximity between hormonal drug nodes and breast disease nodes in the knowledge graph rather than genuine therapeutic relationships.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The repurposing of desogestrel (in combination with ethinylestradiol) for acne treatment is supported by a completed Phase 4 RCT (n=201) and a robust body of clinical literature spanning nearly four decades. The mechanistic rationale is clear and well-validated: desogestrel-containing OCs reduce circulating free androgens via SHBG elevation and ovarian androgen suppression, directly addressing a key driver of acne pathogenesis. This indication is already recognised in international clinical guidelines, making this a low-risk repurposing candidate with strong translational potential.
+No trial or publication shows desogestrel treating amenorrhea. The only Phase 3 trial is in young athletes and does not clearly involve desogestrel. The high TxGNN score therefore rests on the model prediction alone (L4).
 
 **To proceed, the following is needed:**
-- **SAHPRA registration pathway**: Determine whether to pursue full registration or Section 21 access for desogestrel-containing products in South Africa
-- **Mechanism of action data**: Obtain complete MOA documentation from DrugBank to formalise the pharmacological rationale
-- **Safety profile**: Obtain full Professional Information (PI) including warnings, contraindications, and drug interactions — particularly regarding VTE risk in the South African population
-- **Local clinical context**: Assess the prevalence of hormonal acne in South African women and determine where desogestrel-containing OCs would fit within existing SAHPRA-approved acne treatment pathways
-- **Essential Medicines List consideration**: Evaluate whether inclusion on the South African EML is appropriate given the dual contraceptive/dermatological benefit
+- The SAHPRA Professional Information (warnings, contraindications, approved indications), which is a blocking gap for safety screening
+- Detailed mechanism of action data (for example from DrugBank)
+- A desogestrel-specific efficacy study in functional or hypothalamic amenorrhea, with amenorrhea as the endpoint
+- A comparison against standard hormone therapy
 
----
+For context, the same evidence pack ranks **acne** (rank 4) higher on evidence (L2, Proceed with Guardrails). It is supported by a completed Phase 4 trial and desogestrel-specific studies, but the effect comes from the estrogen-progestin combination. Venous thromboembolism risk with third-generation progestins (PMID 10652979) would need to be part of patient selection.
 
-*Disclaimer: This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. All predictions are generated by the TxGNN computational model and should be interpreted in conjunction with clinical judgement.*
-
-*Report generated: 2026-04-05 | Evidence Pack version: v4 | Data cutoff: 2026-04-05*
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

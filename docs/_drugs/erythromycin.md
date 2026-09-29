@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Erythromycin
-parent: Moderate Evidence (L3-L4)
-nav_order: 210
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 214
+evidence_level: L5
 indication_count: 10
 ---
 
 # Erythromycin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Erythromycin: From Bacterial Infections to Lymphogranuloma Venereum
+# Erythromycin: From Antibacterial Use to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Erythromycin is a macrolide antibiotic historically used to treat gram-positive and atypical bacterial infections; formal SAHPRA-registered indication text is not available in this evidence pack, and the drug is currently **not marketed in South Africa**.
-TxGNN's single highest-scoring prediction (punctate epithelial keratoconjunctivitis, 99.89%) has **zero** supporting clinical trials or literature and is rated **Hold**. Among the 10 candidate indications surveyed, **Lymphogranuloma Venereum (LGV)** is the only one reaching a substantive evidence tier — **L3**, backed by **20 publications** and an existing place in international STI treatment guidelines — and is therefore the focus of this report.
+Erythromycin is a macrolide antibiotic. The SAHPRA data supplied for it do not state its approved indications.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **0 clinical trials** and **0 publications** support this specific prediction, so it rests on the model score alone.
 
 ---
 
@@ -42,90 +42,85 @@ TxGNN's single highest-scoring prediction (punctate epithelial keratoconjunctivi
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no SAHPRA licenses on file; drug status "not marketed"). Generally known use: gram-positive and atypical bacterial infections. |
-| Predicted New Indication | Lymphogranuloma Venereum (LGV) |
-| TxGNN Prediction Score | 99.05% (rank 4659 of predicted candidates) |
-| Evidence Level | L3 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-### Full List of TxGNN-Predicted Indications (this candidate pack)
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|---------|------|------|------|------|
-| 1 | Punctate epithelial keratoconjunctivitis | 99.89% | L5 | S0 | Hold |
-| 2 | Acute contagious conjunctivitis | 99.55% | L4 | S1 | Research Question |
-| 3 | Exposure keratitis | 99.50% | L5 | S0 | Hold |
-| **4** | **Lymphogranuloma venereum** | **99.05%** | **L3** | **S2** | **Proceed with Guardrails** |
-| 5 | Necrotizing ulcerative gingivitis | 99.00% | L3 | S1 | Research Question |
-| 6 | Polyclonal hyperviscosity syndrome | 98.84% | L5 | S0 | Hold |
-| 7 | Hyperamylasemia | 98.84% | L5 | S0 | Hold |
-| 8 | Postinfectious vasculitis | 98.77% | L5 | S0 | Hold |
-| 9 | Post-bacterial disorder | 98.75% | L4 | S0 | Hold |
-| 10 | Post-infectious syndrome | 98.71% | L4 | S1 | Research Question |
-
-Six of the ten candidates (ranks 1, 3, 6, 7, 8, 9) have no supporting clinical trial or literature evidence at all and are classified Hold — these appear to reflect knowledge-graph embedding noise (e.g., candidate #7, hyperamylasemia, likely reflects a known adverse-effect edge being read as a treatment edge) rather than plausible repurposing hypotheses. LGV is the only candidate that reaches "Proceed with Guardrails."
+| Original Indication | Not stated in the supplied SAHPRA data (all four registrations lack indication text). Erythromycin is a macrolide antibiotic. |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 99.89% |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for erythromycin is not available in this evidence pack (Data Gap DG002, pending DrugBank API lookup). Based on general pharmacological knowledge, erythromycin is a macrolide antibiotic that binds the bacterial 50S ribosomal subunit and blocks peptide chain translocation, inhibiting protein synthesis. This activity extends to *Chlamydia trachomatis* serovars L1–L3, the causative organism of LGV.
+Currently, detailed mechanism of action data is not available. Based on known information, erythromycin belongs to the macrolide antibiotic class. Its antibacterial activity is well established, and topical erythromycin is plausible for bacterial infection of the ocular surface.
 
-LGV is itself a chlamydial sexually transmitted infection, so this is less a "novel" mechanistic leap than an extension within erythromycin's already-recognized antimicrobial spectrum. Erythromycin base has long been listed in CDC and WHO sexually transmitted infection treatment guidelines as an **alternative regimen to doxycycline** for LGV, specifically for patients who are pregnant or doxycycline-intolerant — this is established clinical practice, not a new hypothesis generated purely by the TxGNN model.
-
-This pre-existing guideline-level recognition is what elevates LGV to L3/S2 status relative to the other nine candidates in this pack, none of which have any comparable clinical grounding. The literature base is dominated by reviews and case reports rather than erythromycin-specific randomized trials, so the evidence should be read as supportive of a known-but-secondary treatment role, not as newly discovered efficacy.
+The link to the predicted indication is weak. Punctate epithelial keratoconjunctivitis is often viral or inflammatory rather than bacterial, so an antibacterial mechanism may not apply. No trials or literature were supplied to test the prediction. The high score (99.89%) should be read as a model signal, not clinical support.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for erythromycin in lymphogranuloma venereum.
+Currently no related clinical trials registered for this indication. No SANCTR or PACTR entries were supplied.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25870512](https://pubmed.ncbi.nlm.nih.gov/25870512/) | 2015 | Review | Infection and Drug Resistance | LGV caused by *C. trachomatis* serovars L1–L3; outbreaks in MSM populations across North America, Europe, and Australia over the past decade; diagnosis is often difficult on clinical grounds alone. |
-| [27773504](https://pubmed.ncbi.nlm.nih.gov/27773504/) | 2016 | Review | Annales de Dermatologie et de Vénéréologie | French-language clinical review of LGV (no abstract available). |
-| [22459660](https://pubmed.ncbi.nlm.nih.gov/22459660/) | 2012 | Review | Gastrointestinal Endoscopy | Review of LGV proctitis presentation and endoscopic findings (no abstract available). |
-| [30518587](https://pubmed.ncbi.nlm.nih.gov/30518587/) | 2018 | Systematic Review | BMJ Open | Systematic review of non-standard treatment options for uncomplicated *C. trachomatis* urogenital infections. |
-| [33462582](https://pubmed.ncbi.nlm.nih.gov/33462582/) | 2021 | Cohort | Clinical Infectious Diseases | Weekly oral azithromycin 1g for 3 weeks evaluated as LGV proctitis treatment in MSM in an endemic European setting (comparator macrolide, not erythromycin). |
-| [40815293](https://pubmed.ncbi.nlm.nih.gov/40815293/) | 2025 | Cohort | Sexually Transmitted Diseases | Alberta, Canada surveillance program (2018–2022) on LGV serovar prevalence, treatment, and follow-up among gbMSM attending STI clinics. |
-| [13239093](https://pubmed.ncbi.nlm.nih.gov/13239093/) | 1955 | Case Series | Antibiotic Medicine & Clinical Therapy | Historical report of an erythromycin–triple sulfonamide combination used to treat early-stage LGV — the only entry in this list directly reporting erythromycin use. |
-| [22760150](https://pubmed.ncbi.nlm.nih.gov/22760150/) | 2012 | Case Report | Revista da Sociedade Brasileira de Medicina Tropical | 17-year-old treated with erythromycin for LGV; recurrent lesion 3 months later diagnosed as diffuse large B-cell non-Hodgkin lymphoma. |
-| [24216037](https://pubmed.ncbi.nlm.nih.gov/24216037/) | 2014 | Case Report | International Journal of STD & AIDS | Bubonic (inguinal) LGV case with treatment failure across doxycycline, azithromycin, and moxifloxacin. |
-| [24787368](https://pubmed.ncbi.nlm.nih.gov/24787368/) | 2014 | Case Series | Sexually Transmitted Infections | Four inguinal LGV cases highlighting diagnostic and management pitfalls, since current guidelines focus mainly on anorectal LGV. |
+Currently no related literature available for this indication.
+
+---
+
+## Other Predicted Indications (for Context)
+
+The pack also contains evidence for lower-ranked predictions. None of it changes the decision above, but two items are worth noting:
+
+| Predicted Indication | Score | Evidence Level | What the Evidence Shows |
+|------|------|------|------|
+| Lymphogranuloma venereum | 99.05% | L4 | About 20 publications, mostly reviews and case reports. Macrolides are active against *C. trachomatis*, and erythromycin has been used as an alternative to doxycycline. The azithromycin reports do not apply to erythromycin. There are no trials and no erythromycin-specific comparative data. |
+| Necrotizing ulcerative gingivitis | 99.00% | L4 | Historical reports only (1953, 1969) and narrative reviews. Penicillin is preferred and erythromycin is second choice. |
+
+Other predictions have no supporting evidence (L5). Some, such as hyperamylasemia and polyclonal hyperviscosity syndrome, appear to be knowledge-graph artefacts. The two broad categories, "post-bacterial disorder" and "post-infectious syndrome" (L4), are supported mainly by trials of azithromycin or other antibiotics. They show no erythromycin-specific benefit.
+
+The high scores for conjunctivitis-type conditions may partly reflect labelled uses that the supplied data did not capture.
 
 ---
 
 ## South Africa Market Information
 
-No SAHPRA registration records were found for erythromycin in this evidence pack (market status: **not marketed**, 0 licenses on file).
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. A/20.1.1/0117 | Ilosone 125P | Suspension |
+| Reg. No. V/20.1.1/6 | Adco-erythromycin | Capsule |
+| Reg. No. 27/20.1.1/0329 | Dyna-Erythromycin 125Mg | Powder |
+| Reg. No. X/13.12/275 | Stiemycin | Lotion |
+
+Approved indication text and Essential Medicines List status were not supplied. None of the four registered forms is an ophthalmic preparation, so route compatibility with an eye indication is unconfirmed.
 
 ---
 
 ## Safety Considerations
 
-Key warnings, contraindications, and drug-interaction data for erythromycin were not available in this evidence pack (Data Gap DG001, marked **Blocking** — TFDA/SAHPRA-approved Professional Information warnings and precautions have not yet been retrieved). Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Erythromycin's use in LGV is grounded in an established, guideline-recognized alternative role (versus doxycycline) rather than a novel mechanistic hypothesis, and is supported by 20 publications — though none are erythromycin-specific RCTs and no clinical trials for this combination are registered. This places the candidate above the "Hold" threshold but short of routine adoption without further safety and access review, particularly since the drug is not currently marketed in South Africa.
+The prediction is model-only (L5), with no trials or literature for this indication. The antibacterial mechanism fits poorly with a condition that is often viral or inflammatory. No ophthalmic erythromycin product is registered in the supplied SAHPRA data.
 
 **To proceed, the following is needed:**
-- Retrieval of TFDA/SAHPRA-approved Professional Information (warnings, contraindications, DDI) — currently a Blocking data gap (DG001)
-- Confirmation of erythromycin's detailed mechanism-of-action data via DrugBank (DG002)
-- A regulatory/import pathway assessment, since erythromycin currently holds no SAHPRA registration in South Africa
-- Consideration of an erythromycin-specific (not azithromycin-extrapolated) clinical evaluation in LGV, given the guideline evidence is largely doxycycline/azithromycin-centered
+- The SAHPRA package insert (warnings, contraindications, approved indications). This is currently a blocking gap for safety screening.
+- Mechanism of action data from DrugBank.
+- A literature and trial search specific to erythromycin in punctate epithelial keratoconjunctivitis.
+- Confirmation of whether an ophthalmic erythromycin formulation is registered or accessible in South Africa.
+- If a repurposing question is pursued, lymphogranuloma venereum is the better-supported lead (L4). It would need erythromycin-specific comparative data first.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

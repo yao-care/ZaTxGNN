@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Brompheniramine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 78
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 ---
 
 # Brompheniramine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,72 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Brompheniramine: From Allergic Rhinitis to Allergic Urticaria
+# Brompheniramine: From Antihistamine Use to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Brompheniramine is a first-generation H1 receptor antihistamine (alkylamine class) traditionally used to relieve symptoms of allergic rhinitis and common cold. The TxGNN model predicts it may be effective for **Allergic Urticaria**, with a prediction score of 99.87%; however, **no clinical trials** and **no publications** were identified during the current evidence search — likely reflecting the long-established nature of antihistamine use in urticaria rather than a true evidence gap.
-
----
+Brompheniramine is a first-generation H1 antihistamine, marketed in South Africa as Ilvico syrup and tablets. The TxGNN model predicts it may be effective for **allergic urticaria**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model score and drug-class reasoning alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Allergic rhinitis / common cold symptom relief (H1 antihistamine) |
-| Predicted New Indication | Allergic Urticaria |
+|------|------|
+| Original Indication | Not recorded in the supplied data (first-generation H1 antihistamine) |
+| Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Brompheniramine is a classic first-generation H1 receptor competitive antagonist belonging to the alkylamine antihistamine class. It works by competitively binding to histamine H1 receptors in target tissues — including cutaneous blood vessels, smooth muscle, and sensory nerves — thereby preventing histamine from triggering its downstream effects. Its sedating properties arise from additional central nervous system H1 and muscarinic receptor blockade, a characteristic shared by all first-generation agents in this class.
+Currently, detailed mechanism of action data is not available for this drug. Based on known information, brompheniramine belongs to the first-generation H1-receptor antagonist class. Its effect on allergic conditions is well recognised at class level, and mechanistically it may be applicable to allergic urticaria.
 
-The core pathological mechanism of allergic urticaria is IgE-mediated mast cell and basophil degranulation, releasing histamine that acts on dermal H1 receptors and drives the classic wheal-and-flare response — increased vascular permeability, erythema, oedema, and intense pruritus. Brompheniramine's direct H1 blockade interrupts this pathway at its most fundamental step, giving this mechanistic link a strength of ★★★★★ (direct and central). It is worth noting that antihistamines are globally recognised as the first-line pharmacological treatment for urticaria; the TxGNN model has therefore identified a mechanistically impeccable connection.
+In allergic urticaria, mast cells release histamine, which produces the typical itchy wheal-and-flare reaction. Blocking the H1 receptor is a biologically coherent way to reduce these symptoms. The high TxGNN score probably reflects this drug-class relationship.
 
-The second-ranked prediction, **Cold Urticaria** (score 99.55%), shares a broadly similar mechanism in that cold-triggered mast cell degranulation also releases histamine. However, cold urticaria frequently involves additional non-histamine mediators — IgM/IgG cold-reactive antibodies, complement activation, and platelet-activating factor (PAF) — which are not addressed by H1 blockade alone. The mechanistic coverage for cold urticaria is therefore more partial (★★★☆☆), and allergic urticaria remains the stronger candidate.
+Two cautions apply:
+- The mechanism link is a class-level inference. It has not been verified against a drug-specific record.
+- Brompheniramine is already marketed, so this may be an existing class use rather than true repurposing. That should be checked against the SAHPRA-approved label.
 
----
+A second prediction, **cold urticaria** (score 99.55%), has the same weaknesses. Cold exposure triggers mast cell degranulation and histamine release, so H1 blockade is plausible. However, no trial or publication supports brompheniramine in this condition, and the score likely reflects general antihistamine–urticaria associations. It is rated Hold.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR records were not supplied for this candidate).
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Brompheniramine is currently **not marketed** in South Africa and holds **no SAHPRA registrations**. No product name, dosage form, or approved indication data is available from the South African regulatory register.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| C769 (ACT 101/1965) | Ilvico | Syrup | Not listed in the supplied record |
+| C770 (ACT 101/1965) | Ilvico | Tablet | Not listed in the supplied record |
 
-> **Note for South African prescribers:** Second-generation H1 antihistamines with existing SAHPRA registrations (e.g., cetirizine, loratadine, fexofenadine) should be considered as established alternatives for urticaria management pending any regulatory evaluation of brompheniramine.
-
----
+Essential Medicines List (EML) inclusion status was not supplied and should be confirmed separately.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-> **General class caution:** As a first-generation antihistamine, brompheniramine carries well-recognised class effects including sedation, anticholinergic effects (dry mouth, urinary retention, constipation, blurred vision), and impaired psychomotor performance. These should be disclosed to patients and evaluated carefully in elderly individuals and those operating machinery or driving. Full warnings, contraindications, and drug interaction data should be obtained from the complete PI prior to clinical use.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the mechanistic basis for brompheniramine in allergic urticaria is exceptionally strong — it is arguably a direct pharmacological match rather than a speculative repurposing — the drug has no current SAHPRA registration in South Africa, and the structured evidence search returned zero clinical trials or publications to formally support this specific indication in the South African context. Without a regulatory footprint and formal dossier, clinical adoption cannot be recommended at this stage.
+The prediction score is high, but no clinical trial or publication supports it (L5). The mechanism, the original indication and the safety profile are all missing from the record. The drug is already marketed and may already be used for allergic conditions, so it is unclear whether this is new.
 
 **To proceed, the following is needed:**
+- The SAHPRA package insert, to confirm the approved indications (including whether allergic urticaria is already covered), warnings and contraindications
+- Mechanism of action data for brompheniramine, for example from DrugBank
+- A literature and trial search specific to brompheniramine in allergic urticaria and cold urticaria
+- A route compatibility check for the predicted indication against the syrup and tablet forms
+- Confirmation of Essential Medicines List (EML) status
 
-- Expand the literature search to include first-generation H1 antihistamines as a drug class in urticaria (not brompheniramine alone), and cross-reference international treatment guidelines (e.g., EAACI/GA²LEN/EDF/WAO urticaria guidelines)
-- Obtain full DrugBank MOA data to formally document the mechanism of action and support the regulatory dossier
-- Source the complete Professional Information (PI) / prescribing information document to extract warnings, contraindications, and drug interactions
-- Assess whether a SAHPRA Section 21 authorisation or full registration application is feasible, given that the drug is not currently on the South African market
-- Review potential advantages of brompheniramine over currently registered second-generation antihistamines (e.g., cost, availability) to establish a clear clinical need for market entry
-- If a regulatory submission is pursued, prepare a comparative safety-efficacy dossier benchmarked against cetirizine or loratadine as the South African standard of care
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

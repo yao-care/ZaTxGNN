@@ -2,7 +2,7 @@
 layout: default
 title: Cyanocobalamin
 parent: Model Prediction Only (L5)
-nav_order: 150
+nav_order: 153
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,91 +29,113 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Cyanocobalamin: From Vitamin B12 Supplementation to Biotin Metabolic Disease
+# Cyanocobalamin: From Vitamin B12 Replacement to Biotin Metabolic Disease
 
 ## One-Sentence Summary
 
-Cyanocobalamin (vitamin B12) is an essential micronutrient used to treat vitamin B12 deficiency and pernicious anaemia. The TxGNN model predicts it may be effective for **Biotin Metabolic Disease**, but the evidence is weak — all **15 clinical trials** retrieved are only tangentially related (Grade C relevance), and the **20 publications** discuss general B-vitamin metabolism rather than direct therapeutic evidence. This prediction likely reflects pathway proximity in the knowledge graph rather than genuine therapeutic potential.
+Cyanocobalamin is the standard injectable and oral form of vitamin B12. It is registered in South Africa in 18 products, but the approved-indication text was not supplied in the source data.
+The TxGNN model predicts it may be relevant to **biotin metabolic disease**, with a very high score (99.6%).
+That score is not backed by clinical data: **15 trials** were retrieved, but none tests cyanocobalamin in this condition, and the **20 publications** are mostly older narrative reviews on vitamin-responsive disorders.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin B12 deficiency, pernicious anaemia (no SAHPRA registrations on file) |
-| Predicted New Indication | Biotin Metabolic Disease |
+| Original Indication | Not recorded in the SAHPRA data supplied. Cyanocobalamin is generally used as vitamin B12 replacement. |
+| Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 99.60% |
-| Evidence Level | L5 — Model prediction only, no direct clinical studies |
-| South Africa Market Status | Not registered |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L4 (mechanistic and indirect evidence only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 18 |
+| Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, cyanocobalamin (vitamin B12) is a water-soluble vitamin that serves as a cofactor for two key enzymes: methionine synthase (which converts homocysteine to methionine) and methylmalonyl-CoA mutase (which converts methylmalonyl-CoA to succinyl-CoA in the propionate metabolism pathway).
+Currently, detailed mechanism of action data is not available. Based on known information, cyanocobalamin is the pharmaceutical form of vitamin B12, a cofactor for essential enzymes. Mechanistically, it may be relevant to biotin-related disorders, but the link is indirect.
 
-The mechanistic link to biotin metabolic disease lies in the **propionate metabolism pathway**: biotin-dependent propionyl-CoA carboxylase acts upstream (converting propionyl-CoA to methylmalonyl-CoA), while B12-dependent methylmalonyl-CoA mutase acts immediately downstream (converting methylmalonyl-CoA to succinyl-CoA). Both vitamins are essential for sequential steps in the same metabolic cascade. However, this is a **sequential dependency, not functional redundancy** — B12 cannot compensate for the loss of biotin-dependent carboxylase function. A patient with biotinidase deficiency or holocarboxylase synthetase deficiency requires biotin itself, not B12.
+The two vitamins meet at propionate metabolism. The biotin-dependent enzyme propionyl-CoA carboxylase produces methylmalonyl-CoA. The cobalamin-dependent enzyme methylmalonyl-CoA mutase then converts it to succinyl-CoA. In biotin-related disorders such as biotinidase deficiency or holocarboxylase synthetase deficiency, cobalamin could plausibly influence how downstream metabolites are handled.
 
-The high TxGNN score (99.60%) most likely reflects the **topological proximity** of cyanocobalamin and biotin metabolic disease nodes in the knowledge graph, owing to shared pathway annotations, co-occurrence in metabolic disease literature, and overlapping patient populations (e.g., organic acidaemias). This does not translate to therapeutic substitutability. The score should therefore be interpreted with considerable caution.
+The standard therapy for these disorders is biotin itself, and no evidence shows that cobalamin corrects the primary defect. The high TxGNN score most likely reflects knowledge-graph proximity among vitamin-responsive disorders, not clinical findings. Because the labelled indications and mechanism of action are missing, this link cannot be checked against approved use.
+
+---
 
 ## Clinical Trial Evidence
 
-All 15 retrieved clinical trials received a **Grade C relevance rating** — none directly test cyanocobalamin as a treatment for biotin metabolic disease. The most pathway-relevant trials are listed below:
+All trials were graded C (weak or indirect relevance) or were not yet graded. None studies cyanocobalamin as a treatment for biotin metabolic disease. No SANCTR or PACTR identifiers were provided, and no ICTRP trials were found.
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
+| Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02426775](https://clinicaltrials.gov/study/NCT02426775) | Phase 3 | Completed | 33 | Carglumic acid (Carbaglu) in propionic acidaemia and methylmalonic acidaemia — related metabolic pathway but evaluates a different drug |
-| [NCT05687474](https://clinicaltrials.gov/study/NCT05687474) | N/A | Completed | 6,824 | Universal genomic newborn screening for 126 treatable genetic diseases including inborn errors of metabolism — screening study, not therapeutic intervention |
-| [NCT05832190](https://clinicaltrials.gov/study/NCT05832190) | N/A | Terminated | 5 | Fibre and biotin supplementation to improve gut microbiota post-bariatric surgery — terminated early with only 5 participants enrolled |
-| [NCT03655223](https://clinicaltrials.gov/study/NCT03655223) | N/A | Enrolling by invitation | 30,000 | Early Check newborn screening programme for rare conditions — epidemiological, not interventional |
-| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | N/A | Unknown | 200 | Metabolic support therapy (Q10 + vitamins B and E) in autism — status unknown, different indication |
-| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Phase 2 | Completed | 75 | Vitamins and minerals for diabetic neuropathy/nephropathy — different indication entirely |
-| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | N/A | Completed | 39 | Nutritional intervention targeting oxidative stress in autism — tangential metabolic overlap only |
+| [NCT05687474](https://clinicaltrials.gov/study/NCT05687474) | N/A | Completed | 6,824 | Genomic newborn screening for 126 treatable genetic diseases. A diagnostic programme that may detect biotin-related disorders. It does not test cyanocobalamin. |
+| [NCT02426775](https://clinicaltrials.gov/study/NCT02426775) | Phase 3 | Completed | 33 | Randomised trial of carglumic acid (Carbaglu®) in propionic and methylmalonic acidaemia. The drug is not cyanocobalamin, so it does not support this indication. |
+| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | N/A | Completed | 39 | Nutritional intervention for oxidative stress and methylation in autism. Vitamin B12 is one component, but the disease is different. |
+| [NCT01474486](https://clinicaltrials.gov/study/NCT01474486) | N/A | Completed | 40 | Multi-micronutrient feasibility study in heart failure. B12's effect cannot be separated from the other components. |
+| [NCT03444155](https://clinicaltrials.gov/study/NCT03444155) | N/A | Completed | 30 | Cross-over pilot of natural versus synthetic B-complex bioavailability in healthy adults. A formulation comparison only. |
+| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Phase 2 | Completed | 75 | Vitamin and mineral supplementation for neuropathy and nephropathy in type 2 diabetes. A different disease. |
+| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | N/A | Unknown | 200 | Randomised cross-over of Q10 ubiquinol with vitamin B and E in autism and Phelan-McDermid syndrome. The link to this indication is indirect. |
+| [NCT05832190](https://clinicaltrials.gov/study/NCT05832190) | N/A | Terminated | 5 | Fibre plus biotin before bariatric surgery to improve the gut microbiome. Not a biotin metabolic disease and not cyanocobalamin. |
+| [NCT03655223](https://clinicaltrials.gov/study/NCT03655223) | N/A | Enrolling by invitation | 30,000 | Voluntary newborn screening for a panel of rare conditions. A screening programme, not a treatment trial. |
+| [NCT01643187](https://clinicaltrials.gov/study/NCT01643187) | Phase 2 | Unknown | 1,000 | Fortified food versus milk in malnourished children. Serum B12 is one outcome measure. |
 
-**Summary:** No clinical trial directly evaluates cyanocobalamin for the treatment of biotin metabolic disease. The retrieved trials involve multi-vitamin supplementation in unrelated conditions or screening programmes.
+---
 
 ## Literature Evidence
 
-Of 20 publications retrieved, none report clinical evidence of cyanocobalamin treating biotin metabolic disease. The most relevant publications discussing the shared metabolic pathways are:
+No randomised trials were retrieved. Most items are narrative reviews, and many are more than 20 years old. Study types marked "Unclassified" were not classified in the source data.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Review | Handbook of Clinical Neurology | Comprehensive review of vitamin-responsive disorders including cobalamin, folate, and biotin — describes distinct inborn errors requiring specific cofactors, not interchangeability |
-| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Review | Int J Mol Sci | B12 deficiency and the nervous system — notes B12 role in succinyl-CoA synthesis from methylmalonyl-CoA and biotin, but focuses on B12-specific neuronal mechanisms |
-| [1909779](https://pubmed.ncbi.nlm.nih.gov/1909779/) | 1991 | Observational | Pediatric Research | In vivo propionate metabolism in patients with propionic acidaemia, methylmalonic acidaemia, and multiple carboxylase deficiency — demonstrates distinct biochemical defects requiring specific cofactors |
-| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Review | Acta Vitaminol Enzymol | Vitamins in metabolic diseases — reviews vitamin malabsorption, errors in vitamin metabolism, and vitamin-dependent syndromes; each vitamin treats its own dependent pathway |
-| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Review | Pediatr Clin North Am | Megavitamin-responsive aminoacidopathies — B-complex cofactors activate specific apoenzymes; therapeutic trials are specific to each vitamin |
-| [7015958](https://pubmed.ncbi.nlm.nih.gov/7015958/) | 1980 | Review | Ann NY Acad Sci | Interactions of B-complex vitamins in metabolic and catabolic reactions — describes interdependencies but not therapeutic substitutability |
-| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | Review | Adv Clin Chem | Vitamin-responsive inborn errors of metabolism — catalogues distinct vitamin-responsive conditions |
-| [25388747](https://pubmed.ncbi.nlm.nih.gov/25388747/) | 2015 | Review | Endocr Metab Immune Disord Drug Targets | Vitamins and type 2 diabetes — discusses biotin and B12 roles separately in glucose metabolism |
-| [29173522](https://pubmed.ncbi.nlm.nih.gov/29173522/) | 2017 | Review | Gastroenterol Clin North Am | Vitamins and minerals in inflammatory bowel disease — discusses micronutrient deficiencies in IBD, not biotin metabolic disease |
-| [36476407](https://pubmed.ncbi.nlm.nih.gov/36476407/) | 2023 | Observational | J Endocrinol | B12 deficiency induces glucose intolerance in rats — preclinical animal study unrelated to biotin metabolic disease |
+| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Review | Handbook of Clinical Neurology | Vitamin-responsive disorders of cobalamin, folate and biotin. Vitamins act as obligatory enzyme cofactors, and rare inborn errors of their metabolism are described. |
+| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Review | Int J Mol Sci | B12 deficiency and the nervous system. B12 is a cofactor in the methylmalonyl-CoA to succinyl-CoA step, a pathway that also involves biotin. |
+| [1909779](https://pubmed.ncbi.nlm.nih.gov/1909779/) | 1991 | Unclassified | Pediatric Research | 13C-propionate metabolism in patients with propionate disorders. The group included four B12-responsive methylmalonic acidaemia patients and one with multiple carboxylase deficiency. |
+| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Review | Acta Vitaminol Enzymol | Vitamins in metabolic disease. Covers malabsorption, errors of vitamin metabolism and vitamin-dependent syndromes, where pharmacological doses may be needed. |
+| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Review | Pediatr Clin North Am | Megavitamin-responsive aminoacidopathies. Notes it is hard to predict cofactor response, so therapeutic trials are advised. |
+| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | Review | Ryoikibetsu Shokogun Series | Vitamin dependency syndrome (no abstract available). |
+| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | Unclassified | Adv Clin Chem | Vitamin-responsive inborn errors of metabolism (no abstract available). |
+| [25388747](https://pubmed.ncbi.nlm.nih.gov/25388747/) | 2015 | Review | Endocr Metab Immune Disord Drug Targets | Vitamins and type 2 diabetes. Biotin is mentioned among the B vitamins studied. Not specific to biotin metabolic disease. |
+| [36476407](https://pubmed.ncbi.nlm.nih.gov/36476407/) | 2023 | Animal study | J Endocrinol | B12 deficiency in female rats caused glucose intolerance and promoted ketogenesis. Not relevant to this indication. |
+| [29173522](https://pubmed.ncbi.nlm.nih.gov/29173522/) | 2017 | Review | Gastroenterol Clin North Am | Vitamins and minerals in inflammatory bowel disease. Not relevant to this indication. |
 
-**Summary:** The literature consistently describes cobalamin and biotin as cofactors for **distinct enzymes in a shared pathway**. No publication supports the use of cyanocobalamin as a treatment for biotin metabolic disease.
+---
 
 ## South Africa Market Information
 
-Cyanocobalamin does not currently have any SAHPRA registrations reflected in this evidence pack. However, cyanocobalamin products (vitamin B12 injections and oral supplements) are widely available internationally. Healthcare professionals should consult the SAHPRA database directly for the most current registration status of cyanocobalamin-containing products in South Africa.
+There are 18 registrations in total; five are shown. The approved-indication text was blank for all five, and Essential Medicines List (EML) status was not included in the data supplied.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| H2413 (ACT 101/1965) | A-lennon vitamin b12 1ml | Injection | Not recorded in the data supplied |
+| T1012 (ACT 101/1965) | Beespan | Capsule | Not recorded in the data supplied |
+| U/2.6/218 | Restin | Capsule | Not recorded in the data supplied |
+| A/21.8.1/743 | Menoflush | Tablet | Not recorded in the data supplied |
+| 36/22.1/0508 | Cernevit | Infusion | Not recorded in the data supplied |
+
+Across all 18 registrations, the dosage forms include injectable, oral, infusion, TPN and inhaler presentations.
+
+---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-> **Note:** Cyanocobalamin is generally well-tolerated as a water-soluble vitamin. Known safety considerations from international references include rare hypersensitivity reactions and the potential for polycythaemia vera exacerbation. However, the formal SAHPRA PI should be consulted for the authoritative safety profile applicable in South Africa.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction score is high (99.60%), but this almost certainly reflects **topological proximity in the knowledge graph** rather than genuine therapeutic potential. Cyanocobalamin and biotin operate on sequential but distinct enzymatic steps in the propionate pathway — B12 cannot substitute for biotin function. All 15 clinical trials are Grade C relevance, and none of the 20 publications support this repurposing hypothesis. The evidence level is **L5 (model prediction only)**, and the mechanistic rationale argues *against* rather than for this indication.
+The high TxGNN score is not supported by any trial or publication that tests cyanocobalamin in biotin metabolic disease. The mechanistic link is indirect, and biotin, not cobalamin, is the established therapy. The SAHPRA safety information is also missing, which blocks safety screening.
 
-**To proceed, the following would be needed:**
-- Preclinical evidence demonstrating that cyanocobalamin supplementation improves outcomes in biotin-deficient models (currently absent and mechanistically implausible)
-- Clarification of SAHPRA registration status for cyanocobalamin products in South Africa
-- Identification of any specific subgroup of biotin metabolic disease patients with concurrent B12 deficiency who might benefit from combined supplementation
-- Expert consultation with a metabolic medicine specialist to evaluate whether any niche clinical scenario could justify further investigation
-
-> **Disclaimer:** This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. Report adverse drug reactions to SAHPRA.
+**To proceed, the following is needed:**
+- SAHPRA Professional Information (warnings and contraindications), obtained by downloading and parsing the package insert PDFs
+- Mechanism of action from DrugBank
+- Labelled indications for the registered products
+- Targeted evidence on whether cobalamin adds anything in biotinidase or holocarboxylase synthetase deficiency
+- Route-compatibility and similarity-to-original-indication assessments
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

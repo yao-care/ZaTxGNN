@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tolnaftate
-parent: Moderate Evidence (L3-L4)
-nav_order: 441
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 449
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tolnaftate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,66 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tolnaftate: From Superficial Dermatophyte Infections to Majocchi Granuloma
+# Tolnaftate: From Superficial Fungal Infections to Majocchi Granuloma
 
 ## One-Sentence Summary
 
-Tolnaftate is a topical thiocarbamate antifungal historically used to treat superficial dermatophyte ("ringworm"/tinea) skin infections. The TxGNN model's top-ranked prediction is **Majocchi Granuloma** (a deeper, follicular dermatophyte infection), but **no clinical trials and no published literature** currently support this specific use — the prediction rests on mechanistic reasoning alone.
-
----
+Tolnaftate is a topical antifungal used against superficial skin fungal infections (dermatophytosis). The TxGNN model predicts it may be effective for **Majocchi granuloma**, a deep follicular dermatophyte infection. Currently **0 clinical trials** and **0 publications** support this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Superficial fungal (dermatophyte/tinea) skin infections — derived from the evidence pack's own tolnaftate literature (e.g., PMID 14275504, 14288002); no SAHPRA license text is available because the product is not marketed in South Africa |
-| Predicted New Indication | Majocchi Granuloma |
+| Original Indication | Not stated in the SAHPRA registration record; classically superficial dermatophyte infections such as tinea pedis |
+| Predicted New Indication | Majocchi granuloma |
 | TxGNN Prediction Score | 98.59% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on known information, Tolnaftate is a thiocarbamate-class topical antifungal that inhibits squalene epoxidase, disrupting ergosterol synthesis in dermatophyte fungi. Its efficacy against superficial dermatophyte skin infections is well established in the older literature (e.g., PMID 14275504 "Tolnaftate, a Potent Topical Antifungal Agent"; PMID 14288002 "Effect of Tolnaftate on Superficial Mycotic Infections"), and mechanistically the same antifungal target could plausibly extend to other dermatophyte-driven conditions.
+Detailed mechanism of action data is not available in the drug record. The mechanistic assessment attached to this prediction says tolnaftate inhibits fungal squalene epoxidase and is active against dermatophytes such as *Trichophyton* species. Majocchi granuloma is caused by these same organisms, so the target organism is plausible.
 
-Majocchi granuloma is a deep, follicular dermatophyte infection — the causative organisms overlap with those tolnaftate is active against. However, this condition typically requires an antifungal that can penetrate into and around the hair follicle, and clinical practice generally favors systemic (oral) antifungal therapy for this reason. Whether tolnaftate's topical formulation achieves adequate follicular penetration is unproven; no pharmacokinetic, preclinical, or clinical data address this specific question.
-
-The prediction should therefore be read as a hypothesis generated from shared pathogen biology, not as evidence of clinical efficacy in this deeper infection.
-
----
+The weakness is site of infection. Majocchi granuloma is a deep follicular and perifollicular infection that topical agents penetrate poorly, and systemic antifungals are generally required. The high score (0.986) appears to reflect the graph proximity of tolnaftate to other dermatophyte-related nodes, not clinical data. Two related predictions, endothrix and ectothrix infections (hair-shaft dermatophytosis), share the same penetration limitation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Tolnaftate is **not currently marketed** in South Africa, and no SAHPRA registrations are recorded in this evidence pack (0 licenses). No product-level information (registration number, brand, dosage form, approved indication text) is available to tabulate.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| G2331 (ACT 101/1965) | Quadriderm | Cream | Not listed in the retrieved record |
 
----
+Only a topical cream is registered, and no oral or systemic tolnaftate product is registered in the retrieved record. A topical cream is unlikely to suit a deep follicular infection.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (Majocchi granuloma) has no supporting clinical trials or literature — only a plausible but unverified mechanistic rationale, and a known concern that a topical formulation may not adequately penetrate the hair follicle where this infection resides.
+No trials or literature support tolnaftate for Majocchi granuloma. The organism fit is plausible, but a topical cream is unlikely to reach a deep follicular infection, where systemic antifungals are the usual approach. The score alone is not enough to justify progression.
 
 **To proceed, the following is needed:**
-- Formal mechanism of action (MOA) data from DrugBank or SAHPRA PI
-- Preclinical or pharmacokinetic data on follicular penetration of topical tolnaftate
-- At minimum a case series or pilot study of topical tolnaftate specifically in Majocchi granuloma
-- SAHPRA registration status confirmation, since the product is currently not marketed in South Africa
+- The SAHPRA package insert (warnings, contraindications, approved indications), which is currently a blocking gap
+- Mechanism of action data confirmed from DrugBank
+- Any clinical evidence of tolnaftate in follicular or deep dermatophytosis, or a rationale for a suitable route and formulation
 
-**Note for reviewers:** this evidence pack also contains a separate candidate, *superficial mycosis* (rank 5, Evidence Level L2, decision stage S3, "Proceed with Guardrails"), which is essentially a restatement of tolnaftate's already-established original indication rather than a genuinely new use. It is flagged here only because it demonstrates the model correctly recovering known pharmacology — it is not part of this report's headline repurposing claim.
+**Other predictions worth noting:**
+- **Superficial mycosis** (rank 5) has the strongest evidence in this pack (L3, Proceed with Guardrails). It includes titles suggesting double-blind comparisons (PMIDs 1090684 and 4619464) and a systematic review (PMID 10398626). It is most likely an existing labelled use rather than true repurposing, and full-text review of these papers could support an upgrade.
+- **Cutaneous candidiasis** (rank 3) has weak mechanism-to-organism fit and only indirect literature, so it remains on Hold.
+- **Ophthalmic herpes zoster, orbital cellulitis and infectious mononucleosis** have no plausible mechanistic link and are likely graph artifacts.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

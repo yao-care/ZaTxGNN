@@ -29,80 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Bisoprolol: From Hypertension to Malignant Hypertensive Renal Disease
-
----
+# Bisoprolol: From a Registered Beta-Blocker (Indication Not Recorded) to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Bisoprolol is a highly selective β1-adrenergic receptor blocker, established in clinical practice globally for the management of hypertension, angina pectoris, and chronic heart failure. The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**, achieving a prediction score of **99.94%**; however, this prediction is currently supported by **0 clinical trials** and **0 directly relevant publications**, representing knowledge graph inference only (Evidence Level L4).
-
----
+Bisoprolol is a beta-1 selective blocker registered in South Africa, mostly in fixed-dose tablet combinations, but the supplied record has no approved indication text.
+The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+This is a model prediction only and should be treated as a hypothesis.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension, Angina Pectoris, Chronic Heart Failure (globally established; no SAHPRA-approved indication currently on record) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+|------|------|
+| Original Indication | Not recorded (all SAHPRA licence entries in the record have blank indication text) |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 – Mechanistic inference / knowledge graph only; no clinical studies |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 9 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action (MOA) data is not available in the current Evidence Pack. Based on established pharmacology, bisoprolol is a highly selective β1-adrenergic receptor antagonist. Its primary actions include reducing heart rate and cardiac output via cardiac β1-blockade, and — critically relevant here — suppressing renin secretion from the kidney's juxtaglomerular cells, thereby reducing angiotensin II and aldosterone production through the renin-angiotensin-aldosterone system (RAAS). This dual cardiovascular and renal RAAS-modulating profile provides the theoretical basis for the TxGNN prediction.
+Currently, detailed mechanism of action data is not available in the record. Bisoprolol is a beta-1 selective blocker. Its antihypertensive effect and its reduction of renin release make a link to severe hypertension with kidney involvement biologically plausible. This judgment rests on general pharmacology, not on supplied data.
 
-The predicted indication, malignant hypertensive renal disease, is characterised by extremely elevated blood pressure causing progressive microvascular injury to glomeruli and renal arterioles, frequently exacerbated by RAAS overactivation. The mechanistic extrapolation is that bisoprolol, by blunting juxtaglomerular renin release, could theoretically interrupt the self-perpetuating RAAS cycle driving hypertensive renal injury — a pathway conceptually similar to the rationale behind ACE inhibitors and ARBs in hypertensive nephropathy.
+There are important limits. Malignant hypertension is a hypertensive emergency, normally managed with titratable intravenous agents, so an oral beta-blocker is not a first-line option. The high graph score is not backed by any trial or publication.
 
-However, there are significant clinical limitations to this prediction. Malignant hypertension (hypertensive emergency) requires immediate blood pressure reduction with intravenous agents such as labetalol, nicardipine, or sodium nitroprusside. Oral β1-selective blockers are not appropriate for acute-phase intervention and may paradoxically worsen renal perfusion by allowing unopposed α-adrenergic peripheral vasoconstriction. It is also notable that the TxGNN scores for ranks 1 and 2 are identical (0.999363), suggesting the knowledge graph may treat these two related disease nodes as part of the same cluster — increasing the risk of score inflation and false-positive interpretation.
-
----
+The second-ranked prediction, malignant renovascular hypertension, has an identical score and is likely a near-duplicate of this one. Beta-1 blockade lowering renin is conceptually relevant, but it is a class effect and not evidence for bisoprolol in this indication.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Bisoprolol currently has **no SAHPRA-registered products** in South Africa. There are no registration numbers, approved dosage forms, or approved indication texts on record.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 43/7.1.3/0059 | Bisozyd co 2.5mg/6.25mg | Tablet | Not recorded |
+| Reg. No. 47/7.1.3/0710 | Emcor 5/5 Fdc | Tablet | Not recorded |
+| Reg. No. 44/7.1.3/0561 | Zirinak Co 5/6,25 | Tablet | Not recorded |
+| Reg. No. 51/7.1.3/0495 | Cosyrel 5/5 | Film-coated tablet | Not recorded |
+| Reg. No. 37/7.1.3/0564 | Ziabeta 2.5/6.25mg | Tablet | Not recorded |
 
-> **Important Note:** Bisoprolol is not marketed in South Africa under SAHPRA registration. Any clinical use in the South African context would require access via special import mechanisms (e.g., Section 21 of the Medicines and Related Substances Act authorisation). Bisoprolol is widely registered in other jurisdictions (UK MHRA, EMA, US FDA) and should be readily accessible for reference label review.
-
----
+The record lists 9 registrations in total, and the table shows the first 5. All listed products are oral tablets.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) — or a comparable internationally recognised regulatory label (MHRA/EMA) — for full safety information, including key warnings, contraindications, and drug interaction data. Report any adverse drug reactions to SAHPRA via the MedSafety reporting system.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN prediction score (99.94%), bisoprolol for malignant hypertensive renal disease has zero supporting clinical trials or directly relevant published literature (Evidence Level L4). The mechanistic link, while biologically plausible in the chronic RAAS-suppression context, is an indirect extrapolation; the acute clinical presentation of malignant hypertension is contraindicated for oral β-blocker therapy. Additionally, the drug is not currently marketed in South Africa, introducing a regulatory barrier that must be addressed before any repurposing pathway can advance.
+The prediction has a high model score but no supporting trials or literature (L5). The clinical setting, a hypertensive emergency, is not one where an oral beta-blocker is normally used. The record also lacks safety information and the original indication.
 
 **To proceed, the following is needed:**
-
-- **MOA data retrieval:** Query DrugBank API for DB00612 to obtain the complete mechanism of action, enabling a more rigorous mechanistic plausibility assessment
-- **Safety data review:** Obtain SAHPRA PI or equivalent international regulatory label (MHRA SmPC / FDA label) for full contraindications, key warnings, and drug interaction profile
-- **Clinical scenario clarification:** Determine whether the hypothesis targets the *chronic* phase of hypertensive nephropathy (long-term renoprotection after acute blood pressure stabilisation) rather than the acute hypertensive emergency — the former is mechanistically more defensible
-- **Targeted literature search:** Conduct a focused search for bisoprolol (and class-effect β1-blockers) specifically in hypertensive nephropathy, chronic kidney disease with hypertension, and RAAS-modulation in renal protection contexts
-- **SAHPRA registration pathway assessment:** If evidence from comparable markets supports this use, evaluate the regulatory route for South African registration or Section 21 authorisation
+- The SAHPRA package insert (warnings, contraindications and approved indications), to allow a safety screen
+- Mechanism of action data from DrugBank, to support a mechanistic-link analysis
+- A targeted literature search on bisoprolol in malignant or severe hypertension with renal involvement
+- Clinical expert review of whether an oral beta-blocker has any role in this setting
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

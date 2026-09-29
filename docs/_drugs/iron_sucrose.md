@@ -2,7 +2,7 @@
 layout: default
 title: Iron Sucrose
 parent: Model Prediction Only (L5)
-nav_order: 268
+nav_order: 274
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,60 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using no additional skill — this is a direct, single-pass document-generation task with fixed extraction rules and no ambiguity requiring brainstorming or debugging.
-
-# Iron Sucrose: From Intravenous Iron Replacement to Primary Hyperoxaluria
+# Iron Sucrose: From Iron Deficiency Anaemia to Primary Hyperoxaluria
 
 ## One-Sentence Summary
 
-> Iron sucrose is an intravenous iron replacement product; the underlying Evidence Pack does not document its formally approved indication text or mechanism of action (both flagged as data gaps).
-> The TxGNN model's top-ranked prediction is **Primary Hyperoxaluria**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the pack's own mechanistic-link analysis finds no known pathophysiological connection between IV iron supplementation and primary hyperoxaluria.
-> Across all 10 predicted indications in this pack, only one (hyperparathyroidism, rank 8) reaches even indirect literature support — the overall evidence base for repurposing is weak.
-
----
+Iron sucrose is an intravenous iron replacement agent, generally used to treat iron deficiency anaemia.
+The TxGNN model predicts it may be effective for **primary hyperoxaluria**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this Evidence Pack (no license records or indication text available) |
-| Predicted New Indication | Primary Hyperoxaluria |
+| Original Indication | Iron deficiency anaemia (general known use; the SAHPRA registration data provided do not state an indication) |
+| Predicted New Indication | Primary hyperoxaluria |
 | TxGNN Prediction Score | 98.82% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for iron sucrose is not available in this Evidence Pack (flagged as a High-severity data gap, DG002). Based on information present in the supporting literature entries elsewhere in the pack (e.g. studies on IV iron sucrose in haemodialysis and peritoneal dialysis patients), iron sucrose is understood to function as an intravenous iron-replacement therapy used to correct iron-deficiency anaemia, commonly in the setting of chronic kidney disease.
+Detailed mechanism of action data are not currently available. Iron sucrose is an intravenous iron replacement agent. Its efficacy in iron deficiency anaemia is established, but no data link it mechanistically to primary hyperoxaluria.
 
-Primary hyperoxaluria is a group of rare genetic disorders (AGT, GRHPR, or HOGA1 gene defects) causing excessive hepatic oxalate production, leading to recurrent nephrolithiasis and nephrocalcinosis. The pack's own repurposing rationale for this candidate states explicitly that there is **no known mechanistic link** between IV iron supplementation and the oxalate-metabolism pathways underlying this disease.
-
-Because the prediction carries a high TxGNN score but zero corroborating clinical or literature evidence, and the drug's own MOA is undocumented, this candidate should be treated as a hypothesis-generation signal only, not as a basis for clinical or regulatory action.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+Primary hyperoxaluria is a metabolic disorder of oxalate overproduction. The provided data identify no iron-related pathway that would plausibly affect it. The high TxGNN score (98.82%) reflects patterns in the knowledge graph, not confirmed biology. No trials or publications were retrieved to support or test the prediction.
 
 ## South Africa Market Information
 
-Iron sucrose currently holds no SAHPRA registrations (0 licenses on file); the product is recorded as **not marketed** in South Africa in this Evidence Pack.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. A 50/2.6.5/0687 | Innofer Injection | Injection | Not listed in the data provided |
+| Reg. No. 45/8.3/0550 | Zypiron 20 | Injection | Not listed in the data provided |
 
----
+Both registered products are injectable. Essential Medicines List (EML) status was not available in the data provided.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*Note: this Evidence Pack flags TFDA/SAHPRA labelled warnings and contraindications as a Blocking-severity data gap (DG001) — a formal safety review (S1 stage) cannot proceed until PI data is obtained.*
-
----
+The other nine TxGNN candidates were also screened. Preclinical studies for **pancreatitis** (rank 2) point toward harm, not benefit. High dietary iron and intravenous iron preparations caused pancreatic islet injury, beta cell death and pancreatitis in animal and in vitro models. This is not a primary hyperoxaluria finding, but it is a safety signal to review before any repurposing work on iron sucrose.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (primary hyperoxaluria) has an evidence level of L5 — a model score with no clinical trials, no ICTRP registrations, and no literature — and the pack's own rationale states no plausible mechanistic link exists.
-- Reviewing all 10 predicted indications in this pack: most are L5 (no evidence); one (pancreatitis, rank 2) has literature evidence pointing in the *opposite* direction — multiple animal/mechanistic studies suggest iron overload may cause pancreatic injury, a safety signal rather than a therapeutic rationale; the only candidate reaching L3 (hyperparathyroidism, rank 8) relies on indirect, drug-class-level evidence (studies of other iron-based phosphate binders, not iron sucrose itself).
-- Combined with the Blocking-severity data gap on TFDA/SAHPRA safety labelling (DG001), there is currently insufficient basis to advance any candidate beyond hypothesis stage.
+The prediction rests on a model score alone (L5). No clinical trials, literature or mechanistic link support iron sucrose for primary hyperoxaluria.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings, contraindications) — required before any safety pre-screen (S1) can occur
-- Confirmed mechanism of action data (DrugBank or equivalent)
-- Direct (not drug-class-inferred) clinical or preclinical evidence specifically for iron sucrose in the hyperparathyroidism/CKD-MBD context, if that direction is pursued instead
-- Clarification of iron sucrose's original approved indication, since no license or indication text is present in this pack
+- SAHPRA Professional Information (package insert) warnings and contraindications. This is a blocking gap that prevents safety screening.
+- Mechanism of action data (for example from DrugBank) to test whether any biological link to oxalate metabolism exists.
+- Any preclinical or clinical evidence for iron sucrose in primary hyperoxaluria.
+- Review of the preclinical pancreatic injury signal before any further consideration of this drug for new uses.
+
+*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

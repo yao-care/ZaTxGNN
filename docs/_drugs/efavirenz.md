@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Efavirenz
-parent: Model Prediction Only (L5)
-nav_order: 204
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 208
+evidence_level: L4
 indication_count: 3
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,9 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-> Efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) established for HIV-1 infection.
-> The TxGNN model predicts a **99.80% score** for "Simian Immunodeficiency Virus (SIV) Infection" as a new indication,
-> but the supporting evidence — **1 clinical trial** (unrelated drug, withdrawn) and **16 publications** — consists entirely of preclinical animal-model research, not evidence of treating a distinct human disease.
+Efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used against HIV-1 infection. The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection**, a non-human primate disease. Support is limited to **1 withdrawn clinical trial (no participants enrolled)** and **15 publications**, all preclinical or in vitro. There is no human efficacy evidence for this indication.
 
 ---
 
@@ -43,23 +41,23 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (established antiretroviral use; not extractable from South African regulatory data below, see Market Status) |
+| Original Indication | HIV-1 infection (registration indication text was not supplied in the data) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 (preclinical/animal-model studies only; no relevant completed human RCT) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 14 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is currently not available in the evidence pack (Data Gap DG002). Based on known pharmacology, efavirenz is an NNRTI that binds an allosteric pocket on HIV-1 reverse transcriptase (RT), a mechanism specific to the HIV-1 enzyme structure.
+Detailed mechanism of action data is not currently available in the input. Efavirenz is a known HIV-1 NNRTI: it acts on HIV-1 reverse transcriptase (RT), and its efficacy in HIV-1 infection is established.
 
-Critically, the predicted "new indication" here is not a distinct human disease — it is simian immunodeficiency virus (SIV) infection, the primate counterpart of HIV. Wild-type SIV RT is naturally **not** sensitive to NNRTIs like efavirenz because its binding pocket differs structurally from HIV-1 RT. The literature evidence base consists of studies using an artificially engineered "RT-SHIV" chimeric virus, in which researchers replaced SIV's own RT with HIV-1 RT specifically so that NNRTI-based regimens (including efavirenz) could be tested in a macaque model of HIV/AIDS. This is a research-tool model built to study human HIV pathophysiology and drug resistance in animals — it is not evidence that efavirenz treats naturally occurring SIV infection in its own right.
+The macaque studies use RT-SHIV, a chimeric virus in which the SIV RT is replaced by HIV-1 RT. This makes the virus susceptible to efavirenz. Wild-type SIV is generally not NNRTI-susceptible. The literature therefore uses efavirenz as a **tool drug in a primate model of HIV-1 therapy**. It does not show a new indication.
 
-In other words, the TxGNN model has likely picked up on efavirenz's known antiretroviral mechanism and associated it with a taxonomically adjacent viral disease label, rather than identifying a genuinely novel indication outside the drug's existing pharmacological class.
+SIV is a virus of non-human primates, so this prediction is not a realistic human repurposing opportunity. The high score (about 0.998) most likely reflects graph proximity among retroviral nodes in the knowledge graph. The evidence is indirect (animal and in vitro only).
 
 ---
 
@@ -67,7 +65,9 @@ In other words, the TxGNN model has likely picked up on efavirenz's known antire
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | Withdrawn | 0 | Studied decay kinetics of HIV/SIV using the integrase inhibitor **raltegravir**, not efavirenz; trial withdrawn with zero enrollment. Relevance graded C — different drug class, no usable data. |
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | NA | Withdrawn | 0 | Decay kinetics of HIV with raltegravir in HIV-1 infection. It is not about SIV and efavirenz is not the study drug. No data were produced. |
+
+No SANCTR or PACTR registrations were identified.
 
 ---
 
@@ -75,32 +75,38 @@ In other words, the TxGNN model has likely picked up on efavirenz's known antire
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Imaging/pharmacology study | Antimicrob Agents Chemother | Mass spectrometry imaging of antiretroviral distribution and viral RNA in spleens of ART-treated nonhuman primates |
-| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Animal model study | Antimicrob Agents Chemother | Enhanced 4/5-drug HAART regimens improved RT-SHIV viral decay kinetics in rhesus macaques |
-| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Animal model/virology | J Virol | Allele-specific PCR detection of pre-existing drug-resistant RT-SHIV variants in macaques |
-| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Virology/sequence analysis | J Virol | Genetic diversity of RT-SHIV persists in macaques despite antiretroviral therapy, including short-course efavirenz monotherapy |
-| [21289110](https://pubmed.ncbi.nlm.nih.gov/21289110/) | 2011 | Basic virology | J Virol | Mechanistic study of HIV-1/SIV Gag-Pol interaction with clathrin; not a treatment study |
-| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Animal model study | Retrovirology | RT-SHIV subpopulation dynamics in macaques during short-course efavirenz monotherapy followed by combination ART |
-| [19195672](https://pubmed.ncbi.nlm.nih.gov/19195672/) | 2009 | Animal model study | Virology | Vaginal transmission characterization of RT-SHIV in Chinese rhesus macaques |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Animal model study | J Virol | HAART regimen (efavirenz + lamivudine + tenofovir) suppressed viral load in RT-SHIV-infected rhesus macaques |
-| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Animal model study | Antimicrob Agents Chemother | Evaluated efavirenz antiviral activity specifically in the RT-SHIV chimeric macaque model (engineered for NNRTI susceptibility) |
-| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In vitro virology | J Virol | In vitro characterization of the RT-SHIV chimera used to study antiviral resistance in pigtail macaques |
-
-*Note: all listed studies are preclinical (tier 3, animal/in vitro models). None constitute clinical evidence in humans or naturally SIV-infected animals.*
+| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Preclinical animal study | Antimicrob Agents Chemother | Evaluated efavirenz in rhesus macaques infected with RT-SHIV, which is NNRTI-susceptible unlike SIV |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Preclinical animal study | J Virol | Efavirenz + lamivudine + tenofovir in 7 RT-SHIV macaques; plasma viral RNA fell in all animals |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro study | Antivir Ther | Compared activity of approved anti-HIV drugs against HIV-2, SIV and SHIV strains |
+| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Preclinical animal study | J Virol | Viral genetic diversity persisted in macaques despite ART; some animals received short efavirenz monotherapy first |
+| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Preclinical animal study | Retrovirology | Tracked viral subpopulations in macaques on efavirenz monotherapy followed by combination ART |
+| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Preclinical animal study | J Virol | Ultrasensitive PCR detected rare pre-existing drug-resistant variants in RT-SHIV macaques |
+| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Preclinical animal study | Antimicrob Agents Chemother | Four- and five-drug regimens improved early viral decay kinetics in RT-SHIV macaques |
+| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Preclinical animal study | PLoS One | Characterised viral decay kinetics in a HAART-treated rhesus macaque model of AIDS |
+| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Preclinical animal study | Retrovirology | Plasma and tissue viral populations were well mixed, suggesting little tissue replication during ART |
+| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Preclinical imaging study | Antimicrob Agents Chemother | Imaged the spatial relationship between six antiretrovirals, viral RNA and fibrosis in macaque spleen |
 
 ---
 
 ## South Africa Market Information
 
-Efavirenz currently has **no SAHPRA registration records** in this evidence pack (0 registrations; market status: not marketed). No product-level licence data is available to summarise.
+Efavirenz has 14 SAHPRA registrations; the main ones are listed below. The approved-indication text was not supplied in the data, so that column is omitted.
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 42/20.2.8/0979 | Adco-efavirenz | Capsule |
+| Reg. No. A40/20.2.8/0508 | Sonke-efavirenz | Tablet |
+| Reg. No. A40/20.2.8/272 | Sonke-lamivudine | Tablet |
+| Reg. No. 43/20.2.8/0363 | Hevaz | Tablet |
+| Reg. No. 52/20.2.8/0062 | Triovir | Film-coated tablet |
+
+A kit presentation is also registered.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Key warnings, contraindications, and drug interaction data are marked as data gaps in the evidence pack — DG001, severity Blocking — and could not be summarised here.)*
 
 ---
 
@@ -109,18 +115,15 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-- The only clinical trial identified is for a different drug (raltegravir) and was withdrawn with zero enrollment; it provides no support for this indication.
-- All 16 literature references are preclinical animal studies using an engineered RT-SHIV chimeric virus — a research tool designed to make SIV artificially susceptible to NNRTIs like efavirenz, not evidence that efavirenz treats naturally occurring SIV infection.
-- SAHPRA safety data (PI warnings, contraindications, drug interactions) is entirely unavailable (DG001, Blocking severity) and mechanism-of-action documentation is missing (DG002), so this candidate cannot pass an initial safety screen (S1).
-- Efavirenz is not currently marketed in South Africa (0 SAHPRA registrations).
+The evidence is limited to animal and in vitro studies in which efavirenz serves as a tool drug against an HIV-1 RT chimeric virus. The only registered trial was withdrawn with no participants. SIV is a non-human primate infection, so this is not a genuine new human indication.
+
+The other two model predictions are also on hold. Feline acquired immunodeficiency syndrome (L4) has only an in vitro structural study, and the two supporting trials are human HIV-1 studies. The neurodevelopmental disorder prediction (L5) has no trials or literature.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved PI (warnings, contraindications, drug interactions) to clear the Blocking data gap
-- Confirmed mechanism-of-action documentation from DrugBank or equivalent source
-- Evidence of clinical relevance to an actual human/veterinary disease population, since the current "new indication" largely reflects a taxonomic variant of efavirenz's existing approved use rather than a distinct disease
-- SAHPRA market authorisation status confirmation if commercial availability in South Africa is being considered
-
-*Note: two additional TxGNN-predicted indications for efavirenz (feline immunodeficiency virus infection, and a rare genetic neurodevelopmental disorder) were also reviewed and carry even weaker evidence (Evidence Level L5 — model prediction only, with no or minimally relevant supporting studies); both are also recommended Hold.*
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Confirmation of the registered indication text for the SAHPRA products
+- A defined human-relevant question, since the current evidence does not support a human indication for this prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

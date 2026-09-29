@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Leucine
-parent: Moderate Evidence (L3-L4)
-nav_order: 282
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 288
+evidence_level: L5
 indication_count: 10
 ---
 
 # Leucine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Leucine: From Nutritional Supplement Use to Postmenopausal Osteoporosis (Preliminary Signal)
+# Leucine: From Amino Acid Nutrition Products to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-> Leucine is an essential branched-chain amino acid (BCAA) with no formally documented original disease indication in this evidence pack; it is primarily known as a nutritional/dietary supplement supporting muscle protein synthesis.
-> Of **10 TxGNN-predicted indications**, the model's single highest-scoring hit (congenital prothrombin deficiency, ~99% score) has **zero supporting trials or literature** and is flagged by the source data itself as a likely spurious knowledge-graph pairing.
-> The only candidate with actual human clinical evidence is **Postmenopausal Osteoporosis** (rank 6, 97.42% score), supported by **1 completed clinical trial** and a handful of observational/metabolomics studies — evidence that is suggestive but far from conclusive.
+Leucine is an essential amino acid. In South Africa it is registered as an ingredient of parenteral nutrition and peritoneal dialysis products, and no formal original indication is recorded.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but this rests on a graph-based score alone, with **0 clinical trials** and **0 publications** supporting it.
 
 ---
 
@@ -43,63 +42,73 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — no approved/registered indication data available; Leucine is used as an essential amino acid nutritional supplement |
-| Predicted New Indication | Postmenopausal Osteoporosis (best-evidenced of 10 TxGNN candidates) |
-| TxGNN Prediction Score | 97.42% |
-| Evidence Level | L3 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Original Indication | Not stated in the registration data (registered products are amino acid-containing infusion and nutrition formulations) |
+| Predicted New Indication | Congenital prothrombin deficiency |
+| TxGNN Prediction Score | 99.00% |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 12 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (Data Gap). Based on known pharmacology, Leucine is a branched-chain amino acid (BCAA) that activates the mTORC1 signalling pathway, its role in promoting skeletal muscle protein synthesis is well established, and mechanistically it may be applicable to postmenopausal osteoporosis through the "muscle-bone unit" — the concept that muscle mass and loading capacity exert anabolic stimulus on bone remodeling.
+Currently, detailed mechanism of action data is not available. Leucine is a component of amino acid-based nutrition and dialysis products, but none of the registrations carries an approved indication text.
 
-The rationale is indirect rather than a direct bone-metabolism mechanism: BCAA supplementation could theoretically increase muscle strength and mechanical loading on bone, which secondarily supports bone mineral density, rather than acting on osteoblasts/osteoclasts directly. Because the original MOA field is a data gap, this link cannot be confirmed against an established pharmacological profile and should be treated as a hypothesis rather than a proven mechanism.
-
-It is also important to note that 9 of the 10 TxGNN-predicted indications for Leucine in this evidence pack have essentially no supporting evidence (L5, "Hold"), and several literature hits across candidates (e.g., in acne, bone Paget disease, sclerosing cholangitis) turned out to be false-positive name matches — genes or proteins containing "leucine" in their name (e.g., LRG1, LRRc17, TGF-β1 Leu→Pro polymorphisms) rather than studies of leucine as a therapeutic agent. The postmenopausal osteoporosis candidate is the only one where genuine leucine/BCAA pharmacology appears in the literature.
+No plausible mechanism linking leucine to prothrombin (Factor II) synthesis or function was identified. Congenital prothrombin deficiency is a rare inherited coagulation disorder caused by *F2* gene defects, and there is no established biological reason for an amino acid supplement to correct it.
+The high score (rank 4,808 in the model output) is therefore best read as a statistical artefact of the knowledge graph, not as a mechanistic signal.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01757340](https://clinicaltrials.gov/study/NCT01757340) | N/A | Completed | 43 | Calorie Restriction With Leucine Supplementation in Postmenopausal Women — evaluated effects of leucine supplementation during calorie-restriction weight loss on insulin sensitivity, colonocyte proliferation, gut microbiome, muscle mass/function, and bone mineral density in obese postmenopausal women. Bone mineral density was a secondary/exploratory endpoint, not the primary outcome. |
-
-No SANCTR or PACTR-registered trials were identified for this indication.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40023006](https://pubmed.ncbi.nlm.nih.gov/40023006/) | 2025 | Preclinical | J Chromatogr B | Branched-chain amino acid metabolism implicated in the "kidney-bone axis" protective mechanism against postmenopausal osteoporosis in a rat model |
-| [37495941](https://pubmed.ncbi.nlm.nih.gov/37495941/) | 2023 | Cohort/Microbiome | BMC Microbiology | Gut microbiota (Klebsiella, Escherichia-Shigella) and amino acid metabolism proposed as monitoring markers for postmenopausal osteoporosis |
-| [33293818](https://pubmed.ncbi.nlm.nih.gov/33293818/) | 2020 | Cross-sectional Cohort | Vasc Health Risk Manag | Metabolite profiling linking osteoporosis and atherosclerosis in postmenopausal women, identifying candidate metabolic biomarkers |
-| [31141566](https://pubmed.ncbi.nlm.nih.gov/31141566/) | 2019 | Cross-sectional Metabonomics | PLoS One | 1H NMR-based metabonomics discriminated osteopenia from osteoporosis in postmenopausal women via metabolite panels |
-| [40703670](https://pubmed.ncbi.nlm.nih.gov/40703670/) | 2025 | Cohort/Microbiome | Front Cell Infect Microbiol | Gut microbiota changes in postmenopausal women with low bone density linked to serum amino acid metabolism |
-| [23408954](https://pubmed.ncbi.nlm.nih.gov/23408954/) | 2013 | Preclinical (animal) | PLoS One | GC-TOF/MS metabolomic profiling identified metabolic shifts, including amino acid changes, during estrogen deficiency-induced bone loss in rats |
-| [35542168](https://pubmed.ncbi.nlm.nih.gov/35542168/) | 2018 | Preclinical (animal) | RSC Advances | LC-MS plasma metabolomics revealed metabolic (including amino acid) variations in ovariectomy-induced osteoporosis in rats |
+Currently no related literature available.
 
-**Note:** A further ~13 literature hits returned by the search (e.g., TGF-β1 Leu10→Pro polymorphism studies, NPY gene Leu7/Pro7 polymorphism, LRRc17 protein studies, L-carnitine RCT) were excluded from this table — they involve gene/protein names containing "leucine" as an amino-acid residue, or unrelated amino acids/genes, not leucine as a therapeutic supplement, and do not constitute pharmacological evidence.
+---
+
+## Other Predicted Indications Worth Noting
+
+The top-ranked prediction is the weakest. Among the other nine, only one has a plausible, if indirect, rationale:
+
+| Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|---------|
+| Postmenopausal osteoporosis | 97.42% | L4 | Plausible but indirect. Leucine activates mTORC1 and protein synthesis, which may help preserve lean mass and bone during energy restriction. Metabolomic studies ([PMID 33293818](https://pubmed.ncbi.nlm.nih.gov/33293818/), [PMID 40703670](https://pubmed.ncbi.nlm.nih.gov/40703670/)) link amino acid metabolism to bone density, but these are associations, not treatment effects. |
+| Acne | 98.42% | L4 | Direction of effect is more likely adverse. Literature on Western diet and mTORC1 signalling ([PMID 22870349](https://pubmed.ncbi.nlm.nih.gov/22870349/), [PMID 22419445](https://pubmed.ncbi.nlm.nih.gov/22419445/)) implicates leucine-dependent mTORC1 activation as a driver of acne. |
+| Pregnancy associated osteoporosis | 96.57% | L4 | Weak. One animal study of HMB, a leucine metabolite ([PMID 34768327](https://pubmed.ncbi.nlm.nih.gov/34768327/)), and no human evidence for leucine itself. |
+| Gastroparesis, Paget disease of bone, sclerosing cholangitis, albinism-deafness syndrome, Worth syndrome | 96.3–98.8% | L5 | No supportive mechanism or evidence. The literature retrieved for Paget disease and sclerosing cholangitis is matched on gene/protein names or the word "leucine". |
+| Obsolete vitamin D deficiency | 97.67% | L5 | The disease term is obsolete in the ontology and should be remapped to a current vitamin D deficiency concept before re-evaluation. |
+
+The only relevant trial found is [NCT01757340](https://clinicaltrials.gov/study/NCT01757340), a completed study (n=43, phase not applicable) of calorie restriction with leucine supplementation in obese postmenopausal women. Bone outcomes were among its stated aims, but results were not confirmed in the supplied data, and the calorie-restriction background confounds attribution to leucine.
+[NCT07277075](https://clinicaltrials.gov/study/NCT07277075) (acne) is a false-positive match. It measures leucine-rich alpha-2 glycoprotein 1, a protein unrelated to the amino acid.
 
 ---
 
 ## South Africa Market Information
 
-Leucine currently has no SAHPRA-registered products (0 registrations; market status: Not marketed) in this evidence pack. No dosage forms, brand names, or approved indications are available to report.
+Showing 5 of 12 registrations:
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated in registration data |
+| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated in registration data |
+| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not stated in registration data |
+| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | Infusion | Not stated in registration data |
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated in registration data |
+
+Adco-ipratropium is an ipratropium product and looks like a mapping anomaly, so the registration-to-ingredient link should be verified.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Note: This evidence pack flags a Blocking data gap — TFDA/SAHPRA label warnings and contraindications are unavailable, which by itself precludes progression past initial safety screening (S1) regardless of efficacy evidence.)*
 
 ---
 
@@ -108,29 +117,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The only candidate with any clinical evidence — postmenopausal osteoporosis — is supported by a single completed trial whose primary endpoints were metabolic/body-composition rather than bone-specific, plus observational metabolomics studies that are mechanistically suggestive at best (L3, no controlled bone-outcome RCT). Combined with a Blocking gap in safety/label data and zero SAHPRA registrations, there is currently insufficient evidence to proceed beyond a research question.
+The prediction for congenital prothrombin deficiency has no trials, no literature and no identifiable mechanism. It is a model output only (L5). Among the other predictions, only postmenopausal osteoporosis (L4) merits follow-up as a research question.
 
 **To proceed, the following is needed:**
-- SAHPRA/TFDA Professional Information (warnings, contraindications) to complete safety screening (S1) — currently a Blocking gap
-- Confirmed mechanism of action data from DrugBank or primary literature
-- A dedicated RCT with bone mineral density / fracture risk as a primary endpoint in postmenopausal women
-- Clarification of regulatory pathway, since Leucine has no existing SAHPRA-registered product in South Africa
-
----
-
-## Other TxGNN-Predicted Indications Screened (Not Pursued)
-
-| Rank | Disease | TxGNN Score | Evidence Level | Reason Not Pursued |
-|------|---------|------|------|---------|
-| 1 | Congenital prothrombin deficiency | 98.99% | L5 | No trials/literature; likely spurious structural pairing in knowledge graph |
-| 2 | Gastroparesis | 98.85% | L5 | No trials/literature; no plausible mechanism identified |
-| 3 | Acne | 98.42% | L4 | Literature suggests leucine/mTORC1 activation may *worsen* acne (opposite direction); the one trial found is an unrelated name-match (LRG1 biomarker) |
-| 4 | Bone Paget disease | 98.00% | L5 | Literature concerns unrelated SQSTM1/VCP gene mutations, not leucine pharmacology |
-| 5 | Obsolete vitamin D deficiency | 97.67% | L5 | No evidence; disease term itself is an obsolete ontology entry — recommend excluding from future candidate lists |
-| 7 | Sclerosing cholangitis | 97.18% | L5 | Literature is genetic/immunologic; the one direct leucine-peptide study shows it *induces* cholangitis in a rat model, contradicting a therapeutic hypothesis |
-| 8 | Pregnancy-associated osteoporosis | 96.57% | L4 | Only 2 papers; one animal study on a leucine metabolite (HMB), one unrelated genetic case report |
-| 9 | Albinism-deafness syndrome | 96.43% | L5 | No evidence whatsoever |
-| 10 | Worth syndrome | 96.33% | L5 | No evidence whatsoever; theoretical bone-metabolism overlap only |
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data for leucine (for example from DrugBank)
+- Verification of the 12 registrations, including product-to-ingredient mapping
+- Remapping of the obsolete vitamin D deficiency term
+- For postmenopausal osteoporosis, retrieval of bone outcome results from NCT01757340 and a focused literature review on leucine or HMB and bone density
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

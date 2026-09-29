@@ -2,7 +2,7 @@
 layout: default
 title: Umeclidinium
 parent: Model Prediction Only (L5)
-nav_order: 453
+nav_order: 461
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Umeclidinium: From COPD Bronchodilation to Migraine Disorder (Research Question)
+# Umeclidinium: From an Inhaled Long-Acting Muscarinic Antagonist to Migraine Disorder
 
 ## One-Sentence Summary
 
-Umeclidinium is a long-acting muscarinic antagonist (LAMA) whose only established clinical use is as an inhaled bronchodilator for COPD. The TxGNN model predicts a possible link to **Migraine Disorder**, but this is currently a **pure model prediction with zero supporting clinical trials and zero supporting literature**.
+Umeclidinium is an inhaled long-acting muscarinic antagonist (LAMA) and is registered in South Africa as a component of a triple-combination inhaler.
+The TxGNN model predicts it may be relevant to **migraine disorder**, but this rests on the model score alone, with **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not captured in the structured registry data (original_indications is empty); based on the evidence pack's own mechanistic notes, Umeclidinium's only approved use is as an inhaled LAMA bronchodilator for COPD |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 96.36% (rank 14,121 in the model's overall candidate list) |
-| Evidence Level | L5 (model prediction only — no clinical trials, no literature) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Predicted New Indication | Migraine disorder |
+| TxGNN Prediction Score | 96.4% |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the structured record (flagged as a High-severity data gap). What is documented in the model's rationale is that Umeclidinium is a peripherally-restricted, M3-selective long-acting muscarinic antagonist (LAMA), used exclusively as an inhaled bronchodilator in COPD.
+Detailed mechanism of action data is not currently available. Umeclidinium is an inhaled LAMA with low systemic exposure. Muscarinic signalling has a speculative role in trigeminovascular and cortical processes, which is the only conceptual link to migraine.
 
-There is no established pharmacological pathway connecting peripheral M3 receptor blockade in the airways to migraine pathophysiology, which is primarily a central/trigeminovascular process. The evidence pack itself notes that historically some non-selective anticholinergic combination products (e.g., belladonna alkaloids) were used for headache symptom control, but Umeclidinium's selective, peripherally-restricted profile makes meaningful central penetration — and therefore a plausible migraine mechanism — unlikely.
+There is no data showing that inhaled dosing reaches relevant central nervous system targets, so the link is weak. The prediction is best read as a knowledge-graph association, not a mechanism-backed hypothesis.
 
-Nine additional candidate indications were also screened for this drug (open-angle glaucoma, primary hereditary glaucoma, gastroduodenitis, peptic ulcer disease, allergic urticaria, common cold, atrophoderma vermiculata, nephrogenic syndrome of inappropriate antidiuresis, migraine with brainstem aura). Notably, the two glaucoma predictions reflect a *safety* signal rather than a therapeutic one: systemic/ocular anticholinergic exposure can cause mydriasis and increase angle-closure risk, which is the opposite of a glaucoma treatment effect. All ten candidates remain at evidence level L5 / decision stage S0, with recommendations of "Hold" or "Research Question" only.
+The other high-scoring predictions do not look stronger:
+- **Migraine with brainstem aura (95.8%)** is likely a neighbour effect from the general migraine node.
+- **Open-angle glaucoma (93.3%) and primary hereditary glaucoma (92.9%)** run in the opposite direction to the safety profile. Anticholinergics carry a labelled warning for worsening narrow-angle glaucoma.
+- **Gastroduodenitis, peptic ulcer disease and common cold** have a conceptual antimuscarinic link, but inhaled dosing gives minimal systemic or nasal exposure.
+- **Nephrogenic syndrome of inappropriate antidiuresis, atrophoderma vermiculata and allergic urticaria** have no plausible muscarinic link and are probably graph artefacts.
 
 ## Clinical Trial Evidence
 
@@ -63,27 +67,35 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+The only article retrieved for any top-10 prediction is a COPD annual review (PMID [29583021](https://pubmed.ncbi.nlm.nih.gov/29583021/), 2018). It was retrieved for the common cold prediction and does not test umeclidinium in that condition.
+
 ## South Africa Market Information
 
-Umeclidinium is currently **not marketed** in South Africa — the dataset records 0 SAHPRA product registrations, so no registration number, product name, or approved-indication table can be produced at this time.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 52/21.5.1/0177 | Trelegy Ellipta | Inhaler |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Key Warnings**: Anticholinergics such as umeclidinium carry a labelled warning for worsening narrow-angle glaucoma. This needs resolving before any ocular research question is pursued.
+
+For full safety information, please refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (migraine disorder) has no clinical trial or literature support and a mechanistically weak rationale (peripherally-restricted LAMA vs. a centrally-mediated disease), placing it at evidence level L5.
-- A blocking data gap (missing SAHPRA-approved PI warnings/contraindications) currently prevents even an initial safety screen (S1), and the drug is not yet marketed in South Africa.
+The prediction is model-only (L5) with no supporting trials or literature. Inhaled dosing gives low systemic exposure, so it is not clear the drug reaches the sites relevant to migraine. Its mechanism-of-action and safety data are also incomplete.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings, contraindications) to close the blocking safety data gap
-- Confirmed mechanism-of-action data from DrugBank or another authoritative source
-- Preclinical or mechanistic studies specifically evaluating muscarinic pathways in migraine pathophysiology before any clinical hypothesis is pursued
-- Clarification of South African registration/import pathway, since the product currently has no SAHPRA license
+- SAHPRA package insert warnings and contraindications, which currently block safety screening
+- Mechanism of action data from DrugBank
+- Evidence that inhaled umeclidinium reaches relevant CNS targets, or a route-compatibility assessment for any alternative delivery
+- A migraine-specific mechanistic rationale, ideally with preclinical support
+- A review of the glaucoma safety signal before any ocular indication is considered
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ginseng
-parent: Moderate Evidence (L3-L4)
-nav_order: 238
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 243
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ginseng
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,64 +29,89 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-Using the Drug Repurposing Evaluation Report Prompt (v5) template to generate this report directly from the supplied Evidence Pack.
-
-# Ginseng: From Traditional Use to Drug-Induced Osteoporosis
+# Ginseng: From a Marketed Herbal Ingredient to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-Ginseng (DrugBank DB01404) is a traditional herbal preparation with no single defined original indication in the available regulatory data. The TxGNN model predicts it may be effective for **Drug-Induced Osteoporosis**, currently supported by **1 clinical trial** and preclinical mechanistic rationale, though dedicated published literature for this specific indication is not yet available.
+Ginseng is a herbal ingredient found in products registered in South Africa, but no approved indication is recorded in the available licence data.
+The TxGNN model predicts it may be useful for **drug-induced osteoporosis**, and only **1 clinical trial** (with no published results in the pack) and **0 publications** currently relate to this prediction.
+The prediction has no direct clinical support and remains model-only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on record — Ginseng is a traditional/adaptogenic herbal preparation with no single approved indication documented in this evidence pack |
-| Predicted New Indication | Drug-Induced Osteoporosis |
+| Original Indication | Not stated in the SAHPRA licence data |
+| Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 (2 distinct products) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Ginseng. Based on known pharmacology, its active constituents (ginsenosides) have shown in preclinical/animal studies to promote osteoblast differentiation and inhibit osteoclast activity, which is the theoretical basis for a possible protective effect against bone loss — including drug-induced (e.g., corticosteroid-induced) osteoporosis.
+Currently, detailed mechanism of action data is not available. Ginseng is a traditional herbal medicine, and it is not clear which approved use the model is extending from. Any mechanistic link to bone health is therefore hypothetical.
 
-This link is currently indirect: there is no confirmed human bone-metabolism mechanism specific to ginseng, and the supporting rationale is extrapolated from preclinical models rather than established clinical pharmacology. The one available human trial (NCT02763280) tested ginseng extract on bone metabolism in menopausal women — a related but distinct population from drug-induced osteoporosis — so mechanistic plausibility is present but not yet directly confirmed for this specific indication.
+The one related trial notes that ginseng extract improved bone density and bone-related biomarkers in animal models of induced osteoporosis. This is the only biological rationale in the pack. It is preclinical, it concerns osteoporosis generally, and it does not address drug-induced (for example glucocorticoid-induced) bone loss.
+
+The very high score (99.95%) should not be read as evidence of efficacy. It reflects a knowledge-graph signal, and no supporting literature was retrieved.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02763280](https://clinicaltrials.gov/study/NCT02763280) | NA | Completed | 90 | 12-week randomized, double-blind, placebo-controlled trial evaluating ginseng extract for improvement of bone metabolism in menopausal women; based on prior animal studies showing improved bone density and bone-related biomarkers. Relevance graded B — rigorous design but trial phase/endpoints not fully confirmed from available text. |
+| [NCT02763280](https://clinicaltrials.gov/study/NCT02763280) | Not applicable | Completed | 90 | 12-week randomised, double-blind, placebo-controlled trial of ginseng extract on bone metabolism in menopausal women (2015–2016). No results are included in the pack. |
+
+This trial studies menopausal bone metabolism, not drug-induced osteoporosis. It is short, and it appears to use biomarker endpoints. At best it is indirect evidence. No SANCTR or PACTR identifiers were found.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available for this indication.
+Currently no related literature available.
+
+---
 
 ## South Africa Market Information
 
-Ginseng currently has no SAHPRA registrations on record and is **not marketed** in South Africa (0 licenses). No product-level registration data is available for this evaluation.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| G2667 (ACT 101/1965) | Gericomplex | Capsule | Not stated in the register extract |
+| 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not stated in the register extract |
+
+Gericomplex appears twice in the data, so there are 2 distinct products. Spiriva Respimat is an inhaled respiratory product, and its link to ginseng looks like a data-matching artefact. Please verify it against the SAHPRA register before relying on it.
+
+---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*Note: Warnings, contraindications, and drug interaction data for Ginseng are currently unavailable and are flagged as a blocking data gap for safety assessment (see Conclusion below).*
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Ginseng is not currently registered or marketed in South Africa, and the safety data needed for even a preliminary risk assessment (warnings, contraindications) is entirely unavailable — this is a blocking gap. Combined with the absence of mechanism-of-action data and only a single, moderate-confidence (Grade B) trial in a related but not identical population, the evidence base is insufficient to move beyond a research question at this stage.
+The prediction has no ginseng-specific clinical or literature support for drug-induced osteoporosis. The only trial is short, indirect and has no reported results. Without a mechanism or safety data, it cannot move forward.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI) — warnings, contraindications, and drug interaction data
-- Verified mechanism of action data (e.g., from DrugBank or pharmacology literature)
-- Confirmation of NCT02763280's actual endpoints (bone density/biomarker outcomes) to verify relevance to drug-induced osteoporosis specifically
-- Assessment of a regulatory pathway for market authorization in South Africa, given zero current SAHPRA registrations
+- SAHPRA package insert warnings and contraindications, which are needed for safety screening
+- Mechanism of action data (for example from DrugBank)
+- Clarification of the SAHPRA record, including the approved indications and the Spiriva Respimat match
+- Results and full endpoints from NCT02763280, and a targeted literature search on ginseng and glucocorticoid-induced bone loss
+
+**Other predicted indications:** Among the other predicted indications, diabetic retinopathy (rank 7) has the largest body of literature. It is mostly network pharmacology and preclinical work, plus multi-herb formula studies, and no ginseng-only human trial. It is best treated as a research question rather than a candidate for recommendation. Most of the remaining predictions (cataract subtypes, hemorrhagic disease of the newborn) have no supporting evidence.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

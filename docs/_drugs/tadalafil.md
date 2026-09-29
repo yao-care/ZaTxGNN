@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tadalafil
-parent: Moderate Evidence (L3-L4)
-nav_order: 421
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 429
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tadalafil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,83 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tadalafil: From Pulmonary Arterial Hypertension to Kyphoscoliotic Heart Disease
+# Tadalafil: From PDE5 Inhibitor to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Tadalafil is a PDE5 inhibitor internationally approved for erectile dysfunction, benign prostatic hyperplasia, and pulmonary arterial hypertension (PAH, marketed as Adcirca), but it currently holds **no SAHPRA registration** in South Africa.
-Of 10 TxGNN-predicted indications reviewed for this candidate, only **Kyphoscoliotic Heart Disease** shows a plausible mechanistic link to tadalafil's known PAH indication — the other nine, including the highest-scoring signal, are flagged as likely model noise with no supporting mechanism.
-No clinical trials or published literature currently support tadalafil use specifically in kyphoscoliotic heart disease, placing this candidate at an early, hypothesis-generating stage.
+Tadalafil is a PDE5 inhibitor that is marketed in South Africa under 3 SAHPRA registrations. The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, a rare genetic condition. There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
-> **Note on candidate selection:** This evidence pack scored 10 candidate indications by raw TxGNN rank. Nine of them — including the top-ranked "Ambras type hypertrichosis universalis congenita" (score 99.98%) — were annotated by the source rationale as mechanistically implausible or contradicted by existing evidence (e.g., PDE5 inhibitors are known to *trigger* migraine-like headache as an adverse effect, not treat migraine). Only Kyphoscoliotic Heart Disease (rank 7, score 99.43%) carries a credible mechanistic rationale, so it is presented here as the lead candidate. The screened-out signals are summarized at the end of this report for transparency.
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in South Africa. Internationally approved for erectile dysfunction, BPH, and pulmonary arterial hypertension (PAH) |
-| Predicted New Indication | Kyphoscoliotic Heart Disease |
-| TxGNN Prediction Score | 99.43% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
+| TxGNN Prediction Score | 99.98% |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for this candidate has not been retrieved from DrugBank (data gap). Based on known information, tadalafil is a phosphodiesterase type 5 (PDE5) inhibitor that promotes vasodilation, particularly in pulmonary vasculature, and has an internationally approved indication for pulmonary arterial hypertension (Adcirca).
+Currently, detailed mechanism of action data is not available in the evidence pack. Tadalafil is a PDE5 inhibitor, and PDE5 inhibition raises cGMP, which drives vasodilation. Its use in pulmonary arterial hypertension is established.
 
-Kyphoscoliosis — spinal curvature affecting the thorax — can cause restrictive lung disease that progresses to secondary pulmonary hypertension and cor pulmonale ("kyphoscoliotic heart disease"). Because this downstream pathophysiology overlaps with the pulmonary hemodynamic abnormality that tadalafil is already approved to treat, there is an indirect mechanistic rationale for exploring tadalafil in this population.
+The mechanistic link to the predicted indication is weak. Ambras syndrome is a genetic disorder caused by a chromosomal position effect on regulation of the *TRPS1* gene. A cGMP-mediated vasodilatory effect is not expected to correct it. The very high score (99.98%) is most likely a knowledge-graph artefact, driven by graph proximity to other hair and rare-disease nodes, and it has no clinical support.
 
-However, this rationale is theoretical: it rests on overlap with an already-approved indication (PAH) rather than any tadalafil-specific study in kyphoscoliosis-associated heart disease. No trials or publications targeting this specific population currently exist.
+The other top-ranked predictions show the same pattern. Most are hair phenotypes or developmental malformation syndromes, and they include both hypertrichosis and hypotrichosis, which are opposite phenotypes. This suggests the scores reflect a generic hair-phenotype association rather than a real therapeutic signal.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top-ranked prediction.
+
+For a lower-ranked prediction (migraine disorder, rank 9), one report points toward harm rather than benefit:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/) | 2006 | Case report | Cephalalgia | Tadalafil associated with typical migraine aura without headache |
+
+---
 
 ## South Africa Market Information
 
-Tadalafil is currently **not registered with SAHPRA** (market status: not marketed; 0 licenses on file). No South African product, dosage form, or approved indication text is available to summarize.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 52/7.1.5/0841.837 | Trado 10 | Fct |
+| Reg. No. 51/7.1.5/0391 | Tidalis 20 | Fct |
+| Reg. No. 41/7.1.5/0645 | Cialis Oad, 2.5Mg | Tablet |
+
+---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*(Note: since tadalafil has no current SAHPRA registration, no local PI exists yet; the international Adcirca/Cialis PI can serve as an interim reference pending local registration.)*
-
-## Other TxGNN Signals Screened Out (Not Pursued)
-
-For transparency, the remaining 9 predicted indications in this evidence pack were reviewed and are **not recommended for further evaluation**:
-
-| Disease | Score | Reason for Hold |
-|---------|-------|------------------|
-| Ambras type hypertrichosis universalis congenita | 99.98% | Rare chromosomal rearrangement disorder; no known mechanistic link to PDE5 inhibition |
-| Hypertrichosis (disease) | 99.98% | Speculative vasodilation-hair-growth analogy only; no evidence |
-| Malformation syndrome (odontal/periodontal) | 99.97% | Developmental anomaly; no plausible PDE5 mechanism |
-| Syndrome with Dandy-Walker malformation | 99.97% | Congenital posterior fossa malformation; no pharmacological relevance |
-| Isolated genetic hair shaft abnormality | 99.96% | Structural genetic defect; no mechanistic link |
-| Familial isolated trichomegaly | 99.65% | Associated with prostaglandin analogues, not PDE5 inhibitors |
-| Migraine with brainstem aura | 99.08% | PDE5-induced vasodilation is a known *cause* of headache, not a treatment |
-| Migraine disorder | 98.91% | Literature identified (PMID 17059442) documents tadalafil-*induced* migraine aura — evidence contradicts, not supports, this indication |
-| Hypotrichosis simplex of the scalp | 98.71% | Speculative scalp-perfusion analogy to minoxidil; no supporting data |
-
-These illustrate a known limitation of raw TxGNN ranking: high prediction scores do not guarantee mechanistic or clinical plausibility, and in the migraine case the literature signal actively runs counter to the therapeutic hypothesis.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Tadalafil has no SAHPRA registration in South Africa, which blocks even a preliminary safety assessment (per data gap DG001). The lead candidate indication (kyphoscoliotic heart disease) is supported only by indirect mechanistic reasoning (L4) with no clinical trials or direct literature evidence, and the remaining nine TxGNN signals in this evidence pack are not clinically credible.
+The prediction has no trials or literature behind it. The proposed mechanism does not fit a genetic, structural hair disorder. The only related signal in the retrieved literature (tadalafil-associated migraine aura) points toward possible harm. There is no basis to advance this candidate.
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action data from DrugBank (currently a data gap)
-- SAHPRA Professional Information / warnings and contraindications, or a regulatory pathway assessment for South African registration
-- Preclinical or proof-of-concept clinical evidence specifically in kyphoscoliosis-associated pulmonary hypertension/cor pulmonale
-- Re-screening of TxGNN output using mechanistic plausibility filters before further candidates from this "multi" batch are advanced
+- The SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis
+- Any preclinical or clinical evidence linking PDE5 inhibition to the *TRPS1* or hair follicle pathway in Ambras syndrome
+- A review of the other ranked predictions. Kyphoscoliotic heart disease (indirect plausibility via pulmonary hypertension) is the only one with a coherent, if unverified, rationale.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

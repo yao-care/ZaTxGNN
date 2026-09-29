@@ -2,7 +2,7 @@
 layout: default
 title: Copper Chloride
 parent: Model Prediction Only (L5)
-nav_order: 146
+nav_order: 148
 evidence_level: L5
 indication_count: 0
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Ergocalciferol
 parent: Model Prediction Only (L5)
-nav_order: 209
+nav_order: 213
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,33 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ergocalciferol: From Vitamin D Deficiency to Familial Isolated Hypoparathyroidism
+# Ergocalciferol: From Vitamin D Deficiency to Familial Isolated Hypoparathyroidism (Impaired PTH Secretion)
 
 ## One-Sentence Summary
 
-Ergocalciferol (Vitamin D2) is an established vitamin D compound used internationally for vitamin D deficiency and related bone disorders, though no South African regulatory indication text is available in this Evidence Pack. The TxGNN model predicts it may be effective for **familial isolated hypoparathyroidism due to impaired PTH secretion**, but this ranking currently has **0 clinical trials** and **0 publications** supporting it — the prediction rests on the model score alone.
+Ergocalciferol (vitamin D2) is a vitamin D supplement. The SAHPRA registration data supplied here does not state an approved indication.
+The TxGNN model predicts it may be effective for **familial isolated hypoparathyroidism due to impaired PTH secretion**.
+This is a **model prediction only, with 0 clinical trials and 0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established in the SA registry (Evidence Pack shows no SAHPRA licenses); internationally, ergocalciferol is used for vitamin D deficiency and nutritional rickets |
+| Original Indication | Not stated in the SAHPRA registration data supplied |
 | Predicted New Indication | Familial isolated hypoparathyroidism due to impaired PTH secretion |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| TxGNN Prediction Score | 99.85% (model rank 1138) |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 (2 distinct registration numbers; see the market section) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for ergocalciferol is not available in this Evidence Pack (flagged as a High-severity data gap). Based on general pharmacology, ergocalciferol (Vitamin D2) requires hepatic 25-hydroxylation and renal 1α-hydroxylation to reach its active form, which promotes intestinal calcium absorption.
+Currently, detailed mechanism of action data is not available. Ergocalciferol is a vitamin D analogue (vitamin D2). Vitamin D analogues are used in hypoparathyroidism generally, so a model trained on drug-disease relationships could plausibly link the two.
 
-For this specific candidate, the model's own rationale is cautious: activated vitamin D could theoretically compensate for the hypocalcemia that results from impaired PTH secretion, but it has **no direct mechanistic link to the disease's root cause** — a defect in PTH secretion itself. The relationship is described as only a downstream, supportive link to calcium homeostasis, not a targeted treatment of the underlying pathology. This is consistent with the complete absence of clinical trial or literature evidence for this specific rare disease.
+The mechanistic fit is weak, however. Ergocalciferol is a prohormone. It must be hydroxylated in the liver and then in the kidney (1-alpha-hydroxylation) to become active, and the kidney step depends on parathyroid hormone (PTH). When PTH secretion is impaired, activation is likely to be poor. Already-activated analogues such as calcitriol or alfacalcidol are a better fit. No trials or publications were retrieved for this familial form, so the high score is not backed by disease-specific evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered. No SANCTR or PACTR entries were retrieved either.
 
 ## Literature Evidence
 
@@ -63,7 +65,14 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-No SAHPRA registrations are recorded in the Evidence Pack for ergocalciferol — market status is **Not marketed** (0 licenses on file). No product name, dosage form, or approved indication text is currently available for South Africa.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| G2667 (ACT 101/1965) | Gericomplex | Capsule | Not listed in the data supplied |
+| 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not listed in the data supplied |
+
+- Gericomplex appears twice under the same registration number, so there are only 2 distinct registrations.
+- Spiriva Respimat is a tiotropium inhaler. Its link to ergocalciferol looks like a data-mapping error and should be verified against the SAHPRA register.
+- Essential Medicines List (EML) status is not available in the data supplied.
 
 ## Safety Considerations
 
@@ -74,15 +83,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature evidence at all, and the model's own mechanistic rationale explicitly notes the link is indirect (supportive calcium correction) rather than disease-specific. This is a pure L5 model prediction and does not currently support further evaluation.
+The prediction rests on the model score alone, with no trials or literature. Ergocalciferol also depends on PTH-driven activation, which makes it a poor mechanistic fit for a disease of impaired PTH secretion.
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action (MOA) data for ergocalciferol (currently a data gap)
-- SAHPRA-approved Professional Information — warnings, contraindications, and safety data (currently a Blocking data gap)
-- Targeted literature and clinical trial search specific to familial isolated hypoparathyroidism
-- Confirmation of South African market/registration status, since none is currently on file
+- The SAHPRA package insert (warnings, contraindications, approved indications), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Verification of the registrations, in particular the Spiriva Respimat link
+- Disease-specific evidence, or a direct comparison against calcitriol or alfacalcidol
+- A hypercalcaemia and renal monitoring plan if any use were considered
 
-*Note: within this same Evidence Pack, two other candidates for ergocalciferol — hypophosphatemia (disease) and renal osteodystrophy — carry substantially stronger evidence (L2, "Proceed with Guardrails," with completed/ongoing trials and multiple cohort studies) and may warrant separate evaluation if this drug is being considered for repurposing.*
+For context, other predicted indications in this Evidence Pack have more supporting literature (renal osteodystrophy and hypophosphatemic rickets, both L3). They may be better candidates for further review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

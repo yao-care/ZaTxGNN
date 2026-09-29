@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methylprednisolone Aceponate
-parent: Moderate Evidence (L3-L4)
-nav_order: 312
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 318
+evidence_level: L5
 indication_count: 10
 ---
 
 # Methylprednisolone Aceponate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Methylprednisolone aceponate is a topical (third-generation diester) glucocorticoid; detailed original-indication data is not on file for this candidate.
-> The TxGNN model predicts it may be effective for **Gout**, but this signal is currently **model-only** —
-> **0 clinical trials** and **0 publications** specifically support this drug-disease pairing.
+Methylprednisolone aceponate is a topical corticosteroid, sold in South Africa as the ointment Advantan.
+The TxGNN model predicts it may be effective for **gout**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
+It is a model-only prediction (Evidence Level L5) and is not recommended for advancement at this time.
 
 ---
 
@@ -43,23 +43,26 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no license records on file for this drug |
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 98.94% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
+
+The registration record supplied contains no approved indication text, so the original indication is described here by drug class only.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for methylprednisolone aceponate as a standalone entity. Based on the information on file, it is a **topical, third-generation diester glucocorticoid**, acting via glucocorticoid receptor agonism to suppress inflammatory cytokines and leukocyte migration.
+Currently, detailed mechanism of action data is not available. Methylprednisolone aceponate belongs to the topical glucocorticoid class. Glucocorticoids as a class suppress inflammation, and systemic corticosteroids are used to control acute gout flares. This is the only plausible basis for the prediction.
 
-Systemic and intra-articular corticosteroids (a related but pharmacologically distinct route of the same drug class) are established anti-inflammatory options for acute gout flares. This is the basis of the TxGNN association: the model appears to be generalizing from a broader "corticosteroid → anti-inflammatory" relationship in the knowledge graph, rather than identifying drug-specific evidence for methylprednisolone aceponate.
+That class-level link does not transfer well to this product. Methylprednisolone aceponate is a topical corticosteroid that is rapidly inactivated locally and has minimal systemic exposure. The registered product is an ointment, so it would not reach the joints at anti-inflammatory concentrations.
 
-Critically, this candidate's approved use is as a **topical** formulation. A topical product applied to skin cannot reach the systemic or intra-articular concentrations required to treat gout, which is a systemic/joint-level inflammatory condition. The prediction should therefore be read as a class-effect signal rather than evidence that this specific product and formulation would work in gout.
+The high score (0.989) reflects proximity in the knowledge graph. It is not clinical evidence. Route compatibility between the ointment and gout treatment has not been assessed.
+
+Nine other diseases were also predicted with scores between 97.8% and 98.5%. Most have no supporting evidence and no plausible mechanism. The exception is allergic asthma, which has some indirect literature on topical corticosteroids in dermatology (Evidence Level L4). None of it addresses airway delivery of this drug, and the ointment is not suited to lung delivery.
 
 ---
 
@@ -77,7 +80,9 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Methylprednisolone aceponate is not currently registered in South Africa — there are no SAHPRA license records on file for this product (0 registrations, market status: Not Marketed).
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. X/13.4.1/385 | Advantan | Ointment | — |
 
 ---
 
@@ -92,13 +97,15 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-- The gout prediction has no clinical trial or literature support and rests solely on a class-level (corticosteroid) inference; the topical route is also mechanistically mismatched to gout's systemic/intra-articular treatment need. The drug additionally has no SAHPRA registration, so there is no existing South African market presence to build on.
+The prediction rests on a graph score alone, with no clinical trials or literature. The only available product is a topical ointment with minimal systemic exposure, which is a poor fit for a joint-inflammation disease such as gout.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) and original indication data for this specific product (currently data gaps)
-- SAHPRA Professional Information (PI) — warnings, contraindications, and drug interaction data are currently unavailable
-- Route-of-administration feasibility assessment before any further evaluation of the gout signal (topical vs. systemic/intra-articular)
-- Note: among the other TxGNN-ranked candidates in this pack, **allergic asthma** (rank 3) reached decision stage S1 with two supporting literature items and carries a "Research Question" recommendation — it may warrant separate, lower-priority review, though both cited papers are mechanistic/dermatology studies, not asthma clinical evidence, and the topical route is likewise not standard for asthma treatment. All other candidates in this pack (Raynaud disease, diabetic nephropathy, congestive heart failure, pulmonary hypertension subtypes, and two ultra-rare COL4A1-related genetic syndromes) show no supporting evidence, and in several cases the retrieved "literature" appears to be keyword-mismatch noise unrelated to the drug.
+- The SAHPRA package insert (warnings and contraindications), which is required before any safety screening
+- Mechanism of action data from DrugBank
+- A route-compatibility assessment showing whether any formulation could deliver adequate exposure for gout
+- Drug-specific clinical or preclinical evidence, since none currently exists
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Tocopherol
 parent: Moderate Evidence (L3-L4)
-nav_order: 440
+nav_order: 448
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tocopherol: From Vitamin E Supplementation to Sclerosing Cholangitis
+# Tocopherol: From Vitamin E (Fat-Soluble Vitamin) to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Tocopherol (Vitamin E) has no confirmed original indication on record in the available data, and it is not currently marketed or registered in South Africa. The TxGNN model predicts a possible association with **Sclerosing Cholangitis**, but this is currently supported by only **1 clinical trial** (a non-interventional biomarker study) and **1 observational publication**, indicating a very early, largely theoretical signal rather than an established therapeutic direction.
+Tocopherol is vitamin E, a fat-soluble antioxidant vitamin. No approved indication is recorded in the SAHPRA data supplied.
+The TxGNN model predicts it may be relevant to **sclerosing cholangitis**.
+Evidence is very thin: **1 clinical trial** and **1 publication**, and neither tests tocopherol as a treatment for the disease.
 
 ---
 
@@ -41,23 +43,23 @@ Tocopherol (Vitamin E) has no confirmed original indication on record in the ava
 
 | Item | Content |
 |------|------|
-| Original Indication | No formal indication on record (Tocopherol/Vitamin E; no SAHPRA licenses exist to reference) |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not recorded in the SAHPRA data supplied (indication text is empty for all registrations) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 98.84% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 (2 distinct products; one entry is duplicated) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for tocopherol is not available in this evidence pack. Based on known information, tocopherol is the active form of vitamin E, a fat-soluble antioxidant whose established use is correcting vitamin E deficiency; its efficacy as a treatment for any specific disease indication is not documented here, and mechanistically its relevance to sclerosing cholangitis rests on an indirect, deficiency-correction rationale rather than a disease-modifying one.
+Detailed mechanism-of-action data are not available. Tocopherol is generally known as a lipid-soluble antioxidant that limits lipid peroxidation.
 
-Sclerosing cholangitis is a chronic cholestatic liver disease that is commonly accompanied by malabsorption of fat-soluble vitamins (A, D, E, K) and by increased oxidative stress. On this basis, tocopherol supplementation could theoretically help correct a secondary vitamin E deficiency and provide adjunctive antioxidant support in these patients.
+The plausible link is nutritional rather than disease-modifying. Chronic cholestasis impairs absorption of fat-soluble vitamins (A, D, E, K), so tocopherol deficiency is likely in cholestatic liver disease. The one supporting paper notes that oxygen-derived free radicals have been suggested to contribute to chronic liver damage. This supports **correcting a deficiency**, not treating sclerosing cholangitis itself.
 
-However, the evidence itself characterizes this link as weak: supplementing tocopherol addresses a downstream consequence of cholestasis (fat malabsorption) rather than the underlying biliary inflammatory/fibrotic process that drives sclerosing cholangitis. It should therefore be regarded as a supportive nutritional measure at most, not a disease-modifying therapy.
+The model's high score most likely reflects knowledge-graph proximity between vitamin E and cholestatic conditions. It is not a signal of proven efficacy.
 
 ---
 
@@ -65,7 +67,9 @@ However, the evidence itself characterizes this link as weak: supplementing toco
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05582447](https://clinicaltrials.gov/study/NCT05582447) | N/A | Active, not recruiting | 40 | Pilot study measuring red blood cell osmotic fragility/deformability in pediatric patients with cholestatic liver disease (including primary sclerosing cholangitis, biliary atresia, Alagille syndrome, etc.); a biomarker observational study, not a tocopherol interventional efficacy trial |
+| [NCT05582447](https://clinicaltrials.gov/study/NCT05582447) | N/A | Active, not recruiting | 40 | Pilot study of red blood cell osmotic fragility in children with cholestatic liver disease (including primary sclerosing cholangitis). It is non-interventional and does not test tocopherol, so it gives no efficacy signal. |
+
+No SANCTR or PACTR registrations were identified.
 
 ---
 
@@ -73,13 +77,20 @@ However, the evidence itself characterizes this link as weak: supplementing toco
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10735930](https://pubmed.ncbi.nlm.nih.gov/10735930/) | 2000 | Observational | Alimentary Pharmacology & Therapeutics | Plasma antioxidant levels, including vitamin E, are reduced in chronic cholestatic liver disease, consistent with fat-soluble vitamin malabsorption; oxygen-derived free radicals are suggested to contribute to chronic liver damage |
+| [10735930](https://pubmed.ncbi.nlm.nih.gov/10735930/) | 2000 | Cross-sectional/observational | Aliment Pharmacol Ther | Plasma antioxidant levels in chronic cholestatic liver diseases. Cholestasis causes malabsorption of fat-soluble vitamins and free-radical scavengers. It is descriptive and shows no treatment benefit. |
 
 ---
 
 ## South Africa Market Information
 
-Tocopherol currently has no SAHPRA product registrations on record (0 licenses) and is not marketed in South Africa. No dosage forms, brand names, or approved indication text are available to summarize.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| G2667 (ACT 101/1965) | Gericomplex | Capsule (oral) | Not recorded |
+| 41/10.2.1/0849 | Spiriva respimat inhaler 60 doses | Inhaler | Not recorded |
+
+- Gericomplex (G2667) appears twice in the source data. It is shown once here.
+- The Spiriva Respimat entry is an inhaler and is unlikely to contain tocopherol as an active ingredient. It looks like a possible mapping artifact and should be verified against the SAHPRA register.
+- Essential Medicines List (EML) status was not supplied.
 
 ---
 
@@ -94,14 +105,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The evidence level is L4 (decision stage S0) — supported only by a non-interventional pediatric biomarker study and a single observational paper, with no direct interventional evidence that tocopherol treats sclerosing cholangitis. The mechanistic rationale is explicitly assessed as weak (deficiency correction, not disease modification), and the drug has zero SAHPRA registrations, meaning there is no local regulatory foundation to build on.
+The evidence rests on model prediction and a plausible deficiency link. The only trial does not test tocopherol, and the only paper is observational. Safety data from the SAHPRA package insert are missing, which blocks progression to safety screening.
+
+Other predicted indications exist in the Evidence Pack. Rheumatoid arthritis has the most direct human evidence (a Phase 2/3 alpha-tocopherol trial, NCT06915701, currently recruiting). It could be evaluated separately.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information / warnings and contraindications (currently a Blocking data gap — DG001), required before any S1 safety screening
-- Confirmed mechanism of action data for tocopherol (High-severity gap — DG002)
-- Direct interventional trial evidence specifically testing tocopherol in sclerosing cholangitis (current trial is an observational biomarker study only)
-- A regulatory pathway/registration assessment if market entry in South Africa is being considered
-- Given the weak evidence for sclerosing cholangitis specifically, consider evaluating other TxGNN-predicted indications for this drug with stronger evidence — notably rheumatoid arthritis (L2, active Phase 2/3 RCT NCT06915701 directly testing α-tocopherol) and peripheral vascular disease (L2) — as potentially more promising candidates for further work
+- SAHPRA package insert warnings and contraindications (blocking)
+- Mechanism of action data (e.g. from DrugBank)
+- Verification of which SAHPRA registrations actually contain tocopherol, including the Spiriva entry
+- Interventional trials of tocopherol in sclerosing cholangitis, or a decision to frame the use as deficiency correction only
+- Route compatibility and similarity-to-original-indication assessments (currently pending)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

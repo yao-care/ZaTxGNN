@@ -2,7 +2,7 @@
 layout: default
 title: Naproxen
 parent: Model Prediction Only (L5)
-nav_order: 329
+nav_order: 335
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,36 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Naproxen: From [Indication Not Recorded] to Brachydactyly-Syndactyly Syndrome
+# Naproxen: From NSAID Pain and Inflammation Relief to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary
 
-Naproxen (DrugBank DB00788) is a widely used NSAID; this evidence pack does not record its original approved indication or mechanism of action in structured form.
-The TxGNN model's top prediction is **Brachydactyly-Syndactyly Syndrome**, a rare congenital skeletal disorder, with a raw score of 99.35% — but **zero clinical trials and zero publications** support this direction, and the evidence pack's own mechanistic analysis flags the prediction as a likely statistical artifact rather than a genuine pharmacological signal.
+Naproxen is a widely marketed non-steroidal anti-inflammatory drug (NSAID) used for pain and inflammation. The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, a rare congenital limb malformation. There are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (Naproxen is a well-established NSAID for pain, inflammation and fever; no structured indication text was supplied here) |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
-| TxGNN Prediction Score | 99.35% (rank 3482 in model output) |
+| Original Indication | Not stated in the supplied SAHPRA registration data. Naproxen is generally used as an NSAID for pain and inflammation (general knowledge). |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
+| TxGNN Prediction Score | 99.35% (model rank 3482) |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in structured form. Based on known information, Naproxen is a propionic-acid NSAID that acts as a non-selective COX-1/COX-2 inhibitor, reducing prostaglandin synthesis to relieve pain and inflammation.
+Currently, detailed mechanism of action data is not available in the supplied record. Naproxen is generally known as a non-selective COX-1/COX-2 inhibitor that reduces prostaglandin production. This is general knowledge, not taken from the supplied data.
 
-Brachydactyly-syndactyly syndrome, by contrast, is a congenital skeletal malformation disorder driven primarily by GDF5/BMP signalling pathway mutations — a developmental/structural condition, not an inflammatory or prostaglandin-mediated one. There is no known causal mechanism connecting COX inhibition to this developmental pathway.
+Brachydactyly-syndactyly syndrome is a rare congenital malformation driven by developmental limb-patterning pathways. Naproxen has no established link to these pathways. The high score most likely reflects proximity in the knowledge graph (for example, shared gene or phenotype neighbours) rather than a plausible pharmacological effect. At most, an NSAID could relieve pain or inflammation symptomatically. It would not modify the disease, and no clinical evidence supports even that.
 
-The evidence pack's own repurposing rationale is explicit on this point: it assesses the high TxGNN score as most likely arising from knowledge-graph embedding proximity among rare skeletal-disease nodes (phenotype co-occurrence in the graph), rather than a real pharmacological relationship. This assessment is reinforced by the fact that all four of Naproxen's top predicted indications in this batch (brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, acromesomelic dysplasia Hunter-Thompson type, brachyolmia-amelogenesis imperfecta syndrome) are rare congenital skeletal/developmental syndromes clustered tightly around a ~0.99 score band, with no differentiating trial or literature support for any of them — a pattern consistent with a batch clustering artifact rather than four independent genuine signals.
+The same pattern appears in the other top predictions for this drug: colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.22%), acromesomelic dysplasia, Hunter-Thompson type (99.17%), and brachyolmia-amelogenesis imperfecta syndrome (99.06%). All are ultra-rare genetic malformation syndromes with no trials or publications, and all are likely knowledge-graph artefacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR).
 
 ## Literature Evidence
 
@@ -66,26 +65,34 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Naproxen is currently **not marketed** in South Africa under this evidence pack (0 SAHPRA registrations recorded). No product/registration data is available to summarize.
+Six SAHPRA registrations are recorded, but only five are itemised in the supplied data.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. X/3.1/156 | Adco-naproxen | Tablet | Not listed in supplied data |
+| Reg. No. 31/2.7/0145 | Aleve | Tablet | Not listed in supplied data |
+| Reg. No. 28/3.1/0038 | Napinflam | Tablet | Not listed in supplied data |
+| Reg. No. 28/3.1/0044 | Naproscript | Tablet | Not listed in supplied data |
+| Reg. No. 45/3.1/0179 | Vimovo 500/20mg | Tablet | Not listed in supplied data |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Note: this evidence pack flags TFDA/SAHPRA label warnings and contraindications as a Blocking data gap — this must be resolved before any safety assessment can be considered complete.)*
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trial or literature support, no plausible mechanistic link between COX inhibition and a congenital skeletal-developmental disorder, and the evidence pack's own analysis attributes the high score to a knowledge-graph clustering artifact rather than genuine biology. This pattern repeats across all four of Naproxen's top-ranked predictions in this batch, further weakening confidence in the signal.
+The prediction is supported only by a model score. There are no trials or publications, and no plausible mechanistic link between COX inhibition and a developmental limb malformation. At this stage the evidence does not justify further investment.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information (PI) — safety warnings and contraindications (currently a Blocking data gap)
-- Confirmed mechanism of action and original approved indication(s) from DrugBank or SAHPRA registration data
-- Independent biological/mechanistic rationale connecting NSAID pharmacology to GDF5/BMP-driven skeletal dysplasias, if this candidate is to be pursued further
-- Given the artifact pattern identified across the whole batch, consider deprioritizing this candidate in favor of higher-scoring, mechanistically plausible predictions for Naproxen, if any exist outside this evidence pack
+- SAHPRA Professional Information (warnings, contraindications and approved indications) for the registered naproxen products
+- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis
+- A biological rationale connecting naproxen to the disease pathway, plus any preclinical or case-level evidence
+- Route compatibility and similarity-to-original-indication assessments, both currently pending
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

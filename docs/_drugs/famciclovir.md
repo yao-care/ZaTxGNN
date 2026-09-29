@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Famciclovir
-parent: Model Prediction Only (L5)
-nav_order: 217
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 221
+evidence_level: L4
 indication_count: 10
 ---
 
 # Famciclovir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Famciclovir: From Herpes Zoster to Post-Infectious Neuralgia
+# Famciclovir: From Herpes Zoster and Genital Herpes to Post-Infectious Neuralgia
 
 ## One-Sentence Summary
 
-> Famciclovir is a well-established oral antiviral, originally used for herpes zoster (shingles) and related herpesvirus infections — though the evidence pack itself does not carry that original-indication field (see data gap below).
-> The TxGNN model predicts it may be effective for **Post-Infectious Neuralgia** (i.e., postherpetic neuralgia, PHN),
-> with **2 registered clinical trials** and **no dedicated publications** currently supporting this specific link, and neither trial actually tests famciclovir.
-
----
+Famciclovir is an oral antiviral (a prodrug of penciclovir) used against herpesvirus infections such as shingles.
+The TxGNN model predicts it may be relevant to **post-infectious neuralgia** (pain that persists after shingles).
+Evidence is thin: **2 registered trials** were retrieved, but neither tests famciclovir, and **no publications** were found for this indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not provided in this evidence pack (Data Gap DG002 — see below); herpes zoster/genital herpes is famciclovir's well-known approved use, based on general pharmacological knowledge, not this pack's data |
-| Predicted New Indication | Post-Infectious Neuralgia |
+| Original Indication | Not stated in the SAHPRA record; famciclovir is generally used for herpes zoster and genital herpes |
+| Predicted New Indication | Post-infectious neuralgia |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (Data Gap **DG002**, High severity). Based on generally established pharmacological knowledge — not sourced from this pack — famciclovir is an oral prodrug of penciclovir, a nucleoside analogue that is phosphorylated by viral thymidine kinase and inhibits herpesvirus DNA polymerase; it is widely used against varicella-zoster virus (VZV) and herpes simplex virus (HSV) infections, including herpes zoster.
+Detailed mechanism of action data is not available in the pack. Based on known pharmacology, famciclovir is converted to penciclovir, whose active form inhibits varicella-zoster virus (VZV) DNA polymerase. It can shorten the acute shingles episode.
 
-Post-infectious neuralgia (essentially postherpetic neuralgia, PHN) is a well-recognized complication of herpes zoster. Early antiviral treatment during the acute zoster phase is already understood to reduce the duration and severity of zoster-associated pain, which is mechanistically adjacent to — rather than truly novel relative to — famciclovir's existing antiviral role.
+Post-infectious (postherpetic) neuralgia is the most common complication of shingles. The link is therefore preventive: treating the acute viral phase may lower the risk of later nerve pain.
 
-However, this mechanistic plausibility is **not confirmed by the trial evidence actually retrieved**: neither of the two clinical trials linked to this prediction tests famciclovir itself (see below). The prediction should therefore be read as a knowledge-graph association reflecting disease/drug-class proximity, not as direct experimental support.
-
----
+Famciclovir is not a neuropathic pain agent. It has no demonstrated effect on established neuralgia. Any benefit would be limited to preventing the condition, not treating it.
 
 ## Clinical Trial Evidence
 
+Both registered trials study acute herpes zoster pain. Neither tests famciclovir as the intervention, so they support the disease context only.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | N/A | Not Yet Recruiting | 120 | Evaluates liposomal bupivacaine and ropivacaine nerve blocks for acute herpes zoster pain, and whether nerve blockade reduces required gabapentin dosage. **Does not test famciclovir.** |
-| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | N/A | Unknown | 140 | Investigates whether early oxycodone use during the acute herpes zoster phase prevents postherpetic neuralgia. **Does not test famciclovir.** |
+| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | Not applicable | Not yet recruiting | 120 | Nerve block (liposomal bupivacaine or ropivacaine) plus pulse radiofrequency for acute zoster pain; famciclovir is at most background antiviral therapy |
+| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | Not applicable | Unknown | 140 | Early oxycodone in acute herpes zoster to prevent postherpetic neuralgia; famciclovir is not the intervention |
 
-**Caveat:** Both trials study the herpes zoster / PHN disease space but neither evaluates famciclovir as an intervention. No trial in this pack directly tests famciclovir for post-infectious neuralgia.
-
----
+No SANCTR or PACTR identifiers were found.
 
 ## Literature Evidence
 
-Currently no related literature available for this specific indication (0 PubMed records returned for "Famciclovir" + "post-infectious neuralgia" per query log).
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
-Famciclovir is currently **not marketed** in South Africa according to this evidence pack, with **0 SAHPRA registrations** recorded. No product/registration data is available to tabulate.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 45/20.2.8/1157 | Macleods Famciclovir Tablets 125 mg | Film-coated tablet | Not stated in the registration record |
 
 ## Safety Considerations
 
-Detailed SAHPRA-approved warnings, contraindications, and drug interaction data are not available in this evidence pack. This is flagged as **Data Gap DG001 (Blocking severity)** — its stated impact is that safety cannot proceed to the initial S1 safety evaluation stage. Please refer to the SAHPRA-approved Professional Information (PI), once identified, for safety information. Report adverse drug reactions to SAHPRA.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- Safety data is a Blocking-severity gap (DG001) that by definition prevents initial safety evaluation, and no clinical trial in this pack directly tests famciclovir for the predicted indication — evidence level is L5 (model prediction only). The drug also has no current SAHPRA registration in South Africa.
+The prediction score is high, but no trial or publication tests famciclovir for post-infectious neuralgia. The mechanism supports prevention only, through treating acute zoster. This is a research question, not a treatment candidate.
+
+Other predicted indications in this pack look stronger. Chickenpox reaches L2, with a completed Phase 3 paediatric PK/safety study (NCT00098046) and a completed Phase 3 randomised efficacy trial in herpes zoster (NCT01327144). Those studies do not show efficacy in chickenpox itself.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information (warnings, contraindications, DDI) to resolve DG001
-- Confirmed mechanism-of-action documentation (DrugBank or equivalent) to resolve DG002
-- Direct clinical evidence evaluating famciclovir specifically for post-infectious/postherpetic neuralgia as an endpoint (not proxy analgesic trials)
-- Confirmation of famciclovir's registration pathway/status if market entry to South Africa is being considered
+- SAHPRA package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- Trials or studies that test whether early famciclovir reduces postherpetic neuralgia incidence
+- The approved indication text for the registered South African product
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

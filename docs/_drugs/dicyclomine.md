@@ -2,7 +2,7 @@
 layout: default
 title: Dicyclomine
 parent: Model Prediction Only (L5)
-nav_order: 171
+nav_order: 174
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,88 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-Using the report structure directly (no specialized skill needed — this is a self-contained templated write-up task from the Evidence Pack already provided).
-
-A note before the report: the Evidence Pack itself flags **rank 1 (cauda equina syndrome)** as a likely spurious/false-positive association (the `repurposing_rationale.mechanistic_link` explicitly says this). I'm following the prompt's instruction to build the report around `predicted_indications[0]`, but I'm reporting that caveat transparently rather than presenting it as a strong signal — that's the honest reading of the data, and inventing confidence that isn't there would misrepresent the evidence pack.
-
----
-
-# Dicyclomine: From Irritable Bowel Syndrome (Antispasmodic Use) to Cauda Equina Syndrome
+# Dicyclomine: From Gastrointestinal Antispasmodic Use to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-> Dicyclomine is an antimuscarinic (anticholinergic) antispasmodic drug, internationally used for irritable bowel syndrome and functional bowel/spastic colon disorders — it is **not currently registered or marketed in South Africa**.
-> The TxGNN model's top-ranked prediction links it to **Cauda Equina Syndrome**, but this is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags the link as a probable indirect artifact rather than a genuine treatment mechanism.
-
----
+Dicyclomine is an antimuscarinic antispasmodic that relaxes smooth muscle. The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from SAHPRA data (drug is unregistered in South Africa). Internationally, Dicyclomine is used as an antispasmodic for irritable bowel syndrome / functional bowel disorders. |
-| Predicted New Indication | Cauda Equina Syndrome |
+| Original Indication | Not stated in the SAHPRA registration data (general pharmacology: antispasmodic) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed (Not marketed) |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack (flagged as a High-severity data gap, DG002). Based on known pharmacological information, Dicyclomine is a non-selective antimuscarinic (anticholinergic) antispasmodic. Its established mechanism is blockade of muscarinic (M1/M3) receptors on gastrointestinal smooth muscle, which relieves spasm in conditions such as irritable bowel syndrome — this is the basis for its original indication.
+Detailed mechanism of action data is not available. Based on general pharmacology, dicyclomine is an antimuscarinic and antispasmodic that relaxes smooth muscle. At most, it could ease secondary bladder-muscle (detrusor) or bowel spasm in cauda equina syndrome.
 
-Cauda equina syndrome, by contrast, is a **surgical emergency** caused by mechanical compression of the lumbosacral nerve roots, typically from a herniated disc, tumour, or trauma. The standard of care is urgent surgical decompression; there is no established pharmacological treatment for the underlying nerve compression. The Evidence Pack's own mechanistic rationale is explicit about this mismatch: it states that the only plausible link is *indirect* — cauda equina syndrome can cause **neurogenic bladder** as a secondary complication (from sacral nerve root damage), and Dicyclomine's antimuscarinic effect could theoretically ease *secondary* bladder symptoms. It does **not** treat the nerve compression itself, which is the actual disease process.
+The link is weak. Cauda equina syndrome is caused by nerve root compression and is a surgical emergency. Dicyclomine does not treat that cause. Its anticholinergic effect could also cause urinary retention and worsen bladder dysfunction in this setting. The high score (99.66%) is a model output only, with no trial or literature record behind it.
 
-In other words, this prediction most likely reflects the model learning a "cauda equina syndrome → neurogenic bladder" association path rather than a direct drug–disease treatment relationship. Consistent with this, the Evidence Pack's second-ranked prediction, **neurogenic bladder** (obsolete disease term, score 99.50%), has a mechanistically more coherent rationale — antimuscarinic blockade of detrusor M2/M3 receptors is the same mechanism used by approved neurogenic bladder / overactive bladder drugs (e.g. oxybutynin, tolterodine). That prediction is scored by the pack itself as a "Research Question" rather than a candidate for clinical evaluation, again due to zero direct trial or literature support and an outdated disease ontology label requiring disambiguation.
-
-**No clinical trials or publications exist for either predicted indication**, so this section should be read as a hypothesis-generation signal only, not as clinical evidence.
-
----
+The second-ranked prediction is "obsolete neurogenic bladder (disease)" (score 99.50%). Antimuscarinic drugs are a recognised class for neurogenic detrusor overactivity, so that link is biologically more plausible. It also has no supporting trials or publications. The disease label is an obsolete ontology term, which points to a mapping-quality problem. It should be remapped to a current neurogenic bladder or neurogenic lower urinary tract dysfunction concept before further review.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Dicyclomine (DB00804) has **no SAHPRA registrations** and is **not marketed** in South Africa (0 licenses on file). No product, dosage form, or approved indication text is available to report.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 33/20.2.2/0267 | Pinaspor V | Vcr |
+| Reg. No. 32/11.4.2/0211 | Co-gel | Suspension |
+| Reg. No. 41/1.2/0373 | Voxra Xl 150 | Tablet |
+| Reg. No. 46/11.4.2/008 | Meddev | Syrup |
 
----
+The registry entries carry no approved indication text. The product-to-ingredient matching should be verified against the SAHPRA Professional Information (PI) before any use of these registrations.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Note: TFDA/SAHPRA label warnings and contraindications are a Blocking data gap (DG001) in this Evidence Pack — no safety review can be completed until this is resolved.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- Evidence level is L5 (model prediction only — zero clinical trials, zero publications for the top-ranked indication).
-- The Evidence Pack's own mechanistic analysis suggests the top prediction (cauda equina syndrome) is likely an indirect/false-positive association rather than a genuine drug–disease treatment relationship, since the drug has no mechanism addressing the underlying nerve compression.
-- Dicyclomine is not registered or marketed in South Africa, so there is no existing regulatory or safety base to build on locally.
+The prediction is model-only (L5) with no trials or publications. The proposed mechanism does not address the cause of cauda equina syndrome, and anticholinergic effects could worsen bladder function. The registry also lacks indication and safety data.
 
 **To proceed, the following is needed:**
-- SAHPRA/TFDA-approved Professional Information (label warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank or primary literature — currently a High-severity data gap (DG002)
-- Disambiguation of the "obsolete neurogenic bladder (disease)" ontology term to its current equivalent, to properly evaluate the more mechanistically plausible rank-2 prediction
-- Preclinical or mechanistic studies specifically testing antimuscarinic therapy for neurogenic bladder secondary to cauda equina syndrome, before this moves beyond a research hypothesis
-- Regulatory pathway assessment, since the drug currently has no South African market presence at all
+- SAHPRA package insert (warnings, contraindications, approved indications), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Remapping of the second prediction to a current neurogenic bladder or neurogenic lower urinary tract dysfunction concept, then a literature and trial search
+- Verification that the four registered products actually contain dicyclomine
+- A literature and trial search specific to cauda equina syndrome, with clinical review of the urinary retention risk
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

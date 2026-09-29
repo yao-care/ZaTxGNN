@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pyridoxine
-parent: High Evidence (L1-L2)
-nav_order: 384
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 392
+evidence_level: L5
 indication_count: 10
 ---
 
 # Pyridoxine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Pyridoxine: From Dietary Vitamin B6 Supplementation to Confirmatory Treatment of Vitamin B6 Deficiency Disorder
+# Pyridoxine: From Vitamin B6 Replacement to Gonococcal Urethritis
 
 ## One-Sentence Summary
 
-Pyridoxine (Vitamin B6, DrugBank DB00165) is an essential coenzyme precursor for amino acid, neurotransmitter, and homocysteine metabolism. TxGNN generated 10 candidate indications for this drug, but the model's own rationale flags 9 of them (including the top-ranked "gonococcal urethritis") as likely **knowledge-graph artifacts with no plausible pharmacological mechanism**. The only candidate with real evidentiary support is **Vitamin Deficiency Disorder**, backed by **~50 clinical trials** and **20 publications** — though this represents confirmation of an already-known use rather than true repurposing.
+Pyridoxine (vitamin B6) is a widely marketed vitamin used to replace or supplement B6. The TxGNN model predicts it may be effective for **gonococcal urethritis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only signal with no known mechanism, and no antibacterial activity against *Neisseria gonorrhoeae* is known.
 
 ---
 
@@ -41,63 +41,51 @@ Pyridoxine (Vitamin B6, DrugBank DB00165) is an essential coenzyme precursor for
 
 | Item | Content |
 |------|------|
-| Original Indication | No formal registration data on file; as a nutrient, pyridoxine is used for dietary supplementation and correction of Vitamin B6 deficiency |
-| Predicted New Indication | Vitamin Deficiency Disorder (Vitamin B6 deficiency) |
-| TxGNN Prediction Score | 85.50% |
-| Evidence Level | L2 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not stated in the supplied registration data (vitamin B6 replacement is inferred and should be checked against the product label) |
+| Predicted New Indication | Gonococcal urethritis |
+| TxGNN Prediction Score | 93.87% |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 20 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action documentation is not yet on file for this candidate (data gap DG002). Based on established pharmacology, pyridoxine is converted in the intestine to pyridoxal 5'-phosphate (PLP), the active coenzyme form required by enzymes throughout amino acid metabolism, neurotransmitter synthesis (GABA, serotonin), one-carbon/homocysteine metabolism, and mitochondrial function. Deficiency of this cofactor produces well-characterized clinical syndromes: peripheral neuropathy, pyridoxine-dependent epilepsy, sideroblastic anemia, and elevated homocysteine.
+Currently, detailed mechanism of action data is not available. Pyridoxine is a precursor of pyridoxal 5'-phosphate (PLP), a cofactor for enzymes involved in amino acid, neurotransmitter, homocysteine and haem metabolism. Its established role is correcting B6 deficiency, not treating infection.
 
-This predicted indication is therefore not a novel repurposing hypothesis in the classic sense — it is a **confirmatory match**: the drug is being "predicted" for the deficiency state it is already known to treat. The clinically meaningful open question is not mechanistic plausibility (which is well established) but why the product carries no current SAHPRA registration and "Not Marketed" status in South Africa, which should be clarified as a regulatory/commercial gap rather than an efficacy concern.
+The link between this role and gonococcal urethritis is weak. Gonococcal urethritis is a bacterial sexually transmitted infection treated with antibiotics, and pyridoxine has no known antibacterial activity against *N. gonorrhoeae*. The score of 0.9387 is identical to that of Ureaplasma urethritis (rank 2). This suggests the model is picking up a shared "urethritis" graph neighbourhood rather than a signal specific to this indication. The score should therefore be read as a hypothesis-generating flag, not as evidence of efficacy.
 
-By contrast, the other 9 TxGNN candidates for this drug (gonococcal urethritis, Ureaplasma urethritis, urinary tract infection, uterine inflammatory disease, xanthogranulomatous pyelonephritis, congenital prothrombin deficiency, toxocariasis, toxascariasis, anisakiasis) have no supporting mechanism — pyridoxine has no known antimicrobial, antiparasitic, or coagulation-factor activity — and the model's own annotations describe these as probable graph-proximity artifacts (e.g., confusion between "vitamin"-class nodes and Vitamin K–dependent clotting, or urethritis/inflammation node adjacency). These should be treated as **Hold**, not evaluated further without independent evidence.
+Among the other predictions, only "vitamin deficiency disorder" (rank 10) has meaningful supporting evidence. That is essentially replacement therapy, not true repurposing, and it is outside the scope of this report.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01795170](https://clinicaltrials.gov/study/NCT01795170) | N/A | Withdrawn (enrollment 0) | 0 | Directly targeted pyridoxine-dependent epilepsy via dietary lysine restriction; withdrawn before enrollment, no data generated |
-| [NCT01128244](https://clinicaltrials.gov/study/NCT01128244) | Phase 2/3 | Completed | 13 | Direct study of Vitamin B6 effects on one-carbon metabolism; established PLP cutoffs for nutritional adequacy vs. marginal deficiency |
-| [NCT04054505](https://clinicaltrials.gov/study/NCT04054505) | N/A | Completed | 275 | Nutraceutical supplementation shown to raise circulating serum vitamin, mineral, and amino acid levels |
-| [NCT03720249](https://clinicaltrials.gov/study/NCT03720249) | N/A | Unknown | 100 | Compound nutrients (folic acid, B6, B12, betaine, zinc) tested for lowering plasma homocysteine in hyperhomocysteinemic adults |
-| [NCT00642408](https://clinicaltrials.gov/study/NCT00642408) | Phase 4 | Completed | 1,370 | Micronutrient supplementation including pyridoxine for prevention of intrauterine growth retardation, Burkina Faso |
-| [NCT00004495](https://clinicaltrials.gov/study/NCT00004495) | N/A | Completed | 84 | Folic acid therapy for hyperhomocysteinemia in hemodialysis patients; assessed need for co-supplementation with pyridoxine and B12 |
-| [NCT00626223](https://clinicaltrials.gov/study/NCT00626223) | N/A | Completed | 341 | 5-methyltetrahydrofolate vs. oral folate in ESRD patients; B6/B12 levels monitored alongside survival and inflammation outcomes |
-| [NCT06772220](https://clinicaltrials.gov/study/NCT06772220) | N/A | Recruiting | 150 | Open-label B-vitamin therapy for homocysteine correction in levodopa-treated Parkinson's disease patients |
-| [NCT03004807](https://clinicaltrials.gov/study/NCT03004807) | N/A | Completed | 41 | Multivitamin/mineral supplement (Centrum Silver) evaluated for improving micronutrient status in older men |
-| [NCT04160767](https://clinicaltrials.gov/study/NCT04160767) | Phase 4 | Unknown | 90 | Probiotic supplementation evaluated against Vitamin B6, B12, folate and homocysteine status in celiac disease patients |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30671974](https://pubmed.ncbi.nlm.nih.gov/30671974/) | 2019 | Review | J Inherit Metab Dis | Comprehensive review of disorders affecting Vitamin B6 metabolism and the central role of PLP as an enzyme cofactor |
-| [24035968](https://pubmed.ncbi.nlm.nih.gov/24035968/) | 2013 | Review | Pak J Pharm Sci | Reviews Vitamin B6 deficiency diseases (seizures, epileptic encephalopathy) and analytical detection methods |
-| [25137514](https://pubmed.ncbi.nlm.nih.gov/25137514/) | 2014 | Review | J Clin Neuromuscul Dis | Systematic review of neuropathy evidence from both pyridoxine deficiency and excess |
-| [23622403](https://pubmed.ncbi.nlm.nih.gov/23622403/) | 2013 | Review | Handb Clin Neurol | Describes four inborn errors leading to Vitamin B6-dependent seizures, incl. antiquitin deficiency |
-| [38703598](https://pubmed.ncbi.nlm.nih.gov/38703598/) | 2024 | Review | Seizure | Reviews increased functional pyridoxine deficiency and seizure risk in Parkinson's disease |
-| [30267523](https://pubmed.ncbi.nlm.nih.gov/30267523/) | 2018 | Cohort | Psychiatr Danub | Serum homocysteine, pyridoxine, folate and B12 evaluated in children with ADHD |
-| [32443822](https://pubmed.ncbi.nlm.nih.gov/32443822/) | 2020 | Cohort | Medicina (Kaunas) | Vitamin deficiencies (incl. B6) linked to co-occurring GI/behavioral symptoms in autism spectrum disorder |
-| [33958192](https://pubmed.ncbi.nlm.nih.gov/33958192/) | 2021 | Case Report | Am J Med Sci | Isolated pyridoxine deficiency presenting as muscle spasms in a Type 2 diabetes patient |
-| [27810990](https://pubmed.ncbi.nlm.nih.gov/27810990/) | 2017 | Case Report | Nutr Clin Pract | Thiamin, pyridoxine, Vitamin D and carotene deficiency in a malnourished patient after Billroth II gastrectomy |
-| [2192608](https://pubmed.ncbi.nlm.nih.gov/2192608/) | 1990 | Review | Ann N Y Acad Sci | Review of pyridoxine's neurobiological roles |
+Currently no related literature available.
 
 ---
 
 ## South Africa Market Information
 
-Pyridoxine currently holds **no SAHPRA registrations** on file (0 licenses; market status: Not Marketed). No registered product name, dosage form, or approved indication text is available to summarize.
+Pyridoxine appears in 20 SAHPRA registrations, mainly as a component of multivitamin and vitamin B-complex products. The approved indication text was not provided for any of the listed products, and Essential Medicines List (EML) status was not included in the supplied data.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| H2611 (ACT 101/1965) | Becoplex ido vial 10ml | Injection | Not stated in supplied data |
+| T1012 (ACT 101/1965) | Beespan | Capsule | Not stated in supplied data |
+| H2412 (ACT 101/1965) | A-lennon vitamin b co ampoule 2ml | Injection | Not stated in supplied data |
+| H2975 (ACT 101/1965) | Vitamin b co 10ml | Injection | Not stated in supplied data |
+| U/2.6/218 | Restin | Capsule | Not stated in supplied data |
+
+Available dosage forms across all registrations are injection, capsule, tablet, infusion and TPN.
 
 ---
 
@@ -105,20 +93,24 @@ Pyridoxine currently holds **no SAHPRA registrations** on file (0 licenses; mark
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
+No drug interaction records were found for pyridoxine in the queried source.
+
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic link between pyridoxine and Vitamin B6 deficiency disorder is well established and not in scientific dispute; the evidence base (L2, multiple relevant trials and reviews) supports confirmatory use. However, guardrails are needed because this drug is not currently marketed or registered in South Africa, and safety/labelling documentation is missing.
+The prediction rests only on a graph-based model score, with no clinical trials, no publications and no plausible antibacterial mechanism. The identical score for Ureaplasma urethritis points to a shared-neighbourhood artefact. Gonococcal urethritis also has effective standard antibiotic treatment, so there is no evidence-based reason to pursue pyridoxine here.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information / package insert, including warnings and contraindications (currently a Blocking data gap — DG001)
-- Formal mechanism-of-action documentation from DrugBank or equivalent source (High-priority data gap — DG002)
-- Clarification of why pyridoxine has no current SAHPRA registration despite established therapeutic use (regulatory gap vs. commercial decision)
-- No further action recommended on the other 9 TxGNN-predicted indications for this drug (gonococcal urethritis, Ureaplasma urethritis, urinary tract infection, uterine inflammatory disease, xanthogranulomatous pyelonephritis, congenital prothrombin deficiency, toxocariasis, toxascariasis, anisakiasis) — each lacks a plausible mechanism and is flagged by the model itself as likely a knowledge-graph artifact
+- Any preclinical or clinical evidence that pyridoxine has activity against *N. gonorrhoeae* or urethritis
+- Mechanism of action data for pyridoxine and confirmation of the approved indications from the SAHPRA-approved PI
+- SAHPRA package insert warnings and contraindications
+- A route and formulation compatibility assessment for the proposed use
+
+This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

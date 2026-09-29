@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dorzolamide
-parent: High Evidence (L1-L2)
-nav_order: 194
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 198
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,28 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dorzolamide is a topical carbonic anhydrase inhibitor (ophthalmic solution) established for the management of open-angle glaucoma and elevated intraocular pressure.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**,
-with **1 clinical trial** currently supporting this direction and no published literature identified for this specific indication.
+Dorzolamide is a topical carbonic anhydrase inhibitor eye drop. It is used to lower intraocular pressure (IOP) in open-angle glaucoma, an established use taken from the evidence pack's rationale rather than from SAHPRA indication text. The TxGNN model predicts it may help **primary hereditary glaucoma**, but this is supported by only **1 Phase 2 clinical trial** and **no publications**.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Open-angle glaucoma / Ocular hypertension (based on established pharmacology; no SAHPRA registration data available) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
+|------|------|
+| Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| South Africa Market Status | Not registered with SAHPRA |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Hold |
+| Evidence Level | L2 (a single completed Phase 2 trial, with limited confirmation of dorzolamide's specific role) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
+| Recommended Decision | Hold (the source pack labels this "Research Question") |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data from the regulatory database is not available. Based on established pharmacological knowledge, Dorzolamide is a highly selective inhibitor of carbonic anhydrase isoenzyme II (CA-II) in the ciliary body epithelium of the eye. By blocking CA-II, Dorzolamide reduces bicarbonate ion secretion, which decreases aqueous humour production and consequently lowers intraocular pressure (IOP). This is the foundational mechanism by which it manages open-angle glaucoma and ocular hypertension, typically as a 2% ophthalmic solution (known internationally as Trusopt®, or in fixed combination with timolol as Cosopt®).
+Currently, detailed mechanism of action data is not available in the pack. Dorzolamide is generally understood to inhibit carbonic anhydrase II in the ciliary body. This reduces aqueous humour production and lowers IOP. That mechanism is the established basis for its use in open-angle glaucoma.
 
-Primary hereditary glaucoma encompasses genetically determined forms of glaucoma — including conditions linked to MYOC and OPTN gene mutations — where abnormal aqueous drainage leading to elevated IOP remains the core pathological event. Because the shared pathophysiological endpoint (raised IOP) is identical to that in open-angle glaucoma, Dorzolamide's CA-II inhibitory mechanism is directly applicable. The TxGNN knowledge graph model has identified this pharmacological overlap, which underpins the high prediction score.
-
-That said, different genetic subtypes of hereditary glaucoma may exhibit variable responses to IOP-lowering therapies, and the structural angle abnormalities in hereditary forms may limit drug efficacy relative to surgical approaches. Clinical evidence in genetically confirmed hereditary glaucoma populations remains limited, consisting of a single small Phase 2 paediatric trial. Individual patient assessment and genetic subtyping are strongly recommended before therapeutic decisions.
+Primary hereditary glaucoma is a heterogeneous group that includes congenital forms. Lowering IOP is still a plausible way to protect the optic nerve in these conditions. However, efficacy may differ from adult open-angle disease, and topical carbonic anhydrase inhibitors need caution in paediatric patients. The mechanistic link is therefore reasonable but unproven.
 
 ---
 
@@ -67,34 +62,37 @@ That said, different genetic subtypes of hereditary glaucoma may exhibit variabl
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Compared the IOP-lowering effect of latanoprost vs dorzolamide in paediatric glaucoma patients (including primary hereditary cases) who were refractory to surgical procedures. Safety outcomes were co-assessed. Protocol was later amended to reduce the target enrolment to 68 eyes. Small sample size limits generalisability; this is the only directly relevant trial identified. |
+| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed (2009–2016) | 37 | Latanoprost and dorzolamide were assessed for ocular hypotensive effect and safety in paediatric glaucoma refractory to surgery. Results are not reported in the pack. |
+
+**Limitations:**
+- Dorzolamide was studied together with a prostaglandin analogue, so its individual contribution cannot be separated.
+- The trial population is "primary paediatric glaucoma", not confirmed as hereditary glaucoma.
+- The protocol was amended, reducing the planned eyes from 96 to 68.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available specifically linking Dorzolamide to primary hereditary glaucoma.
+Currently no related literature available.
 
 ---
 
 ## South Africa Market Information
 
-Dorzolamide is **not currently registered with SAHPRA** and holds no active product licences in South Africa.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 54/15.4/0257 | Dorzopt Forte | Drops |
+| Reg. No. 51/15.4/0162 | Ocudor Co | Drops |
 
-Prescribers should be aware of the following:
-
-- Dorzolamide (Trusopt® and Cosopt®) is registered and routinely used in the European Union, United States, and multiple other African countries
-- Access for individual patients in South Africa may be explored via **SAHPRA Section 21** (unregistered medicines) for compelling clinical need
-- Dorzolamide is **not currently listed on the South African Essential Medicines List (EML)**
-- No SAHPRA-approved Professional Information (PI) document is available locally — international prescribing information (e.g., EMA/FDA labels) should be consulted
+Approved indication text is not recorded for these registrations, so it should be checked against the SAHPRA-approved Professional Information (PI).
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Paediatric use**: Topical carbonic anhydrase inhibitors need caution in paediatric patients. This matters here because congenital and hereditary glaucoma mainly affect children.
 
-> **Important note for prescribers:** No SAHPRA-specific warnings, contraindications, or drug interaction data were available in this evidence pack. Based on internationally published information, Dorzolamide is a **sulfonamide derivative** — clinicians should screen for sulfonamide hypersensitivity before prescribing. No drug-drug interaction data was identified in this evidence pack for Dorzolamide.
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings, contraindications and interactions. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -103,18 +101,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-Only one small Phase 2 completed RCT (n=37, paediatric patients) supports the use of Dorzolamide specifically in primary hereditary glaucoma. While the IOP-lowering mechanism is pharmacologically plausible and directly applicable to hereditary forms of elevated-pressure glaucoma, the limited and indirect evidence base — combined with the absence of any SAHPRA registration — does not support clinical adoption at this stage.
+The only support is one small Phase 2 trial (n=37) that tested dorzolamide together with latanoprost in a broader paediatric glaucoma population. There is no supporting literature, and the paediatric safety review cannot proceed without the SAHPRA PI.
 
-**Important broader context:** This evidence pack separately identifies that Dorzolamide has very strong Level L1 evidence for primary open-angle glaucoma (TxGNN ranks 6 and 7 in this pack), supported by multiple Phase 3/4 completed RCTs with hundreds of patients. A SAHPRA registration application for the established open-angle glaucoma indication may represent a more immediately actionable pathway and should be evaluated in parallel.
+**Other predictions in the same pack:**
+- **Open-angle glaucoma** (ranks 6–7): L1 evidence with many Phase 3 and 4 trials. It is an established use rather than new repurposing, and the two entries overlap and should be merged.
+- **Hair-loss conditions, congestive heart failure, acute pulmonary heart disease and respiratory failure**: no credible mechanism or supporting evidence. All are Hold and likely reflect knowledge-graph artefacts.
 
 **To proceed, the following is needed:**
+- The SAHPRA package insert (warnings, contraindications, paediatric use). This is a blocking gap.
+- Published results of NCT01527682, with dorzolamide's individual effect and the hereditary-glaucoma subgroup.
+- Mechanism of action data (MOA) from DrugBank.
+- Confirmation of the approved indication text for both SAHPRA registrations.
 
-- **SAHPRA registration pathway:** Initiate a registration application for the established glaucoma indication, or apply for Section 21 access for individual patients with compelling clinical need
-- **Genetic subtype evidence:** Larger Phase 2/3 RCTs specifically recruiting patients with genetically confirmed primary hereditary glaucoma are required before an indication-specific decision can be made
-- **Mechanism of action (MOA) data:** Retrieve complete CA-II inhibition profile from DrugBank to confirm mechanistic relevance across specific hereditary glaucoma subtypes (e.g., MYOC vs OPTN mutation carriers)
-- **Safety data package:** Obtain complete sulfonamide allergy risk profile, contraindications list, and drug interaction data; populate SAHPRA-format PI document
-- **Paediatric dosing guidance:** Primary hereditary glaucoma frequently presents in childhood — age-appropriate dosing, pharmacokinetic data, and safety data in the paediatric population must be confirmed before use
-- **Local needs assessment:** Evaluate prevalence of primary hereditary glaucoma in the South African population to support clinical and economic justification for SAHPRA registration
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

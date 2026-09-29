@@ -2,7 +2,7 @@
 layout: default
 title: Diclofenac
 parent: Model Prediction Only (L5)
-nav_order: 170
+nav_order: 173
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diclofenac: From Pain and Inflammation (NSAID) to Hypotrichosis Simplex of the Scalp
+# Diclofenac: From NSAID Pain and Inflammation Use to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Diclofenac is a widely used nonsteroidal anti-inflammatory drug (NSAID), pharmacologically indicated for pain, inflammation, and musculoskeletal conditions (formal SAHPRA-approved indication text is not available in this evidence pack, as the product is currently unregistered/not marketed in South Africa). The TxGNN model's top-ranked prediction is **Hypotrichosis Simplex of the Scalp**, with a very high similarity score (**99.69%**) but **zero supporting clinical trials and zero literature**. The evidence pack's own mechanistic analysis flags this result as a likely knowledge-graph embedding artefact rather than a biologically credible signal, and this report recommends **Hold**.
-
----
+Diclofenac is a nonsteroidal anti-inflammatory drug (NSAID) widely marketed in South Africa for pain and inflammation. The TxGNN model ranks **hypotrichosis simplex of the scalp** as its top new-indication prediction, but there are **0 clinical trials** and **0 publications** behind it. The link is a graph-based prediction only and is not credible mechanistically.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from SAHPRA registration data (drug not currently marketed in South Africa); generally described in the pharmacological literature as an NSAID for pain and inflammation |
+| Original Indication | Not stated in the registration data supplied (diclofenac is generally used as an NSAID for pain and inflammation) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.69% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 14 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a Blocking/High-severity data gap in this evidence pack). Based on general pharmacological knowledge, Diclofenac is an NSAID that inhibits cyclooxygenase (COX-1 and COX-2), reducing prostaglandin synthesis to produce anti-inflammatory, analgesic, and antipyretic effects. This mechanism underlies its established use in pain and inflammatory musculoskeletal conditions.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Diclofenac is an NSAID and is generally understood to work by inhibiting cyclooxygenase (COX), which lowers prostaglandin-driven pain and inflammation.
 
-Hypotrichosis simplex of the scalp, however, is a rare hereditary hair-loss disorder caused by mutations in keratinization/hair-follicle genes such as *APCDD1* and *CDSN*. It is a structural/developmental disorder of the hair follicle, not an inflammatory or prostaglandin-mediated condition. The evidence pack's own mechanistic assessment explicitly states there is **no known biological relationship** between COX inhibition and this disease's pathophysiology, and notes that the unusually high TxGNN score is more likely a **false positive arising from knowledge-graph embedding** than a genuine pharmacological signal.
-
-In short, this top-ranked prediction lacks mechanistic plausibility, and its high score should not be interpreted as clinical evidence. It is included here for transparency because it is the model's rank-1 output, but it does not currently meet the bar for further evaluation.
-
----
+The predicted disease is a monogenic hair-follicle disorder (for example, CDSN, APCDD1 or RPL21 variants). COX inhibition does not address these underlying defects. **No credible mechanistic link was identified**, and the high score reflects a knowledge-graph association, not clinical or biological support. This prediction should not be regarded as reasonable without new evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for hypotrichosis simplex of the scalp.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for hypotrichosis simplex of the scalp.
 
----
+## Other Predicted Candidates (Context)
+
+Nine other candidates were predicted. Only juvenile idiopathic arthritis (JIA) has any linked evidence, and it is indirect.
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 9 | Juvenile idiopathic arthritis | 99.25% | L4 | NSAIDs are a recognised symptomatic option in JIA, but there is no diclofenac-specific trial or literature. NSAIDs are not disease-modifying. |
+| 8 | Diffuse alopecia areata | 99.57% | L5 | Nominal plausibility (autoimmune inflammation), but established treatments act on immune pathways, not COX. |
+| 3 | Pseudoachondroplasia | 99.66% | L5 | NSAIDs might relieve joint pain, but there is no evidence of disease modification. |
+| 7 | Myosclerosis | 99.60% | L5 | At most a symptomatic link, which is speculative. |
+| 2, 4, 5, 6, 10 | Hunter-Thompson acromesomelic dysplasia, brachyolmia, brachyolmia-amelogenesis imperfecta syndrome, congenital hypotrichosis milia, WHIM syndrome | 99.15–99.67% | L5 | No credible mechanistic link. |
+
+Trials linked to JIA (both indirectly relevant, grade C):
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT05871086](https://clinicaltrials.gov/study/NCT05871086) | Phase 2/3 | Unknown | 60 | Coenzyme Q10 supplementation in JIA. Diclofenac is not the intervention. |
+| [NCT00688545](https://clinicaltrials.gov/study/NCT00688545) | N/A (observational) | Terminated | 275 | Safety registry of celecoxib and non-selective NSAIDs in JIA. Diclofenac data are not confirmed. |
 
 ## South Africa Market Information
 
-Diclofenac is currently **not marketed** in South Africa under this evidence pack's records, with **0 SAHPRA registrations** on file. No product-level registration data (registration number, product name, dosage form, approved indication) is available to list.
+Diclofenac has 14 SAHPRA registrations. Registered dosage forms include tablet, sachet, suppository, injection, capsule and gel. Approved indication text was not available in the data supplied.
 
----
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| A38/3.1/0651 | K-fenak otc | Tablet |
+| R/3.1/0050 | Panamor At-50 | Tablet |
+| A39/3.1/0588 | Cataflam | Sachet |
+| U/3.1/181 | Adco-diclofenac | Tablet |
+| 27/3.1/0121 | Panamor supp | Suppository |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Note: this evidence pack flags a Blocking data gap — TFDA/SAHPRA label warnings and contraindications are not yet retrieved — which by itself is sufficient to prevent this candidate from advancing to a formal safety review.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked predicted indication (hypotrichosis simplex of the scalp) has no supporting clinical trials or literature, an L5 evidence level (model prediction only), and its own mechanistic rationale flags it as a probable false positive rather than a credible repurposing hypothesis.
-- A Blocking data gap (missing SAHPRA label warnings/contraindications) independently prevents this candidate from entering safety evaluation, and the drug is not currently marketed in South Africa (0 registrations).
+The top prediction has no clinical trials or literature, and the pack identifies no credible mechanistic link between COX inhibition and a monogenic hair-follicle disorder. Only JIA has any indirect signal, and there NSAIDs would be symptomatic, not disease-modifying.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI) — warnings, contraindications, and safety data (currently a Blocking data gap)
-- Confirmed mechanism of action (MOA) documentation from DrugBank or equivalent source
-- Independent biological/preclinical rationale connecting COX inhibition to hair-follicle keratinization pathways, if this candidate is to be pursued further
-- **Note for reviewers:** a lower-ranked candidate in this same evidence pack, *Juvenile Idiopathic Arthritis* (rank 9, score 99.25%), has actual supporting clinical trial evidence (2 trials, including an NSAID-specific safety registry), a well-established mechanistic link (NSAIDs are guideline-recommended first-line symptomatic therapy for JIA), and a higher internal evidence level (L3, "Proceed with Guardrails"). This indication is mechanistically and clinically far more credible than the rank-1 score suggests and may warrant separate, prioritized evaluation.
+- SAHPRA package insert warnings and contraindications (safety screening cannot proceed without them)
+- Mechanism of action data (for example, from DrugBank)
+- Diclofenac-specific studies in the predicted indication. For JIA, a targeted literature review of diclofenac use would be the most logical starting point.
+
+*This report is for research reference only and does not constitute medical advice. Predicted repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

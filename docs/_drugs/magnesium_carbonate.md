@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Magnesium Carbonate
-parent: High Evidence (L1-L2)
-nav_order: 298
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 304
+evidence_level: L3
 indication_count: 10
 ---
 
 # Magnesium Carbonate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Carbonate: From Antacid Use to Active Peptic Ulcer Disease
+# Magnesium Carbonate: From Antacid Use (Original Indication Not Recorded) to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-> Magnesium carbonate is a classic antacid, long used to neutralize gastric acid and relieve hyperacidity symptoms.
-> The TxGNN model predicts it may be effective for **Active Peptic Ulcer Disease**,
-> with **no registered clinical trials** but **4 supporting publications** (3 of them randomized controlled trials) currently backing this direction.
+Magnesium carbonate is an acid-neutralising antacid ingredient. The South African registration record does not state its original indication.
+The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but there are **no registered clinical trials** and only **4 publications** for this indication. None of the publications test magnesium carbonate on its own.
 
 ---
 
@@ -43,23 +42,23 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the evidence pack (no SAHPRA licence text available); magnesium carbonate is classically classified as an antacid used for symptomatic relief of gastric hyperacidity |
-| Predicted New Indication | Active Peptic Ulcer Disease |
+| Original Indication | Not stated in the SAHPRA licence data |
+| Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L2 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for magnesium carbonate is not available from DrugBank in this evidence pack (data gap DG002). Based on known pharmacological classification — and consistent with the repurposing rationale attached to this candidate — magnesium carbonate is a classic antacid: it reacts with gastric hydrochloric acid to form magnesium chloride, water, and carbon dioxide, thereby neutralizing gastric acid and raising intragastric pH.
+Currently, detailed mechanism of action data is not available. Based on known pharmacology, magnesium carbonate is an antacid that buffers gastric acid. Mechanistically, it may relieve ulcer symptoms and support healing by raising gastric pH.
 
-Active peptic ulcer disease is fundamentally an acid/pepsin-mediated condition — mucosal injury occurs when acid and pepsin exposure overwhelms the stomach or duodenum's protective mechanisms. Since magnesium carbonate's core action is direct acid neutralization, the mechanistic link to peptic ulcer disease is strong and well precedented: antacids were a mainstay of ulcer therapy before H2-receptor antagonists and proton pump inhibitors (PPIs) became standard of care. Historical randomized trials (summarized below) directly tested antacid regimens against cimetidine and placebo in patients with active duodenal and prepyloric ulcers, providing direct — if dated — clinical support for this mechanistic reasoning.
+Antacids were used for peptic ulcer disease before H2 blockers and proton pump inhibitors (PPIs) became standard. This is therefore largely an established antacid use, not a novel repurposing discovery. The high TxGNN score most likely reflects that known link.
 
-Two caveats temper this otherwise strong mechanistic fit. First, magnesium salts can accumulate in patients with renal impairment, raising a hypermagnesemia risk that must be screened for before repurposing in this population. Second, magnesium carbonate can chelate with co-administered drugs such as tetracyclines and fluoroquinolones, reducing their absorption — a clinically important drug-interaction consideration even though no formal DDI data on this specific pairing were retrieved (see Safety Considerations).
+Modern care (PPIs and *H. pylori* eradication) has largely replaced antacid-based ulcer healing. Any new role would probably be adjunctive symptom relief.
 
 ---
 
@@ -73,16 +72,22 @@ Currently no related clinical trials registered for active peptic ulcer disease.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7034155](https://pubmed.ncbi.nlm.nih.gov/7034155/) | 1981 | RCT | Scandinavian Journal of Gastroenterology | In 72 patients with active duodenal/prepyloric ulcers, a 12-week double-blind trial found 3-week healing rates of 67% with cimetidine and 50% with an antacid/anticholinergic regimen, both significantly better than placebo |
-| [6755656](https://pubmed.ncbi.nlm.nih.gov/6755656/) | 1982 | RCT | Scandinavian Journal of Gastroenterology. Supplement | Companion report evaluating antacid/anticholinergic vs. cimetidine vs. placebo in active prepyloric and duodenal ulcer treatment |
-| [3003883](https://pubmed.ncbi.nlm.nih.gov/3003883/) | 1985 | RCT | Scandinavian Journal of Gastroenterology | In 80 patients with active duodenal ulcer given antacid tablets (120 mmol HCl/day neutralizing capacity) plus high- or low-fiber diet, ulcer healing was 67.5% vs. 60% at 4 weeks, with no significant difference in symptom relief between fiber groups |
-| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | Review/In-vitro | Medicine and Pharmacy Reports | Evaluated the acid-neutralizing capacity (ANC) and other pharmaceutical properties of antacid products (including magnesium-based formulations) marketed in Morocco |
+| [7034155](https://pubmed.ncbi.nlm.nih.gov/7034155/) | 1981 | RCT | Scand J Gastroenterol | 72 patients with duodenal or prepyloric ulcer. An antacid/anticholinergic combination was compared with cimetidine and placebo. At 3 weeks, healing was 67% with cimetidine (p<0.005 vs placebo) and 50% with the antacid combination. This is not magnesium carbonate alone. |
+| [6755656](https://pubmed.ncbi.nlm.nih.gov/6755656/) | 1982 | RCT | Scand J Gastroenterol Suppl | Antacid/anticholinergic, cimetidine and placebo in active prepyloric and duodenal ulcers. No abstract is available. |
+| [3003883](https://pubmed.ncbi.nlm.nih.gov/3003883/) | 1985 | RCT | Scand J Gastroenterol | 80 patients with duodenal ulcer, all on one antacid tablet four times daily. High-fibre vs low-fibre diet gave healing of 67.5% vs 60% at 4 weeks (not significant). It tests the diet, not the antacid. |
+| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | In vitro / product evaluation | Med Pharm Rep | Laboratory evaluation of the acid-neutralising capacity of antacids marketed in Morocco. No patient outcomes. |
 
 ---
 
 ## South Africa Market Information
 
-Magnesium carbonate currently has **no SAHPRA-registered products** in South Africa (Market Status: Not Marketed; Total Registrations: 0). No product-level registration data (registration number, brand name, dosage form) is available in the evidence pack.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 45/24/0919 | Osvaren | Film-coated tablet (Fct) | Not stated in the licence data |
+
+Essential Medicines List (EML) status is not available in the evidence pack.
+
+The registered product is a film-coated tablet with no recorded indication. To my recollection, Osvaren is a calcium acetate/magnesium carbonate phosphate binder rather than an antacid. This should be checked against the SAHPRA Professional Information (PI). If correct, the registered product and indication differ from the antacid use in the ulcer literature.
 
 ---
 
@@ -90,24 +95,24 @@ Magnesium carbonate currently has **no SAHPRA-registered products** in South Afr
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-Note: retrieval of TFDA/SAHPRA-equivalent label warnings and contraindications is flagged as a **Blocking** data gap (DG001) in this evidence pack — this must be resolved before a formal safety (S1) assessment can proceed. Independently, the mechanistic rationale for this candidate flags two specific risks worth monitoring even before PI data is obtained: magnesium accumulation in patients with renal impairment, and reduced absorption of co-administered tetracyclines or fluoroquinolones due to chelation.
+The drug interaction query returned no results, which is more likely missing data than proof of no interactions. Magnesium accumulation in renal impairment, and chelation-type interactions with co-administered oral drugs, should be assessed before any new use.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic link between magnesium carbonate's acid-neutralizing action and active peptic ulcer disease's acid-mediated pathophysiology is strong, and three historical RCTs support antacid efficacy in ulcer healing comparable to early H2-antagonist therapy. However, all supporting evidence predates the PPI era (1981–1985), no modern or South Africa–specific trials exist, and a blocking safety data gap remains unresolved.
+- The ulcer literature covers mixed antacid products and old comparators (cimetidine, ranitidine), so the effect of magnesium carbonate alone cannot be isolated. No clinical trials are registered.
+- The SAHPRA safety data and the original indication are missing. PPIs and *H. pylori* eradication are now standard care.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI): warnings, precautions, and contraindications (resolves blocking gap DG001)
-- Confirmed mechanism-of-action data from DrugBank (resolves gap DG002)
-- Renal-function-based dosing/monitoring guidance given magnesium accumulation risk in renal impairment
-- Drug-interaction protocol addressing chelation with tetracyclines and fluoroquinolones
-- Positioning assessment against current standard-of-care (PPIs/H2RAs), since supporting evidence predates modern ulcer therapy
-- A regulatory pathway assessment, since the product is not currently marketed or registered in South Africa
+- The SAHPRA PI (warnings, contraindications, approved indication, product composition) for Osvaren
+- Confirmation of whether the registered product has any antacid use
+- Mechanism of action data from DrugBank
+- Trials or studies of magnesium carbonate alone, or a current-standard-of-care comparison
+- A safety assessment for renal impairment and drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

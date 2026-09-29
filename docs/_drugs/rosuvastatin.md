@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rosuvastatin
-parent: Model Prediction Only (L5)
-nav_order: 396
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 404
+evidence_level: L4
 indication_count: 10
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rosuvastatin: From Hypercholesterolemia to Cholesterol-Ester Transfer Protein Deficiency
+# Rosuvastatin: From Dyslipidaemia to Cholesterol-Ester Transfer Protein Deficiency
 
 ## One-Sentence Summary
 
-> Rosuvastatin (DrugBank DB01098) is a globally established HMG-CoA reductase inhibitor (statin) used for hypercholesterolemia and mixed dyslipidemia. The TxGNN model's top-ranked prediction for this drug is **cholesterol-ester transfer protein (CETP) deficiency**, but this direction is currently supported by **0 clinical trials** and only **2 case-report publications that concern different diseases entirely**, and its underlying pathophysiology runs counter to how statins work — the evidence does not currently support this prediction.
+Rosuvastatin is a statin (an HMG-CoA reductase inhibitor) used to lower cholesterol. The SAHPRA records supplied contain no indication text, so this original use comes from the published literature.
+The TxGNN model predicts it may be effective for **cholesterol-ester transfer protein (CETP) deficiency**, but this prediction is supported by **0 clinical trials** and only **2 case reports**, so the evidence is very weak.
 
 ---
 
@@ -41,23 +42,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in local regulatory data (South Africa registration not on file); globally, rosuvastatin is an established treatment for hypercholesterolemia and mixed dyslipidemia |
-| Predicted New Indication | Cholesterol-ester transfer protein (CETP) deficiency |
+| Original Indication | Dyslipidaemia / hypercholesterolaemia (from the literature; not stated in the SAHPRA records supplied) |
+| Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 99.54% |
-| Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 5 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for this specific product is not available in the evidence pack. Based on established pharmacological knowledge, rosuvastatin is a synthetic HMG-CoA reductase inhibitor that blocks the rate-limiting step of hepatic cholesterol synthesis and up-regulates LDL-receptor expression, lowering LDL-C and triglycerides. This is the mechanistic basis for its proven, globally recognised efficacy in hypercholesterolemia and mixed dyslipidemia.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, rosuvastatin inhibits HMG-CoA reductase, which lowers cholesterol synthesis and LDL-C. Its efficacy in hypercholesterolaemia is well established.
 
-CETP deficiency, however, is a rare genetic disorder characterised by markedly **elevated HDL-C and low-to-normal LDL-C** — a lipid profile that is essentially the inverse of what statins are designed to correct. There is no established rationale for using an LDL-lowering agent to treat a condition that does not present with LDL excess, and the mechanistic link here is weak.
+The link to CETP deficiency is weak. CETP deficiency mainly causes markedly raised HDL-C, so a statin has little clear therapeutic role. The high graph score (99.54%) reflects the model's network similarity between lipid disorders. It is not backed by any disease-specific clinical data.
 
-This is reinforced by the supporting literature itself: the two publications returned are case reports of **Apo A-I deficiency** and **hepatic lipase deficiency** — genetically and clinically distinct lipid disorders — and neither study evaluates rosuvastatin or CETP deficiency directly. This pattern is consistent with a knowledge-graph adjacency artifact (both diseases cluster near "lipid/lipoprotein metabolism" nodes) rather than genuine mechanistic or clinical evidence.
+The two publications found are case reports on other rare lipid disorders (apo A-I deficiency and hepatic lipase deficiency). Neither reports rosuvastatin treatment outcomes in CETP deficiency.
 
 ---
 
@@ -71,14 +72,22 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21122686](https://pubmed.ncbi.nlm.nih.gov/21122686/) | 2010 | Case Report | Journal of Clinical Lipidology | Describes complete Apo A-I deficiency in an Iraqi Mandaean family — a distinct genetic disorder, not CETP deficiency; does not evaluate rosuvastatin |
-| [22798447](https://pubmed.ncbi.nlm.nih.gov/22798447/) | 2010 | Case Report | BMJ Case Reports | Describes hepatic lipase deficiency in a Middle-Eastern-Arabic male, incidentally reporting CETP activity/mass as a lab finding; not a treatment or outcomes study, and does not evaluate rosuvastatin |
+| [21122686](https://pubmed.ncbi.nlm.nih.gov/21122686/) | 2010 | Case report / Review | J Clin Lipidol | Complete apo A-I deficiency in an Iraqi Mandaean family. Describes a new APOA1 nonsense mutation and differing clinical presentations. No rosuvastatin outcome data. |
+| [22798447](https://pubmed.ncbi.nlm.nih.gov/22798447/) | 2010 | Case report | BMJ Case Rep | Hepatic lipase deficiency in a Middle-Eastern-Arabic male. First report of CETP activity and mass in this setting. No rosuvastatin outcome data. |
 
 ---
 
 ## South Africa Market Information
 
-No SAHPRA registrations are on file for this product in the evidence pack (0 licenses recorded; market status: Not marketed).
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 46/7.5/0222 | Rostor | Tablet | Not stated in the record supplied |
+| Reg. No. 47/7.5/0900 | Rosuvastatin 5 Pharmc | Film-coated tablet | Not stated in the record supplied |
+| Reg. No. 55/7.5/0563 | Lypovas 5 | Tablet | Not stated in the record supplied |
+| Reg. No. 55/7.5/0779 | Lypstaplus 10 Mg/10 Mg | Tablet | Not stated in the record supplied |
+| Reg. No. 54/7.5/0693 | Reguchole 10/5Mg | Tablet | Not stated in the record supplied |
+
+All five products are oral tablets. Some product names suggest fixed-dose combinations, but the record does not list their ingredients. Essential Medicines List (EML) status was not included in the data.
 
 ---
 
@@ -93,17 +102,17 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-- No clinical trials support this indication, the two available publications concern unrelated lipid disorders and do not evaluate rosuvastatin, and the predicted disease's lipid profile (high HDL/low LDL) is mechanistically inconsistent with a statin's LDL-lowering action. This prediction should be treated as knowledge-graph noise rather than a genuine repurposing lead.
+The prediction rests on a model score alone. The only literature is two case reports on related but different disorders, there are no trials, and CETP deficiency is characterised by high HDL-C, so a statin has a weak therapeutic rationale.
+
+Two other predictions in the same Evidence Pack, familial hypercholesterolaemia and hyperlipidaemia, have Level 1 evidence. They are most likely established uses of rosuvastatin rather than true repurposing, and should be confirmed against the regulatory record.
 
 **To proceed, the following is needed:**
-- Direct pharmacological or case evidence of rosuvastatin use specifically in CETP-deficient patients, if this hypothesis is to be revisited
-- SAHPRA product registration and Professional Information data for rosuvastatin, currently unavailable locally
-- Confirmed original mechanism of action (MOA) documentation, currently a data gap
+- SAHPRA Professional Information (PI) with approved indications, warnings and contraindications
+- Mechanism of action data from DrugBank
+- Any disease-specific clinical data (case series or registry data) on statin use in CETP deficiency
+- Confirmation of the original indication from the regulatory record
 
-**Note for reviewers:** This evidence pack contains multiple TxGNN predictions for rosuvastatin with substantially stronger evidence bases than the top-ranked candidate above, and may warrant separate evaluation:
-- **Familial hypercholesterolemia** (L1, 24 clinical trials incl. multiple Phase 3 RCTs, 13 publications) — recommendation: Proceed with Guardrails. This reflects rosuvastatin's core, already-established statin-class indication rather than a novel repurposing hypothesis.
-- **Hyperlipidemia** (L1, 50 clinical trials, 20 publications) — recommendation: Proceed with Guardrails, for the same reason.
-- **HIV infectious disease** (L2, 19 clinical trials, 20 publications) — recommendation: Research Question. This is a genuine novel-mechanism hypothesis (anti-inflammatory/immunomodulatory reduction of chronic immune activation and cardiovascular risk in people with HIV), distinct from rosuvastatin's lipid-lowering original use, and may be a more productive repurposing direction than CETP deficiency.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

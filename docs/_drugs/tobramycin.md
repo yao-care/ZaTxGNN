@@ -2,7 +2,7 @@
 layout: default
 title: Tobramycin
 parent: Moderate Evidence (L3-L4)
-nav_order: 438
+nav_order: 446
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,88 +29,84 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using no additional tool orchestration for this one — this is a direct content-generation task against the Evidence Pack schema described in your report prompt, so I'm writing the report directly from the JSON provided.
-
-A few notes on judgment calls made while drafting (flagging per the "動手前驗證/報告規則" discipline rather than silently guessing):
-
-- `original_indications` and `taiwan_regulatory.licenses` are both empty, so there is no SAHPRA-approved indication text to extract. I did not fabricate one; instead I stated plainly that no registration/indication record exists, and used only the antibiotic-class background that the evidence pack's own `repurposing_rationale` fields repeatedly reference (Pseudomonas aeruginosa / aminoglycoside).
-- `predicted_indications[0].scoring.recommendation` is `"Research Question"`, which isn't one of the three template buckets (Go / Hold / Proceed with Guardrails). I mapped it to **Hold** and said so explicitly, rather than silently renaming it.
-- DG001 (TFDA/SAHPRA label data) is marked `Blocking` severity in `meta.data_gaps` — I surfaced this in the Conclusion since it directly limits how far this candidate can even be evaluated.
-
----
-
-# Tobramycin: From Bacterial Infections to Exposure Keratitis
+# Tobramycin: From Topical Ophthalmic Antibacterial to Exposure Keratitis
 
 ## One-Sentence Summary
 
-Tobramycin is an aminoglycoside antibiotic historically used against serious gram-negative bacterial infections, most notably *Pseudomonas aeruginosa* (e.g. in cystic fibrosis and complicated urinary tract infections). The TxGNN model predicts it may be effective for **Exposure Keratitis**, but this direction is currently supported by only **2 clinical trials** (both of low, indirect relevance) and **7 publications** (mostly case reports and an in-vitro toxicity study) — and one of those publications specifically shows tobramycin can be toxic to corneal epithelial cells, which is the exact tissue already compromised in exposure keratitis.
+Tobramycin is an aminoglycoside antibiotic. Its two South African registrations are for eye drops and eye ointment, so its original use is topical ocular anti-infective therapy. The TxGNN model predicts it may be useful for **exposure keratitis**. The current support is weak: **2 registered trials** (neither actually tests tobramycin) and **7 publications** (case reports, in vitro and laboratory studies, no randomised trials).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No SAHPRA registration record available (drug not marketed in South Africa). Internationally, tobramycin is indicated for serious bacterial infections, particularly *Pseudomonas aeruginosa* (e.g. cystic fibrosis, complicated UTI, malignant otitis externa) |
-| Predicted New Indication | Exposure Keratitis |
-| TxGNN Prediction Score | 99.93% |
+| Original Indication | Not recorded in the registration data. Ophthalmic dosage forms suggest topical ocular anti-infective use. |
+| Predicted New Indication | Exposure keratitis |
+| TxGNN Prediction Score | 99.93% (model rank 671) |
 | Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, tobramycin is an aminoglycoside antibiotic; its efficacy against gram-negative bacterial infections (especially *Pseudomonas aeruginosa*) has been well established, and topical aminoglycoside formulations (including tobramycin eye drops) are already used clinically for bacterial keratitis.
+Detailed mechanism-of-action data is not available in the Evidence Pack. Tobramycin is known to be a bactericidal aminoglycoside that binds the 30S ribosomal subunit. It is already used on the eye surface in the form of the registered drops and ointment.
 
-Exposure keratitis, however, is primarily a **mechanical/desiccation injury** of the cornea caused by incomplete eyelid closure (lagophthalmos), not a primary infection. Its first-line management is lubrication and eyelid closure measures; antibiotics such as tobramycin would at most play a role in preventing or treating a *secondary* bacterial infection superimposed on an already-damaged corneal surface — not in treating the underlying condition itself.
+Exposure keratitis occurs when the cornea is not adequately protected by the eyelids. Examples are patients who cannot close their eyes, such as those who are sedated or in a vegetative state. The dried, damaged corneal surface is prone to secondary bacterial infection, and a topical antibacterial could plausibly help treat or prevent that infection. Note that the benefit would come from treating the infection, not from any effect on the underlying exposure.
 
-This mechanistic link is further complicated by a genuine safety signal in the evidence: an in-vitro study (PMID 2707046) found that aminoglycosides, including tobramycin, are directly cytotoxic to corneal epithelial cells. Since exposure keratitis already involves compromised corneal epithelium, using tobramycin in this population could plausibly worsen epithelial injury rather than help it. This is a case where the TxGNN score is high, but the biological rationale argues for caution rather than confidence.
+A safety concern runs against this. An in vitro study (PMID 2707046) found that aminoglycosides, including tobramycin, are toxic to corneal epithelial cells. On an already compromised ocular surface, this could work against healing.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05313828](https://clinicaltrials.gov/study/NCT05313828) | N/A | Unknown | 40 | Compared treatment modalities for dendritic (herpes simplex virus) corneal ulcer — a viral condition, not exposure keratitis, and tobramycin was not the primary intervention studied. Evidence-pipeline relevance grade: **C (low)**. |
-| [NCT06200727](https://clinicaltrials.gov/study/NCT06200727) | N/A | Unknown | 170 | Evaluated platelet-rich fibrin (PRF) membrane across four ophthalmic conditions (macular hole, pterygium, corneal ulcer, post-trabeculectomy glaucoma); not focused on tobramycin or on exposure keratitis. Evidence-pipeline relevance grade: **C (low)**. |
+| [NCT05313828](https://clinicaltrials.gov/study/NCT05313828) | N/A | Unknown | 40 | Treatment options for dendritic (viral) corneal ulcer. Tobramycin is not a confirmed intervention and has no antiviral activity. |
+| [NCT06200727](https://clinicaltrials.gov/study/NCT06200727) | N/A | Unknown | 170 | Platelet-rich fibrin membrane in ophthalmic disease, including corneal ulcer. Not a tobramycin study. |
+
+No SANCTR or PACTR registrations were identified in the Evidence Pack. Both trials were graded low relevance (C), so they provide no direct support for this prediction.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Case report | Oxford Medical Case Reports | Bacterial keratitis (multi-drug-resistant *Shewanella algae*) in a bedridden, vegetative-state patient unable to close his eyes — clinically relevant to the exposure/lagophthalmos-plus-infection scenario, but tobramycin efficacy was not directly tested in this case. |
-| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In-vitro toxicity study | Current Eye Research | Compared corneal epithelial cytotoxicity of four aminoglycosides (neomycin, gentamicin, **tobramycin**, amikacin) in cultured rabbit corneal epithelial cells — shows direct epithelial toxicity, a safety signal directly relevant to applying tobramycin on an already-damaged exposure-keratitis cornea. |
-| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Case report | Ophthalmology | Contact lens-associated *Bacillus cereus* keratitis — a general bacterial keratitis case, not specific to exposure keratitis. |
-| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Case report | Eye & Contact Lens | Bilateral MRSA keratitis following photorefractive keratectomy — general post-surgical bacterial keratitis, not exposure-related. |
-| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | In-vitro comparison study | Nippon Ganka Gakkai Zasshi | MIC and postantibiotic effect of antibiotic eye drops against Japanese infectious-keratitis isolates — general susceptibility data, not exposure-keratitis specific. |
-| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Retrospective case series (veterinary) | Polish Journal of Veterinary Sciences | Feline ocular toxoplasmosis outcomes — veterinary data, not directly applicable to human tobramycin use. |
-| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Case report | Yan Ke Xue Bao (Eye Science) | Corneal dellen as a rare sign of Graves ophthalmopathy — unrelated to tobramycin or infection. |
+| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Case report | Oxford Med Case Rep | Multidrug-resistant *Shewanella algae* keratitis in a patient who could not close his eyes, which is the exposure setting. |
+| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Case report | Ophthalmology | *Bacillus cereus* keratitis linked to contact lens wear. |
+| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Case report | Eye & Contact Lens | Bilateral MRSA keratitis after photorefractive keratectomy. |
+| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro study | Curr Eye Res | Neomycin, gentamicin, tobramycin and amikacin were toxic to rabbit corneal epithelial cells in culture. |
+| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | In vitro study | Nippon Ganka Gakkai Zasshi | Compared MIC and post-antibiotic effect of antibiotic eye drops on isolates from infectious keratitis in Japan. |
+| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Case report | Yan Ke Xue Bao | Paracentral corneal dellen as a rare sign of Graves ophthalmopathy. Marginal relevance. |
+| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Veterinary case series | Pol J Vet Sci | Feline ocular toxoplasmosis. Not applicable to human exposure keratitis. |
+
+No randomised or controlled human studies of tobramycin in exposure keratitis were found.
 
 ## South Africa Market Information
 
-Tobramycin currently has **no SAHPRA registrations on record** in this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No product/registration table can be produced until SAHPRA registration data becomes available.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 49/15.3/0196 | Mydex | Drops |
+| Reg. No. X/15.3/92 | Tobradex 3.5g | Eye ointment |
+
+The approved indication text and Essential Medicines List status are not recorded for these registrations. Both registered forms are topical, and no systemic or inhaled tobramycin product appears in this dataset.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-Structured safety fields (key warnings, contraindications, drug-drug interactions) are all marked as data gaps in this evidence pack — this is itself flagged as a **Blocking** gap (DG001: TFDA/SAHPRA label warnings and contraindications), meaning a formal safety (S1) evaluation cannot proceed until this is resolved. Separately, the mechanistic evidence reviewed above (PMID 2707046) indicates aminoglycosides as a class, including tobramycin, carry known corneal epithelial toxicity — a signal worth flagging for clinical judgment even though it does not come from a formal PI source.
+One point from the evidence gathered is directly relevant to this indication. Laboratory data show aminoglycoside toxicity to corneal epithelium (PMID 2707046), which could be a concern on an already damaged ocular surface.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The evidence pack itself scores this candidate as "Research Question" (decision stage S1), the earliest and least confident recommendation tier.
-- Supporting evidence is weak and mostly off-target (grade-C trials, case reports, veterinary/in-vitro studies) rather than direct evidence of tobramycin efficacy in exposure keratitis.
-- A genuine mechanistic concern exists: the drug's own class-level corneal epithelial toxicity could plausibly worsen the condition it is being proposed to treat.
-- A **Blocking** data gap (DG001 — TFDA/SAHPRA label warnings/contraindications) prevents this candidate from formally entering safety evaluation at all.
+The prediction score is high, but no study has tested tobramycin in exposure keratitis. Both listed trials are unrelated to tobramycin, and the literature is limited to case reports and laboratory studies. Tobramycin's potential corneal epithelial toxicity is a further reason for caution.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI) — warnings, contraindications, and DDI data (currently blocking).
-- Confirmed mechanism of action data from DrugBank (currently a data gap).
-- A dedicated pharmacology/toxicology assessment of topical aminoglycoside use on compromised corneal epithelium before any clinical exploration.
-- Direct clinical evidence (even preclinical) specifically evaluating tobramycin — rather than other agents or unrelated ophthalmic interventions — in exposure keratitis.
+- The SAHPRA-approved Professional Information, for warnings and contraindications and the registered indication text.
+- Mechanism-of-action data from DrugBank.
+- Clinical data specific to exposure keratitis, for example comparative or observational studies of topical tobramycin in patients with incomplete eyelid closure.
+- An assessment of whether the tobramycin products registered in South Africa (drops and eye ointment) match the route needed for this use.
 
-**Note on other candidates in this evidence pack:** Exposure keratitis was evaluated here because it is `predicted_indications[0]` (highest TxGNN score). However, rank 3 in the same pack — **otitis externa** (TxGNN score 99.81%, Evidence Level L3, decision stage S2, recommendation "Proceed with Guardrails") — has materially stronger literature support, including cohort-level toxicity follow-up data for tobramycin in malignant otitis externa (an established off-label use pattern), and may warrant a separate, dedicated evaluation report.
+Other TxGNN predictions for tobramycin have stronger support and may be better research priorities. These include inhaled tobramycin for *Pseudomonas aeruginosa* infection in bronchiectasis, which has Phase 3 and Phase 4 trials, and otitis externa. No inhaled product appears in the current South African registrations.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

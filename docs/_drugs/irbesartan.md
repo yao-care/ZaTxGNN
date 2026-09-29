@@ -2,7 +2,7 @@
 layout: default
 title: Irbesartan
 parent: Model Prediction Only (L5)
-nav_order: 265
+nav_order: 271
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,95 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Irbesartan: From Hypertension/Diabetic Nephropathy to Malignant Renovascular Hypertension
+# Irbesartan: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Irbesartan is a well-established angiotensin II type 1 (AT₁) receptor blocker (ARB) used for the treatment of hypertension and renoprotection in patients with type 2 diabetes and nephropathy.
-The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, achieving a prediction score of **99.31%**.
-However, **no clinical trials** and **no direct supporting publications** are currently available for this specific indication, and a clinically important safety risk — acute kidney injury in the setting of renal artery stenosis — must be carefully considered.
-
----
+Irbesartan is an angiotensin II receptor blocker, marketed in South Africa as an oral tablet. The SAHPRA indication text was not supplied, so its original use is taken from general drug-class knowledge.
+The TxGNN model predicts it may be useful for **malignant renovascular hypertension**, but there are currently **0 clinical trials** and **0 relevant publications** supporting this. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension; renoprotection in type 2 diabetic nephropathy |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+|------|------|
+| Original Indication | Hypertension (general class knowledge; not stated in the supplied SAHPRA data) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not registered |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not available in the supplied pack. Irbesartan belongs to the angiotensin II type 1 (AT1) receptor blocker class. Renovascular hypertension is driven largely by activation of the renin-angiotensin system, so blocking this pathway is biologically plausible.
 
-Currently, formal mechanism of action data is not available in this evidence pack. Based on established pharmacology, Irbesartan is an angiotensin II type 1 (AT₁) receptor antagonist. It competitively and selectively blocks the binding of angiotensin II to AT₁ receptors, thereby inhibiting angiotensin II-mediated vasoconstriction, aldosterone secretion, and renal tubular sodium reabsorption. Its proven renoprotective effects — most notably demonstrated in the landmark IDNT Trial (NEJM 2001) in type 2 diabetic nephropathy — establish its utility in RAAS-driven renal disease.
+However, the 99.31% TxGNN score is a computational prediction only. Several cautions apply:
 
-Malignant renovascular hypertension arises from severe renal artery stenosis, which triggers intense renin release, angiotensin II overproduction, and markedly elevated blood pressure with end-organ damage including hypertensive encephalopathy, retinopathy, and nephropathy. Because the pathophysiology is driven by RAAS over-activation, the mechanistic rationale for an ARB such as Irbesartan is conceptually compelling. This overlap likely accounts for the model's high confidence score.
-
-However, a critical clinical safety concern tempers this prediction: in the specific setting of significant bilateral renal artery stenosis (or unilateral stenosis in a solitary functioning kidney), the glomerular filtration rate depends heavily on angiotensin II-mediated efferent arteriolar tone to maintain intraglomerular pressure. Blocking this with an ARB can precipitate acute functional kidney injury. This represents a well-recognised class-effect risk that is directly applicable to the predicted indication and must be weighed against any potential benefit.
-
----
+- Malignant (accelerated) hypertension is a hypertensive emergency. It is normally managed with titratable IV agents, so an oral ARB is unlikely to be first-line.
+- ARBs carry a known risk of acute decline in kidney function in bilateral renal artery stenosis or stenosis in a solitary kidney. This is the very population in which renovascular hypertension occurs.
+- The related prediction "malignant hypertensive renal disease" has an identical score. The two are probably correlated, not independent evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Irbesartan in malignant renovascular hypertension.
-
----
+Currently no related clinical trials registered. No SANCTR, PACTR or ICTRP records were retrieved for this drug-indication pair.
 
 ## Literature Evidence
 
-Currently no related literature directly linking Irbesartan to malignant renovascular hypertension is available.
-
-> **Note on adjacent evidence:** A PubMed search for Irbesartan in the related indication *pulmonary hypertension owing to lung disease/hypoxia* (TxGNN rank 3) returned 20 publications; however, on review these articles address general hypoxia biology (e.g., HIF signalling, neurological effects of hypoxia, tumour hypoxia) and are not directly relevant to Irbesartan's clinical use in pulmonary hypertension. They are not tabulated as supporting evidence for this report.
-
----
+Currently no related literature available for malignant renovascular hypertension.
 
 ## South Africa Market Information
 
-Irbesartan is currently **not registered with SAHPRA** and holds **no active product licences** in South Africa.
-
 | Registration Number | Product Name | Dosage Form | Approved Indication |
-|---|---|---|---|
-| — | — | — | No registered products found |
+|---------|------|------|-----------|
+| Reg. No. 46/7.1.3/0124 | Jubitan | Tablet | Not stated in supplied data |
+| Reg. No. 42/7.1.3/0116 | Co Irbewin 300/25 | Tablet | Not stated in supplied data |
+| Reg. No. 45/7.1.3/0073 | Isart Co 150 | Tablet | Not stated in supplied data |
 
-> **Regulatory pathway note:** Healthcare professionals wishing to use Irbesartan in South Africa may need to apply for access via the **SAHPRA Section 21 (unregistered medicines) pathway**. Irbesartan is registered and commercially available in multiple other jurisdictions including the European Union, United States (FDA), and United Kingdom (MHRA), and could in principle be sourced through this route pending SAHPRA approval.
-
----
+All three products are oral tablets. The "Co" product names suggest fixed-dose combinations. Confirm the exact composition in the SAHPRA Professional Information (PI). Essential Medicines List (EML) status was not provided.
 
 ## Safety Considerations
 
-Detailed SAHPRA-approved safety data (warnings, contraindications, and drug interactions) is not available in this evidence pack.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA via the MedSafety online reporting system.
-
-> **Clinically important alert specific to this predicted indication:** ARBs — including Irbesartan — are generally **contraindicated** or must be used with extreme caution in patients with haemodynamically significant bilateral renal artery stenosis, or unilateral stenosis in a solitary kidney. In the specific context of malignant renovascular hypertension, initiating Irbesartan without first confirming the anatomy of the renal vasculature (e.g., via renal Doppler ultrasound or CT angiography) carries a risk of precipitating acute kidney injury. This safety concern is directly relevant to the predicted indication and must be a primary consideration in any clinical decision.
-
----
+Class-level concerns raised in the prediction assessment for this setting:
+- Acute kidney injury and hyperkalaemia risk in patients with severe hypertensive renal involvement.
+- Acute renal function decline in bilateral renal artery stenosis or stenosis in a solitary kidney.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although there is a coherent mechanistic basis for Irbesartan in RAAS-driven renovascular disease, there is currently no clinical trial or direct literature evidence to support its use in malignant renovascular hypertension (Evidence Level: L5), and a well-characterised drug class safety risk — acute kidney injury from loss of angiotensin II-dependent efferent tone — poses a potentially serious hazard in precisely this patient population.
+The prediction has a plausible mechanism, but there are no trials or relevant literature. The condition is an emergency where oral ARBs are not standard first-line therapy, and renal safety concerns are significant.
 
 **To proceed, the following is needed:**
+- SAHPRA PI warnings, contraindications and approved indication text, so safety screening can begin.
+- Mechanism of action data from DrugBank to support the mechanistic-link analysis.
+- Targeted searches for irbesartan or ARB studies in renovascular and malignant hypertension. The current literature hits are unrelated hypoxia papers.
+- A clinical assessment of whether an oral ARB has any role in this emergency setting, with particular attention to renal artery stenosis.
 
-- **Regulatory status:** Apply for SAHPRA Section 21 authorisation before any clinical use, given that Irbesartan is currently unregistered in South Africa
-- **Mechanistic data:** Obtain complete MOA data from DrugBank or published pharmacology literature to formally support the mechanistic link
-- **Safety clarification:** Define the renal artery anatomy threshold (bilateral vs unilateral stenosis, degree of stenosis) below which ARB use may be considered acceptable versus contraindicated in this patient group
-- **Clinical evidence:** Commission or identify observational data, case series, or prospective studies examining ARB use in malignant renovascular hypertension
-- **Renal function monitoring plan:** Develop a structured monitoring protocol (serum creatinine, eGFR, electrolytes) for any pilot clinical use
-- **Expert consultation:** Engage nephrology and hypertension specialists to assess clinical feasibility before moving beyond the research stage
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require rigorous clinical validation before therapeutic application. All information should be interpreted in the context of applicable South African clinical guidelines and SAHPRA regulations.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

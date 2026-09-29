@@ -2,7 +2,7 @@
 layout: default
 title: Threonine
 parent: Model Prediction Only (L5)
-nav_order: 435
+nav_order: 443
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,86 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-Using the evidence pack directly (no skill applies — this is a self-contained report-writing task per the detailed format instructions already provided). Here is the report:
-
----
-
-# Threonine: From Essential Amino Acid (No Approved Indication) to Gastroparesis
+# Threonine: From an Amino Acid Nutrition Ingredient to Gastroparesis
 
 ## One-Sentence Summary
 
-> Threonine is an essential amino acid with no approved therapeutic indication and no SAHPRA market registration in South Africa — it is a nutritional component, not a registered medicine.
-> The TxGNN model predicts a possible association with **Gastroparesis**, but on verification this is supported by **0 clinical trials** and only **1 preclinical animal study**, which itself does not actually investigate threonine and appears to be a keyword-matching artifact.
-> **This prediction should be treated as unsupported until independently re-verified.**
-
----
+Threonine is an essential amino acid. In South Africa it appears as an ingredient in registered products such as parenteral nutrition and peritoneal dialysis solutions, but no approved indication text is recorded for it.
+The TxGNN model predicts it may be useful for **gastroparesis**, but there are **0 registered clinical trials** and only **1 publication**, which does not test threonine itself.
+This is a model-only signal and not yet a supported lead.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not applicable — no approved therapeutic indication is registered for THREONINE; it is classified as an essential amino acid / nutritional component |
+| Original Indication | Not recorded in the SAHPRA data; the registered products are mainly nutrition and dialysis solutions |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.32% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 13 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for THREONINE is not available (original_moa: Data Gap), and no original approved indication is on record — THREONINE is not registered as a therapeutic drug in South Africa or elsewhere in this dataset; it functions as a nutritional/essential amino acid component.
+Currently, detailed mechanism of action data is not available for threonine. It is a nutritional amino acid that appears in several registered products. No approved indication is recorded, so the link between its original use and gastroparesis cannot be assessed directly.
 
-On closer examination, the single literature record returned for this prediction (PMID 28627597) does **not** actually study threonine supplementation or pharmacology. It examines PI3K‑AKT‑mTOR and AMPK‑mTOR signaling in a diabetic rat model of gastroparesis — AKT and mTOR are *serine/threonine kinases*, a class named for the amino acid residues they phosphorylate. The most probable explanation is that the TxGNN knowledge graph and/or the literature-matching pipeline linked this paper to the drug entity "THREONINE" purely through this lexical overlap ("threonine kinase"), not because the paper studies the amino acid as a therapeutic agent.
+The one retrieved paper (PMID 28627597) describes disease biology in a rat model of diabetic gastroparesis. It reports gastric smooth muscle cell apoptosis and changes in PI3K-AKT-mTOR and AMPK-mTOR signalling. The title is truncated, so this reading is inferred. The paper does not appear to test threonine.
 
-Consequently, there is no credible mechanistic rationale connecting THREONINE to gastroparesis treatment. The high TxGNN score (99.32%, rank 3608) reflects graph-topological similarity within the model only, and is not corroborated by any genuine biological or clinical evidence in this evidence pack. This prediction should be flagged as a likely **false positive driven by keyword collision** rather than a genuine repurposing signal.
-
----
+A speculative link is that amino acids can influence mTOR signalling. No data in this pack show that threonine affects these pathways in gastric smooth muscle. The very high TxGNN score comes from graph-based prediction and should not be read as clinical support.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered. No SANCTR, PACTR or ICTRP entries were found.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28627597](https://pubmed.ncbi.nlm.nih.gov/28627597/) | 2017 | Animal/Preclinical (Basic Research) | Molecular Medicine Reports | Examined gastric smooth muscle apoptosis and PI3K‑AKT‑mTOR / AMPK‑mTOR signaling in a diabetic rat model of gastroparesis. **Does not study threonine as an agent** — likely matched to this drug candidate only via the "serine/threonine kinase" term (AKT/mTOR), not genuine pharmacological evidence. |
-
-**Caution:** This is the only literature record supporting the prediction, and it has been assessed as not directly relevant to THREONINE. Treat this evidence base as effectively empty pending independent literature re-screening.
-
----
+| [28627597](https://pubmed.ncbi.nlm.nih.gov/28627597/) | 2017 | Preclinical animal study (inferred, not verified) | Molecular Medicine Reports | Examined gastric smooth muscle cell apoptosis and PI3K-AKT-mTOR and AMPK-mTOR signalling in diabetic rats with gastroparesis. Threonine does not appear to be tested. |
 
 ## South Africa Market Information
 
-THREONINE currently has **no SAHPRA registrations** (0 licenses on record) and is **not marketed** in South Africa as a registered pharmaceutical product. No approved Professional Information (PI) exists for this substance in a therapeutic context.
+There are 13 registrations in total; the five below are the main ones listed. The SAHPRA indication text is not recorded for any of them. EML inclusion status is not available in the data provided.
 
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| G2370 (ACT 101/1965) | Cicatrin Powder 15G | Powder | Not recorded |
+| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not recorded |
+| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not recorded |
+| 38/34/0172 | Extraneal 2L single bag | Infusion | Not recorded |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not recorded |
+
+The ingredient-to-product mapping should be checked. The Adco-ipratropium entry is not an obvious threonine-containing product.
 
 ## Safety Considerations
 
-Because THREONINE is not registered as a pharmaceutical product in South Africa, no SAHPRA-approved Professional Information (PI) exists for it, and no warnings, contraindications, or drug-interaction data are available in this evidence pack (flagged as a **Blocking** data gap — DG001: TFDA/SAHPRA label warnings and contraindications). Any clinical use for a novel indication would need to proceed without a regulatory safety baseline until this gap is resolved.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- Evidence level is L5 — this is a model-generated prediction with no supporting clinical trials and only one literature record, which on review does not actually pertain to threonine's pharmacology.
-- The drug has no approved indication, no mechanism-of-action data, no SAHPRA registration, and no safety/label data available (Blocking data gap DG001), so it cannot currently pass even an initial safety screening (S0/S1).
+The prediction rests only on a model score. There are no registered trials, and the single paper covers disease biology without testing threonine. Safety data are missing, so the case cannot move to safety screening.
 
 **To proceed, the following is needed:**
-- Independent literature re-screening for genuine threonine–gastroparesis studies (the current single citation appears to be a false match)
-- Resolution of Blocking data gap DG001 (SAHPRA/TFDA label warnings and contraindications) before any safety assessment can begin
-- Resolution of High-priority data gap DG002 (verified mechanism of action) to establish a credible biological rationale
-- Confirmation of whether THREONINE would be regulated as a drug or remain classified as a nutritional/dietary substance if this indication were pursued
-- If re-screening surfaces no genuine supporting evidence, this candidate should be deprioritized rather than advanced further
+- SAHPRA package insert warnings and contraindications (download and parse the PI PDFs)
+- Mechanism of action data for threonine (for example from DrugBank)
+- The approved indications for the registered products, and confirmation that each registration actually contains threonine
+- Evidence that threonine acts on gastric motility or the relevant signalling pathways (mechanistic or preclinical studies)
+- Assessment of route compatibility, since the registered forms are powder and infusions and no required route for gastroparesis has been defined
+
+*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

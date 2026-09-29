@@ -2,7 +2,7 @@
 layout: default
 title: Tenofovir Alafenamide
 parent: Model Prediction Only (L5)
-nav_order: 428
+nav_order: 436
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,60 +29,106 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Tenofovir Alafenamide: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Tenofovir Alafenamide: From Antiviral Therapy to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Tenofovir alafenamide (TAF) is a nucleotide reverse transcriptase inhibitor prodrug whose established antiviral activity underlies its known use against HIV-1 (and, per its drug class, hepatitis B). The TxGNN model's top-ranked prediction for this candidate is **Feline Acquired Immunodeficiency Syndrome (FIV)** — a lentiviral infection in cats — with **0 clinical trials** and **0 publications** currently supporting this specific link. This is a pure mechanism-based extrapolation with no empirical (animal or human) data behind it.
+Tenofovir alafenamide (TAF) is an antiviral nucleotide reverse transcriptase inhibitor that is currently marketed in South Africa under 4 SAHPRA registrations.
+The TxGNN model ranks **feline acquired immunodeficiency syndrome** as its top prediction, but no clinical trials or publications support it.
+The best-supported related signal is **simian immunodeficiency virus (SIV) infection**, with **8 preclinical publications** and **1 indirectly related trial**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (inferred from mechanistic rationale; structured original-indication data not available) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV) |
+| Original Indication | Not stated in the registration data provided |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome (veterinary) |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 (SIV infection, rank 2: L4) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for tenofovir alafenamide is not available in this evidence pack (flagged as a data gap). Based on known pharmacology, TAF is a prodrug of tenofovir, a nucleotide analogue that inhibits reverse transcriptase — the enzyme lentiviruses (including HIV-1) require to replicate.
+Detailed mechanism of action data is not currently available. TAF is a nucleotide reverse transcriptase inhibitor. After it is converted inside cells to tenofovir diphosphate, it blocks the reverse transcriptase enzyme that lentiviruses need to replicate.
 
-FIV, the feline analogue of HIV, is also a lentivirus. The TxGNN model appears to have drawn an analogy between TAF's proven reverse-transcriptase-inhibiting activity against HIV-1/HBV and FIV's shared lentiviral replication machinery. This is a biologically plausible mechanistic link, but it is **purely a mechanism-level extrapolation**: there is no clinical trial, no published in vitro/in vivo study, and no veterinary pharmacology data in this evidence pack that tests TAF against FIV specifically.
+Feline immunodeficiency virus (FIV) is a lentivirus that replicates through reverse transcriptase, so an antiviral rationale is plausible. However, this rests only on the model score and class-level reasoning. FIV is also a veterinary pathogen, which limits relevance to human drug repurposing.
 
-It is also important to note that FIV is a veterinary (feline) disease entity, not a human clinical indication. Even if the mechanistic rationale holds, this prediction as stated has no direct pathway to human therapeutic use and would need reframing (e.g., as a veterinary research signal) before it has any relevance to a South African human-health formulary decision.
+The rank 2 prediction, **SIV infection**, has more support. SIV and SHIV infection in macaques are standard preclinical models of HIV. Several macaque studies test TAF-based regimens directly, including oral emtricitabine/TAF, a vaginal implant and topical GS-7340. This mainly supports the HIV-1 rationale, which is likely already an approved use, so it is probably not a new repurposing signal. The registration data provided contain no original indication, so the HIV-1 label status should be confirmed first.
+
+The rank 3 prediction, a rare genetic neurodevelopmental disorder (ataxic gait, absent speech, decreased cortical white matter), has no identifiable mechanistic link to TAF. Its score (99.87%) is nearly identical to the others, which suggests a knowledge-graph artifact rather than a specific signal.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are currently registered for the rank 1 prediction (feline AIDS). For rank 2 (SIV infection), one trial was retrieved:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Vedolizumab plus antiretroviral therapy to achieve virological remission in HIV-infected people. The population is HIV, not SIV, and TAF is not the investigational agent, so this is only indirect support (relevance grade C). |
+
+No SANCTR or PACTR records were identified in the data provided.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the rank 1 prediction. The table below covers rank 2 (SIV infection). All are animal or model studies, and none is an RCT.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Animal study (macaque) | Nature Communications | Early treatment with oral emtricitabine/TAF and long-acting cabotegravir/rilpivirine in RT-SHIV-infected macaques, aimed at viral remission |
+| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Animal study (macaque) | J Infect Dis | TAF/elvitegravir vaginal inserts for post-exposure protection against SHIV. Earlier work showed 93% and 100% protection when given 4 hours before or after exposure. |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Model development (humanized mouse) | Front Immunol | Dual-purpose mouse model for testing antiviral strategies against both SIV and HIV |
+| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Animal study (macaque) | J Antimicrob Chemother | Safety and efficacy of a biodegradable TAF implant for vaginal PrEP |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Animal study (macaque) | J Infect Dis | Oral TAF/emtricitabine versus TAF alone against repeated vaginal SHIV exposure |
+| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Methods (rhesus macaque) | PLoS One | Protocol for daily oral antiretroviral dosing in macaques with high compliance |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Animal study (macaque) | J Infect Dis | Oral emtricitabine/TAF chemoprophylaxis protected macaques from rectal SHIV infection |
+| [22740713](https://pubmed.ncbi.nlm.nih.gov/22740713/) | 2012 | Animal study (macaque) | J Infect Dis | Breakthrough acute SHIV infection during oral PrEP showed reduced inflammation and CD4 loss |
+
+A further study is [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) (2006, J Acquir Immune Defic Syndr), which evaluated oral tenofovir disoproxil fumarate and topical tenofovir GS-7340 in infant macaques against repeated oral SIV challenge.
+
+---
 
 ## South Africa Market Information
 
-Tenofovir alafenamide is currently **not marketed** in South Africa under this evidence pack, with **0 SAHPRA registrations** on record. No product/registration-level detail is available to tabulate.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 52/20.2.8/0273 | Vemlidy | Fct |
+| Reg. No. 55/20.2.8/0080.079 | Tafbin | Fct |
+| Reg. No. 55/20.2.8/0455 | Altaeda | Fct |
+| Reg. No. 56/20.2.8/0020 | Tavirant | Fct |
+
+The approved indication text and Essential Medicines List status are not available in the data provided.
+
+---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate rests entirely on a mechanistic analogy (shared lentiviral reverse transcriptase target) with zero supporting clinical trials, zero publications, and no confirmed original indication or MOA data on file. The predicted disease (FIV) is also a veterinary condition, not a human indication, further limiting immediate relevance.
+The top-ranked prediction (feline AIDS) is a veterinary indication with no trials or literature behind it. The SIV signal is preclinical only, and it mostly restates the HIV-1 rationale rather than a new human use. The rank 3 prediction has no plausible mechanistic link.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information (label warnings and contraindications) — currently a blocking data gap preventing any safety pre-screening
-- Confirmed mechanism-of-action data via DrugBank query
-- Confirmed original approved indication(s) and licensing status
-- If pursuing a human-relevant repurposing signal from this drug, note that a related model output — **simian immunodeficiency virus (SIV) infection** — is backed by 1 clinical trial and 9 publications (all animal/preclinical, Tier 3), reflecting TAF's established role as an HIV pre-exposure prophylaxis (PrEP) research tool; this may be a more productive avenue than the FIV signal evaluated here
+- SAHPRA package insert data (approved indications, warnings, contraindications), which is required before any safety screening
+- Confirmation of the current HIV-1 and hepatitis B label status to judge whether the SIV signal is genuinely new
+- Detailed mechanism of action data (for example, from the DrugBank API)
+- A clear decision on whether veterinary indications are in scope for human-focused repurposing
+
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

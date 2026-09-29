@@ -2,7 +2,7 @@
 layout: default
 title: Phosphoric Acid
 parent: Moderate Evidence (L3-L4)
-nav_order: 364
+nav_order: 372
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,94 +29,92 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Phosphoric Acid: From No Established Therapeutic Indication to Osteoarthritis (Evidence Contradicts Therapeutic Direction)
+# Phosphoric Acid: From Pharmaceutical Excipient Use to Osteoarthritis
 
 ## One-Sentence Summary
 
-Phosphoric acid (DrugBank DB09394) has no established original therapeutic indication in the available data — it is not currently registered with SAHPRA and functions mainly as an excipient/acidifying agent. The TxGNN model predicts a possible association with **Osteoarthritis** (score 98.21%), but the supporting literature actually describes phosphate/pyrophosphate crystal deposition as a **pathogenic** contributor to osteoarthritis, not a therapeutic mechanism, and neither of the two identified clinical trials is actually relevant to this drug-disease pair.
-
----
+Phosphoric acid has no stated therapeutic indication in the available data. It appears in South African registered injectable products, most likely as an acidulant or pH adjuster.
+The TxGNN model predicts it may be effective for **osteoarthritis**, but there are **0 relevant clinical trials** (2 registered trials, both unrelated) and **18 publications** (21 retrieved), all describing disease biology rather than any treatment effect. The prediction is best read as a knowledge-graph artifact.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — no SAHPRA-approved indication text available; phosphoric acid is primarily known as an excipient/acidifying agent |
+| Original Indication | Not stated in the SAHPRA registration data or DrugBank |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.21% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. DrugBank lists no original indication or mechanism for phosphoric acid. Based on known information, it is mainly used as an acidulant or excipient rather than an active therapeutic. There is no established efficacy in any disease from which to extrapolate to osteoarthritis.
 
-Detailed mechanism of action data for phosphoric acid is not available (flagged as a High-severity data gap). Based on the literature retrieved for this candidate, phosphoric acid itself is not described as a treatment for osteoarthritis at all. Instead, the evidence base centers on **basic calcium phosphate (BCP) and calcium pyrophosphate dihydrate (CPPD) crystals**, which are well-documented **pathological drivers** of cartilage calcification, inflammation, and joint damage in osteoarthritis.
+The literature does link phosphate-containing crystals to osteoarthritis. Basic calcium phosphate (BCP) and calcium pyrophosphate (CPP) crystals are found in a large share of osteoarthritic joints. They are associated with cartilage calcification, NLRP3 inflammasome activation and eicosanoid production. However, this makes phosphate a possible **contributor to disease**, not a treatment. The direction of effect is opposite to a repurposing benefit.
 
-This means the mechanistic direction implied by the literature runs **opposite** to what a repurposing hypothesis would require: rather than phosphate/phosphoric acid alleviating osteoarthritis, elevated phosphate-containing crystal formation is associated with worsening cartilage degradation. The TxGNN score is therefore best interpreted as reflecting a strong topical/co-occurrence association between "phosphate" and "osteoarthritis" in the knowledge graph, not a validated therapeutic mechanism. The internal repurposing rationale for this candidate explicitly flags this as a weak and potentially harmful mechanistic link.
-
-The remaining nine predicted indications for this drug were also scored Hold, and five of them (hepatopulmonary syndrome, primitive portal vein thrombosis, idiopathic copper-associated cirrhosis, early-onset familial noncirrhotic portal hypertension, hepatoportal sclerosis) share an identical prediction score with zero supporting trials or literature — consistent with an embedding-similarity artifact rather than an independent signal.
-
----
+The very high TxGNN score most likely reflects a generic phosphate node in the knowledge graph. The other nine predictions for this drug (rheumatoid arthritis, gout, several rare liver conditions and others) are also rated L5 and Hold, several with identical scores. This supports the artifact interpretation.
 
 ## Clinical Trial Evidence
 
+Two registered trials matched the osteoarthritis search. Neither tests phosphoric acid and neither is about osteoarthritis treatment.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07049731](https://clinicaltrials.gov/study/NCT07049731) | N/A | Not yet recruiting | 224 | Protein/resistance-exercise intervention for sarcopenia; matched on keywords only, no relevance to phosphoric acid or OA treatment |
-| [NCT06921720](https://clinicaltrials.gov/study/NCT06921720) | N/A | Not yet recruiting | 65 | Diagnostic phosphorus-31 spectroscopy study in phosphate diabetes; not a therapeutic trial and not related to phosphoric acid repurposing |
+| [NCT07049731](https://clinicaltrials.gov/study/NCT07049731) | N/A | Not yet recruiting | 224 | Protein nutrition powder plus resistance exercise in sarcopenia. Not osteoarthritis, not phosphoric acid, no results. |
+| [NCT06921720](https://clinicaltrials.gov/study/NCT06921720) | N/A | Not yet recruiting | 65 | Phosphorus-31 spectroscopy of ATP in phosphate diabetes. Phosphate is a measurement target, not an intervention. |
 
-Neither trial provides evidence for phosphoric acid as a treatment for osteoarthritis; both were flagged internally as low-relevance ("Grade C", keyword coincidence).
-
----
+No SANCTR or PACTR registrations were identified.
 
 ## Literature Evidence
 
+All items are reviews or preclinical or genetic studies of osteoarthritis pathogenesis. None evaluates phosphoric acid as a treatment.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39089298](https://pubmed.ncbi.nlm.nih.gov/39089298/) | 2024 | Review | Lancet Rheumatology | CPPD crystal deposition drives inflammatory arthritis and is strongly linked to cartilage degradation/osteoarthritis — a pathogenic, not therapeutic, role |
-| [36509917](https://pubmed.ncbi.nlm.nih.gov/36509917/) | 2023 | Review | Nature Reviews Rheumatology | Pathological calcification (BCP/CPP crystal formation) is a hallmark of osteoarthritis progression |
-| [16716886](https://pubmed.ncbi.nlm.nih.gov/16716886/) | 2006 | Review | Rheumatic Diseases Clinics of North America | Calcium crystals are common, under-recognized contributors that may cause or worsen osteoarthritis |
-| [29516278](https://pubmed.ncbi.nlm.nih.gov/29516278/) | 2018 | Review | Current Rheumatology Reports | BCP and CPPD crystals induce inflammation and may drive OA pathogenesis |
-| [26720903](https://pubmed.ncbi.nlm.nih.gov/26720903/) | 2016 | Review | Current Opinion in Rheumatology | Discusses BCP crystals as a pathogenic target in osteoarthritis, not a treatment mechanism |
-| [20425024](https://pubmed.ncbi.nlm.nih.gov/20425024/) | 2010 | Review | Current Rheumatology Reports | Examines association between uric acid/calcium pyrophosphate crystals and osteoarthritis onset/progression |
-| [21169842](https://pubmed.ncbi.nlm.nih.gov/21169842/) | 2011 | Review | Current Opinion in Rheumatology | CPPD/BCP crystals are common in osteoarthritic joint fluid; role in joint damage remains under study |
-| [34732285](https://pubmed.ncbi.nlm.nih.gov/34732285/) | 2021 | Review | Best Practice & Research Clinical Rheumatology | Calcium crystal-related endotypes present in ~60% of OA patients; crystals implicated in disease phenotype, not treatment |
-| [20500910](https://pubmed.ncbi.nlm.nih.gov/20500910/) | 2010 | Editorial/Review | Arthritis Research & Therapy | Meniscal calcification correlates with OA severity; phosphocitrate (a crystal-formation inhibitor) reduces calcification — the opposite intervention direction from phosphoric acid |
-| [38877353](https://pubmed.ncbi.nlm.nih.gov/38877353/) | 2024 | Preclinical/Materials study | Advanced Materials | Hydrogel scaffold for OA regeneration; contains hydroxyapatite (a calcium phosphate) as a structural material, not a discussion of phosphoric acid pharmacology |
-
-All ten publications describe phosphate-containing crystals in the context of osteoarthritis **pathogenesis or diagnosis**, not as a therapeutic intervention.
-
----
+|------|-----|------|---------|---------|
+| [39089298](https://pubmed.ncbi.nlm.nih.gov/39089298/) | 2024 | Review | Lancet Rheumatol | CPPD disease is strongly associated with cartilage degradation and osteoarthritis. The direction of causality is unclear. |
+| [36509917](https://pubmed.ncbi.nlm.nih.gov/36509917/) | 2023 | Review | Nat Rev Rheumatol | Cartilage calcification (BCP and CPP crystals) is a hallmark of osteoarthritis. Mechanisms and clinical relevance are reviewed. |
+| [34732285](https://pubmed.ncbi.nlm.nih.gov/34732285/) | 2021 | Review | Best Pract Res Clin Rheumatol | Calcium-crystal-related endotypes are present in about 60% of osteoarthritis patients. |
+| [29516278](https://pubmed.ncbi.nlm.nih.gov/29516278/) | 2018 | Review | Curr Rheumatol Rep | BCP and CPP crystals can induce inflammation and may play a pathogenic role in osteoarthritis. |
+| [26720903](https://pubmed.ncbi.nlm.nih.gov/26720903/) | 2016 | Review | Curr Opin Rheumatol | BCP crystals are implicated in osteoarthritis pathogenesis. Potential targeted therapies would aim to block their effects. |
+| [21169842](https://pubmed.ncbi.nlm.nih.gov/21169842/) | 2011 | Review | Curr Opin Rheumatol | CPPD and BCP crystals are common in osteoarthritic joint fluid. How they contribute to joint damage remains unclear. |
+| [20425024](https://pubmed.ncbi.nlm.nih.gov/20425024/) | 2010 | Review | Curr Rheumatol Rep | Evidence for an independent link between crystals (CPP, uric acid) and osteoarthritis is sparse. |
+| [16716886](https://pubmed.ncbi.nlm.nih.gov/16716886/) | 2006 | Review | Rheum Dis Clin North Am | Calcium crystals may cause or worsen osteoarthritis, and osteoarthritis may promote crystal formation. |
+| [37105395](https://pubmed.ncbi.nlm.nih.gov/37105395/) | 2023 | Genetic study | Osteoarthritis Cartilage | Functional genomics of BCP crystal-induced inflammation, which acts through the NLRP3 inflammasome. |
+| [38877353](https://pubmed.ncbi.nlm.nih.gov/38877353/) | 2024 | Preclinical | Adv Mater | Hydroxyapatite-based hydrogel scaffold for osteoarthritis subchondral bone repair. This is a biomaterial, not phosphoric acid. |
 
 ## South Africa Market Information
 
-Phosphoric acid currently holds **no SAHPRA product registration** (0 licenses recorded; market status: Not Marketed). No dosage form, brand name, or approved indication text is available for South Africa.
+The registration data contain no approved indication text or manufacturer for any entry. Registration N/24/83 appears twice in the record. Essential Medicines List (EML) status is not available in the data.
 
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| N/24/83 | Sabax Neonatalyte 10% Gluc 200ml AFB2718 | Infusion | Not stated |
+| B/2.9/1251 | Sabax Pethidine Ampoule 1ml | Injection | Not stated |
+
+These are injectable products in which phosphoric acid is likely an excipient. No oral, topical or intra-articular product containing it as an active ingredient was identified.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-(No SAHPRA-specific warnings, contraindications, or drug-interaction data were retrievable for this candidate; TFDA-equivalent labeling data is flagged as a Blocking data gap pending source retrieval.)
-
----
+No drug-drug interaction records were found in DrugBank.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic evidence for this candidate points in the opposite direction from a therapeutic hypothesis — phosphate-containing crystal deposition is documented as a driver of osteoarthritis pathology rather than a treatment. Combined with the absence of any relevant clinical trial evidence, no SAHPRA registration, and missing MOA/safety data, this candidate does not meet the threshold to proceed.
+The prediction is supported only by pathogenesis literature in which phosphate-containing crystals are a possible cause of osteoarthritis, so the direction of effect is unfavourable. No trial tests phosphoric acid for this condition. The drug has no established therapeutic role or mechanism, and safety data for South Africa are missing. This evidence level is L4, and the candidate should not advance to safety screening.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for phosphoric acid (currently a High-severity data gap)
-- TFDA/SAHPRA-equivalent Professional Information, warnings, and contraindications (currently a Blocking data gap)
-- A therapeutic (not diagnostic/pathogenic) rationale specifically supporting phosphoric acid administration in osteoarthritis, ideally from a dedicated pharmacology or preclinical intervention study
-- Re-evaluation of the other 9 ranked predictions for this drug before considering any indication other than osteoarthritis, given 5 share an identical, likely artifactual score with zero supporting evidence
+- SAHPRA Professional Information (PI) for the registered products (warnings and contraindications, currently blocking)
+- Mechanism of action data from DrugBank
+- Confirmation that phosphoric acid is only an excipient in the registered products
+- Any evidence that phosphoric acid, rather than a crystal-modulating agent, has a therapeutic effect in osteoarthritis, together with a plausible route of administration
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Fosinopril
 parent: Model Prediction Only (L5)
-nav_order: 234
+nav_order: 239
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,77 +29,62 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Fosinopril: From Hypertension to Malignant Renovascular Hypertension
+# Fosinopril: From Hypertension (Registered Product) to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Fosinopril (DrugBank DB00492) is an ACE inhibitor; the evidence pack does not contain a confirmed original indication text, but ACE inhibitors are conventionally used to treat hypertension and related cardiovascular/renal conditions. The TxGNN model predicts potential efficacy for **Malignant Renovascular Hypertension**, but currently **no clinical trials** and **no published literature** support this specific prediction — it rests on the model score alone.
-
----
+Fosinopril is an ACE inhibitor marketed in South Africa, but the Evidence Pack does not record an approved indication text for the local product.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but currently there are **0 clinical trials** and **0 relevant publications** supporting this direction, so this is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (Fosinopril is pharmacologically classified as an ACE inhibitor; no confirmed indication text was returned) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Original Indication | Not recorded in the supplied data (the SAHPRA registration has no indication text) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, fosinopril is an ACE inhibitor, working by suppressing the renin-angiotensin system to lower angiotensin II levels, reduce vascular resistance, and lower blood pressure.
+Currently, detailed mechanism of action data is not available. Based on known information, fosinopril is an ACE inhibitor (angiotensin-converting enzyme inhibitor). Renovascular hypertension is driven by activation of the renin-angiotensin-aldosterone system (RAAS), so blocking this pathway is biologically plausible.
 
-Mechanistically, ACE inhibitors as a class are plausible candidates for hypertension-related renal conditions. However, malignant renovascular hypertension is frequently associated with bilateral renal artery stenosis — a setting in which ACE inhibitors are a recognised class-level risk factor for acute kidney function deterioration and are often listed as a warning or contraindication. This is an important mechanistic caution rather than a supporting rationale: the predicted benefit (blood pressure and renin-angiotensin control) and a known class-specific harm (risk of acute renal impairment in bilateral stenosis) apply to the same population.
+The same reasoning applies to the second-ranked prediction, malignant hypertensive renal disease, where RAAS blockade is relevant to hypertensive kidney injury. However, both predictions have exactly the same TxGNN score (99.87%). This suggests they share a neighbourhood in the knowledge graph rather than representing two independent lines of support.
 
-No clinical trials or literature specific to fosinopril in this indication were identified, so this mechanistic reasoning has not been empirically validated for this specific disease.
+Safety is the key concern. ACE inhibitors can precipitate renal failure in patients with bilateral renal artery stenosis or a solitary kidney, which is the very population in renovascular hypertension. Any follow-up would need to address renal function and hyperkalaemia risk.
 
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+The other predictions are much weaker:
+- **Pulmonary hypertension (unclear multifactorial mechanism):** No clear mechanistic rationale. ACE inhibition is not an established therapy for pulmonary hypertension, and systemic vasodilation carries a risk of hypotension.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia:** The 20 retrieved records are general hypoxia papers found by keyword matching. None of the titles shown mention fosinopril, ACE inhibitors or pulmonary hypertension, so they are not counted as supporting evidence. Vasodilators can worsen ventilation-perfusion matching in hypoxic lung disease.
+- **Braddock syndrome:** No mechanistic link to ACE inhibition could be identified. The high score likely reflects graph proximity rather than a validated pharmacological rationale.
 
 ## South Africa Market Information
 
-No SAHPRA registrations are recorded for this drug in the evidence pack (0 licenses; market status: Not Marketed). No product/dosage-form/indication data is available to tabulate.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 31/7.1.3/0416 | Monozide | Tablet (oral) | Not recorded in the supplied data |
 
----
-
-## Safety Considerations
-
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-Note: TFDA-equivalent label warnings/contraindications for this drug are flagged in the source data as a **Blocking** data gap — a formal safety review (including bilateral renal artery stenosis contraindication status) cannot be completed until this is resolved.
-
----
+Essential Medicines List (EML) inclusion status is not available in the supplied data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported only by a TxGNN model score (L5 evidence) with zero clinical trials or literature, and the mechanistic pathway carries a known class-level renal safety concern (bilateral renal artery stenosis) directly relevant to this indication. The drug is also not currently marketed in South Africa.
+The prediction rests on model score alone (Evidence Level L5), with no registered clinical trials and no relevant literature. The SAHPRA safety information has not been obtained, and the renal risks of ACE inhibitors in renovascular disease are significant. The pulmonary hypertension and Braddock syndrome predictions have no supportable mechanism.
 
 **To proceed, the following is needed:**
-- Official product label / Professional Information (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action data from DrugBank
-- Targeted literature/clinical trial search specific to fosinopril and renovascular hypertension or hypertensive renal disease
-- Assessment of renal artery stenosis status as an exclusion criterion before any further evaluation
-- Confirmation of a route to market (SAHPRA registration) if this indication is pursued
+- SAHPRA Professional Information (PI) for Monozide, including warnings, contraindications and the approved indication (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A literature search specific to ACE inhibitors in renovascular hypertension and malignant hypertension, with attention to renal outcomes
+- Safety assessment for renal artery stenosis, solitary kidney, renal function and hyperkalaemia
+- Confirmation of whether the combination product (Monozide) contains other active ingredients, since the registration details are limited
+
+Please report adverse drug reactions to SAHPRA.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

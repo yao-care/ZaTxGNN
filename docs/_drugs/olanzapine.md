@@ -2,7 +2,7 @@
 layout: default
 title: Olanzapine
 parent: Model Prediction Only (L5)
-nav_order: 342
+nav_order: 349
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,33 +29,30 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Olanzapine: From Schizophrenia to Benign Paroxysmal Torticollis of Infancy
+# Olanzapine: From Antipsychotic Use to Benign Paroxysmal Torticollis of Infancy
 
 ## One-Sentence Summary
 
-Olanzapine is a well-established atypical antipsychotic, originally used to treat schizophrenia and bipolar I disorder.
-The TxGNN model predicts it may be effective for **Benign Paroxysmal Torticollis of Infancy**,
-with a very high model score (**99.54%**) but **no clinical trials and no published literature** currently supporting this specific link.
+Olanzapine is an antipsychotic that is currently marketed in South Africa. The TxGNN model predicts it may be effective for **benign paroxysmal torticollis of infancy**, but **no clinical trials and no publications** currently support this prediction. It is a model-only signal, so the recommendation is to hold.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia / Bipolar I Disorder (general drug-class knowledge; no South African registration data available — drug not marketed locally) |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 99.54% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this evidence pack. Based on known information, olanzapine is a second-generation (atypical) antipsychotic of the thienobenzodiazepine class, acting primarily as an antagonist at dopamine D2 and serotonin 5-HT2A receptors, with additional affinity for histaminergic, muscarinic and adrenergic receptors. Its efficacy in schizophrenia and bipolar I disorder is well established.
+Detailed mechanism of action data is not available in the Evidence Pack. Olanzapine is generally described as a dopamine D2 and serotonin 5-HT2A antagonist, and this is the only mechanistic basis available for this report.
 
-Benign paroxysmal torticollis of infancy is a rare, self-limiting episodic disorder in infants, generally considered a migraine-variant/vestibular condition rather than a primary psychotic or mood disorder. There is no established pharmacological rationale connecting an adult antipsychotic's dopaminergic/serotonergic mechanism to this pediatric paroxysmal condition, and no clinical or case-report literature was returned for this drug-disease pair.
+This prediction is hard to justify mechanistically. Benign paroxysmal torticollis of infancy is generally considered a migraine equivalent, often linked to CACNA1A variants. No established mechanistic bridge connects D2/5-HT2A antagonism to that pathway.
 
-Given the absence of any supporting evidence and the substantial mismatch in patient population (adult psychiatric indication vs. infantile paroxysmal disorder), this prediction should be treated as a purely model-generated signal requiring independent mechanistic and safety review before any further consideration — olanzapine has no established pediatric safety profile for this age group.
+The clinical picture argues against use. The patients are infants, and the condition is self-limiting. Olanzapine's metabolic and sedative risks make a favourable benefit-risk balance implausible without direct evidence. The high TxGNN score (99.54%) should be read as a statistical association in the knowledge graph, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
@@ -67,7 +64,14 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Olanzapine currently has 0 SAHPRA registrations and is not marketed in South Africa. No product, dosage form, or approved-indication data is available for the local market.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 44/2.6.5/1019 | Olawin Film Coated 2,5 Mg | Film-coated tablet |
+| Reg. No. 42/2.6.5/0814 | Redilanz 2,5 | Tablet |
+| Reg. No. 45/2.6.5/0166 | Mylan olanzapine | Tablet |
+| Reg. No. 44/2.6.5/0447 | Zylena | Tablet |
+
+Approved indication text was not included in the registration data supplied. All registrations are oral solid dosage forms.
 
 ## Safety Considerations
 
@@ -78,13 +82,17 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (benign paroxysmal torticollis of infancy) is supported only by the TxGNN model score, with zero clinical trials and zero literature evidence, and involves a pediatric population for which olanzapine has no established safety profile. There is insufficient basis to advance this candidate.
+The prediction rests only on a model score, with no trials or literature. The condition has no plausible mechanistic link to olanzapine, and the patients are infants with a self-limiting course. The metabolic and sedative risks of olanzapine would very likely outweigh any benefit.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) and toxicology data for olanzapine (currently flagged as a Blocking data gap — TFDA/SAHPRA PI warnings and contraindications)
-- Independent mechanistic or preclinical rationale linking olanzapine to benign paroxysmal torticollis of infancy
-- Pediatric safety and pharmacokinetic data, given the target population is infants
-- Note: a separate candidate in this evidence pack — **agoraphobia** (TxGNN score 99.47%, 7 supporting PubMed publications including an open-label trial of olanzapine augmentation in treatment-resistant panic disorder with agoraphobia) — has materially stronger literature support and may warrant its own evaluation as a higher-priority repurposing candidate
+- Any direct clinical or preclinical evidence for olanzapine in this condition
+- Mechanism of action data (MOA)
+- SAHPRA package insert warnings and contraindications, which are needed before any safety screening
+- Paediatric safety data for olanzapine
+
+**Note on other predictions:** Among the other predicted indications, **agoraphobia** (score 99.47%) has more support. It is at evidence level L3, with one 12-week open-label augmentation trial in treatment-resistant panic disorder (PMID 16415705), two case reports, and two systematic reviews on treatment-resistant anxiety. It is best treated as a research question, not a treatment recommendation. No randomised controlled evidence or registered trials exist, and the conclusions of the systematic reviews on olanzapine have not been verified. **Dysthymic disorder** (score 99.28%) has no supporting evidence and is also on Hold.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

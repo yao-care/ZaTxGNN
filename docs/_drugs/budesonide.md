@@ -29,108 +29,96 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Budesonide: From Asthma / Inflammatory Airway Disease to Atopic Eczema
+# Budesonide: From Marketed Corticosteroid Products to Atopic Eczema
 
 ## One-Sentence Summary
 
-Budesonide is a synthetic glucocorticoid widely used internationally as an inhaled or topical corticosteroid for asthma, COPD, and inflammatory bowel disease; however, it currently holds **no SAHPRA registration** in South Africa.
-The TxGNN model predicts it may be effective for **Atopic Eczema**,
-with **2 clinical trials** and **20 publications** currently associated with this direction — though most trials are only indirectly relevant to this specific indication.
-
----
+Budesonide is a glucocorticoid marketed in South Africa in capsule, inhaler, nebule and nasal-spray forms. The SAHPRA indication text was not available in the source data.
+The TxGNN model predicts it may be effective for **atopic eczema**.
+Only **2 registered clinical trials** and **20 publications** were retrieved, and none is a human efficacy study of budesonide in eczema.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No SAHPRA registration on record; globally indicated for asthma, COPD, Crohn's disease, and allergic rhinitis |
-| Predicted New Indication | Atopic Eczema |
+|------|------|
+| Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 (Observational studies, formulation research, and preclinical data) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Hold (Research Question) |
-
----
+| Evidence Level | L4 (preclinical/mechanism only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 5 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from the current evidence pack. Based on established pharmacological knowledge, budesonide is a high-potency synthetic glucocorticoid that exerts potent local anti-inflammatory effects while having a favourable systemic safety profile due to extensive first-pass hepatic metabolism. It acts primarily by suppressing NF-κB signalling, downregulating Th2 cytokines (IL-4 and IL-13), reducing mast cell activation, and decreasing eosinophil infiltration into inflamed mucosal and cutaneous tissue.
+Budesonide is a glucocorticoid receptor agonist with broad anti-inflammatory activity. Detailed mechanism data are not available from DrugBank in this pack, so this description comes from the repurposing rationale.
 
-Atopic eczema is a chronic, relapsing Th2-skewed inflammatory skin disorder characterised by skin barrier disruption, elevated IgE, and eosinophilic infiltration — all of which are direct targets of glucocorticoid therapy. Topical corticosteroids are globally recognised as first-line standard care for atopic dermatitis, and budesonide's mechanism maps well onto the core immunopathology of this condition. The TxGNN prediction therefore aligns closely with established dermatological practice for the corticosteroid drug class as a whole.
+Topical corticosteroids as a class are an established treatment for atopic dermatitis, so the mechanistic link is plausible. Budesonide has also been used topically in children with atopic dermatitis in small studies, and a 2024 preclinical study developed a budesonide hydrogel for this purpose.
 
-Active research interest in budesonide specifically for atopic dermatitis is reflected in recent formulation work: a 2024 study (PMID 38275852) developed pH-sensitive Eudragit L100 polymeric nanoparticle hydrogels loaded with budesonide for local therapy of paediatric atopic dermatitis, aiming to overcome the skin barrier and reduce systemic absorption. This signals that budesonide's anti-inflammatory profile is considered scientifically valid for this indication, with ongoing efforts to optimise its delivery.
+The support is therefore class-effect reasoning plus formulation research. There are no budesonide-specific human trials for eczema. The SAHPRA-registered forms are oral, inhaled and nebulised, not dermal, so the route needed for eczema is not currently registered.
 
----
+Note that "dermatitis, atopic" (rank 3) is a duplicate of this concept and should be merged with it.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01028560](https://clinicaltrials.gov/study/NCT01028560) | Phase 1/2 | Completed | 58 | Evaluated sublingual allergy immunotherapy in atopic, wheezing children aged 18 months–3 years at high risk for persistent asthma; atopic eczema was an inclusion criterion, not a primary endpoint. Budesonide was not the study intervention. Indirect relevance only. |
-| [NCT04680117](https://clinicaltrials.gov/study/NCT04680117) | N/A | Unknown | 150 | Characterisation of severe paediatric asthma endotypes (ages 0–12 years) combining phenotypic, immune, metabolomic and microbial analyses; atopy and eczema features included in phenotyping, but neither budesonide nor atopic eczema treatment was the primary focus. |
+|---------|------|------|------|---------|
+| [NCT01028560](https://clinicaltrials.gov/study/NCT01028560) | Phase 1/2 | Completed | 58 | Allergy immunotherapy to prevent asthma in atopic wheezing children. Not a budesonide trial, and the endpoint is asthma, not eczema. |
+| [NCT04680117](https://clinicaltrials.gov/study/NCT04680117) | N/A | Unknown | 150 | Non-interventional endotyping of severe paediatric asthma. Does not test budesonide for eczema. |
 
-> **Note:** Neither trial directly evaluates budesonide as a treatment for atopic eczema. No Phase 2 or higher RCTs specifically investigating budesonide for this indication were identified in the current evidence search.
-
----
+Neither trial is relevant to budesonide treatment of eczema. No SANCTR or PACTR identifiers were found.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Formulation/Preclinical | Gels (Basel) | pH-sensitive Eudragit L100 nanoparticles loaded with budesonide formulated into hydrogels for topical delivery in paediatric atopic dermatitis; demonstrated improved budesonide release at acidic atopic lesion pH and potential to enhance localised therapy |
-| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | Cohort | Dermatology (Basel) | Insulin-like growth factor axis, bone and collagen turnover in children with atopic dermatitis receiving topical glucocorticosteroids; highlights systemic absorption risk and the need for growth monitoring in paediatric topical use |
-| [19875223](https://pubmed.ncbi.nlm.nih.gov/19875223/) | 2010 | Clinical Observation | Allergologia et Immunopathologia | Compared budesonide response in atopic vs. non-atopic infants and preschoolers with recurrent wheezing; demonstrates budesonide efficacy within the broader atopic disease spectrum |
-| [35133669](https://pubmed.ncbi.nlm.nih.gov/35133669/) | 2022 | Cross-sectional | Contact Dermatitis | Pattern of contact sensitisation in atopic dermatitis patients at an Asian dermatology centre; budesonide among corticosteroids assessed for sensitisation risk, documenting similar or higher sensitisation rates in AD patients |
-| [30053491](https://pubmed.ncbi.nlm.nih.gov/30053491/) | 2018 | Retrospective | J Am Acad Dermatol | Allergic contact dermatitis to personal care products and topical medications in adults with AD; skin barrier disruption and immune dysregulation in AD predispose to sensitisation to topical corticosteroids including budesonide |
-| [24603519](https://pubmed.ncbi.nlm.nih.gov/24603519/) | 2014 | Cross-sectional | Dermatitis | Contact hypersensitivity to European standard series and corticosteroid patch test series — including budesonide — in adolescents and adults with atopic dermatitis; relevant to safety monitoring |
-| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Observational | Contact Dermatitis | Budesonide patch testing in Italy using the SIDAPA baseline series (2018–2019); decreasing trend of budesonide allergy over two decades provides reassurance regarding sensitisation risk in topical use |
-| [40020933](https://pubmed.ncbi.nlm.nih.gov/40020933/) | 2025 | Translational | J Allergy Clin Immunol | Cutaneous ceramide synthesis dysregulation in paediatric eosinophilic esophagitis parallels atopic dermatitis epithelial barrier dysfunction; supports shared inflammatory pathways relevant to corticosteroid responsiveness across atopic conditions |
-| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Review | Allergy | Corticosteroid allergy in asthma patients; delayed contact allergy to budesonide documented as a class effect; clinically relevant safety consideration for topical use in atopic dermatitis |
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Intranasal corticosteroids and adrenal suppression; allergic rhinitis frequently co-exists with atopic dermatitis in the atopic march; HPA axis monitoring strategies reviewed for multi-route corticosteroid exposure |
+Only 10 of the 20 retrieved publications are listed below.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | Randomised placebo-controlled crossover trial (dogs) | J Vet Pharmacol Ther | 0.025% budesonide leave-on conditioner reduced skin lesions and pruritus in canine atopic dermatitis. Veterinary evidence only. |
+| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Open longitudinal trial | Pediatr Dermatol | Short-term growth (knemometry) assessed in 14 children with atopic dermatitis treated with topical budesonide. This is a safety study, not an efficacy study. |
+| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Preclinical formulation study | Gels (Basel) | Budesonide-loaded pH-sensitive nanoparticles in hydrogels for local atopic dermatitis therapy. |
+| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | Clinical study | Dermatology | Bone and collagen turnover and the IGF axis in children with atopic dermatitis on topical glucocorticoids. Drug identity unconfirmed. |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Review | Allergy | Corticosteroid allergy in asthma. Glucocorticoids frequently cause delayed contact allergy. |
+| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Patch-test series | Contact Dermatitis | Budesonide patch testing in Italy. A decreasing trend of budesonide allergy has been observed. |
+| [35133669](https://pubmed.ncbi.nlm.nih.gov/35133669/) | 2022 | Cohort | Contact Dermatitis | Contact sensitisation patterns in patients with and without atopic dermatitis. |
+| [24603519](https://pubmed.ncbi.nlm.nih.gov/24603519/) | 2014 | Cohort | Dermatitis | Contact hypersensitivity, including corticosteroid series, in patients with atopic dermatitis. |
+| [35184304](https://pubmed.ncbi.nlm.nih.gov/35184304/) | 2022 | Case report | Contact Dermatitis | Systemic allergic dermatitis after budesonide patch testing. |
+| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | Case report | Cureus | Steroid-induced angioedema and urticaria in a patient with atopic dermatitis. |
 
 ## South Africa Market Information
 
-Budesonide is **not currently registered** with the South African Health Products Regulatory Authority (SAHPRA) and is not marketed in South Africa. No product licences are on record.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 36/21.5.1/0258 | Budeflam 200 Dp-Caps | Capsule | Not recorded in source data |
+| Reg. No. 35/21,5,1/0405 | Symbicord Turbuhaler 60 dose 160mcg/4.5mcg | Tbh | Not recorded in source data |
+| Reg. No. A40/21.5.1/0224 | Spec-Budesonide 10 ml 200 dose | Aqs | Not recorded in source data |
+| Reg. No. 42/21.5.1/0955 | Arrow Budesonide 2 ml | Vial | Not recorded in source data |
+| Reg. No. A39/21.5.1/0506 | Vannair 80/4.5mcg per inhalation 120 dose | Inhaler | Not recorded in source data |
 
-> Any clinical use of budesonide in South Africa would require a Section 21 (unregistered medicines) authorisation from SAHPRA, or access through a registered clinical trial. Healthcare professionals requiring this medicine should consult SAHPRA's regulatory guidance for accessing unregistered products.
-
----
+Product names and dosage forms are shown as recorded. Essential Medicines List status is not available in the source data. None of the five registrations is a dermal (topical) formulation.
 
 ## Safety Considerations
 
-As budesonide has no current SAHPRA registration, there is no locally approved Professional Information (PI) available. Prescribers should consult internationally recognised references (e.g., the EMA-approved Summary of Product Characteristics or US FDA Prescribing Information). Report any adverse drug reactions to SAHPRA via the MedSafety reporting system.
+- **Drug Interactions**: The DDI query returned no records.
 
-The following safety signals are relevant to topical/dermatological use based on the available evidence:
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
-- **HPA Axis Suppression**: Risk of hypothalamic-pituitary-adrenal axis suppression with prolonged topical use over large body surface areas, particularly in infants and young children (supported by PMID 8864369 and PMID 19571596)
-- **Growth Suppression in Children**: Topical corticosteroids may suppress short-term growth velocity in paediatric patients; knemometry monitoring has been studied in this context
-- **Corticosteroid Contact Sensitisation**: Budesonide is included in the European Baseline Patch Test Series as a corticosteroid hypersensitivity marker; sensitisation rates in atopic dermatitis patients may be elevated compared to the general population (PMID 35133669, PMID 24603519, PMID 33931866)
-- **Local Skin Effects**: Risk of skin atrophy, striae, and telangiectasia with prolonged use on sensitive skin areas
-
----
+Safety signals from the literature include:
+- **Contact and systemic allergy to budesonide**: reported in patch-test series and case reports (PMIDs 33931866, 35184304).
+- **Systemic effects of topical corticosteroids in children**: growth and bone/collagen turnover have been studied because of percutaneous absorption (PMIDs 9496795, 8864369).
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question)**
+**Decision: Hold**
 
 **Rationale:**
-Although topical glucocorticoids are internationally recognised as first-line therapy for atopic dermatitis and the mechanistic rationale for budesonide is strong, the current evidence base contains no direct Phase 2+ RCTs evaluating budesonide specifically for atopic eczema. Available literature is predominantly observational, cross-sectional, and formulation/preclinical in nature (L3). Furthermore, budesonide has no SAHPRA registration in South Africa, which represents an additional regulatory barrier to immediate clinical application.
+The prediction score is very high, but the evidence is L4 (S0, research question). There are no budesonide-specific human efficacy trials in eczema, and the only direct support is a veterinary trial and a preclinical formulation study. The registered forms in South Africa are not dermal, and contact allergy to budesonide is a documented concern.
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway**: Explore SAHPRA Section 21 authorisation or registration pathway for topical budesonide formulations indicated for atopic dermatitis
-- **Mechanism of action documentation**: Retrieve complete MOA data from DrugBank (DB01222) to strengthen the mechanistic justification (addresses Data Gap DG002)
-- **Clinical trial evidence**: Identify or commission Phase 2/3 RCTs directly evaluating budesonide (conventional topical or novel nanoparticle formulations) for atopic eczema in human subjects
-- **Novel delivery evaluation**: Assess the clinical translation potential of budesonide nanoparticle hydrogels (as described in PMID 38275852) for improved efficacy and reduced systemic absorption in atopic dermatitis
-- **Safety profile for topical use**: Conduct a systematic assessment of HPA axis suppression risk, growth monitoring requirements, and sensitisation rates specifically for the topical dermatological route and paediatric populations in a South African context
-- **SAHPRA PI development**: If pursuing registration, prepare full prescribing information and safety warnings per SAHPRA requirements
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. Predicted repurposing candidates require clinical validation before any therapeutic application. All website content is subject to YMYL disclaimers.*
+- SAHPRA Professional Information for each registration, to fill the warnings and contraindications gap (blocking).
+- DrugBank mechanism of action data.
+- Human clinical evidence of topical budesonide in atopic eczema, such as an RCT or systematic review, and a route-compatibility assessment against the registered forms.
+- Merge the duplicate "atopic eczema" and "dermatitis, atopic" predictions.
+- Note that the rank 2 prediction, **bronchitis** (L2, Phase 2 budesonide/formoterol data in bronchiolitis obliterans, Proceed with Guardrails), has far stronger evidence and may deserve priority review. Its indication scope needs to be defined first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

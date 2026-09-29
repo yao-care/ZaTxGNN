@@ -2,7 +2,7 @@
 layout: default
 title: Vildagliptin
 parent: Model Prediction Only (L5)
-nav_order: 460
+nav_order: 468
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,72 +33,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Vildagliptin is a DPP-4 inhibitor used to manage type 2 diabetes (confirmed only via literature captured in this evidence pack — no official SAHPRA indication text is on file). The TxGNN model's top-ranked prediction for this drug is **Classic Stiff Person Syndrome**, but this pairing is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale states there is no known mechanistic link.
-
----
+Vildagliptin is a DPP-4 inhibitor used to lower blood glucose in type 2 diabetes. The SAHPRA records provided do not state an indication.
+The TxGNN model predicts it may be effective for **classic stiff person syndrome**, but this is a model prediction only, with **0 clinical trials** and **0 publications** for this indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 Diabetes Mellitus (inferred from literature within this pack; not confirmed by SAHPRA licensing data — none on file) |
-| Predicted New Indication | Classic Stiff Person Syndrome |
+| Original Indication | Type 2 diabetes mellitus (inferred from drug class and the literature; the SAHPRA records provided leave indication text blank) |
+| Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for vildagliptin is not available in this evidence pack (flagged as a High-severity data gap). Based on literature captured elsewhere in this pack, vildagliptin is a dipeptidyl peptidase-4 (DPP-4) inhibitor that raises endogenous GLP-1/GIP levels to improve glycemic control in type 2 diabetes, primarily by enhancing pancreatic islet (alpha and beta cell) function.
+Currently, detailed mechanism of action data is not available in the source record. Vildagliptin is a DPP-4 inhibitor that raises active GLP-1 and GIP and suppresses glucagon. Its efficacy in type 2 diabetes is well established, but nothing in the supplied data shows a mechanism for neurological benefit.
 
-Classic Stiff Person Syndrome, by contrast, is a rare autoimmune neurological disorder driven by anti-GAD65 antibodies and disrupted GABAergic transmission. As the model's own repurposing rationale explicitly states, there is **no known mechanistic overlap** between the DPP-4/incretin pathway and GABAergic/autoimmune neurological pathways.
+Stiff person syndrome is an autoimmune neurological disorder. It is often associated with anti-GAD65 antibodies and coexisting type 1 diabetes. This overlap with diabetes may explain why the knowledge graph links it to a diabetes drug. It is a network association, not a demonstrated pharmacological link. The very high score is more likely a graph-proximity effect than a real therapeutic signal.
 
-This prediction should therefore be read as a pure graph-embedding association from TxGNN, not a mechanistically or clinically supported hypothesis. The high similarity score reflects pattern-matching within the knowledge graph rather than any biological or empirical signal.
-
----
+The next four predictions (focal stiff limb syndrome, opsismodysplasia and two similar lipodystrophy-type conditions) show the same pattern. They are prediction-only, with no plausible DPP-4 mechanism in the data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Vildagliptin currently holds no SAHPRA registrations and is not marketed in South Africa (0 licenses on file in this evidence pack).
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 57/21.2/0061 | Vileptin Co 50/1 000 | Tablet |
+| Reg. No. 57/21.2/0060 | Vileptin Co 50/850 | Tablet |
 
----
+Both products are oral tablets. The strengths are consistent with fixed-dose vildagliptin–metformin combinations, though the record does not state this. Approved indication text and Essential Medicines List (EML) status are not available in the record.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*Note: A blocking data gap exists — TFDA/SAHPRA label warnings and contraindications have not yet been retrieved, which prevents this candidate from entering the S1 safety pre-assessment stage.*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but there is zero clinical trial or literature support, and the model's own rationale confirms no established mechanistic link between DPP-4 inhibition and stiff person syndrome's autoimmune/GABAergic pathology. Combined with the absence of SAHPRA registration and missing safety/label data, this candidate does not meet the threshold to proceed.
+The prediction is model-only (L5), with no trials, no literature and no plausible mechanism in the supplied data. Nothing supports moving stiff person syndrome forward.
+
+**Other predictions in the pack:**
+- **Type 1 diabetes mellitus** (rank 10, score 99.37%) has the strongest evidence at L3, marked "Research Question".
+- It is supported by small human studies, including a glucagon counterregulation study (PMID 22855332), a randomized Ramadan adjunct trial (PMID 38057844), and rodent beta-cell studies.
+- The rapamycin plus vildagliptin randomized trial (PMID 33124663) is confounded by the combination.
+- The 50 registry trials matched to that term are mostly type 2 diabetes studies and should not be counted as type 1 evidence.
+- Efficacy and safety with insulin, especially hypoglycaemia, remain unestablished.
 
 **To proceed, the following is needed:**
-- Vildagliptin's SAHPRA-approved Professional Information (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action data from DrugBank — currently a High-severity data gap
-- Any emerging preclinical or case-level evidence linking DPP-4 inhibition to autoimmune neurological disease before further evaluation
-- Alternative predicted indications in this evidence pack should be considered instead: notably **Type 1 Diabetes Mellitus** (rank 10) has an L2 evidence level with 50 clinical trials and 20 publications, including a completed RCT on β-cell function (rapamycin + vildagliptin), and is flagged "Research Question" rather than "Hold" — a substantially stronger starting point for further review.
+- SAHPRA Professional Information (PI) warnings and contraindications. This is currently a blocking gap.
+- Mechanism of action data from DrugBank, to enable mechanistic-link analysis.
+- For stiff person syndrome, any clinical or mechanistic evidence at all. Without it, no further work is justified.
+- If type 1 diabetes is pursued, a dedicated review of type 1-specific studies and a hypoglycaemia safety assessment.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

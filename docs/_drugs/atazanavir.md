@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Atazanavir
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 49
-evidence_level: L1
+evidence_level: L5
 indication_count: 6
 ---
 
 # Atazanavir
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,115 +29,71 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-# Atazanavir: From HIV-1 Infection to Congenital HIV Prevention
-
-> **Editorial note:** Among the six TxGNN-predicted indications for atazanavir, predictions ranked 1–4 target animal diseases (feline AIDS, simian immunodeficiency virus) or obsolete/artefactual ontology terms unsuitable for clinical action. This report focuses on **Rank 5 — Congenital Human Immunodeficiency Virus** — which carries the highest evidence grade (L1) and is directly actionable within South Africa's national PMTCT programme.
-
----
+# Atazanavir: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Atazanavir (Reyataz®, BMS-232632) is an HIV-1 protease inhibitor used globally as part of combination antiretroviral therapy for adults and children with HIV infection, but currently not registered with SAHPRA in South Africa.
-The TxGNN model predicts it may be effective for **congenital human immunodeficiency virus** (prevention of mother-to-child HIV transmission), with **25 clinical trials** and **7 publications** currently supporting this direction.
-This is the highest-evidence prediction across all TxGNN outputs for this drug and is directly relevant to South Africa's national PMTCT programme.
-
----
+Atazanavir is an HIV-1 protease inhibitor marketed in South Africa for HIV-1 infection. The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV)**, a veterinary lentiviral disease. This prediction has **no clinical trials and no publications** behind it, so it rests on model score and general pharmacology only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection in adults and paediatric patients (based on international regulatory approvals; not currently SAHPRA-registered) |
-| Predicted New Indication | Congenital Human Immunodeficiency Virus (Perinatal HIV Prevention / PMTCT) |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L1 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | HIV-1 infection (the SAHPRA licence records supplied contain no indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 99.98% |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Based on known pharmacology, atazanavir blocks HIV-1 protease, the enzyme that cleaves the Gag-Pol polyprotein during viral maturation. Its efficacy in HIV-1 infection is established.
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, atazanavir is an **azapeptide HIV-1 protease inhibitor** that competitively binds the active site of the HIV-1 protease enzyme, blocking cleavage of the gag-pol polyprotein into functional structural and replication proteins. This prevents viral maturation and halts the production of new infectious HIV-1 virions. When pharmacokinetically boosted with low-dose ritonavir (ATV/r), atazanavir achieves sustained therapeutic plasma concentrations with once-daily dosing, making it suitable for long-term regimens including pregnancy.
+Feline immunodeficiency virus (FIV) is a related lentivirus, so a homology-based link is plausible. However, atazanavir activity against FIV protease is not established in the supplied data. The prediction is best read as a knowledge-graph signal, not a validated repurposing lead. It is also a veterinary condition, not a human one.
 
-The mechanistic link between HIV-1 treatment and prevention of congenital HIV is direct: preventing mother-to-child transmission (MTCT) requires achieving undetectable maternal viral load (<50 copies/mL) through effective HAART during pregnancy, delivery, and the breastfeeding period. ATV/r suppresses HIV-1 replication through the same mechanism as in standard adult treatment, and its pharmacokinetics during pregnancy have been prospectively validated — PMID 24992294 confirms that adequate ATV exposure is maintained throughout pregnancy irrespective of concomitant tenofovir use. Both WHO and DHHS guidelines list ATV/r as an acceptable alternative PMTCT regimen, particularly for women who were virologically stabilised on ATV/r prior to conception.
-
-In South Africa, where antenatal HIV prevalence exceeds 30% in several provinces and PMTCT is a national health priority, the availability of alternative PI-based regimens is clinically important — especially for pregnant women with NNRTI resistance or intolerance to standard first-line regimens. The PRINCE I and PRINCE II Phase 3 trials established safety and pharmacokinetic data for ATV/r in children as young as 3 months, reinforcing the overall perinatal safety profile. The primary safety concern specific to neonates is hyperbilirubinaemia, as atazanavir inhibits UGT1A1 (the main enzyme for neonatal bilirubin conjugation), necessitating bilirubin monitoring in newborns whose mothers received ATV/r during pregnancy.
-
----
+The same drug has a second, equally scored prediction, simian immunodeficiency virus infection. Its only supporting paper is a 2010 study of HAART in SIV-infected macaques (PMID 20497048). The role of atazanavir in that regimen is unconfirmed. This is a research-model extrapolation, not a clinical indication.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT01335698](https://clinicaltrials.gov/study/NCT01335698) | Phase 3 | Completed | 160 | **PRINCE II:** Safety, efficacy and PK of ATV powder + ritonavir in HIV-infected children aged 3 months to <11 years; established weight-based paediatric dosing guidelines |
-| [NCT01099579](https://clinicaltrials.gov/study/NCT01099579) | Phase 3 | Completed | 82 | **PRINCE I:** ATV powder + ritonavir safety, efficacy and PK in children aged ≥3 months to <6 years; confirmed adequate drug exposure in infants and young children |
-| [NCT01691794](https://clinicaltrials.gov/study/NCT01691794) | Phase 4 | Completed | 108 | Long-term safety of ATV capsule + ritonavir in HIV-infected paediatric patients aged 6 to <18 years; real-world safety dataset |
-| [NCT00326716](https://clinicaltrials.gov/study/NCT00326716) | Phase 1 | Completed | 69 | PK of ATV/ritonavir in HIV-1 infected pregnant women; determined adequate dosing regimen during pregnancy compared to historical non-pregnant data |
-| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | Phase 4 | Completed | 1578 | **IMPAACT P1026s:** Largest prospective PK study of ARV drugs (including ATV) in pregnant women and infants; also evaluated PK in postpartum women starting hormonal contraceptives |
-| [NCT04518228](https://clinicaltrials.gov/study/NCT04518228) | N/A | Completed | 205 | Updated PK data for ARV drugs including ATV during pregnancy and postpartum (2021–2025) |
-| [NCT00035932](https://clinicaltrials.gov/study/NCT00035932) | Phase 3 | Completed | 571 | Phase 3 trial of ATV/r or ATV/SQV versus LPV/r, each with TDF + NRTI, in treatment-experienced HIV patients; established ATV/r efficacy in boosted PI-based HAART |
-| [NCT00272779](https://clinicaltrials.gov/study/NCT00272779) | Phase 3 | Completed | 1057 | **CASTLE:** 96-week head-to-head comparison of ATV/r versus LPV/r + TDF/FTC in treatment-naïve HIV subjects; ATV/r demonstrated non-inferior antiviral efficacy with better lipid profile |
-| [NCT00207142](https://clinicaltrials.gov/study/NCT00207142) | Phase 4 | Completed | 252 | **INDUMA:** ATV/r induction followed by unboosted ATV maintenance; supports long-term ATV virological durability |
-| [NCT01232127](https://clinicaltrials.gov/study/NCT01232127) | Phase 4 | Completed | 25 | Effect of famotidine (H2-receptor antagonist) on ATV/r + TDF pharmacokinetics in HIV-infected patients; directly relevant for managing acid-suppression drug interactions during antenatal care |
-
----
+Currently no related clinical trials registered for this predicted indication. No SANCTR or PACTR entries were supplied either.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [24992294](https://pubmed.ncbi.nlm.nih.gov/24992294/) | 2015 | Prospective PK Study | *Antiviral Therapy* | ATV exposure remains pharmacologically adequate throughout pregnancy irrespective of concomitant tenofovir; supports continuation of standard ATV/r dosing (300/100 mg once daily) during pregnancy |
-| [25383770](https://pubmed.ncbi.nlm.nih.gov/25383770/) | 2015 | Retrospective Cohort | *JAMA Pediatrics* | Congenital anomaly rates in HIV-exposed uninfected infants with various in utero ARV exposures; provides comparative safety signal data for ATV-containing regimens |
-| [27242802](https://pubmed.ncbi.nlm.nih.gov/27242802/) | 2016 | Prospective Cohort (SMARTT) | *Frontiers in Immunology* | PHACS SMARTT multicentre study (n>3,500 HIV-exposed infants): comprehensive assessment of in utero ARV toxicities across metabolic, cardiac, neurological, neurodevelopmental, and hearing domains |
-| [28459118](https://pubmed.ncbi.nlm.nih.gov/28459118/) | 2016 | Cross-Sectional | *Journal of AIDS and Immune Research* | Newborn hearing screening referral rates in HIV-exposed uninfected infants enrolled in SMARTT; evaluates association between specific ARV exposures (including ATV) and hearing risk |
-| [29859254](https://pubmed.ncbi.nlm.nih.gov/29859254/) | 2018 | In Vitro Mechanistic | *Reproductive Toxicology* | First study characterising ATV and ritonavir interactions with placental ABC efflux transporters (P-gp/ABCB1, BCRP/ABCG2, MRP2/ABCC2); higher congenital anomaly risk associated with impaired placental efflux |
-| [31595301](https://pubmed.ncbi.nlm.nih.gov/31595301/) | 2020 | Pharmacovigilance Analysis | *Clinical Infectious Diseases* | Multi-database pharmacovigilance review of ARV safety in pregnancy; provides comparative safety context for PI-based versus INSTI-based regimens and informs signal interpretation |
-| [40011239](https://pubmed.ncbi.nlm.nih.gov/40011239/) | 2025 | Case/Non-case Study | *European Journal of Clinical Pharmacology* | European congenital anomaly registry analysis (most recent data): congenital anomaly risk following fetal exposure to ARV drugs including protease inhibitors; case/non-case design strengthens causal inference |
-
----
+Currently no related literature available for this predicted indication.
 
 ## South Africa Market Information
 
-Atazanavir is **not currently registered with SAHPRA**. There are no active product licences in South Africa.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 45/20.2.8/0925 | Zatonav | Film-coated tablet (Fct) |
+| Reg. No. 50/20.2.8/0242 | Emcovir | Tablet |
 
-> **Note for clinicians:** Atazanavir is approved internationally under the brand name **Reyataz®** (Bristol-Myers Squibb) and is **WHO-prequalified in generic form** by manufacturers including Aurobindo, Mylan/Viatris, and others. In South Africa, clinical use would currently require one of the following pathways:
->
-> 1. **SAHPRA Section 21 authorisation** — unregistered medicines access for individual patients or named-patient/compassionate-use programmes
-> 2. **Full product registration** by an originator or WHO-prequalified generic manufacturer
-> 3. **Procurement via PEPFAR or Global Fund channels** using WHO-prequalified generic formulations
->
-> The South African Essential Medicines List (EML) does not currently include atazanavir. South Africa's national ART guidelines use dolutegravir-based regimens as preferred first-line therapy; ATV/r would primarily serve as an alternative for women with documented NNRTI resistance or intolerance.
-
----
+Both registrations are for human use. No veterinary registration was identified in the supplied data.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. As atazanavir is not currently SAHPRA-registered, consult the **FDA or EMA prescribing information** (Reyataz®) and the **WHO Model Formulary** for complete prescribing guidance. Report adverse drug reactions to SAHPRA via the MedSafety reporting portal.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple completed Phase 3 clinical trials, a large prospective pregnancy pharmacokinetics dataset (IMPAACT P1026s, n=1,578), and paediatric safety data from the PRINCE I and PRINCE II Phase 3 trials collectively provide L1 evidence for the use of atazanavir/ritonavir in the context of perinatal HIV management. The drug is mechanistically well-suited to PMTCT and is recognised in international guidelines. The primary barrier to clinical use in South Africa is the absence of SAHPRA registration, which must be resolved before ATV/r can be routinely prescribed.
+The prediction is model-only (L5), with no trials or literature. The target is a feline disease, and atazanavir is registered in South Africa only for human use. Other high-scoring predictions for this drug (a neurodevelopmental disorder and an obsolete hyperlipidaemia term) show no mechanistic link and look like graph artefacts.
+
+Two other predictions in the pack are more informative:
+- **AIDS related complex** is an obsolete term for symptomatic HIV disease. It maps to atazanavir's existing approved use, not new repurposing. The Phase 3 trial NCT00035932 (n=571) supports it.
+- **Congenital HIV** is supported only by observational perinatal cohorts and Phase 2-4 trials in general HIV-1 populations. Neonatal safety must be checked against current labelling.
 
 **To proceed, the following is needed:**
+- The SAHPRA package insert warnings and contraindications (a blocking gap). Download and parse the PI PDF from the SAHPRA website.
+- Mechanism of action data from DrugBank.
+- For the FIV or SIV directions, preclinical evidence of atazanavir activity against FIV or SIV protease, and a veterinary regulatory pathway if pursued.
+- For congenital HIV, a review of neonatal safety (including hyperbilirubinaemia) against current labelling.
 
-- **Regulatory pathway:** Initiate a SAHPRA Section 21 application for compassionate use, or support a WHO-prequalified generic manufacturer to apply for full SAHPRA registration
-- **Procurement assessment:** Evaluate availability and cost of WHO-prequalified generic ATV/r through PEPFAR, the Global Fund, or the National Department of Health's revolving drug fund
-- **Safety documentation:** Retrieve the complete FDA/EMA prescribing information for ATV/r, including full boxed warnings, contraindications, pregnancy and lactation sections, and drug interaction tables
-- **MOA data:** Obtain the complete DrugBank pharmacological and mechanistic profile (DB01072) to formalise the mechanistic justification for regulatory submission
-- **Neonatal monitoring protocol:** Develop local guidance for bilirubin monitoring in neonates born to mothers on ATV/r (UGT1A1 inhibition risk), aligned with South African neonatal jaundice management pathways
-- **EML submission:** Prepare a dossier for the National Essential Medicines Committee (NEMLC) to evaluate ATV/r as an alternative PMTCT option for women with NNRTI resistance or intolerance
-- **National guideline alignment:** Engage with the National Department of Health to assess whether ATV/r should be incorporated into the South African ART and PMTCT guidelines as a preferred second-line or alternative agent
-
----
-
-*This report is intended for research and clinical decision-support purposes only. It does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. Data current as of 4 April 2026.*
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

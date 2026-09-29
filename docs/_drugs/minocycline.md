@@ -2,7 +2,7 @@
 layout: default
 title: Minocycline
 parent: Model Prediction Only (L5)
-nav_order: 318
+nav_order: 324
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,27 +33,29 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Minocycline is a broad-spectrum tetracycline-class antibiotic, historically used to treat bacterial infections. The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**, but currently **no clinical trials and no published literature** support this specific indication — the prediction is derived purely from model embedding similarity.
+Minocycline is a tetracycline antibiotic, used to treat a range of bacterial infections.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**.
+This is a model prediction only: **0 clinical trials** and **0 publications** were retrieved for this indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in this evidence pack; minocycline is generically indicated for bacterial infections as a tetracycline-class antibiotic (e.g., acne vulgaris, respiratory and skin infections) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.63% (rank 2345 of model output) |
-| Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Original Indication | Bacterial infections (tetracycline antibiotic; the SAHPRA-approved indication text is not available in this record) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 99.63% |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for minocycline is not available in this evidence pack. Based on known pharmacology, minocycline is a tetracycline-class antibiotic whose efficacy in bacterial infections is well established. Mechanistically, tetracyclines (including doxycycline and minocycline) also possess non-antibacterial properties — notably matrix metalloproteinase (MMP) inhibition and anti-inflammatory activity — that have precedent for off-label use in ocular surface disease.
+Detailed mechanism of action data are not available in this record. Minocycline is a tetracycline antibiotic. Its efficacy in bacterial infections is established, and mechanistically it may be applicable to inflammatory eye-surface disease.
 
-This provides a plausible biological rationale for a potential effect on punctate epithelial keratoconjunctivitis, an ocular surface inflammatory condition. However, this specific indication currently has **no supporting clinical trials or literature** — the prediction is generated purely from TxGNN's knowledge-graph embedding similarity, not from any observed clinical or preclinical data on this exact disease.
+A plausible link is the anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting activity reported for tetracyclines on the ocular surface. Punctate epithelial keratoconjunctivitis involves inflammation and damage to the surface of the cornea and conjunctiva.
 
-Given the complete absence of direct evidence, this candidate should be treated as a hypothesis-generating signal only, not as a basis for clinical or regulatory action at this time.
+This is a hypothesis, not evidence. The high score reflects a pattern in the knowledge graph and is not clinical proof. Route compatibility has not been assessed. The only registered South African product is an oral tablet, and ocular use may require a different route or formulation.
 
 ## Clinical Trial Evidence
 
@@ -65,28 +67,28 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-No SAHPRA registrations are currently on record for minocycline in this evidence pack (0 licenses; market status: not marketed).
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 28/20.1.1/0574 | Sandoz Minocycline | Tablet (oral) |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*Note: The evidence pack flags TFDA/SAHPRA label warnings and contraindications as a **Blocking** data gap (DG001) — this must be resolved before any S1 safety review can proceed.*
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (punctate epithelial keratoconjunctivitis) has a high TxGNN score but zero clinical trials and zero literature support — evidence level L5 (model prediction only). Minocycline is also not currently marketed in South Africa, so there is no existing local safety or regulatory foundation to build on.
+The prediction has no supporting trials or publications (evidence level L5), and the mechanism data and SAHPRA safety information are missing. The only local product is an oral tablet, whose fit for an ocular indication is unassessed. The prediction is a hypothesis for further research and should not be used for clinical decisions.
 
 **To proceed, the following is needed:**
-- SAHPRA/TFDA-approved Professional Information (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action data from DrugBank
-- Preclinical or clinical evidence specific to ocular surface/keratoconjunctivitis indications
-- Confirmation of whether SAHPRA registration would be pursued given current "not marketed" status
+- The SAHPRA package insert (warnings and contraindications), which blocks any safety screening
+- Mechanism of action data, for example from DrugBank
+- A literature and trial search specific to minocycline in punctate epithelial keratoconjunctivitis
+- A route-of-administration assessment (oral tablet versus ocular use)
 
-**Additional note:** Within this same evidence pack, other TxGNN-predicted indications for minocycline show stronger real-world evidence and may warrant separate evaluation — notably *otitis externa* (L3, 5 literature citations including historical ENT use) and *post-infectious syndrome* (L3, including a completed Phase 1/2 trial in HIV-associated cognitive impairment). These may be more productive candidates for near-term evaluation than the top-ranked but evidence-free prediction covered above.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

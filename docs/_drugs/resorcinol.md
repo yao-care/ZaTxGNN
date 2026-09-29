@@ -2,7 +2,7 @@
 layout: default
 title: Resorcinol
 parent: Model Prediction Only (L5)
-nav_order: 390
+nav_order: 398
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Resorcinol: From Topical Keratolytic (Acne) Use to Predicted Acne Keloid
+# Resorcinol: From an Unrecorded Original Indication to Acne Keloid
 
 ## One-Sentence Summary
 
-> Resorcinol is a phenolic keratolytic agent known internationally for topical use in acne and hyperkeratotic skin conditions, though it is not currently registered or marketed in South Africa.
-> The TxGNN model predicts it may be effective for **Acne Keloid** (acne keloidalis),
-> but **no clinical trials or published literature** currently support this direction — the prediction rests on model inference alone.
+Resorcinol is registered in South Africa as a component of the Anugesic suppository, but the record does not state its approved indication.
+The TxGNN model predicts it may be useful for **acne keloid** (acne keloidalis), with a score of 99.83%.
+There are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model-only hypothesis.
 
 ---
 
@@ -43,23 +43,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on South African license record; internationally documented as a topical keratolytic for acne and keratinizing skin disorders |
-| Predicted New Indication | Acne Keloid (acne keloidalis) |
+| Original Indication | Not stated in the registration record |
+| Predicted New Indication | Acne keloid |
 | TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 (model prediction only — no supporting trials or literature) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
+
+**Note on the registration data:** The Evidence Pack lists its regulatory inputs as TFDA and DrugBank, not SAHPRA. The licence number "E512" also does not follow the SAHPRA registration format. The market status and registration count above should be confirmed against the SAHPRA register before anyone relies on them.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data for resorcinol is not available in this evidence pack. Based on known pharmacological information, resorcinol is a phenolic keratolytic that has long been used topically for acne and other hyperkeratotic dermatological conditions, exerting anti-inflammatory and keratolytic (keratin-dissolving) effects.
+Detailed mechanism of action data is not currently available, and the registration record gives no approved indication. The mechanistic reasoning below is therefore general pharmacological knowledge, not something taken from the Evidence Pack.
 
-Acne keloid (acne keloidalis nuchae) shares pathophysiological features with acne — follicular occlusion, excess keratinization, and chronic inflammation — which provides a plausible, indirect mechanistic rationale for resorcinol's predicted activity in this condition.
+Topical resorcinol is generally described as a keratolytic and antiseptic used in acne and seborrhoeic skin conditions. That could plausibly relate to the follicular inflammation seen in acne keloidalis. It would not address the fibrotic scarring that defines the condition, so this link is a **hypothesis only**.
 
-However, this link should be interpreted cautiously: the very high TxGNN score most likely reflects resorcinol's existing knowledge-graph proximity to "acne"-related nodes rather than independent new evidence. No clinical trials or literature currently corroborate efficacy specifically in acne keloid, so this remains a hypothesis generated purely by graph inference.
+The registered product, Anugesic, is a suppository. That is a rectal route, not the topical route implied by the dermatological rationale. Route compatibility between the registered product and the predicted indication has not been assessed.
 
 ---
 
@@ -77,7 +79,11 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Resorcinol currently has no SAHPRA registrations and is not marketed in South Africa (0 licenses on record). No product, dosage form, or approved indication data is available for this jurisdiction.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| E512 | Anugesic | Suppository | Not stated in the record |
+
+Essential Medicines List (EML) status is not available in the Evidence Pack.
 
 ---
 
@@ -85,7 +91,7 @@ Resorcinol currently has no SAHPRA registrations and is not marketed in South Af
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*(No TFDA/SAHPRA warnings, contraindications, or drug interaction data are currently available — this is flagged as a blocking data gap for any further safety assessment.)*
+The Evidence Pack contains no warnings, contraindications, or interaction data for this drug. The only safety point in the pack comes from the rationale for a different prediction, neonatal dermatomyositis. It notes that resorcinol absorption in neonates carries known toxicity risks, such as methemoglobinaemia. Any future work should treat neonates and infants with caution.
 
 ---
 
@@ -94,15 +100,17 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-This candidate is supported only by a TxGNN model score (L5), with zero corroborating clinical trials or literature, no confirmed MOA data, and no South African market presence. There is insufficient evidence to advance beyond hypothesis stage.
+The prediction rests on a model score alone. There are no trials, no publications, and no recorded mechanism. The only registered product is a suppository, which does not match the topical use the hypothesis assumes. All nine other predicted indications in the pack (rank 2 to 10) are also rated Hold, and none has supporting evidence.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information (PI) — warnings, contraindications, DDI (currently a Blocking data gap)
-- Confirmed mechanism of action data from DrugBank or primary literature
-- At least preclinical or observational evidence directly linking resorcinol to acne keloid before considering trial design
-- SAHPRA registration status review, since the drug is not currently marketed in South Africa
+- The SAHPRA package insert (warnings, contraindications, approved indication) for Anugesic, which is currently a blocking gap
+- Confirmation that the registration record is a genuine SAHPRA entry
+- Mechanism of action data, for example from DrugBank
+- A literature and trial search specific to resorcinol in acne keloidalis
+- An assessment of whether a topical resorcinol product is available in South Africa, since the current registration is a suppository
+- A safety review of systemic absorption and methemoglobinaemia risk
 
-**Note on other predicted indications:** Ranks 2–10 in this evidence pack (e.g., amyopathic/neonatal dermatomyositis, rheumatoid vasculitis, ankylosing spondylitis, hypermobility of coccyx) were annotated by the source analysis as lacking any plausible mechanistic link to resorcinol's known topical/keratolytic pharmacology, and are likely artifacts of knowledge-graph proximity within dermatology-adjacent nodes rather than genuine repurposing signals. None are recommended for further evaluation at this time.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

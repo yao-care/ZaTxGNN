@@ -2,7 +2,7 @@
 layout: default
 title: Ciprofloxacin
 parent: Moderate Evidence (L3-L4)
-nav_order: 121
+nav_order: 122
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,33 +33,36 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ciprofloxacin is a broad-spectrum fluoroquinolone antibiotic used to treat a wide range of bacterial infections, including urinary tract infections, respiratory tract infections, and gastrointestinal infections.
-The TxGNN model predicts it may be effective for **Diffuse Scleroderma** (systemic sclerosis), based on its antifibrotic activity in dermal fibroblasts and its established role in managing small intestinal bacterial overgrowth (SIBO) — a common complication of this disease.
-Currently, **no registered clinical trials** and **2 publications** directly support this repurposing direction.
+Ciprofloxacin is a fluoroquinolone antibacterial, marketed in South Africa as tablets and drops.
+The TxGNN model predicts it may help in **diffuse scleroderma**, but this is a research-stage idea.
+There are **0 registered clinical trials** and **2 publications** for it, one of which reports a small controlled trial of ciprofloxacin as an antifibrotic in scleroderma skin.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Broad-spectrum bacterial infections (fluoroquinolone antibiotic; SAHPRA registration data unavailable in current dataset) |
-| Predicted New Indication | Diffuse Scleroderma (Systemic Sclerosis) |
+|------|------|
+| Original Indication | Not stated in the SAHPRA registration data provided; ciprofloxacin is a fluoroquinolone antibacterial |
+| Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not marketed (not found in SAHPRA database; data collection may be incomplete) |
-| Number of SAHPRA Registrations | 0 (may reflect data collection gap) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 8 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Ciprofloxacin belongs to the fluoroquinolone class of antibiotics. Its primary mechanism of action is inhibition of bacterial DNA gyrase (GyrA/GyrB) and Topoisomerase IV, which blocks bacterial DNA replication and repair. Importantly, ciprofloxacin also exerts effects on mammalian fibroblasts: it suppresses TGF-β–driven collagen synthesis (Collagen Types I and III) and downregulates inhibitors of matrix metalloproteinases (MMPs). This antifibrotic activity maps directly onto the core pathological mechanism in scleroderma — unchecked fibroblast activation and excessive extracellular matrix deposition.
+Detailed mechanism of action data is not available in the source record. Ciprofloxacin is a fluoroquinolone antibacterial. Its established role is treating bacterial infections, and it has no known primary action on autoimmune or fibrotic disease.
 
-Diffuse scleroderma (diffuse cutaneous systemic sclerosis) is an autoimmune connective tissue disease characterised by microvascular injury, immune dysregulation, and progressive fibrosis of the skin and internal organs, principally driven by aberrant TGF-β signalling. The alignment between ciprofloxacin's documented cellular effects and the dominant fibrotic pathway in scleroderma provides a biologically credible rationale for the TxGNN prediction.
+Two indirect links are suggested by the retrieved literature:
 
-A second, independent mechanistic pathway further strengthens the case: patients with systemic sclerosis frequently develop small intestinal bacterial overgrowth (SIBO) as a consequence of gastrointestinal dysmotility. Ciprofloxacin can reduce intestinal bacterial load, lower systemic endotoxin exposure, and thereby indirectly attenuate ongoing immune activation that contributes to disease progression. A 1995 observational study in British Journal of Rheumatology confirmed the clinical relevance of this pathway, documenting antibiotic treatment outcomes in 24 systemic sclerosis patients presenting with malabsorption symptoms.
+- **Antifibrotic effect on skin.** A 2010 study proposed that oral ciprofloxacin might reduce skin fibrosis in scleroderma.
+- **Bacterial overgrowth.** Systemic sclerosis can involve small bowel bacterial overgrowth, which causes diarrhoea, weight loss and malabsorption. An antibiotic could plausibly treat that complication. This would be treatment of a complication, not of the underlying disease.
+
+Neither link shows clinical efficacy. The very high TxGNN score comes from knowledge-graph patterns and is not clinical evidence.
 
 ---
 
@@ -72,25 +75,33 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Pilot RCT | The Journal of Dermatology | Controlled, double-blind randomised trial evaluating oral ciprofloxacin as an antifibrotic agent in patients with scleroderma; assessed whether ciprofloxacin reduces skin fibrosis severity. Pilot-scale; results provide early-stage interventional signal. |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Observational/Diagnostic Study | British Journal of Rheumatology | Twenty-four systemic sclerosis patients with malabsorption symptoms (chronic diarrhoea and weight loss) were assessed for SIBO via jejunal aspiration; six had diffuse disease. Antibiotic treatment outcomes reported, supporting the role of antibiotics including ciprofloxacin in managing SIBO-related gastrointestinal complications in systemic sclerosis. |
+|------|-----|------|------|---------|
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Controlled, double-blind randomized clinical trial (per abstract) | J Dermatol | Tested whether oral ciprofloxacin reduces scleroderma severity, as an antifibrotic in skin. The abstract available here is truncated, so results and sample size could not be verified. |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Diagnostic study | Br J Rheumatol | 24 systemic sclerosis patients with malabsorption symptoms were assessed for small bowel bacterial overgrowth. It is a detection-methods paper, and the available text gives no ciprofloxacin efficacy data. |
 
 ---
 
 ## South Africa Market Information
 
-No SAHPRA registrations were identified in the current dataset (market status: not marketed; 0 licences retrieved). This likely reflects a data collection gap rather than true non-availability — ciprofloxacin is a WHO Essential Medicine and is expected to be registered and widely accessible in South Africa, including on the National Essential Medicines List (NEML).
+Ciprofloxacin has 8 SAHPRA registrations. Five are listed below. The registration data supplied has no approved-indication text, and it does not show Essential Medicines List (EML) status.
 
-Healthcare professionals should verify the current registration status directly on the SAHPRA website ([www.sahpra.org.za](https://www.sahpra.org.za)) and consult the current NEML for approved indications and formulations.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 35/20.1.1/0101 | Orpic | Tablet | Not listed in the data provided |
+| A40/15.1/0048 | Ceprolen 5ml | Drops | Not listed in the data provided |
+| 36/20.1.1/0377 | Ciploxx 500 | Tablet | Not listed in the data provided |
+| 49/16.2/0071 | Xindex | Drops | Not listed in the data provided |
+| A40/20.1.1/0372 | Biofloxx 500 | Tablet | Not listed in the data provided |
+
+Dosage forms across the registrations include oral tablets, drops and an infusion.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for complete safety information. Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-> **Important clinical note for this repurposing context:** Ciprofloxacin carries black box warnings (US FDA) for tendinitis and tendon rupture, peripheral neuropathy, and central nervous system effects. These risks are particularly relevant when considering off-label use in systemic sclerosis patients, as peripheral neuropathy can also be a manifestation of the underlying disease — creating potential diagnostic confusion and compounding risk. A careful benefit-risk assessment is essential before use in this population.
+No drug interaction records were found for this drug in the source data.
 
 ---
 
@@ -99,20 +110,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for complete s
 **Decision: Hold**
 
 **Rationale:**
-The evidence base for ciprofloxacin in diffuse scleroderma currently consists of one small pilot randomised trial (2010) and one observational study (1995), with no active registered clinical trials — placing this at an L4 evidence level, insufficient to support clinical use beyond investigational settings. The mechanistic rationale is credible but requires prospective validation.
+The support for diffuse scleroderma is a model prediction plus one small controlled study whose results could not be verified. There are no registered trials, and safety information for South Africa is missing. This is a research question, not a candidate for clinical use.
 
 **To proceed, the following is needed:**
-- A well-powered Phase 2 randomised controlled trial evaluating oral ciprofloxacin vs placebo in diffuse scleroderma, with validated skin fibrosis endpoints (e.g., modified Rodnan Skin Score) and functional outcomes
-- Retrieval of complete mechanism of action (MOA) data from DrugBank to fully characterise the antifibrotic signalling pathway and support mechanistic dossier development
-- Safety profiling specific to scleroderma patients, with particular attention to tendinopathy and peripheral neuropathy risks given both the drug's black box warnings and disease-related neuropathy
-- Confirmation of current SAHPRA registration status, approved indications, and inclusion on the South African National Essential Medicines List (NEML)
-- Review of the SAHPRA-approved Professional Information (PI) for complete contraindications, warnings, and drug interaction data before any clinical protocol is designed
+- Retrieve the full text of PMID 20507401 to confirm design, sample size, outcomes and effect size.
+- Download the SAHPRA package insert for warnings, contraindications and interactions. This is required before any safety screening.
+- Obtain mechanism of action data, for example from DrugBank, to assess the antifibrotic hypothesis.
+- Weigh the known fluoroquinolone risks (for example, peripheral neuropathy) against any benefit in a chronic condition.
+- Consider prioritising a different prediction for this drug: **septicemic plague** (L2 evidence, recommended Proceed with Guardrails). It has a completed Phase 2 randomized trial and several plague trials of ciprofloxacin. Its data focus on bubonic plague, so extrapolation to septicemic disease would need confirmation.
 
-> **Note on other predicted indications:** Among all 10 TxGNN-predicted indications in this Evidence Pack, **Septicemic Plague** (Rank 10, TxGNN score 99.64%) carries substantially stronger evidence — an L2 rating supported by a completed Phase 2 randomised non-inferiority trial (NCT01243437) and FDA approval under the Animal Efficacy Rule — with a recommendation of **Proceed with Guardrails**. A dedicated report for this indication is recommended as a priority.
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. This document should be read in conjunction with the SAHPRA-approved Professional Information for ciprofloxacin.*
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

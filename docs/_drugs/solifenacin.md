@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Solifenacin
-parent: Moderate Evidence (L3-L4)
-nav_order: 413
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 421
+evidence_level: L5
 indication_count: 10
 ---
 
 # Solifenacin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,88 +33,70 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Solifenacin is a selective M3 muscarinic receptor antagonist established for overactive bladder (OAB), identified from the literature within this evidence pack (no South African product-label text is available, as the drug is not currently marketed here).
-> The TxGNN model's top-ranked prediction is that it may be effective for **Polycystic Kidney Disease 3, with or without Polycystic Liver Disease**,
-> but this ranking is supported by **0 clinical trials** and **20 publications that describe the disease itself, not solifenacin's use in it** — the evidence pack's own analysis flags this as a likely knowledge-graph topology artefact rather than a genuine pharmacological signal.
-
----
+Solifenacin is a selective M3 muscarinic antagonist used for bladder symptoms. The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease**, but there are **0 clinical trials** and **20 publications**, all disease-background reviews or guidelines. None of them evaluates solifenacin, so this prediction is a knowledge-graph association only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Overactive bladder (OAB) — identified from literature within this evidence pack; no South African/SAHPRA product-label text available (see Market Status below) |
-| Predicted New Indication | Polycystic Kidney Disease 3, with or without Polycystic Liver Disease |
+| Original Indication | Overactive bladder (inferred from the drug's class and pharmacology; the SAHPRA registration record gives no indication text) |
+| Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
 | TxGNN Prediction Score | 97.13% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for solifenacin is not available in this evidence pack (flagged internally as a High-severity data gap, DG002). Based on generally established pharmacology, solifenacin is a selective M3 muscarinic receptor antagonist that relaxes detrusor smooth muscle, which is the basis of its use in overactive bladder.
+It is not well supported. Currently, detailed mechanism of action data is not available in the record. Solifenacin is known to block M3 muscarinic receptors on bladder smooth muscle, which reduces involuntary detrusor contractions.
 
-Polycystic Kidney Disease 3 (with or without polycystic liver disease) is a genetic ciliopathy in which cyst growth is driven by cAMP-dependent signalling in renal tubular and cholangiocyte epithelium — a pathway unrelated to bladder detrusor contractility. None of the 20 literature results returned for this pairing discuss solifenacin, muscarinic antagonism, or cAMP-cystogenesis; they are disease-overview reviews and guidelines about PKD/PLD genetics, diagnosis, and management (e.g., ADPKD genetics, EASL cystic liver disease guidelines).
+Polycystic kidney disease 3 with or without polycystic liver disease is a genetic disease (GANAB-related). Cyst formation is driven by defects in polycystin and ER glycoprotein processing. No plausible link exists between muscarinic receptor antagonism and these pathways.
 
-The evidence pack's own rationale is explicit on this point: the high TxGNN score most likely reflects the topological proximity of urinary- and renal-system nodes in the knowledge graph, rather than a real pharmacological relationship. This mechanistic implausibility, combined with the complete absence of drug-specific trials or literature, is why this candidate is scored L4 and recommended for **Hold** rather than active development.
-
----
+The high score of 0.97 reflects a graph association, not a biological rationale or clinical signal. The 20 retrieved publications describe the disease's genetics, diagnosis and management, and none evaluates solifenacin.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+No study among the retrieved publications tests solifenacin. All are background literature on the disease.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38958301](https://pubmed.ncbi.nlm.nih.gov/38958301/) | 2024 | Guideline | Am J Gastroenterol | ACG guideline on focal liver lesions, including management of polycystic liver disease; does not discuss solifenacin |
-| [30819518](https://pubmed.ncbi.nlm.nih.gov/30819518/) | 2019 | Review | Lancet | Overview of ADPKD genetics, clinical manifestations (renal cysts, liver cysts, hypertension); no drug-therapy discussion relevant to solifenacin |
-| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Review | Clin Liver Dis | ADPKD/PCLD clinical course; notes tolvaptan (a vasopressin-receptor antagonist, not solifenacin) as an approved ADPKD therapy |
-| [29038287](https://pubmed.ncbi.nlm.nih.gov/29038287/) | 2018 | Review | J Am Soc Nephrol | Genetic complexity and causative genes (PKD1, PKD2, PRKCSH, SEC63, GANAB) of ADPKD/ADPLD |
-| [38097330](https://pubmed.ncbi.nlm.nih.gov/38097330/) | 2023 | Review | Adv Kidney Dis Health | Genetic spectrum and phenotypes of polycystic kidney and liver disease |
-| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Clinical Practice Guideline | J Hepatol | EASL guideline on diagnosis and management of cystic liver diseases |
-| [28375157](https://pubmed.ncbi.nlm.nih.gov/28375157/) | 2017 | Genetic study | J Clin Invest | Whole-exome sequencing identifying isolated PCLD genes and polycystin-1 pathway effectors |
-| [34034501](https://pubmed.ncbi.nlm.nih.gov/34034501/) | 2022 | Review | Rev Esp Enferm Dig | Diagnosis and management of hepatic hydatid cyst (a differential diagnosis, not PKD/PLD treatment) |
-| [36047551](https://pubmed.ncbi.nlm.nih.gov/36047551/) | 2022 | Review | Rev Med Suisse | Overview of polycystic liver disease subtypes and clinical course |
-| [37266470](https://pubmed.ncbi.nlm.nih.gov/37266470/) | 2023 | Case report | Maedica | Case of ADPKD/polycystic liver disease co-occurring with gastric cancer |
-
-None of the above publications evaluate solifenacin, and none support a treatment rationale for this indication.
-
----
+| [38958301](https://pubmed.ncbi.nlm.nih.gov/38958301/) | 2024 | Guideline | Am J Gastroenterol | ACG guideline on focal liver lesions, including hepatic cystic lesions and polycystic liver disease |
+| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Guideline | J Hepatol | EASL guidelines on diagnosis and management of cystic liver diseases |
+| [30819518](https://pubmed.ncbi.nlm.nih.gov/30819518/) | 2019 | Review | Lancet | ADPKD as a systemic disorder, with kidney and liver cysts and other extrarenal complications |
+| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Review | Clin Liver Dis | Polycystic liver disease in ADPKD; tolvaptan slows renal function decline |
+| [29038287](https://pubmed.ncbi.nlm.nih.gov/29038287/) | 2018 | Review | J Am Soc Nephrol | Genetic overlap between ADPKD and polycystic liver disease (PKD1, PKD2, GANAB and others) |
+| [38097330](https://pubmed.ncbi.nlm.nih.gov/38097330/) | 2023 | Review | Adv Kidney Dis Health | Genetic spectrum of polycystic kidney and liver diseases and resulting phenotypes |
+| [36047551](https://pubmed.ncbi.nlm.nih.gov/36047551/) | 2022 | Review | Rev Med Suisse | Overview of polycystic liver disease (biliary hamartomas, ADPLD, ADPKD) |
+| [28375157](https://pubmed.ncbi.nlm.nih.gov/28375157/) | 2017 | Basic research | J Clin Invest | Genes of isolated polycystic liver disease as effectors of polycystin-1 function |
+| [37266470](https://pubmed.ncbi.nlm.nih.gov/37266470/) | 2023 | Case report | Maedica | Polycystic kidney and liver disease associated with advanced gastric cancer |
 
 ## South Africa Market Information
 
-Solifenacin is currently **not marketed** in South Africa: **0 SAHPRA registrations** are on record in this evidence pack, so no registered product name, dosage form, or approved-indication text is available for South Africa.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 56/21.12/1063 | Firsoltam | Mrt | Not stated in the registration record |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-(Note: retrieval of TFDA/SAHPRA-equivalent label warnings and contraindications is flagged internally as a **Blocking** data gap — this must be resolved before any safety pre-assessment can proceed.)
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The 97.13% TxGNN score for Polycystic Kidney Disease 3 is not supported by any drug-specific clinical trial or literature evidence; the pack's own analysis attributes the score to knowledge-graph topological proximity rather than a plausible pharmacological mechanism.
-- Separately, this same evidence pack contains a substantially stronger candidate for solifenacin repurposing — **"low compliance bladder" (rank 7)**, evidence level L2, with a Phase 4 trial and multiple RCTs directly evaluating antimuscarinic therapy (including solifenacin) for neurogenic/low-compliance bladder, a mechanistically direct extension of its OAB indication, scored "Proceed with Guardrails." That candidate merits prioritized review ahead of this one.
+The prediction has no clinical trials, no drug-specific literature and no plausible mechanistic link, so it stays at L5 (model prediction only). The other nine predictions for this drug are also L5 and Hold, except rank 7, low compliance bladder. That one is biologically plausible, as it is close to solifenacin's existing bladder use and has neurogenic detrusor overactivity data (PMID 32007426). It is classed L3 as a research question and is better treated as an extension of the current indication than as true repurposing.
 
 **To proceed, the following is needed:**
-- Preclinical or mechanistic evidence directly linking M3 muscarinic antagonism to cAMP-driven cystogenesis in PKD3/PLD before this candidate can be re-scored above L4
-- SAHPRA-equivalent Professional Information (PI) — warnings and contraindications (Blocking gap, DG001)
-- Confirmed original indication and mechanism-of-action documentation for solifenacin (DG002)
-- Verification of South Africa registration status, given 0 SAHPRA licenses are currently on record
+- The SAHPRA package insert (warnings and contraindications), which is needed before any safety screening
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical study of solifenacin in polycystic kidney or liver disease; without one, this indication should not advance
+- Consider redirecting effort to the low compliance bladder prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

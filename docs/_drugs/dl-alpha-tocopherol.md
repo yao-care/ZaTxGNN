@@ -2,15 +2,15 @@
 layout: default
 title: Dl-Alpha-Tocopherol
 parent: Moderate Evidence (L3-L4)
-nav_order: 185
-evidence_level: L4
+nav_order: 188
+evidence_level: L3
 indication_count: 10
 ---
 
 # Dl-Alpha-Tocopherol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,75 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# DL-alpha-Tocopherol: From Antioxidant Supplement to Immature Cataract
+# DL-alpha-Tocopherol: From No Recorded Indication to Immature Cataract
 
 ## One-Sentence Summary
 
-DL-alpha-Tocopherol is the synthetic racemic form of Vitamin E, a fat-soluble antioxidant widely used to protect cells from oxidative stress damage.
-The TxGNN model predicts it may be effective for **Immature Cataract**,
-with **0 clinical trials** and **1 observational study** currently supporting this direction.
-
----
+DL-alpha-Tocopherol is a synthetic form of vitamin E. It is registered in South Africa as a component of an infusion product, and no original indication is recorded in the data.
+The TxGNN model predicts it may be relevant to **immature cataract**.
+Support is thin: **0 registered clinical trials** and **1 publication** (a 1999 human study).
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No formally registered indication (used as nutritional antioxidant supplement) |
-| Predicted New Indication | Immature Cataract |
-| TxGNN Prediction Score | 99.975% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+|------|------|
+| Original Indication | Not recorded (no approved indication text in the SAHPRA record or DrugBank) |
+| Predicted New Indication | Immature cataract |
+| TxGNN Prediction Score | 99.98% |
+| Evidence Level | L3 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the DrugBank record for this compound. Based on well-established pharmacological knowledge, DL-alpha-Tocopherol is the synthetic racemic form of Vitamin E — a lipid-soluble, chain-breaking free radical scavenger. It neutralises reactive oxygen species (ROS) by donating a hydrogen atom to lipid peroxy radicals, thereby interrupting the peroxidation cascade in cell membranes. It also works synergistically with the reduced glutathione (GSH) system and glutathione peroxidase (GSH-Px) to maintain the cellular redox balance.
+Currently, detailed mechanism of action data is not available. Alpha-tocopherol is a lipid-soluble antioxidant that limits lipid peroxidation in cell membranes. That property is the basis for the predicted link to cataract.
 
-Immature cataract is characterised by progressive, partial opacification of the lens due to oxidative cross-linking of crystallin proteins and lipid peroxidation in lens epithelial cells. These tissues are continuously exposed to light-induced oxidative stress, making the antioxidant defence network particularly critical. The primary pathological mechanism — ROS-driven protein aggregation — directly aligns with alpha-tocopherol's established antioxidant action. This mechanistic overlap provides the biological basis for the TxGNN prediction.
+Oxidative damage to lens membranes and proteins is a recognised contributor to cataract formation. An antioxidant could therefore plausibly play a protective role. This link has not been tested in this evidence pack. Because no original indication is on record, no similarity between an original and a new indication can be assessed.
 
-It should be noted, however, that mechanistic plausibility does not equate to clinical efficacy. The sole supporting study in this evidence pack is a small observational trial conducted in 1999 (n=50), with no randomised controlled trials specifically evaluating DL-alpha-Tocopherol in immature cataract. Advancing this candidate requires prospective clinical investigation.
+The score should be read with caution. TxGNN gave nearly identical scores (about 99.97%) to many cataract subtypes, including mature, tetanic, craniostenosis-associated and diabetic cataract. It also gave a similar score to antithrombin deficiency type 2, which has no plausible link to this drug. This pattern suggests the score reflects proximity in the knowledge graph rather than a signal specific to immature cataract.
 
----
+The antioxidant rationale applies mainly to prevention or slowing of lens opacity. It is unlikely to reverse an already opacified lens.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [10749028](https://pubmed.ncbi.nlm.nih.gov/10749028/) | 1999 | Cohort/Observational | Annals of Nutrition & Metabolism | 50 patients with unilateral/bilateral idiopathic immature senile cataract (cortical n=25, nuclear n=25) received Vitamin E (n=12 per subgroup) or placebo (n=13 per group) for 30 days; study measured GSH, MDA, and GSH-Px levels in lens homogenates as markers of oxidative stress |
+|------|-----|------|------|---------|
+| [10749028](https://pubmed.ncbi.nlm.nih.gov/10749028/) | 1999 | Human study (randomised, placebo-controlled per abstract; classified as observational, inferred from title only) | Annals of Nutrition & Metabolism | 50 patients with idiopathic immature senile cataract (25 cortical, 25 nuclear) received vitamin E or placebo for 30 days. Lens glutathione, vitamin E, malondialdehyde and glutathione peroxidase were measured. The abstract available here is truncated, so full results are not confirmed. |
 
----
+This is a small, single study of about 50 patients. It measured biochemical markers in the lens, not vision or cataract progression. It is not evidence of a confirmed treatment effect.
 
 ## South Africa Market Information
 
-DL-alpha-Tocopherol (DrugBank ID: DB14476) is not currently registered with SAHPRA and holds no active product licences in South Africa. There are no approved dosage forms or registered indications on record.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 36/22.1/0508 | Cernevit | Infusion | Not recorded |
 
----
+The only registered form is an injectable infusion. Whether an infusion suits a cataract-related use has not been assessed. The route of administration in the 1999 study is not shown in the available abstract.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the mechanistic link between alpha-tocopherol's antioxidant properties and immature cataract prevention is biologically plausible, the current evidence base is limited to a single small observational study from 1999. This is insufficient to advance beyond a research question stage, and the compound carries no SAHPRA registration in South Africa.
+The prediction rests on a model score and one small 1999 study of biochemical markers. No clinical trials are registered, and the near-identical scores across unrelated cataract subtypes point to graph artefact rather than a specific signal. Safety data from the SAHPRA package insert is also missing, which blocks progression to safety screening.
 
 **To proceed, the following is needed:**
-- Retrieve the full DrugBank MOA record (DG002) to formally document the pharmacological rationale
-- Obtain SAHPRA-approved Professional Information (PI) and full safety/contraindication data (DG001) as a blocking prerequisite for safety screening
-- Commission or identify prospective Phase 2/3 randomised controlled trials evaluating DL-alpha-Tocopherol specifically in immature cataract populations
-- Define the appropriate delivery route (oral supplementation versus topical ocular formulation) and target dose range for this indication
-- Conduct a formal drug–drug interaction review for commonly co-prescribed medications in the target population (elderly patients with concurrent cardiovascular or metabolic conditions)
-- Evaluate whether existing Vitamin E (alpha-tocopherol) products registered under other indications in South Africa could support a compassionate use or section 21 authorisation pathway
+- SAHPRA package insert warnings and contraindications (download and parse the PI PDF from the SAHPRA website)
+- Mechanism of action data (query the DrugBank API)
+- Full-text review of PMID 10749028 to confirm study design, outcomes and route of administration
+- A systematic literature search for vitamin E and cataract, including randomised trials and meta-analyses
+- Assessment of whether the registered infusion route is compatible with a cataract use
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

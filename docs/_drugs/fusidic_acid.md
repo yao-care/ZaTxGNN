@@ -2,7 +2,7 @@
 layout: default
 title: Fusidic Acid
 parent: Moderate Evidence (L3-L4)
-nav_order: 236
+nav_order: 241
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,31 +29,31 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Fusidic Acid: From Staphylococcal Infections to Exposure Keratitis
+# Fusidic Acid: From Topical Antibacterial Use to Exposure Keratitis
 
 ## One-Sentence Summary
 
-Fusidic acid is a fusidane-class antibacterial with long-established use against staphylococcal skin and ocular surface infections. The TxGNN model predicts it may be effective for **Exposure Keratitis**, but this direction is currently supported by only **0 clinical trials** and **1 case-series publication**, and that publication does not directly study exposure keratitis.
+Fusidic acid is an antibacterial. In South Africa it is registered only as topical creams and an ointment, and the registration records do not state an approved indication.
+The TxGNN model predicts it may be useful for **exposure keratitis**, but there are **0 clinical trials** and only **1 publication** (an unrelated ocular infection case series).
+This is a model prediction only and is not supported by direct evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this dataset (fusidic acid's general pharmacological use is staphylococcal skin/soft-tissue and ocular surface bacterial infections; no SAHPRA license record present) |
-| Predicted New Indication | Exposure Keratitis |
+| Original Indication | Not stated in the registration records provided (fusidic acid is an antibacterial) |
+| Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, fusidic acid belongs to the fusidane class of antibacterials, which inhibit bacterial protein synthesis by blocking elongation factor G (EF-G); its efficacy against staphylococcal infections of the skin and ocular surface is well established, and mechanistically it may be applicable to exposure keratitis when the condition is complicated by secondary bacterial infection.
+Detailed mechanism of action data is not available in the evidence pack. Fusidic acid is an antibacterial that inhibits bacterial elongation factor G (EF-G). It is therefore plausible against Gram-positive ocular infections.
 
-Exposure keratitis (corneal damage from inadequate eyelid closure) frequently becomes complicated by secondary bacterial colonization or infection, most commonly involving staphylococcal species. Fusidic acid ophthalmic gel formulations (e.g., Fucithalmic) are already established for ocular surface bacterial infections in other markets, which provides a plausible mechanistic bridge to this predicted use.
-
-However, the only supporting literature in this evidence pack is a case series on *Tsukamurella*-associated ophthalmic infections — an opportunistic organism unrelated to typical staphylococcal exposure keratitis, and the paper does not study fusidic acid treatment of exposure keratitis directly. The rationale is therefore mechanistically plausible but not yet clinically demonstrated for this specific indication.
+The link to exposure keratitis is weak. Exposure keratitis is mainly a surface-drying disorder caused by incomplete eyelid closure. Infection is a secondary complication, so an antibacterial could help only if a bacterial infection develops. The single literature hit is a Tsukamurella ocular case series. Its title gives no sign that fusidic acid was evaluated or used.
 
 ## Clinical Trial Evidence
 
@@ -63,7 +63,17 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case series | Cornea | Largest reported case series of *Tsukamurella*-associated ophthalmic infections (including post-enucleation implant infection); describes clinical spectrum, risk factors, treatment, and outcomes, but does not evaluate fusidic acid in exposure keratitis specifically |
+| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case series | Cornea | Describes the clinical spectrum, risk factors, treatment and outcome of Tsukamurella species ocular infections, including the first report of an ocular implant infection after enucleation. Fusidic acid is not shown to have been evaluated. |
+
+## South Africa Market Information
+
+All three registered products are topical (cream or ointment). None is an ophthalmic formulation.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 45/13.4.1/0678 | Fucibet | Cream | Not stated in record |
+| Reg. No. 45/13.4.1/0568 | Fucidin h | Cream | Not stated in record |
+| Reg. No. G2090 (OM) | Fucidin  H | Ointment | Not stated in record |
 
 ## Safety Considerations
 
@@ -74,13 +84,15 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-Evidence for exposure keratitis is limited to a single indirectly-related case series (L4), no clinical trials exist for this indication, safety/labelling data for fusidic acid is entirely unavailable (a Blocking-severity gap), and the drug has no current SAHPRA registration (0 licenses, not marketed).
+The prediction rests on the model score alone. There are no clinical trials, and the only publication does not involve fusidic acid. The registered products are skin creams and an ointment, not eye preparations. Safety information from the SAHPRA PI is also missing.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings, contraindications, precautions) — currently blocking
-- Confirmed mechanism of action data from DrugBank
-- Disease-specific clinical or preclinical evidence for fusidic acid in exposure keratitis (ideally with confirmed bacterial superinfection)
-- Determination of registration/import pathway if this indication is to be pursued in South Africa
+- SAHPRA Professional Information (warnings and contraindications), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Confirmation that an ophthalmic-suitable formulation and route exist, since only topical skin products are registered
+- Evidence that fusidic acid has actually been evaluated in exposure keratitis
+
+Among the other predicted indications, **otitis externa** has the most support. It has a plausible anti-staphylococcal rationale, and a 1975 veterinary trial of a topical preparation containing Fucidin (with framycetin, nystatin and prednisolone) in dogs. However, that evidence is mostly veterinary and indirect, so it should be treated as a research question rather than a basis for a decision.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
