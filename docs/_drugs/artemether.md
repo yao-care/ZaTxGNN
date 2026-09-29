@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Artemether
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 46
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 ---
 
 # Artemether
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,133 +29,105 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Artemether: From WHO-Recommended Antimalarial to Plasmodium falciparum Malaria in South Africa
+# Artemether: From Malaria Treatment to Acquired Angioedema
 
 ## One-Sentence Summary
 
-Artemether is an artemisinin derivative and core component of artemether-lumefantrine (Coartem®), the WHO first-line combination therapy for uncomplicated malaria — yet it holds **zero SAHPRA registrations** in South Africa.
-The TxGNN model confirms **Plasmodium falciparum Malaria** as its primary actionable prediction (rank 2, score 99.77%), supported by **10+ completed Phase 3/4 RCTs** and **20 publications**, including multiple Cochrane systematic reviews.
-The highest-ranked prediction (acquired angioedema, rank 1, score 99.99%) has been identified as a **knowledge graph false positive** with no supporting clinical evidence and is not recommended for further evaluation.
+Artemether is an artemisinin-derivative antimalarial, registered in South Africa as part of the combination product Coartem (artemether-lumefantrine). The TxGNN model ranks **acquired angioedema** as its top predicted new indication, but **no clinical trials and no publications** support this prediction, so it is a graph-based signal only. The highest-evidence predictions for this drug are the malaria indications (ranks 2 and 3), which are its established use and not true repurposing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | WHO first-line antimalarial; artemether-lumefantrine (AL/Coartem®) is the global standard of care for uncomplicated *Plasmodium falciparum* malaria |
-| Predicted New Indication | Plasmodium falciparum malaria |
-| TxGNN Prediction Score | 99.77% (rank 2) |
-| Evidence Level | L1 |
-| South Africa Market Status | Not marketed in South Africa |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Not stated in the SAHPRA registration data; artemether is an antimalarial (Coartem) |
+| Predicted New Indication | Acquired angioedema |
+| TxGNN Prediction Score | 99.90% |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Artemether contains an endoperoxide bridge that, upon entering parasitised erythrocytes, reacts with ferrous iron (Fe²⁺) released during haemoglobin degradation. This reaction generates carbon-centred free radicals and reactive oxygen species (ROS) that directly damage *P. falciparum* proteins, lipids, and cell membranes. A secondary mechanism involves inhibition of PfATP6 — a *P. falciparum*-specific SERCA-like Ca²⁺-ATPase — which disrupts parasite calcium homeostasis. Critically, the selectivity of this mechanism for parasitised (iron-rich) cells over healthy human erythrocytes explains the drug's therapeutic window.
+Currently, detailed mechanism of action data is not available in the evidence pack. Artemether is an artemisinin derivative whose endoperoxide bridge is thought to generate free radicals that kill *Plasmodium* parasites. It is used with lumefantrine as artemether-lumefantrine (AL).
 
-The ROS-generating endoperoxide mechanism is effective across multiple *Plasmodium* species (*P. falciparum*, *P. vivax*, *P. ovale*, *P. malariae*), making artemether a broad-spectrum antimalarial. This mechanistic breadth is validated by two independent Cochrane systematic reviews (PMID 31210357, 25209020) and by the WHO's designation of artemether-lumefantrine as first-line therapy in 86 countries, including 30 of 47 sub-Saharan African nations.
+Acquired angioedema is driven by bradykinin and complement pathways. There is **no documented link** between these pathways and artemether's antiparasitic mechanism. The very high score (0.999) most likely reflects the model's knowledge-graph neighbourhood, not a biological rationale. The same applies to the other angioedema predictions (angioedema, hereditary angioedema, RAAS-blocker-induced angioedema), which share this pattern.
 
-Despite this global evidence base, artemether carries **zero SAHPRA registrations** in South Africa. This creates a regulatory gap in a country where malaria remains endemic in Limpopo, Mpumalanga, and KwaZulu-Natal, and where the National Department of Health already recommends artemether-lumefantrine as standard of care. Formalising SAHPRA registration would strengthen supply chain assurance, enable structured pharmacovigilance, and support rational prescribing — particularly important given South Africa's significant HIV/malaria co-infection burden and the well-documented pharmacokinetic interactions between AL and antiretroviral therapy.
-
----
-
-## Note on Rank 1 Prediction: Acquired Angioedema
-
-> **Assessment: False Positive — Do Not Pursue**
->
-> TxGNN assigned its highest score (99.99%) to **acquired angioedema** (AAE). AAE is caused by acquired C1-esterase inhibitor deficiency (typically secondary to B-cell malignancy or autoantibodies), leading to bradykinin accumulation and increased vascular permeability. Artemether's mechanism — ROS generation and PfATP6 inhibition — has **no connection** to the complement pathway or bradykinin system. There are zero clinical trials and zero publications supporting this use. The high TxGNN score is attributed to structural clustering of angioedema-class nodes in the knowledge graph rather than pharmacological relevance. Predictions for angioedema (ranks 1, 4, 5, 10) all carry the same false-positive signature and are uniformly recommended as **Hold**.
+The evidence pack rates all of these non-malaria predictions L5 with a Hold recommendation, including nephrogenic syndrome of inappropriate antidiuresis, acute contagious conjunctivitis, conjunctivitis and scleroderma. None has trials or literature behind it.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT05842954](https://clinicaltrials.gov/study/NCT05842954) | Phase 3 | Completed | 1,720 | KLU156 (ganaplacide + lumefantrine-SDF) vs. Coartem® as active comparator in adults and children ≥10 kg with uncomplicated *P. falciparum* malaria; large-scale validation of AL as the standard benchmark |
-| [NCT01651416](https://clinicaltrials.gov/study/NCT01651416) | Phase 4 | Completed | 2,400 | Seasonal malaria chemoprevention vs. long-acting artemisinin combination therapy for prevention of malaria and anaemia in children in extended transmission settings, Ghana |
-| [NCT00885287](https://clinicaltrials.gov/study/NCT00885287) | Phase 4 | Completed | 830 | Therapeutic efficacy, safety, and pharmacokinetic interactions of artemether-lumefantrine with nevirapine-based antiretrovirals in HIV-infected patients with uncomplicated falciparum malaria, Tanzania — directly relevant to South Africa's HIV co-infection context |
-| [NCT00344006](https://clinicaltrials.gov/study/NCT00344006) | Phase 3 | Completed | 1,395 | Multicentre double-blind double-dummy RCT: chlorproguanil-dapsone-artesunate vs. artemether-lumefantrine in children and adolescents with uncomplicated *P. falciparum* malaria across Africa |
-| [NCT00316329](https://clinicaltrials.gov/study/NCT00316329) | Phase 3 | Completed | 1,032 | Multinational RCT comparing artesunate-amodiaquine (once or twice daily dosing) vs. Coartem® for uncomplicated *P. falciparum* malaria; non-inferiority design across multiple African sites |
-| [NCT01845701](https://clinicaltrials.gov/study/NCT01845701) | Phase 3 | Completed | 720 | 42-day follow-up comparing artesunate-amodiaquine and dihydroartemisinin-piperaquine vs. artemether-lumefantrine in children with *P. falciparum* malaria in two ecological zones, Cameroon |
-| [NCT01916954](https://clinicaltrials.gov/study/NCT01916954) | Phase 3 | Completed | 96 | Direct comparison of two AL dosing regimens for *P. falciparum* treatment in pregnant women, Democratic Republic of Congo; addresses special population safety gap |
-| [NCT00540410](https://clinicaltrials.gov/study/NCT00540410) | Phase 4 | Completed | 366 | Head-to-head RCT: artesunate+amodiaquine vs. artemether+lumefantrine for repeated uncomplicated *P. falciparum* episodes over 2 years, Senegal; includes QTc cardiac tolerability assessment |
-| [NCT00529867](https://clinicaltrials.gov/study/NCT00529867) | Phase 4 | Completed | 267 | AL suspension vs. tablets in children aged 6–59 months with uncomplicated *P. falciparum* malaria, Kenya; paediatric formulation comparison directly relevant to child dosing |
-| [NCT02090036](https://clinicaltrials.gov/study/NCT02090036) | Phase 4 | Completed | 220 | Efficacy and safety of single low-dose primaquine added to standard AL for *P. falciparum* gametocyte clearance; supports AL as platform for transmission-blocking strategies |
+Currently no related clinical trials registered for acquired angioedema.
 
 ---
 
 ## Literature Evidence
 
+Currently no related literature available for acquired angioedema.
+
+---
+
+## Supporting Evidence for the Established Malaria Indications (Ranks 2–3)
+
+These are not evidence for the primary prediction. They are shown because they are the only substantial evidence in this pack for artemether.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT05842954](https://clinicaltrials.gov/study/NCT05842954) | Phase 3 | Completed | 1720 | KLU156 (ganaplacide + lumefantrine-SDF) vs Coartem in uncomplicated *P. falciparum* malaria; AL is the comparator |
+| [NCT00344006](https://clinicaltrials.gov/study/NCT00344006) | Phase 3 | Completed | 1395 | Chlorproguanil-dapsone-artesunate vs artemether-lumefantrine in African children and adolescents |
+| [NCT00316329](https://clinicaltrials.gov/study/NCT00316329) | Phase 3 | Completed | 1032 | Artesunate-amodiaquine (1 or 2 intakes a day) vs Coartem, non-inferiority at day 28 |
+| [NCT01845701](https://clinicaltrials.gov/study/NCT01845701) | Phase 3 | Completed | 720 | Artesunate-amodiaquine and dihydroartemisinin-piperaquine vs AL over 42 days in Cameroon |
+| [NCT01916954](https://clinicaltrials.gov/study/NCT01916954) | Phase 3 | Completed | 96 | Two AL regimens in pregnant women with uncomplicated *P. falciparum* malaria, DRC |
+| [NCT00885287](https://clinicaltrials.gov/study/NCT00885287) | Phase 4 | Completed | 830 | AL efficacy, safety and PK interaction with nevirapine-based ART in HIV-infected patients, Tanzania |
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [35271592](https://pubmed.ncbi.nlm.nih.gov/35271592/) | 2022 | Systematic Review & Meta-analysis | *PLoS One* | Therapeutic efficacy of AL, ASAQ, and DHA-PQ for uncomplicated *P. falciparum* in Sub-Saharan Africa; confirms AL as consistently effective first-line ACT |
-| [31210357](https://pubmed.ncbi.nlm.nih.gov/31210357/) | 2019 | Cochrane Systematic Review | *Cochrane Database Syst Rev* | Intramuscular artemether vs. quinine and artesunate for severe malaria; supports artemether efficacy in severe disease |
-| [25209020](https://pubmed.ncbi.nlm.nih.gov/25209020/) | 2014 | Cochrane Systematic Review | *Cochrane Database Syst Rev* | Earlier Cochrane review confirming artemether vs. quinine for severe malaria; foundational evidence base |
-| [37979594](https://pubmed.ncbi.nlm.nih.gov/37979594/) | 2023 | RCT | *Lancet* | PRIMA trial: primaquine radical cure in *P. falciparum*/*P. vivax* co-endemic settings; AL used as ACT backbone — demonstrates AL's role in combination strategies |
-| [38705163](https://pubmed.ncbi.nlm.nih.gov/38705163/) | 2024 | Phase 2 RCT | *Lancet Microbe* | AL ± single-dose primaquine vs. SP+amodiaquine ± tafenoquine for gametocyte carriage reduction and transmission blockade, Mali |
-| [34384431](https://pubmed.ncbi.nlm.nih.gov/34384431/) | 2021 | Systematic Review & Meta-analysis | *Malaria Journal* | DHA-PQ vs. AL efficacy for uncomplicated *P. falciparum* in Africa; AL remains the well-characterised standard comparator |
-| [34983552](https://pubmed.ncbi.nlm.nih.gov/34983552/) | 2022 | Systematic Review & Meta-analysis | *Malaria Journal* | Comprehensive safety comparison of DHA-PQ vs. AL for uncomplicated *P. falciparum* in African children; AL safety profile well-documented |
-| [33957925](https://pubmed.ncbi.nlm.nih.gov/33957925/) | 2021 | Systematic Review & Meta-analysis | *Malaria Journal* | Efficacy and safety of AL for uncomplicated *P. falciparum* in Ethiopia; high PCR-corrected cure rates across multiple studies |
-| [22548983](https://pubmed.ncbi.nlm.nih.gov/22548983/) | 2012 | Systematic Review | *Malaria Journal* | Safety and efficacy of AL for uncomplicated *P. falciparum* during pregnancy; underpins WHO recommendation for second/third trimester use |
-| [23419113](https://pubmed.ncbi.nlm.nih.gov/23419113/) | 2013 | Expert Review | *Expert Opin Pharmacother* | AL for uncomplicated *P. falciparum* in sub-Saharan Africa; approved in 86 countries, first-line in 30/47 sub-Saharan African countries — contextualises the SA registration gap |
+|------|-----|------|------|---------|
+| [31210357](https://pubmed.ncbi.nlm.nih.gov/31210357/) | 2019 | Cochrane systematic review | Cochrane Database Syst Rev | Intramuscular artemether compared with quinine and artesunate in severe malaria |
+| [22548983](https://pubmed.ncbi.nlm.nih.gov/22548983/) | 2012 | Systematic review | Malar J | Safety and efficacy of AL for uncomplicated *P. falciparum* malaria in pregnancy |
+| [37979594](https://pubmed.ncbi.nlm.nih.gov/37979594/) | 2023 | RCT | Lancet | PRIMA: primaquine radical cure in *P. falciparum* malaria in areas co-endemic with *P. vivax* |
+| [38705163](https://pubmed.ncbi.nlm.nih.gov/38705163/) | 2024 | Phase 2 RCT | Lancet Microbe | AL with or without single-dose primaquine, effect on gametocyte carriage and transmission, Mali |
+| [40138574](https://pubmed.ncbi.nlm.nih.gov/40138574/) | 2025 | Molecular study | J Infect Dis | AL treatment selects *pfmdr1* increased copy number in African infections; reduced AL efficacy is emerging in Africa |
+
+The evidence is for the fixed-dose combination with lumefantrine, not artemether alone.
 
 ---
 
 ## South Africa Market Information
 
-Artemether is currently **not registered with SAHPRA** and there are **no approved products** on the South African market.
-
 | Registration Number | Product Name | Dosage Form | Approved Indication |
-|--------------------|-------------|-------------|---------------------|
-| — | No SAHPRA-registered products | — | — |
-
-**Practical context for South African prescribers:**
-
-- Access to artemether-lumefantrine (Coartem®) in South Africa currently occurs via:
-  - **Section 21 authorisation** (unregistered medicine access, SAHPRA approval required per patient or per programme)
-  - **Government procurement** through National Department of Health malaria programmes aligned with WHO/Global Fund supply channels
-- Artemether-lumefantrine is included on the **WHO Essential Medicines List** and the **South African Essential Drugs Programme (EDP)** formulary for use in malaria-endemic provinces (Limpopo, Mpumalanga, KwaZulu-Natal)
-- Formal SAHPRA registration would enable routine commercial availability, structured pharmacovigilance, and inclusion in provincial formularies
+|---------|------|------|-----------|
+| Reg. No. 34/20.2.6 /0161 | Coartem | Tablet (oral) | Not provided in the registration data |
 
 ---
 
 ## Safety Considerations
 
-Detailed SAHPRA-specific safety labelling data are not available in this evidence pack. Based on global clinical trial data, the following are clinically important for the South African context:
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-**Drug Interactions (particularly relevant given South Africa's HIV/malaria co-infection burden):**
-- Artemether-lumefantrine is metabolised via **CYP3A4** (artemether) and **CYP3A4/CYP2D6** (lumefantrine)
-- **Efavirenz**: reduces lumefantrine AUC by approximately 50% — standard AL dosing may be insufficient in HIV patients on efavirenz-based ART; double-dose AL or alternative ACT should be considered
-- **Nevirapine**: reduces lumefantrine exposure by approximately 40%
-- **Ritonavir-boosted protease inhibitors** (e.g., lopinavir/ritonavir): may increase lumefantrine exposure and QTc prolongation risk
-- **QTc-prolonging agents**: AL prolongs the QTc interval; avoid concurrent use with other QTc-prolonging drugs (antifungals, fluoroquinolones, antipsychotics)
-
-> Please refer to the SAHPRA-approved Professional Information (PI) for complete safety information once registered. Report suspected adverse drug reactions to SAHPRA using the **MedSafety** online reporting system (www.sahpra.org.za).
+Two points from the supporting malaria trials are relevant to AL use:
+- Antiretroviral co-treatment can change antimalarial exposure. One example is the efavirenz interaction studied in [NCT04708496](https://clinicaltrials.gov/study/NCT04708496).
+- Artemisinin-resistance surveillance is needed.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Artemether-lumefantrine has overwhelming L1 evidence — multiple completed Phase 3/4 RCTs enrolling thousands of patients and two independent Cochrane systematic reviews — confirming efficacy and safety for *Plasmodium falciparum* malaria across sub-Saharan Africa. It is already recommended by South Africa's National Department of Health and administered in malaria-endemic provinces, but the absence of formal SAHPRA registration creates a pharmacovigilance blind spot, supply chain vulnerability, and prescribing uncertainty — all of which formal registration would address.
+Acquired angioedema is a model-only prediction at L5. It has no trials, no literature and no plausible mechanistic link to artemether. The malaria predictions are well supported (L1), but they are artemether's established use and not repurposing.
 
 **To proceed, the following is needed:**
-
-- **SAHPRA registration application**: submit a complete Common Technical Document (CTD) dossier for artemether-lumefantrine fixed-dose combination, including quality, safety, and efficacy modules; bioequivalence/PK data
-- **South Africa-specific Professional Information (PI)**: develop SAHPRA-compliant labelling addressing key SA-relevant concerns — antiretroviral drug interactions (efavirenz, nevirapine, ritonavir), pregnancy safety, and G6PD deficiency guidance
-- **HIV/malaria co-infection sub-study data**: formal review or prospective data collection on AL dosing strategies in South African patients on efavirenz- or nevirapine-based ART (Limpopo, Mpumalanga, KwaZulu-Natal enrolment sites recommended)
-- **Pharmacovigilance plan**: establish structured ADR monitoring and reporting through SAHPRA's MedSafety system for all malaria-endemic provinces
-- **EML formal listing**: pursue inclusion on national and provincial Essential Medicines Lists with specific malaria-endemic province formulary entries to ensure equitable access and procurement visibility
-
----
-
-> **Disclaimer:** This report is generated for research and drug repurposing evaluation purposes only and does not constitute medical advice or a prescribing recommendation. Drug repurposing predictions from the TxGNN model are investigational and require clinical validation before therapeutic application. All prescribing decisions must be based on current SAHPRA-approved Professional Information and applicable South African treatment guidelines. This report does not replace clinical judgement.
+- A targeted literature search on artemisinins and bradykinin or complement-mediated disease, to test whether any rationale exists
+- Detailed mechanism of action data (MOA) from DrugBank
+- SAHPRA Professional Information (warnings and contraindications), which is currently missing and blocks safety screening
+- Confirmation of the approved indication text for the Coartem registration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

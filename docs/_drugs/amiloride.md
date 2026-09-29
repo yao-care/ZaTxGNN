@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Amiloride
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 25
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Amiloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,65 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Amiloride: From Potassium-Sparing Diuresis to Malignant Renovascular Hypertension
+# Amiloride: From Potassium-Sparing Diuretic Use to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Amiloride is a potassium-sparing diuretic that blocks the epithelial sodium channel (ENaC) in the distal nephron, established internationally for managing oedema and hypertension — though it currently holds no SAHPRA registration in South Africa.
-The TxGNN model predicts it may have utility in **Malignant Renovascular Hypertension**, a severe hypertensive emergency involving end-organ damage driven by over-activation of the renin–angiotensin–aldosterone axis.
-Supporting evidence is currently limited to **0 clinical trials** and **1 indirect review publication**, placing confidence at the mechanistic/preclinical level (Evidence Level L4).
+Amiloride is an oral potassium-sparing diuretic that blocks the epithelial sodium channel (ENaC). It is marketed in South Africa mainly in combination tablets. The TxGNN model predicts it may be useful for **malignant renovascular hypertension**, but there are currently **0 registered clinical trials** and only **1 indirectly related review** supporting this direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No SAHPRA-registered indication; internationally used as a potassium-sparing diuretic for oedema (with or without hypokalaemia) and hypertension |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+|------|------|
+| Original Indication | Not stated in the SAHPRA records provided (all four registrations have blank indication text) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 (mechanistic / preclinical) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data from DrugBank is not available for this report. Based on established pharmacology, Amiloride is a pyrazine-carbonyl-guanidine compound that selectively blocks the epithelial sodium channel (ENaC) at the apical membrane of principal cells in the distal nephron. By preventing luminal sodium entry, it reduces sodium and water reabsorption without promoting potassium loss — hence its classification as a potassium-sparing diuretic. It is commonly co-prescribed with loop or thiazide diuretics specifically to counteract drug-induced hypokalaemia.
+Currently, detailed mechanism of action data is not available in DrugBank for this record. Based on general pharmacology, amiloride blocks ENaC in the distal nephron, which reduces sodium reabsorption and conserves potassium. It is a recognised option for mineralocorticoid-type hypertension, where excess sodium retention and hypokalaemia drive the high blood pressure. This gives a plausible pathway to hypertension in general.
 
-Malignant renovascular hypertension arises when renal artery stenosis triggers a marked, sustained activation of the renin–angiotensin–aldosterone system (RAAS). The resulting aldosterone excess upregulates ENaC expression in the collecting duct, driving continued sodium retention, plasma volume expansion, and further blood pressure elevation. Amiloride's direct antagonism of ENaC represents a mechanistically coherent point of intervention in this aldosterone-driven cycle — making the TxGNN prediction biologically plausible.
+The link to the predicted indication is weak, though. Malignant renovascular hypertension is driven mainly by renin-angiotensin activation from renal artery stenosis, not by primary sodium-channel overactivity. No retrieved record shows amiloride being used or tested in this setting. The model score most likely reflects the drug's general antihypertensive profile and its position in the knowledge graph.
 
-That said, clinical applicability as a primary agent in this setting is uncertain. Malignant renovascular hypertension is a hypertensive emergency that typically demands rapid, potent blood pressure reduction via ACE inhibitors, ARBs, calcium-channel blockers, or vascular revascularisation. Amiloride's diuretic potency alone is unlikely to be sufficient. Furthermore, this condition frequently impairs renal function, which sharply increases the risk of dangerous hyperkalaemia with Amiloride. Its independent therapeutic role in malignant renovascular hypertension would require dedicated prospective investigation.
+The other predictions are weaker still. Malignant hypertensive renal disease and the two pulmonary hypertension entries are model-only, with no relevant trials or literature. One further prediction, chronic pulmonary heart disease (score 99.68%), has some indirect support. It comes from small heart failure studies of amiloride as an add-on diuretic, plus a rat study of increased alveolar fluid reabsorption. That is a possible research question, but not direct evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for Amiloride in malignant renovascular hypertension.
+Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR records were not found in the Evidence Pack).
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [12929904](https://pubmed.ncbi.nlm.nih.gov/12929904/) | 2003 | Review / Diagnostic Investigation | *Journal of Hypertension* (Supplement) | Examines mineralocorticoid-driven hypertension, including primary aldosteronism (Conn's syndrome) presenting with hypokalaemia and suppressed plasma renin activity; provides indirect mechanistic context for the aldosterone–ENaC axis that underpins Amiloride's predicted relevance in renovascular hypertension |
+|------|-----|------|------|---------|
+| [12929904](https://pubmed.ncbi.nlm.nih.gov/12929904/) | 2003 | Review | J Hypertens Suppl | Overview of investigating mineralocorticoid hypertension: hypokalaemic hypertension with low plasma renin is the typical finding, and primary aldosteronism is the most frequent cause. It gives general context for sodium-driven hypertension and does not address renovascular hypertension directly. |
 
 ---
 
 ## South Africa Market Information
 
-Amiloride is **not currently registered with SAHPRA** and has no approved products on the South African market. No licensed product listings are available.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Q/18.1/168 | Sandoz Co-Amilozide | Tablet | Not stated in the record |
+| V/18.1/260 | Adco-retic 50mg/5mg | Tablet | Not stated in the record |
+| L/18.1/396 | Amiloretic | Tablet | Not stated in the record |
+| U/18.1/0040 | Amiloretic hs 25mg/2.5mg | Tablet | Not stated in the record |
 
-Should clinical use be contemplated in the context of a research protocol, a SAHPRA Section 21 application for an unregistered medicine would be required.
+All four products are oral tablets. Essential Medicines List inclusion was not verified from the data provided.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. As Amiloride is not currently registered in South Africa, the manufacturer's global product labelling (e.g., FDA-approved prescribing information) should be consulted as an interim reference. Report any adverse drug reactions to SAHPRA via the MedSafety reporting system.
+- **Hyperkalaemia signal**: A case report retrieved for a related indication (PMID 8615380) describes severe hyperkalaemia (potassium 9.3 meq/L) in a 96-year-old woman receiving trimethoprim-sulfamethoxazole. Amiloride was among the contributing drugs in that report. It is a reminder that potassium-sparing agents carry this risk, especially in older patients, in renal impairment, and when combined with other potassium-raising drugs. Renovascular disease often involves impaired renal function, which makes this especially relevant.
+- **Drug interactions**: No interaction records were found in the query.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -96,19 +102,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model identifies a biologically plausible ENaC-mediated mechanistic link between Amiloride and malignant renovascular hypertension; however, evidence remains at the L4 (mechanistic/preclinical) level, with no registered clinical trials and only one indirectly relevant review paper. The acute severity of the target condition, the drug's absence from the South African market, and the significant safety risks inherent to its use in patients with compromised renal function collectively preclude clinical application without a structured research programme.
+The prediction rests on a high model score and general pharmacology. There are no clinical trials, and the only related paper is a general review of mineralocorticoid hypertension. The mechanism of malignant renovascular hypertension (renin-angiotensin driven) also does not match amiloride's primary action well, and potassium risk is a concern in patients with renal artery disease.
 
 **To proceed, the following is needed:**
-- Retrieval and review of full DrugBank mechanism of action data for Amiloride (flagged as a High-severity data gap — DG002)
-- Review of SAHPRA-equivalent regulatory safety information from international labels (flagged as a Blocking data gap — DG001)
-- Expanded targeted literature search for Amiloride specifically in malignant hypertension and secondary hyperaldosteronism contexts
-- Pre-clinical or pilot clinical data directly examining Amiloride efficacy and safety in malignant renovascular hypertension before any human study protocol is proposed
-- Renal function and hyperkalaemia risk stratification framework as a prerequisite for any future trial design
-- **Note:** The **Rank 6 prediction — Chronic Pulmonary Heart Disease (Cor Pulmonale)** — carries L3 evidence including small RCT-level data (e.g., PMID [2888942](https://pubmed.ncbi.nlm.nih.gov/2888942/), [1888694](https://pubmed.ncbi.nlm.nih.gov/1888694/)) and may represent a more immediately actionable repurposing pathway worthy of parallel evaluation
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. This document should be read in conjunction with SAHPRA-approved prescribing information where available.*
+- The SAHPRA package insert warnings, contraindications and approved indications, which are blocking for safety screening
+- Mechanism of action data from DrugBank
+- Any direct clinical or preclinical evidence of amiloride in renovascular or malignant hypertension
+- A potassium and renal function monitoring plan for this patient group
+- Consideration of chronic pulmonary heart disease as a better-supported research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

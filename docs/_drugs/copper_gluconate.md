@@ -2,7 +2,7 @@
 layout: default
 title: Copper Gluconate
 parent: Model Prediction Only (L5)
-nav_order: 147
+nav_order: 149
 evidence_level: L5
 indication_count: 0
 ---

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Omega-3 Fatty Acids
-parent: High Evidence (L1-L2)
-nav_order: 344
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 351
+evidence_level: L5
 indication_count: 10
 ---
 
 # Omega-3 Fatty Acids
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Omega-3 Fatty Acids: From Nutritional Supplementation to Tendinitis
+# Omega-3 Fatty Acids: From a Marketed Infusion Product to Tendinitis
 
 ## One-Sentence Summary
 
-Omega-3 fatty acids (DrugBank DB11133) are widely used as a nutritional/dietary supplement, with no specific original indication documented in this evidence pack. The TxGNN model predicts they may be effective for **Tendinitis**, with **0 clinical trials** and **16 publications** currently supporting this direction, including one relevant randomized controlled trial in rotator cuff–related shoulder pain.
+Omega-3 fatty acids (EPA/DHA) are registered in South Africa as a component of one infusion product, Nutriflex Omega Specialized. The TxGNN model predicts they may be useful for **tendinitis**. There are **no registered clinical trials** and **15 publications**, mostly animal, laboratory or observational studies, with one human RCT whose target condition is unconfirmed and one human trial reporting no benefit.
 
 ---
 
@@ -41,23 +41,24 @@ Omega-3 fatty acids (DrugBank DB11133) are widely used as a nutritional/dietary 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the evidence pack (Omega-3 fatty acids are commonly used as a nutritional/dietary supplement) |
 | Predicted New Indication | Tendinitis |
 | TxGNN Prediction Score | 99.13% |
-| Evidence Level | L2 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 (preclinical and mechanistic support only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
+
+The registered indication text for the product is not recorded in the dataset, so no original indication is shown.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Omega-3 fatty acids belong to the polyunsaturated fatty acid (PUFA) class, most commonly used as a nutritional/dietary supplement rather than a registered prescription indication, and mechanistically may be applicable to tendinitis through their known anti-inflammatory and pro-resolving lipid mediator activity (e.g., resolvins, lipoxins, maresins) demonstrated in tendon tissue.
+Currently, detailed mechanism of action data is not available in the dataset. Based on the supplied literature, EPA and DHA are precursors of specialised pro-resolving mediators (such as resolvins and maresins). These mediators help switch off inflammation. They also reduce pro-inflammatory eicosanoid and cytokine signalling.
 
-The repurposing rationale generated for this candidate notes that Omega-3, and DHA in particular, has animal-study evidence of suppressing pro-inflammatory mediators (IL-1β, TNF-α) and improving tendon collagen repair, while human observational data show that degenerative rotator cuff tears are associated with a lower "Omega-3 Index." This provides a biologically plausible, though still preliminary, link between the drug's known anti-inflammatory pharmacology and the chronic inflammatory/degenerative process underlying tendinitis and tendinopathy.
+Chronic tendinopathy is thought to involve inflammation that fails to resolve. Laboratory work on tendon cells from patients with Achilles tendinopathy and shoulder tendon tears found dysregulated resolution pathways. It also found that adding pro-resolving mediators moderated their inflammatory responses. Rat models of Achilles tendinopathy showed benefit with omega-3 or DHA. An observational study found a low Omega-3 Index in patients with degenerative rotator cuff tears.
 
-Because Omega-3 fatty acids have no clearly documented original therapeutic indication in this pack (they are typically used as a general nutritional supplement), the strength of this prediction rests primarily on mechanistic plausibility and early-stage clinical/preclinical data rather than on an established indication-to-indication analogy.
+These links are plausible but indirect. Human clinical evidence is thin, and one trial in lateral epicondylitis found no effect (see below).
 
 ---
 
@@ -71,28 +72,34 @@ Currently no related clinical trials registered for tendinitis.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30364577](https://pubmed.ncbi.nlm.nih.gov/30364577/) | 2018 | RCT | BMJ Open Sport & Exercise Medicine | Multicentre, double-blind, placebo-controlled RCT of long-chain omega-3 PUFA in the management of rotator cuff–related shoulder pain |
-| [16215602](https://pubmed.ncbi.nlm.nih.gov/16215602/) | 2005 | RCT (negative) | Tidsskrift for den Norske Laegeforening | Randomised trial found no effect of essential fatty acid supplementation on pain in lateral epicondylitis |
-| [36458821](https://pubmed.ncbi.nlm.nih.gov/36458821/) | 2023 | Animal study | Applied Physiology, Nutrition, and Metabolism | Omega-3 plus exercise reduced collagenase-induced Achilles tendinopathy severity in a rat model |
-| [34612118](https://pubmed.ncbi.nlm.nih.gov/34612118/) | 2022 | Animal study | Connective Tissue Research | DHA supplementation modulated cytokines and showed protective effect in a collagenase-induced Achilles tendinopathy rat model |
-| [31492432](https://pubmed.ncbi.nlm.nih.gov/31492432/) | 2019 | Cohort | Prostaglandins, Leukotrienes, and Essential Fatty Acids | Degenerative rotator cuff tears were associated with a lower Omega-3 Index compared with controls |
-| [37146985](https://pubmed.ncbi.nlm.nih.gov/37146985/) | 2023 | Review | Journal of Sport Rehabilitation | Scoping review of nutritional supplements, including omega-3, used in the clinical management of tendinopathy |
-| [18950988](https://pubmed.ncbi.nlm.nih.gov/18950988/) | 2009 | Review | Journal of Hand Therapy | Reviews the potential role of PUFAs and antioxidants in rotator cuff tendinopathy management |
-| [40376939](https://pubmed.ncbi.nlm.nih.gov/40376939/) | 2025 | Preclinical/mechanistic | The American Journal of Sports Medicine | Investigates effect of aerobic exercise combined with omega-3 supplementation on the tendon healing process |
-| [31526772](https://pubmed.ncbi.nlm.nih.gov/31526772/) | 2019 | Commentary | The American Journal of Pathology | Commentary on the role of bioactive lipids in resolution of inflammation in shoulder tendon tears |
-| [28887458](https://pubmed.ncbi.nlm.nih.gov/28887458/) | 2017 | Mechanistic study | Scientific Reports | Shows dysregulated pro-resolving lipid mediator responses (including omega-3–derived mediators) in stromal cells from chronic tendinopathy patients |
+| [30364577](https://pubmed.ncbi.nlm.nih.gov/30364577/) | 2018 | RCT (multicentre, double-blind, placebo-controlled) | BMJ Open Sport Exerc Med | Long-chain omega-3 in rotator cuff related shoulder pain. The target condition is truncated in the source title, so relevance is unconfirmed. |
+| [16215602](https://pubmed.ncbi.nlm.nih.gov/16215602/) | 2005 | Randomised trial | Tidsskr Nor Laegeforen | Essential fatty acid supplement had no effect on pain in lateral epicondylitis. |
+| [37146985](https://pubmed.ncbi.nlm.nih.gov/37146985/) | 2023 | Scoping review | J Sport Rehabil | Reviews nutritional supplements for tendinopathy. There is no consensus on optimal management. |
+| [18950988](https://pubmed.ncbi.nlm.nih.gov/18950988/) | 2009 | Review | J Hand Ther | Asks whether PUFAs and antioxidants have a role in rotator cuff tendinopathy. Robust evidence is lacking. |
+| [31492432](https://pubmed.ncbi.nlm.nih.gov/31492432/) | 2019 | Observational | Prostaglandins Leukot Essent Fatty Acids | Degenerative rotator cuff tears are associated with a low Omega-3 Index. |
+| [36458821](https://pubmed.ncbi.nlm.nih.gov/36458821/) | 2023 | Animal study | Appl Physiol Nutr Metab | Omega-3 plus exercise reduced collagenase-induced Achilles tendinopathy in rats. |
+| [34612118](https://pubmed.ncbi.nlm.nih.gov/34612118/) | 2022 | Animal study | Connect Tissue Res | DHA was protective in a rat Achilles tendinopathy model and was compared with collagen. |
+| [40376939](https://pubmed.ncbi.nlm.nih.gov/40376939/) | 2025 | Experimental study | Am J Sports Med | Aerobic exercise with omega-3 was studied for its effect on tendon healing after Achilles rupture. |
+| [30916999](https://pubmed.ncbi.nlm.nih.gov/30916999/) | 2019 | Laboratory study | FASEB J | Pro-resolving mediators 15-epi-LXA4 and MaR1 countered inflammation in tendon stromal cells from patients. |
+| [31437425](https://pubmed.ncbi.nlm.nih.gov/31437425/) | 2019 | Laboratory study | Am J Pathol | Pro-resolving mediators LXB4 and RvE1 regulated inflammation in stromal cells from shoulder tendon tears. |
 
 ---
 
 ## South Africa Market Information
 
-Omega-3 fatty acids (DrugBank DB11133) currently have no SAHPRA registrations on record; market status is **Not Marketed** in South Africa.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 49/25/0065 | Nutriflex Omega Specialized | Infusion |
+
+The only available route is injectable (infusion). This is not a route used for tendinitis, so route compatibility would need to be addressed.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+No drug interaction records were found in the queried source.
 
 ---
 
@@ -101,13 +108,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-Evidence for tendinitis is currently limited to one relevant RCT (rotator cuff shoulder pain, with a second negative RCT in lateral epicondylitis) plus supportive animal and mechanistic studies — no indication-specific interventional trials are registered, and the drug has no current SAHPRA market presence. The blocking data gap in SAHPRA-equivalent safety/PI information also prevents a formal safety review at this stage.
+The tendinitis prediction has a high model score but rests on animal, laboratory and observational data. The one human trial that clearly addresses a tendon condition (lateral epicondylitis) showed no benefit. The safety data needed for screening are also missing.
+
+Other predicted indications are weaker: most have no evidence at all. For the platelet-related ones (Glanzmann thrombasthenia, pseudo-von Willebrand disease, primary release disorder of platelets), omega-3's anti-aggregatory effect runs in the opposite direction and raises a bleeding-risk concern. Fibromyalgia has slightly more support (a small Phase 2 trial, n=19, and a recent RCT) but no Phase 3 confirmation.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI), including warnings, contraindications, and DDI data (currently a blocking gap)
-- Confirmed mechanism of action data for Omega-3 fatty acids
-- Adequately powered, tendinitis-specific randomized controlled trials
-- A regulatory pathway/registration assessment, given the drug is currently not marketed in South Africa
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Confirmation of the target condition in the 2018 RCT (PMID 30364577)
+- Human clinical data in tendinopathy, or a registered trial
+- Assessment of an oral formulation, since only an infusion product is registered locally
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

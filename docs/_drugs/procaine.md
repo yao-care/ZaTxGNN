@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Procaine
-parent: Model Prediction Only (L5)
-nav_order: 378
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 386
+evidence_level: L4
 indication_count: 10
 ---
 
 # Procaine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Procaine: From Local Anaesthesia to Methemoglobinemia
+# Procaine: From Local Anaesthesia to Methemoglobinemia (Prediction Not Supported, Safety Signal)
 
 ## One-Sentence Summary
 
-Procaine (DrugBank DB00721) is an ester-type local anaesthetic historically used for infiltration, nerve block, and intravenous regional anaesthesia. The TxGNN model's top prediction links it to **Methemoglobinemia** with a 99.50% score, but the **8 supporting publications** (no clinical trials) describe procaine as a documented **cause** of methemoglobinemia, not a treatment — the mechanistic direction is inverted, and this candidate does not currently support a repurposing hypothesis.
-
----
+Procaine is an ester-type local anaesthetic. The SAHPRA record for the registration linked to it does not state an indication.
+The TxGNN model predicts it may be effective for **methemoglobinemia**, but the literature shows procaine as a **cause** of methemoglobinemia, not a treatment.
+There are **0 clinical trials** and **8 publications** (mostly case reports and reviews), so this prediction is most likely an adverse-event association in the knowledge graph.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anaesthesia (ester-type local anaesthetic; no SAHPRA-registered product/indication text available) |
+| Original Indication | Not stated in the SAHPRA record (procaine is generally used as a local anaesthetic) |
 | Predicted New Indication | Methemoglobinemia |
 | TxGNN Prediction Score | 99.50% |
-| Evidence Level | L4 (case reports/experimental data only; no controlled trials) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for procaine is not available in this evidence pack (data gap DG002, severity High). Based on the classification notes attached to the literature evidence, procaine is an ester-type local anaesthetic that blocks voltage-gated sodium channels for its anaesthetic effect; its hydrolysis produces para-aminobenzoic acid (PABA) and diethylaminoethanol, and aromatic-amine metabolites of this type are known oxidisers of haemoglobin iron (Fe²⁺ → Fe³⁺) — the mechanism underlying **drug-induced** methemoglobinemia.
+Currently, detailed mechanism of action data is not available in the evidence pack. Procaine is a local anaesthetic that blocks nerve conduction, and its use in pain and anaesthesia is long established.
 
-This is the key issue with the top-ranked prediction: all 8 associated publications describe procaine as the causative agent of methemoglobinemia (including a case in a newborn after subcutaneous infiltration, and a direct experimental study on IV procaine raising methemoglobin levels), not as a therapeutic agent for the condition. The relationship between the original use (local anaesthesia) and the predicted indication is therefore an **adverse-effect association**, not a repurposing signal. This pattern is consistent with a known limitation of knowledge-graph-based prediction: it can learn drug–disease co-occurrence without capturing causal direction, so a strong "drug causes disease X" literature signal can surface as a high-scoring "drug treats disease X" candidate. The same inverted pattern appears in ranks 2–6 of this evidence pack (methemoglobinemia subtype, anaphylaxis, hyperthyroidism), where procaine is documented as a risk factor or diagnostic-test reagent rather than a treatment.
+The prediction is **not** mechanistically reasonable as a therapy. The retrieved literature describes procaine, and related local anaesthetics such as lignocaine, as **inducing** methemoglobin formation. Reports include intravenous procaine in adults, a newborn after subcutaneous infiltration, and a 1987 clinical observation on methemoglobin levels during intravenous procaine anaesthesia. The high TxGNN score most likely reflects a drug-disease link in the knowledge graph that is adverse rather than therapeutic.
 
-By contrast, two lower-ranked candidates in this pack — fibromyalgia (rank 7) and tendinitis (rank 8) — point in the correct therapeutic direction: procaine has historically been injected into myofascial trigger points ("neural therapy") to interrupt nociceptive signalling and pain-spasm cycles, and their literature includes an RCT for supraspinatus tendinopathy (PMID 35480510). These are mechanistically more coherent, though evidence quality remains low (L3, uncontrolled/dated case series), and they are flagged as "Research Question" rather than repurposing candidates ready for further evaluation.
-
----
+The same reasoning applies to the related predictions "methemoglobinemia, alpha type" and "methemoglobin reductase deficiency". These have no clinical evidence, and use in such patients would be a safety concern rather than a benefit.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR).
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [5529388](https://pubmed.ncbi.nlm.nih.gov/5529388/) | 1970 | Case Report | Acta physiologica latino americana | Methemoglobinemia due to intravenous procaine — procaine identified as the causative agent |
-| [3691245](https://pubmed.ncbi.nlm.nih.gov/3691245/) | 1987 | Observational/Experimental | Zhonghua wai ke za zhi | IV procaine anaesthesia raises methemoglobin levels |
-| [6705717](https://pubmed.ncbi.nlm.nih.gov/6705717/) | 1984 | Review | Drugs | General review of rational local anaesthetic use; not procaine/methemoglobinemia-specific |
-| [5118947](https://pubmed.ncbi.nlm.nih.gov/5118947/) | 1971 | Review | Laval medical | General review of local anaesthetics |
-| [705003](https://pubmed.ncbi.nlm.nih.gov/705003/) | 1978 | Case Report (newborn) | Revista espanola de anestesiologia y reanimacion | Methemoglobinemia in a newborn after subcutaneous novocaine infiltration during general anaesthesia |
-| [5644303](https://pubmed.ncbi.nlm.nih.gov/5644303/) | 1968 | PK study | American journal of obstetrics and gynecology | Placental transfer of procaine HCl and PABA; not a treatment study |
-| [14246695](https://pubmed.ncbi.nlm.nih.gov/14246695/) | 1965 | Case Report (lignocaine, not procaine) | Lancet | Methaemoglobinaemia following lignocaine — different drug, limited relevance |
-| [6745527](https://pubmed.ncbi.nlm.nih.gov/6745527/) | 1984 | Review (organophosphate mechanism) | Fundamental and Applied Toxicology | Organophosphate-ester toxicology interactions; not directly about procaine |
+| [5529388](https://pubmed.ncbi.nlm.nih.gov/5529388/) | 1970 | Case report (adverse event) | Acta Physiol Lat Am | Methemoglobinemia caused by intravenous procaine |
+| [3691245](https://pubmed.ncbi.nlm.nih.gov/3691245/) | 1987 | Clinical observation | Zhonghua Wai Ke Za Zhi | Effect of intravenous procaine anaesthesia on methemoglobin levels |
+| [705003](https://pubmed.ncbi.nlm.nih.gov/705003/) | 1978 | Case report (neonatal) | Rev Esp Anestesiol Reanim | Methemoglobinemia in a newborn after subcutaneous novocaine (procaine) infiltration |
+| [14246695](https://pubmed.ncbi.nlm.nih.gov/14246695/) | 1965 | Case report (lignocaine) | Lancet | Methemoglobinaemia following lignocaine, a related local anaesthetic |
+| [6705717](https://pubmed.ncbi.nlm.nih.gov/6705717/) | 1984 | Review | Drugs | Rational use of local anaesthetics (general background) |
+| [5118947](https://pubmed.ncbi.nlm.nih.gov/5118947/) | 1971 | Review | Laval Med | General review of local anaesthetics |
+| [5644303](https://pubmed.ncbi.nlm.nih.gov/5644303/) | 1968 | Pharmacokinetic study | Am J Obstet Gynecol | Placental transfer of procaine (off-topic) |
+| [6745527](https://pubmed.ncbi.nlm.nih.gov/6745527/) | 1984 | Review | Fundam Appl Toxicol | Organophosphate toxicological interactions (off-topic) |
 
-All procaine-specific entries describe methemoglobinemia as an **adverse reaction to procaine**, not a treatment indication.
-
----
+None of these publications shows a therapeutic benefit of procaine in methemoglobinemia.
 
 ## South Africa Market Information
 
-Procaine is currently **not marketed** in South Africa, with 0 SAHPRA-registered products in this evidence pack. No registration numbers, product names, or approved-indication text are available for South Africa at this time.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 34/20.1.1/0044 | Aspen Ceftriaxone 1G Injection | Injection | Not stated in the record |
 
----
+The linked product is a ceftriaxone injection, and no procaine-specific product with a stated indication was identified. The link between this registration and procaine (for example, use as a diluent or a mapping error) should be verified against the SAHPRA record. Essential Medicines List status could not be confirmed from the available data.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for formal safety information; PI warnings and contraindications data are not available in this evidence pack (data gap DG001, severity Blocking). Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-Note: independent of the formal PI data gap, the literature reviewed for this repurposing signal itself documents two safety-relevant patterns for procaine — (1) drug-induced methemoglobinemia, particularly with IV/high-dose or neonatal exposure, and (2) pseudoanaphylactic/anaphylactoid reactions (Hoigné's syndrome), most often with procaine-penicillin formulations. These should be treated as safety signals for any future clinical use of procaine, not as supporting evidence for repurposing.
-
----
+Beyond the PI, the retrieved literature flags **drug-induced methemoglobinemia** as a documented risk with procaine and related local anaesthetics, including in neonates. Caution is warranted in patients with haemoglobin abnormalities or methemoglobin reductase deficiency.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN-predicted indication (methemoglobinemia) is contradicted by its own supporting literature, which documents procaine as a cause of the condition rather than a treatment; no clinical trials exist for this or any of the other 9 predicted indications in this pack, and two Blocking/High-severity data gaps (PI safety data, formal MOA) remain unresolved.
+The top prediction, methemoglobinemia, is contradicted by the literature, which describes procaine as a cause. There are no trials, and the evidence is limited to case reports from 1965-1987 and general reviews. Repurposing for this indication is not supported and carries a safety signal.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings, contraindications) — currently a Blocking data gap
-- Formal mechanism-of-action documentation from DrugBank or equivalent — currently a High-severity data gap
-- If pursuing the mechanistically plausible secondary signals (fibromyalgia, tendinitis — "neural therapy" use), contemporary controlled trials confirming efficacy against modern comparators, since existing evidence predates current diagnostic criteria and is largely uncontrolled case-series data
-- Re-evaluation of the methemoglobinemia, anaphylaxis, and hyperthyroidism signals as potential **safety flags** rather than repurposing candidates, given the directionality of the underlying evidence
+- SAHPRA Professional Information (warnings and contraindications), and confirmation of which registered product actually contains procaine
+- Mechanism of action data from DrugBank
+- For the lower-ranked musculoskeletal predictions, fibromyalgia and tendinitis (both flagged "Research Question", L4): a scoped literature review of local anaesthetic injection in myofascial pain, plus full-text review of the 2022 neural therapy study in supraspinatus tendinopathy (PMID 35480510) to confirm design, agent and outcomes
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

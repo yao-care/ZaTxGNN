@@ -2,7 +2,7 @@
 layout: default
 title: Pioglitazone
 parent: Model Prediction Only (L5)
-nav_order: 365
+nav_order: 373
 evidence_level: L5
 indication_count: 9
 ---
@@ -33,75 +33,65 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Pioglitazone is a thiazolidinedione (PPAR-γ agonist) insulin sensitiser originally used for type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **Opsismodysplasia**, a rare skeletal dysplasia,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — score alone, no corroborating evidence.
-
----
+Pioglitazone is an oral insulin-sensitising diabetes medicine, and it is marketed in South Africa as tablets.
+The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia.
+Currently there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 Diabetes Mellitus (thiazolidinedione class; South Africa-specific approved indication text unavailable — drug is not marketed locally) |
+| Original Indication | Type 2 diabetes mellitus (general pharmacological knowledge; the SAHPRA records supplied do not state an indication) |
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 99.59% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on known information, pioglitazone is a PPAR-γ agonist belonging to the thiazolidinedione class, and its efficacy in improving peripheral insulin sensitivity in type 2 diabetes is well established.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Pioglitazone activates PPAR-gamma, which improves insulin sensitivity. Its efficacy in diabetes is established, but a mechanistic link to opsismodysplasia cannot be supported from the data provided.
 
-Opsismodysplasia is a rare skeletal dysplasia caused by *INPPL1* gene mutations. According to the model's own repurposing rationale, there is **no known direct pathological connection** between this condition and the PPAR-γ/insulin signalling pathway that pioglitazone targets. The rationale explicitly flags this as a potential high-score false positive from the knowledge graph, with mechanistic relevance assessed as very low.
+Opsismodysplasia is a rare skeletal dysplasia, typically linked to loss of function of the *INPPL1* gene. Pioglitazone's insulin-sensitising action has no evident connection to that pathway. The high score of 99.59% is a graph-based association only. It is not backed by trials, literature or a demonstrated mechanism, so it should not be read as clinical support.
 
-Given the complete absence of clinical trial or literature support, and the acknowledged weakness of the mechanistic link, this prediction should be treated as a hypothesis-generating signal only, not as a basis for clinical consideration at this stage.
-
----
+Eight other predictions were generated for this drug, and none has any trial or literature evidence. Four of them, all localised lipodystrophies, are flagged as "Research Question" because PPAR-gamma's role in fat cell development offers a plausible hypothesis. These are drug-induced localised lipodystrophy, centrifugal lipodystrophy, pressure-induced localised lipoatrophy and idiopathic localised lipodystrophy. The stiff-person spectrum conditions, thiamine-responsive dysfunction syndrome and pancreatic agenesis were rated weaker and are on Hold.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Pioglitazone currently has no SAHPRA registrations on file (South Africa market status: Not Marketed).
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| A40/21.2/0149 | Cipla-pioglitazone | Tablet | Not stated in the registration data supplied |
+| 46/21.2/0257 | Pioglitazone Hydrochloride Tablets Macleods 15 Mg | Tablet | Not stated in the registration data supplied |
 
----
+All registered products are oral tablets.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-Note: Key warnings, contraindications, and TFDA label data for this drug are currently unavailable (flagged as a **Blocking** data gap — DG001), meaning safety review cannot proceed to initial screening (S1) until this information is obtained.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication has an L5 evidence level (model prediction only), zero clinical trials, zero literature support, and the model's own rationale identifies the mechanistic link as very low confidence and possibly a false positive. The drug is also not currently marketed in South Africa.
+The prediction has no clinical trials and no literature, and it has no supported mechanistic link to the disease. The safety review cannot proceed because SAHPRA warnings and contraindications are missing.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data from DrugBank (DG002, High severity)
-- TFDA/SAHPRA product label warnings and contraindications (DG001, Blocking severity — required before any safety screening)
-- Preclinical or mechanistic studies directly linking PPAR-γ activity to *INPPL1*-related skeletal pathology
-- Confirmation of South African regulatory/market pathway if pursuit is considered
-- Consideration of lower-ranked but more mechanistically plausible candidates (e.g., lipodystrophy-related indications, ranks 5–8) where PPAR-γ's role in adipogenesis offers a stronger biological rationale
+- SAHPRA Professional Information (PI) warnings and contraindications, which are blocking for the safety screen
+- Mechanism of action data, for example from DrugBank
+- A targeted literature and trial search for opsismodysplasia, and for the localised lipodystrophy candidates, which have the most plausible mechanism
+- Expert clinical review of whether the lipodystrophy candidates are a better repurposing direction than the top-ranked prediction
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Sodium Acetate
 parent: Model Prediction Only (L5)
-nav_order: 409
+nav_order: 417
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Acetate: From Electrolyte/Buffering Agent to Congenital Prothrombin Deficiency
+# Sodium Acetate: From Electrolyte and Fluid Replacement to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Sodium acetate is generically used as an electrolyte replenisher and alkalinising agent (e.g. in IV fluids, parenteral nutrition, and dialysate), though no formal SAHPRA-registered indication is on file for this evidence pack.
-The TxGNN model predicts it may be effective for **Congenital Prothrombin Deficiency**, but currently **0 clinical trials** and **0 publications** support this direction, and the model's own mechanistic rationale states there is no known biological plausibility for this link.
-
----
+Sodium acetate is an electrolyte and alkalinizing agent. In South Africa it is registered as an ingredient in infusion, dialysis and injectable products. The TxGNN model predicts it may be useful for **congenital prothrombin deficiency**, but **0 clinical trials** and **0 publications** support this prediction, so it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No registration on file; sodium acetate is generically used as an electrolyte/alkalinising agent (e.g. IV fluid additive, TPN component) |
-| Predicted New Indication | Congenital Prothrombin Deficiency |
+| Original Indication | Not stated in the registration records (products are infusion, dialysis and injectable fluids) |
+| Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for sodium acetate is not available in this evidence pack. Based on general pharmacological knowledge, sodium acetate functions as a source of acetate ions and sodium, used to correct electrolyte imbalances and metabolic acidosis; it has no established role in coagulation factor synthesis or regulation.
+Currently, detailed mechanism of action data is not available. Sodium acetate acts as a source of sodium and of bicarbonate-equivalent base (acetate is metabolised to bicarbonate). It is used in fluid replacement and dialysis solutions.
 
-Congenital prothrombin (Factor II) deficiency is a hereditary bleeding disorder caused by genetic defects affecting prothrombin production or function, typically managed with factor replacement or fresh frozen plasma. There is no overlap in pathophysiology between electrolyte/acid-base regulation and inherited coagulation factor synthesis.
-
-The evidence pack's own repurposing rationale explicitly states this candidate has **no biological plausibility** — the high TxGNN score likely reflects embedding similarity in the knowledge graph rather than a genuine pharmacological mechanism. This is a case where a high model score should not, on its own, be interpreted as clinical signal.
-
----
+The pack finds no plausible mechanistic link to congenital prothrombin deficiency. This is an inherited coagulation disorder caused by low or dysfunctional factor II. Sodium acetate has no known role in the coagulation cascade or in prothrombin synthesis. The high score (0.9998) most likely reflects the structure of the knowledge graph rather than a drug-specific signal. It should not be read as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for congenital prothrombin deficiency.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for congenital prothrombin deficiency.
 
----
+## Other Predicted Indications (Context Only)
+
+The other nine top-10 predictions are also unsupported. Some retrieved records look relevant but are not:
+
+| Rank | Predicted Indication | Score | Evidence Level | What the Retrieved Records Show |
+|------|------|------|------|------|
+| 2 | Epiglottitis | 99.77% | L5 | No trials or publications. No antimicrobial rationale. |
+| 3 | Urinary tract infection | 99.69% | L5 | Two trials ([NCT04302467](https://clinicaltrials.gov/study/NCT04302467), [NCT01808261](https://clinicaltrials.gov/study/NCT01808261)) and one preclinical paper ([PMID 34792197](https://pubmed.ncbi.nlm.nih.gov/34792197/)). None tests sodium acetate against UTI. |
+| 4 | Sclerosing cholangitis | 99.61% | L5 | No records. |
+| 5 | Gonococcal urethritis | 99.57% | L5 | No records. |
+| 6 | Ureaplasma urethritis | 99.57% | L5 | No records. Its score is identical to rank 5, which suggests a shared graph neighbourhood rather than a drug-specific signal. |
+| 7 | Dyspepsia | 99.56% | L4 | Six papers on gastric emptying and SCFA physiology. They likely reflect diagnostic-tracer use, not therapy. |
+| 8 | Uterine inflammatory disease | 99.48% | L5 | One Phase 2 trial ([NCT00604825](https://clinicaltrials.gov/study/NCT00604825)) with no demonstrated sodium acetate link. Two papers on corticosteroids and montelukast. |
+| 9 | Gastroparesis | 99.47% | L4 | Two trials and three papers. Sodium 13C-acetate is a standard gastric emptying breath-test tracer, so it was likely a measurement tool, not the treatment. |
+| 10 | Xanthogranulomatous pyelonephritis | 99.46% | L5 | No records. |
+
+For dyspepsia and gastroparesis, the literature hits most likely come from the diagnostic use of 13C-acetate. They should not be counted as therapeutic evidence.
 
 ## South Africa Market Information
 
-Sodium acetate has no SAHPRA registrations on record in this evidence pack (0 licenses, market status: Not marketed). No product/dosage-form information is available to summarise.
+Twenty registrations are on record. The five main ones are listed below. Approved indication text is not stated in the registration records, and EML inclusion status was not confirmed in the data supplied.
 
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 37/34/0243 | Nutrineal Pd4 W/1.1% Amin Acid (2.5L) | Solution | Not stated in record |
+| Reg. No. Y/6.1/415 | Dopamine HCl Fresenius 5ml 200mg/5ml | Injection | Not stated in record |
+| Reg. No. D/24/208 | Sabax Ringer-Lactate 500ml | Solution | Not stated in record |
+| Reg. No. D/24/208 | Sabax Ringer-Lactate (1000ml) | Infusion | Not stated in record |
+| Reg. No. D/24/208 | Ringer-Lactate 200ml AFB2328 | Infusion | Not stated in record |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-Note: PI warnings/contraindications data for this product could not be retrieved (flagged as a Blocking data gap), so a formal safety (S1) evaluation cannot proceed until this is resolved.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. No drug-drug interaction records were found for this ingredient.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN prediction score, there is no clinical trial or literature evidence, no known mechanistic pathway, and the model's own rationale explicitly disclaims biological plausibility for sodium acetate in congenital prothrombin deficiency. This combination of a high score with zero supporting evidence and an implausible mechanism indicates the signal is not clinically actionable at this time.
+The top prediction has no clinical or literature support and no plausible mechanism. Across all ten predictions, no study tests sodium acetate as a therapy, and some of the retrieved literature is confounded by the diagnostic use of 13C-acetate. Evidence stays at L5 for the top prediction.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for sodium acetate (currently a data gap)
-- SAHPRA-approved Professional Information / label warnings and contraindications (currently a blocking data gap, required before any S1 safety evaluation)
-- Preclinical or mechanistic studies establishing any link between acetate/electrolyte metabolism and Factor II synthesis, if this candidate is to be revisited
-- Consideration of alternative candidates in this evidence pack with comparatively stronger (though still indirect) mechanistic support — e.g. dyspepsia and gastroparesis, where short-chain fatty acid (SCFA) physiology has documented effects on gastric emptying — as these reached decision stage S1 ("Research Question") rather than S0 ("Hold")
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to test any link to coagulation
+- Review of the full records of the trials retrieved for other indications, to confirm whether acetate was only a diagnostic marker
+- Approved indication text for the local registrations
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

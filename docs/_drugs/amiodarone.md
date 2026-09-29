@@ -3,14 +3,14 @@ layout: default
 title: Amiodarone
 parent: Moderate Evidence (L3-L4)
 nav_order: 27
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,83 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Amiodarone: From Cardiac Arrhythmia to Catecholaminergic Polymorphic Ventricular Tachycardia
+# Amiodarone: From Ventricular Arrhythmias to Catecholaminergic Polymorphic Ventricular Tachycardia
 
 ## One-Sentence Summary
 
-Amiodarone is a broad-spectrum Class III antiarrhythmic agent with decades of clinical use in life-threatening ventricular and supraventricular arrhythmias, including ventricular tachycardia and fibrillation.
-The TxGNN model predicts it may be effective for **Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)** — a rare inherited arrhythmia syndrome triggered by adrenergic stimulation — with **0 registered clinical trials** and **10 publications** currently informing this direction.
-The available evidence positions amiodarone primarily as a salvage agent in β-blocker- and flecainide-refractory CPVT rather than a genuinely novel first-line repurposing candidate.
-
----
+Amiodarone is an established oral antiarrhythmic drug registered in South Africa. The SAHPRA data supplied do not state its approved indication.
+The TxGNN model predicts it may be effective for **catecholaminergic polymorphic ventricular tachycardia (CPVT)**, with a very high score.
+However, there are **0 registered clinical trials** and **10 publications** for this pairing, and none of the publications shows that amiodarone works in CPVT.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Life-threatening ventricular tachycardia/fibrillation and supraventricular arrhythmias (Class III antiarrhythmic) |
-| Predicted New Indication | Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT) |
+|------|------|
+| Original Indication | Not stated in the SAHPRA registration data supplied (amiodarone is an established antiarrhythmic for ventricular arrhythmias) |
+| Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia (CPVT) |
 | TxGNN Prediction Score | 99.78% |
-| Evidence Level | L3 |
-| South Africa Market Status | Not Marketed (per current dataset; independent verification strongly recommended) |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism of action data is not available in the current evidence pack. Based on established pharmacological knowledge, amiodarone is a Class III antiarrhythmic agent that primarily blocks IKr/IKs potassium channels, prolonging cardiac action potential duration and the effective refractory period across both atrial and ventricular tissue. Uniquely among antiarrhythmics, it also carries Class I (sodium channel blockade), Class II (non-competitive β-adrenergic blockade), and Class IV (calcium channel blockade) properties — making it the broadest-spectrum antiarrhythmic in routine clinical use.
+Detailed mechanism of action data is not available in the pack. Amiodarone is known as a multichannel blocker, acting on potassium, sodium and calcium channels and on beta-adrenergic receptors. CPVT is a rare inherited arrhythmia caused by unstable calcium release in heart muscle cells (RYR2 or CASQ2 gene variants), triggered by adrenaline surges during exercise or stress.
 
-CPVT is caused by gain-of-function mutations in the RYR2 gene (cardiac ryanodine receptor) or loss-of-function mutations in CASQ2 (calsequestrin-2), which result in abnormal spontaneous calcium release from the sarcoplasmic reticulum during catecholaminergic stimulation. This generates delayed afterdepolarisations (DADs) and triggered ventricular arrhythmias. Amiodarone's multi-modal mechanism theoretically targets CPVT through at least three distinct pathways: its β-blocking effect suppresses the adrenergic trigger; sodium channel blockade inhibits DAD propagation; and calcium channel blockade reduces triggered activity at the cellular level.
-
-Despite this plausible mechanistic rationale, β-blockers (particularly nadolol) and flecainide — which directly suppresses pathological RYR2-mediated calcium leakage — remain the established first-line therapies for CPVT according to current international guidelines. Amiodarone is used clinically only as a rescue agent in refractory cases or during ICD-triggered electrical storms. The TxGNN model's high prediction score (99.78%) reflects genuine mechanistic overlap and existing salvage-use precedent, but does not represent discovery of a new primary indication.
-
----
+The two conditions are both ventricular arrhythmias, which likely explains the high model score. Any benefit from amiodarone in CPVT would be indirect, because it does not target the calcium-release defect. Guidelines favour beta-blockers and flecainide for CPVT. The retrieved literature does not support amiodarone efficacy in CPVT, so the score should be read as a similarity signal, not proof of benefit.
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials specifically studying amiodarone in catecholaminergic polymorphic ventricular tachycardia are registered on ClinicalTrials.gov or the WHO International Clinical Trials Registry Platform (ICTRP).
-
----
+Currently no related clinical trials registered for CPVT.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Review | Expert Opin Pharmacother | Comprehensive review of pharmacotherapy for ventricular arrhythmias; discusses amiodarone's multi-channel properties and its role as a broad-spectrum rescue agent in refractory arrhythmia syndromes, including channelopathies |
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Cohort | Life (Basel) | Systematic review of CPVT clinical characteristics, genetic basis (RYR2/CASQ2), and arrhythmic outcomes in Chinese patients; provides reference data on management patterns and outcomes across different populations |
-| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohort | Rev Cardiovasc Med | Retrospective cohort of CPVT patients examining genetic basis, healthcare resource utilisation, and costs — relevant for understanding the burden of this rare disease in resource-constrained healthcare settings |
-| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Case Series | Pacing Clin Electrophysiol | Flecainide successfully suppressed ICD-triggered arrhythmic storms in a CPVT patient with CASQ2 mutation after prior therapies including amiodarone failed; directly illustrates the clinical treatment hierarchy |
-| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Case Report | BMJ Case Rep | Paediatric out-of-hospital cardiac arrest with suspected CPVT requiring 40 defibrillation shocks; amiodarone administered as part of advanced resuscitation, illustrating its role in acute haemodynamic rescue |
-| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Case Report | Front Cardiovasc Med | Teenager with CPVT refractory to left cardiac sympathetic denervation, subsequently treated with right denervation; describes the full escalating treatment ladder in which pharmacotherapy — including amiodarone — precedes invasive intervention |
-| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Case Report | Anesth Analg | Neonatal long QT syndrome with compound mutation and refractory polymorphic VT; multimodal pharmacotherapy including amiodarone, lidocaine, and esmolol required — highlights amiodarone's utility in neonatal refractory arrhythmia |
-| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Case Report | Medicine | 9-year-old with 6-year delayed CPVT diagnosis (RYR2 c.7580T>G mutation); highlights the diagnostic challenges in paediatric patients and the consequences of delayed recognition |
-| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Case Report | Turk Pediatri Arsivi | CPVT presenting as sudden cardiac arrest in a 2-year-old in the absence of structural heart disease; underscores the severity and age of onset, and the need for rapid antiarrhythmic intervention |
-| [17125720](https://pubmed.ncbi.nlm.nih.gov/17125720/) | 2006 | Case Report | Rev Esp Cardiol | Arrhythmic storm triggered by ICD discharge in a CPVT patient; amiodarone used in managing ICD-induced hyperadrenergic state — defines the specific clinical niche where amiodarone has documented CPVT utility |
-
----
+|------|-----|------|------|---------|
+| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Review | Expert Opin Pharmacother | General review of drug treatment for ventricular arrhythmias. Antiarrhythmic drugs remain important for acute conversion and chronic prevention. Not CPVT-specific |
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Systematic review | Life (Basel) | Clinical features, genetics and arrhythmic outcomes of CPVT patients in China. Describes the disease, not amiodarone efficacy |
+| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohort | Rev Cardiovasc Med | Retrospective cohort of CPVT in a Chinese city covering genetics, healthcare use and costs. No amiodarone efficacy data |
+| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Case report | Pacing Clin Electrophysiol | Flecainide suppressed defibrillator-induced storming in a boy with CPVT (CASQ2 variant). Concerns flecainide, not amiodarone |
+| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Case report | Front Cardiovasc Med | Right cardiac sympathetic denervation resolved CPVT in a teenager after left-sided denervation. Non-drug therapy |
+| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Case report | Medicine | CPVT with an RYR2 variant in a 9-year-old, diagnosed 6 years late. Highlights delayed diagnosis |
+| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Case report | Turk Pediatri Arsivi | CPVT presenting as sudden cardiac arrest in a 2-year-old |
+| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Case report | BMJ Case Reports | Young child with recurrent VT/VF arrest despite 40 shocks, illustrating when to deviate from standard resuscitation |
+| [17125720](https://pubmed.ncbi.nlm.nih.gov/17125720/) | 2006 | Case report | Rev Esp Cardiol | Arrhythmic storm triggered by defibrillator discharge in a CPVT patient |
+| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Case report | Anesth Analg | Neonate with long QT syndrome and refractory VT treated with lidocaine, esmolol and amiodarone. This is not CPVT |
 
 ## South Africa Market Information
 
-No active SAHPRA product registrations for amiodarone were identified in the current dataset. This likely represents a data gap rather than a true absence from the South African market.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 32/6.2/0650 | Hexarone | Tablet | Not stated in supplied data |
+| Reg. No. 56/6.2/0549 | Myorythm 100 | Tablet | Not stated in supplied data |
 
-> **Important**: Amiodarone (both intravenous and oral formulations) is included on the **South African National Essential Medicines List (NEML)** and is stocked in most South African public sector hospitals for resuscitation and arrhythmia management. Healthcare professionals should verify current registered products directly through the [SAHPRA online medicines register](https://www.sahpra.org.za) before prescribing, and confirm local availability with their pharmacy and therapeutics committee.
-
----
+Only oral tablet forms are registered in the supplied data.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for complete safety information. Report adverse drug reactions to SAHPRA via the MedSafety portal (medwatch.sahpra.org.za).
-
-> The source dataset does not contain formal safety data for this drug. The following safety considerations are well-documented in published medical literature and are particularly relevant for CPVT, which predominantly affects children and young adults requiring long-term treatment:
->
-> - **Pulmonary toxicity**: Amiodarone-induced interstitial pneumonitis or pulmonary fibrosis is a serious dose- and duration-dependent toxicity; annual chest X-ray and pulmonary function testing are recommended
-> - **Thyroid dysfunction**: Amiodarone contains approximately 37% iodine by weight and causes hypothyroidism or hyperthyroidism in up to 15–20% of patients; thyroid function tests every 6 months are mandatory
-> - **Hepatotoxicity**: Elevated transaminases are common; periodic liver function monitoring is required
-> - **Corneal microdeposits**: Occur in virtually all long-term users; annual ophthalmological review is recommended
-> - **QT prolongation**: Risk of torsades de pointes, particularly when co-administered with other QT-prolonging agents; regular ECG monitoring required
-> - **Paediatric considerations**: Pharmacokinetic data in neonates and infants is limited; paediatric dosing and monitoring should be guided by a specialist in paediatric electrophysiology
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-While amiodarone's broad-spectrum multi-channel mechanism provides a pharmacologically plausible basis for activity in CPVT, no dedicated randomised clinical trials have been conducted, and all available evidence consists of case reports and observational cohorts that consistently describe amiodarone as a secondary or rescue agent after established first-line therapies have failed. Furthermore, amiodarone's well-documented long-term toxicity burden — including pulmonary, thyroid, and hepatic effects — raises significant concerns for use in the predominantly paediatric CPVT population, where treatment is typically lifelong.
+The TxGNN score for CPVT is very high (99.78%), but there are no registered trials and no retrieved study supports amiodarone efficacy in CPVT. Beta-blockers and flecainide are the guideline-favoured options, and the mechanistic link is indirect.
+
+**Other predictions in the pack:**
+- **Ventricular tachycardia (rank 3)** is far better supported. It has L1 evidence, including the VANISH and PROCAMIO randomised trials and the OPTIC trial. The Phase 3 Early-Amio trial (NCT06680869) is still recruiting. It is effectively an established use rather than true repurposing, and it carries a "Proceed with Guardrails" recommendation. The guardrails are long-term pulmonary, thyroid and hepatic toxicity, QT prolongation and drug interactions.
+- **Incessant infant ventricular tachycardia (rank 2)** is an L3 research question. Infant safety needs a dedicated review.
+- **Rheumatoid arthritis, gout, trichotillomania, obsolete bundle branch block, and the three rare congenital syndromes** show no plausible mechanistic link. They should stay on Hold. In rheumatoid arthritis, the literature mainly reports amiodarone lung toxicity, which is a safety signal rather than efficacy.
 
 **To proceed, the following is needed:**
-- Independent verification of current SAHPRA registration status and local availability of amiodarone formulations in South Africa
-- Prospective case series or multi-centre registry data specifically evaluating amiodarone in β-blocker- and flecainide-refractory CPVT to define its clinical benefit in this niche rescue role
-- Formal mechanism of action data from DrugBank (DB01118) to complete the pharmacological risk–benefit assessment
-- Paediatric-specific safety, pharmacokinetic, and dosing data for long-term amiodarone use in CPVT
-- Consideration of a formal position within local treatment guidelines that defines amiodarone's role relative to cardiac sympathetic denervation, ICD implantation, and emerging therapies in the CPVT management algorithm
+- The SAHPRA package insert (warnings, contraindications, approved indications) for Hexarone and Myorythm 100
+- Detailed mechanism of action data (e.g. from DrugBank)
+- CPVT-specific efficacy and safety data for amiodarone, for example comparative or registry studies against beta-blockers and flecainide
+- A decision on whether to prioritise the ventricular tachycardia indication instead, with a safety monitoring plan
 
----
-
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All content should be interpreted in conjunction with current SAHPRA-approved prescribing information and relevant clinical guidelines.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

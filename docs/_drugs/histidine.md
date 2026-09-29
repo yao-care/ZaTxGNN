@@ -2,7 +2,7 @@
 layout: default
 title: Histidine
 parent: Model Prediction Only (L5)
-nav_order: 245
+nav_order: 250
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Histidine: From No Documented Indication to Gastroparesis
+# Histidine: From Amino Acid Nutrition Component to Gastroparesis
 
 ## One-Sentence Summary
 
-Histidine is an essential amino acid with no approved therapeutic indication on record in this evidence pack, and it is not currently marketed in South Africa. The TxGNN model predicts it may be effective for **Gastroparesis**, but this prediction is currently supported by **zero clinical trials** and **zero published literature** — it is a pure computational signal with no direct evidence behind it yet.
+Histidine is an essential amino acid that appears in South African parenteral nutrition and dialysis products. No approved indication text is recorded for it in the supplied data.
+The TxGNN model predicts it may be effective for **gastroparesis**, but this rests on the model score alone, with **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ---
 
@@ -41,23 +42,24 @@ Histidine is an essential amino acid with no approved therapeutic indication on 
 
 | Item | Content |
 |------|------|
-| Original Indication | No approved indication on record (Histidine is not currently marketed as a therapeutic product in South Africa) |
-| Predicted New Indication | Gastroparesis (disease) |
+| Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.55% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 10 |
 | Recommended Decision | Hold |
+
+The original indication is not shown because none of the SAHPRA registrations in the data carries approved indication text. The "amino acid nutrition component" label in the title is inferred from the product names (parenteral nutrition and peritoneal dialysis solutions), not from a regulatory indication.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Histidine is not currently available in this evidence pack, and no original approved indication is on file to anchor a comparison. Histidine is a precursor of histamine via the enzyme histidine decarboxylase (HDC), and the working hypothesis behind this prediction is that histidine could theoretically influence gastrointestinal motility and autonomic nervous system function through histamine-mediated signalling pathways relevant to gastric emptying.
+Currently, detailed mechanism of action data is not available. Based on known information, histidine is an amino acid ingredient in multi-component nutrition and dialysis solutions. It is not a stand-alone therapy with a defined pharmacological target.
 
-However, this mechanistic link is speculative rather than evidence-based: there are no clinical trials, no literature, and no preclinical studies connecting Histidine specifically to Gastroparesis in this evidence pack. The prediction rests entirely on the TxGNN knowledge-graph embedding score, without any corroborating experimental or clinical signal.
+No mechanistic link to gastroparesis could be established from the supplied data. No trials or publications were retrieved for this pairing. The high score reflects patterns in the TxGNN knowledge graph, not confirmed biology. It should be read as a hypothesis to test, not as a signal of benefit.
 
-It is worth noting that other, lower-ranked candidates in this evidence pack — particularly **Dyspepsia** (rank 6) — carry comparatively stronger supporting evidence (L4, decision stage S1, "Research Question"), including a human RCT/crossover study showing histidine-containing amino acid combinations affect gastric emptying and glucose metabolism. That candidate may warrant closer follow-up alongside or instead of Gastroparesis.
+The other predictions in the pack are also weakly supported. Most are prediction-only (L5), and none has interventional human data. The one notable exception is **sclerosing cholangitis** (score 99.27%, L4). Its preclinical mouse studies suggest that histamine signalling, which histidine can feed into, promotes biliary damage and fibrosis. That points away from benefit and is a potential safety concern.
 
 ---
 
@@ -75,7 +77,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Histidine is not currently marketed in South Africa, and there are no SAHPRA product registrations on record for this substance in this evidence pack.
+Ten SAHPRA registrations contain histidine. The five main ones are listed below. Approved indication text and manufacturer are not recorded in the data for any of them.
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion |
+| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial |
+| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion |
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion |
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion |
+
+All listed products are infusions or vials, so an oral or enteral route relevant to gastroparesis has not been confirmed. Route compatibility has not been assessed.
 
 ---
 
@@ -90,14 +102,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked predicted indication (Gastroparesis) has no supporting clinical trials or literature — it is a model-only (L5) prediction with no original indication, no MOA data, and no South African market presence to anchor a repurposing case.
+The gastroparesis prediction is model-only (L5), with no trials, no literature and no mechanistic rationale. The product labels and safety information needed for screening are also missing.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI), including warnings/precautions and contraindications (flagged as a **Blocking** data gap — required before any safety pre-assessment can proceed)
-- Documented mechanism of action (MOA) data from DrugBank or equivalent source
-- A confirmed original/approved indication for Histidine to establish a baseline for repurposing comparison
-- Targeted literature and clinical trial search specifically for "Histidine AND gastroparesis"
-- Consideration of **Dyspepsia** (rank 6) as a secondary candidate, given its comparatively stronger mechanistic and human-study evidence (L4, S1)
+- SAHPRA Professional Information (warnings, contraindications, approved indications) for the registered products
+- Mechanism of action data for histidine (e.g. from DrugBank)
+- A targeted literature and trial search on histidine or amino acid supplementation in gastroparesis
+- Assessment of route and formulation compatibility (oral or enteral versus the current infusion products)
+- A safety review of the histamine-related preclinical findings before any hepatobiliary indication is considered
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

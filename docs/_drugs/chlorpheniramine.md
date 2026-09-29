@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chlorpheniramine
-parent: High Evidence (L1-L2)
-nav_order: 113
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 114
+evidence_level: L4
 indication_count: 10
 ---
 
 # Chlorpheniramine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,89 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Chlorpheniramine: From Allergic Rhinitis to Allergic Urticaria
-
----
+# Chlorpheniramine: From Licensed Antihistamine Use (Indication Not Recorded) to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Chlorpheniramine (chlorphenamine) is a first-generation H1 antihistamine that has been in clinical use since the 1950s, widely employed for the symptomatic treatment of allergic rhinitis, common cold, and allergic reactions.
-The TxGNN model predicts it may be effective for **Allergic Urticaria**, with **0 registered clinical trials** and **20 publications** currently identified supporting this direction.
-It is worth noting that this prediction largely confirms established H1 antihistamine pharmacology — international guidelines (EAACI/GA²LEN/EDF/WAO) already recommend H1 receptor antagonists as first-line therapy for urticaria — making this a validation of known use rather than a wholly novel repurposing signal.
-
----
+Chlorpheniramine is a first-generation H1 antihistamine, registered in South Africa in several cold, flu and sinus/allergy products. The TxGNN model predicts it may be effective for **allergic urticaria**. No clinical trials are registered for this pair, and the supporting literature is **18 publications**, mostly reviews of other antihistamines. This is probably an established antihistamine use rather than a novel repurposing, but the supplied data cannot confirm that.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Allergic rhinitis; common cold and flu symptoms (well-established H1 antihistamine class use) |
-| Predicted New Indication | Allergic Urticaria |
+|------|------|
+| Original Indication | Not stated in the supplied SAHPRA data (registered products are cold, flu and sinus/allergy preparations) |
+| Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.76% |
-| Evidence Level | L2 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 12 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, chlorpheniramine is a potent alkylamine first-generation H1 antihistamine. It acts as a competitive, reversible antagonist at peripheral histamine H1 receptors, blocking histamine-mediated vasodilation, increased vascular permeability, pruritus, smooth muscle contraction, and the characteristic wheal-and-flare skin response. Chlorpheniramine also carries clinically significant anticholinergic activity, which may further reduce glandular secretions relevant to nasal and upper respiratory symptoms.
+Currently, detailed mechanism of action data is not available in the supplied record. Chlorpheniramine is a potent alkylamine first-generation H1 antihistamine that has been used since the 1950s. It is widely used for allergic conditions and in over-the-counter cough and cold products.
 
-Allergic urticaria is driven by IgE-mediated mast cell and basophil degranulation, with histamine as the principal downstream mediator responsible for wheals, flare, and pruritus. The mechanistic connection between chlorpheniramine's H1 blockade and allergic urticaria is therefore direct and well-established: by competitively occupying H1 receptors on dermal blood vessels and sensory nerves, chlorpheniramine attenuates both the vascular response (wheal formation) and the itch signal (pruritus). The 2024 comprehensive systematic review (PMID 35652393) explicitly lists chronic urticaria among chlorpheniramine's confirmed clinical applications, reinforcing the TxGNN prediction.
+In allergic urticaria, mast-cell histamine release drives the wheal-and-flare response, and H1 antagonists are the standard first-line drug class. Blocking the H1 receptor is therefore mechanistically consistent with symptom relief. A 2024 review lists chronic urticaria among chlorpheniramine's reported clinical uses.
 
-However, prescribers should be aware that chlorpheniramine's sedating properties and shorter duration of action are considered disadvantages relative to second-generation (non-sedating) antihistamines such as cetirizine, loratadine, and fexofenadine, which are now the preferred agents in most current urticaria treatment guidelines. Chlorpheniramine retains a clinical role in situations requiring a lower-cost option, parenteral administration (where second-generation parenteral formulations are unavailable), or where anticholinergic drying effects are additionally beneficial.
-
----
+The data do not show whether this is a genuinely new use. The original indication fields are empty, and the literature retrieved is mostly about other antihistamines (cetirizine, loratadine, ebastine, acrivastine). No controlled chlorpheniramine trial in allergic urticaria appears in the evidence.
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials specifically registered for chlorpheniramine in allergic urticaria were identified in this evidence search.
-
----
+Currently no related clinical trials registered for chlorpheniramine in allergic urticaria (ClinicalTrials.gov or ICTRP). No SANCTR or PACTR identifiers were supplied.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35652393](https://pubmed.ncbi.nlm.nih.gov/35652393/) | 2024 | Systematic Review | Current Reviews in Clinical and Experimental Pharmacology | Comprehensive review confirming CPM's efficacy across allergic conditions since the 1950s; explicitly covers chronic urticaria, allergic rhinitis, asthma, and depression |
-| [1683523](https://pubmed.ncbi.nlm.nih.gov/1683523/) | 1991 | Comparative Study | Annals of Allergy | Head-to-head comparison of first- and second-generation H1 antihistamines; chlorpheniramine established as an effective benchmark comparator for urticaria and rhinitis |
-| [2873823](https://pubmed.ncbi.nlm.nih.gov/2873823/) | 1986 | Clinical Study | Asian Pacific Journal of Allergy and Immunology | 142 paediatric urticaria patients; antihistamines (including CPM) used as standard care; 13.4% had chronic urticaria, 88% generalised urticaria; describes clinical patterns in Asian children |
-| [7528133](https://pubmed.ncbi.nlm.nih.gov/7528133/) | 1994 | Drug Review | Drugs | Loratadine reappraisal; confirms chlorpheniramine as an active comparator with similar efficacy in urticaria and allergic rhinitis in controlled comparative trials |
-| [1715267](https://pubmed.ncbi.nlm.nih.gov/1715267/) | 1991 | Drug Review | Drugs | Acrivastine vs. chlorpheniramine: comparable efficacy in chronic urticaria; both drugs effective in double-blind trials; chlorpheniramine used as the established active control |
-| [39265704](https://pubmed.ncbi.nlm.nih.gov/39265704/) | 2024 | Phase I RCT | European Journal of Pharmaceutical Sciences | Bilastine parenteral vs. dexchlorpheniramine (related first-generation compound) in histamine-induced wheal-and-flare; supports H1 antagonism for urticaria endpoints; dexchlorpheniramine is the active stereoisomer of chlorpheniramine |
-| [1981354](https://pubmed.ncbi.nlm.nih.gov/1981354/) | 1990 | Drug Review | Drugs | Cetirizine review in allergic rhinitis, asthma, and chronic urticaria; positions chlorpheniramine as the first-generation standard against which newer H1 antagonists are benchmarked |
-| [19348661](https://pubmed.ncbi.nlm.nih.gov/19348661/) | 2009 | Case Series | Journal of Dermatology | H1 antihistamine-induced urticaria in a patient with multiple antihistamine hypersensitivity; important safety signal — antihistamines can paradoxically trigger urticaria in rare individuals |
-| [31852144](https://pubmed.ncbi.nlm.nih.gov/31852144/) | 2019 | Case Report + Pharmacovigilance Review | Medicine | Two cases of chlorpheniramine maleate-induced anaphylaxis; retrospective pharmacovigilance database review confirms this as a rare but documented adverse event |
-| [26240795](https://pubmed.ncbi.nlm.nih.gov/26240795/) | 2015 | Case Report | Asia Pacific Allergy | Chlorpheniramine-induced anaphylaxis confirmed by basophil activation test; highlights the rare but serious risk of immediate hypersensitivity to the drug itself — relevant to clinical monitoring |
+No RCTs were found for this indication. The table lists reviews first, then a phase I trial, then case reports.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [35652393](https://pubmed.ncbi.nlm.nih.gov/35652393/) | 2024 | Review | Curr Rev Clin Exp Pharmacol | Comprehensive review of chlorpheniramine, including reported uses such as chronic urticaria, asthma and depression |
+| [7528133](https://pubmed.ncbi.nlm.nih.gov/7528133/) | 1994 | Review | Drugs | Loratadine review; controlled studies compare it with several antihistamines, including chlorpheniramine, in allergic disorders including urticaria |
+| [1683523](https://pubmed.ncbi.nlm.nih.gov/1683523/) | 1991 | Review | Ann Allergy | Compares second-generation H1 antihistamines with older, more sedating first-generation agents |
+| [1981354](https://pubmed.ncbi.nlm.nih.gov/1981354/) | 1990 | Review | Drugs | Cetirizine in allergic rhinitis, pollen-induced asthma and chronic urticaria (a different drug; class context only) |
+| [1715267](https://pubmed.ncbi.nlm.nih.gov/1715267/) | 1991 | Review | Drugs | Acrivastine effective in chronic urticaria and allergic rhinitis (class context only) |
+| [8808167](https://pubmed.ncbi.nlm.nih.gov/8808167/) | 1996 | Review | Drugs | Ebastine efficacy in allergic disorders including chronic idiopathic urticaria (class context only) |
+| [14977391](https://pubmed.ncbi.nlm.nih.gov/14977391/) | 2004 | Review | Drugs | Cetirizine in allergic disorders (class context only) |
+| [39265704](https://pubmed.ncbi.nlm.nih.gov/39265704/) | 2024 | Randomised phase I trial | Eur J Pharm Sci | Bilastine (oral and parenteral) vs parenteral dexchlorpheniramine on histamine-induced wheal and flare |
+| [31852144](https://pubmed.ncbi.nlm.nih.gov/31852144/) | 2019 | Case reports + pharmacovigilance review | Medicine | Two cases of chlorpheniramine-induced anaphylaxis, with a review of a pharmacovigilance database (safety signal) |
+| [26240795](https://pubmed.ncbi.nlm.nih.gov/26240795/) | 2015 | Case report | Asia Pac Allergy | Chlorpheniramine-induced anaphylaxis diagnosed by basophil activation test (safety signal) |
 
 ## South Africa Market Information
 
-Chlorpheniramine is **not currently registered with SAHPRA** and holds **no active product licences in South Africa**. There are no SAHPRA-approved Professional Information (PI) documents available for this product.
+Twelve registrations are recorded. The five main ones are listed below. Approved indication text was not supplied for any of them.
 
-South African healthcare professionals should note:
-- Chlorpheniramine-containing products (including combination cold/allergy preparations) may be available through informal channels or as unregistered medicines.
-- Any clinical use would require a Section 21 (Unregistered Medicine) authorisation from SAHPRA, or formal product registration.
-- The South African Essential Medicines List (EML) should be consulted to identify registered first-generation antihistamine alternatives.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 37/5.8/0260 | Sinutab sinus allergy congestion and pai (name truncated in source) | Tablet | Not stated in supplied data |
+| Reg. No. 37/5.8/0552 | Corenza Cold And Flu Syrup | Syrup | Not stated in supplied data |
+| Reg. No. 27/5.8/0123 | Degoran Cold And Flu Hot Medicated Drink | Sachet | Not stated in supplied data |
+| Reg. No. G1235 (ACT 101) | Famucaps | Capsule | Not stated in supplied data |
+| Reg. No. 37/5.8/0139 | Sinutab sinus pain extra strength | Tablet | Not stated in supplied data |
 
 ## Safety Considerations
 
-As no SAHPRA-approved PI exists for chlorpheniramine in South Africa, practitioners should consult internationally recognised prescribing references (WHO Model Formulary, FDA labelling, or BNF) prior to use. Report any adverse drug reactions to SAHPRA via the MedSafe/VigiFlow system.
+The following points come from the retrieved literature, not from SAHPRA labelling:
 
-The following safety signals are derived from published literature and are clinically relevant:
+- **Hypersensitivity**: Case reports describe chlorpheniramine-induced anaphylaxis (PMID 31852144, 26240795).
+- **Sedation**: This is a recognised class effect of first-generation antihistamines (PMID 1683523).
 
-- **Rare but serious hypersensitivity / anaphylaxis**: Despite being an antihistamine, chlorpheniramine itself has been documented to cause IgE-mediated hypersensitivity reactions, including anaphylaxis (PMIDs 31852144, 26240795) and paradoxical urticaria (PMID 19348661). These reactions are rare but should prompt immediate recognition and management.
-- **CNS sedation and impairment**: As a first-generation antihistamine with significant CNS penetration, chlorpheniramine causes drowsiness, cognitive impairment, and psychomotor slowing. Patients must be warned against driving or operating machinery.
-- **Anticholinergic effects**: Dry mouth, urinary retention, constipation, tachycardia, and blurred vision may occur. Use with caution in elderly patients and in those with benign prostatic hyperplasia, narrow-angle glaucoma, or cardiac arrhythmias.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings, contraindications and drug interactions. No drug interaction data were retrieved, and that may be a data gap. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic basis for chlorpheniramine in allergic urticaria is direct and well-validated — H1 receptor blockade is the pharmacological cornerstone of urticaria management, confirmed by international treatment guidelines and a 2024 systematic review. However, this prediction reflects established pharmacology rather than a novel repurposing opportunity, and chlorpheniramine's sedation burden positions it as a second-line option relative to registered second-generation antihistamines. The absence of any SAHPRA registration is the primary practical barrier to use in South Africa.
+The mechanism is plausible and the TxGNN score is very high. There are no registered trials, no direct controlled chlorpheniramine evidence for allergic urticaria in the retrieved literature, and no SAHPRA safety data. The evidence is limited to reviews of other antihistamines.
 
 **To proceed, the following is needed:**
-- **Regulatory pathway**: Determine whether to pursue full SAHPRA registration, a Section 21 (unregistered medicine) authorisation, or identify an already-registered chlorpheniramine-containing product for the urticaria indication
-- **Formal MOA documentation**: Obtain complete DrugBank / PI-level mechanism of action data and full contraindication/warning profile for evidence dossier submission
-- **Comparative effectiveness review**: Formally evaluate chlorpheniramine against already-registered second-generation antihistamines in the South African formulary (cetirizine, loratadine, fexofenadine) — including cost, availability, and side-effect profiles
-- **Define specific clinical niche**: Identify patient populations where chlorpheniramine offers a meaningful advantage, e.g., where parenteral antihistamine is required (dexchlorpheniramine/chlorpheniramine IV/IM), paediatric dosing contexts, or low-resource settings where cost is the primary driver
-- **South Africa-specific safety monitoring plan**: Establish a pharmacovigilance protocol, particularly given the rare but documented anaphylaxis risk
+- SAHPRA Professional Information (PI) for the registered products, covering warnings, contraindications and approved indications, to confirm whether urticaria is already a labelled use
+- Mechanism of action data from DrugBank
+- Direct controlled evidence for chlorpheniramine in urticaria (targeted literature search)
+- A verified drug interaction check
+- For comparison, rhinitis (predicted rank 10) has stronger published evidence (L2) and may be a more useful direction to review.
 
-> ⚠️ **Disclaimer**: This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All content should be reviewed in conjunction with SAHPRA-approved prescribing information and current South African treatment guidelines.
+*This report is for research reference only and does not constitute medical advice. Predictions require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

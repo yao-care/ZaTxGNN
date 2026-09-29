@@ -2,7 +2,7 @@
 layout: default
 title: Phenylpropanolamine
 parent: Model Prediction Only (L5)
-nav_order: 361
+nav_order: 369
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,74 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Phenylpropanolamine: From an Unrecorded Original Indication to Nasal Cavity Disease
+# Phenylpropanolamine: From Registered Oral Decongestant Products to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Phenylpropanolamine's original approved indication and mechanism of action are not yet recorded in this evidence pack. The TxGNN model predicts it may be effective for **Nasal Cavity Disease**, but currently **no clinical trials** and **no publications** support this direction — the signal comes from the model score alone.
-
----
+Phenylpropanolamine is an oral sympathomimetic marketed in South Africa in several cold and sinus products. The approved indication text is not recorded in the registration data.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but **0 clinical trials** and **0 publications** currently support this prediction.
+This may reflect a known decongestant use rather than true repurposing, and there are serious safety concerns.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not currently on record |
-| Predicted New Indication | Nasal Cavity Disease |
-| TxGNN Prediction Score | 99.98% (rank 245) |
-| Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Original Indication | Not recorded in the registration data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 99.98% |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available, and no original indication is on record for phenylpropanolamine in this evidence pack. As a result, the pharmacological rationale linking any prior use to the predicted new indication cannot be independently assessed at this time.
+Detailed mechanism of action data is not available in the dataset. Phenylpropanolamine is generally described as an alpha-adrenergic agonist and indirect sympathomimetic. It constricts blood vessels in the nasal mucosa, which reduces swelling and congestion. This makes the link to nasal cavity disease mechanistically plausible.
 
-The prediction is based solely on the TxGNN knowledge graph's network-level association between phenylpropanolamine and nasal cavity disease (score 99.98%, ranked 245th among all candidate disease associations for this drug). A high model score can reflect genuine biological signal, but without corroborating mechanism-of-action or clinical evidence, it should be treated as a hypothesis-generating result rather than a validated pharmacological rationale.
+The high score most likely reflects an existing decongestant use, not a new therapeutic direction. The registered product names (for example Sinutab and Flustat) are consistent with this. The label should be checked before this is treated as a true repurposing candidate.
 
-Four additional lower-confidence predictions were also generated (acute laryngopharyngitis, rosacea conjunctivitis, faucial diphtheria, cervical disc degenerative disorder), none of which are supported by clinical trials or literature either — reinforcing that this candidate is still at the earliest stage of the repurposing pipeline.
-
----
+The other four predictions are weak or implausible. Acute laryngopharyngitis has only an indirect symptomatic link. Rosacea conjunctivitis, faucial diphtheria and cervical disc degenerative disorder have no plausible mechanism and are probably knowledge-graph artefacts.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Phenylpropanolamine is not currently registered in South Africa — no SAHPRA registration records are available (0 licenses on file).
+Six registrations are recorded in total. Details are available for the five below. The approved indication text is not recorded for any of them.
 
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 27/5.8/0101 | Sinuclear | Capsule | Not recorded |
+| Reg. No. Z/5.8/360 | Sinustat | Capsule | Not recorded |
+| Reg. No. F/5.8/275 | Sinutab | Tablet | Not recorded |
+| Reg. No. 28/5.8/0231 | Flustat | Syrup | Not recorded |
+| Reg. No. Y/5.8/264 | Adco-sinal co | Tablet | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Cardiovascular and stroke risk**: Phenylpropanolamine was withdrawn from the US market around 2000 because of hemorrhagic stroke risk. Its current regional marketing status should be verified. This concern also limits the case for pursuing any new indication.
 
----
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings, contraindications and interactions. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The predicted indication is supported only by a model score (L5), with no clinical trials, literature, mechanism-of-action data, or South African market presence to corroborate it. A blocking safety data gap (no PI/warnings on file) also prevents any preliminary safety assessment.
+The prediction has no trial or literature support (L5), and the top-ranked indication probably overlaps with existing decongestant use. The stroke-related safety history is a further reason not to advance.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI), including warnings, contraindications and drug interactions — currently blocking
-- Confirmed mechanism of action (MOA) data from DrugBank
-- Confirmation of the drug's original approved indication(s)
-- Independent clinical or preclinical evidence connecting phenylpropanolamine to nasal cavity disease before further evaluation
+- The SAHPRA package insert (PI) for the registered products, to confirm approved indications, warnings and contraindications
+- Confirmation of whether nasal cavity disease is already a labelled indication (which would make it a known use, not repurposing)
+- A benefit-risk review of hemorrhagic stroke risk in the South African regulatory context
+- Mechanism of action data from DrugBank
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

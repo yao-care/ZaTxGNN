@@ -2,7 +2,7 @@
 layout: default
 title: Framycetin
 parent: Model Prediction Only (L5)
-nav_order: 235
+nav_order: 240
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,61 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Framycetin: From Topical Antibacterial Use to Sclerosing Cholangitis
+# Framycetin: From Topical Aminoglycoside Antibacterial to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Framycetin is an aminoglycoside antibiotic historically restricted to topical use (eye, ear, and skin infections) because of its high ototoxicity and nephrotoxicity risk when given systemically. The TxGNN model predicts a possible association with **Sclerosing Cholangitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review flags it as likely model noise.
+Framycetin is a poorly absorbed aminoglycoside antibiotic. It is registered in South Africa in two combination products (an "Eed" form and a suppository), but the retrieved data do not state their approved indications.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no SAHPRA registration or DrugBank indication text available); background pharmacology points to topical antibacterial use in eye, ear, and skin infections |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not stated in the retrieved SAHPRA data (registered as an antibacterial aminoglycoside) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for framycetin is not available in this evidence pack (flagged as data gap DG002, High severity). Based on the information that is available, framycetin is an aminoglycoside antibiotic that binds the bacterial 30S ribosomal subunit to inhibit protein synthesis, giving it activity against many aerobic gram-negative organisms. Clinically, its use has historically been limited to topical formulations (ophthalmic, otic, dermatological) because systemic administration carries a high risk of ototoxicity and nephrotoxicity.
+Currently, detailed mechanism of action data is not available. Based on known information, framycetin is an aminoglycoside antibacterial that is poorly absorbed from the gut and skin. Mechanistically it may be applicable to sclerosing cholangitis.
 
-Sclerosing cholangitis is a chronic, autoimmune/fibrotic biliary disease with no established infectious or antibacterial etiology. The evidence pack's own mechanistic assessment concludes there is no direct biological link between framycetin's ribosome-inhibition mechanism and biliary fibrosis, and explicitly classifies this specific prediction as likely statistical noise from the TxGNN model rather than a biologically grounded hypothesis. No clinical trials or literature records were returned for this drug–disease pair (query log entries #2–#4), reinforcing that the signal is model-only.
-
-For context, of the ten candidates TxGNN generated for framycetin, only urinary tract infection (rank 2, score 99.42%, evidence level L4, one supporting PubMed record) and bronchitis (rank 8, evidence level L3, one supporting PubMed record) carry any literature evidence at all, and both are staged as "Research Question" rather than "Hold." This reflects that framycetin's antibacterial mechanism has some plausible — if historical and toxicity-limited — relevance to bacterial infections, but none to sclerosing cholangitis.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (ClinicalTrials.gov and ICTRP both returned 0 results for framycetin + sclerosing cholangitis).
-
-## Literature Evidence
-
-Currently no related literature available (PubMed returned 0 results for framycetin + sclerosing cholangitis).
+Primary sclerosing cholangitis is thought to involve the gut-liver axis, meaning gut dysbiosis and bacterial translocation. A gut-restricted antibacterial could, in theory, act on this pathway. The idea is biologically coherent, but the high TxGNN score reflects graph similarity, not clinical findings. No trials or literature were retrieved to test it.
 
 ## South Africa Market Information
 
-Framycetin currently holds no SAHPRA registrations and is not marketed in South Africa (0 licenses on record). No product-level registration data is available for this evidence pack.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| H1482 (ACT 101 1965) | Sofradex 8ml | Eed (as listed) | Not listed in retrieved data |
+| E529 (ACT 101 1965) | Proctosedyl Suppositories | Suppository | Not listed in retrieved data |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Drug Interactions**: The DDI query returned no records (not found in the database). This is not evidence that no interactions exist.
+- **Class concerns (from the prediction rationale)**: Systemic aminoglycoside use carries nephrotoxicity and ototoxicity risk. Oral aminoglycosides may reduce vitamin K-producing gut flora, which could worsen coagulopathy.
 
-*Additional context from the repurposing rationale (not formal safety data):* aminoglycosides as a class, including framycetin, carry well-known risks of ototoxicity and nephrotoxicity with systemic exposure — the reason clinical use has historically been confined to topical routes. Data gap DG001 (Blocking: PI warnings/contraindications) must be resolved before any formal safety evaluation (Stage S1) can proceed.
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- Evidence level is L5 (model prediction only) — zero clinical trials and zero publications support a framycetin–sclerosing cholangitis link, and the evidence pack's own mechanistic review judges the pairing as likely model noise given the absence of any biological connection between an antibacterial mechanism and an autoimmune/fibrotic biliary disease.
-- Framycetin has no current SAHPRA registration in South Africa, and a Blocking data gap (DG001: PI warnings/contraindications) prevents even a preliminary safety review.
+The prediction is based on a model score alone (L5), with no registered trials or publications for sclerosing cholangitis. The gut-liver axis rationale is plausible, but it is unproven for framycetin. The SAHPRA safety data needed for screening are also missing.
+
+Among the lower-ranked predictions, the only drug-specific signal is a 1956 report on framycetin in pneumology (PMID [13316238](https://pubmed.ncbi.nlm.nih.gov/13316238/), relevant to bronchitis). Its design is unverified and the mechanistic rationale is weak. Several other predictions (congenital prothrombin deficiency, vitamin deficiency disorder, genital herpes) have no plausible mechanism and are likely knowledge-graph artefacts.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain SAHPRA-approved PI labeling for warnings and contraindications
-- Resolve DG002 (High): obtain confirmed mechanism-of-action data from DrugBank
-- If continuing to investigate framycetin repurposing, redirect focus to the higher-plausibility candidates in this evidence pack — urinary tract infection (rank 2, L4) and bronchitis (rank 8, L3) — which have at least limited historical literature support
-- No further action recommended for the sclerosing cholangitis indication absent new mechanistic or clinical evidence
+- SAHPRA package inserts (warnings, contraindications, approved indications) for both registered products. This is a blocking gap.
+- Mechanism of action data from DrugBank.
+- A targeted literature search on oral or gut-restricted antibiotics in primary sclerosing cholangitis.
+- Route compatibility assessment: the registered forms (an "Eed" form and a suppository) may not match the oral route the hypothesis would require.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,15 +2,15 @@
 layout: default
 title: Zolpidem
 parent: High Evidence (L1-L2)
-nav_order: 470
-evidence_level: L1
+nav_order: 478
+evidence_level: L2
 indication_count: 10
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,91 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Zolpidem: From Unregistered in South Africa to Insomnia (Sleep Initiation and Maintenance Disorder)
+# Zolpidem: From Insomnia (Established Use) to Sleep Disorder, Initiating and Maintaining Sleep
 
 ## One-Sentence Summary
 
-Zolpidem is a globally established non-benzodiazepine hypnotic (a "Z-drug") that is currently **not registered or marketed in South Africa** (0 SAHPRA licenses on file). The TxGNN model predicts/confirms it is effective for **Insomnia (sleep disorder, initiating and maintaining sleep)**, with a very high prediction score and **20 supporting publications**, though **no registered clinical trials** are captured in this evidence pack for this specific indication. Importantly, this is not a novel repurposing signal — it corresponds to zolpidem's well-established global indication, so the practical question here is market registration/access rather than new clinical use.
-
----
+Zolpidem is a non-benzodiazepine hypnotic. The SAHPRA records supplied contain no indication text, so its established use as a sleep aid comes from general pharmacology. The TxGNN model predicts it for **sleep disorder, initiating and maintaining sleep**, backed by **19 publications** (including several systematic reviews and network meta-analyses) but **no registered clinical trials** attached to this prediction. This is a rediscovery of zolpidem's existing insomnia use rather than true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented — no SAHPRA registration on file for this drug |
-| Predicted New Indication | Insomnia (Sleep disorder, initiating and maintaining sleep) |
+| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L1 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L3 by this report's rubric (systematic reviews and meta-analyses; no completed trials attached). The upstream pack labelled it L1. |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed original-indication and mechanism-of-action records for this drug are not present in the current evidence pack for South Africa (the drug has no SAHPRA license on file). Based on the pharmacological rationale accompanying this prediction, zolpidem is a selective **GABA-A receptor α1-subunit positive allosteric modulator** (imidazopyridine class), which enhances GABAergic inhibitory neurotransmission to induce sedation and sleep onset.
+Detailed mechanism-of-action data is not available in the source record. From general pharmacology, zolpidem is a positive allosteric modulator of GABA-A receptors at the benzodiazepine site, with preferential affinity for the alpha1 subunit. This produces its sedative-hypnotic effect.
 
-This is the drug's core, well-established pharmacological action, and it maps directly onto the predicted indication — insomnia. In other words, the TxGNN model here is essentially **reproducing zolpidem's known, globally approved use** (it is marketed elsewhere as a first-line short-term insomnia treatment) rather than surfacing a genuinely novel repurposing candidate. The clinical relevance is therefore less about discovering a new mechanism-disease link and more about whether this well-characterized drug should be registered and made available in South Africa.
-
-The supporting literature (below) is dominated by comparative-effectiveness studies of zolpidem against newer agents (lemborexant, daridorexant) for insomnia, along with structural pharmacology of the GABA-A receptor target — consistent with a mature, extensively studied drug-indication pairing rather than an exploratory one.
-
----
+Difficulty falling or staying asleep is exactly what alpha1-mediated sedation treats, so the high score is expected. Zolpidem is an existing hypnotic, and the literature reviews it as a standard option for insomnia, including the extended-release form. The model has effectively rediscovered the drug's label use, which is a useful sanity check but adds no new therapeutic direction.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for this specific prediction.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | RCT (Phase 3) | JAMA Network Open | Compared lemborexant, placebo, and zolpidem tartrate extended-release in older adults with insomnia disorder |
-| [39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/) | 2024 | RCT | JAMA Internal Medicine | Masked-taper behavioral intervention outperformed standard taper for discontinuing benzodiazepine receptor agonists (including zolpidem) |
-| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Network Meta-analysis | Lancet | Compared pharmacological interventions for acute and long-term management of insomnia disorder |
-| [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | Network Meta-analysis | J Manag Care Spec Pharm | Compared comparative efficacy of lemborexant against other insomnia treatments, including zolpidem |
-| [39879708](https://pubmed.ncbi.nlm.nih.gov/39879708/) | 2025 | RCT (comparator) | Sleep Medicine | Evaluated effects on sleep architecture in insomnia with comorbid mild obstructive sleep apnea (zolpidem-class comparator context) |
-| [37549414](https://pubmed.ncbi.nlm.nih.gov/37549414/) | 2023 | Review | The Journal of Family Practice | Review and update on insomnia management in primary care |
-| [29487083](https://pubmed.ncbi.nlm.nih.gov/29487083/) | 2018 | Review | Pharmacological Reviews | Reviewed non-benzodiazepine insomnia drugs (Z-drugs) including zolpidem's pharmacology, efficacy, and side-effect profile |
-| [28845958](https://pubmed.ncbi.nlm.nih.gov/28845958/) | 2017 | Review | FP Essentials | Overview of insomnia diagnosis and management, including pharmacological options |
-| [31953863](https://pubmed.ncbi.nlm.nih.gov/31953863/) | 2020 | Review | Annals of Neurology | Reviewed daridorexant, a new dual orexin receptor antagonist, positioned against existing hypnotics such as zolpidem |
-| [37730991](https://pubmed.ncbi.nlm.nih.gov/37730991/) | 2023 | Mechanistic/structural | Nature | Cryo-EM structures of native GABA-A receptor assemblies — the direct pharmacological target of zolpidem |
+| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | RCT (Phase 3) | JAMA Netw Open | Lemborexant vs placebo and zolpidem ER in older adults with insomnia disorder; zolpidem ER is the active comparator |
+| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Network meta-analysis | Lancet | Comparative effectiveness of drug treatments for acute and long-term management of adult insomnia |
+| [34688027](https://pubmed.ncbi.nlm.nih.gov/34688027/) | 2021 | Meta-analysis | Sleep Med | Efficacy and safety of zolpidem over one month in insomnia disorder, pooling randomized placebo-controlled trials |
+| [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | Network meta-analysis | J Manag Care Spec Pharm | Compares lemborexant with other insomnia treatments on efficacy and safety |
+| [36472134](https://pubmed.ncbi.nlm.nih.gov/36472134/) | 2023 | Comparative analysis | J Clin Sleep Med | Lemborexant vs zolpidem ER 6.25 mg vs placebo in short and normal sleep-duration insomnia subtypes |
+| [37477771](https://pubmed.ncbi.nlm.nih.gov/37477771/) | 2023 | Post hoc analysis | CNS Drugs | Effect of daridorexant and zolpidem on night-time wake bouts in insomnia |
+| [29487083](https://pubmed.ncbi.nlm.nih.gov/29487083/) | 2018 | Review | Pharmacol Rev | Z-drugs, including zolpidem, are approved for insomnia with a strong evidence base but carry cognitive impairment, tolerance, rebound insomnia, falls and dependence risks |
+| [16696581](https://pubmed.ncbi.nlm.nih.gov/16696581/) | 2006 | Review | CNS Drugs | Zolpidem extended-release (dual-layer tablet) for sleep onset and maintenance difficulties |
+| [22424586](https://pubmed.ncbi.nlm.nih.gov/22424586/) | 2012 | Review | Expert Opin Pharmacother | Zolpidem acts as a benzodiazepine receptor agonist and is the most widely prescribed hypnotic in the US |
+| [38551874](https://pubmed.ncbi.nlm.nih.gov/38551874/) | 2024 | Review | Rev Prat | CBT is first-line; Z-drugs taken at the right time and dose help sleep initiation with fewer harms than long-acting benzodiazepines |
 
----
+## South Africa Market Information
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. A40/2.2/0441 | Stilnox 12.5 Mr | Tablet |
+| Reg. No. 37/2.2/0540 | Ivedal | Tablet |
+| Reg. No. A40/2.2/0041 | Stilnox mr | Srt (as recorded) |
+
+Approved indication text is not included in the registration records supplied.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-Note: although no structured safety data (warnings/contraindications/DDI) is on file for this jurisdiction, the broader literature set in this evidence pack (associated with other candidate indications) repeatedly flags zolpidem-specific risks — dependence/abuse potential, withdrawal delirium, rare stimulant/manic reactions, and a population-based association with suicide risk. These should be explicitly confirmed against the manufacturer's PI once available (see Data Gap DG001 below).
-
----
+The supplied literature also repeatedly flags dependence, withdrawal and misuse (for example PMIDs 29487083 and 39496046), so duration and dose limits matter.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The evidence base for zolpidem in insomnia is mature and extensive (L1, 20 supporting publications including RCTs and network meta-analyses), but this reflects confirmation of an already well-established indication rather than a novel repurposing finding — and the drug is currently unregistered and unavailable in South Africa, so no local safety dossier exists yet.
+The top prediction matches zolpidem's established hypnotic use and is supported by systematic reviews and meta-analyses. Safety data from the SAHPRA package insert is still missing, so the drug should be used only with short-term, lowest-effective-dose safeguards.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings/precautions, contraindications) — currently a **Blocking** data gap (DG001), required before any S1 safety assessment
-- Formal mechanism-of-action documentation from DrugBank — currently a **High**-severity data gap (DG002)
-- A registered clinical trial or local pharmacovigilance pathway if market entry is pursued
-- Explicit dependence/abuse-risk monitoring plan, given repeated withdrawal/dependence signals in the wider literature
+- The SAHPRA package insert (warnings and contraindications), which blocks the safety screening step
+- Mechanism-of-action data from DrugBank
+- Confirmation of the approved indication wording on each of the 3 registrations
 
-*Lower-ranked candidates (e.g., alcohol withdrawal, anxiety, major affective disorder) carry weaker evidence (L2–L4) and remain at Hold/Research-Question stage; several others (L5, TxGNN score only, e.g., torticollis of infancy, agoraphobia, Wernicke-Korsakoff syndrome) have no supporting trials or literature and should not be pursued without further evidence.*
+**Other predicted indications (not recommended for advancement):**
+
+| Predicted Indication | Evidence Level | Decision | Note |
+|------|------|------|------|
+| Major affective disorder | L2 | Research Question | Supports zolpidem ER as an adjunct for insomnia with depression, not for depression itself |
+| Anxiety | L2 | Research Question | Supports zolpidem ER for insomnia with generalized anxiety disorder, not as an anxiolytic |
+| Manic bipolar affective disorder | L3 | Research Question | Evidence concerns comorbid insomnia and dependence reports, with no effect shown on mania |
+| Alcohol withdrawal | L4 | Hold | Mostly zolpidem withdrawal and dependence reports; cross-tolerance and misuse concerns |
+| Benign paroxysmal torticollis of infancy | L5 | Hold | No evidence; likely a graph-proximity artifact |
+| Agoraphobia | L5 | Hold | No evidence; weak anxiolytic activity and dependence risk |
+| Acute encephalopathy with biphasic seizures and late reduced diffusion | L5 | Hold | No evidence or supported rationale |
+| Wernicke-Korsakoff syndrome | L5 | Hold | No evidence; sedative-hypnotics may worsen confusion in this population |
+| Childhood absence epilepsy, susceptibility to | L5 | Hold | No evidence; some GABAergic agents can aggravate absence seizures |
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

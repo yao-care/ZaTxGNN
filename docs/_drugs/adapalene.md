@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Adapalene
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 18
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 ---
 
 # Adapalene
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,131 +29,103 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Adapalene: From Acne Vulgaris to Sebaceous Gland Anomaly
+# Adapalene: From Acne Vulgaris to Elevated Plasma Zinc (Likely Model Artifact)
 
 ## One-Sentence Summary
 
-Adapalene is a third-generation synthetic topical retinoid, established in international practice for the treatment of acne vulgaris through selective binding to retinoic acid receptors RAR-β and RAR-γ in the pilosebaceous unit.
-The TxGNN model predicts it may be effective for **Sebaceous Gland Anomaly**, with **2 completed clinical trials** (Phase 3 and Phase 4, total n=802) and **1 preclinical study** providing indirect mechanistic support.
-Adapalene is currently **not registered with SAHPRA** and has no approved products on the South African market.
-
-> **Note on TxGNN Ranking**: The highest-ranked TxGNN prediction for Adapalene is "zinc, elevated plasma" (score 99.51%), which has been assessed as a likely false positive arising from shared knowledge-graph nodes between mineral metabolism and skin pathology. There is no mechanistic basis or clinical evidence to support this prediction. The featured indication — **Sebaceous Gland Anomaly** — is selected as the primary subject of this report because it carries the strongest evidence (L3) and the most actionable recommendation (*Proceed with Guardrails*) across all predicted indications.
-
----
+Adapalene is a topical retinoid, and acne vulgaris is its established use. The SAHPRA registration records supplied do not state the approved indication.
+The TxGNN model's top-ranked prediction is **elevated plasma zinc**, a laboratory finding rather than a treatable disease, and the input contains **0 clinical trials** and **0 publications** for it.
+The high score is most likely a knowledge-graph artifact, so this prediction should not be acted on.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Acne vulgaris (topical treatment of comedones, inflammatory papules, and pustules) |
-| Predicted New Indication | Sebaceous Gland Anomaly |
-| TxGNN Prediction Score | 85.16% |
-| Evidence Level | L3 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Not stated in the SAHPRA records provided (acne vulgaris is the established use, per the evidence pack's rationale) |
+| Predicted New Indication | Zinc, elevated plasma |
+| TxGNN Prediction Score | 99.51% |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available in the input. Based on general knowledge, adapalene is a selective retinoic acid receptor (RAR-beta/gamma) agonist. It normalises follicular keratinisation and has anti-inflammatory activity in pilosebaceous units. This is the basis of its efficacy in acne vulgaris.
 
-Adapalene's core pharmacological action is directed at the sebaceous gland itself. By selectively binding retinoic acid receptors RAR-β and RAR-γ — which are expressed in sebocytes and follicular keratinocytes — adapalene normalises sebocyte differentiation, reduces sebum production, and corrects the disordered infundibular keratinisation that underlies pilosebaceous dysfunction. "Sebaceous gland anomaly" as a diagnostic category encompasses precisely this spectrum of sebaceous gland dysfunction, making the mechanistic alignment with adapalene's known targets unusually direct.
+For **elevated plasma zinc**, no plausible mechanism was identified. It is a laboratory abnormality, not a disease with a therapeutic target, and topical adapalene has minimal systemic exposure. The score of 99.51% therefore appears to reflect a knowledge-graph artifact rather than a real therapeutic signal. The prediction should be treated as a modelling curiosity, not a repurposing lead.
 
-Acne vulgaris and sebaceous gland anomaly share overlapping pathophysiology: both involve abnormal sebaceous gland activity, aberrant follicular keratinisation, and local inflammatory responses. Adapalene's well-established, decades-long efficacy record in acne therefore provides strong mechanistic justification for extending its use to the broader category of sebaceous gland disorders. The 12-month Phase 3 safety and efficacy trial (NCT00446043) specifically tracked adapalene's effects on pilosebaceous unit morphology and local tissue tolerability over a sustained period, generating directly relevant structural data beyond simple symptom measurement.
+### Other Predicted Candidates
 
-Adapalene also possesses anti-inflammatory properties mediated through suppression of AP-1 transcription factor activity and inhibition of NF-κB signalling, reducing peri-sebaceous inflammation regardless of the primary cause. This dual action — normalising glandular architecture while dampening local inflammation — supports potential utility across a range of sebaceous gland anomaly subtypes, from hypertrophic sebaceous conditions to anomalies driven by keratinisation defects.
+The model produced nine further candidates. The table below summarises them; only two (ranks 8 and 9) have any retrieved evidence.
 
----
+| Rank | Predicted Indication | Score | Evidence Level | Recommendation | Comment |
+|---|---|---|---|---|---|
+| 2 | Isolated congenital adermatoglyphia | 98.80% | L5 | Hold | Genetic (SMARCAD1); no known retinoid link |
+| 3 | Beare-Stevenson cutis gyrata syndrome | 98.78% | L5 | Hold | FGFR2 syndrome; speculative link only |
+| 4 | Demodicidosis of sebaceous gland | 95.45% | L5 | Research Question | Plausible via pilosebaceous mechanism; no antiparasitic effect documented |
+| 5 | Pyogenic arthritis-pyoderma gangrenosum-acne syndrome | 95.30% | L5 | Research Question | Topical use could at most address the acne lesions |
+| 6 | Prolidase deficiency | 89.33% | L5 | Hold | No mechanistic path identified |
+| 7 | Drug-induced osteoporosis | 87.21% | L5 | Hold | Systemic retinoids may harm bone; direction of effect uncertain |
+| 8 | Seborrheic dermatitis | 86.28% | L4 | Research Question | Plausible mechanism, but all evidence is indirect (acne studies) |
+| 9 | Sebaceous gland anomaly | 85.16% | L1 | Proceed with Guardrails | Supported by acne Phase 3 evidence; label-concordant, not a novel signal |
+| 10 | Inherited skin tumour | 82.92% | L5 | Hold | Loose chemoprevention rationale; no evidence |
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00446043](https://clinicaltrials.gov/study/NCT00446043) | Phase 3 | Completed | 452 | Multi-centre, open-label, 12-month study of Adapalene 0.1%/BPO 2.5% fixed-combination gel in acne vulgaris. Evaluated long-term safety and efficacy on the pilosebaceous unit, including local tolerability parameters (erythema, scaling, dryness, stinging/burning) and routine laboratory monitoring. Represents the most robust indirect evidence for adapalene's sustained effect on sebaceous gland pathology and tolerability profile. |
-| [NCT02557399](https://clinicaltrials.gov/study/NCT02557399) | Phase 4 | Completed | 350 | Multicentre, randomised, single-blind trial in Japanese patients comparing Clindamycin 1%/BPO 3% gel (Duac®) versus Adapalene 0.1% gel combined with Clindamycin 1% gel in facial acne vulgaris. Provides comparative data on adapalene's efficacy within a pilosebaceous disease context across an Asian population. |
+For the top prediction (elevated plasma zinc): currently no related clinical trials registered.
 
----
+The trials below were retrieved for the two candidates with evidence. All concern acne vulgaris, not the predicted conditions themselves.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00446043](https://clinicaltrials.gov/study/NCT00446043) | Phase 3 | Completed | 452 | Long-term (12-month) safety and efficacy of adapalene 0.1%/benzoyl peroxide 2.5% gel in acne vulgaris (rank 9; direct adapalene evidence) |
+| [NCT02557399](https://clinicaltrials.gov/study/NCT02557399) | Phase 4 | Completed | 350 | Duac (clindamycin/benzoyl peroxide) vs adapalene + clindamycin combination in Japanese facial acne (rank 9; contextual only) |
+| [NCT03076320](https://clinicaltrials.gov/study/NCT03076320) | Phase 1/2 | Completed | 82 | Zaxcell vs Effezel (adapalene/benzoyl peroxide) in inflammatory and scarring acne (rank 8; not a seborrheic dermatitis study) |
+| [NCT06281782](https://clinicaltrials.gov/study/NCT06281782) | NA | Unknown | 40 | Platelet-rich plasma plus topical retinoids vs topical retinoids alone in acne (rank 8; wrong disease) |
+| [NCT05497323](https://clinicaltrials.gov/study/NCT05497323) | Phase 1 | Unknown | 284 | Adjuvant combination cream vs adapalene 0.1% cream in mild-to-moderate acne (rank 8; wrong disease) |
+
+No SANCTR or PACTR identifiers were included in the input.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [25217865](https://pubmed.ncbi.nlm.nih.gov/25217865/) | 2014 | Animal Study (Preclinical) | Journal of Dermatological Science | Evaluated 0.1% adapalene in a non-inflammatory Kyoto Rhino Rat acne model harbouring a nonsense mutation in the *Hr* gene, causing comedone formation with hair loss — a pilosebaceous unit disorder. Demonstrated adapalene's comedolytic efficacy at the level of follicular and sebaceous gland architecture, providing mechanistic evidence for direct action on sebaceous gland pathology independent of inflammatory signalling. |
+For the top prediction: currently no related literature available.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39069843](https://pubmed.ncbi.nlm.nih.gov/39069843/) | 2024 | RCT | Ital J Dermatol Venereol | Adapalene 0.3%/benzoyl peroxide 2.5% gel in Korean acne patients, with histopathological and immunohistochemical assessment |
+| [25217865](https://pubmed.ncbi.nlm.nih.gov/25217865/) | 2014 | Animal study | J Dermatol Sci | 0.1% adapalene was effective in a non-inflammatory Kyoto Rhino Rat acne model |
+| [36102580](https://pubmed.ncbi.nlm.nih.gov/36102580/) | 2022 | Clinical study | J Cosmet Dermatol | Moisturiser (not adapalene) and facial skin lipidome in seborrhoea; not relevant to adapalene |
+| [27504089](https://pubmed.ncbi.nlm.nih.gov/27504089/) | 2016 | Case report | Case Rep Dermatol | Localised late-onset Darier's disease; not relevant to adapalene |
 
 ## South Africa Market Information
 
-Adapalene is **not currently registered with SAHPRA** and has no approved products available on the South African market. No registration numbers, product names, or SAHPRA-approved indications are on record.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 46/13.11/0162 | Dapta Cream | Cream (topical) | Not stated in the registration record |
+| Reg. No. 51/13.12/0911 | Deriva Co | Gel (topical) | Not stated in the registration record |
 
-Healthcare professionals wishing to use adapalene in South Africa should consider:
-- **Section 21 authorisation** (unregistered medicines) from SAHPRA for individual patient use
-- Reference to regulatory approvals from other jurisdictions: adapalene is approved in the USA (FDA), European Union (EMA), Japan (PMDA), and multiple other markets for acne vulgaris
-
-Adapalene is **not included on the South African Essential Medicines List (EML)** for any indication at this time.
-
----
-
-## Summary of All Predicted Indications
-
-For transparency, all ten TxGNN-predicted indications and their recommended decision stages are summarised below:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
-|------|---------|-------------|----------------|----------------|
-| 1 | Zinc, elevated plasma | 99.51% | L5 | Hold *(likely false positive)* |
-| 2 | Isolated congenital adermatoglyphia | 98.80% | L5 | Hold |
-| 3 | Beare-Stevenson cutis gyrata syndrome | 98.78% | L5 | Hold |
-| 4 | Demodicidosis of sebaceous gland | 95.45% | L5 | Research Question |
-| 5 | PAPA syndrome | 95.30% | L5 | Research Question |
-| 6 | Prolidase deficiency | 89.33% | L5 | Hold |
-| 7 | Drug-induced osteoporosis | 87.21% | L5 | Hold ⚠️ |
-| 8 | Seborrheic dermatitis | 86.28% | L4 | Research Question |
-| **9** | **Sebaceous gland anomaly** | **85.16%** | **L3** | **Proceed with Guardrails** |
-| 10 | Inherited skin tumor | 82.92% | L5 | Hold |
-
-> ⚠️ **Safety flag — Rank 7 (Drug-induced osteoporosis)**: This prediction direction is conceptually contradicted by known retinoid pharmacology. Systemic retinoids (e.g., isotretinoin) are established risk factors for osteoporosis, not therapeutic agents. Topical adapalene has negligible systemic absorption (< 0.001%), so direct bone effects are unlikely, but this prediction should **not** be pursued.
-
----
+Essential Medicines List (EML) status could not be determined from the input.
 
 ## Safety Considerations
 
-Adapalene is not registered with SAHPRA and no South African Professional Information (PI) is available. The following summary is drawn from internationally approved prescribing information and the clinical trial data referenced above.
-
-**Local reactions (most common — documented in NCT00446043):**
-- Erythema, scaling, dryness, and stinging/burning at the application site
-- Typically mild-to-moderate; onset in the first 2–4 weeks; tends to resolve with continued use
-
-**Photosensitivity:**
-- Topical retinoids increase UV sensitivity; daily sunscreen use and avoidance of excessive sun exposure are required during treatment
-
-**Pregnancy and reproductive safety:**
-- Systemic retinoids are teratogenic; topical adapalene has extremely low systemic absorption (< 0.001%), but caution is warranted and use during pregnancy is generally not recommended pending further data
-
-**No drug–drug interactions** were identified in the evidence pack for adapalene at this time.
-
-> Please refer to the SAHPRA-approved Professional Information (PI) once registration is obtained. Until then, consult internationally approved labelling (e.g., FDA prescribing information for Differin®/Epiduo®). Report any adverse drug reactions to SAHPRA via the online reporting portal at [www.sahpra.org.za](https://www.sahpra.org.za).
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. The drug-interaction query returned no records.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Adapalene possesses a well-characterised pharmacological mechanism that directly targets sebaceous gland biology via RAR-β/γ receptors, supported by two completed clinical trials (Phase 3 and Phase 4) demonstrating long-term safety and efficacy on pilosebaceous pathology. The mechanistic bridge between adapalene's proven acne indication and sebaceous gland anomaly is direct and biologically robust, justifying advancement beyond a pure research question.
+The top prediction, elevated plasma zinc, is a laboratory finding with no plausible mechanism and no supporting trials or literature (L5). The only strong evidence (rank 9, Phase 3 in acne) is for adapalene's established acne use, so it is not a repurposing signal.
 
 **To proceed, the following is needed:**
+- SAHPRA Professional Information (warnings and contraindications), which is currently blocking safety screening.
+- Mechanism of action data from DrugBank.
+- The approved indication text for both SAHPRA registrations, to confirm the original indication.
+- If a repurposing question is pursued, prioritise the "Research Question" candidates (demodicidosis, seborrheic dermatitis, and the acne component of PAPA-like syndrome) rather than the top-scoring but implausible ones.
+- Review of the "sebaceous gland anomaly" result against the acne label before making any claim.
 
-- **SAHPRA registration or Section 21 authorisation**: Adapalene is not currently available in South Africa; regulatory access must be established before any clinical use
-- **Targeted clinical study**: A prospective trial using "sebaceous gland anomaly" (or a clearly defined sebaceous gland disorder subtype) as the primary endpoint — current evidence is indirect, derived from acne trials
-- **Mechanism of action (MOA) data**: Formal retrieval from DrugBank API (data gap DG002) to substantiate the mechanistic rationale in subsequent regulatory submissions
-- **Complete safety dossier**: Retrieval and review of full PI warnings and contraindications from registered jurisdictions (data gap DG001) to enable comprehensive SAHPRA safety profiling
-- **Subspecification of indication**: "Sebaceous gland anomaly" is a broad ICD category — the specific subtype(s) targeted (e.g., sebaceous hyperplasia, Fordyce spots, nevus sebaceous) should be defined to guide trial design and regulatory strategy
-- **Formulation suitability assessment**: Confirm that existing topical formulations (0.1% or 0.3% gel/cream) are appropriate for the target sebaceous gland anomaly subtype and anatomical site
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application in patient care. All predictions are generated by the TxGNN model and must be interpreted in the context of available clinical evidence. Data cut-off: 4 April 2026.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

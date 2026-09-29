@@ -2,7 +2,7 @@
 layout: default
 title: Cocaine
 parent: Model Prediction Only (L5)
-nav_order: 139
+nav_order: 141
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,93 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cocaine: From Local Anaesthetic to Cauda Equina Syndrome
-
----
+# Cocaine: From Local Anaesthetic Use to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Cocaine (DB00907) is a tropane alkaloid historically employed as a topical local anaesthetic and vasoconstrictor in ENT and ophthalmic surgical procedures — though it carries **no current SAHPRA-approved therapeutic indication** and is not marketed in South Africa.
-The TxGNN model predicts it may have relevance for **Cauda Equina Syndrome**, yet this is supported by **no clinical trials** and only **1 case report** — one that describes the condition itself, not cocaine as a treatment.
-Given the complete absence of mechanistic evidence, zero registered trials, and the drug's Schedule 7 controlled substance status, a **Hold** decision is strongly recommended across all predicted indications.
-
----
+Cocaine is a local anaesthetic and sympathomimetic agent, and the registered product in the dataset is a liquid toothache preparation.
+The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but there are **no clinical trials** and only **1 publication** (a 2019 case report of the disease itself, not of cocaine treatment).
+The high graph score is not supported by any evidence of benefit, so this is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No SAHPRA-approved indication (cocaine is not registered in South Africa) |
-| Predicted New Indication | Cauda Equina Syndrome |
+|------|------|
+| Original Indication | Local anaesthesia (drug class use; the registration carries no approved indication text) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 (see the source caveat in the market section) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not retrieved from DrugBank for this Evidence Pack. Based on established pharmacology, cocaine is a tropane alkaloid acting via two primary mechanisms: (1) **blockade of voltage-gated sodium channels**, producing topical local anaesthesia and vasoconstriction; and (2) **inhibition of presynaptic monoamine reuptake transporters** (norepinephrine, dopamine, serotonin), producing sympathomimetic and psychostimulant effects. It was historically the first clinically used local anaesthetic, introduced in the late 19th century for ENT and ophthalmic procedures.
+Currently, detailed mechanism of action data is not available. Cocaine is known to act as a local anaesthetic and a sympathomimetic, but this pack has no formal MOA record.
 
-Cauda equina syndrome (CES) is a neurological emergency arising from acute mechanical compression of the cauda equina nerve roots — most commonly by a large central lumbar disc herniation, epidural haematoma, or tumour. Its hallmark presentation includes urinary retention or incontinence, faecal incontinence, saddle-area sensory loss, and bilateral lower limb weakness. Definitive treatment is emergency surgical decompression, and delays beyond 48 hours are associated with permanent neurological deficit.
+Cauda equina syndrome is caused by compression of the lumbosacral nerve roots. It presents with urinary retention or incontinence, faecal incontinence, saddle anaesthesia and lower-limb weakness. Treatment is urgent surgical decompression.
 
-**There is no established mechanistic connection between cocaine's sodium channel blockade or monoamine reuptake inhibition and the pathophysiology of CES.** CES is a structural-mechanical emergency requiring surgical intervention, not anaesthetic or sympathomimetic pharmacotherapy. The TxGNN model's high score of 99.98% reflects knowledge graph topology — likely indirect network proximity — rather than a validated biological relationship. This prediction is assessed as a graph artefact rather than a clinically meaningful repurposing signal. Notably, all 10 top-ranked TxGNN predictions for cocaine received a **Hold** recommendation, reflecting a broader pattern of weak mechanistic grounding across the entire candidate list.
-
----
+Cocaine's anaesthetic and sympathomimetic actions do not address this compressive pathology. The high score appears to be a knowledge-graph artefact, and the only retrieved article is a case report of the disease that does not involve cocaine treatment. Mechanistic support is currently absent.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31528422](https://pubmed.ncbi.nlm.nih.gov/31528422/) | 2019 | Case Report | Surgical Neurology International | Case report of distal CES from lumbosacral disc pathology in a single patient; reviews the protean symptomatology of CES including urinary incontinence, saddle hypoaesthesia, and lower extremity weakness. Cocaine is not involved as a treatment agent. |
-
-> **Note:** The sole literature item identified describes CES as a clinical condition and has no connection to cocaine as a therapy. This confirms the **L5** evidence rating — model prediction only, with no supporting clinical or preclinical studies.
-
----
+|------|-----|------|------|---------|
+| [31528422](https://pubmed.ncbi.nlm.nih.gov/31528422/) | 2019 | Case report | Surgical Neurology International | Distal cauda equina syndrome from lumbosacral disc pathology, with a literature review. It describes the disease and its diagnostic difficulty and reports no cocaine therapy. |
 
 ## South Africa Market Information
 
-Cocaine is **not registered with SAHPRA** and is not available as a pharmaceutical product in South Africa. Under the Drugs and Drug Trafficking Act 140 of 1992, cocaine is classified as a **Schedule 7 undesirable dependence-producing substance** — the most restrictive controlled category. It does not appear on the Essential Medicines List (EML).
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| G2815 | Toothache Essence (Dozen) | Liquid | Not stated in the record |
 
-No SAHPRA product licences exist, and no Section 21 (unregistered medicine) authorisation records appear in this dataset. Any clinical or research use of cocaine — including investigational repurposing studies — would require explicit authorisation from SAHPRA under both the Medicines and Related Substances Act 101 of 1965 (as amended) and applicable controlled substance legislation, and would be subject to rigorous ethics committee review.
-
----
+**Source caveat:** The evidence pack lists TFDA as its regulatory input, and the number "G2815" does not follow the usual SAHPRA "Reg. No." format. Confirm on the SAHPRA register that this product is registered in South Africa before relying on the "Marketed" status or the count of 1. Essential Medicines List status is not available in the pack.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for complete safety information. Report adverse drug reactions to SAHPRA via the MedSafety online portal.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-> **Important context for prescribers and investigators:** Cocaine carries a well-characterised and serious toxicity profile. Key concerns include coronary artery spasm and myocardial infarction (even in patients without pre-existing cardiovascular disease), life-threatening arrhythmias, cerebrovascular events, seizures, and profound psychological dependence. Its vasoconstrictor effects cause ischaemic mucosal and tissue necrosis with chronic use. There is no established therapeutic window for systemic administration. These risks represent fundamental barriers to repurposing development and must be addressed before any clinical investigation is contemplated.
+Two points from the retrieved material apply regardless of indication:
+- The literature on cocaine is dominated by harm, including mucosal necrosis, airway injury and cardiovascular effects.
+- Cocaine is a controlled substance with abuse liability.
 
----
+No drug-interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no mechanistic basis linking cocaine's pharmacological actions to cauda equina syndrome — a surgical emergency requiring spinal decompression rather than pharmacological management. The combination of zero supporting clinical trials, one non-relevant case report, no SAHPRA registration, Schedule 7 controlled substance status, and a well-documented serious toxicity profile makes this prediction unsuitable for further repurposing development at this time.
+The prediction rests on model output alone (L5), with no trials, no supportive literature, and no plausible mechanism for a compressive neurological condition. Cocaine's abuse liability and safety profile weigh further against repurposing.
 
-**To proceed, the following would be required:**
+**To proceed, the following is needed:**
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, for example from DrugBank
+- Verification that registration G2815 exists on the SAHPRA register
+- Preclinical or clinical evidence of benefit in cauda equina syndrome, which is currently absent
 
-- A biologically plausible mechanistic hypothesis specifically connecting cocaine's sodium channel blockade or monoamine reuptake inhibition to CES pathophysiology
-- Preclinical data (animal spinal compression models) demonstrating a measurable therapeutic benefit
-- Full MOA and safety data retrieval from DrugBank (currently a data gap — see DG001 and DG002)
-- Formal regulatory pathway assessment with SAHPRA for Schedule 7 controlled substance research use
-- Ethics committee approval prior to any investigational human use
-- Comparative analysis against established and safer alternatives for any overlapping indication
-
----
-
-> ⚠️ **Research Disclaimer:** This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require rigorous clinical validation before therapeutic application. Cocaine is a Schedule 7 controlled substance in South Africa; its possession, manufacture, or supply outside of authorised regulatory channels is a criminal offence. This content complies with YMYL standards for medical information.
+**Note on other predictions:** None of the other nine predicted indications (including rhinitis, anaphylaxis and pharyngitis) shows evidence of therapeutic benefit either. All are recommended Hold, and the retrieved literature is mostly case reports of cocaine-related harm. One of them, "obsolete neurogenic bladder", is an obsolete ontology term and needs mapping review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

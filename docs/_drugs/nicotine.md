@@ -2,7 +2,7 @@
 layout: default
 title: Nicotine
 parent: Model Prediction Only (L5)
-nav_order: 333
+nav_order: 340
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nicotine: From Smoking Cessation to Exercise-Induced Malignant Hyperthermia
+# Nicotine: Repurposing Prediction for Exercise-Induced Malignant Hyperthermia
 
 ## One-Sentence Summary
 
-Nicotine is best known as the active agent in nicotine replacement therapy (NRT) products used to support smoking cessation. The TxGNN model's top-ranked prediction suggests a possible link to **exercise-induced malignant hyperthermia**, but this direction is currently supported by **zero clinical trials** and **zero publications** — it is a model-only signal with no independent mechanistic or clinical corroboration.
-
----
+The registration data supplied for nicotine do not state an original indication. The TxGNN model predicts it may be relevant to **exercise-induced malignant hyperthermia**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it. The mechanistic reasoning also suggests possible harm rather than benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Smoking cessation / nicotine replacement therapy (general knowledge; no formal registration record in this evidence pack) |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 83.91% |
-| Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| TxGNN Prediction Score | 83.91% (model rank 49,771) |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 (two distinct registration numbers; H2466 is listed twice) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, nicotine is a nicotinic acetylcholine receptor (nAChR) agonist, historically used in NRT products to reduce withdrawal symptoms during smoking cessation, and its efficacy for that original use is well established.
+Currently, detailed mechanism of action data is not available for this record. Nicotine is a nicotinic acetylcholine receptor agonist, and these receptors are present at the neuromuscular junction. That is the only plausible link to a skeletal muscle disorder such as exercise-induced malignant hyperthermia.
 
-Malignant hyperthermia, by contrast, is a life-threatening pharmacogenetic disorder of skeletal muscle, driven primarily by mutations in the RYR1 ryanodine receptor calcium channel and typically triggered by volatile anaesthetics or succinylcholine. This pathway is mechanistically distinct from the cholinergic (nAChR) pathway through which nicotine acts.
-
-The evidence pack's own rationale for this prediction is explicit that no established mechanistic link exists between nicotine and exercise-induced malignant hyperthermia. This prediction should therefore be treated as an unvalidated model signal rather than a mechanistically grounded hypothesis, consistent with its L5 evidence level and Hold recommendation.
-
----
+The link is weak, and it may point the wrong way. Nicotine acts as a depolarising agonist at the neuromuscular junction, so it could worsen a disorder of muscle calcium handling rather than treat it. No trial or publication supports the prediction. The high score alone is not enough to justify further work.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Nicotine has no SAHPRA-registered products recorded in this evidence pack (market status: Not marketed; total registrations: 0).
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| A/21.8.1/743 | Menoflush | Tablet |
+| H2466 | Complenatal Ff | Capsule |
 
----
+Both products are oral. No approved indication text or manufacturer is recorded for either. Menoflush and Complenatal FF appear to be multi-ingredient supplement-type products. The nicotine mapping for these registrations should be checked, because they may reflect a related compound such as nicotinamide rather than nicotine itself.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
----
+No drug interactions were found in the queried data (0 records).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (exercise-induced malignant hyperthermia) has no supporting clinical trials, no supporting literature, and no plausible mechanistic link — it reflects a model-only signal (L5) that the evidence pack itself flags as mechanistically unsupported. Nicotine is also not currently marketed in South Africa (0 SAHPRA registrations), which is an independent barrier to any near-term development pathway.
+This is a prediction without any supporting trial or literature (L5). The plausible mechanism suggests nicotine could aggravate, not relieve, the condition. Safety data are also missing, which blocks progression to safety screening.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for nicotine from DrugBank/PI sources
-- Preclinical or in vitro evidence connecting nAChR signalling to RYR1-mediated malignant hyperthermia pathophysiology, if such a link is to be pursued at all
-- SAHPRA Professional Information (PI) for warnings, contraindications, and drug interactions
-- A regulatory pathway assessment given nicotine's current "Not marketed" status in South Africa
+- The SAHPRA package insert, including warnings and contraindications (a blocking gap)
+- Mechanism of action data, for example from DrugBank
+- Confirmation that the three SAHPRA registrations actually contain nicotine
+- A mechanistic and safety review of nicotine in malignant hyperthermia, before any further work
 
-**Additional observation:** Among the other candidates in this evidence pack, **blepharospasm** (rank 5) shows materially stronger real-world signal — two published pilot clinical studies of nicotine nasal spray in blepharospasm (evidence level L3, decision stage S1) — despite mixed efficacy results in those small studies. If further evaluation is warranted, this candidate merits separate assessment rather than the top TxGNN-ranked indication reported above.
+**Other predictions for the same drug:** Blepharospasm has the strongest evidence of the ten predicted indications (L3). It rests on two small pilot studies, and the 1998 follow-up found nicotine nasal spray not to be a reliable treatment (PMID 9452355). Migraine disorder, oppositional defiant disorder and developmental disorder of mental health have only indirect, mostly harm-related evidence (L4). The remaining predictions are L5. All were rated Hold.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

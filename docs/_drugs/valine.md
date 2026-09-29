@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Valine
-parent: Model Prediction Only (L5)
-nav_order: 454
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 462
+evidence_level: L4
 indication_count: 10
 ---
 
 # Valine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,65 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Valine: From Essential Amino Acid Supplementation to Sclerosing Cholangitis
+# Valine: From Amino Acid Nutritional Component to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Valine is a branched-chain essential amino acid; no approved therapeutic indication or mechanism-of-action data is on file for this candidate. The TxGNN model predicts a possible association with **Sclerosing Cholangitis**, but this is currently supported only by **0 clinical trials** and **2 observational/genetic-association publications**, neither of which tests valine as an intervention.
+Valine is an essential amino acid, used in South Africa as a component of parenteral nutrition and peritoneal dialysis solutions.
+The TxGNN model predicts it may be relevant to **sclerosing cholangitis**, but this rests on the model score alone.
+There are **0 clinical trials** and only **2 indirect publications**, and neither tests valine as a treatment.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — Valine is an essential branched-chain amino acid; no approved therapeutic indication is recorded in this evidence pack |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Nutritional amino acid component in parenteral nutrition and peritoneal dialysis products (no approved indication text in the registry data) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L4 (mechanistic/association studies only, no interventional or clinical data) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for valine is not available in this evidence pack. Based on known biology, valine is one of the branched-chain amino acids (BCAAs) involved in general protein and energy metabolism; it has no established disease-specific therapeutic indication, so there is no original-indication-to-new-indication pharmacological bridge to evaluate here.
+Currently, detailed mechanism of action data is not available. Based on known information, valine is a branched-chain amino acid (BCAA) supplied in nutrition and dialysis formulations. Its role there is to supply amino acids, not to treat a specific disease.
 
-The literature supporting the sclerosing cholangitis prediction is indirect: a Mendelian randomization study (PMID 39015781) found that certain blood metabolites show causal association signals with cholestatic liver disease risk, but it does not specifically implicate valine as a treatment target. A second, older study (PMID 15790420) examined plasma tyrosine — not valine — in relation to fatigue in primary biliary cirrhosis/primary sclerosing cholangitis patients, making its direct relevance to valine limited.
+Cholestatic liver diseases, including primary sclerosing cholangitis (PSC), are associated with altered amino acid metabolism. This includes BCAAs and aromatic amino acids. That association is the only plausible link to the prediction. The two available papers are indirect. One observational study looks at plasma tyrosine and fatigue in PBC and PSC. The other is a Mendelian randomization study of blood metabolites and cholestatic liver disease risk. Neither shows that giving valine improves any outcome.
 
-**Important caveat on the wider prediction batch:** among the remaining 9 TxGNN-predicted indications for this candidate, the majority (angle-closure glaucoma, hyperthyroidism, resistance to thyroid hormone, hyperthyroxinemia, etc.) are flagged by the evidence pack itself as likely **false positives arising from nomenclature collision** — "Val" is a standard three-letter abbreviation for valine used throughout gene-mutation nomenclature (e.g., V336M, L346V, Val109), and is also a name-fragment match with the unrelated drug valsartan. None of these represent a genuine pharmacological rationale. This substantially lowers confidence in the overall prediction set for this drug and reinforces caution specifically for the top-ranked candidate as well, since it emerged from the same low-specificity signal environment.
+The high score of 0.994 (model rank 3181) reflects a knowledge-graph association. It is not evidence of benefit, and the direction of any effect is unknown.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered. No SANCTR or PACTR entries were found either.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39015781](https://pubmed.ncbi.nlm.nih.gov/39015781/) | 2024 | Mendelian Randomization | Frontiers in Medicine | Investigated causal relationships between blood metabolites/metabolic pathways and cholestatic liver diseases (PBC/PSC); did not specifically identify valine as a causal or therapeutic factor |
-| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Observational/Correlation | BMC Gastroenterology | Examined plasma tyrosine (not valine) concentration in relation to fatigue in PBC/PSC patients; abnormal amino acid patterns noted but no valine-specific intervention data |
+| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterol | Examined amino acid patterns and their relation to fatigue in PBC and PSC. Focused on plasma tyrosine, not valine treatment. |
+| [39015781](https://pubmed.ncbi.nlm.nih.gov/39015781/) | 2024 | Mendelian randomization | Front Med | Tested causal links between blood metabolites and the risk of PBC and PSC. Shows association only, not therapeutic benefit. |
 
 ## South Africa Market Information
 
-Valine (DB00161) has no SAHPRA registrations on file and is not currently marketed in South Africa (0 licenses recorded).
+The registry data has no approved indication text for these products, and no EML status information. The first 5 of 12 registrations are listed.
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion |
+| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial |
+| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion |
+| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion |
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion |
+
+Adco-ipratropium is an ipratropium product and does not appear to contain valine. This entry may be a mapping error and should be checked against the SAHPRA record.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-Note: this candidate carries a **Blocking** data gap — TFDA/PI-equivalent warning and contraindication data are not currently available, which by itself prevents progression to an initial (S1) safety assessment regardless of efficacy evidence.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (sclerosing cholangitis) is supported only by indirect metabolomic association data (L4, no clinical trials, no interventional studies), and a Blocking data gap on safety/label information prevents any safety pre-assessment. In addition, most of the other 9 TxGNN-predicted indications for this drug are attributable to "Val" nomenclature collisions rather than genuine pharmacology, which lowers overall confidence in this prediction batch.
+There are no clinical trials, and the two publications are indirect and do not test valine as a therapy. The prediction is a knowledge-graph score without mechanistic support. The other top predictions (angle-closure glaucoma, hyperthyroidism and others) are also Hold. Their literature is mostly amino acid substitution notation in gene mutation reports, not valine treatment.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-equivalent label data: warnings, contraindications, and drug interactions (currently Blocking gap, DG001)
-- Confirmed mechanism of action (MOA) data for valine (currently High-severity gap, DG002)
-- Interventional (not purely observational/genetic) evidence directly testing valine supplementation in cholestatic/sclerosing cholangitis populations
-- Clarification of any established original indication, since none is currently on file
+- SAHPRA package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data for valine
+- Evidence that valine supplementation affects outcomes in sclerosing cholangitis, such as a pilot or interventional study
+- Verification of the Adco-ipratropium registration mapping
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

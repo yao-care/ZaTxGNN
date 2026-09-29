@@ -2,7 +2,7 @@
 layout: default
 title: Domperidone
 parent: Model Prediction Only (L5)
-nav_order: 190
+nav_order: 193
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,86 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Domperidone: From Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Domperidone: From Prokinetic/Antiemetic Use to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Domperidone is a peripheral dopamine D2/D3 receptor antagonist, widely used as an antiemetic and prokinetic agent for nausea, vomiting, and gastroparesis.
-The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-with **no clinical trials** and **no published literature** currently supporting this specific direction — making this a model-only prediction at this stage.
-
----
+Domperidone is a peripheral dopamine D2/D3 receptor antagonist, generally used as a prokinetic and antiemetic.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. It is a model-derived association only, with no credible mechanistic link.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Nausea, vomiting, and gastroparesis (dopamine antagonist / prokinetic) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+|------|------|
+| Original Indication | Not stated in the registration record; generally used as a prokinetic and antiemetic |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
+| TxGNN Prediction Score | 99.08% (model rank 4550) |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, domperidone is a peripheral dopamine D2 and D3 receptor antagonist that acts primarily at the gut wall and the area postrema (chemoreceptor trigger zone), which lies outside the blood-brain barrier. Its established efficacy in nausea, vomiting, and delayed gastric emptying is well documented.
+Currently, detailed mechanism of action data is not available in the record. Domperidone is known as a peripheral dopamine D2/D3 receptor antagonist. Its established effects are on gastrointestinal motility and nausea/vomiting.
 
-Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) is a rare X-linked disorder caused by gain-of-function mutations in the AVPR2 gene (encoding the renal vasopressin V2 receptor), resulting in constitutive receptor activation, excessive water retention, and dilutional hyponatraemia — even in the absence of elevated arginine vasopressin (AVP/ADH) levels. The mechanistic rationale linking domperidone to NSIAD is indirect: dopaminergic pathways are known to modulate tubular water reabsorption and AVP secretion, and D2 receptor activity has been implicated in renal electrolyte handling. By blocking peripheral D2/D3 receptors, domperidone could theoretically influence this regulatory axis.
+NSIAD is caused by gain-of-function mutations in *AVPR2* (the vasopressin V2 receptor). These produce constitutive antidiuresis while circulating vasopressin (AVP) is suppressed. Domperidone has no known action on the V2 receptor or the aquaporin-2 pathway, so the two conditions share no obvious pharmacological link.
 
-However, the connection between a prokinetic antiemetic and a rare renal channelopathy is not well established in clinical or preclinical literature. The TxGNN knowledge graph model captures network-level relationships between drug targets and disease nodes that may not yet have direct experimental validation. This prediction should therefore be treated as a hypothesis-generating signal requiring independent mechanistic and clinical verification before any repurposing strategy is considered.
-
----
+The high TxGNN score is a knowledge-graph association only. No trial or publication supports it, and the record lacks both original-indication data and MOA data, so the prediction cannot be cross-checked against curated pharmacology. On current information, the prediction is **not** mechanistically well supported.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR, PACTR).
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available (PubMed search: domperidone AND nephrogenic syndrome of inappropriate antidiuresis returned 0 results as of 2026-04-20).
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
-Domperidone currently holds **no SAHPRA registrations** and is **not marketed** in South Africa according to available regulatory data.
-
-> **Note:** Domperidone is registered and widely used in numerous other jurisdictions (e.g., EU, Canada, Australia, UK) under brand names such as *Motilium*. Its absence from the SAHPRA register does not reflect a global safety withdrawal — it may reflect an unsubmitted or lapsed registration. Prescribers should verify current SAHPRA status directly before any use.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 52/5.7.2/0563 | Domperidone Cipla | Orally disintegrating tablet (ODT) | Not stated in the record |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Cardiac risk (from the evidence pack's assessment)**: Domperidone carries a risk of QT prolongation and arrhythmia. Electrolyte disturbance such as hyponatremia, which can occur in NSIAD, could compound this risk.
+- **Drug Interactions**: The interaction query returned no records. This does not mean there are no interactions.
 
-> **Important context for prescribers:** Although formal safety data was not available in this Evidence Pack, domperidone carries a well-known class-level concern regarding QT interval prolongation and an increased risk of serious cardiac arrhythmia (including sudden cardiac death), particularly at higher doses and in patients with pre-existing cardiac risk factors or those taking concomitant QT-prolonging medications. The European Medicines Agency (EMA) and Health Canada have issued risk minimisation measures on this basis. These warnings should be carefully considered in any repurposing evaluation.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings, contraindications and interaction details. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is currently zero clinical or preclinical evidence linking domperidone to Nephrogenic Syndrome of Inappropriate Antidiuresis; the prediction is based entirely on the TxGNN knowledge graph model (L5 evidence), and domperidone is not registered with SAHPRA, meaning a full regulatory dossier would be required before any South African clinical use.
+The prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanistic link to V2 receptor-driven antidiuresis. The known QT and arrhythmia risk, together with possible electrolyte disturbance in NSIAD, adds a safety concern with no offsetting efficacy signal.
 
 **To proceed, the following is needed:**
-
-- **Mechanistic validation:** Commission a targeted literature and expert review to determine whether dopamine D2/D3 receptor antagonism has any plausible, experimentally supported effect on AVPR2 constitutive activity or renal water handling in NSIAD models
-- **Preclinical evidence:** Identify or initiate in vitro / in vivo studies in NSIAD cell lines or animal models (e.g., AVPR2 gain-of-function knock-in mice) to test domperidone's effect on aquaporin-2 trafficking and urinary osmolality
-- **Safety dossier:** Retrieve and review domperidone's SAHPRA (or EMA/Health Canada) full Professional Information for contraindications, QT-risk profile, and drug interaction data to assess suitability for a renally impaired or electrolyte-disturbed patient population
-- **SAHPRA registration pathway:** Given zero current SAHPRA registrations, a Section 21 (unregistered medicine) application or full registration submission would be required before any investigational or compassionate use in South Africa
-- **Patient population consideration:** NSIAD is an ultra-rare disease (primarily affecting neonatal/paediatric males); any development plan must account for paediatric pharmacokinetics and the specific cardiac safety concerns associated with domperidone in this age group
-
----
-
-*This report is generated for research and clinical decision-support purposes only. It does not constitute medical advice or a recommendation for off-label prescribing. All repurposing candidates require clinical validation before therapeutic use. Adverse drug reactions should be reported to SAHPRA via the MedSafety reporting system.*
+- A credible mechanistic rationale linking dopamine D2/D3 antagonism to the AVPR2/aquaporin-2 pathway, supported by preclinical data
+- Mechanism of action data for domperidone (e.g. from DrugBank)
+- Original indication text and safety sections (warnings, contraindications) from the SAHPRA-approved PI
+- Any published case reports or preclinical studies in NSIAD, none of which are currently identified
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Losartan
 parent: Moderate Evidence (L3-L4)
-nav_order: 295
+nav_order: 301
 evidence_level: L4
 indication_count: 8
 ---
@@ -33,27 +33,29 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Losartan is an angiotensin II receptor blocker (ARB), a drug class established for treating hypertension. The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, but this is currently supported only by mechanistic reasoning and **2 low-tier publications** (a case report and a preclinical study) — no dedicated clinical trials exist for this indication.
+Losartan is an angiotensin II receptor blocker (ARB) widely marketed in South Africa. It is generally used for hypertension, though the registration records supplied do not state the indication.
+The TxGNN model predicts it may be useful for **malignant renovascular hypertension**.
+Support is thin: **0 registered clinical trials** and **2 publications** (one case report and one preclinical methods paper).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (ARB class — not independently confirmed by SAHPRA registration data in this evidence pack; see note below) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Original Indication | Hypertension (general pharmacology; the supplied SAHPRA records contain no indication text) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 18 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is flagged as a data gap in this pack. Based on known pharmacology, losartan is an angiotensin II type 1 (AT1) receptor antagonist that directly blocks the renin-angiotensin-aldosterone system (RAAS) — the pathway central to the pathophysiology of malignant and renovascular hypertension.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Losartan is an AT1 receptor blocker, which is established pharmacology. Renovascular hypertension is driven by the renin-angiotensin system: a narrowed renal artery reduces kidney perfusion, renin rises, and angiotensin II pushes blood pressure up. Blocking the AT1 receptor is therefore biologically plausible.
 
-The mechanistic rationale supplied with this prediction notes that AT1 blockade is pharmacologically well-matched to malignant renovascular hypertension's disease biology. A supporting animal-model study (PMID 30809002, linked to the closely related predicted indication "malignant hypertensive renal disease") independently validates the angiotensin II / NF-κB pathway as pathogenic in this disease model, lending indirect mechanistic support.
+The only human evidence is a case report in Takayasu's arteritis. A patient who had undergone unilateral nephrectomy had malignant hypertension from renal artery stenosis. It was refractory to conventional treatment, and angioplasty was not possible. Enalapril plus losartan improved blood pressure. The abstract excerpt is cut off, so the effect on renal function cannot be confirmed from the data provided. The report also cannot separate losartan's effect from enalapril's.
 
-However, this same mechanistic pathway carries a well-recognized clinical caveat: ARBs are known to risk precipitating acute kidney injury in patients with bilateral renal artery stenosis. This is an established safety consideration for the drug class in this population, not a new finding — it must be weighed alongside the therapeutic rationale.
+**Safety caveat:** ARBs can cause acute kidney injury in bilateral renal artery stenosis or in a patient with a solitary kidney. This is the population where renovascular hypertension matters most, so any evaluation would need a safety-first design.
 
 ## Clinical Trial Evidence
 
@@ -63,31 +65,39 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10667645](https://pubmed.ncbi.nlm.nih.gov/10667645/) | 2000 | Case Report | Angiology | Enalapril + losartan improved blood pressure in a Takayasu's arteritis patient with malignant hypertension due to renal artery stenosis, refractory to conventional treatment and not amenable to angioplasty |
-| [22294399](https://pubmed.ncbi.nlm.nih.gov/22294399/) | 2009 | Preclinical/Animal (SHR model) | Current Protocols in Pharmacology | Methodological protocol for assessing antihypertensive activity in conscious-rat hypertension models; not losartan-specific efficacy data |
+| [10667645](https://pubmed.ncbi.nlm.nih.gov/10667645/) | 2000 | Case report | Angiology | Takayasu's arteritis with malignant hypertension from renal artery stenosis in a unilaterally nephrectomised patient. Enalapril plus losartan improved blood pressure and increased endogenous nitric oxide release. |
+| [22294399](https://pubmed.ncbi.nlm.nih.gov/22294399/) | 2009 | Preclinical methods | Current Protocols in Pharmacology | Describes conscious-rat models for measuring antihypertensive activity, including the Goldblatt (renovascular) model. It contains no losartan-specific efficacy data. |
 
 ## South Africa Market Information
 
-No SAHPRA registration records are present in this evidence pack — losartan is recorded as **not currently marketed** under this dataset (0 registrations). Market status should be independently verified against the current SAHPRA register before any further action.
+Losartan has 18 SAHPRA registrations. The five main ones are listed below. Indication text was not provided in the registration data.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 41/7.1.3/0824 | Losartan 50 Strides | Tablet | Not stated in supplied data |
+| Reg. No. 41/7.1.3/1075 | Spec-losartan | Tablet | Not stated in supplied data |
+| Reg. No. 41/7.1.3/0821 | Ciplazar | Tablet | Not stated in supplied data |
+| Reg. No. 41/7.1.3/0497 | Austell losartan | Tablet | Not stated in supplied data |
+| Reg. No. 46/7.1.3/0559 | Amzaar 5/50 | Tablet | Not stated in supplied data |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-**Known class-effect risk (from evidence rationale, not from SAHPRA PI data):** ARBs, including losartan, carry a recognized risk of precipitating acute kidney injury in patients with bilateral renal artery stenosis — directly relevant given the predicted indication involves renovascular pathology. This should be a specific focus once formal PI/safety data is obtained.
+In this specific setting, ARBs can cause acute kidney injury in bilateral renal artery stenosis or a solitary kidney (see the caveat above).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-A Blocking-severity data gap (missing SAHPRA/TFDA-equivalent PI warnings and contraindications) prevents this candidate from even entering the S1 safety review stage. Evidence is limited to L4 (a single case report and an unrelated preclinical methods paper), with no clinical trials, and the drug has zero current SAHPRA registrations in this dataset.
+The TxGNN score is very high, and the mechanism is plausible. However, the evidence is one case report combined with an ACE inhibitor and a rodent-model methods paper, with no registered trials. The safety risk in renal artery stenosis is real, and the SAHPRA package insert data have not been reviewed. The other seven predictions (malignant hypertensive renal disease, two pulmonary hypertension categories, Braddock syndrome, Prinzmetal angina, and two rare vascular or small-vessel syndromes) have even less support. They are either preclinical-only (L4) or model prediction only (L5), so they are not recommended for further evaluation now.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings, contraindications, drug interactions) to complete the S1 safety review
-- Confirmed original indication and MOA data for losartan from an authoritative source
-- Targeted evaluation of AKI risk in renal artery stenosis populations before considering this indication further
-- Dedicated clinical evidence (case series or trial data) specific to losartan in malignant renovascular hypertension, beyond the single case report currently available
+- SAHPRA package insert warnings and contraindications, including renal artery stenosis and solitary kidney precautions
+- Mechanism of action data confirmed from DrugBank
+- A systematic literature search for ARB use in renovascular hypertension, including comparison with ACE inhibitors
+- A safety-first study design, with renal function and potassium monitoring, before any prospective evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

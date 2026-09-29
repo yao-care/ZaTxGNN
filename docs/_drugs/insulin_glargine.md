@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Glargine
 parent: Model Prediction Only (L5)
-nav_order: 259
+nav_order: 264
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,77 +33,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Insulin Glargine is a long-acting basal insulin analogue, widely used as a cornerstone treatment for both Type 1 and Type 2 Diabetes Mellitus.
-The TxGNN model predicts it may be effective for **Autoimmune Oophoritis**, however there are **no registered clinical trials** and **no supporting publications** currently available for this specific indication, making this a model-only prediction at this stage.
-
----
+Insulin glargine is a long-acting basal insulin analog that acts on the insulin receptor and is marketed in South Africa under 3 SAHPRA registrations.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis** (score 99.88%), but there are **0 clinical trials** and **0 publications** for this indication.
+The prediction is model-only (L5) and no mechanistic link could be identified, so we recommend **Hold**.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Type 1 and Type 2 Diabetes Mellitus (basal insulin replacement therapy) |
-| Predicted New Indication | Autoimmune Oophoritis |
+|------|------|
+| Original Indication | Basal insulin therapy for diabetes mellitus (the registration records supplied contain no approved-indication text) |
+| Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established clinical knowledge, Insulin Glargine is a long-acting insulin analogue engineered to mimic endogenous basal insulin secretion. It binds to insulin receptors to regulate glucose uptake and suppress hepatic glucose output, providing a stable 24-hour glycaemic baseline. Its efficacy in both Type 1 and Type 2 Diabetes Mellitus is supported by decades of clinical evidence and international guidelines.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Insulin glargine is a long-acting basal insulin analog that acts on the insulin receptor to lower blood glucose.
 
-Autoimmune oophoritis is closely associated with Autoimmune Polyglandular Syndrome Type 2 (APS-2, also known as Schmidt's Syndrome), a condition characterised by the co-occurrence of autoimmune Addison's disease, autoimmune thyroid disease, and Type 1 Diabetes Mellitus (T1DM). Because T1DM and autoimmune oophoritis frequently co-occur within the APS-2 spectrum, the TxGNN model likely captured this connection through a shared comorbidity node in its knowledge graph, resulting in a high prediction score.
+Nothing in the supplied data connects this action to ovarian autoimmunity. The very high TxGNN score is most likely a graph-based artefact, for example driven by shared autoimmune or endocrine neighbours such as autoimmune polyendocrine syndromes. Any real connection would be indirect, via co-occurring autoimmune diabetes rather than treatment of the oophoritis itself.
 
-However, this link represents a **comorbidity association, not a causal treatment pathway**. Insulin Glargine has no known mechanism of action against anti-ovarian autoantibodies (such as anti-21-hydroxylase or anti-oocyte antibodies), and there is no biological rationale for it to directly modify the autoimmune pathology affecting the ovaries. This prediction should be interpreted as a false positive arising from shared disease context within the APS-2 network, and does not constitute a clinically actionable repurposing opportunity.
-
----
+The other nine predicted indications show a similar pattern:
+- **Thiamine-responsive dysfunction syndrome, focal stiff limb syndrome and classic stiff person syndrome**: insulin would manage only the coexisting diabetes, not the underlying disorder.
+- **Localized lipodystrophies** (drug-induced, centrifugal, pressure-induced, idiopathic): injection-site lipoatrophy and lipohypertrophy are known adverse effects of subcutaneous insulin. These predictions are better read as a safety signal than as a repurposing opportunity.
+- **Opsismodysplasia**: SHIP2 (INPPL1) regulates PI3K/insulin signalling, so a speculative pathway link exists, but the direction of effect is unknown.
+- **Pancreatic agenesis** (rank 6, score 99.43%): this is the only biologically well-founded candidate. It causes absolute insulin deficiency, so insulin replacement is standard supportive care. This is hormone replacement, not a new mechanism. It is classed L4 with a "Research Question" recommendation, and the open question is whether glargine offers a specific advantage over other insulins, such as basal coverage in neonates and infants.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for autoimmune oophoritis.
 
----
+For context, the six papers retrieved for pancreatic agenesis are all indirect, and none is specific to insulin glargine in that condition:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [11727406](https://pubmed.ncbi.nlm.nih.gov/11727406/) | 2001 | Review | Endocrinol Metab Clin North Am | Insulin therapy in type 2 diabetes |
+| [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/) | 2002 | Review | J Am Pharm Assoc | Practical aspects of starting insulin in type 2 diabetes |
+| [19322513](https://pubmed.ncbi.nlm.nih.gov/19322513/) | 2009 | Review | Acta Diabetol | Secondary diabetes with endocrinopathies |
+| [32871938](https://pubmed.ncbi.nlm.nih.gov/32871938/) | 2020 | Case report | Medicine | MODY5 treated with a GLP-1 receptor agonist |
+| [25818213](https://pubmed.ncbi.nlm.nih.gov/25818213/) | 2015 | Cohort (veterinary) | J Vet Intern Med | Pancreatic enzymes and ultrasound findings in diabetic cats |
+| [18518815](https://pubmed.ncbi.nlm.nih.gov/18518815/) | 2008 | Case report (veterinary) | J Am Vet Med Assoc | Chronic pancreatitis with secondary diabetes in a sea lion, treated with insulin |
 
 ## South Africa Market Information
 
-Insulin Glargine is currently **not listed** with any SAHPRA-registered products in this evidence pack (0 registrations, status: Not Marketed).
-
-> **Important note for clinicians:** This likely reflects a data gap in the current evidence pack rather than true market absence. Insulin Glargine products (e.g., Lantus® 100 U/mL, Toujeo® 300 U/mL) are widely used globally and Insulin Glargine is included in the **South African Essential Medicines List (EML)** for primary and hospital level care. Verification against the current SAHPRA medicines register is strongly recommended before drawing conclusions about local availability.
-
----
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 49/21.1/1230 | Toujeo pen 1.5ml | Injection |
+| Reg. No. 51/21.1/0729 | Endulin Select | Solution |
+| Reg. No. 41/21.1/0363 | Optisulin cartridge 3ml | Injection |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA via the MedSafety reporting system.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
----
+Localized lipoatrophy and lipohypertrophy at subcutaneous injection sites are known effects of insulin. These are relevant when interpreting the lipodystrophy-related predictions above.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction linking Insulin Glargine to Autoimmune Oophoritis is driven by shared comorbidity associations within the Autoimmune Polyglandular Syndrome Type 2 network, not by any direct pharmacological mechanism. With no supporting clinical trials, no published literature, and no mechanistic basis for treating ovarian autoimmune pathology with insulin, there is currently insufficient justification to pursue this as a repurposing candidate.
+The top prediction, autoimmune oophoritis, has no trials, no literature and no plausible mechanistic link, so the high TxGNN score is not clinically meaningful. All other candidates either reflect comorbid diabetes or represent adverse effects of insulin, apart from pancreatic agenesis. There, insulin is already standard replacement, so it is not a true repurposing case.
 
 **To proceed, the following is needed:**
-
-- **Mechanism of action data (MOA):** Retrieve from DrugBank API (DB00047) to enable formal mechanistic linkage analysis
-- **Safety data:** Download SAHPRA-approved PI documents to obtain key warnings, contraindications, and drug interactions — currently blocking entry to safety screening (Data Gap DG001)
-- **SAHPRA registration verification:** Confirm current market authorisation status against the live SAHPRA register, as 0 registrations likely reflects a data extraction gap
-- **Preclinical evidence:** Any in vitro or animal studies demonstrating a direct effect of Insulin Glargine on autoimmune oophoritis pathology would be required before this prediction could be elevated beyond L5
-- **Clinical context review:** Consider whether this prediction is more accurately classified as a **false positive** due to APS-2 comorbidity bias, and flag it accordingly in the TxGNN candidate ranking pipeline
-
-> ⚠️ **Disclaimer:** This report is intended for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All findings should be interpreted in conjunction with the full SAHPRA-approved prescribing information.
+- The SAHPRA package insert (warnings, contraindications and approved indications) for the 3 registered products
+- Mechanism of action data from DrugBank
+- For pancreatic agenesis only: a targeted literature review or comparative data on glargine versus other basal insulins in neonatal and infant patients
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

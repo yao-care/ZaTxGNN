@@ -2,7 +2,7 @@
 layout: default
 title: Mirtazapine
 parent: Model Prediction Only (L5)
-nav_order: 319
+nav_order: 325
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,70 +33,67 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Mirtazapine is a NaSSA-class antidepressant; the evidence pack does not include SAHPRA-approved indication text, but its rationale data identify it as a depression treatment. The TxGNN model predicts possible efficacy for **Ohdo syndrome and variants**, a rare congenital syndrome, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction (L5).
-
----
+Mirtazapine is an antidepressant. The registration data supplied did not state an indication, so depression here is background knowledge. The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**, but **0 clinical trials** and **0 publications** currently support this direction. It is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no SAHPRA license text available); rationale data identify Mirtazapine as a NaSSA-class antidepressant |
+| Original Indication | Not stated in the supplied registration data (depression is assumed from general drug knowledge) |
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on the rationale data provided, Mirtazapine is a noradrenergic and specific serotonergic antidepressant (NaSSA) that acts via antagonism of central α2-adrenergic receptors and 5-HT2/5-HT3 receptors, and its H1/5-HT2C antagonism is known to increase appetite.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. From general pharmacology, mirtazapine blocks alpha-2 adrenergic, 5-HT2, 5-HT3 and H1 receptors. This is background knowledge and is not confirmed by the supplied data.
 
-Ohdo syndrome and its variants (associated with genes such as MED12, KAT6B, and CHD7) commonly present with severe feeding difficulties and failure to thrive. The theoretical link is that Mirtazapine's appetite-stimulating property, already used off-label in some paediatric syndromic feeding-difficulty cases, could plausibly extend to this population. However, this is a pharmacological hypothesis only — no clinical trial or published case data in this evidence pack support it, and the TxGNN score, while high (0.994), reflects a model prediction rather than validated evidence.
+Ohdo syndrome (KAT6B-related) is a neurodevelopmental disorder caused by faulty chromatin regulation. No plausible pathway connects mirtazapine's receptor targets to that biology, so the data support no mechanistic link. The high score of 0.994 comes from graph-based similarity alone. No trial or publication backs it.
 
-Two additional candidates were predicted with similarly high scores but no supporting evidence: blepharophimosis–intellectual disability syndrome, Ohdo type (a sub-phenotype of Ohdo syndrome, score 99.11%), and benign paroxysmal torticollis of infancy (score 99.11%), for which the mechanistic link to Mirtazapine's pharmacology is weaker and unestablished. All three should be treated as hypothesis-generating only.
-
----
+Two other predictions share the same weakness:
+- **Blepharophimosis–intellectual disability syndrome, Ohdo type** (score 99.11%) is closely related to the entry above, so the two predictions are probably not independent.
+- **Benign paroxysmal torticollis of infancy** (score 99.11%) is a migraine-related episodic syndrome. Only a speculative link is possible, since serotonergic and antihistaminergic drugs have been discussed in migraine prophylaxis. Mirtazapine carries a paediatric suicidality warning and is not established for use in infants, so a safety assessment would be needed before any research use.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Mirtazapine is currently **not marketed** in South Africa according to this evidence pack, with 0 SAHPRA registrations on record. No product/dosage-form information is available to list.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 44/1.2/1005 | Mirtaneo 15 | Tablet | Not provided in the supplied data |
+| Reg. No. 41/1.2/0529 | Ramure 15Mg | Tablet | Not provided in the supplied data |
 
----
+Both products are oral tablets.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Drug Interactions**: The interaction query returned no records, so no interactions could be listed. This is a search gap, not evidence that none exist.
 
----
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All three predicted indications are supported only by TxGNN model scores (L5), with zero clinical trials or literature identified. The drug is not currently marketed in South Africa, and TFDA/SAHPRA warning and contraindication data are marked as a **Blocking** data gap, preventing any initial safety assessment (S1 stage).
+The prediction rests only on a graph-model score, with no trials, no publications and no supported mechanistic link. The safety review is also blocked, because the SAHPRA package insert has not yet been reviewed.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI) — warnings, contraindications, drug interactions (Blocking gap)
-- Confirmed mechanism of action data from DrugBank or equivalent source (High-severity gap)
-- Confirmed original approved indication(s) for Mirtazapine
-- Prospective case series, case reports, or trial data specifically evaluating Mirtazapine in Ohdo syndrome or related feeding-difficulty populations
+- SAHPRA package insert warnings and contraindications, which block the safety screening
+- Confirmed mechanism of action data (for example from DrugBank) and a documented biological link to Ohdo syndrome
+- Any preclinical, case-report or trial evidence for mirtazapine in Ohdo syndrome or related disorders
+- A specific safety assessment for paediatric use, including suicidality risk, if research in children is considered
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Aspartic Acid
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 48
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Aspartic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Aspartic Acid: From Nutritional Amino Acid to Renal Tubular Acidosis
+# Aspartic Acid: From Parenteral Nutrition Component to Renal Tubular Acidosis
 
 ## One-Sentence Summary
 
-Aspartic acid is a naturally occurring non-essential amino acid used primarily as a nutritional/dietary supplement, with no formally registered therapeutic indications in South Africa.
-The TxGNN model predicts it may have therapeutic potential for **Renal Tubular Acidosis (RTA)**, with **no directly relevant clinical trials** and **10 publications** (primarily basic science, animal studies, and case reports) currently available to support this direction.
+Aspartic acid is an amino acid. In South Africa it is registered as a component of parenteral nutrition infusions, and the registration records do not state a separate approved indication.
+The TxGNN model predicts it may be useful for **renal tubular acidosis**.
+This rests on a knowledge-graph prediction only: **1 registered clinical trial (not relevant)** and **10 publications, none testing aspartic acid as a treatment for this condition**.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No registered therapeutic indications (nutritional/dietary amino acid) |
-| Predicted New Indication | Renal Tubular Acidosis |
+|------|------|
+| Original Indication | Not stated in the registration records; registered products are parenteral nutrition infusions |
+| Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 99.47% |
-| Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 6 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for aspartic acid as a therapeutic agent is not available through this evidence system. Aspartic acid is a non-essential amino acid that plays a central role in cellular metabolism, serving as an intermediate in the tricarboxylic acid (TCA) cycle and the urea cycle. Its importance to acid-base homeostasis in the kidney forms the biological basis for this TxGNN prediction.
+Currently, detailed mechanism of action data is not available. Aspartic acid is a component of amino acid infusion products, and mechanistically it may be linked to renal acid-base handling.
 
-The mechanistic link to renal tubular acidosis (RTA) is grounded in basic renal physiology. Aspartic acid participates in ammoniagenesis and acid-base buffering within renal tubular cells — processes directly impaired in RTA. Importantly, the SLC22A13 transporter mediates active efflux of aspartate and glutamate specifically at the basolateral membrane of type A intercalated cells in the renal collecting duct (PMID: 24147638) — the exact cell type responsible for proton secretion that fails in distal RTA. Animal studies further demonstrate that chronic metabolic acidosis alters concentrations of aspartate and other metabolic intermediates in rat kidney tissue (PMID: 2884989; PMID: 5641145), suggesting aspartic acid is metabolically responsive to the acidotic state.
+Aspartate takes part in renal tubular amino acid handling. It also sits in the glutamate/glutamine pathways that feed renal ammoniagenesis and acid excretion. This gives a plausible biochemical connection to acid-base regulation, which is why a knowledge-graph model could link it to renal tubular acidosis (RTA).
 
-There is one isolated historical case report (PMID: 6422151, 1983) describing a neonate with pyruvate carboxylase deficiency complicated by proximal RTA, who showed clinical improvement when dietary aspartic acid supplementation was introduced. While this is a single anecdotal observation in the context of a complex metabolic disorder, it represents the closest direct clinical signal in the available literature. The TxGNN high prediction score of 99.47% reflects structural associations in the knowledge graph rather than established clinical evidence, and must be interpreted with appropriate caution at this stage.
+There are important limits. Distal RTA is mainly caused by defects in transporters and pumps (for example SLC4A1/AE1, ATP6V1B1, ATP6V0A4), not by aspartate deficiency. No retrieved evidence shows that aspartic acid supplementation corrects tubular acidification. The high score is a model prediction and could not be cross-checked against known pharmacology, because the original indication and mechanism of action are unavailable.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials directly investigating aspartic acid for renal tubular acidosis were identified. One trial was returned during the database query but is not applicable to this drug-disease pair:
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT04725812](https://clinicaltrials.gov/study/NCT04725812) | Phase 2 | Terminated | 2 | **Not applicable to this analysis** — Investigates eculizumab (a complement inhibitor) for preeclampsia at 23–30 weeks gestation; no relationship to aspartic acid or renal tubular acidosis. Trial was terminated early with only 2 participants enrolled. |
+|---------|------|------|------|---------|
+| [NCT04725812](https://clinicaltrials.gov/study/NCT04725812) | Phase 2 | Terminated | 2 | Eculizumab in preeclampsia (CRUSH study). It does not study aspartic acid or RTA and provides no usable evidence. |
 
-**Currently no relevant clinical trials investigating aspartic acid for renal tubular acidosis are registered on ClinicalTrials.gov or ICTRP.**
+No SANCTR or PACTR registrations were identified.
 
 ---
 
 ## Literature Evidence
 
+None of the publications below is an RCT. They are genetic case reports and case series of RTA, or preclinical and physiological studies.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [6422151](https://pubmed.ncbi.nlm.nih.gov/6422151/) | 1983 | Case Report | J Inherit Metab Dis | Neonate with pyruvate carboxylase deficiency, proximal RTA, and cystinuria; clinical improvement observed when diet was supplemented with aspartic acid — the only direct clinical signal identified |
-| [24147638](https://pubmed.ncbi.nlm.nih.gov/24147638/) | 2014 | In Vitro / Transporter Study | Biochemical Journal | SLC22A13 mediates unidirectional efflux of aspartate and glutamate at the basolateral membrane of type A intercalated cells in the renal collecting duct; co-localises with anion exchanger 1 (AE1) |
-| [2884989](https://pubmed.ncbi.nlm.nih.gov/2884989/) | 1987 | Animal Study | Biochemical Journal | ¹³C NMR study in rat renal tubules: chronic metabolic acidosis significantly alters aspartate/glutamate utilisation and metabolic intermediate flux |
-| [5641145](https://pubmed.ncbi.nlm.nih.gov/5641145/) | 1968 | Animal Study | Nature | Altered concentrations of metabolic intermediates, including aspartate, in kidneys of rats with experimental metabolic acidosis |
-| [14301365](https://pubmed.ncbi.nlm.nih.gov/14301365/) | 1965 | Basic Science | Am J Physiol | Foundational study on the relationship between tubular cell pNH₃ and renal ammonia production; relevant to understanding aspartic acid's role in tubular acid-base handling |
-| [990372](https://pubmed.ncbi.nlm.nih.gov/990372/) | 1976 | Case Series | Biomedicine | IV loading with ornithine-aspartate in children with familial neurological syndrome associated with incomplete RTA and cystinuria; amino acid metabolic responses characterised |
-| [26208211](https://pubmed.ncbi.nlm.nih.gov/26208211/) | 2015 | Diagnostic Cohort | Jornal de Pediatria | Whole-exome sequencing for genetic diagnosis of distal RTA in four children; no therapeutic data on aspartic acid |
-| [20068363](https://pubmed.ncbi.nlm.nih.gov/20068363/) | 2010 | Genetic Case Series | Nephron Physiology | SLC4A1 (AE1, Band 3) mutations causing distal RTA in Filipino children; mechanistic genetic study |
-| [12087557](https://pubmed.ncbi.nlm.nih.gov/12087557/) | 2002 | Genetic Case Series | Am J Kidney Dis | G701D mutation of AE1 gene causing autosomal recessive distal RTA; defines how AE1 defects at the basolateral membrane impair proton secretion |
-| [23053187](https://pubmed.ncbi.nlm.nih.gov/23053187/) | 2013 | Case Report | Ann Hematol | SLC4A1/AE1 A858D homozygous mutation with distal RTA, thrombocytopaenia, and haemolysis; no therapeutic data on aspartic acid |
+|------|-----|------|------|---------|
+| [24147638](https://pubmed.ncbi.nlm.nih.gov/24147638/) | 2014 | Preclinical | Biochem J | SLC22A13 mediates efflux of aspartate and glutamate at the basolateral membrane of type A intercalated cells in the renal collecting duct, co-localising with AE1 |
+| [2884989](https://pubmed.ncbi.nlm.nih.gov/2884989/) | 1987 | Preclinical | Biochem J | Metabolic fate of glutamate carbon in rat renal tubules, including the effect of chronic metabolic acidosis |
+| [6422151](https://pubmed.ncbi.nlm.nih.gov/6422151/) | 1983 | Case report | J Inherit Metab Dis | Neonate with pyruvate carboxylase deficiency, proximal RTA and cystinuria. The infant thrived after a diet supplemented with several amino acids including aspartic acid, so the effect cannot be attributed to aspartic acid or to RTA correction |
+| [990372](https://pubmed.ncbi.nlm.nih.gov/990372/) | 1976 | Physiological study | Biomedicine | Intravenous arginine and ornithine-aspartate loading in siblings with a neurological syndrome, cystinuria and incomplete RTA |
+| [26208211](https://pubmed.ncbi.nlm.nih.gov/26208211/) | 2015 | Genetic diagnostic study | J Pediatr (Rio J) | Whole-exome sequencing gave a genetic diagnosis in four children with distal RTA |
+| [20068363](https://pubmed.ncbi.nlm.nih.gov/20068363/) | 2010 | Case series | Nephron Physiol | Distal RTA in Filipino children caused by SLC4A1 (AE1) mutations |
+| [12087557](https://pubmed.ncbi.nlm.nih.gov/12087557/) | 2002 | Case report | Am J Kidney Dis | Autosomal recessive distal RTA caused by the G701D mutation of AE1 |
+| [23053187](https://pubmed.ncbi.nlm.nih.gov/23053187/) | 2013 | Case report | Ann Hematol | Hypokalaemic distal RTA with haemolysis and acanthocytosis in an AE1 A858D homozygote |
+| [14301365](https://pubmed.ncbi.nlm.nih.gov/14301365/) | 1965 | Physiological study | Am J Physiol | Relationship between tubular cell pNH3 and renal ammonia production |
+| [5641145](https://pubmed.ncbi.nlm.nih.gov/5641145/) | 1968 | Preclinical | Nature | Concentrations of metabolic intermediates in kidneys of rats with metabolic acidosis |
 
 ---
 
 ## South Africa Market Information
 
-Aspartic acid (DrugBank ID: DB00128) is **not registered with SAHPRA** and is currently **not marketed in South Africa** as a standalone therapeutic agent. No product licences or registration data are available.
+Six registrations are recorded. Five entries are listed below; two of them share registration number 41/25/0757. The registration records do not state an approved indication text.
 
-> Note: Aspartic acid may be present as an excipient or as a component of nutritional formulations in some registered products, but no therapeutic registrations were identified in the SAHPRA database.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated in registration record |
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not stated in registration record |
+| Reg. No. 52/25/0740 | Numeta G16E | Infusion | Not stated in registration record |
+| Reg. No. 49/25/0065 | Nutriflex Omega Specialized | Infusion | Not stated in registration record |
+| Reg. No. 41/25/0757 | Nutriflex lipid peri 1875ml | TPN | Not stated in registration record |
+
+All registered products are injectable or infusion parenteral nutrition products. No oral formulation is registered.
 
 ---
 
 ## Safety Considerations
 
-No formal safety data — including warnings, contraindications, or drug-drug interactions — are available through this evidence system for aspartic acid as a therapeutic agent.
-
-> As aspartic acid is not currently registered with SAHPRA as a standalone therapeutic product, no South African-approved Professional Information (PI) document is available for reference. Clinicians should consult primary literature and specialist resources before any clinical use. Any adverse drug reactions should be reported to SAHPRA via the **MedSafety** online reporting system (https://www.sahpra.org.za/).
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -112,20 +119,14 @@ No formal safety data — including warnings, contraindications, or drug-drug in
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model identifies a biologically plausible mechanistic connection between aspartic acid and renal tubular acidosis through its role in renal ammoniagenesis and SLC22A13-mediated aspartate transport in intercalated cells. However, the overall evidence base is **L5** — limited to foundational basic science, animal studies, and isolated historical case reports — with no controlled human studies or registered clinical trials directly evaluating aspartic acid supplementation for RTA. The drug is also not registered in South Africa, presenting an additional regulatory barrier to any clinical pathway.
+The high TxGNN score is not backed by any relevant clinical or mechanistic evidence. The only trial is unrelated, and the literature describes RTA genetics and renal metabolism without showing that aspartic acid corrects tubular acidification. RTA is mainly driven by transporter and pump defects rather than amino acid deficiency. In addition, the safety information needed for screening is not yet available.
 
 **To proceed, the following is needed:**
-
-- Retrieval and review of complete mechanism of action data from DrugBank and primary pharmacology sources
-- A scoping or systematic review specifically examining aspartic acid (and structurally related compounds such as ornithine-aspartate or potassium aspartate) in renal acid-base disorders
-- A preclinical proof-of-concept study (in vitro tubular cell model or animal RTA model) to formally test the hypothesis that aspartic acid supplementation can improve renal proton secretion
-- Investigation of whether related commercially available formulations (e.g., L-Ornithine L-Aspartate, used in hepatic encephalopathy) provide any indirect translational evidence
-- Pharmacokinetic assessment of renal tubular aspartate concentrations achievable with oral or intravenous supplementation
-- SAHPRA regulatory pathway assessment for potential investigational use, including Section 21 authorisation if clinical investigation is planned
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All content should be reviewed by a qualified clinician before any action is taken.*
+- SAHPRA Professional Information (PI) for the registered products, covering warnings and contraindications
+- Mechanism of action data, for example from DrugBank
+- Evidence that aspartic acid supplementation changes urinary acidification or acid-base status in RTA, from preclinical models or human physiological studies
+- Assessment of route compatibility, since all registered products are intravenous parenteral nutrition and no oral product exists
+- Definition of the original indication, to allow a proper comparison with the predicted indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

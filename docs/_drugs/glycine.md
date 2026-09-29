@@ -2,7 +2,7 @@
 layout: default
 title: Glycine
 parent: Model Prediction Only (L5)
-nav_order: 241
+nav_order: 246
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glycine: From No Registered SAHPRA Indication to Predicted Nasal Cavity Disease Treatment
+# Glycine: From Amino Acid Component of Registered Products to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-> Glycine currently has **no SAHPRA-registered product and no documented original indication or mechanism of action** in this evidence pack. The TxGNN model predicts a possible role in **Nasal Cavity Disease** (score 99.85%), but the only supporting clinical trial and literature identified are unrelated to glycine's pharmacology — this is a **low-confidence, model-only signal**, not a clinically supported repurposing candidate.
-
----
+Glycine is an amino acid that appears in 12 SAHPRA-registered products in South Africa, but the supplied data give no approved indication text for it.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, with a very high model score.
+The evidence is thin: **1 clinical trial** and **2 publications** were retrieved, and none of them tests glycine for this condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no SAHPRA licence and no original indication data on file |
-| Predicted New Indication | Nasal Cavity Disease |
+| Original Indication | Not stated in the supplied data (the approved indication text is empty for all listed registrations) |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 12 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for glycine is not available in this evidence pack, and no original indication is on record — so the usual "original MOA → new indication" reasoning chain cannot be built here.
+Currently, detailed mechanism of action data is not available. Glycine appears as a component in products such as parenteral nutrition, peritoneal dialysis solutions and a topical powder, but no approved indication text was supplied, so a link to the original use cannot be drawn from these data.
 
-Reviewing the actual evidence retrieved for this prediction, the link appears weak. The one associated clinical trial (NCT01806675) studies a PET imaging tracer (¹⁸F‑FPPRGD2) for integrin expression in cancer patients and does not involve glycine as a therapeutic agent — it only shares an anatomical search term with "nasal cavity." The two literature hits are similarly tangential: a 1995 veterinary histochemistry study of bovine nasal mucosa, and a 2018 study of oligoarginine-polymer mucosal adjuvants — neither investigates glycine's pharmacological effect on nasal disease.
-
-The evidence pack's own analysis concludes there is **no clear mechanistic rationale** connecting glycine (an inhibitory neurotransmitter / NMDA receptor co-agonist) to nasal cavity disease. This pattern is consistent with a TxGNN embedding-space artefact rather than a genuine pharmacological signal.
-
----
+The pack notes only a speculative link: glycine may have cytoprotective and anti-inflammatory effects on mucosal cells, which could be relevant to nasal mucosa. Nothing in the retrieved trials or literature supports this. The high score reflects a knowledge-graph prediction only and should not be read as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | Evaluated ¹⁸F-FPPRGD2 PET/CT/MRI imaging of αvβ3 integrin expression in glioblastoma, gynaecological cancer, and renal cell carcinoma patients on antiangiogenic therapy. **Does not involve glycine as a treatment**; trial relevance to nasal cavity disease is coincidental (imaging biomarker study only). |
+| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET/CT imaging of a new radiopharmaceutical (18F-FPPRGD2) in cancer patients. It is a diagnostic imaging study and does not test glycine as a treatment (relevance grade C). |
 
-No SANCTR or PACTR-registered trials were identified for this indication.
-
----
+No SANCTR or PACTR registrations were identified.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Veterinary histochemistry | Veterinary Pathology | Lectin histochemistry of bovine nasal mucosa in herpesvirus infection and *Pasteurella haemolytica* adhesion; **no glycine intervention studied**. |
-| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Preclinical (polymer adjuvant) | Chemical & Pharmaceutical Bulletin | Oligoarginine-conjugated polymer as a nasal mucosal vaccine adjuvant; **glycine not the study agent**. |
-
-Neither publication provides direct pharmacological evidence for glycine in nasal cavity disease.
-
----
+| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic research (bovine) | Veterinary Pathology | Lectin histochemistry of normal and herpesvirus-infected bovine nasal mucosa. It is not a glycine treatment study. |
+| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Preclinical | Chemical & Pharmaceutical Bulletin | Oligoarginine-polymer mucosal adjuvants for nasal vaccination in mice. It is not a glycine treatment study. |
 
 ## South Africa Market Information
 
-Currently no SAHPRA registrations are on file for glycine as a marketed pharmaceutical product (market status: **Not marketed**, 0 licences recorded in this evidence pack).
+Showing 5 of 12 registrations. The supplied data contain no approved indication text for these products.
 
----
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| G2370 (ACT 101/1965) | Cicatrin Powder 15G | Powder |
+| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion |
+| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion |
+| 41/25/0757 | Nutriflex Lipid Peri | Infusion |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Note: key warnings, contraindications, and drug interaction data are currently unavailable for glycine in this evidence pack — this is flagged as a blocking data gap for any safety pre-assessment.)*
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. No drug-drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only clinical trial and literature identified for the Nasal Cavity Disease prediction are pharmacologically unrelated to glycine, and the model itself provides no plausible mechanistic link. Combined with L5 evidence (prediction-only) and the absence of any SAHPRA registration or PI safety data, this candidate does not currently support further evaluation.
+The prediction rests on the model score alone. The one trial is an unrelated imaging study, the two papers are unrelated preclinical work, and no mechanism of action or safety data are available. Glycine is a well-known nutritional and formulation component, but that does not support this new indication.
 
 **To proceed, the following is needed:**
-- SAHPRA/TFDA Professional Information (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action (MOA) data from DrugBank or equivalent source
-- A clinical trial or literature search specifically targeting glycine (not tracer/adjuvant studies that merely share search terms) before this indication is reconsidered
-- If further evaluation is desired, the evidence pack's rank-5 candidate (**dyspepsia**, L4 evidence, "Research Question" stage) has a more coherent mechanistic rationale (glycine as NMDA receptor co-agonist affecting gastric accommodation) and may be a more productive direction than nasal cavity disease
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, for example from DrugBank
+- Approved indication text for the registered products, to define the original use
+- Glycine-specific preclinical or clinical evidence in nasal or upper-airway mucosal disease
+- A defined route and formulation for nasal use. The registered forms are powder, infusion and vial, and none is a nasal product.
+- Dyspepsia (rank 5) is the only other predicted indication with any signal, and that is a single rat study on amino acids. It is a research question, not a candidate for advancement.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

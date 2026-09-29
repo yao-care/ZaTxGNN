@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Norethisterone
-parent: High Evidence (L1-L2)
-nav_order: 338
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 345
+evidence_level: L5
 indication_count: 1
 ---
 
 # Norethisterone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **1**
 
 </div>
 
-# Norethisterone: From Hormonal Contraception to Amenorrhea
+# Norethisterone: From Hormonal Products (Indication Not Listed) to Amenorrhea
 
 ## One-Sentence Summary
 
-> Norethisterone is a synthetic progestin used globally in hormonal contraceptive and hormone-therapy regimens; no SAHPRA-approved indication is currently on file for this product in South Africa.
-> The TxGNN model predicts it may be effective for **Amenorrhea**,
-> with **8 clinical trials** and **20 publications** currently identified, though most of this evidence reflects norethisterone acting as an "add-back" component within combination regimens rather than as a directly studied monotherapy.
+Norethisterone is a synthetic progestin found in 9 South African registered products, but the data received does not state its approved indication.
+The TxGNN model predicts it may be useful for **amenorrhea**, with a score of 99.6%.
+There are **7 clinical trials** and **20 publications** linked to this prediction, but none tests norethisterone alone for amenorrhea. The trials mostly use it as an add-back component in combination regimens, so the evidence is **indirect**.
 
 ---
 
@@ -43,38 +43,38 @@ Evidence Level: **L2** | Predicted Indications: **1**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack — norethisterone is not currently SAHPRA-registered, so no approved indication text is on file |
+| Original Indication | Not stated in the registration data received |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.60% |
-| Evidence Level | L2 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 (indirect evidence only; no study tests norethisterone for amenorrhea) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 9 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for norethisterone is not available in this evidence pack, and no original approved indication is on file since the product is not currently registered with SAHPRA. Based on known pharmacology, norethisterone is a well-characterised synthetic progestin (a 19-nortestosterone derivative) used worldwide as a component of combined and progestin-only contraceptives, hormone-replacement regimens, and menstrual-disorder therapy.
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, norethisterone is a progestin with strong progestogenic and endometrium-stabilising activity. It suppresses endometrial growth and can restore withdrawal bleeding in oestrogen-primed, low-oestrogen or anovulatory states. This is a plausible link to amenorrhea management and may explain the high TxGNN score. This reasoning comes from general knowledge and is not confirmed by the data received.
 
-Progestins act on endometrial progesterone receptors to regulate proliferation and shedding of the uterine lining, and clinically norethisterone acetate (NETA) is used as an "add-back" agent alongside GnRH antagonists (e.g., relugolix) to modulate withdrawal bleeding and menstrual/amenorrhea outcomes during hormone-suppression treatment of uterine fibroids.
-
-This existing role as a menstrual-cycle-modulating agent is mechanistically consistent with the TxGNN-predicted link to amenorrhea. However, it is worth flagging that most of the supporting evidence below (the LIBERTY trial programme) studies norethisterone as an add-back component of a relugolix combination, not as a standalone investigational agent for amenorrhea — this distinction is why the evidence pack rates this L2 rather than higher despite several completed Phase 3 trials.
+The direction of the link needs care. In most of the trials found, norethisterone acetate is the add-back component of GnRH antagonist combinations (relugolix or elagolix). There, amenorrhea is a treatment outcome, meaning bleeding is suppressed. It is not the condition being treated. Using norethisterone to treat amenorrhea is a different clinical question, and these trials do not address it.
 
 ---
 
 ## Clinical Trial Evidence
 
+No SANCTR or PACTR identifiers were found. All 7 trials are from ClinicalTrials.gov and are ordered by relevance.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03049735](https://clinicaltrials.gov/study/NCT03049735) (LIBERTY 1) | Phase 3 | Completed | 388 | Relugolix + estradiol + norethindrone acetate vs placebo for heavy menstrual bleeding in fibroids; amenorrhea was a secondary efficacy measure. *Relevance: B — NETA is the add-back component, not the primary study drug.* |
-| [NCT03103087](https://clinicaltrials.gov/study/NCT03103087) (LIBERTY 2) | Phase 3 | Completed | 382 | Replication of LIBERTY 1 design and results, reinforcing add-back NETA's role in menstrual/amenorrhea control. *Relevance: B.* |
-| [NCT03412890](https://clinicaltrials.gov/study/NCT03412890) (LIBERTY Extension) | Phase 3 | Completed | 477 | Long-term open-label extension confirming durability of amenorrhea/menstrual control with relugolix + E2 + NETA. *Relevance: B.* |
-| [NCT03751124](https://clinicaltrials.gov/study/NCT03751124) | Phase 3 | Completed | 229 | Randomized withdrawal study evaluating long-term efficacy/safety of relugolix + E2 + NETA, including recovery from induced amenorrhea after treatment. *Relevance: B.* |
-| [NCT05620355](https://clinicaltrials.gov/study/NCT05620355) | Phase 3 | Unknown (follow-up status unconfirmed) | 312 | BG2109 alone and combined with add-back therapy for heavy menstrual bleeding in fibroids. *Relevance: B.* |
-| [NCT01441635](https://clinicaltrials.gov/study/NCT01441635) | Phase 2 | Completed | 271 | Elagolix (not norethisterone) vs placebo for heavy uterine bleeding/fibroids. *Relevance: C — low, drug mismatch.* |
-| [NCT01817530](https://clinicaltrials.gov/study/NCT01817530) | Phase 2 | Completed | 571 | Elagolix Phase 2b study on heavy menstrual bleeding in fibroids. *Relevance: C — low, drug mismatch.* |
-| [NCT06953076](https://clinicaltrials.gov/study/NCT06953076) | N/A | Recruiting | 111 | Observational ultrasound study of fibroid morphology during relugolix/estradiol/norethisterone treatment; does not directly assess amenorrhea outcomes. *Relevance: C.* |
+| [NCT03049735](https://clinicaltrials.gov/study/NCT03049735) | Phase 3 | Completed | 388 | LIBERTY 1: relugolix + oestradiol + norethisterone acetate vs placebo (24 weeks) for fibroid-related heavy menstrual bleeding. Norethisterone is only one component. |
+| [NCT03103087](https://clinicaltrials.gov/study/NCT03103087) | Phase 3 | Completed | 382 | LIBERTY 2: same combination and design as LIBERTY 1. Norethisterone effect cannot be separated from relugolix and oestradiol. |
+| [NCT03412890](https://clinicaltrials.gov/study/NCT03412890) | Phase 3 | Completed | 477 | Open-label, single-arm extension (28 weeks). Long-term safety and bleeding-suppression data for the combination. No control arm. |
+| [NCT03751124](https://clinicaltrials.gov/study/NCT03751124) | Phase 3 | Completed | 229 | Randomised withdrawal study of the relugolix combination for up to 104 weeks. Informs the safety and endometrial effects of the add-back regimen. |
+| [NCT05620355](https://clinicaltrials.gov/study/NCT05620355) | Phase 3 | Unknown | 312 | BG2109 alone or with add-back therapy vs placebo for fibroid-related heavy menstrual bleeding. Regimen composition is unconfirmed. |
+| [NCT01817530](https://clinicaltrials.gov/study/NCT01817530) | Phase 2 | Completed | 571 | Elagolix alone or with add-back therapy vs placebo for fibroid-related heavy menstrual bleeding. Norethisterone is not the primary agent. |
+| [NCT01441635](https://clinicaltrials.gov/study/NCT01441635) | Phase 2 | Completed | 271 | Elagolix proof-of-concept study in fibroid-related heavy bleeding. Norethisterone involvement is not evident. |
+| [NCT06953076](https://clinicaltrials.gov/study/NCT06953076) | N/A | Recruiting | 111 | MySaturn: ultrasound appearance of fibroids during relugolix/oestradiol/norethisterone treatment. No amenorrhea efficacy endpoint. |
 
 ---
 
@@ -82,30 +82,38 @@ This existing role as a menstrual-cycle-modulating agent is mechanistically cons
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37863160](https://pubmed.ncbi.nlm.nih.gov/37863160/) | 2024 | RCT (subgroup analysis) | American Journal of Obstetrics and Gynecology | LIBERTY Long-Term Extension subgroup in Black/African American women: relugolix + estradiol + norethindrone acetate substantially improved fibroid-associated heavy menstrual bleeding over 52 weeks — directly relevant to South African patient demographics |
-| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | RCT | PLoS One | WHICH trial: compared norethisterone enanthate (NET-EN) vs DMPA-IM injectable contraception, evaluating effects on estradiol levels and menstrual/psychological/behavioral measures relevant to HIV risk |
-| [6786825](https://pubmed.ncbi.nlm.nih.gov/6786825/) | 1981 | Phase I Clinical Trial | Contraception | Phase I trial of norethisterone enanthate and norethisterone acetate in 20 women; suppressed LH/FSH peaks in all treated women, with amenorrhea and spotting recorded as menstrual disorder outcomes |
-| [37103532](https://pubmed.ncbi.nlm.nih.gov/37103532/) | 2023 | Review | Obstetrics and Gynecology | Reviews oral GnRH antagonists (co-administered with add-back steroids including norethindrone) for management of uterine leiomyomas |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic Review (Cochrane) | Cochrane Database of Systematic Reviews | Combination injectable contraceptives (including norethisterone-containing products) reviewed for efficacy and bleeding-pattern effects |
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic Review (Cochrane) | Cochrane Database of Systematic Reviews | Earlier version of the combination injectable contraceptives review |
-| [2660092](https://pubmed.ncbi.nlm.nih.gov/2660092/) | 1989 | Review | Pediatric Clinics of North America | General overview of hormonal contraception principles for adolescent care |
-| [12317413](https://pubmed.ncbi.nlm.nih.gov/12317413/) | 1987 | Review | Current Therapeutics | General review of oral contraceptives |
-| [3659794](https://pubmed.ncbi.nlm.nih.gov/3659794/) | 1987 | Review | La Revue du Praticien | Review of progestational contraception |
-| [6508652](https://pubmed.ncbi.nlm.nih.gov/6508652/) | 1984 | Review | Australian Family Physician | General review of oral contraceptives |
+| [37863160](https://pubmed.ncbi.nlm.nih.gov/37863160/) | 2024 | RCT (post hoc subgroup) | Am J Obstet Gynecol | Relugolix combination (with oestradiol and norethindrone acetate) improved fibroid-related heavy bleeding over 52 weeks in Black/African American women. |
+| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | Randomised trial | PLoS One | WHICH trial (South African authors): compares DMPA-IM and NET-EN injectables on oestradiol levels and menstrual effects. |
+| [6786825](https://pubmed.ncbi.nlm.nih.gov/6786825/) | 1981 | Phase I trial | Contraception | 20 women on norethisterone enanthate or acetate. Menstrual disorders, including amenorrhea, were reported, and the pre-ovulatory LH/FSH peaks were abolished. |
+| [37103532](https://pubmed.ncbi.nlm.nih.gov/37103532/) | 2023 | Overview | Obstet Gynecol | Efficacy and safety of oral GnRH antagonists with add-back steroids for uterine leiomyomas. |
+| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Cochrane review | Cochrane Database Syst Rev | Combination injectable contraceptives: effective, with bleeding-pattern changes limiting acceptability. |
+| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Cochrane review | Cochrane Database Syst Rev | Earlier version of the review above. |
+| [2660092](https://pubmed.ncbi.nlm.nih.gov/2660092/) | 1989 | Review | Pediatr Clin North Am | Principles of hormonal contraception in adolescents. |
+| [3071312](https://pubmed.ncbi.nlm.nih.gov/3071312/) | 1988 | Review | Aust Fam Physician | Choosing an oral contraceptive. |
+
+Most of the remaining literature is older contraception reviews with little direct relevance to amenorrhea.
 
 ---
 
 ## South Africa Market Information
 
-Norethisterone is currently **not registered with SAHPRA** (market status: Not Marketed) — no SAHPRA registration numbers, product names, or approved indication text are on file for this evidence pack.
+Approved indication text was not available for any of these registrations. The Essential Medicines List status was not assessed.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. B/18.8/135 | Micro-Novum | Tablet | Not stated in data received |
+| Reg. No. 29/21.8.2/0763 | Estro-Pause N | Tablet | Not stated in data received |
+| Reg. No. 29/21.8.2/0764 | Estro-Pause N Forte | Tablet | Not stated in data received |
+| Reg. No. 27/21.8.2/0021 | Estracombi TTS | Pad (patch) | Not stated in data received |
+| Reg. No. S/18.8/124 | Trinovum Tablets | Tablet | Not stated in data received |
+
+Showing 5 of 9 registrations.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*Note: this evidence pack flags a **Blocking** data gap (DG001 — TFDA/SAHPRA-equivalent PI warnings and contraindications not available), meaning a formal safety pre-assessment cannot currently be completed for this candidate.*
 
 ---
 
@@ -114,15 +122,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-- Norethisterone has no current SAHPRA registration in South Africa, and a Blocking data gap (missing PI warnings/contraindications) prevents safety pre-assessment.
-- The strongest clinical trial evidence (LIBERTY programme) studies norethisterone acetate as an add-back component within a relugolix combination regimen, not as a directly investigated monotherapy for amenorrhea, limiting the strength of the L2 evidence rating despite a high TxGNN score (99.60%).
+The high TxGNN score and the plausible progestogenic mechanism justify keeping this as a research question. However, no trial or publication tests norethisterone for amenorrhea, and the relugolix/elagolix trials answer a different question (bleeding suppression in fibroids). The safety screening cannot start because the SAHPRA package insert data is missing.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI) — warnings, contraindications (resolves DG001, Blocking)
-- Confirmed mechanism-of-action documentation from DrugBank (resolves DG002, High)
-- Identification of a South African norethisterone-containing product (standalone or combination) to establish a market pathway
-- Direct clinical evidence of norethisterone monotherapy (rather than as an add-back agent) for amenorrhea
-- Given PMID 37863160's Black/African American subgroup data, a population-specific applicability review for South African patients is recommended
+- SAHPRA package insert warnings and contraindications for the registered products (blocking gap)
+- Approved indications for each registration, to establish the true original indication
+- Mechanism of action data (e.g. from DrugBank)
+- A targeted literature search for norethisterone used to treat amenorrhea, as distinct from bleeding suppression
+- Confirmation that the regulatory data reflects SAHPRA sources, since the pack lists TFDA as an input source
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

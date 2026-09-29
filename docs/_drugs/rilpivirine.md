@@ -2,7 +2,7 @@
 layout: default
 title: Rilpivirine
 parent: Moderate Evidence (L3-L4)
-nav_order: 391
+nav_order: 399
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,70 +29,90 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-使用 txgnn-pipeline 技能相關工作流程不適用於此任務（純粹是依既定 evidence pack 產出報告，非執行預測/訓練流程），故直接依 prompt 規格產出。
-
----
-
 # Rilpivirine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Rilpivirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) with an established role in HIV-1 antiretroviral therapy (referenced repeatedly within this evidence pack's rationale fields, though not confirmed via South Africa regulatory records). The TxGNN model's top-ranked prediction points to **Feline Acquired Immunodeficiency Syndrome (FIV)** — a veterinary, non-human indication — supported by only **1 preclinical publication** and **0 clinical trials**.
+Rilpivirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used to treat HIV-1 infection in people.
+The TxGNN model predicts it may be effective for **Feline Acquired Immunodeficiency Syndrome** (FIV infection in cats).
+The only supporting evidence is **1 preclinical publication** and **0 clinical trials**, and this is a veterinary indication, so it falls outside human drug repurposing.
 
-> **Note for reviewers:** This same evidence pack also contains two far stronger, clinically relevant candidates — *AIDS related complex* and *congenital HIV* — each backed by L1-level evidence (multiple completed Phase 3 RCTs). These represent extensions of rilpivirine's already-established antiretroviral role rather than a genuinely new indication, and warrant separate consideration from the FIV signal discussed below.
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not confirmed in South Africa regulatory data (no SAHPRA licenses on record); evidence pack rationale text repeatedly references HIV-1 infection / antiretroviral therapy as rilpivirine's established use |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV) |
+| Original Indication | HIV-1 infection (the SAHPRA indication text is not recorded in the source data) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not marketed (Not marketed) |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap requiring a DrugBank API query). Based on the information available in this evidence pack, rilpivirine is an NNRTI that inhibits the reverse transcriptase enzyme of HIV-1.
+Detailed mechanism of action data is not available in the source data. From its drug class, rilpivirine is an NNRTI that blocks HIV-1 reverse transcriptase (RT), and its efficacy in HIV-1 infection is established.
 
-FIV (feline immunodeficiency virus) causes a lentiviral, AIDS-like syndrome in cats that is structurally related to HIV. The single supporting publication (PMID 38031646) performed biochemical and structural comparisons of NNRTIs — including nevirapine, efavirenz, and rilpivirine — against both feline and human reverse transcriptase, exploring whether human NNRTIs could bind and inhibit the feline enzyme.
+Feline immunodeficiency virus (FIV) is a lentivirus, like HIV, and it also relies on an RT enzyme. That makes the link plausible in principle. A 2023 biochemical and structural study compared the NNRTIs nevirapine, efavirenz and rilpivirine against feline and human immunodeficiency virus RT. Cats have no effective treatment for FIV, which is the gap this work addresses.
 
-This is a cross-species mechanistic hypothesis, not a human therapeutic indication. The evidence itself is explicit that FIV "is not a human disease, and only in-vitro structural-level evidence exists — no in-vivo animal or clinical data." As such, this prediction has no direct bearing on human formulary or clinical decisions in South Africa, and should be understood as a research signal (potential veterinary application) rather than a repurposing candidate for SAHPRA review.
+The very high TxGNN score most likely reflects how close FIV sits to HIV in the knowledge graph. It does not show that rilpivirine works against FIV. There are no veterinary efficacy or safety data, and no registered trials. Any use in cats would fall under veterinary regulation, not human medicine.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Preclinical | Journal of Veterinary Science | Biochemical/structural comparison of NNRTIs (nevirapine, efavirenz, rilpivirine) against feline vs. human reverse transcriptase, exploring potential for treating FIV-infected cats; no effective FIV treatment currently exists |
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Preclinical (biochemical/structural, in vitro) | Journal of Veterinary Science | Compared nevirapine, efavirenz and rilpivirine against feline and human immunodeficiency virus RT to assess whether NNRTIs could treat FIV infection. The available abstract does not report quantitative results. |
+
+---
 
 ## South Africa Market Information
 
-Rilpivirine is currently not marketed in South Africa. No SAHPRA registrations are on record (0 licenses), and no approved indication text is available from South Africa regulatory data.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 55/20.2.8/0301 | Daliduo | Film-coated tablet (Fct) |
+| Reg. No. 56/20.2.8/0020 | Tavirant | Film-coated tablet (Fct) |
+| Reg. No. 49/20.2.8/0399 | Erestz | Film-coated tablet (Fct) |
+
+The SAHPRA records for these products do not include approved indication text or manufacturer names.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. No drug interaction records were found for this drug in the source data.
 
-*Note: A Blocking-severity data gap (TFDA product-label warnings/contraindications) currently prevents even a preliminary safety screen (S1 stage) for this candidate.*
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (feline AIDS) is a non-human, veterinary indication supported by a single preclinical structural-comparison study with no clinical trial evidence and no confirmed South African market presence — it does not meet the threshold to advance past initial screening. The evidence level (L4) and TxGNN decision stage (S0) both confirm this is model-signal-only, not repurposing-ready evidence.
+The only evidence for feline AIDS is one in vitro biochemical and structural study, with no clinical trials and no animal efficacy or safety data. The indication is also veterinary, so it is not a human repurposing opportunity.
+
+Other predictions for rilpivirine that are better supported and worth separate review:
+- **AIDS-related complex** (Proceed with Guardrails): it overlaps with rilpivirine's established HIV-1 use, so it is mostly an on-label confirmation.
+- **Congenital HIV** (Proceed with Guardrails, L2): the main gap is direct evidence in pregnancy and paediatric populations.
+- **SIV infection in macaques**: an animal model that supports the approved HIV-1 use, not a separate indication.
 
 **To proceed, the following is needed:**
-- Clarify with the requesting team whether this evaluation should target the FIV/veterinary signal, or be redirected to the two substantially stronger human-relevant candidates in the same pack (AIDS related complex; congenital HIV — both L1 evidence, "Proceed with Guardrails")
-- Product label / warnings and contraindications data (currently a Blocking data gap)
-- Detailed mechanism of action data from DrugBank
-- Confirmation of rilpivirine's South Africa registration/market status, since 0 SAHPRA licenses are currently on record
+- A decision on whether veterinary indications are in scope for this programme
+- Mechanism of action data from DrugBank
+- The SAHPRA package insert, so warnings and contraindications can be extracted
+- The approved indication text for the three SAHPRA registrations, to confirm the original indication
+- For any feline use, in vivo efficacy and safety studies in FIV-infected cats
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Calcium Ascorbate
 parent: Model Prediction Only (L5)
-nav_order: 89
+nav_order: 90
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calcium Ascorbate: From Dietary Supplement to Insomnia
+# Calcium Ascorbate: From an Unspecified Original Indication to Insomnia
 
 ## One-Sentence Summary
 
-Calcium ascorbate is a calcium salt of ascorbic acid (Vitamin C), widely used as a buffered dietary supplement providing both calcium and vitamin C.
-The TxGNN model predicts it may be effective for **Insomnia**, with an indirect mechanistic rationale involving calcium's role in melatonin synthesis and ascorbic acid's potential cortisol-reducing effects.
-At present, **no clinical trials and no published literature** specifically support this prediction for calcium ascorbate — the evidence base remains at the model-prediction-only level.
-
----
+Calcium ascorbate is a calcium salt of vitamin C (ascorbic acid). The supplied data records no original indication for it.
+The TxGNN model predicts it may be effective for **insomnia**, but this is a model prediction only.
+There are **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Dietary supplement (source of Vitamin C and calcium) |
+|------|------|
+| Original Indication | Not stated in the supplied registration data |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 95.15% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for calcium ascorbate as a whole formulation. Based on known information, calcium ascorbate is a calcium salt of ascorbic acid (Vitamin C), providing both calcium ions (Ca²⁺) and ascorbate anions upon dissolution. Its established role is as a non-acidic, well-tolerated vitamin C supplement; no formal therapeutic indication has been approved by SAHPRA or registered in South Africa.
+Currently, detailed mechanism of action data is not available. Calcium ascorbate is a vitamin C salt, and no established link between it and sleep regulation is documented in the supplied data.
 
-Two indirect mechanistic pathways have been proposed to link calcium ascorbate to sleep regulation. First, calcium ions serve as essential cofactors for the pineal gland's tryptophan hydroxylase and arylalkylamine N-acetyltransferase enzymes, both critical steps in melatonin biosynthesis. Epidemiological data suggest that low serum calcium is associated with sleep fragmentation and reduced sleep duration. Second, ascorbic acid is a potent antioxidant and cofactor for dopamine β-hydroxylase; it may attenuate hypothalamic–pituitary–adrenal axis hyperactivity by reducing cortisol-driven oxidative stress, theoretically promoting sleep onset.
+The original indications field is empty, so the relationship between the original and predicted indication cannot be assessed. The high score (0.951) is a graph-based model output. No trial or publication corroborates it, and it should not be read as evidence of efficacy.
 
-However, these mechanistic pathways are supported only by component-level studies (i.e., calcium alone or ascorbic acid alone), and neither has been tested with calcium ascorbate as the study drug. The TxGNN model's high score (95.15%) most likely reflects indirect edges in the knowledge graph connecting "oxidative stress → sleep regulation" rather than direct pharmacological evidence. The mechanistic link is therefore considered biologically plausible but extremely weak as applied to this specific salt form.
-
----
+Other high-scoring predictions for this drug are mostly cataract subtypes and diabetic retinopathy. An antioxidant rationale (oxidative stress in the lens and retina) is at least conceivable there, though it is also unverified. Several cataract nodes share an identical score (0.942), which suggests a shared-neighbourhood artefact rather than a drug-specific signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for calcium ascorbate in insomnia.
-
----
+Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR records were not supplied).
 
 ## Literature Evidence
 
-Currently no related literature available for calcium ascorbate in insomnia.
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
-Calcium ascorbate (DrugBank ID: DB14483) is **not currently marketed in South Africa** and has **no active SAHPRA registrations**. It is not listed on the South African Essential Medicines List (EML) as a distinct registered product.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| P/7.1.4/281 | Nitrolingual | Inhaler | Not stated in the supplied data |
+| C769 (ACT 101/1965) | Ilvico | Syrup | Not stated in the supplied data |
+| C770 (ACT 101/1965) | Ilvico | Tablet | Not stated in the supplied data |
 
-> **Note for prescribers**: Ascorbic acid (Vitamin C) and calcium-containing preparations are available as over-the-counter supplements in South Africa; however, the specific salt form — calcium ascorbate — has no formal SAHPRA-approved Professional Information (PI) document. Any clinical use would require regulatory consideration.
-
----
+**Data quality note:** Nitrolingual is, to my knowledge, a glyceryl trinitrate product rather than a vitamin C product, so this registration may be an ingredient-mapping error. It should be checked against the SAHPRA register before any of these registrations are relied on. Approved indication text and manufacturer are blank for all three entries.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA via [MedSafety](https://www.sahpra.org.za/pharmacovigilance/).
-
-> **Note**: No drug interaction data, key warnings, or contraindications were retrieved from available databases for calcium ascorbate at this time. Given that the drug is not registered in South Africa, no local PI document exists. Clinicians should consult the DrugBank monograph (DB14483) and the general Vitamin C / calcium supplement safety literature as a reference baseline.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is currently no clinical trial or published literature evidence supporting calcium ascorbate as a treatment for insomnia; the prediction rests entirely on indirect mechanistic inference within the TxGNN knowledge graph (L5 evidence). Additionally, the drug has no SAHPRA registration and no approved indication in South Africa, which substantially raises the regulatory burden before any clinical use could proceed.
+The prediction rests on a model score alone (L5), with no trials, no publications and no plausible mechanism identified. Safety information is also missing, so this candidate cannot proceed to safety screening.
 
 **To proceed, the following is needed:**
-
-- **Mechanism of action data**: Retrieve the formal DrugBank MOA entry for calcium ascorbate (DB14483) to confirm or refute the hypothesised sleep-regulatory pathways.
-- **Literature search broadening**: Re-run PubMed/Cochrane queries using ascorbic acid (not just calcium ascorbate) combined with sleep outcomes; separately search calcium supplementation and insomnia RCTs to establish whether the component-level evidence reaches L3 or above.
-- **Salt-form equivalence assessment**: Determine whether pharmacokinetic and pharmacodynamic data for ascorbic acid and calcium carbonate/gluconate can be bridged to calcium ascorbate.
-- **Regulatory pathway scoping**: Engage SAHPRA to understand the registration pathway (new indication or Section 21 authorisation) required before any investigator-initiated trial in South Africa.
-- **Proof-of-concept study design**: If component-level evidence reaches L3, consider a small Phase 1/2 RCT (e.g., 4–8 weeks, validated Pittsburgh Sleep Quality Index endpoint) before committing to a full development programme.
-- **Safety data package**: Obtain the full safety, warnings, and contraindication profile from SAHPRA or an equivalent recognised authority prior to any clinical use or trial initiation.
-
----
-
-> ⚠️ **Disclaimer**: This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. All predictions are generated by the TxGNN computational model and must be interpreted alongside clinical judgement. Adverse drug reactions should be reported to SAHPRA.
+- The SAHPRA package insert (warnings and contraindications), which is currently a blocking gap
+- Mechanism of action data, for example from DrugBank
+- Verification of the three SAHPRA registrations, especially the Nitrolingual entry, and their approved indications
+- A systematic literature search on vitamin C and sleep or insomnia
+- Consideration of the antioxidant-related predictions (cataract, diabetic retinopathy) as separate research questions, each starting with a literature review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Pseudoephedrine
 parent: High Evidence (L1-L2)
-nav_order: 383
+nav_order: 391
 evidence_level: L2
 indication_count: 3
 ---
@@ -29,16 +29,11 @@ Evidence Level: **L2** | Predicted Indications: **3**
 
 </div>
 
-Using the report structure specified in the prompt (this is a direct document-generation task with the full spec already provided — no additional skill needed).
-
-# Pseudoephedrine: From Nasal Decongestant to Nasal Cavity Disease
+# Pseudoephedrine: From Registered Cold, Flu and Sinus Products to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-> Pseudoephedrine (DrugBank DB00852) is an oral α-adrenergic agonist long used as a systemic nasal decongestant.
-> The TxGNN model predicts high relevance for **Nasal Cavity Disease** (score **99.75%**),
-> supported by **19 clinical trials** (1 rated directly relevant) and **7 publications** identified in this search.
-> Note: this largely confirms an already-established pharmacological use rather than revealing a genuinely novel indication.
+Pseudoephedrine is an oral decongestant sold in South Africa mainly in cold, flu and sinus combination products. The TxGNN model predicts it may be effective for **nasal cavity disease**. There are **19 registered clinical trials** and **6 publications** linked to this prediction, but only a few involve pseudoephedrine directly, and nasal decongestion is already its marketed use.
 
 ---
 
@@ -46,42 +41,39 @@ Using the report structure specified in the prompt (this is a direct document-ge
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file in SAHPRA licensing data (drug not currently registered in South Africa); pharmacologically established as an oral systemic nasal decongestant per the evidence rationale |
-| Predicted New Indication | Nasal Cavity Disease |
+| Original Indication | Not stated in the registration records (product names indicate cold, flu and sinus symptom relief) |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.75% |
 | Evidence Level | L2 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed formal mechanism-of-action documentation (e.g., a DrugBank MOA monograph entry) is not available in this evidence pack. Based on the pharmacological rationale captured alongside the prediction, pseudoephedrine is an **α-adrenergic agonist** that acts directly on α1 receptors in the vascular smooth muscle of the nasal mucosa, producing vasoconstriction that reduces mucosal congestion and swelling. This is the classic mechanism of an oral, systemically-acting nasal decongestant.
+Currently, detailed mechanism of action data is not available in the record. Pseudoephedrine is a known indirect sympathomimetic with alpha-adrenergic activity. It constricts blood vessels in the nasal lining, which reduces swelling and congestion. Mechanistically this fits nasal cavity disease well.
 
-Because this mechanism directly targets nasal mucosal blood flow, the high TxGNN score (0.9975) for "nasal cavity disease" is mechanistically unsurprising — it converges with pseudoephedrine's long-standing real-world use rather than pointing to a truly novel therapeutic application. Clinicians should read this prediction as **confirmatory validation of known pharmacology**, not as a discovery of new drug-disease biology.
+**This may not be true repurposing.** Nasal decongestion is already the marketed use of pseudoephedrine, and the registration records contain no approved-indication text. The prediction may therefore simply match the existing label. Confirm this against the approved SAHPRA label before treating it as a new indication.
 
-Two lower-ranked TxGNN predictions for this drug — acute laryngopharyngitis (L5, no supporting trials or literature) and allergic urticaria (L4, indirect evidence only from combination products) — were reviewed but are not carried forward in this report given weak or absent supporting evidence.
+Systemic use is also limited by effects on blood pressure, heart rate and the central nervous system.
 
 ---
 
 ## Clinical Trial Evidence
 
+The pack lists 19 trials for this prediction. Most are surgical, device or non-drug studies with no pseudoephedrine signal (for example sinus surgery, balloon sinuplasty, probiotics and saline sprays), so they are not shown. The most relevant are:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Phase 2 | Completed | 21 | Double-blind, double-dummy, 4-way crossover in seasonal allergic rhinitis testing an H3-antagonist decongestant effect via acoustic rhinometry after nasal allergen challenge; directly relevant to nasal decongestion pharmacology (relevance grade A) |
-| [NCT00804687](https://clinicaltrials.gov/study/NCT00804687) | Phase 2 | Completed | 53 | Randomized, single-blind, double-dummy, 3-way crossover directly comparing JNJ-39220675 vs. **pseudoephedrine** vs. placebo for allergic rhinitis in an environmental exposure chamber |
-| [NCT00015795](https://clinicaltrials.gov/study/NCT00015795) | Phase 1 | Completed | 30 | Airflow/laryngeal resistance study in abductor spasmodic dysphonia; low relevance, disease-area overlap only (grade C) |
-| [NCT03979209](https://clinicaltrials.gov/study/NCT03979209) | Phase 1 | Completed | 16 | Cortisol suppression risk with high-volume nasal mometasone irrigation; different drug class (corticosteroid), disease-area overlap only (grade C) |
-| [NCT00939393](https://clinicaltrials.gov/study/NCT00939393) | N/A | Completed | 72 | Endoscopic sinus surgery performed in-office vs. operating room; surgical, not a drug trial (grade C) |
-| [NCT04048174](https://clinicaltrials.gov/study/NCT04048174) | N/A | Completed | 27 | Probiotic bacteria (L. lactis) for chronic rhinosinusitis refractory to standard therapy; unrelated mechanism (grade C) |
-| [NCT04645511](https://clinicaltrials.gov/study/NCT04645511) | N/A | Recruiting | 120 | Balloon sinuplasty vs. placebo in chronic/recurrent maxillary rhinosinusitis; device, not drug (grade C) |
-| [NCT05494346](https://clinicaltrials.gov/study/NCT05494346) | N/A | Recruiting | 101 | Decongestant seawater spray device with essential oils for acute rhinitis; device, not oral decongestant (grade C) |
-| [NCT06010316](https://clinicaltrials.gov/study/NCT06010316) | N/A | Unknown | 200 | Prospective cohort on surgical treatment of chronic rhinosinusitis; disease-area overlap only (grade C) |
-| [NCT03725956](https://clinicaltrials.gov/study/NCT03725956) | N/A | Unknown | 30 | Endoscopic sinus surgery effect on sleep disorder in nasal polyposis; surgical, not a drug trial (grade C) |
+| [NCT00804687](https://clinicaltrials.gov/study/NCT00804687) | Phase 2 | Completed | 53 | Single-dose, placebo-controlled three-way crossover comparing JNJ-39220675 and pseudoephedrine with placebo in allergic rhinitis, using an environmental exposure chamber. Pseudoephedrine served as the active comparator. |
+| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Phase 2 | Completed | 21 | Placebo-controlled four-way crossover of an H3 antagonist for congestion after nasal allergen challenge in seasonal allergic rhinitis. Pseudoephedrine's role is unconfirmed because the title is truncated. |
+| [NCT03620513](https://clinicaltrials.gov/study/NCT03620513) | Phase 4 | Completed | 160 | Double-blind randomised study of topical anaesthesia, decongestant or both before fibreoptic laryngoscopy. It tests decongestants in general, and pseudoephedrine is not confirmed as the agent. |
+| [NCT00517946](https://clinicaltrials.gov/study/NCT00517946) | N/A | Completed | 21 | MRI used to assess the effect of anti-allergy drug treatment on nasal and sinus mucosa after allergen challenge in seasonal allergic rhinitis. |
+| [NCT01886768](https://clinicaltrials.gov/study/NCT01886768) | N/A | Unknown | 212 | Double versus single pledget nasal anaesthesia for transnasal endoscopy, with decongestion as a secondary aim. |
 
-*Note: Only the first two trials directly test pseudoephedrine or a comparable decongestant mechanism. The remaining eight (all graded "C" — low relevance) are included for completeness because they share the nasal cavity disease area, but represent surgical, device, or unrelated-drug interventions, not pharmacological evidence for pseudoephedrine itself.*
+Overall, the direct clinical evidence is small (Phase 2 crossover studies of 21 to 53 participants). No SANCTR or PACTR registrations were identified.
 
 ---
 
@@ -89,25 +81,34 @@ Two lower-ranked TxGNN predictions for this drug — acute laryngopharyngitis (L
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11345158](https://pubmed.ncbi.nlm.nih.gov/11345158/) | 2001 | Comparative human study | American Journal of Rhinology | Direct human comparison of oral phenylpropanolamine vs. d-pseudoephedrine decongestant effect using acoustic rhinometry to measure nasal cavity dimensions |
-| [22794679](https://pubmed.ncbi.nlm.nih.gov/22794679/) | 2012 | Review | Allergy and Asthma Proceedings | Review chapter on nonallergic rhinitis pathophysiology and management, contextualizing decongestant therapy |
-| [19769798](https://pubmed.ncbi.nlm.nih.gov/19769798/) | 2009 | Animal model (feline) | American Journal of Rhinology & Allergy | Feline model showing decongestant action of D-pseudoephedrine alone and combined with desloratadine |
-| [24492651](https://pubmed.ncbi.nlm.nih.gov/24492651/) | 2014 | Animal model (pharmacological evaluation) | Journal of Pharmacology and Experimental Therapeutics | Pharmacological characterization of α2c-adrenergic agonists in animal nasal congestion models, contextual to adrenergic decongestant mechanism |
-| [12962193](https://pubmed.ncbi.nlm.nih.gov/12962193/) | 2003 | Animal model (canine) | American Journal of Rhinology | Canine ragweed-sensitized allergic nasal congestion model using acoustic rhinometry |
-| [12387934](https://pubmed.ncbi.nlm.nih.gov/12387934/) | 2002 | Animal model (canine) | Journal of Pharmacological and Toxicological Methods | Chronic canine model developed to study nasal decongestant drug mechanisms |
-| [11895194](https://pubmed.ncbi.nlm.nih.gov/11895194/) | 2002 | Animal model (canine) | American Journal of Rhinology | Acoustic rhinometry validation in a canine model of nasal congestion |
+| [11345158](https://pubmed.ncbi.nlm.nih.gov/11345158/) | 2001 | Clinical comparative study (design not verified) | Am J Rhinol | Compared oral and topical decongestant effects of phenylpropanolamine and d-pseudoephedrine, measured by acoustic rhinometry of nasal cavity dimensions. |
+| [22794679](https://pubmed.ncbi.nlm.nih.gov/22794679/) | 2012 | Review | Allergy Asthma Proc | Overview of nonallergic rhinitis, covering the shared symptoms of congestion, rhinorrhoea and postnasal discharge. |
+| [19769798](https://pubmed.ncbi.nlm.nih.gov/19769798/) | 2009 | Preclinical (feline) | Am J Rhinol Allergy | Loratadine and montelukast in a feline nasal congestion model. D-pseudoephedrine was also tested, with and without desloratadine. |
+| [24492651](https://pubmed.ncbi.nlm.nih.gov/24492651/) | 2014 | Preclinical (animal) | J Pharmacol Exp Ther | Selective α2c-adrenergic agonists in animal models of nasal congestion. |
+| [12962193](https://pubmed.ncbi.nlm.nih.gov/12962193/) | 2003 | Preclinical (dog) | Am J Rhinol | Model of allergic nasal congestion in ragweed-sensitised dogs, using acoustic rhinometry. |
+| [12387934](https://pubmed.ncbi.nlm.nih.gov/12387934/) | 2002 | Preclinical (dog) | J Pharmacol Toxicol Methods | Pharmacological characterisation of a chronic dog model of nasal congestion for studying decongestant mechanisms. |
 
 ---
 
 ## South Africa Market Information
 
-Pseudoephedrine is **not currently registered or marketed in South Africa** according to the data available (0 SAHPRA registrations on file). No product/registration-level information can be reported.
+Twenty registrations are on record. The five main ones are below. The records give no approved-indication text and no Essential Medicines List (EML) status.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 36/5.8/0207 | Sinutab 3-way | Tablet | Not stated in record |
+| Reg. No. 37/5.8/0138 | Sinutab sinus pain non-drowsy | Tablet | Not stated in record |
+| Reg. No. T/5.8/196 | Sudafed sinus pain (was Sudagesic) 500mg | Tablet | Not stated in record |
+| Reg. No. 36/5.8/0206 | Benylin daytime flu (was Benylin for col…) | Tablet | Not stated in record |
+| Reg. No. 40/5.8/0218 | Ibumax cold & flu | Tablet | Not stated in record |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+From the mechanism, systemic use is limited by effects on blood pressure, heart rate and the central nervous system. No drug interactions were found in the queried database.
 
 ---
 
@@ -116,13 +117,18 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanistic link is strong and well-established (α1-adrenergic vasoconstriction of nasal mucosa), and one directly relevant Phase 2 comparative trial exists (NCT00804687), supporting an L2 evidence level. However, this largely reconfirms pseudoephedrine's known decongestant use rather than a novel indication, and a **Blocking** data gap exists: SAHPRA-approved PI warnings/contraindications are not yet available, which prevents a full safety (S1) evaluation.
+The mechanism is direct and well established, and Phase 2 crossover trials in allergic rhinitis involve pseudoephedrine, which supports L2 evidence. The signal is probably consistent with the existing label rather than a novel indication, and direct trial evidence is small.
+
+The other two predictions are not supported and should stay on Hold:
+- **Acute laryngopharyngitis** (score 99.73%, L5): only an indirect symptomatic rationale, and no trials or publications.
+- **Allergic urticaria** (score 99.14%, L4): pseudoephedrine has no antihistamine or mast-cell activity, and the association likely comes from co-formulation with antihistamines.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI) — warnings and contraindications (Blocking gap; required before safety sign-off)
-- Formal DrugBank/manufacturer mechanism-of-action documentation
-- Confirmation of whether a South African registration/import pathway is being pursued, since the drug is currently unmarketed locally
-- Drug-drug interaction review, given the "not_found" DDI query status
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- The approved indication text from the SAHPRA labels, to confirm whether this is label-consistent
+- Mechanism of action data from DrugBank
+- Confirmation of pseudoephedrine's role in NCT00562120 and NCT03620513
+- A blood pressure, heart rate and CNS safety plan for at-risk populations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

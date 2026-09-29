@@ -2,7 +2,7 @@
 layout: default
 title: Simvastatin
 parent: High Evidence (L1-L2)
-nav_order: 408
+nav_order: 416
 evidence_level: L1
 indication_count: 8
 ---
@@ -29,98 +29,98 @@ Evidence Level: **L1** | Predicted Indications: **8**
 
 </div>
 
-# Simvastatin: From Hypercholesterolemia to Familial Hypercholesterolemia
+# Simvastatin: From Lipid-Lowering Therapy to Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Simvastatin is an HMG-CoA reductase inhibitor (statin) originally developed for hypercholesterolemia and cardiovascular risk reduction. The TxGNN model predicts it may be effective for **Familial Hypercholesterolemia (FH)**, with **19 clinical trials** and **18 publications** currently supporting this direction — though this largely reflects an already-established, guideline-endorsed use of statins in FH rather than a genuinely novel repurposing signal.
-
----
+Simvastatin is a statin (HMG-CoA reductase inhibitor) used to lower LDL cholesterol.
+The TxGNN model predicts it may be effective for **familial hypercholesterolemia**, and the record shows **19 clinical trials** and **18 publications** on this direction.
+Heterozygous familial hypercholesterolemia is already a labelled use of simvastatin, so this is best read as confirmation of an established use rather than a novel repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypercholesterolemia / dyslipidemia (statin class) — no formal indication text available in this evidence pack |
-| Predicted New Indication | Familial Hypercholesterolemia |
+| Original Indication | Not stated in the supplied registration records; simvastatin is a lipid-lowering statin |
+| Predicted New Indication | Familial hypercholesterolemia |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L1 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 7 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (DrugBank MOA lookup flagged as a High-severity data gap). Based on known pharmacology, simvastatin belongs to the statin (HMG-CoA reductase inhibitor) class, its efficacy in hypercholesterolemia/dyslipidemia has been proven, and mechanistically it is directly applicable to familial hypercholesterolemia: by inhibiting hepatic cholesterol synthesis, statins trigger compensatory upregulation of LDL receptors, which is the core therapeutic mechanism used to lower LDL-C in FH patients.
+Simvastatin inhibits HMG-CoA reductase, which lowers cholesterol synthesis in the liver. The liver responds by increasing LDL receptors, so blood LDL-C falls. Familial hypercholesterolemia is a genetic condition in which LDL clearance is impaired, so lowering LDL-C is the central treatment goal.
 
-Familial hypercholesterolemia is a genetic disorder of LDL receptor function that causes markedly elevated LDL-C from birth, with high risk of premature coronary artery disease. Statins, including simvastatin, are already first-line or foundational background therapy for both heterozygous and homozygous FH in international treatment guidelines, often used alone or combined with ezetimibe or PCSK9 inhibitors.
+The supplied data does not state the original indication, so the link to the new indication cannot be traced from the registration records. The prediction fits simvastatin's known use, and the evidence pack itself notes that heterozygous disease is a labelled use. Statins alone are generally not enough for homozygous disease, which needs add-on therapy.
 
-Because of this, the TxGNN prediction here should be read as **strong confirmatory evidence of an established use** rather than a novel repurposing hypothesis — the mechanistic link and clinical evidence are robust, but the "new indication" largely overlaps with simvastatin's existing therapeutic role in lipid disorders.
-
----
+The pack also lists a closely related prediction, autosomal dominant hypercholesterolemia (score 99.36%), with the same mechanism and the same Proceed with Guardrails outcome.
 
 ## Clinical Trial Evidence
 
+Many of the 19 trials study other drugs, such as alirocumab and colesevelam, with simvastatin as background therapy at most. The table lists the ten most relevant trials, which involve simvastatin directly or as a named background statin. No SANCTR or PACTR identifiers were supplied.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00465088](https://clinicaltrials.gov/study/NCT00465088) | Phase 3 | Completed | 199 | SUPREME study: niacin ER + simvastatin vs atorvastatin for HDL-C elevation in hyperlipidemia/mixed dyslipidemia |
-| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | Completed | 248 | Ezetimibe + simvastatin efficacy/safety/tolerability in adolescents with heterozygous FH |
-| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3b | Completed | 442 | Renal effects of rosuvastatin vs simvastatin in Fredrickson Type IIa/IIb dyslipidaemia incl. heterozygous FH |
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | Completed | 720 | ENHANCE trial: ezetimibe + high-dose simvastatin vs simvastatin alone on carotid atherosclerosis progression in heterozygous FH |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | Long-term safety/tolerability of ezetimibe added to atorvastatin or simvastatin in homozygous FH |
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Alirocumab in children/adolescents with homozygous FH; simvastatin as background therapy |
-| [NCT00145574](https://clinicaltrials.gov/study/NCT00145574) | Phase 4 | Completed | 194 | Colesevelam added to stable statin (incl. simvastatin) therapy in pediatric heterozygous FH |
-| [NCT01623115](https://clinicaltrials.gov/study/NCT01623115) | Phase 3 | Completed | 486 | Alirocumab (SAR236553/REGN727) RCT in heterozygous FH not controlled on lipid-modifying therapy |
-| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Phase 3 | Completed | 249 | Alirocumab RCT in heterozygous FH inadequately controlled on lipid-modifying therapy |
-| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Phase 3 | Completed | 216 | Alirocumab as add-on to stable statin therapy in heterozygous FH / high cardiovascular risk patients |
-
-*Note: SANCTR/PACTR identifiers were not present in the source evidence pack for these trials.*
-
----
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | Completed | 720 | ENHANCE: ezetimibe plus high-dose simvastatin vs simvastatin alone on carotid atherosclerosis in heterozygous FH |
+| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | Completed | 248 | Ezetimibe with simvastatin vs simvastatin alone in adolescents (10-17 years) with heterozygous FH |
+| [NCT00465088](https://clinicaltrials.gov/study/NCT00465088) | Phase 3 | Completed | 199 | SUPREME: niacin ER/simvastatin vs atorvastatin on HDL-C in hyperlipidemia or mixed dyslipidemia (not FH-specific) |
+| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3 | Completed | 442 | Renal effects of rosuvastatin vs simvastatin in Type IIa/IIb dyslipidaemia, including heterozygous FH |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | Long-term safety of ezetimibe added to atorvastatin or simvastatin in homozygous FH (up to 24 months) |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Efficacy and safety of ezetimibe added to atorvastatin or simvastatin in homozygous FH |
+| [NCT00145574](https://clinicaltrials.gov/study/NCT00145574) | Phase 4 | Completed | 194 | Colesevelam in children with heterozygous FH on stable statins (including simvastatin) or treatment-naive |
+| [NCT01070966](https://clinicaltrials.gov/study/NCT01070966) | N/A | Completed | 2,089 | Post-marketing survey of ezetimibe/simvastatin (Vytorin) in usual practice |
+| [NCT00475826](https://clinicaltrials.gov/study/NCT00475826) | N/A | Unknown | Not listed | Chylomicron metabolism and subclinical atherosclerosis in heterozygous FH on statin plus ezetimibe |
+| [NCT01414192](https://clinicaltrials.gov/study/NCT01414192) | N/A | Completed | 3,215 | French cohort on ezetimibe alone or with a statin, for cardiovascular disease simulation models |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | The New England Journal of Medicine | Ezetimibe + simvastatin vs simvastatin alone; effect on progression of atherosclerosis in FH |
-| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Review | Expert Opinion on Drug Safety | Benefits and risks assessment of simvastatin in familial hypercholesterolaemia |
-| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Review | Drug Safety | Benefits and risks of simvastatin in patients with familial hypercholesterolaemia |
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematic Review (Cochrane) | Cochrane Database of Systematic Reviews | Statins for children with familial hypercholesterolemia |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Cohort | Journal of the American College of Cardiology | Statin-induced reduction of CAD events and mortality in heterozygous FH |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Comparative Study | Nutrition, Metabolism and Cardiovascular Diseases | Atorvastatin vs simvastatin in heterozygous FH: lipid-lowering efficacy comparison |
-| [1346327](https://pubmed.ncbi.nlm.nih.gov/1346327/) | 1992 | Cohort | Lancet | Simvastatin and lipoprotein(a) |
-| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Cohort | Journal of Clinical Medicine | Cellular immunity parameters in children with FH treated with simvastatin |
-| [35361995](https://pubmed.ncbi.nlm.nih.gov/35361995/) | 2022 | Review | The Pharmacogenomics Journal | Combining FH and statin genetic studies for pharmacogenomics implementation |
-| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Guideline/Review | Circulation | 2026 ACC/AHA dyslipidemia management guideline (replaces 2018 blood cholesterol guideline) |
-
----
+| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | N Engl J Med | ENHANCE: simvastatin with or without ezetimibe in FH, measuring progression of atherosclerosis |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematic review | Cochrane Database Syst Rev | Statins for children with familial hypercholesterolemia |
+| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Cohort/meta-analysis | J Am Coll Cardiol | Statin-induced reduction of coronary artery disease events and mortality in heterozygous FH |
+| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Comparative study | Nutr Metab Cardiovasc Dis | Atorvastatin vs simvastatin for LDL-C goal attainment in heterozygous FH |
+| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Cohort | J Clin Med | Simvastatin 10 mg in 13 children with FH vs diet only: effects on cellular immunity |
+| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Review | Expert Opin Drug Saf | Benefits and risks of simvastatin in FH |
+| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Review | Drug Saf | Benefits and risks of simvastatin in FH, with emphasis on long-term safety |
+| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Guideline | Circulation | 2026 ACC/AHA multisociety dyslipidemia guideline, replacing the 2018 cholesterol guideline |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE guidelines for dyslipidemia management and cardiovascular prevention |
+| [18638604](https://pubmed.ncbi.nlm.nih.gov/18638604/) | 2008 | Commentary | Am J Cardiol | Critique of how the ENHANCE surrogate endpoint should be interpreted |
 
 ## South Africa Market Information
 
-No SAHPRA registrations are currently on file for simvastatin in this evidence pack (0 licenses), and market status is recorded as **Not marketed**. Given simvastatin is a long-established, widely genericized statin marketed in many jurisdictions globally, this "not marketed" status should be independently verified against the current SAHPRA product register before relying on it for decision-making — it may reflect a data collection gap rather than true absence from the South African market.
+Seven SAHPRA registrations were found; the five supplied are shown. Approved indication text and EML status were not included in the supplied records.
 
----
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 36/7.5/0213 | Lipidex | Tablet |
+| Reg. No. 37/7.5/0336 | Aspen simvastatin | Tablet |
+| Reg. No. 38/7.5/0335 | Mylan simvastatin | Tablet |
+| Reg. No. 41/7.5/0391 | Choleste | Tablet |
+| Reg. No. A40/7.5/0399 | Roltesim 10 | Film-coated tablet (Fct) |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 RCTs and long-standing clinical practice guidelines support simvastatin's efficacy in familial hypercholesterolemia, giving strong (L1) evidence — but this reflects confirmation of an already-recognized statin indication rather than a novel repurposing discovery, and key safety/regulatory data for South Africa remain unverified.
+Multiple completed Phase 3 trials involve simvastatin in familial hypercholesterolemia, and the mechanism is direct. The prediction largely confirms an established use rather than a new one. The other predicted indications (brain stem infarction, HIV, ABri amyloidosis and others) have little or no supporting evidence and are on Hold.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved PI warnings, contraindications, and drug interaction data (currently a Blocking data gap)
-- Confirmed mechanism of action documentation via DrugBank (currently a High-severity data gap)
-- Verification of actual SAHPRA registration/market status, since 0 licenses on file is inconsistent with simvastatin's typical global availability
-- A dedicated drug-drug interaction query, since the current DDI lookup returned no results (`not_found`)
+- The SAHPRA package insert (warnings, contraindications and approved indications), which is a blocking gap before safety screening.
+- Confirmation of the familial hypercholesterolemia indication against the SA label.
+- Age-appropriate dosing for paediatric and adolescent patients.
+- Monitoring for myopathy and hepatic effects, and adherence to the label's high-dose restriction.
+- A check for CYP3A4 interactions. Boosted protease inhibitors and cobicistat raise simvastatin exposure and the risk of rhabdomyolysis, which matters in South Africa's large HIV population.
+- Mechanism of action data from DrugBank, to complete the mechanism analysis.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

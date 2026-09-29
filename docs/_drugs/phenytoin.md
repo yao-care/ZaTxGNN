@@ -2,7 +2,7 @@
 layout: default
 title: Phenytoin
 parent: Model Prediction Only (L5)
-nav_order: 363
+nav_order: 371
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,15 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenytoin: From Epilepsy to Audiogenic Seizures
+# Phenytoin: From Epilepsy to Trigeminal Nerve Neoplasm
 
 ## One-Sentence Summary
 
-> Phenytoin is a voltage-gated sodium channel blocker originally used to control generalized tonic-clonic and partial seizures in epilepsy.
-> The TxGNN model predicts it may also be effective for **Audiogenic Seizures** (a reflex epilepsy subtype triggered by sound),
-> with **0 clinical trials** but **19 supporting publications** (mostly preclinical/animal pharmacology studies plus one clinical case report) currently backing this direction.
-
-**Note on candidate selection:** TxGNN's top-ranked prediction ("trigeminal nerve neoplasm") was excluded from this report. The evidence pack itself flags it as a likely knowledge-graph artifact — a probable confusion between "trigeminal neuralgia" and "trigeminal nerve neoplasm" — with no mechanistic, trial, or literature support (Evidence Level L5, recommendation Hold). Among the remaining candidates, **audiogenic seizures** has by far the strongest and most direct body of evidence, so it is presented here instead.
+Phenytoin is a long-established anti-seizure medicine. The SAHPRA records supplied do not state an approved indication, but it is generally used for focal and tonic-clonic seizures.
+The TxGNN model predicts it may be useful for **trigeminal nerve neoplasm**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ---
 
@@ -45,23 +42,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (generalized tonic-clonic and partial seizures) — not present in the structured `taiwan_regulatory` data, based on well-established pharmacology referenced throughout the evidence pack |
-| Predicted New Indication | Audiogenic Seizures |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 (preclinical/mechanistic studies) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Original Indication | Not stated in the SAHPRA records supplied (approved indication text is empty). Generally used for focal and tonic-clonic seizures. |
+| Predicted New Indication | Trigeminal nerve neoplasm |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for phenytoin was not returned from DrugBank in this evidence pack (`original_moa: [Data Gap]`). However, the repurposing rationale fields consistently identify phenytoin as a **voltage-gated sodium channel blocker**, the same mechanism underlying its established anticonvulsant effect in epilepsy.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. From general pharmacology, phenytoin is a use-dependent blocker of voltage-gated sodium channels. It dampens repetitive neuronal firing, which is why it works in seizures. It has no established antitumour mechanism.
 
-Audiogenic seizures are a reflex epilepsy subtype in which sound stimuli trigger abnormal, excessive cortical and subcortical (periaqueductal gray / pontine reticular formation) electrical activity. Because phenytoin's sodium-channel-blocking action raises the seizure threshold broadly, rather than acting on a disease-specific target, it is mechanistically plausible that this effect extends to reflex seizure subtypes such as audiogenic seizures — not just to spontaneous epilepsy.
+The prediction is probably not a real tumour-related effect. The very high score most likely reflects the drug's closeness, in the model's knowledge graph, to trigeminal neuralgia and seizure nodes. These are neighbours of "trigeminal nerve neoplasm" but are not the same disease. Sodium channel blockade is a credible mechanism for paroxysmal nerve pain, not for shrinking or controlling a nerve tumour.
 
-This is not purely theoretical: multiple animal-model studies (e.g. PMID 10719079, 12948620, 7211184) directly test phenytoin's anticonvulsant activity against audiogenic seizures in genetically epilepsy-prone rodents (GEPR, DBA/2 mice), and a human case report (PMID 21561835) describes phenytoin used successfully for a different reflex seizure subtype (micturition/defecation-induced seizures), supporting cross-subtype extrapolation of phenytoin's efficacy within the broader reflex epilepsy category.
+Because this candidate is a nerve tumour, it is not a plausible use for phenytoin. The related predicted indication **trigeminal neuralgia** (TxGNN rank 9 for this drug, score 99.97%) is biologically much more credible. It also has no supporting trials or literature in this package.
 
 ---
 
@@ -73,30 +70,26 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [21561835](https://pubmed.ncbi.nlm.nih.gov/21561835/) | 2011 | Case Report | Epileptic Disorders | Reflex seizures induced by micturition and defecation successfully treated with clobazam and phenytoin — clinical evidence of phenytoin efficacy in a related reflex-epilepsy subtype |
-| [10719079](https://pubmed.ncbi.nlm.nih.gov/10719079/) | 2000 | Animal Study | Brain Research | Phenytoin administration alters pontine reticular formation and periaqueductal gray neuronal firing in genetically epilepsy-prone rats, directly linked to suppression of audiogenic seizure behavior |
-| [12948620](https://pubmed.ncbi.nlm.nih.gov/12948620/) | 2003 | Animal Study | Epilepsy Research | A static magnetic field modulates audiogenic seizure severity and the anticonvulsant effects of phenytoin in DBA/2 mice |
-| [7211184](https://pubmed.ncbi.nlm.nih.gov/7211184/) | 1981 | Animal Study | Acta Neurologica Scandinavica | Withdrawal from long-term phenytoin (diphenylhydantoin) treatment increases susceptibility to audiogenic and electroshock-induced seizures in rats |
-| [9592113](https://pubmed.ncbi.nlm.nih.gov/9592113/) | 1998 | Animal Study | J Neuroscience | Magnesium-deficiency-dependent audiogenic seizure model used for discriminatory anticonvulsant drug screening |
-| [22107891](https://pubmed.ncbi.nlm.nih.gov/22107891/) | 2012 | Animal Study | Pharmacological Research | ACE inhibitors potentiate the anticonvulsant activity of antiepileptic drugs, including phenytoin, against audiogenic seizures in DBA/2 mice |
-| [27663280](https://pubmed.ncbi.nlm.nih.gov/27663280/) | 2016 | Animal Study | European J Pharmacology | Cannabinoid receptor agonists modulate the anticonvulsant activity of AEDs, including phenytoin, against audiogenic seizures in DBA/2 mice |
-| [11284448](https://pubmed.ncbi.nlm.nih.gov/11284448/) | 2001 | Animal Study | Naunyn-Schmiedeberg's Arch Pharmacol | Retigabine potentiates the anticonvulsant activity of AEDs, including phenytoin, against audiogenic seizures in DBA/2 mice |
-| [10863138](https://pubmed.ncbi.nlm.nih.gov/10863138/) | 2000 | Animal Study | Epilepsy Research | D-cycloserine potentiates the anticonvulsant activity of AEDs, including phenytoin, against audiogenic seizures in DBA/2 mice |
-| [3418335](https://pubmed.ncbi.nlm.nih.gov/3418335/) | 1988 | Animal Study | J Neural Transmission | Clinical, pharmacological, and EEG characterization of the audiogenic seizure model in Wistar rats, foundational to subsequent anticonvulsant screening studies |
+Currently no related literature available.
 
 ---
 
 ## South Africa Market Information
 
-Phenytoin has no SAHPRA registrations recorded in this evidence pack (`total_licenses: 0`, market status: Not Marketed). No product-level registration or Essential Medicines List data is available to report.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| B0884 (ACT 101) | Phenytoin sod | Tablet (oral) | Not stated in the record supplied |
+| B1624 (OLD MEDICNE) | Epanutin Ready Mixed Parenteral | Injection | Not stated in the record supplied |
+
+Both oral and injectable routes are registered. Essential Medicines List (EML) status is not included in the data supplied.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+No drug interaction records were found in the data supplied. Phenytoin has a narrow therapeutic index. Other literature retrieved for this drug in the pack describes paradoxical seizures, blood dyscrasias and thrombocytopenia.
 
 ---
 
@@ -105,13 +98,15 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-- Evidence for audiogenic seizures is currently limited to animal pharmacology studies (L4) plus one human case report for a different reflex-epilepsy subtype; there are no clinical trials, and phenytoin has no current SAHPRA registration in South Africa, so there is no regulatory pathway to act on immediately.
+The prediction has no clinical trials or literature behind it, and phenytoin has no known antitumour mechanism. The high TxGNN score most likely reflects graph proximity to trigeminal neuralgia and seizure nodes.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-equivalent professional information (warnings, contraindications) — currently a blocking data gap (DG001)
-- Formal DrugBank-sourced mechanism-of-action data (DG002)
-- A feasibility assessment for a Phase 1/2 proof-of-concept trial in audiogenic or other reflex epilepsy subtypes
-- Confirmation of any existing SAHPRA registration pathway, since phenytoin is currently not marketed in South Africa under this dataset
+- Retrieve the SAHPRA package insert warnings and contraindications (a blocking data gap that prevents safety screening).
+- Obtain mechanism of action data from DrugBank.
+- Run a targeted literature and trial search for phenytoin in trigeminal nerve tumours and, as the more credible candidate, trigeminal neuralgia.
+- Confirm whether the prediction label reflects a true neoplasm or a neuralgia-related graph artifact before any further evaluation.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

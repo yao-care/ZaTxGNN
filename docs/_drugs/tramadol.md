@@ -2,7 +2,7 @@
 layout: default
 title: Tramadol
 parent: Model Prediction Only (L5)
-nav_order: 442
+nav_order: 450
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tramadol: From Unspecified Indication to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Tramadol: From Pain Management to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Tramadol's original approved indication is not recorded in this evidence pack, and no formal mechanism-of-action (MOA) entry is available. The TxGNN model's top-ranked prediction — **acromesomelic dysplasia, Hunter-Thompson type** — has **0 clinical trials** and **0 publications** supporting it, and the evidence pack's own mechanistic review flags this specific pairing as the *least* biologically plausible of the ten candidates returned, most likely reflecting model noise rather than a genuine signal.
+Tramadol is an opioid analgesic that is currently marketed in South Africa. The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder. There are **no clinical trials and no publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack |
+| Original Indication | Pain (general pharmacological knowledge; the SAHPRA records provided do not include indication text) |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-A formal mechanism-of-action record is not available for tramadol in this evidence pack. However, the pack's own rationale for a lower-ranked candidate (rank 7, juvenile idiopathic arthritis) does describe tramadol's pharmacology: it is a **μ-opioid receptor agonist combined with norepinephrine/serotonin reuptake inhibition**, producing central analgesic effects.
+Detailed mechanism of action data are not available in the Evidence Pack. Tramadol is generally described as a mu-opioid receptor agonist that also inhibits serotonin and norepinephrine reuptake, and it is used for symptomatic pain relief.
 
-Acromesomelic dysplasia, Hunter-Thompson type is a structural genetic disorder caused by GDF5 gene defects, affecting skeletal development. There is no pathophysiological pathway connecting a centrally-acting analgesic/monoaminergic mechanism to a congenital skeletal malformation — the two are mechanistically unrelated.
+Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia linked to the CDMP1/GDF5 pathway. **No established mechanistic link** connects tramadol to this condition. At most, tramadol could offer symptomatic analgesia and would not change the course of the disease. The very high score of 99.99% is a knowledge-graph output and should not be read as evidence of efficacy.
 
-Notably, the evidence pack's own analysis is explicit about this: it states that this top-ranked pairing is "the highest TxGNN score but the lowest biological plausibility," and recommends treating it as a **reference case for model-noise calibration** rather than a genuine repurposing candidate. By comparison, several mid-ranked candidates in this batch — such as juvenile idiopathic arthritis (rank 7) — have a more coherent rationale (symptomatic pain control in an inflammatory joint condition), though even those are explicitly noted as non-disease-modifying, unsupported by any trial or literature evidence, and carry known pediatric opioid safety concerns (an FDA black-box warning for tramadol in children under 12 and post-tonsillectomy/adenoidectomy adolescents is referenced in that rationale). None of the ten candidates in this batch have any clinical trial or literature support.
+The other top predictions show the same pattern. Most are rare skeletal or connective-tissue conditions (brachyolmia, pseudoachondroplasia, myosclerosis) or juvenile and rheumatoid arthritis variants. All are at evidence level L5, with no trials or literature. Where a link exists at all, it is indirect symptomatic pain relief. Paediatric use of tramadol is also restricted by safety concerns, including CYP2D6 ultra-rapid metabolism and respiratory depression.
 
 ## Clinical Trial Evidence
 
@@ -63,22 +63,41 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+## South Africa Market Information
+
+Tramadol has 9 SAHPRA registrations. The five main ones are listed below. Approved indication text and manufacturer details were not included in the data provided.
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 32/2.9/0652 | Tramahexal | Capsule |
+| Reg. No. 44/2.9/0496 | Tramazac SR | Sustained-release tablet (recorded as "Srt") |
+| Reg. No. 36/2.9/0337 | Dolotram 50 | Injection |
+| Reg. No. 37/2.9/0532 | Dolotram | Capsule |
+| Reg. No. 54/2.9/0185 | Domadol Plus | Tablet |
+
+Available routes are oral (capsule, tablet) and injectable.
+
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+Note that the Evidence Pack flags paediatric restrictions for tramadol (CYP2D6 ultra-rapid metabolism and respiratory depression). This matters for any use in juvenile-onset conditions among the wider predictions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is an L5, model-prediction-only candidate with zero supporting clinical trials or literature, and the evidence pack's own rationale identifies it as the least biologically plausible pairing in the batch (likely model noise). Separately, a Blocking data gap (missing SAHPRA/TFDA label warnings and contraindications) means the candidate cannot yet enter safety screening (S1) regardless of the indication question.
+The prediction has no supporting trials or literature, and no plausible disease-modifying mechanism links tramadol to this genetic skeletal dysplasia. Safety data from the SAHPRA package insert are also missing, so the candidate cannot progress to safety screening.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings, contraindications) for tramadol — currently a Blocking data gap
-- Confirmed mechanism-of-action documentation from DrugBank or equivalent source
-- If a repurposing signal is still worth pursuing, re-examine mechanistically coherent candidates (e.g., symptomatic pain control in juvenile idiopathic arthritis) rather than the top TxGNN score, and actively search for trial/literature evidence on those
-- Clarification of regulatory pathway, since tramadol currently has zero SAHPRA registrations (Not Marketed)
+- SAHPRA package insert warnings and contraindications (download and parse the PI)
+- Mechanism of action data from DrugBank
+- Any published or registered clinical evidence for tramadol in this condition
+- Approved indication text for the local registrations
+- Route compatibility assessment against the needs of the target condition
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

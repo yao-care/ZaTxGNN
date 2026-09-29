@@ -33,75 +33,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Alfuzosin is a selective alpha-1 adrenergic receptor antagonist, originally established for the treatment of benign prostatic hyperplasia (BPH) by relaxing smooth muscle in the prostate and bladder neck. The TxGNN model predicts it may have potential activity against **Ambras type hypertrichosis universalis congenita** — a rare congenital hair disorder — with a prediction score of **99.99%**. However, there are currently **no clinical trials** and **no supporting publications** for this indication, placing this prediction at the lowest possible evidence tier.
-
----
+Alfuzosin is a selective alpha-1 adrenergic blocker, generally used for urinary symptoms of benign prostatic hyperplasia (BPH). The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are **0 clinical trials** and **0 publications** supporting this direction. The prediction is model-only and has no pharmacological rationale.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Benign Prostatic Hyperplasia (BPH) — based on established pharmaceutical knowledge; no SAHPRA-approved indication text available |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.99% |
+|------|------|
+| Original Indication | Benign prostatic hyperplasia (from general pharmacology; the SAHPRA record in the Evidence Pack has no indication text) |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
+| TxGNN Prediction Score | 99.9994% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmaceutical knowledge, alfuzosin is a selective alpha-1 adrenergic receptor antagonist. It works by blocking alpha-1 receptors in the smooth muscle of the prostate gland and bladder neck, reducing urinary outflow obstruction in men with BPH. It has no known antineoplastic, genetic, or hair follicle-targeted properties.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on general knowledge, alfuzosin is a selective alpha-1 adrenergic antagonist. It relaxes smooth muscle in the prostate and bladder neck, which is the basis for its use in BPH.
 
-Ambras type hypertrichosis universalis congenita is an exceptionally rare genetic disorder caused by mutations in the *TRPS1* gene (chromosome 8q23–24), characterised by excessive hair growth covering the entire body and face. Alpha-1 adrenergic receptors are indeed expressed in hair follicles, and sympathetic nervous system signalling is known to modulate hair follicle cycling to some degree. This provides a superficial biological connection. However, the critical problem is that Ambras hypertrichosis is caused by a structural gene defect — and there is no known pathway by which alpha-1 receptor blockade could correct or compensate for a *TRPS1* loss-of-function mutation.
+**This prediction is not pharmacologically plausible.** Alfuzosin has no known role in hair follicle regulation. Hypertrichosis linked to drugs is typically seen with vasodilators or potassium channel openers such as minoxidil, not with alpha-1 blockade. Ambras syndrome is a rare congenital disorder of hair growth, and no link to alpha-1 adrenergic signalling has been identified.
 
-The extremely high TxGNN score (0.9999943) is most likely the result of indirect, multi-step connections within the knowledge graph between hair follicle–related nodes, a well-recognised artefact described as topological false positives. Notably, 6 of the top 10 predicted indications for alfuzosin in this evidence pack are rare hair and hair follicle disorders (hypertrichosis, hair shaft abnormalities, trichomegaly, hypotrichosis), suggesting a systematic over-prediction bias in the hair-related node cluster of the knowledge graph rather than a true biological signal.
-
----
+The very high TxGNN score most likely reflects proximity in the knowledge graph among hair-related phenotypes. It does not reflect a real therapeutic rationale. A score this high should not be read as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR entries were not found in the Evidence Pack).
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for this drug and indication.
 
 ## South Africa Market Information
 
-Alfuzosin is not currently registered with SAHPRA and is not marketed in South Africa. No approved product registrations, dosage forms, or indication texts are on record. Any investigational or compassionate use would require prior SAHPRA authorisation.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 41/5.2/0740 | Alfuwin XL | Tablet (oral) |
+| Reg. No. A40/5.2/0392 | Rantral MR | Tablet (oral) |
 
----
+The approved indication text and manufacturer were not captured for either registration. Please check the SAHPRA-approved Professional Information (PI). Essential Medicines List (EML) status was not assessed in the data provided.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-> **Note for prescribers:** Safety data specific to alfuzosin (TFDA prescribing information, warnings, and contraindications) was not retrievable as part of this evidence pack. Known class-effect considerations for alpha-1 blockers include orthostatic hypotension, dizziness, and intraoperative floppy iris syndrome, but formal safety data should be confirmed through the official PI before any clinical use.
-
----
+No drug interaction records were found in the query. As a class effect, alpha-1 blockers can cause hypotension, so this would be an important consideration in any new population.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This TxGNN prediction for Ambras type hypertrichosis universalis congenita is supported by zero clinical trials and zero literature evidence. The mechanistic link between alpha-1 adrenergic blockade and a *TRPS1* gene-mutation-driven disorder is biologically implausible, and the high model score almost certainly reflects knowledge graph topology artefacts rather than a genuine repurposing signal. The same pattern is observed across 6 of the top 10 predictions for this drug, all of which are rare hair disorders.
+The prediction rests on model output alone (L5). No trials or literature support it, and no mechanistic link to alpha-1 blockade has been identified. A congenital hair disorder is also a poor fit for a symptomatic drug developed for adult urological use.
 
 **To proceed, the following is needed:**
-- Retrieval of the full DrugBank MOA profile and pharmacology data for alfuzosin (currently a data gap)
-- Retrieval of TFDA/SAHPRA-approved prescribing information for safety evaluation (currently blocking — DG001)
-- Preclinical mechanistic evidence demonstrating any effect of alpha-1 receptor blockade on TRPS1-dependent hair follicle biology before further evaluation is warranted
-- Independent review of the KG node structure for hair disorder clusters to quantify topological false-positive risk for this drug class
-- If any future mechanistic hypothesis is generated, a full de novo evidence search specifically pairing alfuzosin with *TRPS1*-pathway biology would be required
+- The SAHPRA package insert (warnings, contraindications, approved indication), which is currently a blocking data gap
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical evidence linking alpha-1 adrenergic signalling to hair follicle biology
 
-> **Disclaimer:** This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+**Other predictions in this pack:** The other nine predicted indications are also L5 with no trial support. Nine are "Hold". Persistent fetal circulation syndrome (rank 8) is labelled "Research Question" only. It has weak biological plausibility, but neonatal hypotension would be a major safety concern. The 20 papers retrieved for the periodontal malformation syndrome (rank 3) are general periodontitis literature and do not mention alfuzosin.
+
+*This report is for research reference only and does not constitute medical advice. Any repurposing candidate requires clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

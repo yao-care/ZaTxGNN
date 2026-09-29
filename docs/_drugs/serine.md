@@ -2,7 +2,7 @@
 layout: default
 title: Serine
 parent: Model Prediction Only (L5)
-nav_order: 404
+nav_order: 412
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Serine: From No Established Indication to Familial Visceral Myopathy (Preliminary Signal)
+# Serine: From Amino Acid Component of Parenteral Nutrition and Dialysis Products to Familial Visceral Myopathy
 
 ## One-Sentence Summary
 
-Serine (L-serine, DrugBank DB00133) has no recorded approved indication and is not currently marketed in South Africa. TxGNN's knowledge graph predicts a very strong association (**99.99%**) with **familial visceral myopathy**, but this ranking is supported by **zero clinical trials and zero publications** — it is a model-only signal with no verifiable clinical or mechanistic basis at this time.
+Serine is an amino acid that appears as a component in several South African parenteral nutrition and peritoneal dialysis products. The TxGNN model predicts it may be effective for **Familial Visceral Myopathy**, a rare genetic smooth-muscle disorder of the gut. This prediction currently has **no clinical trials and no publications** supporting it, so it rests on the model score alone.
 
 ---
 
@@ -41,23 +41,20 @@ Serine (L-serine, DrugBank DB00133) has no recorded approved indication and is n
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded — Serine has no approved indication on file and is not marketed in South Africa |
 | Predicted New Indication | Familial visceral myopathy |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 11 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Serine. Based on general pharmacology knowledge, L-serine is a non-essential amino acid involved in one-carbon metabolism and phospholipid/nucleotide biosynthesis, but no established therapeutic role in gastrointestinal or visceral smooth muscle disease has been documented in the available data.
+Currently, detailed mechanism of action data is not available. Based on known information, serine is a component of amino acid infusion products and other multi-ingredient formulations, and it serves as a nutritional building block rather than a targeted therapy. No approved indication text was provided for the local registrations, so its original therapeutic role cannot be stated more precisely.
 
-The TxGNN knowledge-graph association score for familial visceral myopathy is very high (0.9999, rank 104), which on its own might suggest a strong latent signal. However, this evidence pack found **no supporting clinical trials or literature whatsoever** for this drug–disease pair. Because Serine's original indication and mechanism of action are both unrecorded, there is no independent basis — pharmacological or clinical — to corroborate or explain why this association exists. The prediction should be treated strictly as a graph-model hypothesis pending mechanistic and clinical validation.
-
-It is also worth noting that this Serine evidence pack examined 10 TxGNN-predicted indications in total. For the handful of lower-ranked candidates that did return trial or literature hits (e.g., intestinal obstruction, angle-closure glaucoma), manual review found the retrieved records were overwhelmingly keyword-collision artifacts — matches on "serine protease" or "serine/threonine kinase" gene names rather than evidence about L-serine as a therapeutic agent. This reinforces that, across the full candidate set, no genuine repurposing evidence for Serine currently exists.
+The evidence review found no established biological link between serine supplementation and familial visceral myopathy. This condition is a genetic smooth-muscle disorder, commonly ACTG2-related. The very high score (99.99%) most likely reflects the drug's position in the knowledge graph rather than a real mechanistic relationship. Other top predictions are also gut motility disorders (intestinal obstruction, pseudo-obstruction and related conditions), which points to a shared knowledge-graph neighbourhood. Such clusters can produce high scores without any clinical support.
 
 ---
 
@@ -75,15 +72,23 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Serine is not currently registered with SAHPRA and has no marketed products in South Africa (0 licenses on file). No market information is available.
+Serine has 11 SAHPRA registrations. The 5 main ones are listed below. Approved indication text is not available for these products.
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial |
+| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion |
+| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion |
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion |
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion |
+
+All registered forms are vials or infusions, and no oral form was identified. Route compatibility with the predicted indication has not been assessed.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-Note: safety/label data (warnings and contraindications) for this drug is currently a **blocking data gap** — without it, a formal safety pre-assessment cannot be completed.
 
 ---
 
@@ -92,13 +97,13 @@ Note: safety/label data (warnings and contraindications) for this drug is curren
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but it is unsupported by any clinical trial, publication, mechanism-of-action data, or existing market/regulatory record. Combined with a blocking safety data gap, there is no basis to advance this candidate beyond a research hypothesis.
+The prediction is supported only by a model score, with no relevant trials or literature and no plausible mechanism. The other predicted indications are at the same evidence level (L5). Retrieved records for them were mostly keyword-matched noise. For example, papers on the serine protease PRSS56 in glaucoma do not concern the amino acid serine.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for Serine (query DrugBank/primary literature)
-- SAHPRA-equivalent or international product labeling (warnings, contraindications) to close the blocking safety data gap
-- Preclinical or mechanistic studies linking L-serine to visceral smooth muscle/myopathic pathology
-- Dedicated clinical trial or observational evidence specific to familial visceral myopathy (current literature hits for other candidate indications were confounded by "serine protease/kinase" naming collisions and should not be treated as supporting evidence)
+- Mechanism of action data, to test whether any biologically credible link to visceral smooth-muscle disease exists
+- The SAHPRA Professional Information (PI) for safety, contraindications and approved indications
+- A relevant preclinical or clinical signal, such as a disease-model study, before any further evaluation
+- Assessment of route and formulation compatibility, since current registrations are all parenteral
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

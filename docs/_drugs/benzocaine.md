@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Benzocaine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 61
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 ---
 
 # Benzocaine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,83 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Benzocaine: From Topical Anaesthesia to Dyspepsia
+# Benzocaine: From Topical Local Anaesthetic to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Benzocaine is an ester-type topical local anaesthetic with decades of established use in over-the-counter throat lozenges, dental gels, and procedural mucosal anaesthesia. The TxGNN model predicts it may be effective for **Dyspepsia**, supported by **1 direct randomised controlled trial** and **2 mechanistic studies** specifically evaluating benzocaine in upper gastrointestinal symptoms. However, benzocaine is currently not registered with SAHPRA, and evidence is limited to observational and indirect trial data, placing this candidate at the research-progression threshold.
-
----
+Benzocaine is a sodium channel-blocking topical anaesthetic. The SAHPRA data supplied for this report do not record an approved indication.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but there are **0 clinical trials** and **0 publications** for this prediction, so it rests on the model score alone.
+Among the other predictions, only **dyspepsia** has any benzocaine-specific human evidence, a single randomised comparison with lidocaine (PMID 15219296).
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Topical mucosal and skin anaesthesia |
-| Predicted New Indication | Dyspepsia |
-| TxGNN Prediction Score | 98.29% |
-| Evidence Level | L3 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+|------|------|
+| Original Indication | Not recorded in the supplied SAHPRA data (approved indication text is empty for both registrations) |
+| Predicted New Indication | Papillary conjunctivitis |
+| TxGNN Prediction Score | 99.38% (model rank 3,341) |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Benzocaine works by blocking voltage-gated sodium (Na⁺) channels in sensory nerve membranes, preventing the generation and propagation of pain and discomfort signals from mucosal surfaces. This mechanism is directly relevant to dyspepsia, a condition in which upper gastrointestinal discomfort is mediated in part by sensitised afferent nerve endings in the gastroduodenal mucosa — the same surface accessible to topically applied benzocaine.
+Detailed mechanism of action data is not currently available. Based on known information, benzocaine is a sodium channel-blocking topical anaesthetic. It could at most give symptomatic relief of ocular surface pain or itch. It has no known disease-modifying effect on conjunctival inflammation.
 
-A key mechanistic study (PMID 23565580, *Neurogastroenterology and Motility*, 2013) directly evaluated benzocaine in healthy human volunteers, demonstrating that application to the duodenal mucosa blocks the acid-induced duodenogastric sensorimotor reflex — the precise reflex pathway implicated in functional dyspepsia. This provides a clear biological chain of evidence: **Na⁺ channel blockade → suppression of duodenal mucosal afferent signalling → attenuation of dyspeptic symptoms**.
+The prediction is therefore weak on biological grounds. Papillary conjunctivitis is an inflammatory or allergic surface condition, and blocking sodium channels does not address its cause. Repeated ocular anaesthetic exposure also risks corneal toxicity, and benzocaine is not a standard ophthalmic agent. The high score most likely reflects knowledge-graph proximity to other ocular surface agents rather than a biological rationale.
 
-In clinical practice, this rationale has been translated into the **GI Cocktail** (benzocaine or viscous lidocaine + antacid + antispasmodic), a well-established emergency medicine preparation for symptomatic relief of upper gastrointestinal discomfort. A prospective RCT (PMID 15219296) confirmed that benzocaine performs equivalently to viscous lidocaine within this formulation, providing direct proof-of-concept for benzocaine's efficacy in this indication.
-
----
+The other ocular and periocular predictions (blepharoconjunctivitis, rosacea conjunctivitis, ulcerative blepharitis, parasitic eyelid infestation, noninfectious eyelid dermatoses) follow the same pattern. Each is prediction-only at L5 and Hold.
 
 ## Clinical Trial Evidence
 
-No clinical trials directly evaluating benzocaine as a standalone therapeutic agent for dyspepsia were identified on ClinicalTrials.gov. The trials below provide the strongest contextual support for the mechanistic and therapeutic rationale:
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00248651](https://clinicaltrials.gov/study/NCT00248651) | Phase 2/3 | Completed | 292 | Antidepressant therapy in functional dyspepsia; confirmed that the condition is driven by central sensory sensitisation and neurally-mediated pathways, indirectly validating sensory nerve modulation — benzocaine's mechanism — as a clinically effective treatment strategy |
-| [NCT00521703](https://clinicaltrials.gov/study/NCT00521703) | Phase 3 | Completed | 78 | Evaluated topical lidocaine spray (structurally analogous to benzocaine, same pharmacological class) as an adjuvant during upper gastrointestinal endoscopy in children; confirmed the clinical feasibility and safety of applying topical local anaesthetics to the upper GI mucosa |
-
-> The primary direct evidence for benzocaine in dyspepsia resides in the peer-reviewed literature (see below), not in registered clinical trials, which likely reflects the established OTC/emergency medicine status of this use rather than an absence of clinical evidence.
-
----
+Currently no related clinical trials registered for papillary conjunctivitis. No SANCTR or PACTR entries were supplied.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [15219296](https://pubmed.ncbi.nlm.nih.gov/15219296/) | 2004 | Prospective RCT (active-controlled) | *Journal of Emergency Medicine* | Direct head-to-head RCT comparing benzocaine vs viscous lidocaine as the topical anaesthetic in a GI cocktail for dyspeptic patients in the emergency department (N not specified in abstract); benzocaine was equivalent to lidocaine in speed of onset and effectiveness of symptom relief — the strongest direct evidence for benzocaine in this indication |
-| [23565580](https://pubmed.ncbi.nlm.nih.gov/23565580/) | 2013 | Mechanistic Experimental Study | *Neurogastroenterology and Motility* | Demonstrated in healthy humans that benzocaine applied to the duodenal mucosa blocks the acid-induced duodenogastric sensorimotor reflex (gastric relaxation + inhibition of antral motility + proximal gastric sensitisation); directly validates the proposed mechanism of action for functional dyspepsia and establishes duodenal mucosal nerve endings as the pharmacological target |
-| [12077066](https://pubmed.ncbi.nlm.nih.gov/12077066/) | 2002 | Pathophysiology Study | *Gut* | Reviewed the role of dietary fat and cholecystokinin (CCK) in triggering dyspeptic symptoms via gastric distension and sensory sensitisation; provides pathophysiological context for the sensory nerve pathway that benzocaine targets, supporting the plausibility of mucosal afferent blockade as a therapeutic approach |
+Currently no related literature available for papillary conjunctivitis.
 
----
+**For context, the strongest benzocaine-specific evidence in the package belongs to another prediction, dyspepsia (score 98.29%, L3, "Research Question"):**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [15219296](https://pubmed.ncbi.nlm.nih.gov/15219296/) | 2004 | RCT (single-blinded) | J Emerg Med | Compared viscous lidocaine with benzocaine in a "GI cocktail" for dyspepsia in emergency patients. It is an active-comparator study without placebo, and the cocktail's other components confound attribution. |
+| [23565580](https://pubmed.ncbi.nlm.nih.gov/23565580/) | 2013 | Mechanistic study | Neurogastroenterol Motil | Role of duodenal mucosal nerve endings in the acid-induced duodenogastric reflex, in healthy humans. The title suggests a benzocaine effect, but the study drug is unconfirmed from the supplied data. |
+
+None of the 10 dyspepsia trials listed (of 28 reported) tests benzocaine. The closest is [NCT00521703](https://clinicaltrials.gov/study/NCT00521703), a Phase 3 topical lidocaine spray study for paediatric upper GI endoscopy, which is procedural anaesthesia with a different drug.
 
 ## South Africa Market Information
 
-Benzocaine is currently **not registered with SAHPRA** and has no active product licences in South Africa. No entries were identified in the regulatory database.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 43/8/0830 | Soluspirin cv | Effervescent tablet (oral) | Not stated in supplied data |
+| Reg. No. B0917 (ACT 101) | Vidol teething powders | Powder | Not stated in supplied data |
 
-For any formal clinical application in South Africa, SAHPRA registration would be required. Research use prior to registration may be pursued via a **Section 21 authorisation** under the Medicines and Related Substances Act (Act 101 of 1965), subject to SAHPRA approval.
-
----
+Neither registered product is an ophthalmic formulation, so no existing SAHPRA-registered route matches conjunctival use.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for complete safety information once a registered product is identified. Report any adverse drug reactions to SAHPRA via the MedSafety online portal.
+- **Concerns noted in the evidence review:**
+  - Repeated ocular anaesthetic exposure risks corneal toxicity.
+  - Topical benzocaine can cause contact allergic dermatitis, a liability on thin periocular skin.
+  - Systemic exposure and methemoglobinemia risk with oral or mucosal use need a safety review before any further step.
+- **Drug Interactions:** No interaction records were found in the queried source.
 
----
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although benzocaine has a well-supported mechanistic basis and direct clinical RCT evidence for use in dyspepsia (particularly within the GI Cocktail framework), the drug is not currently registered with SAHPRA and has no approved products available in South Africa. Regulatory barriers must be resolved before clinical adoption can proceed. The overall evidence level (L3 — observational and indirect trial data, plus one active-controlled RCT) does not yet meet the threshold for a full repurposing recommendation in the absence of a dedicated Phase 2/3 RCT with dyspepsia as the primary endpoint.
+The prediction has no trials or literature behind it (L5). Any plausible benefit is symptomatic only, and the ocular surface safety concerns are significant. The dyspepsia prediction is the only one with human evidence (L3), and it is better framed as a research question than a repurposing candidate.
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway**: Identify an existing SAHPRA-registered product containing benzocaine, or initiate a Section 21 application for research use
-- **Dedicated RCT**: A well-designed randomised controlled trial specifically evaluating oral benzocaine formulations for functional dyspepsia as the primary endpoint (the existing RCT [PMID 15219296] used benzocaine within a combination GI cocktail, not as monotherapy)
-- **Safety profile review**: Obtain the complete Professional Information (PI), with particular attention to methaemoglobinaemia risk (a class-specific concern for ester-type local anaesthetics) relevant to orally ingested mucosal doses
-- **Pharmacokinetic data**: Confirm systemic absorption levels following oral mucosal administration at doses used for dyspepsia
-- **Mechanism of action (MOA) data**: Retrieve full MOA detail from DrugBank (DB01086) to complete the mechanistic link analysis
-
-> *This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before therapeutic application. Results should be interpreted by qualified healthcare professionals.*
+- SAHPRA package insert warnings and contraindications for both registered products
+- Mechanism of action data (e.g. from DrugBank)
+- Confirmation of the original approved indications, since the supplied SAHPRA indication text is empty
+- Confirmation of the study drug in PMID 23565580, and a placebo-controlled study of benzocaine alone if dyspepsia is pursued
+- A clear ophthalmic route and formulation rationale, plus an ocular safety review, before any conjunctival use is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

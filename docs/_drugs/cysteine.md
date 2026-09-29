@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cysteine
-parent: High Evidence (L1-L2)
-nav_order: 155
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 158
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cysteine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,95 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Cysteine: From Amino Acid Supplement to Dry Eye Syndrome
+# Cysteine: From an Unspecified Registered Indication to Dry Eye Syndrome
 
 ## One-Sentence Summary
 
-Cysteine is a naturally occurring amino acid and a rate-limiting precursor of glutathione (GSH), with no specific approved therapeutic indication currently listed in South Africa. The TxGNN model predicts it may be effective for **Dry Eye Syndrome**, with **7 clinical trials** and **20 publications** currently supporting this direction. Its derivative N-acetylcysteine (NAC) has been directly studied in randomised controlled trials for dry eye and Sjögren's disease-related dryness symptoms.
+Cysteine is an amino acid found in three SAHPRA-registered products in South Africa, but the records provided do not state an approved indication.
+The TxGNN model predicts it may be effective for **dry eye syndrome**, with **7 retrieved clinical trials** and **20 retrieved publications**.
+The direct evidence is thin. Only 1 trial (NCT04793646) is rated moderately relevant, and it is Phase NA. Almost all human data involve N-acetylcysteine (NAC) or cysteine-modified polymers, not free cysteine.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No approved therapeutic indication on record |
-| Predicted New Indication | Dry Eye Syndrome |
+| Original Indication | Not stated in the SAHPRA records provided (all three registrations have blank indication text) |
+| Predicted New Indication | Dry eye syndrome |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 (the Evidence Pack labelled L2, but no completed Phase 2/3 RCT of cysteine or NAC in dry eye was retrieved, so I downgraded it) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Cysteine is the rate-limiting precursor for biosynthesis of glutathione (GSH), the body's principal intracellular antioxidant. Dry eye disease (DED) is characterised by tear film instability and ocular surface inflammation, both of which are driven by excessive reactive oxygen species (ROS). By replenishing cysteine, GSH synthesis is enhanced, enabling more effective scavenging of ROS and protection of the corneal and conjunctival epithelium. This antioxidant pathway — Cysteine → GSH synthesis → ROS clearance → ocular surface protection — provides a clear mechanistic rationale for the predicted indication.
+Currently, detailed mechanism of action data for cysteine is not available in the Evidence Pack. Cysteine is the precursor of glutathione, the body's main antioxidant. It is also the parent molecule of N-acetylcysteine (NAC), which has antioxidant, mucolytic and anti-inflammatory effects.
 
-N-acetylcysteine (NAC), the N-acetylated derivative of cysteine, adds a complementary mucolytic mechanism: it cleaves disulphide bonds in mucin glycoproteins, reducing mucus viscosity and improving tear film quality. This dual action (antioxidant + mucolytic) is particularly relevant for mucin-deficient dry eye and Sjögren's syndrome-associated dryness, where both oxidative stress and mucus accumulation contribute to ocular surface damage.
+Dry eye disease involves oxidative stress on the ocular surface and an unstable, mucin-rich tear film. NAC is thought to help by scavenging reactive oxygen species and by loosening mucus through disulfide-bond cleavage. Thiolated polymers such as chitosan-NAC and L-cysteine conjugates also stick better to mucus, which prolongs contact time on the eye.
 
-Furthermore, thiolated chitosan (chitosan-cysteine conjugates) have been developed as bioadhesive ocular drug delivery platforms that exploit the thiol groups of cysteine to form disulphide bonds with cysteine-rich mucus glycoproteins, prolonging corneal retention time. Multiple preclinical and clinical studies have validated this approach, reinforcing the biological plausibility of cysteine-based therapies for dry eye.
+**Caveats:**
+- **Indirect evidence.** All clinical and preclinical evidence concerns NAC or cysteine conjugates, so extrapolating to free cysteine is indirect.
+- **Conflicting signal.** Topical NAC has been used to create a *mucin-deficient dry eye* animal model (PMID 30025127), so its effect on the ocular surface is not simply beneficial.
+- **Formulation and route.** The registered cysteine products are a wound powder and parenteral infusions. None is an ophthalmic formulation, so route compatibility has not been established.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04793646](https://clinicaltrials.gov/study/NCT04793646) | N/A (RCT) | Completed | 60 | Prospective randomised, double-blind, placebo-controlled trial of NAC for dryness symptoms in primary Sjögren's syndrome. Most directly relevant evidence. |
-| [NCT04440280](https://clinicaltrials.gov/study/NCT04440280) | Phase 2 | Recruiting | 45 | Investigating topical NAC eye drops for Fuchs' endothelial corneal dystrophy, targeting ROS-mediated oxidative stress — mechanism overlaps with DED. |
-| [NCT03525678](https://clinicaltrials.gov/study/NCT03525678) | Phase 2 | Completed | 221 | Belantamab mafodotin (DREAMM 2) study; corneal toxicity/dry eye reported as an adverse event — indirect relevance only. |
-| [NCT04162210](https://clinicaltrials.gov/study/NCT04162210) | Phase 3 | Active, not recruiting | 325 | Belantamab mafodotin (DREAMM 3) — ocular toxicity including dry eye as a key safety concern; indirect relevance. |
-| [NCT01064830](https://clinicaltrials.gov/study/NCT01064830) | Phase 2 | Completed | 21 | Cyclosporine 0.05% for brittle nail syndrome; cysteine deficiency mentioned as aetiological factor — indirect relevance. |
+| [NCT04793646](https://clinicaltrials.gov/study/NCT04793646) | Phase NA | Completed | 60 | Randomised, double-blind study of NAC for dryness symptoms in primary Sjögren's syndrome. Results are not in the pack. Most relevant trial, but the target condition is Sjögren's dryness, not dry eye specifically. |
+| [NCT04440280](https://clinicaltrials.gov/study/NCT04440280) | Phase 2 | Recruiting | 45 | Topical NAC eye drops to reduce oxidative stress in Fuchs endothelial corneal dystrophy. Similar antioxidant rationale, but a different eye disease. |
+| [NCT01064830](https://clinicaltrials.gov/study/NCT01064830) | Phase 2 | Completed | 21 | Topical cyclosporine under occlusion for brittle nail syndrome. Cysteine deficiency is mentioned only as a possible cause. Not a cysteine intervention. |
+| [NCT01424033](https://clinicaltrials.gov/study/NCT01424033) | Phase 2/3 | Terminated | 5 | Oral NAC tolerability in connective-tissue-disease interstitial lung disease. Wrong disease, and terminated after 5 patients. |
 
-**Note:** The most pivotal trial is NCT04793646 — the only completed, directly relevant RCT examining NAC (a cysteine derivative) specifically for dry eye-related symptoms.
+Three further trials (NCT03525678, NCT04162210, NCT03544281) are belantamab mafodotin oncology studies. They were matched only because corneal toxicity is an adverse event of that drug, and they have no cysteine link, so they are not listed. No SANCTR or PACTR registrations were found.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28441068](https://pubmed.ncbi.nlm.nih.gov/28441068/) | 2017 | RCT | J Ocul Pharmacol Ther | Controlled, randomised, double-blind study evaluating chitosan-NAC (C-NAC) eye drops on tear film thickness in DES patients. |
-| [39360368](https://pubmed.ncbi.nlm.nih.gov/39360368/) | 2024 | RCT | Clin Exp Rheumatol | Randomised placebo-controlled double-blind trial assessing NAC efficacy for relieving dryness in Sjögren's disease. |
-| [34339721](https://pubmed.ncbi.nlm.nih.gov/34339721/) | 2022 | Systematic Review | Surv Ophthalmol | Comprehensive review of topical NAC in ocular therapeutics — mucolytic, ROS-scavenging, and anti-inflammatory actions across 106 references. |
-| [16334742](https://pubmed.ncbi.nlm.nih.gov/16334742/) | 2005 | Clinical Study | Acta Med Croatica | Comparison of local acetylcysteine vs artificial tears in DES management; NAC regulated mucus secretion and reduced accumulation. |
-| [40123221](https://pubmed.ncbi.nlm.nih.gov/40123221/) | 2025 | Preclinical | Adv Mater | Nano-formulation of catalase self-assembled with cysteine-modified chitosan for DED treatment; demonstrated ROS elimination and ocular surface protection. |
-| [39842600](https://pubmed.ncbi.nlm.nih.gov/39842600/) | 2025 | Preclinical | Int J Biol Macromol | NAC-chitosan conjugate modified dexamethasone NLC for DED; enhanced permeability, precorneal retention, and reduced inflammation. |
-| [36581034](https://pubmed.ncbi.nlm.nih.gov/36581034/) | 2023 | Preclinical | Int J Biol Macromol | L-Cysteine conjugated chondroitin sulfate nanostructured lipid carriers for dry eye; improved corneal permeation and retention. |
-| [25701684](https://pubmed.ncbi.nlm.nih.gov/25701684/) | 2015 | Basic Research | Exp Eye Res | ROS-activated NLRP3 inflammasomes in hyperosmolarity-stressed corneal epithelial cells and DED patients — supports antioxidant mechanism. |
-| [3898475](https://pubmed.ncbi.nlm.nih.gov/3898475/) | 1985 | Clinical Observation | Trans Ophthalmol Soc UK | Review of topical drugs and preservatives effects on tears and corneal epithelium in dry eye. |
-| [30025127](https://pubmed.ncbi.nlm.nih.gov/30025127/) | 2018 | Preclinical | Invest Ophthalmol Vis Sci | Topical NAC effects on tears and ocular surface; established mucin-deficient dry eye animal model. |
+| [28441068](https://pubmed.ncbi.nlm.nih.gov/28441068/) | 2017 | RCT | J Ocul Pharmacol Ther | Controlled, double-blind study of chitosan-NAC eye drops on tear film thickness in dry eye syndrome. Only the aim is available in the pack. |
+| [39360368](https://pubmed.ncbi.nlm.nih.gov/39360368/) | 2024 | RCT | Clin Exp Rheumatol | Placebo-controlled, double-blind study of NAC for dryness symptoms in Sjögren's disease. Only the aim is available in the pack. |
+| [16334742](https://pubmed.ncbi.nlm.nih.gov/16334742/) | 2005 | Clinical comparison | Acta Med Croat | Local acetylcysteine compared with artificial tears in dry eye syndrome. |
+| [34339721](https://pubmed.ncbi.nlm.nih.gov/34339721/) | 2022 | Review | Surv Ophthalmol | Review of 106 references on topical NAC in eye disease: mechanisms, applications and adverse effects. |
+| [24993428](https://pubmed.ncbi.nlm.nih.gov/24993428/) | 2014 | Review | J Control Release | Thiolated polymers (thiomers) bind mucus through disulfide bonds with cysteine-rich glycoproteins. |
+| [40123221](https://pubmed.ncbi.nlm.nih.gov/40123221/) | 2025 | Preclinical | Adv Mater | Eye-drop nanoformulation of catalase with cysteine-modified chitosan, targeting ROS in dry eye. |
+| [39842600](https://pubmed.ncbi.nlm.nih.gov/39842600/) | 2025 | Preclinical | Int J Biol Macromol | NAC-chitosan conjugate on dexamethasone lipid carriers: better corneal retention and permeability. |
+| [36581034](https://pubmed.ncbi.nlm.nih.gov/36581034/) | 2023 | Preclinical | Int J Biol Macromol | Chondroitin sulfate-L-cysteine conjugate on lipid carriers: better corneal permeation and retention. |
+| [30025127](https://pubmed.ncbi.nlm.nih.gov/30025127/) | 2018 | Animal study | Invest Ophthalmol Vis Sci | Topical NAC used to create a mucin-deficient dry eye model, which is a caution signal. |
+| [26606856](https://pubmed.ncbi.nlm.nih.gov/26606856/) | 2015 | Preclinical | Ther Deliv | Hyaluronic acid modified with cysteine ethyl ester, evaluated as a mucoadhesive lubricant. |
 
 ## South Africa Market Information
 
-Cysteine (DB00151) currently has **no SAHPRA registrations** and is **not marketed** in South Africa as a registered medicine. N-acetylcysteine (NAC), the clinically relevant derivative, may be available under separate registrations but was not captured in this drug-specific query. Healthcare professionals should verify NAC availability through the SAHPRA database independently.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| G2370 (ACT 101/1965) | Cicatrin Powder 15G | Powder | Not stated in the records provided |
+| 52/25/0739 | Numeta G13E | Infusion | Not stated in the records provided |
+| 52/25/0740 | Numeta G16E | Infusion | Not stated in the records provided |
+
+The pack contains no ophthalmic dosage form, and it gives no Essential Medicines List (EML) status.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information, as no SAHPRA-registered product exists for cysteine in South Africa at this time. Report adverse drug reactions to SAHPRA.
-
-**General pharmacological considerations for cysteine/NAC:**
-- NAC is generally well tolerated when used topically (ophthalmic) or systemically
-- Oral NAC may cause gastrointestinal disturbance (nausea, vomiting, diarrhoea)
-- Topical ocular NAC may cause transient stinging or burning upon instillation
-- Hypersensitivity reactions are rare but documented
-- Detailed safety data, including drug-drug interactions, warnings, and contraindications specific to the South African context, require SAHPRA-approved product labelling
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-There is a completed randomised, double-blind, placebo-controlled trial (NCT04793646) directly studying NAC for Sjögren's disease-related dry eye, and an additional published RCT (PMID 28441068) evaluating chitosan-NAC eye drops for DES. The mechanistic rationale (antioxidant via GSH replenishment + mucolytic via disulphide bond cleavage) is well established. Multiple preclinical studies further support the ocular surface therapeutic potential. Evidence reaches L2 (1 completed Phase 2/3 equivalent RCT).
+The prediction score is very high, but the supporting evidence is indirect: NAC and cysteine-conjugate studies, several with only abstract stubs and no reported results. No completed Phase 2/3 RCT of cysteine in dry eye was found. SAHPRA safety data are missing (a blocking gap), and there is no ophthalmic product registered in South Africa. This is a research question, not a candidate ready for clinical use.
 
 **To proceed, the following is needed:**
-- **SAHPRA regulatory pathway clarification**: Cysteine is not currently registered; determine whether NAC ophthalmic formulations could be imported via Section 21 or whether a new registration is required
-- **Detailed mechanism of action (MOA) data**: Obtain full DrugBank pharmacology profile for cysteine/NAC
-- **Formulation assessment**: Confirm availability or feasibility of ophthalmic-grade NAC preparations suitable for the South African market
-- **Safety data compilation**: Obtain comprehensive Professional Information for NAC from international regulatory sources (e.g., EMA, TGA) pending SAHPRA registration
-- **Pharmacoeconomic analysis**: Compare cost-effectiveness against existing DED treatments available in South Africa (e.g., cyclosporine 0.05%, lifitegrast, artificial tears)
-- **Local clinical validation**: Consider a confirmatory study in the South African population, particularly given the high prevalence of Sjögren's syndrome-associated dry eye
+- SAHPRA Professional Information for all three registered products (safety, contraindications, approved indications)
+- Mechanism of action data from DrugBank
+- Full results of NCT04793646 and RCTs 28441068 and 39360368, to judge whether the benefit applies to dry eye and to free cysteine rather than NAC or conjugates
+- Reconciliation of the mucin-deficient dry eye model finding (PMID 30025127) with the proposed benefit
+- An ophthalmic formulation and route-compatibility assessment
+- Curation of the duplicate glaucoma entries (closed-angle and angle-closure), which the Evidence Pack recommends merging
 
----
+This report covers the top-ranked prediction only. The other nine predictions, including tracheal disease (L4, mucolytic rationale), are unassessed here.
 
-*Disclaimer: This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All predictions are generated by the TxGNN model and should be interpreted by qualified healthcare professionals.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

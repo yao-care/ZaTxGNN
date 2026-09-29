@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dolutegravir
-parent: Moderate Evidence (L3-L4)
-nav_order: 189
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 192
+evidence_level: L5
 indication_count: 3
 ---
 
 # Dolutegravir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,69 +33,79 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Dolutegravir is an integrase strand transfer inhibitor (INSTI) used in combination antiretroviral therapy for HIV-1 infection in humans. The TxGNN model predicts it may be effective for **Feline Acquired Immunodeficiency Syndrome (FIV)**, with **5 clinical trials** (conducted in human HIV-1 subjects, providing indirect mechanistic support) and **1 direct animal study publication** currently identified. Evidence remains at the preclinical stage, with no dedicated feline clinical trials registered.
+Dolutegravir is an HIV-1 integrase strand transfer inhibitor, already marketed in South Africa for HIV-1 infection.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV)**, a cat lentivirus infection.
+Support is indirect: **5 clinical trials** (all in human HIV-1, none in cats) and **1 veterinary publication**.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection — combination antiretroviral therapy (inferred from drug class; no SAHPRA registration data available in this Evidence Pack) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
+|------|------|
+| Original Indication | HIV-1 infection (the SAHPRA indication text is blank in the record) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Hold |
+| Evidence Level | L4 (preclinical/veterinary only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 20 |
+| Recommended Decision | Hold (research question) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-FIV (Feline Immunodeficiency Virus) is a lentivirus that causes progressive immune dysfunction in domestic cats, clinically paralleling HIV-1 infection in humans. Both viruses belong to the lentivirus genus, and their integrase enzymes share the conserved DDE catalytic triad — the active site where INSTI drugs like dolutegravir bind to block viral integration into the host genome. This structural conservation forms the primary mechanistic basis for the TxGNN model's prediction, and is biologically plausible.
+Dolutegravir blocks the viral integrase enzyme, which inserts viral DNA into the host genome. FIV is a lentivirus related to HIV, and it causes progressive immune failure in cats that resembles AIDS. Blocking integration is therefore a plausible way to slow FIV. Related evidence from the simian model (SIV in macaques) shows that integrase inhibitors, including dolutegravir, act on a lentivirus outside humans.
 
-One direct animal study (Kim et al., *Viruses*, 2023) demonstrated that a combination ART regimen including dolutegravir (2.5 mg/kg) alongside tenofovir and emtricitabine could be administered to FIV-infected domestic cats, providing initial proof-of-concept for pharmacokinetic feasibility in the target species. However, comprehensive efficacy and safety data in cats remain unavailable, and no formal Phase 1+ feline clinical trial has been registered.
+Detailed mechanism of action data is not available in the record. Dolutegravir's efficacy in HIV-1 is well established, and mechanistically it may be applicable to FIV. However, the integrase sequences of FIV and HIV-1 differ, so activity in cats is not established by the data supplied.
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, dolutegravir inhibits lentiviral integrase via its conserved DDE motif. This mechanism is present in FIV integrase, but species-specific susceptibility data (in vitro EC₅₀ against FIV integrase) and formal feline pharmacokinetic studies are still required before any clinical translation can be recommended. This prediction should be treated as a well-grounded research hypothesis rather than a ready-to-implement repurposing candidate.
+The one veterinary study, from 2023, tested dolutegravir inside a three-drug regimen in FIV-infected cats. The provided abstract is truncated, so its clinical results cannot be summarised here.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials specifically targeting FIV in cats were identified. The following trials were conducted in human HIV-1 subjects and provide indirect mechanistic support for dolutegravir's integrase inhibitory activity.
+All trials below are in **human HIV-1**. They support the drug's antiviral efficacy and safety in its source disease, not efficacy in cats.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01231516](https://clinicaltrials.gov/study/NCT01231516) | Phase 3 | Completed | 724 | Dolutegravir 50 mg QD non-inferior to raltegravir 400 mg BID in ART-experienced, INSTI-naïve HIV-1 adults over 48 weeks; demonstrates potent integrase inhibitory activity |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir 50 mg QD non-inferior to raltegravir in ART-naïve adults over 96 weeks; confirms high genetic barrier to resistance, relevant to FIV given similar INSTI resistance pathways |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Optimal once-daily dose selection (50 mg QD) established; provides human PK/PD reference parameters for inter-species dose modelling |
-| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Phase 3 | Completed | 13 | Dolutegravir demonstrates high CNS penetration (high CPE score) in HIV-1 adults — directly relevant as FIV causes neurological disease similar to HIV-associated neurocognitive disorders |
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + abacavir/lamivudine superior to Atripla over 96 weeks in ART-naïve adults; confirms sustained virological suppression with once-daily dosing |
+|---------|------|------|------|---------|
+| [NCT01231516](https://clinicaltrials.gov/study/NCT01231516) | Phase 3 | Completed | 724 | Dolutegravir vs raltegravir in treatment-experienced, integrase-inhibitor-naïve adults (48 weeks) |
+| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs raltegravir with dual NRTI backbone in treatment-naïve adults (96 weeks) |
+| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + abacavir/lamivudine vs Atripla in treatment-naïve adults (96 weeks) |
+| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Phase IIb once-daily dose selection with two NRTI backbones |
+| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Phase 3 | Completed | 13 | Single-arm study of plasma and cerebrospinal fluid pharmacokinetics with abacavir/lamivudine |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Animal/Observational Study | *Viruses* | The only identified study directly evaluating dolutegravir in FIV-infected cats: combination ART (dolutegravir 2.5 mg/kg + tenofovir 20 mg/kg + emtricitabine 40 mg/kg) administered to specific pathogen-free FIV-infected domestic cats; assessed pharmacokinetics and immunophenotypic clinical outcomes — proof-of-concept for feasibility in the target species |
+|------|-----|------|------|---------|
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Preclinical/veterinary | Viruses | Pharmacokinetics and clinical outcomes of combination ART (dolutegravir 2.5 mg/kg, tenofovir 20 mg/kg, emtricitabine 40 mg/kg) in FIV-infected domestic cats; abstract truncated in the record |
 
 ---
 
 ## South Africa Market Information
 
-No SAHPRA registrations for dolutegravir were identified in this Evidence Pack.
+Twenty registrations are on file; the five main ones are shown. Approved indication text is not recorded for any of them.
 
-> **Important note for healthcare professionals:** This finding is inconsistent with dolutegravir's global regulatory profile, where it holds approvals in over 100 countries including major African markets, and is widely used in national HIV programmes. Healthcare professionals should verify current SAHPRA registration status directly via the [SAHPRA online medicines database](https://www.sahpra.org.za) before drawing any conclusions from this data. The zero-registration finding may reflect a data retrieval gap rather than an actual absence of registration.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 56/20.2.8/0018 | Odinsti Dispersible Tablets | Orally disintegrating tablet (ODT) |
+| Reg. No. 51/20.2.8/1032.1031 | Dalimune | Tablet |
+| Reg. No. 52/20.2.8/0002.001 | Hetvir 50 | Film-coated tablet |
+| Reg. No. 54/20.2.8/0642.641 | Lomida | Tablet |
+| Reg. No. 55/20.2.8/0301 | Daliduo | Film-coated tablet |
+
+An effervescent tablet form is also listed among the registered dosage forms.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA via the MedSafety app or the [SAHPRA ADR reporting portal](https://www.sahpra.org.za).
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-> **Additional safety note specific to the predicted feline indication:** Feline dosing for dolutegravir has not been established through formal veterinary clinical trials. The single available animal study used 2.5 mg/kg in cats, but comprehensive tolerability data are absent. Known human safety concerns — including hypersensitivity reactions, hepatotoxicity, and neural tube defects with periconceptional exposure — require independent evaluation in feline species before veterinary use can be considered.
+Note for any neurodevelopmental use: neural tube defect signals in pregnancy (Tsepamo study, Botswana) have been reported with dolutegravir and would need careful review.
 
 ---
 
@@ -104,16 +114,22 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-Evidence is at L4 (preclinical/mechanistic level) — the mechanistic basis for INSTI activity against FIV integrase is biologically sound, but only one small pharmacokinetic/observational animal study involving dolutegravir in FIV-infected cats has been published. No registered Phase 1+ feline clinical trials exist, and comprehensive species-specific safety and efficacy data are unavailable.
+The high TxGNN score is supported only by human HIV-1 trials and a single veterinary study whose results we could not review. Cross-species activity against FIV integrase is not established. Nothing in the record indicates a human clinical use for this prediction, so it remains a research question.
 
 **To proceed, the following is needed:**
+- Full review of the 2023 FIV cat study (PMID 37112803), including efficacy, dosing and safety outcomes
+- Integrase sequence and in vitro susceptibility data for dolutegravir against FIV
+- SAHPRA Professional Information (warnings and contraindications), currently missing and blocking safety screening
+- Mechanism of action data from DrugBank
+- Confirmation of the regulatory pathway for any veterinary use, since SAHPRA registrations cover human medicines
 
-- **In vitro susceptibility data**: EC₅₀ and CC₅₀ of dolutegravir specifically against FIV integrase (not HIV-1 surrogate)
-- **Feline pharmacokinetic study**: Species-specific PK profiling in healthy cats to establish an appropriate dose range and confirm adequate plasma exposure
-- **Pilot safety/efficacy study**: Structured study in FIV-infected cats (Phase 1 equivalent), with defined endpoints for virological suppression and immune recovery (CD4+ T-cell count)
-- **Regulatory pathway clarification**: Determine whether this falls under SAHPRA veterinary medicine regulations (Act 36 of 1947) or off-label use provisions for veterinary practitioners
-- **MOA data retrieval**: Obtain mechanism of action details from DrugBank (DB08930) to formally document integrase inhibitory pharmacology in the Evidence Pack
-- **Safety gap remediation**: Retrieve SAHPRA/TFDA Professional Information (PI) to complete safety assessment (currently blocking items DG001 and DG002)
+**Other predictions in the pack:**
+- **Simian immunodeficiency virus infection (Hold, L4):** Macaque studies support the integrase mechanism. SIV is an animal model, so this backs the existing HIV-1 use rather than a new human target.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (Hold, L5):** There is no supporting trial or literature and no plausible mechanistic link. It is likely a knowledge-graph artifact and needs manual review.
+
+---
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

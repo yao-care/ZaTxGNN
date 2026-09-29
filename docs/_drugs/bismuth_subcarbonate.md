@@ -29,37 +29,44 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bismuth Subcarbonate: From Gastrointestinal Protection to Insomnia
+# Bismuth Subcarbonate: From Gastrointestinal Mucosal Protection to Insomnia
 
 ## One-Sentence Summary
 
-Bismuth subcarbonate is a bismuth salt with established gastrointestinal protective and antibacterial properties, historically used as an antacid and antidiarrheal agent.
-The TxGNN model predicts it may be effective for **Insomnia**, however this prediction is supported by **no clinical trials** and **no published literature** — it rests entirely on computational modelling.
-The biological plausibility of this prediction is low, as no known mechanism connects bismuth compounds to the neurological pathways governing sleep.
+Bismuth subcarbonate is a poorly absorbed, gut-local mucosal protectant. It is registered in South Africa as the product Pawmag, but no approved indication text is recorded for it.
+The TxGNN model predicts it may be effective for **insomnia**, with a very high score, but **0 clinical trials** and **0 publications** support this prediction.
+This is a model-only signal with no known sleep-related pharmacology, so the prediction should not be acted on.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gastrointestinal protective agent / antacid / antidiarrheal (no formal indication on file; no SAHPRA registration) |
+|------|------|
+| Original Indication | Not recorded (the SAHPRA licence has no approved indication text) |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.38% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for bismuth subcarbonate. Based on established pharmacology, bismuth subcarbonate is a bismuth(III) salt whose activity is concentrated in the gastrointestinal tract: bismuth ions (Bi³⁺) form a protective protein-bismuth complex that coats the gut mucosa, provide broad-spectrum antibacterial activity against gastrointestinal pathogens (including *Helicobacter pylori*) by disrupting bacterial enzyme activity and cell-wall synthesis, and suppress pro-inflammatory cytokines (IL-1β, TNF-α) within the intestinal mucosa. A class-effect analogy is bismuth subsalicylate (Pepto-Bismol), which shares these gastrointestinal mechanisms and has documented human use in acute diarrhoea and enteritis.
+Currently, detailed mechanism of action data is not available. Bismuth subcarbonate is a bismuth salt that acts locally in the gut. Bismuth salts are generally described as having mucosal-protective, antisecretory and antimicrobial effects, and systemic absorption is minimal.
 
-Insomnia involves dysregulation of sleep-promoting neurological pathways including GABAergic neurotransmission (benzodiazepine-sensitive GABA-A receptors), melatonin signalling (MT1/MT2 receptors), adenosine homeostasis, and orexin receptor antagonism (OX1R/OX2R). None of these pathways have any known intersection with bismuth ion pharmacology, and bismuth compounds have no documented central nervous system activity at therapeutic doses.
+**The insomnia prediction is not mechanistically supported.** No plausible link has been identified between a gut-local agent with minimal systemic exposure and CNS or sleep pharmacology. The high score (0.994) is a knowledge-graph output only. Its raw rank of 3,357 is not corroborated by any trial or publication. A closely related prediction, "sleep disorder, initiating and maintaining sleep" (score 92.81%), has the same weakness.
 
-The high TxGNN score of 99.38% most likely reflects non-specific co-morbidity linkages in the knowledge graph — insomnia commonly co-occurs with gastrointestinal conditions such as irritable bowel syndrome and functional dyspepsia — rather than a genuine mechanistic drug-disease relationship. The simultaneous appearance of two near-identical sleep indications (insomnia, rank 1; "sleep disorder, initiating and maintaining sleep", rank 6) in the top predictions further points to a topological bias in the model rather than a specific pharmacological signal.
+**Other predictions are more biologically sensible, though weakly evidenced.**
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 2 | Enterocolitis | 96.94% | L4 | Biologically plausible. The only evidence is a 1980 veterinary report in dogs (see note below), with no human data. |
+| 3 | Irritable bowel syndrome | 96.80% | L5 | Indirect plausibility only. Gut-local activity could plausibly affect diarrhoea and microbiota-related inflammation, but no studies were found. |
+
+The remaining predictions (neurocirculatory asthenia, acute intermittent porphyria, and several myasthenia gravis and peripheral autoimmune neuropathy terms) have no identifiable mechanistic basis. Several appear to result from clustering among related nodes in the graph. For myasthenia gravis, bismuth toxicity is itself neurological, which argues against benefit.
 
 ---
 
@@ -71,13 +78,23 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for insomnia.
+
+For context, the only publication retrieved for any prediction concerns enterocolitis (rank 2):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [6247810](https://pubmed.ncbi.nlm.nih.gov/6247810/) | 1980 | Veterinary clinical report | Veterinary Medicine, Small Animal Clinician | "Amforol" reported as effective for enteritis in dogs. No abstract was available, and the role of bismuth subcarbonate in that product is unverified. This is indirect animal evidence only. |
 
 ---
 
 ## South Africa Market Information
 
-Bismuth subcarbonate is **not currently marketed in South Africa** and holds **no SAHPRA registrations**. It does not appear on the South African Essential Medicines List (EML). There are no registered products to list.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| E/11.4.1/683 | Pawmag | Powder | Not recorded in the available data |
+
+Essential Medicines List (EML) status could not be confirmed from the available data.
 
 ---
 
@@ -85,7 +102,7 @@ Bismuth subcarbonate is **not currently marketed in South Africa** and holds **n
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-> **Important safety note for this candidate review:** Although full contraindication and warning data are not available in this Evidence Pack (identified as a Blocking data gap), clinicians should be aware that **bismuth toxicity (bismuth encephalopathy)** is a well-documented risk associated with prolonged or high-dose bismuth use. Clinical manifestations include tremor, ataxia, confusion, and muscle weakness. This toxicological profile is directly relevant to evaluating the full TxGNN prediction set: several predicted indications involve the neuromuscular junction and peripheral nervous system — conditions for which bismuth compounds may pose **harm rather than benefit** (see Conclusion below).
+No drug interaction records were found in the queried source.
 
 ---
 
@@ -94,22 +111,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-There is no plausible biological mechanism linking bismuth subcarbonate to sleep regulation, and the prediction is entirely unsupported by clinical trials or published literature (L5). The current evidence base does not meet the minimum threshold for any further investigation in this indication.
+The insomnia prediction rests only on a knowledge-graph score. There are no trials or publications, and the drug has no known CNS or sleep pharmacology. Safety information from the SAHPRA package insert is also missing, which blocks progression to safety screening.
 
-**Broader context across the full prediction set:**
+**To proceed, the following is needed:**
+- The SAHPRA package insert (warnings, contraindications and approved indication), to unblock safety screening
+- Mechanism of action data (for example, via DrugBank)
+- If any repurposing work is pursued, redirect it to the gastrointestinal predictions (enterocolitis, irritable bowel syndrome). Start with a human literature and trial search, since current evidence is limited to one veterinary report.
 
-Of the 10 TxGNN-predicted indications, the most biologically coherent signal is **enterocolitis (rank 2, score 96.94%)**, which directly aligns with bismuth's known gastrointestinal mechanism — mucosal protection, antimicrobial activity, and anti-inflammatory cytokine suppression. One veterinary uncontrolled study (PMID [6247810](https://pubmed.ncbi.nlm.nih.gov/6247810/), 1980) exists, placing it at L4. Class-effect evidence from bismuth subsalicylate in human enteritis provides additional indirect support. This direction represents the only scientifically viable repurposing hypothesis in this dataset and may warrant escalation to a targeted systematic review.
-
-Three predicted indications — **adult-onset myasthenia gravis (rank 7)**, **myasthenia gravis with thymus hyperplasia (rank 8)**, and **autoimmune disease of the peripheral nervous system (rank 10)** — carry a **reverse harm signal**: documented bismuth neurotoxicity (bismuth encephalopathy, bismuth neuropathy) targets precisely the neuromuscular junction and peripheral nervous system involved in these diseases. These directions should be formally flagged as contraindicated for repurposing research.
-
-**To progress the enterocolitis direction (rank 2), the following is needed:**
-
-- **Mechanism of action data:** Obtain full DrugBank entry for bismuth subcarbonate (DB11281) to confirm Bi³⁺ pharmacodynamic targets
-- **Class-effect literature review:** Systematic search for bismuth subsalicylate and bismuth subnitrate in human enterocolitis and infectious diarrhoea RCTs to establish indirect class-level evidence
-- **Regulatory landscape review:** Document global markets (e.g., USA, EU, Japan) where bismuth salts hold approved gastrointestinal indications, to inform a SAHPRA Section 21 or new drug application pathway
-- **Full safety data:** Retrieve complete contraindication and drug interaction profile from the DrugBank API and available international product monographs before any human study is considered
-
-> *This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All findings should be interpreted alongside SAHPRA-approved prescribing information.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

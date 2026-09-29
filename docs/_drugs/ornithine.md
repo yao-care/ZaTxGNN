@@ -2,7 +2,7 @@
 layout: default
 title: Ornithine
 parent: Model Prediction Only (L5)
-nav_order: 346
+nav_order: 353
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ornithine: From Unknown Original Indication to Congenital Prothrombin Deficiency
+# Ornithine: From Parenteral Nutrition Component to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Ornithine (DrugBank ID DB00129) is an endogenous amino acid; this evidence pack contains no record of an approved original indication or mechanism of action for it. The TxGNN model predicts potential relevance to **Congenital Prothrombin Deficiency**, but this is currently supported by only **1 loosely related clinical trial** and **0 publications**, with no identified mechanistic connection between the two.
+Ornithine is an amino acid in the urea cycle and polyamine pathway. In South Africa it is registered in two infusion products (Numeta G13E and G16E).
+The TxGNN model predicts it may be relevant to **congenital prothrombin deficiency**, but only **1 clinical trial** is linked, and it is not a treatment study.
+There is **no supporting literature**, and the mechanistic link is judged implausible, so the high score is not backed by biological evidence.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on record (no approved indication data available) |
-| Predicted New Indication | Congenital Prothrombin Deficiency |
+| Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 97.52% |
-| Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data for Ornithine is not available in this evidence pack (data gap DG002, High severity), and no approved original indication is on file. Based on general pharmacology, ornithine is an endogenous amino acid that functions primarily in the urea cycle (ammonia detoxification) and as a precursor for polyamine biosynthesis via ornithine decarboxylase.
+Currently, detailed mechanism of action data is not available for ornithine. Ornithine is a urea cycle and polyamine pathway amino acid. It has no known role in the synthesis of coagulation factor II (prothrombin).
 
-Congenital Prothrombin Deficiency is a rare, inherited coagulation factor (Factor II) deficiency. There is no known biochemical or pharmacological pathway linking ornithine metabolism to coagulation factor synthesis. The underlying scoring rationale for this candidate explicitly states that no mechanistic link was identified, and that the one supporting clinical trial co-occurs with this indication only because both are registered as rare inherited metabolic/genetic disorders — not because of any real disease-mechanism overlap.
+Congenital prothrombin deficiency is a rare inherited bleeding disorder caused by low or dysfunctional factor II. No plausible biological link to ornithine has been identified. The 97.52% score reflects patterns in the knowledge graph, not demonstrated biology, so it should be read as a hypothesis-generating signal only.
 
-Given the absence of a plausible mechanism and a weak, off-topic evidence base, this prediction should be treated as a low-confidence, model-only signal rather than a clinically actionable hypothesis at this time.
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04612764](https://clinicaltrials.gov/study/NCT04612764) | N/A | Recruiting | 62 | Multi-center cross-sectional study of non-invasive biomarkers (Fibroscan, MRE, serum) for liver fibrosis in **urea cycle disorders** — not a study of congenital prothrombin deficiency; relevance graded C (topic mismatch) |
+| [NCT04612764](https://clinicaltrials.gov/study/NCT04612764) | N/A | Recruiting | 62 | Cross-sectional study of liver fibrosis biomarkers (serum markers, Fibroscan, MRE) in urea cycle disorders. It does not test ornithine for prothrombin deficiency, so the overlap is only a general liver or metabolic theme. |
+
+---
 
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## South Africa Market Information
 
-Ornithine is currently **not marketed** in South Africa — this evidence pack records 0 SAHPRA registrations, so no product/dosage-form details are available.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion |
+| Reg. No. 52/25/0740 | Numeta G16E | Infusion |
+
+Both registrations are for injectable (infusion) products. The registration records do not include approved indication text.
+
+---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence level is L5 (model prediction only) — no mechanistic link connects ornithine metabolism to prothrombin/coagulation factor deficiency, and the sole associated clinical trial addresses an unrelated topic (urea cycle disorder liver fibrosis biomarkers, not prothrombin deficiency).
+The prediction rests on a model score alone. The only linked trial is an unrelated observational study, there is no literature, and no plausible mechanism connects ornithine to prothrombin synthesis. The other nine predicted indications in this pack (for example vitamin deficiency disorder, aortic malformation and acne) are also on Hold, with either no evidence or only indirect or unfavourable mechanistic evidence.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information, including warnings and contraindications (currently a Blocking data gap, DG001)
-- Detailed mechanism of action data for ornithine (High-severity data gap, DG002)
-- Disease-specific clinical trials or literature directly evaluating ornithine (or a related agent) in congenital prothrombin deficiency or coagulation disorders
-- Confirmation of ornithine's original approved indication, to establish a baseline for the repurposing rationale
+- A credible biological rationale linking ornithine to prothrombin (factor II) synthesis or function
+- Preclinical or clinical data testing ornithine in congenital prothrombin deficiency
+- Mechanism of action data from DrugBank
+- SAHPRA Professional Information (PI) for the Numeta products, to complete the safety review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

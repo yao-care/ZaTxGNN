@@ -33,33 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Benzoyl peroxide (BPO) is a well-established topical antimicrobial and keratolytic agent, widely used internationally for the treatment of acne vulgaris, though it currently holds no SAHPRA registration in South Africa.
-The TxGNN model predicts it may have potential in **Vulvar Inverted Follicular Keratosis**, a rare benign follicular keratinisation tumour of the vulvar epithelium.
-However, there are currently **0 clinical trials** and **0 publications** directly supporting this prediction, placing this candidate at the lowest evidence tier (L5).
+Benzoyl peroxide is a topical agent widely used in anti-acne products. The registration data supplied here does not record an approved indication, so the acne use comes from general pharmacological knowledge.
+The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**, but **0 clinical trials** and **0 publications** support this prediction. It is a graph-based signal only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Acne vulgaris (established international use; not registered with SAHPRA) |
-| Predicted New Indication | Vulvar Inverted Follicular Keratosis |
-| TxGNN Prediction Score | 99.92% |
+|------|------|
+| Original Indication | Not recorded in the SAHPRA licence data supplied. Acne vulgaris is inferred from general knowledge (product name "Acneclear") |
+| Predicted New Indication | Vulvar inverted follicular keratosis |
+| TxGNN Prediction Score | 99.92% (model rank 723) |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, benzoyl peroxide is a topical oxidising agent that releases reactive oxygen species upon contact with skin, exerting both antimicrobial activity against *Cutibacterium acnes* and a direct keratolytic effect on the follicular epithelium. These dual properties underpin its well-established global use in inflammatory and non-inflammatory acne vulgaris.
+Detailed mechanism of action data is not available in the Evidence Pack. Benzoyl peroxide is generally known as a topical bactericidal (against *C. acnes*), comedolytic and mildly anti-inflammatory agent. This general knowledge is not drawn from the supplied data.
 
-Vulvar inverted follicular keratosis (VIFK) is a rare benign tumour arising from the infundibular follicular epithelium, characterised pathologically by endophytic growth, squamous eddies, and abnormal keratinisation. The TxGNN prediction most likely reflects a knowledge-graph category association between the node cluster "keratinising skin disease" and the node cluster "keratolytic/oxidising agent" — mechanistically plausible in a broad sense, but without any specific biological or clinical anchor to VIFK.
+Inverted follicular keratosis is a benign follicular lesion. No link has been established between benzoyl peroxide's keratolytic or antibacterial action and this condition. The high score most likely reflects a graph association, not a demonstrated biological rationale.
 
-The anatomical context substantially weakens this prediction: the vulvar epithelium is highly sensitive mucosal or perimucosal tissue, and BPO at standard therapeutic concentrations (2.5–10%) is well known to cause significant oxidative irritation on sensitive surfaces. The theoretical keratolytic rationale does not translate into a clinically viable treatment pathway for a benign follicular tumour of this anatomical site. This prediction should be regarded as a model artefact rather than a true repurposing signal.
+Other candidates in the top 10 have somewhat more context (see "Other Predicted Candidates" below), but none is supported by direct clinical evidence.
 
 ---
 
@@ -77,17 +76,32 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Benzoyl peroxide is **not currently registered with SAHPRA** and holds no active product licences in South Africa. No approved indications, dosage forms, or registration numbers are on record.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 51/13.12/0911 | Deriva Co | Gel (topical) | Not stated in the registration record |
+| Reg. No. X/13.12/292 | Acneclear | Cream (topical) | Not stated in the registration record |
 
-Healthcare professionals wishing to use benzoyl peroxide in South Africa for any indication would need to apply for a **Section 21 unregistered medicine authorisation** through SAHPRA prior to use.
+---
+
+## Other Predicted Candidates
+
+Only the rank 1 prediction is assessed above. Of the other nine, two have some supporting material, and neither shows benefit for the predicted condition.
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 4 | Acne keloid | 99.06% | L4 | Only plausible link: it overlaps with acne, a follicular inflammatory condition. One Phase 1/2 acne trial ([NCT07015931](https://clinicaltrials.gov/study/NCT07015931), n=23, completed) compares retinoids and does not clearly include benzoyl peroxide. Two reviews are indirect ([PMID 21034705](https://pubmed.ncbi.nlm.nih.gov/21034705/), [PMID 39090034](https://pubmed.ncbi.nlm.nih.gov/39090034/)). No trial has tested benzoyl peroxide in this condition. Worth a research question, not a treatment recommendation. |
+| 7 | Phototoxic dermatitis | 98.77% | L4 | The only publication ([PMID 25982754](https://pubmed.ncbi.nlm.nih.gov/25982754/), 2015 review) describes contact dermatitis from topical anti-acne drugs. It reports a low potential for phototoxic reactions but more frequent irritant dermatitis. This is a risk signal, not evidence of benefit. |
+| 2 | 2-Hydroxyethyl methacrylate sensitization | 99.43% | L5 | Benzoyl peroxide is itself a contact sensitizer, so the association reflects a hazard, not a use. |
+| 3, 5, 6, 8, 9, 10 | Acrodermatitis chronica atrophicans, dermatomyositis (neonatal and amyopathic), childhood connective-tissue interstitial lung disease, familial hydroa vacciniforme, neurodermatitis | 97.7–99.2% | L5 | No evidence and no plausible mechanism. Irritation is a concern in several of these (neonatal skin, photosensitive rashes, neurodermatitis). |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Irritation and sensitization**: A 2015 review notes that irritant contact dermatitis is the more frequent problem with topical anti-acne drugs, including benzoyl peroxide, and that allergic contact sensitization and phototoxic potential are low ([PMID 25982754](https://pubmed.ncbi.nlm.nih.gov/25982754/)).
+- **Drug interactions**: No interaction records were found for this drug.
 
-> **Note for prescribers:** Although detailed safety data was not retrievable in this evidence pack, it is widely documented that benzoyl peroxide is a potent contact irritant and known cutaneous sensitiser. Its application to mucosal or perimucosal surfaces (such as the vulva) carries a substantive risk of severe local irritation and contact dermatitis that would need to be carefully weighed before any off-label use is considered.
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -96,17 +110,13 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical or preclinical evidence supporting benzoyl peroxide for vulvar inverted follicular keratosis, and the prediction is most likely driven by a non-specific knowledge-graph association between keratolytic agents and keratinising lesions rather than any direct mechanistic or empirical link. The anatomical target (vulvar mucosa) further raises significant tolerability concerns for a potent oxidising compound.
+The top prediction (vulvar inverted follicular keratosis) has no trials, no publications and no plausible mechanism, so the 99.92% score is a graph-based signal only. The PI safety review is also incomplete, which blocks progression to safety screening.
 
 **To proceed, the following is needed:**
-- Retrieve full mechanism of action data from DrugBank (DB09096) and a SAHPRA/FDA-approved Professional Information document to characterise the complete pharmacological and safety profile
-- Conduct a targeted literature review for BPO activity against any benign follicular keratinisation tumour, including case reports or in vitro studies, to determine whether a preclinical signal exists
-- Assess mucosal tolerability data (e.g., existing data on perioral or genital mucosa exposure) before any clinical translation is considered
-- This candidate should not advance beyond a research question without at minimum one independent preclinical study demonstrating activity in a VIFK-relevant model
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before any clinical application. Healthcare professionals should report adverse drug reactions to SAHPRA.*
+- Obtain the SAHPRA package inserts for both registered products (Deriva Co, Acneclear) to confirm approved indications, warnings and contraindications
+- Add mechanism of action data from DrugBank (DB09096)
+- Run a targeted literature search for benzoyl peroxide in inverted follicular keratosis and related follicular lesions
+- Consider acne keloid (rank 4) as a separate research question, since it has the most plausible link to the original acne use, and reassess it with a dedicated evidence review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

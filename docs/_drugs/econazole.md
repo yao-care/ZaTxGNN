@@ -2,7 +2,7 @@
 layout: default
 title: Econazole
 parent: Model Prediction Only (L5)
-nav_order: 203
+nav_order: 207
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Econazole: From Topical Antifungal Therapy to Ectothrix Infectious Disease
+# Econazole: From Topical Antifungal Use to Ectothrix Infectious Disease
 
 ## One-Sentence Summary
 
-Econazole is an imidazole-class antifungal historically used to treat superficial fungal skin and mucosal infections. The TxGNN model predicts it may also be effective for **Ectothrix Infectious Disease** (a dermatophyte infection confined to the outer hair shaft), but this is currently a **model-score-only prediction** — no clinical trials and no literature in this evidence pack support it, and the drug is not presently registered for sale in South Africa.
+Econazole is an imidazole antifungal, marketed in South Africa as a vaginal cream and a cream (the SAHPRA records supplied contain no approved-indication text).
+The TxGNN model predicts it may be effective for **ectothrix infectious disease** (dermatophyte infection on the outside of the hair shaft).
+Currently there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it is a model prediction only.
 
 ---
 
@@ -41,23 +43,23 @@ Econazole is an imidazole-class antifungal historically used to treat superficia
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no SAHPRA licence on file); internationally recognised as a topical antifungal for dermatomycoses and vulvovaginal candidiasis |
-| Predicted New Indication | Ectothrix Infectious Disease |
+| Original Indication | Not stated in the supplied SAHPRA data (product forms and drug class suggest topical antifungal use) |
+| Predicted New Indication | Ectothrix infectious disease |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Econazole is not available in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge — and consistent with the rationale text attached to other predictions in this same pack — Econazole is an imidazole-class antifungal that inhibits fungal cell-membrane ergosterol synthesis, and is established for treating superficial dermatomycoses and vulvovaginal candidiasis.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, econazole is an imidazole antifungal that inhibits fungal lanosterol 14-alpha-demethylase (CYP51). This blocks ergosterol synthesis and damages the fungal cell membrane.
 
-Ectothrix infectious disease refers to dermatophyte infection of the outer hair shaft, a pattern of superficial fungal infection. Mechanistically, this falls within the broad antifungal spectrum that imidazoles such as Econazole are known to cover, since ectothrix and related tinea infections are caused by the same dermatophyte genera (e.g. *Microsporum*, *Trichophyton*) that Econazole is active against in its established uses.
+Ectothrix infections are caused by dermatophytes such as *Microsporum* and *Trichophyton*, which are fungi that econazole's mechanism can plausibly act against. This is the likely basis for the high TxGNN score. The link is mechanistic only, and no trial or publication in the input tests econazole in this condition.
 
-However, this mechanistic plausibility is theoretical only. The evidence pack's own rationale explicitly notes that this prediction is "僅為 TxGNN 預測分數" (based solely on the TxGNN prediction score), with no clinical trial or published literature identified specifically linking Econazole to ectothrix infection. The prediction should be treated as a hypothesis-generation signal rather than an evidence-backed candidate at this stage.
+There is also a practical limit. Fungi that invade hair, and deeper dermatophyte infections, are often hard to reach with topical products. Guidelines usually favour systemic therapy for scalp involvement. Whether econazole cream reaches the infected hair sheath at effective concentrations has not been shown here. Route compatibility has not yet been assessed.
 
 ---
 
@@ -75,7 +77,12 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Econazole has no SAHPRA registrations on file — market status is **Not Marketed**, with 0 licences recorded. No approved indication text is therefore available from South African regulatory records for this drug.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. R/18.6/179 | Gyno pevaryl depot | Vaginal cream | Not provided in the supplied data |
+| Reg. No. Q/13.4.1/0220 | Pevisone | Cream | Not provided in the supplied data |
+
+Both registered products are topical. No systemic econazole product appears in the data. Pevisone's name suggests a combination with a corticosteroid, but the supplied data does not confirm this. Check the PI.
 
 ---
 
@@ -90,13 +97,20 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-Although TxGNN assigns Econazole a very high prediction score (99.97%) for ectothrix infectious disease, this rests entirely on the model output — there are zero clinical trials and zero literature citations supporting it (Evidence Level L5), and the drug currently has no SAHPRA registration in South Africa.
+The prediction rests on a plausible antifungal mechanism alone. There are no trials, no literature, no verified original indication and no safety data. This is Evidence Level L5 (model prediction only), and the topical route may not suit hair-shaft infection.
 
 **To proceed, the following is needed:**
-- Econazole's SAHPRA-approved Professional Information (warnings/contraindications) — currently a Blocking data gap
-- Detailed mechanism of action (MOA) data from DrugBank or equivalent source — currently a High-severity data gap
-- A targeted literature and trial search specific to Econazole in ectothrix/tinea capitis infection (the current search returned no hits)
-- Confirmation of whether Econazole will be pursued for South African market registration, given it is not currently marketed
+- SAHPRA package insert (PI) warnings, contraindications and approved indications, which are a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Clinical or in vitro evidence of econazole activity against ectothrix dermatophytes, and evidence of topical penetration into the hair sheath
+- Review of route compatibility (topical vs the systemic therapy usually needed)
+
+**Note on other predictions in this pack:**
+- **Vulvovaginal candidiasis** and **vulvovaginitis** (candidal) have the strongest support: L2, with several econazole comparative studies, including a double-blind study against clotrimazole ([7820892](https://pubmed.ncbi.nlm.nih.gov/7820892/)) and a South African study ([7403993](https://pubmed.ncbi.nlm.nih.gov/7403993/)). These are most likely existing labelled uses rather than true repurposing. Recommended decision: Proceed with Guardrails, after confirming the SAHPRA label status and considering azole resistance in non-albicans *Candida*.
+- **Superficial mycosis** (L4) is probably also an existing labelled use. Its literature is mostly reviews of other azoles.
+- **Majocchi granuloma, endothrix infection, tinea profunda, dermatophytosis of scalp or beard, acne** and **postmenopausal atrophic vaginitis** have no supporting econazole evidence (L4–L5, Hold). For atrophic vaginitis the antifungal mechanism has no clear therapeutic link, and the score is probably a knowledge-graph artefact.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Docetaxel
 parent: High Evidence (L1-L2)
-nav_order: 187
+nav_order: 190
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,101 +29,105 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Docetaxel: From Taxane Antineoplastic to Female Breast Carcinoma
+# Docetaxel: From Registered Cytotoxic Chemotherapy to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Docetaxel is a taxane-class cytotoxic chemotherapy agent used globally for the treatment of multiple solid tumours including breast, prostate, and lung cancers, but is currently not registered in South Africa.
-The TxGNN model predicts it may be effective for **Female Breast Carcinoma**,
-with **50 clinical trials** and **20 publications** currently supporting this direction — including multiple large completed Phase 3 RCTs recognised by the FDA and EMA.
+Docetaxel is a taxane chemotherapy drug. The registration record supplied does not state its approved indication.
+The TxGNN model predicts it may be effective for **female breast carcinoma**, supported by **more than 40 registered clinical trials** (including several large completed Phase 3 trials) and **20 publications**.
+Breast cancer is very likely already a labelled use of docetaxel, so this may be confirmation of an established use rather than true repurposing. This should be checked against the SAHPRA Professional Information (PI).
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No SAHPRA-registered indication (drug not currently registered in South Africa) |
-| Predicted New Indication | Female Breast Carcinoma |
+|------|------|
+| Original Indication | Not stated in the SAHPRA record supplied |
+| Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L1 |
-| South Africa Market Status | Not registered |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Docetaxel is a taxane-class microtubule-stabilising agent. It works by promoting tubulin polymerisation and inhibiting depolymerisation, thereby blocking tumour cells at the G2/M phase of cell division and inducing programmed cell death (apoptosis). This mechanism directly targets the machinery that all rapidly dividing cells depend on — a hallmark of breast carcinoma regardless of subtype.
+Currently, detailed mechanism of action data is not available in the database record. Docetaxel is a microtubule-stabilising taxane. It prevents the mitotic spindle from disassembling and causes G2/M cell-cycle arrest in rapidly dividing tumour cells. This mechanism fits the high TxGNN score of 0.999.
 
-Breast cancer cells — whether hormone receptor-positive, HER2-positive, or triple-negative — depend on continuous active proliferation for growth and survival. Docetaxel's cytotoxic effect is therefore broadly applicable across breast cancer subtypes. Beyond its standalone activity, it demonstrates well-documented synergy with HER2-targeted agents (trastuzumab, pertuzumab), anthracyclines and alkylating agents (doxorubicin, cyclophosphamide), platinum salts (carboplatin), and immune checkpoint inhibitors (pembrolizumab) — making it a backbone agent across neoadjuvant, adjuvant, and metastatic treatment settings.
+Breast tumours are highly proliferative, so an anti-mitotic agent is a sensible fit. The trial evidence supports this. Docetaxel appears as a named component in adjuvant, neoadjuvant and metastatic breast cancer regimens, including combinations with anthracyclines, cyclophosphamide, carboplatin, capecitabine, gemcitabine and HER2-targeted antibodies.
 
-Docetaxel has been approved for breast cancer by both the FDA and EMA for over 30 years, with Level 1 evidence from multiple Phase 3 RCTs enrolling thousands of patients. Landmark trials such as BCIRG 005 (n=5,351), NSABP B-27 (n=2,411), HERA (n=2,168), and FNCLCC/PACS 01 (n=3,010) directly establish its clinical benefit in early and locally advanced disease, while Phase 2 and 3 data confirm its role in HER2-negative and triple-negative metastatic breast cancer. The TxGNN prediction reflects a globally established clinical reality; the primary opportunity for South Africa is establishing formal regulatory access pathways through SAHPRA.
+The original indication field is empty in the data supplied. If breast cancer is already on the registered label, this prediction is a confirmation of use and not a new indication. The label should be checked before this candidate is classed as repurposing.
 
 ---
 
 ## Clinical Trial Evidence
 
+No SANCTR or PACTR identifiers were found in the data supplied. TARMAC is the only African trial listed (Nigeria).
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT00003782](https://clinicaltrials.gov/study/NCT00003782) | Phase 3 | Completed | 5,351 | Three-arm adjuvant trial comparing AC→T vs AT vs ATC in node-positive breast cancer; established Docetaxel-containing regimens as standard adjuvant care |
-| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | Phase 3 | Completed | 2,411 | Preoperative AC alone vs AC + Docetaxel (pre- or postoperative) in operable Stage II–III breast cancer; pivotal neoadjuvant trial establishing pCR as a surrogate endpoint |
-| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Phase 3 | Completed | 3,270 | Adjuvant TC or AC→paclitaxel ± trastuzumab in HER2-low invasive breast cancer; large adjuvant platform assessing the role of HER2-targeted therapy addition |
-| [NCT00593697](https://clinicaltrials.gov/study/NCT00593697) | Phase 3 | Completed | 2,168 | Trastuzumab + Docetaxel → FEC vs same regimen → single-agent trastuzumab in HER2+ early breast cancer; evaluated disease-free survival |
-| [NCT00054587](https://clinicaltrials.gov/study/NCT00054587) | Phase 3 | Completed | 3,010 | Docetaxel 75 mg/m² + Epirubicin 75 mg/m² vs FEC100 in node-positive breast cancer with sequential trastuzumab in HER2+++ patients |
-| [NCT03639948](https://clinicaltrials.gov/study/NCT03639948) | Phase 2 | Active, Not Recruiting | 120 | Pembrolizumab + Carboplatin + Docetaxel as neoadjuvant therapy in triple-negative breast cancer (TNBC); contemporary immunochemotherapy combination |
-| [NCT00217672](https://clinicaltrials.gov/study/NCT00217672) | Phase 2 | Completed | 76 | Docetaxel ± Bevacizumab as first-line therapy for HER2-negative metastatic breast cancer; directly evaluated Docetaxel efficacy and the added value of anti-angiogenic therapy |
-| [NCT01352494](https://clinicaltrials.gov/study/NCT01352494) | Phase 2 | Unknown | 99 | Docetaxel + Gemcitabine as neoadjuvant chemotherapy in locally advanced breast cancer; multi-centre assessment of response rate and safety profile |
-| [NCT01547741](https://clinicaltrials.gov/study/NCT01547741) | Phase 3 | Unknown | 1,871 | Docetaxel + Cyclophosphamide (TC) vs anthracycline-based regimens in HER2-negative node-positive or high-risk node-negative breast cancer; direct comparison of non-anthracycline Docetaxel regimen |
-| [NCT05301010](https://clinicaltrials.gov/study/NCT05301010) | Phase 3 | Completed | 128 | Trastuzumab biosimilar (NNG-TMAB) + Docetaxel in HER2+ recurrent or metastatic breast cancer; confirmed biosimilar equivalence with Docetaxel as the chemotherapy backbone |
+|---------|------|------|------|---------|
+| [NCT00003782](https://clinicaltrials.gov/study/NCT00003782) | Phase 3 | Completed | 5351 | Compares adjuvant AC followed by docetaxel, AT, and ATC in node-positive breast cancer |
+| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | Phase 3 | Completed | 2411 | Preoperative AC versus AC followed by docetaxel (before or after surgery) in operable breast cancer |
+| [NCT00054587](https://clinicaltrials.gov/study/NCT00054587) | Phase 3 | Completed | 3010 | Docetaxel plus epirubicin versus FEC100 in node-positive breast cancer, with sequential trastuzumab in HER2-positive disease |
+| [NCT00593697](https://clinicaltrials.gov/study/NCT00593697) | Phase 3 | Completed | 2168 | Trastuzumab plus docetaxel followed by FEC, with or without further trastuzumab, in early HER2-positive breast cancer |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Phase 3 | Completed | 3270 | Adjuvant chemotherapy (docetaxel-cyclophosphamide or AC followed by paclitaxel) with or without trastuzumab in HER2-low breast cancer |
+| [NCT01547741](https://clinicaltrials.gov/study/NCT01547741) | Phase 3 | Unknown | 1871 | Docetaxel plus cyclophosphamide versus anthracycline-based regimens in HER2-negative, node-positive or high-risk breast cancer |
+| [NCT00193011](https://clinicaltrials.gov/study/NCT00193011) | Phase 3 | Completed | 150 | Weekly docetaxel versus CMF in high-risk breast cancer patients over 65 or unsuitable for anthracyclines |
+| [NCT00217672](https://clinicaltrials.gov/study/NCT00217672) | Phase 2 | Completed | 76 | Docetaxel with or without bevacizumab as first-line therapy for HER2-negative metastatic breast cancer |
+| [NCT03639948](https://clinicaltrials.gov/study/NCT03639948) | Phase 2 | Active, not recruiting | 120 | Neoadjuvant pembrolizumab plus carboplatin plus docetaxel in triple-negative breast cancer |
+| [NCT06291064](https://clinicaltrials.gov/study/NCT06291064) | Phase 2 | Recruiting | 85 | Epirubicin-cyclophosphamide followed by docetaxel-carboplatin in Nigerian women with triple-negative breast cancer, with biomarker analysis |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | Phase 3 RCT | J Clin Oncol | ABC Trials (USOR 06-090, NSABP B-46-I/B-49): compared TC6 vs TaxAC — anthracycline-containing taxane regimens superior to TC6 in reducing early breast cancer recurrence |
-| [7595719](https://pubmed.ncbi.nlm.nih.gov/7595719/) | 1995 | Review | J Clin Oncol | Comprehensive review of Docetaxel's preclinical and clinical pharmacology; foundational reference establishing antineoplastic mechanism and early clinical activity in breast cancer |
-| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Cohort | Breast Cancer (Tokyo) | Docetaxel + Cyclophosphamide + Trastuzumab (HER-TC) as neoadjuvant chemotherapy in HER2+ breast cancer; reported pCR rates with hormone receptor subtype stratification |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug Ther Bull | Comparative review of paclitaxel and docetaxel in breast and ovarian cancer; contextualised early evidence for the taxane class in breast carcinoma |
-| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Phase 2 | Cancer | Capecitabine + Docetaxel + Epirubicin (TEX) as first-line treatment in locally advanced or metastatic breast carcinoma; demonstrated clinical activity in a triplet regimen |
-| [11481357](https://pubmed.ncbi.nlm.nih.gov/11481357/) | 2001 | Phase 2 RCT | J Clin Oncol | Dose-dense Doxorubicin + Docetaxel ± Tamoxifen as preoperative therapy in operable breast cancer; randomised evaluation of pathological complete response rates |
-| [15585076](https://pubmed.ncbi.nlm.nih.gov/15585076/) | 2004 | Phase 2 | Clin Breast Cancer | Docetaxel + Cisplatin as primary (neoadjuvant) chemotherapy in locally advanced breast cancer; evaluated pCR and down-staging rates prior to modified radical mastectomy |
-| [9364543](https://pubmed.ncbi.nlm.nih.gov/9364543/) | 1997 | Phase 2 | Oncology | Docetaxel + Vinorelbine combination in metastatic breast cancer and NSCLC; reported response rates of 23–36% in previously untreated patients |
-| [19856651](https://pubmed.ncbi.nlm.nih.gov/19856651/) | 2009 | Phase 1 | Tumori | Docetaxel + Gemcitabine dose-finding study in anthracycline-pretreated metastatic breast cancer; established feasibility of weekly scheduling |
-| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Cohort | Anti-Cancer Drugs | Association between adjuvant Docetaxel-based chemotherapy and breast cancer-related lymphedema; identified risk factors relevant to patient monitoring in clinical practice |
+|------|-----|------|------|---------|
+| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | RCT | J Clin Oncol | ABC trials: docetaxel-cyclophosphamide (TC) compared with standard taxane-anthracycline regimens in early breast cancer |
+| [11481357](https://pubmed.ncbi.nlm.nih.gov/11481357/) | 2001 | RCT (Phase IIb) | J Clin Oncol | Preoperative dose-dense doxorubicin and docetaxel, with or without tamoxifen, in operable breast cancer |
+| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Phase 2 | Breast Cancer | Docetaxel, cyclophosphamide and trastuzumab as neoadjuvant therapy in HER2-positive breast cancer |
+| [15585076](https://pubmed.ncbi.nlm.nih.gov/15585076/) | 2004 | Phase 2 | Clin Breast Cancer | Docetaxel-cisplatin as primary chemotherapy in locally advanced breast cancer, with pathological complete response as the endpoint |
+| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Phase 2 | Oncology | Weekly docetaxel and gemcitabine as first-line therapy for metastatic breast cancer |
+| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Phase 2 | Cancer | Capecitabine with docetaxel and epirubicin in untreated advanced breast cancer |
+| [15074734](https://pubmed.ncbi.nlm.nih.gov/15074734/) | 2004 | Case series | Clin Oncol | Trastuzumab plus docetaxel in HER2-overexpressing metastatic breast cancer, an experience from India |
+| [7595719](https://pubmed.ncbi.nlm.nih.gov/7595719/) | 1995 | Review | J Clin Oncol | Early review of the preclinical and clinical profile of docetaxel |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug Ther Bull | Review of paclitaxel and docetaxel in breast and ovarian cancer |
+| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Cohort | Anti-Cancer Drugs | Retrospective study of adjuvant docetaxel-based chemotherapy and breast cancer-related lymphedema, a fluid-retention safety question |
 
 ---
 
 ## South Africa Market Information
 
-Docetaxel currently has **no SAHPRA registrations** and is not marketed in South Africa.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| A39/26/0551 | Docetere 80Mg | Infusion | Not stated in the record supplied |
 
-Healthcare professionals requiring access to Docetaxel must apply for **Section 21 unregistered medicine authorisation** from SAHPRA on a patient-by-patient or programme basis. This is a significant access barrier, given that the drug is a standard-of-care agent internationally.
-
-There are no registered products to list at this time.
+The EML status is not included in the data supplied.
 
 ---
 
 ## Cytotoxicity
 
+Docetaxel is an antineoplastic drug. No DrugBank toxicity data were supplied, so the entries below are based on drug class. Please refer to the Professional Information (PI) warnings and precautions.
+
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Taxane class (microtubule-stabilising agent) |
-| Myelosuppression Risk | **High** — febrile neutropenia is the dose-limiting toxicity; Grade 3/4 neutropenia occurs in 75–85% of patients receiving standard 3-weekly Docetaxel 75 mg/m²; G-CSF prophylaxis is strongly recommended |
-| Emetogenicity Classification | **Low to moderate** (MASCC/ESMO classification: minimal to low emetogenic potential for Docetaxel monotherapy; increases to moderate when combined with anthracyclines or platinum) |
-| Monitoring Items | Full blood count (FBC) with differential before each cycle; liver function tests (ALT, AST, alkaline phosphatase, total bilirubin — Docetaxel is contraindicated with significant hepatic impairment); peripheral neuropathy assessment; fluid retention and oedema monitoring (cumulative dose-related; corticosteroid premedication required) |
-| Handling Protection | Must be prepared and administered according to cytotoxic drug handling regulations — closed-system transfer devices (CSTD), appropriate PPE (gloves, gown, eye protection), dedicated pharmacy laminar-flow preparation area, and cytotoxic waste disposal per South African regulations |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (taxane, microtubule stabiliser) |
+| Myelosuppression Risk | High (neutropenia is the main concern) |
+| Emetogenicity Classification | Low to moderate |
+| Monitoring Items | FBC with differential, liver function (dose adjustment may be needed in hepatic impairment), renal function; watch for hypersensitivity, fluid retention and peripheral neuropathy |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for complete safety information once registration is obtained. In the interim, consult the FDA or EMA-approved prescribing information (Taxotere® US Prescribing Information / EU SmPC) for full details on warnings, contraindications, and drug interactions.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-Report any adverse drug reactions experienced during Section 21 access to SAHPRA via the **MedSafety** pharmacovigilance reporting system.
+The retrieved literature notes that docetaxel-based chemotherapy can cause fluid retention and peripheral oedema. A retrospective study (PMID 27997437) examined its link with breast cancer-related lymphedema.
 
 ---
 
@@ -132,16 +136,20 @@ Report any adverse drug reactions experienced during Section 21 access to SAHPRA
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Docetaxel has one of the strongest evidence bases in oncology for female breast carcinoma, with multiple completed Phase 3 RCTs (each enrolling 2,000–5,000 patients) and longstanding FDA and EMA approvals. The evidence quality meets L1 criteria. The primary barriers to use in South Africa are the complete absence of SAHPRA registration and the associated safety data gaps — these are administrative and regulatory challenges, not clinical or scientific ones.
+Several large, completed Phase 3 trials (up to 5,351 participants) include docetaxel in breast cancer regimens. The mechanism is plausible, so the evidence for breast cancer is strong (L1). The local record has no approved-indication text or safety data, and breast cancer may already be a labelled use. These gaps are why the decision carries guardrails.
 
 **To proceed, the following is needed:**
+- The SAHPRA package insert (PI) for Docetere 80Mg, to confirm the approved indications and to obtain warnings, contraindications and interactions. This is a blocking gap.
+- Confirmation of whether breast cancer is already on the registered label, to decide whether this is true repurposing.
+- Verified mechanism of action data from DrugBank.
+- Confirmation of the docetaxel-specific contribution in trials where it is one component of a combination regimen.
 
-- **Immediate access**: Apply for SAHPRA Section 21 unregistered medicine authorisation for individual patients requiring Docetaxel, supported by clinical justification and global prescribing information
-- **Medium-term registration**: Initiate or support a full SAHPRA marketing authorisation application using the existing FDA/EMA-approved dossier as the basis (abridged registration pathway)
-- **Safety documentation**: Obtain the FDA or EMA-approved Professional Information (PI/SmPC) to complete the contraindications, key warnings, and drug interaction profile review (resolving Data Gaps DG001 and DG002)
-- **Pharmacy and infrastructure readiness**: Confirm cytotoxic drug preparation infrastructure (CSTD-equipped pharmacy units) and cold-chain logistics at treating institutions
-- **Clinical protocols**: Develop G-CSF prophylaxis protocols for febrile neutropenia management appropriate to South African oncology practice settings, and establish corticosteroid premedication schedules for fluid retention prevention
-- **Pharmacovigilance**: Register Docetaxel use under Section 21 with SAHPRA MedSafety to enable adverse event tracking prior to full registration
+**Other predictions in this pack:**
+- Ewing sarcoma and rhabdomyosarcoma have small Phase 2 evidence, mostly gemcitabine-docetaxel combinations. These are research questions only.
+- The lung and lymphoma predictions appear to reflect NSCLC trials in which docetaxel was the comparator, not evidence in the predicted diseases. These are on hold.
+- The remaining rare sarcoma predictions have no retrieved trials or literature and are on hold.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

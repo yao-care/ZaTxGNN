@@ -2,7 +2,7 @@
 layout: default
 title: Esomeprazole
 parent: Moderate Evidence (L3-L4)
-nav_order: 211
+nav_order: 215
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,76 +29,68 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Esomeprazole: From Acid-Related Disorders to Duodenogastric Reflux
+# Esomeprazole: Predicted New Indication of Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Esomeprazole is a proton pump inhibitor (PPI) with globally established use in gastric acid-related conditions (GERD, peptic ulcer disease, H. pylori eradication). The TxGNN model predicts it may be effective for **Duodenogastric Reflux**, but this is currently supported only by mechanistic reasoning and **1 general review article** — no clinical trials specifically address this indication.
-
----
+Esomeprazole is a proton pump inhibitor (PPI) that suppresses gastric acid, and it is registered in South Africa in three products.
+The TxGNN model predicts it may be useful for **duodenogastric reflux**, but only **1 general review article** and **no clinical trials** currently support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acid-related disorders (GERD, peptic ulcer disease, H. pylori eradication) — well-established PPI-class use; formal SAHPRA-approved indication text is unavailable because the product is not currently marketed in South Africa |
-| Predicted New Indication | Duodenogastric Reflux |
+| Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.53% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for esomeprazole is not available in this evidence pack (DrugBank MOA query is flagged as a data gap). Based on known information, esomeprazole is the S-isomer of omeprazole and belongs to the proton pump inhibitor (PPI) class, which irreversibly inhibits the H+/K+-ATPase pump in gastric parietal cells to suppress acid secretion. Its efficacy in acid-related disorders — peptic ulcer, H. pylori infection, GERD, NSAID-induced gastrointestinal lesions, and Zollinger-Ellison syndrome — is well established (per the supporting literature in this pack).
+Currently, detailed mechanism of action data is not available in the input. From general PPI pharmacology, esomeprazole irreversibly inhibits the gastric H+/K+ ATPase (the proton pump), which reduces acid injury to the stomach lining.
 
-However, the mechanistic link to duodenogastric reflux is weak. Duodenogastric reflux is primarily driven by bile acids and pancreatic enzymes refluxing into the stomach, not by gastric acid itself. PPI therapy has no direct causal mechanism against this pathology; at best it may indirectly alter bile salt activity by raising intragastric pH. This is an indirect, non-specific mechanism rather than a targeted pharmacological rationale, which is why the evidence level is capped at L4 and the recommendation is Hold.
+Duodenogastric (bile) reflux is mainly a non-acid process, so the mechanistic fit is weak. A PPI could at most relieve symptoms by lowering the acid component of the refluxate. It would not stop the reflux itself. The high model score (99.53%) is therefore better read as a knowledge-graph association than as evidence of a true therapeutic effect.
 
-It is also worth noting that other TxGNN-predicted indications for esomeprazole in this dataset (e.g., duodenal ulcer, active peptic ulcer disease) carry much stronger clinical trial evidence (L1), but these largely represent already-established core PPI-class indications rather than genuine repurposing candidates.
-
----
+Other predicted indications for this drug have much stronger support, notably **duodenal ulcer** (rank 3, Phase 3 evidence) and **active peptic ulcer disease** (rank 4, Phase 4 and Phase 2 evidence). These are acid-related conditions and probably reflect existing PPI use rather than true repurposing.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for duodenogastric reflux.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General review confirming PPIs as first-line therapy for peptic ulcer, H. pylori infection, GERD, NSAID-induced GI lesions, and Zollinger-Ellison syndrome; does not specifically address duodenogastric reflux |
-
----
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General update on PPI clinical use and pharmacokinetics. It covers peptic ulcer, H. pylori infection, gastro-oesophageal reflux disease, NSAID-induced lesions and Zollinger-Ellison syndrome. It does not address duodenogastric reflux directly. |
 
 ## South Africa Market Information
 
-Esomeprazole is currently **not marketed** in South Africa, and no SAHPRA product registrations are on record in this evidence pack.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 51/11.4.3/0932 | Nectizole Iv | Infusion |
+| Reg. No. 45/11.4.3/0121 | Nexipraz Otc | Tablet |
+| Reg. No. 45/3.1/0179 | Vimovo 500/20mg | Tablet |
 
----
+Available routes are injectable (infusion) and oral (tablet).
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.53%), the mechanistic link between PPI-mediated acid suppression and duodenogastric reflux (a bile/pancreatic-enzyme-driven condition) is indirect and non-specific. No clinical trials specifically evaluate esomeprazole for this indication, and only one general (non-specific) review supports it. Additionally, TFDA/SAHPRA-approved safety data (warnings, contraindications) are missing and flagged as a **Blocking** data gap, preventing any initial safety assessment.
+The prediction has no clinical trials and only one general review. Bile reflux is largely non-acid, so the mechanistic link is weak. Esomeprazole is already marketed in South Africa, but nothing in the input supports using it for this specific condition.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI) — warnings and contraindications (currently blocking)
-- Confirmed mechanism of action data from DrugBank
-- Dedicated clinical or observational studies evaluating esomeprazole specifically for duodenogastric reflux
-- Clarification of a South African market/registration pathway, as the product is currently unmarketed
+- SAHPRA package insert data (approved indications, warnings, contraindications), which is currently missing and blocks safety screening
+- Mechanism of action data from DrugBank
+- Clinical or observational studies of PPIs in duodenogastric (bile) reflux, to show whether symptom relief occurs
+- A separate review of duodenal ulcer and active peptic ulcer disease, which have the strongest evidence in this pack, to confirm whether they are already covered by the registered indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

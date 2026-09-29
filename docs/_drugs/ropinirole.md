@@ -2,7 +2,7 @@
 layout: default
 title: Ropinirole
 parent: Moderate Evidence (L3-L4)
-nav_order: 395
+nav_order: 403
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,79 +29,80 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ropinirole: From No Registered Indication (Not Marketed in South Africa) to Attention-Deficit/Hyperactivity Disorder (Predicted)
+# Ropinirole: From Parkinson's Disease and Restless Legs Syndrome to Attention Deficit-Hyperactivity Disorder
 
 ## One-Sentence Summary
 
-Ropinirole is a non-ergot dopamine agonist with no original approved indication on file in this evidence pack — it is not currently marketed or registered in South Africa. The TxGNN model predicts potential relevance to **Attention-Deficit/Hyperactivity Disorder (ADHD)**, but this direction is currently supported only by **0 clinical trials** and **8 publications**, most of which address the related restless legs syndrome (RLS)–ADHD comorbidity rather than direct evidence of ropinirole treating ADHD itself.
-
----
+Ropinirole is a dopamine agonist. It is generally used for Parkinson's disease and restless legs syndrome (RLS), and it is registered in South Africa as an oral tablet.
+The TxGNN model predicts it may be useful for **attention deficit-hyperactivity disorder (ADHD)**.
+No clinical trials support this. The evidence is **1 narrative review and 1 single-patient case report**, and the case report treated RLS in a child who also had ADHD.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented — no SAHPRA registration or original indication is on file for ropinirole in this evidence pack |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.99% (model rank 133) |
+| Original Indication | Not stated in the SAHPRA registration records provided. Ropinirole is generally used for Parkinson's disease and RLS. |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
+| TxGNN Prediction Score | 99.99% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data for ropinirole is not available in this evidence pack, and there is no original approved indication on file — the drug is not currently marketed or registered in South Africa. Based on general pharmacological knowledge (not sourced from this dataset), ropinirole belongs to the non-ergot D2/D3 dopamine receptor agonist class, a group of medicines more commonly associated with Parkinson's disease and restless legs syndrome in other markets.
+Ropinirole is a non-ergot D2/D3 dopamine agonist. Detailed mechanism-of-action data were not available in the record, so this description comes from the literature and general pharmacology.
 
-The predicted link to ADHD does not rest on a direct MOA argument specific to ADHD. Instead, the supporting literature centers on the clinical overlap between restless legs syndrome and ADHD, both of which have been associated with dysregulated dopaminergic signalling. Only one publication — a single paediatric case report (PMID 15866437) — describes ropinirole use in a child, and even there the drug was prescribed for co-occurring RLS rather than for ADHD's core symptoms directly.
+The link to ADHD runs through RLS. RLS and ADHD often occur together, and both are hypothesised to involve dopaminergic dysfunction and altered iron metabolism. A 2005 review examined this association and discussed whether common treatments might serve both conditions when they co-occur.
 
-Mechanistically, this is a hypothesis that needs careful distinction: ropinirole is a dopamine receptor *agonist*, whereas standard ADHD pharmacotherapy (e.g., methylphenidate, amphetamine salts) works by increasing synaptic dopamine/noradrenaline through reuptake inhibition or release — a different mechanism that happens to converge on the same neurotransmitter system. No clinical trial has tested ropinirole specifically for ADHD symptoms in the absence of comorbid RLS.
-
----
+The only direct clinical observation is a 2005 case report. A 6-year-old boy with ADHD, poorly controlled on methylphenidate, also had RLS or periodic limb movements. Ropinirole improved both his sleep and his ADHD symptoms. This is one patient with a comorbid condition, so it cannot show that ropinirole treats core ADHD symptoms. The very high TxGNN score is a model output, not clinical support.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [16218085](https://pubmed.ncbi.nlm.nih.gov/16218085/) | 2005 | Review | Sleep | Reviews the association between RLS and ADHD, discussing hypothesised shared dopaminergic mechanisms and the potential for common pharmacologic treatment when both conditions co-occur |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue neurologique | General review of restless legs syndrome, including its overlap with other neurologic/behavioural conditions |
-| [15866437](https://pubmed.ncbi.nlm.nih.gov/15866437/) | 2005 | Case Report | Pediatric neurology | 6-year-old boy with ADHD (inadequately controlled on methylphenidate) and suspected RLS/periodic limb movement disorder; ropinirole improved both sleep disruption and ADHD symptoms |
-| [30460371](https://pubmed.ncbi.nlm.nih.gov/30460371/) | 2019 | Case Report (adverse effect) | Acta dermato-venereologica | Describes treatment-induced delusions of infestation associated with elevated brain dopamine levels from dopaminergic agents |
-| [30950895](https://pubmed.ncbi.nlm.nih.gov/30950895/) | 2019 | Case Report (adverse effect) | Cornea | Describes corneal edema in 3 patients exposed to systemic dopaminergic agents |
-| [17483695](https://pubmed.ncbi.nlm.nih.gov/17483695/) | 2007 | Preclinical | Journal of neuropathology and experimental neurology | Animal model (A11-lesioned, iron-deprived mice) of RLS-like increased locomotion, relevant to dopamine/iron pathophysiology |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Pharmacology | Pharmacological research | Studies heteromerization of α2A adrenoceptors with dopamine D4 receptor variants, relevant to impulsive-control disorders including ADHD, at a receptor-pharmacology level (does not test ropinirole directly) |
-| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | Other (different drug: piribedil) | Clinical neuropharmacology | Compares vigilance/cognitive effects of piribedil versus pramipexole and ropinirole in Parkinson's disease patients with excessive daytime sleepiness — not an ADHD study |
+| [16218085](https://pubmed.ncbi.nlm.nih.gov/16218085/) | 2005 | Review | Sleep | Reviews the association between RLS and ADHD, the possible shared mechanisms, and the potential for common treatments when both occur. |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue neurologique | General review of RLS. It is background only and does not test ropinirole in ADHD. |
+| [15866437](https://pubmed.ncbi.nlm.nih.gov/15866437/) | 2005 | Case report | Pediatric Neurology | A child with ADHD and RLS improved in both ADHD symptoms and sleep on ropinirole. |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclinical (in vitro) | Pharmacological Research | Dopamine D4 receptor variants and α2A adrenoceptors form receptor complexes. This is relevant to impulse-control disorders and ADHD biology, but it does not test ropinirole. |
+| [17483695](https://pubmed.ncbi.nlm.nih.gov/17483695/) | 2007 | Preclinical (animal) | J Neuropathol Exp Neurol | A mouse model of RLS based on dopamine and iron dysfunction. It is indirect support for the shared-mechanism idea. |
+| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | Clinical study | Clin Neuropharmacol | Compares piribedil with pramipexole and ropinirole for daytime sleepiness in Parkinson's disease. It is not relevant to ADHD efficacy. |
+| [30950895](https://pubmed.ncbi.nlm.nih.gov/30950895/) | 2019 | Case series (safety) | Cornea | Reports corneal oedema associated with systemic dopaminergic agents. |
+| [30460371](https://pubmed.ncbi.nlm.nih.gov/30460371/) | 2019 | Case report (safety) | Acta Dermato-Venereologica | Reports treatment-induced delusions of infestation linked to increased brain dopamine. |
 
----
+## South Africa Market Information
+
+Ropinirole has 2 SAHPRA registrations, both oral tablets. The records provided do not include manufacturer or approved-indication text. Essential Medicines List (EML) status was not included in the data.
+
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 43/5.4.1/0216 | Resure 0.25 Tablets | Tablet |
+| Reg. No. 31/5.4.1/0301 | Requip 0.25 | Tablet |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-No key warnings, contraindications, or drug interaction data were retrievable for ropinirole in this evidence pack — this is flagged as a **Blocking** data gap (DG001) that must be resolved before any safety assessment can proceed.
-
----
+The retrieved literature also describes safety signals for dopamine agonists. These include corneal oedema, delusions and psychotic symptoms, and impulse-control problems such as gambling. They matter most in a paediatric or neuropsychiatric setting. No drug-interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The ADHD signal rests on indirect evidence — literature on RLS–ADHD comorbidity and a single paediatric case report — with no clinical trials and no confirmed mechanism-of-action data. Combined with the absence of any South African registration or PI-derived safety data, this candidate does not yet meet the bar for progression.
+The ADHD prediction rests on a model score, a narrative review and a single comorbid case report. There are no registered trials, no evidence of benefit for core ADHD symptoms, and no SAHPRA safety data have been reviewed. The other nine TxGNN predictions have even less support. Most have no evidence at all, and the ophthalmic hits appear to be keyword noise. For schizophrenia the evidence is indirect, and dopamine agonists carry a known risk of psychosis, so the safety signal is unfavourable.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI): warnings, precautions, and contraindications (Blocking gap, DG001)
-- Confirmed mechanism of action data from DrugBank or equivalent source (High-priority gap, DG002)
-- A prospective or retrospective study testing ropinirole specifically for ADHD symptoms (independent of comorbid RLS)
-- Drug-drug interaction data relevant to typical ADHD comedications (e.g., stimulants, antidepressants)
+- SAHPRA package insert warnings and contraindications, which are needed before any safety screening
+- Mechanism-of-action data, for example from DrugBank
+- Controlled evidence in ADHD, ideally in patients with comorbid RLS or sleep-related movement disorders, to separate an effect on RLS from an effect on ADHD
+- A paediatric safety assessment, including psychiatric and impulse-control adverse effects
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Brinzolamide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 77
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Brinzolamide: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+# Brinzolamide: From Glaucoma and Ocular Hypertension to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Brinzolamide (Azopt®) is a topical carbonic anhydrase-II inhibitor globally indicated for reducing elevated intraocular pressure (IOP) in ocular hypertension and primary open-angle glaucoma, but currently not registered with SAHPRA in South Africa.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**, with **no clinical trials** and **no publications** currently supporting this specific indication.
-The high prediction score of **99.48%** reflects mechanistic overlap with broader glaucoma subtypes rather than direct clinical evidence for this hereditary form.
+Brinzolamide is a topical carbonic anhydrase inhibitor used in eye drops to lower intraocular pressure (IOP) in open-angle glaucoma and ocular hypertension. The TxGNN model predicts it may be useful for **primary hereditary glaucoma**, but **no clinical trials or publications** were retrieved for that specific condition, so the prediction rests on the model score alone. Brinzolamide is already used for glaucoma, with more than 40 registered trials in open-angle glaucoma, so this is mostly an extension of an existing use rather than true repurposing.
 
 ---
 
@@ -43,49 +41,85 @@ The high prediction score of **99.48%** reflects mechanistic overlap with broade
 
 | Item | Content |
 |------|------|
-| Original Indication | Ocular hypertension and primary open-angle glaucoma (globally approved; not SAHPRA-registered) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
+| Original Indication | Open-angle glaucoma and ocular hypertension (from published literature; indication text is not provided in the SAHPRA registration records retrieved) |
+| Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.48% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 (model prediction only for this indication) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this dataset (DrugBank retrieval pending). Based on established pharmacological knowledge, Brinzolamide is a sulfonamide-derived carbonic anhydrase inhibitor. It selectively inhibits the CA-II isoenzyme in the ciliary body epithelium, reducing Na⁺/HCO₃⁻ co-transport and thereby decreasing aqueous humour production by approximately 17–20%. This IOP-lowering mechanism has been validated across numerous Phase 3 randomised controlled trials in patients with open-angle glaucoma and ocular hypertension worldwide.
+Brinzolamide is a highly specific carbonic anhydrase II inhibitor. It lowers IOP by reducing the rate of aqueous humour formation in the ciliary epithelium (Cvetkovic & Perry, PMID 14565787). It is given as a 1% ophthalmic suspension, alone or in fixed combinations with timolol (beta-blocker) or brimonidine (alpha-2 agonist).
 
-Primary hereditary glaucoma encompasses conditions such as juvenile open-angle glaucoma (predominantly associated with *MYOC* gene mutations) and primary congenital glaucoma (associated with *CYP1B1* mutations). The unifying pathology is structural dysfunction of the trabecular meshwork or anterior chamber angle, leading to impaired aqueous drainage and chronically elevated IOP. The TxGNN model identifies the mechanistic rationale: when aqueous outflow is structurally compromised, reducing aqueous inflow through CA-II inhibition could still provide clinically meaningful IOP reduction as an adjunctive strategy.
+Primary hereditary glaucoma is a raised-IOP disease, so aqueous suppression is mechanistically plausible. However, the same reasoning applies to almost any glaucoma subtype, which may partly explain the high score. Hereditary and congenital forms are mainly managed surgically, and paediatric safety of topical carbonic anhydrase inhibitors would need separate evaluation. No brinzolamide-specific data for this entity were found.
 
-However, it is important to recognise the limitations of this rationale. Brinzolamide's mechanism does not address the underlying genetic pathology driving trabecular meshwork dysfunction. In congenital and juvenile hereditary glaucoma, surgical correction of anterior chamber angle anatomy (goniotomy, trabeculotomy) remains the definitive treatment. Furthermore, systemic absorption of topical carbonic anhydrase inhibitors carries a risk of metabolic acidosis — a particularly important consideration in infant and paediatric populations where primary congenital glaucoma is diagnosed. Efficacy and safety data for Brinzolamide in this specific hereditary population are entirely absent.
+Other glaucoma-related predictions from the same run are more strongly supported, but most are on-label:
+- **Open-angle glaucoma (three model entries):** on-label, with Phase 3 evidence (shown below).
+- **Closed-angle glaucoma:** evidence is limited to one small terminated Phase 4 adjunct trial and a single RCT in acute primary angle closure (PMID 35026861, 131 eyes). It is best treated as a research question, because IOP lowering does not fix the angle obstruction.
+- **Non-ocular predictions:** commissural lip fistula, osteoradionecrosis of the mandible, oral leukoedema and burning mouth syndrome have no plausible mechanistic link and are likely graph artefacts.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for primary hereditary glaucoma.
+Currently no clinical trials are registered for primary hereditary glaucoma. No SANCTR, PACTR or ICTRP records were retrieved for this drug.
+
+The table below shows the largest completed Phase 3 trials for the closely related, on-label indication of open-angle glaucoma and ocular hypertension. It shows that brinzolamide works in glaucoma generally. It is not evidence for the predicted indication.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01309204](https://clinicaltrials.gov/study/NCT01309204) | Phase 3 | Completed | 1184 | Brinzolamide/brimonidine fixed combination vs unfixed combination for IOP lowering |
+| [NCT01297920](https://clinicaltrials.gov/study/NCT01297920) | Phase 3 | Completed | 1062 | Brinzolamide/brimonidine vs each component, three times daily, with a 3-month safety extension |
+| [NCT01297517](https://clinicaltrials.gov/study/NCT01297517) | Phase 3 | Completed | 1001 | Brinzolamide/brimonidine vs each component, three times daily, 3-month efficacy and safety |
+| [NCT02512042](https://clinicaltrials.gov/study/NCT02512042) | Phase 3 | Completed | 973 | Bioequivalence study with clinical endpoint, generic brinzolamide 1% vs Azopt |
+| [NCT01310777](https://clinicaltrials.gov/study/NCT01310777) | Phase 3 | Completed | 771 | Brinzolamide/brimonidine fixed combination vs each component alone |
+| [NCT05022004](https://clinicaltrials.gov/study/NCT05022004) | Phase 3 | Completed | 599 | Therapeutic equivalence of generic brinzolamide 1% vs Azopt |
+| [NCT04024072](https://clinicaltrials.gov/study/NCT04024072) | Phase 3 | Completed | 495 | Perrigo brinzolamide 1% vs Azopt in POAG or ocular hypertension |
+| [NCT02339584](https://clinicaltrials.gov/study/NCT02339584) | Phase 3 | Completed | 493 | Brinzolamide/brimonidine fixed combination vs unfixed combination, twice daily |
+| [NCT04944290](https://clinicaltrials.gov/study/NCT04944290) | Phase 3 | Completed | 447 | Perrigo brinzolamide/brimonidine vs Simbrinza |
+| [NCT01357616](https://clinicaltrials.gov/study/NCT01357616) | Phase 3 | Completed | 328 | Brinzolamide/timolol vs brinzolamide and timolol alone in Chinese patients (graded A for relevance) |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for primary hereditary glaucoma.
+No publications were retrieved for primary hereditary glaucoma. The table below shows key publications on brinzolamide in glaucoma more broadly.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41697795](https://pubmed.ncbi.nlm.nih.gov/41697795/) | 2026 | Systematic review/meta-analysis | Eur J Ophthalmol | Brinzolamide/timolol vs dorzolamide/timolol; 12 studies (11 RCTs), 1,885 patients; outcomes were IOP reduction, adverse events and patient preference |
+| [31293419](https://pubmed.ncbi.nlm.nih.gov/31293419/) | 2019 | Systematic review/meta-analysis | Front Pharmacol | Brinzolamide as add-on to prostaglandin analogues or β-blockers in glaucoma or ocular hypertension |
+| [26526633](https://pubmed.ncbi.nlm.nih.gov/26526633/) | 2016 | Network meta-analysis | Ophthalmology | Comparative effectiveness of first-line medications for POAG |
+| [39677168](https://pubmed.ncbi.nlm.nih.gov/39677168/) | 2024 | RCT (Phase 3) | Cureus | Brinzolamide/timolol vs dorzolamide/timolol in Indian patients with POAG or ocular hypertension |
+| [35026861](https://pubmed.ncbi.nlm.nih.gov/35026861/) | 2022 | RCT | J Clin Pharm Ther | IOP-lowering effect of brinzolamide in the initial management of acute primary angle closure (131 eyes) |
+| [25064721](https://pubmed.ncbi.nlm.nih.gov/25064721/) | 2014 | RCT | Ophthalmology | Twice-daily brinzolamide/brimonidine vs each monotherapy |
+| [25430900](https://pubmed.ncbi.nlm.nih.gov/25430900/) | 2014 | RCT | Adv Ther | Brinzolamide/brimonidine fixed combination vs concomitant brinzolamide plus brimonidine |
+| [32158181](https://pubmed.ncbi.nlm.nih.gov/32158181/) | 2020 | RCT | Clin Ophthalmol | Non-inferiority of the fixed combination to concomitant use, with safety assessed |
+| [14565787](https://pubmed.ncbi.nlm.nih.gov/14565787/) | 2003 | Review | Drugs & Aging | Brinzolamide lowers IOP by reducing aqueous humour formation; indicated for POAG and ocular hypertension |
+| [39870471](https://pubmed.ncbi.nlm.nih.gov/39870471/) | 2025 | Case report | BMJ Case Rep | Topical brinzolamide-induced ciliary body effusion with secondary angle closure and myopic shift; resolved after stopping the drug |
 
 ---
 
 ## South Africa Market Information
 
-Brinzolamide has no current SAHPRA registration. As of the data cut-off (April 2026), Brinzolamide — including brand-name products such as Azopt® (brinzolamide 1% ophthalmic suspension) and fixed-combination products such as Azarga® (brinzolamide/timolol) and Simbrinza® (brinzolamide/brimonidine) — is **not marketed** in South Africa. Any clinical use would require a Section 21 unregistered medicine application to SAHPRA.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 50/15.4/0358 | Simbrinza (brinzolamide/brimonidine) | Eye drops | Indication text not provided in the retrieved record |
+| Reg. No. 44/15.4/0046 | Azarga 5ml (brinzolamide/timolol) | Eye drops | Indication text not provided in the retrieved record |
+
+Both registrations are fixed-combination eye drops. No single-ingredient brinzolamide product appeared in the retrieved records. Essential Medicines List (EML) status was not included in the data reviewed.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the manufacturer's global Professional Information (PI) for complete safety information, as no SAHPRA-approved PI exists for this unregistered product. Report any adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-**Clinically relevant safety note:** A published case report ([PMID 39870471](https://pubmed.ncbi.nlm.nih.gov/39870471/), *BMJ Case Reports*, 2025) documented topical brinzolamide-induced unilateral ciliary body effusion presenting acutely with secondary angle closure and myopic shift. The effusion resolved promptly upon cessation of brinzolamide and instillation of atropine. This rare but serious adverse event is particularly relevant when considering use in patients with anatomically shallow anterior chambers or genetic predispositions to angle closure — a population that may overlap with certain hereditary glaucoma presentations. Prescribers should be aware of this risk prior to any compassionate-use or trial application.
+One safety signal appeared in the literature. Brinzolamide is a sulfonamide-derived agent, and a 2025 case report described ciliary body effusion with secondary angle closure after topical use (PMID 39870471). This matters if the drug were considered in angle-closure or other anatomically abnormal eyes. No drug interactions were found in the interaction query.
 
 ---
 
@@ -94,19 +128,17 @@ Please refer to the manufacturer's global Professional Information (PI) for comp
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials or peer-reviewed publications directly evaluating Brinzolamide in primary hereditary glaucoma, and the drug has no SAHPRA registration pathway currently established in South Africa. The complete absence of clinical evidence in this hereditary subtype, combined with unresolved safety questions for paediatric populations, means the evidentiary threshold for advancing this indication has not been met.
+- The predicted indication, primary hereditary glaucoma, has a very high model score (99.48%) but no trials or publications behind it.
+- The strong evidence in this pack (multiple Phase 3 RCTs) concerns on-label open-angle glaucoma and ocular hypertension, which does not support a repurposing claim.
 
 **To proceed, the following is needed:**
-- Formal mechanism of action documentation via DrugBank API retrieval (DrugBank ID: DB01194)
-- Targeted literature review for Brinzolamide use specifically in hereditary glaucoma subtypes (*MYOC*, *CYP1B1* mutation carriers) and juvenile open-angle glaucoma
-- Pharmacokinetic data in paediatric populations, including systemic carbonic anhydrase inhibition risk and metabolic acidosis potential in infants
-- Comparative effectiveness assessment against dorzolamide (a related CAI that may have existing South African market presence) for the hereditary glaucoma setting
-- SAHPRA registration pathway assessment or Section 21 application strategy for Brinzolamide 1% ophthalmic suspension
-- Ophthalmology specialist input on whether Brinzolamide offers a clinically meaningful advantage over existing IOP-lowering agents currently accessible in South Africa for hereditary glaucoma management
+- The SAHPRA Professional Information (warnings, contraindications, approved indications), which is a blocking gap for any safety screening.
+- A targeted literature and trial search for brinzolamide or carbonic anhydrase inhibitors in hereditary and congenital glaucoma, including clarification of which subtypes "primary hereditary glaucoma" covers.
+- A paediatric safety assessment, since congenital and hereditary forms present early in life.
+- Confirmation of the SAHPRA approved-indication wording and any single-ingredient brinzolamide registration.
+- A mechanism-of-action record from DrugBank to complete the mechanistic analysis.
 
----
-
-> ⚠️ **Disclaimer:** This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All content is based on predictive modelling and available evidence as of April 2026.
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Bupropion Hydrochloride
 parent: Model Prediction Only (L5)
-nav_order: 81
+nav_order: 82
 evidence_level: L5
 indication_count: 0
 ---

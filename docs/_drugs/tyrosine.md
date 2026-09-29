@@ -2,7 +2,7 @@
 layout: default
 title: Tyrosine
 parent: Model Prediction Only (L5)
-nav_order: 452
+nav_order: 460
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tyrosine: From No Approved Indication to Cauda Equina Syndrome
+# Tyrosine: From Amino Acid Nutritional Supplementation to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Tyrosine currently has no SAHPRA-registered product and no documented original therapeutic indication — it is generally used as a naturally occurring amino acid / nutritional and diagnostic-reagent substance. TxGNN's top-ranked prediction links it to **Cauda Equina Syndrome**, but this candidate has **0 clinical trials** and **0 publications** supporting it, and the underlying rationale explicitly flags the prediction as likely model noise rather than a credible mechanistic signal.
+Tyrosine is an amino acid. In South Africa it is registered as an ingredient in parenteral nutrition and peritoneal dialysis products, and no single approved indication is recorded for it.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but **0 clinical trials** and **0 publications** support this prediction, so it rests on the model alone.
 
 ---
 
@@ -41,21 +42,23 @@ Tyrosine currently has no SAHPRA-registered product and no documented original t
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — Tyrosine has no registered indications in the source data; conventionally used as an amino acid supplement/diagnostic reagent, not as a disease-specific therapeutic |
-| Predicted New Indication | Cauda Equina Syndrome |
+| Original Indication | Amino acid nutritional supplementation (inferred from product types; registration records give no indication text) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.77% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 8 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action (MOA) data for Tyrosine is not available in the current evidence pack. Based on general pharmacology, Tyrosine is a non-essential amino acid and a biosynthetic precursor to catecholamines (dopamine, noradrenaline) and thyroid hormones; it has no established role as a disease-modifying therapeutic agent.
+Currently, detailed mechanism of action data is not available. Tyrosine is a building block for proteins and the precursor of catecholamines (dopamine, noradrenaline and adrenaline) and thyroid hormones. Its established role is nutritional.
 
-For this specific candidate, the evidence pack's own analysis assesses the mechanistic link as **not plausible**: Cauda Equina Syndrome is a mechanical neurological emergency caused by nerve root compression, typically requiring urgent surgical decompression. Tyrosine's role as a neurotransmitter precursor has no established pathophysiological connection to nerve compression. The evidence pack explicitly characterizes this top-ranked result as likely **TxGNN prediction noise** rather than a genuine repurposing signal, and no clinical trials, ICTRP trials, or literature were found linking the two.
+The relationship between the original use and the predicted indication is weak. Cauda equina syndrome is a compressive neurosurgical emergency, usually caused by a herniated disc, tumour or trauma. It is treated by urgent decompression, not by medicines. No plausible therapeutic mechanism for tyrosine is evident. The high score most likely reflects a knowledge-graph artifact, such as tyrosine's neurotransmitter-pathway links to nervous system terms, and not a real treatment signal.
+
+Other top-ranked predictions show the same pattern. Trials and papers retrieved for hyperthyroidism, neovascular glaucoma and postural orthostatic tachycardia syndrome were mostly keyword matches on "tyrosine kinase inhibitors", a different drug class. None tested L-tyrosine as an intervention. For hyperthyroidism, tyrosine is the substrate for thyroid hormone synthesis, so supplementation could theoretically worsen the condition. That needs a safety review before any further work.
 
 ---
 
@@ -73,15 +76,23 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Tyrosine has **0 SAHPRA registrations** and is currently **not marketed** in South Africa. No product listings, dosage forms, or approved indication text are available to summarize.
+Tyrosine appears as an ingredient in combination products, mainly parenteral nutrition and peritoneal dialysis solutions. The registration data lists 8 registrations and provides no approved indication text. Essential Medicines List (EML) inclusion status is not available. Five registrations are shown below.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated in registration data |
+| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated in registration data |
+| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not stated in registration data |
+| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated in registration data |
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not stated in registration data |
+
+The Adco-ipratropium entry does not look like a tyrosine-containing product and may be a mapping error. It should be verified against the SAHPRA record.
 
 ---
 
 ## Safety Considerations
 
-Safety data for this candidate is incomplete. A **Blocking**-severity data gap has been identified: SAHPRA/TFDA package insert warnings and contraindications are not yet available, which prevents this candidate from completing even the initial (S1) safety screening. No drug interaction records were found (query status: not found).
-
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information once available. Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -90,12 +101,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (Cauda Equina Syndrome) has no clinical trial, literature, or plausible mechanistic support, and is assessed by the underlying analysis as likely model noise. Combined with a Blocking safety data gap (package insert warnings/contraindications unavailable) and the drug's unregistered/not-marketed status in South Africa, there is no basis to proceed at this time.
+The prediction has no supporting trials or literature (L5), and there is no plausible mechanism linking tyrosine to cauda equina syndrome. The score is most likely a knowledge-graph artifact. No further resources are justified on this indication.
 
 **To proceed, the following is needed:**
-- SAHPRA/TFDA package insert (warnings, contraindications) to clear the Blocking data gap (DG001)
-- Confirmed mechanism of action data (DG002)
-- If repurposing interest continues, re-evaluate lower-ranked candidates with comparatively more evidence — e.g., **hyperthyroidism** (L4, 4 trials + 20 publications, though mechanistic direction is "may induce/aggravate" rather than "treat") and **postural orthostatic tachycardia syndrome** (L4, indirect catecholamine-precursor rationale) — both still scored Hold pending human review, as none of the top 10 candidates reached an actionable therapeutic evidence tier in this evidence pack
+- Obtain the SAHPRA Professional Information for tyrosine-containing products (warnings and contraindications), which is currently missing.
+- Retrieve mechanism of action data from DrugBank.
+- Confirm the approved indication of each registered product, and verify the Adco-ipratropium mapping.
+- Re-review other predicted indications with more relevant evidence. Hyperthyroidism needs a safety assessment, and postural orthostatic tachycardia syndrome needs a check of the direction of effect. Both require manual verification, because the retrieved trials are largely tyrosine kinase inhibitor keyword matches.
+- Map "obsolete neurogenic bladder (disease)" to a current ontology term before any evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

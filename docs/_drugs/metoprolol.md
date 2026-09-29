@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Metoprolol
-parent: Moderate Evidence (L3-L4)
-nav_order: 314
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 320
+evidence_level: L5
 indication_count: 10
 ---
 
 # Metoprolol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,77 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Metoprolol: Exploring a New Role in Malignant Renovascular Hypertension
+# Metoprolol: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-> Metoprolol is a β1-selective adrenergic blocker; no SAHPRA-approved original indication is on file for this candidate, and the drug is **not currently marketed in South Africa**.
-> The TxGNN model predicts a possible role in **Malignant Renovascular Hypertension**, but this direction is currently supported by **0 clinical trials** and only **2 tangentially related publications** — this is an early-stage research hypothesis, not an evidence-backed indication.
-
----
+Metoprolol is a beta-1 selective blocker (beta-blocker) that is already marketed in South Africa as Lopresor tablets, and it is used as an antihypertensive.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but there are currently **0 clinical trials** and **2 publications**, neither of which studies metoprolol for this condition. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no licensed indication text on file for this candidate |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Original Indication | Hypertension (the SAHPRA registration record supplied has no indication text) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.91% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not Marketed (no SAHPRA-registered products) |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Hold (Research Question) |
-
----
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for this candidate is currently a data gap. Based on the pharmacology captured in the evidence pack, metoprolol is a β1-selective adrenergic blocker. β1 blockade at the juxtaglomerular apparatus is known to suppress renin secretion, which theoretically dampens the renin-angiotensin axis implicated in renovascular hypertension — giving the prediction a plausible mechanistic basis.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, metoprolol is a beta-1 selective blocker. Beta-1 blockade lowers renin release from the kidney and reduces cardiac output, so a link to renin-driven hypertension is plausible.
 
-However, this rationale is inferential rather than evidence-based for this specific condition. No clinical trials and no directly relevant literature were found linking metoprolol to malignant renovascular hypertension. The two retrieved publications discuss related but distinct clinical scenarios (hypertensive optic neuropathy secondary to renal artery stenosis, and a diagnostic biomarker study for pheochromocytoma) rather than treatment outcomes for this indication. The mechanistic link should therefore be treated as a research hypothesis warranting further investigation, not as clinical evidence of efficacy.
+Renovascular hypertension is driven largely by activation of the renin-angiotensin system when the kidney is under-perfused. The malignant form is a severe, rapidly progressive variant. Because metoprolol already lowers blood pressure and renin activity, the model's prediction is biologically reasonable.
 
----
+This is a mechanistic argument only. No trial or on-topic publication supports metoprolol in this condition. Malignant hypertension is also a much more acute and severe state than routine hypertension, so efficacy in ordinary hypertension cannot simply be assumed to carry over.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered. No SANCTR or PACTR entries were identified.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15231398](https://pubmed.ncbi.nlm.nih.gov/15231398/) | 2004 | Case report/Review | Survey of Ophthalmology | 26-year-old woman with hypertensive optic neuropathy (bilateral disk swelling, retinal exudates/infarcts) caused by renal artery stenosis secondary to Takayasu's arteritis; does not evaluate metoprolol treatment. |
-| [1988765](https://pubmed.ncbi.nlm.nih.gov/1988765/) | 1991 | Diagnostic study (pheochromocytoma) | Medicine | Evaluates plasma chromogranin A as a diagnostic marker to differentiate pheochromocytoma from other causes of hypertension (83% sensitivity, 96% specificity); does not evaluate metoprolol treatment. |
+| [15231398](https://pubmed.ncbi.nlm.nih.gov/15231398/) | 2004 | Review/Commentary | Survey of Ophthalmology | Case of a 26-year-old woman with hypertensive optic neuropathy caused by renal artery stenosis from Takayasu's arteritis. Metoprolol is not studied. |
+| [1988765](https://pubmed.ncbi.nlm.nih.gov/1988765/) | 1991 | Cohort | Medicine | Chromogranin A as a diagnostic marker for pheochromocytoma in the differential diagnosis of hypertension. Metoprolol is not studied. |
 
-Neither publication directly assesses metoprolol efficacy in malignant renovascular hypertension; both are included as background disease-context literature only.
-
----
+Both papers are only loosely related to the topic. They concern the causes and diagnosis of secondary hypertension, not treatment with metoprolol.
 
 ## South Africa Market Information
 
-No SAHPRA registrations are on file for this candidate (0 licenses; market status: Not Marketed). No dosage form, product name, or approved indication text is currently available for South Africa.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| H/5.2/72 | Lopresor | Tablet (oral) | Not stated in the available record |
 
----
+The Evidence Pack does not include Essential Medicines List (EML) status for metoprolol, so it is not reported here.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
----
-
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question)**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale (β1-blockade → renin suppression) is plausible, but evidence level is L4 with zero clinical trials and no literature directly evaluating this indication. The drug is also not currently registered or marketed in South Africa, and core safety data (PI warnings, contraindications) is missing — this is a **Blocking** gap that must be resolved before any safety evaluation can proceed.
+The prediction is model-only (L5), with no clinical trials and no on-topic literature. The mechanism is plausible but unverified. The SAHPRA package insert warnings and contraindications have not been reviewed, so the safety screening cannot proceed.
+
+Other high-scoring predictions for metoprolol do not change this assessment:
+- Post-myocardial-infarction subtypes are already covered by its established use, so they are not true repurposing.
+- Pulmonary hypertension and chronic pulmonary heart disease carry a caution. The metoprolol COPD trial (BLOCK-COPD, NCT02587351) was terminated for futility and showed a harm signal for severe exacerbations.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI): warnings and contraindications (Blocking gap, DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (High-priority gap, DG002)
-- Preclinical or mechanistic studies testing the renin-suppression hypothesis specifically in renovascular hypertension
-- Clarification of South Africa market/registration pathway, since this candidate currently has zero SAHPRA licenses
-- If pursuing further, note that other predicted indications for this drug (e.g., septal myocardial infarction, chronic pulmonary heart disease) currently carry stronger evidence levels (L3–L2) and may be more productive candidates to evaluate first
+- The SAHPRA package insert (Professional Information) for Lopresor, to obtain warnings, contraindications and the approved indication text. This is the blocking item.
+- Mechanism of action data from DrugBank.
+- Searches for disease-specific evidence in malignant and renovascular hypertension, including trials and case series.
+- Clinical review of whether an oral beta-blocker has a role in an acute hypertensive emergency and in renal artery stenosis.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

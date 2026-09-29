@@ -2,7 +2,7 @@
 layout: default
 title: Triamterene
 parent: Model Prediction Only (L5)
-nav_order: 448
+nav_order: 456
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Triamterene: From Oedema/Hypertension to Malignant Renovascular Hypertension
+# Triamterene: From Diuretic Use (Oedema and Hypertension) to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Triamterene is a potassium-sparing diuretic conventionally used for fluid retention (oedema) and hypertension. The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction with no independent evidence.
+Triamterene is a potassium-sparing diuretic. It is registered in South Africa as the tablet product Renezide, but the registration record does not list an indication.
+The TxGNN model predicts it may be useful for **malignant renovascular hypertension**, with a very high model score.
+However, there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model alone.
 
 ---
 
@@ -41,23 +43,23 @@ Triamterene is a potassium-sparing diuretic conventionally used for fluid retent
 
 | Item | Content |
 |------|------|
-| Original Indication | Oedema / hypertension (potassium-sparing diuretic class) — no South Africa-specific indication text available |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Original Indication | Not stated in the SAHPRA record. Triamterene is generally used as a diuretic for oedema and hypertension (general pharmacology knowledge, not from the record). |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not retrievable from DrugBank at the time of this report (flagged as a High-severity data gap). Based on known pharmacology, triamterene is a potassium-sparing diuretic that blocks the epithelial sodium channel (ENaC) in the distal nephron, reducing sodium reabsorption and potassium excretion — its established use is chronic oral management of oedema and hypertension.
+Detailed mechanism-of-action data for triamterene was not available in the source data. Triamterene is a potassium-sparing diuretic that blocks the epithelial sodium channel (ENaC) in the distal kidney. This promotes sodium and water loss and lowers blood volume and blood pressure. The mechanism described here is therefore inferred, not verified from the data provided.
 
-Malignant renovascular hypertension, however, is a hypertensive emergency typically driven by severe renin-angiotensin-aldosterone system (RAAS) activation, and standard management relies on intravenous antihypertensives and urgent correction of the underlying renal vascular lesion — not chronic oral diuretics. The evidence pack's own mechanistic assessment flags a specific safety concern: in a high-renin state such as this, a potassium-sparing agent carries a meaningful hyperkalaemia risk rather than a clear therapeutic benefit.
+This gives a plausible but weak link to hypertension. Malignant renovascular hypertension is driven mainly by activation of the renin-angiotensin system, usually because of renal artery stenosis. A relatively weak diuretic is unlikely to control it on its own. The condition also often involves impaired kidney function, which raises the risk of dangerously high potassium (hyperkalaemia) with triamterene.
 
-The identical prediction score assigned to a closely related disease node ("malignant hypertensive renal disease," rank 2) with the same lack of supporting evidence suggests these two high-ranking predictions likely reflect similarity between disease embeddings in the knowledge graph rather than an independently validated pharmacological signal. This prediction should be treated as hypothesis-generating only, not as clinical guidance.
+The model's score is very high, but no trial or publication supports it. The prediction should be treated as a hypothesis, not a treatment option.
 
 ---
 
@@ -75,15 +77,22 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Triamterene is not currently marketed in South Africa — no SAHPRA registrations were found (0 licenses on record). No product, dosage form, or approved indication data is available for this evaluation.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. U/18.1/72 | Renezide | Tablet (oral) | Not stated in the record |
+
+Essential Medicines List (EML) status could not be confirmed from the available data.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Drug Interactions**: The interaction query returned no results, which reflects missing data and not proof of safety.
+- **Prediction-related concerns** (from the model's rationale, not from the Professional Information):
+  - Hyperkalaemia risk, especially with renal impairment.
+  - Possible kidney harm when combined with NSAIDs or ACE inhibitors/ARBs.
 
-*Note: TFDA/PI warnings and contraindications for this drug are currently a Blocking data gap (DG001) — this alone prevents progression to a formal safety (S1) review.*
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -92,14 +101,18 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but evidence level is L5 — no clinical trials, no supporting literature, and the drug is unregistered in South Africa. The rationale itself raises a plausible safety concern (hyperkalaemia risk in a high-renin hypertensive emergency) rather than supporting the prediction, and the same score applied to a near-duplicate disease node suggests a knowledge-graph artefact rather than an independent signal.
+The prediction has no supporting trials or literature. The link between triamterene and this condition is only a general blood-pressure effect, and the renal and potassium risks are unfavourable in this patient group.
+
+Other predicted indications, including malignant hypertensive renal disease, two forms of pulmonary hypertension and Braddock syndrome, also remain at L5 and Hold. One exception is chronic pulmonary heart disease. It has four older publications (1976–1991) on diuretic therapy in heart failure or congestion, which gives indirect L4 support and makes it a research question. Even there, none of the titles show triamterene-specific data.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Independent preclinical or clinical evidence specific to malignant renovascular hypertension (or the related renal disease indication)
-- Clinical assessment of whether a chronic oral potassium-sparing diuretic is even an appropriate drug class for a hypertensive emergency indication
-- SAHPRA registration status confirmation, since the product is not currently marketed in South Africa
+- The SAHPRA Professional Information (warnings and contraindications), which is a blocking gap for any safety screening.
+- Confirmed mechanism-of-action data (for example from DrugBank).
+- The registered indication for Renezide.
+- A targeted literature search for triamterene in renovascular or malignant hypertension.
+- A renal function and potassium monitoring plan, if any further evaluation is pursued.
+
+*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

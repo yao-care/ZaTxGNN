@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Acetic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 15
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Acetic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,79 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Acetic Acid: From Topical Antimicrobial to Post-Bacterial Disorder
-
----
+# Acetic Acid: From Haemodialysis Acid Concentrate Component to Post-Bacterial Disorder
 
 ## One-Sentence Summary
 
-Acetic acid is a well-established topical antimicrobial and acidifying agent, used clinically in wound irrigation, otitis externa management, and as a diagnostic aid (Visual Inspection with Acetic Acid, VIA) in cervical cancer screening programmes.
-The TxGNN model predicts it may be effective for **post-bacterial disorder**, with **18 clinical trials retrieved** but **no direct publications** currently supporting this specific therapeutic direction.
-The overall evidence base is preclinical and mechanistically indirect; this candidate requires further investigation before any clinical translation.
+Acetic acid is registered in South Africa as a component of haemodialysis acid concentrate products, and the records give no approved indication text. The TxGNN model predicts it may be useful for **post-bacterial disorder**, a very broad, non-specific term. The evidence is thin: **18 matched clinical trials**, none of which tests acetic acid for this condition, and **0 publications**.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No SAHPRA-registered indication on record; known clinical use as topical antimicrobial/antiseptic agent |
-| Predicted New Indication | Post-Bacterial Disorder |
+|------|------|
+| Original Indication | Not stated in the registration records (the registered products are haemodialysis acid concentrates) |
+| Predicted New Indication | Post-bacterial disorder |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 (model prediction only; the source data assigns L4, but no matched study tests acetic acid) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on established pharmacology, acetic acid (CH₃COOH) exerts its primary antimicrobial effect by acidifying the local microenvironment to pH < 4.5, thereby disrupting bacterial membrane integrity, inhibiting key enzymatic pathways, and suppressing growth of a broad spectrum of Gram-positive and Gram-negative organisms — including *Pseudomonas aeruginosa*, *Staphylococcus aureus*, and *Escherichia coli*. It has additional capacity to disrupt bacterial biofilms, which is particularly relevant in chronic wound and ear canal infections. As a short-chain fatty acid (SCFA), acetic acid also participates in gut microbiome regulation, where it influences colonocyte metabolism, mucosal immunity, and intestinal pH homeostasis.
+Currently, detailed mechanism of action data is not available. Based on known information, acetic acid is used in South Africa as an ingredient of haemodialysis concentrates. No original therapeutic indication is documented, so the link between its established use and the predicted indication cannot be validated.
 
-The predicted indication of "post-bacterial disorder" refers to sequelae arising after a primary bacterial infection has resolved — such as reactive arthritis, post-streptococcal glomerulonephritis, or post-infectious irritable bowel syndrome (PI-IBS). The conceptual link to acetic acid lies in two potential pathways: (1) residual bacterial clearance via the established antimicrobial mechanism, reducing the antigenic stimulus that drives immune-mediated sequelae; and (2) restoration of gut microbial homeostasis following infection-induced dysbiosis, through acetic acid's role as an SCFA prebiotic.
-
-However, it is important to note that most post-bacterial disorders are driven by immune complex deposition, molecular mimicry, or persistent inflammation — processes that acetic acid's acidification mechanism cannot directly modulate. The TxGNN prediction likely reflects proximity of infection-related disease nodes within the knowledge graph rather than a validated pharmacological relationship. The mechanistic rationale, while not implausible, is indirect and requires experimental validation before clinical consideration.
+Topical acetic acid does have a plausible antibacterial rationale: local acidification and disruption of biofilm. That would fit the antimicrobial and irrigation studies among the matched trials. However, "post-bacterial disorder" is an umbrella term rather than a defined disease. The high model score (99.98%) therefore says little about a specific, testable clinical question.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trial directly investigates acetic acid as a therapeutic intervention for post-bacterial disorder. The trials below were retrieved by the evidence pipeline in this context; relevance grades are as assessed by the pipeline.
+Eighteen trials matched this prediction. None studies acetic acid as a treatment for a defined post-bacterial condition. The most relevant ones are listed below, and most are context only.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT04120259](https://clinicaltrials.gov/study/NCT04120259) | N/A | Completed | 126 | Only completed RCT with a direct acetic acid-containing intervention (Apple Cider Vinegar, 5–6% acetic acid, + Metformin vs. Metformin alone) in newly diagnosed Type 2 Diabetes. Provides safety and metabolic effect data for oral acetic acid administration; target indication is metabolic, not post-bacterial. |
-| [NCT03212729](https://clinicaltrials.gov/study/NCT03212729) | N/A | Completed | 10 | Evaluated antimicrobial photodynamic therapy (aPDT) as adjunct to endodontic treatment for apical periodontitis caused by *E. faecalis* and *Candida spp.* Antimicrobial context only; acetic acid is not the intervention. Very small sample. |
-| [NCT04824261](https://clinicaltrials.gov/study/NCT04824261) | N/A | Unknown | 100 | Compared 4% boric acid versus clotrimazole solution for otomycosis. Relevant as an acid-based antimicrobial ear canal strategy; boric acid is not acetic acid and results cannot be directly extrapolated. |
-| [NCT04036318](https://clinicaltrials.gov/study/NCT04036318) | N/A | Completed | 3,022 | Large-scale presumptive periodic treatment (PPT) trial for STI prevention in high-risk populations in Tanzania. Provides epidemiological context on post-infectious bacterial burden in sub-Saharan Africa; intervention is not acetic acid. |
-| [NCT05710094](https://clinicaltrials.gov/study/NCT05710094) | Phase 1 | Completed | 28 | Safety and tolerability of SoftOx Biofilm Eradicator (SBE), a topically applied biofilm disruption agent for chronic leg wounds. Biofilm eradication is a mechanism shared with acetic acid; no direct acetic acid data. |
-| [NCT06612164](https://clinicaltrials.gov/study/NCT06612164) | N/A | Completed | 65 | Evaluated health effects of kefir consumption (a fermented beverage containing trace organic acids including acetic acid) on gastrointestinal, immune, and biochemical parameters in healthy adults. Highly indirect relevance. |
-| [NCT06005506](https://clinicaltrials.gov/study/NCT06005506) | N/A | Completed | 64 | Randomised trial of active versus passive synbiotic supplementation in chronically frail patients with altered intestinal function (ALS, ADHD, bronchial asthma). Gut microbiome context with indirect SCFA relevance. |
-| [NCT02872675](https://clinicaltrials.gov/study/NCT02872675) | N/A | Completed | 17 | Prebiotic supplementation effect on gut bacterial SCFA metabolites and systemic inflammation markers in adults with exercise-induced bronchoconstriction. Very small sample; no direct acetic acid intervention. |
-| [NCT07386795](https://clinicaltrials.gov/study/NCT07386795) | N/A | Not yet recruiting | 19 | Microbiota transplantation combined with prebiotics for functional constipation. Gut dysbiosis context; not yet recruiting and very small planned sample. |
-| [NCT07048028](https://clinicaltrials.gov/study/NCT07048028) | N/A | Recruiting | 90 | Evaluates chitosan irrigation solution versus sodium hypochlorite/EDTA combinations for root canal bacterial clearance. Antimicrobial comparator context; no acetic acid arm. |
+|---------|------|------|------|---------|
+| [NCT03212729](https://clinicaltrials.gov/study/NCT03212729) | N/A | Completed | 10 | Antimicrobial photodynamic therapy as an add-on to root canal treatment for apical periodontitis; acetic acid is not the intervention |
+| [NCT04824261](https://clinicaltrials.gov/study/NCT04824261) | N/A | Unknown | 100 | 4% boric acid vs clotrimazole in otomycosis (fungal ear infection); acetic acid not tested |
+| [NCT04036318](https://clinicaltrials.gov/study/NCT04036318) | N/A | Completed | 3,022 | Presumptive periodic treatment of STIs in high-risk groups in Tanzania; not an acetic acid study |
+| [NCT04120259](https://clinicaltrials.gov/study/NCT04120259) | N/A | Completed | 126 | Apple cider vinegar (contains acetic acid) plus metformin in type 2 diabetes; a dietary product in an unrelated disease |
+| [NCT07048028](https://clinicaltrials.gov/study/NCT07048028) | N/A | Recruiting | 90 | Chitosan vs sodium hypochlorite combinations as root canal irrigants; antibacterial comparison, acetic acid not studied |
+| [NCT03619161](https://clinicaltrials.gov/study/NCT03619161) | N/A | Completed | 58 | Effect of cleaning the bathroom environment on eczema severity (bleach bath context) |
+| [NCT05710094](https://clinicaltrials.gov/study/NCT05710094) | Phase 1 | Completed | 28 | Safety and tolerability of a topical biofilm eradicator (SoftOx) in chronic leg wounds |
+| [NCT04657757](https://clinicaltrials.gov/study/NCT04657757) | N/A | Completed | 16 | Ex vivo bacterial adhesion and bactericidal effect on implant restoration materials |
+| [NCT06135116](https://clinicaltrials.gov/study/NCT06135116) | N/A | Completed | 60 | Regulatory T cells and interleukins in periodontal disease progression |
+| [NCT05275647](https://clinicaltrials.gov/study/NCT05275647) | Phase 2 | Unknown | 75 | Low-energy shock wave plus botulinum toxin A in refractory interstitial cystitis |
+
+No SANCTR or PACTR registrations were identified.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for acetic acid in post-bacterial disorder.
+Currently no related literature available.
 
 ---
 
 ## South Africa Market Information
 
-Acetic acid (DrugBank ID: DB03166) has **no products currently registered with SAHPRA** and is not available as an approved pharmaceutical on the South African market.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. A39/34/0163 | Sabax Low Magnesium Acid Diasol (1000 ml) | Solution |
+| Reg. No. 29/34/0328 | Haemocarb acid concentrate 5 L AFM7204 | Infusion |
+| Reg. No. A39/34/0168 | Sabax Standard Acute Acid Diasol | Solution |
+| SECTION 21 | Haemodialysis Concentrate | Solution |
 
-> Dilute acetic acid preparations (e.g., 1–2% ear drops for otitis externa) may be used in clinical practice via compounding pharmacies or importation under Section 21 of the Medicines and Related Substances Act. Clinicians should verify current availability through the SAHPRA regulatory database. There is no Essential Medicines List (EML) entry for acetic acid as a standalone pharmaceutical.
+The registration records contain no approved indication text. The last entry is a Section 21 authorisation, not a full registration. All four products are dialysis-related concentrates, not products for treating bacterial or post-bacterial conditions.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. No DrugBank-derived key warnings, contraindications, or drug interaction data were retrieved for this candidate. Report adverse drug reactions to SAHPRA via the MedSafety reporting system.
-
-> **General note based on established pharmacology:** Concentrated acetic acid (>25%) is corrosive and causes chemical burns. Dilute clinical preparations (0.25–5%) are generally well tolerated on intact skin and mucous membranes but may cause localised irritation, particularly on inflamed or denuded tissue. Oral administration in the form of undiluted apple cider vinegar has been associated with oesophageal erosion and dental enamel demineralisation at prolonged or high-concentration use. Systemic acid-base effects are negligible at typical clinical doses. The safety profile for systemic therapeutic use in post-bacterial disorder has not been established.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -111,18 +110,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full safet
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigned a very high prediction score (99.98%), this likely reflects knowledge graph node proximity within the infection-related disease cluster rather than a direct pharmacological mechanism. Post-bacterial disorders are predominantly immune-mediated conditions that do not respond to antimicrobial acidification, and the retrieved evidence base contains no clinical trials or published literature directly investigating acetic acid in this indication. Acetic acid is also not currently registered in South Africa, adding a further regulatory barrier to clinical development.
+The prediction score is very high, but "post-bacterial disorder" is too non-specific to test. None of the 18 matched trials evaluates acetic acid for it, there is no supporting literature, and the mechanism and original indication are undocumented. The other nine predicted indications are also Hold. Of these, tinea corporis has the most credible topical antifungal rationale, but it still has no trials or literature.
 
 **To proceed, the following is needed:**
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, for example from DrugBank
+- A specific, clinically defined condition to replace "post-bacterial disorder"
+- Route and formulation compatibility: the registered products are dialysis concentrates, not topical or other therapeutic formulations
+- Any trial that directly tests acetic acid, ideally for a defined condition
 
-- **Indication clarification**: Define the specific post-bacterial entity to be targeted (e.g., reactive arthritis, PI-IBS, post-streptococcal nephritis), as each subtype carries a different mechanistic plausibility profile and evidence landscape
-- **Mechanism of action data**: Retrieve full DrugBank MOA record, including pharmacodynamics, targets, and SCFA pathway data relevant to gut immune modulation
-- **Preclinical evidence**: In vitro or animal model data demonstrating that acetic acid can modulate the immune-inflammatory pathways (e.g., complement activation, Th17/Treg axis) implicated in post-bacterial sequelae
-- **Route of administration plan**: Define the intended route (oral SCFA supplementation vs. topical/local application) and concentration, as safety and efficacy profiles differ substantially
-- **SAHPRA regulatory pathway**: If development proceeds, clarify the regulatory route for an unregistered compound targeting a new indication
-- **Diagnostic vs. therapeutic distinction**: If the envisaged application is as a **diagnostic aid** (VIA for post-infectious cervical lesions in HIV-positive women — as suggested by several retrieved trials), a separate diagnostic accuracy evidence review is warranted and may yield a more favourable evidence assessment
-
-> *This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

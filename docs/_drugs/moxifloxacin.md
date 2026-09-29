@@ -2,7 +2,7 @@
 layout: default
 title: Moxifloxacin
 parent: Model Prediction Only (L5)
-nav_order: 325
+nav_order: 331
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,72 +33,60 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Moxifloxacin (DrugBank DB00218) is a fourth-generation fluoroquinolone antibiotic; it is not currently registered with SAHPRA, so no South Africa–specific original indication text is available in this evidence pack. The TxGNN model's highest-ranked prediction for this drug is **Hyperamylasemia**, but this signal is currently supported by **0 clinical trials** and **0 publications**, and the underlying analysis flags it as a possible data artifact rather than a genuine pharmacological signal.
-
----
+Moxifloxacin is a fluoroquinolone antibacterial. The registration data provided does not state its approved indication text.
+The TxGNN model predicts it may be effective for **hyperamylasemia**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no SAHPRA license text exists (drug not registered in South Africa); DrugBank original indication field is also empty |
+| Original Indication | Not stated in the registration data; moxifloxacin is a fluoroquinolone antibacterial (bacterial infections) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action (MOA) data is not currently available for moxifloxacin in this evidence pack (flagged as data gap DG002, severity High). Based on general pharmacological knowledge, moxifloxacin is a fluoroquinolone antibiotic that inhibits bacterial DNA gyrase and topoisomerase IV; it has no known pharmacological pathway connecting it to amylase metabolism or pancreatic function, which underlies hyperamylasemia.
+Currently, detailed mechanism of action data is not available. Based on known information, moxifloxacin is a fluoroquinolone antibacterial that acts on bacterial DNA gyrase and topoisomerase IV. Its use is in bacterial infections.
 
-The evaluators' own assessment of this candidate is explicit: there is **no mechanistic link** between moxifloxacin and hyperamylasemia, and no clinical trial or literature evidence supports the association. The prediction is described as a high-scoring knowledge-graph (KG) output with no corroborating signal, and the working hypothesis is that it may represent either data noise or an indirect comorbidity signal (e.g., patients receiving moxifloxacin for an infection who separately have elevated amylase for unrelated reasons) rather than a true drug-disease relationship.
-
-Given the complete absence of supporting evidence and the lack of a plausible biological rationale, this prediction should be treated as exploratory only and not as a basis for clinical hypothesis generation at this time.
-
----
+No mechanistic rationale links moxifloxacin to hyperamylasemia (elevated serum amylase). The prediction comes from a very high knowledge-graph score alone. It is not supported by trials, literature or a plausible pharmacological pathway. The score should be read as a model output that needs verification, not as evidence of benefit.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
-Moxifloxacin currently has **no SAHPRA registrations** (0 licenses on record; market status: Not Marketed). No product/dosage-form information is available for South Africa.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 41/20.1.1/0777 | Numoxx | Tablet (oral) | Not listed in the data provided |
+| Reg. No. 49/20.1.1/0675 | Moxifloxacin 400Mg/250Ml Fresenius | Infusion (injectable) | Not listed in the data provided |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Note: TFDA label warnings/contraindications for moxifloxacin are recorded as a Blocking data gap (DG001) in this evidence pack — this must be resolved before any safety-stage evaluation (S1) can proceed.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (hyperamylasemia) has no clinical trial or literature support, no mechanistic rationale, and is explicitly flagged as a possible artifact of the knowledge-graph model rather than a real signal. Combined with the absence of MOA data and the drug's unregistered status in South Africa, there is no basis to advance this indication beyond exploratory screening.
+The prediction has a very high model score but no clinical trials, no literature and no plausible mechanism. It is L5 evidence only. Safety and mechanism data are also missing, so there is no basis to advance it.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-equivalent label warnings and contraindications (blocking gap DG001)
-- Moxifloxacin mechanism of action data (DG002)
-- Independent validation of the hyperamylasemia signal to rule out data noise or confounding comorbidity before any further evaluation
-- Note: this candidate bundle (TW-DB00218-multi) contains other predicted indications with materially stronger evidence — **monoclonal gammopathy**, **congenital hematological disorder**, and **bubonic plague** (all scored L3/S1, "Research Question", with supporting clinical trials and/or literature, including class-effect mechanistic support for plague via fluoroquinolone activity against *Yersinia pestis*). These may warrant separate evaluation rather than hyperamylasemia.
+- The SAHPRA package insert (warnings, contraindications, approved indications), which blocks any safety screening
+- Mechanism of action data (for example from DrugBank) to test for any link to hyperamylasemia
+- Any human or preclinical evidence for moxifloxacin in hyperamylasemia
+- A route compatibility assessment (oral tablet and intravenous infusion are registered)
+
+**Note on other predictions for this drug:** Among the lower-ranked predictions, **bubonic plague** (rank 10) has the strongest support. It rests on 5 preclinical or in vitro studies showing activity against *Yersinia pestis* and is classed L4 (Research Question). It is closer to an extension of the antibacterial spectrum than to true repurposing, and it has no human trials. It could be evaluated separately, after the safety data gap is closed.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

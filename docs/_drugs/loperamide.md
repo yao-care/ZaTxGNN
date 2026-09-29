@@ -2,7 +2,7 @@
 layout: default
 title: Loperamide
 parent: Model Prediction Only (L5)
-nav_order: 292
+nav_order: 298
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,72 +33,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Loperamide is a peripherally-acting μ-opioid receptor agonist internationally used to control diarrhoea. The TxGNN model predicts it may be effective for **Acute Contagious Conjunctivitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags it as a likely spurious (false-positive) association rather than a plausible mechanistic link.
-
----
+Loperamide is an anti-diarrhoeal medicine that slows gut motility. The TxGNN model predicts it may be effective for **acute contagious conjunctivitis** with a very high score, but **0 clinical trials** and **0 publications** support this. The prediction is a computational signal only, and no plausible mechanism has been identified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diarrhoea (internationally recognised use; not SAHPRA-registered — see Market Status below) |
-| Predicted New Indication | Acute Contagious Conjunctivitis |
+| Original Indication | Diarrhoea (from the prediction rationale; the SAHPRA registration records list no indication text) |
+| Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only, no supporting trials/literature) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 5 entries (4 unique registration numbers; Norimode appears twice under Y/11.9/0073) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current evidence pack. Based on known pharmacology, loperamide is a peripherally-acting μ-opioid receptor agonist that acts on the myenteric plexus of the gut to slow intestinal motility; it does not cross the blood-brain barrier and has no ocular formulation.
+Currently, detailed mechanism of action data is not available in the source record. Loperamide is generally described as a peripherally restricted mu-opioid receptor agonist. It acts on the gut to reduce motility and secretion, which is why it is used for diarrhoea.
 
-The model's own repurposing rationale explicitly cautions against this prediction: it states there is no known pharmacological connection between loperamide's peripheral antidiarrheal mechanism and acute contagious conjunctivitis (a viral/bacterial or allergic ocular condition), and that the high TxGNN score is most likely explained by node-proximity artefacts in the knowledge graph rather than a genuine biological relationship.
+For acute contagious conjunctivitis, no supported mechanistic link was found. Opioid receptor signalling on the ocular surface is not an established treatment target for conjunctivitis. Ocular exposure after oral dosing is also not expected. The high score most likely reflects the model's knowledge graph placing several eye diseases close together, not a pharmacological reason.
 
-This pattern repeats across all ten of the model's top predictions for this drug — nine of the ten relate to conjunctivitis-family conditions with no cited mechanistic basis, and the second-ranked prediction (amebic dysentery) is flagged as a potential **safety risk rather than a therapeutic opportunity**: international guidance treats loperamide as relatively contraindicated in invasive/inflammatory dysentery because slowing gut motility can delay pathogen/toxin clearance and increase the risk of toxic megacolon. None of the ten candidates in this evidence pack should be read as a credible repurposing signal without independent mechanistic or clinical corroboration.
+The same pattern applies to the other top predictions:
 
----
+- **Conjunctivitis subtypes:** The pseudomembranous, chronic follicular, parasitic, serous and folliculosis subtypes, plus conjunctivitis itself, share near-identical scores. This points to a shared graph artefact. Angelucci syndrome also has no link to loperamide's pharmacology.
+- **Amebic dysentery:** Loperamide may reduce stool frequency, but it has no antiamebic activity. Antimotility agents are generally cautioned against in invasive dysentery because slowed transit may worsen disease or mask progression. This is a safety concern, not a benefit.
+- **Gastroduodenitis:** There is only weak, indirect plausibility, because loperamide acts on the gut. Slowing motility is not a recognised approach for this upper-GI inflammatory condition.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered (ClinicalTrials.gov and ICTRP searches returned none; SANCTR and PACTR identifiers are not available in the source data).
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Loperamide is currently **not marketed** in South Africa according to this evidence pack (0 SAHPRA registrations on record).
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. Y/11.9/0073 | Norimode | Tablet |
+| Reg. No. V/11.9/0213 | Gastron | Tablet |
+| Reg. No. 31/11.9.2/0402 | Imodium Plus | Tablet |
+| Reg. No. 28/11.9/0649 | Loperastat | Syrup |
 
----
+Approved indication text and Essential Medicines List (EML) status are not available in the source data. All registered forms are oral (tablet and syrup); no ophthalmic formulation is registered.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*Note: this evidence pack flags TFDA/SAHPRA warning and contraindication data as a Blocking data gap — no safety pre-screening (S1) has been possible for this candidate.*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All ten predicted indications sit at Evidence Level L5 (model prediction only) with zero supporting clinical trials or literature, and the model's own rationale text identifies the top-ranked prediction — along with most of the others — as a likely knowledge-graph artefact rather than a mechanistically plausible signal. One candidate (amebic dysentery) may represent an actual safety risk rather than a therapeutic use. There is no basis to advance any of these candidates at this time.
+The prediction rests on model output alone (L5), with no trials, no literature and no plausible mechanism. The registered products are oral only, so they would not reach the ocular surface. For amebic dysentery, loperamide could cause harm.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism of action data from DrugBank or equivalent source
-- Independent literature or preclinical evidence establishing a plausible mechanistic link before any candidate in this set is escalated beyond S0
-- If South African market entry is ever considered, a full SAHPRA registration pathway assessment, since loperamide currently has no registered product in this market
+- SAHPRA Professional Information (PI) warnings and contraindications, which are currently missing and block any safety screening
+- Detailed mechanism of action data (MOA)
+- A credible mechanistic rationale, and preclinical or clinical evidence, for any ocular use
+- A route-compatibility assessment, since only oral products are registered
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

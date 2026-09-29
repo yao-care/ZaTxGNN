@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Levetiracetam
-parent: High Evidence (L1-L2)
-nav_order: 284
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 290
+evidence_level: L5
 indication_count: 10
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,91 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Levetiracetam: From Partial-Onset Seizures to Status Epilepticus
+# Levetiracetam: From Partial-Onset Seizures to Visual Epilepsy
 
 ## One-Sentence Summary
 
-> Levetiracetam is an established antiepileptic medication, widely used for partial-onset and generalized seizures. The TxGNN model predicts it may be effective for **Status Epilepticus**, and this is already the strongest-supported prediction in this evidence pack — backed by **26 clinical trials** (including a landmark multicentre Phase 3 RCT) and **20 publications**, several of which are randomized controlled trials and network meta-analyses.
-
----
+Levetiracetam is an antiseizure medication, marketed in South Africa as Keppra and Redilev. It is widely used for partial-onset seizures.
+The TxGNN model predicts it may be effective for **visual epilepsy** (seizures triggered by visual stimuli, such as photosensitive epilepsy).
+This prediction has **9 retrieved clinical trials** and **20 publications**, but none of them studied visual epilepsy directly, so the evidence is indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy — partial-onset seizures (adjunctive and monotherapy) |
-| Predicted New Indication | Status Epilepticus |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L1 |
-| South Africa Market Status | Not currently marketed in South Africa |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-*Note: Of the 10 TxGNN-predicted indications supplied in this evidence pack (visual epilepsy, eating seizures, orgasm-induced seizures, thinking seizures, startle epilepsy, audiogenic seizures, micturition-induced seizures, reading seizures, status epilepticus, beta-ketothiolase deficiency), status epilepticus is the only candidate reaching evidence level L1 with a "Proceed with Guardrails" recommendation. The other candidates — mostly rare reflex-epilepsy subtypes — remain at evidence level L3–L5 ("Research Question" or "Hold") due to sparse or indirect evidence, and are not the focus of this report.*
-
----
+| Original Indication | Partial-onset seizures (from published literature; the SAHPRA registration data supplied contain no indication text) |
+| Predicted New Indication | Visual epilepsy |
+| TxGNN Prediction Score | 99.98% |
+| Evidence Level | L4 (mechanism-based inference only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism-of-action documentation for levetiracetam was not available in the source data for this evaluation (DrugBank MOA field returned a data gap). However, based on well-characterized pharmacology summarized in the supporting literature, levetiracetam binds to the synaptic vesicle protein **SV2A**, modulating vesicular neurotransmitter release and reducing abnormal, synchronized neuronal discharge. This is the same broad-spectrum antiepileptic mechanism that underlies its approved use in partial-onset and generalized seizures.
+Currently, detailed mechanism of action data is not available in the dataset. In general pharmacology, levetiracetam binds the synaptic vesicle protein SV2A and reduces presynaptic neurotransmitter release.
 
-Status epilepticus is a neurological emergency defined by prolonged or repetitive seizure activity failing normal termination mechanisms — mechanistically, an extension of the same abnormal cortical hyperexcitability and synchronization that levetiracetam already targets in chronic epilepsy. Because levetiracetam is available in an intravenous formulation with rapid onset, favorable renal (non-hepatic) clearance, and minimal drug-drug interactions, it is pharmacologically well suited for acute seizure termination in emergency and intensive care settings.
+Visual (photosensitive) epilepsy involves cortical hyperexcitability triggered by flickering light or patterns. Reducing excess neurotransmitter release is a plausible way to dampen this. Levetiracetam already treats other seizure types, so a link to reflex seizures is reasonable.
 
-Importantly, this is not a novel mechanistic extrapolation: intravenous levetiracetam is already used internationally as a second-line/alternative first-line agent for benzodiazepine-refractory status epilepticus, most notably validated in the ESETT trial (NCT01960075, published in *Lancet* and *NEJM*). The TxGNN prediction therefore reflects and reinforces existing real-world clinical practice rather than proposing an untested mechanistic hypothesis.
-
----
+No retrieved study enrolled patients with visual reflex epilepsy. The rationale is therefore inferred from broad antiseizure evidence rather than shown directly.
 
 ## Clinical Trial Evidence
 
+No SANCTR or PACTR entries were retrieved.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01960075](https://clinicaltrials.gov/study/NCT01960075) | Phase 3 | Completed | 478 | ESETT trial — multicentre RCT comparing fosphenytoin, valproic acid, and levetiracetam for benzodiazepine-refractory status epilepticus |
-| [NCT02920060](https://clinicaltrials.gov/study/NCT02920060) | Phase 2 | Completed | 80 | Open randomized study, levetiracetam vs sodium valproate in children with refractory generalized convulsive status epilepticus |
-| [NCT01150331](https://clinicaltrials.gov/study/NCT01150331) | Phase 3 | Completed | 203 | IV levetiracetam + clonazepam vs clonazepam alone in prehospital treatment of generalized tonic-clonic status epilepticus |
-| [NCT02056236](https://clinicaltrials.gov/study/NCT02056236) | N/A | Completed | 172 | TELSTAR trial — treatment of EEG-diagnosed status epilepticus after cardiopulmonary resuscitation |
-| [NCT07052136](https://clinicaltrials.gov/study/NCT07052136) | N/A | Completed | 138 | Levetiracetam vs valproic acid in pediatric status epilepticus |
-| [NCT04926844](https://clinicaltrials.gov/study/NCT04926844) | Phase 2 | Completed | 144 | Combined levetiracetam + midazolam vs midazolam alone in pediatric generalized convulsive status epilepticus |
-| [NCT07163572](https://clinicaltrials.gov/study/NCT07163572) | N/A | Completed | 152 | IV brivaracetam vs levetiracetam in pediatric status epilepticus |
-| [NCT06067412](https://clinicaltrials.gov/study/NCT06067412) | N/A | Completed | 70 | Phenytoin vs levetiracetam in pediatric status epilepticus |
-| [NCT06907173](https://clinicaltrials.gov/study/NCT06907173) | Phase 3 | Recruiting | 770 | KESETT trial — ketamine + levetiracetam vs levetiracetam alone for established status epilepticus |
-| [NCT07046611](https://clinicaltrials.gov/study/NCT07046611) | Phase 2/3 | Recruiting | 124 | Ketamine + levetiracetam as second-line therapy for pediatric benzodiazepine-refractory status epilepticus |
-
----
+| [NCT04573803](https://clinicaltrials.gov/study/NCT04573803) | Phase 3 | Not yet recruiting | 1649 | Seizure prevention after traumatic brain injury (phenytoin vs levetiracetam, AED duration); no results yet |
+| [NCT07336992](https://clinicaltrials.gov/study/NCT07336992) | Phase 3 | Not yet recruiting | 580 | Prophylactic levetiracetam in acute intracerebral haemorrhage; no results yet |
+| [NCT00105040](https://clinicaltrials.gov/study/NCT00105040) | Phase 2 | Completed | 87 | Cognitive and neuropsychological safety of adjunctive levetiracetam in children with refractory partial seizures |
+| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Completed | 111 | Observational study of new antiepileptic drugs as first bitherapy in focal epilepsy |
+| [NCT03107507](https://clinicaltrials.gov/study/NCT03107507) | Phase 4 | Unknown | 40 | Levetiracetam for neonatal seizures |
+| [NCT04559529](https://clinicaltrials.gov/study/NCT04559529) | Phase 2 | Completed | 62 | Levetiracetam to reduce hippocampal hyperactivity in psychosis |
+| [NCT04277936](https://clinicaltrials.gov/study/NCT04277936) | Phase 2 | Terminated | 1 | Hippocampal activity modulation (early termination) |
+| [NCT00203216](https://clinicaltrials.gov/study/NCT00203216) | N/A | Completed | 31 | Open-label levetiracetam for migraine prevention, with or without aura |
+| [NCT04833907](https://clinicaltrials.gov/study/NCT04833907) | Phase 1/2 | Enrolling by invitation | 24 | Gene therapy for Canavan disease; link to levetiracetam unclear |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31774955](https://pubmed.ncbi.nlm.nih.gov/31774955/) | 2019 | RCT | New England Journal of Medicine | ESETT — randomized trial of three anticonvulsants (levetiracetam, fosphenytoin, valproate) for benzodiazepine-refractory status epilepticus |
-| [32203691](https://pubmed.ncbi.nlm.nih.gov/32203691/) | 2020 | RCT (age-group analysis) | The Lancet | Efficacy of levetiracetam, fosphenytoin, and valproate by age group in established status epilepticus (ESETT extended analysis) |
-| [36209676](https://pubmed.ncbi.nlm.nih.gov/36209676/) | 2022 | Network Meta-analysis | Seizure | Comparative effectiveness ranking of treatments for benzodiazepine-resistant status epilepticus |
-| [33060105](https://pubmed.ncbi.nlm.nih.gov/33060105/) | 2021 | Systematic Review/Meta-analysis | Archives of Disease in Childhood | Levetiracetam for convulsive status epilepticus in childhood |
-| [31830677](https://pubmed.ncbi.nlm.nih.gov/31830677/) | 2020 | Meta-analysis | Seizure | Efficacy and safety of intravenous levetiracetam in status epilepticus |
-| [35538830](https://pubmed.ncbi.nlm.nih.gov/35538830/) | 2023 | Meta-analysis | CNS & Neurological Disorders Drug Targets | Comparison of levetiracetam and phenytoin in pediatric status epilepticus |
-| [40119876](https://pubmed.ncbi.nlm.nih.gov/40119876/) | 2025 | Cohort | Epilepsia | Comparison of lacosamide, levetiracetam, and valproate as second-line therapy in a large adult status epilepticus cohort |
-| [38580318](https://pubmed.ncbi.nlm.nih.gov/38580318/) | 2024 | Review | Seminars in Neurology | Update on pharmacological management of status epilepticus |
-| [35976303](https://pubmed.ncbi.nlm.nih.gov/35976303/) | 2022 | Review | Arquivos de Neuro-Psiquiatria | Diagnosis, monitoring and treatment of status epilepticus |
-| [38117319](https://pubmed.ncbi.nlm.nih.gov/38117319/) | 2024 | Review | Intensive Care Medicine | Status epilepticus management in the ICU |
-
----
+| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | RCT (Phase 3) | Lancet Neurol | PEACH: prophylactic levetiracetam for early seizures after intracerebral haemorrhage |
+| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | RCT | Pediatrics | Levetiracetam vs phenobarbital for neonatal seizures |
+| [38678766](https://pubmed.ncbi.nlm.nih.gov/38678766/) | 2024 | RCT | Seizure | Phenytoin vs levetiracetam for acute symptomatic seizures in children with encephalitis |
+| [30487494](https://pubmed.ncbi.nlm.nih.gov/30487494/) | 2018 | RCT | Mymensingh Med J | Levetiracetam vs phenobarbital in childhood epilepsy |
+| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | Meta-analysis | Neurocrit Care | Levetiracetam seizure prophylaxis in neurocritical care |
+| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Network meta-analysis | J Neurol | Antiseizure medications for idiopathic generalised epilepsies |
+| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | Meta-analysis | Epilepsy Behav | Levetiracetam for myoclonic seizures in idiopathic generalised epilepsy |
+| [36209676](https://pubmed.ncbi.nlm.nih.gov/36209676/) | 2022 | Network meta-analysis | Seizure | Treatments for benzodiazepine-resistant status epilepticus |
+| [38316735](https://pubmed.ncbi.nlm.nih.gov/38316735/) | 2024 | Guideline | Neurocrit Care | Seizure prophylaxis in moderate-severe traumatic brain injury |
+| [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | Review | CNS Drugs | Overview of levetiracetam in epilepsy, including its approved uses |
 
 ## South Africa Market Information
 
-Levetiracetam has **no active SAHPRA registrations** recorded in the evidence pack (`total_licenses: 0`, `market_status: "Not marketed"` / not marketed). No product name, dosage form, or approved indication text is available for South Africa at this time. This is a key gap for repurposing feasibility: any move toward status-epilepticus use in South Africa would first require a marketed, SAHPRA-registered levetiracetam product (or an import/named-patient access pathway) before formulary or clinical-guideline adoption can proceed.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 41/2.5/0460 | Redilev | Tablet | Not stated in the data supplied |
+| Reg. No. A40/2.5/0587 | Keppra | Solution | Not stated in the data supplied |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*(No key warnings, contraindications, or drug-interaction data were available in the source evidence pack for this evaluation — all fields returned a data gap.)*
-
----
-
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Status epilepticus is supported by evidence level L1 — a landmark completed Phase 3 RCT (ESETT), multiple additional completed RCTs across adult and pediatric populations, and several published meta-analyses/network meta-analyses — making it by far the strongest candidate in this evidence pack. IV levetiracetam is already used internationally as an established second-line/alternative first-line agent for status epilepticus, so this represents formalizing existing practice rather than a speculative new use. The main constraint is regulatory: levetiracetam is not currently registered or marketed in South Africa.
+Visual epilepsy has a very high model score, but no retrieved trial or publication studied it directly. The link relies on general antiseizure pharmacology.
+
+Status epilepticus, another prediction for this drug, has far stronger support: the completed Phase 3 ESETT trial (NCT01960075, n=478) found levetiracetam comparable to fosphenytoin and valproate. That indication may merit a separate evaluation.
 
 **To proceed, the following is needed:**
-- SAHPRA registration or import pathway for an IV levetiracetam product in South Africa
-- Full Professional Information (PI) — warnings, contraindications, and drug-interaction data (currently a data gap)
-- Formal DrugBank/manufacturer mechanism-of-action documentation to support a clinical guideline submission
-- Local (South African) clinical guideline or emergency medicine society input on positioning levetiracetam relative to existing status epilepticus protocols (benzodiazepines, phenytoin/fosphenytoin, valproate)
-- Confirmation of IV formulation supply chain and cold-chain/storage requirements for emergency department and ICU use
+- Visual-epilepsy-specific evidence, such as photosensitive-epilepsy studies with photoparoxysmal EEG response endpoints
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data confirmed from DrugBank
+- Approved indication text for the Keppra and Redilev registrations
+- Any SANCTR or PACTR-registered trials, if they exist
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

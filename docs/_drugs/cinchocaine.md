@@ -2,7 +2,7 @@
 layout: default
 title: Cinchocaine
 parent: Model Prediction Only (L5)
-nav_order: 119
+nav_order: 120
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,75 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Cinchocaine: From Local Anaesthesia to Bronchitis
+# Cinchocaine: From Topical Local Anaesthesia to Bronchitis
 
 ## One-Sentence Summary
 
-Cinchocaine (also known as dibucaine) is a potent, long-acting amide-type local anaesthetic, historically used in topical formulations for anorectal conditions such as haemorrhoids and anal fissures.
-The TxGNN model predicts it may be effective for **Bronchitis**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-Evidence for this repurposing direction is therefore at the lowest tier (L5 — model prediction only).
-
----
+Cinchocaine is a local anaesthetic, marketed in South Africa as an ointment (Scheriproct) and a suppository (Proctosedyl).
+The TxGNN model predicts it may be effective for **bronchitis**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Local anaesthesia; topical use for anorectal conditions — no SAHPRA registration on file |
+|------|------|
+| Original Indication | Not stated in the registration data provided (cinchocaine is generally known as a local anaesthetic) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for cinchocaine. Based on known pharmacological class information, cinchocaine is an amide-type local anaesthetic that works by blocking voltage-gated sodium channels, preventing depolarisation and nerve impulse conduction. It is most commonly encountered as a topical anorectal preparation (e.g., haemorrhoid creams); systemic or inhalation use is not established in routine clinical practice.
+Currently, detailed mechanism of action data is not available. Cinchocaine is generally known as a sodium-channel-blocking local anaesthetic, which could at most suggest symptomatic relief, such as cough suppression. This has not been verified here.
 
-The mechanistic hypothesis connecting cinchocaine to bronchitis rests on a class-level extrapolation. Other local anaesthetics — most notably lidocaine — have been studied for their ability to suppress airway neurogenic inflammation, inhibit the NF-κB signalling pathway, and reduce bronchial mucosal inflammatory responses. If cinchocaine shares these properties, a role in airway inflammation management is theoretically conceivable. However, this analogy is derived from a structurally related but distinct compound, and there is no published evidence that cinchocaine itself exerts meaningful anti-inflammatory activity in bronchial tissue.
+Nothing in the data links a local anaesthetic to disease-modifying activity in bronchitis. The high score (99.77%) most likely reflects proximity in the knowledge graph rather than biology.
 
-Importantly, cinchocaine has substantially higher lipid solubility and systemic toxicity potential than lidocaine (particularly cardiovascular and central nervous system toxicity). No inhalation, nebulisation, or intravenous safety data are available. These factors make non-topical routes of administration high-risk, and the mechanistic extrapolation from the lidocaine literature to cinchocaine remains speculative at best. The TxGNN prediction may reflect a shared "airway inflammation" node in the knowledge graph rather than a direct pharmacological relationship.
+The available formulations are an ointment and a suppository. Neither is an obvious route for treating airway disease, and route compatibility has not yet been assessed.
 
----
+The six other predictions in the pack are also L5, with no trials or publications, and all are on Hold: acrodermatitis chronica atrophicans, neonatal dermatomyositis, childhood connective-tissue-disease-associated interstitial lung disease, acne keloid, familial hydroa vacciniforme and amyopathic dermatomyositis. Most have no plausible mechanistic link, and several involve paediatric populations with no safety data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## South Africa Market Information
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. E/11.8/0667 | Scheriproct (new formulary) | Ointment | Not stated in the registration data provided |
+| Reg. No. E529 (Act 101 of 1965) | Proctosedyl Suppositories | Suppository | Not stated in the registration data provided |
+
+Essential Medicines List (EML) status was not included in the data provided.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a TxGNN model-only prediction (Evidence Level L5) with no supporting clinical trials, published literature, or established safety data for any non-topical route; the mechanistic link to bronchitis is a speculative class extrapolation from lidocaine, and cinchocaine's systemic toxicity profile significantly elevates the risk of pursuing non-topical repurposing.
+The prediction rests only on a model score, with no trials, no literature and no documented mechanism. The registered formulations (ointment and suppository) are also not obviously suited to bronchitis.
 
 **To proceed, the following is needed:**
-- Retrieve the SAHPRA-approved Professional Information (PI) to characterise warnings, contraindications, and known adverse effects
-- Obtain cinchocaine mechanism of action data via DrugBank (DB00527) and primary pharmacology literature
-- Conduct a targeted literature search for any preclinical (in vitro / animal) data demonstrating anti-inflammatory or anti-bronchospasm activity specifically for cinchocaine
-- Assess feasibility of a safe delivery route for bronchitis (inhalation, systemic) given cinchocaine's known toxicity window
-- Evaluate whether a class-effect assumption from lidocaine to cinchocaine is pharmacologically defensible before committing to further development steps
-
----
-
-> **Disclaimer:** This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates identified by the TxGNN model require clinical validation before any therapeutic application. All content should be reviewed in conjunction with SAHPRA-approved product information.
+- The SAHPRA package insert (warnings, contraindications and approved indications), which is required before any safety screening
+- Mechanism of action data (for example from DrugBank) to test whether any plausible link to bronchitis exists
+- Any preclinical or clinical evidence in bronchitis; without it, the prediction stays at L5
+- A route and formulation assessment showing that a suitable dosage form exists for the proposed use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

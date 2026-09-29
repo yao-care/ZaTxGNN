@@ -2,7 +2,7 @@
 layout: default
 title: Taurine
 parent: Moderate Evidence (L3-L4)
-nav_order: 423
+nav_order: 431
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,76 +29,85 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Taurine: From No Established Indication to Alcohol Withdrawal Delirium
+# Taurine: From Parenteral Nutrition Component to Alcohol Withdrawal Delirium
 
 ## One-Sentence Summary
 
-Taurine is a naturally occurring sulfonic amino acid; no original approved indication or SAHPRA registration is on file for this evaluation. The TxGNN model predicts a possible new role in **Alcohol Withdrawal Delirium**, but the supporting evidence base currently consists of **1 indirectly relevant clinical trial** (not testing taurine itself) and **7 publications** on alcohol-dependence pharmacotherapy in general — direct taurine-specific clinical evidence for this indication is not yet available.
+Taurine is an amino acid that appears in the South African parenteral nutrition products Numeta and SmofKabiven, so its original use is nutritional support. The SAHPRA indication text for these products is not listed in the data provided.
+The TxGNN model predicts it may be useful for **alcohol withdrawal delirium**, but **1 clinical trial** and **7 publications** were retrieved and **none tests taurine itself** for this condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established (no registered indication or market history on file) |
-| Predicted New Indication | Alcohol Withdrawal Delirium |
+| Original Indication | Parenteral nutrition (inferred from the registered products; no indication text listed) |
+| Predicted New Indication | Alcohol withdrawal delirium |
 | TxGNN Prediction Score | 93.07% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for taurine is not currently available in this dataset. Based on general pharmacological knowledge, taurine is an endogenous amino acid with proposed GABAergic and glycinergic neuromodulatory activity, membrane-stabilizing effects, and calcium-flux regulation — properties that are theoretically consistent with dampening the central nervous system hyperexcitability seen in alcohol withdrawal (including delirium tremens).
+Detailed mechanism of action data is not available in the record. Taurine is known to act as an inhibitory neuromodulator. It activates GABA-A and glycine receptors, and it modulates glutamate-driven excitotoxicity and calcium balance.
 
-However, none of the retrieved clinical trials or literature actually test taurine in this indication. The single clinical trial identified (NCT00855699) is a Phase 4 feasibility study comparing existing benzodiazepine detoxification regimens in primary care — it does not involve taurine as an intervention (reviewer relevance grade: C, disease-area match only). The literature set similarly consists of reviews and studies on approved alcohol-dependence/withdrawal agents (benzodiazepines, acamprosate, disulfiram), with taurine appearing only as a conceptual/mechanistic analogy, not as a studied agent.
+Alcohol withdrawal is characterised by too little GABA inhibition and too much glutamate excitation. This gives the prediction a plausible, purely theoretical mechanistic link.
 
-In short, the TxGNN signal here rests on plausible mechanistic reasoning rather than direct experimental or clinical support, which is why the evidence level is capped at L4 (preclinical/mechanistic) despite the high prediction score.
+Most of the retrieved literature concerns **acamprosate**, a structural analogue of taurine (N-acetylhomotaurine) used in alcohol dependence. This is indirect evidence. It does not show that taurine works.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00855699](https://clinicaltrials.gov/study/NCT00855699) | Phase 4 | Completed | 36 | Feasibility study (ADEPT) comparing pharmacological regimens for alcohol detoxification in UK primary care; does **not** evaluate taurine — included only for disease-area overlap. |
+| [NCT00855699](https://clinicaltrials.gov/study/NCT00855699) | Phase 4 | Completed | 36 | Feasibility study of two drug regimens for alcohol detoxification in UK primary care. No taurine arm is evident, so it does not support the taurine link (relevance grade C). |
+
+No SANCTR or PACTR registrations were identified.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2085344](https://pubmed.ncbi.nlm.nih.gov/2085344/) | 1990 | RCT (acamprosate, non-taurine) | Alcohol and Alcoholism | Double-blind placebo-controlled trial of acamprosate (a taurine-related calcium acetylhomotaurinate compound) reducing relapse indicators post-withdrawal; taurine itself not tested. |
-| [26314552](https://pubmed.ncbi.nlm.nih.gov/26314552/) | 2016 | Review | European Addiction Research | Descriptive review of approved alcohol dependence/withdrawal medications, noting under-representation of women in trials. |
-| [26394517](https://pubmed.ncbi.nlm.nih.gov/26394517/) | 2015 | Review | Nihon Rinsho | Review of pharmacological therapies for alcohol use disorder and withdrawal delirium in Japan. |
-| [18281128](https://pubmed.ncbi.nlm.nih.gov/18281128/) | 2008 | Review | La Revue de Medecine Interne | General review of alcohol dependence diagnosis and treatment. |
-| [14679678](https://pubmed.ncbi.nlm.nih.gov/14679678/) | 2003 | Review | Therapie | Retrospective study of acamprosate-induced adverse drug reactions during alcohol abstinence treatment. |
-| [9411716](https://pubmed.ncbi.nlm.nih.gov/9411716/) | 1997 | Review | Schweizerische Medizinische Wochenschrift | Overview of pharmacotherapy classes for alcoholism (withdrawal agents, aversive agents, craving-reduction agents). |
-| [8865961](https://pubmed.ncbi.nlm.nih.gov/8865961/) | 1996 | Review | Alcoholism, Clinical and Experimental Research | Review of pharmacotherapies for alcohol problems, focused on withdrawal agents and opiate antagonists. |
-
-*Note: none of the above studies administer or evaluate taurine directly; they are included because TxGNN's disease-area match returned them as the closest available literature.*
+|------|-----|------|---------|---------|
+| [2085344](https://pubmed.ncbi.nlm.nih.gov/2085344/) | 1990 | Double-blind RCT (acamprosate, indirect) | Alcohol Alcohol | Acamprosate reduced relapse markers in 569 weaned alcoholics. This tested the taurine analogue, not taurine. |
+| [26314552](https://pubmed.ncbi.nlm.nih.gov/26314552/) | 2016 | Review | Eur Addict Res | Women are under-represented in trials of approved alcohol dependence and withdrawal drugs. |
+| [26394517](https://pubmed.ncbi.nlm.nih.gov/26394517/) | 2015 | Review | Nihon Rinsho | Japanese practice favours antipsychotics over benzodiazepines for withdrawal delirium, and no substantial guidelines exist. |
+| [8865961](https://pubmed.ncbi.nlm.nih.gov/8865961/) | 1996 | Review | Alcohol Clin Exp Res | Overview of pharmacotherapies for alcohol problems, including withdrawal agents and anti-craving drugs. |
+| [9411716](https://pubmed.ncbi.nlm.nih.gov/9411716/) | 1997 | Review | Schweiz Med Wochenschr | Classifies drugs for alcohol dependence into withdrawal, aversive, comorbidity and anti-craving groups. |
+| [18281128](https://pubmed.ncbi.nlm.nih.gov/18281128/) | 2008 | Review | Rev Med Interne | General review of alcohol dependence diagnosis and treatment. |
+| [14679678](https://pubmed.ncbi.nlm.nih.gov/14679678/) | 2003 | Retrospective study | Therapie | Adverse effects of acamprosate can lead to treatment discontinuation. |
 
 ## South Africa Market Information
 
-Taurine currently has **no SAHPRA registration** and **no recorded market history** in this dataset (market status: Not Marketed, 0 licenses on file). No registered product, dosage form, or approved indication text is available for review.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not listed in the data provided |
+| Reg. No. 52/25/0740 | Numeta G16E | Infusion | Not listed in the data provided |
+| Reg. No. 46/32.2/0518 | SmofKabiven | Infusion | Not listed in the data provided |
+| Reg. No. 47/32.2/0036 | SmofKabiven Peripheral | Infusion | Not listed in the data provided |
+
+All four registrations are infusion products, not oral formulations. Essential Medicines List (EML) status was not available in the data.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Key warnings, contraindications, and drug-drug interaction data are not currently available for taurine in this dataset — this is flagged as a Blocking data gap, see Conclusion below.)*
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but supporting evidence is indirect (no taurine-specific trials or publications) and evidence level is capped at L4. More critically, safety/PI data (warnings, contraindications) is completely absent, which is a **Blocking** gap that prevents even an initial safety screen (S1).
+The 93.07% TxGNN score is a model prediction only. No retrieved study tests taurine in alcohol withdrawal delirium. The literature is indirect (acamprosate) or generic, and the single trial has no taurine arm. All registered South African products are intravenous nutrition formulations, so a route and formulation for this use are also unresolved.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-equivalent Professional Information (warnings, contraindications) — currently blocking
-- Mechanism of action (MOA) confirmation from DrugBank or primary pharmacology sources
-- Taurine-specific preclinical or clinical data in alcohol withdrawal/delirium (current evidence only covers other agents)
-- Dosing and route-of-administration feasibility for an acute withdrawal setting
+- SAHPRA Professional Information for the four registered products (warnings and contraindications), which is currently a blocking gap
+- Mechanism of action data from DrugBank
+- Direct preclinical or clinical evidence for taurine itself in alcohol withdrawal
+- A route and formulation assessment, since only infusion products are registered
+- Comparison against the established standard of care for withdrawal delirium
 
-**Additional note:** Among the other candidates in this evidence pack, *migraine disorder* (rank 6, score 89.2%) has notably stronger literature support (L3, multiple cohort studies on taurine levels in migraine patients, decision stage S1 "Research Question") and may warrant separate, prioritized evaluation ahead of alcohol withdrawal delirium.
+**Other predictions:** Migraine disorder (score 89.20%) has the most literature of the other predictions (L4, "Research Question"). It consists of observational studies of altered taurine levels and one magnesium taurate plus fish oil combination paper. It is not evidence of benefit from taurine alone. The remaining predictions (barbiturate, hallucinogen, antidepressant-type and phencyclidine abuse, cauda equina syndrome, migraine with brainstem aura, restless legs syndrome and obsolete neurogenic bladder) have no supporting trial or treatment evidence and stay on Hold.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

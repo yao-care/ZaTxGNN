@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nicotinamide
-parent: Moderate Evidence (L3-L4)
-nav_order: 332
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 339
+evidence_level: L5
 indication_count: 10
 ---
 
 # Nicotinamide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Nicotinamide: From an Undocumented Original Indication to Werner Syndrome (NAD+ Depletion)
+# Nicotinamide: From Vitamin B Supplementation to Elevated Plasma Zinc
 
 ## One-Sentence Summary
 
-> This evidence pack does not record an original approved indication or mechanism of action for nicotinamide (Vitamin B3 amide), and it is currently **not marketed** in South Africa. Of the 10 TxGNN-predicted indications reviewed, the highest-scoring candidate ("elevated plasma zinc") is flagged by the evidence itself as a likely model artifact with no supporting rationale, so this report instead focuses on **Werner syndrome**, the candidate with the strongest biological and clinical grounding — **1 relevant published RCT** and **7 supporting mechanistic/review papers**, but **no registered clinical trials** to date.
+Nicotinamide (vitamin B3) is registered in South Africa mainly in vitamin B-complex and multivitamin products, and the registry records no formal indication text for it. The TxGNN model predicts it may be useful for **elevated plasma zinc**, but the **10 clinical trials** and **2 publications** retrieved do not test nicotinamide for this condition. The prediction is model-only and unsupported by direct evidence.
 
 ---
 
@@ -41,61 +41,73 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no original indications or MOA recorded) |
-| Predicted New Indication | Werner Syndrome (NAD+-depletion-driven premature aging) |
-| TxGNN Prediction Score | 88.61% (rank 36,492) |
-| Evidence Level | L3 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Original Indication | Not recorded in the registry data. Registered products are vitamin B-complex and multivitamin preparations |
+| Predicted New Indication | Zinc, elevated plasma |
+| TxGNN Prediction Score | 97.83% |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for this specific drug record is not available. Based on established pharmacology, nicotinamide is the amide form of Vitamin B3 (niacin) and functions as a precursor for NAD+/NADH and NADP+/NADPH synthesis via the salvage pathway — a role directly relevant to the Werner syndrome hypothesis below.
+Currently, detailed mechanism of action data is not available. Nicotinamide is the amide form of vitamin B3 and a precursor of NAD+ through the salvage pathway. It is used as a nutritional supplement in vitamin B-complex products.
 
-Werner syndrome is a rare hereditary progeroid condition caused by WRN helicase mutations. Published mechanistic work shows that WRN-deficient cells and patient samples exhibit depleted mitochondrial NAD+, impaired mitophagy, and accelerated senescence. Since nicotinamide is a direct metabolic precursor of NAD+, restoring NAD+ pools is a biologically coherent strategy for this disease — and a 2025 double-blind, randomized, placebo-controlled crossover trial reported benefit from **nicotinamide riboside** (a related but chemically distinct NAD+ precursor, not nicotinamide itself) in Werner syndrome patients.
-
-**Important caveat:** the clinical trial evidence supporting this hypothesis was conducted with nicotinamide riboside, not nicotinamide. Both are NAD+ precursors but differ in bioavailability, metabolism, and dosing, so the RCT result cannot be assumed to transfer directly to nicotinamide without dedicated study. Note also that TxGNN's single highest-scoring prediction for this drug ("elevated plasma zinc," 97.83%) was excluded from this report — the evidence pack's own analysis identifies it as a likely semantic mis-linkage within a "micronutrient" concept cluster, with no supporting trials or literature and several retrieved trials explicitly contradicting the direction of the hypothesis (zinc *deficiency* prevention, not elevation).
+No clear mechanistic link between nicotinamide and lowering plasma zinc was found. The high TxGNN score is not supported by the retrieved evidence. The trials and papers concern nutrition, obesity or zinc deficiency, not elevated zinc treated with nicotinamide. This prediction should be treated as a model output only.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for nicotinamide in Werner syndrome.
+All 10 trials retrieved were graded C (low relevance). None tests nicotinamide for elevated plasma zinc. No SANCTR or PACTR records were identified.
 
-*(A relevant randomized controlled trial exists in the published literature — see below — but tested nicotinamide riboside, not nicotinamide, and is not a registered trial record in this evidence pack.)*
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT06975241](https://clinicaltrials.gov/study/NCT06975241) | Phase 4 | Recruiting | 64 | EPA-to-DHA conversion rates by sex and genotype in healthy adults. Not related to nicotinamide or zinc |
+| [NCT06457412](https://clinicaltrials.gov/study/NCT06457412) | N/A | Recruiting | 200 | Lifestyle programme for childhood obesity |
+| [NCT04413604](https://clinicaltrials.gov/study/NCT04413604) | N/A | Terminated | 29 | Vitamin D, zinc and iron status in children given young children's milk |
+| [NCT04612088](https://clinicaltrials.gov/study/NCT04612088) | N/A | Unknown | 34 | Behavioural intervention for multivitamin adherence after bariatric surgery |
+| [NCT06317883](https://clinicaltrials.gov/study/NCT06317883) | N/A | Active, not recruiting | 1508 | Observational study of childhood obesity risk factors |
+| [NCT03866837](https://clinicaltrials.gov/study/NCT03866837) | N/A | Completed | 288 | Prebiotic GOS and lactoferrin with iron supplements in Kenyan infants |
+| [NCT04641663](https://clinicaltrials.gov/study/NCT04641663) | N/A | Unknown | 70 | Tolerability of a multi-ingredient supplement in older adults |
+| [NCT02989311](https://clinicaltrials.gov/study/NCT02989311) | N/A | Completed | 23 | Iron absorption from a micronutrient powder in African infants |
+| [NCT06081114](https://clinicaltrials.gov/study/NCT06081114) | N/A | Active, not recruiting | 643 | Micronutrient dose-response in women in Bangladesh (deficiency, not excess) |
+| [NCT02428647](https://clinicaltrials.gov/study/NCT02428647) | N/A | Completed | 3433 | Preventive vs therapeutic zinc supplementation in Lao children (zinc deficiency) |
 
 ---
 
 ## Literature Evidence
 
+Neither publication evaluates nicotinamide for elevated plasma zinc.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40459998](https://pubmed.ncbi.nlm.nih.gov/40459998/) | 2025 | RCT | Aging Cell | Double-blind randomized crossover placebo-controlled trial of nicotinamide riboside (an NAD+ precursor related to nicotinamide) in Werner syndrome patients; NAD+ depletion implicated in disease pathogenesis, supplementation reported to be beneficial |
-| [31754102](https://pubmed.ncbi.nlm.nih.gov/31754102/) | 2019 | Preclinical/Mechanistic | Nature Communications | NAD+ augmentation restores mitophagy and limits accelerated aging in Werner syndrome patient cells and animal models |
-| [24757718](https://pubmed.ncbi.nlm.nih.gov/24757718/) | 2014 | Mechanistic | Aging Cell | Loss of WRN protein induces a metabolic shift compromising redox homeostasis, linking WRN deficiency to NAD+/redox pathways |
-| [40179319](https://pubmed.ncbi.nlm.nih.gov/40179319/) | 2025 | Mechanistic | Aging | Decreased mitochondrial NAD+ in WRN-deficient cells linked to dysfunctional proliferation |
-| [38184705](https://pubmed.ncbi.nlm.nih.gov/38184705/) | 2024 | Mechanistic | Cell & Bioscience | WRN loss accelerates abnormal adipocyte metabolism in Werner syndrome models |
-| [34201700](https://pubmed.ncbi.nlm.nih.gov/34201700/) | 2021 | Review | Int J Mol Sci | DNA damage-induced neurodegeneration in accelerated ageing diseases including Werner syndrome |
-| [33353663](https://pubmed.ncbi.nlm.nih.gov/33353663/) | 2021 | Review | J Investigative Dermatology | Skin abnormalities in DNA repair/premature aging/mitochondrial dysfunction disorders |
-
-*One additional PubMed result (PMID 13469243) was excluded from this table — it matched on the author surname "Werner," not on Werner syndrome, and is unrelated (a 1957 cardiac arrhythmia case report).*
+| [32938758](https://pubmed.ncbi.nlm.nih.gov/32938758/) | 2020 | Review | Open Heart | Hyperinsulinaemia, magnesium, vitamin D and thrombosis in COVID-19. Only tangentially related |
+| [15361776](https://pubmed.ncbi.nlm.nih.gov/15361776/) | 2004 | Preclinical (animal) | J Hypertens | Antioxidant enzymes in the kidneys of hypertensive rats on an antioxidant-rich diet. Mentions NADPH oxidase only, not nicotinamide therapy |
 
 ---
 
 ## South Africa Market Information
 
-Nicotinamide currently has no SAHPRA registrations recorded (0 licenses; market status: Not Marketed). Any use in South Africa would require either a new SAHPRA registration application or access via SAHPRA's Section 21 (named-patient) mechanism.
+Showing 5 of 20 registrations. The registry data does not state approved indications or manufacturers, and Essential Medicines List status is not available in the data.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| H2611 (Act 101/1965) | Becoplex Ido vial 10ml | Injection | Not stated in registry data |
+| H2412 (Act 101/1965) | A-Lennon Vitamin B Co ampoule 2ml | Injection | Not stated in registry data |
+| H2975 (Act 101/1965) | Vitamin B Co 10ml | Injection | Not stated in registry data |
+| U/2.6/218 | Restin | Capsule | Not stated in registry data |
+| U/22.1.4/200 | Soluvit Novum 10ml vials | Injection | Not stated in registry data |
+
+Other registered forms include infusion, TPN and inhaler presentations.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Key warnings, contraindications, and drug-interaction data were not available in this evidence pack — this is flagged internally as a Blocking data gap.)*
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. No drug-interaction records were found for nicotinamide in the queried source.
 
 ---
 
@@ -104,16 +116,18 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-- A Blocking-severity data gap exists — no SAHPRA/TFDA-equivalent Professional Information (warnings, contraindications) is available for nicotinamide, which prevents even a preliminary safety assessment.
-- The Werner syndrome hypothesis is mechanistically coherent and supported by one RCT, but that RCT used nicotinamide riboside, not nicotinamide — the evidence does not yet directly establish efficacy for this specific drug.
-- The drug is not currently marketed in South Africa, adding a regulatory access step regardless of the evidence outcome.
+The 97.83% TxGNN score is not backed by any trial or publication testing nicotinamide for elevated plasma zinc. All 10 trials are unrelated, and the evidence is model prediction only (L5).
 
 **To proceed, the following is needed:**
-- Official Professional Information / PI for nicotinamide (warnings, contraindications, interactions) — currently a blocking gap
-- Formal mechanism-of-action documentation specific to nicotinamide (not the riboside analog)
-- A study or pharmacological bridging analysis comparing nicotinamide vs. nicotinamide riboside NAD+-repletion efficacy in Werner syndrome
-- Given Werner syndrome's rarity, engagement with rare-disease/orphan-drug regulatory pathways and specialist clinical input before any patient-facing use
-- Clarification of the SAHPRA access route (new registration vs. Section 21) given current "Not Marketed" status
+- A plausible mechanism linking nicotinamide to plasma zinc, plus the mechanism of action data from DrugBank
+- SAHPRA Professional Information (warnings and contraindications), needed before any safety screening
+- Confirmation of the approved indications for each registered product
+- Any clinical or biochemical study of nicotinamide and zinc handling
+
+**Other predictions to note:**
+Of the ten predicted indications, **Werner syndrome** (rank 4) has the strongest support (L4, "Research Question"). It has preclinical NAD+ data and a 2025 double-blind crossover trial of nicotinamide riboside (PMID 40459998). Nicotinamide riboside is a related NAD+ precursor, not nicotinamide itself, and the trial design was inferred from the title and should be confirmed. It would be the better candidate for follow-up, once nicotinamide-specific efficacy and safety data are obtained.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

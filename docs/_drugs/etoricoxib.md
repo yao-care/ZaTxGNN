@@ -2,7 +2,7 @@
 layout: default
 title: Etoricoxib
 parent: Model Prediction Only (L5)
-nav_order: 215
+nav_order: 219
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Etoricoxib: From NSAID Pain/Inflammation Therapy to Migraine Disorder
+# Etoricoxib: From COX-2 Inhibitor Pain Relief to Migraine Disorder
 
 ## One-Sentence Summary
 
-Etoricoxib is a selective COX-2 inhibitor of the NSAID class; its original approved indication and detailed mechanism-of-action documentation are not on record in this evidence pack (flagged as data gaps). The TxGNN model predicts it may be effective for **Migraine Disorder**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a knowledge-graph inference only, with no direct evidence found in ClinicalTrials.gov, ICTRP, or PubMed searches specific to this indication.
-
----
+Etoricoxib is a selective COX-2 inhibitor anti-inflammatory drug, registered in South Africa as Erestz.
+The TxGNN model predicts it may be effective for **migraine disorder** (score 99.90%),
+but **0 clinical trials** and **0 publications** currently support this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on record (no licenses or original indication data available; flagged as Blocking data gap DG001) |
-| Predicted New Indication | Migraine Disorder |
+| Original Indication | Not stated in the SAHPRA record supplied. Etoricoxib is generally used as an NSAID for pain and inflammation. |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 (model prediction only, no clinical or literature evidence) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data for etoricoxib is not available in this evidence pack (data gap DG002). Based on the information that is available, etoricoxib is known to be a selective COX-2 (cyclooxygenase-2) inhibitor within the NSAID class. Its role in reducing prostaglandin-mediated inflammation is well established for pain and inflammatory conditions in clinical practice.
+Currently, detailed mechanism of action data is not available in the evidence pack. Etoricoxib is a selective COX-2 inhibitor. COX-2-derived prostaglandins contribute to neurogenic inflammation and sensitisation of the trigeminovascular system, which is a recognised part of migraine biology. The mechanistic link is therefore plausible.
 
-The mechanistic rationale offered for the migraine prediction is that COX-2 inhibition could theoretically reduce prostaglandin-mediated vascular inflammation implicated in migraine attacks, drawing a parallel to the existing clinical practice of using other NSAIDs for acute migraine treatment. This is a plausible pharmacological hypothesis, but it should be treated as **class-level reasoning by analogy**, not as evidence specific to etoricoxib in migraine.
+The original indication is not recorded in the local registration data, so the link cannot be checked against the approved use. The very high TxGNN score is a prediction only.
 
-Critically, this analogy is not yet supported by any direct data: targeted searches against ClinicalTrials.gov, WHO ICTRP, and PubMed for "etoricoxib AND migraine disorder" each returned zero results. A related literature set does exist for a different candidate in this same prediction set — "migraine with or without aura, susceptibility to" (rank 3) — but those 20 publications are predominantly epilepsy genetics/neuroinflammation studies exploring shared pathways between epilepsy and migraine susceptibility, not etoricoxib efficacy studies, and are therefore only indirect background context.
+Some related predictions have small amounts of supporting literature:
+- **Headache disorder**: case reports and a case series describe responses to etoricoxib in rare primary headaches (stabbing headache, cough headache, indomethacin-responsive headaches).
+- **Trigeminal autonomic cephalalgia**: one case series (PMID 35277974) reports etoricoxib and celecoxib sensitivity.
 
----
+These are non-controlled reports on other headache disorders. They do not establish efficacy in migraine.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for migraine disorder. No SANCTR or PACTR records were supplied.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for migraine disorder.
 
 ## South Africa Market Information
 
-Etoricoxib is **not currently registered with SAHPRA** in South Africa — the evidence pack records 0 licenses/registrations and a market status of "Not marketed." No product name, dosage form, or approved indication text is available to summarize.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 49/20.2.8/0399 | Erestz | Film-coated tablet (Fct) | Not stated in the supplied record |
 
----
+Essential Medicines List (EML) status was not provided.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+No SAHPRA package insert warnings, contraindications or drug interaction data were available in the evidence pack. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*(Note: key warnings, contraindications, and drug-interaction data for etoricoxib are flagged in this evidence pack as a Blocking data gap (DG001) — TFDA/SAHPRA label warnings could not be retrieved, which by itself is sufficient to block progression to the safety pre-assessment stage regardless of efficacy evidence.)*
-
----
+Safety signals in the retrieved literature (individual case reports, not systematic data):
+- Life-threatening hyperkalaemia and acute kidney dysfunction in a patient taking telmisartan on a low-sodium (potassium-rich) diet (PMID 21373319).
+- Possible etoricoxib-induced reversible cerebral vasoconstriction syndrome (PMID 25229174). This is a vascular signal to weigh in any headache or migraine use.
+- Selective COX-2 inhibitors are associated with fluid retention and hypertension.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has zero clinical trials and zero literature citations specifically supporting etoricoxib for migraine disorder — the prediction rests entirely on a TxGNN knowledge-graph score (Evidence Level L5) plus a plausible-but-unverified class-level mechanistic analogy to other NSAIDs. Independently, the safety data gap (DG001, Blocking) means this candidate cannot yet even enter the S1 safety pre-assessment stage, and the drug is not currently marketed or registered in South Africa.
+The migraine prediction is supported only by the model score and a plausible COX-2 mechanism, with no trials or publications for this drug-disease pair. Case-level reports in related headache disorders are interesting, but they are not enough to move forward, and the vascular safety signals need weighing.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved PI warnings and contraindications (resolve DG001, Blocking)
-- Etoricoxib's original approved indication(s) and detailed mechanism of action via DrugBank API (resolve DG002)
-- A dedicated literature/trial search specifically targeting "etoricoxib AND migraine" beyond the current zero-hit queries, to confirm whether any unindexed or recent evidence exists
-- Consider whether **"headache disorder"** (rank 9 in this same evidence pack — 2 clinical trials and 5 publications, including case reports of etoricoxib efficacy in indomethacin-responsive headache syndromes) is a better-evidenced candidate to prioritize ahead of migraine disorder specifically
+- The SAHPRA Professional Information (package insert) warnings and contraindications. This is a blocking gap.
+- Detailed mechanism of action data (for example from DrugBank).
+- The approved indication text for Reg. No. 49/20.2.8/0399, to establish the baseline use.
+- Controlled clinical evidence in migraine, or at least systematic evidence in the related headache disorders.
+- A cardiovascular, renal and cerebrovascular risk assessment for the intended population.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

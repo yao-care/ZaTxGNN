@@ -2,7 +2,7 @@
 layout: default
 title: Salbutamol
 parent: Model Prediction Only (L5)
-nav_order: 399
+nav_order: 407
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salbutamol: From Bronchodilator (Asthma/COPD) to Papillary Conjunctivitis
+# Salbutamol: From Reversible Airway Obstruction (Asthma/COPD) to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salbutamol is a short-acting β2-adrenergic agonist whose established clinical role — confirmed elsewhere in this same evidence pack — is as a bronchodilator for obstructive airway disease (asthma/COPD). The TxGNN model's top-ranked prediction for this drug is **Papillary Conjunctivitis**, but this candidate is currently supported by **0 clinical trials** and **0 publications** — it is a pure model score with no corroborating evidence.
-
----
+Salbutamol is a beta-2 agonist bronchodilator used for asthma and COPD.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but there are **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma / COPD (bronchodilator); formal SAHPRA-approved indication text not available in this evidence pack (data gap) |
-| Predicted New Indication | Papillary Conjunctivitis |
+| Original Indication | Not recorded in the supplied registration data. Salbutamol is generally used for reversible airway obstruction (asthma/COPD) |
+| Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.996% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 10 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for salbutamol is not available in this evidence pack (flagged as a High-severity data gap). Based on information available elsewhere in this same pack, salbutamol is a selective β2-adrenergic receptor agonist that relaxes bronchial smooth muscle — this is its well-established, core clinical use in obstructive airway disease (asthma/COPD), not a "repurposed" indication.
+Currently, detailed mechanism of action data is not available. Based on known pharmacology, salbutamol is a beta-2 adrenergic agonist. Its efficacy in airway obstruction is well established, and mechanistically it may be applicable to allergic eye inflammation.
 
-Papillary conjunctivitis, by contrast, is predominantly a mechanically and allergen-driven condition (commonly associated with contact lens wear or ocular foreign-body irritation), rather than a disorder primarily mediated through β2-adrenergic smooth-muscle or vascular pathways. The evidence pack's own analysis of this candidate explicitly flags the mechanistic link as weak, and no clinical trials or literature — direct or indirect — were retrieved to support it.
+The only rationale available is weak and theoretical. Beta-2 receptor stimulation can reduce mast cell mediator release, and mast cells drive allergic ocular inflammation. Nothing in the retrieved data tests or confirms this for papillary conjunctivitis. The high TxGNN score reflects a knowledge-graph pattern, not clinical proof.
 
-For context, a related but distinct condition in this same evidence pack, atopic/allergic conjunctivitis, does have older animal-model literature (1980s) suggesting β2-agonists including salbutamol can suppress immediate allergic conjunctival reactions via conjunctival mast cell and vascular β2-receptors. That evidence does not transfer directly to papillary conjunctivitis, which is a separate, largely non-allergic mechanical entity, and should not be read as support for this specific candidate.
-
----
+For context, the same Evidence Pack contains preclinical papers on a related condition, atopic conjunctivitis. In guinea pigs, topical salbutamol suppressed immediate allergic conjunctivitis. Other work reported topical anti-inflammatory activity of beta-2 agonists in the conjunctiva. This is animal data for a different diagnosis, so it offers only indirect support.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Salbutamol is not currently registered or marketed under SAHPRA according to this evidence pack (0 registrations, market status: not marketed). No product/registration records are available to summarize.
+Salbutamol is marketed in South Africa under 10 SAHPRA registrations. The five main registrations are below. Approved indication text was not captured in the registration data, so it is not shown.
 
----
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 30/10.2.2/0200 | Asthavent | Syrup |
+| Reg. No. 35/10.2/0142 | Vari-salbutamol syrup | Syrup |
+| Reg. No. A39/10.2.1/0482 | Asthavent Respules | Nebuliser |
+| Reg. No. 29/10.2.1/0015 | Combivent | Inhaler |
+| Reg. No. 30/10.2.1/0032 | Airomir Autohaler | Inhaler |
+
+The dosage forms across all registrations are syrup, nebuliser, inhaler, vial and tablet. None is an ophthalmic product, so a topical eye formulation would be a new development.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there is zero clinical trial or literature support, and the proposed mechanism does not clearly align with the mechanical/allergen-driven pathophysiology of papillary conjunctivitis. Combined with the drug's unmarketed status in South Africa, this candidate does not meet the threshold to advance.
+The prediction has no supporting trials or literature (L5). The mechanistic link is theoretical, and no registered South African product is suitable for ocular use.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and mechanism-of-action data (currently a data gap)
-- SAHPRA Professional Information (warnings/contraindications), currently unavailable
-- Preclinical or mechanistic studies specifically testing salbutamol in papillary conjunctivitis (contact lens–associated or allergic models)
-- Any clinical case series or trial data directly addressing this indication before further evaluation
+- Human interventional or observational evidence in papillary or allergic conjunctivitis. The related guinea pig data would need to be translated into clinical studies.
+- Detailed mechanism of action data (MOA).
+- SAHPRA package insert warnings and contraindications for safety screening.
+- A feasibility assessment of an ophthalmic formulation and route.
 
-**Note:** Other predicted indications for salbutamol in this same evidence pack carry substantially stronger evidence and may warrant separate, prioritized evaluation — notably *obstructive lung disease* (L1, Proceed with Guardrails, though this reflects the drug's already-known core use rather than true repurposing) and *bronchitis* (L2, Proceed with Guardrails).
+Other predictions in this Evidence Pack, such as bronchitis (L3) and obstructive lung disease (L2), have stronger evidence. The latter is likely an established use rather than true repurposing, so they may be better priorities for review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

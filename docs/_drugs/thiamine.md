@@ -2,7 +2,7 @@
 layout: default
 title: Thiamine
 parent: Moderate Evidence (L3-L4)
-nav_order: 434
+nav_order: 442
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Thiamine: From Vitamin B1 Deficiency to Hyperthyroidism
+# Thiamine: From Vitamin B1 Supplementation to Hyperthyroidism
 
 ## One-Sentence Summary
 
-Thiamine (Vitamin B1, DrugBank DB00152) is classically used to treat thiamine deficiency states such as beriberi and Wernicke's encephalopathy. The TxGNN model predicts it may also be effective for **Hyperthyroidism**, specifically for managing the cardiovascular consequences of the hypermetabolic thyrotoxic state, with **1 completed pilot clinical trial** and **20 related publications** currently supporting this direction — though the evidence base remains preliminary.
+Thiamine (vitamin B1) is a vitamin used as a supplement and to correct thiamine deficiency, and it is marketed in South Africa in injectable, oral and other forms.
+The TxGNN model predicts it may help in **hyperthyroidism** (score 99.44%), but the support is limited to **1 small pilot trial (n=12)** and **20 publications**, mostly case reports and old biochemical studies.
+The likely benefit is correcting a secondary thiamine deficiency, not treating the thyroid disease itself.
 
 ---
 
@@ -41,23 +43,23 @@ Thiamine (Vitamin B1, DrugBank DB00152) is classically used to treat thiamine de
 
 | Item | Content |
 |------|------|
-| Original Indication | Thiamine (Vitamin B1) deficiency (e.g., beriberi, Wernicke's encephalopathy) — no SAHPRA-approved indication text is on file, as the product is not currently registered in South Africa |
-| Predicted New Indication | Hyperthyroidism (cardiovascular dysfunction associated with thyrotoxicosis) |
+| Original Indication | Not stated in the SAHPRA records provided (thiamine is a vitamin B1 supplement used for thiamine deficiency) |
+| Predicted New Indication | Hyperthyroidism |
 | TxGNN Prediction Score | 99.44% |
 | Evidence Level | L3 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this candidate (data gap DG002). Based on known pharmacology, thiamine is an essential water-soluble vitamin that functions as a cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, and transketolase — enzymes central to carbohydrate metabolism and cellular energy production. Its efficacy in correcting thiamine deficiency (beriberi, Wernicke's encephalopathy) is well established.
+Currently, detailed mechanism of action data is not available. Thiamine is a vitamin B1 supplement, and its efficacy in correcting thiamine deficiency is well established. Mechanistically, it may be applicable in hyperthyroidism because of the following link.
 
-The proposed link between thiamine and hyperthyroidism is physiological rather than a shared disease category: thyrotoxicosis is a hypermetabolic state that increases tissue oxygen consumption and substrate turnover, which in turn raises the body's thiamine requirement. Older biochemical studies (1940s–1960s) documented altered thiamine turnover and tissue storage in hyperthyroid animals and patients, and multiple modern case reports describe hyperthyroid or thyrotoxic patients developing beriberi-like high-output heart failure or Wernicke's encephalopathy — conditions that are classically thiamine-responsive.
+Thyrotoxicosis is a hypermetabolic state that increases thiamine use and turnover. This can lead to a functional thiamine deficiency, with reduced transketolase activity. In severe cases the deficiency shows up as Wernicke encephalopathy, or as high-output heart failure resembling beriberi. The case reports in the literature mostly describe pregnant women with hyperemesis and thyrotoxicosis who developed Wernicke encephalopathy.
 
-Mechanistically, this suggests that in a subset of severely hyperthyroid patients, a relative or functional thiamine deficiency may develop and contribute to cardiovascular strain, which could theoretically be improved by thiamine supplementation. This hypothesis has been tested directly in one small prospective pilot study, giving the prediction some early clinical grounding, though it does not establish thiamine as a treatment for hyperthyroidism itself (the underlying thyroid disease still requires standard antithyroid therapy).
+Thiamine here is supportive correction of a secondary deficiency, not an antithyroid treatment. The high TxGNN score probably reflects this deficiency-related association rather than a disease-modifying effect.
 
 ---
 
@@ -65,38 +67,48 @@ Mechanistically, this suggests that in a subset of severely hyperthyroid patient
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02767245](https://clinicaltrials.gov/study/NCT02767245) | Phase NA | Completed | 12 | Pilot study evaluating prevalence of thiamine deficiency and thiamine supplementation's effect on cardiovascular function in patients with severe hyperthyroidism/thyrotoxicosis; small uncontrolled cohort. |
+| [NCT02767245](https://clinicaltrials.gov/study/NCT02767245) | Not applicable (no phase designation) | Completed | 12 | Pilot study of thiamine supplementation in severe hyperthyroidism. It assessed the prevalence of thiamine deficiency and whether cardiovascular function improved. The endpoint is cardiovascular function, not thyroid disease control. |
+
+No SANCTR or PACTR registrations were identified.
 
 ---
 
 ## Literature Evidence
 
+No randomised controlled trials were found. The table lists the reviews and case reports first, then the older mechanistic studies.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21064291](https://pubmed.ncbi.nlm.nih.gov/21064291/) | 1946 | Mechanistic study | Federation proceedings | Thiamine deficiency, quinidine, hyper- and hypothyroidism alter cardiac muscle ATP content and ATPase activity in rats. |
-| [13305517](https://pubmed.ncbi.nlm.nih.gov/13305517/) | 1955 | Clinical mechanistic study | Endocrinologia e scienza della costituzione | Urinary thiamine excretion after IV cocarboxylase loading differs in hyperthyroid vs. normal subjects. |
-| [13934469](https://pubmed.ncbi.nlm.nih.gov/13934469/) | 1963 | Animal study | Annals of biochemistry and experimental medicine | Tissue thiamine storage and intestinal synthesis altered in hypo- and hyper-thyroid rats. |
-| [13168067](https://pubmed.ncbi.nlm.nih.gov/13168067/) | 1954 | Mechanistic study | La Riforma medica | Behavior of free thiamine and thiamine ester differs across thyroid disease states. |
-| [13588400](https://pubmed.ncbi.nlm.nih.gov/13588400/) | 1958 | Animal study | The Journal of nutrition | Thyroprotein and penicillin affect thiamine requirement and growth in hyperthyroid rats. |
-| [26567494](https://pubmed.ncbi.nlm.nih.gov/26567494/) | 2015 | Case report | Critical care nursing clinics of North America | High-output heart failure caused by thyrotoxicosis and beriberi (thiamine deficiency); reviews shared hemodynamic mechanism. |
-| [18026802](https://pubmed.ncbi.nlm.nih.gov/18026802/) | 2008 | Case report | Journal of general internal medicine | Thyrotoxicosis-associated Wernicke's encephalopathy responsive to thiamine repletion. |
-| [32983708](https://pubmed.ncbi.nlm.nih.gov/32983708/) | 2020 | Case report | Cureus | Wernicke's encephalopathy associated with transient gestational hyperthyroidism and hyperemesis gravidarum. |
-| [22436368](https://pubmed.ncbi.nlm.nih.gov/22436368/) | 2013 | Case report | Neurologia (Barcelona, Spain) | Wernicke's encephalopathy secondary to hyperthyroidism and ingestion of thiaminase-rich foods. |
-| [36176825](https://pubmed.ncbi.nlm.nih.gov/36176825/) | 2022 | Case report | Cureus | Uncommon presentation of hyperthyroidism culminating in severe neurological (Wernicke-type) consequences. |
+| [9704251](https://pubmed.ncbi.nlm.nih.gov/9704251/) | 1998 | Review | Drug Safety | Review of when nausea and vomiting in pregnancy should be treated and which treatments are safe. Persistent hyperemesis can compromise hydration and nutritional status. |
+| [26567494](https://pubmed.ncbi.nlm.nih.gov/26567494/) | 2015 | Case report | Critical Care Nursing Clinics of North America | Thyrotoxicosis and wet beriberi (severe thiamine deficiency) as causes of high-output heart failure. |
+| [32983708](https://pubmed.ncbi.nlm.nih.gov/32983708/) | 2020 | Case report | Cureus | Wernicke encephalopathy associated with transient gestational hyperthyroidism and hyperemesis gravidarum. |
+| [18026802](https://pubmed.ncbi.nlm.nih.gov/18026802/) | 2008 | Case report | Journal of General Internal Medicine | Thyrotoxicosis-associated Wernicke encephalopathy, caused by thiamine deficiency. |
+| [32934066](https://pubmed.ncbi.nlm.nih.gov/32934066/) | 2020 | Case report | Clinical Medicine (London) | A pregnant woman with hyperemesis and thyrotoxicosis presented with confusion and ataxia. |
+| [36593922](https://pubmed.ncbi.nlm.nih.gov/36593922/) | 2023 | Case report | Radiology Case Reports | Uncommon presentation of Wernicke encephalopathy in a pregnant woman with pre-gestational hyperthyroidism. |
+| [36176825](https://pubmed.ncbi.nlm.nih.gov/36176825/) | 2022 | Case report | Cureus | Wernicke encephalopathy with hyperthyroidism, after persistent nausea, vomiting and weight loss. |
+| [25148818](https://pubmed.ncbi.nlm.nih.gov/25148818/) | 2014 | Case report | Endocrine Practice | Gestational thyrotoxicosis and hyperemesis gravidarum associated with Wernicke encephalopathy. |
+| [13305517](https://pubmed.ncbi.nlm.nih.gov/13305517/) | 1955 | Small physiological study | Endocrinologia e scienza della costituzione | Urinary thiamine after an intravenous cocarboxylase load in hyperthyroid and normal subjects. |
+| [21064291](https://pubmed.ncbi.nlm.nih.gov/21064291/) | 1946 | Animal study | Federation Proceedings | Effect of thiamine deficiency and thyroid state on ATP content of rat heart muscle. |
 
 ---
 
 ## South Africa Market Information
 
-Thiamine currently holds **no SAHPRA registration** on record for this candidate (`taiwan_regulatory.total_licenses = 0`, market status: Not marketed). No licensed product entries are available to summarize dosage form or approved indication text in South Africa.
+Of the 20 registrations, 5 are shown below. The register extract does not list approved indication text or manufacturers. Other registered forms include tablet, infusion, TPN and inhaler.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Y/6.1/415 | Dopamine hcl fresenius 5ml 200mg/5ml | Injection | Not stated |
+| H2611 (ACT 101/1965) | Becoplex ido vial 10ml | Injection | Not stated |
+| T1012 (ACT 101/1965) | Beespan | Capsule | Not stated |
+| H2412 (ACT 101/1965) | A-lennon vitamin b co ampoule 2ml | Injection | Not stated |
+| H2975 (ACT 101/1965) | Vitamin b co 10ml | Injection | Not stated |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*Note: A Blocking data gap (DG001) has been identified — TFDA/SAHPRA label warnings and contraindications are not yet available, which prevents this candidate from completing the S1 safety pre-screen.*
 
 ---
 
@@ -105,13 +117,15 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-Evidence for thiamine in hyperthyroidism-related cardiovascular dysfunction is currently limited to one small, uncontrolled pilot study (n=12) supported mainly by historical mechanistic research and case reports of thiamine-responsive complications (beriberi-like heart failure, Wernicke's encephalopathy) occurring in thyrotoxic patients — this is suggestive but not yet actionable evidence. Combined with the product having zero SAHPRA registrations in South Africa and a Blocking safety data gap (no TFDA/SAHPRA label data available), the candidate is not ready to proceed.
+The evidence is one small, completed pilot trial (n=12) with a cardiovascular endpoint, plus case reports and old biochemical studies. It supports correcting thiamine deficiency in severe thyrotoxicosis, not treating hyperthyroidism. The SAHPRA safety data is also missing, which blocks safety screening.
+
+Of the other predicted indications, only pulmonary hypertension has comparable (L3) evidence. It comes from consistent case series and observational data on thiamine-responsive pulmonary hypertension in infants with thiamine deficiency. It is a deficiency-correction question in a defined subpopulation, not a general pulmonary hypertension indication. The remaining predictions have no supporting clinical evidence.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information (warnings, contraindications, dosing) to resolve the Blocking data gap (DG001)
-- Confirmed mechanism of action data (DG002)
-- Larger controlled trials directly testing thiamine supplementation for cardiovascular outcomes in hyperthyroid/thyrotoxic patients
-- Clarification of target population (e.g., severe thyrotoxicosis vs. general hyperthyroidism) and dosing/route feasibility given the product is not currently marketed in South Africa
+- SAHPRA package insert warnings and contraindications (download and parse the PI PDF)
+- Mechanism of action data (query the DrugBank API)
+- Reframing the question as thiamine deficiency screening and supplementation in severe thyrotoxicosis, with thiamine status as a defined endpoint
+- A larger controlled study, or a systematic review of thiamine status in thyrotoxicosis, to move beyond L3 evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

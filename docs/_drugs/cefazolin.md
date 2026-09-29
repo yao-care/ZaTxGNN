@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cefazolin
-parent: Model Prediction Only (L5)
-nav_order: 101
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 102
+evidence_level: L4
 indication_count: 10
 ---
 
 # Cefazolin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,63 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Cefazolin is a first-generation cephalosporin antibiotic with well-established clinical use for surgical prophylaxis and the treatment of gram-positive bacterial infections.
-The TxGNN model predicts it may be effective for **Infectious Otitis Media**, with **0 clinical trials** and **3 publications** currently supporting this specific direction.
-At an evidence level of L4, the current recommendation is to **Hold** — however, a separate prediction for urinary tract infection (UTI, Rank 10) carries an L3 evidence base and warrants a **Proceed with Guardrails** decision, making it the highest-priority repurposing candidate in this pack.
-
----
+Cefazolin is a first-generation cephalosporin antibiotic. Its SAHPRA record does not state an approved indication, so the original use here is taken from the drug class.
+The TxGNN model predicts it may be effective for **infectious otitis media**, but there are **no registered clinical trials** and only **3 indirect publications** (two reviews and one case report) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections — surgical prophylaxis, skin and soft-tissue infections, UTI |
-| Predicted New Indication | Infectious Otitis Media |
+|------|------|
+| Original Indication | Not stated in the SAHPRA record (approved indication text is empty) |
+| Predicted New Indication | Infectious otitis media |
 | TxGNN Prediction Score | 99.44% |
-| Evidence Level | L4 (preclinical / mechanistic reasoning only; no clinical trials) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L4 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this Evidence Pack. Based on established pharmacology, Cefazolin is a first-generation cephalosporin that inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs), disrupting peptidoglycan cross-linking and ultimately causing bactericidal cell lysis. Its activity profile is strongest against gram-positive organisms — particularly methicillin-sensitive *Staphylococcus aureus* (MSSA) and streptococcal species — and it provides modest coverage against a limited range of gram-negative organisms.
+Currently, detailed mechanism of action data is not available. Cefazolin is a beta-lactam antibiotic, and beta-lactams inhibit bacterial cell wall synthesis. That activity could plausibly cover Gram-positive bacteria that cause ear infections, such as Streptococcus and Staphylococcus species.
 
-The mechanistic link to infectious otitis media is partial but not sufficient for clinical repurposing. The dominant bacterial pathogens in acute otitis media (AOM) are *Streptococcus pneumoniae* (~40%), *Haemophilus influenzae* (~25%), *Moraxella catarrhalis* (~12%), and *Streptococcus pyogenes* (~10–15%). Cefazolin covers *S. pneumoniae* and *S. pyogenes* well, but its activity against *H. influenzae* and *M. catarrhalis* is negligible — these two organisms together account for approximately 35–40% of AOM cases and represent a critical antimicrobial gap.
+There are important limits. Cefazolin's coverage of *Haemophilus influenzae* and *Moraxella catarrhalis*, two common causes of otitis media, is weak. It is also given by injection only, which is a poor fit for a condition usually treated with oral antibiotics.
 
-Beyond the spectrum gap, cefazolin's intravenous (IV) route of administration is a practical barrier: AOM is almost exclusively managed in outpatient or primary care settings where oral therapy is standard. Current AOM guidelines (AAP 2013) recommend high-dose amoxicillin or amoxicillin-clavulanate as first-line therapy precisely because of their broader oral coverage. The TxGNN model likely identified the shared gram-positive pathogen overlap between cefazolin's established uses and AOM pathogens, but this overlap is insufficient to support a repurposing recommendation without addressing the spectrum and route limitations.
-
----
+The score is very high, but no trials or direct human evidence support it. The prediction should be read as a hypothesis from the knowledge graph, not as a validated new use.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Cefazolin in infectious otitis media.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Case Report | Annals of Otology, Rhinology & Laryngology | Ceftazidime + Cefazolin used as empiric combination therapy in a paediatric case of Gradenigo Syndrome (petrous apicitis, a rare complication of acute otitis media); highlights Cefazolin's role in covering gram-positive organisms in otological infection contexts |
-| [877649](https://pubmed.ncbi.nlm.nih.gov/877649/) | 1977 | Narrative Review | Southern Medical Journal | Reviews cephalosporins in paediatric infections; notes potential utility of first-generation cephalosporins (including Cefazolin) in otitis media for patients with penicillin hypersensitivity, acknowledging the gram-positive coverage rationale |
-| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Case Series | Clinical Pharmacy | Case of Stevens-Johnson syndrome in a child treated with multiple antibiotics for upper airway infection and otitis media; Cefazolin mentioned in the sequential antibiotic treatment context |
-
----
+|------|-----|------|------|---------|
+| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Review | Clinical Pharmacy | Stevens-Johnson syndrome case and review. The child was treated for otitis media with penicillin and cefaclor, not cefazolin. Indirect. |
+| [877649](https://pubmed.ncbi.nlm.nih.gov/877649/) | 1977 | Review | Southern Medical Journal | General review of cephalosporins in paediatric infections. Not specific to cefazolin or otitis media. |
+| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Case report | Annals of Otology, Rhinology, and Laryngology | Ceftazidime-cefazolin empiric therapy for paediatric Gradenigo syndrome, a rare complication of acute otitis media. Anecdotal only. |
 
 ## South Africa Market Information
 
-Cefazolin is currently **not registered with SAHPRA** and is **not marketed in South Africa**. There are no active product licences on record. Any clinical procurement or use would require a special access pathway (e.g., Section 21 Authorisation under the Medicines and Related Substances Act). This is a critical regulatory barrier that must be resolved before any repurposing initiative can advance.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 36/20.1.1/0259 | Sabax cefazolin powder for injection | Injection | Not stated in the record |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-> **Note for prescribers:** Cefazolin is a beta-lactam antibiotic. Clinicians should be aware of the potential for cross-hypersensitivity in patients with known penicillin allergy (estimated 1–2% cross-reactivity), and the risk of serious allergic reactions including anaphylaxis. No specific South African PI safety data was available in this Evidence Pack.
-
----
-
 ## Conclusion and Next Steps
 
-**Decision: Hold** *(for infectious otitis media as the primary predicted indication)*
+**Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN model score (99.44%), Cefazolin's antimicrobial spectrum does not adequately cover *H. influenzae* and *M. catarrhalis* — two pathogens responsible for approximately 35–40% of AOM cases — making it a suboptimal candidate for infectious otitis media treatment. Its IV-only formulation is impractical for the outpatient AOM setting, and current international guidelines already exclude it from AOM algorithms. The evidence base is limited to three peripheral literature references (evidence level L4), with no clinical trials.
+The prediction score is high, but there are no clinical trials and the literature is indirect. Cefazolin's spectrum has known gaps against key otitis media pathogens, and the injection-only route limits practical use.
 
-**Broader landscape note:** Across all 10 TxGNN predictions in this Evidence Pack, the **Urinary Tract Infection (UTI)** indication (Rank 10, score 98.91%) is the most clinically mature, with 11 clinical trials (including directly Cefazolin-focused studies) and 20 publications — supporting an **L3 evidence level** and a **"Proceed with Guardrails"** recommendation. IDSA and EAU guidelines already recognise IV Cefazolin as a first-line or alternative agent for acute uncomplicated pyelonephritis caused by susceptible organisms. This indication should be prioritised for further evaluation.
-
-**To proceed with any indication, the following is needed:**
-
-- **SAHPRA registration or Section 21 authorisation:** Cefazolin's absence from the South African market must be addressed before any clinical repurposing programme can commence
-- **Mechanism of action data:** Query DrugBank API (DB01327) to complete the MOA and pharmacokinetic profile
-- **Safety data:** Download and parse the SAHPRA or originator Professional Information (PI) document to identify formal warnings, contraindications, and drug interactions
-- **For UTI (recommended priority):** Conduct local antibiogram analysis of South African community-acquired UTI pathogens to establish current cefazolin susceptibility rates (ESBL-producing strains represent the primary resistance risk)
-- **For otitis media (if continued):** Clarify whether a reformulated product (e.g., IM administration in hospitalised children) could address the route-of-administration barrier, and obtain South African paediatric AOM pathogen susceptibility data
-
----
-
-*This report is generated from computational model predictions and available published evidence. Results are for research reference only and do not constitute medical advice. All repurposing candidates require clinical validation before application. Data cut-off: 5 April 2026.*
+**To proceed, the following is needed:**
+- The SAHPRA Professional Information (PI), to confirm the approved indications, warnings and contraindications, and to allow a safety screen.
+- Mechanism of action data from DrugBank.
+- Direct clinical evidence in otitis media. A modern comparative study, or a check of current local pathogen susceptibility, would help.
+- Review of related predictions. Chronic otitis media and suppurative otitis media have one direct human comparative study (PMID 6752467, 1982, cefmetazole vs cefazolin, 172 evaluable patients) and are rated L3. They are stronger research questions than this one, though that study is dated and antibiotic resistance patterns have changed since.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

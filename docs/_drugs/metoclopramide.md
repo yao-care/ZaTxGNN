@@ -2,7 +2,7 @@
 layout: default
 title: Metoclopramide
 parent: Moderate Evidence (L3-L4)
-nav_order: 313
+nav_order: 319
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,92 +29,93 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Metoclopramide: From Nausea, Vomiting and Gastroparesis to Gastric Ulcer
+# Metoclopramide: From Nausea/Vomiting and Gastric Motility Disorders to Gastric Ulcer
 
 ## One-Sentence Summary
 
-> Metoclopramide is a dopamine D2-receptor antagonist internationally used for nausea, vomiting and gastroparesis (its formal South African licensing status could not be confirmed — it is currently **not marketed** locally).
-> The TxGNN model predicts it may be effective for **Gastric Ulcer**, but supporting evidence is thin: only **2 clinical trials** (neither designed to treat ulcers) and **20 publications**, most of which are decades-old preclinical or mechanistic studies rather than disease-specific efficacy data.
-
----
+Metoclopramide is a prokinetic and antiemetic drug that is marketed in South Africa. The SAHPRA registry extract does not state its approved indications, so the original use here is taken from the literature.
+The TxGNN model predicts it may be effective for **gastric ulcer**, but the supporting evidence is weak: **2 registered clinical trials** (neither tests ulcer healing) and **20 publications**, mostly reviews and animal studies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Nausea, vomiting and gastroparesis (internationally established use; not derivable from South African licensing data, as the drug has 0 SAHPRA registrations on record) |
-| Predicted New Indication | Gastric Ulcer |
+| Original Indication | Not stated in the SAHPRA registry records. Literature describes antiemetic and gastric prokinetic use (PMID 6336644) |
+| Predicted New Indication | Gastric ulcer |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacology, metoclopramide is a dopamine D2-receptor antagonist with two principal effects: a central antiemetic action (blocking the medullary chemoreceptor trigger zone) and a peripheral prokinetic action (increasing gastric emptying and lower oesophageal sphincter tone via dopamine antagonism and enhanced acetylcholine release). It has no acid-suppressing or mucosal-protective activity — the two mechanisms that underlie standard gastric ulcer therapy (e.g., PPIs, H2-blockers, sucralfate).
+Currently, detailed mechanism of action data is not available from DrugBank. From general pharmacology, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist that speeds gastric emptying. It is used for nausea, vomiting and delayed gastric emptying.
 
-Gastric ulcer and metoclopramide's established indications (gastroparesis, GERD-related motility disorders, chemotherapy/surgery-related nausea) both involve the upper gastrointestinal tract, which likely explains the TxGNN model's high similarity score — the knowledge graph associates the drug with anatomically and symptomatically adjacent GI conditions. However, the underlying evidence base does not support a therapeutic (ulcer-healing) mechanism: several preclinical rodent studies (below) suggest an indirect "ulcer-protective" effect via improved gastric drainage and reduced pyloric reflux, independent of acid secretion, but this has not been translated into any completed disease-specific human trial.
+Gastric ulcer and the drug's original uses are both upper gastrointestinal conditions, and faster gastric emptying could reduce bile or acid reflux exposure. However, metoclopramide has no acid-suppressive or mucosal-healing action. Animal studies (PMID 2730234, 6436177, 28652516) address ulcer induction or gastric emptying after ulceration and do not show healing benefit.
 
-Reflecting this, the two identified clinical trials do not test metoclopramide as an ulcer treatment — one is a pharmacist-led prescribing-safety quality improvement study, and the other evaluates pre-endoscopy use to improve visualization in active GI bleeding, not ulcer healing itself.
-
----
+The very high TxGNN score most likely reflects knowledge-graph proximity to gastrointestinal motility and symptom terms, not ulcer-healing biology. Any plausible role is adjunctive, for example improving endoscopic visualisation in bleeding or treating gastroparesis-type symptoms in ulcer patients.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03747107](https://clinicaltrials.gov/study/NCT03747107) | N/A | Completed | 19 | Pharmacist- and data-driven prescribing safety quality improvement programme in primary care (Scotland); not a gastric ulcer treatment trial — low relevance (grade C). |
-| [NCT05746377](https://clinicaltrials.gov/study/NCT05746377) | Phase 4 | Unknown | 60 | Tests whether pre-endoscopy metoclopramide improves gastric visibility and reduces need for repeat intervention in upper GI bleeding; evaluates a procedural adjunct, not ulcer healing — status unknown, no published results (grade B). |
+| [NCT05746377](https://clinicaltrials.gov/study/NCT05746377) | Phase 4 | Unknown | 60 | Double-blind trial of metoclopramide premedication in upper GI bleeding. It asks whether repeat endoscopy, radiological intervention or surgery are reduced and whether visualisation improves. It does not test ulcer healing. Status is unverified |
+| [NCT03747107](https://clinicaltrials.gov/study/NCT03747107) | N/A | Completed | 19 | Pharmacist and data-driven prescribing-safety quality-improvement programme in Scottish primary care. Not a drug efficacy trial, and metoclopramide has no evident specific role |
 
----
+No SANCTR or PACTR registrations were identified in the evidence pack.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [775822](https://pubmed.ncbi.nlm.nih.gov/775822/) | 1976 | Clinical study | ZFA. Zeitschrift für Allgemeinmedizin | Reports on therapy of gastric and duodenal ulcer with metoclopramide (abstract not available). |
-| [19225](https://pubmed.ncbi.nlm.nih.gov/19225/) | 1977 | Review | Drugs | General review of drug treatments for gastric and duodenal ulcer (abstract not available). |
-| [2730234](https://pubmed.ncbi.nlm.nih.gov/2730234/) | 1989 | Animal study | Arch Int Pharmacodyn Ther | Metoclopramide (20–50 mg/kg) produced an ulcer-protective effect in aspirin-induced and pylorus-ligated rat models, comparable to ranitidine. |
-| [6436177](https://pubmed.ncbi.nlm.nih.gov/6436177/) | 1984 | Animal study | Indian J Physiol Pharmacol | Protected against experimentally induced gastric ulceration in guinea pigs without affecting acid secretion — effect attributed to improved gastric drainage, not mucosal healing. |
-| [6336644](https://pubmed.ncbi.nlm.nih.gov/6336644/) | 1983 | Review | Annals of Internal Medicine | Pharmacology review: dopamine antagonism drives antiemetic and GI-stimulatory effects; no acid-suppressive or mucosal-protective mechanism described. |
-| [16807979](https://pubmed.ncbi.nlm.nih.gov/16807979/) | 2006 | RCT (double-blind) | Yonsei Medical Journal | IV metoclopramide plus ranitidine reduced preoperative gastric contents vs. placebo in day-case surgery patients; not disease-specific to ulcer. |
-| [4779253](https://pubmed.ncbi.nlm.nih.gov/4779253/) | 1973 | Clinical study | Current Medical Research and Opinion | Examined bile reflux in gastric ulcer patients and the effect of smoking, metoclopramide and carbenoxolone sodium (abstract not available). |
-| [797497](https://pubmed.ncbi.nlm.nih.gov/797497/) | 1976 | Review | Clinical Pharmacokinetics | Reviews how gastric ulcer and other conditions/drugs alter gastric emptying and downstream drug absorption. |
-| [28652516](https://pubmed.ncbi.nlm.nih.gov/28652516/) | 2017 | Animal study | J Smooth Muscle Res | Studied effects of prokinetic drugs, including metoclopramide, on gastric emptying after acetic-acid-induced ulceration in rats; found regional differences by ulcer site. |
-| [6106882](https://pubmed.ncbi.nlm.nih.gov/6106882/) | 1980 | Review | Medizinische Klinik | German-language review on conservative (non-surgical) treatment of gastric ulcer (abstract not available). |
-
----
+| [16807979](https://pubmed.ncbi.nlm.nih.gov/16807979/) | 2006 | Randomised double-blind trial (indirect endpoint) | Yonsei Med J | IV metoclopramide plus ranitidine versus saline on preoperative gastric contents in day-case gynaecologic surgery (n=40). Not an ulcer outcome |
+| [6336644](https://pubmed.ncbi.nlm.nih.gov/6336644/) | 1983 | Review | Ann Intern Med | Pharmacology and clinical use: dopamine antagonism, antiemetic effect, gastrointestinal smooth muscle stimulation |
+| [19225](https://pubmed.ncbi.nlm.nih.gov/19225/) | 1977 | Review | Drugs | Review of drugs for gastric and duodenal ulcer (no abstract available) |
+| [797497](https://pubmed.ncbi.nlm.nih.gov/797497/) | 1976 | Review | Clin Pharmacokinet | Drugs and diseases (including gastric ulcer) that alter gastric emptying and hence oral drug absorption |
+| [2730234](https://pubmed.ncbi.nlm.nih.gov/2730234/) | 1989 | Animal study (rat) | Arch Int Pharmacodyn Ther | Ulcer-protective and antisecretory effects in aspirin-induced and pylorus-ligated models, compared with ranitidine |
+| [6436177](https://pubmed.ncbi.nlm.nih.gov/6436177/) | 1984 | Animal study (guinea pig) | Indian J Physiol Pharmacol | Protection against experimental ulcers without changing gastric acidity, probably through better gastric drainage and less pyloric reflux |
+| [28652516](https://pubmed.ncbi.nlm.nih.gov/28652516/) | 2017 | Animal study (rat) | J Smooth Muscle Res | Gastric emptying after acetic acid ulcers depends on ulcer site, with effects of prokinetic drugs. Not a healing study |
+| [4779253](https://pubmed.ncbi.nlm.nih.gov/4779253/) | 1973 | Study type unclassified | Curr Med Res Opin | Bile reflux in gastric ulcer: effect of smoking, metoclopramide and carbenoxolone (no abstract; based on title only) |
+| [775822](https://pubmed.ncbi.nlm.nih.gov/775822/) | 1976 | Study type unclassified | ZFA | Therapy of gastric and duodenal ulcer with metoclopramide (German; no abstract; based on title only) |
+| [6106882](https://pubmed.ncbi.nlm.nih.gov/6106882/) | 1980 | Study type unclassified | Med Klin | Conservative treatment of gastric ulcer (German; no abstract; based on title only) |
 
 ## South Africa Market Information
 
-No SAHPRA registration for metoclopramide is recorded in the evidence pack (0 licenses; market status: Not Marketed). Local product/dosage-form data could not be extracted.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 29/5.7.2/0781 | Pramalon | Injection | Not recorded in the registry extract |
+| Reg. No. V/5.7.2/352 | Bio metoclopramide | Tablet | Not recorded in the registry extract |
+| Reg. No. Q/5.7.2/228 | Metoclopramide 10 oethmaan | Tablet | Not recorded in the registry extract |
+| Reg. No. L/5.7.2/0319 | Clopamon | Syrup | Not recorded in the registry extract |
 
----
+Injectable, oral tablet and syrup forms are all available locally.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*(Note: original evidence pack flags TFDA label warnings/contraindications as a **Blocking** data gap — this must be resolved before any safety review can proceed.)*
-
----
+The evidence pack also carries these signals from the literature and the prediction analysis. The PI was not available to confirm them:
+- A neurotoxicity report (PMID 3059051), mainly extrapyramidal effects, argues against pursuing a new indication without clear benefit.
+- Prokinetics are contraindicated in mechanical obstruction or perforation.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The mechanistic link is weak: metoclopramide has no acid-suppressive or mucosal-protective action, the standard mechanisms for gastric ulcer treatment. Supporting evidence is limited to preclinical rodent/guinea-pig studies and clinical trials that were not designed to test ulcer treatment (procedural/QI studies), yielding an evidence level of only L4.
-- No completed Phase 2/3 RCT directly evaluates metoclopramide for gastric ulcer therapy.
+No trial tests ulcer healing, and the literature is mainly narrative reviews and animal studies. Metoclopramide does not address ulcer pathogenesis, for which acid suppression and *H. pylori* eradication remain the mainstay. The 99.93% score should be treated as a hypothesis-generating signal, not evidence of efficacy.
+
+The lower-ranked predictions (gastroduodenitis, peptic ulcer disease, gastrojejunal ulcer, peptic ulcer perforation) are also on Hold. Peptic ulcer perforation looks like a knowledge-graph artefact and should not be pursued.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-approved Professional Information (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- Detailed mechanism of action (MOA) data from DrugBank — currently a **High**-severity gap (DG002)
-- A disease-specific clinical trial or observational study directly testing gastric ulcer healing endpoints
-- Confirmation of South African regulatory/marketing pathway, since the drug currently has no SAHPRA registration
+- SAHPRA package inserts for the four registered products (warnings, contraindications, approved indications). This is a blocking gap for safety screening.
+- Mechanism of action data from DrugBank.
+- Results and verified status of NCT05746377. If positive, it could support a narrow adjunctive role in endoscopic visualisation for upper GI bleeding, not ulcer healing.
+- A clear defined clinical question, such as an adjunct for dysmotility symptoms in ulcer patients, and a comparison against standard acid-suppressive therapy.
+- A risk-benefit review of extrapyramidal adverse effects for any new use.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Potassium Chloride
-parent: Moderate Evidence (L3-L4)
-nav_order: 369
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 377
+evidence_level: L5
 indication_count: 1
 ---
 
 # Potassium Chloride
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,31 +29,31 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Potassium Chloride: From Potassium Supplementation to Renal Tubular Acidosis
+# Potassium Chloride: From Electrolyte Replacement to Renal Tubular Acidosis
 
 ## One-Sentence Summary
 
-Potassium chloride (KCl) is the standard agent used to correct potassium deficiency (hypokalemia). The TxGNN model predicts it may be effective for **Renal Tubular Acidosis**, but this prediction is currently supported only by mechanistic reasoning — **no clinical trials or published literature** were found in this evidence pack.
+Potassium chloride is a widely used potassium salt. The registration data supplied here does not state its approved indications, so "electrolyte replacement" is background knowledge rather than data from the Evidence Pack. The TxGNN model predicts it may be relevant to **renal tubular acidosis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the current evidence pack (no license or indication text available); KCl is generically used for potassium repletion/hypokalemia |
-| Predicted New Indication | Renal Tubular Acidosis |
+| Original Indication | Not stated in the supplied registration data |
+| Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 20 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, potassium chloride directly replenishes extracellular and intracellular potassium stores and is the standard supplement used wherever potassium loss or deficiency occurs.
+Currently, detailed mechanism of action data is not available. Potassium chloride is a potassium replacement salt, and mechanistically it may be applicable where potassium is lost.
 
-Renal tubular acidosis (RTA) — particularly distal (Type 1) and proximal (Type 2) forms — is characterised by renal potassium wasting and persistent hypokalemia as a core feature of the disease. Correcting this hypokalemia is a well-established, guideline-level component of RTA management, typically alongside alkalinizing agents such as potassium citrate.
+Distal renal tubular acidosis often causes urinary potassium wasting and low blood potassium (hypokalaemia). Potassium replacement could plausibly address that part of the condition.
 
-The mechanistic link here is therefore direct rather than speculative: KCl's core pharmacological action (potassium repletion) matches a defining clinical need in RTA. However, this evidence pack found no registered clinical trials or peer-reviewed literature specifically evaluating KCl in RTA, so the prediction should be regarded as mechanism-supported rather than clinically validated.
+There is an important caveat. Potassium chloride supplies no alkali, so it does not correct the underlying metabolic acidosis. The chloride load may even worsen hyperchloraemic acidosis. Alkali-based potassium salts such as potassium citrate or potassium bicarbonate are the more mechanistically coherent choice. This reasoning is background knowledge, not evidence from the supplied data. The high model score may partly reflect generic potassium-disorder associations rather than a specific therapeutic link.
 
 ## Clinical Trial Evidence
 
@@ -65,7 +65,16 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-No SAHPRA registrations were found for this product in the evidence pack, and market status is recorded as **not marketed** in South Africa.
+Five registrations were listed in the data (20 in total). One entry appeared twice, leaving four distinct registrations. The approved-indication text is not stated in the registration data for any of them.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| H1888 (ACT 101) | Urirex-k 50mg/300mg | Tablet | Not stated |
+| 85/23.4/3 | Sabax plasma vet 3000ml | Infusion | Not stated |
+| E875 (ACT 101/1965) | Plasmalyte b 1000ml tfa3716 | Infusion | Not stated |
+| Z/24/2 | St thomas cardioplegic 1000ml sxa3024 | Infusion | Not stated |
+
+Available forms are oral (tablet) and injectable (infusion). Sabax Plasma Vet appears to be a veterinary product, so confirm its relevance before counting it towards human use.
 
 ## Safety Considerations
 
@@ -73,16 +82,17 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale for KCl in renal tubular acidosis is strong and consistent with established clinical practice, but the complete absence of clinical trial and literature evidence, combined with missing safety/labelling data, means this cannot yet move past an initial mechanistic screen.
+The TxGNN score is very high, but there are no clinical trials or publications for this drug-disease pair, and the mechanism of action, original indications and safety data are all missing. Potassium chloride also does not address the acidosis itself, and alkali-based potassium salts are the more logical option.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-equivalent product labelling (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action documentation from DrugBank or equivalent source
-- Targeted literature and clinical trial search specifically for KCl (or potassium salts generally) in RTA management
-- Confirmation of South African market/registration status for potassium chloride products
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, for example from DrugBank
+- Approved indication text for the SAHPRA registrations
+- A targeted literature and trial search on potassium chloride versus alkali potassium salts in renal tubular acidosis
+- Clarification of whether potassium chloride offers any advantage over potassium citrate or bicarbonate for this condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

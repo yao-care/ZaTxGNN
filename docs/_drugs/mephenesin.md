@@ -2,7 +2,7 @@
 layout: default
 title: Mephenesin
 parent: Model Prediction Only (L5)
-nav_order: 305
+nav_order: 311
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mephenesin: From Muscle Spasm to Metastatic Melanoma
+# Mephenesin: From Centrally Acting Muscle Relaxant to Metastatic Melanoma
 
 ## One-Sentence Summary
 
-> Mephenesin is a centrally-acting skeletal muscle relaxant; its original approved indication is not recorded in this evidence pack (no SAHPRA licenses exist, as the drug is not marketed in South Africa).
-> The TxGNN model predicts it may be effective for **Metastatic Melanoma**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal with no independent verification.
-
----
+Mephenesin is generally described as a centrally acting muscle relaxant and is registered in South Africa as an oral tablet.
+The TxGNN model predicts it may be effective for **metastatic melanoma**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (no SAHPRA license data). Mephenesin is generically known as a centrally-acting skeletal muscle relaxant used for muscle spasm/spasticity. |
-| Predicted New Indication | Metastatic Melanoma |
+| Predicted New Indication | Metastatic melanoma |
 | TxGNN Prediction Score | 96.26% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
----
+The registration record does not state an approved indication.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Mephenesin is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacological information, Mephenesin is a centrally-acting muscle relaxant whose established action is inhibition of polysynaptic spinal reflexes — a mechanism used to relieve muscle spasm and spasticity. There is no known biological pathway connecting this action to melanoma pathogenesis (e.g., BRAF/MEK signalling, melanocyte proliferation control), and the absence of confirmed MOA data means neither support for, nor exclusion of, a mechanistic link can be established.
+Currently, detailed mechanism of action data is not available. Mephenesin is generally described as a centrally acting muscle relaxant, and the supplied data documents no link between this drug and melanoma biology. The high score (0.963) is a model output only.
 
-It is also notable that this candidate is not an isolated signal: ranks 2, 3, and 10 in the same prediction set (non-cutaneous melanoma, epithelioid cell melanoma, eyelid melanoma) are all melanoma-family diseases with very similar scores, and ranks 5–9 (multiple cataract subtypes) share an *identical* score of 95.47%. This pattern is consistent with TxGNN producing correlated outputs across clustered disease nodes in the knowledge graph, rather than independent, disease-specific biological evidence for each entry. Combined with the complete absence of clinical trials, registry entries, or publications for Mephenesin in melanoma, this prediction should be treated as a hypothesis-generating statistical association only, not as evidence of therapeutic plausibility.
+The other top-ranked predictions suggest the score reflects knowledge-graph structure rather than drug-specific biology:
 
-Given the lack of original indication data, original MOA data, and any corroborating trial or literature evidence, there is currently no basis to argue the mechanism "may be applicable" to metastatic melanoma beyond the model's statistical output.
+- **Melanoma cluster:** Non-cutaneous, epithelioid cell and eyelid melanoma score 0.954–0.957. These are likely driven by proximity to other melanoma nodes in the graph, not independent evidence.
+- **Cataract cluster:** Five cataract subtypes share an identical score (0.9547), which points to a shared graph node or neighbourhood effect rather than a disease-specific signal.
+- **Choroideremia:** This is a monogenic inherited retinal degeneration (CHM gene), and no plausible link to a muscle relaxant is documented.
 
----
+The predictions should therefore be treated as hypotheses to screen, not as findings.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-No SAHPRA registrations were found for Mephenesin. The evidence pack confirms a market status of "Not Marketed" with 0 total licenses, so no product/dosage-form information is currently available for the South African market.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 56/2.8/0309 | Pynspas | Tablet |
 
----
+Route of administration: oral only. Essential Medicines List (EML) status is not available in the supplied data.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*(Note: Key warnings, contraindications, and drug-interaction data were queried but are not currently available. Retrieval of the TFDA/SAHPRA product label is flagged as a Blocking data gap — it is required before this candidate can proceed to any safety-stage evaluation.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has Evidence Level L5 (model prediction only) — zero clinical trials, zero registry entries, and zero publications support a Mephenesin–melanoma link, the drug's mechanism of action is undocumented, and it is not currently marketed in South Africa. There is no basis to advance beyond initial screening at this time.
+The prediction is model-only (Evidence Level L5). There are no trials or publications, no mechanism of action data, and no safety data from the package insert. The clustered and identical scores across related diseases suggest graph artefacts rather than real signal. Safety screening cannot start until the PI has been reviewed.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for Mephenesin (currently a High-severity data gap)
-- SAHPRA/TFDA-approved Professional Information, including warnings and contraindications (currently a Blocking data gap)
-- Original approved indication and regulatory history for Mephenesin
-- Preclinical or mechanistic studies exploring any plausible link between centrally-acting muscle relaxants and melanoma biology
-- Ongoing monitoring for new clinical trial registrations or literature, given the current complete absence of supporting evidence
+- The SAHPRA package insert (warnings, contraindications, approved indication), to enable safety screening
+- Mechanism of action data (for example from DrugBank) to test whether any biological link to melanoma exists
+- A systematic PubMed and trial-registry search (ClinicalTrials.gov, SANCTR, PACTR) for mephenesin in melanoma
+- Preclinical or in vitro evidence, since none exists yet
+- A route-compatibility assessment once a plausible indication is identified
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

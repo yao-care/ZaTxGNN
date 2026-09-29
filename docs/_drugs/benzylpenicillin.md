@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Benzylpenicillin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 64
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Benzylpenicillin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,47 +29,76 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Benzylpenicillin: From Bacterial Infections to Pericoronitis
+# Benzylpenicillin: From Bacterial Infection to Pericoronitis
 
 ## One-Sentence Summary
 
-Benzylpenicillin (Penicillin G) is a foundational beta-lactam antibiotic used globally for the treatment of susceptible bacterial infections caused by gram-positive cocci and anaerobic organisms, with more than 75 years of clinical application. The TxGNN model predicts it may be effective for **pericoronitis** — an acute bacterial infection of the soft tissue surrounding a partially erupted wisdom tooth — achieving a prediction score of **99.36%**. However, the current evidence dataset contains **0 registered clinical trials** and **0 indexed publications** specifically pairing this drug with this indication, reflecting a documentation gap rather than a true absence of clinical support.
+Benzylpenicillin is an injectable penicillin antibacterial, marketed in South Africa under 2 SAHPRA registrations.
+The TxGNN model predicts it may be effective for **pericoronitis** (score 99.36%), but this is a model prediction only, with **0 clinical trials** and **0 publications** for this pairing.
+Among the other predicted indications, **recurrent aphthous stomatitis (canker sore)** has the strongest support, including a 2020 randomized controlled trial of topical penicillin.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Susceptible bacterial infections (no SAHPRA registration on record) |
+|------|------|
+| Original Indication | Not stated in the supplied SAHPRA registration data (injectable antibacterial) |
 | Predicted New Indication | Pericoronitis |
 | TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, Benzylpenicillin belongs to the beta-lactam antibiotic class. Its efficacy in treating susceptible gram-positive and anaerobic bacterial infections is among the most established facts in clinical pharmacology, and mechanistically it is directly applicable to the oral pathogens responsible for pericoronitis.
+Detailed mechanism of action data is not available. Based on known information, benzylpenicillin is a penicillin-class antibacterial. Its efficacy in bacterial infections is established, and mechanistically it may be applicable to pericoronitis.
 
-Pericoronitis is an acute bacterial infection of the pericoronal operculum — the soft tissue flap overlying a partially erupted mandibular third molar. The primary causative organisms include oral streptococci (*Streptococcus spp.*), *Fusobacterium nucleatum*, *Prevotella intermedia*, and other anaerobes that constitute the mixed oral flora. All of these organisms are well within Benzylpenicillin's antimicrobial spectrum, particularly its activity against gram-positive cocci and its coverage of many penicillin-susceptible anaerobes.
-
-The high TxGNN score of 99.36% reflects this deeply established pharmacological alignment. In current dental clinical guidelines (including those from the British National Formulary and the American Dental Association), penicillin-class antibiotics remain the recommended first-line adjunctive antibiotic for moderate-to-severe pericoronitis. The absence of formally indexed clinical trials in this dataset is best understood as a reflection of the fact that this indication is so clinically well-accepted that it rarely generates prospective randomised trials — clinicians proceed on the basis of longstanding consensus.
+Pericoronitis is a polymicrobial infection of the gum around a partly erupted tooth, so an antibacterial is biologically plausible. Two factors weigh against it. Benzylpenicillin is given by injection and has a short half-life, which is a poor fit for a mostly local dental condition. No trials or literature support this specific drug-disease pairing.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered. No SANCTR or PACTR identifiers were found.
 
 ---
 
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
+
+## Other Predicted Indications Worth Noting
+
+The first-ranked prediction has no evidence. The table below shows the other predictions in the pack that have the most relevant evidence.
+
+| Predicted Indication | TxGNN Score | Evidence Level | Decision Stage / Recommendation | Evidence Summary |
+|------|------|------|------|------|
+| Canker sore (recurrent aphthous stomatitis) | 99.27% | L2 | S2 / Research Question | A randomized double-blind trial of topical penicillin ([PMID 33273940](https://pubmed.ncbi.nlm.nih.gov/33273940/), 2020) and two penicillin G potassium troche studies ([14676759](https://pubmed.ncbi.nlm.nih.gov/14676759/), 2003; [20188604](https://pubmed.ncbi.nlm.nih.gov/20188604/), 2010). Effect sizes were not visible in the input and need verification. The only registered trial (NCT02750800) is an adalimumab study and is irrelevant. |
+| Ulcerative stomatitis | 99.26% | L4 | S1 / Hold | Only uncontrolled 1940s clinical reports and narrative reviews. No modern controlled evidence. |
+| Conjunctivitis | 97.94% | L4 | S0 / Hold | General reviews and resistance literature only. No controlled benzylpenicillin study. |
+| Chronic ethmoidal sinusitis | 97.63% | L4 | S0 / Hold | Studies concern other agents (amoxicillin-clavulanate, ciprofloxacin). Indirect at best. |
+| Gingival recession | 99.31% | L4 | S0 / Hold | Studies test amoxicillin/metronidazole in periodontitis, not benzylpenicillin. Recession is an outcome measure, not an infection. |
+| Denture stomatitis | 99.26% | L4 | S0 / Hold | Mainly Candida-associated, and penicillin has no antifungal activity. Only preclinical and indirect records. |
+| Chemotherapy-induced oral mucositis, gingival leukoplakia, cat-scratch disease | 97.78–99.26% | L5 | S0 / Hold | Prediction only. No trials or literature, and no plausible mechanistic link. |
+
+Note that the canker sore studies use **topical** penicillin G. This differs from the injectable products registered in South Africa.
+
+---
+
+## South Africa Market Information
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. A/20.1.2/626 | Benzyl Penicillin Fresenius 1Mu | Injection | Not stated in supplied record |
+| Reg. No. A/20.1.2/444 | Bio-Pen 1Mu | Injection | Not stated in supplied record |
+
+Both registrations are injectable only. No topical or oral benzylpenicillin product appears in the supplied data. Essential Medicines List (EML) status was not included in the supplied data.
 
 ---
 
@@ -84,20 +113,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-Although Benzylpenicillin has a mechanistically compelling and clinically well-accepted rationale for pericoronitis, this evidence pack contains no indexed clinical trials or publications to formally support the drug-disease pair, and Benzylpenicillin is not currently registered with SAHPRA — making a direct clinical recommendation within South Africa premature without further regulatory and evidence review.
+The pericoronitis prediction rests on the model score alone, and no trials or literature support it. The injectable-only South African registrations also limit how well this drug fits a dental indication.
 
 **To proceed, the following is needed:**
-- Targeted literature search in dental medicine databases (Cochrane Oral Health, Journal of Dental Research, British Dental Journal) using "penicillin" and "pericoronitis" search terms to surface guideline recommendations not captured by the current ClinicalTrials.gov and PubMed queries
-- Assessment of SAHPRA registration status for Benzylpenicillin (injectable) and its oral analogue phenoxymethylpenicillin (Penicillin V), which may be more practical in the South African primary dental care context
-- Review of South African Essential Medicines List (EML) and Standard Treatment Guidelines (STGs) for oral infections to determine whether penicillin-class agents are already listed for pericoronitis at the primary care level
-- Antimicrobial resistance surveillance data for oral pathogens in South Africa (SANRESIS / GERMS-SA) to confirm ongoing susceptibility of pericoronitis pathogens to Benzylpenicillin
-- Penicillin allergy prevalence data in the South African population, with particular attention to communities where beta-lactam exposure history may affect prescribing decisions
+- SAHPRA Professional Information (PI) for both registrations, to confirm approved indications, warnings and contraindications (this is a blocking gap for safety screening)
+- Mechanism of action data (e.g. from DrugBank)
+- Full-text review of the three topical penicillin G studies in recurrent aphthous stomatitis to verify outcomes. If they hold up, this is a better research question than pericoronitis.
+- For any topical-use idea, a check on whether a suitable topical formulation exists in South Africa, since current registrations are injectable only
+- Comparison against current guidelines for oral infections, where other agents are often preferred
 
-> **Broader Evidence Landscape Note:** Of the 10 predicted indications in this evidence pack, **canker sore (recurrent aphthous stomatitis)** — ranked 3rd (TxGNN score 99.27%) — carries substantially stronger direct evidence (Evidence Level **L2**, recommended decision **"Proceed with Guardrails"**). Multiple randomised controlled trials directly evaluated topical Penicillin G potassium troches (Cankercillin) for recurrent aphthous ulcers, including a multicentre Chinese RCT (PMID [20188604](https://pubmed.ncbi.nlm.nih.gov/20188604/)) and a 2020 double-blind RCT (PMID [33273940](https://pubmed.ncbi.nlm.nih.gov/33273940/)). Healthcare professionals evaluating Benzylpenicillin repurposing in the oral medicine context should prioritise canker sore as the indication with the strongest drug-specific clinical evidence.
-
----
-
-*This report is for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application. This document has been generated using the TxGNN drug repurposing prediction system (data cutoff: 2026-04-04). Clinicians are advised to consult the SAHPRA-approved Professional Information and current South African Standard Treatment Guidelines. Adverse drug reactions should be reported to SAHPRA via the MedSafety reporting system.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

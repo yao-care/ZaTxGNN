@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vitamin E
-parent: Moderate Evidence (L3-L4)
-nav_order: 462
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 470
+evidence_level: L5
 indication_count: 10
 ---
 
 # Vitamin E
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,81 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Vitamin E: From Nutritional Supplementation to Inborn Disorder of Bilirubin Metabolism
+# Vitamin E: From Parenteral Nutrition Vitamin Supply to Inborn Disorder of Bilirubin Metabolism
 
 ## One-Sentence Summary
 
-Vitamin E (DrugBank DB00163) is a fat-soluble antioxidant vitamin conventionally used for nutritional supplementation; this evidence pack records no formal original indication and no current market registration. The TxGNN model predicts potential effectiveness for **Inborn Disorder of Bilirubin Metabolism**, but this direction is currently supported only by **3 clinical trials** (none testing Vitamin E as the study drug) and **2 publications** (case report/review level, not evaluating Vitamin E).
-
----
+Vitamin E is a fat-soluble vitamin. In South Africa it is registered mainly as a component of parenteral nutrition products (e.g. Vitalipid novum), and no approved indication text is recorded in the registration data.
+The TxGNN model predicts it may be useful for **inborn disorder of bilirubin metabolism**.
+Only **3 clinical trials** and **2 publications** were retrieved for this prediction, and **none of the trials tests vitamin E**, so the prediction is model-based only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded — no approved indication or product license on file for this drug |
-| Predicted New Indication | Inborn Disorder of Bilirubin Metabolism |
+| Original Indication | Not stated in the registration data (products are parenteral nutrition and vitamin-containing infusions) |
+| Predicted New Indication | Inborn disorder of bilirubin metabolism |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 10 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Vitamin E is not available in this evidence pack. Based on general pharmacological knowledge, Vitamin E (α-tocopherol) is a lipid-soluble antioxidant that scavenges free radicals and protects cell membranes from oxidative damage — this is the basis of its conventional use in correcting vitamin E deficiency and as adjunctive antioxidant support.
+Detailed mechanism of action data is not currently available. Vitamin E is a lipid-soluble antioxidant and membrane stabiliser. It may offset oxidative injury and fat-soluble vitamin deficiency in cholestatic or hyperbilirubinaemic states.
 
-Inborn disorders of bilirubin metabolism (e.g., Crigler-Najjar syndrome, Gilbert syndrome) are caused primarily by UGT1A1 enzyme deficiency, a defect in hepatic conjugation — a pathway with no established direct biochemical link to antioxidant activity. The model's own rationale for this candidate states explicitly that there is no direct mechanistic connection between Vitamin E's antioxidant activity and the enzymatic defects underlying these disorders.
+This link is generic and not specific to inherited bilirubin disorders. The prediction appears to come from knowledge-graph proximity between vitamin E and cholestatic or hyperbilirubinaemic conditions. None of the retrieved trials tests vitamin E, so no disease-specific mechanism is supported by the data.
 
-Consistent with this, the supporting evidence is weak by design, not by omission: all three retrieved clinical trials were graded "C" relevance because the tested drug was *not* Vitamin E (lomitapide, eplontersen, cholic acid) — they were only pulled in via disease-term overlap. The two literature hits are a 1975 review/case report and a 1994 case report on a bile-acid synthesis defect, neither of which studied Vitamin E. This is a **model-generated signal without drug-specific supporting evidence**, and should be interpreted accordingly.
-
-*(Note: a related but distinct candidate in this evidence pack, "bilirubin metabolism disease" — a broader liver/cholestasis-related term — has materially stronger evidence, including a completed Phase 4 RCT directly testing Vitamin E, NCT04977661/PMID 34919247. This may be a more actionable signal than the top-ranked candidate and is worth separate evaluation.)*
-
----
+The related but broader label "bilirubin metabolism disease" (rank 2) has more supporting material. This includes a 1979 study of intramuscular vitamin E in preterm infants with neonatal bilirubinaemia, and a Phase 4 randomised trial of vitamin E in fatty liver disease. The evidence is still indirect and does not establish benefit in a primary bilirubin disorder.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01556906](https://clinicaltrials.gov/study/NCT01556906) | Phase 2 | Completed | 6 | Dose-escalation safety/tolerability study of lomitapide (MTP inhibitor) in homozygous familial hypercholesterolemia; **Vitamin E was not the study drug** — relevance flagged as disease-term match only. |
-| [NCT06465810](https://clinicaltrials.gov/study/NCT06465810) | N/A | Recruiting | 1850 | Non-interventional, multi-country registry on ATTR amyloidosis treatment patterns (eplontersen); **no Vitamin E arm**. |
-| [NCT03115086](https://clinicaltrials.gov/study/NCT03115086) | N/A | Active, not recruiting | 55 | Post-marketing patient registry for Cholbam (cholic acid) in bile acid synthesis disorders; **no Vitamin E arm**. |
+| [NCT01556906](https://clinicaltrials.gov/study/NCT01556906) | Phase 2 | Completed | 6 | Open-label dose escalation of lomitapide in homozygous familial hypercholesterolaemia. Not vitamin E, so no drug-specific evidence. |
+| [NCT06465810](https://clinicaltrials.gov/study/NCT06465810) | N/A | Recruiting | 1,850 | Real-world observational study of transthyretin amyloidosis. No vitamin E arm. |
+| [NCT03115086](https://clinicaltrials.gov/study/NCT03115086) | N/A | Active, not recruiting | 55 | Post-marketing registry of cholic acid (Cholbam). No vitamin E intervention. |
 
-**None of the retrieved trials tested Vitamin E for this indication** — all were captured via disease-term overlap rather than drug-specific evaluation.
-
----
+No SANCTR or PACTR registrations were found in the data provided.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [803225](https://pubmed.ncbi.nlm.nih.gov/803225/) | 1975 | Review/Case | The New England Journal of Medicine | Discussion of neonatal nonhemolytic jaundice; abstract not available, does not evaluate Vitamin E. |
-| [7915305](https://pubmed.ncbi.nlm.nih.gov/7915305/) | 1994 | Case Report | The Journal of Pediatrics | Describes 3β-hydroxy-C27-steroid dehydrogenase/isomerase deficiency as a cause of progressive intrahepatic cholestasis (Byler disease); does not evaluate Vitamin E. |
-
----
+| [803225](https://pubmed.ncbi.nlm.nih.gov/803225/) | 1975 | Review | N Engl J Med | Review of neonatal nonhemolytic jaundice. No abstract is available and vitamin E is not shown to be assessed. |
+| [7915305](https://pubmed.ncbi.nlm.nih.gov/7915305/) | 1994 | Case report | J Pediatr | 3β-hydroxy-C27-steroid dehydrogenase/isomerase deficiency as a cause of progressive intrahepatic cholestasis. Bile acid synthesis defect, not a vitamin E study. |
 
 ## South Africa Market Information
 
-Vitamin E is currently **not marketed** under this evidence pack, with **0 registrations on file**. No product license, dosage form, or approved indication text is available to summarize.
+Approved indication text is not listed for these registrations. Essential Medicines List status is not available in the data provided.
 
----
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Z/22.1/236 | Vitalipid novum adult 10ml | Infusion |
+| 30/22.1/0201 | Vitalipid novum infant 10ml | Infusion |
+| L/24/329 | Dextrose 20% in water 500ml | Infusion |
+| Exclusion under Section 36 & Section 14 | ITN neonatal TPN 150ml | TPN |
+| Exclusion under Section 36 & Section 14 | ITN baby 150ml | TPN |
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
----
+No drug interaction records were found in the query.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted mechanism has no established biochemical link to the disease's known pathophysiology (UGT1A1 deficiency vs. antioxidant activity), and none of the retrieved clinical trials or literature actually studied Vitamin E for this indication — the high TxGNN score is not yet corroborated by drug-specific evidence. Two blocking/high-severity data gaps (missing PI warnings/contraindications, missing MOA) also prevent a preliminary safety assessment.
+The prediction score is high, but there is no vitamin E–specific clinical evidence for inherited bilirubin disorders (L5). The retrieved trials test other agents, and the literature consists of one review and one case report on unrelated aetiologies.
 
 **To proceed, the following is needed:**
-- TFDA/SAHPRA-equivalent product labeling (warnings, contraindications) — currently blocking (DG001)
-- Verified mechanism-of-action data from DrugBank — currently high-impact gap (DG002)
-- Drug-specific (Vitamin E) clinical trials or case series in inborn bilirubin metabolism disorders
-- Consider evaluating the related, better-evidenced candidate "bilirubin metabolism disease" (L2, completed RCT NCT04977661) as a potentially more actionable repurposing direction
+- SAHPRA package insert warnings and contraindications. This is a blocking gap that prevents safety screening.
+- Mechanism of action data, e.g. from DrugBank.
+- A specific sub-indication, since the disease label is broad and mixes heterogeneous conditions. Neonatal or cholestatic hyperbilirubinaemia (rank 2 evidence) would be a more testable starting point.
+- Any interventional human data on vitamin E in these conditions.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

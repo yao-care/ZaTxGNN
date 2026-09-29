@@ -2,7 +2,7 @@
 layout: default
 title: Cefuroxime Sodium
 parent: Model Prediction Only (L5)
-nav_order: 106
+nav_order: 107
 evidence_level: L5
 indication_count: 0
 ---

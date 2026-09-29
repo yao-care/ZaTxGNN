@@ -2,7 +2,7 @@
 layout: default
 title: Orphenadrine
 parent: Model Prediction Only (L5)
-nav_order: 347
+nav_order: 354
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,76 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Orphenadrine: From an Undocumented Original Indication to Retinal Dystrophy with or without Extraocular Anomalies
+# Orphenadrine: From Anticholinergic Muscle Relaxant to Retinal Dystrophy
 
 ## One-Sentence Summary
 
-Orphenadrine's original approved indication could not be established from the current evidence pack (no SAHPRA registrations, no mechanism-of-action record). The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but this candidate is supported by **0 clinical trials** and **15 publications that are topically unrelated to orphenadrine** (general ophthalmology reviews/case reports with no drug mention) — the evidence pack itself flags this as co-occurrence noise rather than drug-specific signal.
+Orphenadrine is an oral anticholinergic muscle relaxant, marketed in South Africa as tablets, and the registration data do not state its approved indication.
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and **15 retrieved publications**, none of which concern orphenadrine.
+The high score looks like a knowledge-graph artifact, not real supporting evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — orphenadrine has no SAHPRA registrations and no recorded original indication in this evidence pack |
+| Original Indication | Not stated in the SAHPRA registration data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.29% |
-| Evidence Level | L5 (model prediction only, no supporting clinical or drug-specific literature) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data for orphenadrine is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on the literature retrieved for a different candidate indication in this same pack (schizophrenia, rank 5), orphenadrine is known pharmacologically as an antimuscarinic agent historically used to manage parkinsonism and to counteract neuroleptic-induced extrapyramidal symptoms — but this is background context, not a confirmed original indication.
+Currently, detailed mechanism of action data from DrugBank is not available. Orphenadrine is generally described as an anticholinergic, H1-antihistamine and NMDA antagonist with muscle relaxant effects.
 
-For the rank-1 candidate, retinal dystrophy with or without extraocular anomalies, there is **no mechanistic rationale connecting orphenadrine's known anticholinergic/weak NMDA-antagonist pharmacology to this rare inherited ophthalmic disorder**. All 15 retrieved publications discuss general ophthalmology topics (orbital infection, diplopia, congenital ptosis, lens anomalies, extraocular muscle fibrosis syndromes) and do not mention orphenadrine at all — this is co-occurrence noise from the disease-side vocabulary, not drug-specific evidence. The TxGNN score of 99.29% should therefore be read as a knowledge-graph proximity signal, not as clinical plausibility.
+**No plausible link was found** between these actions and inherited retinal degeneration. The 15 retrieved papers are general reviews and case reports on congenital eye and orbital anomalies, such as extraocular muscle fibrosis, ptosis and orbital infections. They appear to have been matched on disease keywords only.
 
-Note for reviewers: a lower-ranked candidate in this same evidence pack (schizophrenia, rank 5, TxGNN score 99.13%) is considerably better grounded — it has 20 literature hits including a Cochrane review and several small RCTs/cohort studies describing orphenadrine's real-world use as an adjunct to antipsychotics for extrapyramidal side effects. That candidate is scored L3/S1 ("Research Question") in the underlying data and may warrant separate evaluation, but is outside the scope of this report's rank-1 candidate.
+The model's score of 99.29% therefore should not be read as clinical support.
+
+Other predictions for this drug (congenital glycosylation disorder, polymicrogyria, Charcot-Marie-Tooth 1G, and X-linked myopias) also have no mechanistic rationale and no trials. The X-linked myopias have only a weak analogy to atropine, and systemic anticholinergic effects on vision would be a concern.
+
+The only prediction with real literature is **schizophrenia** (rank 5, evidence level L3). There, orphenadrine has been studied as an adjunct for antipsychotic-induced parkinsonism, not for core psychosis. It is worth assessing separately.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR).
 
 ## Literature Evidence
 
+None of these publications studies orphenadrine. They are ordered by study type, with reviews first and then case reports and unclassified items.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | Overview of orbital infections/cellulitis staging; no mention of orphenadrine or retinal dystrophy |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Diagnostic approach to diplopia from ocular/neurologic/muscle causes; no drug relevance |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblätter für Augenheilkunde | Clinical features of congenital ptosis; no drug relevance |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital lens shape anomalies; no drug relevance |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome vitreoretinal degeneration description; no drug relevance |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Imaging classification of pediatric orbital/ocular pathologies; no drug relevance |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | American Journal of Ophthalmology | Two cases of unilateral cryptophthalmia; no drug relevance |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case report | Journal of Neuro-Ophthalmology | Congenital trochlear-oculomotor synkinesis case; no drug relevance |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case report | Optometry and Vision Science | Congenital extraocular muscle fibrosis case; no drug relevance |
-| [19064847](https://pubmed.ncbi.nlm.nih.gov/19064847/) | 2008 | Case report | Archives of Ophthalmology | Orbital arteriovenous malformation case series; no drug relevance |
+| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Semin Ultrasound CT MR | Orbital infections, mainly sinusitis-related cellulitis |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Semin Neurol | Clinical approach to diplopia |
+| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monbl Augenheilkd | Congenital ptosis |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan J Ophthalmol | Congenital anomalies of lens shape |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Doc Ophthalmol | Wagner-Stickler syndrome complex (vitreoretinal degeneration) |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatr Radiol | Imaging of pediatric ocular pathologies |
+| [19064847](https://pubmed.ncbi.nlm.nih.gov/19064847/) | 2008 | Review | Arch Ophthalmol | Clinical features and outcomes of orbital arteriovenous malformations |
+| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | Am J Ophthalmol | Two cases of unilateral cryptophthalmia |
+| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case report | J Neuroophthalmol | Trochlear-oculomotor synkinesis in a child |
+| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case report | Optom Vis Sci | Synergistic divergence in congenital fibrosis of extraocular muscles |
 
-None of the retrieved publications mention orphenadrine; all were captured via disease-term overlap only.
+Five further papers (PMIDs 24932988, 33806565, 30196776, 27930425 and 37408430) are also unrelated to orphenadrine and are not listed.
 
 ## South Africa Market Information
 
-Orphenadrine currently has no SAHPRA registrations on file (Market Status: Not Marketed, 0 licenses recorded).
+Both entries share one registration number, and the second is a renamed version of the first. The registration data do not include manufacturer details or Essential Medicines List (EML) status.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 32/2.8/0605 | Besenol NC | Tablet | Not stated in registration data |
+| Reg. No. 32/2.8/0605 | Uniflex (formerly Besenol NC) | Tablet | Not stated in registration data |
 
 ## Safety Considerations
 
+No drug interactions were found in the DDI query. Warnings and contraindications were not available in the supplied data.
+
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*(Note: TFDA/SAHPRA warning and contraindication data for this drug is currently a Blocking data gap (DG001) — this must be resolved before any safety-stage evaluation can proceed.)*
+Because orphenadrine is anticholinergic, systemic visual effects such as blurred vision, mydriasis and cycloplegia are a plausible concern in any eye-related use. This is general pharmacology and not taken from the PI.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The rank-1 prediction (retinal dystrophy with or without extraocular anomalies) has no clinical trials, no drug-specific literature, and no known mechanistic link — the 15 retrieved publications are disease-term co-occurrence noise, not evidence about orphenadrine. Evidence level is L5 (model prediction only), which does not support progression past initial screening.
+The prediction rests on a model score alone (evidence level L5), with no trials and no relevant literature. No mechanistic link to inherited retinal degeneration was identified, and the papers retrieved are unrelated to orphenadrine.
 
 **To proceed, the following is needed:**
-- Resolve Blocking data gap DG001 (TFDA/SAHPRA PI warnings and contraindications) before any safety review
-- Resolve High-severity data gap DG002 (mechanism of action) to properly assess biological plausibility
-- Original/approved indication documentation for orphenadrine (currently absent from this evidence pack)
-- If this indication is to be pursued further, drug-specific (not just disease-specific) literature or preclinical mechanistic studies connecting orphenadrine to retinal/ophthalmic pathways
-- Separately, consider evaluating the better-evidenced rank-5 candidate (schizophrenia/antipsychotic-adjunct use, L3) as a more promising research question
+- The SAHPRA package insert, covering approved indication, warnings and contraindications
+- Mechanism of action data from DrugBank
+- A biological rationale linking orphenadrine to retinal dystrophy, with preclinical evidence
+- Separate review of the schizophrenia prediction (adjunct for antipsychotic-induced extrapyramidal symptoms). Cochrane reviews raise concerns about worsening tardive dyskinesia and cognitive impairment.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

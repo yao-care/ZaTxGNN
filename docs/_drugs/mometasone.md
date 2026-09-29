@@ -2,7 +2,7 @@
 layout: default
 title: Mometasone
 parent: Model Prediction Only (L5)
-nav_order: 322
+nav_order: 328
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mometasone: From Corticosteroid Therapy to Primary Cutaneous T-Cell Lymphoma
+# Mometasone: From Inflammatory Skin and Nasal Conditions to Primary Cutaneous T-Cell Lymphoma
 
 ## One-Sentence Summary
 
-> Mometasone furoate is a topical/intranasal/inhaled corticosteroid; a confirmed original-indication record was not available in this evidence pack. The TxGNN model predicts potential activity in **primary cutaneous T-cell lymphoma (CTCL)**, but this direction is currently supported only by **2 indirect case-report publications** and **no clinical trials**.
-
----
+Mometasone is a corticosteroid marketed in South Africa as a cream and as nasal sprays. The TxGNN model predicts it may be useful for **primary cutaneous T-cell lymphoma**, but this is a computational prediction only. There are **0 clinical trials** and **2 case reports** (neither tests mometasone) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (no license/indication text available); mometasone furoate is generally used as a topical, intranasal, or inhaled corticosteroid for allergic/inflammatory conditions |
+| Original Indication | Not stated in the registration records provided (products are a cream and nasal sprays) |
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 (mechanistic/indirect case-report evidence only) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for mometasone is not available in this evidence pack (data gap). Based on known pharmacology, mometasone furoate is a synthetic glucocorticoid receptor agonist with anti-inflammatory and immunosuppressive activity, formulated for topical, intranasal, or inhaled use.
+Detailed mechanism of action data is not available in the records provided. Mometasone is a topical glucocorticoid, and this class has anti-inflammatory and immunosuppressive effects. In theory, these could reduce the T-cell infiltrate and symptoms in early patch or plaque skin disease. The supplied data does not document this, so it remains a hypothesis.
 
-The repurposing rationale for CTCL rests on this general corticosteroid mechanism: glucocorticoid receptor agonism could theoretically suppress cutaneous T-cell infiltration and neoplastic lymphocyte proliferation. Topical corticosteroids (including mometasone furoate) are already a recognized skin-directed treatment option for early-stage mycosis fungoides/CTCL, which lends the prediction some mechanistic plausibility.
+The two retrieved papers do not evaluate mometasone for this condition. One is a case of cutaneous pseudolymphoma, a benign mimic of lymphoma, treated with tapinarof after mometasone and tacrolimus failed. The other is a case report of childhood mycosis fungoides. The very high TxGNN score reflects proximity in the knowledge graph, not proof of benefit.
 
-However, none of the literature identified in this evidence set studies mometasone as a treatment for CTCL directly — the supporting evidence is indirect inference from corticosteroid class effects and adjacent disease contexts, not disease-specific data.
-
----
+Nine other predictions (for example Crohn's colitis, myelodysplastic syndrome and cystic teratoma) have no trials or literature. They are all rated L5 and Hold. Several of them, such as the chromosome 5 deletion and the dermoid and teratoma entries, have no plausible glucocorticoid mechanism and are likely knowledge-graph artifacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR).
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Case Report | Proceedings (Baylor University Medical Center) | Cutaneous pseudolymphoma (a T-cell lymphoproliferative process that mimics cutaneous lymphoma) failed to respond to mometasone and tacrolimus before responding to tapinarof — mometasone use noted, but as a failed prior therapy, not as evidence of efficacy |
-| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Case Report/Case Series | Journal of Cutaneous Pathology | Describes a case of childhood CD8+CD56+ mycosis fungoides (a form of CTCL); abstract does not report mometasone treatment or outcome — relevance is disease-context only |
-
-Both publications are Tier 3 case reports and provide only indirect support; neither demonstrates mometasone efficacy in CTCL.
-
----
+| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Case report | Proc (Bayl Univ Med Cent) | Refractory cutaneous pseudolymphoma (a benign mimic of lymphoma) did not respond to mometasone and tacrolimus and was then treated with tapinarof. It gives no support for mometasone benefit. |
+| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Case report | J Cutan Pathol | An 11-year-old boy with CD8+CD56+ mycosis fungoides, a primary cutaneous T-cell lymphoma. Mometasone was not evaluated. |
 
 ## South Africa Market Information
 
-Mometasone currently has no SAHPRA registration on record (South Africa market status: Not Marketed; 0 licenses in the evidence pack).
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. A38/13.4.1/0668 | Aspen mometasone | Cream | Not stated in the record |
+| Reg. No. 52/21.5.1/0538 | Rhinimet | Spray | Not stated in the record |
+| Reg. No. 53/21.5.1/0457 | Ryaltris | Spray | Not stated in the record |
 
----
+Only the cream is a skin product. The two sprays are not suited to skin lymphoma, so any exploration would rely on the cream.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*Note: This evidence pack flags a Blocking data gap (DG001) — TFDA/SAHPRA label warnings and contraindications have not yet been retrieved, which prevents a formal safety (S1) assessment for this candidate.*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- Evidence is limited to two indirect case reports (evidence level L4) with no clinical trials and no direct study of mometasone in CTCL; the drug is also not currently registered or marketed in South Africa, and a blocking safety data gap prevents formal risk assessment.
+The prediction rests on a model score alone. No trial tests mometasone in cutaneous T-cell lymphoma, and the two case reports do not evaluate it. The safety information from the PI has not been reviewed, which blocks progression to safety screening.
 
 **To proceed, the following is needed:**
-- SAHPRA/TFDA-approved Professional Information (warnings, contraindications) to resolve the blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Direct clinical or preclinical studies evaluating mometasone (or class-equivalent topical corticosteroids) specifically in CTCL/mycosis fungoides
-- Clarification of original approved indication(s) and dosage forms/routes to assess route compatibility with the proposed dermatologic use
+- The SAHPRA package insert (warnings and contraindications), so safety screening can begin
+- Mechanism of action data from DrugBank
+- A targeted literature search for topical corticosteroid use in early-stage mycosis fungoides and cutaneous T-cell lymphoma
+- Confirmation of the approved indications for the three registered products
+- Clinical input on whether topical corticosteroids already have an established supportive role in this disease, since this may make the prediction a known use rather than a new one
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

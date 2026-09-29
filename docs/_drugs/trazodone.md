@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trazodone
-parent: Moderate Evidence (L3-L4)
-nav_order: 445
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 453
+evidence_level: L5
 indication_count: 10
 ---
 
 # Trazodone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Trazodone: From Major Depressive Disorder to Obsessive-Compulsive Disorder
+# Trazodone: From Depression to Obsessive-Compulsive Disorder
 
 ## One-Sentence Summary
 
-> Trazodone is a triazolopyridine antidepressant internationally approved for Major Depressive Disorder; no SAHPRA-approved Professional Information is available because the product is not currently marketed in South Africa.
-> The TxGNN model predicts it may be effective for **Obsessive-Compulsive Disorder (OCD)**,
-> with **no registered clinical trials** but **20 supporting publications**, including one placebo-controlled RCT, currently available.
+Trazodone is an antidepressant marketed in South Africa as oral capsules. The TxGNN model predicts it may be useful for **Obsessive-Compulsive Disorder (OCD)**. Support is limited to **1 small double-blind placebo-controlled study**, several open-label series and case reports from 1984-1993, and **no registered clinical trials**.
 
 ---
 
@@ -43,23 +41,22 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Major Depressive Disorder (based on general pharmacological knowledge; no local regulatory filing exists) |
-| Predicted New Indication | Obsessive-Compulsive Disorder |
+| Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Evidence Level | L2 (one published small double-blind RCT, no registered trial; no Phase 3 evidence) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Trazodone is a triazolopyridine-class antidepressant belonging to the SARI (Serotonin Antagonist and Reuptake Inhibitor) class. It modulates serotonergic transmission through 5-HT2A receptor antagonism combined with weak serotonin transporter (SERT) inhibition. A formal, DrugBank-verified mechanism-of-action record is currently a data gap; the description above is drawn from the supporting literature in this evidence pack.
+Detailed mechanism of action data is not available in the Evidence Pack. The following comes from general pharmacology and the retrieved literature. Trazodone is described as a 5-HT2A/2C receptor antagonist with weak serotonin reuptake inhibition. OCD responds mainly to serotonin reuptake inhibitors such as clomipramine, fluoxetine, fluvoxamine and paroxetine. Serotonergic modulation is therefore a plausible bridge between the two conditions.
 
-Standard pharmacological treatment for OCD — clomipramine and the SSRIs — also targets the serotonin system, so there is a plausible mechanistic link between trazodone's pharmacology and OCD. Depression and OCD frequently co-occur, and several of the case reports below describe patients whose OCD improved alongside comorbid depressive symptoms while on trazodone. A 2015 review (PMID 26088119) further notes that off-label trazodone use already extends to OCD, generalized anxiety disorder, panic disorder, and PTSD in clinical practice.
+The SAHPRA registration data provided does not state an approved indication. The literature describes trazodone as an antidepressant approved for depression. OCD often co-occurs with depression, and some early reports describe patients whose obsessive-compulsive symptoms improved alongside their mood. A 1990 series in clomipramine-resistant patients also suggests a possible role as an add-on treatment.
 
-However, trazodone's serotonin-reuptake-inhibiting effect is considerably weaker than that of the SSRIs that are the evidence-based standard of care for OCD, so its clinical efficacy in this indication remains uncertain and should be regarded as adjunctive or reserved for treatment-resistant cases rather than as a primary therapy.
+The high TxGNN score is a model prediction, not clinical proof. The clinical signal is old, small, and mostly uncontrolled.
 
 ---
 
@@ -73,22 +70,30 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1629380](https://pubmed.ncbi.nlm.nih.gov/1629380/) | 1992 | RCT | Journal of Clinical Psychopharmacology | Double-blind, placebo-controlled trial of trazodone in OCD patients, investigating its serotonin-reuptake-inhibiting properties as a potential anti-obsessional treatment |
-| [8993077](https://pubmed.ncbi.nlm.nih.gov/8993077/) | 1996 | Review | Psychopharmacology Bulletin | Discusses mono- and polypharmacotherapy of OCD; notes OCD responds specifically to serotonin reuptake inhibitors |
-| [8134850](https://pubmed.ncbi.nlm.nih.gov/8134850/) | 1994 | Review | Southern Medical Journal | Reviews pharmacologic management of OCD and the serotonin/dopamine dysregulation hypothesis |
-| [8331098](https://pubmed.ncbi.nlm.nih.gov/8331098/) | 1993 | Review | The Journal of Clinical Psychiatry | Reviews biological approaches for treatment-resistant OCD, focused on augmentation of serotonergic therapy |
-| [27744763](https://pubmed.ncbi.nlm.nih.gov/27744763/) | 2017 | Review | Postgraduate Medicine | Comprehensive review of trazodone's MOA, formulations, and use across psychiatric and medical conditions, including non-FDA-approved indications |
-| [26088119](https://pubmed.ncbi.nlm.nih.gov/26088119/) | 2015 | Review | Current Pharmaceutical Design | Reviews off-label trazodone prescribing, including evidence, benefits, and risks in OCD and other anxiety-spectrum conditions |
-| [2119885](https://pubmed.ncbi.nlm.nih.gov/2119885/) | 1990 | Case Series | Clinical Neuropharmacology | Trazodone given to 9 clomipramine-resistant OCD patients; mild overall improvement, 3 patients responded favorably |
-| [3501130](https://pubmed.ncbi.nlm.nih.gov/3501130/) | 1987 | Case Series | Psychopathology | PET study correlating trazodone treatment response in OCD with changes in caudate nucleus glucose metabolism |
-| [4009160](https://pubmed.ncbi.nlm.nih.gov/4009160/) | 1985 | Case Report | The Journal of Nervous and Mental Disease | Two treatment-refractory OCD-with-depression patients showed rapid improvement in both conditions on trazodone |
-| [8434675](https://pubmed.ncbi.nlm.nih.gov/8434675/) | 1993 | Case Report | The American Journal of Psychiatry | Case report of trazodone treatment for comorbid OCD and trichotillomania |
+| [1629380](https://pubmed.ncbi.nlm.nih.gov/1629380/) | 1992 | RCT | J Clin Psychopharmacol | Double-blind, placebo-controlled study of trazodone in OCD. Outcome and sample size are not visible in the excerpt provided. |
+| [2119885](https://pubmed.ncbi.nlm.nih.gov/2119885/) | 1990 | Case series | Clin Neuropharmacol | 9 clomipramine-resistant patients: mild overall improvement, 3 marked responders whose symptoms returned on withdrawal. |
+| [3501130](https://pubmed.ncbi.nlm.nih.gov/3501130/) | 1987 | Case series | Psychopathology | Trazodone response in OCD, with or without an MAO inhibitor, correlated with changes in caudate glucose metabolism on PET. |
+| [8434675](https://pubmed.ncbi.nlm.nih.gov/8434675/) | 1993 | Case series | Am J Psychiatry | Trazodone in OCD and trichotillomania. |
+| [3571943](https://pubmed.ncbi.nlm.nih.gov/3571943/) | 1986 | Open pilot trial | Int Clin Psychopharmacol | Trazodone plus tryptophan in 11 patients: marginal benefit, and several patients tolerated the combination poorly. |
+| [8331098](https://pubmed.ncbi.nlm.nih.gov/8331098/) | 1993 | Review | J Clin Psychiatry | Biological approaches to treatment-resistant OCD, mainly augmentation of a potent serotonin reuptake inhibitor. |
+| [26088119](https://pubmed.ncbi.nlm.nih.gov/26088119/) | 2015 | Review | Curr Pharm Des | Off-label trazodone use, including OCD, with benefits and risks. |
+| [27744763](https://pubmed.ncbi.nlm.nih.gov/27744763/) | 2017 | Review | Postgrad Med | Trazodone's mechanism, dosing, adverse effects, and use in psychiatric and medical conditions. |
+| [4009160](https://pubmed.ncbi.nlm.nih.gov/4009160/) | 1985 | Case report | J Nerv Ment Dis | Two patients with severe OCD and depression, unresponsive to other antidepressants, improved rapidly on trazodone. |
+| [18200402](https://pubmed.ncbi.nlm.nih.gov/18200402/) | 2007 | Case report | Rev Bras Psiquiatr | Adding trazodone to sertraline in one OCD patient, described as a probable synergistic action. |
+
+Ten further publications were retrieved but are not listed here. They are mostly case reports and brief reports.
 
 ---
 
 ## South Africa Market Information
 
-Trazodone is currently **not registered with SAHPRA** (0 licenses on file), and no locally approved Professional Information exists for this product.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 54/1.2/0145 | Sariprev 50 | Capsule (oral) |
+| Reg. No. E/1.2/9 | Molipaxin | Capsule (oral) |
+| Reg. No. 43/1.2/0698 | Biotech trazodone | Capsule (oral) |
+
+The registration data provided does not include approved indication text. Only oral capsules are registered, so any OCD use would be off-label.
 
 ---
 
@@ -103,13 +108,17 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-Evidence is limited to one small placebo-controlled RCT plus a handful of older case reports/series (Evidence Level L3), with no ongoing clinical trials and no local SAHPRA registration or safety documentation — including a **Blocking** data gap on TFDA/SAHPRA-approved warnings and contraindications.
+The evidence is one small double-blind study with an unconfirmed outcome and uncontrolled reports from the 1980s and early 1990s. There are no registered trials and no Phase 3 evidence. In addition, the SAHPRA safety information is missing, which blocks the safety screening step.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings, contraindications, DDI) — currently a Blocking data gap
-- Verified mechanism-of-action data from DrugBank
-- A modern, adequately powered RCT confirming efficacy specifically in OCD (vs. established SSRIs/clomipramine)
-- Confirmation of local market entry pathway, since trazodone is not currently registered in South Africa
+- The SAHPRA package insert (warnings, contraindications, interactions), which is the blocking gap
+- Full-text review of the 1992 placebo-controlled study (PMID 1629380) to confirm its sample size and outcome
+- Mechanism of action data from DrugBank
+- A modern controlled trial, or a systematic review, of trazodone as monotherapy or as an add-on to a serotonin reuptake inhibitor in OCD, including tolerability data
+
+The other nine predicted indications are weaker. Agoraphobia and phobic disorder have hypothesis-level panic disorder data from the 1980s. The remaining seven are either indirect or model-only signals.
+
+*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

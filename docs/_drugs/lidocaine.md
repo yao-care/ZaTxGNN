@@ -2,7 +2,7 @@
 layout: default
 title: Lidocaine
 parent: Model Prediction Only (L5)
-nav_order: 289
+nav_order: 295
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,57 +33,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Lidocaine is a well-established amide-type local anaesthetic; no original-indication text was recorded in this evidence pack, and Lidocaine currently holds no marketing registration in South Africa. The TxGNN model predicts possible efficacy for **punctate epithelial keratoconjunctivitis**, but this prediction is supported by **0 clinical trials** and **0 publications** — it rests on model similarity alone, and the available mechanistic reasoning points against therapeutic benefit.
+Lidocaine is a local anaesthetic, marketed in South Africa in an injectable combination product and a tablet product.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **no clinical trials and no publications** currently support this prediction.
+The mechanistic case is weak, so this is a model output only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (Lidocaine is a known amide-type local anaesthetic / Class Ib antiarrhythmic) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not stated in the SAHPRA registration data. Lidocaine is generally known as a local anaesthetic. |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 99.99% (model rank 158) |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Lidocaine is an amide-type local anaesthetic that blocks voltage-gated sodium channels, primarily used for local/regional anaesthesia and, in some settings, as a Class Ib antiarrhythmic. Its efficacy in these established uses is well proven.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Lidocaine is a voltage-gated sodium channel blocker, which is the basis of its local anaesthetic action. In the eye, this could at most give symptomatic relief of ocular surface pain.
 
-No original-indication text was captured for this candidate, so the pharmacological relationship between Lidocaine's established sodium-channel-blocking action and punctate epithelial keratoconjunctivitis (typically viral or dry-eye related corneal epithelial disease) cannot be drawn from an indication-similarity standpoint.
+The prediction is **not well supported mechanistically**. Punctate epithelial keratoconjunctivitis is a disease of the corneal and conjunctival surface. Sodium channel blockade offers no known disease-modifying effect. Topical anaesthetics can also impair corneal epithelial healing, which could work against the goal of treatment.
 
-Mechanistically, the evidence pack's own repurposing rationale for this candidate is cautionary rather than supportive: Lidocaine has no known reparative or anti-inflammatory action on corneal epithelium, and topical anaesthetics are known to **delay** corneal epithelial healing — the opposite of what treating this condition would require. The prediction should therefore be read as a knowledge-graph similarity signal only, not as a mechanistically grounded hypothesis.
+The high TxGNN score reflects patterns in the knowledge graph, not confirmed biology or clinical data. It should be read as a hypothesis-generating signal only.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+---
 
 ## South Africa Market Information
 
-Lidocaine is currently **not marketed** in South Africa under this evidence pack (0 SAHPRA registrations recorded), so no product registration table is available.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| F/21.5.4/228 | Depo-Medrol With Lidocaine | Injection | Not stated in registration data |
+| W/2.7/142 | Nurofen period pain (was Nurofen extra s...) | Tablet | Not stated in registration data |
+
+- Both products are combination products. No ophthalmic (eye drop, gel or ointment) lidocaine product appears among the registrations provided, so route compatibility with an ocular indication is unconfirmed.
+- The Nurofen tablet listing should be checked against the SAHPRA register, as lidocaine is not an expected tablet ingredient.
+- Essential Medicines List status is not available in the Evidence Pack.
+
+---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-Note: a blocking data gap exists — TFDA/SAHPRA-equivalent product-label warnings and contraindications have not yet been retrieved, which prevents a full initial safety assessment (S1) for this candidate.
+The Evidence Pack does record two general cautions:
+- Topical anaesthesia may suppress protective ocular reflexes and delay corneal epithelial healing.
+- A review of intravenous lidocaine in refractory headache (PMID 19250287) reported neuropsychiatric and cardiac side-effects, which shows that systemic exposure carries real toxicity.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (punctate epithelial keratoconjunctivitis) has no supporting clinical trial or literature evidence (Evidence Level L5 — model prediction only), and the available mechanistic reasoning suggests topical anaesthetic use may delay rather than support corneal epithelial healing, working against the intended therapeutic direction.
+The prediction rests on a model score alone (L5), with no trials or publications for this indication and a mechanism that does not fit the disease. Topical anaesthesia could also be harmful to the corneal surface.
+
+Other lower-ranked predictions were also reviewed. "Conjunctival disorder" has indirect literature, mostly on SUNCT/SUNA headache and procedural eye anaesthesia. It is not evidence for treating a conjunctival disease.
 
 **To proceed, the following is needed:**
-- Product label warnings/contraindications (currently a Blocking data gap; needed for initial safety screening)
-- Confirmed mechanism of action data linking Lidocaine to corneal/conjunctival pathology
-- Independent preclinical or clinical evidence specifically evaluating Lidocaine's effect on corneal epithelial healing before any further evaluation stage is considered
+- SAHPRA Professional Information (warnings and contraindications), which is currently missing and blocks safety screening
+- Mechanism of action data from DrugBank
+- A preclinical or clinical rationale showing a disease-modifying benefit in corneal or conjunctival surface disease, not just symptom relief
+- Confirmation of whether an ophthalmic lidocaine formulation exists in South Africa
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

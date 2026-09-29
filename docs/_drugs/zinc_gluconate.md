@@ -2,7 +2,7 @@
 layout: default
 title: Zinc Gluconate
 parent: Model Prediction Only (L5)
-nav_order: 467
+nav_order: 475
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Gluconate: From Unrecorded Original Indication to Anemia of Prematurity
+# Zinc Gluconate: Predicted New Indication of Anemia of Prematurity (Hold)
 
 ## One-Sentence Summary
 
-This evidence pack does not record Zinc gluconate's original approved indication or mechanism of action (both flagged as data gaps). The TxGNN model predicts a possible signal for **Anemia of Prematurity**, but this is currently a **pure model prediction (Evidence Level L5)** — **0 clinical trials** and **0 publications** were found addressing this specific drug-indication pair.
-
----
+Zinc gluconate is a zinc salt marketed in South Africa within several registered products, but the registration data provided contain no approved indication text.
+The TxGNN model predicts it may be useful for **anemia of prematurity** with a very high score, but **no clinical trials and no publications** were found to support this.
+This is a model prediction only, so the recommendation is **Hold**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | Anemia of Prematurity |
-| TxGNN Prediction Score | 99.94% (model rank 584) |
-| Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| Predicted New Indication | Anemia of prematurity |
+| TxGNN Prediction Score | 99.94% |
+| Evidence Level | L5 (model prediction only) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
-
-*Original Indication is omitted from this table — it is not recorded anywhere in the evidence pack (`original_indications` is empty).*
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for zinc gluconate is not available in this evidence pack (flagged as a High-severity data gap, DG002), and no original indication is on record either. This significantly limits how confidently the biological plausibility of the prediction can be assessed.
+Currently, detailed mechanism of action data is not available. Zinc gluconate is a zinc salt, and the registrations found do not state an approved indication. The pack therefore offers no established pathway linking it to anemia of prematurity.
 
-Based on the model's own rationale, the proposed link rests on a general pharmacological property of zinc rather than on drug-specific evidence: zinc is known to interact with iron and copper metabolism, which could theoretically influence erythropoiesis (red blood cell production) — a pathway relevant to anemia. However, this is a class-level, theoretical mechanism, not something demonstrated for zinc gluconate specifically in the context of prematurity-related anemia.
+The TxGNN score is high (99.94%), but a high score reflects patterns in the knowledge graph. It is not clinical proof. No trials or literature were retrieved for this indication, and route and formulation suitability for preterm infants has not been assessed. The prediction should be treated as a hypothesis to test, not as a finding.
 
-No clinical trial or published study in this evidence pack directly tests zinc gluconate for anemia of prematurity. The prediction should be read as a hypothesis generated purely from knowledge-graph associations, not as a signal grounded in observed data.
-
----
+**Other predictions in the pack (for context only):**
+- **Injury** (score 99.89%, L4) has the most supporting material. It is mostly preclinical work, plus a review of zinc and steroid treatment for traumatic anosmia (PMID 25715353). The trials retrieved are indirect, being zinc-containing combinations in COVID-19 or non-zinc interventions for olfactory loss. This remains a research question, not an actionable indication.
+- The other eight predicted indications (ranks 3-10) are L4-L5 and rated Hold. They are mostly broad ontology categories or rare conditions, and the literature hits are largely keyword matches unrelated to zinc gluconate.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Zinc gluconate currently has **no SAHPRA registrations on record** and is **not marketed** in South Africa according to this evidence pack (0 licenses).
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 52/24/0031 | Nutryelt | Infusion |
+| Reg. No. G2667 (ACT 101/1965) | Gericomplex | Capsule |
+| Reg. No. 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler |
 
----
+- Approved indication text is not available for any registration in the pack.
+- Gericomplex appears twice under the same registration number, so there are 3 distinct products for 4 listed licenses.
+- Spiriva Respimat is not normally a zinc product. Please verify this registration against the SAHPRA record, as it may be a data-matching error.
+- Essential Medicines List (EML) status was not provided.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-*Note: this evidence pack flags a Blocking data gap (DG001) — TFDA/PI warnings and contraindications have not yet been retrieved — which by itself prevents this candidate from entering a safety pre-assessment (S1), independent of the efficacy evidence gap above.*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for anemia of prematurity is supported only by a model score (Evidence Level L5) with no corroborating clinical trials or literature, and a separate Blocking data gap on safety labelling independently prevents progression to initial safety evaluation.
+The top prediction, anemia of prematurity, has a high model score but no trials, no literature and no mechanistic support in the pack. Safety data are also missing, so the candidate cannot move forward.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (warnings/contraindications) — currently Blocking (DG001)
-- Mechanism of action data from DrugBank — currently High-severity gap (DG002)
-- Confirmation of zinc gluconate's original indication(s), which are not on record in this pack
-- Targeted preclinical or clinical evidence testing zinc gluconate specifically in anemia of prematurity, since the current rationale is a general zinc–iron/copper interaction hypothesis rather than drug-specific data
+- SAHPRA package insert data (warnings, contraindications, approved indications), which is a blocking gap
+- Mechanism of action data, for example from DrugBank
+- A targeted search for zinc use and safety in preterm infants and anemia of prematurity
+- Assessment of whether any registered zinc product has a suitable route, dose and formulation for neonates
+- Verification of the Spiriva Respimat registration match
+- Consideration of whether the "injury" prediction (L4) is a better-defined research question, once a specific injury type is chosen
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

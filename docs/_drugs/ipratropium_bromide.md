@@ -2,7 +2,7 @@
 layout: default
 title: Ipratropium Bromide
 parent: Model Prediction Only (L5)
-nav_order: 264
+nav_order: 270
 evidence_level: L5
 indication_count: 0
 ---

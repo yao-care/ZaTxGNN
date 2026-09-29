@@ -2,7 +2,7 @@
 layout: default
 title: Thrombin
 parent: Model Prediction Only (L5)
-nav_order: 436
+nav_order: 444
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack as provided — including the reviewers' own grading and mechanistic-rationale notes embedded in `predicted_indications[0]` — here is the evaluation report.
-
-# Thrombin: From Topical Haemostasis to Primary Release Disorder of Platelets
+# Thrombin: From Haemostatic Sealant Component (Tisseel) to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Thrombin is a coagulation serine protease used clinically as a topical/local haemostatic agent to control bleeding. The TxGNN model predicts a possible new application in **Primary Release Disorder of Platelets** (a platelet granule-release defect), with a prediction score of **96.82%**, but this signal is currently supported by **0 directly relevant clinical trials** and **0 publications** — expert review classifies it as a low-confidence, likely false-positive prediction.
+Thrombin is the clotting enzyme that turns fibrinogen into fibrin, and in South Africa it is registered as a component of the fibrin sealant Tisseel.
+The TxGNN model predicts it may be useful for **primary release disorder of platelets**, but this is a model prediction only, with **no directly relevant clinical trials** and **no literature** among the 50 trials retrieved.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No approved indication on file (not marketed in South Africa); internationally recognised as a topical/local haemostatic agent |
-| Predicted New Indication | Primary Release Disorder of Platelets |
+| Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 96.82% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
+
+The SAHPRA indication text for the registered product is not recorded in the data, so the original indication cannot be quoted.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Thrombin is not available in this evidence pack (flagged as a High-severity data gap). Based on well-established pharmacology, Thrombin is the terminal serine protease of the coagulation cascade — it converts fibrinogen to fibrin and is a potent agonist of platelet protease-activated receptors (PARs), triggering platelet activation and granule release. Clinically it is used as a topical/local haemostatic agent (e.g., surgical field haemostasis, endoscopic injection for bleeding varices) rather than as a systemic treatment for platelet disorders.
+Currently, detailed mechanism of action data is not available. Based on known information, thrombin is a strong platelet agonist that acts through the PAR1 and PAR4 receptors and triggers granule release. This is why the graph links it to a platelet release disorder.
 
-Primary Release Disorder of Platelets is a disease of impaired platelet granule storage and release — affected platelets fail to properly discharge granule contents (ADP, serotonin, coagulation factors) even when normally stimulated. The reviewer's mechanistic assessment notes that Thrombin can activate the PAR pathway and theoretically trigger release, but exogenous thrombin cannot repair the intrinsic granule-storage/release defect that defines this disease — the "mechanistic link" runs only as far as shared vocabulary in the knowledge graph ("platelet" + "thrombin" co-occurrence), not a genuine treatment rationale.
-
-This is corroborated by the evidence search itself: of 50 clinical trials retrieved by keyword matching, none directly tests thrombin as a treatment for this condition, and no literature was retrieved at all. For these reasons, this specific prediction should be treated as probable model noise rather than a genuine repurposing opportunity.
+That link describes how platelets normally work. It does not show that thrombin treats the disorder. A platelet that cannot release its granules would not be corrected by giving more thrombin, so the relationship is diagnostic or mechanistic, not therapeutic. None of the retrieved trials tests thrombin in this condition, and the trial hits look like keyword noise.
 
 ## Clinical Trial Evidence
 
-Currently no clinical trial directly evaluates Thrombin for the treatment of Primary Release Disorder of Platelets. A broad automated search returned 50 trials matching platelet/coagulation-related keywords, but these were thematically unrelated (COVID-19 coagulopathy, cardiac/trauma bleeding management, oncology trials, etc.). Two of the retrieved trials were formally reviewed and graded as irrelevant:
+None of the 50 retrieved trials tests thrombin in platelet release disorders. All graded trials were rated "C" (unrelated). The table shows the few that touch on haemostasis; they are context only, not supporting evidence.
 
-| Trial Number | Phase | Status | Enrollment | Reviewer Assessment |
+| Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00043940](https://clinicaltrials.gov/study/NCT00043940) | Phase 3 | Completed | 50 | Bivalirudin anticoagulation in heparin-induced thrombocytopenia (HIT) — unrelated to thrombin supplementation; excluded (Grade C) |
-| [NCT06710327](https://clinicaltrials.gov/study/NCT06710327) | Phase 4 | Not Yet Recruiting | 56 | Tranexamic acid for intraoperative blood loss in BPH surgery — different drug class and mechanism; excluded (Grade C) |
-
-The remaining 48 trials in the search results are unreviewed ("pending") but, on title inspection, cover unrelated conditions (COVID-19, cardiac surgery, oncology, obesity, etc.) and were not included above as none show topical relevance to this predicted indication.
-
-## Literature Evidence
-
-Currently no related literature available.
+| [NCT00043940](https://clinicaltrials.gov/study/NCT00043940) | Phase 3 | Completed | 50 | Bivalirudin (a thrombin inhibitor) for PCI in heparin-induced thrombocytopenia. It blocks thrombin, so it does not support thrombin as a treatment. |
+| [NCT02593877](https://clinicaltrials.gov/study/NCT02593877) | Phase 2 | Completed | 412 | Viscoelastic assay-guided versus conventional resuscitation in bleeding trauma patients. General haemostasis, not thrombin. |
+| [NCT03341156](https://clinicaltrials.gov/study/NCT03341156) | Phase 3 | Terminated | 14 | Prothrombin complex concentrate versus standard transfusion in heart transplantation. Different product and disease. |
+| [NCT04684719](https://clinicaltrials.gov/study/NCT04684719) | Phase 3 | Completed | 1020 | Low-titre whole blood in prehospital haemorrhagic shock. Different intervention and disease. |
 
 ## South Africa Market Information
 
-Thrombin currently holds no SAHPRA registration and is not marketed in South Africa. As a result, no local product name, dosage form, or approved-indication text is available for review.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 44/30.3/0263 | Tisseel | Powder | Not recorded in the data |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. Note: SAHPRA labelling data (warnings/contraindications) is currently recorded as a **Blocking** data gap, which by itself prevents this candidate from entering initial safety screening.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+No drug interactions were found. The evidence pack also flags embolic and thrombotic risk as needing formal safety review before any new use, since thrombin is a procoagulant.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The TxGNN prediction for Primary Release Disorder of Platelets is not supported by any directly relevant clinical trial or literature evidence, and mechanistic review concludes it most likely reflects keyword co-occurrence ("platelet"/"thrombin") in the knowledge graph rather than genuine therapeutic potential — the target disease is a platelet granule-release defect that exogenous thrombin cannot correct.
-- Thrombin is not currently registered or marketed in South Africa (0 SAHPRA registrations), and essential safety data (PI warnings/contraindications, confirmed mechanism of action) are recorded as data gaps, with the SAHPRA labelling gap classified as Blocking.
+This is a model-only prediction with no supporting trials or literature. The proposed mechanism is diagnostic, not therapeutic, and exogenous thrombin would not correct a platelet release defect.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved Professional Information (PI), including warnings, contraindications, and drug interaction data
-- Confirmed mechanism-of-action data from DrugBank or peer-reviewed pharmacology sources
-- A genuine mechanistic or clinical rationale connecting thrombin to a platelet granule-release disorder, which is not present in the current evidence base
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, for example from DrugBank
+- Any direct evidence that thrombin has a therapeutic role in this disorder
 
-**Note for reviewers:** Among the ten TxGNN-predicted indications generated for Thrombin in this evidence pack, *"Esophageal Disease"* — specifically gastric/esophageal variceal bleeding managed by endoscopic thrombin injection — shows substantially stronger evidence (Evidence Level L3, multiple cohort studies plus a systematic review/meta-analysis, "Proceed with Guardrails" recommendation), reflecting thrombin's already-established use as a local haemostatic agent. That candidate may warrant a separate, dedicated evaluation report rather than the low-confidence signal assessed here.
+**Other predictions worth a separate review:**
+- **Esophageal disease** is the strongest signal in the pack, at evidence level L3. Endoscopic and EUS-guided thrombin injection is already used for bleeding gastric varices. There is a systematic review and meta-analysis of observational data, several cohort studies, and a small TachoSil feasibility study on esophageal anastomoses (NCT02105506). Extrapolating from gastric varices to esophageal disease is uncertain, and controlled evidence is lacking.
+- **Glanzmann thrombasthenia** has indirect mechanistic evidence at level L4 (thrombin generation and bypassing agents such as rFVIIa). No study tests exogenous thrombin as therapy.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Diiodohydroxyquinoline
 parent: Model Prediction Only (L5)
-nav_order: 175
+nav_order: 178
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,49 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diiodohydroxyquinoline: From Intestinal Amebiasis to Osteoradionecrosis
+# Diiodohydroxyquinoline: From Anti-amoebic Use to Osteoradionecrosis
 
 ## One-Sentence Summary
 
-Diiodohydroxyquinoline (also known as iodoquinol) is a halogenated hydroxyquinoline antiprotozoal compound historically used as a luminal amebicide for intestinal amebiasis, though it holds no current SAHPRA registration in South Africa.
-The TxGNN model predicts it may be effective for **Osteoradionecrosis** (radiation-induced bone necrosis), achieving a prediction score of **97.96%**.
-However, **no clinical trials** and **no publications** directly supporting this specific indication have been identified; all evidence currently remains at model-prediction level only.
+Diiodohydroxyquinoline is a halogenated hydroxyquinoline, historically used as an anti-amoebic agent. The TxGNN model predicts it may be effective for **osteoradionecrosis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model prediction only and should be treated as a hypothesis.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered with SAHPRA (historically: intestinal amebiasis) |
+|------|------|
+| Original Indication | Not recorded in the SAHPRA data (anti-amoebic agent) |
 | Predicted New Indication | Osteoradionecrosis |
 | TxGNN Prediction Score | 97.96% |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, diiodohydroxyquinoline belongs to the halogenated 8-hydroxyquinoline class. Its established clinical use has been in the treatment of intestinal amebiasis, where it acts as a luminal amebicide — meaning it exerts its antiprotozoal effect directly within the gastrointestinal tract rather than systemically.
+Currently, detailed mechanism of action data is not available. Diiodohydroxyquinoline is an anti-amoebic agent, and its use in amoebiasis is described in older clinical literature. No plausible mechanistic link to osteoradionecrosis can be stated from the available data.
 
-The 8-hydroxyquinoline scaffold is known to possess metal-chelating properties, particularly toward divalent metals such as Zn²⁺ and Fe²⁺. The TxGNN prediction for osteoradionecrosis may stem from this property: theoretically, disruption of redox homeostasis through metal chelation could conceivably influence the pathological microenvironment of radiation-induced bone necrosis, where oxidative stress plays a contributing role.
+The model score is high, but it reflects the drug's position in a knowledge graph, not proof of a biological effect. Osteoradionecrosis is a late radiation injury of bone, and the link to an anti-amoebic drug is unexplained. The registered South African product is a topical cream, and route compatibility with this predicted condition has not been assessed.
 
-However, this mechanistic link is highly speculative. The core pathophysiology of osteoradionecrosis involves radiation-induced ischaemia, hypoxia, and an imbalance between osteoclast and osteoblast activity — none of which have an established or documented connection to the known mechanisms of quinoline-class drugs. The prediction most likely reflects topological proximity within the TxGNN knowledge graph rather than a direct mechanistic relationship, and should be interpreted with caution.
+**Other predictions in the pack** (all Hold):
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level |
+|------|------|------|------|
+| 2 | Radiodermatitis | 96.29% | L5 |
+| 3 | Pneumonitis | 95.65% | L4 |
+| 4 | Aspiration pneumonia | 90.99% | L5 |
+| 5 | Type 2 diabetic nephropathy | 90.57% | L5 |
+| 6 | Byssinosis | 88.17% | L5 |
+| 7 | Mitochondrial oxidative phosphorylation disorder (nuclear DNA anomalies) | 87.30% | L5 |
+| 8 | Mixed mineral dust pneumoconiosis | 82.82% | L5 |
+| 9 | Baritosis | 82.67% | L5 |
+| 10 | Slate pneumoconiosis | 82.67% | L5 |
+
+Baritosis and slate pneumoconiosis have identical scores. This suggests a shared graph-neighbourhood artefact, not two independent signals.
 
 ---
 
@@ -67,29 +79,35 @@ However, this mechanistic link is highly speculative. The core pathophysiology o
 
 Currently no related clinical trials registered.
 
+No SANCTR or PACTR entries were provided.
+
 ---
 
 ## Literature Evidence
 
 Currently no related literature available for osteoradionecrosis.
 
-> **Note:** A PubMed search for diiodohydroxyquinoline and the third-ranked indication (pneumonitis) did return 4 publications; however, all 4 describe amebiasis cases where pneumonia/pleurisy appeared as a complication of hepatic amebiasis — not direct evidence of the drug treating pneumonitis. These publications do not support repurposing for any of the predicted indications.
+For the rank 3 prediction (pneumonitis), the only relevant item is an in vitro study. The other three citations retrieved are historical amoebiasis or cytomegalovirus (CMV) case reports and do not support that indication.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [32473310](https://pubmed.ncbi.nlm.nih.gov/32473310/) | 2020 | In vitro screening | Pharmacological Research | Identified diiodohydroxyquinoline as a potential anti-SARS-CoV-2 agent in a two-tier drug screen. This is indirect preclinical evidence for viral pneumonia, not for radiation pneumonitis. |
 
 ---
 
 ## South Africa Market Information
 
-Diiodohydroxyquinoline is **not registered with SAHPRA** and is not marketed in South Africa. No product licences are on record.
-
-If prescribers wish to use an unregistered medicine, this would require a Section 21 application to SAHPRA (Medicines and Related Substances Act, 101 of 1965, as amended). The drug is also not listed on the Essential Medicines List (EML) for South Africa.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. G1781 (Act 101) | Viocort | Cream | Not listed in the available data |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. As this drug is not currently registered in South Africa, prescribers should consult international reference sources (e.g., the FDA-approved label, British National Formulary, or WHO Model Formulary). Report adverse drug reactions to SAHPRA at [www.sahpra.org.za](https://www.sahpra.org.za).
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-> **Important known class-level concern:** Higher-dose or prolonged use of halogenated hydroxyquinolines (the drug class to which diiodohydroxyquinoline belongs) has been associated with subacute myelo-optic neuropathy (SMON). This is a serious neurological adverse effect documented with related compounds. This risk must be factored into any safety assessment before clinical use.
+Halogenated hydroxyquinolines carry a known neurotoxicity signal (subacute myelo-optic neuropathy, SMON). This needs review before any repurposing, especially for predictions involving neurologically vulnerable populations.
 
 ---
 
@@ -98,19 +116,15 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-All 10 predicted indications are rated L5 — model prediction only — with zero supporting clinical trials or directly relevant publications identified across any indication. The top prediction (osteoradionecrosis) has no evidence base whatsoever, and the mechanistic link between diiodohydroxyquinoline's known properties and radiation-induced bone necrosis pathophysiology is highly speculative. Additionally, the drug has no SAHPRA registration and a known serious class-level safety concern (SMON risk with halogenated hydroxyquinolines), making any forward movement premature.
+All predictions rest on model scores alone. For osteoradionecrosis there are no trials or publications, and the mechanism of action and SAHPRA safety data are missing. The safety review cannot begin without the package insert.
 
 **To proceed, the following is needed:**
+- SAHPRA package insert for Viocort (warnings, contraindications, approved indication). This is a blocking gap.
+- Mechanism of action data from DrugBank
+- A targeted literature search for osteoradionecrosis and radiodermatitis, followed by a review of the neurotoxicity signal
+- An assessment of route compatibility between the topical cream and the predicted conditions
 
-- **MOA clarification:** Obtain formal mechanism of action data from DrugBank (DB09115) or peer-reviewed pharmacology literature to confirm whether the 8-hydroxyquinoline metal-chelating properties have any biologically plausible relevance to the predicted indications
-- **Preclinical evidence:** Any in vitro or animal model data demonstrating activity in osteoradionecrosis, radiodermatitis, or related conditions would be required before human studies are considered
-- **Safety dossier:** Compile full safety data including SMON risk characterisation, contraindications, and drug-drug interactions before any clinical evaluation
-- **Regulatory pathway:** If preclinical evidence supports progression, a Section 21 application to SAHPRA would be required for any South African clinical study or compassionate use
-- **SAHPRA consultation:** Given the unregistered status and known class safety signals, early engagement with SAHPRA is strongly recommended before initiating any clinical research programme
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. This report has been prepared to support South African healthcare professionals in evaluating TxGNN model predictions and does not represent a SAHPRA regulatory assessment.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

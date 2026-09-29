@@ -2,7 +2,7 @@
 layout: default
 title: Chlorobutanol
 parent: Model Prediction Only (L5)
-nav_order: 111
+nav_order: 112
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chlorobutanol: From Pharmaceutical Preservative to Erectile Dysfunction
+# Chlorobutanol: From Sedative, Local Anaesthetic and Preservative Use to Erectile Dysfunction
 
 ## One-Sentence Summary
 
-Chlorobutanol is a halogenated alcohol compound used primarily as an antimicrobial preservative in pharmaceutical injections and ophthalmic preparations, with mild CNS depressant properties; it has no formally registered therapeutic indication.
-The TxGNN model predicts it may be effective for **Erectile Dysfunction (ED)**, however **no clinical trials or published literature** directly link Chlorobutanol to this condition.
-Current evidence is at the lowest confidence level (**L5 — model prediction only**), and this candidate is not recommended for further development at this stage.
-
----
+Chlorobutanol is a sedative/hypnotic, local anaesthetic and preservative. It is registered in South Africa in a topical cream, Viocort.
+The TxGNN model predicts it may be effective for **erectile dysfunction**, but the prediction rests on graph-based scoring only.
+No clinical trials or publications studying chlorobutanol in this condition were found. The two retrieved trials are unrelated prostate cancer studies.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No registered therapeutic indication; used as a pharmaceutical preservative and mild sedative/anaesthetic excipient |
-| Predicted New Indication | Erectile Dysfunction |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 (model prediction only — no direct clinical or preclinical studies) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+|------|------|
+| Original Indication | Not stated in the SAHPRA registration record (see Why is This Prediction Reasonable? for known pharmacological uses) |
+| Predicted New Indication | Erectile dysfunction |
+| TxGNN Prediction Score | 99.79% (TxGNN rank 1500) |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Chlorobutanol in this evidence pack. Based on known pharmacological literature, Chlorobutanol is a tertiary alcohol with broad CNS depressant activity, thought to act through enhancement of GABAergic inhibition and non-selective suppression of voltage-gated ion channels (Na⁺/K⁺). Historically it has been used as a mild sedative-hypnotic and local anaesthetic, though it is now employed almost exclusively as a preservative in multi-dose injectable and ophthalmic formulations at sub-therapeutic concentrations.
+Detailed mechanism of action data is not currently available. Based on known information, chlorobutanol acts as a sedative/hypnotic, local anaesthetic and preservative. It has no known pro-erectile mechanism.
 
-The core pathophysiology of erectile dysfunction involves the nitric oxide–cGMP signalling pathway, vascular endothelial function, and the hypothalamic-pituitary-gonadal axis. There is no established mechanistic bridge between Chlorobutanol's CNS depressant properties and these pathways. Indeed, the direction of effect is likely adverse rather than beneficial: generalised CNS inhibition, as seen with benzodiazepines and alcohol, is associated with **impaired** erectile function rather than improved function.
+The evidence review found no credible mechanistic link between chlorobutanol and erectile dysfunction. The high TxGNN score reflects patterns in the knowledge graph, not clinical or preclinical findings. Until independent evidence appears, the prediction should be treated as a hypothesis only.
 
-The TxGNN model's high prediction score most likely reflects topological proximity within the knowledge graph (e.g., shared CNS-related nodes) rather than a true pharmacological relationship. The absence of any supporting preclinical data, clinical trials, or published literature reinforces this interpretation. This prediction should be treated as a hypothesis-generating signal only, requiring substantial experimental validation before any clinical consideration.
-
----
+The model's other top predictions are migraine disorders, Tourette syndrome, trichotillomania, ADHD and several rare skin or genetic conditions. All are also L5 with no supporting studies. The only mechanistic argument, for migraine, is a speculative overlap with neuronal excitability.
 
 ## Clinical Trial Evidence
 
-Two trials were retrieved by the database search; however, both are confirmed false positives (relevance grade C) — they investigate **Bipolar Androgen Therapy (testosterone cycling)** versus enzalutamide in castration-resistant prostate cancer. Erectile dysfunction may appear as a secondary quality-of-life endpoint, but Chlorobutanol plays no role in either study.
+Both trials retrieved were graded as unrelated to chlorobutanol and to erectile dysfunction.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT02286921](https://clinicaltrials.gov/study/NCT02286921) | Phase 2 | Completed | 222 | Compares intramuscular testosterone (BAT) vs. enzalutamide in asymptomatic metastatic CRPC post-abiraterone. **Not related to Chlorobutanol.** ED is a secondary endpoint only. |
-| [NCT02090114](https://clinicaltrials.gov/study/NCT02090114) | Phase 2 | Completed | 112 | Sequential BAT followed by enzalutamide or abiraterone in metastatic CRPC. **Not related to Chlorobutanol.** ED assessed as a quality-of-life measure only. |
+|---------|------|------|------|---------|
+| [NCT02286921](https://clinicaltrials.gov/study/NCT02286921) | Phase 2 | Completed | 222 | Bipolar androgen therapy vs. enzalutamide in castration-resistant metastatic prostate cancer. Chlorobutanol is not involved. |
+| [NCT02090114](https://clinicaltrials.gov/study/NCT02090114) | Phase 2 | Completed | 112 | Sequential bipolar androgen therapy followed by enzalutamide or abiraterone in prostate cancer. Chlorobutanol is not involved. |
 
-> ⚠️ **Neither trial provides any evidence supporting Chlorobutanol use in erectile dysfunction.** These results represent keyword-indexing false positives and should not be counted as supportive evidence.
-
----
+No SANCTR or PACTR registrations were identified.
 
 ## Literature Evidence
 
-Currently no related literature available linking Chlorobutanol to erectile dysfunction.
-
----
+Currently no related literature available for chlorobutanol in erectile dysfunction.
 
 ## South Africa Market Information
 
-Chlorobutanol has **no SAHPRA registrations** and is not marketed as a standalone therapeutic product in South Africa. It may be present as a preservative excipient in registered multi-dose injectable or ophthalmic products, but is not approved as an active pharmaceutical ingredient for any indication.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| G1781 (ACT 101) | Viocort | Cream (topical) | Not stated in the registration record |
 
----
+Only a topical cream is registered, so no registered product covers a route that would clearly suit a systemic indication. Route compatibility for erectile dysfunction has not been assessed.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for any product containing Chlorobutanol as an excipient. Chlorobutanol is known to have CNS depressant properties and may accumulate with repeated dosing due to its relatively long half-life. Report any adverse drug reactions to SAHPRA via [https://www.sahpra.org.za](https://www.sahpra.org.za).
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score to Chlorobutanol for erectile dysfunction, but this is contradicted by the complete absence of supporting clinical trials, published literature, or preclinical studies; moreover, the drug's known CNS depressant mechanism is pharmacologically misaligned with the treatment of ED. The two trials retrieved from ClinicalTrials.gov are confirmed false positives unrelated to Chlorobutanol.
+The prediction is model-only (L5). There are no relevant trials or publications, and no plausible mechanism links chlorobutanol to erectile dysfunction. The high score alone does not justify further investment.
 
-**To proceed, the following would be needed:**
-
-- **Establish MOA data**: Obtain full DrugBank mechanism-of-action data (DG002) to assess whether any molecular targets could plausibly interact with NO–cGMP or vascular pathways relevant to ED.
-- **Preclinical validation**: At minimum, a peer-reviewed in vitro or animal study demonstrating Chlorobutanol activity in an ED-relevant model before any clinical consideration.
-- **Safety profile clarification**: Obtain full prescriber safety information (DG001) including CNS toxicity thresholds, as CNS depression is the primary pharmacological concern and a likely confounder in ED assessment.
-- **Reformulation strategy**: If a preclinical signal were found, identify a viable therapeutic formulation and dose range distinct from preservative concentrations, and confirm systemic exposure is achievable without unacceptable toxicity.
-- **SAHPRA registration pathway**: Given zero current SAHPRA registrations, a de novo registration dossier would be required prior to any South African clinical development.
-
-> *This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. YMYL disclaimer: all predictions are model-generated hypotheses and must not inform clinical decisions without independent expert review.*
+**To proceed, the following is needed:**
+- The SAHPRA-approved PI (indications, warnings, contraindications), which is currently missing and blocks any safety screening
+- Mechanism of action data, for example from DrugBank
+- Independent preclinical or clinical evidence linking chlorobutanol to erectile dysfunction
+- A route and formulation assessment, since only a topical cream is registered
+- Re-evaluation of whether any other predicted indication has better support
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

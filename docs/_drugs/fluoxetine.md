@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fluoxetine
-parent: High Evidence (L1-L2)
-nav_order: 230
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 235
+evidence_level: L5
 indication_count: 10
 ---
 
 # Fluoxetine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Fluoxetine: From Major Depressive Disorder to Agoraphobia and Related Anxiety-Spectrum Disorders
+# Fluoxetine: From Serotonin Reuptake Inhibitor Use to Schizoid Personality Disorder
 
 ## One-Sentence Summary
 
-Fluoxetine (DrugBank DB00472) is a selective serotonin reuptake inhibitor (SSRI) with well-established use in major depressive disorder internationally. The TxGNN model returned 10 candidate indications for this drug; the top-ranked hits by raw score are Cluster A personality disorders (weak, indirect evidence), but the **best-supported repurposing signal is Agoraphobia**, backed by **19 publications**, including three tier-1 RCTs, though **no registered clinical trials** were found for this specific indication. Critically, fluoxetine currently has **zero SAHPRA registrations** in South Africa and a **blocking data gap** on Professional Information (PI) warnings, so no formal safety assessment can be completed yet.
+Fluoxetine is a serotonin reuptake inhibitor, marketed in South Africa as oral capsules; the SAHPRA records supplied do not state its approved indication text.
+The TxGNN model predicts it may be effective for **schizoid personality disorder**, but only **3 publications** and **0 clinical trials** relate to this prediction.
+None of the publications tests fluoxetine in this disorder, so the evidence is weak and indirect.
 
 ---
 
@@ -41,50 +43,29 @@ Fluoxetine (DrugBank DB00472) is a selective serotonin reuptake inhibitor (SSRI)
 
 | Item | Content |
 |------|------|
-| Original Indication | Major depressive disorder (general pharmacological knowledge — not present in this evidence pack; South Africa registry data is empty) |
-| Predicted New Indication | Agoraphobia |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L2 |
-| South Africa Market Status | Not marketed / not SAHPRA-registered |
-| Number of SAHPRA Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails (indication-level) — see Conclusion for drug-level caveat |
-
----
-
-## TxGNN Predicted Indications — Full Ranking
-
-This is a multi-indication candidate pack (10 predictions). Evidence quality varies substantially and does **not** track raw TxGNN score — the highest-scoring predictions (Cluster A personality disorders) are the weakest-supported, while several mid-ranked predictions have solid RCT/meta-analytic backing:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 1 | Schizoid personality disorder | 99.92% | L4 | S0 | Hold |
-| 2 | Schizotypal personality disorder | 99.92% | L3 | S1 | Research Question |
-| 3 | Paranoid personality disorder | 99.92% | L4 | S0 | Hold |
-| 4 | Histrionic personality disorder | 99.92% | L4 | S0 | Hold |
-| 5 | Benign paroxysmal torticollis of infancy | 99.89% | L5 | S0 | Hold |
-| 6 | **Agoraphobia** | 99.86% | **L2** | **S2** | **Proceed with Guardrails** |
-| 7 | Manic bipolar affective disorder | 99.64% | L4 | S0 | Hold (mechanistic concern: SSRIs can precipitate manic switch) |
-| 8 | Phobic disorder | 99.63% | L2 | S2 | Proceed with Guardrails |
-| 9 | Ohdo syndrome and variants | 99.63% | L5 | S0 | Hold |
-| 10 | Melancholia | 99.57% | L2 | S2 | Proceed with Guardrails |
-
-The three "Proceed with Guardrails" indications (agoraphobia, phobic disorder, melancholia) are all serotonergic/anxiety-depression spectrum conditions consistent with fluoxetine's known pharmacology. Agoraphobia is presented as the primary candidate below because it has the highest score among this group and the most direct literature base.
+| Original Indication | Not stated in the SAHPRA licence records supplied |
+| Predicted New Indication | Schizoid personality disorder |
+| TxGNN Prediction Score | 99.92% |
+| Evidence Level | L4 (indirect literature only; no disorder-specific efficacy data) |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 3 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this candidate (DG002, High severity). Based on known pharmacological class information, fluoxetine is a selective serotonin reuptake inhibitor (SSRI); its efficacy in major depressive disorder and panic disorder has been established internationally, and mechanistically this profile may extend to agoraphobia.
+Fluoxetine is a serotonin reuptake inhibitor. Detailed mechanism of action data is not available in the record. The link to schizoid personality disorder is indirect. Serotonergic modulation might ease affective flattening and social withdrawal, which are features of this disorder.
 
-Agoraphobia most commonly presents as a comorbid or secondary feature of panic disorder, and serotonergic modulation of amygdala/limbic circuit hyperactivation is the accepted mechanism underlying SSRI efficacy in panic-spectrum anxiety. Several SSRIs in this class (fluvoxamine, fluoxetine, paroxetine, sertraline, citalopram) have documented superiority over placebo for panic disorder and associated agoraphobic avoidance.
+The only supporting paper that addresses the disorder is a review of drug treatment in cluster A personality disorders (paranoid, schizoid and schizotypal). It gives general context rather than evidence that fluoxetine works here.
 
-The TxGNN signal for agoraphobia is corroborated by a Cochrane network meta-analysis and multiple randomized, double-blind trials evaluating fluoxetine specifically in panic disorder with agoraphobia, which strengthens confidence in this prediction relative to the higher-scoring but mechanistically unsupported personality-disorder predictions.
+The model gives the same score (99.92%) to the schizoid, schizotypal, paranoid and histrionic personality disorders. This suggests the signal comes from a shared parent category in the knowledge graph rather than from anything specific to schizoid personality disorder. The prediction should therefore be treated as a hypothesis, not a finding.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for agoraphobia specifically (0 results in ClinicalTrials.gov and ICTRP queries). Evidence for this indication comes from published literature (below), not registry-indexed trials.
+Currently no related clinical trials registered.
 
 ---
 
@@ -92,22 +73,21 @@ Currently no related clinical trials registered for agoraphobia specifically (0 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7786880](https://pubmed.ncbi.nlm.nih.gov/7786880/) | 1995 | RCT | J Psychiatry Neurosci | Fluoxetine (mean 20mg/day) demonstrated anti-panic efficacy in patients with panic disorder and agoraphobia |
-| [11001241](https://pubmed.ncbi.nlm.nih.gov/11001241/) | 2000 | RCT (double-blind, placebo-controlled) | J Clin Psychopharmacol | Pindolol augmentation of fluoxetine studied in treatment-resistant panic disorder with/without agoraphobia |
-| [10362436](https://pubmed.ncbi.nlm.nih.gov/10362436/) | 1999 | RCT | J Clin Psychiatry | Once-weekly fluoxetine maintained remission in panic disorder, leveraging its long half-life |
-| [38014714](https://pubmed.ncbi.nlm.nih.gov/38014714/) | 2023 | Review (network meta-analysis, Cochrane) | Cochrane Database Syst Rev | Comparative efficacy of pharmacological treatments for panic disorder in adults |
-| [11110016](https://pubmed.ncbi.nlm.nih.gov/11110016/) | 2000 | Review | Int Clin Psychopharmacol | SSRIs (incl. fluoxetine) superior to placebo for panic disorder, agoraphobia, and associated depression |
-| [14967551](https://pubmed.ncbi.nlm.nih.gov/14967551/) | 2004 | Cohort | Psychiatry Research | Factors influencing psychiatrists' treatment choices (CBT ± benzodiazepine ± fluoxetine) in panic disorder with agoraphobia |
-| [22090798](https://pubmed.ncbi.nlm.nih.gov/22090798/) | 2011 | Review | Neuropsychiatr Dis Treat | Pharmacological interventions, including SSRIs, for complex agoraphobia |
-| [18090457](https://pubmed.ncbi.nlm.nih.gov/18090457/) | 2007 | Naturalistic comparison study | Clin Neuropharmacol | Long-term comparison of SSRIs (incl. fluoxetine) in panic disorder tolerability and outcome |
-| [3500189](https://pubmed.ncbi.nlm.nih.gov/3500189/) | 1987 | Open-label pilot study | J Clin Psychopharmacol | Early open trial: 7/16 patients with panic disorder/agoraphobia had complete cessation of panic attacks on fluoxetine |
-| [1884341](https://pubmed.ncbi.nlm.nih.gov/1884341/) | 1991 | Case series | Can J Psychiatry | Two treatment-refractory panic disorder with agoraphobia cases responded to fluoxetine after failing other agents |
+| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | The Mental Health Clinician | Reviews drug treatment across cluster A personality disorders, which are marked by isolation and avoidance of relationships. This is the only paper directly relevant to the disorder, and it gives indirect support at most. |
+| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Cohort | Comprehensive Psychiatry | Assessed personality traits and disorders in 148 people with body dysmorphic disorder. Schizoid traits are discussed; the treatment study involved fluvoxamine, not fluoxetine. |
+| [16390895](https://pubmed.ncbi.nlm.nih.gov/16390895/) | 2006 | Cohort | American Journal of Psychiatry | Course of illness and predictors of outcome in depressed patients over 6 months of treatment. It does not address schizoid personality disorder. |
 
 ---
 
 ## South Africa Market Information
 
-Fluoxetine currently has **no registered products in South Africa** (`market_status: Not marketed`, `total_licenses: 0`). No dosage forms, brand names, or approved indication texts are available from the evidence pack. Any repurposing pathway would first require a SAHPRA marketing authorization (new application or import route) before local prescribing could occur.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 34/1.2/0279 | Rezak | Capsule | Not provided in the registration record |
+| Reg. No. 30/1.2/0356 | Fluoxetine Biotech 20 | Capsule | Not provided in the registration record |
+| Reg. No. 37/1.2/0612 | Trizac 20 Mg | Capsule | Not provided in the registration record |
+
+All three registrations are oral capsules.
 
 ---
 
@@ -115,23 +95,25 @@ Fluoxetine currently has **no registered products in South Africa** (`market_sta
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-*(Key warnings, contraindications, and drug-interaction data were queried but are not currently available in this evidence pack — DG001, Blocking severity: TFDA/SAHPRA PI warnings and contraindications could not be retrieved, which prevents a formal S1 safety pre-assessment for this candidate.)*
-
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails (indication-level, contingent on resolving Blocking data gap)**
+**Decision: Hold**
 
 **Rationale:**
-Agoraphobia (and the related phobic disorder / melancholia predictions) are mechanistically plausible and supported by L2-level literature evidence, including tier-1 RCTs, unlike the top-scoring but weakly-evidenced personality-disorder predictions. However, fluoxetine is **not currently registered in South Africa** and a **Blocking** data gap (DG001) prevents completion of the mandatory S1 safety pre-assessment — so this candidate cannot advance past guarded research status until that gap is closed.
+There are no clinical trials and no fluoxetine-specific efficacy data for schizoid personality disorder. The high model score appears to be shared across the cluster A disorders. The prediction remains a hypothesis and cannot support a repurposing decision at this stage.
 
 **To proceed, the following is needed:**
-- Retrieve SAHPRA/TFDA-approved Professional Information (PI) — warnings, contraindications, DDI — to close DG001 (Blocking)
-- Retrieve fluoxetine's mechanism of action via DrugBank API to close DG002 (High) and strengthen the mechanistic rationale
-- Confirm a SAHPRA registration or import pathway, since the product currently has zero local licenses
-- If pursuing agoraphobia specifically, commission or identify a registered clinical trial (none currently exist) rather than relying solely on published literature
-- Clarify whether "manic bipolar affective disorder" (rank 7) should be down-weighted or excluded given the known risk of SSRI-induced manic switch — this is a case where a high TxGNN score does not track clinical appropriateness
+- Controlled studies of fluoxetine specifically in schizoid personality disorder
+- The SAHPRA package insert warnings and contraindications for the three registered products, which are needed before any safety screening
+- Mechanism of action data, for example from DrugBank
+- The approved indication text for each SAHPRA registration, to separate on-label from off-label use
+
+**Other candidates in the same Evidence Pack:**
+The pack also holds better-supported predictions for schizotypal personality disorder (L3, small uncontrolled studies), agoraphobia, manic bipolar affective disorder (bipolar depression evidence only), phobic disorder and melancholia. The last four are at L2 with guardrails. Any of these would be a stronger starting point than schizoid personality disorder.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Trimethoprim
 parent: Model Prediction Only (L5)
-nav_order: 449
+nav_order: 457
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,43 +29,52 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trimethoprim: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Trimethoprim: From Antibacterial Use to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Trimethoprim is a dihydrofolate reductase (DHFR) inhibitor antibacterial agent, most widely known clinically for treating bacterial urinary tract and other susceptible infections. The TxGNN model's top-ranked prediction for this drug is **punctate epithelial keratoconjunctivitis**, but currently **no clinical trials and no published literature** support this specific link, and the drug is not registered in South Africa.
+Trimethoprim is an antibacterial drug that inhibits bacterial dihydrofolate reductase (DHFR). The TxGNN model predicts it may be useful for **punctate epithelial keratoconjunctivitis**, but the prediction rests on the model score alone: there are **0 clinical trials** and **0 publications** for this indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established in this dataset (no SAHPRA-equivalent registration on file; trimethoprim is internationally used for susceptible bacterial infections, e.g. urinary tract infections) |
+| Original Indication | Antibacterial use (SAHPRA licence records contain no indication text) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 99.57% (model rank 2,567) |
 | Evidence Level | L5 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for trimethoprim is not available in this evidence pack. Based on general pharmacology knowledge, trimethoprim inhibits bacterial dihydrofolate reductase (DHFR), blocking folate synthesis and thereby inhibiting bacterial replication — an antibacterial mechanism, not an antiviral or immunomodulatory one.
+Detailed mechanism of action data is not available in the Evidence Pack. Based on known information, trimethoprim blocks bacterial folate synthesis. Ophthalmically it is used together with polymyxin B for bacterial conjunctivitis, so the model may be linking it to other eye infections.
 
-Punctate epithelial keratoconjunctivitis is, per the evidence pack's own rationale, most commonly caused by viral pathogens (e.g. adenovirus) or by Thygeson's superficial punctate keratitis — neither of which is a bacterial process. There is therefore no direct mechanistic correspondence between trimethoprim's antibacterial action and the underlying pathology of this condition.
-
-The TxGNN score (99.57%) reflects a strong graph-embedding association, but this is a knowledge-graph-derived signal only — it is not corroborated by any clinical trial or literature evidence in this dataset. This is why the evidence level is rated L5 (model prediction only) and the recommendation is **Hold**.
+The mechanistic case for this specific prediction is weak. Punctate epithelial keratoconjunctivitis is often viral (adenoviral), and trimethoprim has no antiviral activity. The high score most likely reflects graph proximity to ocular anti-infective indications rather than a real biological mechanism. No study in the Evidence Pack tests trimethoprim for this condition.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## South Africa Market Information
 
-Trimethoprim currently has no SAHPRA registration on file and is not marketed in South Africa (0 registered licenses).
+Trimethoprim has 9 SAHPRA registrations. The 5 below are the ones supplied in the Evidence Pack.
+
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 27/20.2/0335 | Dynazole | Suspension | Not listed in the data |
+| Z/20.2/209 | Trixazole | Tablet | Not listed in the data |
+| K/20.2.1/335 | Spectrim | Capsule | Not listed in the data |
+| W/20.2/376 | Novatrim | Suspension | Not listed in the data |
+| R/20.1.1/47 | Rocephin | Injection | Not listed in the data |
+
+- **Check the Rocephin entry.** Rocephin is normally a ceftriaxone brand, so this record may be a mapping error.
+- **No ophthalmic product.** The dosage forms supplied (oral suspension, tablet, capsule, injection) include no eye-drop or topical ocular form, so a route for the predicted indication is not confirmed.
 
 ## Safety Considerations
 
@@ -76,14 +85,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The prediction is based solely on a knowledge-graph model score, with no clinical trial or literature evidence, and the proposed mechanism (antibacterial) does not correspond to the typically viral/non-bacterial etiology of this condition. Combined with the absence of any South African market presence, there is currently no basis to advance this specific candidate.
+The prediction has no supporting trials or publications, and the mechanism is implausible for a frequently viral condition. Registered dosage forms also include no ocular product.
+
+Separately, the pack lists **conjunctivitis** (rank 2, score 99.17%) with a completed Phase 4 trial (NCT00581542, n=124) of Polytrim (trimethoprim/polymyxin B) versus moxifloxacin. That indication is close to existing on-label ophthalmic use rather than true repurposing. Its results were not supplied, and it is a better candidate for follow-up than this one.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data (DrugBank query, per data gap DG002)
-- SAHPRA-approved PI warnings and contraindications (per data gap DG001, currently blocking safety pre-screening)
-- Any future clinical or observational evidence specifically linking trimethoprim to this ocular condition
-
-**Note for reviewers:** This evidence pack also screened 9 other candidate indications for trimethoprim. Notably, **conjunctivitis (bacterial)** (rank 2, TxGNN score 99.17%) is supported by a completed Phase 4 head-to-head RCT ([NCT00581542](https://clinicaltrials.gov/study/NCT00581542), Polytrim [trimethoprim + polymyxin B] vs. moxifloxacin, n=124) and carries an L1 evidence level with a "Proceed with Guardrails" recommendation. Given its markedly stronger evidence base and mechanistic plausibility, that candidate may warrant a separate, dedicated evaluation report.
+- Confirmation of whether the adenoviral or bacterial aetiology is the target, with an evidence search specific to punctate epithelial keratoconjunctivitis
+- SAHPRA Professional Information (warnings and contraindications), which is currently a blocking gap for safety screening
+- Mechanism of action data (DrugBank)
+- A check of whether any ophthalmic trimethoprim product is registered in South Africa
+- Verification of the Rocephin registration record
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

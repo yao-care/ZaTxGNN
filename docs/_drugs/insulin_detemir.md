@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Detemir
 parent: High Evidence (L1-L2)
-nav_order: 258
+nav_order: 263
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,54 +29,58 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Insulin Detemir: From Basal Insulin Analogue to Type 1 Diabetes Mellitus
+# Insulin Detemir: From Diabetes Mellitus (Basal Insulin) to Type 1 Diabetes Mellitus
 
 ## One-Sentence Summary
 
-Insulin detemir (Levemir®) is a long-acting basal insulin analogue established globally for diabetes management, but currently unregistered with SAHPRA and unavailable in South Africa.
-The TxGNN model predicts it is highly effective for **Type 1 Diabetes Mellitus (T1DM)** — a finding consistent with its validated global clinical use — with a prediction confidence of **99.77%**.
-This is supported by **more than 10 completed Phase 3 randomised controlled trials** (including trials conducted on the African continent) and **19 publications**, placing the overall evidence at Level 1.
+Insulin detemir (Levemir) is a long-acting basal insulin analogue used to manage diabetes mellitus.
+The TxGNN model predicts it is effective for **Type 1 Diabetes Mellitus**, supported by **50 registered clinical trials** and **19 publications**.
+This is largely an on-label use rather than true repurposing, so the high score mainly confirms a known drug-disease link.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not applicable — insulin detemir has no SAHPRA-registered indication and is not currently marketed in South Africa |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
+|------|------|
+| Original Indication | Diabetes mellitus, basal insulin therapy (no indication text is recorded in the SAHPRA entry supplied) |
+| Predicted New Indication | Type 1 diabetes mellitus |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L1 |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Insulin detemir is a soluble long-acting human insulin analogue modified by attaching a C14 (myristic acid) fatty acid chain to the LysB29 residue of the insulin molecule. This modification enables reversible binding to albumin, both at the subcutaneous injection site and in the systemic circulation. The result is markedly slowed absorption and a smooth, near-peakless plasma insulin profile lasting approximately 24 hours. Once dissociated from albumin, insulin detemir binds to insulin receptors on hepatic, muscle, and adipose cells, triggering the same downstream metabolic pathways as endogenous insulin: GLUT4 translocation to the plasma membrane, hepatic glycogen synthesis, lipogenesis, and suppression of hepatic gluconeogenesis.
+Insulin detemir is a soluble, long-acting human insulin analogue with a 14-carbon fatty acid attached. The fatty acid lets it bind reversibly to albumin. This slows absorption after injection and gives a prolonged, more predictable glucose-lowering effect of up to 24 hours, with less variability than NPH insulin. It acts on the insulin receptor to replace the insulin that is missing in type 1 diabetes.
 
-In Type 1 Diabetes Mellitus, autoimmune destruction of pancreatic β-cells produces an absolute deficiency of endogenous insulin. Without a basal insulin supply, fasting hyperglycaemia, protein catabolism, and diabetic ketoacidosis (DKA) rapidly ensue. Insulin detemir addresses this core pathophysiology directly — it provides the continuous, low-level insulin activity that healthy β-cells normally supply across the 24-hour period. This is not a mechanistic extrapolation; it is a pharmacologically precise match for the fundamental deficit in T1DM, making the TxGNN prediction both biologically rational and clinically expected.
+Type 1 diabetes is defined by loss of endogenous insulin, so basal insulin replacement is the core treatment. The published reviews describe detemir as a basal insulin option for both type 1 and type 2 diabetes. The TxGNN score therefore reflects an established drug-disease relationship, not a new mechanism.
 
-Globally, insulin detemir (Levemir®, Novo Nordisk) is approved by the European Medicines Agency (EMA) and the US FDA as a first-line basal insulin for T1DM in adults, adolescents, and children from 1 year of age. Notably, one of the pivotal Phase 3 RCTs supporting this indication (NCT00447382) included South African investigational sites, meaning efficacy and safety data exist from a South African population. The drug's absence from the SAHPRA register therefore reflects a market entry gap rather than a lack of evidence, and this report provides the evidentiary basis for a formal registration pathway.
+The other nine predictions (ranks 2–10) have no trials or literature and are all L5 (model prediction only). Most look like graph-neighbourhood noise or comorbidity links, such as autoimmune oophoritis and stiff person syndrome, which overlap with T1DM autoimmunity. The localized lipodystrophy entries likely reflect a known injection-site adverse effect of insulin, not a treatment opportunity. Pancreatic agenesis is biologically plausible, since insulin is standard supportive care for the resulting diabetes, but no evidence was supplied. None of these should be read as new indications.
 
 ---
 
 ## Clinical Trial Evidence
 
+Ten of the 50 registered trials are shown, chosen for relevance, size and African participation.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | Phase 3 | Completed | 752 | Large multi-centre open-label RCT comparing insulin detemir vs NPH insulin in T1DM on a once-daily basal-bolus regimen; primary evaluation of glycaemic control and safety |
-| [NCT01709929](https://clinicaltrials.gov/study/NCT01709929) | Phase 3 | Completed | 2,287 | Large North American multicentre non-interventional safety study evaluating insulin detemir for insulin-dependent T1DM and T2DM under routine clinical practice conditions |
-| [NCT01831765](https://clinicaltrials.gov/study/NCT01831765) | Phase 3 | Completed | 1,290 | 52-week multinational RCT (Europe and USA) comparing faster-acting insulin aspart (FIAsp) vs insulin aspart, both in combination with insulin detemir as basal insulin, in adults with T1DM |
-| [NCT01486940](https://clinicaltrials.gov/study/NCT01486940) | Phase 3 | Completed | 598 | Multinational randomised parallel-group trial (Europe and South America) comparing insulin detemir + insulin aspart vs NPH insulin + human soluble insulin in T1DM on a basal-bolus regimen; demonstrated non-inferior glycaemic control with detemir |
-| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | Completed | 470 | Multinational RCT (Africa, Europe, Americas, Oceania) comparing insulin detemir vs NPH insulin in pregnant women with T1DM on a basal-bolus regimen; established safety and glycaemic efficacy in this high-risk population |
-| [NCT00095082](https://clinicaltrials.gov/study/NCT00095082) | Phase 3 | Completed | 447 | European and US trial comparing insulin detemir + aspart vs insulin glargine + aspart in T1DM; confirmed detemir as a safe and at least equally effective alternative to glargine in basal-bolus therapy |
-| [NCT00487240](https://clinicaltrials.gov/study/NCT00487240) | Phase 3 | Completed | 387 | Treat-to-target comparison of insulin lispro protamine suspension vs insulin detemir as basal insulin in T1DM patients on basal-bolus therapy; assessed efficacy and safety with sequential objective testing |
-| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Phase 3 | Completed | 350 | 26-week multinational RCT (Africa, Asia, Europe, USA) comparing insulin degludec vs insulin detemir in children and adolescents aged 1–<18 years with T1DM on a basal-bolus regimen; detemir served as active comparator, confirming its paediatric evidence base |
-| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Phase 3 | Completed | 330 | 12-month double-blind multinational RCT — including **South African investigational sites** — comparing two manufacturing processes of insulin detemir in T1DM; provided long-term safety data directly relevant to the South African population |
-| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Completed | 114 | European RCT comparing insulin detemir + aspart vs NPH + aspart in adults with T1DM; direct head-to-head efficacy and safety comparison in a basal-bolus regimen |
+| [NCT01486940](https://clinicaltrials.gov/study/NCT01486940) | Phase 3 | Completed | 598 | Detemir + aspart vs NPH + human soluble insulin in T1DM on a basal-bolus regimen; glycaemic control comparison |
+| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | Phase 3 | Completed | 752 | Six-month efficacy and safety of detemir (2400 nmol/mL formulation) vs NPH in T1DM |
+| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Phase 3 | Completed | 330 | 12-month double-blind safety comparison of two detemir manufacturing processes in T1DM; sites included South Africa |
+| [NCT00095082](https://clinicaltrials.gov/study/NCT00095082) | Phase 3 | Completed | 447 | Detemir vs glargine (both with aspart) in T1DM; tests whether detemir is at least as effective |
+| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | Completed | 470 | Detemir vs NPH (with aspart) in pregnant women with T1DM; sites included Africa |
+| [NCT01513473](https://clinicaltrials.gov/study/NCT01513473) | Phase 3 | Completed | 350 | Insulin degludec vs detemir in children and adolescents with T1DM (BEGIN Young 1); sites included Africa |
+| [NCT00738153](https://clinicaltrials.gov/study/NCT00738153) | N/A (observational) | Completed | 798 | Efficacy and serious adverse drug reactions of Levemir in routine care in Africa; mixed type 1 and 2 population |
+| [NCT01461616](https://clinicaltrials.gov/study/NCT01461616) | Phase 3 | Completed | 19 | Triple crossover of NPH, detemir and glargine on IGFBP-1 and IGF-I in T1DM |
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Completed | 114 | Detemir + aspart vs NPH + aspart on blood glucose control in adults with T1DM |
+| [NCT00487240](https://clinicaltrials.gov/study/NCT00487240) | Phase 3 | Completed | 387 | Insulin lispro protamine vs detemir as basal insulin in T1DM |
+
+No SANCTR or PACTR identifiers were included in the data supplied.
 
 ---
 
@@ -84,34 +88,30 @@ Globally, insulin detemir (Levemir®, Novo Nordisk) is approved by the European 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT / Non-inferiority Trial | The Lancet Diabetes & Endocrinology | EXPECT trial: multinational open-label RCT comparing insulin degludec vs insulin detemir in pregnant women with T1DM; insulin detemir used as the active gold-standard comparator, confirming its established role in pregnancy |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematic Review + Network Meta-analysis | Value in Health | Assessed relative efficacy and safety of all basal insulin regimens in adults with T1DM; insulin detemir included as a primary treatment node with robust comparative data |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Systematic Review / Meta-analysis | Clinical Therapeutics | Compared efficacy and tolerability of insulin degludec vs insulin glargine and insulin detemir across T1DM and T2DM populations; synthesised HbA1c, hypoglycaemia, and weight outcomes |
-| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Systematic Review | Polish Archives of Internal Medicine | Meta-analysis of insulin detemir vs NPH insulin specifically in T1DM; reported consistent improvement in glycaemic control and reduced nocturnal hypoglycaemia with detemir |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | The Lancet Diabetes & Endocrinology | Comprehensive update on T1DM management in pregnancy including lifestyle, pharmacological treatment, and technology; covers basal insulin analogue selection including detemir |
-| [23110609](https://pubmed.ncbi.nlm.nih.gov/23110609/) | 2012 | Review | Drugs | Comprehensive review of insulin detemir pharmacology, clinical efficacy, and safety across T1DM and T2DM; covers glucose-clamp studies, intrapatient variability, and weight-neutral profile |
-| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Review | Vascular Health and Risk Management | Update on insulin detemir treatment for T1DM and T2DM; highlighted predictable pharmacokinetics, lower nocturnal hypoglycaemia rates, and weight advantage over NPH |
-| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Review | Vascular Health and Risk Management | Review of insulin detemir's albumin-binding mechanism and its clinical implications; summarised early trial evidence for reduced hypoglycaemia and glycaemic variability in T1DM |
-| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Review | Drugs | Foundational review of insulin detemir at the time of initial regulatory approval; documented pharmacokinetic basis and pivotal trial outcomes supporting T1DM and T2DM indications |
-| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | Review | Paediatric Drugs | Reviewed all available insulin analogues for children and adolescents with T1DM; described insulin detemir's pharmacokinetic advantages and safety profile in the paediatric age group |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: open-label, non-inferiority trial of degludec vs detemir (both with aspart) in pregnant women with T1DM |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Meta-analysis | Clin Ther | Efficacy and tolerability of degludec vs glargine and detemir in T1D and T2D |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Network meta-analysis | Value Health | Relative efficacy and safety of basal insulin regimens in adults with T1DM |
+| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Meta-analysis | Pol Arch Med Wewn | Detemir vs NPH insulin in T1DM; the benefit of detemir has not been confirmed by all investigators |
+| [23110609](https://pubmed.ncbi.nlm.nih.gov/23110609/) | 2012 | Review | Drugs | Detemir as basal insulin in T1DM and T2DM; less within-patient variability than NPH in glucose-clamp studies |
+| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Review | Drugs | Albumin binding gives a prolonged, consistent effect of up to 24 hours; more predictable than NPH |
+| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Review | Vasc Health Risk Manag | Basal analogue with lower hypoglycaemia rates; no significant HbA1c difference vs comparators |
+| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Review | Vasc Health Risk Manag | Less variable pharmacokinetics than NPH or ultralente; may reduce hypoglycaemia, especially nocturnal |
+| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | Lancet Diabetes Endocrinol | Update on T1DM in pregnancy: glycaemic targets, pharmacological treatment and technology |
+| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | Review | Paediatr Drugs | Insulin analogues, including detemir, in children and adolescents with T1DM |
 
 ---
 
 ## South Africa Market Information
 
-Insulin detemir is **not currently registered with SAHPRA** and has no approved products available in South Africa. The table below therefore contains no entries.
-
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| — | No SAHPRA-registered products | — | — |
-
-> **Note:** Insulin detemir is marketed internationally as **Levemir®** (Novo Nordisk) in a 100 U/mL solution for injection, available as a 3 mL cartridge (Penfill®) and a 3 mL pre-filled pen (FlexPen®/FlexTouch®). It holds EMA and FDA approval for basal insulin therapy in T1DM and T2DM in adults and children from 1 year of age. Clinicians requiring access in South Africa may explore a Section 21 application (unregistered medicines) pending a formal SAHPRA registration submission. Insulin detemir is **not currently included on the South African National Essential Medicines List (NEML)**; however, other basal insulins are included, and a registration pathway could support future NEML consideration.
+| Reg. No. 38/21.1/0084 | Levemir prefilled cartridge 3ml | Injection | Not stated in the record supplied |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. In the absence of a South African PI, clinicians should consult the EMA-approved Summary of Product Characteristics (SmPC) or the FDA-approved Prescribing Information for Levemir®, paying particular attention to hypoglycaemia risk, dose adjustment in renal or hepatic impairment, and use in pregnancy. Report any adverse drug reactions to SAHPRA via the MedSafety portal (www.sahpra.org.za).
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -120,16 +120,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple large multinational Phase 3 RCTs — including trials conducted in Africa and specifically in South Africa — have established the efficacy and safety of insulin detemir for Type 1 Diabetes Mellitus at the highest evidence level (L1). The TxGNN model's 99.77% prediction score reflects biological and clinical certainty; this is a direct pharmacological match for T1DM pathophysiology. The primary barrier to use in South Africa is regulatory (no SAHPRA registration), not evidential.
+Several completed Phase 3 trials (n = 330–752) directly compare detemir in type 1 diabetes, and systematic reviews and meta-analyses support the same use. This is basal insulin replacement for a labelled use, so it is not true repurposing. The other nine predictions have no evidence and should stay on Hold or be treated as research questions.
 
 **To proceed, the following is needed:**
+- Confirm the approved indication for registration 38/21.1/0084 against the SAHPRA record and Professional Information. The indication text is blank in the data supplied.
+- Retrieve the PI warnings and contraindications, which are needed for safety screening.
+- Monitor hypoglycaemia and body weight, and individualise dosing.
+- Watch for injection-site lipodystrophy, a recognised insulin effect that may explain the lipodystrophy predictions.
+- Confirm the truncated trial records (for example NCT01513473, NCT03220425 and NCT00447382) before citing them as detemir efficacy evidence.
 
-- **SAHPRA Registration**: Submit a full dossier registration application (or Section 21 application for immediate clinical access) to SAHPRA for insulin detemir (Levemir®)
-- **Local Professional Information (PI)**: Obtain SAHPRA-approved PI to confirm local labelling, safety warnings, contraindications, and drug interactions for South African prescribers
-- **NEML and STG Alignment**: Assess whether insulin detemir should be recommended within the South African Standard Treatment Guidelines (STGs) and National Essential Medicines List (NEML) for T1DM management, particularly where existing listed insulins (e.g., NPH) are suboptimal
-- **Cold-Chain and Supply Chain Assessment**: Confirm that cold-chain logistics and uninterrupted supply can be maintained across public and private healthcare sectors in South Africa
-- **Pharmacoeconomic Analysis**: Evaluate cost-effectiveness versus currently available basal insulins in the South African context, including National Department of Health tender pricing and medical scheme reimbursement
-- **Hypoglycaemia Monitoring Protocol**: Establish a clinical monitoring framework for healthcare professionals, particularly in under-resourced settings where glucose monitoring access may be limited
+*This report is for research reference only and is not medical advice. Predictions require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
