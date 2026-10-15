@@ -7,7 +7,7 @@ has_children: true
 description: "Health news coverage tracked by ZaTxGNN for its drugs and indications."
 ---
 
-# 健康新聞
+# Health News
 
 <div class="key-takeaway">
 Automatically tracked news coverage for the drugs and predicted indications on this site.

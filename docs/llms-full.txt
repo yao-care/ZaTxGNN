@@ -1,0 +1,42 @@
+# ZaTxGNN — AI-readable summary
+
+## Platform positioning
+
+ZaTxGNN is a drug repurposing research platform for medicines available in South Africa, maintained by 藥提醒科技有限公司 (yao.care). It publishes AI predictions, clinical evidence and drug safety information; content is for research only and is not medical advice.
+
+## Method and evidence
+
+Built on the TxGNN method published by Harvard's Zitnik Lab, exploring possible links between existing drugs and new indications. Model predictions are combined with ClinicalTrials.gov, PubMed, DrugBank, SAHPRA data and DDInter into traceable reports.
+
+Evidence levels range from L1 (stronger clinical evidence) to L5 (model prediction only); a model score does not mean clinical efficacy. Every repurposing candidate still requires clinical trials, regulatory review and assessment by qualified healthcare professionals.
+
+## Main content
+
+- `/` Drug Repurposing Reports — AI-powered drug repurposing predictions for 455 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation.
+- `/drugs/` All Drugs — All drug validation reports and evidence level statistics in ZaTxGNN.
+- `/evidence-high/` High Evidence (L1-L2) — L1-L2 drug repurposing candidates in ZaTxGNN, supported by clinical trials or systematic reviews.
+- `/evidence-medium/` Moderate Evidence (L3-L4) — L3-L4 drug repurposing candidates in ZaTxGNN, backed by observational or preclinical evidence.
+- `/evidence-low/` Model Prediction Only (L5) — L5 candidates in ZaTxGNN: model prediction only, with no clinical or literature evidence yet.
+- `/methodology/` Methodology — How ZaTxGNN produces and validates predictions: TxGNN knowledge graph prediction, evidence collection, L1-L5 grading, and decision recommendations.
+- `/guide/` User Guide — ZaTxGNN user guide: how to look up drugs, read evidence levels and interpret recommendations.
+- `/sources/` Data Sources — Data sources behind ZaTxGNN: SAHPRA registration data, TxGNN, ClinicalTrials.gov, PubMed and DrugBank.
+- `/downloads/` Downloads — ZaTxGNN open data downloads: FHIR resources, prediction results and search index.
+- `/news/` Health News — Health news coverage tracked by ZaTxGNN for its drugs and indications.
+- `/about/` About — ZaTxGNN is a drug repurposing prediction platform developed by 藥提醒科技有限公司 (yao.care), built on the Harvard TxGNN model, covering SAHPRA-approved medicines in South Africa.
+
+## Example drug reports
+
+- Aripiprazole (L1): https://zatxgnn.yao.care/drugs/aripiprazole/
+- Atorvastatin (L1): https://zatxgnn.yao.care/drugs/atorvastatin/
+- Clomipramine (L1): https://zatxgnn.yao.care/drugs/clomipramine/
+
+## Citation and limitations
+
+Please cite the original TxGNN paper (https://doi.org/10.1038/s41591-023-02233-x). Site content and predictions are for research and education only and are not medical advice; any real-world use or repurposing decision must be confirmed by qualified professionals, clinical trials and regulatory review.
+
+## Official links
+
+- https://zatxgnn.yao.care/
+- https://www.yao.care/medical/txgnn/
+- https://github.com/yao-care/ZaTxGNN
+- https://doi.org/10.1038/s41591-023-02233-x
