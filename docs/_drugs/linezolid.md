@@ -2,7 +2,7 @@
 layout: default
 title: Linezolid
 parent: Model Prediction Only (L5)
-nav_order: 296
+nav_order: 298
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Linezolid: From Gram-Positive Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+# Linezolid: From Staphylococcal and Streptococcal Infections to Polyclonal Hyperviscosity Syndrome
 
 ## One-Sentence Summary
 
-Linezolid is an oxazolidinone antibiotic used against resistant Gram-positive bacterial infections. The SAHPRA records supplied do not include approved-indication text, so this describes the drug class rather than the registered wording.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but **0 clinical trials** and **0 publications** support this prediction, and no plausible mechanism links the two.
+Linezolid is an oxazolidinone antibacterial, originally used to treat staphylococcal and streptococcal infections, including staphylococcal and streptococcal pneumonia.
+The TxGNN model's top-ranked prediction is **polyclonal hyperviscosity syndrome**, but **no clinical trials and no publications** support it, so it rests on the model prediction alone.
+The best-supported alternative direction is **pyelonephritis** (limited to Gram-positive pathogens such as VRE and MRSA), with **no registered trials** and **14 publications**, mostly case reports and reviews.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Streptococcal and staphylococcal infections, including streptococcal and staphylococcal pneumonia (the SAHPRA licence records provided contain no indication text) |
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 92.45% |
 | Evidence Level | L5 |
@@ -47,51 +51,90 @@ The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syn
 | Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Linezolid is known to be an oxazolidinone that blocks bacterial protein synthesis by binding the 50S ribosomal subunit. This makes it an antibacterial agent.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Linezolid is known to be an oxazolidinone antibacterial that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit. Its efficacy in Gram-positive infections is established, including resistant organisms such as MRSA and VRE.
 
-Polyclonal hyperviscosity syndrome is a condition of raised serum viscosity linked to excess immunoglobulins. Linezolid has no known effect on serum viscosity or immunoglobulin levels, so no plausible mechanistic link could be identified. The high TxGNN score (0.92) reflects a pattern in the knowledge graph, not biological or clinical evidence, and should not be read as a treatment signal.
+For the top-ranked prediction, **polyclonal hyperviscosity syndrome**, no mechanistic link could be identified. The high score is a graph-based prediction only. A bacterial protein synthesis inhibitor has no recognised role in a condition of raised blood viscosity.
+
+Other top predictions (hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant haematological disease, and haematological disease with peripheral neuropathy) also lack a plausible mechanism. In several cases, linezolid's known adverse effects (myelosuppression, peripheral and optic neuropathy, pancreatitis, lactic acidosis) argue against benefit.
+
+The only prediction with a plausible rationale is **pyelonephritis** (rank 10, score 82.67%). Linezolid is active against resistant Gram-positive uropathogens such as VRE and MRSA. It lacks activity against common Gram-negative uropathogens such as *E. coli*, so it would be a niche option, not a general one.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for polyclonal hyperviscosity syndrome, and none were found for pyelonephritis either.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+For the top-ranked prediction (polyclonal hyperviscosity syndrome), currently no related literature available.
+
+For the most plausible prediction, **pyelonephritis**, the most relevant items retrieved were:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [14520141](https://pubmed.ncbi.nlm.nih.gov/14520141/) | 2003 | RCT (mixed resistant Gram-positive infections; not pyelonephritis-specific) | Pediatr Infect Dis J | Linezolid versus vancomycin in neonates with known or suspected resistant Gram-positive infections |
+| [21308555](https://pubmed.ncbi.nlm.nih.gov/21308555/) | 2010 | Review | Curr Infect Dis Rep | Management of resistant enterococcal urinary tract infections, including MDR and vancomycin-resistant strains |
+| [38161637](https://pubmed.ncbi.nlm.nih.gov/38161637/) | 2024 | Case report | Clin Case Rep | VRE urinary tract infection with bacteraemia after continent urinary diversion |
+| [34556047](https://pubmed.ncbi.nlm.nih.gov/34556047/) | 2021 | Case report | BMC Infect Dis | *Enterococcus hirae* bacteraemia with acute pyelonephritis in a patient with alcoholic cirrhosis |
+| [19918525](https://pubmed.ncbi.nlm.nih.gov/19918525/) | 2009 | Case report | Cases J | Xanthogranulomatous pyelonephritis due to community-associated MRSA |
+| [18349306](https://pubmed.ncbi.nlm.nih.gov/18349306/) | 2008 | Case report | Ann Pharmacother | VRE *E. faecium* pyelonephritis treated with daptomycin during pregnancy |
+
+Note: Several retrieved items concern other agents (omadacycline, eravacycline, RBx 11760) or general infection topics, and are not direct evidence for linezolid in pyelonephritis. Only abstract fragments were available, so study designs should be verified against the full texts.
+
+For other lower-ranked predictions, the literature consists of case reports only. These describe linezolid treating bacterial infections in patients who happen to have a haematological condition (e.g. macroglobulinaemia, myeloma, Job's syndrome). They do not show treatment of the haematological disorder itself.
+
+---
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 35/20.1.1/0312 | Zyvoxid 200Mg/100Ml | Injection |
-| Reg. No. 48/20.1.1/0223 | Linezolid specpharm | Tablet |
-| Reg. No. 50/20.1.1/0184 | Zenilid Iv 600 Mg/300 Ml | Infusion |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 35/20.1.1/0312 | Zyvoxid 200Mg/100Ml | Injection | Not available in the data compiled |
+| Reg. No. 48/20.1.1/0223 | Linezolid specpharm | Tablet | Not available in the data compiled |
+| Reg. No. 50/20.1.1/0184 | Zenilid Iv 600 Mg/300 Ml | Infusion | Not available in the data compiled |
 
-Both oral (tablet) and intravenous (injection, infusion) presentations are registered.
+All three registrations are valid single-ingredient products (none cancelled). Both oral (tablet) and injectable (injection, infusion) forms are available. Essential Medicines List (EML) status is not available in the data compiled.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications / conditions flagged in the knowledge graph** (these come from graph relationships, not from the label text):
+- Haematological: thrombocytopenia, anaemia (including macrocytic), leukopenia, pancytopenia
+- Neurological and ocular: peripheral neuropathy, peripheral nervous system disease, optic nerve disease, vision disorder, blindness, epilepsy
+- Metabolic and endocrine: lactic acidosis, thyrotoxicosis, hyperthyroidism, Graves disease
+- Serotonergic and catecholamine-related: serotonin syndrome, carcinoid syndrome, phaeochromocytoma, sympathetic paraganglioma, hypertension and hypertensive disorder
+- Gastrointestinal: *Clostridium difficile* colitis, perinatal necrotising enterocolitis
+- Cancers also listed: duodenal, small intestine, heart and adrenal gland cancers
 
-The Evidence Pack contains no drug interaction records for linezolid. Separately, the prediction-level notes flag two known risks of prolonged linezolid use that matter for any haematology-related use: myelosuppression, and peripheral and optic neuropathy.
+**Drug Interactions:** 100 interactions were identified. The main ones are:
+- **Major:** isometheptene, epinephrine, bupropion, morphine, lorcaserin, diethylpropion, dolasetron, palonosetron, phentermine. These largely reflect serotonergic or pressor risk, as linezolid is a monoamine oxidase inhibitor.
+- **Moderate:** metronidazole, chlorpropamide, picosulfuric acid, glimepiride, and several insulins (aspart, degludec, detemir, glargine, glulisine, human isophane, human regular). Hypoglycaemia is the relevant concern with antidiabetic agents.
+
+Key warnings and contraindications from the SAHPRA package insert were not available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based score alone, with no trials, no literature and no plausible mechanism. Linezolid's known myelosuppressive potential adds a safety concern in patients with haematological disorders.
+The top-ranked prediction (polyclonal hyperviscosity syndrome) is supported only by a graph-based score, with no trials, no literature, and no plausible mechanism (Evidence Level L5). Linezolid's known toxicities (myelosuppression, neuropathy, lactic acidosis) also argue against use in the haematological conditions predicted. Pyelonephritis is a reasonable research question for resistant Gram-positive pathogens only, but evidence is limited to case reports, reviews, and one mixed-infection comparative trial (Level L4).
 
 **To proceed, the following is needed:**
-- Mechanism of action data (currently missing) and a defensible biological rationale linking linezolid to serum viscosity or immunoglobulin biology
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Any clinical or preclinical study specific to this condition
-
-**Other predictions for this drug:** Of the 10 predicted indications, only **pyelonephritis** reached the next screening stage (evidence level L4, "Research Question"). The support is indirect. Linezolid is active against resistant Gram-positive urinary pathogens such as vancomycin-resistant enterococci, but most pyelonephritis is caused by Gram-negative bacteria, against which it is inactive. A pathogen-restricted question (resistant Gram-positive pyelonephritis or urinary tract infection) is more defensible than pyelonephritis in general. The other predictions, including hyperamylasemia and hematological disease with peripheral neuropathy, may reflect adverse-effect signals rather than treatment opportunities.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- The SAHPRA package insert (warnings, contraindications, approved indications), which is currently a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- For pyelonephritis: a focused review of linezolid use in VRE/MRSA urinary tract infection, plus a check of registries (ClinicalTrials.gov, SANCTR, PACTR) for relevant trials
+- A safety plan covering myelosuppression, neuropathy, lactic acidosis, and serotonergic interactions
+- Clarification of EML status and local resistance patterns in South Africa
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

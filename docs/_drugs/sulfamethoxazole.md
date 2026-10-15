@@ -2,7 +2,7 @@
 layout: default
 title: Sulfamethoxazole
 parent: Moderate Evidence (L3-L4)
-nav_order: 426
+nav_order: 430
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,16 +29,18 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Sulfamethoxazole: From Systemic Antibacterial Use to Acute Contagious Conjunctivitis
+# Sulfamethoxazole: From Infectious Otitis Media and Other Infections to Acute Contagious Conjunctivitis
 
 ## One-Sentence Summary
 
-Sulfamethoxazole is a sulfonamide antibacterial, sold in South Africa mainly as co-trimoxazole products. The TxGNN model predicts it may be effective for **acute contagious conjunctivitis**. Support is thin: **0 clinical trials** and **1 publication**, an indirect antibiotic-susceptibility study.
+Sulfamethoxazole is a sulfonamide antibacterial, originally used for infections such as infectious otitis media, nocardiosis, toxoplasmosis, pneumocystosis, shigellosis and conjunctivitis.
+The TxGNN model predicts it may be effective for **acute contagious conjunctivitis**, but there are currently **no registered clinical trials** and only **1 publication** (an indirect susceptibility study) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Infectious otitis media, nocardiosis, toxoplasmosis, pneumocystosis, shigellosis, conjunctivitis and others (knowledge-graph indications; the approved indication text for the South African registrations was not available) |
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L4 |
@@ -46,60 +48,72 @@ Sulfamethoxazole is a sulfonamide antibacterial, sold in South Africa mainly as 
 | Number of SAHPRA Registrations | 7 |
 | Recommended Decision | Hold |
 
-The registration records provided contain no approved-indication text, so the original indication cannot be quoted from the SAHPRA data.
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on general pharmacology, sulfamethoxazole is a sulfonamide antibacterial that inhibits bacterial dihydropteroate synthase, which blocks folate synthesis in susceptible bacteria.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known pharmacology, sulfamethoxazole is a sulfonamide antibacterial that inhibits bacterial folate synthesis (dihydropteroate synthase). It is commonly used together with trimethoprim (co-trimoxazole), and its efficacy in several bacterial and protozoal infections is established.
 
-Acute contagious conjunctivitis is commonly bacterial and is usually treated empirically with antibiotics. An antibacterial mechanism is therefore biologically plausible. This is a plausibility argument only.
+Conjunctivitis is already among sulfamethoxazole's original indications in the knowledge graph. This prediction is therefore not true repurposing, but an extension of existing use to the acute contagious (bacterial) form of the disease. Antibacterial activity against the causative bacteria is plausible.
 
-The very high TxGNN score is a model output, not clinical proof. The only supporting paper is a susceptibility study, which does not show that sulfamethoxazole works for this condition. The other nine predicted indications are also on Hold. Most rest on the model prediction alone (L5), and several have no plausible antibacterial link (for example endocardial fibroelastosis and post-infectious syndromes).
+The only supporting publication is a retrospective study of bacteria and antibiotic susceptibility in childhood acute bacterial conjunctivitis. It is indirect evidence and does not show that sulfamethoxazole works clinically in this condition.
+
+Other predicted indications (ranks 2-10) were also reviewed. Most are prediction-only with no supporting evidence. The most notable are exposure keratitis (indirect literature only) and "post-bacterial disorder" (infection prophylaxis trials in established uses). None was considered stronger than the lead prediction.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for acute contagious conjunctivitis. No SANCTR or PACTR identifiers were available.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31788487](https://pubmed.ncbi.nlm.nih.gov/31788487/) | 2019 | Cohort (retrospective) | Med Hypothesis Discov Innov Ophthalmol J | Bacteriology and antibiotic susceptibility patterns in childhood acute bacterial conjunctivitis at a paediatric hospital in Western Greece. It describes the causative organisms and susceptibility, not the efficacy of sulfamethoxazole. |
+| [31788487](https://pubmed.ncbi.nlm.nih.gov/31788487/) | 2019 | Cohort (retrospective) | Med Hypothesis Discov Innov Ophthalmol | Bacteriology and antibiotic susceptibility patterns in childhood acute bacterial conjunctivitis in Western Greece. Indirect evidence; it does not test sulfamethoxazole efficacy. |
 
 ## South Africa Market Information
 
-Five of the seven registrations were provided in the Evidence Pack:
+All 7 registrations are valid single-ingredient products. Approved indication text and manufacturer details were not available. Essential Medicines List (EML) status was not confirmed from the data compiled.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Z/20.2/209 | Trixazole | Tablet |
-| K/20.2.1/335 | Spectrim | Capsule |
-| L/20.2/336 | Purbac injection 5ml | Injection |
-| 28/20.2/0389 | Xerazole Suspension | Suspension |
-| W/20.2.1/88 | Co-Trimoxazole 960 Biotech | Tablet |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Z/20.2/209 | Trixazole | Tablet | Not available |
+| K/20.2.1/335 | Spectrim | Capsule | Not available |
+| L/20.2/336 | Purbac injection 5ml | Injection | Not available |
+| 28/20.2/0389 | Xerazole Suspension | Suspension | Not available |
+| W/20.2.1/88 | Co-Trimoxazole 960 Biotech | Tablet | Not available |
 
-Available forms are oral (tablet, capsule), injectable, suspension and syrup. **No ophthalmic (topical eye) formulation is registered**, and route compatibility for an eye indication has not been assessed.
+Two further registrations are not shown: Cocc.Co.Syrup (Vern.Pp), G 894 (OM), a syrup, and Cotrizid, 52/20.2/0208, a tablet.
+
+No ophthalmic (eye drop or ointment) formulation is registered. The available forms are oral, injectable, suspension and syrup. Route compatibility with an ocular indication therefore has not been established.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+SAHPRA package insert warnings and contraindications were not available for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-One literature signal is worth noting. A 1985 case report (PMID [3157322](https://pubmed.ncbi.nlm.nih.gov/3157322/)) describes erythema multiforme in a child after topical sulfacetamide, another sulfonamide, used for conjunctivitis. The child had earlier tolerated trimethoprim-sulfamethoxazole. It is a single case, but it is a reminder to consider sulfonamide hypersensitivity in any ocular repurposing work.
+**Contraindication signals from the knowledge graph (not label text):**
+- Haematological: thrombocytopenia, neutropenia, agranulocytosis, folic acid deficiency anaemia, G6PD deficiency
+- Porphyrias: inherited porphyria, porphyrin metabolism disease, porphyria
+- Renal and hepatic: kidney disease, kidney failure, uraemia, glomerulonephritis, liver disease, gallbladder disease
+- Gastrointestinal: *Clostridium difficile* colitis, perinatal necrotising enterocolitis
+- Metabolic: glycogen storage disease, cystinuria, galactosaemia
+
+**Drug interactions:** 100 interactions were found. The first 20 retrieved were mostly moderate or minor.
+- **Moderate:** sulfonylureas (chlorpropamide, glimepiride, acetohexamide, glipizide, glyburide) and insulins (human, aspart, degludec, detemir, glargine, glulisine), with a hypoglycaemia risk to monitor; also balsalazide and picosulfuric acid.
+- **Minor:** famotidine, clarithromycin, dolasetron, palonosetron, granisetron, cisapride.
+
+**Related literature signal:** One case report describes erythema multiforme major after topical sulfacetamide, a related sulfonamide, in a child with a prior uneventful course of trimethoprim-sulfamethoxazole. This suggests a hypersensitivity risk with sulfonamide eye treatment.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials and only one indirect susceptibility paper. Neither shows efficacy in conjunctivitis. The registered products are systemic, with no eye formulation, and safety data have not been reviewed.
+The prediction score is high, but conjunctivitis is already a labeled indication, and the only evidence is one indirect susceptibility study. There are no trials, no ophthalmic formulation in South Africa, and the safety label data could not be retrieved. The other nine predictions are weaker and are also on hold.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism of action data (for example from DrugBank)
-- Approved indication text for the registered products
-- Direct clinical evidence, such as comparative trials of sulfonamide-based therapy in bacterial conjunctivitis
-- A route and formulation assessment, since no ophthalmic product is registered and systemic use would need justification
-- Local susceptibility data for the likely conjunctival pathogens
+- SAHPRA package insert warnings and contraindications (a blocking gap), and the approved indication text for each registration
+- Mechanism of action data from DrugBank
+- Clinical efficacy data for sulfamethoxazole in acute bacterial conjunctivitis, and local susceptibility data in South Africa
+- Assessment of route and formulation suitability, given that no ophthalmic product is registered
+- A comparison with existing topical ophthalmic antibiotics, and a hypersensitivity and haematological safety review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Calcium Ascorbate
 parent: Model Prediction Only (L5)
-nav_order: 90
+nav_order: 91
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Calcium ascorbate is a calcium salt of vitamin C (ascorbic acid). The supplied data records no original indication for it.
-The TxGNN model predicts it may be effective for **insomnia**, but this is a model prediction only.
-There are **0 clinical trials** and **0 publications** supporting it.
+Calcium ascorbate is a buffered form of vitamin C (ascorbic acid). The SAHPRA registration data compiled for this report do not state an approved indication for it.
+The TxGNN model predicts it may be useful for **insomnia** (score 95.1%), but there are currently **0 clinical trials** and **0 publications** supporting this prediction. This is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied registration data |
+| Original Indication | Not stated in the SAHPRA registration data |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 95.15% |
 | Evidence Level | L5 |
@@ -49,17 +48,35 @@ There are **0 clinical trials** and **0 publications** supporting it.
 | Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
+**Other predictions in the top 10:** The remaining nine predictions have similar scores (93.9% to 94.3%). Eight concern ophthalmic conditions (cataract subtypes) and one concerns diabetic retinopathy. None has clinical trial or literature support.
+
+| Rank | Predicted Indication | Score | Evidence Level | Suggested Handling |
+|------|------|------|------|------|
+| 2 | Diabetic cataract | 94.26% | L5 | Research question |
+| 3 | Type 2 diabetes-associated cataract | 94.21% | L5 | Research question (overlaps with rank 2) |
+| 4 | Craniostenosis cataract | 94.21% | L5 | Hold |
+| 5 | Mature cataract | 94.21% | L5 | Hold |
+| 6 | Immature cataract | 94.21% | L5 | Research question |
+| 7 | Tetanic cataract | 94.21% | L5 | Hold |
+| 8 | Cortical cataract | 94.08% | L5 | Research question |
+| 9 | Nuclear senile cataract | 94.08% | L5 | Research question |
+| 10 | Diabetic retinopathy | 93.87% | L5 | Research question |
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Calcium ascorbate is a vitamin C salt, and no established link between it and sleep regulation is documented in the supplied data.
+Currently, detailed mechanism of action data is not available. Ascorbate is an antioxidant, but nothing in the data compiled for this report links it to sleep regulation. Ascorbate is not an established treatment for insomnia, so the high TxGNN score (95.1%) is a knowledge-graph prediction without a verified mechanistic basis. It should not be read as evidence of efficacy.
 
-The original indications field is empty, so the relationship between the original and predicted indication cannot be assessed. The high score (0.951) is a graph-based model output. No trial or publication corroborates it, and it should not be read as evidence of efficacy.
+The eye-related predictions (ranks 2 to 10) have a more plausible, though still unverified, rationale. Ascorbate is concentrated in the aqueous humour and lens. Oxidative stress, polyol pathway activity and glycation damage contribute to diabetic cataract, age-related cataract and diabetic microvascular disease. This gives a biological basis for hypothesis generation only.
 
-Other high-scoring predictions for this drug are mostly cataract subtypes and diabetic retinopathy. An antioxidant rationale (oxidative stress in the lens and retina) is at least conceivable there, though it is also unverified. Several cataract nodes share an identical score (0.942), which suggests a shared-neighbourhood artefact rather than a drug-specific signal.
+Several cataract predictions are likely artefacts of ontology propagation from the general cataract node:
+- **Craniostenosis cataract:** a syndromic cataract of genetic or developmental origin, unlikely to respond to an antioxidant.
+- **Mature cataract:** established lens opacity is not expected to be reversed by antioxidants, and management is surgical.
+- **Tetanic cataract:** associated with hypocalcaemia. The calcium in calcium ascorbate is minimal and is not a therapeutic route for correcting it.
+- **Type 2 diabetes-associated cataract:** overlaps with diabetic cataract and adds no independent evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR records were not supplied).
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
@@ -69,11 +86,11 @@ Currently no related literature available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| P/7.1.4/281 | Nitrolingual | Inhaler | Not stated in the supplied data |
-| C769 (ACT 101/1965) | Ilvico | Syrup | Not stated in the supplied data |
-| C770 (ACT 101/1965) | Ilvico | Tablet | Not stated in the supplied data |
+| P/7.1.4/281 | Nitrolingual | Inhaler | Not stated in the data compiled |
+| C769 (ACT 101/1965) | Ilvico | Syrup | Not stated in the data compiled |
+| C770 (ACT 101/1965) | Ilvico | Tablet | Not stated in the data compiled |
 
-**Data quality note:** Nitrolingual is, to my knowledge, a glyceryl trinitrate product rather than a vitamin C product, so this registration may be an ingredient-mapping error. It should be checked against the SAHPRA register before any of these registrations are relied on. Approved indication text and manufacturer are blank for all three entries.
+All three registrations are valid single-ingredient entries. No Essential Medicines List (EML) status was available in the data compiled. The Nitrolingual entry should be verified against the SAHPRA register, because that product name is not usually associated with calcium ascorbate.
 
 ## Safety Considerations
 
@@ -84,14 +101,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials, no publications and no plausible mechanism identified. Safety information is also missing, so this candidate cannot proceed to safety screening.
+The insomnia prediction rests on a model score alone, with no trials, no literature, no mechanistic link and no safety data. The ophthalmic predictions have a plausible antioxidant rationale but are also unsupported by evidence, so they are better treated as research questions than as repurposing candidates.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings and contraindications), which is currently a blocking gap
-- Mechanism of action data, for example from DrugBank
-- Verification of the three SAHPRA registrations, especially the Nitrolingual entry, and their approved indications
-- A systematic literature search on vitamin C and sleep or insomnia
-- Consideration of the antioxidant-related predictions (cataract, diabetic retinopathy) as separate research questions, each starting with a literature review
+- Download and review the SAHPRA package insert for warnings, contraindications and approved indications (this is a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A systematic literature search on vitamin C for insomnia, cataract and diabetic retinopathy, including existing observational and interventional studies
+- A trial registry search (ClinicalTrials.gov, SANCTR, PACTR) for the same conditions
+- Confirmation of the product-to-ingredient mapping for the three SAHPRA registrations
+- Route and formulation compatibility assessment for any shortlisted indication (for example, whether an oral or ophthalmic route is needed)
+- If any ophthalmic indication is pursued, prioritise diabetic cataract and early-stage (immature, cortical, nuclear) cataract, and de-prioritise craniostenosis, mature and tetanic cataract
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

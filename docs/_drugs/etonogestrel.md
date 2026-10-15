@@ -2,7 +2,7 @@
 layout: default
 title: Etonogestrel
 parent: Model Prediction Only (L5)
-nav_order: 218
+nav_order: 220
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Etonogestrel is a progestin used in hormonal contraception, marketed in South Africa as the vaginal ring Nuvaring.
-The TxGNN model predicts it may be effective for **Amenorrhea**, but there are **0 clinical trials** and **0 publications** for this indication.
-Amenorrhea is a known effect of the drug, so this prediction most likely reflects a side effect rather than a treatment use.
+Etonogestrel is a progestin used in hormonal contraception, marketed in South Africa as a vaginal ring (Nuvaring).
+The TxGNN model predicts it may be effective for **amenorrhea**, but there are currently **0 clinical trials** and **no relevant publications** supporting this direction (the only linked paper is unrelated to this drug or condition).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Contraception (the registration record has no indication text, so this is based on the product type) |
+| Original Indication | Contraception (the registration record has no indication text; this is based on the drug's known use) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
@@ -51,52 +50,61 @@ Amenorrhea is a known effect of the drug, so this prediction most likely reflect
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Etonogestrel is a progestin. It suppresses ovulation and thins the endometrium, and these are the effects behind its contraceptive action.
+Currently, detailed mechanism of action data is not available. Based on known information, etonogestrel is a progestin, a class that can suppress the endometrium and ovulation, so a theoretical hormonal rationale exists for menstrual-pattern disorders.
 
-Amenorrhea is a well-known effect of etonogestrel-containing products. The high score (0.998) most likely reflects a drug-induced effect or adverse event, not a therapeutic use. Whether the drug would treat amenorrhea or simply cause it has not been resolved, and no trials or literature were supplied.
+However, amenorrhea is a well-known **side effect** of etonogestrel-containing contraceptives (a change in bleeding pattern), not a therapeutic use. The prediction is therefore likely to reflect a graph association with a drug effect rather than a true treatment opportunity. Using a drug to treat a condition it is known to cause is not a reasonable repurposing direction without specific supporting evidence.
 
-The other top predictions are mostly benign breast conditions (fibrocystic disease, adenosis, benign mammary dysplasia). A hormonal link is plausible for these, but each is prediction only. Some predictions have weak mechanistic support:
-- **Breast abscess** is infectious, and a progestin has no plausible antimicrobial mechanism.
-- **Fat necrosis of breast** is traumatic or ischaemic, with no clear hormonal target.
-- **Acne** is a commonly reported adverse event with etonogestrel, so the direction of effect is uncertain.
+Other predictions were also reviewed. Most were benign breast conditions (fibrocystic disease, adenosis, benign mammary dysplasia, fat necrosis, breast abscess), and all are supported by model prediction only. Two predictions point toward harm or irrelevance: acne is a reported adverse event of etonogestrel implants, and breast abscess is an infection with no plausible hormonal treatment mechanism.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for amenorrhea. No SANCTR or PACTR entries were identified.
-
-Two completed trials exist for a lower-ranked prediction, **lactation disease** (rank 8, score 98.93%). They assess lactation safety of the etonogestrel implant (Nexplanon), not treatment of a lactation disorder:
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03978598](https://clinicaltrials.gov/study/NCT03978598) | Phase 4 | Completed | 150 | Randomised comparison of implant placement within 24 hours of delivery vs 4-6 weeks later, with breastfeeding as the outcome |
-| [NCT02657148](https://clinicaltrials.gov/study/NCT02657148) | N/A | Completed | 200 | Observational study of immediate postpartum implant placement vs standard care in opioid-dependent women, looking at contraceptive use and rapid repeat pregnancy |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | RCT protocol | Trials | Study protocol for BIO101 in preventing respiratory deterioration in COVID-19 pneumonia. **Unrelated** to etonogestrel or amenorrhea. |
+
+No relevant literature supports etonogestrel for amenorrhea.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 38/34/0171 | Nuvaring | Vri (vaginal ring) | Not stated in the registration record |
+| Reg. No. 38/34/0171 | Nuvaring | Vaginal ring (recorded as "Vri") | Not recorded in the data compiled for this report |
+
+The Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindication signals from the knowledge graph (not label text):** The TxGNN knowledge graph links etonogestrel to the following conditions, which should be verified against the approved Professional Information (PI):
+- Cardiovascular and metabolic: hypertension, coronary artery disease, thrombophlebitis, diabetes mellitus, diabetic ketoacidosis, hypertriglyceridemia, hyperlipidemia (including familial), obesity
+- Hepatic, renal and biliary: liver disease, gallbladder disease, kidney disease
+- Neurological and psychiatric: epilepsy, migraine, anxiety disorder, neurotic disorder, dysthymic disorder
+- Other: female breast carcinoma, systemic lupus erythematosus, asthma, porphyria
+
+**Drug Interactions:** 100 interactions were identified in the DDInter database; the 20 reviewed were all rated Moderate. The main groups were:
+- Antidiabetic agents (metformin, acarbose, glimepiride, chlorpropamide, SGLT2 inhibitors such as canagliflozin, dapagliflozin and empagliflozin, DPP-4 inhibitors such as alogliptin and saxagliptin, and GLP-1 agonists such as albiglutide, dulaglutide and semaglutide), and insulins (aspart, degludec, detemir, glargine, glulisine), where glycaemic control may be affected
+- Others: aprepitant, clarithromycin, linaclotide
+
+**Adverse events relevant to the predictions:** Acne is a reported adverse event with etonogestrel implants, and amenorrhea is a known bleeding-pattern change.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for formal warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5). Amenorrhea is a recognised effect of etonogestrel, so the model output probably captures an adverse effect, not a therapeutic opportunity. The only trial evidence, for lactation disease, addresses safety rather than treatment.
+Amenorrhea is a known effect of etonogestrel rather than a treatable indication. There are no clinical trials and no relevant literature, so the prediction rests on the model score alone (L5). The other predicted indications are also unsupported by clinical evidence.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings and contraindications), which is a blocking gap for safety screening
-- Mechanism of action data, for example from DrugBank
-- Evidence on whether etonogestrel treats amenorrhea or only causes it
-- Clarification of whether the breast-condition predictions carry any clinical signal, given that none has trials or literature
+- Review of the SAHPRA package insert for warnings, contraindications and approved indication text
+- Mechanism of action data (e.g. from DrugBank)
+- Clarification of whether the prediction reflects a therapeutic opportunity or only a drug effect
+- Clinical or literature evidence directly linking etonogestrel to the proposed indication
+- Confirmation of the EML status of etonogestrel products in South Africa
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

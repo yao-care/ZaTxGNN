@@ -29,110 +29,122 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amlodipine: From Hypertension (Original Indication Not Recorded in the Evidence Pack) to Brain Stem Infarction
+# Amlodipine: From Hypertension to Brain Stem Infarction
 
 ## One-Sentence Summary
 
-Amlodipine is an L-type calcium channel blocker, generally used for hypertension. The Evidence Pack does not record an original indication, so this is background knowledge. The TxGNN model predicts it may be effective for **brain stem infarction**, but **0 clinical trials** and **0 publications** support this specific prediction (Evidence Level L5). Two other predicted indications have more support: **intracerebral hemorrhage** (L2) and **cerebral artery occlusion** (L4).
+Amlodipine is a calcium channel blocker, originally used to treat hypertension, stroke-related conditions and Prinzmetal angina.
+The TxGNN model's top-ranked prediction is **brain stem infarction**, but this prediction has **no clinical trials and no publications** behind it.
+The best-supported repurposing direction in the data is **intracerebral haemorrhage** (secondary prevention), with **4 clinical trials** and **10 publications**, including a completed Phase 3 RCT of a triple-pill combination that contains amlodipine.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (all SAHPRA indication text is blank) |
-| Predicted New Indication | Brain stem infarction |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
+| Original Indication | Hypertension (SAHPRA indication text is not available in the data compiled for this report; original indications are taken from the knowledge graph: hypertensive disorder, stroke disorder, cerebral infarction, Prinzmetal angina) |
+| Predicted New Indication | Brain stem infarction (rank 1); intracerebral haemorrhage (rank 10) is the best-supported prediction |
+| TxGNN Prediction Score | 99.94% (brain stem infarction); 99.79% (intracerebral haemorrhage) |
+| Evidence Level | L5 for brain stem infarction; L1 for intracerebral haemorrhage (combination therapy, not amlodipine alone) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 20 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold for brain stem infarction; Proceed with Guardrails for intracerebral haemorrhage |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Amlodipine is a calcium channel blocker, and any link to brain stem infarction would be indirect. The most plausible routes are vascular risk reduction through blood pressure lowering, or calcium channel blockade itself. No trials or literature were retrieved to test either idea.
+Detailed mechanism of action data is not available in the data compiled for this report. Amlodipine is a dihydropyridine calcium channel blocker. It relaxes vascular smooth muscle, lowers blood pressure and may protect the cerebral vasculature. Its efficacy in hypertension is established, and it is already linked to stroke and cerebral infarction indications.
 
-The high TxGNN score (99.94%, rank 543) shows only that the knowledge graph places this drug near the disease. It is not evidence of clinical benefit. Because the original indication is missing from the data, this may also overlap with existing hypertension care rather than being true repurposing.
+**Brain stem infarction** overlaps closely with the existing cerebral infarction and stroke indications. The high TxGNN score probably reflects network proximity to these approved uses. There is no trial or literature evidence specific to brain stem infarction.
+
+**Intracerebral haemorrhage (ICH)** is a different situation. Intensive blood pressure control is central to preventing recurrent stroke after ICH. Amlodipine is one of three low-dose agents in the TRIDENT triple-pill regimen. This is a population extension of the approved hypertension and stroke indications rather than a wholly new use. The benefit cannot be attributed to amlodipine alone.
+
+Other predictions in the list (pulmonary hypertension variants, malignant hypertensive renal disease, malignant renovascular hypertension, cerebral artery occlusion, MRI-defined brain infarct, Braddock syndrome, ABri amyloidosis) are either model predictions only or supported by preclinical or anecdotal data. For hypoxic lung disease, vasodilators can worsen ventilation-perfusion mismatch, and amlodipine-related hypoxia has been reported (PMID 36856509).
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for brain stem infarction. No SANCTR or PACTR entries were retrieved.
-
-## Literature Evidence
-
-Currently no related literature available for brain stem infarction.
-
-## Other Predicted Indications With Evidence
-
-Several lower-ranked predictions have more support than the top-ranked one.
-
-| Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Summary |
-|------|------|------|------|------|
-| Intracerebral hemorrhage | 99.79% | L2 | S2 | Amlodipine is a component of the low-dose triple pill tested in TRIDENT. The evidence reflects blood pressure control, not an amlodipine-specific effect. |
-| Cerebral artery occlusion | 99.89% | L4 | S1 | Animal stroke models show reduced infarct size. No completed clinical trial tests amlodipine. |
-| MRI-defined brain infarct | 99.86% | L4 | S0 | One blood pressure strategy trial, not amlodipine-specific. |
-| Malignant renovascular hypertension | 99.90% | L4 | S0 | Two pediatric case reports only. |
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.91% | L5 | S0 | The retrieved papers are generic hypoxia biology. Vasodilators can inhibit hypoxic pulmonary vasoconstriction, which is a safety concern rather than support. |
-| Malignant hypertensive renal disease; pulmonary hypertension with unclear multifactorial mechanism; Braddock syndrome; ABri amyloidosis | 99.84–99.91% | L5 | S0 | Prediction only, with no trials or literature. |
-
-### Key Clinical Trials (Intracerebral Hemorrhage and Related Stroke Indications)
+The rank 1 prediction (brain stem infarction) has no registered trials. The trials below relate to intracerebral haemorrhage (rank 10).
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Phase 3 | Completed | 1671 | TRIDENT: fixed low-dose triple BP-lowering pill vs placebo for recurrent stroke after intracerebral haemorrhage. It is the strongest evidence but tests a combination that includes amlodipine. |
-| [NCT07458880](https://clinicaltrials.gov/study/NCT07458880) | NA | Recruiting | 140 | Triple antihypertensive medication after intracerebral hemorrhage. No results yet. |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | NA | Terminated | 4 | TRIDENT MRI sub-study. Uninformative. |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Terminated | 1 | TRIDENT cognitive sub-study. No usable data. |
-| [NCT00134160](https://clinicaltrials.gov/study/NCT00134160) | Phase 4 | Completed | 1000 | High-dose ARB vs ARB plus calcium channel blocker for cardiovascular events in elderly hypertensive patients. The partner drug is unverified. |
-| [NCT03264352](https://clinicaltrials.gov/study/NCT03264352) | Phase 4 | Recruiting | 11414 | BP intervention in adults with type 2 diabetes and high-normal BP. Loosely related. |
-| [NCT03015311](https://clinicaltrials.gov/study/NCT03015311) | NA | Unknown | 8000 | STEP: intensive vs standard systolic BP target in elderly hypertensive patients. Amlodipine use unverified. |
-| [NCT02850081](https://clinicaltrials.gov/study/NCT02850081) | Phase 3 | Completed | 31 | Statin neuroprotection around carotid endarterectomy. Does not test amlodipine. |
-| [NCT00805311](https://clinicaltrials.gov/study/NCT00805311) | Phase 4 | Terminated | 400 | Carotid endarterectomy vs medical treatment in asymptomatic stenosis. Not amlodipine-specific. |
+| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Phase 3 | Completed | 1,671 | TRIDENT: double-blind RCT of a low-dose triple antihypertensive pill (including amlodipine) versus standard care for preventing recurrent stroke after ICH |
+| [NCT07458880](https://clinicaltrials.gov/study/NCT07458880) | NA | Recruiting | 140 | Triple antihypertensive medication after ICH for blood pressure control (TRICH score); early and small |
+| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | NA | Terminated | 4 | TRIDENT MRI sub-study; no usable data |
+| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Terminated | 1 | TRIDENT cognitive sub-study; no usable data |
 
-### Key Literature (Cerebral Artery Occlusion)
+Of the trials found for cerebral artery occlusion (rank 6), NCT00805311 (Phase 4, carotid endarterectomy versus medical treatment, terminated, n=400) does not test amlodipine specifically.
+
+No SANCTR or PACTR identifiers were found in the data compiled for this report.
+
+---
+
+## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21538457](https://pubmed.ncbi.nlm.nih.gov/21538457/) | 2011 | Preclinical (animal) | J Neurosci Res | Amlodipine and atorvastatin were protective and additive after transient MCAO in Zucker metabolic syndrome rats, via antiapoptotic and antiautophagic mechanisms. |
-| [20971084](https://pubmed.ncbi.nlm.nih.gov/20971084/) | 2011 | Preclinical (animal) | Brain Res | Combined amlodipine plus atorvastatin gave synergistic benefit on neuronal damage after stroke. |
-| [21276424](https://pubmed.ncbi.nlm.nih.gov/21276424/) | 2011 | Preclinical (animal) | Brain Res | Synergistic protection against ischemic stroke damage with amlodipine plus atorvastatin. |
-| [17070425](https://pubmed.ncbi.nlm.nih.gov/17070425/) | 2006 | Preclinical (animal) | Am J Hypertens | Amlodipine reduced stroke size in ApoE-deficient mice. |
-| [17904110](https://pubmed.ncbi.nlm.nih.gov/17904110/) | 2007 | Preclinical (animal) | Brain Res | Calcium channel blockers with antioxidative effects prevented neuronal damage after transient focal ischemia in rats. |
+| [42019018](https://pubmed.ncbi.nlm.nih.gov/42019018/) | 2026 | RCT | N Engl J Med | Three low-dose antihypertensives in a single pill after ICH, assessed for blood pressure lowering and recurrent stroke risk (only the background is available in the data; outcomes need to be confirmed from the full text) |
+| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | Trial design/rationale | Int J Stroke | TRIDENT rationale, design and progress |
+| [3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/) | 1988 | Review | Cardiovasc Drugs Ther | Calcium antagonists in hypertension: lower systemic vascular resistance |
+| [19299323](https://pubmed.ncbi.nlm.nih.gov/19299323/) | 2009 | Case report | Ann Pharmacother | Probable amlodipine-induced angioedema in a patient with haemorrhagic stroke (safety signal) |
+| [21538457](https://pubmed.ncbi.nlm.nih.gov/21538457/) | 2011 | Preclinical (animal) | J Neurosci Res | Amlodipine plus atorvastatin were neuroprotective after transient MCAO in rats |
+| [17070425](https://pubmed.ncbi.nlm.nih.gov/17070425/) | 2006 | Preclinical (animal) | Am J Hypertens | Amlodipine reduced stroke size in ApoE-deficient mice |
+| [17904110](https://pubmed.ncbi.nlm.nih.gov/17904110/) | 2007 | Preclinical (animal) | Brain Res | Calcium channel blockers with antioxidative effects reduced neuronal damage after focal ischaemia in rats |
+| [20971084](https://pubmed.ncbi.nlm.nih.gov/20971084/) | 2011 | Preclinical (animal) | Brain Res | Synergistic neuroprotection with amlodipine plus atorvastatin after stroke in rats |
+| [11282121](https://pubmed.ncbi.nlm.nih.gov/11282121/) | 2001 | Preclinical (animal) | Eur J Pharmacol | Amlodipine attenuated pulmonary vascular remodelling in hypoxic rats |
+| [10759437](https://pubmed.ncbi.nlm.nih.gov/10759437/) | 2000 | Crossover trial | Eur Respir J | Amlodipine versus placebo on respiratory and pulmonary vascular responses to hypoxia in 14 mountaineers |
+
+Literature specific to brain stem infarction was not found.
+
+---
 
 ## South Africa Market Information
 
-Amlodipine is marketed in South Africa with 20 SAHPRA registrations. The approved indication text is not recorded in the Evidence Pack. The 5 main registrations are listed below.
+Amlodipine has 20 valid SAHPRA registrations, all marketed. Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status is also not available in the data. Many entries are fixed-dose combinations (for example with valsartan, atorvastatin, perindopril or telmisartan), although the data classifies them as single-ingredient. The five main registrations are shown below.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 38/7.1/0183 | Amloc | Tablet |
-| Reg. No. A39/7.1/0532 | Amlodac | Tablet |
-| Reg. No. A39/7.1/0533 | Amlodac | Tablet |
-| Reg. No. A39/7.1/0545 | Austell-amlodipine | Tablet |
-| Reg. No. 50/7.1.3/0510 | Stytem 40/10 | Tablet |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 38/7.1/0183 | Amloc | Tablet | Please refer to the Professional Information (PI) |
+| A39/7.1/0532 | Amlodac | Tablet | Please refer to the PI |
+| A39/7.1/0545 | Austell-amlodipine | Tablet | Please refer to the PI |
+| 41/7.1.3/0291 | Exforge 5mg/160mg | Tablet | Please refer to the PI |
+| A39/7.0/0326 | Caduet 5mg/10mg | Tablet | Please refer to the PI |
 
-All registered forms are oral tablets.
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+SAHPRA package insert warnings and contraindications are not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for definitive safety information. Report adverse drug reactions to SAHPRA.
 
-One point from the predictions is worth noting: vasodilators can inhibit hypoxic pulmonary vasoconstriction and may worsen gas exchange in lung disease. This is a caution for the pulmonary hypertension predictions.
+The following signals come from the knowledge graph and the retrieved literature, not from label text:
+
+- **Conditions flagged in the knowledge graph as contraindication-related:** liver failure and liver disease, kidney disease, pancreatitis, gallbladder disease, hypothyroidism, angioedema (including hereditary and RAAS-blocker-induced forms), systemic lupus erythematosus, myopathy and muscle disease, familial periodic paralysis, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, neutropenia and agranulocytosis, hypotensive disorder, and hyperparathyroidism. These should be verified against the PI before use.
+- **Angioedema:** a case report links amlodipine to angioedema (PMID 19299323).
+- **Overdose:** amlodipine overdose has been associated with hypotension and non-cardiogenic pulmonary oedema with alveolar haemorrhage (PMID 35261597).
+- **Hypoxia:** a case report describes hypoxia during one-lung ventilation attributed to inhibition of hypoxic pulmonary vasoconstriction (PMID 36856509).
+- **Drug interactions:** 100 interactions were found (all those listed are Moderate severity). The main ones include corticosteroids (hydrocortisone, betamethasone, budesonide, dexamethasone), aprepitant, acetylsalicylic acid, bupropion, calcium salts (acetate, carbonate, chloride, citrate, gluconate, lactate, phosphate and others), canagliflozin, dapagliflozin, clarithromycin and clotrimazole.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** for brain stem infarction (the top-ranked prediction).
+**Decision: Proceed with Guardrails** for intracerebral haemorrhage (secondary prevention, as part of a triple-pill combination).
 
 **Rationale:**
-Brain stem infarction is a model prediction only (L5), with no trials or literature. Amlodipine's most credible neurological signal is in intracerebral hemorrhage (L2, via the TRIDENT triple pill) and cerebral artery occlusion (L4, animal data). Both are confounded by combination therapy or lack human data.
+- Brain stem infarction is supported only by the model score and its proximity to existing stroke and cerebral infarction indications. There are no trials or publications, so it remains at L5.
+- For intracerebral haemorrhage, a completed Phase 3 RCT (TRIDENT, n=1,671) supports a triple low-dose pill that includes amlodipine. The benefit applies to the combination, not to amlodipine alone, and it is a population extension of the existing hypertension and stroke uses. Only one completed Phase 3 trial supports this, so the L1 grade (which requires at least two completed Phase 3 RCTs) should be regarded as provisional.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- The original indication, so overlap with existing hypertension use can be assessed
-- For intracerebral hemorrhage, a review of TRIDENT results to see whether an amlodipine-specific effect can be separated from the combination
-- Reassessment of the top-ranked indication only if trials or literature specific to brain stem infarction emerge
-
-*This report is for research reference only and does not constitute medical advice. Predicted repurposing candidates require clinical validation before any clinical use.*
+- Full-text confirmation of the TRIDENT outcomes (PMID 42019018), including the effect on recurrent stroke and the safety profile.
+- SAHPRA package insert warnings, contraindications and approved indication text for all registered amlodipine products.
+- Mechanism of action data from DrugBank.
+- Assessment of whether the triple-pill combination is available or registered in South Africa, or whether the regimen can be reproduced with registered components.
+- Safety monitoring plan covering hypotension and angioedema, with limitation to the post-ICH setting rather than acute-phase use.
+- For brain stem infarction and other lower-ranked predictions, prospective or observational data would be needed before reconsidering the Hold decision.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

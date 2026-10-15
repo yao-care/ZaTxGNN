@@ -29,17 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Abacavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Abacavir: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Abacavir is a nucleoside reverse transcriptase inhibitor already marketed for HIV-1 infection. The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but the support is thin: **0 clinical trials** and **1 publication**, an in vitro susceptibility study. SIV infection is a non-human primate disease used as a model for HIV, not a human clinical indication.
+Abacavir is an antiretroviral drug originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**,
+but there are currently **0 clinical trials** and only **1 publication** (an in vitro study) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (the SAHPRA registration data supplied contains no approved-indication text) |
+| Original Indication | HIV infectious disease; AIDS (the SAHPRA registration records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.79% |
 | Evidence Level | L4 |
@@ -49,52 +51,63 @@ Abacavir is a nucleoside reverse transcriptase inhibitor already marketed for HI
 
 ## Why is This Prediction Reasonable?
 
-Abacavir is a nucleoside reverse transcriptase inhibitor. Its active form, carbovir triphosphate, terminates the viral DNA chain during reverse transcription. SIV is a lentivirus whose reverse transcriptase is homologous to that of HIV, so activity against SIV is biologically plausible.
+Detailed mechanism of action data is not available for this report. Based on known information, abacavir is a nucleoside reverse transcriptase inhibitor (NRTI). Its efficacy in HIV-1 infection is established, and mechanistically it may be applicable to SIV.
 
-The prediction is best read as a knowledge-graph echo of abacavir's existing HIV-1 relationship, not as a new therapeutic opportunity. SIV is a primate infection used to model HIV, so the high score probably reflects the close ontological link between the two diseases. The only support is one in vitro study. Abacavir is already a marketed HIV-1 drug, so this is not true repurposing.
+SIV is a closely related lentivirus with a homologous reverse transcriptase, so mechanistic plausibility is high. The one available study is an in vitro susceptibility study testing HIV-2, SIV and SHIV against various anti-HIV-1 compounds. It supports indirect antiviral activity but does not show clinical efficacy.
 
-The model also ranked two other candidates for abacavir:
-- **Feline acquired immunodeficiency syndrome.** Its four listed trials are human HIV-1 studies of dolutegravir in which abacavir/lamivudine is only the backbone. They show nothing about feline disease.
-- **A rare neurodevelopmental disorder.** It has no trials, no literature and no identifiable mechanistic link.
+SIV infection is a primate model disease, not a human indication. Its value for human drug repurposing is therefore limited. Two other predictions were also generated, and both are weaker:
+- **Feline acquired immunodeficiency syndrome (score 99.79%):** essentially the approved HIV/AIDS indication in another species. Its only support is a 2002 in vitro study of a zidovudine, lamivudine and abacavir combination, which does not isolate abacavir's contribution.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 99.78%):** a model prediction only, with no trials or literature and no identifiable mechanistic link.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for the predicted indication.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility study | Antiviral Therapy | Tested 16 approved antiretrovirals and one experimental drug (AMD3100) against HIV-2, SIV (mac251, B670) and SHIV strains, to guide treatment and post-exposure prophylaxis. The abstract available to us is truncated, so the abacavir-specific result is not confirmed. |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility study | Antiviral Therapy | Evaluated 16 approved drugs and one experimental drug (AMD3100) against HIV-2, SIV and SHIV strains, to guide treatment and post-exposure prophylaxis. |
 
 ## South Africa Market Information
 
-Abacavir has 11 SAHPRA registrations. Five are shown below. The approved-indication text was not supplied for these products, and their Essential Medicines List (EML) status is not confirmed here.
+All 11 registrations are valid single-ingredient registrations. Approved indication text and Essential Medicines List (EML) status are not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 54/20.2.8/0219 | Vexabax | Film-coated tablet (listed as "Fct") |
-| Reg. No. 49/20.2.8/0462 | Dumiva Dispersible Tablets | Effervescent tablet |
-| Reg. No. 44/20.2.8/0293 | Auro Abacavir Lamivudine 600/300Mg Tablets | Film-coated tablet (listed as "Fct") |
-| Reg. No. 54/20.2.8/0206 | Cagol | Tablet |
-| Reg. No. 55/20.2.8/0338 | Vuterar | Tablet |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 54/20.2.8/0219 | Vexabax | Film-coated tablet | Not available |
+| 49/20.2.8/0462 | Dumiva Dispersible Tablets | Effervescent tablet | Not available |
+| 44/20.2.8/0293 | Auro Abacavir Lamivudine 600/300Mg Tablets | Film-coated tablet | Not available |
+| 54/20.2.8/0206 | Cagol | Tablet | Not available |
+| 55/20.2.8/0338 | Vuterar | Tablet | Not available |
+
+Six further valid registrations are not shown: Damicava Paed, Sonke-abaclamizid, Heteruam 600mg/300mg, Kivexa 600mg/300mg, Quadrimune and Trizivar.
+
+## Cytotoxicity
+
+Abacavir is an antiviral, not an antineoplastic drug, so this section does not apply.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Drug-disease contraindication signals (knowledge graph, not label text):** liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, lactic acidosis, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), hypertriglyceridaemia, obesity disorders, and myopathy or myositis-type conditions (including dermatomyositis and familial periodic paralysis). These signals are not label text and must be verified against the PI.
+- **Drug Interactions:** 93 potential interactions were identified in total. Naltrexone and orlistat are rated Moderate. Others, such as metformin, morphine, prednisone, omeprazole, pantoprazole, lansoprazole, vancomycin and amphotericin B, have an unknown severity level.
+- **Known class concern:** abacavir carries a recognised risk of HLA-B*57:01-associated hypersensitivity. This comes from general drug knowledge, not from the data compiled for this report.
+
+Warnings and contraindications from the SAHPRA-approved Professional Information (PI) are not available in the compiled data. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support for the SIV prediction is a single in vitro study. SIV infection is a primate model disease with no human clinical use, so there is nothing to translate into practice. Abacavir's real value for South African patients lies in its existing HIV-1 indication, which needs no repurposing.
+The only evidence for the top prediction is a single in vitro study in a non-human disease model, with no clinical trials. The mechanistic plausibility is reasonable, but SIV infection is not a human indication, so the repurposing value is limited. The other two predictions are a veterinary restatement of the approved indication and an unsupported model prediction.
 
 **To proceed, the following is needed:**
-- Safety information (warnings and contraindications) from the SAHPRA-approved PI, which is required before any safety screening
-- Mechanism of action data from DrugBank, to complete the mechanistic analysis
-- Confirmation of abacavir's approved indication text in SAHPRA registrations, since the original-indication field is empty
-- A decision on whether an animal-model indication is relevant at all, or whether the review should turn to human-relevant candidates
+- Mechanism of action data from DrugBank
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text for the SAHPRA registrations
+- A clear human-relevant research question, since SIV is a primate model disease
+- Further target-level analysis before pursuing the neurodevelopmental disorder prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

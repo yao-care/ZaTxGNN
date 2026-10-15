@@ -2,7 +2,7 @@
 layout: default
 title: Spironolactone
 parent: Model Prediction Only (L5)
-nav_order: 423
+nav_order: 427
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Spironolactone: From Marketed Mineralocorticoid Receptor Antagonist to Hypotrichosis Simplex of the Scalp
+# Spironolactone: From Hypertension and Heart Failure to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Spironolactone is a marketed oral tablet in South Africa, generally known as a mineralocorticoid receptor antagonist with anti-androgen activity.
-The TxGNN model predicts it may be useful for **hypotrichosis simplex of the scalp** (a second prediction is congenital hypotrichosis milia).
-Support is the model prediction alone: **0 clinical trials** and **0 publications** were found.
+Spironolactone is an anti-androgen and mineralocorticoid receptor antagonist, originally used for hypertension, congestive heart failure and primary aldosteronism.
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**,
+but there are currently **no clinical trials and no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hypertension, congestive heart failure, hyperaldosteronism (the SAHPRA registration data compiled for this report contain no approved indication text; these indications come from the TxGNN knowledge graph) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.26% |
 | Evidence Level | L5 |
@@ -48,15 +49,15 @@ Support is the model prediction alone: **0 clinical trials** and **0 publication
 | Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
-Second prediction: congenital hypotrichosis milia (score 99.04%, L5, Hold).
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Spironolactone is generally known as a mineralocorticoid receptor antagonist with anti-androgen activity. It is used off-label in androgen-related hair loss, so a link to hair disorders is conceivable.
+Detailed mechanism of action data are not available in the data compiled for this report. Spironolactone is generally known as a mineralocorticoid receptor antagonist with anti-androgen activity. Its efficacy in hypertension, heart failure and hyperaldosteronism is established.
 
-However, hypotrichosis simplex of the scalp is a rare, largely hereditary hair-growth disorder, and an anti-androgen mechanism is not clearly relevant. The same applies to congenital hypotrichosis milia, a rare congenital condition. The prediction may reflect shared hypotrichosis-related neighbours in the knowledge graph rather than a plausible biological pathway.
+A plausible but unverified rationale is that blocking androgen receptor signalling in hair follicles could help androgen-driven hair loss. Spironolactone is used off-label in female pattern hair loss.
 
-A high graph score reflects network proximity. It is not evidence of efficacy or safety, and the link should be treated as speculative until reviewed.
+However, hypotrichosis simplex of the scalp is a rare hereditary hair loss disorder caused mainly by genetic variants (for example CDSN, APCDD1, RPL21), not by androgen excess. The anti-androgen mechanism therefore has weak relevance to its underlying pathology. The prediction most likely reflects network proximity in the knowledge graph rather than a specific mechanistic link.
+
+A second predicted indication, congenital hypotrichosis milia (score 99.04%), is similarly supported by no trials or literature. The same limitations apply.
 
 ## Clinical Trial Evidence
 
@@ -68,30 +69,38 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. Q/18.1/70 | Spironolactone 25 kiara (was sandoz spir | Tablet |
-| Reg. No. H1945 (Act 101 of 1965) | Aldazide | Tablet |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Q/18.1/70 | Spironolactone 25 Kiara (was Sandoz Spir...) | Tablet | Not stated in the data compiled |
+| H1945 (Act 101 of 1965) | Aldazide | Tablet | Not stated in the data compiled |
 
-Both products are oral tablets. No approved indication text was available in the registration records.
+Both registrations are valid, single-ingredient entries for oral tablets. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications (from knowledge graph drug-disease edges, not label text):**
+kidney disease, anuria, pancreatitis, systemic lupus erythematosus (including paediatric), potassium deficiency disease, diabetes mellitus, diabetic ketoacidosis, hyperuricaemia, gout, hyperparathyroidism, osteitis fibrosa, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, hepatic coma, hepatic encephalopathy, neonatal jaundice, pyoureter.
+
+**Drug Interactions:** The interaction query identified 100 interacting drugs. The first 20 returned include:
+- **Major:** Loperamide
+- **Moderate:** hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, metformin, bupropion, morphine, bisacodyl, castor oil, dronabinol, exenatide, and the SGLT2 inhibitors canagliflozin, dapagliflozin, empagliflozin and ertugliflozin
+- **Minor:** doxycycline, acetylsalicylic acid, fidaxomicin
+
+Label-based warnings and contraindications from the SAHPRA package insert were not available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is a knowledge-graph score, with no trials, no literature, and no confirmed mechanism. The biological link to a rare hereditary hair disorder is unclear.
+The prediction is supported only by the TxGNN model score (L5), with no clinical trials or literature. The anti-androgen mechanism has weak relevance to a genetically driven hair disorder, and the label-based safety review has not been completed.
 
 **To proceed, the following is needed:**
-- A systematic literature search for spironolactone in hypotrichosis and related hereditary hair disorders
-- Mechanism of action data and a mechanistic review of the link to both predicted conditions
-- The SAHPRA package insert (warnings and contraindications), which is required before any safety screening
-- Confirmation of the approved indications for the two registered products
-- Assessment of route compatibility (scalp or hair disorders may need a topical rather than oral route)
+- Download and review the SAHPRA package insert (warnings, contraindications, approved indications), which is a blocking gap for safety screening
+- Obtain mechanism of action data from DrugBank
+- Systematic literature search for spironolactone in hereditary hypotrichosis (none was found in the data compiled)
+- Assess route compatibility, since a topical or oral route for scalp use has not been evaluated
+- Clinical expert review of whether the proposed indication is biologically plausible before any further investment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

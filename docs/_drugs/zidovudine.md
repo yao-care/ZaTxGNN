@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zidovudine
-parent: Moderate Evidence (L3-L4)
-nav_order: 472
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 476
+evidence_level: L5
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,31 +29,33 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Zidovudine: From HIV Infection to Simian Immunodeficiency Virus Infection
+# Zidovudine: From HIV Infection and AIDS to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Zidovudine is a nucleoside reverse transcriptase inhibitor (NRTI) used in antiretroviral therapy, and its South African registrations are mainly HIV products. The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but this is an animal-model disease with no human patients. The supporting evidence is **0 clinical trials** and **20 publications**, all preclinical (mostly macaque studies), so this prediction is not a human repurposing candidate.
+Zidovudine is a nucleoside reverse transcriptase inhibitor (NRTI) originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, an animal-model disease.
+There are **no registered clinical trials**, and the predicted new indication is supported by **20 publications**, mostly preclinical macaque studies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection (inferred from the antiretroviral products registered; the registration records contain no indication text) |
+| Original Indication | HIV infection; AIDS |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
+| Evidence Level | L4 (preclinical/animal studies only) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Zidovudine is a well-known NRTI. Inside cells it is converted to its triphosphate form, which blocks reverse transcriptase and terminates the growing viral DNA chain.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Zidovudine is known to be an NRTI. It is phosphorylated inside cells and blocks the reverse transcriptase step of retroviral replication, and its efficacy in HIV infection and AIDS is established.
 
-SIV is a lentivirus closely related to HIV, and its reverse transcriptase is similar to that of HIV-1. A drug that blocks HIV replication is therefore expected to block SIV too, which explains the high model score. The macaque literature confirms this: zidovudine reduced viral load, prolonged survival and, in some newborn animals, prevented infection.
+SIV is a lentivirus closely related to HIV. It relies on the same reverse transcriptase-dependent replication cycle, so a link between zidovudine and SIV is mechanistically plausible. Macaque studies show zidovudine can lower viral load, protect newborn animals, and lower virus burden in the central nervous system.
 
-The limits matter. SIV infects non-human primates only, so this indication has no human patient population. The literature validates the mechanism and serves as a preclinical model for HIV drug development. It does not support a human repurposing claim.
+SIV infection in macaques is mainly a research model for HIV. This prediction is therefore best read as supporting preclinical evidence for the existing HIV indication, not as a new human therapeutic use.
 
 ## Clinical Trial Evidence
 
@@ -61,56 +63,65 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The pack contains 20 publications, and the 10 most relevant are listed below. All are animal or in vitro studies. No RCTs or human studies were found.
+The 20 publications are almost all animal or in vitro studies. No human trials of zidovudine for this predicted indication were found. The 10 most relevant are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1489181](https://pubmed.ncbi.nlm.nih.gov/1489181/) | 1992 | Animal study | Antimicrob Agents Chemother | Oral AZT prevented SIV infection in infant rhesus macaques |
-| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Animal study | AIDS | Post-exposure prophylaxis with zidovudine, lamivudine and indinavir against vaginal SIV transmission in macaques |
-| [7848683](https://pubmed.ncbi.nlm.nih.gov/7848683/) | 1994 | Animal study | AIDS Res Hum Retroviruses | Effect of AZT on viral load during acute SIV infection in cynomolgus macaques |
-| [7695293](https://pubmed.ncbi.nlm.nih.gov/7695293/) | 1995 | Animal study | Antimicrob Agents Chemother | Immediate AZT protected SIV-infected newborn macaques against rapid onset of AIDS |
-| [7797947](https://pubmed.ncbi.nlm.nih.gov/7797947/) | 1995 | Animal study | J Infect Dis | AZT prolonged survival and lowered CNS viral load in perinatally infected macaques, but did not prevent infection |
-| [7690823](https://pubmed.ncbi.nlm.nih.gov/7690823/) | 1993 | Animal study | J Infect Dis | Effects of starting zidovudine 1 to 72 hours after SIV inoculation in rhesus monkeys |
-| [2016686](https://pubmed.ncbi.nlm.nih.gov/2016686/) | 1991 | Animal study | J Acquir Immune Defic Syndr | Antiviral effects of 3'-fluorothymidine versus zidovudine in SIV-infected cynomolgus monkeys; neither prevented infection |
-| [9021180](https://pubmed.ncbi.nlm.nih.gov/9021180/) | 1997 | Virology / animal | Antimicrob Agents Chemother | A zidovudine-resistant SIV mutant (Q151M) caused AIDS in newborn macaques |
-| [8452370](https://pubmed.ncbi.nlm.nih.gov/8452370/) | 1993 | In vitro | Antimicrob Agents Chemother | AZT versus neutralising antibodies against SIV infection in macaque macrophages |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Animal study | J Virol | Rapid viral decay in SIV-infected macaques on quadruple antiretroviral therapy |
+| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Animal study (macaque PEP) | AIDS | Evaluated postexposure prophylaxis with zidovudine, lamivudine and indinavir after vaginal exposure |
+| [7695293](https://pubmed.ncbi.nlm.nih.gov/7695293/) | 1995 | Animal study (newborn macaques) | Antimicrob Agents Chemother | Immediate oral zidovudine either prevented infection or reduced virus load in SIV-inoculated newborn macaques, protecting against rapid onset of AIDS |
+| [7690823](https://pubmed.ncbi.nlm.nih.gov/7690823/) | 1993 | Animal study (timing of treatment) | J Infect Dis | Compared starting zidovudine 1, 8, 24 or 72 hours after SIV inoculation in rhesus monkeys |
+| [7797947](https://pubmed.ncbi.nlm.nih.gov/7797947/) | 1995 | Animal study (CNS viral load) | J Infect Dis | Did not prevent infection but increased survival and lowered virus burden in serum and cerebrospinal fluid in perinatally infected macaques |
+| [2016686](https://pubmed.ncbi.nlm.nih.gov/2016686/) | 1991 | Animal study | J Acquir Immune Defic Syndr | Neither zidovudine nor 3'-fluorothymidine prevented acute SIV infection in cynomolgus monkeys; fluorothymidine was about ten times more potent at delaying antigen appearance |
+| [7848683](https://pubmed.ncbi.nlm.nih.gov/7848683/) | 1994 | Animal model | AIDS Res Hum Retroviruses | Effect of zidovudine on viral load during acute SIV infection in cynomolgus macaques |
+| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Animal study | J Virol | Short-term postexposure antiretroviral prophylaxis (including zidovudine combinations) and its effect on lymphocyte proliferation in SIV-infected macaques |
+| [7874391](https://pubmed.ncbi.nlm.nih.gov/7874391/) | 1994 | Animal study | Adv Neuroimmunol | Effects of long-term zidovudine on CNS function and virus burden in perinatally infected rhesus monkeys |
+| [11020686](https://pubmed.ncbi.nlm.nih.gov/11020686/) | 2000 | Review | Ann Emerg Med | Review of nonoccupational HIV postexposure prophylaxis, noting animal studies as indirect support |
+| [9021180](https://pubmed.ncbi.nlm.nih.gov/9021180/) | 1997 | In vitro/virology | Antimicrob Agents Chemother | A zidovudine-resistant SIV mutant (Q151M) caused AIDS in newborn macaques |
 
 ## South Africa Market Information
 
+Nine valid SAHPRA registrations were found, all in tablet or kit form. The approved indication text was not available in the data compiled for this report.
+
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 44/20.2.8/0106 | Adco lamivudine & zidovudine 150mg/300mg | Tablet | Not stated in records |
-| Reg. No. 32/20.2.8/0200 | Retrovir/3tc HIV starter pack (AZT) 100m | Kit | Not stated in records |
-| Reg. No. 43/20.2.8/0363 | Hevaz | Tablet | Not stated in records |
-| Reg. No. A40/20.2.8/0244 | Cipla-duovir | Tablet | Not stated in records |
-| Reg. No. 36/7.5/0372 | Simayla Simvastatin 40 | Tablet | Not stated in records |
+| Reg. No. 44/20.2.8/0106 | Adco lamivudine & zidovudine 150mg/300mg | Tablet | Not stated |
+| Reg. No. 32/20.2.8/0200 | Retrovir/3tc HIV starter pack (AZT) 100m | Kit | Not stated |
+| Reg. No. A40/20.2.8/0244 | Cipla-Duovir | Tablet | Not stated |
+| Reg. No. 41/20.2.8/0218 | Cipla Duovir & efavirenz co-pack | Kit | Not stated |
+| Reg. No. 43/20.2.8/0363 | Hevaz | Tablet | Not stated |
 
-Nine registrations exist in total, and five are shown. Simayla Simvastatin 40 is a statin product, so its link to zidovudine looks like a data-matching error. It should be checked against the SAHPRA register.
+Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named "Simayla Simvastatin 40" (Reg. No. 36/7.5/0372). The simvastatin entry looks like a data-matching error, because simvastatin is not a zidovudine product. It should be checked against the SAHPRA register.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+Safety information is not available from the product label in the data compiled for this report. The items below come from a knowledge graph and interaction database, so they are screening signals and not label text.
+
+- **Disease associations flagged in the knowledge graph (contraindication edges):**
+  - Blood: neutropenia, agranulocytosis, anaemia (including macrocytic anaemia).
+  - Muscle: myopathy, myositis, dermatomyositis, skeletal muscle disease, familial periodic paralysis.
+  - Liver and pancreas: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, pancreatitis.
+  - Other: lactic acidosis, kidney disease, gallbladder disease, hypertriglyceridaemia, obesity disorders, pyoureter.
+- **Drug interactions:** The interaction database lists 100 interacting drugs. Examples:
+  - Moderate: amphotericin B (including lipid and cholesteryl sulfate forms), corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone), statins (simvastatin, rosuvastatin), naltrexone, orlistat.
+  - Minor: cimetidine, clarithromycin.
+  - Level unknown: pantoprazole, omeprazole, morphine, metformin.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-SIV infection occurs only in non-human primates, so the 20 macaque publications support the mechanism but not a human indication. There are no clinical trials, and the evidence stays at L4. The Evidence Pack lists the missing SAHPRA package insert safety data as a blocking gap.
-
-Two other predictions in the pack have human relevance:
-- **Congenital HIV** (L3, Proceed with Guardrails): this is an established use for preventing mother-to-child transmission and neonatal prophylaxis, not a new repurposing.
-- **AIDS-related complex** (L1, Proceed with Guardrails): this is a historical term for symptomatic HIV disease, and zidovudine is long-established therapy for it. Both are better handled as separate on-label reviews.
+Support for SIV infection is limited to animal and in vitro work (Evidence Level L4), with no clinical trials. SIV infection is an animal-model disease, so it adds little as a new human indication. It mainly reinforces the existing HIV use. Zidovudine is already marketed in South Africa for HIV, so no new-use action is needed for this prediction.
 
 **To proceed, the following is needed:**
-- Download and parse the SAHPRA package insert to obtain warnings and contraindications (blocking gap).
-- Mechanism of action data from DrugBank.
-- Confirmation of the original indication, since the registration records contain no indication text.
-- Correction or confirmation of the Simayla Simvastatin 40 registration link.
-- A decision to re-scope the review to a human-relevant indication, such as congenital HIV or AIDS-related complex. If so, guardrails would include monitoring for anaemia and neutropenia, weight- and age-based neonatal dosing, and regimen selection per current guidelines.
+- Product label information (approved indications, warnings, contraindications) from the SAHPRA package inserts
+- Detailed mechanism of action data
+- Verification of the "Simayla Simvastatin 40" entry in the registration list
+- A clear research or veterinary purpose, if this prediction is to be pursued at all
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+Two other predictions in the same analysis, congenital HIV and AIDS-related complex, have much stronger clinical evidence. Both overlap with the existing HIV label, so they are not true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

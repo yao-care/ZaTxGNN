@@ -2,7 +2,7 @@
 layout: default
 title: Chlorobutanol
 parent: Model Prediction Only (L5)
-nav_order: 112
+nav_order: 113
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chlorobutanol: From Sedative, Local Anaesthetic and Preservative Use to Erectile Dysfunction
+# Chlorobutanol: From an Unspecified Original Indication to Erectile Dysfunction
 
 ## One-Sentence Summary
 
-Chlorobutanol is a sedative/hypnotic, local anaesthetic and preservative. It is registered in South Africa in a topical cream, Viocort.
-The TxGNN model predicts it may be effective for **erectile dysfunction**, but the prediction rests on graph-based scoring only.
-No clinical trials or publications studying chlorobutanol in this condition were found. The two retrieved trials are unrelated prostate cancer studies.
+Chlorobutanol is a chloral-derivative with weak sedative and local anaesthetic properties, also used as a preservative. The SAHPRA registration data compiled for this report do not state an approved indication.
+The TxGNN model predicts it may be effective for **erectile dysfunction**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is based on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration record (see Why is This Prediction Reasonable? for known pharmacological uses) |
+| Original Indication | Not stated in the registration data (the approved indication text is empty) |
 | Predicted New Indication | Erectile dysfunction |
-| TxGNN Prediction Score | 99.79% (TxGNN rank 1500) |
+| TxGNN Prediction Score | 99.79% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
@@ -51,52 +50,47 @@ No clinical trials or publications studying chlorobutanol in this condition were
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, chlorobutanol acts as a sedative/hypnotic, local anaesthetic and preservative. It has no known pro-erectile mechanism.
+Currently, detailed mechanism of action data is not available. Chlorobutanol is known as a chloral-derivative with weak central nervous system (CNS) depressant and local anaesthetic properties, but its original mechanism has not been documented in the data compiled for this report.
 
-The evidence review found no credible mechanistic link between chlorobutanol and erectile dysfunction. The high TxGNN score reflects patterns in the knowledge graph, not clinical or preclinical findings. Until independent evidence appears, the prediction should be treated as a hypothesis only.
+No mechanistic link to erectile dysfunction has been established. The only plausible hypothesis is that anxiolytic or sedative effects might help psychogenic erectile dysfunction. This is speculative, and the TxGNN score of 99.79% reflects graph-based proximity only.
 
-The model's other top predictions are migraine disorders, Tourette syndrome, trichotillomania, ADHD and several rare skin or genetic conditions. All are also L5 with no supporting studies. The only mechanistic argument, for migraine, is a speculative overlap with neuronal excitability.
+Other top-ranked predictions are also unsupported by any trial or publication. They include migraine disorder (99.71%), migraine with brainstem aura (99.58%), Tourette syndrome (99.54%) and trichotillomania (99.50%). Several appear to be artefacts of network proximity. For example, the attention deficit-hyperactivity disorder prediction runs opposite to a sedative's expected pharmacology.
 
 ## Clinical Trial Evidence
 
-Both trials retrieved were graded as unrelated to chlorobutanol and to erectile dysfunction.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02286921](https://clinicaltrials.gov/study/NCT02286921) | Phase 2 | Completed | 222 | Bipolar androgen therapy vs. enzalutamide in castration-resistant metastatic prostate cancer. Chlorobutanol is not involved. |
-| [NCT02090114](https://clinicaltrials.gov/study/NCT02090114) | Phase 2 | Completed | 112 | Sequential bipolar androgen therapy followed by enzalutamide or abiraterone in prostate cancer. Chlorobutanol is not involved. |
-
-No SANCTR or PACTR registrations were identified.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for chlorobutanol in erectile dysfunction.
+Currently no related literature available.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| G1781 (ACT 101) | Viocort | Cream (topical) | Not stated in the registration record |
+| G1781 (Act 101) | Viocort | Cream (topical) | Not stated in the registration data |
 
-Only a topical cream is registered, so no registered product covers a route that would clearly suit a systemic indication. Route compatibility for erectile dysfunction has not been assessed.
+Chlorobutanol is registered as a single-ingredient product in this one valid registration. Its Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+No drug-drug interactions were found in the interaction query.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5). There are no relevant trials or publications, and no plausible mechanism links chlorobutanol to erectile dysfunction. The high score alone does not justify further investment.
+The prediction is supported only by the TxGNN model score, with no clinical trials, no publications and no established mechanism. The only registered product is a topical cream, and there is no known pharmacological route to an erectile dysfunction effect. Safety data are also missing, which blocks progression to safety screening.
 
 **To proceed, the following is needed:**
-- The SAHPRA-approved PI (indications, warnings, contraindications), which is currently missing and blocks any safety screening
-- Mechanism of action data, for example from DrugBank
-- Independent preclinical or clinical evidence linking chlorobutanol to erectile dysfunction
-- A route and formulation assessment, since only a topical cream is registered
-- Re-evaluation of whether any other predicted indication has better support
+- The SAHPRA package insert (warnings, contraindications and approved indication), to complete safety screening
+- Mechanism of action data for chlorobutanol, to assess any link to erectile dysfunction
+- A systematic search of PubMed, ClinicalTrials.gov, SANCTR and PACTR for any existing studies
+- Assessment of route compatibility, since only a topical cream is registered in South Africa
+- Review of the other predicted indications for any with better mechanistic plausibility
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

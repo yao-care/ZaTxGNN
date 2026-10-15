@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sertraline
-parent: Moderate Evidence (L3-L4)
-nav_order: 413
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 417
+evidence_level: L5
 indication_count: 8
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,98 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-# Sertraline: From an SSRI Antidepressant to Histrionic Personality Disorder
+# Sertraline: From Anxiety Disorder to Histrionic Personality Disorder
 
 ## One-Sentence Summary
 
-Sertraline is a selective serotonin reuptake inhibitor (SSRI) marketed in South Africa as tablets.
-The TxGNN model ranks **histrionic personality disorder** as its top-scoring prediction, but this is model output only: there are **no clinical trials** and **1 indirect publication**.
-This candidate should be **held**, not advanced.
+Sertraline is an antidepressant of the SSRI class. Its original indications include anxiety disorder, obsessive-compulsive disorder, post-traumatic stress disorder and social phobia.
+The TxGNN model predicts it may be effective for **histrionic personality disorder**, with a very high model score.
+However, **no clinical trials and no publications** were found for this specific prediction, so it rests on the model output alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Anxiety disorder, obsessive-compulsive disorder, post-traumatic stress disorder, social phobia, dysthymic disorder (from the knowledge graph; SAHPRA indication text was not available) |
 | Predicted New Indication | Histrionic personality disorder |
-| TxGNN Prediction Score | 99.93% (shared with three other personality-disorder nodes) |
-| Evidence Level | L4 |
+| TxGNN Prediction Score | 99.93% |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Sertraline is an SSRI and is widely used in depressive and anxiety disorders, so a serotonergic rationale is plausible in principle. The registration records do not include approved-indication text, so the original indication cannot be quoted here.
+Currently, detailed mechanism of action data is not available. Based on known information, sertraline is a selective serotonin reuptake inhibitor (SSRI). Its efficacy in anxiety and obsessive-compulsive disorders is established. Mechanistically, it may modulate emotional dysregulation and anxiety symptoms that occur alongside some personality disorders.
 
-The prediction is weak for three reasons:
+The original indications (anxiety, OCD, PTSD, social phobia) are mood and anxiety conditions. Histrionic personality disorder is a personality disorder, which is a different kind of condition. The prediction may reflect shared symptom features such as affective instability, but the data compiled for this report do not show a direct mechanistic link. Treating this as a drug-for-personality-disorder claim would go beyond the evidence.
 
-- **The score is not specific to this disorder.** The same score (99.93%) appears for paranoid, schizoid and schizotypal personality disorders. It is probably inherited from a shared parent node in the knowledge graph.
-- **The only publication is indirect.** It concerns depressive symptoms after drug treatment, not efficacy against histrionic personality disorder.
-- **Any benefit would likely be indirect.** Sertraline may help comorbid depression or anxiety in people with personality-disorder traits. That is not evidence that it treats the personality disorder itself.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for histrionic personality disorder.
+
+---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [22075735](https://pubmed.ncbi.nlm.nih.gov/22075735/) | 2011 | Cohort | Psychiatria Danubina | Examined links between MMPI-2 "neurotic triad" scores (hypochondria, depression, hysteria) and depression levels after pharmacological treatment in depressive disorders. It does not test sertraline for histrionic personality disorder. |
+Currently no related literature available for histrionic personality disorder.
+
+---
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. A40/1.2/0654 | Aurolift 50Mg | Tablet |
-| Reg. No. A39/1.2/0308 | Sertra | Tablet |
-| Reg. No. 36/1.2/0274 | Tralidep | Tablet |
-| Reg. No. 36/1.2/0273 | Serlife | Tablet |
+All four registrations are valid single-ingredient oral tablets. Approved indication text was not available in the data compiled for this report.
 
-All four registrations are oral tablets.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| A40/1.2/0654 | Aurolift 50Mg | Tablet | — |
+| A39/1.2/0308 | Sertra | Tablet | — |
+| 36/1.2/0274 | Tralidep | Tablet | — |
+| 36/1.2/0273 | Serlife | Tablet | — |
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+SAHPRA package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for these. Report adverse drug reactions to SAHPRA.
+
+- **Contraindication-related conditions (knowledge graph, not label text)**: epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis, and serotonin syndrome.
+- **Drug interactions**: The interaction screen returned 100 entries. Those rated **Major** among the first 20 reviewed are:
+  - bupropion
+  - lorcaserin
+  - diethylpropion
+  - dolasetron
+  - eliglustat
+  - palonosetron
+  - phentermine
+
+  Moderate interactions include aspirin, morphine, clarithromycin, famotidine, loperamide, and several sulfonylureas and insulin (glimepiride, chlorpropamide, insulin aspart).
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score that appears to be inherited from a shared node, and the single publication is indirect. No trial has tested sertraline in histrionic personality disorder. SAHPRA safety data has also not been obtained, and that gap blocks progression to safety screening.
+The prediction for histrionic personality disorder has a high model score but no supporting trials or publications (L5). Sertraline is marketed in South Africa, but there is no evidence of benefit for this specific condition.
 
 **To proceed, the following is needed:**
-- Download and review the SAHPRA package insert (warnings, contraindications, approved indications). This is a blocking gap.
-- Obtain mechanism of action data, for example from DrugBank.
-- Find any direct clinical evidence of sertraline in histrionic personality disorder. None was retrieved.
+- Disorder-specific clinical or observational evidence for sertraline in histrionic personality disorder
+- Mechanism of action data to assess whether a plausible link exists
+- SAHPRA Professional Information, to complete safety screening (warnings, contraindications)
 
-**Note on other predictions in this pack:** the sixth-ranked prediction, **agoraphobia** (score 99.54%), has much stronger support, including a completed Phase 4 sertraline vs paroxetine trial in panic disorder (NCT00677352, n=321), network meta-analyses and RCTs. It is rated L1 with a "Proceed with Guardrails" recommendation. However, it is likely already covered by an on-label panic disorder indication, so it may be a label-mapping artifact rather than true repurposing. Verify it against the SAHPRA-approved label first.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+**Other predicted indications from the same analysis:**
+- **Agoraphobia** has by far the strongest support (L1). Evidence includes randomised trials and network meta-analyses of SSRIs, including sertraline, in panic disorder with or without agoraphobia. This is an extension within the anxiety-disorder class, and the evidence is specific to panic disorder rather than agoraphobia alone. It is the most actionable candidate and could be assessed as Proceed with Guardrails.
+- **Schizotypal personality disorder** has only one very small trial (n=8, completed), so it is hypothesis-generating at most.
+- **Paranoid, schizoid, dependent and narcissistic personality disorders** have only indirect or irrelevant literature and remain on Hold.
+- **Benign paroxysmal torticollis of infancy** has no evidence, and SSRI use in infants raises additional safety concerns.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

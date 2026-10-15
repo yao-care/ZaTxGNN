@@ -2,7 +2,7 @@
 layout: default
 title: Dextropropoxyphene
 parent: Model Prediction Only (L5)
-nav_order: 171
+nav_order: 173
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,32 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Dextropropoxyphene: From Pain Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Dextropropoxyphene: From Analgesia (Indication Not Recorded) to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Dextropropoxyphene is a weak opioid analgesic, generally used for mild to moderate pain (the registration records supplied contain no indication text).
-The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but **no clinical trials and no publications** currently support this prediction, and the proposed mechanism is doubtful.
+Dextropropoxyphene is an opioid-class analgesic registered in South Africa, although the approved indication text is not recorded in the data compiled for this report.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration records; generally used as an opioid analgesic for mild to moderate pain |
+| Original Indication | Not recorded in the SAHPRA registration data |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.46% (model rank 3015) |
-| Evidence Level | L5 (model prediction only) |
+| TxGNN Prediction Score | 99.46% |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input. Dextropropoxyphene is generally known as a weak mu-opioid agonist, but no mechanism data was supplied to confirm this.
+Currently, detailed mechanism of action data is not available in the compiled record. Dextropropoxyphene is generally known as a weak mu-opioid agonist, with additional NMDA-antagonist and sodium channel effects.
 
-NSIAD is caused by gain-of-function variants in *AVPR2* (rarely *GNAS*). These variants make the vasopressin V2 receptor signal constantly, even without vasopressin, so the kidneys retain too much water. A treatment would need to reduce V2 receptor-mediated water reabsorption. No such pathway is documented for dextropropoxyphene.
+NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2, R137C/L), or in some cases GNAS-related signalling. These produce constitutive receptor activity and water retention independent of vasopressin. Opioids can influence vasopressin release centrally, but this would not be expected to affect a receptor-autonomous, constitutively active V2 pathway.
 
-The prediction is therefore hard to justify on mechanistic grounds. Mu-opioid activity is more often linked to increased ADH release or water retention, so the predicted effect may run opposite to a benefit. The high score (99.46%) reflects a knowledge-graph association only and should not be read as evidence of efficacy.
+**No established mechanistic link was identified.** The high TxGNN score (0.995; model rank 3015) is a model-derived prediction, probably from network proximity or shared-gene relationships. No mechanistic or clinical data support it. It should be treated as a hypothesis only.
+
+Dextropropoxyphene has also been withdrawn from several major markets (including the EU and US in 2010) because of cardiotoxicity (QT prolongation, arrhythmia) and overdose risk. The "Marketed" status for South Africa should therefore be verified.
 
 ## Clinical Trial Evidence
 
@@ -68,29 +71,39 @@ Currently no related literature available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. E/2.9/97 | Doxyfene | Capsule | Not provided in the registration record |
-| Reg. No. B1334 (OM) | Lentogesic | Capsule | Not provided in the registration record |
+| E/2.9/97 | Doxyfene | Capsule (oral) | Not recorded |
+| B1334 (OM) | Lentogesic | Capsule (oral) | Not recorded |
 
-Both products are oral capsules. Essential Medicines List (EML) status could not be determined from the data supplied.
+Both registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status is not available in the compiled data.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Knowledge-graph contraindication signals** (from TxGNN/PrimeKG drug-disease edges, not label text). Diseases flagged include:
+- **Cardiovascular:** long QT syndrome (including familial), sudden cardiac arrest, hypertension, hypotensive disorder, orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy
+- **Hepatic, renal and pancreatic:** liver failure, liver disease, kidney disease, impaired renal function, pancreatitis, gallbladder disease
+- **Respiratory and neurological:** COPD, epilepsy, insomnia
+- **Psychiatric:** anxiety disorder, neurotic disorder, dysthymic disorder, substance abuse/dependence
+- **Haematological and other:** thrombocytopenia, anaemia (including macrocytic), haemophilia, peptic ulcer disease, gout, pyoureter
 
-Dextropropoxyphene has been withdrawn in several jurisdictions because of cardiotoxicity (QT prolongation and arrhythmia risk) and toxicity in overdose. The "Marketed" status in this report should be checked against the drug's current regulatory position in South Africa.
+**Drug interactions:** 100 interactions were found in total; the first 20 are summarised below.
+- **Major:** alvimopan, bupropion, morphine, dolasetron, dronabinol, eliglustat
+- **Moderate:** famotidine, hyoscyamine, loperamide, atropine, lorcaserin, bisacodyl, glycopyrronium, chlorpropamide, cimetidine, clarithromycin, picosulfuric acid, polyethylene glycol (3350 with electrolytes), dicyclomine, eluxadoline
+
+For label-based warnings and contraindications, please refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials or publications. The proposed mechanism is doubtful, and the drug's cardiotoxicity history makes further investigation unattractive without a strong reason.
+The prediction has no clinical, literature or mechanistic support (Evidence Level L5), and the proposed biology (constitutively active V2 receptor) does not fit an opioid's pharmacology. The drug's cardiotoxicity profile and its withdrawal in major markets add significant safety concerns.
 
 **To proceed, the following is needed:**
-- The SAHPRA Professional Information (PI) for both registered products, to obtain the approved indications, warnings and contraindications
-- Confirmation of the current SAHPRA regulatory status of dextropropoxyphene
-- Mechanism of action data (for example from DrugBank), and evidence that the drug can reduce V2 receptor-mediated water reabsorption
-- A safety review, particularly of QT prolongation and arrhythmia risk, before any repurposing work
+- Verification of current SAHPRA registration status and the approved indications of Doxyfene and Lentogesic
+- Download and review of the SAHPRA package insert (warnings and contraindications), which is a blocking gap for safety screening
+- Mechanism of action data (for example from DrugBank) and a plausible mechanistic link to NSIAD
+- Preclinical or in vitro evidence of any effect on the V2 receptor or its downstream signalling
+- A cardiac safety assessment (QT/arrhythmia risk) before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ipratropium
-parent: Moderate Evidence (L3-L4)
-nav_order: 269
-evidence_level: L4
+parent: High Evidence (L1-L2)
+nav_order: 271
+evidence_level: L1
 indication_count: 10
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,137 +29,113 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ipratropium: From Established Bronchodilator Use to Obstructive Lung Disease
+# Ipratropium: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
 
 ## One-Sentence Summary
 
-Ipratropium is an inhaled anticholinergic bronchodilator, currently marketed in South Africa under 14 SAHPRA registrations.
-The TxGNN model predicts it for **obstructive lung disease** (score 99.97%). This is essentially its established use in COPD, so it is a confirmation of an existing indication rather than a true repurposing finding.
-The prediction is linked to **50 registered trials** (about a dozen name ipratropium, Atrovent or Combivent) and **20 publications**.
-
----
+Ipratropium is an inhaled anticholinergic bronchodilator, originally used for chronic obstructive pulmonary disease (COPD), rhinitis, bronchitis and emphysema.
+The TxGNN model predicts it may be effective for **obstructive lung disease**, with **25 clinical trials** and **20 publications** compiled for this direction.
+This is essentially an on-label indication, so the prediction works as a positive control for the model rather than a true new use.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the supplied SAHPRA data (the literature describes use as a bronchodilator in COPD and asthma) |
+| Original Indication | Chronic obstructive pulmonary disease, allergic and vasomotor rhinitis, bronchitis, common cold, pulmonary emphysema (from the knowledge graph; SAHPRA indication text is not available in the data compiled) |
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 (see note below) |
+| Evidence Level | L1 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 14 |
 | Recommended Decision | Proceed with Guardrails |
 
-**Evidence level note:** L1 rests on two completed Phase 3 randomised trials that include ipratropium in COPD: NCT02177253 and NCT00274040. The second is filed under a different disease label ("respiratory malformation") in the source data but studies COPD.
-
----
-
 ## Why is This Prediction Reasonable?
 
-The DrugBank mechanism-of-action field was not available for this report. The published literature describes ipratropium as a non-selective muscarinic receptor antagonist (a synthetic quaternary derivative of atropine). It blocks vagally mediated bronchoconstriction on airway smooth muscle (PMIDs 15987237, 2977109). Cholinergic tone is a major driver of airflow obstruction in COPD, so this mechanism directly fits obstructive lung disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature retrieved, ipratropium is a non-selective muscarinic antagonist and a quaternary derivative of atropine. It blocks vagally mediated (cholinergic) bronchoconstriction in airway smooth muscle, which is the established basis for bronchodilation in COPD and asthma.
 
-The model is therefore recovering a known use, not finding a new one. Ipratropium is a well-established COPD bronchodilator, used alone and in combination with salbutamol or fenoterol (PMIDs 20163324, 15257628). It has also served as the active comparator in later trials of tiotropium and other newer agents.
-
-The other nine predictions on the candidate list are weaker. The most mechanistically plausible is nasal cavity disease, where cholinergic blockade reduces secretions (rhinorrhoea). See the Conclusion for a summary.
-
----
+COPD, bronchitis, emphysema and bronchial disease are already original indications, and they all fall under obstructive lung disease. The prediction is therefore mechanistically consistent. It is best read as a confirmation that the model recovers known uses, not as a discovery of a new one.
 
 ## Clinical Trial Evidence
 
-The trials below were selected because they directly involve ipratropium or Combivent/Atrovent in COPD. Many other trials linked to this prediction test different drugs (for example indacaterol, losmapimod and umeclidinium/vilanterol) or are device or physiotherapy studies, so they are not listed. No SANCTR or PACTR identifiers were present in the evidence pack.
+The table shows the most relevant trials (up to 10), prioritising completed Phase 3 studies and direct ipratropium comparisons. No SANCTR or PACTR identifiers appear in the data compiled.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02177253](https://clinicaltrials.gov/study/NCT02177253) | Phase 3 | Completed | 1118 | 12-week double-blind study comparing ipratropium/salbutamol via Respimat with Combivent aerosol, ipratropium Respimat and placebo in COPD |
-| [NCT00274040](https://clinicaltrials.gov/study/NCT00274040) | Phase 3 | Completed | 141 | Double-blind, double-dummy comparison of tiotropium 18 mcg once daily with ipratropium MDI (Atrovent) 4 times daily in COPD |
-| [NCT02194205](https://clinicaltrials.gov/study/NCT02194205) | Phase 3 | Terminated | 360 | One-year comparison of Combivent HFA with Combivent CFC and placebo in COPD |
-| [NCT00388882](https://clinicaltrials.gov/study/NCT00388882) | Phase 4 | Completed | 327 | 12-week comparison of tiotropium with Combivent CFC MDI in COPD patients already using Combivent |
-| [NCT01243788](https://clinicaltrials.gov/study/NCT01243788) | Phase 4 | Unknown | 450 | Salmeterol/fluticasone twice daily compared with ipratropium/albuterol 4 times daily in Chinese patients with moderate-to-severe COPD |
-| [NCT06040424](https://clinicaltrials.gov/study/NCT06040424) | Phase 3 | Unknown | 74 | Non-inferiority study of ipratropium/levosalbutamol fixed-dose combination versus the free combination with salbutamol in stable COPD |
-| [NCT02238197](https://clinicaltrials.gov/study/NCT02238197) | N/A | Completed | 477 | Post-marketing surveillance of Atrovent 500 µg/2 ml inhalation solution in COPD (tolerability and efficacy in daily practice) |
-| [NCT02238171](https://clinicaltrials.gov/study/NCT02238171) | N/A | Completed | 346 | Post-marketing surveillance of Atrovent Inhalets in COPD (tolerability and efficacy in daily practice) |
-| [NCT01350128](https://clinicaltrials.gov/study/NCT01350128) | Phase 2 | Completed | 103 | Dose-finding study of PT001 with open-label Atrovent HFA as active control in moderate-to-severe COPD |
-| [NCT04315558](https://clinicaltrials.gov/study/NCT04315558) | Phase 2 | Completed | 21 | Nebulised revefenacin versus nebulised ipratropium in COPD patients with acute respiratory failure on invasive ventilation |
+| [NCT02177253](https://clinicaltrials.gov/study/NCT02177253) | Phase 3 | Completed | 1118 | 12-week study of ipratropium/salbutamol via Respimat vs Combivent aerosol, ipratropium Respimat and placebo in COPD |
+| [NCT02172469](https://clinicaltrials.gov/study/NCT02172469) | Phase 3 | Completed | 215 | Tiotropium capsules vs Atrovent MDI (ipratropium) in COPD, efficacy and safety |
+| [NCT00239434](https://clinicaltrials.gov/study/NCT00239434) | Phase 3 | Completed | 200 | Once-daily tiotropium vs ipratropium MDI four times daily in COPD |
+| [NCT02172404](https://clinicaltrials.gov/study/NCT02172404) | Phase 3 | Completed | 160 | HandiHaler vs MDI: administration technique and ease of use in COPD (not an efficacy trial) |
+| [NCT01136421](https://clinicaltrials.gov/study/NCT01136421) | Phase 3 | Completed | 124 | Magnesium sulfate vs ipratropium, both with SABA, in acute COPD exacerbation |
+| [NCT02686086](https://clinicaltrials.gov/study/NCT02686086) | NA | Completed | 60 | Lung volume and symptom scores after bronchodilator by vibrating mesh vs jet nebuliser in COPD |
+| [NCT01415518](https://clinicaltrials.gov/study/NCT01415518) | Phase 4 | Completed | 581 | Symbicort added to Atrovent plus theophylline in severe COPD |
+| [NCT01691482](https://clinicaltrials.gov/study/NCT01691482) | Phase 4 | Completed | 56 | 4-week crossover of albuterol and ipratropium, alone and combined, in COPD |
+| [NCT00371527](https://clinicaltrials.gov/study/NCT00371527) | NA | Completed | 200 | Ipratropium vs placebo in acute bronchitis without underlying lung disease |
+| [NCT04446637](https://clinicaltrials.gov/study/NCT04446637) | Phase 3 | Withdrawn | 0 | Ipratropium/levosalbutamol fixed-dose combination vs free combination in COPD; no data |
 
-Two caveats apply to this table:
-- Most trials here use ipratropium as a comparator or as part of a combination, not as the single test drug.
-- The listed summaries describe study designs, not results. Efficacy conclusions should come from the full publications.
-
----
+Several other studies were also compiled, including terminated or withdrawn trials with little or no enrolment, and asthma trials in children and adults.
 
 ## Literature Evidence
 
-No randomised trial reports were classified in the pack. The list is led by systematic reviews, then reviews, then clinical studies.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Updated review comparing tiotropium with ipratropium in stable COPD |
-| [16625543](https://pubmed.ncbi.nlm.nih.gov/16625543/) | 2006 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Ipratropium versus short-acting beta-2 agonists in stable COPD |
-| [16856113](https://pubmed.ncbi.nlm.nih.gov/16856113/) | 2006 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Ipratropium versus long-acting beta-2 agonists in stable COPD |
-| [20163324](https://pubmed.ncbi.nlm.nih.gov/20163324/) | 2010 | Systematic Review | Expert Opin Drug Metab Toxicol | Mechanism, efficacy and safety of albuterol, ipratropium and their combination in COPD |
-| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Review | Ann Pharmacother | Efficacy and safety data on using ipratropium together with tiotropium in COPD |
-| [15987237](https://pubmed.ncbi.nlm.nih.gov/15987237/) | 2005 | Review | Treat Respir Med | Ipratropium HFA: non-selective muscarinic antagonist redesigned with a non-CFC propellant |
-| [1835291](https://pubmed.ncbi.nlm.nih.gov/1835291/) | 1991 | Double-blind crossover study | Am J Med | Single-dose ipratropium (36 µg) versus titrated theophylline versus placebo in 21 stable COPD patients |
-| [1835292](https://pubmed.ncbi.nlm.nih.gov/1835292/) | 1991 | Clinical study | Am J Med | Ipratropium (0.036 mg), albuterol (0.18 mg) and placebo compared on FEV1, FVC, heart rate and blood pressure in 72 patients with severe COPD |
-| [28461224](https://pubmed.ncbi.nlm.nih.gov/28461224/) | 2017 | Clinical study | EBioMedicine | Sex-related differences in FEV1 response to ipratropium in mild-to-moderate COPD |
-| [38457591](https://pubmed.ncbi.nlm.nih.gov/38457591/) | 2024 | Retrospective analysis | Medicine | Probiotics added to budesonide plus ipratropium in 118 COPD patients, assessing lung function and gut microbiota |
-
----
+| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Tiotropium vs ipratropium in stable COPD |
+| [35616126](https://pubmed.ncbi.nlm.nih.gov/35616126/) | 2022 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Magnesium sulfate as adjunct in COPD exacerbations |
+| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Review | Ann Pharmacother | Efficacy and safety of ipratropium combined with tiotropium in COPD |
+| [20163324](https://pubmed.ncbi.nlm.nih.gov/20163324/) | 2010 | Review | Expert Opin Drug Metab Toxicol | Albuterol, ipratropium and their combination in COPD: mechanism, efficacy, safety |
+| [10565879](https://pubmed.ncbi.nlm.nih.gov/10565879/) | 1999 | Review | Respir Care Clin N Am | Ipratropium is an established, safe bronchodilator alone or with albuterol |
+| [2977109](https://pubmed.ncbi.nlm.nih.gov/2977109/) | 1988 | Review | Clin Pharm | Pharmacology, efficacy, adverse effects and dosing of ipratropium in obstructive lung disease |
+| [15987237](https://pubmed.ncbi.nlm.nih.gov/15987237/) | 2005 | Review | Treat Respir Med | Ipratropium HFA reformulation for maintenance treatment of bronchospasm |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | Finnish guideline on diagnosis and pharmacotherapy of stable COPD |
+| [38457591](https://pubmed.ncbi.nlm.nih.gov/38457591/) | 2024 | Retrospective study | Medicine | Probiotics added to budesonide and ipratropium in 118 COPD patients |
+| [9926698](https://pubmed.ncbi.nlm.nih.gov/9926698/) | 1998 | Review | J La State Med Soc | Albuterol plus ipratropium gives a synergistic benefit in COPD |
 
 ## South Africa Market Information
 
-Five of the 14 registrations are shown below. The approved indication text was not captured in the supplied records, so please check the SAHPRA-approved Professional Information (PI) for each product.
+Fourteen valid single-ingredient registrations are listed, with none cancelled. The approved indication text and manufacturer are not available in the data compiled, and Essential Medicines List status could not be confirmed from it. The five main registrations are shown below.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 33/10.2.1/0214 | Ipvent-40 | Inhaler |
-| Reg. No. 35/10.2.1/0004 | Adco-nebrafen 4ml | Vial |
-| Reg. No. 37/10.2.1/0462 | Ipvent Respules | Nebuliser |
-| Reg. No. 29/10.2.1/0015 | Combivent | Inhaler |
-| Reg. No. 51/10.2.1/0153 | Iprabut | Nebuliser |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Q/10.2.1/117 | Atrovent 0.025 % | Nebuliser | Not available |
+| 29/10.2.1/0015 | Combivent | Inhaler | Not available |
+| 33/10.2.1/0214 | Ipvent-40 | Inhaler | Not available |
+| 37/10.2.1/0462 | Ipvent Respules | Nebuliser | Not available |
+| 35/10.2.1/0302 | Duovent HFA | Inhaler | Not available |
 
-- Combivent is an ipratropium/salbutamol combination, according to the trial records above.
-- The route listing also shows oral tablet and capsule forms. These are unusual for ipratropium and are not among the five registrations above, so please verify them against the registration records.
-- Essential Medicines List (EML) status was not part of the supplied data. Check the current South African EML and Standard Treatment Guidelines.
-
----
+The remaining nine registrations are mostly inhaled or nebulised products (vials, nebuliser solutions). Two oral entries, Ciploxx 250 (tablet) and Gericomplex (capsule), appear in the list and should be checked against SAHPRA records, since they do not look like ipratropium products.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+Warnings and contraindications from the package insert are not available in the data compiled.
 
-The literature attached to this evidence pack (not the PI) reports two individual safety signals:
-- **Anaphylaxis:** a case report of severe anaphylaxis after ipratropium inhalation (PMID 8449120).
-- **Unilateral mydriasis:** a case in an infant with bronchiolitis after inhaled ipratropium, which can mimic serious neurological conditions (PMID 40069469).
+- **Conditions flagged in the knowledge graph (not label text):** hypertension, long QT syndrome, epilepsy, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, metabolic acidosis, benign prostatic hyperplasia, bladder neck obstruction, ocular hypertension and angle-closure glaucoma, hyperthyroidism and thyrotoxicosis, sudden cardiac arrest, heart conduction disease, myocardial ischaemia and coronary artery disease. These must be checked against the SAHPRA Professional Information (PI). Several are typical of anticholinergic or combined beta-agonist products such as Combivent.
+- **Drug interactions:** 100 interactions were recorded, all at Moderate level in the 20 shown. They are mostly additive anticholinergic effects with agents such as atropine, hyoscyamine, glycopyrronium, scopolamine, trospium, dicyclomine, aclidinium and propantheline. Others include promethazine, chlorpheniramine, eluxadoline, prucalopride, acetylcholine, physostigmine (ophthalmic) and inhaled insulin.
+- **Hypersensitivity:** a published case report describes severe anaphylaxis after ipratropium inhalation (PMID 8449120). A paediatric case report describes unilateral mydriasis after inhalation (PMID 40069469).
 
----
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-For obstructive lung disease (COPD), the trials and reviews are substantial and the drug is widely marketed in South Africa. However, this is an established use, not a new repurposing opportunity. The SAHPRA safety information has not yet been reviewed.
+Obstructive lung disease is already covered by established ipratropium uses, supported by a large completed Phase 3 trial (1118 participants) and several Phase 3 comparisons against tiotropium. The product is widely marketed in South Africa, so this is confirmation of an existing use, not a new repurposing opportunity. Safety data from the label are missing, which is why guardrails apply.
 
 **To proceed, the following is needed:**
-- Download the SAHPRA PI for each registered product and extract the approved indications, warnings and contraindications. This is required before safety screening.
-- Retrieve the DrugBank mechanism-of-action entry to complete the mechanistic analysis.
-- Confirm the indications and dosage forms of the SAHPRA registrations, including the unexpected oral forms, and check the EML status.
-- Check the full texts of the comparator-style trials to confirm ipratropium's role in each.
+- SAHPRA package insert warnings, contraindications and approved indications (the blocking data gap)
+- Mechanism of action data from DrugBank
+- Confirmation of Essential Medicines List status and of the two unexpected oral registrations
+- A clinical review of the knowledge-graph contraindication list (cardiovascular, glaucoma, urinary obstruction) before any extension of use
 
-**Other predictions in the candidate list:**
+**Other predicted indications (lower priority):**
 
-| Predicted Indication | Evidence Level | Decision | Comment |
-|------|------|------|------|
-| Nasal cavity disease | L4 | Research Question | Plausible antisecretory mechanism, but no trials. A specific indication such as rhinitis should be defined first. |
-| Pharyngitis | L4 | Hold | Weak, indirect link. The attached trials do not test ipratropium. |
-| Tracheal disease | L4 | Hold | Preclinical support only. The one trial is a withdrawn device study. |
-| Respiratory malformation | L4 | Hold | The disease label appears mis-mapped, and the trials are COPD or other airway studies. |
-| Anaphylaxis | L4 | Hold | Only animal data support it, and a case report of ipratropium-induced anaphylaxis argues against it. |
-| Acute laryngopharyngitis, papillary conjunctivitis, Rienhoff syndrome, food-dependent exercise-induced anaphylaxis | L5 | Hold | No trials or literature, and no supported rationale. |
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+| Predicted Indication | Evidence Level | Decision |
+|------|------|------|
+| Nasal cavity disease | L3 | Proceed with Guardrails (largely on-label for rhinitis; a 2023 meta-analysis of intranasal anticholinergics, PMID 35838014, is the strongest source) |
+| Pharyngitis | L4 | Hold (only indirect evidence) |
+| Tracheal disease | L4 | Research Question (animal and in vitro data only) |
+| Respiratory malformation | L3 | Research Question (loose match; one small Phase 3 study in familial dysautonomia) |
+| Anaphylaxis | L4 | Hold (animal data only, plus a case report of ipratropium-induced anaphylaxis) |
+| Acute laryngopharyngitis, papillary conjunctivitis, Rienhoff syndrome, food-dependent exercise-induced anaphylaxis | L5 | Hold (model prediction only, no supporting studies) |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

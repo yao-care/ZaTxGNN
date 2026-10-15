@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenyltoloxamine
-parent: Model Prediction Only (L5)
-nav_order: 370
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 374
+evidence_level: L4
 indication_count: 10
 ---
 
 # Phenyltoloxamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,118 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenyltoloxamine: From Antihistamine Combination Products to Allergic Urticaria
+# Phenyltoloxamine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Phenyltoloxamine is a first-generation H1 antihistamine, sold in South Africa as an ingredient in combination oral tablets such as Sinutab and Suncodin. The TxGNN model predicts it may be useful for **allergic urticaria**. There are currently **0 clinical trials** and **0 publications** for this drug-disease pair, so the prediction rests on class-level reasoning alone.
+Phenyltoloxamine is a first-generation H1 antihistamine, originally used for allergic and vasomotor rhinitis, the common cold, allergic conjunctivitis, urticaria and angioedema.
+The TxGNN model predicts it may be effective for **allergic urticaria**, but this is largely an extension of an existing indication (a subtype of urticaria).
+There are currently **0 clinical trials** and **0 publications** supporting this prediction in the data compiled for this report.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the registration data supplied |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, common cold, atopic/papillary/vernal conjunctivitis, familial dermatographia, urticaria, angioedema (knowledge-graph indications; SAHPRA indication text was not available) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 96.24% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 6 |
+| Number of SAHPRA Registrations | 5 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this drug. Phenyltoloxamine belongs to the first-generation H1 antihistamines, and H1 receptor blockade is the standard way to control the itch and wheals of urticaria. The mechanistic fit is therefore high.
+Detailed mechanism of action data is not available. Based on known pharmacology, phenyltoloxamine is a first-generation H1 antihistamine. Allergic urticaria is a mast cell- and histamine-mediated condition, so H1 receptor blockade is mechanistically a strong fit.
 
-This also means the result is more likely a rediscovery of an antihistamine class effect than a true repurposing finding. No phenyltoloxamine-specific data were supplied for urticaria. First-generation agents are sedating and anticholinergic, which is a disadvantage against non-sedating alternatives.
+Urticaria and angioedema are already among the drug's original indications in the knowledge graph. Allergic urticaria is therefore best seen as a subtype of an existing use rather than true repurposing. The high TxGNN score is not backed by direct clinical evidence in the data compiled for this report.
 
-The other top-ranked predictions vary in plausibility:
-- **Cold urticaria** (score 93.2%) has a good mechanistic fit, but no specific evidence was supplied.
-- **Nasal cavity disease**, **pharyngitis** and **acute laryngopharyngitis** could see symptomatic relief only.
-- **Anorectal stricture**, **anal polyp** and **proctitis** have no plausible antihistamine mechanism and are probably knowledge-graph artefacts.
+### Other Predictions Considered
+
+The remaining top-ranked predictions are weaker. All are rated "Hold".
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 2 | Rosacea conjunctivitis | 95.19% | L5 | Weak link. Symptomatic itch relief is plausible, but the disease is driven mainly by meibomian gland dysfunction and inflammation. |
+| 3 | Cold urticaria | 93.25% | L4 | Mechanistically consistent. Antihistamines are standard therapy, usually second-generation agents. Evidence is class-level only. |
+| 4 | Anorectal stricture | 91.83% | L5 | No clear mechanism. Likely a false-positive prediction. |
+| 5 | Acute laryngopharyngitis | 91.76% | L5 | Possible symptom overlap with the common cold. Limited proven benefit. |
+| 6 | Pharyngitis | 90.91% | L5 | Symptom relief at most. Does not address the infectious cause. |
+| 7 | Anal polyp | 90.75% | L5 | No plausible mechanism. Likely a graph-proximity artefact. |
+| 8 | Proctitis | 89.66% | L5 | Speculative. No evidence for H1 antihistamines as therapy. |
+| 9 | Nasal cavity disease | 89.13% | L4 | Broad category overlapping with the existing rhinitis indications. Not a distinct opportunity. |
+| 10 | Recalcitrant atopic dermatitis | 88.39% | L5 | Itch is largely non-histaminergic. Unlikely to respond. |
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for allergic urticaria. No SANCTR or PACTR entries were supplied.
+Currently no related clinical trials registered.
 
-For context, one trial is linked to a different prediction, pharyngitis (rank 6). It is [NCT00378144](https://clinicaltrials.gov/study/NCT00378144), a completed Phase 4 community pharmacy study (n=469) of a Sinutab product for nasal congestion and headache in the common cold. The supplied data do not show that phenyltoloxamine is in the studied product or that its effect can be separated from other ingredients, so it does not support the allergic urticaria prediction.
+---
 
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## South Africa Market Information
 
-Six registrations are reported, but only five entries were supplied, and Reg. No. F/5.8/279 appears twice. All are oral tablets. No approved indication text was supplied, and no Essential Medicines List (EML) status was provided.
+All 5 registrations are valid single-ingredient registrations. Approved indication text was not available for any of them. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| F/5.8/279 | Sinutab With Codeine | Tablet | Not listed |
-| B697 (ACT 101 1965) | Suncodin Tablets | Tablet | Not listed |
-| F/5.8/275 | Sinutab | Tablet | Not listed |
-| Y/5.8/264 | Adco-sinal co | Tablet | Not listed |
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| F/5.8/279 | Sinutab With Codeine | Tablet |
+| B697 (ACT 101 1965) | Suncodin Tablets | Tablet |
+| F/5.8/275 | Sinutab | Tablet |
+| Y/5.8/264 | Adco-sinal co | Tablet |
+| C0879 (ACT 101) | Dequa-Flu | Capsule |
+
+All available forms are oral (tablet and capsule).
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications (from knowledge-graph drug-disease edges, not label text):**
+These are database associations and must be verified against the SAHPRA-approved Professional Information (PI).
+- Cardiovascular: hypertension, coronary artery disease, myocardial infarction, coronary thrombosis
+- Respiratory: chronic obstructive pulmonary disease (including severe early-onset COPD)
+- Hepatic and renal: liver failure, liver disease, kidney disease, impaired renal function
+- Gastrointestinal and biliary: peptic ulcer disease, gastritis, pancreatitis, gallbladder disease
+- Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, gout
+- Haematological: thrombocytopenia, blood coagulation disease, hemophilia, hemoglobinopathy, anaemia (including macrocytic)
+- Neurological and psychiatric: epilepsy, insomnia, substance abuse/dependence
+- Urological: benign prostatic hyperplasia, pyoureter
+
+**Drug Interactions:** 72 interactions were recorded. The 20 listed in the data compiled for this report include:
+- **Major:** potassium chloride and potassium citrate.
+- **Moderate (additive anticholinergic or CNS effects):** atropine, scopolamine, hyoscyamine, dicyclomine, clidinium, glycopyrronium, propantheline, methscopolamine, mepenzolate, loperamide, eluxadoline and metoclopramide.
+- **Moderate (opioids and cannabinoids):** morphine (including liposomal), opium, dronabinol and nabilone.
+
+Several marketed products are combinations containing other active ingredients, such as codeine in Sinutab With Codeine. Combination-specific interactions should be checked against each product's PI.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible but is supported only by the model score and class-level reasoning. There are no trials or publications, and the safety data needed for screening are missing. First-generation sedating agents are also unlikely to offer an advantage over established non-sedating antihistamines for urticaria.
+The top prediction (allergic urticaria) is mechanistically sound but largely overlaps with an existing indication. No trials or literature support it. The lower-ranked predictions have weak or no mechanistic support.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data, for example from DrugBank
-- Confirmation of which registered products actually contain phenyltoloxamine, and their approved indications
-- A targeted literature search for phenyltoloxamine in urticaria
-- A comparison against non-sedating second-generation antihistamines to define any added value
-
-*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any clinical use.*
+- SAHPRA Professional Information (indications, warnings, contraindications) for the registered products
+- Mechanism of action data
+- Drug-specific clinical evidence for allergic urticaria, ideally compared with second-generation antihistamines
+- A safety review addressing the anticholinergic and sedative profile and the interaction burden listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

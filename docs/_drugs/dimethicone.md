@@ -2,7 +2,7 @@
 layout: default
 title: Dimethicone
 parent: Model Prediction Only (L5)
-nav_order: 181
+nav_order: 183
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dimethicone: From Unspecified Original Indication to Insomnia
+# Dimethicone: From an Unspecified Original Indication to Insomnia
 
 ## One-Sentence Summary
 
-Dimethicone is an inert, topically applied silicone polymer. The Evidence Pack does not record an approved indication for it in South Africa.
-The TxGNN model predicts it may be effective for **insomnia**, but this rests on a model score alone. There is **1 clinical trial** on record, graded not relevant to sleep, and **0 publications**.
+Dimethicone is a silicone polymer registered in South Africa as a single-ingredient product. The registration data compiled for this report do not state an approved indication. The TxGNN model predicts it may be effective for **insomnia**, but **no clinical trials and no publications** currently support this direction. The prediction is a computational output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record |
+| Original Indication | Not stated in the registration data |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 94.35% |
 | Evidence Level | L5 |
@@ -50,19 +49,29 @@ The TxGNN model predicts it may be effective for **insomnia**, but this rests on
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, dimethicone is a silicone polymer that is applied topically and is chemically inert. It has negligible systemic absorption and no known central nervous system or sleep-related activity.
+Currently, detailed mechanism of action data is not available. Dimethicone is generally understood to be a non-absorbed, chemically inert silicone polymer. It is used as an antifoaming agent (simethicone-type) and as a topical emollient or barrier. It has no known central nervous system activity and no recognised sleep-related pharmacology.
 
-No plausible mechanistic link to insomnia was identified. The high TxGNN score of 0.94 is most likely a knowledge-graph artefact rather than a real pharmacological signal.
+Based on this, the prediction does **not** appear to be mechanistically reasonable. The high TxGNN score reflects a knowledge-graph association with no supporting biological rationale. A similarity analysis between the original and predicted indications has not been performed, and route compatibility has not been assessed.
 
-The same pattern appears in the other predictions for this drug. Nine cataract subtypes and severe nonproliferative diabetic retinopathy score 92–93%, many with identical scores. This suggests one correlated graph signal rather than independent findings.
+**Other predicted indications** (all L5, all Hold, none with trials or literature):
+
+| Predicted Indication | TxGNN Score | Comment |
+|------|------|------|
+| Mature cataract | 92.71% | No pharmacological link to reversing lens opacity. Cataract is treated surgically. |
+| Tetanic cataract | 92.71% | Secondary to hypocalcaemia or hypoparathyroidism. Dimethicone does not act on calcium metabolism. |
+| Craniostenosis cataract | 92.71% | Rare syndromic condition. No relevant target. Likely propagated from other cataract nodes. |
+| Immature cataract | 92.71% | No documented antioxidant or anti-aggregation activity. |
+| Type 2 diabetes-associated cataract | 92.71% | Dimethicone does not act on polyol, oxidative or glycation pathways. |
+| Cortical cataract | 92.68% | Does not address ionic or osmotic disturbance of lens fibres. |
+| Nuclear senile cataract | 92.68% | No known antioxidant or anti-aggregation activity. |
+| Senile cataract | 92.40% | No approved drug therapy exists. Dimethicone's only ophthalmic relevance is as a physical surgical material. |
+| Severe non-proliferative diabetic retinopathy | 92.16% | Not targeted at VEGF, microvascular damage or inflammation. Related silicone oil is a surgical tamponade, not a treatment for severe NPDR. |
+
+The cataract predictions probably reflect graph proximity to eye-related terms rather than a therapeutic mechanism.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04872946](https://clinicaltrials.gov/study/NCT04872946) | Not applicable | Completed | 74 | Oral supplement plus topical product for skin health (redness, sensitivity, reactive skin). It has no sleep outcomes, so it was graded not relevant to insomnia. |
-
-No SANCTR, PACTR or ICTRP trials were found.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
@@ -72,24 +81,29 @@ Currently no related literature available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| E1691 (OM) | Propan gel s | Suspension | Not stated in the record |
+| E1691 (OM) | Propan gel s | Suspension | Not stated in the registration data |
+
+No Essential Medicines List (EML) status was available in the data compiled for this report.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+No drug interactions were found in the data compiled for this report, and no drug-disease contraindications were identified in the knowledge graph.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical or literature evidence (L5). There is no plausible mechanism for a topical, non-absorbed silicone in insomnia, and the only trial on record is unrelated to sleep. The score most likely reflects a knowledge-graph artefact.
+The prediction rests only on a knowledge-graph score, with no clinical trials, no publications and no plausible mechanism. Dimethicone is an inert, non-absorbed silicone with no known CNS activity. The registration data compiled for this report also lack an approved indication and safety information, so the evaluation cannot progress beyond the initial screening stage.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings and contraindications), which currently blocks safety screening
-- Mechanism of action data, for example from DrugBank
-- The approved indication and route of use for the registered product
-- Any credible mechanistic or clinical evidence linking dimethicone to sleep outcomes. Without it, this candidate should not advance.
+- The SAHPRA package insert (warnings, contraindications, approved indication), which is currently a blocking gap
+- Mechanism of action data from DrugBank
+- A credible biological rationale for sleep-related or ocular effects, supported by preclinical or clinical studies
+- Assessment of route compatibility and of similarity to the original indication
+- Consideration of whether the other predictions (cataract, diabetic retinopathy) are worth pursuing, given that dimethicone's ophthalmic role is limited to a surgical adjunct
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

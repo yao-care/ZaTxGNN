@@ -2,7 +2,7 @@
 layout: default
 title: Ferrous Fumarate
 parent: Model Prediction Only (L5)
-nav_order: 226
+nav_order: 228
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,83 +29,85 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ferrous Fumarate: From Iron Deficiency to Non-Syndromic Esophageal Malformation
+# Ferrous Fumarate: From Iron Deficiency Anaemia to Non-Syndromic Oesophageal Malformation
 
 ## One-Sentence Summary
 
-Ferrous fumarate is an oral iron supplement, generally used to treat iron deficiency and iron-deficiency anaemia.
-The TxGNN model predicts it may be relevant to **non-syndromic esophageal malformation**, but there are **0 clinical trials** and **0 publications** supporting this, and no plausible biological link has been identified.
-This is an unverified computational prediction only.
-
----
+Ferrous fumarate is an oral iron supplement, originally used to treat iron deficiency anaemia and related anaemias.
+The TxGNN model predicts it may be effective for **non-syndromic oesophageal malformation**,
+but currently there are **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Iron deficiency / iron-deficiency anaemia (general use; the SAHPRA registration records provided do not state an approved indication) |
-| Predicted New Indication | Non-syndromic esophageal malformation |
+| Original Indication | Iron deficiency anaemia, folic acid deficiency anaemia, anaemia of prematurity, hypochromic anaemia, microcytic anaemia, deficiency anaemia (knowledge-graph indications; the SAHPRA registrations list no approved indication text) |
+| Predicted New Indication | Non-syndromic oesophageal malformation |
 | TxGNN Prediction Score | 99.49% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ferrous fumarate is an oral iron salt. Its efficacy in replacing iron in iron deficiency is well established, but that mechanism does not obviously apply to the predicted new indication.
+Currently, detailed mechanism of action data is not available. Based on known information, ferrous fumarate is an oral iron salt used to replenish iron stores and correct iron deficiency anaemia. It is not known to act on the pathways involved in oesophageal development.
 
-Non-syndromic esophageal malformation (for example oesophageal atresia or tracheo-oesophageal fistula) is a congenital structural defect that arises during embryonic development and is managed surgically. Iron replacement is not expected to correct or prevent such a defect, so **no plausible mechanistic link was identified**.
+The predicted condition, non-syndromic oesophageal malformation (for example oesophageal atresia or tracheo-oesophageal fistula), is a congenital structural defect arising during embryonic development. There is no established biological rationale for oral iron supplementation correcting or treating such defects. The link between the original and predicted indications is therefore weak.
 
-The high score (99.49%) cannot be traced to a biological pathway. It is most likely a knowledge-graph artefact, for example from network proximity or shared neighbouring nodes, and should not be read as evidence of benefit. Iron supplements can also irritate or injure the oesophagus, which is a safety concern rather than a benefit.
-
----
+The high TxGNN score (99.49%) is a model-derived prediction only. The association is likely a knowledge-graph artefact, for example through shared gene or pathway neighbours, and has not been validated. The score should not be read as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. H0689 (Act 101/1965) | Autrin | Capsule | Not stated in the registration record provided |
-| Reg. No. H2062 (Act 101) | Filibon | Capsule | Not stated in the registration record provided |
+| H0689 (ACT 101/1965) | Autrin | Capsule | Not stated in the data compiled |
+| H2062 (ACT 101) | Filibon | Capsule | Not stated in the data compiled |
 
-Both products are oral capsules. Essential Medicines List (EML) status could not be determined from the data provided.
-
----
+Both registrations are valid single-ingredient products for oral use. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interactions were found in the queried data (0 records). This is not confirmation that none exist.
-- **Oesophageal irritation**: Oral iron supplements can cause oesophageal irritation or injury. This is relevant to any use in oesophageal conditions.
+- **Contraindications (knowledge-graph associations, not label text):** The TxGNN knowledge graph links ferrous fumarate with the following conditions, including:
+  - Iron overload and metabolism: hereditary haemochromatosis, haemosiderosis, iron metabolism disease
+  - Haematological: sickle cell anaemia, hereditary persistence of fetal haemoglobin
+  - Organ disease: kidney disease, liver disease, gallbladder disease, peptic ulcer disease
+  - Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, hyperglycaemia, hyperparathyroidism, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, potassium deficiency disease
+  - Other: porphyria and other porphyrin metabolism diseases, Wilson disease, primary hyperoxaluria, sarcoidosis, hypertension, anxiety, neurotic and dysthymic disorders, pyoureter
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
+  These come from graph edges, not SAHPRA label text, and must be verified against the approved Professional Information (PI).
+- **Drug Interactions:** 80 interactions were identified in total. The 20 listed in the data compiled are mostly of Moderate severity, with a few Minor:
+  - Proton pump inhibitors (rabeprazole, omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole): Moderate
+  - Tetracyclines (doxycycline, tetracycline, minocycline) and levofloxacin: Moderate
+  - Antacids and minerals (magnesium oxide, calcium carbonate, aluminium hydroxide, magaldrate, sodium sulfate): Moderate
+  - Pancrelipase and triethylenetetramine: Moderate
+  - Cimetidine, zinc sulfate and zinc acetate: Minor
 
----
+  Spacing of administration and absorption effects should be checked in the PI.
+
+Warnings and contraindications from the SAHPRA-approved PI have not been obtained. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5). There are no trials or publications, and no plausible mechanism. The condition is a congenital structural defect that iron is not expected to affect, and oral iron may irritate the oesophagus.
+The prediction has no supporting clinical trials or publications (Evidence Level L5), and no plausible mechanism links oral iron to correcting a congenital structural malformation. The label-based safety review is also incomplete.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank, and a documented biological rationale linking iron or ferrous fumarate to oesophageal development
-- SAHPRA Professional Information (PI) for Autrin and Filibon, covering approved indications, warnings and contraindications
-- Any supporting preclinical or clinical literature. If none is found, this prediction should be deprioritised.
+- Obtain and review the SAHPRA package insert (warnings, contraindications, approved indications). This is a blocking gap for safety screening.
+- Obtain mechanism of action data from DrugBank.
+- Conduct a systematic literature and trial registry search (including SANCTR, PACTR and ICTRP) for any link between iron and oesophageal malformation.
+- Examine the knowledge-graph path behind the prediction to determine whether it is an artefact.
+- Assess route compatibility and the clinical relevance of the predicted indication, since this is a congenital condition managed surgically.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

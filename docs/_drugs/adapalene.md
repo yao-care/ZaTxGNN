@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Adapalene: From Acne Vulgaris to Elevated Plasma Zinc (Likely Model Artifact)
+# Adapalene: From Acne to Zinc, Elevated Plasma
 
 ## One-Sentence Summary
 
-Adapalene is a topical retinoid, and acne vulgaris is its established use. The SAHPRA registration records supplied do not state the approved indication.
-The TxGNN model's top-ranked prediction is **elevated plasma zinc**, a laboratory finding rather than a treatable disease, and the input contains **0 clinical trials** and **0 publications** for it.
-The high score is most likely a knowledge-graph artifact, so this prediction should not be acted on.
+Adapalene is a topical retinoid originally used to treat acne.
+The TxGNN model predicts it may be effective for **elevated plasma zinc** (the top-ranked prediction), but **no clinical trials and no publications** currently support this direction.
+The prediction is model output only and should be treated as a hypothesis, not a treatment option.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA records provided (acne vulgaris is the established use, per the evidence pack's rationale) |
+| Original Indication | Acne (from the TxGNN knowledge graph; the SAHPRA registrations carry no indication text) |
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 99.51% |
 | Evidence Level | L5 |
@@ -49,83 +51,90 @@ The high score is most likely a knowledge-graph artifact, so this prediction sho
 | Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input. Based on general knowledge, adapalene is a selective retinoic acid receptor (RAR-beta/gamma) agonist. It normalises follicular keratinisation and has anti-inflammatory activity in pilosebaceous units. This is the basis of its efficacy in acne vulgaris.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Adapalene is generally known as a topical retinoid that acts on retinoic acid receptors (RAR-beta/gamma). It normalises follicular keratinisation and has anti-inflammatory effects, which is the basis for its use in acne.
 
-For **elevated plasma zinc**, no plausible mechanism was identified. It is a laboratory abnormality, not a disease with a therapeutic target, and topical adapalene has minimal systemic exposure. The score of 99.51% therefore appears to reflect a knowledge-graph artifact rather than a real therapeutic signal. The prediction should be treated as a modelling curiosity, not a repurposing lead.
+**For the top prediction (elevated plasma zinc), no plausible mechanistic link was identified.** Adapalene is applied to the skin with minimal systemic exposure, and there is no known route by which it would alter plasma zinc. The high score (99.51%) is a statistical output of the model, not supported by trials or literature.
 
-### Other Predicted Candidates
+Other predictions, ranked by TxGNN score, are summarised below. Only the two with indirect supporting literature are rated higher than a plain model prediction.
 
-The model produced nine further candidates. The table below summarises them; only two (ranks 8 and 9) have any retrieved evidence.
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 1 | Zinc, elevated plasma | 99.51% | L5 | No plausible mechanism |
+| 2 | Isolated congenital adermatoglyphia | 98.80% | L5 | Developmental genetic condition (SMARCAD1); a topical agent is unlikely to restore ridge patterns |
+| 3 | Beare-Stevenson cutis gyrata syndrome | 98.78% | L5 | FGFR2 disorder; link to retinoids is speculative |
+| 4 | Demodicidosis of sebaceous gland | 95.45% | L5 | Indirect rationale (overlaps with acne and rosacea); adapalene has no anti-parasitic activity |
+| 5 | Pyogenic arthritis-pyoderma gangrenosum-acne (PAPA) syndrome | 95.30% | L5 | Acne component may respond; systemic and joint features would not |
+| 6 | Prolidase deficiency | 89.33% | L5 | No mechanism linking adapalene to the enzyme defect |
+| 7 | Drug-induced osteoporosis | 87.21% | L5 | Direction of effect questionable; systemic retinoids are associated with adverse bone effects |
+| 8 | Seborrheic dermatitis | 86.28% | L4 | Biologically plausible, but retrieved literature is indirect |
+| 9 | Sebaceous gland anomaly | 85.16% | L4 | Preclinical (rat acne model) evidence only; indication is broad |
+| 10 | Inherited skin tumour | 82.92% | L5 | Heterogeneous category; no specific syndrome or evidence |
 
-| Rank | Predicted Indication | Score | Evidence Level | Recommendation | Comment |
-|---|---|---|---|---|---|
-| 2 | Isolated congenital adermatoglyphia | 98.80% | L5 | Hold | Genetic (SMARCAD1); no known retinoid link |
-| 3 | Beare-Stevenson cutis gyrata syndrome | 98.78% | L5 | Hold | FGFR2 syndrome; speculative link only |
-| 4 | Demodicidosis of sebaceous gland | 95.45% | L5 | Research Question | Plausible via pilosebaceous mechanism; no antiparasitic effect documented |
-| 5 | Pyogenic arthritis-pyoderma gangrenosum-acne syndrome | 95.30% | L5 | Research Question | Topical use could at most address the acne lesions |
-| 6 | Prolidase deficiency | 89.33% | L5 | Hold | No mechanistic path identified |
-| 7 | Drug-induced osteoporosis | 87.21% | L5 | Hold | Systemic retinoids may harm bone; direction of effect uncertain |
-| 8 | Seborrheic dermatitis | 86.28% | L4 | Research Question | Plausible mechanism, but all evidence is indirect (acne studies) |
-| 9 | Sebaceous gland anomaly | 85.16% | L1 | Proceed with Guardrails | Supported by acne Phase 3 evidence; label-concordant, not a novel signal |
-| 10 | Inherited skin tumour | 82.92% | L5 | Hold | Loose chemoprevention rationale; no evidence |
+---
 
 ## Clinical Trial Evidence
 
-For the top prediction (elevated plasma zinc): currently no related clinical trials registered.
+Currently no related clinical trials registered for the top-ranked predicted indication (elevated plasma zinc). No clinical trials were found for any of the other nine predicted indications either.
 
-The trials below were retrieved for the two candidates with evidence. All concern acne vulgaris, not the predicted conditions themselves.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00446043](https://clinicaltrials.gov/study/NCT00446043) | Phase 3 | Completed | 452 | Long-term (12-month) safety and efficacy of adapalene 0.1%/benzoyl peroxide 2.5% gel in acne vulgaris (rank 9; direct adapalene evidence) |
-| [NCT02557399](https://clinicaltrials.gov/study/NCT02557399) | Phase 4 | Completed | 350 | Duac (clindamycin/benzoyl peroxide) vs adapalene + clindamycin combination in Japanese facial acne (rank 9; contextual only) |
-| [NCT03076320](https://clinicaltrials.gov/study/NCT03076320) | Phase 1/2 | Completed | 82 | Zaxcell vs Effezel (adapalene/benzoyl peroxide) in inflammatory and scarring acne (rank 8; not a seborrheic dermatitis study) |
-| [NCT06281782](https://clinicaltrials.gov/study/NCT06281782) | NA | Unknown | 40 | Platelet-rich plasma plus topical retinoids vs topical retinoids alone in acne (rank 8; wrong disease) |
-| [NCT05497323](https://clinicaltrials.gov/study/NCT05497323) | Phase 1 | Unknown | 284 | Adjuvant combination cream vs adapalene 0.1% cream in mild-to-moderate acne (rank 8; wrong disease) |
-
-No SANCTR or PACTR identifiers were included in the input.
+---
 
 ## Literature Evidence
 
-For the top prediction: currently no related literature available.
+Currently no related literature available for the top-ranked predicted indication (elevated plasma zinc).
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39069843](https://pubmed.ncbi.nlm.nih.gov/39069843/) | 2024 | RCT | Ital J Dermatol Venereol | Adapalene 0.3%/benzoyl peroxide 2.5% gel in Korean acne patients, with histopathological and immunohistochemical assessment |
-| [25217865](https://pubmed.ncbi.nlm.nih.gov/25217865/) | 2014 | Animal study | J Dermatol Sci | 0.1% adapalene was effective in a non-inflammatory Kyoto Rhino Rat acne model |
-| [36102580](https://pubmed.ncbi.nlm.nih.gov/36102580/) | 2022 | Clinical study | J Cosmet Dermatol | Moisturiser (not adapalene) and facial skin lipidome in seborrhoea; not relevant to adapalene |
-| [27504089](https://pubmed.ncbi.nlm.nih.gov/27504089/) | 2016 | Case report | Case Rep Dermatol | Localised late-onset Darier's disease; not relevant to adapalene |
+Literature was found only for two lower-ranked predictions, and all of it is indirect:
+
+| PMID | Year | Type | Journal | Relevant Prediction | Key Findings |
+|------|-----|------|------|------|---------|
+| [39069843](https://pubmed.ncbi.nlm.nih.gov/39069843/) | 2024 | Randomised, double-blind clinical trial | Ital J Dermatol Venereol | Seborrheic dermatitis (rank 8) | Adapalene 0.3%/benzoyl peroxide 2.5% gel in Korean patients with **acne**, with histopathological and immunohistochemical assessment. Not studied in seborrheic dermatitis. |
+| [36102580](https://pubmed.ncbi.nlm.nih.gov/36102580/) | 2022 | Clinical study | J Cosmet Dermatol | Seborrheic dermatitis (rank 8) | Moisturiser (licochalcone A, salicylic acid and others) and facial skin lipids in seborrhoea; does not involve adapalene. |
+| [27504089](https://pubmed.ncbi.nlm.nih.gov/27504089/) | 2016 | Case report | Case Rep Dermatol | Seborrheic dermatitis (rank 8) | Localised late-onset Darier's disease presenting as inframammary dermatitis; a mimic of dermatitis, not a test of adapalene. |
+| [25217865](https://pubmed.ncbi.nlm.nih.gov/25217865/) | 2014 | Animal model study | J Dermatol Sci | Sebaceous gland anomaly (rank 9) | 0.1% adapalene was effective in a non-inflammatory Kyoto Rhino Rat acne (comedone) model. Preclinical only. |
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 46/13.11/0162 | Dapta Cream | Cream (topical) | Not stated in the registration record |
-| Reg. No. 51/13.12/0911 | Deriva Co | Gel (topical) | Not stated in the registration record |
+| Reg. No. 46/13.11/0162 | Dapta Cream | Cream | Not available in the data compiled |
+| Reg. No. 51/13.12/0911 | Deriva Co | Gel | Not available in the data compiled |
 
-Essential Medicines List (EML) status could not be determined from the input.
+Both registrations are valid, single-ingredient, topical products. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. The drug-interaction query returned no records.
+- **Contraindications (knowledge graph, not label text):** The TxGNN knowledge graph links adapalene to photoparoxysmal response, photosensitivity disease, exfoliative dermatitis and dermatitis. These are model-derived associations and should be checked against the approved label.
+- **Drug Interactions:** 58 potential interactions were identified. All interaction levels are currently graded "Unknown", so their clinical significance is unclassified. Examples include:
+  - Antibiotics: doxycycline, minocycline, tetracycline, metronidazole
+  - Acid suppressants: omeprazole, pantoprazole, rabeprazole, ranitidine
+  - Corticosteroids: prednisone, triamcinolone, budesonide
+  - Antihistamines: cetirizine, loratadine, fexofenadine
+  - Others: bupropion, clopidogrel, ibuprofen, fluconazole, loperamide, scopolamine
+
+Warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, elevated plasma zinc, is a laboratory finding with no plausible mechanism and no supporting trials or literature (L5). The only strong evidence (rank 9, Phase 3 in acne) is for adapalene's established acne use, so it is not a repurposing signal.
+The top prediction (elevated plasma zinc) has a high model score but no mechanistic plausibility, no trials and no literature (L5). A topical retinoid with minimal systemic exposure is not expected to alter plasma zinc. Of the other predictions, only seborrheic dermatitis and sebaceous gland anomaly (both L4) have any supporting material, and that material is indirect.
 
 **To proceed, the following is needed:**
-- SAHPRA Professional Information (warnings and contraindications), which is currently blocking safety screening.
-- Mechanism of action data from DrugBank.
-- The approved indication text for both SAHPRA registrations, to confirm the original indication.
-- If a repurposing question is pursued, prioritise the "Research Question" candidates (demodicidosis, seborrheic dermatitis, and the acne component of PAPA-like syndrome) rather than the top-scoring but implausible ones.
-- Review of the "sebaceous gland anomaly" result against the acne label before making any claim.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Retrieval of the SAHPRA Professional Information (warnings, contraindications, approved indications), which is currently a blocking gap for safety screening
+- Mechanism of action data (for example from DrugBank) to support mechanistic analysis
+- For seborrheic dermatitis, the most plausible lower-ranked candidate, direct clinical evidence of adapalene use, including tolerability given retinoid irritation
+- Classification of the 58 drug interactions, which are currently graded "Unknown"
+- Route compatibility assessment, which is still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

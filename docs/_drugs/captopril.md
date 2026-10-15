@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Captopril
-parent: Moderate Evidence (L3-L4)
-nav_order: 97
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 98
+evidence_level: L5
 indication_count: 4
 ---
 
 # Captopril
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,106 +33,97 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Captopril is an ACE inhibitor marketed in South Africa in tablet form. The registration data supplied do not state an approved indication.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**.
-This is supported by **0 clinical trials** and **20 publications**, mostly reviews, case reports and diagnostic-test studies rather than treatment trials.
-
----
+Captopril is an ACE inhibitor originally used for hypertensive disorders, hypertension and diabetic nephropathy.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but there are currently **0 registered clinical trials** and only **18 publications** (almost all diagnostic, case reports or reviews, with no therapeutic trials) behind this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data supplied (captopril is a known ACE inhibitor used for hypertension) |
+| Original Indication | Hypertensive disorder, hypertension, diabetic nephropathy (from the knowledge-graph indication list; the SAHPRA registrations contain no indication text) |
 | Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.28% |
-| Evidence Level | L3 |
+| Evidence Level | L4 (preclinical/mechanistic support only; no clinical trials) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 3 |
-| Recommended Decision | Hold |
-
----
+| Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
 
-Captopril blocks angiotensin-converting enzyme, so less angiotensin II is formed. Malignant renovascular hypertension is strongly driven by the renin-angiotensin system: renal ischaemia raises renin, which raises angiotensin II and blood pressure. Blocking that pathway is therefore mechanistically plausible, and it fits the very high TxGNN score.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, captopril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and mechanistically it may be applicable to renovascular hypertension.
 
-The literature supports the biology but not the treatment claim. Several papers show a strong renin-angiotensin component in these patients. One case report describes blood pressure control with captopril in a patient with bilateral renal artery stenosis. The only drug-specific clinical report is a 1984 paper on captopril in stable and malignant hypertension (PMID 6145432). Its design and outcomes could not be verified from the title alone.
+Renovascular hypertension is driven by activation of the renin-angiotensin system (RAS) when renal perfusion falls. Blocking ACE is therefore biologically coherent. One 1984 clinical report describes captopril use in hypertension with a stable and a malignant course.
 
-Detailed mechanism-of-action data and the labelled indication text are not available in the supplied data, so overlap with the registered hypertension use cannot be confirmed.
+Caution is needed. This prediction is largely an extension of the existing hypertension indication rather than a true novel repurposing. Captopril is also widely used as a *diagnostic* tool (captopril renography and captopril-stimulated renin testing), and much of the retrieved literature reflects that use, not treatment. In bilateral renal artery stenosis, ACE inhibitors carry a known risk of acute renal failure.
 
-The other three predictions are weaker:
-
-- **Malignant hypertensive renal disease** (score 99.28%): biologically plausible, but there are no trials or literature.
-- **Pulmonary hypertension with unclear multifactorial mechanism** (score 99.15%): speculative, with no trials or literature.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.15%): none of the 20 retrieved articles concern captopril or pulmonary hypertension. They are generic hypoxia biology, so the count reflects keyword matching only.
-
----
+Other predicted indications were also ranked. Malignant hypertensive renal disease (score 99.28%) has one diagnostic case report only. Pulmonary hypertension of unclear multifactorial mechanism (99.15%) has no literature. Pulmonary hypertension due to lung disease/hypoxia (99.15%) has only off-target preclinical literature. These are all rated L5 / Hold.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-No RCTs were found. The table lists the most relevant items for the lead prediction.
+Of the 18 publications retrieved for the lead prediction, none is a randomised trial. The most relevant are shown below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | Clinical study (design unverified) | Biull Vsesoiuz Kardiol Nauchn Tsentra AMN SSSR | Captopril in arterial hypertension with stable and malignant course; no abstract, so outcomes unverified |
-| [2040938](https://pubmed.ncbi.nlm.nih.gov/2040938/) | 1991 | Review | J Pediatr | Overview of malignant hypertension |
-| [17008836](https://pubmed.ncbi.nlm.nih.gov/17008836/) | 2006 | Review | Minerva Med | Clinical concepts of renovascular hypertension; treatment should target renal ischaemia |
-| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Review | Endocrinol Metab Clin North Am | Renin-secreting tumours cause severe hypertension; blood pressure falls on converting-enzyme inhibitor treatment |
-| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Review | Pediatr Nephrol | 27 children with neurofibromatosis type 1 followed for vascular lesions and hypertension; captopril test used in assessment |
-| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Case report | Clin Nephrol | Two cases of renovascular hypertension with neurofibromatosis; captopril used to test renin response |
-| [3928961](https://pubmed.ncbi.nlm.nih.gov/3928961/) | 1985 | Not classified (case report) | Klin Wochenschr | Severe renal vascular hypertension with bilateral renal artery stenosis; patient declined surgery and was treated with captopril |
-| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | Not classified (clinical physiology study) | Clin Sci (Lond) | Angiotensin blockade, including captopril, caused a marked renin rise in 43 of 44 patients with renovascular hypertension (diagnostic use) |
-| [2887673](https://pubmed.ncbi.nlm.nih.gov/2887673/) | 1987 | Animal model | Jpn Heart J | Neurohormonal changes in benign and malignant phases of Goldblatt hypertension in dogs |
-| [1572120](https://pubmed.ncbi.nlm.nih.gov/1572120/) | 1992 | Case report | Clin Nucl Med | False-positive captopril renogram in a patient with malignant hypertension but no renal artery stenosis |
-
-Most of these papers use captopril as a diagnostic probe, not as treatment.
-
----
+| [6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/) | 1984 | Clinical report | Biulleten' Vsesoiuznogo kardiologicheskogo nauchnogo tsentra AMN SSSR | Use of captopril in hypertension with a stable and malignant course (no abstract available) |
+| [8070421](https://pubmed.ncbi.nlm.nih.gov/8070421/) | 1994 | Review | Endocrinol Metab Clin North Am | Renin-secreting tumours; blood pressure falls on converting-enzyme inhibitor treatment |
+| [3894732](https://pubmed.ncbi.nlm.nih.gov/3894732/) | 1985 | Review | Japanese Journal of Medicine | Pathophysiology and outcome of hypertension, including diagnostic tests for renovascular hypertension |
+| [232024](https://pubmed.ncbi.nlm.nih.gov/232024/) | 1979 | Clinical study | Clinical Science | Rise in plasma renin after ACE blockade (including captopril) identified renovascular hypertension in 43 of 44 untreated patients (diagnostic) |
+| [11334320](https://pubmed.ncbi.nlm.nih.gov/11334320/) | 2001 | Case report and review | Clinical Nephrology | Two cases of renovascular hypertension in neurofibromatosis; captopril used for renin testing |
+| [10955932](https://pubmed.ncbi.nlm.nih.gov/10955932/) | 2000 | Case series | Pediatric Nephrology | 27 children with neurofibromatosis type 1 assessed for renovascular disease and hypertension (captopril test) |
+| [3326101](https://pubmed.ncbi.nlm.nih.gov/3326101/) | 1987 | Clinical report | Journal of UOEH | Efficacy of captopril in refractory hypertension in childhood |
+| [6315275](https://pubmed.ncbi.nlm.nih.gov/6315275/) | 1983 | Review | Clin Exp Hypertens A | Acute and chronic renal effects of captopril and other converting enzyme inhibitors in hypertension |
+| [1572120](https://pubmed.ncbi.nlm.nih.gov/1572120/) | 1992 | Case report | Clinical Nuclear Medicine | False-positive captopril renogram in malignant hypertension without renal artery stenosis (diagnostic) |
+| [7955304](https://pubmed.ncbi.nlm.nih.gov/7955304/) | 1994 | Review | Cleveland Clinic Journal of Medicine | Noninvasive screening for renovascular disease (diagnostic) |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 31/7.1/0658 | Bio-captopril | Tablet | Not stated in supplied data |
-| Reg. No. 31/7.1.3/0478 | Captoretic Hs | Tablet | Not stated in supplied data |
-| Reg. No. Y/7.1.3/379 | Capozide | Tablet | Not stated in supplied data |
+| 31/7.1/0658 | Bio-captopril | Tablet | Not available in the data compiled |
+| 31/7.1.3/0478 | Captoretic Hs | Tablet | Not available in the data compiled |
+| Y/7.1.3/379 | Capozide | Tablet | Not available in the data compiled |
 
-All three products are oral tablets. Essential Medicines List (EML) inclusion was not verified from the supplied data.
-
----
+All three registrations are valid and recorded as single-ingredient products. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindication and disease-risk signals (from the knowledge graph, not label text):**
+- Renal and hepatic: kidney disease, liver disease, hepatic coma/encephalopathy, pancreatitis, gallbladder disease
+- Angioedema: including hereditary, acquired and RAS-blocker-induced angioedema
+- Haematological/immune: neutropenia, agranulocytosis, systemic lupus erythematosus, connective tissue disease
+- Cardiovascular: aortic stenosis and aortic valve disease, hypotensive disorders
+- Metabolic/other: potassium deficiency, diabetes mellitus and diabetic ketoacidosis, hyperuricaemia, hyperparathyroidism, bone disease
 
-The following class-level guardrail comes from the mechanistic assessment, not from the PI. ACE inhibitors can cause acute renal failure in bilateral renal artery stenosis or in a solitary functioning kidney. Any use in renovascular hypertension would need close monitoring of renal function and serum potassium.
+These come from knowledge-graph relationships and should be confirmed against the approved label.
 
-For the pulmonary hypertension predictions, vasodilators may worsen ventilation-perfusion mismatch and hypoxaemia in lung disease.
+**Drug interactions:** The interaction screen returned 100 entries. Those listed were mostly Moderate, with two Minor.
+- Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide
+- Glucose-lowering agents: metformin, alogliptin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, exenatide, chlorpropamide, acetohexamide
+- Others (Moderate): acetylsalicylic acid, morphine, bupropion, dronabinol
+- Minor: aluminium hydroxide, calcium carbonate
 
----
+**Indication-specific risk:** In bilateral renal artery stenosis, ACE inhibitors carry a known risk of acute renal failure.
+
+Warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available. Please refer to the PI for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and the TxGNN score is high. However, there are no clinical trials, and the literature is limited to reviews, case reports and diagnostic studies. The 1984 captopril report is unverified. The SAHPRA safety information has not been obtained, which blocks safety screening.
+The high TxGNN score (99.28%) is not backed by therapeutic clinical data. There are no registered trials, and the literature is mainly diagnostic use, case reports and reviews. The prediction largely extends captopril's existing hypertension indication, and the renal safety risk in renovascular disease is significant. The evidence is at the research-question stage.
 
 **To proceed, the following is needed:**
-- Download and review the SAHPRA package insert (PI) for warnings, contraindications and the approved indication text.
-- Obtain mechanism-of-action data from DrugBank.
-- Retrieve the full text of PMID 6145432 to verify design and outcomes.
-- Search for controlled or observational studies of ACE inhibitor treatment in malignant renovascular hypertension.
-- Define a renal function and potassium monitoring plan for patients with renal artery stenosis.
-
-This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any clinical use.
+- SAHPRA Professional Information (warnings, contraindications and approved indications), which is currently a blocking gap
+- Detailed mechanism-of-action data
+- Therapeutic studies (prospective or controlled) of captopril in malignant or renovascular hypertension
+- A renal safety plan (renal function and potassium monitoring, exclusion of bilateral renal artery stenosis)
+- Review of how this differs from the existing hypertension indication, to confirm whether it represents new value
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

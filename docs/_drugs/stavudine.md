@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Stavudine
-parent: Moderate Evidence (L3-L4)
-nav_order: 424
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 428
+evidence_level: L5
 indication_count: 3
 ---
 
 # Stavudine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,92 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Stavudine is an oral nucleoside reverse transcriptase inhibitor (NRTI) used in antiretroviral therapy for HIV. The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV infection in cats)**. The only supporting evidence is **2 preclinical publications, both on stampidine, a stavudine derivative, and no clinical trials**. This is a veterinary and animal-model question, not a new human indication.
-
----
+Stavudine is a nucleoside reverse transcriptase inhibitor (NRTI) originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, but **no clinical trials and no publications** directly support this prediction.
+The prediction is a computational signal only, and the condition is a veterinary disease rather than a human indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection (SAHPRA registration records do not state an indication text) |
+| Original Indication | HIV infectious disease; AIDS (taken from the TxGNN knowledge graph, as the SAHPRA registration entries contain no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.55% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Stavudine is a thymidine analogue NRTI. Drugs of this class block retroviral reverse transcriptase, the enzyme the virus needs to copy its genetic material.
+Detailed mechanism of action data is not available for this drug. Based on known pharmacology, stavudine is a thymidine analogue NRTI. After phosphorylation inside cells to stavudine triphosphate, it terminates viral DNA chain elongation. Its efficacy in HIV-1 is established.
 
-Feline immunodeficiency virus (FIV) is a lentivirus, in the same broad family as HIV, and has a homologous reverse transcriptase. A drug that works against HIV could therefore plausibly act on FIV, which makes the prediction biologically reasonable.
+Feline immunodeficiency virus (FIV) is a lentivirus, and its reverse transcriptase is related to that of HIV. A mechanistic rationale therefore exists. However, the high score reflects a network-based prediction only, and no direct evidence was found for this condition.
 
-The high TxGNN score (99.55%) mainly reflects how close HIV and FIV sit in the knowledge graph. It is not clinical evidence. Both retrieved papers studied **stampidine**, a stavudine aryl phosphoramidate derivative, not stavudine itself, so the evidence is indirect.
+Stavudine is also being phased out of human use because of mitochondrial toxicity (lipodystrophy, peripheral neuropathy, pancreatitis, lactic acidosis). This limits its appeal for veterinary repurposing. Feline AIDS is also not a human clinical indication, so the relevance to South African human healthcare is limited.
 
-Two other predictions were also generated and do not change this assessment:
-- **Simian immunodeficiency virus (SIV) infection** (score 99.55%). Only cell-culture and animal-model data exist. One macaque report (PMID 22013040) describes fatal pancreatitis in SIV-infected animals given a dideoxynucleoside regimen that included stavudine. This is consistent with stavudine's known mitochondrial toxicity. SIV is a non-human animal-model infection, so it has little value as a repurposing target. Recommendation: Hold.
-- **A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (score 99.51%). This is a model prediction only, with no trials or literature and no evident mechanism. Stavudine's neurotoxicity (peripheral neuropathy) argues against this use, especially in children. Recommendation: Hold.
-
----
+*Other predictions in the data (lower priority):*
+- **Simian immunodeficiency virus (SIV) infection** (score 99.55%, evidence level L4): only preclinical or in vitro studies are available (see below).
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.51%, evidence level L5): no clear mechanistic link was identified. Stavudine's known neurotoxicity argues against use in a neurological condition.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+There is no literature for the top-ranked prediction (feline AIDS). The table below lists the publications compiled for the second-ranked prediction, SIV infection, as indirect supporting evidence. All are non-human or in vitro studies.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12654652](https://pubmed.ncbi.nlm.nih.gov/12654652/) | 2003 | Preclinical in vivo study (stampidine, not stavudine) | Antimicrob Agents Chemother | In chronically FIV-infected cats, a single oral dose of 50 or 100 mg/kg gave a transient decrease of at least 1 log in FIV load in 5 of 6 cats, with no side effects. A 4-week twice-daily course was also tested. |
-| [16570826](https://pubmed.ncbi.nlm.nih.gov/16570826/) | 2006 | Preclinical PK/toxicity study (stampidine, not stavudine) | Arzneimittel-Forschung | In dogs and FIV-infected cats, oral dosing at 100 mg/kg (a non-toxic level) reached plasma concentrations 3-4 logs above the IC50. |
-
----
+| [22013040](https://pubmed.ncbi.nlm.nih.gov/22013040/) | 2012 | Animal study (macaque) | J Virol | Fatal pancreatitis in SIVmac251-infected macaques treated with didanosine and stavudine after CTLA-4 and IDO blockade. This is a safety signal. |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility study | Antivir Ther | Antiviral activity of 16 approved drugs was evaluated against HIV-2, SIV and SHIV strains, to guide treatment and post-exposure prophylaxis. |
+| [11435599](https://pubmed.ncbi.nlm.nih.gov/11435599/) | 2001 | In vitro study (related retrovirus) | J Virol | Susceptibility of human foamy virus to dideoxynucleosides. Only zidovudine was as effective as against HIV-1. |
+| [9021177](https://pubmed.ncbi.nlm.nih.gov/9021177/) | 1997 | In vitro study (different compound) | Antimicrob Agents Chemother | Concerns the macrolide SRR-SB3, not stavudine. Limited relevance. |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| A40/20.2.8/0659 | Sonke-Laminevstav 30 | Tablet | Not stated in the registration record |
-| 44/20.2.8/0212 | Tri-Nestlam 150/30/200 | Tablet | Not stated in the registration record |
+| A40/20.2.8/0659 | Sonke-Laminevstav 30 | Tablet | Indication text not available in the registration data |
+| 44/20.2.8/0212 | Tri-Nestlam 150/30/200 | Tablet | Indication text not available in the registration data |
 
-Both products are oral tablets. The product names suggest multi-ingredient antiretroviral combinations, but this must be confirmed against the SAHPRA-approved Professional Information (PI).
-
----
+Both registrations are currently valid, and both are oral tablets. The data compiled for this report do not state Essential Medicines List (EML) status.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Knowledge-graph contraindications.** These come from drug-disease contraindication links in the TxGNN knowledge graph, not from label text. They include:
+- Liver and metabolic: liver disease, fatty liver disease, non-alcoholic steatohepatitis, lactic acidosis
+- Pancreas, gallbladder and kidney: pancreatitis, gallbladder disease, kidney disease, pyoureter
+- Glucose and weight: hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, obesity disorder, monogenic obesity
+- Nervous system and other: peripheral nervous system disease, peripheral neuropathy, substance abuse/dependence
 
-The Evidence Pack lists no drug interactions for stavudine. The literature and model rationale point to the known class of mitochondrial toxicities, including pancreatitis, lactic acidosis, peripheral neuropathy and lipodystrophy. These are relevant to any use in a new setting.
+**Drug interactions.** A screen returned 100 interacting drugs in total. Those with a Moderate level are:
+- Metronidazole
+- Naltrexone
+- Orlistat
+- Rosuvastatin
+- Simvastatin
+- Tinidazole
 
----
+Other listed interactions have an unknown severity level, including metformin, omeprazole, pantoprazole, lansoprazole, prednisone, morphine, vancomycin, doxycycline and sulfasalazine.
+
+**Animal safety signal.** Fatal pancreatitis was reported in SIV-infected macaques given a dideoxynucleoside regimen that included stavudine.
+
+Warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available for this report. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The evidence is limited to two preclinical veterinary studies of a derivative compound (stampidine), with no data on stavudine itself in FIV or SIV.
-- Stavudine is already marketed for HIV in humans, so the predicted indications are animal-model or veterinary uses with little value as a human repurposing opportunity.
+The prediction rests on a model score alone (evidence level L5). No clinical trials or publications support feline AIDS. The related SIV literature is preclinical and includes a pancreatitis safety signal. Stavudine's mitochondrial toxicity profile and its phase-out from human use further weaken the case. Feline AIDS is a veterinary condition, so it falls outside human drug repurposing.
 
 **To proceed, the following is needed:**
-- Direct evidence on stavudine (not stampidine) in FIV or SIV models
-- A clear decision on whether a veterinary or animal-model application is within scope
-- The SAHPRA Professional Information (PI) for warnings and contraindications, which is needed before any safety screening
-- Detailed mechanism of action data
-- Justification for the toxicity profile (pancreatitis, neuropathy, mitochondrial toxicity) in any new target population
+- Mechanism of action data for stavudine
+- The SAHPRA Professional Information (PI) warnings and contraindications, which are currently missing and block safety screening
+- Direct evidence for the predicted indication, such as veterinary studies of FIV antiviral activity
+- A decision on whether a veterinary indication is within the scope of this programme
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

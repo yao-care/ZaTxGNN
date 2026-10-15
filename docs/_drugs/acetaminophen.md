@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Acetaminophen
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 14
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Acetaminophen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,142 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acetaminophen: From Pain and Fever to Migraine with Brainstem Aura
+# Acetaminophen: From Migraine and Headache to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-Acetaminophen (paracetamol) is a widely marketed analgesic and antipyretic. It is also already used for acute migraine in general.
-The TxGNN model predicts it may be useful for **migraine with brainstem aura**, but there are **0 clinical trials** and **20 publications** on this subtype, and all of the publications concern migraine or headache in general.
+Acetaminophen (paracetamol) is a widely used analgesic and antipyretic. In the data compiled for this report, its original indications include migraine, headache disorders, common cold and allergic rhinitis.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but there are **0 registered clinical trials** and **20 publications** for this specific prediction, all indirect (general migraine reviews).
+Other predictions were also screened; the best-supported are **fibromyalgia** (tramadol/acetaminophen RCT) and **sciatic neuropathy** (one RCT), but even these rest on limited evidence.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pain and fever (general analgesic/antipyretic use; the SAHPRA indication text was not supplied) |
+| Original Indication | Migraine, headache disorders, common cold, allergic rhinitis (SAHPRA indication text not available in the compiled data) |
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 (indirect evidence from general migraine; nothing specific to this subtype) |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 20 |
-| Recommended Decision | Hold |
+| Number of SAHPRA Registrations | 19 |
+| Recommended Decision | Hold (the migraine-subtype question is a research question; see the other candidates below) |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from DrugBank is not available. Acetaminophen is thought to act centrally through COX inhibition, with serotonergic and endocannabinoid modulation of descending pain pathways. This is the mechanistic basis for its use in acute migraine.
+Detailed mechanism-of-action data from DrugBank is not available for this report. Based on general pharmacological knowledge, acetaminophen acts mainly in the central nervous system, probably through central COX inhibition and modulation of serotonergic and endocannabinoid pathways. It has little peripheral anti-inflammatory effect.
 
-The retrieved literature supports migraine in general. It includes the American Headache Society evidence assessment of acute migraine treatments and several pregnancy-related reviews. None of the retrieved records address the brainstem-aura subtype specifically.
+Acetaminophen is an established acute treatment for migraine, and migraine with brainstem aura is a subtype of migraine. It is therefore plausible that the central analgesic action extends to this subtype. However, the retrieved literature addresses migraine in general (status migrainosus, pregnancy, menstrual, paediatric) and not brainstem aura specifically, so the evidence is indirect.
 
-The link is therefore indirect, an extrapolation from general migraine. It is not a novel repurposing signal, because acetaminophen is already used for migraine.
+### Other predicted indications screened
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 2 | Trigeminal autonomic cephalalgia | 98.58% | L4 | Hold. These headaches are usually refractory to simple analgesics; literature is general reviews and case reports with no acetaminophen-specific data. |
+| 3 | Atrophoderma vermiculata | 94.71% | L5 | Hold. No mechanistic rationale; prediction only. |
+| 4 | Tendinitis | 94.58% | L4 | Research question. Symptomatic pain relief only; no tendinitis-specific acetaminophen trials. |
+| 5 | Idiopathic granulomatous myositis | 94.36% | L5 | Hold. No anti-inflammatory or immunomodulatory activity; prediction only. |
+| 6 | Myositis fibrosa | 94.36% | L5 | Hold. At most symptomatic analgesia; prediction only. |
+| 7 | Ulerythema ophryogenesis | 92.44% | L5 | Hold. No mechanistic rationale; prediction only. |
+| 8 | Fibromyalgia | 90.84% | L3 | Research question. Benefit likely driven largely by tramadol in the combination. |
+| 9 | Inclusion body myositis | 89.17% | L5 | Hold. No role beyond generic pain relief; prediction only. |
+| 10 | Sciatic neuropathy | 86.63% | L3 | Research question. One RCT, but expected effect is small. |
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are registered for the lead prediction (migraine with brainstem aura): currently no related clinical trials registered.
+
+For the next-best-supported prediction, **fibromyalgia**, the following trials were retrieved:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00766675](https://clinicaltrials.gov/study/NCT00766675) | Phase 4 | Completed | 80 | Tramadol 37.5 mg/acetaminophen 325 mg tablets for fibromyalgia pain; directly relevant, but acetaminophen's contribution cannot be separated from tramadol |
+| [NCT03058224](https://clinicaltrials.gov/study/NCT03058224) | NA | Completed | 230 | Placebo-controlled exploratory trial of a food supplement (IGN-ES001) in chronic widespread pain; acetaminophen's role unclear |
+| [NCT04704297](https://clinicaltrials.gov/study/NCT04704297) | Phase 4 | Recruiting | 180 | Trigger point injection for low back myofascial pain; not an acetaminophen intervention |
+| [NCT07533487](https://clinicaltrials.gov/study/NCT07533487) | NA | Completed | 60 | TENS added to cognitive behavioural therapy in postmenopausal women with fibromyalgia; no acetaminophen intervention |
+
+No SANCTR or PACTR identifiers were available in the compiled data.
+
+---
 
 ## Literature Evidence
 
+### Migraine with brainstem aura (lead prediction)
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11112243](https://pubmed.ncbi.nlm.nih.gov/11112243/) | 2000 | RCT (per title) | Arch Intern Med | Randomized, double-blind, placebo-controlled, population-based study of acetaminophen efficacy and safety in migraine. Results are not in the supplied abstract. |
-| [9482363](https://pubmed.ncbi.nlm.nih.gov/9482363/) | 1998 | RCT (per title) | Arch Neurol | Three double-blind, placebo-controlled trials of acetaminophen, aspirin and caffeine for migraine pain. Results are not in the supplied abstract. |
-| [10321417](https://pubmed.ncbi.nlm.nih.gov/10321417/) | 1999 | Retrospective analysis of 3 RCTs | Clin Ther | Acetaminophen, aspirin and caffeine combination in menstruation-associated versus non-menstrual migraine. |
-| [11318886](https://pubmed.ncbi.nlm.nih.gov/11318886/) | 2001 | Comparative study | Headache | An isometheptene, dichloralphenazone and acetaminophen combination compared with sumatriptan in mild-to-moderate migraine, with or without aura. |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline / evidence assessment | Headache | American Headache Society update of the evidence for acute migraine pharmacotherapies in adults. |
-| [30470274](https://pubmed.ncbi.nlm.nih.gov/30470274/) | 2019 | Review | Neurol Clin | Headache in pregnancy. Acetaminophen is described as first-line symptomatic treatment. |
-| [39493026](https://pubmed.ncbi.nlm.nih.gov/39493026/) | 2024 | Review | Cureus | Abortive and prophylactic migraine therapies in pregnancy. |
-| [37123778](https://pubmed.ncbi.nlm.nih.gov/37123778/) | 2023 | Review | Cureus | Migraine in pregnancy and breastfeeding, with a treatment approach. |
-| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Review | Handb Clin Neurol | Status migrainosus, a complication of migraine with or without aura. |
-| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | Review | Neurol Int | Ubrogepant for acute migraine. Notes acetaminophen among non-prescription options for mild to moderate attacks. |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies |
+| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Review | Handbook of Clinical Neurology | Status migrainosus: burden and case series |
+| [10321417](https://pubmed.ncbi.nlm.nih.gov/10321417/) | 1999 | RCTs (3 pooled) | Clinical Therapeutics | Acetaminophen/aspirin/caffeine for menstruation-associated migraine, from three placebo-controlled studies |
+| [11318886](https://pubmed.ncbi.nlm.nih.gov/11318886/) | 2001 | Comparative study | Headache | Isometheptene/dichloralphenazone/acetaminophen vs sumatriptan in mild-to-moderate migraine |
+| [30470274](https://pubmed.ncbi.nlm.nih.gov/30470274/) | 2019 | Review | Neurologic Clinics | Headache in pregnancy; acetaminophen is first-line symptomatic treatment |
+| [39493026](https://pubmed.ncbi.nlm.nih.gov/39493026/) | 2024 | Review | Cureus | Abortive and prophylactic migraine therapies in pregnancy |
+| [16018227](https://pubmed.ncbi.nlm.nih.gov/16018227/) | 2005 | Review | Pediatric Annals | Treatment of paediatric migraine |
+
+### Fibromyalgia
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [12753877](https://pubmed.ncbi.nlm.nih.gov/12753877/) | 2003 | RCT | Am J Med | Tramadol/acetaminophen combination for fibromyalgia pain, double-blind, placebo-controlled |
+| [29457627](https://pubmed.ncbi.nlm.nih.gov/29457627/) | 2018 | Systematic review | Cochrane Database Syst Rev | Combination pharmacotherapy for fibromyalgia in adults |
+| [23511692](https://pubmed.ncbi.nlm.nih.gov/23511692/) | 2013 | Randomised crossover trial | Pain Physician | Whether acetaminophen activates endogenous pain inhibition in chronic fatigue syndrome/fibromyalgia |
+
+### Sciatic neuropathy
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26938140](https://pubmed.ncbi.nlm.nih.gov/26938140/) | 2016 | RCT | Acad Emerg Med | IV morphine vs IV paracetamol in sciatica in the emergency department |
+| [33037020](https://pubmed.ncbi.nlm.nih.gov/33037020/) | 2021 | Systematic review | Emerg Med J | Emergency department interventions for low back pain and sciatica |
+
+---
 
 ## South Africa Market Information
 
-Twenty registrations are on file. The five main ones are shown below. Manufacturer, approved indication text and Essential Medicines List (EML) status were not supplied.
+Acetaminophen is marketed in South Africa, with 19 valid single-ingredient registrations in the compiled data and no cancelled registrations. Approved indication text and manufacturer details were not available for any registration, and Essential Medicines List status was not available in the compiled data. Five representative registrations:
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. X/2.8/64 | Antalgic Sf | Syrup | Not stated in supplied data |
-| Reg. No. 45/2.9/0303 | Tramazac co 37.5mg/325mg | Tablet | Not stated in supplied data |
-| Reg. No. 37/5.8/0138 | Sinutab sinus pain non-drowsy | Tablet | Not stated in supplied data |
-| Reg. No. 27/2.7/0352 | Dynadol | Tablet | Not stated in supplied data |
-| Reg. No. A39/5.8/0451 | Efferflu-c | Effervescent tablet | Not stated in supplied data |
+| Reg. No. 54/2.8/0012 | Parafengen IV | Infusion | Not available |
+| Reg. No. 28/2.8/0729 | Tylenol Nightpain | Tablet | Not available |
+| Reg. No. 37/5.8/0138 | Sinutab Sinus Pain Non-Drowsy | Tablet | Not available |
+| Reg. No. 45/2.9/0303 | Tramazac Co 37.5mg/325mg | Tablet | Not available |
+| Reg. No. X/2.8/64 | Antalgic Sf | Syrup | Not available |
 
-Other registered forms include capsules, infusion and suspension.
+Available dosage forms include oral (tablet, effervescent tablet, capsule), syrup, suspension and intravenous infusion.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindications flagged in the knowledge graph** (not label text): liver failure, liver disease, gallbladder disease, cirrhosis of liver, hepatic encephalopathy, hepatic coma.
+- **Drug Interactions** (100 interactions identified; examples):
+  - Moderate: activated charcoal, glycerol phenylbutyrate, naltrexone
+  - Minor: anticholinergics (atropine, hyoscyamine, scopolamine, glycopyrronium, dicyclomine, others), H2 blockers (cimetidine, ranitidine), metoclopramide, liraglutide
+  - Unknown severity: vitamin A, calcitriol
+
+The SAHPRA package-insert warnings and contraindications were not available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are no registered trials and no literature specific to migraine with brainstem aura. The high model score reflects the general link between acetaminophen and migraine, which is already established practice, so this is not a distinct new-indication finding. Other predicted indications in this pack have more direct evidence. Sciatic neuropathy has two Phase 4 randomized emergency department trials of IV paracetamol (NCT02504996 and NCT02777320). Fibromyalgia has a tramadol/acetaminophen RCT in which the acetaminophen contribution cannot be separated.
+- The lead prediction (migraine with brainstem aura) rests on indirect evidence only: acetaminophen is established for migraine generally, but no trials or subtype-specific literature exist (L4). Several other predictions (atrophoderma vermiculata, myositis types, ulerythema ophryogenesis) have no supporting evidence at all.
+- Fibromyalgia and sciatic neuropathy (L3) are the only candidates with some clinical evidence, and the fibromyalgia signal is confounded by tramadol; both remain research questions.
 
 **To proceed, the following is needed:**
-- Subtype-specific evidence, such as trials or case series in migraine with brainstem aura
-- SAHPRA Professional Information (PI) safety data, currently a blocking gap
-- Mechanism of action data from DrugBank
-- The approved indication text for the South African registrations
+- SAHPRA package-insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data from DrugBank
+- Evidence for acetaminophen in migraine with aura subtypes, ideally brainstem aura specifically
+- Acetaminophen-alone data for fibromyalgia, separating its effect from tramadol
+- Review of hepatic risk, given the liver-related contraindications in the knowledge graph, before considering any new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

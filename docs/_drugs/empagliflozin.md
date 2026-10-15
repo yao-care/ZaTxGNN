@@ -2,7 +2,7 @@
 layout: default
 title: Empagliflozin
 parent: Model Prediction Only (L5)
-nav_order: 209
+nav_order: 211
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,87 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Empagliflozin: From SGLT2 Inhibitor Therapy to Focal Stiff Limb Syndrome
+# Empagliflozin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
 
 ## One-Sentence Summary
 
-Empagliflozin is an SGLT2 inhibitor that acts on renal glucose reabsorption and is marketed in South Africa.
-The TxGNN model predicts it may be relevant to **Focal Stiff Limb Syndrome** with a very high score, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-The prediction is model output only and has no biological or clinical support at present.
-
----
+Empagliflozin was originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **focal stiff limb syndrome**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Type 2 diabetes mellitus (the registration records compiled for this report carry no approved-indication text, so this comes from the TxGNN knowledge graph) |
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
-The registration records in the Evidence Pack do not include approved indication text, so the original indication is not listed here.
-
----
-
 ## Why is This Prediction Reasonable?
 
-**It is not well supported.** Detailed mechanism-of-action data is not available in the Evidence Pack. Based on known information, empagliflozin is an SGLT2 inhibitor that lowers blood glucose by reducing renal glucose reabsorption.
+Currently, detailed mechanism of action data is not available. Empagliflozin is known to be an SGLT2 inhibitor that lowers renal glucose reabsorption, and its efficacy in type 2 diabetes mellitus is established.
 
-Focal stiff limb syndrome is a rare disorder in the stiff-person spectrum. It is usually autoimmune (for example anti-GAD65 or anti-amphiphysin) and involves impaired GABAergic inhibition. SGLT2 inhibition has no established effect on this pathway.
+The data compiled for this report do not support a mechanistic link to focal stiff limb syndrome. This is a rare disorder of the stiff-person spectrum, often associated with GAD65 or glycine receptor autoimmunity that impairs inhibitory neurotransmission. No established biological connection between SGLT2 inhibition and this pathology is evident.
 
-The high score (0.99) is a graph-based prediction. It most likely reflects knowledge-graph neighbourhood effects, not biology. Diabetes is a common comorbidity in stiff-person-spectrum disorders because of GAD65 autoimmunity. This may inflate the predicted association without implying any therapeutic benefit.
-
-**Other predictions for this drug** are equally weak:
-- **Classic stiff person syndrome** (score 99.06%, identical to the focal form, which suggests the two disease nodes share the same graph neighbourhood). Standard therapy is GABA-enhancing agents plus immunotherapy, and SGLT2 inhibition has no known effect here.
-- **Opsismodysplasia** (score 99.03%). This is a rare paediatric skeletal dysplasia caused by INPPL1 (SHIP2) loss of function. SHIP2 negatively regulates PI3K/insulin signalling, which may explain the graph link to glucose-metabolism drugs. No evidence shows that SGLT2 inhibition corrects the growth-plate defect. SGLT2 inhibitors also carry safety concerns in children (volume depletion, ketoacidosis).
-
----
+Two further points weaken the prediction:
+- The second-ranked prediction, classic stiff person syndrome, has an identical score (99.06%). This suggests the model is propagating a shared disease-node signal rather than drug-specific evidence.
+- The third-ranked prediction, opsismodysplasia (score 99.03%), is a rare skeletal dysplasia caused by INPPL1 (SHIP2) mutations. SHIP2 is involved in insulin/PI3K signalling, so there is a thematic overlap with a diabetes drug. Empagliflozin does not act on this pathway, so this is hypothesis-generating only, and use in a paediatric skeletal disorder would raise unassessed safety concerns.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 48/21.2/1380 | Jardiance | Tablet (oral) |
-| Reg. No. 48/21.2/0411 | Jardiance | Tablet (oral) |
-| Reg. No. 49/21.2/0915 | Synjardy 5/500 Mg | Tablet (oral) |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 48/21.2/1380 | Jardiance | Tablet | Not available in the compiled data |
+| Reg. No. 48/21.2/0411 | Jardiance | Tablet | Not available in the compiled data |
+| Reg. No. 49/21.2/0915 | Synjardy 5/500 Mg | Tablet | Not available in the compiled data |
 
----
+All three registrations are currently valid, and all are oral tablets. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Drug Interactions**: The interaction screen returned 100 interacting drugs, mostly of Moderate severity, with a few Minor. Examples from the data compiled for this report:
+- **Moderate**: phenylephrine, acebutolol, acetazolamide, formoterol, pseudoephedrine, nifedipine, epinephrine, ethinylestradiol, hydrocortisone, salbutamol, ethanol, fosinopril, furosemide
+- **Minor**: topical hydrocortisone, topical alclometasone
 
----
+Only the first 20 entries were available for review. Please refer to the SAHPRA-approved Professional Information (PI) for warnings, contraindications, and the full interaction profile. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score, with no clinical trials, no literature, and no plausible mechanistic link to the disease biology. The drug is widely available in South Africa, but that availability does not support this new use.
+The prediction is supported only by a model score, with no clinical trials or publications. The identical scores for related stiff-person conditions suggest a shared-node artefact, and no plausible mechanistic link to SGLT2 inhibition is evident.
 
 **To proceed, the following is needed:**
-- Mechanism-of-action data (for example from DrugBank) and a re-assessment of any mechanistic link
-- SAHPRA Professional Information (warnings and contraindications), which is required before any safety screening
-- Preclinical or clinical evidence showing that SGLT2 inhibition affects stiff-person-spectrum pathology
-- For the opsismodysplasia prediction, a paediatric safety assessment before any consideration
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanism of action data, to allow a proper mechanistic-link analysis
+- SAHPRA Professional Information (warnings and contraindications), which is a blocking gap for safety screening
+- Independent preclinical or mechanistic evidence linking SGLT2 inhibition to stiff-person-spectrum or related pathology
+- A literature and trial registry search (including SANCTR and PACTR) to confirm no relevant studies exist
+- Safety assessment for the target population, including paediatric considerations if opsismodysplasia is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

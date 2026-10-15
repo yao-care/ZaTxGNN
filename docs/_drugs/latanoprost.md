@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Latanoprost
-parent: High Evidence (L1-L2)
-nav_order: 286
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 288
+evidence_level: L4
 indication_count: 10
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,39 +29,36 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Latanoprost: From Ocular Hypotensive Therapy to Primary Hereditary Glaucoma
+# Latanoprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Latanoprost is a prostaglandin F2-alpha analogue eye drop that is already marketed in South Africa as an anti-glaucoma agent. The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, with **1 clinical trial** (Phase 2, completed) and **no publications** currently supporting this direction. This may be a label-extension or subtype question rather than true repurposing.
+Latanoprost is a prostaglandin F2-alpha analogue originally used to treat open-angle glaucoma and ocular hypertension.
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but the data compiled for this report contain **no clinical trials and no publications** for this indication, so the prediction is not yet backed by clinical evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA records supplied (latanoprost is a marketed anti-glaucoma agent) |
+| Original Indication | Open-angle glaucoma; ocular hypertension (from the TxGNN knowledge graph, as no approved indication text is available in the SAHPRA records compiled) |
 | Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 3 |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Latanoprost is a prostaglandin F2-alpha analogue. It lowers intraocular pressure by increasing uveoscleral outflow, so its mechanism fits glaucoma directly.
+Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, latanoprost is a prostaglandin F2-alpha analogue that lowers intraocular pressure (IOP) by increasing uveoscleral outflow of aqueous humour. This is the basis of its use in open-angle glaucoma.
 
-The registration records list no approved indication text, so the relationship between the original and predicted indications cannot be confirmed from the data. Latanoprost is already used as a glaucoma drug. The prediction may therefore concern a specific subtype (hereditary or paediatric glaucoma) rather than a new disease area.
+Primary hereditary (including congenital) glaucoma is also an IOP-driven disease, so an IOP-lowering drug is biologically plausible. The very high TxGNN score probably reflects the similarity of this condition to the approved glaucoma indication. It is a model prediction, not clinical evidence.
 
-The single supporting trial title is truncated, so the exact glaucoma subtype cannot be confirmed. The trial also tested a prostaglandin analogue together with a carbonic anhydrase inhibitor. The effect specific to latanoprost may therefore be confounded.
+There are important caveats. In congenital forms, trabecular meshwork dysgenesis may limit the response to drugs that target outflow. The paediatric safety profile would also need separate evaluation.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Assessed the intraocular-pressure-lowering effect and safety of latanoprost and dorzolamide in paediatric glaucoma patients refractory to surgery (2009-2016). Results, randomisation and design are unverified. |
-
-No SANCTR or PACTR registrations were identified in the supplied data.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
@@ -71,31 +68,52 @@ Currently no related literature available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 46/15.4/0918 | Spersatan | Drops | Not stated in the records supplied |
-| Reg. No. 51/15.4/0618 | Aglatan | Drops | Not stated in the records supplied |
-| Reg. No. 47/15.4/0528 | Co-atana 2.5ml | Drops | Not stated in the records supplied |
+| Reg. No. 46/15.4/0918 | Spersatan | Drops | Not available in the compiled data |
+| Reg. No. 51/15.4/0618 | Aglatan | Drops | Not available in the compiled data |
+| Reg. No. 47/15.4/0528 | Co-atana 2.5ml | Drops | Not available in the compiled data |
 
-Essential Medicines List (EML) status was not included in the Evidence Pack and should be checked separately.
+All three registrations are valid single-ingredient products in drop form. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The DDI query returned no records (not found).
+- **Conditions flagged in the knowledge graph as contraindication links** (these come from drug-disease graph edges, not from label text): uveitis, iris disease, ciliary body disease, panuveitis, macular retinal edema, cystoid macular edema, iritis, conjunctivitis, and acute contagious conjunctivitis.
+- **Drug Interactions:** An interaction screen returned 100 potential interacting drugs, but none has a defined severity level. Examples include calcitriol, glimepiride, doxycycline, clotrimazole, atropine, metformin, omeprazole, prednisone, triamcinolone and simvastatin. Because severity is unclassified, these should not be read as clinically significant without further review.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-One completed Phase 2 trial in paediatric glaucoma, a mechanism that fits glaucoma, and an existing South African market presence support further evaluation. The evidence is limited by the small sample, the combination-therapy design and unverified results. The safety data gap is also blocking.
+The mechanism is plausible for an IOP-driven disease, but there are no trials or publications for primary hereditary glaucoma. The label safety data are also missing, and the paediatric relevance is unaddressed. The prediction is a research question at this stage.
 
 **To proceed, the following is needed:**
-- Download and review the SAHPRA package inserts for warnings and contraindications (blocking data gap).
-- Verify the design, population, subtype and results of NCT01527682, and confirm whether latanoprost-specific effects can be separated from the combination.
-- Check the current SAHPRA label for hereditary or paediatric glaucoma coverage, and obtain the approved indication text for the three registrations.
-- Obtain mechanism of action data from DrugBank.
-- Run a formal literature search. Other predictions, such as hypotrichosis simplex of the scalp (biologically plausible through the known hair-growth effect of prostaglandin analogues), remain prediction only with no supporting studies.
+- A literature and trial search specific to latanoprost in primary hereditary and congenital glaucoma, including paediatric data
+- The SAHPRA Professional Information (warnings, contraindications, approved indications) for the three registered products
+- Detailed mechanism of action data
+- Review of the unclassified drug interactions and of the knowledge-graph contraindication signals, especially for inflammatory eye conditions
+- A paediatric safety and dosing assessment, plus expert ophthalmology input on whether outflow-targeted therapy can work in trabecular dysgenesis
+
+---
+
+### Other Predicted Indications (for reference)
+
+All of the following have no trials or literature in the compiled data, and all are model predictions only.
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 2 | Visceral calciphylaxis | 99.83% | L5 | Hold. No clear mechanistic link; minimal systemic exposure from eye drops |
+| 3 | Hypotrichosis simplex of the scalp | 99.81% | L4 | Research question. Prostaglandin analogues prolong the hair growth phase, but responsiveness in this genetic disorder is unestablished |
+| 4 | Arterial thoracic outlet syndrome | 99.78% | L5 | Hold. Mechanical compression condition |
+| 5 | Venous thoracic outlet syndrome | 99.78% | L5 | Hold. Identical score to rank 4 suggests a graph artefact |
+| 6 | Neurogenic thoracic outlet syndrome | 99.72% | L5 | Hold. No plausible link |
+| 7 | Congenital hypotrichosis milia | 99.71% | L4 | Research question. Indirect hair-follicle rationale only |
+| 8 | Angiodysplasia of stomach | 99.70% | L5 | Hold. Vasodilation could theoretically worsen bleeding |
+| 9 | Blue toe syndrome | 99.69% | L5 | Hold. Source treatment (atheroembolism or thrombosis) is needed |
+| 10 | Lymphangiectasis | 99.67% | L5 | Hold. Relevance to lymphatic vessels unclear |
+
+Of these, the hair-growth disorders (ranks 3 and 7) have the most biologically plausible rationale after hereditary glaucoma, but remain unproven.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Doxycycline
 parent: Moderate Evidence (L3-L4)
-nav_order: 200
+nav_order: 202
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,34 +29,32 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Doxycycline: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Doxycycline: From Bronchitis and Other Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Doxycycline is a tetracycline-class antibiotic. The SAHPRA registration data supplied contain no approved-indication text, so this describes its general use against bacterial infections.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**.
-Evidence is very thin: **0 clinical trials** and **1 publication**, a 1992 case report that does not test doxycycline as a treatment for this condition.
+Doxycycline is a tetracycline antibiotic, originally used for bacterial infections such as bronchitis, pneumonia, acne, gonorrhoea and anthrax.
+The TxGNN model predicts it may be useful for **punctate epithelial keratoconjunctivitis**, but the support is very thin: **no clinical trials** and **1 publication** (a 1992 case report).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Bronchitis, acne, bacterial pneumonia, anthrax, gonorrhoea and other bacterial infections (from the TxGNN knowledge graph; the SAHPRA registrations in the data compiled for this report carry no indication text) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L4 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 (3 unique registration numbers) |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
-
-The original indication is not shown in the table because the SAHPRA records supplied contain no approved-indication text.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Doxycycline is a broad-spectrum antibiotic. It is an established treatment for chlamydial conjunctivitis, so it may be mechanistically applicable to eye-surface disease with an infectious trigger.
+Currently, detailed mechanism of action data is not available. Based on known information, doxycycline is a tetracycline-class antibiotic. Its efficacy in bacterial infections, including chlamydial infection, is established, and mechanistically it may be applicable to punctate epithelial keratoconjunctivitis.
 
-The only supporting paper describes two patients who developed punctate epithelial keratitis after chlamydial follicular conjunctivitis. Both had been treated with oral tetracycline or doxycycline, and the follicles resolved. The punctate corneal lesions then appeared *after* treatment, and recurred. The link is therefore indirect. It shows that doxycycline treats the preceding infection, not that it treats punctate epithelial keratoconjunctivitis itself.
+The only supporting paper describes two patients with chlamydial follicular conjunctivitis. Both were treated with oral tetracycline or doxycycline, and the follicles resolved. Both then developed recurrent punctate epithelial keratitis. This shows the condition can follow a chlamydial eye infection that doxycycline treats. It does not show that doxycycline treats the keratitis itself.
 
-Doxycycline may also have anti-inflammatory effects on the ocular surface through inhibition of matrix metalloproteinases (MMPs). This is speculative and not supported by the data provided.
+Tetracyclines are also known to have anti-inflammatory and MMP-inhibiting effects on the ocular surface, which could plausibly help here. This link is indirect, and no study in the data compiled for this report tests doxycycline for this condition.
 
 ## Clinical Trial Evidence
 
@@ -66,35 +64,48 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case report/series | Cornea | Two cases of chlamydial follicular conjunctivitis, treated with oral tetracycline or doxycycline, were followed by recurrent bilateral punctate epithelial keratitis. The follicles resolved, but the corneal lesions persisted or recurred. |
+| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case report | Cornea | Two cases of chlamydial follicular conjunctivitis treated with oral tetracycline or doxycycline. The follicles resolved, but both patients later had recurrent bilateral punctate epithelial keratitis. Doxycycline was not shown to treat the keratitis. |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 31/20.1.1/0425 | Doxycycline biotech | Tablet |
-| Reg. No. 32/20.1.1/0254 | Doxytet | Capsule |
-| Reg. No. 32/20.1.1/0117 | Doxymed | Tablet (listed twice in the source data) |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 31/20.1.1/0425 | Doxycycline biotech | Tablet | Not stated in the data compiled |
+| Reg. No. 32/20.1.1/0254 | Doxytet | Capsule | Not stated in the data compiled |
+| Reg. No. 32/20.1.1/0117 | Doxymed | Tablet | Not stated in the data compiled |
 
-All products are oral. Approved-indication text and Essential Medicines List (EML) status were not available in the data supplied.
+All three registrations are valid, single-ingredient oral products. No ophthalmic formulation is registered.
+
+## Other Predicted Indications With Stronger Evidence
+
+The model produced other predictions for doxycycline, and some have more support than the lead one. This table is for context only.
+
+| Predicted Indication | Evidence Level | Supporting Evidence | Suggested Stance |
+|------|------|------|------|
+| Chronic gingivitis | L2 | Several controlled trials of sub-antimicrobial-dose or locally delivered doxycycline as an adjunct to scaling and root planing, plus a systematic review and meta-analysis. Most work is in periodontitis rather than gingivitis. | Proceed with Guardrails |
+| Post-bacterial disorder | L1 | Completed doxy-PEP trials (e.g. NCT04050540, NCT03980223) and a Phase 2/3 relapsing-fever prophylaxis trial (NCT00237016). These show infection prevention, not treatment of a distinct post-bacterial disorder. | Research Question |
+| Post-infectious syndrome | L2 | Doxy-PEP prevention trials only. No direct efficacy evidence for a post-infectious syndrome. | Research Question |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindication-related conditions (knowledge graph, not label text):** *Clostridium difficile* colitis, perinatal necrotizing enterocolitis and dyskinesia of the oesophagus.
+- **Drug interactions:** 100 interactions were found. The first 20 retrieved include three rated **Major**: isotretinoin, acitretin and aminolevulinic acid. Moderate interactions include aluminium hydroxide, aminophylline, amoxicillin, ampicillin and bedaquiline.
+
+The SAHPRA package insert warnings and contraindications were not available for this report. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is backed by a single 1992 case report. That report shows doxycycline treating the preceding chlamydial infection, not the punctate keratitis that followed, and no clinical trials are registered. The evidence does not yet justify moving forward.
+The high TxGNN score rests on a single 1992 case report. There are no registered trials and no evidence that doxycycline treats punctate epithelial keratoconjunctivitis. It is therefore classed as L4, mechanistic and indirect evidence only.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data, for example from the DrugBank API
-- Controlled clinical evidence in punctate epithelial keratoconjunctivitis, including any trials in the SANCTR or PACTR registers
-- A route-compatibility assessment. Only oral tablet and capsule forms are registered, so an ophthalmic formulation would be a separate question.
-- Consider prioritising other predictions in the same Evidence Pack that have more supporting literature, such as chronic gingivitis and periodontitis, where the literature covers locally delivered and sub-antimicrobial-dose doxycycline
+- Controlled clinical or well-designed preclinical data on doxycycline (oral or ophthalmic) for punctate epithelial keratoconjunctivitis
+- Detailed mechanism of action data to support the proposed anti-inflammatory and MMP-inhibiting link
+- The SAHPRA PI warnings and contraindications, to complete the safety screen
+- A route assessment: all registered products are oral, and no ophthalmic product is registered
+- Consideration of prioritising chronic gingivitis (L2) for further evaluation instead
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

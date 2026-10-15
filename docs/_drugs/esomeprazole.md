@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Esomeprazole
-parent: Moderate Evidence (L3-L4)
-nav_order: 215
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 217
+evidence_level: L5
 indication_count: 10
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,93 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Esomeprazole: Predicted New Indication of Duodenogastric Reflux
+# Esomeprazole: From Peptic Ulcer Disease and Reflux Disease to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Esomeprazole is a proton pump inhibitor (PPI) that suppresses gastric acid, and it is registered in South Africa in three products.
-The TxGNN model predicts it may be useful for **duodenogastric reflux**, but only **1 general review article** and **no clinical trials** currently support this direction.
+Esomeprazole is a proton pump inhibitor (PPI) originally used for acid-related conditions such as peptic ulcer disease, gastroesophageal reflux disease (GORD), reflux oesophagitis and Zollinger-Ellison syndrome.
+The TxGNN model predicts it may be effective for **duodenogastric reflux** (bile reflux into the stomach).
+This is supported by **no registered clinical trials** and only **1 general review article**, so the prediction is currently unproven.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, reflux oesophagitis, Zollinger-Ellison syndrome (no approved-indication text is available in the SAHPRA records) |
 | Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.53% |
-| Evidence Level | L4 |
+| Evidence Level | L4 (mechanistic rationale only; no disease-specific studies) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input. From general PPI pharmacology, esomeprazole irreversibly inhibits the gastric H+/K+ ATPase (the proton pump), which reduces acid injury to the stomach lining.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Esomeprazole belongs to the PPI class, which suppresses gastric acid. In reflux-related disease, this may reduce mucosal injury and relieve symptoms.
 
-Duodenogastric (bile) reflux is mainly a non-acid process, so the mechanistic fit is weak. A PPI could at most relieve symptoms by lowering the acid component of the refluxate. It would not stop the reflux itself. The high model score (99.53%) is therefore better read as a knowledge-graph association than as evidence of a true therapeutic effect.
+The prediction has an important limitation. Duodenogastric (bile) reflux is driven mainly by duodenal contents such as bile and pancreatic fluid, not by acid. A PPI would therefore offer, at best, symptomatic benefit by lowering the acid component of mucosal irritation. It would not address the cause. The one supporting reference is a general review of PPI clinical use and pharmacokinetics, and it does not examine this condition.
 
-Other predicted indications for this drug have much stronger support, notably **duodenal ulcer** (rank 3, Phase 3 evidence) and **active peptic ulcer disease** (rank 4, Phase 4 and Phase 2 evidence). These are acid-related conditions and probably reflect existing PPI use rather than true repurposing.
+The high TxGNN score likely reflects the closeness of this condition to acid-related upper gastrointestinal diseases in the knowledge graph. It should not be read as evidence of benefit.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for duodenogastric reflux.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General update on PPI clinical use and pharmacokinetics. It covers peptic ulcer, H. pylori infection, gastro-oesophageal reflux disease, NSAID-induced lesions and Zollinger-Ellison syndrome. It does not address duodenogastric reflux directly. |
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | Eur J Clin Pharmacol | General update on PPI clinical use and pharmacokinetics. PPIs are first-choice drugs for peptic ulcer, H. pylori infection, GORD, NSAID-induced GI lesions and Zollinger-Ellison syndrome. It does not address duodenogastric reflux. |
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form |
 |---------|------|------|
-| Reg. No. 51/11.4.3/0932 | Nectizole Iv | Infusion |
-| Reg. No. 45/11.4.3/0121 | Nexipraz Otc | Tablet |
-| Reg. No. 45/3.1/0179 | Vimovo 500/20mg | Tablet |
+| Reg. No. 51/11.4.3/0932 | Nectizole IV | Infusion |
+| Reg. No. 45/11.4.3/0121 | Nexipraz OTC | Tablet |
+| Reg. No. 45/3.1/0179 | Vimovo 500/20 mg | Tablet |
 
-Available routes are injectable (infusion) and oral (tablet).
+All three registrations are currently valid. Both injectable (infusion) and oral (tablet) routes are available. Approved indication text and Essential Medicines List status were not available in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Conditions flagged in the knowledge graph (not label text):** The TxGNN knowledge graph lists drug-disease contraindication links for liver failure, osteoporosis, postmenopausal osteoporosis, bone fracture and chronic atrophic gastritis. These need verification against the approved Professional Information (PI).
+- **Drug interactions:** The interaction query returned 100 entries, and the first 20 were reviewed.
+  - **Major:** acalabrutinib and atazanavir.
+  - **Moderate:** abametapir (topical), hydrochlorothiazide, amphotericin B (including the lipid complex), amikacin, amphetamine, fenofibrate, apalutamide, armodafinil, atorvastatin, bendamustine, bosutinib and bumetanide.
+  - **Minor:** acetylsalicylic acid, axitinib, bortezomib, brivaracetam and cyanocobalamin.
+
+Label-based warnings and contraindications were not available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials and only one general review. Bile reflux is largely non-acid, so the mechanistic link is weak. Esomeprazole is already marketed in South Africa, but nothing in the input supports using it for this specific condition.
+There are no clinical trials and no disease-specific publications for duodenogastric reflux. Bile reflux is not primarily acid-driven, so any benefit would likely be limited to symptoms. The prediction rests on model score and general PPI pharmacology.
+
+Other predicted indications in this analysis, such as duodenal ulcer and active peptic ulcer disease, have much stronger trial support. They are essentially on-label or closely related uses rather than true repurposing.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert data (approved indications, warnings, contraindications), which is currently missing and blocks safety screening
-- Mechanism of action data from DrugBank
-- Clinical or observational studies of PPIs in duodenogastric (bile) reflux, to show whether symptom relief occurs
-- A separate review of duodenal ulcer and active peptic ulcer disease, which have the strongest evidence in this pack, to confirm whether they are already covered by the registered indications
+- Disease-specific clinical or observational data on PPIs, or esomeprazole specifically, in duodenogastric (bile) reflux, including symptom and mucosal outcomes
+- Clarification of whether the expected benefit is symptomatic only
+- The SAHPRA Professional Information (PI) for warnings, contraindications and approved indications
+- Detailed mechanism-of-action data
+- A review of long-term PPI safety (for example bone health and interactions) if prolonged use is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Levodopa
 parent: Model Prediction Only (L5)
-nav_order: 291
+nav_order: 293
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,116 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Levodopa: From Parkinson's Disease to Rasmussen Subacute Encephalitis
+# Levodopa: From Parkinson Disease to Rasmussen Subacute Encephalitis
 
 ## One-Sentence Summary
 
-Levodopa is a dopamine-replacement medicine, used mainly for Parkinson's disease and marketed in South Africa in several combination products.
-The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**, but there are **0 clinical trials** and **0 publications** supporting this direction.
-The high score is a graph-based prediction only, with no mechanistic rationale identified.
+Levodopa is a dopamine precursor, originally used to treat Parkinson disease and related parkinsonian disorders.
+The TxGNN model's top-ranked prediction is **Rasmussen subacute encephalitis** (score 99.06%), but there are **0 clinical trials** and **0 publications** supporting it. Among the ten predicted indications, the better-supported directions are **PLA2G6-associated neurodegeneration**, **Lewy body dementia** and **multiple system atrophy, parkinsonian type**, all of which rest on case-level or review-level evidence only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (standard use of levodopa products; the SAHPRA indication text was not captured in the source data) |
+| Original Indication | Parkinson disease and related parkinsonian disorders (SAHPRA indication text not available) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this record. Levodopa is known to act as a dopamine precursor, and its efficacy in parkinsonism is well established.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Levodopa is known to be converted to dopamine in the brain, replacing the dopamine lost in the nigrostriatal pathway in Parkinson disease. Its efficacy in Parkinson disease is well established, and it may be applicable to other conditions that involve a similar dopamine deficiency.
 
-Rasmussen encephalitis is an immune-mediated inflammatory disease that affects one brain hemisphere. Dopamine replacement has no established role in it, so this prediction has **no clear mechanistic link**. No trials or publications were retrieved for this pairing. The high TxGNN score most likely reflects patterns in the knowledge graph rather than a biologically supported new use.
+For the top-ranked prediction, **Rasmussen subacute encephalitis**, no plausible direct mechanism is supported. It is an autoimmune, inflammatory epilepsy syndrome with progressive unilateral hemispheric atrophy. The high score probably reflects an indirect, graph-derived association (for example, shared parkinsonism-related nodes) rather than a real pharmacological link.
+
+The more biologically plausible predictions are those involving nigrostriatal dopaminergic dysfunction:
+
+- **PLA2G6-associated neurodegeneration (rank 2):** Case series describe levodopa-responsive parkinsonism, at least initially. Levodopa would be symptomatic only, and the response often wanes with disease progression, with a risk of dyskinesia and motor fluctuations.
+- **Lewy body dementia (rank 8):** It shares nigrostriatal loss with Parkinson disease, and levodopa is used for motor symptoms with modest benefit. Hallucinations and confusion are the main concerns.
+- **Multiple system atrophy, parkinsonian type (rank 9) and progressive supranuclear palsy-corticobasal syndrome (rank 7):** Responses are typically partial and short-lived. Levodopa may also worsen orthostatic hypotension in MSA-P.
+- **X-linked intellectual disability-ataxia-apraxia syndrome (rank 10):** The supporting literature actually concerns MCT8 deficiency (Allan-Herndon-Dudley syndrome), where levodopa/carbidopa responses have been reported. The disease mapping is imprecise.
+
+Several other predictions have no plausible mechanism (transaldolase deficiency, fructose-1,6-bisphosphatase deficiency). "Paralysis agitans, juvenile, of Hunt" is a historical term for juvenile parkinsonism that overlaps the existing indication and is not a new opportunity. Myelitis is supported only by case reports of parkinsonism occurring alongside myelitis, not by evidence of benefit for myelitis itself.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+There are no registered clinical trials for the top-ranked indication (Rasmussen subacute encephalitis). The trials below are linked to other predicted indications and are shown for context.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT06831500](https://clinicaltrials.gov/study/NCT06831500) | Phase 1/2 | Recruiting | 36 | Randomized, double-blind feasibility study of carbidopa/levodopa ratio and orthostatic hypotension in MSA-P and Parkinson disease (CARBIDOH). Relevance to levodopa efficacy in MSA-P needs verification. |
+| [NCT02994719](https://clinicaltrials.gov/study/NCT02994719) | N/A | Active, not recruiting | 120 | Observational gait pattern analysis in neurological disease, including parkinsonian disorders. It does not test levodopa efficacy (listed for PSP-CBS and MSA-P). |
+
+No SANCTR or PACTR identifiers were found in the data compiled for this report.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications were found for Rasmussen subacute encephalitis. The most relevant publications for the other predicted indications are listed below.
 
-## Other Predicted Indications With More Evidence
-
-The same Evidence Pack contains other predictions with more support than the top-ranked one. All are symptomatic (dopaminergic) rationales, not disease modification.
-
-| Predicted Indication | TxGNN Score | Evidence Level | Key Points |
-|------|------|------|------|
-| PLA2G6-associated neurodegeneration | 98.75% | L3 | Case series and reviews report levodopa-responsive parkinsonism, but the response is often partial and wanes over time. Several retrieved papers concern other NBIA genes and are only indirectly relevant. |
-| Lewy body dementia | 97.25% | L4 | Reviews and consensus reports discuss levodopa for motor features. There is no direct levodopa RCT, and dopaminergic therapy may worsen hallucinations. |
-| Multiple system atrophy, parkinsonian type | 97.02% | L4 | Reviews and case reports show modest, non-sustained benefit. One Phase 1/2 trial ([NCT06831500](https://clinicaltrials.gov/study/NCT06831500), recruiting) examines the carbidopa/levodopa ratio on orthostatic hypotension. Its intervention needs verification. |
-| Progressive supranuclear palsy-corticobasal syndrome | 97.58% | L4 | Only reviews and non-interventional or device studies. Response is usually poor or transient. |
-| Paralysis agitans, juvenile, of Hunt | 98.03% | L5 | Biologically plausible, but likely a synonym or ontology overlap with Parkinson's disease. Needs manual disease-term review. |
-
-The remaining predictions (myelitis, transaldolase deficiency, fructose-1,6-bisphosphatase deficiency, X-linked intellectual disability-ataxia-apraxia syndrome) have no mechanistic link or only indirect evidence.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26085043](https://pubmed.ncbi.nlm.nih.gov/26085043/) | 2015 | Systematic review/Meta-analysis | Am J Psychiatry | Pharmacological management of Lewy body dementia (Lewy body dementia) |
+| [36402160](https://pubmed.ncbi.nlm.nih.gov/36402160/) | 2022 | Phase 3 RCT | Lancet Neurol | Subcutaneous foslevodopa-foscarbidopa in advanced Parkinson disease. This is an indirect study and does not concern Lewy body dementia. |
+| [16237129](https://pubmed.ncbi.nlm.nih.gov/16237129/) | 2005 | Consensus guideline | Neurology | Diagnosis and management of dementia with Lewy bodies (Lewy body dementia) |
+| [34622992](https://pubmed.ncbi.nlm.nih.gov/34622992/) | 2022 | Review/Cohort | Mov Disord | Complex parkinsonism is the commonest phenotype in late-onset PLA2G6-associated neurodegeneration |
+| [39184971](https://pubmed.ncbi.nlm.nih.gov/39184971/) | 2024 | Cohort | Tremor Other Hyperkinet Mov | Clinical, radiological and genetic spectrum of PLA2G6-associated neurodegeneration |
+| [32183746](https://pubmed.ncbi.nlm.nih.gov/32183746/) | 2020 | Case series | BMC Neurol | Genotype-phenotype correlations in adult-onset PLA2G6-associated neurodegeneration |
+| [40088079](https://pubmed.ncbi.nlm.nih.gov/40088079/) | 2025 | Cohort/Case series | Mov Disord | MCT8 deficiency patients show parkinsonism in childhood and respond to levodopa/carbidopa |
+| [27787721](https://pubmed.ncbi.nlm.nih.gov/27787721/) | 2016 | Review | Curr Treat Options Neurol | Treatment of MSA is purely symptomatic, with no disease-modifying therapy |
+| [17534959](https://pubmed.ncbi.nlm.nih.gov/17534959/) | 2007 | Review | Mov Disord | Levodopa responsiveness differs across parkinsonian disorders |
+| [30051337](https://pubmed.ncbi.nlm.nih.gov/30051337/) | 2018 | Review | CNS Drugs | Therapeutic management of overlapping atypical parkinsonian syndromes |
 
 ## South Africa Market Information
 
-Six SAHPRA registrations were found. The five main ones are listed below; approved indication text was not available in the source data.
+Levodopa is marketed in South Africa, with six valid single-ingredient registrations in the data compiled for this report. Approved indication text and Essential Medicines List status were not available.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 32/5.4.1/0081 | Teva carbi-levo 25/100 | Tablet |
-| Reg. No. 31/5.4.1/0194 | Madopar HBS 100mg/25mg | Capsule |
-| Reg. No. 45/5.4.1/0765 | Lecardop 25/100 | Tablet |
-| Reg. No. R/3.1/50 | Panamor AT | Tablet |
-| Reg. No. 8/5.4.1/0138 | Stalevo 100/25 | Tablet |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 32/5.4.1/0081 | Teva Carbi-Levo 25/100 | Tablet | Not available |
+| Reg. No. 31/5.4.1/0194 | Madopar HBS 100mg/25mg | Capsule | Not available |
+| Reg. No. 45/5.4.1/0765 | Lecardop 25/100 | Tablet | Not available |
+| Reg. No. R/3.1/50 | Panamor AT | Tablet | Not available |
+| Reg. No. 8/5.4.1/0138 | Stalevo 100/25 | Tablet | Not available |
 
-All available products are oral (tablet or capsule).
+A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+SAHPRA package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+**Contraindication-related conditions (from the knowledge graph, not label text):** The knowledge graph links levodopa to contraindications or cautions in the following areas. These must be verified against the PI.
+
+- **Neurological and autonomic:** multiple system atrophy, orthostatic hypotension, postural orthostatic tachycardia syndrome, drug-induced dyskinesia, epilepsy
+- **Psychiatric:** psychotic disorder, schizophreniform disorder, schizoaffective disorder, mental disorder, anxiety disorder, neurotic disorder, dysthymic disorder
+- **Cardiovascular:** myocardial infarction, coronary thrombosis, sudden cardiac arrest, heart conduction disease
+- **Gastrointestinal, hepatic and renal:** peptic ulcer disease, gastric ulcer, diarrheal disease, liver disease, gallbladder disease, kidney disease, pyoureter
+- **Eye:** open-angle glaucoma, angle-closure glaucoma
+- **Metabolic and other:** diabetes mellitus, diabetic ketoacidosis, melanoma, hemoglobinopathy
+
+Several of these matter for the predicted indications: orthostatic hypotension and multiple system atrophy are relevant to the MSA-P prediction, and psychotic disorder is relevant to the Lewy body dementia prediction.
+
+**Drug interactions:** The interaction screen returned 100 interacting drugs. The 20 shown in the data compiled for this report are:
+
+- **Moderate:** epinephrine, ephedrine, bupropion, metronidazole, pyridoxine, iron, metoclopramide, and anticholinergic or antimuscarinic agents (methscopolamine, hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, mepenzolate)
+- **Minor:** antacids (aluminium hydroxide, calcium carbonate, magaldrate, magnesium carbonate, magnesium hydroxide, magnesium oxide)
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Rasmussen subacute encephalitis) has no trials, no literature and no plausible mechanism. It is a model output only (L5) and should not be pursued.
+The top-ranked prediction, Rasmussen subacute encephalitis, has no trials, no literature and no plausible direct mechanism, so it is at evidence level L5. Other predictions (PLA2G6-associated neurodegeneration, Lewy body dementia, MSA-P) have more plausible mechanisms but rest on case series, reviews and one small feasibility trial, so they remain research questions rather than candidates for clinical adoption.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Manual review of the disease-term mapping, especially for "paralysis agitans, juvenile, of Hunt"
-- If the team wants to advance a levodopa candidate, consider PLA2G6-associated neurodegeneration, Lewy body dementia or MSA-P as research questions instead. Each needs prospective evidence beyond case series and reviews.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Download and review the SAHPRA package insert to obtain warnings, contraindications and approved indications (a blocking gap for safety screening)
+- Obtain mechanism of action data from DrugBank
+- For Rasmussen subacute encephalitis, a clear mechanistic rationale before any further investigation
+- For PLA2G6-associated neurodegeneration, Lewy body dementia and MSA-P, prospective controlled studies of levodopa that assess motor benefit against neuropsychiatric and orthostatic adverse effects
+- Confirmation of the intervention and relevance of NCT06831500
+- Evaluation of route and formulation compatibility for any candidate indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

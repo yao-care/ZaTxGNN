@@ -2,7 +2,7 @@
 layout: default
 title: Clavulanic Acid
 parent: Model Prediction Only (L5)
-nav_order: 128
+nav_order: 130
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,84 +29,115 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clavulanic Acid: From Beta-Lactamase Inhibition in Bacterial Infections to Ureaplasma Urethritis
+# Clavulanic Acid: From Bacterial Infections to Gonococcal Urethritis
 
 ## One-Sentence Summary
 
-Clavulanic acid is a beta-lactamase inhibitor, usually paired with amoxicillin to treat bacterial infections.
-The TxGNN model predicts it may be effective for **Ureaplasma urethritis**, but there are **0 clinical trials** and **0 publications** for this indication, so the prediction rests on the model score alone.
-The prediction is also mechanistically implausible, because Ureaplasma has no cell wall.
+Clavulanic acid is a beta-lactamase inhibitor, used with amoxicillin to treat bacterial infections such as urinary tract infection, pneumonia, and staphylococcal and *Escherichia coli* infections.
+The TxGNN model's top-ranked prediction is **Ureaplasma urethritis**, but this prediction is not biologically credible. The best-supported direction is **gonococcal urethritis**, which has **9 publications** (mostly 1980s clinical studies) and **no registered clinical trials**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data provided; known use is as an amoxicillin partner in bacterial infections |
-| Predicted New Indication | Ureaplasma urethritis |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 (model prediction only) |
+| Original Indication | Urinary tract infection, bacterial pneumonia, staphylococcal infection, *E. coli* infection, Klebsiella pneumonia (no approved indication text is available from the SAHPRA records) |
+| Predicted New Indication | Ureaplasma urethritis (rank 1, model score only); gonococcal urethritis (rank 2) is the best-supported alternative |
+| TxGNN Prediction Score | 99.93% (Ureaplasma urethritis); 99.93% (gonococcal urethritis) |
+| Evidence Level | L5 or L4 for Ureaplasma urethritis (no direct evidence); L3 for gonococcal urethritis |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 14 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (Ureaplasma urethritis); gonococcal urethritis is a research question only |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, clavulanic acid is a beta-lactamase inhibitor. It protects partner beta-lactam antibiotics, mainly amoxicillin, from being broken down by bacterial enzymes.
+Currently, detailed mechanism of action data is not available. Based on known information, clavulanic acid is a beta-lactamase inhibitor given in combination with amoxicillin. Its efficacy against beta-lactamase-producing bacteria is established, and mechanistically it may be applicable to some urogenital infections.
 
-This mechanism does not fit Ureaplasma urethritis. Ureaplasma species have no cell wall, so beta-lactam antibiotics have no target to act on, and protecting one from beta-lactamase adds nothing. The high score (99.93%) is therefore not supported by known pharmacology. It probably reflects the drug's close association with many infection-related diseases in the knowledge graph.
+**Ureaplasma urethritis (top prediction):** The prediction is unlikely to hold. *Ureaplasma* has no cell wall, so it is intrinsically resistant to beta-lactams, and clavulanic acid has no activity against it. The high score probably reflects the model's network proximity to other urethritis indications rather than a real mechanistic link. The retrieved literature covers general urethritis diagnosis and empirical treatment and contains no direct evidence for amoxicillin-clavulanate against *Ureaplasma*.
 
-The other top predictions show the same pattern. Gonococcal urethritis, uterine inflammatory disease and urogenital tuberculosis have a plausible bacterial or beta-lactamase link. Several others, such as abdominal cystic lymphangioma and celiac trunk compression syndrome, have no plausible link at all and are probably model artifacts.
+**Gonococcal urethritis (best-supported alternative):** Here the rationale is sound. Clavulanate inhibits the penicillinase of *Neisseria gonorrhoeae*, restoring amoxicillin activity. Several 1980s studies report good cure rates. However, these studies are old, small, and mostly non-randomized, and they predate current resistance patterns. Current guidelines favour ceftriaxone-based regimens, so the practical value is limited to historical or resistance-specific contexts.
+
+The remaining predictions (ranks 3 to 10) are weak. Uterine inflammatory disease has only indirect evidence. Urogenital tuberculosis has a loose in vitro rationale (clavulanate inhibits the mycobacterial beta-lactamase BlaC) but no supporting clinical evidence. The others (for example, celiac trunk compression syndrome, abdominal ectopic pregnancy, and abdominal cystic lymphangioma) appear to be network artifacts with no plausible mechanism.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Ureaplasma urethritis. No SANCTR or PACTR entries were provided.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available for Ureaplasma urethritis.
+Gonococcal urethritis (rank 2), the best-supported indication:
 
-## Other Predicted Indications Reviewed
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [6365235](https://pubmed.ncbi.nlm.nih.gov/6365235/) | 1984 | Comparative clinical study | Br J Vener Dis | 121 men: single-dose amoxicillin 3 g + clavulanate 250 mg vs IM procaine penicillin; 9.4% still culture-positive at 7 days vs 26.3% |
+| [6428699](https://pubmed.ncbi.nlm.nih.gov/6428699/) | 1984 | Clinical study (two-dose) | Br J Vener Dis | 192 men: Augmentin two-dose cure rate 95.9% vs 87.4% for kanamycin; also effective against PPNG |
+| [3533755](https://pubmed.ncbi.nlm.nih.gov/3533755/) | 1986 | Randomised comparative study | Genitourin Med | 500 patients: amoxicillin-clavulanate vs cefuroxime axetil, both with probenecid, for uncomplicated gonorrhoea |
+| [4007860](https://pubmed.ncbi.nlm.nih.gov/4007860/) | 1985 | Clinical study (dose comparison) | Genitourin Med | Amoxicillin 3 g + clavulanate 125 mg + probenecid cured 97 of 100 patients; 11 of 13 PPNG infections cured |
+| [3004176](https://pubmed.ncbi.nlm.nih.gov/3004176/) | 1985 | Clinical study | Afr J Med Med Sci | Single-dose Augmentin in Ibadan, Nigeria, where about 80% of strains are PPNG |
+| [6757686](https://pubmed.ncbi.nlm.nih.gov/6757686/) | 1982 | Clinical study | Med J Malaysia | Single-dose oral amoxicillin-clavulanate in males with gonococcal urethritis |
+| [3147528](https://pubmed.ncbi.nlm.nih.gov/3147528/) | 1988 | Clinical study / Review | Sex Transm Dis | Therapy options for antibiotic-resistant gonorrhoea, including clavulanate-potentiated penicillin or amoxicillin |
 
-| Rank | Predicted Indication | Score | Evidence Level | Assessment |
-|------|------|------|------|------|
-| 2 | Gonococcal urethritis | 99.93% | L5 | Plausible: inhibiting beta-lactamase could restore amoxicillin activity against penicillinase-producing *N. gonorrhoeae*. Resistance patterns and current guidelines limit relevance. Research question |
-| 3 | Uterine inflammatory disease | 99.92% | L5 | Plausible: polymicrobial pelvic infections may involve beta-lactamase-producing bacteria. No evidence provided |
-| 4 | Xanthogranulomatous pyelonephritis | 99.90% | L5 | Antibacterial use is conceptually plausible, but management is mainly surgical. No evidence provided |
-| 5 | Urogenital tuberculosis | 99.89% | L4 | One case report ([PMID 26847806](https://pubmed.ncbi.nlm.nih.gov/26847806/), 2016, BMJ Case Reports) in which amoxicillin/clavulanic acid was given before tuberculous epididymo-orchitis was diagnosed. It appears to describe a diagnostic mimic, not a treatment benefit |
-| 6-10 | Abdominal cystic lymphangioma, celiac trunk compression syndrome, abdominal ectopic pregnancy, lymph node palisaded myofibroblastoma, disease of uterine broad ligament | 99.79-99.80% | L5 | No plausible antibacterial mechanism. The one linked trial ([NCT04751500](https://clinicaltrials.gov/study/NCT04751500), hysteroscopic miscarriage management) does not test clavulanic acid and is not supporting evidence |
+Ureaplasma urethritis (rank 1): the literature is general and indirect.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [21947096](https://pubmed.ncbi.nlm.nih.gov/21947096/) | 2011 | Review | Rev Esp Quimioter | Best empirical treatment of urethritis in Madrid |
+| [19544099](https://pubmed.ncbi.nlm.nih.gov/19544099/) | 2009 | Review | Rev Esp Quimioter | Prevalence of microorganisms causing urethritis in men |
+| [34366085](https://pubmed.ncbi.nlm.nih.gov/34366085/) | 2021 | Case report | Infect Dis Now | *Pasteurella bettyae* urethritis and balanitis |
+
+---
 
 ## South Africa Market Information
 
-The registration data supplied does not include approved-indication text or manufacturers. Essential Medicines List (EML) status was not provided.
+Clavulanic acid is registered in South Africa in 14 valid single-ingredient licences. No approved indication text and no Essential Medicines List (EML) status are available in the data compiled for this report. The five main registrations are:
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 50/20.1.2/0659 | Co-Amoxiclaz S Unimed | Suspension |
-| Reg. No. 41/20.1.2/0977 | Gulf amoxy co powder for injection vial | Injection |
-| Reg. No. 37/20.1.2/0674 | Augmaxcil vial 20ml | Injection |
-| Reg. No. 45/7.1.5/0874 | Raviag | Tablet |
-| Reg. No. 36/7.1.3/0114 | Simayla Lisinopril 20 | Tablet |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 50/20.1.2/0659 | Co-Amoxiclaz S Unimed | Suspension | Not available |
+| 41/20.1.2/0977 | Gulf amoxy co powder for injection vial | Injection | Not available |
+| 37/20.1.2/0674 | Augmaxcil vial 20ml | Injection | Not available |
+| 43/20.1.2/0586 | Apoclav 1,2 G | Injection | Not available |
+| 41/20.1.2/0535 | Auro-amoxiclav | Tablet | Not available |
 
-The last two products, Raviag and Simayla Lisinopril 20, do not look like amoxicillin/clavulanic acid products (the second name refers to lisinopril). These entries need checking against the SAHPRA register before use.
+Available dosage forms include suspension, injection and tablet.
+
+Note: several other licences in the source records (for example Ventolin inhaler, Trandate, Kivexa, Trizivar, Stiemycin lotion, and Simayla Lisinopril) do not appear to be amoxicillin-clavulanate products. These entries should be verified against SAHPRA records.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications from the knowledge graph (not label text):** The knowledge graph links clavulanic acid to the following conditions: kidney disease, pyoureter, liver disease, gallbladder disease, cholestasis (including benign recurrent and familial intrahepatic cholestasis), *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, infectious mononucleosis, and chronic Epstein-Barr virus infection syndrome.
+
+**Drug interactions:** 16 interactions were found.
+- **Major:** leflunomide and teriflunomide.
+- **Moderate:** methotrexate, naltrexone, balsalazide, asparaginase *E. coli*, pegaspargase, brentuximab vedotin, clofarabine, epirubicin, idelalisib, interferon beta-1a, interferon beta-1b, peginterferon beta-1a, tioguanine, and trabectedin.
+
+Label-based warnings and contraindications could not be retrieved. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no trials or literature, and it conflicts with known pharmacology because Ureaplasma lacks a cell wall. Safety data from the SAHPRA package insert is also missing, which blocks safety screening.
+- The top prediction, Ureaplasma urethritis, is mechanistically implausible because *Ureaplasma* lacks a cell wall and is intrinsically beta-lactam resistant. The remaining predictions have no clinical evidence or only indirect evidence.
+- Gonococcal urethritis has plausible and directly clinical, but old, evidence. Current guidelines favour ceftriaxone-based regimens, so it is best treated as a research question (for example, resistance-specific contexts) rather than a repurposing candidate.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (download and parse the PI)
-- Mechanism of action data from DrugBank (DB00766)
-- Verification of the registration entries that do not look like clavulanic acid products
-- For a more credible follow-up, prioritise gonococcal urethritis and uterine inflammatory disease. Both need a literature search and a check against current South African treatment guidelines and local resistance data
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- The SAHPRA package insert warnings and contraindications (a blocking data gap for safety screening).
+- Mechanism of action data from DrugBank.
+- Current local gonococcal susceptibility data for South Africa, to determine whether amoxicillin-clavulanate has any role.
+- Verification of the SAHPRA licence list, since several entries appear to be unrelated products.
+- For any further pursuit, a critical appraisal of the 1980s gonococcal studies against current resistance patterns.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

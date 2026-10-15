@@ -2,7 +2,7 @@
 layout: default
 title: Conjugated Estrogens
 parent: Moderate Evidence (L3-L4)
-nav_order: 146
+nav_order: 148
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Conjugated Estrogens: From Hormone Therapy to Migraine Disorder (Research Question)
+# Conjugated Estrogens: From Psychologic Dyspareunia to Migraine Disorder
 
 ## One-Sentence Summary
 
-Conjugated estrogens are a hormone therapy. Their registered indication is not stated in the local record supplied. The TxGNN model predicts they may be useful for **migraine disorder**, but there are **no registered clinical trials** and only **15 publications**, mostly narrative reviews and small observational studies. The literature suggests any benefit is limited to hormone-related (estrogen-withdrawal) migraine, and estrogen also carries thrombosis and stroke concerns.
+Conjugated estrogens are a mixed-estrogen hormone product, and the data compiled for this report lists psychologic dyspareunia as the original indication.
+The TxGNN model predicts they may be effective for **migraine disorder**.
+Support is limited to **0 registered clinical trials** and **5 publications** (mostly reviews and observational cohorts) with mixed findings.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA record supplied |
+| Original Indication | Psychologic dyspareunia (from the TxGNN knowledge graph; the SAHPRA record has no indication text) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L3 |
@@ -47,69 +51,75 @@ Conjugated estrogens are a hormone therapy. Their registered indication is not s
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, conjugated estrogens are an estrogen replacement therapy. Their link to migraine is through estrogen levels, not through a direct anti-migraine mechanism.
+Currently, detailed mechanism of action data is not available. Based on known information, conjugated estrogens are a mixed-estrogen product that acts through estrogen receptors. Their use in hormone-related conditions is established, and mechanistically they may be applicable to hormone-linked migraine.
 
-The reviews describe falling estrogen ("withdrawal") as a recognised trigger of menstrual migraine without aura, and perimenopause as a period of higher migraine prevalence. Keeping estrogen levels stable may therefore reduce attacks in selected women, particularly those who also need treatment for menopausal symptoms.
+Migraine is strongly linked to estrogen fluctuations, for example estrogen-withdrawal migraine and perimenstrual or perimenopausal patterns. Stable estrogen exposure may reduce attack frequency in some women. The effect is inconsistent, however: oral or fluctuating dosing can worsen migraine, so any response is likely to depend on dose, route and patient.
 
-The evidence is mixed. Hormone replacement therapy has both improved and worsened migraine in postmenopausal women, and high estrogen levels can trigger migraine aura. Any benefit appears limited to hormone-related migraine and is not a general migraine effect.
+The link between the original indication (a sexual-function and hormonal condition) and migraine is therefore indirect. It rests on shared hormonal biology, not on a shared disease process. Migraine with aura also carries an added risk of ischaemic stroke with estrogen exposure, which is the key safety concern.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
-## Literature Evidence
+---
 
-No RCTs were retrieved. The list below has reviews and small observational or clinical studies only. Relevance screening is still pending for all entries.
+## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28994639](https://pubmed.ncbi.nlm.nih.gov/28994639/) | 2018 | Review | Post Reprod Health | Estrogen withdrawal triggers menstrual migraine without aura, while high estrogen can trigger aura. A stable estrogen environment may help estrogen-withdrawal migraine. |
-| [29521155](https://pubmed.ncbi.nlm.nih.gov/29521155/) | 2018 | Review | Climacteric | Hormonal fluctuations, especially in perimenopause, are important migraine triggers. Different migraine types are influenced differently. |
-| [27251885](https://pubmed.ncbi.nlm.nih.gov/27251885/) | 2016 | Cohort | Neurology | Compared daily sex hormone levels in women with and without migraine. Suggests migraine-specific hormone profiles. |
-| [11306204](https://pubmed.ncbi.nlm.nih.gov/11306204/) | 2001 | Cohort | Maturitas | Evaluated how hormone replacement therapy (HRT) affects the course of primary headaches in postmenopausal women. Only the study aim is available. |
-| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Cohort | Headache | Compared three oral HRT schemes on migraine course. The title indicates the effects differed between schemes. |
-| [15455962](https://pubmed.ncbi.nlm.nih.gov/15455962/) | 2004 | Clinical study (pilot) | South Med J | Pilot of a prophylactic strategy for menstrual-associated migraine. Design not verified from the title. |
-| [1167630](https://pubmed.ncbi.nlm.nih.gov/1167630/) | 1975 | Clinical study | Neurology | Very small study (6 women). Several days of high estrogen exposure were needed to cause withdrawal migraine. Premenstrual oral estrogen, including conjugated equine estrogens, in four women appears not to have significantly helped (abstract truncated). |
-| [2046918](https://pubmed.ncbi.nlm.nih.gov/2046918/) | 1991 | Review | Neurology | Review of estrogens, progestins and headache. No abstract available. |
-| [2990722](https://pubmed.ncbi.nlm.nih.gov/2990722/) | 1985 | Mechanistic study | Cephalalgia | Estrogen changes modulate central opioid tone, a possible link to postmenopausal migraine. |
-| [8309263](https://pubmed.ncbi.nlm.nih.gov/8309263/) | 1994 | Review | Mayo Clin Proc | Compared transdermal and oral estrogen across clinical situations. Relevant to route of administration. |
+| [29521155](https://pubmed.ncbi.nlm.nih.gov/29521155/) | 2018 | Review | Climacteric | Hormonal fluctuations, especially in the perimenopause, are an important migraine trigger. Different migraine types are influenced differently. |
+| [11306204](https://pubmed.ncbi.nlm.nih.gov/11306204/) | 2001 | Cohort | Maturitas | Assessed how hormone replacement therapy (HRT) influences primary headaches in postmenopausal women. |
+| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Cohort | Headache | Compared three oral HRT schemes on migraine course in postmenopausal women. Effects differed between schemes. |
+| [8309263](https://pubmed.ncbi.nlm.nih.gov/8309263/) | 1994 | Review | Mayo Clin Proc | Compared the effectiveness of transdermal and oral estrogen therapy in various groups of women. |
+| [14195735](https://pubmed.ncbi.nlm.nih.gov/14195735/) | 1964 | Case series | Medizinische Klinik | Early report on conjugated estrogens for climacteric disorders. Only indirectly relevant. |
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 27/21.8.2/0021 | Estracombi Tts | Pad (transdermal) | Not stated in the record supplied |
+| Reg. No. 27/21.8.2/0021 | Estracombi TTS | Pad (transdermal) | Not stated in the data compiled for this report |
 
-Notes:
-- Essential Medicines List (EML) status is not available in the data supplied.
-- The single registered product is a transdermal pad. Please verify its active ingredients against the SAHPRA record, because conjugated estrogens are usually given orally. The link between this registration and the drug entry should be confirmed before local decisions rely on it.
+Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-Safety information from the SAHPRA-approved Professional Information (PI) has not yet been retrieved. No drug interaction records were found. Please refer to the PI for warnings, contraindications and interactions. Report adverse drug reactions to SAHPRA.
+**Drug interactions:** The interaction query returned 100 entries; 20 are shown in the data compiled for this report. Almost all are rated Moderate, and one (cimetidine) is rated Minor. They include:
+- Antidiabetic agents (acarbose, acetohexamide, chlorpropamide, alogliptin, albiglutide, dulaglutide, canagliflozin, dapagliflozin, empagliflozin), where estrogens may alter glycaemic control.
+- Corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone).
+- Others: aprepitant, clarithromycin, clotrimazole, chenodeoxycholic acid, topical calcitriol.
 
-Safety signals from the retrieved evidence:
-- **Venous thrombosis**: the literature documents that estrogens increase venous thrombosis risk and can exacerbate thrombophilia. For example, conjugated equine estrogen is linked to activated protein C resistance (PMID 16879211).
-- **Migraine with aura**: estrogen exposure raises ischaemic stroke and thrombosis concerns, which outweigh any unproven benefit.
-- **Coagulation-related predictions**: several other high-scoring TxGNN predictions (antithrombin deficiency, factor V excess, heparin cofactor 2 deficiency, thrombophilia) appear to reflect harm or contraindication associations, not therapeutic opportunities. They should not be treated as repurposing candidates.
+**Class-level concerns relevant to this prediction:**
+- Estrogens are prothrombotic, so caution is needed in patients with thrombophilia.
+- Migraine with aura carries an added ischaemic stroke risk with estrogen exposure.
+- Several other model predictions (antithrombin deficiency, factor V-related thrombosis, heparin cofactor 2 deficiency, thrombophilia) are better read as safety or contraindication signals than as therapeutic opportunities.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence is limited to narrative reviews and small observational studies, with no registered trials. Benefit appears confined to estrogen-withdrawal migraine, and the safety profile (thrombosis, and stroke risk in migraine with aura) is a real concern. Safety screening cannot proceed until the SAHPRA PI data are obtained.
+Evidence for migraine is limited to reviews and observational cohorts with inconsistent results, and no clinical trials are registered. Hormone therapy can improve or worsen migraine, and estrogen exposure raises stroke risk in migraine with aura, so the risk-benefit balance is unresolved.
 
 **To proceed, the following is needed:**
-- SAHPRA Professional Information (warnings and contraindications), obtained from the SAHPRA website
-- Confirmation of the registered indication and active ingredients of Reg. No. 27/21.8.2/0021
-- Mechanism of action data (for example, from DrugBank)
-- Manual relevance screening of the retrieved literature
-- Controlled clinical evidence (RCTs) in a defined estrogen-withdrawal migraine population, with stratification by aura status and thrombosis risk
-
-*This report is for research reference only and does not constitute medical advice. Predicted candidates require clinical validation before any clinical use.*
+- The SAHPRA package insert, to complete the warnings and contraindications review. This gap currently blocks safety screening.
+- Mechanism of action data.
+- Controlled trials of conjugated estrogens in migraine, with attention to dose, route (transdermal versus oral) and aura status.
+- A stroke and thrombosis risk-stratification plan for any pilot study.
+- Clarification of the approved indication text and route for the registered product (a transdermal pad), since the literature mostly concerns oral therapy.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

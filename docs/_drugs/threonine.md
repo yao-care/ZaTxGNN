@@ -2,7 +2,7 @@
 layout: default
 title: Threonine
 parent: Model Prediction Only (L5)
-nav_order: 443
+nav_order: 447
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,47 +29,44 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Threonine: From an Amino Acid Nutrition Ingredient to Gastroparesis
+# Threonine: From No Registered Indication to Gastroparesis
 
 ## One-Sentence Summary
 
-Threonine is an essential amino acid. In South Africa it appears as an ingredient in registered products such as parenteral nutrition and peritoneal dialysis solutions, but no approved indication text is recorded for it.
-The TxGNN model predicts it may be useful for **gastroparesis**, but there are **0 registered clinical trials** and only **1 publication**, which does not test threonine itself.
-This is a model-only signal and not yet a supported lead.
+Threonine is an essential amino acid. In South Africa it is found in parenteral nutrition, peritoneal dialysis and wound-care products, and no approved indication text is recorded for it.
+The TxGNN model predicts it may be useful for **gastroparesis**, but the prediction rests on the model score alone: **0 clinical trials** and **0 publications** were found to support it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the SAHPRA data; the registered products are mainly nutrition and dialysis solutions |
+| Original Indication | Not available (no approved indication text in the SAHPRA records compiled for this report) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.32% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 13 |
+| Number of SAHPRA Registrations | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for threonine. It is a nutritional amino acid that appears in several registered products. No approved indication is recorded, so the link between its original use and gastroparesis cannot be assessed directly.
+Currently, detailed mechanism of action data is not available, and no original indication is recorded to anchor a rationale. The prediction rests only on a high TxGNN knowledge-graph score (99.32%), and no mechanism is supported by the data compiled for this report.
 
-The one retrieved paper (PMID 28627597) describes disease biology in a rat model of diabetic gastroparesis. It reports gastric smooth muscle cell apoptosis and changes in PI3K-AKT-mTOR and AMPK-mTOR signalling. The title is truncated, so this reading is inferred. The paper does not appear to test threonine.
+Threonine is an essential amino acid involved in protein synthesis and in the production of glycine and serine. It is also a major component of intestinal mucins, which are rich in threonine. One plausible but unverified hypothesis is that it supports gut mucosal integrity or neurotransmitter precursor pools (via glycine).
 
-A speculative link is that amino acids can influence mTOR signalling. No data in this pack show that threonine affects these pathways in gastric smooth muscle. The very high TxGNN score comes from graph-based prediction and should not be read as clinical support.
+No evidence links these roles to gastric motility or to the pathophysiology of gastroparesis (impaired gastric emptying, enteric neuropathy, loss of interstitial cells of Cajal). The mechanistic link should therefore be regarded as speculative.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered. No SANCTR, PACTR or ICTRP entries were found.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28627597](https://pubmed.ncbi.nlm.nih.gov/28627597/) | 2017 | Preclinical animal study (inferred, not verified) | Molecular Medicine Reports | Examined gastric smooth muscle cell apoptosis and PI3K-AKT-mTOR and AMPK-mTOR signalling in diabetic rats with gastroparesis. Threonine does not appear to be tested. |
+Currently no related literature available.
 
 ## South Africa Market Information
 
-There are 13 registrations in total; the five below are the main ones listed. The SAHPRA indication text is not recorded for any of them. EML inclusion status is not available in the data provided.
+Threonine is registered in South Africa only as a component of multi-ingredient products, each listed as a single-entry licence. No approved indication text is recorded for any of them. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -79,27 +76,29 @@ There are 13 registrations in total; the five below are the main ones listed. Th
 | 38/34/0172 | Extraneal 2L single bag | Infusion | Not recorded |
 | 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not recorded |
 
-The ingredient-to-product mapping should be checked. The Adco-ipratropium entry is not an obvious threonine-containing product.
+Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Peripheral, Nutriflex Omega Specialized, and Nutriflex Lipid Special 625ml. All are infusion or parenteral nutrition products. No registrations are cancelled.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindications suggested by the knowledge graph** (not taken from label text): phenylketonuria and disorders of phenylalanine metabolism. These are model-derived associations and need confirmation against the Professional Information.
+- **Drug Interactions**: No interaction records were found in the data compiled for this report.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no registered trials, and the single paper covers disease biology without testing threonine. Safety data are missing, so the case cannot move to safety screening.
+The only support is a high model score (evidence level L5). There are no registered trials, no literature, no mechanism data and no original indication to anchor the rationale. The existing South African products are multi-ingredient nutrition formulations, and their route and dose are not clearly compatible with a gastroparesis use.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (download and parse the PI PDFs)
-- Mechanism of action data for threonine (for example from DrugBank)
-- The approved indications for the registered products, and confirmation that each registration actually contains threonine
-- Evidence that threonine acts on gastric motility or the relevant signalling pathways (mechanistic or preclinical studies)
-- Assessment of route compatibility, since the registered forms are powder and infusions and no required route for gastroparesis has been defined
-
-*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Safety information (warnings and contraindications) from the SAHPRA package inserts, which is currently a blocking gap
+- Mechanism of action data, for example from DrugBank
+- A literature search for any link between threonine, gut mucins or glycine pathways and gastric motility or enteric neuropathy
+- Preclinical or early clinical evidence in gastroparesis
+- Assessment of route and formulation compatibility, since no required or available routes have been established
+- Review of the knowledge-graph contraindications (phenylketonuria and phenylalanine metabolism disorders) against the PI
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

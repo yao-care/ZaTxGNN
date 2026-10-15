@@ -2,7 +2,7 @@
 layout: default
 title: Diiodohydroxyquinoline
 parent: Model Prediction Only (L5)
-nav_order: 178
+nav_order: 180
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diiodohydroxyquinoline: From Anti-amoebic Use to Osteoradionecrosis
+# Diiodohydroxyquinoline: From Amoebiasis to Osteoradionecrosis
 
 ## One-Sentence Summary
 
-Diiodohydroxyquinoline is a halogenated hydroxyquinoline, historically used as an anti-amoebic agent. The TxGNN model predicts it may be effective for **osteoradionecrosis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model prediction only and should be treated as a hypothesis.
+Diiodohydroxyquinoline was originally used to treat amoebiasis (infection with *Entamoeba histolytica*).
+The TxGNN model predicts it may be effective for **osteoradionecrosis**, but this is a computational prediction only, with **no clinical trials** and **no publications** currently supporting this direction.
 
 ---
 
@@ -41,7 +42,7 @@ Diiodohydroxyquinoline is a halogenated hydroxyquinoline, historically used as a
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the SAHPRA data (anti-amoebic agent) |
+| Original Indication | Amoebiasis (amoebiasis due to *Entamoeba histolytica*), based on the TxGNN knowledge graph. The SAHPRA record compiled for this report has no approved indication text. |
 | Predicted New Indication | Osteoradionecrosis |
 | TxGNN Prediction Score | 97.96% |
 | Evidence Level | L5 |
@@ -53,25 +54,11 @@ Diiodohydroxyquinoline is a halogenated hydroxyquinoline, historically used as a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Diiodohydroxyquinoline is an anti-amoebic agent, and its use in amoebiasis is described in older clinical literature. No plausible mechanistic link to osteoradionecrosis can be stated from the available data.
+Currently, detailed mechanism of action data is not available. Diiodohydroxyquinoline is an iodinated hydroxyquinoline whose use in amoebiasis is established in the knowledge graph. Whether that anti-infective activity applies to osteoradionecrosis cannot be judged from the data compiled for this report.
 
-The model score is high, but it reflects the drug's position in a knowledge graph, not proof of a biological effect. Osteoradionecrosis is a late radiation injury of bone, and the link to an anti-amoebic drug is unexplained. The registered South African product is a topical cream, and route compatibility with this predicted condition has not been assessed.
+Osteoradionecrosis is a complication of radiotherapy in which irradiated bone fails to heal, often with infection. A link through anti-infective or metal-chelating effects on irradiated bone is conceivable, but this is speculation and no data support it. The high score most likely reflects network patterns in the knowledge graph rather than drug-specific evidence.
 
-**Other predictions in the pack** (all Hold):
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level |
-|------|------|------|------|
-| 2 | Radiodermatitis | 96.29% | L5 |
-| 3 | Pneumonitis | 95.65% | L4 |
-| 4 | Aspiration pneumonia | 90.99% | L5 |
-| 5 | Type 2 diabetic nephropathy | 90.57% | L5 |
-| 6 | Byssinosis | 88.17% | L5 |
-| 7 | Mitochondrial oxidative phosphorylation disorder (nuclear DNA anomalies) | 87.30% | L5 |
-| 8 | Mixed mineral dust pneumoconiosis | 82.82% | L5 |
-| 9 | Baritosis | 82.67% | L5 |
-| 10 | Slate pneumoconiosis | 82.67% | L5 |
-
-Baritosis and slate pneumoconiosis have identical scores. This suggests a shared graph-neighbourhood artefact, not two independent signals.
+Other predicted indications are also at the prediction-only stage (radiodermatitis, 96.3%; pneumonitis, 95.6%; aspiration pneumonia, 91.0%; type 2 diabetic nephropathy, 90.6%). Only pneumonitis has any publication, and it is indirect (see below).
 
 ---
 
@@ -79,19 +66,17 @@ Baritosis and slate pneumoconiosis have identical scores. This suggests a shared
 
 Currently no related clinical trials registered.
 
-No SANCTR or PACTR entries were provided.
-
 ---
 
 ## Literature Evidence
 
 Currently no related literature available for osteoradionecrosis.
 
-For the rank 3 prediction (pneumonitis), the only relevant item is an in vitro study. The other three citations retrieved are historical amoebiasis or cytomegalovirus (CMV) case reports and do not support that indication.
+For context, the only publication identified among the other predicted indications relates to pneumonitis:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32473310](https://pubmed.ncbi.nlm.nih.gov/32473310/) | 2020 | In vitro screening | Pharmacological Research | Identified diiodohydroxyquinoline as a potential anti-SARS-CoV-2 agent in a two-tier drug screen. This is indirect preclinical evidence for viral pneumonia, not for radiation pneumonitis. |
+| [32473310](https://pubmed.ncbi.nlm.nih.gov/32473310/) | 2020 | Preclinical/in silico screening (inferred from title; unverified) | Pharmacological Research | Two-tier screening identified diiodohydroxyquinoline, bexarotene, cetilistat and abiraterone as potential COVID-19 treatments. Its relevance to osteoradionecrosis is not established. |
 
 ---
 
@@ -99,15 +84,25 @@ For the rank 3 prediction (pneumonitis), the only relevant item is an in vitro s
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. G1781 (Act 101) | Viocort | Cream | Not listed in the available data |
+| G1781 (ACT 101) | Viocort | Cream (topical) | Not available in the compiled data |
+
+The single registration is a valid, single-ingredient topical product. Essential Medicines List (EML) status is not available in the compiled data. Any oral or systemic use for the predicted indication would have no registered South African product on this record.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindications suggested by the knowledge graph** (not label text): liver disease, gallbladder disease, adrenocortical insufficiency, Addison disease, peripheral nervous system disease, peripheral neuropathy, skin atrophy, telangiectasis, capillary disease, hereditary haemorrhagic telangiectasia, peripheral vascular disease, intermittent claudication, peripheral arterial disease and optic neuritis.
+- **Drug interactions:** 58 interactions were identified, all of those listed being Moderate. Main examples:
+  - Nitroimidazoles: metronidazole, tinidazole, secnidazole, benznidazole
+  - Statins: rosuvastatin, simvastatin
+  - Radioiodine agents: iodide I-131, iodide I-123
+  - Antimalarials: chloroquine, hydroxychloroquine
+  - Others: disulfiram, zafirlukast, chloramphenicol, dapsone, adalimumab
+  - Cytotoxics: paclitaxel, trastuzumab emtansine, bortezomib, brentuximab vedotin, cabazitaxel
+- **Background knowledge (not from the compiled data):** The iodinated hydroxyquinoline class carries a known risk of neurotoxicity (subacute myelo-optic neuropathy) with prolonged use. This is especially relevant for chronic or high-risk populations.
 
-Halogenated hydroxyquinolines carry a known neurotoxicity signal (subacute myelo-optic neuropathy, SMON). This needs review before any repurposing, especially for predictions involving neurologically vulnerable populations.
+Please refer to the SAHPRA-approved Professional Information (PI) for label warnings and contraindications, as these were not available in the compiled data. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -116,15 +111,15 @@ Halogenated hydroxyquinolines carry a known neurotoxicity signal (subacute myelo
 **Decision: Hold**
 
 **Rationale:**
-All predictions rest on model scores alone. For osteoradionecrosis there are no trials or publications, and the mechanism of action and SAHPRA safety data are missing. The safety review cannot begin without the package insert.
+The prediction for osteoradionecrosis rests only on a model score, with no trials, no publications, no mechanistic data and no confirmed route compatibility. Safety data from the label are also missing.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert for Viocort (warnings, contraindications, approved indication). This is a blocking gap.
-- Mechanism of action data from DrugBank
-- A targeted literature search for osteoradionecrosis and radiodermatitis, followed by a review of the neurotoxicity signal
-- An assessment of route compatibility between the topical cream and the predicted conditions
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanism of action data, to assess a plausible pathway to irradiated bone
+- Obtain the SAHPRA Professional Information to complete the safety review, which currently blocks progression
+- A literature and trial search specific to osteoradionecrosis
+- Route assessment: the only registered product is a topical cream, so suitability for bone disease needs evaluation
+- Review of the full text of PMID 32473310 to determine whether its findings have any relevance
+- A neurotoxicity and hepatic risk assessment before any consideration of systemic or prolonged use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

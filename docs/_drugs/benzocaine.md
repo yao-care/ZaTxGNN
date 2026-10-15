@@ -2,7 +2,7 @@
 layout: default
 title: Benzocaine
 parent: Model Prediction Only (L5)
-nav_order: 61
+nav_order: 62
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,100 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benzocaine: From Topical Local Anaesthetic to Papillary Conjunctivitis
+# Benzocaine: From Tinea Pedis and Dermatitis to Dyspepsia
 
 ## One-Sentence Summary
 
-Benzocaine is a sodium channel-blocking topical anaesthetic. The SAHPRA data supplied for this report do not record an approved indication.
-The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but there are **0 clinical trials** and **0 publications** for this prediction, so it rests on the model score alone.
-Among the other predictions, only **dyspepsia** has any benzocaine-specific human evidence, a single randomised comparison with lidocaine (PMID 15219296).
+Benzocaine is a topical ester local anaesthetic, originally associated with symptom relief in conditions such as tinea pedis, dermatitis, pharyngitis, tinea corporis and tinea infections.
+The TxGNN model's top-ranked prediction is **papillary conjunctivitis**, but that prediction has no supporting studies. The best-supported candidate is **dyspepsia**, with **2 publications** (one small randomised comparison and one mechanistic physiology study) and **no registered clinical trials**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the supplied SAHPRA data (approved indication text is empty for both registrations) |
-| Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.38% (model rank 3,341) |
-| Evidence Level | L5 |
+| Original Indication | Tinea pedis, dermatitis, pharyngitis, tinea corporis, tinea infection (from the knowledge graph; the SAHPRA registrations list no approved indication text) |
+| Predicted New Indication | Papillary conjunctivitis (top-ranked prediction); dyspepsia is the best-supported candidate |
+| TxGNN Prediction Score | 99.38% (papillary conjunctivitis); 98.29% (dyspepsia) |
+| Evidence Level | L5 for papillary conjunctivitis; L3 for dyspepsia |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 2 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (papillary conjunctivitis); dyspepsia is a research question only |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, benzocaine is a sodium channel-blocking topical anaesthetic. It could at most give symptomatic relief of ocular surface pain or itch. It has no known disease-modifying effect on conjunctival inflammation.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, benzocaine is a topical ester local anaesthetic that blocks voltage-gated sodium channels, which dampens nerve signalling at the site of application. Its original uses are symptom-oriented (pain and itch relief), not curative.
 
-The prediction is therefore weak on biological grounds. Papillary conjunctivitis is an inflammatory or allergic surface condition, and blocking sodium channels does not address its cause. Repeated ocular anaesthetic exposure also risks corneal toxicity, and benzocaine is not a standard ophthalmic agent. The high score most likely reflects knowledge-graph proximity to other ocular surface agents rather than a biological rationale.
+**Papillary conjunctivitis (top-ranked).** This condition is usually allergic or contact-lens related. A transient numbing effect on the ocular surface is conceivable, but the high TxGNN score of 99.38% has no clinical or literature support. Topical benzocaine is not an accepted ocular treatment, and it carries risks of corneal toxicity and contact sensitisation. The same reasoning applies to the other eye and eyelid predictions (blepharoconjunctivitis, rosacea conjunctivitis, ulcerative blepharitis, parasitic eyelid infestation and noninfectious eyelid dermatoses). Benzocaine has no antimicrobial, antiparasitic or anti-inflammatory action relevant to these conditions, and it is a recognised contact allergen, which is a particular concern on the eyelid.
 
-The other ocular and periocular predictions (blepharoconjunctivitis, rosacea conjunctivitis, ulcerative blepharitis, parasitic eyelid infestation, noninfectious eyelid dermatoses) follow the same pattern. Each is prediction-only at L5 and Hold.
+**Dyspepsia (best-supported).** Topical anaesthetics may reduce sensory signalling from the gut mucosa, which could attenuate visceral discomfort. A mechanistic study suggests duodenal mucosal nerve endings contribute to acid-related sensitivity, which supports biological plausibility. Evidence is rated L3 rather than L2 because the clinical study is small, has no placebo control, and no trials are registered.
+
+**Other candidates.** Acute laryngopharyngitis is an extension of benzocaine's existing use for sore throat (pharyngitis), so it is the most clinically credible of the non-dyspepsia candidates, though evidence is indirect (L4). Cutaneous candidiasis and nasal cavity disease have no specific supporting evidence. Benzocaine has no antifungal activity, and any benefit in candidiasis would be limited to symptom relief.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for papillary conjunctivitis. No SANCTR or PACTR entries were supplied.
+Currently no related clinical trials registered for any of the top 10 predicted indications.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available for papillary conjunctivitis.
-
-**For context, the strongest benzocaine-specific evidence in the package belongs to another prediction, dyspepsia (score 98.29%, L3, "Research Question"):**
+Literature was found only for dyspepsia.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15219296](https://pubmed.ncbi.nlm.nih.gov/15219296/) | 2004 | RCT (single-blinded) | J Emerg Med | Compared viscous lidocaine with benzocaine in a "GI cocktail" for dyspepsia in emergency patients. It is an active-comparator study without placebo, and the cocktail's other components confound attribution. |
-| [23565580](https://pubmed.ncbi.nlm.nih.gov/23565580/) | 2013 | Mechanistic study | Neurogastroenterol Motil | Role of duodenal mucosal nerve endings in the acid-induced duodenogastric reflex, in healthy humans. The title suggests a benzocaine effect, but the study drug is unconfirmed from the supplied data. |
+| [15219296](https://pubmed.ncbi.nlm.nih.gov/15219296/) | 2004 | RCT | J Emerg Med | Prospective, randomised, single-blinded comparison of benzocaine versus viscous lidocaine as the topical anaesthetic in a GI cocktail for dyspepsia in emergency patients. It compared two anaesthetics, not benzocaine versus placebo, so it does not establish benzocaine's own efficacy. |
+| [23565580](https://pubmed.ncbi.nlm.nih.gov/23565580/) | 2013 | Mechanistic physiology study | Neurogastroenterol Motil | Examined the role of duodenal mucosal nerve endings in the acid-induced duodenogastric reflex using benzocaine in healthy volunteers. Supports the plausibility of mucosal anaesthesia in functional dyspepsia. |
 
-None of the 10 dyspepsia trials listed (of 28 reported) tests benzocaine. The closest is [NCT00521703](https://clinicaltrials.gov/study/NCT00521703), a Phase 3 topical lidocaine spray study for paediatric upper GI endoscopy, which is procedural anaesthesia with a different drug.
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 43/8/0830 | Soluspirin cv | Effervescent tablet (oral) | Not stated in supplied data |
-| Reg. No. B0917 (ACT 101) | Vidol teething powders | Powder | Not stated in supplied data |
+| 43/8/0830 | Soluspirin cv | Effervescent tablet | Not available |
+| B0917 (ACT 101) | Vidol teething powders | Powder | Not available |
 
-Neither registered product is an ophthalmic formulation, so no existing SAHPRA-registered route matches conjunctival use.
+Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
+
+---
+
+## Cytotoxicity
+
+Benzocaine is not an antineoplastic drug, so this section does not apply.
+
+---
 
 ## Safety Considerations
 
-- **Concerns noted in the evidence review:**
-  - Repeated ocular anaesthetic exposure risks corneal toxicity.
-  - Topical benzocaine can cause contact allergic dermatitis, a liability on thin periocular skin.
-  - Systemic exposure and methemoglobinemia risk with oral or mucosal use need a safety review before any further step.
-- **Drug Interactions:** No interaction records were found in the queried source.
+- **Methemoglobinaemia:** Benzocaine carries a recognised risk of methemoglobinaemia with mucosal application. Systemic absorption must be considered for any oral or gastrointestinal use.
+- **Contact sensitisation:** Benzocaine is a recognised contact allergen. This is a particular concern on the eyelid and periocular skin.
+- **Ocular risks:** Topical use on the ocular surface raises concerns of epithelial or corneal toxicity.
+- **Knowledge-graph contraindication signals:** The knowledge graph links benzocaine to a broad set of conditions, including liver disease and failure, kidney disease, porphyria, epilepsy, blood disorders (thrombocytopenia, neutropenia, agranulocytosis, blood coagulation disease), diabetes and diabetic ketoacidosis, and substance abuse or dependence. These come from graph edges rather than label text. They may reflect other ingredients in combination products (for example, Soluspirin cv appears to contain additional active ingredients). They should be verified against the approved Professional Information (PI) and not read as confirmed benzocaine contraindications.
+- **Drug interactions:** No interaction data were found.
 
 Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
+---
+
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (papillary conjunctivitis and the other ocular or eyelid predictions). Dyspepsia and acute laryngopharyngitis are research questions only.
 
 **Rationale:**
-The prediction has no trials or literature behind it (L5). Any plausible benefit is symptomatic only, and the ocular surface safety concerns are significant. The dyspepsia prediction is the only one with human evidence (L3), and it is better framed as a research question than a repurposing candidate.
+- The top-ranked predictions (papillary conjunctivitis and other eye or eyelid conditions) are supported only by model scores. They have no trials or publications and raise safety concerns. Dyspepsia has limited, indirect support (L3). Acute laryngopharyngitis is an extension of existing sore throat use (L4) rather than true repurposing.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications for both registered products
-- Mechanism of action data (e.g. from DrugBank)
-- Confirmation of the original approved indications, since the supplied SAHPRA indication text is empty
-- Confirmation of the study drug in PMID 23565580, and a placebo-controlled study of benzocaine alone if dyspepsia is pursued
-- A clear ophthalmic route and formulation rationale, plus an ocular safety review, before any conjunctival use is considered
+- SAHPRA package insert warnings and contraindications, which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- A placebo-controlled study of benzocaine in dyspepsia, with methemoglobinaemia monitoring
+- Confirmation of approved indications for the two SAHPRA-registered products
+- Route and formulation compatibility assessment for any new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Emtricitabine
 parent: Model Prediction Only (L5)
-nav_order: 210
+nav_order: 212
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,106 +29,94 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Emtricitabine: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Emtricitabine: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) used as an antiretroviral for HIV-1 infection. The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, an animal-model disease rather than a new human indication. Support is **2 clinical trials** (both human HIV studies with only indirect relevance) and **20 publications**, mostly preclinical macaque studies.
-
----
+Emtricitabine is a nucleoside reverse transcriptase inhibitor, originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but there are **0 clinical trials** and **20 publications**, almost all of them animal (macaque) studies.
+SIV infection is not a human disease, so this prediction is better read as a research model for the already-approved HIV indication than as a new human indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (general drug knowledge; the SAHPRA indication text in the record is empty) |
+| Original Indication | HIV infectious disease; AIDS (the SAHPRA licence records contain no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 (preclinical evidence only) |
+| Evidence Level | L4 (preclinical studies only) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Emtricitabine is an NRTI, a class that terminates viral DNA chain elongation. SIV and the chimeric SHIV viruses use a reverse transcriptase closely related to that of HIV-1, so activity is mechanistically plausible. This reasoning rests on general NRTI pharmacology, not on the supplied record.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) that targets the reverse transcriptase of HIV-1. Its efficacy in HIV infection is established, and mechanistically it may be applicable to SIV.
 
-The literature supports this in macaque models. Emtricitabine combined with tenofovir (TDF or TAF) has been tested for pre-exposure prophylaxis against SHIV, and in one study for SHIV remission. These are non-human primate studies, not human trials.
+SIV and SHIV (a chimeric simian-human virus) are closely related lentiviruses with a homologous reverse transcriptase, so activity in macaque models is expected. Preclinical studies report that emtricitabine combined with tenofovir (TDF or TAF) protected macaques from rectal and vaginal SHIV challenge. The M184V mutation, the main emtricitabine resistance pathway, has also been characterised in SIV.
 
-The prediction largely restates emtricitabine's existing antiretroviral activity. It does not open a new clinical use for patients in South Africa.
+These findings are animal-model evidence supporting HIV prevention (PrEP) research, not clinical evidence in the target species. The practical value is as a model for the existing HIV indication, not as a new human treatment.
 
----
+Two other predictions are noted for completeness:
+- **Feline acquired immunodeficiency syndrome (FIV):** one 2023 study of combination ART (dolutegravir, tenofovir and emtricitabine) in cats. The specific contribution of emtricitabine cannot be confirmed, and this is a veterinary indication.
+- **A rare neurodevelopmental disorder (ataxic gait, absent speech, decreased cortical white matter):** TxGNN score 99.92%, but there are no trials or publications and no plausible mechanistic link. It should not guide clinical decisions.
 
 ## Clinical Trial Evidence
 
-Both registered trials are human HIV studies, not SIV studies. They are indirect evidence at best.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | Withdrawn | 0 | HIV decay kinetics with raltegravir. Withdrawn with no participants, so no data. Emtricitabine is not evident from the title. |
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Vedolizumab plus antiretroviral therapy for virological remission in HIV-infected people. Emtricitabine is at most part of the ART background. |
-
-No SANCTR or PACTR identifiers are available in the record.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-All entries below are preclinical or non-human primate work, except one review. No RCTs were supplied. Findings are taken from titles and truncated abstracts only.
+Of the 20 publications retrieved, 10 are listed below. Priority was given to studies directly testing emtricitabine combinations against SIV/SHIV, followed by reviews. No RCTs in humans are included.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Preclinical (NHP) | J Infect Dis | Oral TAF/emtricitabine or TAF alone tested against vaginal SHIV infection in macaques. |
-| [29788316](https://pubmed.ncbi.nlm.nih.gov/29788316/) | 2018 | Preclinical (NHP) | J Infect Dis | Vaginal emtricitabine/tenofovir gel tested against repeated rectal SHIV exposures. |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclinical (NHP) | J Infect Dis | Oral emtricitabine plus TAF protected macaques from rectal SHIV infection. |
-| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Preclinical (NHP) | J Infect Dis | Emtricitabine/TDF prevented vaginal SHIV infection in macaques coinfected with *Chlamydia* and *Trichomonas*. |
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical (NHP) | Nat Commun | Early oral emtricitabine/TAF plus long-acting cabotegravir/rilpivirine gave SHIV remission in macaques. |
-| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Preclinical (NHP) | J Infect Dis | Emtricitabine/TDF prophylaxis tested against tenofovir-resistant (K65R) SHIV in macaques. |
-| [22814162](https://pubmed.ncbi.nlm.nih.gov/22814162/) | 2012 | Preclinical (NHP) | Jpn J Infect Dis | Double oral emtricitabine/tenofovir dosing before exposure protected against highly pathogenic SHIV in macaques. |
-| [21632769](https://pubmed.ncbi.nlm.nih.gov/21632769/) | 2011 | Preclinical (NHP) | J Virol | Intermittent Truvada protected against an emtricitabine-resistant (M184V) SHIV mutant. |
-| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | Review | Pharmacotherapy | Review of systemic pre-exposure prophylaxis for HIV infection. |
-| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Preclinical virology | J Virol | SIV with the M184V mutation emerged in macaques treated with lamivudine or emtricitabine, with reduced viral fitness. |
-
----
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclinical (macaque) | J Infect Dis | Oral emtricitabine + tenofovir alafenamide protected macaques from repeated rectal SHIV exposure |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Preclinical (macaque) | J Infect Dis | Oral TAF/emtricitabine or TAF alone tested against repeated vaginal SHIV exposure |
+| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Preclinical (macaque) | J Infect Dis | Emtricitabine/TDF prophylaxis tested in macaques co-infected with Chlamydia trachomatis and Trichomonas vaginalis |
+| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Preclinical (macaque) | J Infect Dis | Oral emtricitabine/TDF tested against a tenofovir-resistant (K65R) SHIV |
+| [21632769](https://pubmed.ncbi.nlm.nih.gov/21632769/) | 2011 | Preclinical (macaque) | J Virol | Intermittent Truvada prophylaxis tested against an emtricitabine-resistant (M184V) SHIV |
+| [22814162](https://pubmed.ncbi.nlm.nih.gov/22814162/) | 2012 | Preclinical (macaque) | Jpn J Infect Dis | Double oral dose of emtricitabine/tenofovir before exposure tested against highly pathogenic SHIV |
+| [23226529](https://pubmed.ncbi.nlm.nih.gov/23226529/) | 2012 | Preclinical (macaque) | PLoS One | Coitally-dependent Truvada regimen tested against vaginal SHIV transmission |
+| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Preclinical virology | J Virol | M184V mutation emerged within 5 weeks in SIV-infected newborn macaques treated with lamivudine or emtricitabine; the mutant showed reduced fitness |
+| [22964889](https://pubmed.ncbi.nlm.nih.gov/22964889/) | 2012 | Review | Curr Opin HIV AIDS | Lessons from animal models of antiretroviral prophylaxis and next steps in preclinical PrEP research |
+| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | Review | Pharmacotherapy | Overview of systemic pre-exposure prophylaxis for HIV |
 
 ## South Africa Market Information
 
-Twenty SAHPRA registrations are recorded. The first five are shown below. The approved indication text is empty in the record, so it is not listed.
+Twenty valid single-ingredient registrations are listed; the first five are shown. The licence records contain no approved-indication text, and the data compiled for this report do not state whether emtricitabine is on the Essential Medicines List.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 47/20.2.8/0188 | Emtroc 200mg/300mg | Tablet |
-| Reg. No. 41/20.2.8/0171 | Truvada | Tablet |
-| Reg. No. 41/2.6.5/1056 | Rutra 1 Mg/Ml Solution | Solution |
-| Reg. No. A40/20.2.8/0508 | Sonke-efavirenz | Tablet |
-| Reg. No. 55/20.2.8/0080.079 | Tafbin | Film-coated tablet (recorded as "Fct") |
-
-Essential Medicines List (EML) status is not available in the record.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 47/20.2.8/0188 | Emtroc 200mg/300mg | Tablet | Not stated in the data |
+| Reg. No. 41/20.2.8/0171 | Truvada | Tablet | Not stated in the data |
+| Reg. No. 41/2.6.5/1056 | Rutra 1 Mg/Ml Solution | Solution | Not stated in the data |
+| Reg. No. A40/20.2.8/0508 | Sonke-efavirenz | Tablet | Not stated in the data |
+| Reg. No. 55/20.2.8/0080.079 | Tafbin | Film-coated tablet | Not stated in the data |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+The SAHPRA package insert warnings and contraindications were not available. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
----
+**Drug Interactions** (20 recorded; main ones by severity):
+- **Major:** leflunomide, teriflunomide
+- **Moderate:** cobicistat, orlistat, naltrexone, methotrexate, interferon beta-1a/1b, peginterferon beta-1a, asparaginase and pegaspargase, cladribine, clofarabine, epirubicin, idelalisib, cabozantinib, brentuximab vedotin, tioguanine, trabectedin
+- **Minor:** eribulin
+
+**Conditions linked to contraindication in the knowledge graph** (these are model-derived associations, not label text, and need confirmation against the PI): liver disease and liver failure, fatty liver disease and non-alcoholic steatohepatitis, lactic acidosis, kidney disease and Fanconi renotubular syndrome, chronic hepatitis B and C virus infection, long QT syndrome and torsades de pointes, hypophosphatemia, osteomalacia and rickets, among others.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is an animal-model infection, not a human disease, and the supporting evidence is preclinical (L4). The prediction mostly restates emtricitabine's existing HIV-1 antiretroviral activity, so it offers no new use for South African patients.
-
-The other two predictions do not change this. Feline acquired immunodeficiency syndrome is also veterinary, with L4 evidence and only indirect human HIV trials. The neurodevelopmental disorder prediction has no supporting evidence (L5) and no plausible mechanism.
+The only support for the SIV prediction is animal-model evidence, with no clinical trials. SIV infection is not a human disease, so the finding has research value for HIV prevention rather than as a new human indication. The other two predictions (feline immunodeficiency and the rare neurodevelopmental disorder) are weaker still.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications, so that safety screening can begin
-- Mechanism of action data from DrugBank
-- Confirmation of the approved indication text for the SAHPRA registrations
-- A clear decision on whether a veterinary or research-model use is in scope at all; if not, the candidate should be closed
+- Clarify whether any human-relevant indication is being sought. If not, the SIV result should be treated as supporting evidence for the existing HIV treatment and PrEP indications.
+- Mechanism of action data (DrugBank).
+- SAHPRA package insert warnings and contraindications, which are needed before any safety screening.
+- Confirmation of approved-indication text and Essential Medicines List status for the registered products.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

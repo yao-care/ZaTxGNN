@@ -2,7 +2,7 @@
 layout: default
 title: Paroxetine
 parent: Model Prediction Only (L5)
-nav_order: 361
+nav_order: 365
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,33 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Paroxetine: From SSRI Antidepressant to Ohdo Syndrome and Variants
+# Paroxetine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
 
 ## One-Sentence Summary
 
-Paroxetine is a selective serotonin reuptake inhibitor (SSRI) marketed in South Africa. The SAHPRA registration records supplied do not state its approved indications.
-The TxGNN model predicts it may be relevant to **Ohdo syndrome and variants**, a group of rare congenital disorders.
-There are currently **0 clinical trials** and **0 publications** supporting this direction, so it rests on the model score alone.
+Paroxetine is marketed for a range of psychiatric conditions, including major depressive disorder, anxiety disorders, obsessive-compulsive disorder, post-traumatic stress disorder and social phobia.
+The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**, a rare genetic neurodevelopmental disorder.
+This prediction rests on the model score alone: **no clinical trials and no publications** currently support it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration records provided (paroxetine is an SSRI antidepressant) |
+| Original Indication | Anxiety disorder, major depressive disorder, obsessive-compulsive disorder, post-traumatic stress disorder, social phobia and related conditions (from the TxGNN knowledge graph; SAHPRA indication text was not available) |
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 99.11% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 6 |
+| Number of SAHPRA Registrations | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input. Based on known information, paroxetine is an SSRI that acts on the serotonin transporter. Its original approved indications are not listed in the records supplied.
+Currently, detailed mechanism of action data is not available. Paroxetine is generally known as a selective serotonin reuptake inhibitor (SSRI), and its efficacy in depression and anxiety-related disorders is established. However, the data compiled for this report do not describe a mechanism that would connect it to Ohdo syndrome.
 
-Ohdo syndrome and its variants (for example, the KAT6B-related Say-Barber-Biesecker-Young-Simpson type) are rare congenital disorders. They are linked to chromatin and histone acetyltransferase dysfunction. Typical features include blepharophimosis, intellectual disability and developmental delay.
+Ohdo syndrome and its variants (for example, Say-Barber-Biesecker-Young-Simpson syndrome) are rare genetic conditions. They are usually linked to variants in the *KAT6B* gene and involve intellectual disability, low muscle tone and blepharophimosis (narrowed eye openings). The underlying problem lies in chromatin and epigenetic regulation. No plausible pathway links serotonin reuptake inhibition to this biology.
 
-**No supported mechanistic link was identified.** The candidate rests only on a high knowledge-graph score (0.991). There is no plausible way for serotonin reuptake inhibition to correct a developmental epigenetic defect, and no rationale for treating a congenital structural syndrome. Any benefit would at most be symptomatic, such as for comorbid anxiety or depression, and would not be disease-modifying. A high model score alone should therefore be read with caution.
+The very high score (0.991) is a computational output only. It may reflect knowledge-graph artefacts, such as shared neurodevelopmental or psychiatric phenotype associations, rather than a true therapeutic rationale. The prediction should be treated as a hypothesis with no supporting evidence at this stage.
 
 ## Clinical Trial Evidence
 
@@ -67,38 +67,39 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Six registrations are recorded. The five product entries below are listed; two of them share registration number A38/1.2/0612. The approved indication text was not provided for any of them.
+Paroxetine has 5 valid single-ingredient registrations in South Africa. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was also not available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 42/1.2/0208 | Lenio | Tablet | Not stated in the record |
-| Reg. No. 36/1.2/0160 | Hexal-Paroxetine | Film-coated tablet (Fct) | Not stated in the record |
-| Reg. No. A39/1.2/0216 | Xet | Tablet | Not stated in the record |
-| Reg. No. A38/1.2/0612 | Aropax CR 12,5 | Tablet | Not stated in the record |
-| Reg. No. A38/1.2/0612 | Aropax CR | Tablet | Not stated in the record |
-
-All listed forms are oral.
+| 42/1.2/0208 | Lenio | Tablet | Not available |
+| 36/1.2/0160 | Hexal-Paroxetine | Film-coated tablet (Fct) | Not available |
+| A39/1.2/0216 | Xet | Tablet | Not available |
+| A38/1.2/0612 | Aropax CR 12,5 | Tablet | Not available |
+| 38/1.2/0072 | Paroxetine Unicorn | Tablet | Not available |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+The SAHPRA package insert warnings and contraindications were not available for this report, so please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-No drug interaction records were found in the data supplied. Two known risks are relevant to a disorder that presents in childhood. Paroxetine carries risks in pregnancy, and a boxed warning for suicidality in young patients applies to the pediatric population.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, syndrome of inappropriate ADH secretion (including the nephrogenic form), serotonin syndrome, drug-induced akathisia, and pathologic fracture.
+- **Drug interactions**: 100 interactions were identified in total. The main ones in the data compiled for this report are listed below.
+  - **Major**: bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron, phentermine
+  - **Moderate**: morphine, acetylsalicylic acid (aspirin), chlorpropamide, cimetidine, clarithromycin, glimepiride, repaglinide, dronabinol, eluxadoline, and the bowel preparations picosulfuric acid, polyethylene glycol and sodium sulfate
+  - **Minor**: aprepitant
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The candidate has a very high TxGNN score but no clinical trials, no literature and no plausible mechanistic link to a congenital chromatin-related disorder. Known pregnancy and paediatric risks further weaken any case for proceeding.
+The prediction has only a model score behind it (evidence level L5). There are no registered trials or publications, and no mechanistic link between paroxetine and the *KAT6B*-related biology of Ohdo syndrome. Safety data from the label are also missing, so the benefit-risk balance cannot be assessed.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (MOA), to test whether any biological link to KAT6B/histone acetylation pathways exists
-- The SAHPRA Professional Information (PI), covering approved indications, warnings and contraindications
-- Preclinical or mechanistic evidence, or at least case-level clinical reports, supporting the prediction
-- A defined target outcome (for example, symptom management of comorbid anxiety or depression) and a paediatric safety assessment, if this direction is pursued
-
-*This report is for research reference only and does not constitute medical advice. Predicted repurposing candidates require clinical validation before any clinical use.*
+- Detailed mechanism of action data, to test whether any biologically plausible link exists
+- A systematic literature and trial registry search (including SANCTR and PACTR) for paroxetine or SSRIs in Ohdo syndrome or related neurodevelopmental disorders
+- Preclinical or mechanistic evidence, for example in *KAT6B* disease models
+- The SAHPRA package insert (warnings, contraindications, approved indications) for safety screening
+- Review of the knowledge-graph contraindications and the major drug interactions for the intended patient population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

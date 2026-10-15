@@ -2,7 +2,7 @@
 layout: default
 title: Potassium
 parent: Model Prediction Only (L5)
-nav_order: 375
+nav_order: 379
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,119 +29,109 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Potassium: From Electrolyte Replacement to Hypertensive Disorder
+# Potassium: From Unspecified Registered Uses to Hypertensive Disorder
 
 ## One-Sentence Summary
 
-Potassium is an essential electrolyte. In South Africa it is registered only in parenteral nutrition and infusion products, and none of the SAHPRA records list an approved indication.
-The TxGNN model predicts it may be useful for **hypertensive disorder**. The support is a few small dietary or supplement trials and about 20 publications, including a dose-response meta-analysis and a large salt-substitute RCT, but no confirmatory drug trial.
-The evidence concerns dietary potassium and potassium-enriched salt substitutes, not a new drug-labelled indication.
-
----
+Potassium is an essential electrolyte, registered in South Africa mainly as a component of parenteral nutrition and infusion products. The TxGNN model predicts it may be useful for **hypertensive disorder**, with **22 registered clinical trials** and **20 publications** retrieved for this indication. Only a handful of those trials actually test potassium as a therapy, and none are large efficacy trials. The most relevant evidence comes from meta-analyses of dietary and supplemental potassium and blood pressure.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the SAHPRA licence data |
+| Original Indication | Not stated in the available SAHPRA registration data |
 | Predicted New Indication | Hypertensive disorder |
 | TxGNN Prediction Score | 99.16% |
-| Evidence Level | L3 (the source pack labelled it L1; see the note below) |
+| Evidence Level | L1 (as assigned in the compiled data; see the caveat below) |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 8 |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
-**Evidence level note:** L1 requires at least 2 completed Phase 3 RCTs. The only Phase 3 trial that tests potassium (NCT00160368) has an unknown status. The other completed Phase 3 hypertension trials test other drugs. The support comes from meta-analyses, a large RCT of potassium-enriched salt substitute, and reviews. That fits L3, so I assigned L3 rather than L1.
-
----
+**Caveat on the evidence level:** The L1 rating (two or more completed Phase 3 RCTs) is not well supported by direct evidence. Only two Phase 3 trials test potassium itself: NCT03809884 (7 participants) and NCT00000509 (enrolment not reported). Most other Phase 3 trials concern potassium salts of other drugs, such as losartan potassium. The strongest support is the meta-analyses of randomised trials. A more conservative reading is therefore appropriate.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for the registered products is not available. From the literature, higher potassium intake promotes renal sodium excretion. A 2023 preclinical study (PMID 37676724) shows that dietary potassium reduces activity of the NaCl cotransporter (NCC) in the distal kidney tubule. Potassium also supports vasodilation. Together these lower blood pressure, most clearly in people with high sodium intake.
+Detailed mechanism-of-action data for potassium are not available in the data compiled for this report. Based on known physiology, potassium is the main intracellular cation. It is essential for cell membrane function and for renal sodium and potassium handling.
 
-Potassium has no recorded original indication in this dataset, so the prediction is best read as a nutritional or electrolyte-balance effect rather than a classic drug repurposing. Two sources support this direction. A dose-response meta-analysis of RCTs (PMID 32500831) examined potassium supplementation and blood pressure. A large randomised salt-substitute trial (PMID 34459569) examined cardiovascular events and death.
+Increased potassium intake promotes sodium excretion (natriuresis), supports vasodilation through endothelial effects, and attenuates the blood pressure rise seen with high sodium intake. Meta-analyses of randomised trials show a dose-dependent blood pressure reduction. The effect is greater with high sodium intake and a high sodium-to-potassium ratio.
 
-The pack's summary says no registered trial tests potassium. In fact, four small trials do: NCT00160368 (potassium chloride and bicarbonate), NCT02759367, NCT02697708 and NCT00000521. They test dietary or supplemental potassium, not a licensed potassium drug product. None is a confirmatory Phase 3 programme.
-
----
+The registered potassium products are nutritional and fluid-replacement products, so the link to hypertension is physiological rather than based on an existing approved use. The prediction is plausible mainly as dietary or supplemental potassium intake and a lower sodium-to-potassium ratio, not as a conventional antihypertensive drug.
 
 ## Clinical Trial Evidence
 
+The table lists the trials most relevant to potassium as a therapy. Many other retrieved trials only involve potassium salts of other drugs (for example losartan potassium) and are not informative.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00160368](https://clinicaltrials.gov/study/NCT00160368) | Phase 3 | Unknown | 45 | Potassium chloride vs bicarbonate: effect on blood pressure, target-organ damage markers and bone health in hypertensives. No results summarised. |
-| [NCT02759367](https://clinicaltrials.gov/study/NCT02759367) | N/A | Completed | 20 | Safety of adequate dietary potassium in hypertensive patients on RAAS-antagonist drugs (hyperkalaemia risk) |
-| [NCT00000521](https://clinicaltrials.gov/study/NCT00000521) | Phase 4 | Completed | 285 | Sodium-potassium nutritional intervention on blood pressure rise in children and adolescents |
-| [NCT02697708](https://clinicaltrials.gov/study/NCT02697708) | Phase 1/2 | Unknown | 40 | Potassium from a supplement vs potatoes vs French fries: retention, acid-base balance, blood pressure |
-| [NCT04894344](https://clinicaltrials.gov/study/NCT04894344) | N/A | Completed | 196 | Education to reduce sodium intake in university students, measured by 24-hour urinary sodium |
-| [NCT05991050](https://clinicaltrials.gov/study/NCT05991050) | N/A | Unknown | 30 | Whole-body vibration plus a potassium-rich DASH diet on blood pressure in obese postmenopausal women |
-| [NCT03569020](https://clinicaltrials.gov/study/NCT03569020) | N/A | Completed | 43 | DASH diet effect on serum uric acid in adults with gout |
-| [NCT01650012](https://clinicaltrials.gov/study/NCT01650012) | N/A | Completed | 158 | Eplerenone in haemodialysis patients. Relevant only as hyperkalaemia context, not a potassium intervention. |
+| [NCT03809884](https://clinicaltrials.gov/study/NCT03809884) | Phase 3 | Completed | 7 | Diet versus supplement to raise potassium intake in hypertension. Too small for efficacy conclusions. |
+| [NCT00000509](https://clinicaltrials.gov/study/NCT00000509) | Phase 3 | Completed | Not reported | Dietary sodium reduction with and without potassium supplementation in hypertensive men. |
+| [NCT00000501](https://clinicaltrials.gov/study/NCT00000501) | Phase 2 | Completed | Not reported | Feasibility trial of sodium reduction, with or without increased potassium, for preventing hypertension. |
+| [NCT02959931](https://clinicaltrials.gov/study/NCT02959931) | N/A | Completed | 33 | Acute vascular effects of a high-potassium meal in hypertensive patients. |
+| [NCT00949585](https://clinicaltrials.gov/study/NCT00949585) | N/A | Completed | 29 | Two levels of potassium intake in chronic kidney disease. Assesses blood pressure effect and safety. |
+| [NCT02697708](https://clinicaltrials.gov/study/NCT02697708) | Phase 1/2 | Unknown | 40 | Potassium sources (supplement, potatoes, French fries) and their effect on potassium retention and blood pressure. |
+| [NCT01074918](https://clinicaltrials.gov/study/NCT01074918) | Phase 1/2 | Withdrawn | 0 | Potassium-magnesium citrate versus potassium chloride in pre-hypertension. Never enrolled. |
 
-Most of the other ~40 registry hits for this prediction test unrelated drugs (for example losartan salts, beta-blockers and oncology agents). They are not listed.
-
----
+No SANCTR or PACTR identifiers were found in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34459569](https://pubmed.ncbi.nlm.nih.gov/34459569/) | 2021 | RCT | N Engl J Med | Tested whether lower-sodium, higher-potassium salt substitutes change cardiovascular events and death, beyond blood pressure |
-| [32500831](https://pubmed.ncbi.nlm.nih.gov/32500831/) | 2020 | Meta-analysis of RCTs | J Am Heart Assoc | Dose-response relationship between potassium supplementation (≥4 weeks) and blood pressure |
-| [23558164](https://pubmed.ncbi.nlm.nih.gov/23558164/) | 2013 | Systematic review and meta-analysis | BMJ | Effect of increased potassium intake on cardiovascular risk factors and disease |
-| [37676724](https://pubmed.ncbi.nlm.nih.gov/37676724/) | 2023 | Preclinical mechanistic | J Clin Invest | Dietary potassium reduces NCC activity via Ppp1Ca-Ppp1r1a dephosphorylation and lowers blood pressure |
-| [37772757](https://pubmed.ncbi.nlm.nih.gov/37772757/) | 2024 | Review | Am J Hypertens | State-of-the-art review of potassium and hypertension |
-| [39472546](https://pubmed.ncbi.nlm.nih.gov/39472546/) | 2025 | Review | Hypertens Res | Role of dietary potassium and salt substitution in preventing and managing hypertension |
-| [27455317](https://pubmed.ncbi.nlm.nih.gov/27455317/) | 2016 | Review | Nutrients | Potassium intake, bioavailability, hypertension and glucose control |
-| [26634368](https://pubmed.ncbi.nlm.nih.gov/26634368/) | 2016 | Review | J Physiol Biochem | Dietary potassium in hypertension and diabetes; intervention trials show blood pressure benefit |
-| [10979053](https://pubmed.ncbi.nlm.nih.gov/10979053/) | 2000 | Expert consensus review | Arch Intern Med | Guidelines for potassium replacement in clinical practice |
-| [40232853](https://pubmed.ncbi.nlm.nih.gov/40232853/) | 2025 | Animal study | JCI Insight | Potassium supplementation attenuated blood pressure in salt-sensitive rats of both sexes |
-
----
+| [32500831](https://pubmed.ncbi.nlm.nih.gov/32500831/) | 2020 | Meta-analysis of RCTs | J Am Heart Assoc | Dose-response analysis of potassium supplementation and blood pressure in trials lasting at least 4 weeks. |
+| [23558164](https://pubmed.ncbi.nlm.nih.gov/23558164/) | 2013 | Systematic review/meta-analysis | BMJ | Effect of increased potassium intake on cardiovascular risk factors and disease. |
+| [26039623](https://pubmed.ncbi.nlm.nih.gov/26039623/) | 2015 | Meta-analysis of RCTs | J Hypertens | Daily potassium intake and sodium-to-potassium ratio in blood pressure reduction. |
+| [37772757](https://pubmed.ncbi.nlm.nih.gov/37772757/) | 2024 | State-of-the-art review | Am J Hypertens | Review of potassium and hypertension. |
+| [10979053](https://pubmed.ncbi.nlm.nih.gov/10979053/) | 2000 | Guideline/Review | Arch Intern Med | National Council on Potassium in Clinical Practice guidelines for potassium replacement. |
+| [9624886](https://pubmed.ncbi.nlm.nih.gov/9624886/) | 1998 | Review | Nutr Rev | Increased potassium intake may help prevent and treat hypertension. |
+| [35045721](https://pubmed.ncbi.nlm.nih.gov/35045721/) | 2022 | Clinical study | Hypertension | Potassium-induced natriuresis in hypertensive postmenopausal women, compared with hydrochlorothiazide. |
+| [41263071](https://pubmed.ncbi.nlm.nih.gov/41263071/) | 2026 | Trial analysis | Hypertension | Consistency of blood pressure response to potassium-enriched salt in the China Salt Substitute Study. |
+| [25398734](https://pubmed.ncbi.nlm.nih.gov/25398734/) | 2014 | Review | Adv Nutr | Sodium-to-potassium ratio and blood pressure. |
+| [39543422](https://pubmed.ncbi.nlm.nih.gov/39543422/) | 2025 | Commentary | Hypertens Res | Antihypertensive combinations and potassium homeostasis. |
 
 ## South Africa Market Information
 
+None of the four registrations has an approved indication text in the available data. Essential Medicines List status could not be determined from the data compiled for this report.
+
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| T/30.3/704 | Stabilised Human Serum-5% Protein Solution | Infusion | Not recorded |
-| Exclusion under Section 36 & Section 14 | ITN 3014Xa 750ml | TPN | Not recorded |
-| Article 21B | TPN non-specific | Infusion | Not recorded |
-| Exclusion under Section 36 & Section 14 | ITN 8807a 2390ml | TPN | Not recorded |
-| Exclusion under Section 36 & Section 14 | ITN 5501a 2240ml | TPN | Not recorded |
+| T/30.3/704 | Stabilised Human Serum-5% Protein Solution | Infusion | Not stated |
+| Exclusion under Section 36 & Section 14 | ITN 3014Xa 750ml | TPN | Not stated |
+| Article 21B (N/A) | TPN non-specific | Infusion | Not stated |
+| 49/25/0065 | Nutriflex Omega Specialized | Infusion | Not stated |
 
-Five of the 8 registrations are shown. All are infusion or parenteral nutrition preparations, several under Section 21/36/14 exclusions rather than a standard registration. None is an oral potassium supplement or a hypertension product.
-
----
+All registered forms are injectable or parenteral nutrition products. Oral potassium products, which would be the relevant route for hypertension, are not among the registrations in the compiled data.
 
 ## Safety Considerations
 
-- **Drug Interactions:** No interaction records were found in the queried database.
+- **Hyperkalaemia risk:** This is the main guardrail. It is highest in renal impairment, with concomitant RAAS inhibitors (ACE inhibitors, ARBs, MRAs) or potassium-sparing diuretics, and in heart failure patients at high risk of hyperkalaemia.
+- **Monitoring:** Serum potassium and renal function monitoring are needed.
+- **Renal disease:** Potassium supplementation in severe renal disease, including malignant hypertensive renal disease, carries a substantial hyperkalaemia risk.
 
-The SAHPRA package-insert warnings and contraindications were not retrieved. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+No label-based warnings, contraindications or drug interaction data were available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
-Guardrails from the literature review:
-- Avoid in chronic kidney disease with reduced eGFR and in anyone at risk of hyperkalaemia.
-- Take extra care with concurrent ACE inhibitors, ARBs, mineralocorticoid antagonists or potassium-sparing diuretics.
-- Monitor serum potassium.
+## Other Predicted Indications (Brief)
 
----
+| Predicted Indication | Score | Evidence Level | Decision |
+|------|------|------|------|
+| Congestive heart failure | 98.41% | L4 | Research question. Only a small high-potassium diet safety study (n=30); no efficacy trial. |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.05% | L4 | Hold. Evidence concerns potassium channel physiology, not potassium therapy. |
+| Malignant renovascular hypertension | 99.02% | L4 | Hold. Literature treats hypokalaemia as a diagnostic clue, not a therapy. |
+| Alopecia | 98.31% | L5 | Hold. Literature concerns minoxidil (a potassium channel opener). |
+| Pulmonary hypertension, unclear multifactorial mechanism; malignant hypertensive renal disease; Braddock syndrome; chronic pulmonary heart disease; congenital hypotrichosis milia | 98.3–99.1% | L5 | Hold. Prediction signal only, with no supporting trials or relevant literature. |
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails** (for hypertensive disorder only)
 
 **Rationale:**
-The link between potassium intake and lower blood pressure has meta-analysis and large-RCT support, but it applies to dietary potassium and salt substitutes, not to the infusion products registered in South Africa. The safety review is incomplete because the SAHPRA PI data is missing (a blocking gap). Any further work should therefore stay within nutritional or supplement use, with potassium monitoring.
+Meta-analyses of randomised trials consistently show that higher potassium intake lowers blood pressure. However, direct trials of potassium as a treatment are very small or lack reported enrolment, and the registered South African products are parenteral nutrition products. The evidence supports dietary or supplemental potassium as an adjunct, not a standalone repurposed drug. All other predicted indications should be held.
 
 **To proceed, the following is needed:**
-- Retrieve and review the SAHPRA package inserts for warnings and contraindications (blocking).
-- Obtain mechanism-of-action data from DrugBank.
-- Confirm whether an oral potassium product or salt substitute is available and registered in South Africa, since the current registrations are parenteral.
-- Draw up a monitoring protocol for patients with CKD or on RAAS-acting drugs.
-
-**Other predictions:** Congestive heart failure (98.41%) is a research question only, because the evidence is observational and concerns correcting deficiency. The other eight predictions (pulmonary hypertension subtypes, malignant hypertensive renal disease, malignant renovascular hypertension, Braddock syndrome, chronic pulmonary heart disease, alopecia and congenital hypotrichosis milia) are on Hold. They rest on model prediction or indirect potassium-channel biology, and no relevant potassium trials support them.
-
-*For research reference only; not medical advice. Predictions require clinical validation.*
+- Review of the SAHPRA Professional Information for warnings and contraindications, which were not available
+- Mechanism-of-action data from DrugBank
+- A defined oral formulation and dose, since the registered products are parenteral
+- A monitoring plan for serum potassium and renal function, particularly for patients on RAAS inhibitors or potassium-sparing diuretics
+- An adequately powered randomised trial of potassium in hypertension, ideally including South African populations, with registration on SANCTR or PACTR
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

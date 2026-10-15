@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cyclizine
-parent: Moderate Evidence (L3-L4)
-nav_order: 154
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 156
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cyclizine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,70 +29,94 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cyclizine: From First-Generation Antihistamine to Allergic Urticaria
+# Cyclizine: From Allergic Rhinitis and Motion Sickness to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Cyclizine is a first-generation H1 antihistamine, and the SAHPRA registration data supplied here do not record an approved indication.
-The TxGNN model predicts it may be effective for **allergic urticaria**,
-but there are **0 clinical trials** and only **1 indirectly related publication** (on solar urticaria), so this is a research question, not a treatment recommendation.
+Cyclizine is a first-generation H1 antihistamine with anticholinergic activity, originally used for allergic and vasomotor rhinitis, conjunctivitis, the common cold, pharyngitis and motion sickness.
+The TxGNN model predicts it may be effective for **allergic urticaria**, but **no clinical trials and no publications** specific to this indication were found in the data compiled for this report, so the support is model prediction and class-level reasoning only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, allergic conjunctivitis, motion sickness (from the knowledge graph; the SAHPRA registration carries no indication text) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
-| Recommended Decision | Hold (research question only) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available from DrugBank. Based on general class pharmacology, cyclizine is a first-generation H1 antihistamine. H1 receptor blockade is the standard mechanism for controlling urticaria, so the prediction is biologically coherent.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cyclizine is a first-generation H1 antihistamine with anticholinergic activity. Its efficacy in allergic rhinitis and allergic conjunctivitis rests on blocking histamine at the H1 receptor.
 
-The retrieved evidence is weak, however. The only paper found concerns solar urticaria, a different subtype, and supports the prediction only indirectly. No trials exist for cyclizine itself. Second-generation antihistamines are already the better-studied standard, and they cause less sedation and anticholinergic burden. That makes cyclizine an unlikely first choice even if H1 blockade is relevant.
+Urticaria is also a histamine-mediated condition, and H1 antihistamines are the standard first-line treatment, so a class-level mechanistic link is plausible. Current guidance generally favours second-generation antihistamines because first-generation agents cause more sedation and anticholinergic effects. There is no cyclizine-specific evidence for urticaria in the data compiled for this report.
 
-The other nine predictions are weaker. Rhinitis is biologically coherent but has no cyclizine-specific evidence. Headache disorder has five papers, but all are indirect, and cyclizine appears mainly as an antiemetic component of ergotamine combination products. The remaining seven are either too broad, mechanistically unsupported, or not treatable indications (for example, "IgE responsiveness, atopic" is a trait).
+Other model predictions fall into three groups:
+- **Overlap with existing uses:** rhinitis, nasal cavity disease and acute laryngopharyngitis largely restate existing indications rather than representing new uses.
+- **Cold urticaria:** plausible by class, but with the same limitations as allergic urticaria.
+- **Weak or non-actionable links:**
+  - Rosacea conjunctivitis, trigeminal autonomic cephalalgia and the atopic IgE trait have weak or no clear mechanistic links.
+  - Recalcitrant atopic dermatitis: antihistamines may help with sedation for itch-related sleep disturbance but do not treat the underlying disease.
+  - Headache disorder has only indirect literature evidence (see below).
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for allergic urticaria.
 
 ## Literature Evidence
 
+No literature was found for allergic urticaria. The only literature retrieved for any of the top-ranked predictions relates to the lower-ranked prediction **headache disorder**, and it is indirect:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8573923](https://pubmed.ncbi.nlm.nih.gov/8573923/) | 1995 | Photobiology / diagnostic study | Dermatology (Basel) | Action spectra in solar urticaria vary between patients, and light outside the activating wavelengths can influence wheal formation. This is not a cyclizine treatment study. |
+| [3926322](https://pubmed.ncbi.nlm.nih.gov/3926322/) | 1985 | RCT | Cephalalgia | Naproxen sodium compared with an ergotamine–caffeine–cyclizine combination in 114 patients with acute migraine. Cyclizine was only one component of the comparator, so this does not show cyclizine efficacy. |
+| [20420788](https://pubmed.ncbi.nlm.nih.gov/20420788/) | 2010 | Cohort | Int J Clin Pharmacol Ther | Pharmacy database analysis of migraine prescribing patterns and costs, focusing on triptans. Not specific to cyclizine. |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. B769 (ACT 101) | Cyclimorph 1ml | Injection | Not stated in the available data |
+| B769 (ACT 101) | Cyclimorph 1ml | Injection | Not stated in the registration data |
 
-Only an injectable product is registered. Urticaria is usually managed with oral agents, so route compatibility has not been assessed.
+Only one registration was found, an injectable single-ingredient product with valid status. The name suggests it may be a cyclizine–morphine combination, but the data compiled for this report list it as a single-ingredient product, so this should be verified against the SAHPRA record. Essential Medicines List status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications and conditions of concern (from knowledge-graph drug–disease contraindication links, not label text):**
+Conditions flagged include:
+- Cardiovascular: hypertension, hypotension, coronary artery disease, myocardial infarction, atherosclerosis
+- Neurological: epilepsy
+- Renal, hepatic and biliary disease: kidney disease, liver disease, gallbladder disease, pancreatitis
+- Endocrine: hypothyroidism and myxedema, adrenocortical insufficiency (Addison disease), diabetes mellitus and diabetic ketoacidosis
+- Gastrointestinal: peptic ulcer disease, inflammatory bowel disease, *Clostridium difficile* colitis, necrotizing enterocolitis
+- Urological and ocular: benign prostatic hyperplasia, ocular hypertension
+- Other: hemoglobinopathy
 
-Two general concerns were noted in the evidence review. First-generation antihistamines carry sedation and anticholinergic burden. Ergot toxicity reported with ergotamine-containing migraine combinations is a concern for those products, not for cyclizine alone.
+These links should be confirmed against the approved Professional Information (PI).
+
+**Drug Interactions:** 100 interactions were identified; the first 20 are shown here.
+- **Major:** potassium chloride and potassium citrate.
+- **Moderate:** other anticholinergic agents (atropine, hyoscyamine, scopolamine, glycopyrronium, dicyclomine, trospium, propantheline, methscopolamine, mepenzolate); opioids and related agents (morphine, opium, loperamide, eluxadoline); cannabinoids (dronabinol, nabilone); and prokinetic or antiemetic agents (metoclopramide, prucalopride).
+- Additive anticholinergic and central nervous system depressant effects are the likely concern for the moderate interactions.
+
+Label warnings and contraindications from the SAHPRA package insert were not available. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (research question only)**
+**Decision: Hold**
 
 **Rationale:**
-The 99.98% model score and the H1-antagonist mechanism make the prediction plausible. But there are no trials, the single publication is indirect, and better-tolerated antihistamines are already standard for urticaria. The evidence does not support a clinical recommendation.
+The TxGNN score for allergic urticaria is high (99.98%), but there are no trials or publications for this indication, so the evidence level is L5. Many of the top predictions also overlap with existing indications, and current guidance favours second-generation antihistamines for urticaria.
 
 **To proceed, the following is needed:**
-- SAHPRA Professional Information, to confirm the approved indication, warnings and contraindications
-- Mechanism of action data from DrugBank
-- A targeted literature review of cyclizine or first-generation H1 antihistamines in chronic and allergic urticaria
-- A comparison against second-generation antihistamines on efficacy, sedation and anticholinergic burden
-- A route and formulation assessment, since the only registered product is an injection
+- The SAHPRA package insert (warnings, contraindications, approved indications), which is a blocking gap for safety screening
+- Mechanism of action data for cyclizine
+- Confirmation of the composition and indication of the registered product (Cyclimorph) and whether other cyclizine products are available in South Africa
+- A literature search for cyclizine in urticaria, including comparison with second-generation antihistamines
+- A benefit–risk assessment of sedation and anticholinergic burden, especially in patients with the conditions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

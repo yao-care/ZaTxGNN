@@ -2,7 +2,7 @@
 layout: default
 title: Fenoterol
 parent: Model Prediction Only (L5)
-nav_order: 224
+nav_order: 226
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fenoterol: From Bronchodilator Use (Airway Obstruction) to Multiple System Atrophy
+# Fenoterol: From Bronchodilator Use to Multiple System Atrophy
 
 ## One-Sentence Summary
 
-Fenoterol is a beta2-adrenergic agonist bronchodilator, marketed in South Africa as nebulisation vials and inhalers. The registration data supplied do not state an approved indication.
-The TxGNN model's top-ranked prediction is **multiple system atrophy** (score 99.70%), but there are **0 clinical trials and 0 publications** for it, and the mechanism is not plausible. Across all 10 predicted indications, the only one with any literature is **anaphylaxis** (11 records, all preclinical or indirect).
+Fenoterol is a beta-2 adrenergic agonist that is registered in South Africa in single-ingredient products, including nebuliser and inhaler formulations. The TxGNN model predicts it may be effective for **multiple system atrophy** (top-ranked prediction), but there are **no clinical trials and no publications** supporting this prediction. The only literature found in the compiled data relates to a lower-ranked prediction (anaphylaxis) and is entirely preclinical.
 
 ---
 
@@ -42,72 +41,63 @@ The TxGNN model's top-ranked prediction is **multiple system atrophy** (score 99
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (drug class: beta2-agonist bronchodilator) |
-| Predicted New Indication | Multiple system atrophy (rank 1) |
+| Original Indication | Not stated in the SAHPRA registration data compiled for this report |
+| Predicted New Indication | Multiple system atrophy |
 | TxGNN Prediction Score | 99.70% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
-
-The 10 predicted indications, in rank order:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision |
-|---|---|---|---|---|
-| 1 | Multiple system atrophy | 99.70% | L5 | Hold |
-| 2 | Postural orthostatic tachycardia syndrome | 99.61% | L5 | Hold |
-| 3 | Variably protease-sensitive prionopathy | 99.54% | L5 | Hold |
-| 4 | Open-angle glaucoma | 99.43% | L5 | Hold |
-| 5 | Raynaud disease | 99.41% | L5 | Hold |
-| 6 | Primary hereditary glaucoma | 99.37% | L5 | Hold |
-| 7 | Sinoatrial block | 99.35% | L5 | Hold |
-| 8 | Sinoatrial node disease | 99.25% | L5 | Hold |
-| 9 | Anaphylaxis | 98.28% | L4 | Research question |
-| 10 | Glaucoma 1, open angle | 98.16% | L5 | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Fenoterol is a beta2-adrenergic agonist. Its established pharmacology is bronchodilation, and it is also used as a tocolytic.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Pharmacology data identify fenoterol as a ligand of the beta-1, beta-2 and beta-3 adrenoceptors. It is a beta-2 agonist used as a bronchodilator and, in some countries, to suppress premature labour.
 
-**Multiple system atrophy (rank 1):** No disease-modifying mechanism is evident. Fenoterol's peripheral vasodilation could lower blood pressure further in MSA-related autonomic failure and orthostatic hypotension. The high score is most likely a knowledge-graph artifact.
+A theoretical link to multiple system atrophy (MSA), which involves autonomic failure and orthostatic hypotension, can be imagined through cardiovascular effects. However, beta-2 agonism causes peripheral vasodilation, which would more likely **worsen** orthostatic hypotension than relieve it. The prediction rests on the TxGNN score alone, and the mechanistic rationale is weak.
 
-**Other top-ranked predictions:**
-- **POTS:** Beta2 agonism would be expected to worsen tachycardia and orthostatic intolerance. Beta-blockade, not agonism, is the direction used in practice, so this is a potential safety concern.
-- **Prion disease (variably protease-sensitive prionopathy):** No link between beta2 signalling and prion misfolding is established. This is probably a proximity artifact in an ultra-rare disease with sparse network data.
-- **Glaucoma (three entries):** Adrenergic agonists can modulate aqueous humour dynamics, so the mechanism is loosely plausible. Fenoterol is not an ocular agent, and ocular delivery, efficacy and safety are unstudied. "Open-angle glaucoma" and "glaucoma 1, open angle" are the same disease group and should be merged.
-- **Raynaud disease:** Beta2-mediated vasodilation gives a superficial rationale. Systemic beta2 agonism has no established benefit here, and its tachycardia and hypotension liabilities argue against use.
-- **Sinoatrial block and sinoatrial node disease:** Beta-agonist chronotropy relates mechanistically to sinus node function. Fenoterol is not selective enough for this use, and its arrhythmogenic and hypokalaemic effects are a safety risk.
+**Other predictions in the top 10** (all with no clinical trials):
 
-**Anaphylaxis (rank 9)** is the only prediction with a coherent biological rationale. Beta2 agonists, including fenoterol, inhibit antigen-induced mediator release from mast cells and basophils. They also attenuate anaphylactic bronchospasm in rat and guinea pig models. Epinephrine remains the standard of care, and beta2 agonists are at most an adjunct for bronchospasm.
+| Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|------|------|------|------|
+| Postural orthostatic tachycardia syndrome | 99.61% | L5 | Tachycardia and vasodilation would be expected to aggravate symptoms |
+| Variably protease-sensitive prionopathy | 99.54% | L5 | No plausible mechanism; likely a knowledge-graph artefact |
+| Open-angle glaucoma | 99.43% | L5 | Beta-blockers, not agonists, are the established therapy |
+| Raynaud disease | 99.41% | L5 | Vasodilation is plausible, but systemic side effects limit practicality |
+| Primary hereditary glaucoma | 99.37% | L5 | Structural/genetic causes make a pharmacological link weak |
+| Sinoatrial block | 99.35% | L5 | Chronotropic rationale, but arrhythmia and hypokalaemia risks |
+| Sinoatrial node disease | 99.25% | L5 | Usually managed with pacing; proarrhythmic risk |
+| Anaphylaxis | 98.28% | L4 | Preclinical support only (see below) |
+| Glaucoma 1, open angle | 98.16% | L5 | Near-duplicate of the open-angle glaucoma entry |
+
+Of the ten, **anaphylaxis** has the most supporting evidence: animal and tissue studies show that fenoterol inhibits antigen-induced histamine release and attenuates antigen-induced bronchospasm. This evidence is indirect, and epinephrine remains the standard of care.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for any of the 10 predicted indications (ClinicalTrials.gov and ICTRP; no SANCTR or PACTR identifiers were provided).
+Currently no related clinical trials registered for multiple system atrophy, nor for any of the other nine predicted indications.
 
 ---
 
 ## Literature Evidence
 
-There is no literature for multiple system atrophy (rank 1) or for any other predicted indication except anaphylaxis. The table below therefore shows the anaphylaxis records (10 of 11 shown). All are preclinical, ex vivo or case-level.
+Currently no related literature available for multiple system atrophy.
+
+For reference, the literature found for the tenth-ranked prediction, **anaphylaxis**, is entirely preclinical or non-fenoterol-specific:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [98295](https://pubmed.ncbi.nlm.nih.gov/98295/) | 1978 | Preclinical (rat) | Chest | Effects of fenoterol on passive cutaneous anaphylaxis and histamine skin test in rats |
-| [2889607](https://pubmed.ncbi.nlm.nih.gov/2889607/) | 1987 | Preclinical (rat) | Eur J Pharmacol | Sodium cromoglycate and the beta2 agonists fenoterol and salbutamol were synergistic in inhibiting passive anaphylactic bronchoconstriction |
-| [68010](https://pubmed.ncbi.nlm.nih.gov/68010/) | 1977 | Preclinical (rat) | Int Arch Allergy Appl Immunol | Fenoterol was the most potent inhibitor of IgE-mediated histamine release in vivo (ED50 6 µg/kg i.v., vs salbutamol 40 and isoproterenol 94) |
-| [6203772](https://pubmed.ncbi.nlm.nih.gov/6203772/) | 1984 | Preclinical / ex vivo | Eur J Respir Dis Suppl | Beta-adrenoceptor subtypes mediating relaxation and inhibition of antigen-induced histamine release in human and guinea pig airways |
+| [68010](https://pubmed.ncbi.nlm.nih.gov/68010/) | 1977 | Preclinical (rat) | Int Arch Allergy Appl Immunol | Fenoterol was the most potent of the beta-agonists tested at inhibiting antigen-induced histamine release in vivo |
 | [6199956](https://pubmed.ncbi.nlm.nih.gov/6199956/) | 1984 | Preclinical (guinea pig) | Agents Actions | Fenoterol attenuated antigen-induced bronchospasm and changes in tissue histamine |
-| [2864902](https://pubmed.ncbi.nlm.nih.gov/2864902/) | 1985 | Preclinical (guinea pig lung) | Arch Int Pharmacodyn Ther | Possible mechanism for the anti-anaphylactic effect of beta agonists, via thromboxane A2 release (class mechanism) |
-| [2565667](https://pubmed.ncbi.nlm.nih.gov/2565667/) | 1989 | Preclinical (guinea pig) | Agents Actions | Beta-adrenoceptor-mediated inhibition of IgG1- and IgE-dependent anaphylactic tracheal contraction (class mechanism) |
-| [6416724](https://pubmed.ncbi.nlm.nih.gov/6416724/) | 1983 | Preclinical (indirect) | Clin Exp Pharmacol Physiol | Fenoterol was about 1000 times more potent than cromoglycate in relaxing guinea pig trachea; the study is mainly about cromoglycate |
-| [2409769](https://pubmed.ncbi.nlm.nih.gov/2409769/) | 1985 | Preclinical (other drug) | Agents Actions | Clenbuterol inhibited histamine release from human lung tissue; the fenoterol effect was propranolol-sensitive |
-| [11993080](https://pubmed.ncbi.nlm.nih.gov/11993080/) | 2002 | Case report | Anaesthesist | Anaphylaxis after IV hydrocortisone; not about fenoterol, so low relevance |
-
-The remaining record (PMID 42288, 1979, guinea pig ileum Schultz-Dale reaction) is not classified and is not shown.
+| [6203772](https://pubmed.ncbi.nlm.nih.gov/6203772/) | 1984 | Preclinical (human and guinea pig airway tissue) | Eur J Respir Dis Suppl | Characterised the beta-adrenoceptor subtypes mediating airway relaxation and inhibition of histamine release |
+| [2864902](https://pubmed.ncbi.nlm.nih.gov/2864902/) | 1985 | Preclinical (guinea pig) | Arch Int Pharmacodyn Ther | Proposed a mechanism for the anti-anaphylactic effect of beta-agonists via thromboxane A2 |
+| [2409769](https://pubmed.ncbi.nlm.nih.gov/2409769/) | 1985 | Preclinical | Agents Actions | Clenbuterol (a different beta-agonist) inhibited histamine release from human lung tissue; fenoterol's effect was reduced by propranolol |
+| [6416724](https://pubmed.ncbi.nlm.nih.gov/6416724/) | 1983 | Preclinical (guinea pig) | Clin Exp Pharmacol Physiol | Fenoterol was about 1000 times more potent than cromoglycate in relaxing tracheal smooth muscle |
+| [2889607](https://pubmed.ncbi.nlm.nih.gov/2889607/) | 1987 | Preclinical (rat) | Eur J Pharmacol | Fenoterol and salbutamol acted synergistically with sodium cromoglycate in anaphylactic bronchoconstriction |
+| [98295](https://pubmed.ncbi.nlm.nih.gov/98295/) | 1978 | Preclinical (rat) | Chest | Compared fenoterol's effects on passive cutaneous anaphylaxis and histamine skin test |
+| [11993080](https://pubmed.ncbi.nlm.nih.gov/11993080/) | 2002 | Case report | Der Anaesthesist | Anaphylaxis after hydrocortisone; not fenoterol-specific |
 
 ---
 
@@ -115,25 +105,25 @@ The remaining record (PMID 42288, 1979, guinea pig ileum Schultz-Dale reaction) 
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 35/10.2.1/0004 | Adco-nebrafen 4ml | Vial | Not provided in the data |
-| Reg. No. 35/10.2.1/0302 | Duovent Hfa | Inhaler | Not provided in the data |
-| Reg. No. 37/20.1.1/0042 | Adco ceftriaxone powder f/injection | Injection | Not provided in the data |
-| Reg. No. Z/10.2.1/78 | Atrovent beta udv 4ml | Vial | Not provided in the data |
+| Reg. No. 35/10.2.1/0004 | Adco-nebrafen 4ml | Vial | Not stated in the data compiled |
+| Reg. No. 35/10.2.1/0302 | Duovent HFA | Inhaler | Not stated in the data compiled |
+| Reg. No. 37/20.1.1/0042 | Adco ceftriaxone powder f/injection | Injection | Not stated in the data compiled |
+| Reg. No. Z/10.2.1/78 | Atrovent beta udv 4ml | Vial | Not stated in the data compiled |
 
-The ceftriaxone product (37/20.1.1/0042) is an antibiotic and is probably a mapping error in the source data. Verify it before counting it among fenoterol registrations. Essential Medicines List (EML) status was not provided.
+All four registrations are valid single-ingredient licences. The Essential Medicines List (EML) status of fenoterol is not available in the data compiled for this report. The registration records also contain no approved indication text, so the original indication cannot be confirmed from them. The ceftriaxone product listing appears inconsistent with a beta-2 agonist and should be verified against the SAHPRA register.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+Safety label data (warnings and contraindications) was not obtained from the SAHPRA package insert, and no contraindication edges were found in the knowledge graph.
 
-Mechanism-based concerns noted in the prediction rationale (not taken from the PI):
-- Vasodilation and hypotension, which is relevant to MSA and orthostatic disorders.
-- Tachycardia, which is relevant to POTS.
-- Arrhythmia and hypokalaemia, which is relevant to sinoatrial disease.
+Pharmacology data show fenoterol acts on beta-1, beta-2 and beta-3 adrenoceptors, which is consistent with cardiovascular effects. Based on the mechanism, the following concerns are relevant to the predicted indications (these are mechanism-based expectations, not label data):
+- Tachycardia, tremor and arrhythmia risk
+- Hypokalaemia
+- Peripheral vasodilation, which could worsen orthostatic hypotension (relevant to MSA and POTS)
 
-No drug interaction records were found.
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -142,14 +132,14 @@ No drug interaction records were found.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predictions (including multiple system atrophy) have no trials or literature, and several are mechanistically implausible or potentially harmful, so a high TxGNN score alone is not enough. Anaphylaxis is the only indication with any supporting literature, but that literature is preclinical, and epinephrine remains the standard of care. It stays at the research-question stage.
+The prediction for multiple system atrophy rests solely on a TxGNN score (L5), with no trials or literature, and the beta-2 agonist mechanism would plausibly worsen orthostatic hypotension. None of the other nine predicted indications has clinical support either. Anaphylaxis is the only one with preclinical data (L4), which is best treated as a research question rather than a clinical development candidate.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications, approved indications). This is a blocking gap that prevents safety screening.
-- Mechanism of action data from DrugBank.
-- Verification of the four registrations, especially the ceftriaxone product.
-- Merging of the duplicate glaucoma entries.
-- For anaphylaxis, human clinical data on beta2 agonists as adjunctive therapy for bronchospasm, plus a safety review against the cardiovascular liabilities above.
+- SAHPRA package insert data (approved indications, warnings, contraindications), which is a blocking gap for safety screening
+- Mechanism-of-action data from DrugBank
+- A mechanistic and safety review addressing the vasodilation and orthostatic hypotension concern for MSA
+- Any clinical or human physiological studies in the predicted conditions, before any further evaluation
+- Verification of the registration records (including the ceftriaxone product listing)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

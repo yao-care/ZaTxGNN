@@ -2,7 +2,7 @@
 layout: default
 title: Brompheniramine
 parent: Model Prediction Only (L5)
-nav_order: 78
+nav_order: 79
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Brompheniramine: From Antihistamine Use to Allergic Urticaria
+# Brompheniramine: From Allergic Rhinitis and Related Allergic Conditions to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Brompheniramine is a first-generation H1 antihistamine, marketed in South Africa as Ilvico syrup and tablets. The TxGNN model predicts it may be effective for **allergic urticaria**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model score and drug-class reasoning alone.
+Brompheniramine is a first-generation antihistamine, originally used for allergic rhinitis, the common cold, allergic conjunctivitis and urticaria.
+The TxGNN model predicts it may be effective for **allergic urticaria** (and, as a second prediction, **cold urticaria**),
+but **no clinical trials or publications** were found in the data compiled for this report, so the prediction currently rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the supplied data (first-generation H1 antihistamine) |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, common cold, allergic conjunctivitis (atopic, papillary, vernal), familial dermatographia, urticaria, angioedema (from the knowledge graph; SAHPRA indication text is not available) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L5 |
@@ -47,54 +51,73 @@ Brompheniramine is a first-generation H1 antihistamine, marketed in South Africa
 | Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug. Based on known information, brompheniramine belongs to the first-generation H1-receptor antagonist class. Its effect on allergic conditions is well recognised at class level, and mechanistically it may be applicable to allergic urticaria.
+Brompheniramine is a first-generation H1-receptor antagonist. Detailed mechanism-of-action data were not available in the data compiled for this report, but this is its established pharmacology. In allergic urticaria, histamine released from mast cells causes the wheal-and-flare reaction, so blocking H1 receptors is mechanistically plausible.
 
-In allergic urticaria, mast cells release histamine, which produces the typical itchy wheal-and-flare reaction. Blocking the H1 receptor is a biologically coherent way to reduce these symptoms. The high TxGNN score probably reflects this drug-class relationship.
+The knowledge graph already lists urticaria and angioedema among brompheniramine's original indications. The high score for allergic urticaria therefore probably reflects this existing link. This is largely an on-label or near-label use, not a true repurposing opportunity.
 
-Two cautions apply:
-- The mechanism link is a class-level inference. It has not been verified against a drug-specific record.
-- Brompheniramine is already marketed, so this may be an existing class use rather than true repurposing. That should be checked against the SAHPRA-approved label.
+The second prediction, **cold urticaria** (score 99.55%), is a physical urticaria triggered by cold exposure. H1 antihistamines are first-line therapy for it, so the mechanism fits. However, guidelines generally prefer second-generation non-sedating antihistamines (such as cetirizine, desloratadine or rupatadine), often up-titrated, over first-generation agents. The reasons are sedation and anticholinergic burden. There is no direct evidence for brompheniramine in this condition.
 
-A second prediction, **cold urticaria** (score 99.55%), has the same weaknesses. Cold exposure triggers mast cell degranulation and histamine release, so H1 blockade is plausible. However, no trial or publication supports brompheniramine in this condition, and the score likely reflects general antihistamine–urticaria associations. It is rated Hold.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR records were not supplied for this candidate).
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| C769 (ACT 101/1965) | Ilvico | Syrup | Not listed in the supplied record |
-| C770 (ACT 101/1965) | Ilvico | Tablet | Not listed in the supplied record |
+| C769 (ACT 101/1965) | Ilvico | Syrup | Not available in the data compiled |
+| C770 (ACT 101/1965) | Ilvico | Tablet | Not available in the data compiled |
 
-Essential Medicines List (EML) inclusion status was not supplied and should be confirmed separately.
+Both registrations are valid single-ingredient products. No Essential Medicines List (EML) status was available in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications / conditions of concern (from knowledge-graph drug–disease links, not label text):**
+Hypertension, coronary artery disease and myocardial infarction, liver disease and liver failure, kidney disease, epilepsy, COPD, peptic ulcer disease and gastric ulcer, inflammatory bowel disease, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, hypothyroidism, ocular hypertension, pancreatitis, gallbladder disease, substance abuse/dependence, hypotension, and others. These need confirmation against the SAHPRA-approved Professional Information (PI).
+
+**Drug Interactions (100 interactions recorded; examples):**
+- **Major:** Potassium chloride, potassium citrate
+- **Moderate:**
+  - Anticholinergics: atropine, hyoscyamine, scopolamine, dicyclomine, glycopyrronium, propantheline
+  - Opioids: morphine, opium
+  - Loperamide, metoclopramide
+  - Cannabinoids: dronabinol, nabilone
+  - Eluxadoline
+
+Additive anticholinergic and sedative effects are the main concern with these combinations.
+
+The SAHPRA package insert warnings were not available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but no clinical trial or publication supports it (L5). The mechanism, the original indication and the safety profile are all missing from the record. The drug is already marketed and may already be used for allergic conditions, so it is unclear whether this is new.
+The predictions rest on model scores alone (Evidence Level L5), with no trials or publications. Allergic urticaria is largely an existing indication, and for cold urticaria, non-sedating second-generation antihistamines are preferred. The package insert safety data are also missing.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert, to confirm the approved indications (including whether allergic urticaria is already covered), warnings and contraindications
-- Mechanism of action data for brompheniramine, for example from DrugBank
-- A literature and trial search specific to brompheniramine in allergic urticaria and cold urticaria
-- A route compatibility check for the predicted indication against the syrup and tablet forms
-- Confirmation of Essential Medicines List (EML) status
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- The SAHPRA package insert (indications, warnings, contraindications) for both Ilvico registrations
+- Mechanism-of-action data from DrugBank
+- Clinical evidence for brompheniramine in allergic and cold urticaria, including comparison with second-generation antihistamines
+- A review of the knowledge-graph contraindications against the PI, and a plan for the anticholinergic and sedation burden
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

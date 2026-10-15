@@ -2,7 +2,7 @@
 layout: default
 title: Calcipotriol
 parent: Moderate Evidence (L3-L4)
-nav_order: 87
+nav_order: 88
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,17 +29,17 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Calcipotriol: From Psoriasis to Seborrheic Keratosis
+# Calcipotriol: From Plaque Psoriasis (Topical Vitamin D Analogue) to Seborrheic Keratosis
 
 ## One-Sentence Summary
 
-Calcipotriol is a topical vitamin D3 analogue, marketed in South Africa in combination products (Dovobet ointment and Xamiol gel) for inflammatory skin disease. The TxGNN model predicts it may be effective for **seborrheic keratosis**, a common benign skin growth. Support is limited to **0 registered clinical trials** and **6 publications**, mostly small clinical series and case reports with mixed results.
+Calcipotriol is a topical vitamin D3 analogue, registered in South Africa in combination dermatological products (Dovobet ointment and Xamiol gel). The TxGNN model predicts it may be effective for **seborrheic keratosis**, with **no registered clinical trials** but **4 publications** (mostly small clinical studies and case reports) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied registration data (established use of these products is psoriasis, from general knowledge rather than the Evidence Pack) |
+| Original Indication | Not stated in the SAHPRA registration data compiled for this report (calcipotriol is an established psoriasis treatment, but the approved indication text was not available) |
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L3 |
@@ -49,11 +49,11 @@ Calcipotriol is a topical vitamin D3 analogue, marketed in South Africa in combi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Calcipotriol belongs to the vitamin D3 analogue class. These drugs act through the vitamin D receptor (VDR) to slow keratinocyte proliferation and promote differentiation and apoptosis. This is why they are used in psoriasis, where the epidermis is overactive.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, calcipotriol is a vitamin D3 analogue that activates the vitamin D receptor in keratinocytes. This inhibits proliferation, promotes differentiation and may induce apoptosis.
 
-Seborrheic keratosis is a benign overgrowth of epidermal cells, so the same anti-proliferative action is plausible. One Japanese study (PMID 16043912) reported that topical vitamin D3 analogues, including calcipotriol, may work in these lesions by inducing apoptosis.
+Seborrheic keratosis is a common, benign epidermal hyperproliferative lesion. Because calcipotriol normalises keratinocyte growth in hyperproliferative skin disease such as psoriasis, the same effect is biologically plausible here. A 2023 case series and earlier Japanese reports of topical vitamin D3 clearing senile warts (seborrheic keratoses), possibly through apoptosis, support this idea. The evidence remains small-scale and uncontrolled.
 
-This link is inferred from general knowledge of the drug class, not confirmed for calcipotriol itself. The clinical signal is also mixed. A 2023 case series reports complete regression on the face, while a 2004 comparison with cryosurgery appears to favour cryosurgery. Study designs were judged from titles and truncated abstracts and have not been verified.
+Other TxGNN predictions (ranks 2-10) were reviewed. They are mostly vulvar or genital conditions, plus Paget disease of bone and fibrocystic breast disease. None has clinical trial evidence, and several have no plausible mechanism. They are treated as hypothesis-generating only and are not developed further here.
 
 ## Clinical Trial Evidence
 
@@ -63,43 +63,45 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Case series | Australas J Dermatol | 12 patients with solitary facial seborrheic keratosis treated with 0.005% calcipotriol ointment for 3-8 months; complete regression of lesions, with 6-10 years of remission on follow-up |
-| [15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/) | 2004 | Comparative clinical study | Int J Dermatol | Compared standard cryosurgery with topical calcipotriene, tazarotene and imiquimod; the available abstract is truncated, and cryosurgery appears to be favoured |
-| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Clinical/mechanistic study | J Dermatol | 116 senile warts (seborrheic keratosis) treated for 3-12 months with tacalcitol, calcipotriol or maxacalcitol; 35 (30.2%) showed a response (abstract truncated); apoptosis proposed as the mechanism |
-| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Clinical report/review | Clin Calcium | Overview of active vitamin D3 ointments for senile warts, from the same investigator as PMID 16043912 |
-| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Case report | J Dermatol | Marked response to calcipotriol ointment in keratosis lichenoides chronica, a related but different condition |
-| [21534378](https://pubmed.ncbi.nlm.nih.gov/21534378/) | 2011 | Clinical vignette | JAAPA | Differential diagnosis of seborrheic keratosis; no calcipotriol data |
+| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Case series (12 patients) | Australas J Dermatol | 0.005% calcipotriol ointment for 3-8 months led to complete regression of solitary facial flat seborrheic keratoses; remission lasted 6-10 years |
+| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Clinical/mechanistic study | J Dermatol | Topical active vitamin D3 (tacalcitol, calcipotriol, maxacalcitol) for 3-12 months in 116 senile warts; 35 (30.2%) responded, possibly via apoptosis |
+| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Clinical report/review | Clin Calcium | Active vitamin D3 ointments applied once or twice daily were used to treat senile warts as an alternative to surgery, cryotherapy or laser |
+| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Case report | J Dermatol | Marked response to calcipotriol ointment in keratosis lichenoides chronica (a related keratotic dermatosis, not seborrheic keratosis) |
 
 ## South Africa Market Information
 
+Calcipotriol is registered in South Africa only in two products, both listed as valid. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
+
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 37/13.9.1/0241 | Dovobet | Ointment | Not stated in supplied data |
-| Reg. No. 44/13.9.1/0632 | Xamiol | Gel | Not stated in supplied data |
-
-Both products are topical. Neither registered indication text was supplied, so the approved indications should be confirmed against the SAHPRA-approved Professional Information (PI).
+| Reg. No. 37/13.9.1/0241 | Dovobet | Ointment | Not available in compiled data |
+| Reg. No. 44/13.9.1/0632 | Xamiol | Gel (topical) | Not available in compiled data |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindications (from the TxGNN knowledge graph, not label text):** The graph links calcipotriol with disorders of calcium and vitamin D handling and with certain skin or vascular conditions. These should be verified against the SAHPRA Professional Information. Items include:
+  - Calcium and mineral disorders: hypercalcaemia, nephrocalcinosis, calcinosis, calciphylaxis, hypervitaminosis, phosphorus metabolism disease and familial hypocalciuric hypercalcaemia
+  - Endocrine: adrenocortical insufficiency and Addison disease
+  - Skin: skin atrophy, telangiectasis, ichthyoses, Darier disease, pseudoxanthoma elasticum and guttate psoriasis
+  - Vascular: peripheral arterial disease, intermittent claudication and hereditary haemorrhagic telangiectasia
+- **Drug Interactions:** 84 potential interactions were recorded, all with an unclassified severity level. Examples include acetylsalicylic acid, bupropion, pantoprazole, doxycycline, clotrimazole, morphine, metformin, omeprazole, simvastatin, and corticosteroids (triamcinolone, prednisone, hydrocortisone, prednisolone). Clinical significance needs to be checked against a curated interaction reference.
+- **Other considerations:** The Dovobet and Xamiol products are combination products, which affects the safety profile. Genital or mucosal application is a concern for irritation. Topical use at labelled doses has minimal systemic exposure, but hypercalcaemia remains a theoretical risk with extensive use.
+
+The SAHPRA package insert warnings were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are no registered trials, and the literature is small, mostly uncontrolled and inconsistent. One comparative study appears to favour cryosurgery. Safety data from the SAHPRA package inserts are also missing, which blocks progression to safety screening. Seborrheic keratosis is best treated as a research question rather than a candidate for clinical use.
+The prediction is biologically plausible and supported by a small case series and earlier uncontrolled Japanese reports, but there are no registered trials or randomised data (evidence level L3). The SAHPRA label data (indication and safety) are also missing, and the registered South African products are fixed combinations (Dovobet and Xamiol), whose other components complicate use in this indication.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (download and review the PI).
-- Confirmed mechanism of action data, for example from DrugBank.
-- Full-text review of the six publications to verify study designs and outcomes, especially the cryosurgery comparison (PMID 15090020) and the response data in PMID 16043912.
-- A controlled study, or registered trial, of calcipotriol against standard care (such as cryotherapy) for seborrheic keratosis.
-- Confirmation of the registered indications and available topical strengths for both South African products.
-
-The other nine predicted indications, mainly vulvar and genital conditions, are supported only by model scores or a few case-level reports (evidence level L4-L5) and are all on Hold.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- SAHPRA package inserts (approved indications, warnings, contraindications) for Dovobet and Xamiol
+- Confirmation of whether a single-agent calcipotriol product is available in South Africa
+- Mechanism of action data from DrugBank to support the mechanistic link
+- A controlled study (ideally randomised, versus standard treatments such as cryotherapy) in seborrheic keratosis
+- A safety plan covering facial skin irritation, calcium monitoring with extensive use, and relevant drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

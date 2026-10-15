@@ -2,7 +2,7 @@
 layout: default
 title: Cocaine
 parent: Model Prediction Only (L5)
-nav_order: 141
+nav_order: 143
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,104 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cocaine: From Local Anaesthetic Use to Cauda Equina Syndrome
+# Cocaine: From Local Anaesthesia to Cauda Equina Syndrome (Prediction Not Supported)
 
 ## One-Sentence Summary
 
-Cocaine is a local anaesthetic and sympathomimetic agent, and the registered product in the dataset is a liquid toothache preparation.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but there are **no clinical trials** and only **1 publication** (a 2019 case report of the disease itself, not of cocaine treatment).
-The high graph score is not supported by any evidence of benefit, so this is a model-only prediction.
+Cocaine is a natural-product local anaesthetic and monoamine reuptake inhibitor. The only South African registration in the data compiled for this report is a liquid toothache product, and no approved indication text is recorded for it. The TxGNN model predicts it may be useful for **cauda equina syndrome**, but there are **0 clinical trials** and only **1 case report** (not involving cocaine as a therapy), so this prediction is best regarded as a graph-based artefact.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anaesthesia (drug class use; the registration carries no approved indication text) |
+| Original Indication | Not recorded in the SAHPRA registration data. The pharmacology data describes clinical use as a local anaesthetic in nasal, oral and laryngeal surgery |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 (see the source caveat in the market section) |
+| Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Cocaine is known to act as a local anaesthetic and a sympathomimetic, but this pack has no formal MOA record.
+Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, cocaine blocks sodium channels (local anaesthetic effect) and inhibits monoamine reuptake. The pharmacology data also lists activity at the 5-HT3 receptor and the dopamine transporter (DAT, rat data).
 
-Cauda equina syndrome is caused by compression of the lumbosacral nerve roots. It presents with urinary retention or incontinence, faecal incontinence, saddle anaesthesia and lower-limb weakness. Treatment is urgent surgical decompression.
+**The prediction is not mechanistically credible.** Cauda equina syndrome is a compressive neurological emergency that needs urgent surgical decompression. A local anaesthetic or stimulant would not treat the compression. The only publication retrieved is a case report on lumbosacral disc pathology that does not involve cocaine. The high TxGNN score most likely reflects network proximity in the knowledge graph rather than a real therapeutic link.
 
-Cocaine's anaesthetic and sympathomimetic actions do not address this compressive pathology. The high score appears to be a knowledge-graph artefact, and the only retrieved article is a case report of the disease that does not involve cocaine treatment. Mechanistic support is currently absent.
+**Other predicted indications** were also reviewed, and none is supported:
+
+| Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|------|------|------|------|
+| Obsolete neurogenic bladder | 99.96% | L5 | Prediction only; obsolete disease term; unsuitable given cardiovascular and abuse risks |
+| Papillary conjunctivitis | 99.95% | L5 | No evidence; topical cocaine is toxic to the corneal epithelium |
+| Rhinitis | 99.92% | L4 | One RCT compared topical cocaine with adrenaline in endoscopic sinus surgery (a surgical field-preparation use, not rhinitis treatment). Most literature describes cocaine as a *cause* of rhinitis and midline destruction |
+| Irritable bowel syndrome | 99.89% | L5 | Retrieved papers unrelated to cocaine |
+| Anaphylaxis | 99.88% | L4 | Only preclinical catecholamine-uptake studies; epinephrine is the standard therapy |
+| Neurocirculatory asthenia | 99.83% | L5 | A stimulant would be expected to worsen symptoms |
+| Atopic conjunctivitis | 99.83% | L5 | No evidence; ocular toxicity |
+| Food-dependent exercise-induced anaphylaxis | 99.82% | L5 | No evidence; adds cardiovascular risk |
+| Pharyngitis | 99.71% | L4 | Literature documents harm (mucosal burns, abscess); safer anaesthetics such as lidocaine exist |
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
+
+The single publication retrieved for cauda equina syndrome:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31528422](https://pubmed.ncbi.nlm.nih.gov/31528422/) | 2019 | Case report | Surgical Neurology International | Distal cauda equina syndrome from lumbosacral disc pathology, with a literature review. It describes the disease and its diagnostic difficulty and reports no cocaine therapy. |
+| [31528422](https://pubmed.ncbi.nlm.nih.gov/31528422/) | 2019 | Case report/Review | Surgical Neurology International | Case of distal cauda equina syndrome from lumbosacral disc pathology; describes diagnostic challenges. Cocaine is not studied as a treatment |
+
+For context, the most relevant item among the other predicted indications is an RCT in rhinitis-related surgery:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [24678064](https://pubmed.ncbi.nlm.nih.gov/24678064/) | 2014 | RCT | Int Forum Allergy Rhinol | Topical cocaine vs adrenaline for surgical field visualisation in endoscopic sinus surgery (not treatment of rhinitis) |
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| G2815 | Toothache Essence (Dozen) | Liquid | Not stated in the record |
+| G2815 | Toothache Essence (Dozen) | Liquid | Not recorded |
 
-**Source caveat:** The evidence pack lists TFDA as its regulatory input, and the number "G2815" does not follow the usual SAHPRA "Reg. No." format. Confirm on the SAHPRA register that this product is registered in South Africa before relying on the "Marketed" status or the count of 1. Essential Medicines List status is not available in the pack.
+Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Disease associations from the knowledge graph (not label text):** the TxGNN knowledge graph links cocaine with contraindication to epilepsy, sudden cardiac arrest, heart conduction disease, thyrotoxicosis, hyperthyroidism and Graves disease.
+- **Pharmacological interactions (target-level, no severity grading):** the data lists activity at 5-HT3AB, 5-HT3A and the dopamine transporter (rat data). These are target interactions rather than drug-drug interaction rules.
+- **Literature-based concerns:** the retrieved publications document cocaine-associated nasal septal and palatal necrosis, mucosal burns, bronchospasm, allergic reactions and severe infections. Its abuse liability and cardiovascular risk are also prohibitive for new indications.
 
-Two points from the retrieved material apply regardless of indication:
-- The literature on cocaine is dominated by harm, including mucosal necrosis, airway injury and cardiovascular effects.
-- Cocaine is a controlled substance with abuse liability.
+Please refer to the SAHPRA-approved Professional Information (PI) for formal warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
-No drug-interaction records were found.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5), with no trials, no supportive literature, and no plausible mechanism for a compressive neurological condition. Cocaine's abuse liability and safety profile weigh further against repurposing.
+All predicted indications rest on model output alone or on indirect and harm-related literature. There are no clinical trials, and cocaine's abuse liability, cardiovascular toxicity and tissue toxicity, together with safer established alternatives, argue against pursuing repurposing.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data, for example from DrugBank
-- Verification that registration G2815 exists on the SAHPRA register
-- Preclinical or clinical evidence of benefit in cauda equina syndrome, which is currently absent
-
-**Note on other predictions:** None of the other nine predicted indications (including rhinitis, anaphylaxis and pharyngitis) shows evidence of therapeutic benefit either. All are recommended Hold, and the retrieved literature is mostly case reports of cocaine-related harm. One of them, "obsolete neurogenic bladder", is an obsolete ontology term and needs mapping review.
+- SAHPRA Professional Information (warnings, contraindications and approved indication), which is currently missing and blocks safety screening
+- Mechanism of action data (for example from DrugBank)
+- Any direct clinical evidence of benefit for the predicted indication, none of which currently exists
+- A clear regulatory and scheduling review, since cocaine is a controlled substance
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

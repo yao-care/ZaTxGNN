@@ -2,7 +2,7 @@
 layout: default
 title: Donepezil
 parent: Model Prediction Only (L5)
-nav_order: 194
+nav_order: 196
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,13 +29,14 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Donepezil: From Alzheimer's Disease to Psychogenic Movement Disorders
+# Donepezil: From Alzheimer Disease to Chronic Tic Disorder
 
 ## One-Sentence Summary
 
-Donepezil is an acetylcholinesterase inhibitor, widely used for Alzheimer's dementia (the SAHPRA record supplied here does not state an indication).
-The TxGNN model predicts it may be effective for **psychogenic movement disorders**, but this is a **model prediction only, with 0 clinical trials and 0 publications** supporting it.
-Other predicted movement-related indications, notably chronic tic disorder and lingual-facial-buccal dyskinesia, have more supporting literature (see below).
+Donepezil is a cholinesterase inhibitor, originally used to treat Alzheimer disease.
+The data compiled for this report show the TxGNN model's highest-scoring prediction is psychogenic movement disorders, but that prediction has no supporting studies. The best-supported prediction is **Chronic Tic Disorder**, with **0 registered clinical trials** and **5 publications** (one small open-label study, one case report, two mouse studies and one commentary).
+
+*Note: The first-ranked TxGNN prediction (psychogenic movement disorders, score 99.23%) has no clinical trials or literature and no established mechanistic link. This report therefore focuses on the best-supported prediction (rank 2, chronic tic disorder). Other candidates are summarised in the conclusion.*
 
 ---
 
@@ -43,57 +44,41 @@ Other predicted movement-related indications, notably chronic tic disorder and l
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA record supplied. Alzheimer's dementia, inferred from the literature retrieved for this drug |
-| Predicted New Indication | Psychogenic movement disorders |
-| TxGNN Prediction Score | 99.23% (model rank 4030) |
-| Evidence Level | L5 |
+| Original Indication | Alzheimer disease (the SAHPRA registration entry carries no indication text; this comes from the knowledge-graph indication list) |
+| Predicted New Indication | Chronic tic disorder (rank 2; rank 1 is psychogenic movement disorders) |
+| TxGNN Prediction Score | 99.19% (chronic tic disorder); 99.23% (psychogenic movement disorders) |
+| Evidence Level | L3 (small clinical reports and preclinical data only; no completed RCTs) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (research question only) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the supplied record. Donepezil is generally known as an acetylcholinesterase inhibitor: it raises cholinergic signalling in the brain.
+Detailed mechanism of action data is not currently available for donepezil. Based on known information, donepezil is a cholinesterase inhibitor, its efficacy in Alzheimer disease is established, and it increases cholinergic signalling in the brain. This may be relevant to chronic tic disorder.
 
-For psychogenic (functional) movement disorders, no rationale in the supplied data links cholinergic enhancement to the condition. The high score therefore reflects the knowledge-graph pattern rather than a demonstrated biological link. It should not be read as evidence of benefit.
+Tic disorders are thought to involve dysfunction of the basal ganglia, where cholinergic neurons interact with dopamine and serotonin circuits. One of the retrieved studies notes that striatal cholinergic dysfunction may be important in tics and ADHD. In mice, donepezil reduced the head-twitch response induced by DOI (a serotonin receptor agonist), which is used as a model of tic symptoms.
 
-Two other predicted indications have a more plausible, though still unproven, rationale:
-
-- **Chronic tic disorder** (score 99.19%, L3): Striatal cholinergic dysfunction has been proposed in tics and ADHD. Mouse studies show donepezil affects the serotonergic system and DOI-induced head twitch, a Tourette-relevant model. Small human reports in children and adolescents exist.
-- **Lingual-facial-buccal dyskinesia / tardive dyskinesia** (score 99.02%, L3): Tardive dyskinesia is hypothesised to involve a dopaminergic-cholinergic imbalance. Cochrane reviews of cholinergic drugs exist, but they are class-level, not donepezil-specific.
-
-The remaining predicted indications are L5 or indirect: primary orthostatic tremor, benign shuddering attacks, benign paroxysmal tonic upgaze of childhood with ataxia, and tremor-nystagmus-duodenal ulcer syndrome. "Extrapyramidal and movement disease" (L4) has conflicting evidence, including a safety signal (see Safety Considerations).
+The clinical support is limited to a small open-label study and a case report in children and adolescents with tics and ADHD. The titles alone do not confirm the study design. The mechanism is plausible, but there is no controlled evidence of benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR) for psychogenic movement disorders or for any other predicted indication in this evidence pack.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-For the lead indication (psychogenic movement disorders), currently no related literature available.
-
-The table below lists the most relevant publications for the other predicted indications. Study types are inferred from titles or truncated abstracts and need full-text verification.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29553158](https://pubmed.ncbi.nlm.nih.gov/29553158/) | 2018 | Cochrane review | Cochrane Database Syst Rev | Cholinergic medication for antipsychotic-induced tardive dyskinesia (class-level; effect size not in supplied text) |
-| [15610922](https://pubmed.ncbi.nlm.nih.gov/15610922/) | 2004 | Meta-analysis of RCTs | Prog Neuropsychopharmacol Biol Psychiatry | Systematic review of cholinergic drugs, including donepezil, for neuroleptic-induced tardive dyskinesia |
-| [40224553](https://pubmed.ncbi.nlm.nih.gov/40224553/) | 2025 | Systematic review | Brain Circ | Movement disorders **associated with** acetylcholinesterase inhibitors in Alzheimer's dementia (harm signal) |
-| [18343255](https://pubmed.ncbi.nlm.nih.gov/18343255/) | 2008 | Open-label trial (inferred) | Clin Ther | Donepezil in children and adolescents with tics and ADHD, 18-week dose-escalating study; outcomes not in supplied text |
-| [15669896](https://pubmed.ncbi.nlm.nih.gov/15669896/) | 2005 | Small clinical study (inferred) | J Clin Psychiatry | Title reports a beneficial effect of donepezil in elderly patients with tardive movement disorders |
-| [19142126](https://pubmed.ncbi.nlm.nih.gov/19142126/) | 2009 | Not classified | J Clin Psychopharmacol | Effect of donepezil on tardive dyskinesia; no abstract supplied |
-| [15689723](https://pubmed.ncbi.nlm.nih.gov/15689723/) | 2005 | Case report / letter (inferred) | J Am Acad Child Adolesc Psychiatry | Donepezil and tardive dyskinesia |
-| [10440471](https://pubmed.ncbi.nlm.nih.gov/10440471/) | 1999 | Case report (inferred) | J Clin Psychopharmacol | Donepezil for Tourette's disorder and ADHD |
-| [16986157](https://pubmed.ncbi.nlm.nih.gov/16986157/) | 2006 | Commentary / letter (inferred) | Mov Disord | Asks whether donepezil is also effective in Tourette's syndrome |
-| [18321753](https://pubmed.ncbi.nlm.nih.gov/18321753/) | 2008 | Not classified | Parkinsonism Relat Disord | Donepezil-induced jaw tremor (harm signal); no abstract supplied |
-
-Preclinical mouse work on tics (PMIDs 14643839 and 16045972) is not tabulated. Many other retrieved papers concern dementia or Parkinson's disease and are only indirectly relevant.
+| [18343255](https://pubmed.ncbi.nlm.nih.gov/18343255/) | 2008 | Clinical study (18-week, single-centre, open-label, dose-escalating) | Clinical Therapeutics | Donepezil in children and adolescents with tics and ADHD; the stated rationale is striatal cholinergic dysfunction |
+| [10440471](https://pubmed.ncbi.nlm.nih.gov/10440471/) | 1999 | Clinical report / case series | J Clin Psychopharmacol | Donepezil use in Tourette's disorder and ADHD |
+| [16986157](https://pubmed.ncbi.nlm.nih.gov/16986157/) | 2006 | Commentary / letter | Movement Disorders | Discussion of donepezil in Tourette's syndrome |
+| [14643839](https://pubmed.ncbi.nlm.nih.gov/14643839/) | 2003 | Preclinical (mouse) | Pharmacol Biochem Behav | Donepezil attenuated DOI-induced head twitch response, a model of tics |
+| [16045972](https://pubmed.ncbi.nlm.nih.gov/16045972/) | 2005 | Preclinical (mouse) | Pharmacol Biochem Behav | Effects of donepezil, nicotine and haloperidol on the central serotonergic system; implications for Tourette's syndrome |
 
 ---
 
@@ -101,22 +86,26 @@ Preclinical mouse work on tics (PMIDs 14643839 and 16045972) is not tabulated. M
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 46/7.1.3/0744 | Valheft 80 | Fct | Not stated in the record supplied |
+| Reg. No. 46/7.1.3/0744 | Valheft 80 | Film-coated tablet (Fct) | Not available in the data compiled for this report |
 
-Essential Medicines List (EML) status is not available in the supplied data.
+Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. No drug interactions were found in the queried data.
+**Contraindications / conditions of concern (from knowledge-graph drug-disease edges, not from label text):** epilepsy, asthma (including intrinsic and allergic asthma), bladder neck obstruction, active peptic ulcer disease, sick sinus syndrome (including familial form) and atrioventricular block.
 
-Signals from the retrieved literature, not from the PI, that matter for any movement-disorder use:
+**Movement-related safety signal:** The literature retrieved for this report includes case reports and a pharmacovigilance study linking cholinesterase inhibitors to movement disorders. These include Pisa syndrome (a form of truncal dystonia), donepezil-induced jaw tremor, and a 2025 systematic review (PMID 40224553) of movement disorders associated with these agents. This matters when considering use in movement or tic disorders.
 
-- A 2025 systematic review reports movement disorders associated with acetylcholinesterase inhibitors, including donepezil, in Alzheimer's dementia.
-- A case report describes donepezil-induced jaw tremor.
-- Benign shuddering attacks are a benign, self-limiting paediatric condition, so any drug intervention there would need particularly careful safety justification.
-- Tic-related evidence involves children and adolescents, so paediatric safety needs specific review.
+**Drug Interactions:** The interaction screen returned 100 interactions in total (20 shown here). The notable ones are:
+- **Major:** bupropion
+- **Moderate:** anticholinergics (atropine, hyoscyamine, glycopyrronium, clidinium, dicyclomine), H2 blockers (famotidine, ranitidine, cimetidine), loperamide, dexamethasone, metronidazole, dolasetron, picosulfuric acid, polyethylene glycol with electrolytes
+- **Minor:** aprepitant, acetylsalicylic acid, lorcaserin, clarithromycin
+
+Anticholinergic drugs are expected to oppose the pharmacological effect of donepezil.
+
+SAHPRA package insert warnings and contraindications were not available for this report. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -125,17 +114,19 @@ Signals from the retrieved literature, not from the PI, that matter for any move
 **Decision: Hold**
 
 **Rationale:**
-The lead prediction, psychogenic movement disorders, is model-only (L5) with no trials, no literature and no supported mechanism. Safety data are missing from the pack, which blocks safety screening. Chronic tic disorder and tardive dyskinesia (both L3) are better framed as research questions than as candidates for clinical use.
+No clinical trials are registered, and the human evidence for chronic tic disorder is limited to a small open-label study, a case report and a commentary, supported by mouse data. The best-supported candidate is a research question rather than a candidate for clinical use. Donepezil is also associated with movement-disorder adverse effects, so the net benefit in this setting is uncertain.
+
+**Other predicted indications (summary):**
+- **Extrapyramidal and movement disease (L3):** mixed evidence, with one report of benefit in elderly tardive movement disorders and a safety review showing that donepezil can induce movement disorders.
+- **Lingual-facial-buccal dyskinesia (L4):** Cochrane reviews cover cholinergic agents as a class for tardive dyskinesia, but they do not show donepezil-specific efficacy.
+- **Psychogenic movement disorders, primary orthostatic tremor, benign shuddering attacks, tremor-nystagmus-duodenal ulcer syndrome, benign paroxysmal tonic upgaze of childhood with ataxia (L5):** prediction only, with no supporting evidence. The one paper retrieved for tremor-nystagmus-duodenal ulcer syndrome is an unrelated Behçet disease case study.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications, approved indication), obtained by downloading and parsing the PDF
-- Mechanism of action data, e.g. from the DrugBank API
-- Full-text review of the tic and tardive dyskinesia papers to confirm design, effect size and certainty
-- Reconciliation of the harm signals (AChEI-associated movement disorders, jaw tremor) with any hyperkinetic-disorder use
-- Confirmation of the Valheft 80 strength and formulation against the PI
-- A trial-registry search (SANCTR, PACTR) for the shortlisted indications
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- A randomised, controlled trial of donepezil in chronic tic disorder, with a clear safety plan for movement-related adverse effects
+- Mechanism of action data for donepezil
+- SAHPRA Professional Information (warnings and contraindications), and approved indication text for the registered product
+- Review of the full-text designs of the 2008 and 1999 clinical reports
+- Review of the full list of 100 drug interactions before any trial design
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

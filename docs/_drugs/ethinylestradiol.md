@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ethinylestradiol
-parent: Moderate Evidence (L3-L4)
-nav_order: 217
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 219
+evidence_level: L5
 indication_count: 1
 ---
 
 # Ethinylestradiol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,33 +29,38 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Ethinylestradiol: From Hormonal Contraception to Elevated Plasma Zinc
+# Ethinylestradiol: From Acne and Postmenopausal Osteoporosis to Elevated Plasma Zinc
 
 ## One-Sentence Summary
 
-Ethinylestradiol is a synthetic estrogen, widely used in oral contraceptive products. The supplied literature deals with contraceptives, and the registered indication text is not in the dataset.
-The TxGNN model predicts a link to **elevated plasma zinc**, but this is a laboratory finding rather than a treatable disease.
-There are **0 clinical trials** and **2 publications** (both from the 1970s), and neither shows a treatment benefit.
+Ethinylestradiol is a synthetic oestrogen, listed with original indications that include acne, postmenopausal osteoporosis, osteoporosis, atrophic vulva and postmenopausal atrophic vaginitis.
+The TxGNN model predicts it may be relevant to **elevated plasma zinc**,
+but **no clinical trials and no publications** were found to support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA data supplied (literature context suggests oral contraception) |
+| Original Indication | Acne; postmenopausal osteoporosis; osteoporosis; atrophic vulva; postmenopausal atrophic vaginitis (from the TxGNN knowledge graph, as no approved indication text is available in the SAHPRA data) |
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug, so the prediction cannot be checked against known pharmacology.
+Currently, detailed mechanism of action data is not available. Ethinylestradiol is a synthetic oestrogen widely used in combination oral contraceptives and other hormonal products. It has an established role in oestrogen-responsive conditions, such as those listed above. Its mechanistic applicability to elevated plasma zinc cannot be assessed from the data compiled for this report.
 
-The high score probably reflects a real pharmacological association. Estrogens are known to alter circulating trace-element levels, for example by raising ceruloplasmin and copper and shifting zinc distribution. The knowledge graph may have picked up this link.
+One possible indirect link comes from general background knowledge, not from the data compiled here. Oestrogen exposure is known to alter circulating trace-element levels, including zinc and copper, possibly through changes in binding proteins such as albumin and ceruloplasmin.
 
-An association is not a therapeutic rationale. "Elevated plasma zinc" is a laboratory abnormality, and raising plasma zinc is not an obvious treatment goal. The retrieved papers describe the drug's effect on mineral levels, not a benefit from treating this condition. The prediction should therefore be read as a graph association, not a repurposing opportunity.
+There are important caveats:
+- This concerns a change in a laboratory measurement, not a demonstrated therapeutic effect.
+- Elevated plasma zinc is a biochemical finding more than a disease with an established treatment goal, so the repurposing rationale is unclear.
+- The direction of effect is uncertain. The prediction may reflect an association or an adverse effect instead of a benefit.
+
+The high score (0.996) reflects a knowledge-graph pattern only. It is not clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -63,41 +68,54 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [736629](https://pubmed.ncbi.nlm.nih.gov/736629/) | 1978 | Observational (human) | Archives of Gynecology | In women taking oral contraceptives, plasma and endometrial copper were significantly raised, while zinc stayed reasonably constant. It does not show that zinc rises. |
-| [961877](https://pubmed.ncbi.nlm.nih.gov/961877/) | 1976 | Preclinical (rat) | American Journal of Physiology | Mestranol, a prodrug of ethinylestradiol, depressed plasma zinc in rats, the opposite direction to the prediction. It is only indirect evidence for ethinylestradiol. |
+Currently no related literature available.
 
 ## South Africa Market Information
 
-Five of the 20 registrations are shown. Approved indication text was not supplied for any of them, and Essential Medicines List (EML) status is not in the dataset.
+Ethinylestradiol is marketed in South Africa with 20 valid SAHPRA registrations, all single-ingredient entries and none cancelled. Approved indication text was not available in the data compiled for this report, and Essential Medicines List (EML) status was not available either. Five main registrations are shown below.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 44/18.8/0397 | Ynez | Fct |
-| Reg. No. 50/21.8.2/0590 | Contrezin | Tablet |
-| Reg. No. 47/21.8.2/0141 | Drasira | Tablet |
-| Reg. No. 34/20.2.2/0244 | Adco-dermed | Sha |
-| Reg. No. 49/18.8/0711 | Merdeza | Tablet |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 44/18.8/0397 | Ynez | Film-coated tablet (Fct) | Not available |
+| 50/21.8.2/0590 | Contrezin | Tablet | Not available |
+| 47/21.8.2/0141 | Drasira | Tablet | Not available |
+| 36/18.7/0491 | Evra | Patch | Not available |
+| Y/18.8/78 | Mercilon | Tablet | Not available |
+
+Other registered products include Loette 28, Ginette, Nordiol, Minerva, Ruby, Oralcon, Novynette, Trigestrel and Menoflush. Dosage forms recorded include tablet, film-coated tablet, patch and other forms (Sha, Sct).
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+SAHPRA package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+**Contraindication signals from the knowledge graph** (drug-disease links in PrimeKG, not label text) include:
+- Cardiovascular: hypertension, hypertensive disorder, congestive heart failure
+- Hepatic and biliary: liver disease, gallbladder disease
+- Renal: kidney disease, pyoureter
+- Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, hyperglycaemia, hypothyroidism, myxedema, congenital hypothyroidism, adrenocortical insufficiency, Addison disease, hypercalcaemia, humoral hypercalcaemia of malignancy
+- Porphyria: inherited porphyria, porphyrin metabolism disease, porphyria
+- Neurological and psychiatric: epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder
+- Other: asthma (intrinsic and allergic), systemic lupus erythematosus (including paediatric), benign prostatic hyperplasia
+
+**Drug interactions:** The interaction query returned 100 interactions, of which 20 are shown in the data compiled. Most are rated Moderate and a few Minor. Examples include:
+- Antidiabetic agents: acarbose, acetohexamide, albiglutide, alogliptin, chlorpropamide, dulaglutide, empagliflozin, glimepiride, glipizide, glyburide
+- Corticosteroids: betamethasone, budesonide, dexamethasone
+- Antibiotics: doxycycline, amoxicillin, clarithromycin
+- Others: chenodeoxycholic acid, eliglustat; cimetidine and ascorbic acid (Minor)
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but the only evidence is two indirect studies from the 1970s. One shows no change in zinc and the other shows a fall in zinc. The target is a laboratory finding, not a disease with a therapeutic goal. The evidence is at the model-prediction and preclinical level (L4), and the safety review cannot start without the package insert.
+The prediction rests only on a model score (L5). There are no clinical trials or publications, and the mechanism of action is unavailable. Elevated plasma zinc is a laboratory finding without an established treatment goal, and the direction of effect is uncertain. Safety screening cannot proceed because the package insert data are missing.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data, to allow a mechanistic-link analysis
-- A clinical case for why raising plasma zinc is a valid therapeutic goal, or a decision to drop this candidate
-- Modern human data on ethinylestradiol and plasma zinc levels
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- SAHPRA package insert (PI) warnings, contraindications and approved indications, obtained by downloading and parsing the PI
+- Mechanism of action data for ethinylestradiol (for example from DrugBank)
+- A literature search on oestrogen or ethinylestradiol effects on plasma zinc, to determine whether the effect is therapeutic or adverse
+- Clarification of whether elevated plasma zinc is a clinically meaningful treatment target
+- Assessment of route compatibility and similarity to the original indications, both still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

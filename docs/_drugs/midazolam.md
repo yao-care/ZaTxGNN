@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Midazolam
-parent: Moderate Evidence (L3-L4)
-nav_order: 323
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 325
+evidence_level: L5
 indication_count: 1
 ---
 
 # Midazolam
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,109 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Midazolam: From Its Registered Indication to Insomnia
+# Midazolam: From Anxiety to Insomnia
 
 ## One-Sentence Summary
 
-Midazolam is a short-acting benzodiazepine that is marketed in South Africa as an injection (Dormicum). The registration record supplied does not state its approved indication.
-The TxGNN model predicts it may be effective for **insomnia**.
-Support is mainly **older midazolam sleep studies from the 1980s and 1990s**, with **2 midazolam-related trials that measure sleep or target sleep disturbance** and no modern trial testing midazolam as an insomnia treatment.
+Midazolam is a short-acting benzodiazepine, originally used for anxiety (and widely used as an injectable sedative).
+The TxGNN model predicts it may be effective for **insomnia**,
+with **2 registered clinical trials** (both only indirectly relevant) and **10 publications** (4 of which are midazolam-specific studies in insomnia or sleep disorders) currently supporting this direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Anxiety (from the TxGNN knowledge graph; the SAHPRA record has no approved indication text) |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.74% |
-| Evidence Level | L3 |
+| Evidence Level | L2 (see note below) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
+*Note on evidence level:* The data compiled for this report assign L2. Strictly, the midazolam-specific studies are older randomised or comparative studies (1981–1990) in insomnia. The two registered trials are only indirectly relevant. No completed Phase 3 insomnia RCTs are listed.
+
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this record. Midazolam belongs to the benzodiazepine class. These drugs enhance GABA-A receptor signalling, which produces sedative and hypnotic effects. That is mechanistically consistent with treating insomnia.
+Detailed mechanism of action data for midazolam is not available in the data compiled for this report. The following is based on its known drug class. Midazolam is a short-acting benzodiazepine that positively modulates GABA-A receptors, enhancing inhibitory neurotransmission and producing sedative-hypnotic effects.
 
-The high TxGNN score is plausible, but it probably reflects the shared GABAergic drug class rather than midazolam-specific evidence. Oral midazolam has also been used as a hypnotic in some countries. This may therefore be a question of labelling or regional approval rather than true repurposing. The original indication is not stated in the registration data supplied, so this needs confirming against the SAHPRA-approved Professional Information (PI).
+Anxiety and insomnia share overlapping neurobiology, notably hyperarousal and dysregulated inhibitory signalling. Approved benzodiazepine hypnotics such as flurazepam and triazolam act through the same mechanism, so the link to insomnia is biologically plausible. Oral midazolam has historically been studied, and in some countries used, as a hypnotic.
+
+Important limitations:
+- Short half-life
+- Tolerance and dependence
+- Next-day psychomotor impairment
+- High drug interaction burden (100 recorded interacting drugs, largely via CYP3A4), which constrains chronic use
+
+The only SAHPRA registration found is an injectable product, so the oral routes studied in the older insomnia literature are not matched locally.
+
+---
 
 ## Clinical Trial Evidence
 
-No trial tests midazolam as a treatment for chronic insomnia. The trials below are the closest matches. The remaining registered trials retrieved for this prediction (mostly dexmedetomidine, acupuncture, behavioural or device studies) are not relevant to midazolam for insomnia.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | NA | Recruiting | 280 | Preoperative oral midazolam vs placebo in colorectal cancer patients with sleep disturbance or anxiety. The outcome is postoperative pain, not sleep. |
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Completed | 111 | Postoperative sleep quality after dexmedetomidine or midazolam sedation during prostate resection. Midazolam is a sedation comparator, not an insomnia treatment. |
-| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | N/A | Terminated | 5 | Dexmedetomidine vs midazolam on polysomnography-measured sleep in ventilated ICU patients. Too small to interpret. |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | Terminated | 6 | Polysomnography in ventilated patients sedated with α2 agonists vs GABA agonists. Too small to interpret. |
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Completed | 111 | Dexmedetomidine vs midazolam sedation with spinal anaesthesia for prostate resection; outcome was postoperative sleep quality. Indirect evidence only (perioperative setting, midazolam as comparator). |
+| [NCT00886314](https://clinicaltrials.gov/study/NCT00886314) | N/A | Unknown | 80 | Clown doctors vs sedative premedication in children undergoing surgery; outcome was preoperative anxiety. No meaningful evidence for insomnia. |
 
-No SANCTR or PACTR registrations were found in the data.
+No SANCTR or PACTR identifiers were found in the data compiled for this report.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | Double-blind controlled study | Br J Clin Pharmacol | Midazolam 15 mg vs Vesparax in 30 women with insomnia secondary to neuromuscular disease. Both were effective hypnotics. Midazolam was better tolerated and did not cause the hangover seen with Vesparax. |
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | Randomised double-blind study | J Clin Psychopharmacol | Multicentre, parallel-group design comparing flurazepam and midazolam over 14 days in chronic insomniacs, looking at sleep, performance and mood. |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | Multicentre study (executive summary) | J Clin Psychopharmacol | Executive summary of the same 14-day flurazepam vs midazolam study in chronic insomniacs. No abstract available. |
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | Dose-finding pilot study | Arzneimittel-Forschung | Oral midazolam 10–30 mg in 75 hospitalised patients with mild to moderate insomnia. The study aimed to establish the optimal dose range. |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatr Scand Suppl | Review of hypnotic use. It notes that benzodiazepines with different pharmacokinetic profiles are all clinically effective. |
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT | J Clin Psychopharmacol | Randomised, double-blind, multicentre 14-day comparison of flurazepam and midazolam in chronic insomniacs, assessing sleep, performance, mood and plasma levels |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | Multicentre comparative study | J Clin Psychopharmacol | Executive summary of the same 14-day flurazepam vs midazolam study in chronic insomniacs (no abstract available) |
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | Double-blind clinical study | Br J Clin Pharmacol | Midazolam 15 mg vs Vesparax in 30 patients with insomnia secondary to neuromuscular disease; both effective, midazolam better tolerated and without hangover effects |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | Dose-finding study | Arzneimittel-Forschung | Oral midazolam 10–30 mg in 75 hospitalised patients with mild to moderate secondary insomnia; established optimal dose range |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatr Scand Suppl | Clinical use of hypnotics and the need for a variety of agents |
+| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Review | Orv Hetil | Insomnia and cerebral hypoperfusion; not midazolam-specific |
 
-These studies are 35 to 45 years old and used older methods. They support plausibility rather than current-standard efficacy.
+Four further retrieved publications were judged indirect or not relevant: a lemborexant study, a zolpidem animal study, an end-of-life COVID-19 symptom review and a Satoyoshi syndrome case report.
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| T/2.2/207 | Dormicum | Injection | Not stated in the record supplied |
+| T/2.2/207 | Dormicum | Injection | Not stated in the data compiled for this report |
 
-The only registered form in the data is an injection, and no oral formulation appears. Insomnia treatment normally relies on an oral hypnotic, so route compatibility is unresolved. Essential Medicines List status is not available in the record.
+Essential Medicines List (EML) status was not available in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindication signals from the knowledge graph (not label text):** chronic obstructive pulmonary disease (including severe early-onset), cirrhosis of liver, angle-closure (closed-angle) glaucoma, and chronic kidney disease (chronic renal failure, end-stage renal failure).
+
+**Drug Interactions:** 100 interacting drugs were recorded. Examples among those listed:
+- **Moderate:** morphine, clarithromycin, cimetidine, ranitidine, omeprazole, aprepitant, bupropion, metoclopramide, miconazole, clotrimazole, dronabinol, nabilone, eluxadoline
+- **Minor:** dexamethasone, betamethasone, magnesium oxide, aluminium hydroxide, calcium carbonate
+
+Concomitant CNS depressants (such as opioids) warrant particular caution. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and there are older midazolam insomnia studies, but the evidence is L3. There is no modern trial of midazolam for insomnia, and the only registered South African form is an injection. Safety data cannot yet be reviewed because the PI warnings and contraindications are missing, which blocks the safety screening step.
+The biological plausibility is good and older studies (1981–1990) show hypnotic activity of oral midazolam. However, the only local registration is an injectable, the registered trials are indirect, the supporting insomnia studies are dated, and safety limits (dependence, next-day impairment, heavy CYP3A4 interaction burden) restrict chronic use. Alternatives already exist for insomnia.
 
 **To proceed, the following is needed:**
-- SAHPRA PI warnings and contraindications (blocking gap)
-- The approved indication text for Dormicum, to confirm whether insomnia is a repurposing question or a labelling question
-- Confirmation of whether any oral midazolam product is registered in South Africa
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- A review of the older insomnia studies for current relevance, or newer insomnia-specific trial data
+- Confirmation of whether any oral midazolam product is available or registered in South Africa
+- Comparison against currently recommended insomnia therapies, using modern trial designs
+- A plan for short-term use, dependence risk and CYP3A4 interaction management
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

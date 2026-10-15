@@ -2,7 +2,7 @@
 layout: default
 title: Cyproterone Acetate
 parent: Moderate Evidence (L3-L4)
-nav_order: 157
+nav_order: 159
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,18 +29,18 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cyproterone Acetate: From Hormonal (Antiandrogen/Progestin) Therapy to Migraine Disorder
+# Cyproterone Acetate: From Androgen-Dependent Conditions to Migraine Disorder
 
 ## One-Sentence Summary
 
-Cyproterone acetate (CPA) is a progestin and antiandrogen, used in South Africa in combined tablet products.
-The TxGNN model predicts it may be effective for **migraine disorder**, but there are **no registered clinical trials** and only **3 loosely related publications**, none testing CPA as a migraine treatment.
+Cyproterone acetate is an antiandrogen and progestogen. It is used in androgen-dependent conditions such as acne and hirsutism in women, and in combined oral contraceptives.
+The TxGNN model predicts it may be useful for **migraine disorder**, but this prediction is supported by **0 clinical trials** and only **3 general publications**, none showing a therapeutic benefit in migraine.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA records retrieved (indication text is blank for all 4 registrations) |
+| Original Indication | Not stated in the SAHPRA registration data compiled for this report. Pharmacology sources describe use in androgen-dependent conditions (acne, hirsutism, prostate cancer, benign prostatic hyperplasia), menopausal hot flushes and combined oral contraceptives |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L4 |
@@ -50,11 +50,11 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. CPA is known as a progestin and antiandrogen, so its main pharmacology is hormonal.
+Detailed mechanism of action data are not available in the data compiled for this report. Pharmacology sources identify the androgen receptor as the main target of cyproterone acetate. The drug combines antiandrogenic and progestogenic activity.
 
-Hormonal fluctuation, especially oestrogen withdrawal, is a recognised migraine trigger, so a hormonal link is plausible. A 2003 review reports that progestins interact with GABA-A receptors and dopamine and opioid systems. It also notes that CPA increases dopaminergic responses and binds opiate receptors independently of its classical effects. This is the only mechanistic clue in the evidence, and it is indirect.
+Migraine is known to be hormonally modulated, for example by oestrogen withdrawal and by the effects of progestins on the central nervous system. One review notes that cyproterone acetate increases dopaminergic responses and binds to opiate receptors independently of its classical effects. It also notes that progestins interact with GABA-A receptors. This gives indirect biological plausibility.
 
-No study has tested CPA as a migraine treatment. The TxGNN score comes from a knowledge-graph prediction only. The safety direction also needs care: migraine with aura is a recognised caution for combined hormonal contraceptives because of stroke risk.
+However, the retrieved papers are general or describe side effects. None shows that cyproterone acetate reduces migraine. The high TxGNN score reflects an association in the knowledge-graph network, not clinical evidence. The literature also contains a vascular-risk signal for migraine with aura (see Safety Considerations).
 
 ## Clinical Trial Evidence
 
@@ -64,42 +64,42 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | Review | Maturitas | Progestins act on GABA-A, dopamine and opioid systems; CPA increases dopaminergic responses and binds opiate receptors |
-| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Cohort | Headache | Compares three oral hormone replacement schemes and their effect on migraine in postmenopausal women; not a CPA study |
-| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | Review | Zentralblatt fur Gynakologie | Long-term side effects of CPA-containing gynaecological therapy, including the debate on mutagenic potential; no migraine data |
-
-None of these papers shows that CPA prevents or treats migraine.
+| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | Review | Maturitas | Progestins act on GABA-A receptors and on dopamine, GnRH and opioid systems. Cyproterone acetate increases dopaminergic responses and binds opiate receptors. This is mechanistic background only. |
+| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Cohort | Headache | Compared three oral hormone replacement schemes and their effect on migraine in postmenopausal women. Not specific to cyproterone acetate. |
+| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | Review | Zentralblatt fur Gynakologie | Long-term side effects of cyproterone acetate-containing gynaecological therapy, including discussion of mutagenic potential. No migraine benefit shown. |
 
 ## South Africa Market Information
 
+All 4 registrations are valid, single-ingredient oral tablets. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the available data.
+
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 29/21.8.2/0685 | Minerva | Tablet | Not provided in retrieved record |
-| Reg. No. 38/21.8.2/0248 | Adco-Fem 35 | Tablet | Not provided in retrieved record |
-| Reg. No. 38/21.8.2/0055 | Diva-35 | Tablet | Not provided in retrieved record |
-| Reg. No. 33/21.8.2/0185 | Ginette | Tablet | Not provided in retrieved record |
-
-All products are oral tablets. Essential Medicines List status could not be determined from the data.
+| Reg. No. 29/21.8.2/0685 | Minerva | Tablet | Not available |
+| Reg. No. 38/21.8.2/0248 | Adco-Fem 35 | Tablet | Not available |
+| Reg. No. 38/21.8.2/0055 | Diva-35 | Tablet | Not available |
+| Reg. No. 33/21.8.2/0185 | Ginette | Tablet | Not available |
 
 ## Safety Considerations
 
-- **Thromboembolic risk (from the literature retrieved for this drug):** Studies of CPA/ethinyl estradiol contraceptives report increased venous thromboembolism risk, prothrombotic changes and higher thrombin generation. The risk is especially notable with factor V Leiden.
-- **Migraine with aura:** This is a recognised caution for combined hormonal contraceptives because of stroke risk. In a migraine population, the safety signal points toward harm rather than benefit.
+- **Thrombotic risk**: Observational and mechanistic literature retrieved for related predictions shows that cyproterone acetate-containing combined oral contraceptives are associated with increased venous thromboembolism risk. They also alter thrombin generation and activated protein C resistance, and interact with factor V Leiden.
+- **Migraine with aura**: Literature on hormonal contraception and vascular risk indicates that combined hormonal contraceptives carry arterial ischaemic and venous risks. Migraine with aura is a stroke risk factor in users of these products. Using this drug for migraine therefore raises a potential safety concern rather than a clear benefit.
+- **Pharmacological target**: The androgen receptor is the recorded pharmacological target. No specific drug-drug interactions were identified in the data compiled for this report.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+Warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are no trials and no CPA-specific migraine literature, so the prediction rests on the TxGNN score and an indirect hormonal rationale. The thrombosis and stroke-risk signals for CPA-containing combined products count against use in migraine, especially migraine with aura.
+The migraine prediction rests on network association and indirect hormonal plausibility. No clinical trials exist, and the retrieved literature shows no therapeutic benefit. The thrombotic and vascular risk signals point in an adverse direction for a migraine population, especially migraine with aura.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data (for example from DrugBank)
-- Any CPA-specific migraine study, or a formal benefit-risk review
-- Note: among the other predictions in this pack, **amenorrhoea** has the strongest support (evidence level L3, including a Phase 4 study of ethinyl estradiol/CPA in menstrual irregularity of hyperandrogenic origin). It may be a better-supported direction to review first.
+- Retrieval and review of the SAHPRA-approved PI, including approved indications, warnings and contraindications
+- Mechanism of action data to assess a plausible pathway to migraine
+- Targeted literature review or preclinical and clinical evidence of benefit in migraine
+- A thrombosis and cardiovascular risk assessment for women with migraine, particularly with aura
+- Consideration of better-supported predictions, such as hyperandrogenic menstrual irregularity, where a Phase IV trial (NCT01103518, n=100, status unknown) and related literature exist
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

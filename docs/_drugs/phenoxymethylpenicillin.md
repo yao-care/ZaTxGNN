@@ -2,7 +2,7 @@
 layout: default
 title: Phenoxymethylpenicillin
 parent: Model Prediction Only (L5)
-nav_order: 366
+nav_order: 370
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,16 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenoxymethylpenicillin: From Penicillin-Sensitive Bacterial Infections to Epiglottitis
+# Phenoxymethylpenicillin: From Streptococcal and Upper Respiratory Tract Infections to Epiglottitis
 
 ## One-Sentence Summary
 
-Phenoxymethylpenicillin (penicillin V) is an oral penicillin antibiotic, used for infections caused by penicillin-sensitive bacteria. The registration data supplied did not include an approved-indication text, so this original use is inferred from the drug class. The TxGNN model predicts it may be effective for **epiglottitis**, but **no clinical trials and no publications** were found for this pairing, so the prediction rests on the model alone.
+Phenoxymethylpenicillin (penicillin V) is an oral penicillin antibiotic, originally used for streptococcal and staphylococcal infections, pharyngitis, otitis media, erysipelas and scarlet fever.
+The TxGNN model predicts it may be effective for **epiglottitis**, with a very high score. However, **no clinical trials and no publications** currently support this direction, so the prediction is based on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Streptococcal infection, pharyngitis, otitis media, respiratory tract infections, erysipelas, scarlet fever (the SAHPRA registration record contains no indication text; these are from the knowledge graph) |
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
@@ -46,48 +50,91 @@ Phenoxymethylpenicillin (penicillin V) is an oral penicillin antibiotic, used fo
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Penicillin V is a beta-lactam, and beta-lactams inhibit bacterial cell wall synthesis by binding penicillin-binding proteins. Epiglottitis is a bacterial infection, so there is a plausible link at the class level, which probably explains the high model score.
+Detailed mechanism of action data is not available. Based on known information, penicillin V is a beta-lactam antibiotic with activity against streptococci. Its efficacy in streptococcal throat and respiratory infections is established, and mechanistically it may be applicable to epiglottitis, which is often caused by bacteria.
 
-The link weakens on closer inspection. The main causative organism, *Haemophilus influenzae* type b, often produces beta-lactamase, which inactivates penicillin V. Acute epiglottitis is also an airway emergency that needs parenteral therapy, and an oral tablet is unsuitable. The 99.90% score is a knowledge-graph prediction, not evidence of benefit.
+Epiglottitis is caused by *Haemophilus influenzae* type b, *Streptococcus pneumoniae* and group A streptococci. The streptococcal link gives the prediction some biological basis, and it overlaps with the drug's original upper-airway infection indications.
+
+There are important limits:
+- Penicillin V is not reliable against beta-lactamase-producing *H. influenzae*.
+- Epiglottitis is an acute airway emergency, where parenteral therapy is standard. An oral tablet is not suitable.
+
+The high score is therefore a model output only and should be interpreted cautiously.
+
+### Other Predicted Indications (for context)
+
+| Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|
+| Laryngitis | 99.85% | L5 | Mostly viral. The only retrieved paper tested erythromycin, not penicillin V. Its abstract notes phenoxymethylpenicillin had no effect on the clinical course in earlier studies. |
+| Urinary tract infection | 98.89% | L4 | Poor activity against the Gram-negative organisms that cause most UTIs. Only indirect evidence (asymptomatic bacteriuria in girls). |
+| Ureaplasma urethritis | 98.78% | L5 | Ureaplasma has no cell wall, so beta-lactams are ineffective. Likely a false positive. |
+| Gonococcal urethritis | 98.78% | L5 | Widespread resistance. Guidelines recommend ceftriaxone-based regimens. |
+| Urogenital tuberculosis | 98.48% | L5 | Intrinsic resistance of *M. tuberculosis*. Likely a false positive. |
+| Lymph node palisaded myofibroblastoma, celiac trunk compression syndrome, abdominal ectopic pregnancy, abdominal cystic lymphangioma | 98.4% | L5 | Non-infectious conditions with no plausible mechanism. Likely knowledge-graph artefacts. |
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+For the top prediction (epiglottitis), currently no related literature is available.
+
+For context, the most relevant publications found for the other predicted indications are:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [1632252](https://pubmed.ncbi.nlm.nih.gov/1632252/) | 1992 | Clinical trial (laryngitis) | Acta Oto-Laryngologica Suppl. | 106 adults with acute laryngitis treated with erythromycin or placebo. Erythromycin reduced *B. catarrhalis* isolation. This tested erythromycin, not penicillin V, and notes that phenoxymethylpenicillin had no effect on the clinical course in earlier studies. |
+| [2497823](https://pubmed.ncbi.nlm.nih.gov/2497823/) | 1989 | Clinical study (UTI) | BMJ | Effect of phenoxymethylpenicillin and erythromycin on urinary isolates in girls with untreated asymptomatic bacteriuria. Indirect evidence for symptomatic UTI. |
+| [8722932](https://pubmed.ncbi.nlm.nih.gov/8722932/) | 1996 | Clinical report | Clin Infect Dis | Erythema migrans in pregnancy, with a few patients treated with phenoxymethylpenicillin. Not related to UTI. |
+
+The other papers retrieved for urinary tract infection concern different drugs (cefetamet, cefuroxime, cefpodoxime), prescribing patterns or risk associations, and give no support for efficacy.
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| G/20.1.2/145 | Incil Vk | Tablet | Not stated in the data provided |
+| G/20.1.2/145 | Incil Vk | Tablet (oral) | Not recorded in the data compiled for this report |
 
-Only oral tablets are registered. No injectable form is registered, which matters because epiglottitis needs parenteral treatment.
+Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications from the knowledge graph** (drug-disease contraindication links, not label text): kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, infectious mononucleosis, chronic Epstein-Barr virus infection syndrome.
+
+**Drug Interactions** (32 recorded in total; main ones listed):
+- **Moderate:** doxycycline, minocycline, tetracycline, neomycin, balsalazide, picosulfuric acid, warfarin, dicoumarol, iodide I-123, iodide I-131
+- **Minor:** clarithromycin
+- **Unknown severity:** omeprazole, lansoprazole, simvastatin, prednisolone, dexamethasone, acetylsalicylic acid, clopidogrel, heparin, ibuprofen
+
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no trial or literature support for epiglottitis, and the mechanism is a poor fit for the likely pathogen and the required route of administration. The prediction should not be advanced on the model score alone.
-
-Other candidates from the same run do not offer a better route forward:
-- **Laryngitis:** a double-blind trial of penicillin V (PMID 3918495) and the Cochrane reviews found no benefit.
-- **Gonococcal urethritis:** the only evidence is 1950s uncontrolled series, and gonococcal penicillin resistance is now widespread.
+The epiglottitis prediction has a high model score but no trials or publications behind it. The oral route is unsuitable for an acute airway emergency, and penicillin V is unreliable against beta-lactamase-producing *H. influenzae*. Several other predictions (Ureaplasma, gonococcal, tuberculosis and non-infectious conditions) conflict with known microbiology and are likely false positives.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications and approved indications), which is a blocking gap for safety screening
-- Mechanism of action data from DrugBank
-- Local *H. influenzae* type b beta-lactamase and penicillin susceptibility data
-- A specific clinical hypothesis that explains why an oral penicillin would be used instead of established parenteral therapy
+- Retrieval and review of the SAHPRA package insert (warnings, contraindications, approved indications). This is currently a blocking data gap.
+- Mechanism of action data (for example from DrugBank).
+- Clinical evidence specific to penicillin V in epiglottitis, and an assessment of whether any role exists beyond parenteral therapy (e.g. step-down oral treatment).
+- Local resistance data in South Africa for *H. influenzae* and streptococci.
+- Confirmation of EML status and an analysis of route compatibility.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

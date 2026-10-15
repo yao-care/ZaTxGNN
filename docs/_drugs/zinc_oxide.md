@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zinc Oxide
-parent: Model Prediction Only (L5)
-nav_order: 476
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 480
+evidence_level: L4
 indication_count: 10
 ---
 
 # Zinc Oxide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Oxide: From an Unspecified Original Indication to Acne
+# Zinc Oxide: From Dermatological and Anorectal Conditions to Acne
 
 ## One-Sentence Summary
 
-Zinc oxide is a widely used zinc compound, and the SAHPRA records supplied do not state an approved indication for it.
-The TxGNN model predicts it may be effective for **acne**, but there are **0 clinical trials** and only **7 publications** (mostly reviews and preclinical work) supporting this direction.
-This is a model-driven hypothesis with indirect evidence.
-
----
+Zinc oxide is a topical skin protectant and astringent, originally used for conditions such as dermatitis, fungal skin infections (tinea), haemorrhoids, burns and proctitis.
+The TxGNN model predicts it may be useful for **acne (disease)**, but there are **no registered clinical trials** and only **3 indirect publications** (a nanoparticle review, a preclinical microneedle study and a small split-face clinical assessment), so this is currently a research question rather than an evidence-backed indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the supplied SAHPRA records |
+| Original Indication | Tinea pedis, dermatitis, tinea corporis, cutaneous candidiasis, pityriasis versicolor, haemorrhoids, burns, proctitis (from the TxGNN knowledge graph; the SAHPRA registrations list no approved indication text) |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 (literature reviews and preclinical studies only) |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Zinc oxide is a zinc compound already used in topical dermatology products, and this lowers the barrier for a skin-related use.
+Currently, detailed mechanism of action data is not available. Based on known information, zinc oxide is a widely used topical dermatological agent. It has an established role in skin inflammation, skin infections and anorectal conditions, and mechanistically it may be applicable to acne.
 
-Zinc has documented anti-inflammatory and antibacterial activity relevant to acne. This includes suppression of *Cutibacterium acnes* and modulation of sebum and inflammation. Zinc oxide nanoparticles also show antibacterial effects in preclinical work.
+Zinc compounds have plausible anti-inflammatory and antibacterial properties, including possible activity against *Cutibacterium acnes*, the bacterium implicated in acne. This fits with zinc oxide's existing uses in dermatitis and fungal and bacterial skin conditions. Acne is an inflammatory skin disease with a bacterial component, so the link is biologically sensible.
 
-The link is indirect. The main review covers zinc in general, not zinc oxide specifically. No human trial of zinc oxide for acne was found, so the prediction remains a research question rather than an established use.
-
----
+However, the supporting literature is indirect. The high TxGNN score is a computational prediction and is not clinical validation.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for acne.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29193602](https://pubmed.ncbi.nlm.nih.gov/29193602/) | 2018 | Review | Dermatol Ther | Reviews zinc in acne treatment as an alternative to topical and systemic agents that cause adverse effects. It covers zinc in general, not zinc oxide specifically. |
-| [21342155](https://pubmed.ncbi.nlm.nih.gov/21342155/) | 2011 | Review | Int J Dermatol | Nanoparticles such as zinc oxide and titanium dioxide are used in skin care products. Nano-preparations are under investigation for acne and other skin conditions. |
-| [29284390](https://pubmed.ncbi.nlm.nih.gov/29284390/) | 2018 | Review (preclinical focus) | Curr Med Chem | Nanoparticle-coated textiles with antimicrobial properties for wounds and skin diseases such as acne. |
-| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical study (split-face, small) | Skin Res Technol | Split-face assessment in mild inflammatory catamenial acne. The available abstract does not show a zinc oxide intervention. |
-| [36888703](https://pubmed.ncbi.nlm.nih.gov/36888703/) | 2023 | Preclinical | Sci Adv | Ultrasound-responsive microneedle patch with zinc porphyrin-based nanoparticles for acne-related bacterial infection. |
-| [41033952](https://pubmed.ncbi.nlm.nih.gov/41033952/) | 2025 | Preclinical | Sci Bull | ZnO@Viologen-COF heterojunction that selectively modulates skin microbiota, triggered by *C. acnes* respiration. |
-| [31322532](https://pubmed.ncbi.nlm.nih.gov/31322532/) | 2019 | Formulation development | Georgian Med News | Development of powder formulas for acne treatment. |
-
----
+| [21342155](https://pubmed.ncbi.nlm.nih.gov/21342155/) | 2011 | Review | Int J Dermatol | Nanoparticles such as zinc oxide and titanium dioxide are used in skin care products. Nano-preparations are under investigation for acne vulgaris, atopic dermatitis and other conditions. |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical study (split-face) | Skin Res Technol | Split-face assessment of mild inflammatory catamenial acne. The abstract available to us does not state the intervention or results, so its relevance to zinc oxide is unconfirmed. |
+| [36888703](https://pubmed.ncbi.nlm.nih.gov/36888703/) | 2023 | Preclinical | Sci Adv | Ultrasound-responsive microneedle patch delivering zinc porphyrin-based nanoparticles against *P. acnes* infection. This is a materials and preclinical study, not zinc oxide itself. |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| H990 (OM) | Achromide | Ointment | Not stated in record |
-| G2011 (OM) | Biohist | Syrup | Not stated in record |
-| E512 | Anugesic | Suppository | Not stated in record |
-| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated in record |
+| H990 (OM) | Achromide | Ointment | Not stated in the data compiled for this report |
+| G2011 (OM) | Biohist | Syrup | Not stated in the data compiled for this report |
+| E512 | Anugesic | Suppository | Not stated in the data compiled for this report |
+| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated in the data compiled for this report |
 
-Approved indication text and manufacturer are blank for all four entries. Some listed products (for example, a vial presentation) do not look like typical zinc oxide products, so the registration mapping should be verified against the SAHPRA register. Essential Medicines List (EML) status is not available in the supplied data.
-
----
+All four registrations are valid single-ingredient entries. Essential Medicines List (EML) status was not available in the data compiled for this report. The dosage forms (syrup, suppository, vial) do not match a typical topical zinc oxide product, so the product-to-ingredient mapping should be verified against the SAHPRA register before relying on it.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+The knowledge graph links zinc oxide to a number of conditions as potential contraindications. These come from graph relationships rather than label text, so they should be confirmed against the Professional Information (PI):
 
-Two points from the supplied data:
-- A drug-interaction query returned no records. This means no data were found, not that no interactions exist.
-- Any topical use in a new indication would need formulation and skin-tolerability review.
+- Cardiovascular: hypertension and hypertensive disorder, coronary artery disease, sudden cardiac arrest, heart conduction disease
+- Haematological and metabolic: sickle cell anaemia, hereditary persistence of fetal haemoglobin, hereditary haemochromatosis, haemosiderosis, iron metabolism disease, Wilson disease, primary hyperoxaluria
+- Endocrine: hyperthyroidism, Graves disease, thyrotoxicosis
+- Other: benign prostatic hyperplasia, anxiety
 
----
+No drug-interaction records were found. Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.86%), but there are no clinical trials for acne. The literature is limited to a general zinc review, small or non-specific studies and preclinical work. The SAHPRA safety information is also missing, which blocks progression to safety screening.
+The prediction is biologically plausible and zinc is already used in dermatology, but there are no registered trials, and the literature is indirect (a review, preclinical work and a small study of unclear relevance). The package-insert safety data, which is a blocking gap, is also missing.
 
 **To proceed, the following is needed:**
 - SAHPRA package insert warnings and contraindications (blocking gap)
-- Mechanism of action data, for example from the DrugBank API
-- Verification of the four SAHPRA registrations, including approved indications and manufacturers
-- Human clinical evidence for zinc oxide itself in acne, since current evidence covers zinc in general
-- Route and formulation compatibility assessment for a topical acne product
-
-**Other predictions in the pack:** All are on Hold. Otitis externa has only in vitro veterinary antifungal evidence (Malassezia), and post-bacterial disorder has only indirect dental antibacterial trials. The rest (anorectal stricture, anal polyp, papillary conjunctivitis, post-infectious vasculitis, Chagas cardiomyopathy, infection-related haemolytic uraemic syndrome, post-infectious syndrome) have no supporting evidence or only unrelated keyword hits.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data (for example from DrugBank)
+- Confirmation of which registered products contain zinc oxide and their approved indications
+- Controlled clinical studies of topical zinc oxide in acne, including formulation and route compatibility
+- Review of other lower-ranked predictions (anorectal stricture, anal polyp, papillary conjunctivitis and others), which have no supporting evidence and no plausible mechanism, and of otitis externa, where only in vitro veterinary data exist
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

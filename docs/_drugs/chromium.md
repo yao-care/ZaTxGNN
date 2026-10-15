@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chromium
-parent: Model Prediction Only (L5)
-nav_order: 117
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 119
+evidence_level: L2
 indication_count: 10
 ---
 
 # Chromium
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,121 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chromium: From Parenteral Nutrition Component to Osteoarthritis
+# Chromium: From Unspecified Parenteral Nutrition Use to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Chromium is registered in South Africa mainly as a component of parenteral nutrition and infusion products. The registration data give no stated therapeutic indication. The TxGNN model predicts it may be relevant to **osteoarthritis**, and **48 registered trials** and **20 publications** were retrieved for this prediction. However, none tests chromium as a treatment for osteoarthritis. They almost all concern chromium ions released from metal joint implants, where chromium is a marker of exposure and harm, not a therapy.
+Chromium is a trace element that, in South Africa, is registered only within parenteral nutrition and infusion products, and the data compiled for this report give no approved indication text for it.
+The TxGNN model gives its highest-scoring supported prediction for **Rheumatoid Arthritis**, with **1 directly relevant Phase 2/3 trial** and **1 randomised controlled trial publication** (both from one research group).
+The top-ranked prediction, osteoarthritis, rests only on literature about chromium-cobalt orthopaedic implants and is not a treatment signal. Rheumatoid arthritis is therefore the more meaningful candidate.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (all approved-indication fields are empty); products are infusion and TPN formulations |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 98.68% |
-| Evidence Level | L5 (model prediction only, no therapeutic studies) |
+| Original Indication | Not stated in the SAHPRA records compiled (indication text is empty for all three registrations) |
+| Predicted New Indication | Rheumatoid arthritis (TxGNN rank 3; rank 1, osteoarthritis, is an implant-material artefact) |
+| TxGNN Prediction Score | 98.54% (rheumatoid arthritis); 98.68% for osteoarthritis, which is not supported |
+| Evidence Level | L2 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 8 |
-| Recommended Decision | Hold |
+| Number of SAHPRA Registrations | 3 |
+| Recommended Decision | Hold (research question only) |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Chromium is a trace element that is supplied in parenteral nutrition, but no established mechanism links it to osteoarthritis.
+Detailed mechanism of action data are not currently available for chromium. Chromium is a trace element given in parenteral nutrition, and in the registered products here it is part of a mixture or nutritional infusion, not a stand-alone anti-inflammatory drug.
 
-The high score (0.987) most likely reflects knowledge-graph associations. Chromium appears in literature on cobalt-chromium joint implants used to treat osteoarthritis, so it sits close to the disease in the graph. In those studies chromium is released as ions from the implant and is monitored as a sign of wear and toxicity. It is not given as a treatment. The prediction should therefore be read as an association artefact, not a therapeutic hypothesis.
+For rheumatoid arthritis, there is some preclinical support. A rat study (PMID 35829940) reported that trivalent chromium reduced adjuvant-induced arthritis. The proposed mechanism was up-regulation of FOXP3, a regulatory T-cell marker, and lower synovial Cathepsin G expression. The effect was compared with prednisolone. A small Phase 2/3 trial then compared trivalent chromium with baricitinib in RA patients.
 
-A different signal appears for **rheumatoid arthritis**, a separate predicted indication for this drug. A completed Phase 2/3 randomized trial of trivalent chromium (NCT05545020, n=60, compared with baricitinib; published as PMID 39030450) and a supporting rat-model study exist. This is the only direct therapeutic evidence in the dataset, and it does not transfer to osteoarthritis. Osteoarthritis is mainly a degenerative disease, and the trial results were not available for review.
+The mechanistic plausibility is moderate at best. The evidence comes from a single research group and probably a single centre. Other literature in this set describes metal hypersensitivity and toxicity, so safety cannot be assumed.
+
+The highest-scoring prediction, osteoarthritis (98.68%), is not supported. All retrieved trials and papers concern cobalt-chromium alloy implants (femoral stems, hip resurfacing, metal ion release), not chromium as a drug. The score probably reflects a knowledge-graph link through implant materials. The other predictions (osteoarthritis susceptibility, gout, hepatic porphyria and several rare skeletal dysplasias) have no therapeutic evidence. Osteoarthritis susceptibility and hepatic porphyria literature concern adverse metal reactions or unrelated topics, and the rest have no literature at all.
+
+---
 
 ## Clinical Trial Evidence
 
-Of the 48 trials retrieved, none studies chromium as an osteoarthritis treatment. All are implant or device studies, most measuring chromium and cobalt ion release. The ten most relevant are listed below. No SANCTR or PACTR registrations were identified in the data. The ICTRP list is empty.
+**Rheumatoid arthritis**
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01493141](https://clinicaltrials.gov/study/NCT01493141) | N/A | Completed | 46 | Systemic effects of chronic metal ion exposure from metal-on-metal hip resurfacing (toxicity study) |
-| [NCT00962351](https://clinicaltrials.gov/study/NCT00962351) | N/A | Completed | 120 | Randomized comparison of blood and urine cobalt, chromium and titanium levels for metal-on-metal vs metal-on-polyethylene hips |
-| [NCT04585022](https://clinicaltrials.gov/study/NCT04585022) | N/A | Terminated | 75 | Randomized comparison of whole blood chromium and cobalt in two metal-on-metal hip types, 5-year follow-up |
-| [NCT00757354](https://clinicaltrials.gov/study/NCT00757354) | N/A | Completed | 77 | Metal ion release from metal-on-metal cementless hip arthroplasty |
-| [NCT03047564](https://clinicaltrials.gov/study/NCT03047564) | N/A | Completed | 120 | Metal ion levels in coated vs uncoated total knee arthroplasty |
-| [NCT00862511](https://clinicaltrials.gov/study/NCT00862511) | N/A | Completed | 120 | Serum chromium, cobalt, molybdenum and nickel after coated vs uncoated knee prostheses |
-| [NCT01437124](https://clinicaltrials.gov/study/NCT01437124) | N/A | Completed | 83 | Metal ion levels and chromosome abnormalities after ceramic-on-metal hip arthroplasty |
-| [NCT00911599](https://clinicaltrials.gov/study/NCT00911599) | N/A | Completed | 60 | Randomized comparison of ion levels for all-cobalt-chrome vs modular hip |
-| [NCT01010763](https://clinicaltrials.gov/study/NCT01010763) | N/A | Completed | 184 | Metal ion release and renal function in M2a Magnum hip arthroplasty |
-| [NCT00156598](https://clinicaltrials.gov/study/NCT00156598) | N/A | Terminated | 5 | Serum cobalt, chromium and titanium in metal-on-metal vs metal-on-polyethylene hips |
+| [NCT05545020](https://clinicaltrials.gov/study/NCT05545020) | Phase 2/3 | Completed | 60 | Trivalent chromium supplementation in RA patients, compared with baricitinib. Small and apparently single-centre. |
 
-NCT00586781 is labelled Phase 3, but it is a total ankle replacement device study and does not test chromium as a drug. It must not be counted toward the evidence level.
+The only other registered trial linked to this prediction, [NCT03681639](https://clinicaltrials.gov/study/NCT03681639), is a hip resurfacing implant study and is unrelated to chromium therapy.
+
+**Osteoarthritis (for context only; not therapeutic)**
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00120952](https://clinicaltrials.gov/study/NCT00120952) | N/A | Withdrawn | 0 | Titanium vs cobalt-chromium femoral stem in cemented hip arthroplasty. An implant comparison, not a drug trial. |
+| [NCT03681639](https://clinicaltrials.gov/study/NCT03681639) | N/A | Completed | 45 | Zimmer hip resurfacing implant follow-up. A device study. |
+
+No SANCTR or PACTR identifiers were available in the data compiled for this report.
+
+---
 
 ## Literature Evidence
 
+**Rheumatoid arthritis**
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36545926](https://pubmed.ncbi.nlm.nih.gov/36545926/) | 2022 | RCT (implant study) | Acta Orthop | Cemented and cementless dual mobility cups showed similar fixation and low serum cobalt and chromium at 6 years |
-| [34724103](https://pubmed.ncbi.nlm.nih.gov/34724103/) | 2023 | Cohort | Arch Orthop Trauma Surg | Whether cobalt and chromium blood levels normalize after revision of failed metal-on-metal hips |
-| [37394959](https://pubmed.ncbi.nlm.nih.gov/37394959/) | 2023 | Cohort | Bone Joint J | Serum cobalt and chromium as predictors of patient-reported outcomes after ASR hip resurfacing |
-| [22325959](https://pubmed.ncbi.nlm.nih.gov/22325959/) | 2012 | Cohort | J Arthroplasty | Cobalt and chromium levels rose significantly after large-diameter metal-on-metal hip arthroplasty |
-| [19483243](https://pubmed.ncbi.nlm.nih.gov/19483243/) | 2009 | Cross-sectional | J Bone Joint Surg Br | Circulating cobalt and chromium from metal-on-metal hips associated with CD8+ T-cell lymphopenia |
-| [21446789](https://pubmed.ncbi.nlm.nih.gov/21446789/) | 2011 | In vitro | J Immunotoxicol | Effects of clinically relevant Cr(6+) and Co(2+) concentrations on human lymphocytes |
-| [27459602](https://pubmed.ncbi.nlm.nih.gov/27459602/) | 2016 | Cohort | Acta Orthop | Elevated chromium linked to worse quality of life and hip function in women with metal-on-metal hips |
-| [35926884](https://pubmed.ncbi.nlm.nih.gov/35926884/) | 2022 | Cohort | Can J Surg | Whole blood metal ions at 1 and 10 years after Birmingham hip resurfacing |
-| [27294138](https://pubmed.ncbi.nlm.nih.gov/27294138/) | 2016 | Observational | Biomed Res Int | Vanadium, chromium and calcium in cartilage and bone of patients with osteoarthritis |
-| [34513441](https://pubmed.ncbi.nlm.nih.gov/34513441/) | 2021 | Case report | Cureus | End-stage tibiotalar osteoarthritis with chronic strontium toxicity, discussed alongside cobalt-chromium implants |
+| [39030450](https://pubmed.ncbi.nlm.nih.gov/39030450/) | 2024 | RCT | Inflammopharmacology | First Phase 2/3 RCT comparing trivalent chromium with baricitinib in RA, assessing effect and safety. |
+| [35829940](https://pubmed.ncbi.nlm.nih.gov/35829940/) | 2022 | Preclinical (animal) | Inflammopharmacology | Trivalent chromium ameliorated adjuvant-induced arthritis in rats via FOXP3 up-regulation and reduced synovial Cathepsin G, compared with prednisolone. |
+| [29245125](https://pubmed.ncbi.nlm.nih.gov/29245125/) | 2018 | Review | Environmental Research | Delayed-type hypersensitivity to metals in connective tissue diseases. Relevant to safety. |
 
-None of these studies evaluates chromium as a therapy for osteoarthritis.
+**Osteoarthritis (implant-related; not therapeutic)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41231919](https://pubmed.ncbi.nlm.nih.gov/41231919/) | 2025 | RCT | J Bone Joint Surg Am | Serum metal levels after conventional vs modular dual-mobility hip bearings. |
+| [41379985](https://pubmed.ncbi.nlm.nih.gov/41379985/) | 2025 | Systematic review/meta-analysis | JBJS Reviews | Hip resurfacing is linked to lower metal ion levels and revision risk than large-head metal-on-metal THA. |
+| [39881936](https://pubmed.ncbi.nlm.nih.gov/39881936/) | 2024 | Review | Cureus | Mechanical considerations and clinical implications of metallosis after joint arthroplasty. |
+
+These papers describe metal release from implants and its complications, which is the opposite of a therapeutic signal.
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 52/24/0031 | Nutryelt | Infusion | Not stated in registration data |
-| L/24/329 | Dextrose 20% in water 500ml pcd201850 | Infusion | Not stated in registration data |
-| Exclusion under Section 36 & Section 14 | ITN neonatal tpn 150ml 101 | TPN | Not stated in registration data |
-| Exclusion under Section 36 & Section 14 | ITN 8811a 1520ml | TPN | Not stated in registration data |
-| Exclusion under Section 36 & Section 14 | ITN neonatal tpn 150ml 102 | TPN | Not stated in registration data |
+| 52/24/0031 | Nutryelt | Infusion | Not stated in the data compiled |
+| L/24/329 | Dextrose 20% in water 500ml pcd201850 | Infusion | Not stated in the data compiled |
+| Exclusion under Section 36 & Section 14 | ITN neonatal TPN 150ml 101 | TPN | Not stated in the data compiled |
 
-Eight registrations exist in total. Five are shown, all injectable or parenteral routes. Essential Medicines List status was not provided.
+All three registrations are currently valid. They are injectable or parenteral nutrition products, not oral supplements. The data compiled give no Essential Medicines List (EML) status for chromium.
+
+---
 
 ## Safety Considerations
 
+No SAHPRA label warnings, contraindications or drug interaction data are available in the data compiled for this report, and the knowledge graph lists no contraindicated diseases for chromium.
+
+Literature in this set does raise concerns about metal hypersensitivity and toxicity. Chromium and cobalt released from implants can cause adverse local tissue reactions and raised serum metal levels. This is implant-related exposure, but it shows that chromium exposure is not risk-free. The RA trial is small, with no long-term safety data.
+
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-No drug-interaction records were found. Separately, the implant literature links chronic exposure to chromium and cobalt ions with lymphocyte changes and adverse local tissue reactions. This concerns implant-derived ions, not chromium given as a supplement, and it argues against assuming a benefit in joint disease.
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (research question only)**
 
 **Rationale:**
-The osteoarthritis prediction has no therapeutic evidence behind it. The 48 trials and 20 publications describe chromium as an implant-derived exposure marker, so the 98.68% score reflects knowledge-graph association and not clinical support.
+- Rheumatoid arthritis has one completed Phase 2/3 trial (n=60) and supporting animal data, giving L2 evidence, but the evidence is small and from one research group. The highest-ranked prediction (osteoarthritis) and all others have no therapeutic support.
+- In South Africa chromium is available only in parenteral nutrition products, with no registered route or dosage form for use in RA. Safety data from the label are missing.
 
 **To proceed, the following is needed:**
-- SAHPRA Professional Information warnings and contraindications (a blocking gap for safety screening)
+- Independent, larger, multicentre replication of the chromium vs baricitinib RA trial, with long-term safety follow-up
 - Mechanism of action data for chromium
-- Any preclinical or clinical study of chromium as an osteoarthritis therapy, none of which currently exists
-- If pursuing the rheumatoid arthritis signal instead, the efficacy and safety results of NCT05545020 and independent replication
+- SAHPRA Professional Information (warnings, contraindications, interactions) for the registered products
+- Assessment of a suitable route and formulation, since current local products are parenteral nutrition only
+- A clear regulatory pathway and clinical need in South Africa for any RA use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

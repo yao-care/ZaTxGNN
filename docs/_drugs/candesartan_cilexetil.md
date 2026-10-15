@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Candesartan Cilexetil
-parent: Model Prediction Only (L5)
-nav_order: 96
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 97
+evidence_level: L4
 indication_count: 5
 ---
 
 # Candesartan Cilexetil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,79 +33,93 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Candesartan cilexetil is an angiotensin II receptor blocker. The registration data supplied do not state its approved indication, but it is generally used for hypertension. The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting this specific indication.
+Candesartan cilexetil is an angiotensin II receptor blocker originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but **no clinical trials and no publications** currently support this prediction, so it rests on model output and class-level reasoning only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data; generally hypertension (general pharmacology knowledge, not from the Evidence Pack) |
+| Original Indication | Hypertension (hypertensive disorder). The SAHPRA registration records compiled for this report contain no approved-indication text, so this is taken from the knowledge-graph indication data. |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.68% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Candesartan is known from general pharmacology to block the angiotensin II AT1 receptor, which reduces vasoconstriction and aldosterone-driven effects. Blocking the renin-angiotensin system is biologically plausible for hypertensive kidney injury. Malignant hypertension damages the kidney, so a drug that lowers blood pressure and acts on this pathway could be relevant.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, candesartan is an angiotensin II type 1 receptor blocker (ARB). Its efficacy in hypertension is established, and mechanistically it may be applicable to hypertension-related kidney disease.
 
-However, no trial or literature evidence for this specific indication was found. The very high score (99.68%) is a graph-model output and not clinical proof.
+Malignant hypertensive renal disease (kidney injury from severely elevated blood pressure) involves activation of the renin-angiotensin-aldosterone system (RAAS). Blocking this pathway is therefore plausible. However, this indication is closely related to the already-approved hypertension indication rather than a distinct repurposing target. The high TxGNN score is a model prediction only.
 
-The second-ranked prediction, malignant renovascular hypertension, has the same score. This suggests shared graph neighbours rather than independent evidence.
+Important clinical caveats:
+- Acute malignant hypertension is generally managed with intravenous agents, not oral ARBs.
+- ARBs carry renal risks, including hyperkalaemia and acute kidney injury, particularly in volume-depleted or renovascular states.
 
-### Other Predicted Indications
+**Other predicted indications (all Hold):**
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
-|------|------|------|------|------|
-| 2 | Malignant renovascular hypertension | 99.68% | L5 | Mechanistically plausible through renin-angiotensin activation; ARB safety in renovascular disease (for example bilateral renal artery stenosis) needs review first |
-| 3 | Pulmonary hypertension with unclear multifactorial mechanism | 99.67% | L5 | No mechanistic link supported |
-| 4 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.67% | L5 | The 20 retrieved papers are generic hypoxia biology, apparently a keyword match, and none concerns candesartan or ARBs |
-| 5 | Braddock syndrome | 99.56% | L5 | Very rare condition; no mechanistic link can be established |
+|---|---|---|---|---|
+| 2 | Malignant renovascular hypertension | 99.68% | L4 | RAAS-driven, so mechanistically relevant, but ARBs are contraindicated or require great caution in bilateral renal artery stenosis or stenosis in a solitary kidney (risk of acute renal failure). |
+| 3 | Pulmonary hypertension with unclear multifactorial mechanism | 99.67% | L5 | Angiotensin II may contribute to pulmonary vascular remodelling, but ARBs have no established efficacy in pulmonary hypertension. |
+| 4 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.67% | L5 | Plausible but unproven link; systemic vasodilation may worsen ventilation-perfusion matching. |
+| 5 | Braddock syndrome | 99.56% | L5 | No clear mechanistic link; the score likely reflects a network artefact, and the disease annotation should be verified. |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered. No ClinicalTrials.gov, SANCTR or PACTR records were identified for the leading predicted indication.
+Currently no related clinical trials registered for the lead prediction (malignant hypertensive renal disease). No SANCTR or PACTR entries were identified in the data compiled for this report.
 
 ## Literature Evidence
 
-Currently no related literature available for the leading predicted indication.
+Currently no related literature available for the lead prediction.
+
+For rank 4 (pulmonary hypertension owing to lung disease and/or hypoxia), two publications were retrieved, but neither provides clinical support:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31396238](https://pubmed.ncbi.nlm.nih.gov/31396238/) | 2019 | Preclinical (mouse) | Frontiers in Immunology | Candesartan cilexetil, an anti-inflammatory compound, improved neurological outcomes in a mouse model of neonatal hypoxia-induced seizures. It is not a pulmonary hypertension study. |
+| [21423692](https://pubmed.ncbi.nlm.nih.gov/21423692/) | 2011 | Preclinical (rat) | Evid Based Complement Alternat Med | Hachimijiogan (a herbal formula, not candesartan) was studied in a remnant kidney model with involvement of HIF-1α, compared with an ARB. It does not support the predicted indication. |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 48/7.1.3/0412 | Aterwin | Tablet | Not stated in the registration data |
-| Reg. No. 44/7.1.3/0555 | Candepres plus 16mg/12.5mg | Tablet | Not stated in the registration data |
-| Reg. No. 35/7.1.3/0098 | Atacand plus 16mg/12.5mg | Tablet | Not stated in the registration data |
-| Reg. No. 45/7.1.3/0394 | Mylacand plus 16mg/12.5mg | Tablet | Not stated in the registration data |
+| Reg. No. 48/7.1.3/0412 | Aterwin | Tablet | Not available in the data compiled |
+| Reg. No. 44/7.1.3/0555 | Candepres plus 16mg/12.5mg | Tablet | Not available in the data compiled |
+| Reg. No. 35/7.1.3/0098 | Atacand plus 16mg/12.5mg | Tablet | Not available in the data compiled |
+| Reg. No. 45/7.1.3/0394 | Mylacand plus 16mg/12.5mg | Tablet | Not available in the data compiled |
 
-All registered products are oral tablets. The "plus" products carry a 16 mg/12.5 mg strength, which suggests a fixed-dose combination.
+All four registrations are valid and oral tablets. Essential Medicines List (EML) status was not available in the data compiled for this report. The product names suggest that three of the four are candesartan/hydrochlorothiazide (16 mg/12.5 mg) combinations, although they are recorded as single-ingredient entries.
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried source.
+**Contraindications / conditions flagged in the knowledge graph** (derived from drug-disease contraindication links, not from label text):
+- Renal and urinary: anuria, impaired renal function, renal artery obstruction, nephrocalcinosis
+- Hepatic: liver disease, hepatic coma, hepatic encephalopathy, neonatal jaundice, gallbladder disease, pancreatitis
+- Metabolic: diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcaemia, phosphorus metabolism disease, hyperuricaemia, gout, hyperparathyroidism, osteitis fibrosa
+- Other: hypotensive disorder, systemic lupus erythematosus (including paediatric)
 
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
+Several of these probably reflect the hydrochlorothiazide component of the combination products. Renal artery obstruction and impaired renal function are directly relevant to the predicted renal and renovascular indications.
 
-For renovascular indications, ARB use in bilateral renal artery stenosis and similar conditions needs specialist review before any further step.
+No drug-interaction data were found. For warnings and label contraindications, please refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials, no relevant literature and no confirmed safety data. Safety screening cannot proceed without the SAHPRA package insert.
+The prediction is supported only by a high model score and class-level mechanistic reasoning (evidence level L4). No clinical trials or relevant publications exist. The indication largely overlaps with the approved hypertension use, and there are renal safety concerns, especially in renovascular disease.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert (PI) warnings, contraindications and approved indications, which are currently blocking
-- Mechanism of action data from DrugBank
-- A targeted literature search for candesartan or ARBs in malignant hypertensive nephropathy and renovascular hypertension
-- Safety review for renal artery stenosis and other renal risks
-- Registry checks (ClinicalTrials.gov, SANCTR, PACTR) for any relevant trials
-
-*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any application.*
+- Clinical or observational data on candesartan in hypertensive nephropathy or malignant hypertension
+- Mechanism of action data (DrugBank)
+- SAHPRA Professional Information (warnings, contraindications and approved indications) to complete safety screening
+- Drug-interaction data
+- Renal and potassium monitoring plan for any proposed use
+- Verification of the Braddock syndrome annotation if that prediction is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

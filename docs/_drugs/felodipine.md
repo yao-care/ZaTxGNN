@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Felodipine
-parent: Model Prediction Only (L5)
-nav_order: 222
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 224
+evidence_level: L4
 indication_count: 7
 ---
 
 # Felodipine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +33,116 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Felodipine is an L-type calcium channel blocker that lowers blood pressure by vasodilation. The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia**, but there are **0 clinical trials** and **no publications that study felodipine in this condition**, so the prediction rests on the model alone.
+Felodipine is a dihydropyridine calcium channel blocker originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia**,
+but the data compiled for this report contain **0 registered clinical trials** and only **9 publications**, all preclinical or ex vivo and none studying pulmonary hypertension directly.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the SAHPRA data (hypertension inferred from the drug class) |
+| Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
-| TxGNN Prediction Score | 99.91% (model rank 748) |
-| Evidence Level | L5 |
+| TxGNN Prediction Score | 99.91% |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the DrugBank record. Felodipine belongs to the L-type calcium channel blocker class. It relaxes vascular smooth muscle and has both systemic and pulmonary vasodilatory activity. On paper, this makes a pulmonary hypertension indication plausible.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, felodipine is a dihydropyridine L-type calcium channel blocker. It relaxes vascular smooth muscle and causes vasodilation, which is the basis of its efficacy in hypertension.
 
-However, the mechanism is also the main safety concern. In hypoxic lung disease, vasodilators can worsen ventilation-perfusion matching by removing hypoxic pulmonary vasoconstriction. This could lower blood oxygen levels rather than help.
+In principle, the same vasodilation could lower pulmonary vascular resistance. The retrieved literature, however, is limited to preclinical or ex vivo hypoxia/anoxia-reoxygenation work. This includes rat aortic rings, rat and rabbit proximal tubules, human atrial muscle, and cerebral vessels and blood flow. None of it assesses pulmonary hypertension.
 
-The 99.91% score is a graph-based prediction. The related entry "pulmonary hypertension with unclear multifactorial mechanism" has an identical score. This suggests the two share graph neighbours rather than carrying independent signal.
+There is also a safety concern. Systemic vasodilators can inhibit hypoxic pulmonary vasoconstriction. This may worsen ventilation/perfusion mismatch and gas exchange in patients with lung disease. The prediction is therefore mechanistically plausible but unsupported by direct evidence, and potentially harmful in this population.
 
-The pack contains a much better-supported candidate for this drug: **Prinzmetal (vasospastic) angina**. It is rated L2 with "Proceed with Guardrails", based on several small human studies of felodipine from 1989 to 1995. It is not the primary indication evaluated here, but it is worth a separate evaluation.
+### Other Predicted Indications
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Pulmonary hypertension with unclear multifactorial mechanism | 99.91% | L5 | Prediction only. Calcium channel blockers suit only the small vasoreactive PAH subset. |
+| 3 | Malignant renovascular hypertension | 99.90% | L5 | Prediction only. Essentially an extension of the existing hypertension indication. |
+| 4 | Malignant hypertensive renal disease | 99.90% | L5 | Prediction only. Acute management needs agents with controlled titration. |
+| 5 | Braddock syndrome | 99.88% | L5 | Prediction only. Mechanistic rationale unclear. |
+| 6 | Chronic pulmonary heart disease | 99.19% | L4 | Only indirect haemodynamic evidence (COPD, heart failure). |
+| 7 | Prinzmetal angina | 99.07% | L3 | Felodipine-specific clinical studies exist. This is the best-supported alternative direction. |
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR).
+Currently no related clinical trials registered for the top predicted indication (no ClinicalTrials.gov, SANCTR, PACTR or other registry entries were found).
+
+---
 
 ## Literature Evidence
 
-The 19 retrieved publications are general hypoxia biology papers. None studies felodipine or pulmonary hypertension treatment, and all are still pending relevance review. The main ones are listed below.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respir Care Clin N Am | Describes the four basic mechanisms of hypoxemia, including ventilation-perfusion mismatch. Background only; relevant to the vasodilator safety concern. |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | J Cell Biochem | Cellular responses to low oxygen and links to vascular disease and cancer. No drug data. |
-| [31961750](https://pubmed.ncbi.nlm.nih.gov/31961750/) | 2020 | Review | Annu Rev Immunol | Role of hypoxia in innate immunity and inflammation. No drug data. |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metab Brain Dis | Cognitive impairment caused by hypoxia. Not related to felodipine. |
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Res Rev | Hypoxia and brain ageing. Not related to felodipine. |
+| [8160846](https://pubmed.ncbi.nlm.nih.gov/8160846/) | 1994 | Preclinical | Am J Physiol | A prior anoxic episode attenuated vasorelaxation to a later anoxic episode in rat aortic rings |
+| [8584414](https://pubmed.ncbi.nlm.nih.gov/8584414/) | 1995 | Preclinical | Pflugers Arch | Felodipine protected rat proximal tubules from hypoxic injury via a calcium-independent mechanism |
+| [9431863](https://pubmed.ncbi.nlm.nih.gov/9431863/) | 1997 | Ex vivo (human tissue) | Int J Cardiol | Felodipine protected human atrial muscle from hypoxia-reoxygenation dysfunction |
+| [8394565](https://pubmed.ncbi.nlm.nih.gov/8394565/) | 1993 | Preclinical | Pflugers Arch | Effect of L-type calcium channel blockers (including felodipine) on anoxia-induced intracellular Ca2+ rise in tubule cells |
+| [8110031](https://pubmed.ncbi.nlm.nih.gov/8110031/) | 1993 | Animal study | Arch Int Pharmacodyn Ther | Effects of nicardipine, felodipine and nifedipine on passive avoidance behaviour in intact and hypoxia-exposed rats |
+| [3961832](https://pubmed.ncbi.nlm.nih.gov/3961832/) | 1986 | Animal study | Stroke | Dihydropyridines depressed the anoxia-induced rise in cerebral blood flow in rats |
+| [3343292](https://pubmed.ncbi.nlm.nih.gov/3343292/) | 1988 | Animal study | J Cereb Blood Flow Metab | Nifedipine and felodipine suppressed hypoxia-evoked adenosine and inosine release in rat cortex |
+| [3142891](https://pubmed.ncbi.nlm.nih.gov/3142891/) | 1988 | Preclinical | J Cereb Blood Flow Metab | Reoxygenation and calcium-induced contractions in dog cerebral arteries as affected by vasodilators |
+| [9864178](https://pubmed.ncbi.nlm.nih.gov/9864178/) | 1999 | Preclinical | Blood | Nitric oxide modulated free radical generation in rat neutrophils after hypoxia-reoxygenation |
 
-The remaining retrieved papers cover tumour hypoxia, keloid fibroblasts, multiple sclerosis and high-altitude physiology. They add nothing to this evaluation.
+None of these studies involves patients with pulmonary hypertension.
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 31/7.1/0677 | Tri-plen 2.5mg/2.5mg | Tablet (oral) | Not stated in the available data |
+| Reg. No. 31/7.1/0677 | Tri-plen 2.5mg/2.5mg | Tablet (oral) | Not available in the data compiled for this report |
 
-The manufacturer and the approved indication text are not recorded, and Essential Medicines List status is not stated in the data.
+Only one valid single-ingredient registration was found. Essential Medicines List (EML) status is not available in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-- **Key concern from the rationale analysis**: Vasodilators such as felodipine can worsen ventilation-perfusion matching and blood oxygen levels in hypoxic lung disease. This is a class-specific risk for this indication.
+**Contraindications flagged by the knowledge graph (not label text):** these come from drug-disease contraindication links in the TxGNN knowledge graph and must be confirmed against the SAHPRA-approved Professional Information (PI). Flagged conditions include:
+- Cardiovascular: aortic stenosis and aortic valve disease, hypertrophic cardiomyopathy, hypotensive disorders, renal artery obstruction, myocardial infarction, coronary artery disease, atherosclerosis
+- Organ disease: kidney disease, liver disease, gallbladder disease
+- Angioedema (several forms, including hereditary and RAAS-blocker-induced)
+- Haematological: neutropenia, agranulocytosis, hemoglobinopathy
+- Other: connective tissue, bone and cartilage disease, pyoureter
 
-No SAHPRA package insert warnings, contraindications or drug interaction records were retrieved. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Drug interactions:** 100 interactions were recorded, of which 20 were retrieved. Nearly all are Moderate. One is **Major**: **dolasetron**. Other Moderate interactions include:
+- Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide
+- CYP3A4-relevant agents: clarithromycin, aprepitant, cimetidine
+- Others: bupropion, morphine, acetylsalicylic acid, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), calcium salts, magnesium sulfate, dronabinol, nabilone
+
+**Indication-specific concern:** systemic vasodilation may worsen gas exchange in hypoxic lung disease (see above).
+
+Package insert warnings and contraindications were not available for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a graph-model score, with no trials and no drug-specific literature. The class carries a plausible risk of harm in hypoxic lung disease, and the SAHPRA safety data has not been reviewed.
+The TxGNN score is high, but there are no clinical trials and no clinical literature for pulmonary hypertension owing to lung disease or hypoxia. The existing studies are preclinical or ex vivo. Vasodilators may also worsen hypoxaemia in this population.
+
+**Alternative direction:** Of the predictions reviewed, **Prinzmetal angina** has the strongest support (L3). It has several felodipine-specific clinical studies and is consistent with the established use of calcium channel blockers for coronary vasospasm. Study designs, phases and sample sizes still need to be verified, so it is a research question rather than a Go.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings and contraindications). This is a blocking gap for safety screening.
-- Mechanism of action data from DrugBank.
-- Any felodipine-specific haemodynamic or oxygenation data in pulmonary hypertension due to lung disease. The 1988 COPD haemodynamic study (PMID 2838319) appears in the pack under a different indication, chronic pulmonary heart disease, and its design should be verified.
-- A separate evaluation of the Prinzmetal angina candidate (L2), which has stronger evidence.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- For pulmonary hypertension: clinical haemodynamic and gas-exchange data in the target population, with attention to hypoxic pulmonary vasoconstriction
+- For Prinzmetal angina: verification of study design, phase and enrolment for the identified clinical studies, and a review of whether registered trials exist
+- Clarification of the approved indication and EML status of the registered product (Tri-plen 2.5mg/2.5mg), whose name suggests it may be a fixed-dose combination despite being classified as single-ingredient
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

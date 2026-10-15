@@ -2,7 +2,7 @@
 layout: default
 title: Pramocaine
 parent: Model Prediction Only (L5)
-nav_order: 380
+nav_order: 384
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pramocaine: From Topical Local Anaesthesia to Papillary Conjunctivitis
+# Pramocaine: From Topical Skin and Anorectal Conditions to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Pramocaine is a topical local anaesthetic, registered in South Africa as a suppository (Anugesic).
-The TxGNN model predicts it may be useful for **papillary conjunctivitis**,
-but **no clinical trials and no publications** currently support this prediction, which rests on the model score alone.
+Pramocaine is a topical local anaesthetic, originally used for symptom relief in skin conditions (such as dermatitis, burns and tinea infections), ear conditions and haemorrhoids.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but this is a computational prediction only, with **no clinical trials** and **no publications** currently supporting this direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA record; pramocaine is a topical local anaesthetic |
+| Original Indication | Not stated in the SAHPRA registration data. The knowledge graph lists tinea pedis, dermatitis, burns, haemorrhoids, otitis externa and related conditions. |
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.15% |
 | Evidence Level | L5 |
@@ -49,50 +50,77 @@ but **no clinical trials and no publications** currently support this prediction
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Pramocaine is a topical local anaesthetic that blocks voltage-gated sodium channels. In theory this could ease ocular surface discomfort or itch.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Pramocaine is generally understood to be a topical local anaesthetic that blocks voltage-gated sodium channels, which would give temporary relief of pain and discomfort at the site of application.
 
-The link is weak. Papillary conjunctivitis is driven by allergic or mechanical causes, and a sodium channel blocker does not treat either. Topical anaesthetics also carry a risk of corneal toxicity with ocular use, which makes them unsuitable for repeated or chronic use on the eye. The high score is most likely a knowledge-graph association rather than a mechanistically grounded signal.
+Its original uses are surface-level symptom relief on skin, ear and anorectal tissue. In papillary conjunctivitis, a sodium channel blocker could at most numb ocular surface discomfort. There is no evidence that it affects the allergic or mechanical causes of the disease. Ocular use of pramocaine is also not an established route, and prolonged use of topical anaesthetics on the eye can damage the cornea.
 
-The other nine top-ranked predictions share these limitations. They include vernal, atopic and rosacea conjunctivitis, acne keloid, acrodermatitis chronica atrophicans, neonatal and amyopathic dermatomyositis, familial hydroa vacciniforme, and childhood connective-tissue-disease-associated interstitial lung disease. All have scores of 97.8% to 98.5%, all are L5 with no trials or literature, and all are rated Hold. At best, pramocaine might give symptomatic relief of pain or itch in the skin conditions. No plausible mechanism reaches the underlying disease in any of them, and none applies to interstitial lung disease.
+The prediction is therefore best viewed as a statistical signal from the knowledge graph, not a mechanistically supported hypothesis. Other highly ranked predictions include vernal, atopic and rosacea conjunctivitis, which suggests the model may be picking up a general ocular or inflammatory cluster rather than a pramocaine-specific effect.
+
+### Other Predicted Indications (for context)
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Acne keloid | 98.53% | L5 | Possible symptom relief only; no effect on fibrosis expected |
+| 3 | Acrodermatitis chronica atrophicans | 98.43% | L5 | Antibiotic-treated infection; no antimicrobial role |
+| 4 | Neonatal dermatomyositis | 98.28% | L5 | Autoimmune; neonatal absorption and methaemoglobinaemia concerns |
+| 5 | Vernal conjunctivitis | 98.15% | L5 | Allergic disease; anaesthetic does not address it |
+| 6 | Hydroa vacciniforme, familial | 98.12% | L5 | Symptomatic relief at most |
+| 7 | Secondary childhood interstitial lung disease (connective tissue disease) | 97.99% | L5 | No plausible mechanism; likely graph artefact |
+| 8 | Amyopathic dermatomyositis | 97.87% | L5 | Symptom relief only |
+| 9 | Atopic conjunctivitis | 97.81% | L5 | Allergic mechanism not targeted; chronic ocular anaesthetic use unsafe |
+| 10 | Rosacea conjunctivitis | 97.79% | L5 | No activity against underlying processes |
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR).
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| E512 | Anugesic | Suppository | Not stated in the record |
+| E512 | Anugesic | Suppository | Not stated in the data compiled for this report |
 
-The only registered form is a suppository (rectal route). It is not suited to ocular or dermatological use, so any repurposing would need a different formulation and a new registration.
+Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Knowledge-graph contraindication signals** (not taken from label text, and to be verified against the Professional Information): hypertension, kidney disease, diabetes mellitus and diabetic ketoacidosis, hypothyroidism, adrenocortical insufficiency, open-angle glaucoma, osteoporosis, benign prostatic hyperplasia, coronary artery disease, sudden cardiac arrest, psychotic and other mental disorders, contact and occupational dermatitis, and several viral and fungal infections (measles, varicella zoster, herpes simplex including herpes simplex keratitis, dermatophytosis). Many of these look like entries inherited from other drugs or drug classes, so they should be interpreted cautiously.
+- **Context-specific concerns**: topical anaesthetics can cause corneal toxicity with prolonged ocular use. Use in neonates raises concerns about systemic absorption and methaemoglobinaemia.
 
-Two points from the prediction review also apply. Ocular exposure to topical anaesthetics risks corneal injury. Use in neonates raises concern about systemic absorption through immature skin.
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings, contraindications and drug interaction information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials or publications, and the proposed mechanism does not address the cause of papillary conjunctivitis. Ocular use of a topical anaesthetic also carries a known safety risk.
+The prediction rests on a model score alone (L5), with no clinical trials, no literature and no supporting mechanism. The ocular route is not established for this product, and the only registered South African product is a suppository.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert, with warnings and contraindications, for the safety screen
-- Mechanism of action data from DrugBank
-- Preclinical or clinical evidence of benefit in the predicted condition, including ocular tolerability
-- An ophthalmic formulation and route assessment, since the only registered product is a suppository
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- The SAHPRA Professional Information, to establish approved indications, warnings and contraindications
+- Detailed mechanism of action data
+- A systematic literature search to check for any ocular or conjunctival use of pramocaine
+- Route and formulation compatibility assessment (an ophthalmic formulation would be required)
+- Ocular safety data, including corneal toxicity risk
+- Preclinical or mechanistic evidence that pramocaine affects the pathology of papillary conjunctivitis, beyond transient symptom relief
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

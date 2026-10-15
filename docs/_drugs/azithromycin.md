@@ -29,83 +29,110 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Azithromycin: From Antibacterial Therapy to Hyperamylasemia
+# Azithromycin: From Bacterial Infections to Hyperamylasemia (Top-Ranked Prediction)
 
 ## One-Sentence Summary
 
-Azithromycin is a macrolide antibacterial that is marketed in South Africa. The TxGNN model predicts it may be effective for **hyperamylasemia**, with a very high score of 99.81%. However, **0 clinical trials** and **0 publications** support this prediction, so it rests on the model's graph-based inference alone.
-
----
+Azithromycin is a macrolide antibiotic originally used for streptococcal and staphylococcal infections, bacterial pneumonia, conjunctivitis, chancroid and several other infections.
+The TxGNN model ranks **hyperamylasemia** as its top predicted new indication, but **no clinical trials or publications** currently support this prediction.
+The more evidence-supported direction among the ten predictions is **congenital hematological disorder (sickle cell disease)**, although both trials there were withdrawn before enrolling any patients.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration records (azithromycin is a macrolide antibacterial) |
+| Original Indication | Streptococcal infection, bacterial pneumonia, staphylococcal infection, conjunctivitis, chancroid and others (the SAHPRA registrations in the data compiled for this report carry no indication text) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
+| Evidence Level | L5 (model prediction only) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
----
+**Overview of all ten predictions**
+
+| Rank | Predicted Indication | Score | Evidence Level | Recommendation |
+|---|---|---|---|---|
+| 1 | Hyperamylasemia | 99.81% | L5 | Hold |
+| 2 | Polyclonal hyperviscosity syndrome | 99.81% | L5 | Hold |
+| 3 | Congenital analbuminemia | 99.79% | L5 | Hold |
+| 4 | Punctate epithelial keratoconjunctivitis | 99.78% | L4 | Hold |
+| 5 | Blood group incompatibility | 99.70% | L5 | Hold |
+| 6 | Premalignant haematological system disease | 99.64% | L5 | Hold |
+| 7 | Monoclonal gammopathy | 99.61% | L4 | Research Question |
+| 8 | Haematological disease associated with acquired peripheral neuropathy | 99.56% | L5 | Hold |
+| 9 | Septicaemic plague | 99.52% | L4 | Research Question |
+| 10 | Congenital haematological disorder | 99.40% | L3 | Research Question |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Azithromycin is a macrolide antibacterial that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit.
+Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory, genital and ocular infections is established, and its anti-inflammatory and immunomodulatory properties are the likely basis for any non-infectious applications.
 
-**The prediction is not mechanistically supported.** Hyperamylasemia is a laboratory finding (raised serum amylase), not an infectious target. The antibacterial mechanism does not explain a benefit. No pharmacological rationale linking azithromycin to this condition was identified. The high TxGNN score most likely reflects proximity in the knowledge graph rather than a real therapeutic relationship. This prediction should be treated as a hypothesis-generating signal only.
+For the top-ranked prediction, **hyperamylasemia**, no mechanistic link can be identified. It is a laboratory finding rather than a disease with an antimicrobial or immunomodulatory target. The high score reflects a pattern in the knowledge graph and is not backed by trials or publications. The same applies to polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility and the other L5 predictions.
 
----
+Three lower-ranked predictions have some plausibility:
+- **Congenital hematological disorder (sickle cell disease):** azithromycin's anti-inflammatory effects and activity against atypical respiratory pathogens could reduce acute chest syndrome and improve lung function. This is rationale only, as no efficacy data exist.
+- **Monoclonal gammopathy:** preclinical work shows macrolides block autophagy flux and sensitise myeloma cells to bortezomib, an indirect link to plasma cell disorders.
+- **Septicaemic plague:** azithromycin has in vitro activity against some pathogens, but in one study it showed poor activity against *Yersinia pestis*. Established first-line agents exist.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are registered for the top-ranked prediction (hyperamylasemia). The only trials in the data are for the rank 10 prediction, congenital hematological disorder:
 
----
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02960503](https://clinicaltrials.gov/study/NCT02960503) | Phase 1/2 | Withdrawn | 0 | Macrolide therapy to improve FEV1 in adults with sickle cell disease; no data generated |
+| [NCT02630394](https://clinicaltrials.gov/study/NCT02630394) | Phase 1 | Withdrawn | 0 | Pilot of azithromycin prophylaxis for acute chest syndrome in sickle cell disease; no data generated |
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | Recruiting | 5000 | General paediatric pharmacokinetics and safety study of understudied drugs; not disease-specific |
+
+No SANCTR or PACTR identifiers are available in the data compiled for this report.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications are available for hyperamylasemia. The most relevant publications for the other predictions are:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26408070](https://pubmed.ncbi.nlm.nih.gov/26408070/) | 2015 | Systematic review | Cochrane Database Syst Rev | Antibiotic prophylaxis for lower respiratory tract infections in high-risk children (context for sickle cell prediction) |
+| [23546223](https://pubmed.ncbi.nlm.nih.gov/23546223/) | 2013 | Preclinical study | Int J Oncol | Macrolides including azithromycin block autophagy flux and enhance bortezomib cytotoxicity in myeloma cell lines |
+| [8540736](https://pubmed.ncbi.nlm.nih.gov/8540736/) | 1995 | In vitro study | Antimicrob Agents Chemother | Azithromycin showed poor activity against 78 *Yersinia pestis* strains |
+| [12698575](https://pubmed.ncbi.nlm.nih.gov/12698575/) | 2002 | Animal study | Antibiot Khimioter | Azithromycin was the most active agent in experimental brucellosis |
+| [32826651](https://pubmed.ncbi.nlm.nih.gov/32826651/) | 2021 | Case report | Cornea | Microsporidial keratoconjunctivitis diagnosis; does not test azithromycin |
+| [22825522](https://pubmed.ncbi.nlm.nih.gov/22825522/) | 2012 | Case report | Tumori | Osteonecrosis of the jaw treated with ozone gas insufflation, with azithromycin given alongside |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 51/A20.1.1/0587 | Novazith Suspension | Suspension | Not provided in the record |
-| Reg. No. A39/20.1.1/0382 | Azithromycin 500 Biotech | Tablet | Not provided in the record |
+| 51/A20.1.1/0587 | Novazith Suspension | Suspension | Not available in the data compiled for this report |
+| A39/20.1.1/0382 | Azithromycin 500 Biotech | Tablet | Not available in the data compiled for this report |
 
-Available forms: oral tablet and suspension. Essential Medicines List (EML) status was not included in the evidence pack and has not been verified.
-
----
+Both registrations are valid single-ingredient products. Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications and conditions of concern (from knowledge graph, not label text):** long QT syndrome (including familial), torsades de pointes, liver disease, gallbladder disease, *Clostridium difficile* colitis, perinatal necrotising enterocolitis, myasthenia gravis, neuromuscular junction disease, and hearing or auditory system disorders.
 
----
+**Drug interactions:** 100 interactions were identified. Examples from the first 20 listed:
+- **Major:** cisapride, dolasetron (QT-prolongation concern)
+- **Moderate:** famotidine, loperamide, clarithromycin, levofloxacin, granisetron, aluminium hydroxide, magnesium-containing antacids, and several laxatives
+- **Minor:** amoxicillin, metronidazole
+
+Please refer to the SAHPRA-approved Professional Information (PI) for label warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no literature and no plausible mechanism. It is an L5 (model-only) finding. Hyperamylasemia is a laboratory abnormality rather than a treatment target, so the high score alone does not justify action.
-
-**Other predictions for context:** Two lower-ranked predictions have some indirect evidence and are classed as research questions, not treatment recommendations.
-- **Septicemic plague** (L4): only in vitro susceptibility data, which reported poor azithromycin activity against *Yersinia pestis* strains, plus general reviews and an experimental brucellosis study. There are no human trials.
-- **Congenital hematological disorder** (L4): the signal is limited to sickle cell disease. Two azithromycin trials (NCT02630394, NCT02960503) were both withdrawn with 0 participants enrolled, so no efficacy or safety data exist.
+The top-ranked prediction, hyperamylasemia, has no trials, no literature and no plausible mechanism, so it is a model prediction only (L5). The highest-evidence direction, sickle cell disease (L3), is supported only by two withdrawn trials with zero enrollment.
 
 **To proceed, the following is needed:**
-- The SAHPRA-approved Professional Information (warnings and contraindications) for both registered products
-- Mechanism of action data (for example from DrugBank) and an expert assessment of whether any credible link to hyperamylasemia exists
-- Any published clinical or preclinical evidence for azithromycin in this condition
-- The approved indications for the two SAHPRA registrations, and confirmation of EML status
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Retrieve the SAHPRA Professional Information to confirm approved indications, warnings and contraindications (blocking gap for safety screening)
+- Obtain mechanism of action data from DrugBank
+- For sickle cell disease: a new, adequately powered trial of azithromycin for acute chest syndrome or lung function, as both existing trials were withdrawn
+- For monoclonal gammopathy: confirmatory preclinical work before any clinical consideration
+- Review QT-prolongation risk and interacting drugs before any new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

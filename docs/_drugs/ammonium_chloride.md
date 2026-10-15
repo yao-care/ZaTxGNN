@@ -29,72 +29,115 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ammonium Chloride: From Expectorant Use to Acute Laryngopharyngitis
+# Ammonium Chloride: From Pharyngitis and Common Cold to Acute Laryngopharyngitis
 
 ## One-Sentence Summary
 
-Ammonium chloride is a classical expectorant. In South Africa it is registered in cough syrups and one tablet product, but the registration records give no indication text.
-The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, with a very high score.
-However, there are **0 clinical trials** and **0 publications** for this indication, so the prediction is a model prior and not evidence.
+Ammonium chloride is a traditional expectorant, originally used for pharyngitis, common cold and nasopharyngitis.
+The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
+It is a model prediction only, and the score likely reflects similarity to the existing indications rather than a new mechanism.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in SAHPRA records. Product names (e.g. Benylin & codeine, Expectalin with cod) suggest cough/expectorant use. |
+| Original Indication | Pharyngitis, common cold, nasopharyngitis (from the TxGNN knowledge graph; no approved indication text is available from the SAHPRA records) |
 | Predicted New Indication | Acute laryngopharyngitis |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 18 |
+| Number of SAHPRA Registrations | 16 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ammonium chloride is a classical expectorant, and it may act on mucosal secretions. Mechanistically, it may be applicable to inflammation of the throat and upper airway.
+Currently, detailed mechanism of action data is not available. Based on known information, ammonium chloride is a traditional expectorant that may increase respiratory tract secretions. It is used in South Africa only in combination cough preparations, and mechanistically it may be applicable to acute laryngopharyngitis.
 
-A plausible mucosal and secretion-related rationale therefore exists. It is only a prior. The score is high, but no trial or publication tests ammonium chloride in acute laryngopharyngitis. The link should not be treated as established.
+Acute laryngopharyngitis is very close to the existing indications (pharyngitis, common cold, nasopharyngitis), all of which are upper respiratory tract conditions. The high score most likely reflects this similarity to the existing indications rather than a genuinely new mechanism. No trials or literature were found to confirm it.
+
+**Other predictions in the top 10** (all prediction only unless stated):
+- **Nasal cavity disease** (99.94%): plausible given the labelled upper respiratory indications, but the category is broad and non-specific.
+- **Faucial diphtheria** (98.93%): no plausible mechanism. Diphtheria is a toxin-mediated infection that needs antitoxin and antibiotics.
+- **Cervical disc degenerative disorder** (98.87%): no plausible mechanism; likely a graph-based artifact.
+- **Allergic urticaria** (98.50%): the one retrieved paper is about occupational skin disease from epoxy compounds and is likely a spurious match.
+- **Trigeminal autonomic cephalalgia** (98.17%): no direct evidence.
+- **Headache disorder** (97.99%): the only indication with historical clinical signals (see below).
+- **Tracheal disease** (97.96%): biologically plausible given the expectorant action, but the one retrieved paper is a preclinical plant-extract study.
+- **Papillary conjunctivitis** (91.73%) and **gonococcal urethritis** (91.64%): no rationale or evidence; gonococcal urethritis has established antibiotic therapy.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for acute laryngopharyngitis.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for acute laryngopharyngitis.
+
+For reference, four historical papers were found for the lower-ranked prediction **headache disorder**. They are from the 1950s, and no abstracts were available. Their titles suggest case series or clinical reports, and their methods cannot be verified.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [13254186](https://pubmed.ncbi.nlm.nih.gov/13254186/) | 1955 | Historical clinical report | Orvosi Hetilap | Ammonium chloride therapy of chronic migraine |
+| [13345397](https://pubmed.ncbi.nlm.nih.gov/13345397/) | 1956 | Historical clinical report | Ideggyogyaszati Szemle | Neuro-endocrine effects of ammonium chloride in chronic headaches |
+| [13317850](https://pubmed.ncbi.nlm.nih.gov/13317850/) | 1956 | Historical clinical report | Endokrinologie | Neuroendocrine effects of ammonium chloride, with focus on chronic headaches |
+| [13466764](https://pubmed.ncbi.nlm.nih.gov/13466764/) | 1957 | Historical report / hypothesis | Revue Neurologique | Ammonium chloride treatment of anachlorhydric migraine; pathogenic considerations |
+
+---
 
 ## South Africa Market Information
 
-Showing 5 of 18 registrations. The registration records do not include approved indication text.
+All 16 registrations are valid single-ingredient registrations (no cancelled ones). Most are syrups, and one is a tablet. No approved indication text is available in the data compiled for this report. The first 5 registrations are listed below. Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| G830 (ACT101/1965) | Benylin & codeine | Syrup | Not stated in record |
-| 31/2.6/0241 | Coprax | Tablet | Not stated in record |
-| 28/10.1/0249 | Expectalin with cod | Syrup | Not stated in record |
-| 27/10.1/0529 | Dynalex | Syrup | Not stated in record |
-| G/10.1/1112 | Broncleer & cod unboxed | Syrup | Not stated in record |
+| Reg. No. G830 (ACT101/1965) | Benylin & codeine | Syrup | Not available |
+| Reg. No. 31/2.6/0241 | Coprax | Tablet | Not available |
+| Reg. No. 28/10.1/0249 | Expectalin with cod | Syrup | Not available |
+| Reg. No. 27/10.1/0529 | Dynalex | Syrup | Not available |
+| Reg. No. G/10.1/1112 | Broncleer & cod unboxed | Syrup | Not available |
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+Product-specific warnings and contraindications are not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+**Contraindication signals from the knowledge graph** (these come from graph edges, not label text, and should be confirmed against the PI). They include:
+- Hepatic and renal: liver failure, impaired renal function, anuria
+- Metabolic and endocrine: adrenocortical insufficiency/Addison disease, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, hyperthyroidism/Graves disease/thyrotoxicosis
+- Cardiovascular: hypertension, sudden cardiac arrest, heart conduction disease, myocardial ischaemia, coronary artery disease, pulmonary oedema
+- Neurological and psychiatric: epilepsy, insomnia, anxiety disorder, agoraphobia, obsessive-compulsive disorder
+- Other: peptic ulcer disease, benign prostatic hyperplasia, bladder neck obstruction, ocular hypertension, angle-closure glaucoma, necrotizing enterocolitis
+
+**Drug Interactions** (21 recorded from DDInter; 20 shown in the data compiled):
+- **Moderate**: amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine
+- **Minor**: ephedrine (including nasal), pseudoephedrine, methadone, mexiletine, flecainide, and the tricyclic antidepressants (amitriptyline, clomipramine, desipramine, doxepin including topical, imipramine, nortriptyline, protriptyline, trimipramine)
+
+Several registered products also contain codeine, so the safety profile of the whole combination must be considered.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but there is no clinical trial, no literature and no mechanism data for acute laryngopharyngitis (L5, model prediction only). Safety information from the SAHPRA PI is also missing, so the candidate cannot yet pass safety screening.
-
-Among the other predicted indications, only **headache disorder** has drug-specific human reports. These are five uncontrolled historical reports from 1955 to 1982 on chronic migraine and headache, with no modern replication. This is worth a separate research question, but it is not a basis for clinical use.
+The prediction for acute laryngopharyngitis is supported only by the model score (L5) and is very close to existing indications, so it adds little new. No trials or literature support it, and the safety data from the product labels is incomplete.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (download and parse the PI PDF)
-- Approved indication text for the registered products
-- Mechanism of action data (DrugBank)
-- Any clinical or observational evidence in acute laryngopharyngitis
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Download and review the SAHPRA Professional Information (PI) for the registered products to obtain warnings, contraindications and approved indications
+- Detailed mechanism of action data (MOA), for example from DrugBank
+- Any clinical evidence for acute laryngopharyngitis, particularly modern controlled trials
+- For headache disorder (graded L4, "Research Question"): the 1950s reports are not enough, and modern controlled studies would be needed before progressing
+- A safety review of the knowledge-graph contraindication signals, given the many cardiovascular, renal and hepatic flags
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acamprosate: From Alcohol Dependence to DECR Deficiency Encephalopathy
+# Acamprosate: From Substance Dependence to Progressive Encephalopathy with Leukodystrophy due to DECR Deficiency
 
 ## One-Sentence Summary
 
-Acamprosate is an oral medicine used to help maintain abstinence in alcohol dependence. The SAHPRA record supplied does not state an approved indication, so this use comes from the literature in the Evidence Pack. The TxGNN model ranks **progressive encephalopathy with leukodystrophy due to DECR deficiency** as its top prediction, but there are **0 clinical trials** and **0 publications** for it, and no plausible mechanistic link. This is a model output only.
+Acamprosate was originally used to treat substance (alcohol) dependence.
+The TxGNN model predicts it may be effective for **progressive encephalopathy with leukodystrophy due to DECR deficiency**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+This is a graph-based prediction only, and the mechanistic link is not identifiable.
 
 ---
 
@@ -41,7 +43,7 @@ Acamprosate is an oral medicine used to help maintain abstinence in alcohol depe
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA record. Literature in the pack describes relapse prevention in alcohol dependence after detoxification. |
+| Original Indication | Substance abuse/dependence (the SAHPRA registration record has no indication text) |
 | Predicted New Indication | Progressive encephalopathy with leukodystrophy due to DECR deficiency |
 | TxGNN Prediction Score | 98.53% |
 | Evidence Level | L5 |
@@ -53,23 +55,36 @@ Acamprosate is an oral medicine used to help maintain abstinence in alcohol depe
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input. Acamprosate is generally described as modulating glutamatergic (NMDA/mGluR5) and GABAergic signalling. Its efficacy in alcohol dependence is documented, but this report relies on general pharmacology, not on a recorded MOA.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Acamprosate is generally understood to act on glutamatergic and GABAergic neurotransmission, and its efficacy in alcohol dependence is established.
 
-For this prediction, **no plausible mechanistic link was identified**. DECR deficiency is a mitochondrial fatty-acid oxidation disorder. Acamprosate's proposed neurotransmitter modulation does not address that metabolic defect. The high score reflects a knowledge-graph association only and should not be read as clinical support.
-
-The pack does contain stronger signals for other predictions (see "Other Predicted Indications" below). None of them changes the assessment of this top-ranked one.
+The predicted new indication is a different kind of disease. DECR deficiency is a mitochondrial fatty acid oxidation disorder, and acamprosate has no known action on that pathway. The high TxGNN score reflects a pattern in the knowledge graph, not a demonstrated biological or clinical connection. Without supporting trials or literature, this prediction should be treated as a computational signal only.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this indication.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for this indication.
+Currently no related literature available.
+
+---
+
+## Other Predicted Indications With Supporting Evidence
+
+The highest-ranked prediction has no evidence. Several lower-ranked predictions have some, and the strongest is alcohol withdrawal.
+
+| Predicted Indication | TxGNN Score | Evidence Level | Supporting Evidence |
+|------|------|------|------|
+| Alcohol withdrawal | 90.61% | L2 | [NCT00106106](https://clinicaltrials.gov/study/NCT00106106): completed Phase 2 trial (n=56) of acamprosate for CNS hyperexcitability in alcohol withdrawal; results not provided in the compiled data. [NCT00466661](https://clinicaltrials.gov/study/NCT00466661): completed Phase 4 placebo-controlled trial (n=33) in alcohol-dependent patients with bipolar disorder. [PMID 11524307](https://pubmed.ncbi.nlm.nih.gov/11524307/): double-blind placebo-controlled study (n=296) in Spain, with acamprosate started during withdrawal. Guidelines and reviews mainly support its use for relapse prevention after detoxification, not as a primary withdrawal treatment. |
+| Tourette syndrome | 92.57% | L5 | [NCT02217007](https://clinicaltrials.gov/study/NCT02217007): Phase 2a open-label trial, withdrawn with 0 enrolled, so no efficacy data. |
+| Wernicke-Korsakoff syndrome | 98.07% | L4 | Only a general review on alcohol dependence management ([PMID 17716602](https://pubmed.ncbi.nlm.nih.gov/17716602/)); evidence is indirect. |
+| Attention deficit-hyperactivity disorder | 91.85% | L4 | Only indirect reviews, with no acamprosate efficacy data for ADHD. |
+
+The remaining predictions (trichotillomania, alcohol amnestic disorder, glaucoma, absence epilepsy, faciodigitogenital syndrome) have no trials or literature (L5).
 
 ---
 
@@ -77,37 +92,18 @@ Currently no related literature available for this indication.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 32/9/0097 | Besobrial | Tablet (oral) | Not provided in the record |
+| Reg. No. 32/9/0097 | Besobrial | Tablet (oral) | Not stated in the compiled registration record |
 
-Essential Medicines List (EML) status was not provided in the data.
+Acamprosate has one valid single-ingredient registration and no cancelled registrations.
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no results (0 interactions recorded). This is not the same as evidence of no interactions.
+- **Contraindications (knowledge-graph derived, not label text)**: impaired renal function.
+- **Drug Interactions**: 15 interacting drugs were identified, but the severity level of each is unclassified. They are pantoprazole, doxycycline, omeprazole, lansoprazole, prednisone, simvastatin, lactulose, naltrexone, ranitidine, bupropion, budesonide, warfarin, ibuprofen, doxepin and levothyroxine.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
-
----
-
-## Other Predicted Indications in the Evidence Pack
-
-Only the top-ranked prediction is assessed in detail above. The others, in the pack's rank order:
-
-| Rank | Predicted Indication | Score | Evidence Level | Pack Recommendation | Comment |
-|---|---|---|---|---|---|
-| 2 | Trichotillomania | 98.07% | L5 | Hold | Speculative glutamatergic rationale; no trials or literature |
-| 3 | Wernicke-Korsakoff syndrome | 98.07% | L4 | Hold | Only a general alcohol-dependence review; thiamine remains standard of care |
-| 4 | Alcohol amnestic disorder | 95.65% | L5 | Hold | Adjacent to alcohol dependence; no evidence provided |
-| 5 | Glaucoma | 94.29% | L5 | Hold | NMDA excitotoxicity hypothesis only |
-| 6 | Tourette syndrome | 92.57% | L5 | Hold | Only trial (NCT02217007) was withdrawn with 0 participants |
-| 7 | ADHD | 91.85% | L3 | Research Question | Small fragile X pilot ([NCT01300923](https://clinicaltrials.gov/study/NCT01300923), Phase 2, n=14, completed); a hypothesis for a fragile X-associated phenotype, not idiopathic ADHD |
-| 8 | Absence epilepsy | 91.29% | L5 | Hold | Mechanism mismatch (T-type calcium channels) |
-| 9 | Alcohol withdrawal | 90.61% | L1 | Proceed with Guardrails | Not a novel repurposing signal (see below) |
-| 10 | Faciodigitogenital syndrome | 90.42% | L5 | Hold | No plausible mechanistic link |
-
-**Rank 9 (alcohol withdrawal)** has the strongest evidence, including a completed Phase 3 trial ([NCT03634917](https://clinicaltrials.gov/study/NCT03634917), n=82) and an RCT ([PMID 11524307](https://pubmed.ncbi.nlm.nih.gov/11524307/)). It sits in the same clinical area as acamprosate's existing alcohol dependence use. Acamprosate's established role is relapse prevention after detoxification, and the evidence for symptom control during acute withdrawal is weaker. It should not be treated as new-indication evidence.
+Please refer to the SAHPRA-approved Professional Information (PI) for the full warnings and contraindications, which were not available in the compiled data. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -116,15 +112,15 @@ Only the top-ranked prediction is assessed in detail above. The others, in the p
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (DECR deficiency) rests on a model score alone. There are no trials or publications, and the mechanism does not fit. Two blocking or high-severity data gaps also remain: SAHPRA package insert safety information and the mechanism of action.
+The prediction for DECR deficiency has no clinical or literature support and no plausible mechanistic link, so it rests on the model score alone (L5). Of the other predicted indications, alcohol withdrawal has the most support (L2) and is the most credible direction for further work.
 
 **To proceed, the following is needed:**
-- SAHPRA Professional Information (warnings, contraindications, approved indication) for Reg. No. 32/9/0097
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence linking acamprosate to DECR deficiency, or a decision to review a different candidate (e.g. ADHD in fragile X syndrome, the only "Research Question" item) instead
-- EML status and route-compatibility checks, both still pending
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanistic or preclinical evidence linking acamprosate to the DECR deficiency pathway, if this indication is to be pursued at all
+- Consideration of alcohol withdrawal as the priority research question, including review of the NCT00106106 results
+- The SAHPRA Professional Information (warnings, contraindications, approved indication text)
+- Detailed mechanism of action data
+- Severity classification of the identified drug interactions, particularly for warfarin and naltrexone
+- Renal function considerations for any new patient population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Triprolidine
 parent: Moderate Evidence (L3-L4)
-nav_order: 458
+nav_order: 462
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,86 +29,100 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Triprolidine: From Cough and Cold Preparations to Allergic Urticaria
+# Triprolidine: From Allergic Rhinitis to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Triprolidine is a first-generation antihistamine. In South Africa it is registered mainly in syrup products, and the product names suggest cough and cold use. The TxGNN model predicts it may be effective for **allergic urticaria**. Support is weak: **0 registered clinical trials** and **6 publications**, almost all of which concern related drugs or general antihistamine reviews rather than triprolidine itself.
+Triprolidine is a first-generation H1-receptor antihistamine, originally used for allergic and vasomotor rhinitis, the common cold, allergic conjunctivitis and urticaria.
+The TxGNN model predicts it may be effective for **allergic urticaria**, but there are **no registered clinical trials** and only **2 loosely related publications**, so the prediction rests mainly on mechanism and model score.
+Much of this is an extension of an existing indication rather than true repurposing.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data. Product names (cough linctus, expectorant, paediatric syrups) suggest cough and cold symptom relief; this is an inference, so confirm against the Professional Information (PI). |
+| Original Indication | Allergic rhinitis (other original indications: vasomotor rhinitis, common cold, atopic conjunctivitis, urticaria, angioedema). No approved indication text is available in the SAHPRA records compiled for this report. |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L4 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 14 |
+| Number of SAHPRA Registrations | 13 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source data. Triprolidine is a first-generation H1 receptor antagonist. Blocking the H1 receptor is the standard approach for histamine-mediated urticaria, so the prediction is pharmacologically coherent.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, triprolidine is a first-generation H1-receptor antagonist. It blocks histamine at H1 receptors and also has anticholinergic and sedating effects.
 
-The literature retrieved is indirect. Most items concern acrivastine, a triprolidine-derived analogue, or are general reviews of H1 antihistamines. The only triprolidine-specific paper is a 1965 study of skin response to ultraviolet radiation, not a urticaria efficacy trial. This is class-level plausibility, not direct evidence.
+Allergic urticaria is a histamine-mediated condition, so H1 blockade is mechanistically consistent. Triprolidine is already linked to urticaria (disease) and angioedema in the knowledge graph. The very high TxGNN score (0.9999) therefore probably reflects its close similarity to these existing indications rather than a new therapeutic signal.
 
-TxGNN also ranked six other indications, all with weaker support:
+Other predictions (cold urticaria, nasal cavity disease, pharyngitis, acute laryngopharyngitis, recalcitrant atopic dermatitis, atopic IgE responsiveness) have even weaker support. Most have no direct evidence, and some are mechanistically doubtful. For example, histamine is not the main driver of atopic dermatitis, and the drying effect could worsen throat irritation.
 
-- **Cold urticaria:** one indirect acrivastine trial. Hold.
-- **Pharyngitis:** one placebo-controlled trial of a pseudoephedrine/triprolidine combination in children with purulent nasopharyngitis. The abstract is truncated, so the result cannot be attributed to triprolidine. Hold.
-- **Nasal cavity disease, acute laryngopharyngitis, recalcitrant atopic dermatitis and atopic IgE responsiveness:** model prediction only, with no literature or trials. Hold.
-
-"Atopic IgE responsiveness" is a trait rather than a treatable condition. H1 antagonists block downstream histamine effects and do not change IgE production.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR and PACTR identifiers: none found in the data provided).
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7911009](https://pubmed.ncbi.nlm.nih.gov/7911009/) | 1994 | RCT (acrivastine; indirect) | Allergy | Double-blind, placebo-controlled crossover in 10 pollen-allergic subjects. Studied how quickly acrivastine 8 mg suppresses skin-prick wheals. Acrivastine is a triprolidine derivative, so this does not test triprolidine. |
-| [1715267](https://pubmed.ncbi.nlm.nih.gov/1715267/) | 1991 | Review | Drugs | Acrivastine was effective and well tolerated in chronic urticaria and allergic rhinitis in double-blind trials. |
-| [8094649](https://pubmed.ncbi.nlm.nih.gov/8094649/) | 1993 | Review | Dermatologic Clinics | Newer low-sedating H1 antihistamines are first-line for urticaria and mild angioedema. |
-| [2568212](https://pubmed.ncbi.nlm.nih.gov/2568212/) | 1989 | Review | Clinical Pharmacy | Reviews non-sedating H1 antagonists. Notes acrivastine is a side-chain-reduced metabolite of triprolidine. |
-| [1983393](https://pubmed.ncbi.nlm.nih.gov/1983393/) | 1990 | Review/commentary | Drug and Therapeutics Bulletin | Commentary on three new non-sedative antihistamines. No abstract available. |
-| [14283425](https://pubmed.ncbi.nlm.nih.gov/14283425/) | 1965 | Experimental human skin study | British Journal of Dermatology | Triprolidine and skin response to UV radiation. No abstract available, and not a urticaria efficacy study. |
+| [2568212](https://pubmed.ncbi.nlm.nih.gov/2568212/) | 1989 | Review | Clinical Pharmacy | Review of non-sedating H1 antagonists (terfenadine, astemizole, loratadine, acrivastine). Acrivastine is a metabolite of triprolidine. Indirect relevance only. |
+| [14283425](https://pubmed.ncbi.nlm.nih.gov/14283425/) | 1965 | Other (small experimental study) | British Journal of Dermatology | Triprolidine and the skin response to ultraviolet radiation. Not a urticaria efficacy study. |
 
-For cold urticaria, the acrivastine versus cyproheptadine trial in 18 patients ([PMID 2901993](https://pubmed.ncbi.nlm.nih.gov/2901993/), *Dermatologica*, 1988) is also indirect evidence.
+Evidence for related predictions is also indirect:
+- **Cold urticaria:** [2901993](https://pubmed.ncbi.nlm.nih.gov/2901993/) (1988, Dermatologica) was a double-blind crossover RCT in 18 patients. Acrivastine, a triprolidine derivative, reduced weal areas more than cyproheptadine and placebo. Triprolidine itself was not tested.
+- **Pharyngitis:** [6377256](https://pubmed.ncbi.nlm.nih.gov/6377256/) (1984, Pediatric Infectious Disease) was an RCT in 142 children with purulent nasopharyngitis. It tested cephalexin with or without a pseudoephedrine/triprolidine combination. The effect of triprolidine alone cannot be separated.
+
+---
 
 ## South Africa Market Information
 
-There are 14 SAHPRA registrations in total. The main ones shown in the data are below. All are syrups. Approved indication text and manufacturer are not provided, and Essential Medicines List (EML) status is not stated in the data. A topical cream form appears in the route summary, but none of the registrations listed below is a cream.
+All 13 registrations are valid single-ingredient products. Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status was not available.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 27/5.8/0260 | Adco-flupain | Syrup |
-| Reg. No. Y/10.1.1/138 | Merck-Cough Linctus | Syrup |
-| Reg. No. 27/10.1/0256 | Adco-tussend | Syrup |
-| Reg. No. 31/5.8/0056 | Coryx paediatric | Syrup |
-| Reg. No. Y/10.1.1/139 | Merck-Expectorant | Syrup |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 27/5.8/0260 | Adco-flupain | Syrup | Not available |
+| Y/10.1.1/138 | Merck-Cough Linctus | Syrup | Not available |
+| 27/10.1/0256 | Adco-tussend | Syrup | Not available |
+| 31/5.8/0056 | Coryx paediatric | Syrup | Not available |
+| Y/10.1.1/139 | Merck-Expectorant | Syrup | Not available |
+
+Eight further syrup registrations exist. There is also one topical cream, Medaspor topical (28/20.2.2/0119).
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications flagged in the knowledge graph (not label text):** hypertension, epilepsy, kidney disease, liver disease, pancreatitis, gallbladder disease, hypothyroidism, peptic ulcer disease, inflammatory bowel disease, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, coronary artery disease and myocardial infarction, atherosclerosis, ocular hypertension, and heart conduction disease. The list also includes other conditions. These should be verified against the SAHPRA Professional Information (PI).
+
+**Drug interactions:** 100 interactions were found, and 20 are listed in the data. Most are Moderate, and the main groups are:
+- **Major:** potassium citrate and potassium chloride.
+- **Moderate, anticholinergic additive effects:** hyoscyamine, atropine, scopolamine, glycopyrronium, dicyclomine, trospium, propantheline, methscopolamine, mepenzolate and clidinium.
+- **Moderate, opioids and CNS or GI agents:** morphine, loperamide, dronabinol, nabilone, eluxadoline and metoclopramide.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible, but no registered trials exist and no retrieved paper tests triprolidine for urticaria. The safety data from the package insert is still missing, which blocks progression to safety screening.
+The predicted indication is largely an extension of existing labelled uses. There are no clinical trials, and the literature is indirect (class-level or combination-product studies). Package insert warnings and contraindications are also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (blocking gap), and confirmation of the labelled indications
-- Mechanism of action data, for example from DrugBank
-- Triprolidine-specific evidence in urticaria, from a targeted literature search or a new study
-- Comparison against low-sedating second-generation antihistamines, which are the standard first-line therapy for urticaria
-- Verification of the intervention in the pharyngitis paper (PMID 6377256) before any upgrade of that indication
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- Download and review the SAHPRA package insert (warnings, contraindications, approved indications).
+- Obtain mechanism of action data (for example, from DrugBank).
+- Look for direct evidence on triprolidine in urticaria, since the available studies cover other antihistamines or combinations.
+- Check the knowledge-graph contraindications against the label, and plan safety monitoring for the anticholinergic and sedative effects in vulnerable groups such as children and older adults.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Hydrocortisone Acetate
 parent: Model Prediction Only (L5)
-nav_order: 253
+nav_order: 255
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hydrocortisone Acetate: From Topical Corticosteroid Use to Alopecia Areata
+# Hydrocortisone Acetate: From Autoimmune and Inflammatory Conditions to Alopecia Areata
 
 ## One-Sentence Summary
 
-Hydrocortisone acetate is a low-potency corticosteroid, and in South Africa it is registered only as topical creams. The TxGNN model predicts it may be effective for **alopecia areata**. Support is thin: **1 Phase 3 trial** in which it was only the comparator, and **2 old publications** (a 1973 case series and a 1979 review). This is a research question, not a treatment recommendation.
+Hydrocortisone acetate is a glucocorticoid originally used for autoimmune disease, adrenocortical insufficiency, inflammatory bowel disease and related conditions.
+The TxGNN model predicts it may be effective for **alopecia areata**,
+but current support is limited to **1 clinical trial** (in which hydrocortisone was the low-potency comparator) and **2 older publications** (1973 and 1979).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA records supplied (both registered products are creams) |
+| Original Indication | Autoimmune disease (other listed indications include adrenocortical insufficiency, Crohn disease, inflammatory bowel disease and congenital adrenal hyperplasia). No approved indication text is available from the SAHPRA registrations. |
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 (nominally L1, downgraded because the trial evidence is indirect) |
+| Evidence Level | L2 (indirect: hydrocortisone served as the comparator arm, not the test drug) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on known information, hydrocortisone acetate is a glucocorticoid receptor agonist. Its anti-inflammatory and immunosuppressive effects are established for corticosteroids as a class, and could mechanistically apply to alopecia areata. This rationale is at class level and has not been shown for this specific drug.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, hydrocortisone is a glucocorticoid with anti-inflammatory and immunosuppressive activity.
 
-Alopecia areata is a T-cell-mediated autoimmune attack on hair follicles, and corticosteroids are commonly used in it. However, hydrocortisone is a low-potency topical steroid, so clinical efficacy is doubtful. The one controlled trial found used it as the weaker comparator against clobetasol propionate, a high-potency steroid.
+Alopecia areata is a T-cell-mediated autoimmune disease in which the immune system attacks the hair follicle. This fits with the drug's original autoimmune disease indication, since glucocorticoids can plausibly dampen the local immune response around the follicle.
 
-The other nine predictions are much weaker. Telogen effluvium, alopecia mucinosa, folliculitis decalvans, several rare genetic hair disorders, seborrheic keratosis and steroid-sensitive nephrotic syndrome all have no trials or literature. Alopecia areata is the only prediction with any supporting evidence.
+An important caveat: in clinical practice, more potent corticosteroids (for example clobetasol or intralesional triamcinolone) are the established options. Hydrocortisone is a low-potency agent and is likely less effective.
+
+Other predicted indications in the list (telogen effluvium, alopecia mucinosa, folliculitis decalvans and several rare genetic hair disorders) have no supplied trials or literature. For several of them there is no clear mechanistic rationale. For alopecia with antibody deficiency, immunosuppression could even be harmful.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomised trial in children with alopecia areata comparing clobetasol propionate 0.05% cream with hydrocortisone 1% cream. Hydrocortisone was the comparator, so the trial shows the drug has been tested in this disease but does not show that it works. |
-
-No SANCTR or PACTR registrations were identified.
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomised trial in children with alopecia areata comparing clobetasol propionate 0.05% cream with hydrocortisone 1% cream. Hydrocortisone was the low-potency control arm, so this gives only indirect evidence. Small sample size. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | Case series (uncontrolled) | Przeglad dermatologiczny | Intralesional injections of hydrocortisone acetate suspension for severe alopecia areata. No abstract is available, and an uncontrolled series cannot show efficacy. |
-| [153470](https://pubmed.ncbi.nlm.nih.gov/153470/) | 1979 | Review | MMW, Munchener medizinische Wochenschrift | General review of topical skin therapy. It uses hydrocortisone acetate only as a potency reference for a newer steroid and is not specific to alopecia areata. |
+| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | Case series / clinical report | Przeglad dermatologiczny | Intralesional injections of hydrocortisone acetate suspension for severe alopecia areata. No abstract available. |
+| [153470](https://pubmed.ncbi.nlm.nih.gov/153470/) | 1979 | Review | MMW, Munchener medizinische Wochenschrift | General review of topical therapy in skin diseases. Notes the anti-inflammatory effect of fluocortin butyl ester is roughly equal to that of hydrocortisone acetate. Not specific to alopecia areata. |
 
 ## South Africa Market Information
 
+Both registrations are valid single-ingredient products in cream (topical) form. No approved indication text is available for either.
+
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| G2022 | Biocort (stx) | Cream | Not listed in the record |
-| 45/13.4.1/0568 | Fucidin h | Cream | Not listed in the record |
+| G2022 | Biocort (stx) | Cream | Not available |
+| 45/13.4.1/0568 | Fucidin H | Cream | Not available |
 
-Both registrations are topical creams. No injectable or intralesional product is registered, although the 1973 case series used an injected suspension. Essential Medicines List status was not available in the data.
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+The knowledge graph links hydrocortisone to the following conditions as contraindication-related. These are not taken from label text and should be verified against the PI:
+- **Cardiometabolic:** hypertension, hyperglycaemia
+- **Neurological:** epilepsy
+- **Gastrointestinal, hepatic and renal:** gastric ulcer, kidney disease, liver disease, gallbladder disease, pyoureter
+- **Infections:** measles, herpes simplex virus keratitis
+- **Pituitary and gonadal axis disorders:** hypopituitarism, growth hormone deficiency, hypogonadotropic hypogonadism, Kallmann syndrome, Sheehan syndrome and related pituitary deficiency conditions
+
+No drug interaction data were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only controlled evidence uses hydrocortisone as a low-potency comparator, and the remaining literature is a decades-old uncontrolled series and a general review. The registered cream is a weak steroid, and SAHPRA safety data have not yet been reviewed. This is a hypothesis worth studying, not a candidate for use.
+The only supporting trial used hydrocortisone as a low-potency comparator, and the two publications are decades old with limited relevance. Higher-potency corticosteroids are already the established approach in alopecia areata, so the added value of hydrocortisone is unclear. At this stage it is best treated as a research question.
 
 **To proceed, the following is needed:**
-- Retrieve and review the SAHPRA package inserts, which are currently missing and block safety screening
-- Obtain mechanism of action data from DrugBank
-- Check the full NCT01453686 results for the hydrocortisone arm's outcomes
-- Establish route compatibility, since the registered products are creams only and the historical use was intralesional
-- Compare against higher-potency steroids already registered in South Africa for alopecia areata, to see whether hydrocortisone adds anything
-
-*These are research predictions only and do not constitute medical advice. Any repurposing candidate requires clinical validation before use.*
+- Full trial results from NCT01453686, specifically the hydrocortisone arm outcomes versus clobetasol
+- Mechanism of action data to support the mechanistic-link analysis
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text for the registered products, and confirmation of route compatibility (the registered products are creams only, while the older literature describes intralesional injection)
+- Any direct comparative or placebo-controlled evidence of hydrocortisone in alopecia areata
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

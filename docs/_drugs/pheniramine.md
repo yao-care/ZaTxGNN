@@ -2,7 +2,7 @@
 layout: default
 title: Pheniramine
 parent: Moderate Evidence (L3-L4)
-nav_order: 363
+nav_order: 367
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,21 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Pheniramine: From H1 Antihistamine Use to Allergic Urticaria
+# Pheniramine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Pheniramine is a first-generation H1-receptor antagonist, and its registered South African product is an oral effervescent tablet.
-The TxGNN model predicts it may be effective for **allergic urticaria**.
-Evidence is thin: **1 registered trial** (judged a spurious match) and **18 publications**, none showing pheniramine-specific efficacy in urticaria.
-
----
+Pheniramine is a first-generation H1-antihistamine, originally used for allergic and upper respiratory conditions such as allergic rhinitis, the common cold, conjunctivitis, urticaria and angioedema.
+The TxGNN model predicts it may be effective for **allergic urticaria**,
+but there are currently **no registered clinical trials** and **no directly supporting studies** (only 4 case reports and a review of a different drug), so this prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, conjunctivitis, urticaria, angioedema (the SAHPRA registration does not list an approved indication text, so these are taken from the knowledge-graph indications) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.67% |
 | Evidence Level | L4 |
@@ -51,85 +49,67 @@ Evidence is thin: **1 registered trial** (judged a spurious match) and **18 publ
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Pheniramine is a first-generation H1-receptor antagonist. Its use in allergic conditions is well established for this drug class, and mechanistically it may be applicable to allergic urticaria.
+Detailed mechanism of action data is not available for this drug. Based on known information, pheniramine belongs to the first-generation H1-antihistamine class. It is expected to block histamine at H1 receptors, and this class effect is the basis for its use in allergic conditions.
 
-In allergic urticaria, histamine released from mast cells causes the wheal-and-flare response, and H1 blockade directly targets this pathway. This class-level logic is consistent with the very high TxGNN score.
+Urticaria and angioedema are already among pheniramine's recorded indications. Allergic urticaria is a closely related histamine-mediated condition, so the high TxGNN score is biologically plausible. This is largely an extension of an existing indication rather than a true repurposing. Because the link rests on class pharmacology rather than drug-specific data, it should be treated as a reasonable hypothesis and not as confirmed evidence.
 
-The supporting evidence comes from related agents (chlorpheniramine, dexchlorpheniramine), not from pheniramine itself. No pheniramine-specific efficacy trial for urticaria is in the supplied data. The literature also contains pheniramine hypersensitivity and adverse-event reports, so safety needs review before any recommendation.
-
----
+Two other predictions were also generated, both with no supporting trials or literature:
+- **Nasal cavity disease** (score 99.28%, evidence level L5): this overlaps with the existing allergic and vasomotor rhinitis indications. The category is too broad to assess and needs to be narrowed to specific conditions.
+- **Acute laryngopharyngitis** (score 99.25%, evidence level L5): this is an extension of the existing pharyngitis, common cold and nasopharyngitis indications. Antihistamines may relieve rhinorrhoea and postnasal drip but are not expected to treat the underlying infectious or inflammatory cause.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02082054](https://clinicaltrials.gov/study/NCT02082054) | Phase 2 | Unknown | 125 | Dose-ranging study of atropine added to pseudoephedrine/chlorpheniramine in seasonal allergic rhinitis. Focused on atropine dosing, not pheniramine or urticaria, so it is a weak match and gives no direct evidence. |
-
-No SANCTR or PACTR registrations were identified in the supplied data.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+No randomised trials or systematic reviews of pheniramine in allergic urticaria were identified. The publications found are case reports, plus one review of a different drug.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39265704](https://pubmed.ncbi.nlm.nih.gov/39265704/) | 2024 | Randomised phase I trial | Eur J Pharm Sci | Compared bilastine with parenteral dexchlorpheniramine on histamine-induced wheal and flare (related drug, not pheniramine) |
-| [14709123](https://pubmed.ncbi.nlm.nih.gov/14709123/) | 2004 | Clinical study | Med J Aust | Hydrocortisone infusion with or without chlorpheniramine bolus to prevent early adverse reactions to snakebite antivenom |
-| [35652393](https://pubmed.ncbi.nlm.nih.gov/35652393/) | 2024 | Review | Curr Rev Clin Exp Pharmacol | Review of chlorpheniramine, an alkylamine first-generation H1 antihistamine, including its use in chronic urticaria |
-| [2859711](https://pubmed.ncbi.nlm.nih.gov/2859711/) | 1985 | Review | Z Hautkr | Worldwide astemizole results, including chronic urticaria; pheniramine is among the comparators |
-| [12444322](https://pubmed.ncbi.nlm.nih.gov/12444322/) | 2002 | Clinical study | Int Arch Allergy Immunol | Single-dose oral tolerance testing with alternative compounds in drug adverse reactions |
-| [18597008](https://pubmed.ncbi.nlm.nih.gov/18597008/) | 2008 | Surveillance study | Methods Find Exp Clin Pharmacol | Large-scale sedation surveillance of H1 antihistamines in 1,742 patients |
-| [15698856](https://pubmed.ncbi.nlm.nih.gov/15698856/) | 2005 | Preclinical | Life Sci | Combined H1 and H3 blockade (with chlorpheniramine) reduced compound 48/80-induced skin vascular permeability in guinea pigs |
-| [40125237](https://pubmed.ncbi.nlm.nih.gov/40125237/) | 2025 | Case report | Cureus | Immediate hypersensitivity reaction to pheniramine in multiple drug hypersensitivity syndrome (safety signal) |
-| [40324831](https://pubmed.ncbi.nlm.nih.gov/40324831/) | 2025 | Case report | Indian J Pharmacol | Loss of consciousness after concurrent IV pheniramine and hydrocortisone for a drug allergic reaction |
-| [31852144](https://pubmed.ncbi.nlm.nih.gov/31852144/) | 2019 | Case reports + pharmacovigilance review | Medicine | Chlorpheniramine-induced anaphylaxis (safety signal) |
-
----
+| [40324831](https://pubmed.ncbi.nlm.nih.gov/40324831/) | 2025 | Case report | Indian J Pharmacol | Loss of consciousness after concurrent intravenous pheniramine and hydrocortisone given for a drug-induced allergic reaction |
+| [40125237](https://pubmed.ncbi.nlm.nih.gov/40125237/) | 2025 | Case report | Cureus | Immediate hypersensitivity reaction to pheniramine in a patient with multiple drug hypersensitivity syndrome |
+| [16854350](https://pubmed.ncbi.nlm.nih.gov/16854350/) | 2006 | Case report | Allergol Immunopathol | Life-threatening facial oedema after pine caterpillar ingestion mimicking an allergic event (pheniramine not the focus) |
+| [2859711](https://pubmed.ncbi.nlm.nih.gov/2859711/) | 1985 | Review (astemizole, not pheniramine) | Z Hautkr | Review of astemizole trials, including in chronic urticaria; pheniramine appears only as a comparator |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 28/5.8/0696 | Degoran Fizzy Effervescent Tablets | Effervescent tablet | Not stated in the record |
+| Reg. No. 28/5.8/0696 | Degoran Fizzy Effervescent Tablets | Effervescent tablet (oral) | Not available in the data compiled for this report |
 
-Route: oral only. EML inclusion status is not available in the supplied data.
-
----
+This is the only SAHPRA registration, and it is a valid single-ingredient product. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records. This does not confirm the absence of interactions.
-- **Signals from literature**:
-  - Pheniramine-specific hypersensitivity and a case of loss of consciousness after IV pheniramine with hydrocortisone.
-  - Anaphylaxis reported with chlorpheniramine, a related agent.
-  - Sedation is the most frequent side effect of H1 antihistamines, as shown in the surveillance study.
+No label-based warnings, contraindications or drug interaction data were available. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
+The drug-disease contraindication links in the knowledge graph (not taken from label text) should be verified against the PI. They include:
+- **Cardiovascular and respiratory:** hypertension, chronic obstructive pulmonary disease, bronchitis
+- **Neurological and psychiatric:** epilepsy, insomnia, psychotic and other mental disorders
+- **Gastrointestinal, hepatic and pancreatic:** peptic and gastric ulcer, gastritis, inflammatory bowel disease, liver disease and failure, pancreatitis, gallbladder disease
+- **Renal and urological:** kidney disease, benign prostatic hyperplasia
+- **Endocrine and metabolic:** diabetes mellitus, diabetic ketoacidosis, hyperglycaemia, hypothyroidism
+- **Other:** thrombocytopenia
 
----
+The two recent case reports also describe adverse events. One reported loss of consciousness after intravenous pheniramine with hydrocortisone, and the other reported an immediate hypersensitivity reaction to pheniramine itself.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic case for H1 blockade in allergic urticaria is sound, but the evidence is class-level only (L4), with no pheniramine-specific efficacy data. Pheniramine safety signals are present, and the safety screening cannot proceed without the PI.
+The prediction is mechanistically plausible, but it largely duplicates an existing indication (urticaria). No clinical trials or relevant efficacy studies support it, and the evidence is at the model-prediction and class-pharmacology level (L4). The SAHPRA safety information is also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications, approved indication), which is a blocking gap
-- Mechanism of action data from DrugBank
-- Pheniramine-specific clinical evidence in urticaria, or a justified bridge from chlorpheniramine or dexchlorpheniramine data
-- Confirmation that the registered oral effervescent product suits the intended use (route compatibility is still pending)
-
-**Other predictions (both Hold):**
-- *Nasal cavity disease* (score 99.28%) has only preclinical animal literature. The term should be narrowed, for example to allergic rhinitis.
-- *Acute laryngopharyngitis* (score 99.25%) is model-derived only, with no trials or literature. It is mostly infectious, and antihistamines have no established role.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- The SAHPRA package insert (PI), to confirm the approved indications, warnings and contraindications
+- Mechanism of action data for pheniramine
+- Clinical evidence in allergic urticaria, such as comparative trials against other antihistamines
+- Clarification of whether the allergic urticaria prediction is a genuinely new indication or already covered by the existing label
+- For the nasal cavity disease and laryngopharyngitis predictions, narrowing to specific conditions and gathering supporting studies
+- Route compatibility assessment (only an oral effervescent tablet is currently registered)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

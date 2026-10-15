@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Colchicine
-parent: Moderate Evidence (L3-L4)
-nav_order: 145
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 147
+evidence_level: L5
 indication_count: 10
 ---
 
 # Colchicine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,30 +33,31 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Colchicine is an established oral drug, described in the literature mainly for gout and familial Mediterranean fever (FMF).
-The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria**,
-but there are **0 clinical trials** and only **6 publications**, all laboratory or observational work, and none of them tests colchicine itself.
+Colchicine is an established anti-inflammatory drug, originally used for gout and familial Mediterranean fever (FMF).
+The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria** (the top-ranked prediction), but there are **0 registered clinical trials** and only **2 publications**, both indirect laboratory studies (one on curcumin, one on chloroquine and the pfmdr1 gene).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data; literature describes gout and FMF |
+| Original Indication | Gout; familial Mediterranean fever (from the knowledge graph; no approved indication text is available in the SAHPRA registration data) |
 | Predicted New Indication | Plasmodium falciparum malaria |
 | TxGNN Prediction Score | 99.60% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Colchicine is a well-known tubulin binder that disrupts microtubule polymerisation. Several laboratory studies show that compounds binding to the parasite's cytoskeleton, including tubulin, can inhibit *P. falciparum* growth in vitro. This is the likely basis for the model's prediction.
+Detailed mechanism of action data is not available in the data compiled for this report. Colchicine is generally known as a microtubule polymerisation inhibitor that suppresses neutrophil function and inflammasome-driven inflammation. That is the basis of its efficacy in gout and FMF.
 
-The link is weak for three reasons:
-- The retrieved papers mostly study other compounds (curcumin, tubulozoles) or cytoskeletal binders in general. One 1990 study notes that colcemid, a colchicine-related compound, affected parasite protein synthesis in a similar way to tubulozoles, but it is not a direct colchicine result.
-- Colchicine has a narrow therapeutic index, so concentrations high enough to act on the parasite may be toxic to the host.
-- Many effective antimalarials already exist, so the need for a new candidate is low.
+The link to malaria is plausible but indirect. Microtubules are important in the malaria parasite's cell biology, and one retrieved laboratory study showed that another compound (curcumin) disrupts *P. falciparum* microtubules. The second paper concerns the parasite's pfmdr1 transporter, which belongs to the same family of efflux pumps (P-glycoprotein-like) that handle colchicine. Neither paper tested colchicine in malaria, and no human antimalarial efficacy has been shown. Colchicine's narrow therapeutic index is also a concern for any new use.
+
+**Other predictions in the data (all Hold):**
+- **Familial Mediterranean fever, autosomal dominant** (score 99.38%, 19 publications, mostly reviews): this is a subtype of colchicine's existing indication, not true repurposing. Colchicine is the established first-line FMF therapy, so it is better reclassified as an existing-indication subtype. The L4 level reflects only the data supplied, not the strength of colchicine evidence in FMF overall.
+- **Systemic mastocytosis** (score 98.20%): one observational paper on histamine in FMF, which is not evidence of efficacy.
+- **Dermatofibrosarcoma protuberans, primary immunodeficiency (innate immunity defect), sitosterolemia, smouldering systemic mastocytosis, lymphoadenopathic mastocytosis with eosinophilia, haemoglobin H disease and blepharo-cheilo-odontic syndrome**: computational predictions only, with no trials or literature.
 
 ## Clinical Trial Evidence
 
@@ -66,41 +67,44 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro | PLoS One | Curcumin disrupts *P. falciparum* microtubules, giving indirect support to tubulin as a parasite target |
-| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro | Mol Cell Biol | Expressing the parasite *pfmdr1* gene in mammalian cells increased chloroquine susceptibility; relates to drug resistance, not colchicine |
-| [2221861](https://pubmed.ncbi.nlm.nih.gov/2221861/) | 1990 | In vitro | Antimicrob Agents Chemother | Tubulozoles reduced parasite protein synthesis; colcemid had a similar effect |
-| [2670249](https://pubmed.ncbi.nlm.nih.gov/2670249/) | 1989 | In vitro | Cell Biol Int Rep | Tubulin-binding compounds were active against *P. falciparum*; parasite tubulin appears different from mammalian tubulin (also indexed as PMID 2655935) |
-| [6362934](https://pubmed.ncbi.nlm.nih.gov/6362934/) | 1984 | Observational | Clin Exp Immunol | Antibodies to intermediate filaments were found in 82% of 78 acute malaria patients; not a treatment study |
+| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro study | PLoS One | Curcumin (not colchicine) disrupts microtubules in *P. falciparum*, suggesting microtubules are a possible parasite target |
+| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro / cell-based study | Mol Cell Biol | Expression of the parasite pfmdr1 gene in mammalian cells increased susceptibility to chloroquine; relevant to transporter and drug-resistance biology, not colchicine efficacy |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| C665 (ACT 101/1965) | Colchicine houde | Tablet | Not stated in supplied data |
-| 41/3.3/0260 | Aspen colchicine ds | Tablet | Not stated in supplied data |
-| C0822 (ACT 101) | Aspen colchicine | Tablet | Not stated in supplied data |
+| C665 (ACT 101/1965) | Colchicine houde | Tablet | Not available in the compiled data |
+| 41/3.3/0260 | Aspen colchicine ds | Tablet | Not available in the compiled data |
+| C0822 (ACT 101) | Aspen colchicine | Tablet | Not available in the compiled data |
 
-All three products are oral tablets. Essential Medicines List (EML) status is not included in the supplied data.
+All three registrations are valid single-ingredient oral tablets. Essential Medicines List (EML) status is not available in the compiled data.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+SAHPRA package insert warnings and contraindications are not available in the data compiled for this report.
 
-The literature in the Evidence Pack adds that colchicine has a narrow therapeutic index with no clear line between non-toxic, toxic and lethal doses. Accidental toxicity is common and often has a poor outcome ([PMID 20586571](https://pubmed.ncbi.nlm.nih.gov/20586571/)). This is a major concern for any use at higher antiparasitic doses.
+- **Contraindications and cautions from the knowledge graph** (drug-disease associations, not label text): liver failure, impaired renal function, haematological disorders (thrombocytopenia, leukopenia, neutropenia, agranulocytosis, aplastic anaemia and congenital neutropenia syndromes), peptic ulcer disease, diarrhoeal disease, muscle disorders (myopathy, rhabdomyolysis), familial periodic paralysis and acute urate nephropathy.
+- **Drug interactions** (100 interactions recorded; examples shown):
+  - **Major:** clarithromycin, cobicistat, aprepitant, rolapitant, eliglustat, deferiprone, rosuvastatin and simvastatin. Many of these involve CYP3A4 or P-glycoprotein inhibition, which raises colchicine levels, or additive muscle toxicity with statins.
+  - **Moderate:** cimetidine, metronidazole, tinidazole, miconazole, chloroquine, ticagrelor, deferasirox, fostamatinib, disulfiram, benznidazole, eluxadoline and strontium-89 chloride.
+  - Chloroquine is notable because it is a common antimalarial.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score and indirect laboratory findings on other compounds. There are no clinical trials and no colchicine-specific antimalarial data, and its narrow safety margin and the availability of effective antimalarials weigh against further work.
+The malaria prediction rests on a computational score alone (L5). There are no trials, and the two papers are indirect laboratory studies that did not test colchicine. Colchicine's narrow therapeutic index and its many major interactions further argue against advancing without stronger evidence.
 
 **To proceed, the following is needed:**
-- Colchicine-specific in vitro data against *P. falciparum*, including resistant strains, with a comparison of effective concentrations against human-tolerable exposure
-- The SAHPRA package insert warnings and contraindications (currently a blocking data gap)
-- Mechanism of action data from DrugBank
-
-**Note:** The second-ranked prediction, familial Mediterranean fever (score 99.38%, evidence level L3, Proceed with Guardrails), is already the standard use of colchicine rather than true repurposing. The supplied evidence for it is reviews and a single-centre series, with no colchicine RCT.
+- Direct in vitro data on colchicine activity against *P. falciparum*, including selectivity versus host toxicity
+- Detailed mechanism of action data
+- SAHPRA package insert warnings and contraindications, and the approved indication text for each registration
+- A safety and interaction assessment for the malaria setting, including co-administration with chloroquine and other antimalarials
+- Reclassification of the FMF autosomal dominant prediction as an existing-indication subtype
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

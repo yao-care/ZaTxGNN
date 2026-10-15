@@ -2,7 +2,7 @@
 layout: default
 title: Valine
 parent: Moderate Evidence (L3-L4)
-nav_order: 462
+nav_order: 466
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,75 +29,92 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Valine: From Amino Acid Nutritional Component to Sclerosing Cholangitis
+# Valine: From Parenteral Nutrition Amino Acid Component to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Valine is an essential amino acid, used in South Africa as a component of parenteral nutrition and peritoneal dialysis solutions.
-The TxGNN model predicts it may be relevant to **sclerosing cholangitis**, but this rests on the model score alone.
-There are **0 clinical trials** and only **2 indirect publications**, and neither tests valine as a treatment.
+Valine is a branched-chain amino acid (BCAA) that is registered in South Africa only as a component of parenteral nutrition and dialysis solutions. The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are currently **no registered clinical trials** and only **2 publications**, both observational or associative (a cohort study and a Mendelian randomization study), and neither tests valine as a treatment.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Nutritional amino acid component in parenteral nutrition and peritoneal dialysis products (no approved indication text in the registry data) |
+| Original Indication | Not available. The SAHPRA registrations in the data compiled for this report carry no indication text. All 11 products are amino-acid-containing infusion, parenteral nutrition or dialysis solutions. |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L4 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 12 |
+| Number of SAHPRA Registrations | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, valine is a branched-chain amino acid (BCAA) supplied in nutrition and dialysis formulations. Its role there is to supply amino acids, not to treat a specific disease.
+Currently, detailed mechanism of action data is not available. Based on known information, valine is an essential branched-chain amino acid supplied as part of amino acid mixtures in parenteral nutrition. Its nutritional role is established, but a specific therapeutic mechanism in sclerosing cholangitis has not been demonstrated.
 
-Cholestatic liver diseases, including primary sclerosing cholangitis (PSC), are associated with altered amino acid metabolism. This includes BCAAs and aromatic amino acids. That association is the only plausible link to the prediction. The two available papers are indirect. One observational study looks at plasma tyrosine and fatigue in PBC and PSC. The other is a Mendelian randomization study of blood metabolites and cholestatic liver disease risk. Neither shows that giving valine improves any outcome.
+The link to sclerosing cholangitis is indirect. Altered BCAA and aromatic amino acid patterns are described in chronic cholestatic liver disease. One cohort study examined plasma tyrosine and fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. A Mendelian randomization study connected blood metabolites and metabolic pathways to cholestatic liver diseases. These findings show that amino acid metabolism is associated with the disease. They do not show that valine supplementation treats it.
 
-The high score of 0.994 (model rank 3181) reflects a knowledge-graph association. It is not evidence of benefit, and the direction of any effect is unknown.
+The high TxGNN score is a model prediction. No clinical data support it, and it should be read as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered. No SANCTR or PACTR entries were found either.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterol | Examined amino acid patterns and their relation to fatigue in PBC and PSC. Focused on plasma tyrosine, not valine treatment. |
-| [39015781](https://pubmed.ncbi.nlm.nih.gov/39015781/) | 2024 | Mendelian randomization | Front Med | Tested causal links between blood metabolites and the risk of PBC and PSC. Shows association only, not therapeutic benefit. |
+| [39015781](https://pubmed.ncbi.nlm.nih.gov/39015781/) | 2024 | Mendelian randomization | Frontiers in Medicine | Investigated causal links between blood metabolites and the risk of primary biliary cholangitis and primary sclerosing cholangitis. |
+| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examined amino acid patterns, in particular plasma tyrosine, in relation to fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. |
+
+Neither paper evaluates valine as a treatment.
 
 ## South Africa Market Information
 
-The registry data has no approved indication text for these products, and no EML status information. The first 5 of 12 registrations are listed.
+All 11 registrations are valid single-ingredient-category entries. The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information for them. The first 5 are listed below.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion |
-| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial |
-| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion |
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated |
+| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated |
+| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not stated |
+| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated |
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated |
 
-Adco-ipratropium is an ipratropium product and does not appear to contain valine. This entry may be a mapping error and should be checked against the SAHPRA record.
+Six further registrations exist, including Numeta G13E, Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized and Nutriflex Lipid Special 625ml. Note that the product name "Adco-ipratropium" does not obviously match an amino acid product and should be verified against the SAHPRA register.
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+## Other Predicted Indications (For Reference)
+
+The remaining top predictions have no clinical trials and no supportive therapeutic evidence.
+
+| Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|------|------|------|------|
+| Angle-closure glaucoma | 99.40% | L5 | The only paper is a PRPH2 mutation pedigree report, unrelated to valine. No plausible mechanism. |
+| Hyperthyroidism | 99.32% | L4 | One cross-sectional study links BCAAs to thyroid function. Most other papers are TSH receptor mutation reports where valine is only a residue name. This is a biomarker association, not therapeutic evidence. |
+| Traumatic glaucoma | 99.28% | L5 | Model prediction only. |
+| Aqueous misdirection | 99.28% | L5 | Model prediction only. Likely a graph-proximity artifact. |
+| Neovascular glaucoma | 99.26% | L5 | Model prediction only. Driven by ischaemia-induced VEGF, with no link to valine. |
+| Glaucomatous atrophy of optic disc | 99.23% | L5 | Model prediction only. No neuroprotective mechanism demonstrated. |
+| Resistance to thyroid hormone (TR beta mutation) | 99.21% | L5 | Papers are mutation reports naming valine as a residue. This is a text-matching artifact. |
+| Obsolete bundle branch block | 99.19% | L5 | Obsolete ontology term. Likely a prediction artifact. |
+| Hyperthyroxinemia | 99.07% | L5 | Same THRB mutation papers as above. No therapeutic rationale. |
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials, and the two publications are indirect and do not test valine as a therapy. The prediction is a knowledge-graph score without mechanistic support. The other top predictions (angle-closure glaucoma, hyperthyroidism and others) are also Hold. Their literature is mostly amino acid substitution notation in gene mutation reports, not valine treatment.
+The prediction for sclerosing cholangitis rests on a model score and indirect metabolic associations. There are no clinical trials, no interventional studies of valine, and no established mechanism. The other predictions are weaker and look like knowledge-graph or keyword-matching artifacts.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data for valine
-- Evidence that valine supplementation affects outcomes in sclerosing cholangitis, such as a pilot or interventional study
-- Verification of the Adco-ipratropium registration mapping
+- SAHPRA Professional Information (PI) for the registered products, covering approved indications, warnings and contraindications. This is a blocking gap for any safety screening.
+- Detailed mechanism of action data (for example from DrugBank).
+- A focused literature review of BCAA supplementation in cholestatic liver disease, to show whether any interventional evidence exists.
+- Mechanistic and preclinical evidence that valine specifically, rather than BCAAs or amino acid status in general, is relevant to sclerosing cholangitis.
+- Clinical review of whether supplementation is safe in cholestatic liver disease, given that hepatic amino acid handling is altered in these patients.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

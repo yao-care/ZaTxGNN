@@ -2,15 +2,15 @@
 layout: default
 title: Salicylamide
 parent: Moderate Evidence (L3-L4)
-nav_order: 408
-evidence_level: L3
+nav_order: 412
+evidence_level: L4
 indication_count: 10
 ---
 
 # Salicylamide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,98 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Salicylamide: From Analgesic/Antipyretic Use to Pharyngitis
+# Salicylamide: From Headache Disorder to Pharyngitis
 
 ## One-Sentence Summary
 
-Salicylamide is a salicylate-type analgesic and antipyretic. The SAHPRA records in this Evidence Pack do not state an approved indication.
-The TxGNN model predicts it may be useful for **pharyngitis** (sore throat), which would be symptomatic relief rather than disease modification.
-Support is thin: **no registered clinical trials** and **3 old publications (1953-1969)**, all uncontrolled or not clearly about salicylamide.
+Salicylamide is an older analgesic and antipyretic that is used in over-the-counter cold and flu combination products, and the original indication recorded for it is headache disorder.
+The TxGNN model predicts it may be effective for **pharyngitis**, but there are **no registered clinical trials** and only **1 publication**, a 1953 case report in which salicylamide was combined with another agent.
+The evidence is therefore very weak, and the prediction is not yet supported by clinical data.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in SAHPRA licence records |
+| Original Indication | Headache disorder (the SAHPRA licence records contain no approved indication text) |
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (the DrugBank record has no MOA and no original indication). Based on known information, salicylamide is a salicylate analgesic/antipyretic. Its pain- and fever-relieving effects are plausibly relevant to the symptoms of a sore throat.
+Detailed mechanism of action data are not available for this drug. Based on known information, salicylamide is an analgesic and antipyretic. Its efficacy in headache is the basis of its original indication, and mechanistically it may be applicable to the pain and fever of pharyngitis.
 
-The link is therefore symptomatic. Sore throat is a common reason to use simple analgesics and antipyretics, which is why the prediction is credible on its face. It is not confirmed by mechanism data or by controlled evidence.
+Sore throat is mainly a symptomatic problem, so a pain-relieving and fever-reducing drug is a plausible fit. This is symptom relief and not treatment of the underlying cause of pharyngitis.
+
+The only supporting evidence is a 1953 clinical report on catarrhal tonsillitis in infancy. In that report salicylamide was given together with sodium p-aminobenzoate, so the effect of salicylamide alone cannot be separated. The report is not a controlled trial, and no modern evidence exists.
+
+The model also ranks other upper respiratory predictions highly, such as nasal cavity disease, acute laryngopharyngitis and common cold. None of these has trials, and the rationale for them is likewise limited to general symptom relief.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR entries were not found in the Evidence Pack).
+Currently no related clinical trials registered for pharyngitis.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [14126993](https://pubmed.ncbi.nlm.nih.gov/14126993/) | 1963 | Clinical experience report | Kinderarztliche Praxis | Experience with a new antipyretic/analgesic in rectal capsule form (paediatric journal). No abstract available. |
-| [13060598](https://pubmed.ncbi.nlm.nih.gov/13060598/) | 1953 | Uncontrolled clinical study | Gazzetta medica italiana | Treatment of catarrhal tonsillitis in infants with salicylamide plus sodium p-aminobenzoate. Design inferred from title only. |
-| [5354503](https://pubmed.ncbi.nlm.nih.gov/5354503/) | 1969 | Double-blind study | Minerva medica | Compared two bismuth preparations in pharyngo-tonsillitis. Salicylamide does not appear to be the test agent, so relevance is doubtful. |
+|------|-----|------|------|---------|
+| [13060598](https://pubmed.ncbi.nlm.nih.gov/13060598/) | 1953 | Case series / clinical report | Gazzetta medica italiana | Treatment of catarrhal tonsillitis in infancy with salicylamide combined with sodium p-aminobenzoate. No abstract is available, and the effect of salicylamide alone cannot be isolated. |
 
-None of these papers has an abstract or gives usable efficacy data, and all are decades old.
+For other predicted indications, the retrieved literature is mostly about safety or tolerability and not about efficacy. Examples are a case of drug-induced haemolytic anaemia with agranulocytosis after a salicylamide-containing cold product ([PMID 8952318](https://pubmed.ncbi.nlm.nih.gov/8952318/)), and a report on salicylamide toxicity in overdose ([PMID 8864802](https://pubmed.ncbi.nlm.nih.gov/8864802/)).
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| G1221 (ACT 101) | Flutex | Capsule | Not stated in record |
-| B851 (ACT 101) | Flutex junior cold & flu-alcohol free | Syrup | Not stated in record |
-| C759 (OM) | Histamed co | Capsule | Not stated in record |
-| C770 (ACT 101/1965) | Ilvico | Tablet | Not stated in record |
+| G1221 (ACT 101) | Flutex | Capsule | Not stated in the data compiled |
+| B851 (ACT 101) | Flutex junior cold & flu (alcohol free) | Syrup | Not stated in the data compiled |
+| C759 (OM) | Histamed co | Capsule | Not stated in the data compiled |
+| C770 (ACT 101/1965) | Ilvico | Tablet | Not stated in the data compiled |
 
-The product names suggest cold and flu preparations, but the record gives no indication text, so this is not confirmed. Essential Medicines List status could not be determined from the Evidence Pack.
+All 4 registrations are valid single-ingredient entries. The data compiled for this report do not show whether salicylamide is on the Essential Medicines List.
+
+---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the database query.
-- **Signals in the retrieved literature** (from papers found for other predicted indications):
-  - Overdose toxicity has been reported for salicylamide (PMID 8864802).
-  - Drug-induced haemolytic anaemia with agranulocytosis occurred in a patient taking a cold preparation containing salicylamide, acetaminophen, caffeine and promethazine, together with an antibiotic (PMID 8952318).
-  - Antipyretic analgesics can cause hypersensitivity reactions in allergic patients, including those with aspirin-induced asthma (PMID 6606363).
+The data compiled for this report contain no label warnings or contraindications, and no drug interaction records were found. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications, which were not available in this Evidence Pack. Report adverse drug reactions to SAHPRA.
+The following points come from the knowledge graph and the retrieved literature, and are not label text:
+
+- **Conditions linked to contraindication in the knowledge graph** include hypertension, hypotension, liver disease and liver failure, kidney disease, peptic ulcer disease, gastritis, inflammatory bowel disease, thrombocytopenia, anaemia, blood coagulation disorders and haemophilia, diabetes and diabetic ketoacidosis, gout, epilepsy, COPD, hypothyroidism, gallbladder disease, benign prostatic hyperplasia, substance abuse or dependence, and *Clostridium difficile* colitis. These should be checked against the PI.
+- **Haematological toxicity**: a case report describes drug-induced haemolytic anaemia with agranulocytosis after a salicylamide-containing cold product (taken with an antibiotic).
+- **Overdose toxicity** has been reported in the literature.
+- **Paediatric use**: salicylate use in neonates and infants carries safety concerns, which is relevant to the 1953 infant tonsillitis report.
+- **Asthma**: several older papers suggest salicylamide, which has little effect on prostaglandin synthesis, was tolerated by patients with aspirin-sensitive asthma. This is limited, dated evidence and not a safety assurance.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The pharyngitis prediction is plausible as symptom relief, but the evidence is limited to three old, uncontrolled or off-target reports and no registered trials. The SAHPRA safety information is a blocking data gap.
+The prediction score is high, but the only evidence for pharyngitis is a 1953 uncontrolled report using a combination treatment, and there are no registered trials. The retrieved literature for related respiratory indications raises safety concerns and shows no efficacy. The evidence level is L4 (the 1953 report is a weak, non-controlled clinical report), and the safety review cannot proceed without the PI.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (blocking)
-- Approved indication text for the four SAHPRA registrations, and the active ingredients of each product
+- The SAHPRA package insert (PI) warnings and contraindications, which is a blocking data gap
 - Mechanism of action data from DrugBank
-- A structured review of current evidence comparing salicylamide with standard sore-throat analgesics, ideally from controlled trials
-- Assessment of the haemolytic anaemia, agranulocytosis and overdose signals before any further step
+- Controlled clinical evidence of salicylamide alone, compared with existing standard analgesics (such as paracetamol or NSAIDs) for sore throat
+- A review of the haematological safety signal and paediatric safety
+- Confirmation of the approved indication text for the 4 SAHPRA registrations, and of any Essential Medicines List status
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

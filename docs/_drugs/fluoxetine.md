@@ -2,7 +2,7 @@
 layout: default
 title: Fluoxetine
 parent: Model Prediction Only (L5)
-nav_order: 235
+nav_order: 237
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluoxetine: From Serotonin Reuptake Inhibitor Use to Schizoid Personality Disorder
+# Fluoxetine: From Depression and Anxiety Disorders to Schizoid Personality Disorder
 
 ## One-Sentence Summary
 
-Fluoxetine is a serotonin reuptake inhibitor, marketed in South Africa as oral capsules; the SAHPRA records supplied do not state its approved indication text.
-The TxGNN model predicts it may be effective for **schizoid personality disorder**, but only **3 publications** and **0 clinical trials** relate to this prediction.
-None of the publications tests fluoxetine in this disorder, so the evidence is weak and indirect.
+Fluoxetine is a selective serotonin reuptake inhibitor (SSRI), originally used for depressive and anxiety-spectrum conditions such as major depressive disorder, obsessive-compulsive disorder and bulimia nervosa.
+The TxGNN model predicts it may be effective for **schizoid personality disorder**, but there are **0 registered clinical trials** and only **2 loosely related publications** (one review and one indirect cohort study) behind this prediction. It is a computational signal, not yet a clinical one.
 
 ---
 
@@ -43,10 +42,10 @@ None of the publications tests fluoxetine in this disorder, so the evidence is w
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA licence records supplied |
+| Original Indication | Depressive and anxiety-spectrum disorders, including major depressive disorder, obsessive-compulsive disorder and bulimia nervosa (from the knowledge-graph indication list; the SAHPRA records compiled for this report contain no indication text) |
 | Predicted New Indication | Schizoid personality disorder |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 (indirect literature only; no disorder-specific efficacy data) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
@@ -55,11 +54,11 @@ None of the publications tests fluoxetine in this disorder, so the evidence is w
 
 ## Why is This Prediction Reasonable?
 
-Fluoxetine is a serotonin reuptake inhibitor. Detailed mechanism of action data is not available in the record. The link to schizoid personality disorder is indirect. Serotonergic modulation might ease affective flattening and social withdrawal, which are features of this disorder.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, fluoxetine is an SSRI. It raises serotonergic tone, and its efficacy in depression, anxiety and obsessive-compulsive disorder is well established.
 
-The only supporting paper that addresses the disorder is a review of drug treatment in cluster A personality disorders (paranoid, schizoid and schizotypal). It gives general context rather than evidence that fluoxetine works here.
+Schizoid personality disorder belongs to the cluster A personality disorders, which are marked by social detachment and restricted emotional expression. A serotonergic drug could plausibly help affective or anxiety features that often accompany these conditions. However, **no schizoid-specific mechanism has been established**.
 
-The model gives the same score (99.92%) to the schizoid, schizotypal, paranoid and histrionic personality disorders. This suggests the signal comes from a shared parent category in the knowledge graph rather than from anything specific to schizoid personality disorder. The prediction should therefore be treated as a hypothesis, not a finding.
+The very high TxGNN score (rank 690 overall) most likely reflects network proximity to related personality and mood disorders in the knowledge graph. It does not reflect direct evidence that fluoxetine treats the core features of schizoid personality disorder. Any real benefit would probably come from treating comorbid depression or anxiety rather than the personality disorder itself.
 
 ---
 
@@ -73,27 +72,33 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | The Mental Health Clinician | Reviews drug treatment across cluster A personality disorders, which are marked by isolation and avoidance of relationships. This is the only paper directly relevant to the disorder, and it gives indirect support at most. |
-| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Cohort | Comprehensive Psychiatry | Assessed personality traits and disorders in 148 people with body dysmorphic disorder. Schizoid traits are discussed; the treatment study involved fluvoxamine, not fluoxetine. |
-| [16390895](https://pubmed.ncbi.nlm.nih.gov/16390895/) | 2006 | Cohort | American Journal of Psychiatry | Course of illness and predictors of outcome in depressed patients over 6 months of treatment. It does not address schizoid personality disorder. |
+| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | The Mental Health Clinician | Reviews pharmacological treatment of cluster A personality disorders (paranoid, schizoid, schizotypal), which are characterised by social isolation and reduced quality of life. It does not provide fluoxetine-specific efficacy data for schizoid personality disorder in the excerpt available. |
+| [16390895](https://pubmed.ncbi.nlm.nih.gov/16390895/) | 2006 | Cohort | American Journal of Psychiatry | Follow-up of depressed patients over 6 months of treatment, looking at course of illness and its predictors. This is indirect evidence, as it concerns depression rather than schizoid personality disorder. |
 
 ---
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 34/1.2/0279 | Rezak | Capsule | Not provided in the registration record |
-| Reg. No. 30/1.2/0356 | Fluoxetine Biotech 20 | Capsule | Not provided in the registration record |
-| Reg. No. 37/1.2/0612 | Trizac 20 Mg | Capsule | Not provided in the registration record |
+Fluoxetine is marketed in South Africa as single-ingredient oral capsules. No approved indication text was available in the registration records compiled for this report.
 
-All three registrations are oral capsules.
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| Reg. No. 34/1.2/0279 | Rezak | Capsule |
+| Reg. No. 30/1.2/0356 | Fluoxetine Biotech 20 | Capsule |
+| Reg. No. 37/1.2/0612 | Trizac 20 Mg | Capsule |
+
+All three registrations are valid, and none are cancelled.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+The SAHPRA package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+The following supplementary signals are available:
+
+- **Knowledge-graph contraindication signals** (disease-level associations from the knowledge graph, not label text): bipolar disorder and other major affective disorders, epilepsy, liver disease and liver failure, cirrhosis, orthostatic hypotension, neutropenia and agranulocytosis, blood coagulation disorders, diabetes (including diabetic ketoacidosis) and hyperglycaemia, benign prostatic hyperplasia, hyperlipidaemia and hypertriglyceridaemia, stroke and cerebrovascular disease, myocardial infarction, and gallbladder disease. These should be checked against the PI before any use.
+- **Drug interactions:** 100 interactions were identified, and 20 were available for review. Those rated **Major** are bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron and cisapride. Several Moderate interactions were also listed, including aspirin, morphine, clarithromycin, famotidine, loperamide, and sulfonylureas (chlorpropamide, acetohexamide).
 
 ---
 
@@ -102,18 +107,15 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials and no fluoxetine-specific efficacy data for schizoid personality disorder. The high model score appears to be shared across the cluster A disorders. The prediction remains a hypothesis and cannot support a repurposing decision at this stage.
+The prediction rests on model output alone (evidence level L5). There are no registered trials, no schizoid-specific mechanism, and only two indirect publications. Fluoxetine is widely available in South Africa, but nothing yet supports using it for this condition.
 
 **To proceed, the following is needed:**
-- Controlled studies of fluoxetine specifically in schizoid personality disorder
-- The SAHPRA package insert warnings and contraindications for the three registered products, which are needed before any safety screening
-- Mechanism of action data, for example from DrugBank
-- The approved indication text for each SAHPRA registration, to separate on-label from off-label use
+- Mechanism of action data and a clearer mechanistic link to schizoid personality features
+- Fluoxetine-specific clinical studies in schizoid personality disorder, or in cluster A disorders with clear outcome measures
+- The SAHPRA PI warnings and contraindications, to complete safety screening
+- Review of the Major drug interactions and the knowledge-graph contraindication signals, particularly bipolar disorder, epilepsy and liver disease
 
-**Other candidates in the same Evidence Pack:**
-The pack also holds better-supported predictions for schizotypal personality disorder (L3, small uncontrolled studies), agoraphobia, manic bipolar affective disorder (bipolar depression evidence only), phobic disorder and melancholia. The last four are at L2 with guardrails. Any of these would be a stronger starting point than schizoid personality disorder.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+**Note on other predictions:** The data compiled for this report also contain candidates with stronger support than this one. These include **phobic disorder** (L2, including a completed Phase 3 trial in childhood social phobia, NCT00043537, whose fluoxetine arm is not confirmed), **melancholia** (L2, largely an extension of the existing depression indication), and **agoraphobia** (L3, with SSRI evidence in panic disorder). These may be better priorities for evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

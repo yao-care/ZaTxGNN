@@ -2,7 +2,7 @@
 layout: default
 title: Nitrogen
 parent: Model Prediction Only (L5)
-nav_order: 342
+nav_order: 344
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,84 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nitrogen: From Unspecified Original Indication to 16q24.1 Microdeletion Syndrome
+# Nitrogen: From Congenital Alveolar Capillary Dysplasia to 16q24.1 Microdeletion Syndrome
 
 ## One-Sentence Summary
 
-Nitrogen (DrugBank DB09152) is registered in South Africa mainly within total parenteral nutrition (TPN) products, and no original indication is recorded in the registration data.
-The TxGNN model predicts it may be effective for **16q24.1 microdeletion syndrome**, but there are **0 clinical trials** and **0 publications** for this prediction.
-The high score is most likely a modelling artefact, not a biological signal.
+Nitrogen is used in inhaled nitric oxide gas mixtures (as a diluent or carrier gas). Its original indications are congenital alveolar capillary dysplasia and persistent fetal circulation syndrome.
+The TxGNN model predicts it may be effective for **16q24.1 microdeletion syndrome**, but **no clinical trials and no relevant publications** support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration records |
+| Original Indication | Congenital alveolar capillary dysplasia; persistent fetal circulation syndrome (taken from the knowledge graph, as the SAHPRA registrations list no approved indication text) |
 | Predicted New Indication | 16q24.1 microdeletion syndrome |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 12 |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Nitrogen is an inert atmospheric or medical gas with no documented pharmacological target. No genetic or pathway rationale connects it to a chromosomal deletion syndrome.
+Detailed mechanism of action data is not available for this drug. Nitrogen is an inert gas, and in this setting it serves as a diluent or carrier for inhaled nitric oxide mixtures rather than as an active agent.
 
-16q24.1 microdeletion syndrome is a developmental disorder caused by loss of chromosomal material. It is not something a small inert molecule would be expected to treat. The score of 99.73% (model rank 1,813) most likely reflects sparse drug data in the knowledge graph rather than real biology. **This prediction is not mechanistically supported and should be treated as a model artefact until proven otherwise.**
+The prediction arises from the knowledge graph. The 16q24.1 deletion involves *FOXF1* and neighbouring regulatory elements, the same locus implicated in congenital alveolar capillary dysplasia, the drug's original indication. The shared genetic and disease-network neighbours explain the high score.
+
+This link is a knowledge-graph artefact, not a therapeutic mechanism. Nitrogen has no pharmacological activity on the underlying genetic defect, so the prediction should not be read as a treatment signal.
+
+The other top predictions follow the same pattern: childhood interstitial lung disease, isolated pulmonary capillaritis, congenital pulmonary lymphangiectasia, Dandy-Walker malformation syndrome, hair shaft abnormalities and hypertrichosis. Each is driven by disease similarity or shared genetic neighbours, with no pharmacological rationale.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this predicted indication (ClinicalTrials.gov, ICTRP, SANCTR and PACTR were not found to contain matching studies in the Evidence Pack).
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for this predicted indication.
+Currently no related literature available for the leading prediction (16q24.1 microdeletion syndrome).
 
-## Other Predictions Screened (Context Only)
-
-| Rank | Predicted Indication | Score | Trials | Papers | Assessment |
-|------|------|------|------|------|------|
-| 2 | Primary interstitial lung disease specific to childhood | 99.72% | 1 | 0 | The only trial ([NCT03869515](https://clinicaltrials.gov/study/NCT03869515)) is an observational genetics study of childhood ILD in China (n=271). It does not test nitrogen. |
-| 3 | Isolated pulmonary capillaritis | 99.72% | 0 | 0 | Prediction only |
-| 4 | Congenital pulmonary lymphangiectasia | 99.68% | 0 | 0 | Prediction only |
-| 5 | Benign neoplasm of adrenal gland | 98.79% | 0 | 20 | The papers are keyword matches on "nitrogen" or "nitric oxide" (a different molecule), not studies of nitrogen as a therapy. |
-| 6 | Malformation syndrome with odontal and/or periodontal component | 98.77% | 0 | 20 | The papers cover general periodontitis management and do not involve nitrogen. |
-| 7–9 | Dandy-Walker malformation syndrome; isolated genetic hair shaft abnormality; Ambras type hypertrichosis | 98.58–98.67% | 0 | 0 | Prediction only |
-| 10 | Hypertrichosis | 98.55% | 0 | 2 | The papers concern cyclosporin A in lupus and De Lange syndrome, not nitrogen. |
-
-All ten predictions are at evidence level L5 with a Hold recommendation.
+Searches for lower-ranked predictions returned only keyword-level matches. Examples are nitric oxide and nitrosative stress studies and toxicology studies for benign adrenal neoplasm, periodontal and oral microbiome papers for the odontal malformation syndrome, and cyclosporin A and de Lange syndrome papers for hypertrichosis. These evaluate nitrogen-containing compounds or unrelated topics, not nitrogen gas as a treatment, so they provide no therapeutic evidence.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Exclusion under Section 36 & Section 14 | ITN paediatric tpn 107 | Tpn | Not stated |
-| Exclusion under Section 36 & Section 14 | ITN 3014Xa 750ml | Tpn | Not stated |
-| Article 21B, N/A | TPN non-specific | Infusion | Not stated |
-| Exclusion under Section 36 & Section 14 | ITN 8807a 2390ml | Tpn | Not stated |
-| Exclusion under Section 36 & Section 14 | ITN 5501a 2240ml | Tpn | Not stated |
+| Exclusion under Section 36 & Section 14 | ITN paediatric TPN 107 | TPN | Not stated |
+| Article 21B (N/A) | TPN non-specific | Infusion | Not stated |
 
-Of the 12 records, 5 are shown above. They are TPN preparations listed under exclusion or Article 21B pathways, not standard product registrations with approved indication text. They do not point to any approved therapeutic use of nitrogen itself.
+Both registrations are single-ingredient entries with valid status. Essential Medicines List status could not be confirmed from the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Knowledge-graph contraindications** (not from label text): methemoglobinemia, sulfhemoglobinemia and heart failure.
+- **Drug interactions**: none found in the interaction query.
 
-No drug-interaction records were found for this compound.
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials, no literature, no plausible mechanism and no stated original indication. The registrations found are TPN products and do not support the predicted use. Progression is also blocked because SAHPRA package insert safety information is missing.
+The prediction rests only on model scores and knowledge-graph proximity. There are no clinical trials, no relevant literature and no plausible pharmacological mechanism for an inert gas in 16q24.1 microdeletion syndrome. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (blocking gap), obtained by downloading and parsing the PI from the SAHPRA website
-- Mechanism of action data, e.g. from a DrugBank API query
-- A documented biological rationale linking nitrogen to 16q24.1 microdeletion syndrome
-- Confirmation that the 12 TPN-related records correspond to the compound evaluated here, as opposed to nitrogen as a formulation component
+- Retrieval of SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Any direct clinical or mechanistic evidence for a therapeutic role in the predicted indication; without it, this candidate should not advance beyond the current stage
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

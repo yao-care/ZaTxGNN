@@ -2,7 +2,7 @@
 layout: default
 title: Dabigatran Etexilate
 parent: Model Prediction Only (L5)
-nav_order: 160
+nav_order: 162
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dabigatran Etexilate: From Anticoagulation to Sclerosing Cholangitis
+# Dabigatran etexilate: From Thromboembolic Anticoagulation to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Dabigatran etexilate is an oral direct thrombin inhibitor, an anticoagulant used for thromboembolic conditions. The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are **0 clinical trials** and **1 publication**, and that publication is not efficacy evidence. This is a model prediction only.
-
----
+Dabigatran etexilate is an oral direct thrombin inhibitor, marketed in South Africa as an anticoagulant. The original indication text is not recorded in the data compiled for this report.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are **0 clinical trials** and only **1 publication** (a drug-interaction study of a different compound), so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Anticoagulation (thromboembolic disease). The SAHPRA registration records in the pack contain no indication text. |
+| Original Indication | Not available in the registration data (the anticoagulant use is inferred from the drug class) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L5 |
@@ -49,63 +48,53 @@ Dabigatran etexilate is an oral direct thrombin inhibitor, an anticoagulant used
 | Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Dabigatran etexilate is an oral anticoagulant that acts through direct thrombin inhibition. Its efficacy in thromboembolic disease is established, but no data link this mechanism to a biliary disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Dabigatran is known to be a direct thrombin (factor IIa) inhibitor.
 
-The evidence pack finds no clear mechanistic link between dabigatran and sclerosing cholangitis. The high TxGNN score reflects a graph-based association, not clinical support. The only retrieved paper is a drug-drug interaction study of cilofexor, an FXR agonist in development for primary sclerosing cholangitis. It does not evaluate dabigatran as a treatment.
+The link to sclerosing cholangitis is speculative. Thrombin and PAR signalling may contribute to liver fibrosis and inflammation, but this has not been established for diseases of the bile ducts. The single linked publication (PMID 36906733) is a drug-interaction study of cilofexor, a different compound. It does not test dabigatran in this disease. The very high TxGNN score is a computational prediction only.
 
----
+Other top-ranked predictions are weaker still. Several are bleeding disorders (Glanzmann thrombasthenia, pseudo-von Willebrand disease, primary platelet release disorder), where an anticoagulant would be expected to raise bleeding risk. Others are lipid disorders and gout, with no plausible mechanistic link and no evidence. These look like network-level artefacts rather than genuine therapeutic signals.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for sclerosing cholangitis.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36906733](https://pubmed.ncbi.nlm.nih.gov/36906733/) | 2023 | DDI evaluation (pharmacokinetic) | Clin Pharmacokinet | CYP450 and transporter-mediated drug interaction potential of cilofexor, an FXR agonist in development for primary sclerosing cholangitis. It is not efficacy evidence for dabigatran. |
-
----
+| [36906733](https://pubmed.ncbi.nlm.nih.gov/36906733/) | 2023 | In vitro / drug-interaction pharmacology | Clinical Pharmacokinetics | Evaluates CYP450 and transporter-mediated drug interaction potential of cilofexor, an FXR agonist in development for primary sclerosing cholangitis and NASH. It does not evaluate dabigatran efficacy. |
 
 ## South Africa Market Information
 
-Both registrations are oral capsules. The records in the pack do not include approved indication text or Essential Medicines List (EML) status.
-
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 56/8.2/0690.687 | Dabitrin 110Mg | Capsule | Not stated in registry record |
-| Reg. No. 56/8.2/0695 | Dabigatran 75 Drl | Capsule | Not stated in registry record |
+| Reg. No. 56/8.2/0690.687 | Dabitrin 110Mg | Capsule | Not available |
+| Reg. No. 56/8.2/0695 | Dabigatran 75 Drl | Capsule | Not available |
 
----
+Both registrations are valid single-ingredient oral products. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Knowledge-graph contraindication signals** (from drug-disease edges in the TxGNN knowledge graph, not label text): blood coagulation disease, anaemia, macrocytic anaemia and intracerebral haemorrhage.
+- **Bleeding risk in platelet and coagulation disorders:** several predicted indications are bleeding disorders, where an anticoagulant is mechanistically inappropriate.
+- **Drug interactions:** Dabigatran is a P-gp substrate, so interactions with some antiretrovirals (for example boosted protease inhibitors) are a practical concern. No interaction records were retrieved.
 
----
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no trials and no relevant literature. Nothing supports a mechanism in sclerosing cholangitis. Safety data from the SAHPRA package insert are also missing, which blocks progression to safety screening.
+The prediction rests on a model score alone (L5). There are no clinical trials, and the only publication does not study dabigatran. The mechanistic link is speculative, and the bleeding risk and knowledge-graph contraindication signals argue for caution.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (download and parse the PI PDF from the SAHPRA website)
-- Mechanism of action data (query the DrugBank API)
-- A plausible mechanistic hypothesis for a role in cholestatic disease, supported by preclinical data
-- The registered indication text for each SAHPRA licence
-
-**Note on other predictions:** Across the other predicted indications for this drug, only rheumatoid arthritis has a biologically coherent signal. A rat study (PMID 36142208) reports benefit via the kallikrein-kinin system. It is animal data only and would be a research question, not a repurposing decision. The rest are model-only or reflect co-prescription rather than therapeutic effect.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- The SAHPRA package insert, to confirm approved indications, warnings and contraindications (a blocking gap)
+- Mechanism of action data from DrugBank
+- Preclinical or clinical evidence of dabigatran in cholestatic or fibrotic liver disease
+- A hepatobiliary safety and bleeding risk assessment in patients with sclerosing cholangitis, including portal hypertension and varices
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

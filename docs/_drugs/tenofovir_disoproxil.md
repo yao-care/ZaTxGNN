@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: Model Prediction Only (L5)
-nav_order: 437
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 441
+evidence_level: L4
 indication_count: 4
 ---
 
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,107 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Tenofovir Disoproxil: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Tenofovir Disoproxil: From Chronic Hepatitis B and HIV to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Tenofovir disoproxil is a nucleotide reverse transcriptase inhibitor, used in humans for HIV-1 and chronic hepatitis B. The SAHPRA registration data supplied does not state the approved indication, so this is taken from general knowledge. The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV)**. The support is **4 registered clinical trials**, all in human HIV and only indirectly relevant, and **2 animal-study publications** in cats. This is a veterinary research question, not a new human indication.
+Tenofovir disoproxil is an antiviral originally used to treat chronic hepatitis B virus infection and HIV infection/AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (a veterinary condition)**,
+but there are **0 registered clinical trials** and only **1 publication** directly supporting this prediction, so this is a model-level signal rather than a validated human repurposing opportunity.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection and chronic hepatitis B (general knowledge; the SAHPRA records supplied do not state it) |
+| Original Indication | Chronic hepatitis B virus infection; HIV infectious disease; AIDS (SAHPRA indication text is not available in the data compiled for this report, so the original indications come from the TxGNN knowledge graph) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 (animal studies only) |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 20 |
+| Number of SAHPRA Registrations | 18 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Tenofovir disoproxil is a prodrug of tenofovir, a nucleotide analogue that inhibits viral reverse transcriptase. Its efficacy against HIV-1 is well established.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, tenofovir is a nucleotide reverse transcriptase inhibitor, and its efficacy in HIV and hepatitis B is established. Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase is related to that of HIV, so an antiviral effect is mechanistically plausible.
 
-Feline immunodeficiency virus (FIV) is a lentivirus that causes progressive immune failure in cats, similar to HIV in humans. Its reverse transcriptase is homologous to HIV's, so an HIV reverse transcriptase inhibitor plausibly acts on it. Two feline studies support this. One tested the combination dolutegravir, tenofovir and emtricitabine in FIV-infected cats. The other tested PMEA, a compound closely related to tenofovir, in naturally infected cats.
+The single supporting paper (PMID 37112803, 2023) tested a combination of dolutegravir, tenofovir and emtricitabine in FIV-infected cats. It is a veterinary study of a combination regimen, so it does not isolate the effect of tenofovir alone.
 
-The KG score largely reflects this HIV-like biology. The evidence is limited to a small number of experimental animal studies. No trial tests tenofovir in FIV, and no feline product is registered.
+Importantly, this is a **veterinary indication**. It is not a new human use and has limited relevance to human drug repurposing in South Africa.
+
+**Other predictions reviewed**
+
+- **Simian immunodeficiency virus infection (rank 2, score 99.95%):** Macaque studies show that tenofovir disoproxil fumarate, alone or with emtricitabine, gave partial to full protection against SIV/SHIV challenge. This supports the mechanism and informed HIV PrEP development. SIV is not a human disease, and its human counterpart (HIV) is already an approved use, so this is not a new indication.
+- **Neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (rank 3, score 99.95%):** No mechanistic link, trials or literature.
+- **Obsolete familial combined hyperlipidaemia (rank 4, score 99.60%):** No mechanistic link, trials or literature. The disease term is obsolete in the ontology, and tenofovir has no known lipid-lowering benefit.
 
 ## Clinical Trial Evidence
 
-The trials below are linked to this prediction, but all are human HIV-1 studies in which tenofovir was a background component. None studies FIV or cats, and all were graded low relevance (grade C).
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs raltegravir, each with ABC/3TC or TDF/FTC, in treatment-naïve HIV-1 adults |
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + ABC/3TC vs Atripla (efavirenz/emtricitabine/TDF) in treatment-naïve HIV-1 adults |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Boosted darunavir + lamivudine vs boosted darunavir + emtricitabine/tenofovir or lamivudine/tenofovir in naïve HIV-1 patients |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Dolutegravir once-daily dose selection with ABC/3TC or TDF/FTC in naïve HIV-1 adults |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+For the top-ranked prediction (feline acquired immunodeficiency syndrome):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Experimental animal study | Viruses | Pharmacokinetics and clinical outcomes of combination ART (dolutegravir 2.5 mg/kg, tenofovir 20 mg/kg, emtricitabine 40 mg/kg) in FIV-infected cats; the abstract notes there is no definitive therapy for FIV |
-| [24782459](https://pubmed.ncbi.nlm.nih.gov/24782459/) | 2015 | Experimental animal study | J Feline Med Surg | Treatment of six naturally FIV-infected cats with PMEA, a tenofovir-related compound; the abstract notes that no antiviral is registered for FIV and that human antivirals have caused serious adverse effects in cats |
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Preclinical/veterinary study | Viruses | Evaluated the pharmacokinetics and clinical outcomes of combination antiretroviral therapy (dolutegravir, tenofovir, emtricitabine) in FIV-infected domestic cats |
 
-The abstracts available to us were truncated, so efficacy results are not summarised here.
+For the related prediction, simian immunodeficiency virus infection, the most relevant publications are listed below (all animal studies or reviews):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | Animal study | J Infect Dis | Tenofovir disoproxil fumarate gave partial protection against repeated SHIV challenges in macaques |
+| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Animal study | J Infect Dis | Emtricitabine/tenofovir disoproxil fumarate prevented vaginal SHIV infection in macaques with Chlamydia and Trichomonas co-infection |
+| [24043812](https://pubmed.ncbi.nlm.nih.gov/24043812/) | 2013 | Animal study | PNAS | A tenofovir disoproxil fumarate-eluting intravaginal ring completely protected macaques from repeated vaginal SHIV challenges |
+| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Animal study | J Acquir Immune Defic Syndr | Oral tenofovir disoproxil fumarate and topical tenofovir GS-7340 tested against repeated oral SIV challenges in infant macaques |
+| [12404171](https://pubmed.ncbi.nlm.nih.gov/12404171/) | 2002 | Animal study | J Infect Dis | Topical low-dose tenofovir disoproxil fumarate was tested for protecting infant macaques against oral SIV exposures |
+| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Animal study | J Infect Dis | Oral emtricitabine/tenofovir disoproxil fumarate was tested against a tenofovir-resistant SHIV (K65R) in macaques |
+| [14557287](https://pubmed.ncbi.nlm.nih.gov/14557287/) | 2003 | Review | Clin Microbiol Rev | Reviews acyclic nucleoside phosphonates (cidofovir, adefovir, tenofovir) against DNA virus and retrovirus infections |
+| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | Review | Pharmacotherapy | Reviews systemic pre-exposure prophylaxis for HIV |
+| [22964889](https://pubmed.ncbi.nlm.nih.gov/22964889/) | 2012 | Review | Curr Opin HIV AIDS | Reviews lessons from animal models of antiretroviral prophylaxis |
+| [21896911](https://pubmed.ncbi.nlm.nih.gov/21896911/) | 2011 | Clinical (human) | Antimicrob Agents Chemother | Pharmacokinetics and safety of single-dose tenofovir disoproxil fumarate and emtricitabine in HIV-infected pregnant women and their infants |
+
+Note: summaries are based mainly on titles and partial abstracts.
 
 ## South Africa Market Information
 
-Approved indication text was not provided in the source data. The list below shows the distinct registrations among the first entries supplied (20 in total). One registration was listed twice.
+Tenofovir disoproxil is widely registered in South Africa, with 18 valid registrations (all single-ingredient entries, none cancelled). Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. A40/20.2.8/0681 | Viread | Tablet |
-| Reg. No. 42/20.2.8/0561 | Cipla Tenofovir 300 | Tablet |
-| Reg. No. 44/20.2.8/0332 | Adco tenofovir | Tablet |
-| Reg. No. 42/34/0496 | Imavec | Capsule |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| A40/20.2.8/0681 | Viread | Tablet | Not available |
+| 42/20.2.8/0561 | Cipla Tenofovir 300 | Tablet | Not available |
+| 44/20.2.8/0332 | Adco tenofovir | Tablet | Not available |
+| 41/20.2.8/0171 | Truvada | Tablet | Not available |
+| 45/20.2.8/0108 | Mivuten | Tablet | Not available |
 
-The Imavec entry (a capsule under a different therapeutic category code) should be checked against SAHPRA records. It may be a mismatched record.
+The remaining 13 registrations include Imavec (capsule), Tenemine, Tencitab, Adco emtevir, Tenofovir Winthrop, Ranega, Luvigen, Hetripco, Delstrigo, Milutin, Teevir and Triovir, plus one topical gel entry (Xamiol). These registrations should be verified against the SAHPRA register, because the topical gel entry appears unusual for tenofovir.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+Label-based warnings, contraindications and drug interaction data are not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+The TxGNN knowledge graph links tenofovir disoproxil to the following conditions as contraindication-type associations (these are model-level associations, not label text, and should be confirmed against the PI):
+
+- **Renal:** kidney disease, Fanconi renotubular syndrome, hypophosphataemia, osteomalacia, rickets
+- **Hepatic and metabolic:** liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, lactic acidosis, gallbladder disease, hypertriglyceridaemia, obesity
+- **Co-infection:** chronic hepatitis C virus infection
+- **Cardiac conduction:** long QT syndrome, torsades de pointes
+- **Neuropsychiatric:** epilepsy, anxiety disorder, dysthymic disorder, delusional disorder, paranoid schizophrenia
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible, but the only support is a few experimental studies in cats. The linked clinical trials are all human HIV studies. The prediction is also veterinary, so it would not create a new human indication or change practice in South Africa.
+The top predicted indication is a veterinary disease supported by one combination-therapy study in cats and no registered trials. The related SIV evidence is animal-only and reflects HIV, which is already an approved use. No genuinely new human indication is supported by the data compiled for this report.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (PI), to confirm the approved indications and safety information, including warnings and contraindications
-- Mechanism of action data from DrugBank
-- Full-text review of the two feline studies for efficacy and safety in cats, given the adverse effects reported with human antivirals in cats
-- Veterinary regulatory and expert input (in South Africa, the Onderstepoort veterinary sector and relevant veterinary authorities), because any FIV use would be outside human medicine
-- Confirmation of the registration data quality (duplicate and possibly mismatched entries)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Retrieve the SAHPRA Professional Information (warnings, contraindications, approved indications), which is a blocking gap for safety screening
+- Detailed mechanism of action data, for example from DrugBank
+- A clear decision on whether veterinary indications are in scope for this programme; if not, re-screen for human indications
+- Review of the lower-ranked predictions for plausible human indications, since ranks 3 and 4 currently have no supporting evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

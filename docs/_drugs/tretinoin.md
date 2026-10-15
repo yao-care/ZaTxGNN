@@ -2,7 +2,7 @@
 layout: default
 title: Tretinoin
 parent: Model Prediction Only (L5)
-nav_order: 454
+nav_order: 458
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,84 +29,105 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tretinoin: From Topical Retinoid Products to Rheumatoid Nodulosis
+# Tretinoin: From Acne and Acute Promyelocytic Leukaemia to Rheumatoid Nodulosis
 
 ## One-Sentence Summary
 
-Tretinoin (all-trans retinoic acid) is registered in South Africa only in topical products (cream and gels), and the SAHPRA indication text was not captured in the Evidence Pack.
-The TxGNN model predicts it may be effective for **rheumatoid nodulosis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
+Tretinoin (all-trans retinoic acid) was originally used to treat acne, acute promyelocytic leukaemia, acquired keratosis and palmoplantar keratoderma.
+The TxGNN model predicts it may be effective for **rheumatoid nodulosis**, but this is a computational prediction only, with **no clinical trials** and **no relevant publications** currently supporting it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack (three topical products registered) |
+| Original Indication | Acne, acute promyelocytic leukaemia, acquired keratosis, palmoplantar keratoderma (from the knowledge graph; the SAHPRA licence records contain no indication text) |
 | Predicted New Indication | Rheumatoid nodulosis |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tretinoin is a retinoid, and retinoic acid signalling can modulate T-cell differentiation and inflammatory cytokines. That gives a general immunomodulatory rationale for inflammatory rheumatic conditions.
+Currently, detailed mechanism of action data is not available. Based on known information, tretinoin is a retinoid (a vitamin A derivative) whose efficacy in acne and acute promyelocytic leukaemia is established, and mechanistically it may be applicable to inflammatory conditions through retinoic acid receptor (RAR) signalling.
 
-No supporting link between retinoic acid and rheumatoid nodulosis specifically was provided, and the similarity to the original indication has not been assessed. The high score therefore reflects a pattern in the knowledge graph, not confirmed biology.
+One general hypothesis is that retinoid signalling influences immune balance (Th17/Treg regulation). This is not supported by any trial or publication for rheumatoid nodulosis. The high TxGNN score reflects patterns in a knowledge graph, not clinical validation.
 
-Route compatibility is also unresolved. All registered South African products are topical, whereas a joint or systemic inflammatory disease would likely need systemic exposure. Systemic retinoids carry teratogenicity concerns.
+Other top predictions are also joint or skeletal conditions with no supporting evidence. They include rheumatoid factor-positive polyarticular juvenile idiopathic arthritis, juvenile idiopathic arthritis, juvenile chronic polyarthritis, spondyloarthropathy susceptibility, osteoarthritis, pseudoachondroplasia and acromesomelic dysplasia. Several of these (especially in children) raise safety concerns, as retinoids are associated with teratogenicity and skeletal effects. The most biologically plausible prediction in the list is folliculitis decalvans (rank 10), because it resembles tretinoin's established dermatological actions. Even there, no evidence was retrieved.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for rheumatoid nodulosis.
 
-## Other Predicted Indications Worth Noting
+(Two publications were retrieved for the lower-ranked osteoarthritis prediction. Neither supports tretinoin use: one concerns platelet-rich plasma injections and the other is an arsenic trioxide toxicity case report in acute promyelocytic leukaemia.)
 
-Nine other indications were predicted. Most are juvenile arthritis terms and rare skeletal dysplasias, and none has trials or literature. Two are worth noting:
-
-- **Osteoarthritis** (score 99.44%, evidence level L4, "Research Question"). The 20 retrieved publications are preclinical or genetic, with no clinical trials. Key signals conflict:
-  - [36542696](https://pubmed.ncbi.nlm.nih.gov/36542696/) (Sci Transl Med, 2022): ALDH1A2 variants, which affect retinoic acid synthesis, are linked to hand OA. The authors suggest retinoic acid is anti-inflammatory in OA.
-  - [37418291](https://pubmed.ncbi.nlm.nih.gov/37418291/) (DNA Cell Biol, 2023): a GWAS-to-drug analysis pointing to retinoic acid metabolism blocking agents to suppress mechanoflammation.
-  - [15946654](https://pubmed.ncbi.nlm.nih.gov/15946654/) (Biochem Pharmacol, 2005): retinoic acid blocked cytokine-induced MMP production in human chondrocytes.
-  - [40564983](https://pubmed.ncbi.nlm.nih.gov/40564983/) (Int J Mol Sci, 2025): describes *retinoic acid-induced* OA, which suggests possible harm.
-  
-  The direction of effect is unresolved, and several other retrieved papers are tangential (ADAMTS biology, cartilage imaging, PRP).
-- **Quinquaud's folliculitis decalvans** (score 99.30%, L4, Hold). The only publication is a single case report on folliculitis spinulosa decalvans ([27814407](https://pubmed.ncbi.nlm.nih.gov/27814407/), Cutis, 2016). It is a related but distinct entity and the title does not mention tretinoin, so it supports neither efficacy nor safety.
-
-The juvenile idiopathic arthritis entries (ranks 2–4, 6) are overlapping ontology nodes and should not be counted as independent support. Pediatric skeletal safety concerns apply to the JIA entries and to the skeletal dysplasias (pseudoachondroplasia, Hunter-Thompson acromesomelic dysplasia).
+---
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. F/13.12/284 | Airol | Cream |
-| Reg. No. 49/13.12/0499 | Treclin Gel | Gel |
-| Reg. No. H/13.12/172 | Ilotycin-a | Gel |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| F/13.12/284 | Airol | Cream | Not available in the data compiled |
+| 49/13.12/0499 | Treclin Gel | Gel | Not available in the data compiled |
+| H/13.12/172 | Ilotycin-a | Gel | Not available in the data compiled |
 
-The approved indication text and manufacturer are not recorded for these registrations. All three are topical.
+All three registrations are valid, single-ingredient entries and all are topical formulations. This matters because the predicted systemic or joint-related indications would likely require a different route than the topical products currently registered. Essential Medicines List (EML) status could not be determined from the data compiled.
+
+---
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Differentiating agent (retinoid) used in acute promyelocytic leukaemia; not a conventional cytotoxic. Systemic use only |
+| Myelosuppression Risk | Please refer to the Professional Information (PI) warnings and precautions |
+| Emetogenicity Classification | Please refer to the Professional Information (PI) warnings and precautions |
+| Monitoring Items | Please refer to the PI; typically FBC, liver function and lipids for systemic retinoids |
+| Handling Protection | Please refer to the PI. Retinoids are teratogenic, so pregnancy precautions apply |
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindications suggested by the knowledge graph** (these are graph associations, not label text): sunburn, anxiety and neurotic disorders, dysthymic disorder, psychotic and schizophrenia-spectrum disorders, kidney disease, liver disease, pancreatitis, gallbladder disease, congestive heart failure, adrenocortical insufficiency/Addison disease, Crohn disease and inflammatory bowel disease, atopic eczema/dermatitis, osteoporosis, diabetes mellitus and diabetic ketoacidosis, and mycosis fungoides and related cutaneous T-cell lymphomas.
+- **Drug Interactions** (100 interactions recorded; main ones listed):
+  - **Major:** doxycycline, tetracycline, minocycline, vitamin A
+  - **Moderate:** aprepitant, clarithromycin, naltrexone
+  - **Minor:** levofloxacin
+  - Many others have unclassified severity (e.g. metformin, prednisone, omeprazole, morphine).
+- **Paediatric and skeletal concerns:** systemic retinoids are associated with premature epiphyseal closure, hyperostosis and teratogenicity. This is relevant to the predicted juvenile arthritis and skeletal dysplasia indications.
 
-No drug-drug interaction records were found.
+The SAHPRA package insert warnings and contraindications were not available for this report. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no trials, no literature and no mechanistic link, and it rests on a model score alone. The registered products are topical only, and systemic retinoids raise teratogenicity and pediatric skeletal safety concerns.
+The prediction rests solely on a computational score, with no clinical trials, no relevant publications and no established mechanistic link to rheumatoid nodulosis. The registered South African products are topical only, and the package insert safety data are missing, so the evidence is insufficient to proceed.
 
 **To proceed, the following is needed:**
-- SAHPRA Professional Information (warnings, contraindications and approved indications). This is a blocking gap for safety screening.
-- Mechanism of action data (e.g. from DrugBank) to assess the link to rheumatoid nodulosis.
-- A plausible route and exposure rationale, since only topical products are registered locally.
-- For osteoarthritis, preclinical work to resolve whether retinoic acid signalling helps or harms before any clinical consideration.
+- Download and review the SAHPRA package insert (warnings, contraindications and approved indications), which is a blocking gap
+- Mechanism of action data (e.g. from DrugBank)
+- A systematic literature search for retinoids in rheumatoid nodulosis and related inflammatory arthritis
+- A route-of-administration assessment, since the registered products are topical only
+- Review of the dermatological prediction (folliculitis decalvans) as a possibly more plausible alternative candidate
+- Paediatric and reproductive safety review before considering any juvenile arthritis indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

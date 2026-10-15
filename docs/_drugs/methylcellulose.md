@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methylcellulose
-parent: Moderate Evidence (L3-L4)
-nav_order: 316
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 318
+evidence_level: L5
 indication_count: 10
 ---
 
 # Methylcellulose
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,106 +29,102 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Methylcellulose: From Bulk-Forming Agent and Excipient to Osteoarthritis
+# Methylcellulose: From an Unspecified Original Indication to Osteoarthritis
 
 ## One-Sentence Summary
 
-Methylcellulose is a non-absorbed cellulose ether, used as a bulk-forming agent, viscosity agent, hydrogel matrix and excipient. The TxGNN model predicts it may be useful for **osteoarthritis**, but the supporting evidence is weak: **2 clinical trials** and **19 publications** were retrieved. In these, methylcellulose acts as a carrier or excipient rather than as the tested active drug, so any therapeutic effect of methylcellulose itself is unverified.
-
----
+Methylcellulose is a cellulose ether (a bulk-forming agent and pharmaceutical excipient). The SAHPRA registration data compiled for this report does not state an approved indication.
+The TxGNN model predicts it may be useful for **osteoarthritis**, but there are **0 registered clinical trials** and only **preclinical formulation studies** in which methylcellulose serves as a gel or hydrogel carrier for other drugs.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the local registration record (bulk-forming agent / excipient use per the evidence pack) |
+| Original Indication | Not stated in the SAHPRA registration data compiled for this report |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 95.21% |
-| Evidence Level | L4 |
+| Evidence Level | L4 (preclinical/formulation studies only) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Methylcellulose is a non-absorbed cellulose ether with no established pharmacological action against osteoarthritis. The high TxGNN score (0.952) is a knowledge-graph prediction, not a demonstrated effect.
+Currently, detailed mechanism of action data is not available. Based on known information, methylcellulose is a non-absorbed cellulose ether that acts as a bulk-forming agent in the gut and is widely used as an excipient. It has no established systemic pharmacological activity.
 
-The literature links methylcellulose to osteoarthritis mainly as a **delivery vehicle or scaffold**. It carries nanozymes, Timp3, celecoxib, meloxicam-type NSAIDs and cell therapies in injectable or transdermal hydrogels. The two retrieved trials appear to test curcumin-type products, with methylcellulose likely present as an excipient or placebo component. The graph association is therefore probably driven by formulation use, not by methylcellulose acting as a therapy.
+The osteoarthritis literature retrieved uses methylcellulose as a thermosensitive hydrogel or gel base to deliver active agents (meloxicam, celecoxib, curcumin, proanthocyanidin, stem-cell spheroids). Any therapeutic effect in those studies comes from the delivered drug, not from methylcellulose itself. The high TxGNN score most likely reflects network proximity to these co-formulated osteoarthritis drugs rather than a true pharmacological mechanism.
 
-The other nine predicted indications are weaker still:
-- **Enterocolitis, alopecia, pseudoachondroplasia, hypotrichosis (two types), diffuse alopecia areata and exercise-induced malignant hyperthermia:** prediction only, with no trials or literature and no plausible mechanism.
-- **Insomnia:** five trials were retrieved, but all are supplement or behavioural studies that do not test methylcellulose.
-- **Osteoarthritis susceptibility:** the single supporting paper is a preclinical cartilage-resurfacing study that duplicates the osteoarthritis evidence.
-
----
+A possible indirect role as a lubricating, viscosupplement-like or sustained-release vehicle is plausible, but it is unproven.
 
 ## Clinical Trial Evidence
 
-Both trials are graded C (not direct efficacy evidence for methylcellulose).
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01478997](https://clinicaltrials.gov/study/NCT01478997) | Phase 1/2 | Completed | 76 | Double-blind, placebo-controlled study of Flexsure in moderate knee osteoarthritis. Methylcellulose is not named as the tested intervention and is probably a formulation component. |
-| [NCT04207021](https://clinicaltrials.gov/study/NCT04207021) | NA | Unknown | 134 | Curcumin-based food supplement for pain and inflammation in osteoarthritis. Methylcellulose is at most an excipient. |
-
-No SANCTR or PACTR registrations were identified.
-
----
+Currently no related clinical trials registered. No SANCTR or PACTR entries were identified in the data compiled for this report.
 
 ## Literature Evidence
 
-Most items are preclinical formulation studies. The evidence pack classifies the study type as preclinical for the first seven papers in the table. For the last three, the pack marks it as pending or leaves the design unverified. Several papers concern **carboxymethylcellulose**, a related but different compound. Publications on unrelated topics (for example canine and equine studies, wound dressings and a joint implant) are omitted.
+The literature below is all preclinical or formulation work. No human efficacy studies of methylcellulose for osteoarthritis were found.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40354857](https://pubmed.ncbi.nlm.nih.gov/40354857/) | 2025 | Preclinical | Int J Biol Macromol | Transdermal F127/methylcellulose hydrogel carrying nanozymes for osteoarthritis. Methylcellulose is the carrier. |
-| [41054792](https://pubmed.ncbi.nlm.nih.gov/41054792/) | 2025 | Preclinical | Artif Cells Nanomed Biotechnol | Injectable methylcellulose-carboxymethyl chitosan hydrogel delivering amniotic fluid stromal cell spheroids for cartilage regeneration. |
-| [36079990](https://pubmed.ncbi.nlm.nih.gov/36079990/) | 2022 | Preclinical | Nanomaterials (Basel) | Proanthocyanidin transferosomes in a 4% methylcellulose gel for osteoarthritis. Methylcellulose is the gel base. |
-| [32027902](https://pubmed.ncbi.nlm.nih.gov/32027902/) | 2020 | Preclinical | Int J Biol Macromol | Injectable carboxymethyl chitosan-methylcellulose-pluronic hydrogel encapsulating meloxicam nanoparticles. |
-| [26752990](https://pubmed.ncbi.nlm.nih.gov/26752990/) | 2015 | Preclinical | Res Pharm Sci | Iontophoretic delivery of celecoxib from gels, some containing methylcellulose derivatives. |
-| [37321710](https://pubmed.ncbi.nlm.nih.gov/37321710/) | 2023 | Preclinical | Carbohydr Polym | Sulfated carboxymethylcellulose with Timp3 attenuates osteoarthritis (carboxymethylcellulose, not methylcellulose). |
-| [25468298](https://pubmed.ncbi.nlm.nih.gov/25468298/) | 2015 | Preclinical | J Biomech | Polymers including carboxymethylcellulose used to resurface damaged cartilage and restore compressive properties. |
-| [39486930](https://pubmed.ncbi.nlm.nih.gov/39486930/) | 2025 | Not classified in pack | Carbohydr Polym | Stimuli-responsive methyl cellulose-based injectable hydrogels for controlled release. General materials work. |
-| [20060726](https://pubmed.ncbi.nlm.nih.gov/20060726/) | 2011 | Clinical (design not classified in pack) | The Knee | Hyaluronate/carboxymethylcellulose anti-adhesion gel after bilateral total knee arthroplasty (31 patients). It concerns post-surgical range of motion and pain, not methylcellulose. |
-| [30767746](https://pubmed.ncbi.nlm.nih.gov/30767746/) | 2020 | Formulation study (design not verifiable from title) | Curr Rheumatol Rev | Herbal topical patch containing curcumin and arnica. The active agents are not methylcellulose. |
+| [41054792](https://pubmed.ncbi.nlm.nih.gov/41054792/) | 2025 | Preclinical formulation | Artif Cells Nanomed Biotechnol | Injectable methylcellulose–carboxymethyl chitosan hydrogel carrying amniotic fluid stromal cell spheroids for cartilage regeneration |
+| [40354857](https://pubmed.ncbi.nlm.nih.gov/40354857/) | 2025 | Preclinical formulation | Int J Biol Macromol | Transdermal F127/methylcellulose hydrogel with nanozymes for osteoarthritis relief via immunomodulatory pathways |
+| [36079990](https://pubmed.ncbi.nlm.nih.gov/36079990/) | 2022 | Formulation optimisation | Nanomaterials (Basel) | Proanthocyanidin transferosomes loaded into a 4% methylcellulose gel for osteoarthritis |
+| [32027902](https://pubmed.ncbi.nlm.nih.gov/32027902/) | 2020 | Preclinical formulation | Int J Biol Macromol | Injectable carboxymethyl chitosan–methylcellulose–pluronic hydrogel encapsulating meloxicam nanoparticles |
+| [30767746](https://pubmed.ncbi.nlm.nih.gov/30767746/) | 2020 | Formulation | Curr Rheumatol Rev | Herbal topical patch with curcumin and Arnica montana for osteoarthritis |
+| [26752990](https://pubmed.ncbi.nlm.nih.gov/26752990/) | 2015 | Formulation | Res Pharm Sci | Iontophoretic delivery of celecoxib from gel formulations that include cellulose derivatives |
+| [21959817](https://pubmed.ncbi.nlm.nih.gov/21959817/) | 2011 | Formulation | Pak J Pharm Sci | Meloxicam solubility enhancement by ternary complexation |
 
----
+Two further retrieved papers (grapiprant in dogs, agmatine in dogs) concern different drugs and have no therapeutic link to methylcellulose, so they are not counted as supporting evidence.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| E1246 (OM) | Medigel | Suspension | Not stated in the record |
+| E1246 (OM) | Medigel | Suspension | Not stated in the data compiled for this report |
 
-The record shows no manufacturer or approved indication text. The registration number format differs from the usual SAHPRA "Reg. No." style, so it should be verified against the SAHPRA register.
-
----
+One valid single-ingredient registration exists. Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
 
 ## Safety Considerations
 
-- **Drug Interactions:** No interactions were found in the DDI query (0 records). This is not evidence that none exist.
+**Drug Interactions**
 
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
+A total of 25 interacting drugs were identified. The data shown covers 20 of them, mostly rated Minor:
 
----
+- **Moderate:** lactulose.
+- **Minor:** antidiabetic agents (acarbose, miglitol, chlorpropamide, glimepiride, glipizide, glyburide, tolazamide, nateglinide, repaglinide, and several insulins), and laxatives or gut-active agents (picosulfuric acid, linaclotide).
+
+Bulk-forming agents can alter the absorption of co-administered oral drugs, so separating dosing times is a reasonable precaution.
+
+For warnings and contraindications, please refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The score is high, but the evidence is only L4. Methylcellulose appears in the osteoarthritis literature as a delivery vehicle, and neither trial tests it as an active drug. There is no mechanistic basis for a direct therapeutic effect, and no safety data (SAHPRA PI) are available to screen the candidate.
+The only support for osteoarthritis is preclinical formulation work in which methylcellulose is a delivery vehicle, not an active agent. The model score likely reflects excipient use in co-formulated drugs rather than a true drug effect. No clinical trials exist.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications, approved indication), which is a blocking gap
-- Mechanism of action data from DrugBank
-- Intervention roles for NCT01478997 and NCT04207021 checked on the registry records, to confirm whether methylcellulose is only an excipient or placebo component
-- Verification of the Medigel registration number and indication against the SAHPRA register
-- Any direct comparative evidence of methylcellulose (alone, not as a carrier) in osteoarthritis. Without it, this candidate should not advance.
+- The SAHPRA Professional Information (indication, warnings and contraindications) for Medigel, which is currently missing and blocks safety screening
+- Mechanism of action data (for example from DrugBank)
+- Evidence that methylcellulose itself, rather than a co-delivered drug, has an effect in osteoarthritis
+- Clarification of the route and formulation needed (the registered product is a suspension, whereas the studies used injectable or topical hydrogels)
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+## Other Predicted Indications (Reference Only)
+
+The other top-ranked predictions have no clinical trials, and their literature is either indirect or absent. All are rated Hold.
+
+| Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|------|------|------|------|
+| Enterocolitis | 93.73% | L5 | Theoretical stool-consistency effect only. May be inappropriate in acute inflammatory bowel conditions |
+| Alopecia | 93.54% | L4 | Literature concerns minoxidil nanocrystal delivery with methylcellulose as an excipient, not a hair-growth effect |
+| Pseudoachondroplasia | 93.45% | L5 | Genetic (COMP) disorder with no plausible mechanism |
+| Hypotrichosis simplex of the scalp | 93.28% | L5 | No link to hair follicle biology |
+| Congenital hypotrichosis milia | 93.15% | L5 | Model score only |
+| Diffuse alopecia areata | 92.92% | L5 | Autoimmune condition. Methylcellulose has no known immunomodulatory activity |
+| Insomnia | 92.90% | L5 | Not absorbed, no CNS activity |
+| Exercise-induced malignant hyperthermia | 92.78% | L5 | Muscle calcium-handling disorder with no plausible mechanism |
+| Osteoarthritis susceptibility | 92.76% | L5 | Genetic susceptibility phenotype, not a treatable disease state |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

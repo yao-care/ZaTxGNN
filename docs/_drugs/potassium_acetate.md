@@ -2,7 +2,7 @@
 layout: default
 title: Potassium Acetate
 parent: Model Prediction Only (L5)
-nav_order: 376
+nav_order: 380
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,88 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Potassium Acetate: From Parenteral Nutrition Electrolyte Supply to Renal Tubular Acidosis
+# Potassium Acetate: From Potassium Deficiency to Renal Tubular Acidosis
 
 ## One-Sentence Summary
 
-Potassium acetate is an electrolyte component in parenteral nutrition infusions marketed in South Africa. The registration records provided do not state an approved indication, so this use is inferred from the product names.
-The TxGNN model predicts it may be useful for **renal tubular acidosis**, but **no clinical trials and no publications** currently support this direction.
-
----
+Potassium acetate is a potassium salt originally used to treat potassium deficiency.
+The TxGNN model predicts it may be useful for **renal tubular acidosis (RTA)**,
+but **no clinical trials or publications** were found for this direction, so the prediction currently rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records; products are parenteral nutrition infusions (inferred from product names) |
+| Original Indication | Potassium deficiency disease (from the TxGNN knowledge graph; no approved indication text is available for the SAHPRA registrations) |
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 6 |
+| Number of SAHPRA Registrations | 5 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the input. The reasoning below is background pharmacology, not evidence from the Evidence Pack.
+Detailed mechanism of action data is not available. Based on known information, potassium acetate supplies potassium, and the acetate is metabolised in the body to bicarbonate. In theory this could correct both low potassium (hypokalaemia) and metabolic acidosis, two features common in distal (type 1) and proximal (type 2) RTA.
 
-Potassium acetate supplies potassium, and acetate is metabolised in the body to bicarbonate. It could therefore act as an alkalinising agent and help correct potassium loss. This fits distal (type 1) renal tubular acidosis, where patients typically have metabolic acidosis with potassium depletion. Potassium citrate is the established agent in this setting and is the closest analogue.
+Potassium citrate and potassium bicarbonate, which are also alkali-potassium salts, are already used clinically in RTA. This analogy is indirect and has **not been verified for potassium acetate itself**.
 
-The very high TxGNN score (99.90%) is a model prediction only. It may partly reflect the similarity of potassium acetate to other potassium salts and alkalinising agents in the knowledge graph. It does not replace clinical evidence.
-
-The SAHPRA-registered products are multi-component parenteral nutrition infusions, not single-agent potassium acetate products. Whether a suitable formulation and route exist for renal tubular acidosis has not been assessed.
-
----
+Caution is needed in type 4 RTA (hypoaldosteronism). Hyperkalaemia is typical there, so potassium supplementation could be harmful. The prediction rests only on the TxGNN score, with no supporting clinical or published evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion |
-| Reg. No. 52/25/0740 | Numeta G16E | Infusion |
-| Reg. No. 49/25/0065 | Nutriflex Omega Specialized | Infusion |
-| Reg. No. 41/25/0757 | Nutriflex lipid peri 1875ml | TPN |
+All five registrations are valid single-ingredient products. Approved indication text was not available for any of them. Potassium acetate in these products is a component of parenteral nutrition or infusion preparations, not a standalone potassium product. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
-The records show 6 registrations in total. The list above shows only 5 entries, and Reg. No. 41/25/0757 appears twice. Approved indication text and Essential Medicines List (EML) status were not provided in the input.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available |
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not available |
+| Reg. No. 52/25/0740 | Numeta G16E | Infusion | Not available |
+| Reg. No. 49/25/0065 | Nutriflex Omega Specialized | Infusion | Not available |
+| Reg. No. 41/25/0759 | Nutriflex lipid special 625ml | TPN | Not available |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Drug Interactions**: 40 interactions are recorded. Examples of the main ones:
+  - **Major**: amiloride (a potassium-sparing diuretic), and the ACE inhibitor/ARB drugs benazepril, olmesartan, valsartan and azilsartan medoxomil. These combinations raise the risk of hyperkalaemia.
+  - **Moderate**: aliskiren.
+  - **Minor**: multiple insulin preparations (for example insulin aspart, degludec, detemir, glargine, glulisine, lispro and human insulin).
+- **Type 4 RTA**: Hyperkalaemia is typical in this subtype, so potassium supplementation could be harmful (see the mechanism section above).
 
----
+Warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available for this report. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5), with no registered trials or publications. The registered products are fixed-composition parenteral nutrition infusions, and no safety information was available for review. The pharmacological rationale is plausible but unverified.
+The prediction is supported only by the model score (L5). There are no clinical trials or publications for renal tubular acidosis, and the mechanism data and PI safety information are missing. The five local registrations are infusion or parenteral nutrition products, whose compatibility with RTA treatment has not been assessed. Potassium supplementation may be harmful in type 4 RTA.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data, for example from DrugBank
-- A literature and trial search for potassium acetate or acetate-based alkalinisation in renal tubular acidosis, compared with potassium citrate
-- Assessment of formulation and route suitability, since the registered products are intravenous multi-component infusions
-- Approved indication text for each SAHPRA registration
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- The SAHPRA package insert (PI) warnings and contraindications, which are a blocking gap for safety screening
+- Mechanism of action data (for example from DrugBank)
+- A literature and trial search for potassium acetate, or related alkali-potassium salts, in RTA subtypes
+- An assessment of whether an appropriate oral or other suitable formulation is available in South Africa, since current registrations are parenteral
+- A safety review of the hyperkalaemia-related interactions (potassium-sparing diuretics, ACE inhibitors, ARBs) and of RTA subtype selection
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

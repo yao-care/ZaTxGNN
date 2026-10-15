@@ -2,7 +2,7 @@
 layout: default
 title: Tyrosine
 parent: Model Prediction Only (L5)
-nav_order: 460
+nav_order: 464
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tyrosine: From Amino Acid Nutritional Supplementation to Cauda Equina Syndrome
+# Tyrosine: From Nutritional and Parenteral Amino Acid Component to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Tyrosine is an amino acid. In South Africa it is registered as an ingredient in parenteral nutrition and peritoneal dialysis products, and no single approved indication is recorded for it.
-The TxGNN model predicts it may be effective for **cauda equina syndrome**, but **0 clinical trials** and **0 publications** support this prediction, so it rests on the model alone.
+Tyrosine is an amino acid found in several parenteral nutrition and dialysis solutions registered in South Africa, and no specific approved indication text is available in the data compiled for this report.
+The TxGNN model ranks **cauda equina syndrome** as its top prediction (score 99.77%), but there are **no clinical trials and no publications** supporting this prediction.
+The prediction is model-only, and the evidence is weak across all ten predicted indications.
 
 ---
 
@@ -42,7 +43,7 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Amino acid nutritional supplementation (inferred from product types; registration records give no indication text) |
+| Original Indication | Not stated in the registration data (products are amino acid-containing infusion and parenteral nutrition solutions) |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L5 |
@@ -54,45 +55,72 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Tyrosine is a building block for proteins and the precursor of catecholamines (dopamine, noradrenaline and adrenaline) and thyroid hormones. Its established role is nutritional.
+Currently, detailed mechanism of action data is not available. Tyrosine is a proteinogenic amino acid and a precursor of catecholamines (dopamine, noradrenaline, adrenaline) and thyroid hormones. Its registered use appears to be as a nutritional component of multi-ingredient infusion products.
 
-The relationship between the original use and the predicted indication is weak. Cauda equina syndrome is a compressive neurosurgical emergency, usually caused by a herniated disc, tumour or trauma. It is treated by urgent decompression, not by medicines. No plausible therapeutic mechanism for tyrosine is evident. The high score most likely reflects a knowledge-graph artifact, such as tyrosine's neurotransmitter-pathway links to nervous system terms, and not a real treatment signal.
+For cauda equina syndrome, the data compiled for this report do not support any mechanistic link. The condition is a compressive injury to the lumbosacral nerve roots, and nothing connects tyrosine to its treatment. The high TxGNN score is a model output only and should not be read as evidence of efficacy.
 
-Other top-ranked predictions show the same pattern. Trials and papers retrieved for hyperthyroidism, neovascular glaucoma and postural orthostatic tachycardia syndrome were mostly keyword matches on "tyrosine kinase inhibitors", a different drug class. None tested L-tyrosine as an intervention. For hyperthyroidism, tyrosine is the substrate for thyroid hormone synthesis, so supplementation could theoretically worsen the condition. That needs a safety review before any further work.
+Other predicted indications were also reviewed:
+
+- **Hyperthyroidism and hyperthyroxinemia:** Tyrosine is a substrate for thyroid hormone synthesis. Supplementation could theoretically worsen rather than treat these conditions, which is a safety concern rather than support for repurposing.
+- **Resistance to thyroid hormone (THRB mutation):** This is a receptor-level defect, so supplying more substrate is unlikely to help.
+- **Postural orthostatic tachycardia syndrome (POTS):** Catecholamine dysregulation is plausible, and this is the only indication rated as a research question (evidence level L4). The only retrieved item is a case report on alpha-methyl-p-tyrosine, a tyrosine hydroxylase inhibitor that acts in the opposite direction to tyrosine, so it does not support tyrosine efficacy.
+- **Glaucoma-related conditions (angle-closure, traumatic, neovascular, aqueous misdirection):** No literature evaluates tyrosine as a treatment. One 2026 cohort study reports plasma amino acid changes in early primary angle-closure glaucoma, which is hypothesis-generating only.
+- **Obsolete neurogenic bladder:** No evidence, and the disease term is flagged obsolete in the ontology.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Only one registered trial was found across all predicted indications, and it relates to hyperthyroidism rather than the top-ranked prediction.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT06264544](https://clinicaltrials.gov/study/NCT06264544) | Not applicable | Not yet recruiting | 150 | Placebo-controlled trial of a zinc, selenium and L-tyrosine supplement for preventing thyrotoxicosis in adults with elevated TPOAb and the SEPP1 r25191G/A polymorphism. Tyrosine is not the sole tested agent, and no results are available. |
+
+There are no registered trials for cauda equina syndrome. No SANCTR or PACTR identifiers were found.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+There is no literature for cauda equina syndrome. The table below lists the most relevant items from other predicted indications; none of them tests tyrosine as a treatment.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [42812246](https://pubmed.ncbi.nlm.nih.gov/42812246/) | 2026 | Cohort | Frontiers in Medicine | Plasma amino acid metabolic alterations associated with ocular parameters in early primary angle-closure glaucoma (observational, no tyrosine intervention) |
+| [39063020](https://pubmed.ncbi.nlm.nih.gov/39063020/) | 2024 | Case report | Int J Mol Sci | Chronic fatigue syndrome responding to alpha-methyl-p-tyrosine, a tyrosine hydroxylase inhibitor (opposite mechanism to tyrosine) |
+| [36848916](https://pubmed.ncbi.nlm.nih.gov/36848916/) | 2023 | Review | Lancet Diabetes Endocrinol | General review of hyperthyroidism aetiology, diagnosis and management |
+| [35087972](https://pubmed.ncbi.nlm.nih.gov/35087972/) | 2021 | Review | Rom J Ophthalmol | Review of neovascular glaucoma aetiopathogenesis and treatment |
+| [19169471](https://pubmed.ncbi.nlm.nih.gov/19169471/) | 2008 | Case report | Arq Bras Endocrinol Metabol | THRB E449X mutation with autoimmune thyroid disease and neuropsychomotor involvement |
+| [10579356](https://pubmed.ncbi.nlm.nih.gov/10579356/) | 1999 | Preclinical | Endocrinology | Novel thyroid hormone receptor beta mutations impairing ligand binding |
+
+Many of the thyroid-related papers retrieved concern tyrosine kinase inhibitors, which are unrelated to the amino acid tyrosine.
 
 ---
 
 ## South Africa Market Information
 
-Tyrosine appears as an ingredient in combination products, mainly parenteral nutrition and peritoneal dialysis solutions. The registration data lists 8 registrations and provides no approved indication text. Essential Medicines List (EML) inclusion status is not available. Five registrations are shown below.
+All eight registrations are valid single-ingredient entries. No approved indication text is recorded for any of them, and Essential Medicines List status is not available in the data compiled for this report.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated in registration data |
-| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated in registration data |
-| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not stated in registration data |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated in registration data |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not stated in registration data |
+| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated |
+| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not stated |
+| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated |
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not stated |
+| Reg. No. 52/25/0740 | Numeta G16E | Infusion | Not stated |
 
-The Adco-ipratropium entry does not look like a tyrosine-containing product and may be a mapping error. It should be verified against the SAHPRA record.
+Three further registrations exist: Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036) and Adco-ipratropium (33/10.2.1/0271). The last is listed as a vial and its link to tyrosine should be verified.
 
 ---
 
 ## Safety Considerations
 
+No warning, contraindication or drug interaction data were available in the data compiled for this report, and no contraindicated diseases were identified from the knowledge graph.
+
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+One theoretical concern arises from the biology: because tyrosine is a thyroid hormone precursor, supplementation in hyperthyroid states would need careful consideration.
 
 ---
 
@@ -101,14 +129,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5), and there is no plausible mechanism linking tyrosine to cauda equina syndrome. The score is most likely a knowledge-graph artifact. No further resources are justified on this indication.
+The prediction for cauda equina syndrome rests on the model score alone (evidence level L5), with no trials, no literature and no supported mechanism. None of the ten predicted indications has clinical evidence that tyrosine is effective.
 
 **To proceed, the following is needed:**
-- Obtain the SAHPRA Professional Information for tyrosine-containing products (warnings and contraindications), which is currently missing.
-- Retrieve mechanism of action data from DrugBank.
-- Confirm the approved indication of each registered product, and verify the Adco-ipratropium mapping.
-- Re-review other predicted indications with more relevant evidence. Hyperthyroidism needs a safety assessment, and postural orthostatic tachycardia syndrome needs a check of the direction of effect. Both require manual verification, because the retrieved trials are largely tyrosine kinase inhibitor keyword matches.
-- Map "obsolete neurogenic bladder (disease)" to a current ontology term before any evaluation.
+- Retrieval of the SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data for tyrosine, to allow proper mechanistic analysis
+- Clarification of approved indications for each registered product
+- Any preclinical or clinical evidence linking tyrosine to nerve-root injury before further consideration
+- If any indication is pursued, POTS is the only one rated as a research question, and it would need a purpose-designed study with safety review, particularly regarding thyroid effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

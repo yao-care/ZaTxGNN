@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cefixime
-parent: Model Prediction Only (L5)
-nav_order: 103
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 104
+evidence_level: L4
 indication_count: 10
 ---
 
 # Cefixime
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,113 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cefixime: From Oral Cephalosporin Antibiotic to Ureaplasma Urethritis
+# Cefixime: From Urinary Tract and Respiratory Infections to Ureaplasma Urethritis
 
 ## One-Sentence Summary
 
-Cefixime is an oral third-generation cephalosporin antibiotic. The SAHPRA record supplied does not state an approved indication.
-The TxGNN model ranks **Ureaplasma urethritis** as its top prediction, but there are **0 clinical trials** and **4 publications**, and none show cefixime treating Ureaplasma.
-This is most likely a false-positive prediction.
+Cefixime is an oral third-generation cephalosporin antibiotic, originally used for urinary tract infections, respiratory tract infections (bronchitis, tonsillitis, pharyngitis, otitis media) and gonorrhoea.
+The TxGNN model predicts it may be effective for **Ureaplasma urethritis**, but there are **no registered clinical trials** and only **4 publications**, none of which directly show benefit against Ureaplasma. The top prediction is mechanistically implausible.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA record supplied |
+| Original Indication | Urinary tract infection, bronchitis, tonsillitis, otitis media, pharyngitis, gonorrhoea (from the knowledge graph; no approved indication text is available for the South African registration) |
 | Predicted New Indication | Ureaplasma urethritis |
 | TxGNN Prediction Score | 98.98% |
-| Evidence Level | L5 (model prediction only; no study evaluates cefixime for this disease. The pack's pre-assigned level was L4) |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the Evidence Pack. Cefixime belongs to the beta-lactam class. These drugs inhibit penicillin-binding proteins (PBPs), which cross-link the bacterial cell wall (peptidoglycan).
+Detailed mechanism of action data is not available in the data compiled for this report. Cefixime is known to be a third-generation cephalosporin that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It is established in urinary and respiratory tract infections and gonorrhoea.
 
-That mechanism argues against this prediction. Ureaplasma has no cell wall, so cefixime has no plausible target in it. The high TxGNN score most likely reflects the knowledge-graph link between cefixime and urethritis in general, not Ureaplasma specifically.
+For **Ureaplasma urethritis**, the mechanistic link is weak. Ureaplasma species have no cell wall, so beta-lactam antibiotics are not expected to act on them. The high TxGNN score most likely reflects the shared urethritis context rather than real activity against Ureaplasma. A direct benefit is implausible.
 
-The retrieved literature supports this reading. It covers gonococcal or non-specific urethritis. One RCT reported that cefixime cured gonococcal urethritis but was ineffective against coexisting *Ureaplasma urealyticum* and *Chlamydia trachomatis*.
+The other predictions in the list were reviewed as well:
+- **Gonococcal urethritis (98.98%)**: This is effectively an existing indication rather than true repurposing. Cefixime acts on *Neisseria gonorrhoeae*, but rising resistance has greatly reduced its role in current guidelines.
+- **Uterine inflammatory disease / pelvic inflammatory disease (98.74%)**: This is polymicrobial and needs anaerobic and chlamydial cover that cefixime lacks. At most it could be one component of a regimen.
+- **Laryngitis, epiglottitis, laryngotracheitis, tracheal disease**: These are mostly viral or need parenteral therapy (epiglottitis), so they are not good targets for oral cefixime.
+- **Xanthogranulomatous pyelonephritis, urogenital tuberculosis, polyclonal hyperviscosity syndrome**: There is no supporting evidence and, for the last two, no plausible mechanism.
 
-The best-supported prediction for cefixime is instead rank 2, **gonococcal urethritis** (see Conclusion).
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for Ureaplasma urethritis. No SANCTR or PACTR identifiers were available.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2183719](https://pubmed.ncbi.nlm.nih.gov/2183719/) | 1990 | RCT (uncomplicated gonorrhoea, not Ureaplasma) | Antimicrob Agents Chemother | Single 800 mg cefixime cured 96 of 97 men with gonococcal urethritis (amoxicillin plus probenecid: 44 of 46). Neither regimen worked against coexisting *C. trachomatis* or *U. urealyticum*. |
-| [20353145](https://pubmed.ncbi.nlm.nih.gov/20353145/) | 2010 | Review | Am Fam Physician | Diagnosis and treatment of urethritis in men. Main pathogens are *Chlamydia* and *Neisseria gonorrhoeae*. |
-| [27025738](https://pubmed.ncbi.nlm.nih.gov/27025738/) | 2014 | Clinical study (azithromycin, not cefixime) | Antibiotics (Basel) | Single 2 g azithromycin extended-release dose gave a 90.9% eradication rate in gonococcal urethritis. Cefixime was tested only for susceptibility. |
-| [35483632](https://pubmed.ncbi.nlm.nih.gov/35483632/) | 2022 | Case report/series | Infect Dis Now | First association of *Haemophilus pittmaniae* and *H. sputorum* with urethritis in men who have sex with men. |
+| [2183719](https://pubmed.ncbi.nlm.nih.gov/2183719/) | 1990 | RCT | Antimicrob Agents Chemother | Single 800 mg cefixime cured 96 of 97 men with uncomplicated gonococcal urethritis (amoxicillin plus probenecid: 44 of 46). Both regimens were **ineffective against coexisting Ureaplasma urealyticum** and Chlamydia trachomatis. |
+| [20353145](https://pubmed.ncbi.nlm.nih.gov/20353145/) | 2010 | Review | Am Fam Physician | Diagnosis and treatment of urethritis in men. The main pathogens are Chlamydia and gonococcus. |
+| [27025738](https://pubmed.ncbi.nlm.nih.gov/27025738/) | 2014 | Clinical study | Antibiotics (Basel) | Azithromycin ER 2 g in male urethritis. Cefixime was not the study drug, but gonococcal isolates remained susceptible to it. |
+| [35483632](https://pubmed.ncbi.nlm.nih.gov/35483632/) | 2022 | Case series | Infect Dis Now | Haemophilus pittmaniae and H. sputorum identified in urethritis in men who have sex with men. |
+
+The only RCT shows cefixime did **not** clear Ureaplasma, which runs against the prediction.
+
+**Supporting literature for the related prediction, gonococcal urethritis (selected):**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [12673405](https://pubmed.ncbi.nlm.nih.gov/12673405/) | 2003 | Clinical study | J Infect Chemother | Double-dosing of 200 mg cefixime at a 6-hour interval for uncomplicated gonococcal urethritis. |
+| [40922809](https://pubmed.ncbi.nlm.nih.gov/40922809/) | 2025 | Surveillance | Lancet Reg Health West Pac | WHO EGASP 2023 data on rising gonococcal resistance. |
+| [41138812](https://pubmed.ncbi.nlm.nih.gov/41138812/) | 2025 | Surveillance | J Infect Chemother | Japanese surveillance reports resistance to oral third-generation cephalosporins. |
+| [20643433](https://pubmed.ncbi.nlm.nih.gov/20643433/) | 2010 | Review | J Urol | Emergence of resistance to fluoroquinolones, cefixime and azithromycin. |
+| [38029797](https://pubmed.ncbi.nlm.nih.gov/38029797/) | 2024 | Observational | Sex Health | High-level azithromycin-resistant gonococcus in Johannesburg. South Africa treats male urethritis syndromically with ceftriaxone plus azithromycin. |
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 51/20.1.1/0073 | Exsef | Tablet (oral) | Not stated in the record supplied |
+| Reg. No. 51/20.1.1/0073 | Exsef | Tablet (oral) | Not available in the data compiled for this report |
+
+Essential Medicines List (EML) status could not be determined from the available data.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications (from knowledge graph associations, not label text):**
+- *Clostridium difficile* colitis
+- Perinatal necrotizing enterocolitis
+- Impaired renal function
+
+**Key Warnings:** A published case report describes cefixime-induced Stevens-Johnson syndrome (PMID 35860067), which is a rare but serious hypersensitivity reaction.
+
+**Drug Interactions (14 recorded, mostly Moderate):**
+- **Warfarin and dicoumarol**: possible enhanced anticoagulant effect.
+- **Aminoglycosides** (amikacin, gentamicin, kanamycin, neomycin, streptomycin): moderate interaction.
+- **Others (moderate)**: chloramphenicol, ethinylestradiol, mycophenolic acid, pemetrexed, picosulfuric acid.
+- **Omeprazole**: interaction severity not classified.
+
+The SAHPRA package insert warnings and contraindications were not available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no trials and no supporting literature, and cefixime has no plausible target in a cell-wall-deficient organism such as Ureaplasma.
-
-**Other predictions in the pack:**
-
-| Rank | Indication | Evidence Level | Pack Recommendation | Comment |
-|------|------|------|------|------|
-| 2 | Gonococcal urethritis | L2 | Proceed with Guardrails | Direct clinical evidence exists (PMID 2183719, 12673405). Treatment failures and rising cefixime MICs are documented, including in South Africa (PMID 23416957, 23299608). It should not be first-line where ceftriaxone-based regimens are recommended. |
-| 3 | Uterine inflammatory disease | L4 | Research Question | One terminated Phase 3 trial ([NCT01072136](https://clinicaltrials.gov/study/NCT01072136), n=87) of empiric therapy for cervicitis. It is underpowered, and the cefixime arm is unconfirmed. |
-| 4–10 | Xanthogranulomatous pyelonephritis, laryngitis, epiglottitis, laryngotracheitis, urogenital tuberculosis, tracheal disease, polyclonal hyperviscosity syndrome | L4–L5 | Hold | No supportive clinical evidence. Several are viral, non-infectious or intrinsically beta-lactam-resistant. |
+The top prediction (Ureaplasma urethritis) is mechanistically implausible because Ureaplasma has no cell wall, and the only RCT found showed cefixime did not clear it. No clinical trials support any predicted indication. The most credible prediction, gonococcal urethritis, is already an established use, and resistance limits cefixime's role in current guidelines.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications and approved indications for Exsef), which is a blocking gap for safety screening.
-- Mechanism of action data from DrugBank.
-- For gonococcal urethritis: local South African susceptibility data, test-of-cure arrangements and a review of current national STI treatment guidelines. Trial designs for PMID 2183719 and 12673405 should also be verified against the full texts, because they were inferred from titles and abstracts only.
-
-*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any use.*
+- The SAHPRA package insert (indications, warnings, contraindications) for Exsef
+- Detailed mechanism of action data
+- Current South African gonococcal susceptibility data and national STI treatment guidance, if the gonococcal use is to be considered
+- Direct clinical evidence of efficacy in any newly proposed indication; otherwise no further development is advised for the other predictions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

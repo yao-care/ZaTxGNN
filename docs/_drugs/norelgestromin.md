@@ -2,7 +2,7 @@
 layout: default
 title: Norelgestromin
 parent: Model Prediction Only (L5)
-nav_order: 344
+nav_order: 347
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,29 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Norelgestromin: From Contraception (Transdermal Patch) to Amenorrhea
+# Norelgestromin: From Contraception to Amenorrhoea
 
 ## One-Sentence Summary
 
-Norelgestromin is a progestin used in a combined transdermal contraceptive patch with ethinyl estradiol (marketed in South Africa as Evra). The TxGNN model predicts it may be relevant to **amenorrhea**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
+Norelgestromin is a progestin delivered through a transdermal contraceptive patch (Evra), registered in South Africa for hormonal contraception use.
+The TxGNN model predicts it may be effective for **amenorrhoea**,
+but currently there are **0 clinical trials** and **0 publications** supporting this direction, so this is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration record; the product is a contraceptive patch (background knowledge, not from the supplied data) |
-| Predicted New Indication | Amenorrhea |
+| Original Indication | Not stated in the registration data compiled for this report (the product is a contraceptive patch) |
+| Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 99.51% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known background information, norelgestromin is the active metabolite of norgestimate and is delivered in a combined transdermal patch with ethinyl estradiol. As a progestin, it acts on the endometrium and the hypothalamic-pituitary-ovarian axis. That gives a general, plausible link to menstrual disorders, but this is background knowledge and not evidence from the supplied data.
+Currently, detailed mechanism of action data is not available. Based on known information, norelgestromin is the active progestin metabolite of norgestimate and is delivered in a transdermal patch together with ethinyl estradiol. As a progestin, it acts on progesterone receptors and suppresses the hypothalamic-pituitary-ovarian axis.
 
-The direction of effect is unclear. Progestin-containing products can *cause* amenorrhea or reduced bleeding, so the model may be picking up a drug-induced association rather than a therapeutic one. Progestins used to treat secondary amenorrhea (for example, a withdrawal challenge) are typically oral or injectable, not a transdermal combination patch. Whether the patch would suit this use has not been assessed.
+Progestins are used in some amenorrhoea settings, for example to induce withdrawal bleeding or to provide cycle control and endometrial protection in hormone-deficient states. A mechanistic rationale is therefore plausible.
+
+However, the direction of effect is ambiguous. Hormonal contraceptives can themselves suppress menses or cause amenorrhoea, so the drug could help in some settings and cause the problem in others. The very high TxGNN score is a computational prediction only, with no supporting trial or publication in the data compiled for this report. Clinical interpretation is needed before this is treated as a genuine repurposing candidate.
 
 ## Clinical Trial Evidence
 
@@ -65,27 +69,35 @@ Currently no related literature available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 36/18.7/0491 | Evra | Patch | Not recorded in the supplied data |
+| Reg. No. 36/18.7/0491 | Evra | Patch | Not stated in the data compiled for this report |
+
+Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindication signals from the knowledge graph (not label text):** The TxGNN knowledge graph links norelgestromin to contraindications in the following areas:
+  - Cardiovascular and metabolic: hypertension, coronary artery disease, thrombophlebitis, hyperlipidaemia (including familial), hypertriglyceridaemia, diabetes mellitus, diabetic ketoacidosis, hyperglycaemia
+  - Hepatic, renal and biliary: liver disease, gallbladder disease, kidney disease, pyoureter
+  - Neurological and psychiatric: epilepsy, migraine (including with aura), anxiety disorder, neurotic disorder, dysthymic disorder
+  - Metabolic and autoimmune: porphyria (inherited porphyria, porphyrin metabolism disease), systemic lupus erythematosus (including paediatric), asthma (intrinsic and allergic)
+  - Other: female breast carcinoma, functional visual loss
+- **Drug Interactions:** One interaction was identified: **Sugammadex** (Major, DDInter).
+
+These signals must be confirmed against the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no trials or publications behind it and no mechanism data. The prediction may also reflect a side effect of progestins rather than a treatment benefit.
+The prediction rests on a model score alone (L5), with no clinical trials or publications. The direction of effect is also unclear, since hormonal contraceptives can cause amenorrhoea. The SAHPRA package insert safety data has not been obtained, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications, approved indication), which is required before any safety screening
-- Mechanism of action data, for example from DrugBank
-- A targeted literature and trial search to clarify whether the amenorrhea link is therapeutic or an adverse effect
-- An assessment of whether a transdermal combination patch is a suitable route for this use
-- Confirmation of Essential Medicines List (EML) status, if relevant
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- SAHPRA Professional Information (warnings, contraindications and approved indication text)
+- Mechanism of action data (e.g. from DrugBank)
+- Systematic literature and trial searches for progestin or contraceptive use in primary and secondary amenorrhoea, clarifying whether the drug treats or causes amenorrhoea
+- Assessment of route and formulation suitability, since only a transdermal patch is registered
+- Review of the knowledge-graph contraindications (cardiovascular, thromboembolic, hepatic, migraine) against the intended patient population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

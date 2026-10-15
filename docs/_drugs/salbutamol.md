@@ -2,7 +2,7 @@
 layout: default
 title: Salbutamol
 parent: Model Prediction Only (L5)
-nav_order: 407
+nav_order: 411
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,99 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salbutamol: From Reversible Airway Obstruction (Asthma/COPD) to Papillary Conjunctivitis
+# Salbutamol: From Asthma and Bronchial Disease to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salbutamol is a beta-2 agonist bronchodilator used for asthma and COPD.
-The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but there are **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
+Salbutamol is a beta-2 adrenergic bronchodilator, originally used to treat **asthma and bronchial disease**.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, with a very high model score.
+However, **no clinical trials and no publications** were found for this specific indication, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the supplied registration data. Salbutamol is generally used for reversible airway obstruction (asthma/COPD) |
+| Original Indication | Asthma; bronchial disease |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.996% |
-| Evidence Level | L5 |
+| TxGNN Prediction Score | 99.996% (model rank 65) |
+| Evidence Level | L5 (model prediction only) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 10 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacology, salbutamol is a beta-2 adrenergic agonist. Its efficacy in airway obstruction is well established, and mechanistically it may be applicable to allergic eye inflammation.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Salbutamol is a short-acting beta-2 agonist, and its efficacy in asthma and bronchial disease is well established through relaxation of airway smooth muscle.
 
-The only rationale available is weak and theoretical. Beta-2 receptor stimulation can reduce mast cell mediator release, and mast cells drive allergic ocular inflammation. Nothing in the retrieved data tests or confirms this for papillary conjunctivitis. The high TxGNN score reflects a knowledge-graph pattern, not clinical proof.
+For papillary conjunctivitis, the only available rationale is hypothetical. Beta-2 agonism may reduce mast cell mediator release in ocular tissue, which could matter in an allergic or irritative eye condition. No study retrieved for this report tests that idea in this disease. The link between airway disease and a conjunctival condition is indirect, and the high model score should not be read as clinical evidence.
 
-For context, the same Evidence Pack contains preclinical papers on a related condition, atopic conjunctivitis. In guinea pigs, topical salbutamol suppressed immediate allergic conjunctivitis. Other work reported topical anti-inflammatory activity of beta-2 agonists in the conjunctiva. This is animal data for a different diagnosis, so it offers only indirect support.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## South Africa Market Information
 
-Salbutamol is marketed in South Africa under 10 SAHPRA registrations. The five main registrations are below. Approved indication text was not captured in the registration data, so it is not shown.
+Salbutamol has 10 valid SAHPRA registrations, all classed as single-ingredient products and none cancelled. The approved indication text was not captured for any of them. The table shows five main registrations.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 30/10.2.2/0200 | Asthavent | Syrup |
-| Reg. No. 35/10.2/0142 | Vari-salbutamol syrup | Syrup |
-| Reg. No. A39/10.2.1/0482 | Asthavent Respules | Nebuliser |
-| Reg. No. 29/10.2.1/0015 | Combivent | Inhaler |
-| Reg. No. 30/10.2.1/0032 | Airomir Autohaler | Inhaler |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 30/10.2.2/0200 | Asthavent | Syrup | Not listed |
+| 35/10.2/0142 | Vari-salbutamol syrup | Syrup | Not listed |
+| A39/10.2.1/0482 | Asthavent Respules | Nebuliser | Not listed |
+| 30/10.2.1/0032 | Airomir Autohaler | Inhaler | Not listed |
+| 32/10.2.1/0344 | Ventolin inhaler 200 cfc-free | Inhaler | Not listed |
 
-The dosage forms across all registrations are syrup, nebuliser, inhaler, vial and tablet. None is an ophthalmic product, so a topical eye formulation would be a new development.
+The remaining registrations are Combivent, Combivent UDV, Iprabut, Duolin respules and Trandate. Several of these names are usually associated with salbutamol/ipratropium combinations, yet they are classed as single-ingredient here. Trandate (J/7.1.3/52, tablet) is normally a labetalol brand, which is a beta-blocker with the opposite pharmacology. These entries should be verified against the SAHPRA register before the registration count is relied upon.
+
+The registered forms are oral (syrup, tablet) and inhaled or nebulised. **No ophthalmic formulation** appears among them, which matters for a conjunctival indication.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Disease associations flagged in the knowledge graph (not label text):** the TxGNN knowledge graph links salbutamol to contraindication or caution signals in the following conditions:
+- Cardiovascular: hypertension, long QT syndrome (including familial), sudden cardiac arrest, heart conduction disease, myocardial ischaemia, coronary artery disease
+- Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, potassium deficiency, acidosis (including metabolic), hyperthyroidism, Graves disease, thyrotoxicosis
+- Neurological: epilepsy
+- Eye and urinary: angle-closure glaucoma, ocular hypertension, benign prostatic hyperplasia, bladder neck obstruction
+
+The glaucoma and ocular hypertension signals are relevant to any ophthalmic use.
+
+**Drug interactions:** 100 interactions were recorded. Those shown include:
+- **Moderate:** epinephrine, acarbose, famotidine, isometheptene, clarithromycin, cisapride, bisacodyl, castor oil, diethylpropion, and several antidiabetic agents (albiglutide, alogliptin, acetohexamide, canagliflozin, chlorpropamide, dapagliflozin)
+- **Minor:** corticosteroids (hydrocortisone, beclomethasone, betamethasone, budesonide, dexamethasone)
+
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications, which were not available for this report. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5). The mechanistic link is theoretical, and no registered South African product is suitable for ocular use.
+The prediction for papillary conjunctivitis has a high model score but no supporting trials or publications. No ophthalmic formulation is registered in South Africa, and knowledge-graph signals for glaucoma and ocular hypertension call for caution.
 
 **To proceed, the following is needed:**
-- Human interventional or observational evidence in papillary or allergic conjunctivitis. The related guinea pig data would need to be translated into clinical studies.
-- Detailed mechanism of action data (MOA).
-- SAHPRA package insert warnings and contraindications for safety screening.
-- A feasibility assessment of an ophthalmic formulation and route.
-
-Other predictions in this Evidence Pack, such as bronchitis (L3) and obstructive lung disease (L2), have stronger evidence. The latter is likely an established use rather than true repurposing, so they may be better priorities for review.
+- A literature and trial search specific to salbutamol or beta-2 agonists in papillary or allergic conjunctivitis, plus preclinical ocular data
+- Mechanism of action data
+- SAHPRA Professional Information (warnings and contraindications), and verification of the registration list, including the Trandate entry
+- A route assessment, since only oral and inhaled forms are registered and a topical ocular product would be a new formulation
+- A review of the higher-ranked alternatives in the same prediction set. Obstructive lung disease has the strongest evidence, with a completed Phase 3 trial of ipratropium/salbutamol in COPD of 1,118 patients, but it overlaps with the original indication and is not true repurposing. Anaphylaxis (a terminated Phase 3 trial with 24 patients) and bronchitis/bronchiolitis (mixed bronchodilator evidence) were also flagged as research questions.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

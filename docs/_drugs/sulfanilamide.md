@@ -2,7 +2,7 @@
 layout: default
 title: Sulfanilamide
 parent: Model Prediction Only (L5)
-nav_order: 427
+nav_order: 431
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfanilamide: From Antibacterial Use to Postmenopausal Atrophic Vaginitis
+# Sulfanilamide: From Vulvovaginitis to Postmenopausal Atrophic Vaginitis
 
 ## One-Sentence Summary
 
-Sulfanilamide is an older sulfonamide antibacterial, and no approved indication text was available in the South African registration records supplied.
-The TxGNN model predicts it may be effective for **postmenopausal atrophic vaginitis**, but there are **0 clinical trials** and **0 publications** for this specific prediction.
-The score is high but reflects knowledge-graph proximity rather than evidence, and the mechanistic rationale is weak.
+Sulfanilamide is a sulfonamide antibacterial, originally used for vulvovaginal infections such as vulvovaginal candidiasis, bacterial vaginosis and vaginitis.
+The TxGNN model predicts it may be effective for **postmenopausal atrophic vaginitis**, but **no clinical trials and no publications** currently support this prediction.
+Of the ten predictions reviewed, only **infective vaginitis** and **vaginal discharge** have any supporting literature, and that literature is old, indirect and of low quality.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Vulvovaginal candidiasis, vulvovaginitis, vaginitis, bacterial vaginosis, vulvitis (from the knowledge graph; the SAHPRA records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Postmenopausal atrophic vaginitis |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Sulfanilamide is a sulfonamide, and sulfonamides are known to act as PABA antagonists. They competitively inhibit bacterial dihydropteroate synthase and block folate synthesis. This is an antibacterial mechanism.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sulfanilamide is a bacteriostatic sulfonamide. It blocks bacterial folate synthesis by competing with para-aminobenzoic acid (PABA) and inhibiting dihydropteroate synthase. Its established use is in infective vaginitis.
 
-Postmenopausal atrophic vaginitis is driven by estrogen deficiency, not by a folate-dependent bacterial process. An antibacterial mechanism therefore does not address its underlying pathophysiology. The very high TxGNN score (0.999) is most likely an artefact of proximity to vaginal infection nodes in the knowledge graph.
+Postmenopausal atrophic vaginitis is a different problem. It is driven by oestrogen deficiency and thinning of the vaginal epithelium, not by infection. Sulfanilamide has no known oestrogenic or tissue-restorative action. The very high TxGNN score most likely reflects the drug's closeness to other vaginitis indications in the knowledge graph, not a mechanistic basis. Treat this prediction with caution.
 
-There is no clear mechanistic link. Any benefit would have to come from treating a secondary infection, which is not the same as treating the disease itself.
+### Other predicted indications
+
+The other nine predictions fall into three groups:
+
+- **Closest to the existing use:** Infective vaginitis is essentially an extension of the labelled use rather than true repurposing. Trichomonal vulvovaginitis and vaginal discharge are infection-related, but the evidence is weak (see below).
+- **Plausible only for secondary bacterial infection:** Ulceration of vulva and herpetic vulvovaginitis. The underlying causes (herpes, syphilis, autoimmune disease) are not bacterial, and herpes needs antivirals such as acyclovir.
+- **No plausible mechanism:** Vulvar neoplasm, leukoplakia of vagina, apocrine adenosis of breast and blunt duct adenosis of breast. The last two share an identical score, which suggests a knowledge-graph artefact.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for postmenopausal atrophic vaginitis. None were found for any of the other nine predicted indications either.
 
 ## Literature Evidence
 
-Currently no related literature available.
+There is no literature for the top-ranked prediction, postmenopausal atrophic vaginitis. The most relevant publications found for other predictions are listed below.
 
-### Other Predicted Indications with Some Evidence
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [9132982](https://pubmed.ncbi.nlm.nih.gov/9132982/) | 1997 | RCT (comparator study) | Sex Transm Dis | Multicentre comparison of clotrimazole vaginal tablets, oral metronidazole and sulfanilamide/aminacrine/allantoin vaginal suppositories in symptomatic trichomoniasis. Sulfanilamide was not the focus. (Linked to infective vaginitis) |
+| [7330756](https://pubmed.ncbi.nlm.nih.gov/7330756/) | 1981 | Review | Sex Transm Dis | General review of vulvovaginitis therapy. Metronidazole is the reliable treatment for trichomoniasis, and imidazole antifungals are superior to polyenes for candidiasis. (Linked to trichomonal vulvovaginitis and infective vaginitis) |
+| [13333451](https://pubmed.ncbi.nlm.nih.gov/13333451/) | 1956 | Review / clinical experience | Med Times | Office management of leukorrhoea. (Linked to vaginal discharge) |
+| [14360612](https://pubmed.ncbi.nlm.nih.gov/14360612/) | 1954 | Case series | Zentralbl Gynakol | Clinical experience with a vaginal preparation for fluor vaginalis. (Linked to vaginal discharge) |
+| [14896783](https://pubmed.ncbi.nlm.nih.gov/14896783/) | 1951 | Case series | Dtsch Med Wochenschr | Leukorrhoea treated with Viozol. (Linked to vaginal discharge) |
+| [14796369](https://pubmed.ncbi.nlm.nih.gov/14796369/) | 1950 | Case series | Med Klin | New treatment of leukorrhoea with Gynaedron. (Linked to vaginal discharge) |
 
-The model also predicted several infection-related vaginal conditions. These have historical or indirect literature, but none has controlled modern data for sulfanilamide.
-
-| Predicted Indication | TxGNN Score | Evidence Level | Notable Literature |
-|------|------|------|------|
-| Trichomonal vulvovaginitis | 99.23% | L4 | [7330756](https://pubmed.ncbi.nlm.nih.gov/7330756/) (1981 review: metronidazole is the standard treatment); [13963774](https://pubmed.ncbi.nlm.nih.gov/13963774/) (1963 sulfonamide pessaries for vaginal discharge) |
-| Vaginal discharge | 98.59% | L4 | [13963774](https://pubmed.ncbi.nlm.nih.gov/13963774/) (1963); [639118](https://pubmed.ncbi.nlm.nih.gov/639118/) (1978, sulfaguanidine combination); many retrieved papers concern UTI or resistance surveillance and are not relevant |
-| Infective vaginitis | 91.87% | L4 | [9132982](https://pubmed.ncbi.nlm.nih.gov/9132982/) (1997 multicentre RCT in trichomoniasis comparing clotrimazole tablets, oral metronidazole and a sulfanilamide/aminacrine/allantoin suppository; the abstract supplied does not report outcomes) |
-
-Other predictions (ulceration of vulva, vulvar neoplasm, vaginal leukoplakia, benign breast adenosis, herpetic vulvovaginitis) had no supporting evidence or only irrelevant case reports. They are graded L5 and Hold.
+**Limitations:** Apart from the 1997 comparator trial, the publications are decades old, are mostly uncontrolled clinical experience reports, and largely do not assess sulfanilamide directly. Several further retrieved papers (a nitrofuran animal study and two gonorrhoea papers, PMIDs 15830472, 14107752 and 14148729) were off-topic and are not listed.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| H990 (OM) | Achromide | Ointment | Not listed in the record |
-| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not listed in the record |
+| H990 (OM) | Achromide | Ointment | Not available in the data compiled for this report |
+| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not available in the data compiled for this report |
 
-The product name "Adco-ipratropium" suggests an ipratropium product. The link to sulfanilamide should be verified against the SAHPRA register before relying on this record. Approved indication text is missing for both entries.
+Both registrations are valid single-ingredient entries. The Adco-ipratropium entry is named for a different drug (ipratropium), so the registration match should be checked against the SAHPRA register before it is relied upon. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindications suggested by the knowledge graph** (these are graph associations, not label text): inherited porphyria, porphyrin metabolism disease, porphyria, kidney disease, pyoureter, haematologic disease, liver disease, gallbladder disease, G6PD deficiency, glycogen storage disease, cystinuria and galactosemia.
+- **Drug interactions:** No interaction records were found.
 
-No key warnings, contraindications or drug interaction records were available. Sulfonamide resistance is also a general concern for any antibacterial use.
+For label-based warnings, contraindications and dosing, please refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is L5, with no trials, no literature, and no plausible mechanism. Estrogen deficiency, not infection, drives postmenopausal atrophic vaginitis, and the safety data needed to pass S1 screening are missing.
+- The top prediction, postmenopausal atrophic vaginitis, is an oestrogen-deficiency condition with no plausible sulfanilamide mechanism, and no trials or publications support it. All ten predictions remain at the model-prediction stage (L4–L5), and the evidence behind the best-supported ones is old, indirect and of low quality. Modern guidelines favour other agents for the infective conditions.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings and contraindications), which is currently a blocking gap
-- Mechanism of action data from DrugBank
-- Confirmation of the registered indications and product identity for both SAHPRA entries
-- If the project wants an evidence-backed direction, re-prioritise toward infective vaginitis, trichomonal vulvovaginitis or vaginal discharge. Even there, metronidazole, clindamycin and azoles are established first-line agents, so any sulfanilamide work would be a research question only.
+- SAHPRA Professional Information (package insert) warnings, contraindications and approved indications. This is currently a blocking gap for safety screening.
+- Mechanism of action data from DrugBank.
+- Confirmation of the two SAHPRA registrations, including the product-to-drug match and EML status.
+- For infective vaginitis, a head-to-head comparison against current standard-of-care agents using modern diagnostic criteria.
+- A reassessment of whether the non-infective predictions (atrophic vaginitis, vulvar neoplasm, leukoplakia, breast adenosis) merit any further work. On current evidence they do not.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

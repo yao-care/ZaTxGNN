@@ -33,15 +33,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Azelastine is an H1-receptor antagonist (antihistamine). In South Africa it is registered as a component of Dymista Nasal Spray, and the trial data supplied are all in allergic rhinitis. The TxGNN model predicts it may be effective for **rosacea conjunctivitis** with a high score (98.6%). However, **no clinical trials and no publications** currently support this specific prediction.
+Azelastine is an antihistamine nasal spray originally used for allergic rhinitis and related allergic eye conditions.
+The TxGNN model predicts it may be effective for **rosacea conjunctivitis** (score 98.6%), but **no clinical trials and no publications** currently support this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (inferred from the Dymista product and related trials; the SAHPRA record supplied has no indication text) |
+| Original Indication | Allergic rhinitis (the registered product has no indication text, so this comes from the drug's known indications: allergic rhinitis, vasomotor rhinitis, atopic, papillary and vernal conjunctivitis) |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 98.60% |
+| TxGNN Prediction Score | 98.6% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
@@ -49,46 +50,47 @@ Azelastine is an H1-receptor antagonist (antihistamine). In South Africa it is r
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, azelastine is a second-generation H1-receptor antagonist. Its efficacy in allergic rhinitis is well documented by the trials supplied, and mechanistically it may relieve histamine-driven eye symptoms.
+Currently, detailed mechanism of action data is not available. Based on known information, azelastine is an H1-receptor antagonist with mast cell-stabilizing and anti-inflammatory activity. Its efficacy in allergic rhinitis and allergic conjunctivitis is established, and mechanistically it could relieve ocular surface inflammation.
 
-The link to rosacea conjunctivitis is weak, however. Ocular disease in rosacea is driven mainly by meibomian gland dysfunction and inflammation, not by histamine. The high score reflects a pattern found by the model in the knowledge graph. It is not supported by biological or clinical evidence, and on its own it does not justify action.
+The link to rosacea conjunctivitis is weak, however. Rosacea-related eye disease is driven mainly by meibomian gland dysfunction and inflammation rather than histamine. The high score probably reflects the disease's closeness to other conjunctivitis conditions in the knowledge graph, not a specific biological rationale. The prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for rosacea conjunctivitis.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for rosacea conjunctivitis.
+Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 55/21.5.1/0573 | Dymista Nasal Spray | Spray |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 55/21.5.1/0573 | Dymista Nasal Spray | Spray | Not stated in the data compiled for this report |
 
-Dymista is a nasal spray combining azelastine and fluticasone. Only the nasal route is registered, so an ophthalmic use would need a different formulation or route. No indication text or Essential Medicines List status was supplied.
+Only one valid registration exists, and it is a nasal spray. No ophthalmic formulation is registered in the data compiled for this report, which matters for an eye indication.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindications flagged in the drug knowledge graph (not from label text):** kidney disease and pyoureter. These should be checked against the approved Professional Information (PI).
+- **Drug Interactions:** The interaction screen returned 87 potential interactions, none with a severity grade assigned. Examples include epinephrine, acetylsalicylic acid, metformin, omeprazole, clarithromycin, simvastatin, prednisone and dexamethasone. Clinicians should review these against the PI.
+
+For label-based warnings and contraindications, please refer to the SAHPRA-approved PI. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a model prediction only (L5). There are no trials or publications, the mechanistic rationale is unclear, and the only registered product is a nasal spray. The high score alone is not enough to move forward.
+The prediction rests on the model score alone (L5), with no trials or publications for rosacea conjunctivitis. The biological link is weak, and no ophthalmic product is registered in South Africa.
 
 **To proceed, the following is needed:**
-- Evidence that H1 blockade helps ocular rosacea (for example, mechanistic or clinical studies)
-- The original indications and mechanism of action, to complete the mechanistic analysis
-- The SAHPRA Professional Information, to complete safety screening
-- An assessment of route compatibility (nasal spray versus an ophthalmic formulation)
+- Evidence that antihistamine or anti-inflammatory therapy helps rosacea-related ocular disease, such as pilot or comparative studies
+- Detailed mechanism of action data
+- Label-based safety information from the SAHPRA PI, which is currently missing
+- Confirmation of an ophthalmic formulation and its registration status
 
-**Note on other predictions for this drug:** Two lower-ranked predictions have more supporting data and are better candidates for follow-up as research questions (both L4).
-- **Allergic urticaria** (score 96.2%): H1 blockade is the standard basis for urticaria treatment. The 10 supplied Phase 3/4 trials are all in allergic rhinitis, so the evidence is indirect. It supports safety and H1-class activity, but not efficacy in urticaria.
-- **Conjunctivitis** (score 91.1%): Only the allergic subtype is plausible. One Phase 3 trial (NCT06212973) may involve azelastine eye drops, but this needs verification. Azelastine ophthalmic products may already be marketed for allergic conjunctivitis, so check labelling before counting this as repurposing.
+**Note on other predictions:** Among the other predicted indications, general **conjunctivitis** (score 91.1%) has much stronger support. It has a completed Phase 3 active-controlled trial (NCT06212973), a completed Phase 4 trial (NCT06800274), and several randomized trials of azelastine eye drops. This is largely an existing, on-label use for allergic conjunctivitis. It could be assessed separately, limited to allergic subtypes. Before relying on NCT06212973, check the full record to confirm azelastine's role in the trial (test or comparator arm).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

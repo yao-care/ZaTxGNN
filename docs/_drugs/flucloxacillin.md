@@ -2,7 +2,7 @@
 layout: default
 title: Flucloxacillin
 parent: Moderate Evidence (L3-L4)
-nav_order: 232
+nav_order: 234
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,81 +29,100 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Flucloxacillin: From Staphylococcal Infections to Conjunctivitis
+# Flucloxacillin: From Bacterial Infections to Conjunctivitis
 
 ## One-Sentence Summary
 
-Flucloxacillin is an anti-staphylococcal beta-lactam antibiotic. The SAHPRA indication text was not supplied in the input, so "staphylococcal infections" reflects the drug class rather than a registered label.
-The TxGNN model predicts it may be effective for **conjunctivitis**, but there are **0 clinical trials** and only **2 indirectly related publications** (both reviews, neither testing flucloxacillin in conjunctivitis).
+Flucloxacillin is an anti-staphylococcal penicillin antibiotic that is marketed in South Africa under six SAHPRA registrations.
+The TxGNN model predicts it may be effective for **conjunctivitis**,
+but there are currently **no registered clinical trials** and only **1 publication** (a case report on a different pathogen), so this remains a model prediction with very limited support.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied SAHPRA data; staphylococcal infections is inferred from the drug class |
+| Original Indication | Not stated in the SAHPRA registration data compiled for this report (flucloxacillin is generally used for staphylococcal infections) |
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L4 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 6 (5 listed in the data) |
+| Number of SAHPRA Registrations | 6 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Flucloxacillin belongs to the anti-staphylococcal beta-lactam class. It is expected to act by inhibiting bacterial cell-wall synthesis, so activity against *Staphylococcus aureus*-related bacterial conjunctivitis is biologically plausible.
+Currently, detailed mechanism of action data is not available. Based on known information, flucloxacillin is a penicillinase-resistant penicillin (a beta-lactam), and it is used against infections caused by Gram-positive bacteria such as *Staphylococcus aureus*. Mechanistically, it may be applicable to bacterial conjunctivitis caused by susceptible organisms.
 
-The linked literature does not test this directly. The staphylococcal scalded skin syndrome (SSSS) review lists conjunctivitis as a clinical feature of a staphylococcal toxin-mediated disease. The second paper, on atypical herpes simplex presentations, is unrelated to flucloxacillin.
+However, the support is weak. The only paper retrieved is a case report on gonococcal dacryoadenitis. That involves a different pathogen (*Neisseria gonorrhoeae*) and a different site (the lacrimal gland), so it gives no direct evidence for flucloxacillin in conjunctivitis. The high TxGNN score is a prediction only. The model also returned a duplicate "conjunctivitis (disease)" entry (score 99.69%) with the same single reference; the two entries should be consolidated.
 
-The 99.84% score is a graph-based prediction only. A second entry, "conjunctivitis (disease)", is a duplicate concept with the same single supporting paper, so it should not be counted as an independent signal.
+Other top-ranked predictions have no plausible mechanistic link or no supporting evidence:
+- **Rheumatoid arthritis (99.83%)**: the literature shows flucloxacillin used for joint infections in RA patients, a methotrexate interaction study (no clinically significant interaction), and adverse event reports. None shows efficacy against RA itself.
+- **Leprosy, Prinzmetal angina, brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, antithrombin deficiency type 2, factor 5 excess with spontaneous thrombosis**: prediction only, with no trials or literature.
+- **Thrombotic disease (99.66%)**: the papers retrieved concern *S. aureus* infections and an adverse event with a different drug, and are not repurposing evidence.
 
-One practical point: the registered South African products are oral tablets, capsules and a suspension. None of the listed products is an ophthalmic preparation, so route compatibility for a topical eye indication is unresolved.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12627992](https://pubmed.ncbi.nlm.nih.gov/12627992/) | 2003 | Review | American Journal of Clinical Dermatology | Diagnosis and management of staphylococcal scalded skin syndrome. Conjunctivitis is mentioned as a possible early sign. It does not evaluate flucloxacillin for conjunctivitis. |
-| [1286123](https://pubmed.ncbi.nlm.nih.gov/1286123/) | 1992 | Review | International Journal of STD & AIDS | Atypical presentations of herpes simplex virus infection. No abstract is available, and the paper is not relevant to flucloxacillin. |
+| [41884366](https://pubmed.ncbi.nlm.nih.gov/41884366/) | 2026 | Case report | Case Reports in Ophthalmology | Gonococcal dacryoadenitis, a rare lacrimal gland complication of hyperacute bacterial conjunctivitis caused by *N. gonorrhoeae*. Does not involve flucloxacillin |
+
+For context, the literature on the second-ranked prediction (rheumatoid arthritis) is limited to safety and pharmacology findings:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8866922](https://pubmed.ncbi.nlm.nih.gov/8866922/) | 1996 | Clinical pharmacology study | Br J Clin Pharmacol | No clinically significant pharmacokinetic interaction between flucloxacillin and methotrexate in 10 RA patients |
+| [8610477](https://pubmed.ncbi.nlm.nih.gov/8610477/) | 1995 | Case report (adverse event) | Acta Haematol | Agranulocytosis in an RA patient on long-term flucloxacillin, with relapse on re-challenge |
+| [40755703](https://pubmed.ncbi.nlm.nih.gov/40755703/) | 2025 | Case report (adverse event) | Cureus | Fatal SJS/TEN linked to doxycycline or flucloxacillin in a 77-year-old woman |
+
+---
 
 ## South Africa Market Information
 
-The data lists 5 of the 6 registrations. Manufacturer and approved indication text were not provided, and Essential Medicines List status is not available in the data.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| A50/2.6.5/0687 | Septapen | Tablet | Not listed in the data compiled |
+| 44/20.1.2/0816 | Flucloxacillin 250 oethmaan | Capsule | Not listed in the data compiled |
+| J/20.1.2/0437 | Suprapen 500 | Capsule | Not listed in the data compiled |
+| Z/20.1.2/0354 | Megapen S | Suspension | Not listed in the data compiled |
+| 27/20.1.2/0106 | Macropen | Capsule | Not listed in the data compiled |
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. A50/2.6.5/0687 | Septapen | Tablet |
-| Reg. No. 44/20.1.2/0816 | Flucloxacillin 250 oethmaan | Capsule |
-| Reg. No. J/20.1.2/0437 | Suprapen 500 | Capsule |
-| Reg. No. Z/20.1.2/0354 | Megapen S | Suspension |
-| Reg. No. 27/20.1.2/0106 | Macropen | Capsule |
+A sixth registration, 27/20.1.2/0107 (Macropen s, suspension), is also valid. All six registrations are single-ingredient products. Essential Medicines List status was not available in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-No drug interaction records were found in the queried source. Publications linked to the other predicted indications (rheumatoid arthritis) report the following:
-- **Agranulocytosis:** a case report, with relapse on re-introduction of flucloxacillin.
-- **Stevens-Johnson syndrome / toxic epidermal necrolysis:** a fatal case (2025) attributed to doxycycline or flucloxacillin.
-- **Methotrexate:** two small studies found no clinically significant pharmacokinetic interaction.
+Published case reports found while searching for repurposing evidence describe serious adverse reactions, including agranulocytosis with long-term use and severe cutaneous reactions (SJS/TEN). These are individual reports and do not replace the PI.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is biologically plausible for staphylococcal bacterial conjunctivitis. However, there are no trials, and the only linked literature is indirect. The pack classifies this as a research question, not an actionable repurposing candidate. Licensed oral forms are also a poor fit for an eye indication.
+The predicted conjunctivitis indication rests on a model score alone. There are no registered trials, and the single publication concerns a different pathogen and site. The package insert safety data are also missing, so safety screening cannot yet proceed.
 
 **To proceed, the following is needed:**
-- The SAHPRA Professional Information (indications, warnings, contraindications), which is currently a blocking gap
-- Mechanism of action data (e.g. from DrugBank)
-- Direct evidence for flucloxacillin in bacterial conjunctivitis (clinical trials or comparative studies)
-- Assessment of route and formulation, since only oral and suspension products are registered
-- A review of the safety signals above (agranulocytosis, SJS/TEN)
-- Merging the duplicate "conjunctivitis" entries in downstream reporting
+- SAHPRA package insert (warnings, contraindications and approved indications), obtained and reviewed
+- Mechanism of action data for flucloxacillin
+- Evidence specific to flucloxacillin in bacterial conjunctivitis, such as susceptibility data for common ocular pathogens and any trials
+- Assessment of route suitability, since the registered products are oral (tablet, capsule, suspension) and the predicted indication would typically require topical ocular delivery
+- Consolidation of the duplicate conjunctivitis entries in the prediction list
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

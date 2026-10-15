@@ -2,7 +2,7 @@
 layout: default
 title: Ciprofloxacin
 parent: Moderate Evidence (L3-L4)
-nav_order: 122
+nav_order: 124
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ciprofloxacin is a fluoroquinolone antibacterial, marketed in South Africa as tablets and drops.
-The TxGNN model predicts it may help in **diffuse scleroderma**, but this is a research-stage idea.
-There are **0 registered clinical trials** and **2 publications** for it, one of which reports a small controlled trial of ciprofloxacin as an antifibrotic in scleroderma skin.
+Ciprofloxacin is a fluoroquinolone antibiotic, originally used for bacterial infections such as typhoid fever, salmonellosis, bacterial pneumonia and shigellosis.
+The TxGNN model predicts it may be useful for **diffuse scleroderma**, but there are **0 registered clinical trials** and only **2 publications**, both indirect or exploratory.
+This is a model-driven hypothesis with limited supporting evidence.
 
 ---
 
@@ -43,7 +43,7 @@ There are **0 registered clinical trials** and **2 publications** for it, one of
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data provided; ciprofloxacin is a fluoroquinolone antibacterial |
+| Original Indication | Bacterial infections (typhoid fever, salmonellosis, paratyphoid fever, bacterial pneumonia, shigellosis and others). The South African registration records compiled for this report do not include approved indication text. |
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L4 |
@@ -55,14 +55,14 @@ There are **0 registered clinical trials** and **2 publications** for it, one of
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Ciprofloxacin is a fluoroquinolone antibacterial. Its established role is treating bacterial infections, and it has no known primary action on autoimmune or fibrotic disease.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ciprofloxacin is a well-established antibacterial agent, and its efficacy in bacterial infections is proven. Its link to scleroderma is indirect.
 
-Two indirect links are suggested by the retrieved literature:
+Two lines of reasoning are available in the literature:
 
-- **Antifibrotic effect on skin.** A 2010 study proposed that oral ciprofloxacin might reduce skin fibrosis in scleroderma.
-- **Bacterial overgrowth.** Systemic sclerosis can involve small bowel bacterial overgrowth, which causes diarrhoea, weight loss and malabsorption. An antibiotic could plausibly treat that complication. This would be treatment of a complication, not of the underlying disease.
+1. **Possible antifibrotic effect on skin.** Scleroderma is an autoimmune connective tissue disorder marked by microvascular injury and excessive skin fibrosis. A 2010 study investigated whether oral ciprofloxacin could reduce skin fibrosis. The proposed mechanism is an effect on collagen synthesis and fibroblast activity, but this has not been confirmed.
+2. **Treating a complication, not the disease.** Ciprofloxacin may treat small bowel bacterial overgrowth in systemic sclerosis, which causes chronic diarrhoea and weight loss. This addresses a gastrointestinal complication rather than the underlying scleroderma.
 
-Neither link shows clinical efficacy. The very high TxGNN score comes from knowledge-graph patterns and is not clinical evidence.
+The evidence is therefore indirect, and the high TxGNN score reflects graph-based association rather than demonstrated clinical benefit.
 
 ---
 
@@ -76,32 +76,43 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Controlled, double-blind randomized clinical trial (per abstract) | J Dermatol | Tested whether oral ciprofloxacin reduces scleroderma severity, as an antifibrotic in skin. The abstract available here is truncated, so results and sample size could not be verified. |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Diagnostic study | Br J Rheumatol | 24 systemic sclerosis patients with malabsorption symptoms were assessed for small bowel bacterial overgrowth. It is a detection-methods paper, and the available text gives no ciprofloxacin efficacy data. |
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Exploratory antifibrotic skin study (abstract describes a double-blind randomized controlled design) | The Journal of Dermatology | Tested whether oral ciprofloxacin reduces scleroderma severity and skin fibrosis. The results are not included in the data compiled for this report. |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Diagnostic/cohort study | British Journal of Rheumatology | 24 systemic sclerosis patients with malabsorption symptoms were assessed for small bowel bacterial overgrowth. This addresses a GI complication, not the disease itself. |
 
 ---
 
 ## South Africa Market Information
 
-Ciprofloxacin has 8 SAHPRA registrations. Five are listed below. The registration data supplied has no approved-indication text, and it does not show Essential Medicines List (EML) status.
+Ciprofloxacin has 8 valid single-ingredient SAHPRA registrations and no cancelled ones. The five below are shown; the other three are Biofloxx 500, Ciploxx 250 and Xindex. Approved indication text and Essential Medicines List status are not available in the data compiled for this report.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 35/20.1.1/0101 | Orpic | Tablet | Not listed in the data provided |
-| A40/15.1/0048 | Ceprolen 5ml | Drops | Not listed in the data provided |
-| 36/20.1.1/0377 | Ciploxx 500 | Tablet | Not listed in the data provided |
-| 49/16.2/0071 | Xindex | Drops | Not listed in the data provided |
-| A40/20.1.1/0372 | Biofloxx 500 | Tablet | Not listed in the data provided |
+| Reg. No. 36/20.1.1/0377 | Ciploxx 500 | Tablet | Not stated in compiled data |
+| Reg. No. 35/20.1.1/0101 | Orpic | Tablet | Not stated in compiled data |
+| Reg. No. A39/20.1.1/0646 | Sabax-ciprofloxacin 50ml | Infusion | Not stated in compiled data |
+| Reg. No. 33/16.2/0024 | Ciprobay HC Otic Drops | Drops | Not stated in compiled data |
+| Reg. No. A40/15.1/0048 | Ceprolen 5ml | Drops | Not stated in compiled data |
 
-Dosage forms across the registrations include oral tablets, drops and an infusion.
+Oral and injectable forms are available locally. For scleroderma, the oral route is the one studied in the available literature.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+Label-based warnings and contraindications were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-No drug interaction records were found for this drug in the source data.
+**Contraindication-related conditions (from a knowledge graph, not label text):**
+- Cardiac: long QT syndrome (including familial), torsades de pointes
+- Neurological and neuromuscular: epilepsy, peripheral neuropathy and other peripheral nervous system disease, myasthenia gravis (including adult-onset) and neuromuscular junction disease
+- Musculoskeletal: tendinitis, periarthritis, Achilles bursitis, heel spur, exostosis
+- Renal and metabolic: kidney disease, pyoureter, potassium deficiency
+- Gastrointestinal and infection: *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, superimposed infection
+
+**Drug interactions:** 100 interactions were identified, and 20 were available for review. Those rated **Major** are:
+- Corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone
+- Bupropion
+
+Corticosteroids are commonly used in scleroderma care, so this matters for the proposed indication. Moderate interactions include metformin, pioglitazone, acarbose, famotidine, loperamide, aprepitant, acetylsalicylic acid and budesonide.
 
 ---
 
@@ -110,16 +121,17 @@ No drug interaction records were found for this drug in the source data.
 **Decision: Hold**
 
 **Rationale:**
-The support for diffuse scleroderma is a model prediction plus one small controlled study whose results could not be verified. There are no registered trials, and safety information for South Africa is missing. This is a research question, not a candidate for clinical use.
+- Support for scleroderma is limited to one exploratory skin study and one study of a GI complication, with no registered trials. The prediction rests mainly on a graph-based score.
+- Safety data from the PI were not available, and the knowledge-graph contraindications include neuromuscular and tendon conditions that are relevant to scleroderma patients.
 
 **To proceed, the following is needed:**
-- Retrieve the full text of PMID 20507401 to confirm design, sample size, outcomes and effect size.
-- Download the SAHPRA package insert for warnings, contraindications and interactions. This is required before any safety screening.
-- Obtain mechanism of action data, for example from DrugBank, to assess the antifibrotic hypothesis.
-- Weigh the known fluoroquinolone risks (for example, peripheral neuropathy) against any benefit in a chronic condition.
-- Consider prioritising a different prediction for this drug: **septicemic plague** (L2 evidence, recommended Proceed with Guardrails). It has a completed Phase 2 randomized trial and several plague trials of ciprofloxacin. Its data focus on bubonic plague, so extrapolation to septicemic disease would need confirmation.
+- The full results of the 2010 randomized antifibrotic study (PMID 20507401), and independent replication
+- A registered, adequately powered controlled trial with clinical endpoints such as skin score
+- The SAHPRA package insert warnings and contraindications
+- Mechanism of action data and a mechanistic rationale for antifibrotic activity
+- A review of interactions with corticosteroids and other drugs commonly used in scleroderma
 
-*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any use.*
+**Note:** Another predicted indication for ciprofloxacin, **septicemic plague**, has stronger supporting evidence. It includes randomized non-inferiority trial publications for bubonic plague and animal model data, and is rated L2. It may merit its own evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

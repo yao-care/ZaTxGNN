@@ -2,7 +2,7 @@
 layout: default
 title: Glycine
 parent: Model Prediction Only (L5)
-nav_order: 246
+nav_order: 248
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,39 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glycine: From Amino Acid Component of Registered Products to Nasal Cavity Disease
+# Glycine: From Allergic Rhinitis and Upper Respiratory Conditions to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Glycine is an amino acid that appears in 12 SAHPRA-registered products in South Africa, but the supplied data give no approved indication text for it.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, with a very high model score.
-The evidence is thin: **1 clinical trial** and **2 publications** were retrieved, and none of them tests glycine for this condition.
+Glycine is an amino acid. The knowledge graph used for this report lists it for allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis and nasopharyngitis.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but this is a computational prediction only.
+**1 clinical trial** and **2 publications** were retrieved, and none of them tests glycine as a treatment for this condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied data (the approved indication text is empty for all listed registrations) |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; the SAHPRA registrations carry no indication text) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 12 |
+| Number of SAHPRA Registrations | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Glycine appears as a component in products such as parenteral nutrition, peritoneal dialysis solutions and a topical powder, but no approved indication text was supplied, so a link to the original use cannot be drawn from these data.
+Currently, detailed mechanism of action data is not available. Glycine is a simple amino acid. In South Africa it is registered mainly as a component of parenteral nutrition and peritoneal dialysis products, with one powder product (Cicatrin). Its knowledge-graph indications include several nose and throat conditions.
 
-The pack notes only a speculative link: glycine may have cytoprotective and anti-inflammatory effects on mucosal cells, which could be relevant to nasal mucosa. Nothing in the retrieved trials or literature supports this. The high score reflects a knowledge-graph prediction only and should not be read as evidence of efficacy.
+The prediction is probably driven by similarity to these original indications (rhinitis and nasopharyngitis are themselves nasal conditions), not by new mechanistic insight. No credible mechanistic link between glycine and nasal cavity disease was identified in the data compiled for this report. The high score (0.998) should be read as a model output only.
+
+Other predictions, such as acute laryngopharyngitis (99.84%), have no trials or literature behind them. Dyspepsia (96.42%) has only indirect literature. Several others, such as faucial diphtheria, gonococcal urethritis and Ureaplasma urethritis, have no plausible role for glycine.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET/CT imaging of a new radiopharmaceutical (18F-FPPRGD2) in cancer patients. It is a diagnostic imaging study and does not test glycine as a treatment (relevance grade C). |
+| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET/CT or PET/MRI imaging of angiogenesis (αvβ3 integrin) with a new radiotracer in cancer patients. It is a diagnostic study and does not test glycine, so it provides no efficacy or safety evidence. |
 
 No SANCTR or PACTR registrations were identified.
 
@@ -67,39 +69,50 @@ No SANCTR or PACTR registrations were identified.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic research (bovine) | Veterinary Pathology | Lectin histochemistry of normal and herpesvirus-infected bovine nasal mucosa. It is not a glycine treatment study. |
-| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Preclinical | Chemical & Pharmaceutical Bulletin | Oligoarginine-polymer mucosal adjuvants for nasal vaccination in mice. It is not a glycine treatment study. |
+| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Preclinical | Chem Pharm Bull | Oligoarginine-polymer conjugates as a mucosal vaccine adjuvant for antibody induction in nasal cavities (mouse). It is not about glycine therapy. |
+| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic research | Vet Pathol | Lectin histochemistry of normal and herpesvirus-infected bovine nasal mucosa. It is not relevant to glycine treatment. |
+
+Neither publication supports a therapeutic role for glycine in nasal cavity disease.
 
 ## South Africa Market Information
 
-Showing 5 of 12 registrations. The supplied data contain no approved indication text for these products.
+All 11 registrations are valid single-ingredient products. No approved indication text was available for any of them. Essential Medicines List status could not be determined from the data compiled for this report. The first five registrations are shown below.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| G2370 (ACT 101/1965) | Cicatrin Powder 15G | Powder |
-| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion |
-| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion |
-| 41/25/0757 | Nutriflex Lipid Peri | Infusion |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| G2370 (Act 101/1965) | Cicatrin Powder 15G | Powder | Not stated |
+| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated |
+| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated |
+| 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated |
+
+The other six registrations are Numeta G13E, Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized and Nutriflex Lipid Special 625ml. They are mostly infusion or parenteral nutrition products. None is a nasal or oral formulation for upper respiratory use, so route compatibility with the predicted indication is unestablished.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. No drug-drug interaction records were found.
+No label-based warnings, contraindications or drug interaction data were available.
+
+The knowledge graph links glycine to contraindications in the following conditions. This is not label text and should be verified against the Professional Information:
+- **Renal:** kidney disease, chronic kidney disease, chronic renal failure, end-stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy
+- **Calcium, phosphate and parathyroid disorders:** hypercalcaemia, humoral hypercalcaemia of malignancy, hyperparathyroidism, osteitis fibrosa, hyperphosphataemia, phosphorus metabolism disease, sarcoidosis, hypervitaminosis, lytic metastatic bone lesion
+- **Cardiovascular:** heart disease, cardiovascular disease, arteriosclerosis obliterans, digitalis poisoning, ventricular fibrillation
+- **Metabolic and other:** phenylketonuria and disorders of phenylalanine metabolism, constipation disorder
+
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. The one trial is an unrelated imaging study, the two papers are unrelated preclinical work, and no mechanism of action or safety data are available. Glycine is a well-known nutritional and formulation component, but that does not support this new indication.
+The prediction has a high model score but no supporting clinical evidence (Level L5). The only trial retrieved is an unrelated imaging study, and the two publications are unrelated to glycine therapy. The prediction appears to reflect similarity to glycine's existing nasal and throat indications. Current SAHPRA-registered glycine products are mainly parenteral or dialysis formulations, not nasal ones.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data, for example from DrugBank
-- Approved indication text for the registered products, to define the original use
-- Glycine-specific preclinical or clinical evidence in nasal or upper-airway mucosal disease
-- A defined route and formulation for nasal use. The registered forms are powder, infusion and vial, and none is a nasal product.
-- Dyspepsia (rank 5) is the only other predicted indication with any signal, and that is a single rat study on amino acids. It is a research question, not a candidate for advancement.
+- A targeted literature review of glycine in nasal and upper airway disease
+- Mechanism of action data
+- SAHPRA Professional Information (warnings and contraindications), which is currently missing and blocks safety screening
+- A route and formulation assessment, since no registered product is suited to nasal use
+- Clinical data, at minimum a well-designed pilot study, before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Formoterol
 parent: Model Prediction Only (L5)
-nav_order: 238
+nav_order: 240
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Formoterol: From Asthma and COPD Bronchodilation to Respiratory Malformation
+# Formoterol: From Pulmonary Emphysema and Asthma to Respiratory Malformation
 
 ## One-Sentence Summary
 
-Formoterol is a long-acting beta2-agonist bronchodilator used in inhalers for asthma and chronic obstructive pulmonary disease (COPD). The TxGNN model predicts it may be effective for **respiratory malformation** with a very high score (99.92%), but none of the **19 registered trials** studies malformation and there are **no publications** for this indication. The prediction is therefore not supported by evidence and is most likely a knowledge-graph artefact.
+Formoterol is a long-acting inhaled bronchodilator originally used for pulmonary emphysema and for intrinsic and allergic asthma.
+The TxGNN model predicts it may be effective for **respiratory malformation**, but **no clinical trials** and **no publications that directly address this condition** support the prediction.
+The high score most likely reflects the drug's closeness to obstructive airway diseases in the knowledge graph, not a genuine therapeutic relationship.
 
 ---
 
@@ -41,48 +43,47 @@ Formoterol is a long-acting beta2-agonist bronchodilator used in inhalers for as
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA record. Asthma and COPD are inferred from the trial evidence and the drug class |
+| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma (the registration entries in the data compiled for this report carry no indication text, so these come from the TxGNN knowledge graph) |
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only, no actual studies for this indication). The source data labels it L4, but no preclinical or mechanism studies were found |
+| Evidence Level | L5 (model prediction only) |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 (one appears to be a data-linkage error, see below) |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Formoterol is known to be a long-acting beta2-adrenoceptor agonist. It relaxes airway smooth muscle and produces bronchodilation. It has no known effect on the structural or developmental processes that cause malformations.
+Formoterol is a selective long-acting beta2-adrenergic agonist. It relaxes airway smooth muscle and gives sustained bronchodilation. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the established pharmacology of the drug class.
 
-The original and predicted indications are not mechanistically related. Asthma and COPD are functional airflow-obstruction diseases, while a respiratory malformation is a structural, developmental defect. The very high TxGNN score most likely reflects general proximity of "respiratory tract" nodes in the knowledge graph, not a real pharmacological link.
+Respiratory malformations are structural, congenital abnormalities of the airway or lung. A bronchodilator cannot correct them. It may ease airflow obstruction or wheeze that accompanies such conditions, but that would be symptom relief, not treatment of the underlying disorder. The very high score probably reflects graph proximity to obstructive airway diseases such as asthma and emphysema. The publications retrieved concern asthma and COPD, not malformations.
 
-The trials retrieved for this prediction are all asthma or COPD studies matched through a broad search term. They do not support a malformation indication.
+The mechanistic link is therefore **not credible** for this prediction.
 
 ---
 
 ## Clinical Trial Evidence
 
-No trial in the evidence pack studies respiratory malformation. The trials below were returned by keyword matching and are all asthma or COPD studies. No SANCTR or PACTR identifiers are available.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02345161](https://clinicaltrials.gov/study/NCT02345161) | Phase 3 | Completed | 1811 | Once-daily FF/UMEC/VI versus budesonide/formoterol in COPD. Not relevant to malformation |
-| [NCT01566149](https://clinicaltrials.gov/study/NCT01566149) | Phase 3 | Completed | 49 | Safety and tolerability of mometasone/formoterol inhaler in persistent asthma |
-| [NCT05421598](https://clinicaltrials.gov/study/NCT05421598) | Phase 2 | Completed | 446 | Amlitelimab add-on in moderate-to-severe asthma. Indirect keyword match |
-| [NCT03573817](https://clinicaltrials.gov/study/NCT03573817) | Phase 3 | Completed | 122 | Safety of nebulized revefenacin with formoterol in COPD |
-| [NCT00931385](https://clinicaltrials.gov/study/NCT00931385) | Phase 3 | Completed | 99 | 24-hour lung function profile of BI 1744 CL versus Foradil in COPD |
-| [NCT03324607](https://clinicaltrials.gov/study/NCT03324607) | Phase 2/3 | Completed | 20 | Glycopyrrolate/formoterol effect on ventilation, assessed by 129Xe MRI in COPD |
-| [NCT00130351](https://clinicaltrials.gov/study/NCT00130351) | Phase 3 | Completed | 155 | Patient use of a formoterol multi-dose dry powder inhaler in asthma |
-| [NCT01577082](https://clinicaltrials.gov/study/NCT01577082) | Phase 3 | Completed | 542 | Beclomethasone/formoterol versus beclomethasone in uncontrolled asthma |
-| [NCT03888131](https://clinicaltrials.gov/study/NCT03888131) | Phase 3 | Completed | 750 | Beclomethasone/formoterol versus budesonide/formoterol in COPD |
-| [NCT02062463](https://clinicaltrials.gov/study/NCT02062463) | Phase 3 | Completed | 485 | Inhaler technique for budesonide/formoterol Spiromax versus Turbohaler in asthma |
+Currently no related clinical trials registered for respiratory malformation.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for respiratory malformation.
+Nine publications were retrieved. None studies formoterol in respiratory malformation. They concern asthma, COPD and other conditions, and are listed here for transparency.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [40840693](https://pubmed.ncbi.nlm.nih.gov/40840693/) | 2026 | Systematic review / meta-analysis | J Am Pharm Assoc | Budesonide/glycopyrrolate/formoterol compared with glycopyrrolate/formoterol for safety and efficacy in COPD |
+| [35115339](https://pubmed.ncbi.nlm.nih.gov/35115339/) | 2022 | RCT (crossover) | Eur Respir J | Repeated-dose budesonide/formoterol vs salbutamol in stable adult asthma: bronchodilator, cardiovascular and adverse effects |
+| [22541245](https://pubmed.ncbi.nlm.nih.gov/22541245/) | 2012 | RCT | J Allergy Clin Immunol | Long-term safety and asthma control with budesonide/formoterol in African American patients |
+| [14738234](https://pubmed.ncbi.nlm.nih.gov/14738234/) | 2004 | RCT | Eur Respir J | Formoterol protection against platelet-activating-factor-induced effects in asthma |
+| [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Review | J Asthma | Efficacy and safety of budesonide/formoterol pMDI in persistent asthma |
+| [35034195](https://pubmed.ncbi.nlm.nih.gov/35034195/) | 2022 | Cohort | Eur J Appl Physiol | Compensatory responses to increased mechanical load in COPD during sleep |
+| [24842803](https://pubmed.ncbi.nlm.nih.gov/24842803/) | 2014 | Review | Prog Neuropsychopharmacol Biol Psychiatry | Neurotransmitter-based strategies for cognitive dysfunction in Down syndrome (not relevant to formoterol in lung disease) |
+| [37691104](https://pubmed.ncbi.nlm.nih.gov/37691104/) | 2023 | Case report | J Med Case Rep | Small airway disease in a patient with long COVID |
+| [41686546](https://pubmed.ncbi.nlm.nih.gov/41686546/) | 2026 | Case report | Medicine | Allergic bronchopulmonary mycosis in a postoperative lung cancer patient |
 
 ---
 
@@ -90,16 +91,31 @@ Currently no related literature available for respiratory malformation.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. A39/21.5.1/0506 | Vannair 80/4.5mcg per inhalation 120 dos | Inhaler | Not stated in the record |
-| Reg. No. 36/2.6.5/0070 | Seroquel | Tablet | Not stated in the record |
+| A39/21.5.1/0506 | Vannair 80/4.5mcg per inhalation, 120 doses | Inhaler | Not provided |
+| 36/2.6.5/0070 | Seroquel | Tablet | Not provided |
 
-**Data-quality note:** Vannair (budesonide/formoterol) is consistent with formoterol. Seroquel is an oral tablet whose brand name is normally associated with quetiapine, not formoterol. This registration is probably linked to the wrong record and should be checked against SAHPRA before it is relied on. Essential Medicines List (EML) status is not included in the evidence pack.
+Both registrations are valid and recorded as single-ingredient products. Seroquel is normally a quetiapine brand, so this entry should be checked against the SAHPRA register before it is relied on. EML inclusion status was not available in the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications suggested by the knowledge graph.** These come from drug-disease relationships in the knowledge graph, not from approved label text, and must be verified against the SAHPRA-approved Professional Information (PI). They include:
+- Cardiovascular: hypertension and long QT syndrome (including the familial form)
+- Neurological: epilepsy
+- Hepatic and biliary: liver disease and gallbladder disease
+- Infectious: measles and herpes simplex keratitis
+- Endocrine: pituitary hormone deficiencies and hypogonadotropic hypogonadism, including related syndromes (for example Kallmann syndrome and Sheehan syndrome)
+
+**Drug interactions.** The interaction screen returned 100 interactions in total. The first 20 retrieved include:
+- **Moderate:**
+  - Antidiabetic agents: acarbose, alogliptin, albiglutide, dulaglutide, canagliflozin, dapagliflozin, empagliflozin, chlorpropamide
+  - QT-prolonging or related drugs: cisapride, clarithromycin, dolasetron
+  - Sympathomimetics and stimulants: ephedrine (including nasal), isometheptene, diethylpropion
+  - Acid suppression: famotidine
+- **Minor:** corticosteroids (beclomethasone, betamethasone, budesonide, dexamethasone)
+
+Please refer to the SAHPRA-approved Professional Information (PI) for key warnings and the full interaction list. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -108,16 +124,22 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications for respiratory malformation, and there is no plausible link between beta2-agonism and developmental defects. The high score appears to be a knowledge-graph proximity artefact.
+- There are no clinical trials and no directly relevant literature for respiratory malformation.
+- The mechanism (bronchodilation) cannot correct structural congenital abnormalities.
+- The 99.92% score looks like a graph-proximity artefact.
+
+**Other predictions from the same analysis:**
+- Obstructive lung disease and asthma are rated L1 (Proceed with Guardrails). Both are consistent with the existing label, so they are not true repurposing. The guardrails are:
+  - Never use a long-acting beta2-agonist alone in asthma.
+  - Always combine it with an inhaled corticosteroid.
+  - Watch cardiovascular and pneumonia risk in COPD.
+- Bronchitis is rated L2 (research question). The evidence is indirect and extends from COPD. Its trials are mostly safety and pharmacokinetic studies.
 
 **To proceed, the following is needed:**
-- Do not pursue this indication unless a mechanistic rationale and disease-specific evidence emerge.
-- Correct the record: the original indication is missing, and the Seroquel registration appears mislinked.
-- Obtain the SAHPRA package insert warnings and contraindications, and DrugBank mechanism of action data.
-- Note that other predictions in the same pack are established uses of formoterol, not novel repurposing. Obstructive lung disease and asthma are both at evidence level L1 with a "Proceed with Guardrails" recommendation. Bronchitis is at L2, supported mainly by COPD trials. For asthma, long-acting beta2-agonists must not be used as monotherapy.
-- Two other predictions have no evidence: Rienhoff syndrome (L5) and "asthma-related traits, susceptibility to". The latter is a genetic trait term, not a treatable clinical indication.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Parse the SAHPRA-approved PI for warnings, contraindications and approved indications, and verify the Seroquel registration entry
+- Obtain mechanism-of-action data from DrugBank
+- Show any biological or clinical rationale linking beta2-agonism to a specific respiratory malformation, if one exists
+- For a practical research direction, focus on the COPD/chronic bronchitis and asthma entries rather than this prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

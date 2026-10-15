@@ -2,7 +2,7 @@
 layout: default
 title: Tryptophan
 parent: Moderate Evidence (L3-L4)
-nav_order: 459
+nav_order: 463
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,83 +29,93 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Tryptophan: From Nutritional Amino Acid to Restless Legs Syndrome
+# Tryptophan: From Unspecified Registered Use (Parenteral Nutrition Component) to Insomnia
 
 ## One-Sentence Summary
 
-Tryptophan is an essential amino acid. In South Africa it is registered as a component of parenteral nutrition and dialysis solutions.
-The TxGNN model predicts it may be useful for **restless legs syndrome (RLS)**.
-There are currently **0 registered clinical trials** and **8 publications** on this direction, and only 3 of them directly concern tryptophan. Two of those are 1980s studies with no abstract available, and the third is a 1992 narrative review.
+Tryptophan is an essential amino acid. In South Africa it is registered only as a component of parenteral nutrition and peritoneal dialysis products, and no approved indication text is available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **insomnia** (the best-supported of the top 10 predictions), with **0 registered clinical trials** and **20 publications** retrieved, of which only a handful are older clinical studies.
+Evidence is limited and dated, so this is a research-level opportunity, not a ready-to-adopt one.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA data supplied (registered products are infusion and nutrition solutions) |
-| Predicted New Indication | Restless legs syndrome |
-| TxGNN Prediction Score | 99.72% |
+| Original Indication | Not stated (the approved indication text is empty in all registrations; tryptophan is a component of amino acid infusion products) |
+| Predicted New Indication | Insomnia (the top-ranked TxGNN prediction is restless legs syndrome, but insomnia has the strongest supporting evidence, so it is the focus of this report) |
+| TxGNN Prediction Score | Insomnia: 99.47% (restless legs syndrome, rank 1: 99.72%) |
 | Evidence Level | L3 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 10 |
-| Recommended Decision | Hold |
+| Number of SAHPRA Registrations | 9 |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Tryptophan is the dietary precursor of serotonin and melatonin. RLS is thought to involve dysregulated central dopaminergic and serotonergic signalling, so a link through monoamine synthesis is plausible.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tryptophan is an essential amino acid supplied in nutrition products, and it is the biochemical precursor of serotonin and melatonin. Both regulate the sleep-wake cycle, so a mechanistic link to insomnia is plausible.
 
-The link is unproven. The available literature shows an association between monoamine pathways and RLS, not that giving tryptophan treats it. A pharmacovigilance study and a case report suggest that serotonergic antidepressants and lithium can induce or worsen RLS. The effect of raising serotonin precursor supply could therefore go the wrong way.
+Older controlled studies compared L-tryptophan with flurazepam, secobarbital and placebo in chronic insomnia, and some reported benefit. A 2025 study of a tryptophan and fructooligosaccharide combination also points in a similar direction, though only in mice.
+
+**Caveats:** the available human studies are old, small and varied in design. The serotonin pathway also has a complex role in related conditions. For example, pharmacovigilance data show that serotonergic antidepressants can induce or worsen restless legs syndrome, so the evidence for that top-ranked prediction is mixed.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered (no NCT, SANCTR or PACTR identifiers were found).
 
 ## Literature Evidence
 
+The table lists the most relevant publications for insomnia, with controlled clinical studies first.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3953904](https://pubmed.ncbi.nlm.nih.gov/3953904/) | 1986 | Clinical study (design not verified) | Am J Psychiatry | "L-Tryptophan in the treatment of restless legs syndrome". Only the title is available, so results cannot be summarised. |
-| [3659737](https://pubmed.ncbi.nlm.nih.gov/3659737/) | 1987 | Clinical/pharmacologic study (design not verified) | Sleep | Periodic leg movement with L-dopa, 5-hydroxytryptophan and L-tryptophan. No abstract available. |
-| [1305630](https://pubmed.ncbi.nlm.nih.gov/1305630/) | 1992 | Review | Int J Neurosci | L-tryptophan in neuropsychiatric disorders. Serotonin is linked to mood, sleep and motor control, and abnormalities are implicated in several movement disorders. |
-| [33836477](https://pubmed.ncbi.nlm.nih.gov/33836477/) | 2021 | Systematic review/meta-analysis | Sleep Med Rev | RLS in chronic liver disease. Elevated tryptophan is one proposed contributor to sleep disturbance. Not a tryptophan treatment study. |
-| [36897462](https://pubmed.ncbi.nlm.nih.gov/36897462/) | 2023 | Case series | Neurol Sci | RLS in DNAJC12 deficiency, an inherited disorder of dopamine and serotonin synthesis. Supports a monoamine link to RLS. |
-| [32546134](https://pubmed.ncbi.nlm.nih.gov/32546134/) | 2020 | Pharmacovigilance study | BMC Psychiatry | Antidepressant-associated movement disorders in the WHO database. This is a safety signal for serotonergic drugs. |
-| [1777530](https://pubmed.ncbi.nlm.nih.gov/1777530/) | 1991 | Case report | Biol Psychiatry | RLS induced by lithium. No abstract available. |
-| [2881477](https://pubmed.ncbi.nlm.nih.gov/2881477/) | 1987 | Review | Am Fam Physician | General diagnosis and treatment of insomnia. Only tangentially related to RLS. |
+| [6410442](https://pubmed.ncbi.nlm.nih.gov/6410442/) | 1983 | Controlled clinical study | Psychopharmacology | L-tryptophan 1 g vs secobarbital, flurazepam and placebo for 7 nights in 96 serious insomniacs |
+| [3432358](https://pubmed.ncbi.nlm.nih.gov/3432358/) | 1987 | Clinical study | Pharmacopsychiatry | 2 g L-tryptophan with varying sleep times for 4 weeks in 25 patients with severe chronic insomnia; 76% had markedly improved sleep, but some relapsed after stopping |
+| [40772548](https://pubmed.ncbi.nlm.nih.gov/40772548/) | 2025 | Study in mice | Food & Function | Tryptophan plus fructooligosaccharides improved sleep through anti-inflammatory and gut microbiota effects |
+| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Clinical practice guideline | J Clin Sleep Med | AASM guideline on drug treatment of chronic insomnia; context only, it does not endorse tryptophan |
+| [40681828](https://pubmed.ncbi.nlm.nih.gov/40681828/) | 2025 | Review | Mol Neurobiol | Role of tryptophan metabolites and the kynurenine pathway in insomnia and its comorbidities |
+| [33475068](https://pubmed.ncbi.nlm.nih.gov/33475068/) | 2021 | Review | Comb Chem High Throughput Screen | Nutraceuticals for sleep disorders |
+| [39779759](https://pubmed.ncbi.nlm.nih.gov/39779759/) | 2025 | Bioinformatic study | Sci Rep | Tryptophan metabolism gene CYP1B1 as a shared biomarker for Parkinson's disease and insomnia |
+| [2055761](https://pubmed.ncbi.nlm.nih.gov/2055761/) | 1991 | Review | Hautarzt | Eosinophilia-myalgia syndrome, linked to contamination during L-tryptophan production (safety relevance) |
+
+For restless legs syndrome, the supporting evidence consists of small 1986-1987 clinical reports ([3953904](https://pubmed.ncbi.nlm.nih.gov/3953904/), [3659737](https://pubmed.ncbi.nlm.nih.gov/3659737/)).
 
 ## South Africa Market Information
 
-Ten registrations were found. The first five are listed below. Manufacturer and approved indication text were not supplied. No Essential Medicines List status was supplied.
+Tryptophan is registered only as a component of multi-ingredient infusion products. All 9 registrations are valid single-entity registrations, and no approved indication text is available in the data compiled for this report. The Essential Medicines List (EML) status was not available.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion |
-| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial |
-| 38/34/0172 | Extraneal 2L single bag | Infusion |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion |
-| 41/25/0757 | Nutriflex Lipid Peri | Infusion |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not available |
+| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not available |
+| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not available |
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available |
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not available |
 
-All the registered products are nutrition or dialysis solutions, and none is an oral tryptophan product. This limits how directly any RLS use could be supported by current registrations. The ipratropium entry looks like a possible ingredient-matching artefact and should be checked.
+Four further registrations are not listed: Adco-ipratropium (Reg. No. 33/10.2.1/0271), Numeta G16E, Nutriflex Omega Specialized and Nutriflex lipid special 625ml.
+
+**Note:** all registered forms are infusions. There is no registered oral tryptophan product in the data compiled for this report, and an oral formulation would be needed for insomnia. Route compatibility has not been assessed.
 
 ## Safety Considerations
 
-- **Direction-of-effect concern**: Serotonergic antidepressants and lithium have been reported to induce or worsen RLS (PMID 32546134, 1777530). Whether a serotonin precursor could do the same is unknown, but it needs to be examined before any clinical testing.
+- **Contraindications (from knowledge graph associations, not label text):** autoimmune disease, systemic lupus erythematosus (including paediatric), anxiety disorder, neurotic disorder, dysthymic disorder, schizophrenia, phenylketonuria and other disorders of phenylalanine metabolism, and eosinophilia-myalgia syndrome (including the form associated with tryptophan).
+- **Historical safety signal:** eosinophilia-myalgia syndrome was associated with contaminated L-tryptophan supplies, so only pharmaceutical-grade product should be considered.
+- **Drug Interactions:** 17 interactions were recorded. Major interactions are with lorcaserin, dolasetron, palonosetron, ondansetron, granisetron, fenfluramine, sibutramine, methylene blue, doxepin (oral and topical) and procarbazine. Moderate interactions are with morphine, codeine, hydrocodone, cyproheptadine, ozanimod and ifosfamide. Most of these raise concern about serotonergic effects.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for other safety information, including warnings, contraindications and drug interactions. Report adverse drug reactions to SAHPRA.
+Please also refer to the SAHPRA-approved Professional Information (PI) for label warnings, which were not available in the data compiled for this report. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails** (for insomnia only; the other top-10 predictions should be held)
 
 **Rationale:**
-The mechanistic link is plausible, but there are no registered trials and no verifiable clinical data. The only direct tryptophan-RLS papers date from 1986–1987, and no results are available for them. There is also an unresolved concern that serotonergic modulation might worsen RLS.
+Insomnia has a plausible mechanism (serotonin and melatonin precursor) and a few older controlled studies, giving L3 evidence. However, there are no registered trials, the human data are old and small, and there are serious safety guardrails (eosinophilia-myalgia syndrome history and serotonergic interactions). The remaining predictions are L4-L5 and should be held. Restless legs syndrome, though top-ranked, has mixed evidence. Glaucoma, methemoglobinaemia, acne, congenital prothrombin deficiency and pregnancy-associated osteoporosis are supported only by model scores or indirect associative data.
 
 **To proceed, the following is needed:**
-- Full texts of PMID 3953904 and 3659737, to establish design, dose and outcomes
-- Mechanism of action data (MOA) from DrugBank
-- SAHPRA package insert warnings and contraindications for the registered products
-- A structured literature review of serotonergic effects in RLS, to clarify the direction of effect
-- A review of the registered products, to identify whether any oral tryptophan formulation exists in South Africa
-- If the above is favourable, a small controlled pilot with clear RLS outcome measures (e.g. IRLS scale)
+- SAHPRA package insert warnings and contraindications (a blocking data gap)
+- Mechanism of action data (a data gap)
+- A modern, adequately powered randomised controlled trial in insomnia, ideally registered on SANCTR or PACTR
+- An oral pharmaceutical-grade formulation, since current registrations are infusions only
+- A DDI screening and monitoring plan, particularly for patients on SSRIs, MAOIs and other serotonergic drugs
+- Review of the knowledge-graph contraindications (e.g. anxiety, schizophrenia, autoimmune disease, phenylketonuria) for target populations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

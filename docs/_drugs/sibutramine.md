@@ -2,7 +2,7 @@
 layout: default
 title: Sibutramine
 parent: Model Prediction Only (L5)
-nav_order: 414
+nav_order: 418
 evidence_level: L5
 indication_count: 4
 ---
@@ -33,14 +33,16 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Sibutramine is generally described as a serotonin-norepinephrine reuptake inhibitor used for obesity. The SAHPRA record supplied here does not state an approved indication.
-The TxGNN model predicts it may be effective for **hypervitaminosis**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It rests on the model score alone.
+Sibutramine was originally used to treat obesity, including monogenic obesity.
+The TxGNN model predicts it may be effective for **hypervitaminosis**, but **no clinical trials and no publications** currently support this prediction. It is a model-only (in silico) result.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA record (generally known as an anti-obesity agent) |
+| Original Indication | Obesity disorder; monogenic obesity (the SAHPRA registration entry contains no approved indication text) |
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
@@ -48,54 +50,76 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but there
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Sibutramine is generally described as a serotonin-norepinephrine reuptake inhibitor used for weight management. No pathway connects this action to vitamin excess, and I could not identify a plausible mechanistic link to hypervitaminosis.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Sibutramine is generally described as a serotonin-norepinephrine reuptake inhibitor (SNRI) used for weight management, and its efficacy in obesity is the basis of its original indication.
 
-The very high score (99.98%) is a model output only. Knowledge-graph topology or ontology artifacts may explain it, so it should not be read as biological support.
+For hypervitaminosis, however, no credible mechanistic link was identified. Hypervitaminosis is a state of nutrient excess, and it has no known dependence on monoamine reuptake. The very high TxGNN score (99.98%) reflects a knowledge-graph association only. It is not backed by any trial or publication.
 
-The three other predictions in the pack have the same weakness (all L5, no trials, no publications, decision Hold):
-- **Proximal 16p11.2 microdeletion syndrome** (99.98%): only an indirect symptom-level link is conceivable, because the deletion is associated with obesity. Sibutramine's cardiovascular and neuropsychiatric risks would need specific consideration in this population.
-- **Obsolete hypertelorism (disease)** (99.97%): an obsolete ontology term for a structural craniofacial feature, with no expected response to a monoamine reuptake inhibitor. It should be mapped to a current ontology entry before further assessment.
-- **Frontorhiny** (99.95%): a rare craniofacial malformation with no pharmacological rationale, likely a graph-structure artifact.
+**Other predictions from the same model (all L5, all Hold):**
+
+| Predicted Indication | TxGNN Score | Assessment |
+|------|------|------|
+| Proximal 16p11.2 microdeletion syndrome | 99.98% | The most biologically plausible. This syndrome is associated with syndromic obesity and hyperphagia, which overlaps with sibutramine's original obesity indication (appetite and satiety modulation). No efficacy evidence was provided, and the population may have neurodevelopmental and cardiac comorbidities. |
+| Obsolete hypertelorism (disease) | 99.97% | A craniofacial structural anomaly, and the term is obsolete. A reuptake inhibitor cannot plausibly correct a developmental malformation. Likely a graph-association artefact. |
+| Frontorhiny | 99.95% | A frontonasal dysplasia-type congenital malformation with no recognised pharmacological link. Likely a graph-association artefact. |
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for hypervitaminosis.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for hypervitaminosis.
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 41/11.3/0313 | Ciplatrim 15 | Capsule (oral) | Not stated in the record |
+| Reg. No. 41/11.3/0313 | Ciplatrim 15 | Capsule (oral) | Not stated in the registration data |
+
+The registration is a valid single-ingredient product. The data compiled for this report do not show Essential Medicines List (EML) inclusion status.
+
+---
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records, which does not mean no interactions exist.
+**Key points from the data compiled for this report:**
 
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
+- **Cardiovascular risk (important context):** Sibutramine was withdrawn from many markets because of increased cardiovascular risk (SCOUT trial). This is relevant to any new use, especially in populations with cardiac comorbidities.
+- **Contraindications (from knowledge-graph associations, not label text):** Hypertension and hypertensive disorders; coronary artery disease, myocardial infarction, heart disease, cardiovascular disease, heart conduction disease and sudden cardiac arrest; stroke, cerebrovascular disorder and cerebral infarction; liver failure; kidney disease, chronic kidney disease and chronic renal failure; epilepsy; diabetes mellitus and diabetic ketoacidosis; blood coagulation disease; hemoglobinopathy; angle-closure glaucoma; anorexia nervosa and bulimia nervosa; neuroleptic malignant syndrome and serotonin syndrome; pyoureter.
+- **Drug interactions:** The query returned 100 interactions, and 20 are shown in the data compiled for this report. The following are **Major**:
+  - Fentanyl
+  - Dextromethorphan
+  - Tramadol
 
-Sibutramine was withdrawn in several major markets over cardiovascular risk. The pack lists it as Marketed in South Africa, so its current registration status should be verified independently with SAHPRA.
+  These are consistent with the risk of serotonergic toxicity. Moderate interactions include sympathomimetics (phenylephrine, pseudoephedrine, epinephrine, salbutamol, formoterol), NSAIDs (ibuprofen, ketorolac), codeine, dihydrocodeine, acetazolamide, acarbose, abciximab, acalabrutinib, albiglutide, isometheptene, trastuzumab emtansine and abametapir (topical).
+
+Warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available. Please refer to the PI for authoritative safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score, with no trials, no literature and no identifiable mechanistic link. The drug also carries known cardiovascular safety concerns, and its South African market status needs checking.
+The prediction for hypervitaminosis rests only on a graph-based score, with no trials, no literature and no plausible mechanism. Sibutramine also carries a serious cardiovascular safety history and many contraindications, so the risk is not justified by the current evidence.
 
 **To proceed, the following is needed:**
-- Confirm the current SAHPRA registration status of Ciplatrim 15 and obtain the approved PI (warnings, contraindications, approved indication)
-- Obtain mechanism of action data (e.g. from DrugBank)
-- Present a plausible biological rationale for hypervitaminosis, or treat the prediction as a knowledge-graph artifact
-- Complete a safety screening, focused on cardiovascular risk, before any further evaluation
-- Map obsolete ontology terms (e.g. hypertelorism) to current entries if those predictions are pursued
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- The SAHPRA package insert (warnings and contraindications), which is a blocking gap for safety screening
+- Mechanism of action data (for example from DrugBank) to test any mechanistic link
+- Any preclinical or clinical evidence for the predicted indication
+- If a new indication is pursued, 16p11.2 microdeletion syndrome is the most biologically plausible candidate. It would need a dedicated cardiovascular and neurodevelopmental risk assessment before any further consideration.
+- Confirmation of the registered indication and current regulatory status of Ciplatrim 15 in South Africa
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

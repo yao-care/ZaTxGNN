@@ -2,7 +2,7 @@
 layout: default
 title: Isotretinoin
 parent: Model Prediction Only (L5)
-nav_order: 277
+nav_order: 279
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,20 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Isotretinoin: From Dermatological Use (Original Indication Not Recorded) to Malignant Renovascular Hypertension
+# Isotretinoin: From Hypertensive Disorder to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Isotretinoin is a retinoid registered in South Africa as an oral capsule (Oratane 5Mg) and a topical gel (Isotrex), but the registration data do not state its approved indication.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension** and **malignant hypertensive renal disease**.
-There are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
+According to the knowledge graph used for this prediction, isotretinoin's original indication is hypertensive disorder or hypertension. This does not match its known clinical use as a retinoid for severe acne. The TxGNN model predicts it may be effective for **malignant renovascular hypertension** (and, with an identical score, malignant hypertensive renal disease). **No clinical trials and no publications** currently support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the SAHPRA licence data provided |
-| Predicted New Indication | Malignant renovascular hypertension (a second prediction, malignant hypertensive renal disease, has the same score) |
+| Original Indication | Hypertensive disorder / hypertension (from the knowledge graph; no approved indication text is recorded in the SAHPRA registration data) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.01% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
@@ -51,15 +49,15 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available, and the original indication is not recorded in the data provided. Isotretinoin is a retinoid, and this is the only mechanistic starting point available.
+Currently, detailed mechanism of action data is not available. The prediction therefore cannot be supported by a documented mechanistic link.
 
-A speculative link exists through retinoid signalling. Preclinical work has reported that retinoic acid can modulate renin expression and renal inflammation or fibrosis. That could in theory touch the renin-angiotensin system, which is central to renovascular hypertension. **This link was not verified against the provided data. It does not show that isotretinoin lowers blood pressure or protects the kidney.**
+The original indications listed (hypertensive disorder, hypertension) are not consistent with isotretinoin's known clinical use, which is severe acne. This suggests the knowledge-graph indication edges may be unreliable for this drug, and the prediction should be read with caution.
 
-The two predicted diseases have identical scores (99.01%, ranks 4772 and 4773). They probably come from the same overlapping disease neighbourhood in the knowledge graph, so they should be read as one weak signal, not two independent ones.
+Retinoids have been explored in preclinical settings for effects on renin expression, vascular remodelling and renal fibrosis. This is speculative and has not been shown for malignant renovascular hypertension. Isotretinoin is also associated with lipid elevations and rare reports of blood pressure or vascular effects, so an antihypertensive benefit is not established. The same score (99.01%) for the second predicted indication, malignant hypertensive renal disease, suggests a shared graph-neighbourhood signal rather than indication-specific evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered. No ClinicalTrials.gov, ICTRP, SANCTR or PACTR entries were found for either predicted indication.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
@@ -69,31 +67,53 @@ Currently no related literature available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 43/13.4.2/0746 | Oratane 5Mg | Capsule (oral) | Not stated in the data provided |
-| Reg. No. 29/13.12/0027 | Isotrex | Gel (topical) | Not stated in the data provided |
+| 43/13.4.2/0746 | Oratane 5Mg | Capsule (oral) | Not recorded in the data compiled |
+| 29/13.12/0027 | Isotrex | Gel (topical) | Not recorded in the data compiled |
 
-Essential Medicines List (EML) status was not included in the data provided.
+Both registrations are valid single-ingredient products. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications flagged in the knowledge graph** (drug–disease contraindication edges, not label text):
 
-Isotretinoin is known to be teratogenic and can cause dyslipidaemia, so hepatic and lipid monitoring would be a concern. No data were provided on its use in renovascular disease or severe renal impairment.
+- **Hepatic, renal and pancreatic:** liver disease, kidney disease, pancreatitis, gallbladder disease, pyoureter
+- **Psychiatric:** anxiety disorder, neurotic disorder, dysthymic disorder, psychotic disorder, schizophreniform disorder, schizoaffective disorder, mental disorder
+- **Metabolic:** diabetes mellitus, diabetic ketoacidosis, potassium deficiency disease, hyperuricaemia
+- **Haematological:** neutropenia, agranulocytosis
+- **Immune, inflammatory and bone:** systemic lupus erythematosus (including paediatric), inflammatory bowel disease, osteoporosis (including postmenopausal)
+- **Angioedema:** acquired, hereditary (including C1-inhibitor deficiency), non-histaminic and RAAS-blocker-induced forms
+- **Haemodynamic:** hypotensive disorder
+
+Several of these (kidney disease, diabetes, hypotension) overlap with the population in which a hypertensive indication would be considered.
+
+**Drug interactions:** 98 interactions are recorded. Major interactions include:
+
+- **Tetracyclines:** doxycycline, minocycline, tetracycline
+- **Vitamin A**
+
+Moderate interactions include:
+
+- **Corticosteroids:** betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone
+- **Anticoagulants:** warfarin, dicoumarol
+- **Others:** ethanol, naltrexone, nitisinone, fostamatinib, ivacaftor, lumacaftor, topical abametapir
+
+Other concerns to weigh, which are not drawn from label data compiled for this report: isotretinoin's known teratogenicity, hepatotoxicity and dyslipidaemia are significant in patients with compromised renal and cardiovascular status.
+
+Warnings and contraindications from the SAHPRA package insert were not available. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is a model score. There are no trials or publications, and the mechanism and original indication are not documented. The known safety profile (teratogenicity, lipid effects) is a further reason for caution in a severely ill hypertensive population.
+The prediction rests on a computational score alone, with no clinical trials or literature, no mechanism data, and original indications that conflict with the drug's known use. The safety profile, including teratogenicity, is a poor fit for the target population.
 
 **To proceed, the following is needed:**
-- The SAHPRA Professional Information (indications, warnings, contraindications), which currently blocks safety screening
-- Mechanism of action data, for example from DrugBank
-- A systematic literature search on retinoids and renin, renal fibrosis or hypertension, followed by preclinical validation
-- A safety assessment for patients with severe hypertension and renal impairment
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Verification of the original indication data, which appears inconsistent with the drug's known use
+- Mechanism of action data and a plausible pharmacological link to renovascular or malignant hypertension
+- Preclinical or clinical evidence for the predicted indications
+- SAHPRA package insert warnings and contraindications, which block safety screening
+- A safety assessment for patients with hypertensive renal disease, covering renal function, lipids, liver function and the interactions above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

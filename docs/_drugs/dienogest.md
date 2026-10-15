@@ -2,7 +2,7 @@
 layout: default
 title: Dienogest
 parent: Moderate Evidence (L3-L4)
-nav_order: 175
+nav_order: 177
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,19 +29,17 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dienogest: From Endometriosis to Amenorrhoea
+# Dienogest: From an Unspecified Original Indication to Amenorrhoea
 
 ## One-Sentence Summary
 
-Dienogest is an oral progestin. The trials and literature in the Evidence Pack concern its use in endometriosis, and the SAHPRA record supplied does not state an approved indication.
-The TxGNN model predicts it may be effective for **amenorrhoea**, with **4 clinical trials** and **6 retrieved publications**.
-None of these studies treats amenorrhoea as the condition being treated, so this is best read as a research question, not a therapeutic claim.
+Dienogest is a selective progestin. The data compiled for this report do not state an approved indication for the registered South African product. The TxGNN model predicts it may be effective for **amenorrhoea**, but there are **0 registered clinical trials** and only **7 publications** retrieved. These publications mostly describe amenorrhoea as an expected effect of treatment, not a condition that dienogest treats.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA record supplied. The trials and literature concern endometriosis. |
+| Original Indication | Not available in the data compiled for this report (the approved indication text is blank) |
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 99.71% |
 | Evidence Level | L4 |
@@ -51,61 +49,69 @@ None of these studies treats amenorrhoea as the condition being treated, so this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Dienogest is a progestin with strong antiproliferative activity on the endometrium. It partially suppresses ovulation and induces endometrial atrophy, which plausibly links it to changes in menstrual pattern.
+Currently, detailed mechanism of action data is not available. Based on known information, dienogest is a selective progestin with strong antiproliferative activity on the endometrium and partial suppression of ovulation. It is widely used for endometriosis.
 
-Amenorrhoea is a frequent effect of dienogest when it is used for endometriosis. The model's prediction may therefore reflect an expected pharmacodynamic effect or adverse-effect signal, not a treatable indication. A 2026 pharmacodynamic paper notes that hormonal endometriosis treatments aim to induce amenorrhoea. This supports the mechanistic link but does not show that amenorrhoea is a condition dienogest should be used to treat.
+The literature links dienogest to amenorrhoea mainly as an on-treatment effect or adverse effect. This includes a systematic review of dienogest adverse effects and reviews of hormonal endometriosis treatment, where inducing amenorrhoea is a treatment goal. There is no evidence that dienogest treats amenorrhoea as a condition. Progestin therapy can be used in secondary amenorrhoea when oestrogen levels are adequate, but this is a class effect and not specific to dienogest.
 
-The high TxGNN score is a model prediction only. It should not be treated as evidence of efficacy.
+The high TxGNN score most likely reflects the drug's association with amenorrhoea as an effect, not a therapeutic rationale. The prediction should be treated as a research question, not as a repurposing opportunity.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Phase 3 | Recruiting | 290 | Open-label randomised non-inferiority study of Indinol Forto 200 mg capsules vs Visanne (dienogest) 2 mg tablets in endometriosis. It has no results yet, and the amenorrhoea link is not confirmed. |
-| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | Active, not recruiting | 138 | Compares progestin-based regimens (transdermal estradiol with dienogest vs drospirenone) for patient satisfaction in endometriosis. The link to amenorrhoea is indirect. |
-| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A | Completed | 968 | Real-world observational study of dienogest (Visanne) in endometriosis. Useful for safety and bleeding-pattern data, but does not target amenorrhoea. |
-| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A | Completed | 895 | Observational cohort of dienogest and quality of life in Asian women with endometriosis. Indirect support only. |
-
-No SANCTR or PACTR registrations were identified in the data provided.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematic review/Meta-analysis | BMC Pharmacol Toxicol | Summarises adverse events of dienogest and their prevalence during treatment for endometriosis and adenomyosis. |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Rev Endocr Metab Disord | Endocrine background of hormonal treatments for endometriosis. |
-| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Retrospective cohort | Reprod Sci | Long-term (beyond 12 months) efficacy, safety and recurrence of dienogest in 514 women with ovarian endometrioma. |
-| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Pharmacodynamic study | Eur J Contracept Reprod Health Care | Reports a high inhibition ratio and transformation index for dienogest 2 mg, supporting its use in endometriosis. It notes that hormonal therapy aims to induce amenorrhoea. |
+| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematic review / Bayesian meta-analysis | BMC Pharmacol Toxicol | Summarises adverse events and their prevalence during dienogest treatment in endometriosis and adenomyosis |
+| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Retrospective cohort (514 women) | Reprod Sci | Long-term (beyond 12 months) efficacy, safety and recurrence with dienogest 2 mg daily in ovarian endometrioma |
+| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Rev Endocr Metab Disord | Endocrine basis of hormonal treatments for endometriosis, including dienogest |
+| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Clinical / pharmacodynamic study | Eur J Contracept Reprod Health Care | Reports a high inhibition ratio and transformation index for dienogest 2 mg, supporting its use in endometriosis; amenorrhoea is described as a treatment aim |
+| [42438810](https://pubmed.ncbi.nlm.nih.gov/42438810/) | 2026 | Case report | JCEM Case Rep | Primary hyperparathyroidism became overt after dienogest-altered oestrogen dynamics (started for menorrhagia) |
+| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Review | J Pediatr Adolesc Gynecol | Advanced 3-D visualisation for Müllerian anomalies; indirect relevance only |
+| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Case report | Medicine | Ovarian granulosa cell tumour in a patient with polycystic ovarian syndrome; indirect relevance only |
 
-Two other retrieved items, on Müllerian anomaly imaging (PMID 40543564) and an ovarian granulosa cell tumour case report (PMID 34918698), have no clear bearing on dienogest and are not counted as evidence.
+None of these publications tests dienogest as a treatment for amenorrhoea.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 43/18.8/0591 | Qlaira | Tablet (oral) | Not stated in the record supplied |
+| Reg. No. 43/18.8/0591 | Qlaira | Tablet (oral) | Not available in the data compiled for this report |
+
+Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindication signals from the knowledge graph** (these are drug-disease links from the TxGNN knowledge graph, not label text, and must be checked against the approved Professional Information): hypertension, epilepsy, anxiety and neurotic disorders, porphyria, kidney disease, liver disease, gallbladder disease, hypothyroidism, systemic lupus erythematosus, asthma, diabetes mellitus and diabetic ketoacidosis, hypertriglyceridaemia, hypercalcaemia and related calcium or phosphorus disorders, female breast carcinoma, and thrombophlebitis.
+
+**Drug interactions:** 37 interactions were identified. Examples of those graded **Major** are:
+- Sugammadex
+- Griseofulvin
+- Bexarotene
+- Brigatinib
+- Dabrafenib
+- Encorafenib
+
+Examples graded **Moderate** include linaclotide, metreleptin, prucalopride, miltefosine, adalimumab, anakinra, certolizumab pegol, cladribine and enasidenib. Ethanol is graded **Minor**. Only 20 of the 37 interactions were available for review.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for the full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The evidence is L4 (model prediction with mechanistic plausibility). No study treats amenorrhoea as a condition for dienogest, and the only Phase 3 trial is still recruiting and concerns endometriosis.
-- The signal may simply reflect a known effect of dienogest. In addition, the SAHPRA package insert warnings and contraindications have not been obtained, which blocks safety screening.
+- Amenorrhoea appears in the literature as an expected effect of dienogest and not as a condition it treats. No clinical trials exist, and the high TxGNN score is likely an artefact of this association.
 
 **To proceed, the following is needed:**
-- SAHPRA Professional Information (PI) for Qlaira, covering the approved indication, warnings and contraindications
-- Mechanism of action data from DrugBank
-- Full-record review of NCT07164183 to confirm its condition, comparator and endpoints
-- A clinical rationale showing amenorrhoea is a meaningful treatment target and not an expected effect of therapy
+- The approved indication and the SAHPRA Professional Information, including warnings and contraindications for Qlaira
+- Detailed mechanism of action data
+- Clarification of whether the goal is treating amenorrhoea or inducing it, which are opposite aims
+- Any clinical studies of dienogest in amenorrhoea, which would be needed to move beyond a research question
+- Review of the major drug interactions and the knowledge-graph contraindication signals
 
-The other nine predictions (ranks 2–10) are also on Hold. None has direct clinical evidence, and several, such as primary ovarian failure and hypogonadotropic hypogonadism, run against dienogest's known gonadotropin-suppressing action.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+**Note on other predictions:** The remaining nine predicted indications, including primary ovarian failure, breast fibrocystic disease and hypogonadotropic hypogonadism, have no clinical trials. Most have no literature either, and several are mechanistically opposed to dienogest's action. They are not recommended for further evaluation at this stage.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

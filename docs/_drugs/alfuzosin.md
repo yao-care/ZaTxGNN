@@ -33,15 +33,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Alfuzosin is a selective alpha-1 adrenergic blocker, generally used for urinary symptoms of benign prostatic hyperplasia (BPH). The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are **0 clinical trials** and **0 publications** supporting this direction. The prediction is model-only and has no pharmacological rationale.
+Alfuzosin is an alpha-1 adrenergic antagonist originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is based on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (from general pharmacology; the SAHPRA record in the Evidence Pack has no indication text) |
+| Original Indication | Benign prostatic hyperplasia (from the knowledge graph; the SAHPRA registration entries contain no indication text) |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.9994% |
+| TxGNN Prediction Score | 99.999% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 2 |
@@ -49,50 +51,56 @@ Alfuzosin is a selective alpha-1 adrenergic blocker, generally used for urinary 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on general knowledge, alfuzosin is a selective alpha-1 adrenergic antagonist. It relaxes smooth muscle in the prostate and bladder neck, which is the basis for its use in BPH.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known information, alfuzosin is a uroselective alpha-1 adrenergic antagonist, and its efficacy in BPH is established through relaxation of smooth muscle in the prostate and bladder neck.
 
-**This prediction is not pharmacologically plausible.** Alfuzosin has no known role in hair follicle regulation. Hypertrichosis linked to drugs is typically seen with vasodilators or potassium channel openers such as minoxidil, not with alpha-1 blockade. Ambras syndrome is a rare congenital disorder of hair growth, and no link to alpha-1 adrenergic signalling has been identified.
+The predicted link to Ambras syndrome is **not mechanistically supported**. Ambras syndrome is a rare genetic disorder associated with chromosome 8q rearrangements that affect regulation of *TRPS1*. No plausible pathway connects alpha-1 blockade to this condition. The very high score (~0.99999) most likely reflects proximity in the knowledge graph to hair-growth-related nodes rather than true therapeutic potential.
 
-The very high TxGNN score most likely reflects proximity in the knowledge graph among hair-related phenotypes. It does not reflect a real therapeutic rationale. A score this high should not be read as evidence of efficacy.
+Other top-ranked predictions show the same pattern. Most are rare genetic hair, skin or developmental disorders (hypertrichosis, hair shaft abnormalities, trichomegaly, hypotrichosis, Dandy-Walker-related syndromes), and none has any trial or literature support. Allergic urticaria is also predicted, but hypersensitivity reactions are a possible alfuzosin adverse effect, which argues against that use.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR entries were not found in the Evidence Pack).
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for this drug and indication.
+Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 41/5.2/0740 | Alfuwin XL | Tablet (oral) |
-| Reg. No. A40/5.2/0392 | Rantral MR | Tablet (oral) |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 41/5.2/0740 | Alfuwin XL | Tablet (oral) | Not stated in the data compiled for this report |
+| Reg. No. A40/5.2/0392 | Rantral MR | Tablet (oral) | Not stated in the data compiled for this report |
 
-The approved indication text and manufacturer were not captured for either registration. Please check the SAHPRA-approved Professional Information (PI). Essential Medicines List (EML) status was not assessed in the data provided.
+Both registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status could not be determined from the available data.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications / conditions of concern (from knowledge-graph drug-disease edges, not label text):**
+multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorders, long QT syndrome (including familial), torsades de pointes, liver failure, liver disease, gallbladder disease, and intraoperative floppy iris syndrome.
 
-No drug interaction records were found in the query. As a class effect, alpha-1 blockers can cause hypotension, so this would be an important consideration in any new population.
+**Drug Interactions** (100 interactions recorded; selected examples from the DDInter-sourced list):
+- **Major:** cisapride, clarithromycin, dolasetron
+- **Moderate:** famotidine, aprepitant, bisacodyl, bupropion, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, granisetron, levofloxacin, and others
+- **Minor:** cimetidine
+
+Many of these relate to QT prolongation or CYP3A4 inhibition, consistent with the QT-related conditions listed above.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for official warnings and contraindications, which were not available in the data compiled for this report. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5). No trials or literature support it, and no mechanistic link to alpha-1 blockade has been identified. A congenital hair disorder is also a poor fit for a symptomatic drug developed for adult urological use.
+The prediction has no supporting clinical trials or literature (Evidence Level L5) and no plausible mechanism. The high TxGNN score appears to be a knowledge-graph artifact. Alfuzosin's vasodilatory and hypotensive effects, together with the QT-related cautions, add risk without any demonstrated benefit.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications, approved indication), which is currently a blocking data gap
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence linking alpha-1 adrenergic signalling to hair follicle biology
-
-**Other predictions in this pack:** The other nine predicted indications are also L5 with no trial support. Nine are "Hold". Persistent fetal circulation syndrome (rank 8) is labelled "Research Question" only. It has weak biological plausibility, but neonatal hypotension would be a major safety concern. The 20 papers retrieved for the periodontal malformation syndrome (rank 3) are general periodontitis literature and do not mention alfuzosin.
-
-*This report is for research reference only and does not constitute medical advice. Any repurposing candidate requires clinical validation before use.*
+- Mechanism of action data for alfuzosin, to allow proper mechanistic analysis
+- The SAHPRA-approved package insert (PI), to confirm warnings, contraindications and approved indications
+- Preclinical or mechanistic evidence linking alpha-1 blockade to hair follicle biology or the *TRPS1* pathway
+- Route and formulation compatibility assessment for the proposed new indication
+- Review of the other predictions only if supporting evidence emerges; none currently has any
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

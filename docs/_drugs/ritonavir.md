@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ritonavir
-parent: Model Prediction Only (L5)
-nav_order: 401
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 405
+evidence_level: L4
 indication_count: 3
 ---
 
 # Ritonavir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,95 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Ritonavir: From HIV Antiretroviral Therapy to Simian Immunodeficiency Virus Infection
+# Ritonavir: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Ritonavir is an HIV-1 protease inhibitor and CYP3A4 booster used in antiretroviral combinations; the supplied record does not list its approved indication, so this is based on general drug knowledge. The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**. Support is thin: **0 clinical trials** and **11 publications**, all preclinical, in vitro or commentary. SIV is a non-human infection, so this is a model-system finding, not a new human indication.
+Ritonavir is an HIV protease inhibitor, originally used to treat HIV infection/AIDS and chronic hepatitis C virus infection (as listed in the knowledge graph).
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**,
+but there are currently **0 registered clinical trials** and only **preclinical and in vitro literature (11 publications)** supporting this direction. This prediction is largely a restatement of the existing HIV indication in an animal model, not a new human repurposing opportunity.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA records supplied (ritonavir is generally known as an HIV-1 protease inhibitor and pharmacokinetic booster) |
+| Original Indication | HIV infectious disease / AIDS; chronic hepatitis C virus infection (from the knowledge graph; no approved indication text available in the SAHPRA registration data) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 (preclinical and in vitro studies only) |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the input. Ritonavir is generally known to inhibit the HIV-1 protease enzyme, which the virus needs to mature into infectious particles. It also inhibits CYP3A4, which is why it is used at low doses to "boost" other protease inhibitors.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ritonavir is an HIV-1 protease inhibitor, its use in HIV infection is established, and mechanistically it may be applicable to SIV, a closely related primate lentivirus.
 
-SIV is a close relative of HIV, and its protease is similar. In vitro work supports this link. One study found SIVmac239 was inhibited by ritonavir at about 13 nM, compared with about 25 nM for HIV-1. Macaque studies also used combination antiretroviral regimens, some including lopinavir/ritonavir.
+SIV protease is structurally and functionally similar to HIV protease. In vitro, ritonavir inhibited SIVmac239 with a 50% effective concentration of about 13 nM, compared with about 25 nM for HIV-1 (PMID 12709355). Macaque studies using protease-inhibitor-containing antiretroviral regimens provide further indirect support.
 
-The predicted disease is a monkey infection used as a model for HIV. The clinically meaningful counterpart, HIV infection, is not part of this prediction. The high score (0.999) is a model output, not clinical evidence.
+However, SIV infection is an animal model of HIV, and HIV is already an approved indication. The high TxGNN score most likely reflects similarity to HIV in the knowledge graph, rather than a genuinely new therapeutic opportunity for people.
+
+Two other predictions were also reviewed and are not supported:
+- **Feline acquired immunodeficiency syndrome (score 99.92%, L5):** a veterinary indication outside the scope of human repurposing. Feline immunodeficiency virus protease differs from HIV-1 protease, so ritonavir activity is not assured. No trials or literature were found.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 99.92%, L5):** no mechanistic link is evident, and there are no trials or literature.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for SIV infection.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro | Antimicrob Agents Chemother | SIVmac239 was inhibited by ritonavir (EC50 about 13 nM), similar to HIV-1 (about 25 nM). |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro | Antivir Ther | 16 approved anti-HIV drugs tested against HIV-2, SIV and SHIV strains, informing treatment and post-exposure prophylaxis. |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Preclinical (macaque) | J Virol | Rapid viral decay in SIV-infected macaques on quadruple antiretroviral therapy. |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Preclinical (macaque) | J Virol Methods | Oral AZT, 3TC and lopinavir/ritonavir given to SHIV-infected macaques for 28 days; effect on the CD8 subset studied. |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preclinical (macaque) | PLoS Pathog | Highly intensified multidrug ART in SIVmac251-infected macaques; viral suppression and reservoir effects studied. Ritonavir's specific role is not confirmed from the abstract. |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Preclinical (macaque) | PLoS One | Suppressive cART plus the HDAC inhibitor SAHA in SIV-infected rhesus macaques, as a viral reservoir model. |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Preclinical | Microbes Infect | Built a SHIV carrying the HIV-1 protease gene as a macaque tool for testing protease inhibitors. |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Preclinical/Review | mBio | Lentiviral infection persists in brain despite effective ART in several models. |
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro susceptibility | Antimicrob Agents Chemother | Ritonavir inhibited SIVmac239 (EC50 about 13 nM) and HIV-1 (about 25 nM) |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility | Antivir Ther | Activity of approved anti-HIV drugs tested against HIV-2, SIV and SHIV strains |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Preclinical (macaque) | J Virol | Rapid viral decay in SIV-infected macaques on quadruple antiretroviral therapy |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preclinical (macaque) | PLoS Pathog | Highly intensified ART gave long-term viral suppression and a restricted reservoir in a simian AIDS model |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Preclinical (animal model) | mBio | Lentiviral infection persists in the brain despite effective ART |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Preclinical (macaque) | PLoS One | Suppressive cART plus the HDAC inhibitor SAHA in SIV-infected rhesus macaques |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Preclinical (macaque) | Microbes Infect | Novel SHIV with an HIV-1 protease gene, a tool for testing protease inhibitors in vivo |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Preclinical (macaque) | J Virol Methods | Oral HAART including lopinavir/ritonavir and its effect on the CD8 subset in SHIV-infected macaques |
+
+No randomised controlled trials in humans are available for this predicted indication.
 
 ## South Africa Market Information
 
-Nine SAHPRA registrations are recorded; the five main ones are listed. Approved indication text was not included in the records supplied.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 51/20.2.8/0687.686 | Hetrovir 100 | Tablet | Not available |
+| Reg. No. 51/20.2.8/0154 | Norvir Oral Powder | Sachet | Not available |
+| Reg. No. 56/20.2.8/0838 | Ronivid 400/50 mg | Film-coated tablet | Not available |
+| Reg. No. 45/20.2.8/0925 | Zatonav | Film-coated tablet | Not available |
+| Reg. No. 43/20.2.8/0356 | Aluvia 100/25 | Tablet | Not available |
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 51/20.2.8/0687.686 | Hetrovir 100 | Tablet |
-| Reg. No. 51/20.2.8/0154 | Norvir Oral Powder | Sachet |
-| Reg. No. 56/20.2.8/0838 | Ronivid 400/50 mg | Fct |
-| Reg. No. 45/20.2.8/0925 | Zatonav | Fct |
-| Reg. No. 43/20.2.8/0356 | Aluvia 100/25 | Tablet |
+There are 9 valid single-ingredient registrations in total; the table lists the first 5. The other four are Emcovir (tablet), Paxlovid (film-coated tablet), Quadrimune (capsule) and Lopimune 40/10 Oral Pellets (capsule). The data compiled for this report did not include Essential Medicines List status.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications and cautions suggested by the knowledge graph** (these come from drug-disease links in the model's knowledge graph, not from the approved label):
+- Cardiac: long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease, atrioventricular block, cardiomyopathy (including hypertrophic), myocardial ischaemia, coronary artery disease
+- Hepatic and biliary: liver disease, cirrhosis, gallbladder disease, hyperbilirubinaemia (including Gilbert syndrome), chronic hepatitis B virus infection
+- Metabolic: diabetes mellitus, hyperglycaemia, diabetic ketoacidosis, hypertriglyceridaemia, familial combined hyperlipidaemia, potassium deficiency, gout/hyperuricaemia
+- Other: pancreatitis, haemophilia
+
+**Drug Interactions:** 100 interactions were recorded (DDInter). Ritonavir is a strong CYP3A4 inhibitor. Examples from the first 20 entries:
+- **Major:** loperamide, triamcinolone, budesonide
+- **Moderate:** clarithromycin, dexamethasone, hydrocortisone, betamethasone, metformin, acarbose, alogliptin, canagliflozin, chlorpropamide, bupropion, aprepitant, metronidazole, alosetron, lorcaserin, albiglutide
+
+Please refer to the SAHPRA-approved Professional Information (PI) for the authoritative warnings and contraindications, which were not available for this report. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support for SIV infection is in vitro and macaque work, with no human trials. SIV is a research model rather than a treatable human disease. The other two predictions are weaker still:
-- **Feline acquired immunodeficiency syndrome:** likely a knowledge-graph artifact. The only linked trial is a human HIV-1 study of boosted darunavir, and there is no feline evidence.
-- **Rare neurodevelopmental disorder (ataxic gait, absent speech):** no plausible mechanistic link and no trials or literature.
+The predicted indication is an animal model of HIV, which is already an established use of ritonavir, so it adds no new human therapeutic opportunity. Evidence is limited to in vitro and macaque studies (L4), with no registered clinical trials. The other two predictions are a veterinary indication and a rare neurodevelopmental disorder with no supporting evidence (L5).
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism-of-action data from DrugBank
-- Confirmation of the approved indication text for the registered products
-- Reframing the question toward HIV infection in humans, where ritonavir's role is already established, rather than SIV or FIV
-- Expert mechanistic review before any follow-up on the feline and neurodevelopmental predictions
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Confirm whether any human-relevant repurposing question remains, since SIV is an animal model and the human HIV indication is already covered
+- Obtain the SAHPRA package insert and parse its warnings, contraindications and approved indications (a blocking gap for safety screening)
+- Obtain mechanism of action data (for example from DrugBank)
+- Review the cardiac, hepatic and metabolic cautions and the CYP3A4-related interaction burden before considering any new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

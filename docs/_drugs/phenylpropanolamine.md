@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenylpropanolamine
-parent: Model Prediction Only (L5)
-nav_order: 369
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 373
+evidence_level: L3
 indication_count: 5
 ---
 
 # Phenylpropanolamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L3** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,72 +29,99 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Phenylpropanolamine: From Registered Oral Decongestant Products to Nasal Cavity Disease
+# Phenylpropanolamine: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Phenylpropanolamine is an oral sympathomimetic marketed in South Africa in several cold and sinus products. The approved indication text is not recorded in the registration data.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, but **0 clinical trials** and **0 publications** currently support this prediction.
-This may reflect a known decongestant use rather than true repurposing, and there are serious safety concerns.
+Phenylpropanolamine is an oral nasal decongestant, originally used for allergic rhinitis, vasomotor rhinitis, the common cold, pharyngitis and related upper airway and conjunctival conditions.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but this largely overlaps with its existing uses rather than being a truly new indication.
+Currently there are **0 registered clinical trials** and **3 publications** (1 human comparative study and 2 preclinical cat studies) supporting this direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the registration data |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, and allergic or vernal conjunctivitis (the registration records compiled for South Africa contain no approved indication text) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L3 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 6 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the dataset. Phenylpropanolamine is generally described as an alpha-adrenergic agonist and indirect sympathomimetic. It constricts blood vessels in the nasal mucosa, which reduces swelling and congestion. This makes the link to nasal cavity disease mechanistically plausible.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, phenylpropanolamine is a sympathomimetic (alpha-adrenergic agonist) with both direct and indirect actions. It constricts the blood vessels of the nasal mucosa and so reduces congestion.
 
-The high score most likely reflects an existing decongestant use, not a new therapeutic direction. The registered product names (for example Sinutab and Flustat) are consistent with this. The label should be checked before this is treated as a true repurposing candidate.
+"Nasal cavity disease" is a broad category that includes the conditions for which the drug is already used (rhinitis, nasopharyngitis, common cold). The prediction therefore mostly restates the existing label rather than pointing to a new therapeutic area. The mechanism (vasoconstriction and decongestion) is plausible for this group of conditions, but it relieves symptoms only and does not treat the underlying cause.
 
-The other four predictions are weak or implausible. Acute laryngopharyngitis has only an indirect symptomatic link. Rosacea conjunctivitis, faucial diphtheria and cervical disc degenerative disorder have no plausible mechanism and are probably knowledge-graph artefacts.
+An important caveat is that oral phenylpropanolamine was withdrawn from the US market following a 2000 FDA action because of an increased risk of haemorrhagic stroke. Any repurposing would need strict safety guardrails and probably a restriction to alternative routes or formulations.
+
+Other predicted indications (acute laryngopharyngitis, rosacea conjunctivitis, faucial diphtheria, cervical disc degenerative disorder) are prediction-only at Evidence Level L5. They have either no credible mechanistic link or only a weak, symptom-level one, and they are not recommended for further pursuit.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [11345158](https://pubmed.ncbi.nlm.nih.gov/11345158/) | 2001 | Comparative clinical study (human) | Am J Rhinol | Compared the oral and topical nasal decongestant effects of phenylpropanolamine and d-pseudoephedrine, measuring changes in nasal cavity dimensions by acoustic rhinometry |
+| [10582118](https://pubmed.ncbi.nlm.nih.gov/10582118/) | 1999 | Preclinical (cat model) | Am J Rhinol | Combined histamine H1 and H3 receptor blockade produced nasal decongestion in a mast-cell-degranulator-induced model of nasal congestion |
+| [10582116](https://pubmed.ncbi.nlm.nih.gov/10582116/) | 1999 | Preclinical (cat model) | Am J Rhinol | Described the use of pressure and acoustic rhinometry to measure nasal resistance and geometry in a feline model of nasal congestion |
+
+---
 
 ## South Africa Market Information
 
-Six registrations are recorded in total. Details are available for the five below. The approved indication text is not recorded for any of them.
+All 6 registrations are valid single-ingredient products. The compiled records contain no approved indication text and no manufacturer details. Essential Medicines List (EML) inclusion status is not available in the compiled data.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 27/5.8/0101 | Sinuclear | Capsule | Not recorded |
-| Reg. No. Z/5.8/360 | Sinustat | Capsule | Not recorded |
-| Reg. No. F/5.8/275 | Sinutab | Tablet | Not recorded |
-| Reg. No. 28/5.8/0231 | Flustat | Syrup | Not recorded |
-| Reg. No. Y/5.8/264 | Adco-sinal co | Tablet | Not recorded |
+| Reg. No. 27/5.8/0101 | Sinuclear | Capsule | Not available in compiled data |
+| Reg. No. Z/5.8/360 | Sinustat | Capsule | Not available in compiled data |
+| Reg. No. F/5.8/275 | Sinutab | Tablet | Not available in compiled data |
+| Reg. No. 28/5.8/0231 | Flustat | Syrup | Not available in compiled data |
+| Reg. No. Y/5.8/264 | Adco-sinal co | Tablet | Not available in compiled data |
+
+One further registration is held for Sinutab With Codeine (Reg. No. F/5.8/279, tablet).
+
+---
 
 ## Safety Considerations
 
-- **Cardiovascular and stroke risk**: Phenylpropanolamine was withdrawn from the US market around 2000 because of hemorrhagic stroke risk. Its current regional marketing status should be verified. This concern also limits the case for pursuing any new indication.
+- **Haemorrhagic stroke risk**: Oral phenylpropanolamine was withdrawn from the US market (2000 FDA action) because of an increased risk of haemorrhagic stroke. This is the main safety concern for any expanded use.
+- **Conditions flagged as potential contraindications** (from knowledge-graph drug-disease links, not from label text): hypertension and other hypertensive disorders, liver failure and liver disease, kidney disease, epilepsy, insomnia, COPD, pancreatitis, gallbladder disease, thrombocytopenia, hypothyroidism and myxedema, peptic ulcer disease, inflammatory bowel disease, benign prostatic hyperplasia, hypotensive disorders, gout, substance abuse or dependence, sickle cell anaemia, haemophilia, and iron metabolism disorders (including haemochromatosis and Wilson disease). These need verification against the SAHPRA-approved Professional Information (PI).
+- **Drug interactions**: 100 interactions were identified, and the first 20 are shown in the compiled data.
+  - **Major**: bupropion, lorcaserin, diethylpropion, phentermine.
+  - **Moderate (examples)**: epinephrine, isometheptene, and antidiabetic agents such as metformin, acarbose, pioglitazone, repaglinide, chlorpropamide, the gliptins, the gliflozins, and the GLP-1 agonists albiglutide and dulaglutide. Bowel preparations (picosulfuric acid, polyethylene glycol) are also listed.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full warnings, contraindications and interactions. Report adverse drug reactions to SAHPRA.
+SAHPRA package insert warnings and contraindications were not available in the compiled data. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trial or literature support (L5), and the top-ranked indication probably overlaps with existing decongestant use. The stroke-related safety history is a further reason not to advance.
+The predicted indication "nasal cavity disease" largely overlaps with the existing label, so it adds little as a new indication. Supporting evidence is limited to one human comparative study and two animal studies, with no registered trials. The known haemorrhagic stroke signal and the many potential contraindications call for caution. Safety label data are also missing, which blocks progression to safety screening.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (PI) for the registered products, to confirm approved indications, warnings and contraindications
-- Confirmation of whether nasal cavity disease is already a labelled indication (which would make it a known use, not repurposing)
-- A benefit-risk review of hemorrhagic stroke risk in the South African regulatory context
-- Mechanism of action data from DrugBank
+- SAHPRA package insert warnings and contraindications (download and review the PI)
+- Mechanism of action data (for example from DrugBank)
+- Approved indication text for each South African registration
+- A clear definition of what is genuinely new compared with the current label, and a benefit-risk assessment that addresses the haemorrhagic stroke concern
+- Evaluation of alternative routes or formulations (for example topical) and of safer comparators such as pseudoephedrine
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

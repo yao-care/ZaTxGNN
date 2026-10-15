@@ -2,7 +2,7 @@
 layout: default
 title: Phenylalanine
 parent: Model Prediction Only (L5)
-nav_order: 367
+nav_order: 371
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Phenylalanine: From Amino Acid Component of Nutrition Products to Sclerosing Cholangitis
+# Phenylalanine: From Amino Acid Nutritional Component to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Phenylalanine is an essential amino acid. In South Africa it is registered as an ingredient in amino acid-containing infusion and nutrition products, and no formal approved indication text is recorded for it.
-The TxGNN model predicts it may be relevant to **sclerosing cholangitis**.
-There are **no clinical trials** and **4 publications** on this indication, none of which tests phenylalanine as a treatment, so this is a **model prediction only**.
+Phenylalanine is an essential amino acid. In South Africa it is registered as a component of parenteral nutrition and peritoneal dialysis solutions.
+The TxGNN model predicts it may be effective for **Sclerosing Cholangitis**, but there are **no registered clinical trials** and only **3 publications**, none of which show a therapeutic effect.
+The prediction is therefore computational only.
 
 ---
 
@@ -43,23 +43,25 @@ There are **no clinical trials** and **4 publications** on this indication, none
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records (products are amino acid infusion/nutrition preparations) |
+| Original Indication | Not stated in the registration data compiled for this report (all 11 SAHPRA registrations are amino acid-containing infusion products) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.43% |
-| Evidence Level | L4 (mechanism and observational metabolic data only; no interventional evidence) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 12 |
+| Number of SAHPRA Registrations | 11 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Phenylalanine is an essential amino acid and the metabolic precursor of tyrosine. It is supplied as part of amino acid solutions for parenteral nutrition and peritoneal dialysis. Its established role is nutritional, not disease-modifying.
+Detailed mechanism of action data is not currently available. Based on known information, phenylalanine is an essential amino acid that is a component of multi-ingredient parenteral nutrition and dialysis products. A therapeutic mechanism for sclerosing cholangitis has not been established.
 
-The only link to sclerosing cholangitis is metabolic. One cohort study (2005) measured plasma tyrosine in patients with primary biliary cirrhosis and primary sclerosing cholangitis and related it to fatigue. This shows that amino acid patterns are altered in cholestatic liver disease. It does not show that giving phenylalanine treats the condition.
+The data compiled for this report show no direct mechanistic link. The only loosely related paper (2005) studied plasma tyrosine, a phenylalanine metabolite, in relation to fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. It describes an association with a symptom, not a treatment effect. A plausible but unproven hypothesis is that aromatic amino acid metabolism is altered in cholestatic liver disease. That points to a possible biomarker role rather than a therapeutic one.
 
-The other retrieved papers do not support a therapeutic link. Two concern formylated bacterial chemotactic peptides (fMLP/fMLT-type), which are different molecules from free phenylalanine. One is a cancer metabolomics study. The TxGNN score is high, but it is a computational output and not backed by clinical data.
+Supplementing phenylalanine in a liver disease with impaired hepatic amino acid metabolism could also carry risk. The high TxGNN score should therefore be treated as a hypothesis-generating signal only.
+
+A second prediction, **congenital prothrombin deficiency** (score 99.26%), has no trials and no literature. Phenylalanine has no known role in prothrombin synthesis or function, so this prediction is likely a knowledge-graph artefact.
 
 ---
 
@@ -73,32 +75,38 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examined plasma tyrosine and amino acid patterns in relation to fatigue in PBC and PSC. Observational only. |
-| [32025163](https://pubmed.ncbi.nlm.nih.gov/32025163/) | 2020 | Cohort | Journal of Clinical and Experimental Hepatology | Serum metabolic profiling of cholangiocarcinoma vs benign hepatobiliary disease in a UK cohort. Biomarker-oriented; not a treatment study. |
-| [8000512](https://pubmed.ncbi.nlm.nih.gov/8000512/) | 1994 | Animal study | Journal of Gastroenterology | Rectal fMLT (a chemotactic tripeptide) induced small duct cholangitis in colitic rats. Involves a peptide, not free phenylalanine. |
-| [2103382](https://pubmed.ncbi.nlm.nih.gov/2103382/) | 1990 | Laboratory/assay | Journal of Gastroenterology and Hepatology | Radioimmunoassay showing enterohepatic circulation of bacterial chemotactic peptides in humans. Methods paper. |
+| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examined the relationship between plasma tyrosine and fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. This is an association with a symptom, not a treatment effect. |
+| [32025163](https://pubmed.ncbi.nlm.nih.gov/32025163/) | 2020 | Cohort (metabolomic) | J Clin Exp Hepatol | Serum metabolic signature of cholangiocarcinoma versus benign hepatobiliary disease. Biomarker study, not relevant to treatment. |
+| [2103382](https://pubmed.ncbi.nlm.nih.gov/2103382/) | 1990 | Preclinical/assay | J Gastroenterol Hepatol | Radioimmunoassay of a formylated peptide (fMLP) showing enterohepatic circulation. Not relevant to phenylalanine as a treatment. |
 
 ---
 
 ## South Africa Market Information
 
-Registration records do not include approved indication text or manufacturer. Some product names (for example Adco-ipratropium) do not obviously contain phenylalanine, so the drug-to-product mapping should be verified against the SAHPRA Professional Information.
+All 11 registrations are currently valid single-entity registrations. Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status was not available. The five main registrations are shown below.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated in registry record |
-| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated in registry record |
-| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not stated in registry record |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated in registry record |
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated in registry record |
+| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not available |
+| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not available |
+| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not available |
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available |
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not available |
 
-Showing 5 of 12 registrations.
+Other registrations include Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml and Adco-Ipratropium (ni201). The Adco-Ipratropium entry is listed as a vial and looks unusual for a phenylalanine-containing product, so its link to this drug should be verified.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+Warnings, contraindications and drug interaction data are not available from the label sources compiled for this report. The knowledge graph (PrimeKG, not label text) lists the following diseases as potential contraindications:
+
+- **Metabolic:** phenylketonuria and other disorders of phenylalanine metabolism, phosphorus metabolism disease
+- **Renal:** kidney disease, chronic kidney disease, chronic renal failure, end-stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy, pyoureter
+- **Calcium-related:** hypercalcaemia, humoral hypercalcaemia of malignancy, sarcoidosis
+- **Cardiovascular:** heart disease, cardiovascular disease, digitalis poisoning, ventricular fibrillation
+
+These are knowledge-graph associations and need confirmation against the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -107,16 +115,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a computational score and one observational tyrosine/fatigue study. No trials exist, and no retrieved paper tests phenylalanine as a therapy for sclerosing cholangitis. A second predicted indication, congenital prothrombin deficiency, has even weaker support (L5, no plausible mechanism, only a withdrawn trial of a different drug) and is also on Hold.
+The prediction is supported only by a model score. There are no clinical trials, and the available literature describes biomarker or symptom associations rather than a therapeutic effect. Whether the product labels contain safety information has not been established, and phenylalanine may carry risk in liver disease.
 
 **To proceed, the following is needed:**
-- A plausible mechanism linking phenylalanine or tyrosine metabolism to cholangitis pathology
-- Preclinical or early clinical data showing a treatment effect, not just altered amino acid levels
-- Safety data from the SAHPRA package insert (warnings, contraindications), which is currently missing and blocks safety screening
-- Mechanism of action data (for example from DrugBank)
-- Confirmation of which SAHPRA products actually contain phenylalanine
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Download and review the SAHPRA package inserts (warnings, contraindications, approved indications), a blocking gap for safety screening
+- Mechanism of action data, for example from DrugBank
+- Targeted literature search for a biological rationale linking phenylalanine to sclerosing cholangitis
+- Preclinical evidence of benefit and safety in cholestatic liver disease
+- Verification of the Adco-Ipratropium registration link
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

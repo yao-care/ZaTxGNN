@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Citric Acid
-parent: Model Prediction Only (L5)
-nav_order: 126
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 128
+evidence_level: L4
 indication_count: 10
 ---
 
 # Citric Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,96 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Citric Acid: From an Unstated Original Indication to Stomach Disease
+# Citric Acid: From Dyspepsia and Headache Disorder to Stomach Disease
 
 ## One-Sentence Summary
 
-Citric acid is registered in South Africa as an ingredient of one marketed product (Picolax 16.1g sachet). The registration data do not state an approved indication.
-The TxGNN model predicts it may be relevant to **Stomach Disease** (score 99.74%). The retrieval returned **29 clinical trials** and **20 publications**, but none shows citric acid treating a stomach condition, so this is a **model-only signal**.
+Citric acid is a widely used organic acid, originally linked to the treatment of dyspepsia and headache disorder.
+The TxGNN model predicts it may be useful for **stomach disease**, but there are **no registered clinical trials** and the **20 publications** retrieved are indirect (mostly diagnostic, metabolic or background papers), so this remains a research question rather than a supported treatment.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data |
+| Original Indication | Dyspepsia; headache disorder (from the TxGNN knowledge graph; no approved indication text is recorded for the SAHPRA registration) |
 | Predicted New Indication | Stomach disease |
-| TxGNN Prediction Score | 99.74% (TxGNN rank 1752) |
-| Evidence Level | L4 (background and mechanism-type literature only; no trial tests citric acid for a stomach disease) |
+| TxGNN Prediction Score | 99.74% |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Citric acid is a common organic acid and a component of the marketed product Picolax. No therapeutic mechanism linking it to stomach disease has been established.
+Currently, detailed mechanism of action data is not available. Based on known information, citric acid is already linked to dyspepsia, a gastric complaint, so a broader stomach-related use is plausibly adjacent to its existing use.
 
-In the retrieved stomach literature, citric acid appears in two roles, and neither is a treatment effect:
-- **Diagnostic aid:** a citric acid test meal used to slow gastric emptying and improve the 13C-urea breath test for *H. pylori*.
-- **Biological marker or constituent:** a component of gastric juice, and a serum metabolite reported to be elevated before gastric cancer onset in a Korean cohort.
+The supporting literature is indirect. The closest paper (PMID 31505905) concerns using a citric acid test meal to improve the accuracy of the 13C-urea breath test for *H. pylori*. This is a diagnostic aid, not a treatment effect. Other papers on gastric cancer, *H. pylori* physiology and ulcer diet mention citric acid or related metabolism only in passing.
 
-The high TxGNN score therefore most likely reflects network proximity in the knowledge graph. It is not supported by direct clinical data.
+The high TxGNN score reflects a model prediction only. Without mechanism data, the link between citric acid and gastric pathology cannot be rigorously established.
 
 ## Clinical Trial Evidence
 
-Of the 29 trials retrieved, none tests citric acid as a treatment for a stomach disease. Most matched only on the disease term. The most relevant are listed below. No SANCTR or PACTR identifiers were retrieved.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03812380](https://clinicaltrials.gov/study/NCT03812380) | Phase 3 | Terminated | 62 | Effervescent calcium magnesium citrate to avert complications of long-term proton pump inhibitor use (fracture, low magnesium, kidney disease). Citrate is a component of a supplement, not the treatment of stomach disease. |
-| [NCT02830789](https://clinicaltrials.gov/study/NCT02830789) | NA | Completed | 38 | Calcium citrate vs calcium carbonate for secondary hyperparathyroidism after Roux-en-Y gastric bypass. Citrate is used as a calcium salt. |
-| [NCT05196945](https://clinicaltrials.gov/study/NCT05196945) | Phase 4 | Unknown | 316 | Vonoprazan-amoxicillin for first-line *H. pylori* eradication. Citric acid is not an intervention (graded C). |
-| [NCT06760065](https://clinicaltrials.gov/study/NCT06760065) | Phase 3 | Not yet recruiting | 316 | Keverprazan-amoxicillin dual therapy vs quadruple therapy for *H. pylori* rescue. Does not involve citric acid (graded C). |
-| [NCT03342456](https://clinicaltrials.gov/study/NCT03342456) | Phase 4 | Completed | 184 | Ilaprazole/doxycycline bismuth quadruple therapy in *H. pylori*-infected duodenal ulcer. Citric acid is not an intervention. |
-| [NCT04329494](https://clinicaltrials.gov/study/NCT04329494) | Phase 1 | Recruiting | 49 | Pressurized intraperitoneal aerosolized chemotherapy (PIPAC) in peritoneal carcinomatosis, including gastric cancer. Unrelated to citric acid (graded C). |
-| [NCT05753306](https://clinicaltrials.gov/study/NCT05753306) | Phase 2 | Recruiting | 40 | Robotic cytoreduction plus hyperthermic intraperitoneal chemotherapy (HIPEC) in gastric cancer with limited peritoneal metastasis. Unrelated to citric acid. |
-| [NCT03320538](https://clinicaltrials.gov/study/NCT03320538) | NA | Completed | 360 | Herbal product Hou Gu Mi Xi in peptic ulcer disease. Unrelated to citric acid. |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No randomised trial of citric acid in stomach disease was found. The literature is diagnostic, metabolomic, observational or preclinical.
+Of the 20 papers retrieved, the most relevant are listed below. None tests citric acid as a treatment for stomach disease.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31505905](https://pubmed.ncbi.nlm.nih.gov/31505905/) | 2019 | Diagnostic clinical study | Gut Liver | Whether a citric acid test meal improves the accuracy of the 13C-urea breath test in Asian populations. This is a diagnostic use, not a treatment. |
-| [4000241](https://pubmed.ncbi.nlm.nih.gov/4000241/) | 1985 | Clinical physiology study | N Engl J Med | Calcium absorption in achlorhydria (absent stomach acid) was compared between calcium carbonate and a pH-adjusted citrate form. It concerns citrate as a calcium salt. |
-| [35900644](https://pubmed.ncbi.nlm.nih.gov/35900644/) | 2022 | Metabolomic cohort | Metabolomics | High serum L-carnitine and citric acid were detectable in Koreans before gastric cancer onset. Citric acid is a possible risk biomarker, not a therapy. |
-| [38959111](https://pubmed.ncbi.nlm.nih.gov/38959111/) | 2024 | Cohort/omics | Cell Rep | Metabolic signature subtypes of gastric cancer, including TCA cycle upregulation, with distinct prognosis. |
-| [37477784](https://pubmed.ncbi.nlm.nih.gov/37477784/) | 2024 | Review | Clin Transl Oncol | Energy metabolism as a treatment target in gastric cancer. Citric acid is not a therapeutic agent here. |
-| [9379358](https://pubmed.ncbi.nlm.nih.gov/9379358/) | 1997 | Animal study | J Pharm Pharmacol | MX1, a salt of a roxatidine metabolite with a bismuth-citric acid complex, protected against stress ulcers in rats. The effect belongs to the novel combination compound. |
-| [2072799](https://pubmed.ncbi.nlm.nih.gov/2072799/) | 1991 | Review | Med Clin North Am | Diet in ulcer disease. Restrictive diets are not supported. |
-| [6027230](https://pubmed.ncbi.nlm.nih.gov/6027230/) | 1967 | Observational | Gastroenterology | Lactic, pyruvic, citric and uric acid and urea content of human gastric juice. |
-| [9604442](https://pubmed.ncbi.nlm.nih.gov/9604442/) | 1998 | Review | Br Med Bull | Urea breath tests for detecting *H. pylori* colonisation. |
-| [26088916](https://pubmed.ncbi.nlm.nih.gov/26088916/) | 2015 | Metabolomic study | Appl Biochem Biotechnol | LC/MS metabolomic analysis of gastric cancer for biomarker discovery. |
+| [31505905](https://pubmed.ncbi.nlm.nih.gov/31505905/) | 2019 | Clinical diagnostic study | Gut and Liver | Discusses whether a citric acid meal improves 13C-urea breath test accuracy for *H. pylori* in Asian populations (diagnostic use only) |
+| [30970440](https://pubmed.ncbi.nlm.nih.gov/30970440/) | 2019 | Clinical study | Gut and Liver | Effect of citric acid on 13C-urea breath test accuracy after *H. pylori* eradication in a region with high atrophic gastritis prevalence |
+| [15854177](https://pubmed.ncbi.nlm.nih.gov/15854177/) | 2005 | Clinical study | Aliment Pharmacol Ther | Compares citric, malic and ascorbic acids on intragastric urease activity |
+| [2072799](https://pubmed.ncbi.nlm.nih.gov/2072799/) | 1991 | Review | Med Clin North Am | Diet in ulcer disease; restrictive diets not supported in the H2-inhibitor era |
+| [9889978](https://pubmed.ncbi.nlm.nih.gov/9889978/) | 1998 | Review | Adv Microb Physiol | Physiology and metabolism of *H. pylori* |
+| [39539553](https://pubmed.ncbi.nlm.nih.gov/39539553/) | 2024 | Review | Front Immunol | Role of cuproptosis in gastric cancer (tangential) |
+| [7106518](https://pubmed.ncbi.nlm.nih.gov/7106518/) | 1982 | Clinical observational | Gastroenterology | Salivary secretion in reflux oesophagitis |
+| [35900644](https://pubmed.ncbi.nlm.nih.gov/35900644/) | 2022 | Metabolomics | Metabolomics | Serum citric acid and L-carnitine levels before gastric cancer onset in Koreans (biomarker, not treatment) |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| A39/11.5/0058 | Picolax 16.1g | Sachet | Not stated in the registration data |
+| A39/11.5/0058 | Picolax 16.1g | Sachet | Not recorded in the data compiled for this report |
 
-The Essential Medicines List (EML) status is not available in the evidence pack.
+Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindication signals from the knowledge graph** (these come from drug-disease graph links, not from approved label text, and should be verified against the Professional Information): hypertension, kidney disease and impaired renal function, anuria, liver disease, gallbladder disease, congestive heart failure, adrenal insufficiency (including Addison disease and congenital adrenal hyperplasia), peptic ulcer disease, chronic diarrhoeal disease, thrombocytopenia and thrombocytopenic purpura, haemophilia, anaemia, gout, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, pyoureter, and substance abuse/dependence.
 
-A drug-interaction query returned no records.
+**Drug Interactions** (15 recorded):
+- **Major:** Aluminium hydroxide.
+- **Moderate:** Fluoroquinolone and related antibacterials, namely cinoxacin, ciprofloxacin, enoxacin, gatifloxacin, gemifloxacin, grepafloxacin, levofloxacin, lomefloxacin, moxifloxacin, nalidixic acid, norfloxacin, ofloxacin, sparfloxacin and trovafloxacin.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for label warnings and contraindications, which were not available for this report. Report adverse drug reactions to SAHPRA.
+
+## Other Predicted Indications (Brief)
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 2 | Pharyngitis | 99.68% | L5 | Citric acid is used to provoke cough in challenge tests, not to treat it; no supporting trials |
+| 3 | Acute laryngopharyngitis | 99.59% | L5 | No trials or literature |
+| 4 | Postgastrectomy syndrome | 99.58% | L5 | No trials or literature; may reflect similarity to gastrointestinal indications |
+| 5 | Nasal cavity disease | 99.52% | L5 | One unrelated paper on aluminium entry into the brain |
+| 8 | Rhinitis | 99.07% | L4 | Indirect: citric acid/surfactant antibiofilm work in a sheep sinusitis model; many papers use citric acid only as a cough challenge or taste-masking agent |
+| 9 | Thrombotic disease | 98.86% | L4 | Calcium chelation gives a plausible but indirect antithrombotic mechanism; the aspirin plus citric acid study is mainly an aspirin effect |
+
+Ranks 6, 7 and 10 (papillary conjunctivitis, blepharoconjunctivitis, ulcerative blepharitis) have no trials or literature.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but no trial or publication shows citric acid treating a stomach disease. Citric acid appears only as a diagnostic aid, a metabolic marker or a salt component. No mechanism or approved indication is documented.
+The prediction for stomach disease rests on a high model score alone. There are no clinical trials, and the literature is diagnostic or background rather than therapeutic. Mechanism data and label safety information are also missing, and the knowledge graph flags many potential contraindications.
 
 **To proceed, the following is needed:**
-- The SAHPRA Professional Information (package insert) for Picolax, covering the approved indication, warnings and contraindications. This is a blocking gap for safety screening.
-- Mechanism of action data, for example from DrugBank.
-- Any direct clinical evidence, such as a controlled study of citric acid for a defined stomach condition.
-
-For reference, among the other predictions, **thrombotic disease** (rank 9) has a real anticoagulant mechanism. Citrate chelates calcium and is used as regional citrate anticoagulation in renal replacement therapy and in catheter lock solutions. The strongest trial, [NCT04548713](https://clinicaltrials.gov/study/NCT04548713) (n=1449, completed), tests a multi-component lock solution. It is an existing use of citrate, not a new repurposing signal, and is classed as a research question.
+- Mechanism of action data (for example from DrugBank) to test the link to gastric pathology
+- The SAHPRA package insert (warnings, contraindications, approved indication) for Picolax 16.1g, which is a blocking gap for safety screening
+- A clear clinical question, such as whether any therapeutic gastric effect exists beyond the diagnostic breath-test use
+- Review of the renal, cardiac, adrenal and calcium-related safety signals, and of the aluminium hydroxide and fluoroquinolone interactions, before any new use is considered
+- Confirmation of formulation and route compatibility, since the registered product is a sachet whose intended use is not recorded
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

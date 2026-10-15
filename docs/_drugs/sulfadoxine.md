@@ -2,7 +2,7 @@
 layout: default
 title: Sulfadoxine
 parent: Model Prediction Only (L5)
-nav_order: 425
+nav_order: 429
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfadoxine: From Malaria (Fansidar) to Gout
+# Sulfadoxine: From Malaria (Registered Antimalarial Use) to Gout
 
 ## One-Sentence Summary
 
-Sulfadoxine is a long-acting sulfonamide antifolate, registered in South Africa as the tablet product Fansidar.
-The TxGNN model predicts it may be effective for **gout** (score 99.10%), but **no clinical trials and no supporting publications** were found for this direction.
-This is a model-only prediction with no plausible mechanism, so it should be treated as a likely graph artefact.
+Sulfadoxine is a long-acting sulfonamide that inhibits the folate pathway of microbes and is registered in South Africa as Fansidar tablets, where it is used mainly with pyrimethamine against malaria.
+The TxGNN model predicts it may be effective for **gout**, but **no clinical trials and no relevant publications** support this prediction.
+It is a graph-based signal only and should be treated as hypothesis-level.
 
 ---
 
@@ -43,10 +43,10 @@ This is a model-only prediction with no plausible mechanism, so it should be tre
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA record; Fansidar is a sulfadoxine-pyrimethamine antimalarial (malaria) |
+| Original Indication | Not stated in the SAHPRA record compiled for this report (the drug is generally used with pyrimethamine for malaria) |
 | Predicted New Indication | Gout |
-| TxGNN Prediction Score | 99.10% (rank 4,455) |
-| Evidence Level | L5 |
+| TxGNN Prediction Score | 99.10% |
+| Evidence Level | L5 (model prediction only) |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
@@ -55,25 +55,28 @@ This is a model-only prediction with no plausible mechanism, so it should be tre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Sulfadoxine is a sulfonamide antifolate that inhibits dihydropteroate synthase (DHPS), a pathway central to folate synthesis in microbes and malaria parasites. It has no known effect on urate metabolism.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, sulfadoxine is a long-acting sulfonamide that inhibits dihydropteroate synthase in the microbial folate pathway.
 
-Gout is a disorder of uric acid metabolism and crystal-driven inflammation. It has no biological relationship to malaria or to antifolate antimicrobial activity. The high TxGNN score most likely reflects connections in the knowledge graph rather than a real pharmacological link. A related obsolete "hyperuricemia" term also appears in the predictions, which supports the artefact interpretation.
+For gout, no plausible mechanism has been identified. Sulfadoxine has no known uricosuric or xanthine oxidase inhibitory activity. The high score (0.991) most likely reflects graph proximity, possibly through sulfonamide-class links to urate handling, rather than a real pharmacological relationship.
 
-**Conclusion:** no plausible mechanistic rationale can be identified for gout.
+Other predictions for this drug show the same weakness:
+- **Obsolete hyperuricemia (disease)** and **Lesch-Nyhan syndrome** are probably the same signal as gout, because they sit close to it in the knowledge graph. They are not independent evidence.
+- **Bronchitis** and **peritonitis** have only a general antibacterial rationale. Acute bronchitis is mostly viral, and better-characterised antibiotics exist.
+- **Diabetic nephropathy** has no therapeutic rationale. Sulfonamides are renally cleared and carry renal and hypoglycaemia concerns.
+- **Conjunctivitis**: the one paper describes ocular damage caused by sulfadoxine-pyrimethamine, which is an adverse effect, not a benefit.
+- **Two COL4A1-related rare vascular disorders** and **appendicitis** have no mechanistic link, and the literature matches look like retrieval artefacts.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR).
+Currently no related clinical trials registered for gout.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [22285617](https://pubmed.ncbi.nlm.nih.gov/22285617/) | 2012 | Case series | J Am Acad Dermatol | Five years of toxic epidermal necrolysis (TEN) treatment experience in a burn unit. It is a drug-eruption paper and does not evaluate sulfadoxine for gout, so it is likely a keyword match and offers no efficacy support. |
+Currently no related literature available for gout.
 
 ---
 
@@ -81,17 +84,32 @@ Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANC
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| K/20.2.6/68 | Fansidar | Tablet (oral) | Not listed in the retrieved record |
+| K/20.2.6/68 | Fansidar | Tablet (oral) | Indication text not available in the data compiled for this report |
+
+The Essential Medicines List (EML) status of this product could not be determined from the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-The SAHPRA package insert warnings and contraindications could not be retrieved, and no drug-interaction records were found. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindication signals from the knowledge graph** (drug-disease links in PrimeKG, not taken from label text, so they must be verified against the Professional Information):
+- Blood disorders: thrombocytopenia, neutropenia, agranulocytosis, anaemia, macrocytic anaemia, folic acid deficiency anaemia, G6PD deficiency
+- Kidney and liver disease, and gallbladder disease
+- Porphyria (including inherited porphyria and porphyrin metabolism disease)
+- Epilepsy
+- Metabolic conditions: glycogen storage disease, cystinuria, galactosemia
+- Pyoureter
 
-Signals from the retrieved literature and predictions, which are not a substitute for the PI:
-- **Severe skin reactions:** Publications on other predicted indications report Stevens-Johnson syndrome and toxic epidermal necrolysis, with serious ocular sequelae, after sulfadoxine-pyrimethamine.
-- **Renal risk:** Sulfonamides carry crystalluria and nephrotoxicity risk. This matters for any use in renally impaired patients.
+**Drug interactions** (DDInter, 50 interactions recorded, all 20 listed in the data compiled for this report rated Moderate):
+- Sulfonylureas and other insulin secretagogues: chlorpropamide, glimepiride, glipizide, glyburide, tolazamide, repaglinide, nateglinide
+- Insulins: aspart, degludec, detemir, glargine, glulisine, lispro, human (isophane, regular, zinc, zinc extended, inhaled rapid-acting)
+- Others: naltrexone, picosulfuric acid
+
+The main practical concern is additive blood-glucose lowering with antidiabetic agents.
+
+**Reported serious adverse effect (from the literature compiled for this report):** a case report describes Lyell syndrome (toxic epidermal necrolysis) with severe ocular sequelae after sulfadoxine-pyrimethamine.
+
+SAHPRA package insert warnings and contraindications were not available. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -100,20 +118,13 @@ Signals from the retrieved literature and predictions, which are not a substitut
 **Decision: Hold**
 
 **Rationale:**
-The gout prediction rests on the model score alone, with no trials, no relevant literature and no plausible mechanism. Sulfadoxine also carries known serious skin and renal safety risks, which weigh against exploring it for a non-infectious indication.
-
-**Other predictions reviewed (none support progression):**
-- **Conjunctivitis** is the only prediction with any historical signal. Sulfadoxine (Ro 4-4393) was studied in the 1960s as intermittent systemic therapy for trachoma, but design and outcomes are unverified and azithromycin is now standard. It is best treated as a research question rather than a repurposing candidate.
-- **Bronchitis, peritonitis and appendicitis:** antibacterial activity is theoretically relevant, but no sulfadoxine studies were found.
-- **Diabetic nephropathy:** no supporting evidence, and a renal safety concern.
-- **Genetic and metabolic disorders** (brain small vessel disease, the hematuria-retinal syndrome, Lesch-Nyhan syndrome): no plausible mechanism.
+The gout prediction rests only on a knowledge-graph score, with no trials, no supporting literature and no plausible mechanism. The drug also carries notable safety concerns (severe cutaneous reactions, blood disorders, renal effects), and established urate-lowering agents are available.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings and contraindications), which is a blocking gap for safety screening.
-- Mechanism of action data from DrugBank.
-- Any mechanistic or preclinical evidence linking sulfadoxine to urate metabolism. Without it, no further evaluation for gout is warranted.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Retrieve the SAHPRA package insert to confirm the registered indication, warnings and contraindications
+- Obtain mechanism of action data (for example from DrugBank) and test whether any urate-related mechanism exists
+- Run a systematic literature search specific to sulfonamides and urate handling, to check whether the graph signal has any real basis
+- Consider reprioritising to candidates with actual supporting evidence, since the other nine predictions are equally unsupported
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

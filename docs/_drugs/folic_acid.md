@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Folic Acid
-parent: Moderate Evidence (L3-L4)
-nav_order: 237
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 239
+evidence_level: L5
 indication_count: 1
 ---
 
 # Folic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Folic Acid: From Vitamin B Supplementation to Biotin Metabolic Disease
+# Folic Acid: From Vitamin Deficiency and Folate-Deficiency Anaemia to Biotin Metabolic Disease
 
 ## One-Sentence Summary
 
-Folic acid is a water-soluble B vitamin that is marketed in South Africa, but the registration data supplied do not state a specific approved indication.
-The TxGNN model predicts it may be effective for **biotin metabolic disease**.
-Only **12 clinical trials** and **20 publications** were retrieved, and **none directly tests folic acid in this condition**, so the prediction is best treated as a model output, not clinical support.
+Folic acid (vitamin B9) is originally used to treat vitamin deficiency disorders and anaemias, particularly folic acid deficiency anaemia.
+The TxGNN model predicts it may be effective for **biotin metabolic disease**, but there are **no registered clinical trials** and the **20 publications** retrieved are mostly general reviews on vitamins, none of which directly test folic acid in this condition.
 
 ---
 
@@ -43,81 +42,83 @@ Only **12 clinical trials** and **20 publications** were retrieved, and **none d
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data supplied |
+| Original Indication | Vitamin deficiency disorder; folic acid deficiency anaemia; iron deficiency anaemia; hypochromic and microcytic anaemia (SAHPRA registrations contain no indication text) |
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 99.49% |
-| Evidence Level | L4 |
+| Evidence Level | L5 (model prediction only; the supporting literature is indirect and does not test folic acid in this condition) |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 19 |
+| Number of SAHPRA Registrations | 11 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Folic acid and biotin are both water-soluble B vitamins that act as cofactors or substrates in enzymatic reactions (one-carbon metabolism for folate, carboxylation reactions for biotin). Narrative reviews group them together as "vitamin-responsive disorders" (for example PMID 23622402).
+Detailed mechanism of action data is not currently available. Folic acid is a water-soluble B vitamin that serves as a cofactor in one-carbon metabolism (including DNA synthesis and homocysteine-to-methionine conversion). Its efficacy in folate-deficiency anaemia is well established.
 
-This link is at the level of the vitamin class, not a drug-specific mechanism. Biotin metabolic diseases, such as biotinidase deficiency and holocarboxylase synthetase deficiency, are treated by replacing biotin, not folate. No evidence in the pack shows that folic acid corrects these defects.
+Folic acid and biotin (vitamin B7) are both water-soluble B vitamins, and vitamin-responsive disorders are often discussed together in the literature (for example, a review covering cobalamin, folate, biotin, B1 and E). This shared grouping is likely what drives the high prediction score.
 
-The very high TxGNN score most likely reflects the closeness of vitamin nodes in the knowledge graph. It should not be read as evidence of efficacy.
+However, the link is weak. Folic acid cannot replace biotin as a carboxylase cofactor. No direct mechanism is established by which folic acid would correct a primary biotin metabolic defect such as biotinidase deficiency or holocarboxylase synthetase deficiency. The score most likely reflects proximity in the vitamin/metabolic network rather than a validated therapeutic mechanism.
 
 ---
 
 ## Clinical Trial Evidence
 
-The search returned 12 registered trials. None studies folic acid as a treatment for biotin metabolic disease. Most are multi-nutrient supplement studies or screening and platform studies, so folic acid's own contribution cannot be separated out. The 10 most relevant are listed below.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Phase 2 | Completed | 75 | Vitamin and mineral supplementation for neuropathy and nephropathy complications in type 2 diabetes. It is the only Phase 2 trial with B-vitamins, but the disease is different, so it is indirect at best. |
-| [NCT01643187](https://clinicaltrials.gov/study/NCT01643187) | Phase 2 | Unknown | 1000 | Fortified food vs milk in malnourished children. Serum and erythrocyte folic acid were among the outcomes measured. It is not a biotin disease study. |
-| [NCT05687474](https://clinicaltrials.gov/study/NCT05687474) | N/A | Completed | 6824 | Genomic newborn screening for 126 treatable genetic diseases. It is a screening programme with no folic acid intervention. |
-| [NCT03444155](https://clinicaltrials.gov/study/NCT03444155) | N/A | Completed | 30 | Pilot comparing natural and synthetic vitamin B complexes. It is small and not disease-specific. |
-| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | N/A | Unknown | 200 | Crossover study of Q10 ubiquinol plus B and E vitamins in autism and Phelan-McDermid syndrome. It is multi-component and a different indication. |
-| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | N/A | Completed | 39 | Nutritional intervention for oxidative stress and metabolic pathology in autism. It is multi-component and a different condition. |
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Transdermal vitamin absorption after bariatric surgery. It addresses malabsorption, not a biotin metabolic defect. |
-| [NCT01474486](https://clinicaltrials.gov/study/NCT01474486) | N/A | Completed | 40 | Multi-micronutrient intervention in heart failure palliative care. The population is unrelated. |
-| [NCT01558193](https://clinicaltrials.gov/study/NCT01558193) | N/A | Completed | 202 | Multivitamin and mineral supplementation, with or without fatty acids, on impulsivity and aggression. It is behavioural and unrelated. |
-| [NCT04586348](https://clinicaltrials.gov/study/NCT04586348) | Phase 4 | Active, not recruiting | 794 | Prenatal iodine supplementation and child neurodevelopment. It concerns a different nutrient and outcome. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-The 20 retrieved publications are mostly narrative reviews, with no randomised trials on this question. The 10 most relevant are listed below.
+Of the 20 publications retrieved, none is an RCT. Most are narrative reviews or general vitamin studies. The most relevant are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Review | Handb Clin Neurol | Covers vitamin-responsive disorders (cobalamin, folate, biotin, B1, E). It is the main source of the class-level link between folate and biotin disorders. |
-| [30557456](https://pubmed.ncbi.nlm.nih.gov/30557456/) | 2019 | Review | Mov Disord | Movement disorders in treatable inborn errors of metabolism. |
-| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Review | Acta Vitaminol Enzymol | Vitamins in metabolic diseases, covering malabsorption, errors of vitamin metabolism and vitamin-dependent syndromes. |
-| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Not classified | Pediatr Clin North Am | Megavitamin-responsive aminoacidopathies. Supports therapeutic trials of cofactors on a case-by-case basis. |
-| [779426](https://pubmed.ncbi.nlm.nih.gov/779426/) | 1976 | Not classified | Adv Hum Genet | Vitamin-responsive inherited metabolic disorders. No abstract available. |
-| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | Not classified | Ryoikibetsu Shokogun Shirizu | Vitamin dependency syndrome. No abstract available. |
-| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Review | Int J Mol Sci | Vitamin B12 deficiency and the nervous system. It mentions biotin and folic acid only as related metabolic steps. |
-| [37123774](https://pubmed.ncbi.nlm.nih.gov/37123774/) | 2023 | Review | Cureus | Vitamins and diabetes. Thiamine, pyridoxine and biotin levels are lower in diabetes. |
-| [25388747](https://pubmed.ncbi.nlm.nih.gov/25388747/) | 2015 | Review | Endocr Metab Immune Disord Drug Targets | Vitamins and type 2 diabetes. Similar findings on B-vitamin levels. |
-| [39828265](https://pubmed.ncbi.nlm.nih.gov/39828265/) | 2025 | Umbrella review | Asia Pac J Clin Nutr | Water-soluble vitamins and glycaemic control in type 2 diabetes. It is not about biotin metabolic disease. |
+| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Review | Handbook of Clinical Neurology | Covers vitamin-responsive disorders (cobalamin, folate, biotin, B1, E). Folate and B12 deficiency present with megaloblastic anaemia and neurological signs, and rare inborn errors of vitamin metabolism are described. |
+| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Review | Int J Mol Sci | Vitamin B12 deficiency and the nervous system. Notes B12 and biotin share metabolic pathways (succinyl-CoA synthesis), and B12 and folate share methionine synthesis. |
+| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Review | Acta Vitaminol Enzymol | Reviews vitamins in inborn metabolic errors and vitamin-dependent syndromes, which may need pharmacological rather than nutritional doses. |
+| [14989256](https://pubmed.ncbi.nlm.nih.gov/14989256/) | 2004 | Review | Arch Biochem Biophys | Micronutrient deficiencies (including B12, folic acid, B6) may damage DNA, supporting optimal micronutrient intake. |
+| [41692080](https://pubmed.ncbi.nlm.nih.gov/41692080/) | 2026 | Review | Clin Dermatol | Overview of B vitamins in cellular metabolism and erythrocyte synthesis. |
+| [39828265](https://pubmed.ncbi.nlm.nih.gov/39828265/) | 2025 | Umbrella review | Asia Pac J Clin Nutr | Water-soluble vitamins and glycaemic control in type 2 diabetes. Indirect to the predicted indication. |
+| [13199008](https://pubmed.ncbi.nlm.nih.gov/13199008/) | 1954 | Animal study | Biologica Latina | Combined biotin and folic acid deficiency induced in rats on a purified diet with phthalylsulfathiazole. |
+
+These publications address vitamins in general. None demonstrates that folic acid treats biotin metabolic disease.
 
 ---
 
 ## South Africa Market Information
 
-The 5 main registrations are listed below. Several are multi-ingredient products in which folic acid is one component. The registration data supplied contain no approved indication text or manufacturer, and Essential Medicines List (EML) status is not included.
+All 11 registrations are valid single-ingredient entries. No approved-indication text is recorded for any of them. The five main ones are listed below. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| A40/22.2/0592 | Gulf folic acid | Tablet | Not stated in the data supplied |
-| H0689 (ACT 101/1965) | Autrin | Capsule | Not stated in the data supplied |
-| G/10.1/176 | Linctifed wet cough | Syrup | Not stated in the data supplied |
-| U/22.1.4/200 | Soluvit novum 10ml vials | Injection | Not stated in the data supplied |
-| H2466 | Complenatal Ff | Capsule | Not stated in the data supplied |
+| A40/22.2/0592 | Gulf folic acid | Tablet | Not recorded |
+| H0689 (ACT 101/1965) | Autrin | Capsule | Not recorded |
+| H2466 | Complenatal FF | Capsule | Not recorded |
+| H2062 (ACT 101) | Filibon | Capsule | Not recorded |
+| 36/22.1/0508 | Cernevit | Infusion | Not recorded |
+
+The remaining six include Soluvit Novum (injection), Gericomplex (capsule), Linctifed wet cough (syrup), Dextrose 20% in water (infusion), ITN neonatal TPN, and Spiriva Respimat (inhaler). Several of these entries look like multivitamin or parenteral nutrition products, and some (Linctifed, Spiriva) are unlikely to contain folic acid as a relevant active ingredient. The registration mapping should be verified against the SAHPRA register.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications flagged in the knowledge graph (not from label text):** The TxGNN knowledge graph links folic acid to contraindication relationships with several conditions, including:
+- Haematological: sickle cell anaemia, haemolytic anaemia, hereditary haemochromatosis, haemosiderosis
+- Renal and metabolic: kidney disease, nephrolithiasis, nephrocalcinosis, primary hyperoxaluria, hypercalcaemia, hyperparathyroidism, diabetic ketoacidosis, diabetes mellitus
+- Gastrointestinal: peptic ulcer disease, ulcerative colitis, inflammatory bowel disease, diarrhoeal disease, constipation
+- Other: bipolar disorder, sarcoidosis, Wilson disease
+
+These graph edges may be noisy or reflect other compounds, and should not be read as label contraindications. Verify them against the approved Professional Information.
+
+**Drug Interactions:** The interaction check returned 100 entries. The main ones with a graded severity are:
+- Pancrelipase: Moderate
+- Sulfasalazine: Minor
+
+Many other entries have no severity grade, including pantoprazole, omeprazole, lansoprazole, metformin, glimepiride, mesalazine, prednisone and simvastatin.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications, which were not available in the data compiled for this report. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -126,13 +127,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score appears to come from vitamin-cluster proximity in the knowledge graph. No trial or publication shows that folic acid treats biotin metabolic disease, whose standard treatment is biotin replacement. Drug-side information is also incomplete, since the original indication and mechanism of action are missing and safety information has not been reviewed.
+The prediction rests only on model score and general vitamin-group proximity. There are no registered trials, and no publication tests folic acid in biotin metabolic disorders. Folic acid does not substitute for biotin as a cofactor, and the label safety data needed for screening is missing.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications and approved indications). Safety screening cannot start without it.
-- Mechanism of action data, for example from DrugBank.
-- Confirmation of the registered indication for the main folic acid products.
-- Any evidence that folate corrects or modifies a biotin pathway defect. If none exists, the candidate should be deprioritised.
+- SAHPRA package insert warnings and contraindications (a blocking gap)
+- Mechanism of action data to assess a plausible link
+- Targeted evidence on folic acid in biotinidase or holocarboxylase synthetase deficiency, or biotin-related metabolic disease
+- Clarification of whether the prediction reflects a real therapeutic opportunity or a network artefact
+- Verification of the SAHPRA product-to-active-ingredient mapping and approved indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

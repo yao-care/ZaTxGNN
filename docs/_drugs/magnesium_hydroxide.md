@@ -2,7 +2,7 @@
 layout: default
 title: Magnesium Hydroxide
 parent: Moderate Evidence (L3-L4)
-nav_order: 305
+nav_order: 307
 evidence_level: L3
 indication_count: 6
 ---
@@ -29,96 +29,91 @@ Evidence Level: **L3** | Predicted Indications: **6**
 
 </div>
 
-# Magnesium Hydroxide: From Antacid Use to Active Peptic Ulcer Disease
+# Magnesium Hydroxide: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-Magnesium hydroxide is an antacid that neutralises gastric acid, and it is registered in South Africa in products such as Mucaine suspension. The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is closer to confirming a classic antacid use than to a genuine repurposing signal. It currently has **0 registered clinical trials** and **20 publications** for this indication. Most of the publications are older reviews, small studies and animal work, and most of the human data cover aluminium/magnesium combinations rather than magnesium hydroxide alone.
-
----
+Magnesium hydroxide is an antacid, originally used for peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis, constipation and dyspepsia.
+The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is essentially an on-label or near-label use rather than true repurposing.
+There are **0 registered clinical trials** and **9 publications** for this prediction, mostly older studies of aluminium/magnesium hydroxide combinations rather than magnesium hydroxide alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis, constipation, dyspepsia (the SAHPRA licence data compiled for this report contain no approved indication text) |
 | Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L3 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 entries (2 distinct registration numbers; Mucaine is listed twice) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Number of SAHPRA Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on the literature, magnesium hydroxide is an antacid. It neutralises secreted gastric acid, raises intragastric pH and reduces pepsin activity.
+Currently, detailed mechanism of action data is not available. Based on known information, magnesium hydroxide is an antacid. It neutralises gastric acid, which is the basis of its existing use in peptic ulcer disease, reflux and dyspepsia.
 
-Peptic ulcer is the classic use of antacids, so the prediction is plausible mainly because it matches the drug class. Animal studies of aluminium/magnesium hydroxide antacids also suggest a gastroprotective effect through endogenous prostaglandins (PMID 2595273). Small human mucosal studies point in the same direction, but they used combination products.
+Active peptic ulcer disease is closely related to the original indications, so the high prediction score most likely reflects proximity to them in the knowledge graph rather than a new therapeutic hypothesis. A rat study also suggests that aluminium/magnesium hydroxide antacids may protect the gastric mucosa through endogenous prostaglandins.
 
-Antacids are now mostly adjunctive or symptomatic therapy next to proton pump inhibitors (PPIs) and H2 blockers. The literature is also dominated by aluminium/magnesium combinations, so the effect of magnesium hydroxide on its own is not separated out.
-
----
+Several older clinical studies compared aluminium/magnesium hydroxide combinations with H2 blockers or other agents in ulcer patients. None isolates magnesium hydroxide as a single agent, and most predate modern PPI-based care.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for active peptic ulcer disease.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7034155](https://pubmed.ncbi.nlm.nih.gov/7034155/) | 1981 | RCT | Scand J Gastroenterol | 12-week double-blind trial in 72 duodenal or prepyloric ulcer patients. Antacid suspension plus hyoscyamine gave a 50% healing rate at 3 weeks, versus 67% with cimetidine and placebo as the third arm. The abstract is truncated, so the antacid-versus-placebo result needs full-text review. |
-| [3018068](https://pubmed.ncbi.nlm.nih.gov/3018068/) | 1986 | RCT | J Clin Gastroenterol | Compared sodium bicarbonate with aluminium/magnesium hydroxide for postprandial gastric acid buffering in duodenal ulcer patients. This is a pharmacodynamic endpoint, not ulcer healing. |
-| [3003883](https://pubmed.ncbi.nlm.nih.gov/3003883/) | 1985 | Randomised trial | Scand J Gastroenterol | 80 duodenal ulcer patients on an antacid tablet were randomised to a high- or low-fibre diet. Healing was 67.5% versus 60%. The antacid was background therapy, not the tested variable. |
-| [37146](https://pubmed.ncbi.nlm.nih.gov/37146/) | 1979 | Review | Fortschr Med | Antacid use in peptic ulcer rests on acid neutralisation and pepsin inhibition. Dosing of 40-80 mval of acid-neutralising capacity, taken 1 and 3 hours after meals, is recommended. |
-| [22950493](https://pubmed.ncbi.nlm.nih.gov/22950493/) | 2013 | Review | Curr Pharm Des | Updates the mucosal-protective and ulcer-healing actions of antacids beyond acid neutralisation. |
-| [6086186](https://pubmed.ncbi.nlm.nih.gov/6086186/) | 1984 | Review | Clin Gastroenterol | Reviews antacids and anticholinergics in duodenal ulcer treatment. |
-| [8260735](https://pubmed.ncbi.nlm.nih.gov/8260735/) | 1993 | Review | J Physiol Pharmacol | Antacids reduce gastric acidity and peptic activity. Aluminium-containing antacids may also enhance mucosal defence via prostaglandins. |
-| [2401189](https://pubmed.ncbi.nlm.nih.gov/2401189/) | 1990 | Retrospective clinical study | Drugs Exp Clin Res | 267 children with peptic symptoms, comparing the efficacy of several drug types in acute disease and relapse. |
-| [2595273](https://pubmed.ncbi.nlm.nih.gov/2595273/) | 1989 | Preclinical (animal) | Scand J Gastroenterol | In rats, an Al/Mg hydroxide antacid dose-dependently prevented gastric lesions, similar to a PGE2 analogue. Endogenous prostanoids are involved. |
-| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | In vitro product analysis | Med Pharm Rep | Evaluated the acid-neutralising capacity of antacids marketed in Morocco. |
-
----
+| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT | Clin Pharmacol Ther | Nizatidine vs placebo in benign gastric ulcer; antacid was rescue medication, not the test drug |
+| [3903784](https://pubmed.ncbi.nlm.nih.gov/3903784/) | 1985 | Controlled trial | Pharmatherapeutica | Triletide vs aluminium/magnesium hydroxide in 30 outpatients with gastric or duodenal ulcer over 8 weeks |
+| [4059297](https://pubmed.ncbi.nlm.nih.gov/4059297/) | 1985 | Clinical trial | Pharmatherapeutica | Antacid, triletide or both in 30 duodenal ulcer outpatients over 8 weeks |
+| [3018068](https://pubmed.ncbi.nlm.nih.gov/3018068/) | 1986 | Clinical physiology study | J Clin Gastroenterol | Sodium bicarbonate vs aluminium/magnesium hydroxide on postprandial gastric acid in duodenal ulcer patients |
+| [9305482](https://pubmed.ncbi.nlm.nih.gov/9305482/) | 1997 | Cohort/clinical study | Aliment Pharmacol Ther | H2 blockers and antacids may aggravate H. pylori gastritis in duodenal ulcer patients |
+| [3660893](https://pubmed.ncbi.nlm.nih.gov/3660893/) | 1987 | Review | Z Gastroenterol | Aluminium/magnesium hydroxide mixtures healed gastric and duodenal ulcers better than placebo and comparably to H2 blockers |
+| [2228342](https://pubmed.ncbi.nlm.nih.gov/2228342/) | 1990 | Review | Int J Clin Pharmacol Res | Antacids may raise prostaglandin synthesis and protect the gastroduodenal mucosa |
+| [2595273](https://pubmed.ncbi.nlm.nih.gov/2595273/) | 1989 | Preclinical (rat) | Scand J Gastroenterol | Aluminium/magnesium hydroxide antacid prevented experimental gastric lesions in a dose-dependent way |
+| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | In vitro/product evaluation | Med Pharm Rep | Acid-neutralising capacity of antacids marketed in Morocco |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. E/11.4.3/1223 | Mucaine | Suspension |
-| Reg. No. 41/1.2/0373 | Voxra Xl 150 | Tablet |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| E/11.4.3/1223 | Mucaine | Suspension | Not available in the data compiled for this report |
+| 41/1.2/0373 | Voxra Xl 150 | Tablet | Not available in the data compiled for this report |
 
-Approved indication text and Essential Medicines List (EML) status are not available in the source data, so they are not shown. The Mucaine entry appears twice in the source data under the same registration number.
-
----
+Both registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindication-related conditions (from the TxGNN knowledge graph, not label text):**
+- Renal: kidney disease, impaired renal function, nephrolithiasis, nephrocalcinosis, acute urate nephropathy
+- Mineral and bone: hypercalcaemia, hyperparathyroidism, osteitis fibrosa, phosphorus metabolism disease, hypophosphataemia, lytic metastatic bone lesion
+- Gastrointestinal: diarrhoeal disease (including chronic), appendicitis, intestinal impaction, haemorrhoids
+- Gastric cancers: gastric neoplasm and carcinoma, including diffuse adenocarcinoma and linitis plastica
+- Other: liver disease, gallbladder disease, sarcoidosis, pyoureter
 
-Signals from the retrieved evidence that should guide guardrails:
-- **Drug interactions:** A Phase 1 study (NCT00446316) examined the effect of an Mg/Al antacid on imatinib pharmacokinetics. Chelation-type interactions should be checked, even though the interaction database returned no entries. One small study found no interaction between an Al/Mg hydroxide antacid and cimetidine (PMID 6613216).
-- **Renal impairment:** Hypermagnesaemia risk should be considered in patients with reduced renal function.
+**Drug interactions (100 recorded; a selection):**
+- **Major:** dolutegravir
+- **Moderate:** abiraterone, acalabrutinib, tramadol, acetazolamide, doxycycline, hydrocortisone, salbutamol, alendronic acid, alfuzosin, hydrochlorothiazide, amiloride, amiodarone, amisulpride, dextroamphetamine
+- **Minor:** acebutolol, famotidine, ranitidine, ibuprofen, alprazolam
 
----
+**Literature safety signals:** Mineral metabolism changes with long-term antacid use, and a case report of osteomalacia with high-dose magnesium hydroxide used as a laxative.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for label warnings and contraindications, which were not available for this report. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Antacid use in peptic ulcer is long established, and the drug is already marketed in South Africa. The evidence is limited to older reviews, small mostly combination-product studies and animal data, with no registered trials. It should be positioned only as adjunctive or symptomatic relief alongside PPIs or H2 blockers.
+Active peptic ulcer disease is essentially an existing use of an antacid, so this is not a true repurposing signal. The supporting evidence is limited to older, mostly combination-product studies, with no registered trials and no magnesium hydroxide-specific data.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (blocking gap for safety screening)
-- Mechanism of action data, for example from DrugBank
-- Full-text review of the 1980s controlled studies (such as PMID 7034155) to confirm design and product composition, which may raise the evidence level
-- A modern controlled study, or a subgroup analysis, that separates the magnesium hydroxide effect from the aluminium component
-- Confirmation of the active ingredients and approved indications of the registered products
-
-Results are for research reference only and do not constitute medical advice. Predicted indications require clinical validation before use.
+- SAHPRA Professional Information (PI) warnings, contraindications and approved indications for Mucaine and Voxra Xl 150
+- Detailed mechanism of action data
+- Magnesium hydroxide-specific clinical evidence, ideally comparing it with current PPI-based care
+- A review of renal and mineral-metabolism risks and the major dolutegravir interaction for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

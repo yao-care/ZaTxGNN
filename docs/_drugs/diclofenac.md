@@ -2,7 +2,7 @@
 layout: default
 title: Diclofenac
 parent: Model Prediction Only (L5)
-nav_order: 173
+nav_order: 175
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,105 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diclofenac: From NSAID Pain and Inflammation Use to Hypotrichosis Simplex of the Scalp
+# Diclofenac: From Osteoarthritis and Rheumatoid Arthritis to Juvenile Idiopathic Arthritis
 
 ## One-Sentence Summary
 
-Diclofenac is a nonsteroidal anti-inflammatory drug (NSAID) widely marketed in South Africa for pain and inflammation. The TxGNN model ranks **hypotrichosis simplex of the scalp** as its top new-indication prediction, but there are **0 clinical trials** and **0 publications** behind it. The link is a graph-based prediction only and is not credible mechanistically.
+Diclofenac is a non-steroidal anti-inflammatory drug (NSAID) originally used for arthritic conditions (rheumatoid arthritis, osteoarthritis, ankylosing spondylitis) and for actinic keratosis when applied topically.
+The TxGNN model's top-ranked predictions are mostly rare genetic disorders with no supporting evidence. The only prediction with a credible evidence base is **juvenile idiopathic arthritis (JIA)**, supported by **0 clinical trials** and **14 publications** (mostly older, small or indirect studies).
+This report focuses on JIA, the most plausible candidate.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data supplied (diclofenac is generally used as an NSAID for pain and inflammation) |
-| Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L5 |
+| Original Indication | Arthritis (rheumatoid arthritis, osteoarthritis, ankylosing spondylitis) and actinic keratosis (from the knowledge graph; the registration records compiled for this report contain no approved indication text) |
+| Predicted New Indication | Juvenile idiopathic arthritis (rank 9 of the top 10 predictions; the top-ranked prediction, hypotrichosis simplex of the scalp, has no evidence and no mechanistic link) |
+| TxGNN Prediction Score | 99.25% (JIA); 99.69% for the top-ranked prediction |
+| Evidence Level | L3 (JIA); L5 for the other nine predictions |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 14 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold overall; JIA is flagged as a research question (Proceed with Guardrails only if the data needs below are met) |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Diclofenac is an NSAID and is generally understood to work by inhibiting cyclooxygenase (COX), which lowers prostaglandin-driven pain and inflammation.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, diclofenac is a COX-1/COX-2 inhibitor. It reduces prostaglandin-mediated inflammation, pain and swelling, which is the same basis for its use in rheumatoid arthritis and osteoarthritis.
 
-The predicted disease is a monogenic hair-follicle disorder (for example, CDSN, APCDD1 or RPL21 variants). COX inhibition does not address these underlying defects. **No credible mechanistic link was identified**, and the high score reflects a knowledge-graph association, not clinical or biological support. This prediction should not be regarded as reasonable without new evidence.
+JIA is an inflammatory arthritis of childhood, and NSAIDs are an established symptomatic therapy for it. The mechanistic fit is therefore strong. Importantly, the benefit is symptomatic rather than disease-modifying, and the long-term safety of NSAIDs in children (gastrointestinal, renal, hepatic) needs consideration.
+
+The other nine top predictions (for example hypotrichosis simplex, pseudoachondroplasia, brachyolmia, WHIM syndrome, alopecia areata) are monogenic or autoimmune conditions in which COX inhibition has no plausible disease-modifying role. Their high scores reflect graph-based patterns only and should not be acted on.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for hypotrichosis simplex of the scalp.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available for hypotrichosis simplex of the scalp.
+Selected publications on JIA (priority given to diclofenac-specific clinical studies):
 
-## Other Predicted Candidates (Context)
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [3052965](https://pubmed.ncbi.nlm.nih.gov/3052965/) | 1988 | Crossover study | Clin Exp Rheumatol | Single-blind 12-week comparison of naproxen, tolmetin and diclofenac (2 mg/kg/day) in 28 children with seronegative juvenile chronic arthritis |
+| [6361986](https://pubmed.ncbi.nlm.nih.gov/6361986/) | 1983 | Clinical study | Scand J Rheumatol | Diclofenac sodium in juvenile rheumatoid arthritis, including pharmacokinetics in children aged 2-7 |
+| [2235663](https://pubmed.ncbi.nlm.nih.gov/2235663/) | 1990 | Open-label study | Pediatr Med Chir | Open non-comparative study of diclofenac in 26 patients (aged 2-16) with polyarticular juvenile chronic arthritis |
+| [10756785](https://pubmed.ncbi.nlm.nih.gov/10756785/) | 1997 | Comparative study | Rev Med Chir Soc Med Nat Iasi | 100 children with juvenile chronic arthritis given diclofenac, paduden or aspirin; long-term clinical and laboratory follow-up |
+| [8422565](https://pubmed.ncbi.nlm.nih.gov/8422565/) | 1993 | Review | Br J Rheumatol | Diclofenac, ibuprofen, tolmetin and naproxen are reported as equal in efficacy and tolerance for joint symptoms in children; salicylates and indomethacin are no more effective but more toxic |
+| [11735667](https://pubmed.ncbi.nlm.nih.gov/11735667/) | 2001 | Review | Paediatr Drugs | Risks and benefits of NSAIDs in children compared with paracetamol |
+| [1884567](https://pubmed.ncbi.nlm.nih.gov/1884567/) | 1991 | Review | Clin Pharmacokinet | Pharmacokinetics of drugs used in juvenile arthritis |
+| [17474954](https://pubmed.ncbi.nlm.nih.gov/17474954/) | 2007 | Survey | Paediatr Anaesth | Diclofenac is licensed (in the UK) for children over 1 year for juvenile rheumatoid arthritis; paediatric PK/PD data in infants are lacking |
 
-Nine other candidates were predicted. Only juvenile idiopathic arthritis (JIA) has any linked evidence, and it is indirect.
+The evidence is old, small-scale and largely uncontrolled. The remaining retrieved papers are indirect (for example reviews on nabumetone or naproxen, or a case series on JIA presenting with alveolar hemorrhage).
 
-| Rank | Predicted Indication | Score | Evidence Level | Comment |
-|------|------|------|------|------|
-| 9 | Juvenile idiopathic arthritis | 99.25% | L4 | NSAIDs are a recognised symptomatic option in JIA, but there is no diclofenac-specific trial or literature. NSAIDs are not disease-modifying. |
-| 8 | Diffuse alopecia areata | 99.57% | L5 | Nominal plausibility (autoimmune inflammation), but established treatments act on immune pathways, not COX. |
-| 3 | Pseudoachondroplasia | 99.66% | L5 | NSAIDs might relieve joint pain, but there is no evidence of disease modification. |
-| 7 | Myosclerosis | 99.60% | L5 | At most a symptomatic link, which is speculative. |
-| 2, 4, 5, 6, 10 | Hunter-Thompson acromesomelic dysplasia, brachyolmia, brachyolmia-amelogenesis imperfecta syndrome, congenital hypotrichosis milia, WHIM syndrome | 99.15–99.67% | L5 | No credible mechanistic link. |
-
-Trials linked to JIA (both indirectly relevant, grade C):
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05871086](https://clinicaltrials.gov/study/NCT05871086) | Phase 2/3 | Unknown | 60 | Coenzyme Q10 supplementation in JIA. Diclofenac is not the intervention. |
-| [NCT00688545](https://clinicaltrials.gov/study/NCT00688545) | N/A (observational) | Terminated | 275 | Safety registry of celecoxib and non-selective NSAIDs in JIA. Diclofenac data are not confirmed. |
+---
 
 ## South Africa Market Information
 
-Diclofenac has 14 SAHPRA registrations. Registered dosage forms include tablet, sachet, suppository, injection, capsule and gel. Approved indication text was not available in the data supplied.
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| A39/3.1/0588 | Cataflam | Sachet | Not available in the compiled data |
+| 32/3.1/0353 | Arthrotec | Tablet | Not available in the compiled data |
+| 42/3.1/0831 | Voltaren Acti-Go soft gel capsules | Capsule | Not available in the compiled data |
+| U/3.1/77 | Voltaren Emulgel | Gel (topical) | Not available in the compiled data |
+| 31/3.1/0334 | Diclofenac injection Unimed 3 ml | Injection | Not available in the compiled data |
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| A38/3.1/0651 | K-fenak otc | Tablet |
-| R/3.1/0050 | Panamor At-50 | Tablet |
-| A39/3.1/0588 | Cataflam | Sachet |
-| U/3.1/181 | Adco-diclofenac | Tablet |
-| 27/3.1/0121 | Panamor supp | Suppository |
+All 14 registrations are valid single-ingredient licences (none cancelled), across oral, injectable, suppository, sachet and topical forms. Several other products are also registered (K-Fenak OTC, Panamor, Adco-Diclofenac, Arthrotec 50). Some entries in the register (for example Sandoz Lamotrigine 25 and Ibugesic Plus) look like mismatches and should be verified against the SAHPRA register. Essential Medicines List status could not be determined from the data compiled.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications / conditions of concern (from the knowledge graph, not label text):** hypertension, liver disease and liver failure, drug-induced liver injury, congestive heart failure, cardiovascular disease, myocardial infarction, stroke and cerebrovascular disorders, active peptic ulcer disease, inflammatory bowel disease, asthma, diabetes mellitus and diabetic ketoacidosis, blood coagulation disorders, anaemia, hemoglobinopathy, gallbladder disease, substance abuse/dependence and keratitis.
+
+**Drug Interactions** (100 interactions recorded; examples):
+- **Moderate:** acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), metformin, sulfonylureas (glimepiride, glipizide, chlorpropamide, acetohexamide), aprepitant, mesalazine, balsalazide, exenatide, fenfluramine.
+- **Minor:** famotidine, ranitidine, cimetidine.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for formal warnings and contraindications, which were not available in the data compiled. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (the JIA prediction is a research question rather than a new repurposing opportunity)
 
 **Rationale:**
-The top prediction has no clinical trials or literature, and the pack identifies no credible mechanistic link between COX inhibition and a monogenic hair-follicle disorder. Only JIA has any indirect signal, and there NSAIDs would be symptomatic, not disease-modifying.
+- Nine of the ten top predictions are model-only (L5) with no plausible mechanism, and should not be pursued.
+- JIA is mechanistically sound and has L3-level literature, but there are no registered trials. NSAIDs are already used symptomatically in JIA, so this largely confirms existing practice rather than identifying a new indication.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (safety screening cannot proceed without them)
-- Mechanism of action data (for example, from DrugBank)
-- Diclofenac-specific studies in the predicted indication. For JIA, a targeted literature review of diclofenac use would be the most logical starting point.
-
-*This report is for research reference only and does not constitute medical advice. Predicted repurposing candidates require clinical validation before any use.*
+- SAHPRA Professional Information (warnings, contraindications, approved indications and any paediatric dosing or age limits), which is a blocking gap for safety screening
+- Confirmation of whether the registered South African labels already include juvenile arthritis
+- Detailed mechanism of action data
+- Contemporary controlled paediatric data and a paediatric safety plan (GI, renal, hepatic monitoring)
+- Verification of the suspect registrations (Sandoz Lamotrigine 25, Ibugesic Plus) and of EML status
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

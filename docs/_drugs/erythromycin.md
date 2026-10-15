@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Erythromycin
-parent: Model Prediction Only (L5)
-nav_order: 214
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 216
+evidence_level: L4
 indication_count: 10
 ---
 
 # Erythromycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Erythromycin: From Antibacterial Use to Punctate Epithelial Keratoconjunctivitis
+# Erythromycin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Erythromycin is a macrolide antibiotic. The SAHPRA data supplied for it do not state its approved indications.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **0 clinical trials** and **0 publications** support this specific prediction, so it rests on the model score alone.
-
----
+Erythromycin is a macrolide antibiotic, originally used for bacterial infections such as pneumonia, pertussis, gonorrhoea, acne and conjunctivitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but there are **no registered clinical trials** and only **1 publication** (a paediatric management review) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied SAHPRA data (all four registrations lack indication text). Erythromycin is a macrolide antibiotic. |
+| Original Indication | Bacterial infections (acne, otitis media, streptococcal and staphylococcal infections, pneumonia, gonorrhoea, pertussis, urethritis, conjunctivitis). The SAHPRA indication text was not available in the data compiled for this report, so this is based on the knowledge graph. |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, erythromycin belongs to the macrolide antibiotic class. Its antibacterial activity is well established, and topical erythromycin is plausible for bacterial infection of the ocular surface.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, erythromycin is a macrolide that inhibits bacterial protein synthesis (50S ribosomal subunit) and also has anti-inflammatory properties.
 
-The link to the predicted indication is weak. Punctate epithelial keratoconjunctivitis is often viral or inflammatory rather than bacterial, so an antibacterial mechanism may not apply. No trials or literature were supplied to test the prediction. The high score (99.89%) should be read as a model signal, not clinical support.
+Its efficacy in bacterial eye infections such as conjunctivitis is already established. In chronic blepharokeratoconjunctivitis, reducing the bacterial load at the lid margin and modulating inflammation may plausibly help. This is the proposed link to punctate epithelial keratoconjunctivitis.
 
----
+The TxGNN score is very high, but the support is thin: one review on managing chronic blepharokeratoconjunctivitis in children, with no trials. This is a hypothesis, not demonstrated benefit. The review also concerns a related but different condition.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this indication. No SANCTR or PACTR entries were supplied.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for this indication.
-
----
-
-## Other Predicted Indications (for Context)
-
-The pack also contains evidence for lower-ranked predictions. None of it changes the decision above, but two items are worth noting:
-
-| Predicted Indication | Score | Evidence Level | What the Evidence Shows |
-|------|------|------|------|
-| Lymphogranuloma venereum | 99.05% | L4 | About 20 publications, mostly reviews and case reports. Macrolides are active against *C. trachomatis*, and erythromycin has been used as an alternative to doxycycline. The azithromycin reports do not apply to erythromycin. There are no trials and no erythromycin-specific comparative data. |
-| Necrotizing ulcerative gingivitis | 99.00% | L4 | Historical reports only (1953, 1969) and narrative reviews. Penicillin is preferred and erythromycin is second choice. |
-
-Other predictions have no supporting evidence (L5). Some, such as hyperamylasemia and polyclonal hyperviscosity syndrome, appear to be knowledge-graph artefacts. The two broad categories, "post-bacterial disorder" and "post-infectious syndrome" (L4), are supported mainly by trials of azithromycin or other antibiotics. They show no erythromycin-specific benefit.
-
-The high scores for conjunctivitis-type conditions may partly reflect labelled uses that the supplied data did not capture.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Review | Journal of Pediatric Ophthalmology and Strabismus | Describes the history, symptoms, clinical signs and treatment of blepharokeratoconjunctivitis in children. It is not specific to erythromycin. |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. A/20.1.1/0117 | Ilosone 125P | Suspension |
-| Reg. No. V/20.1.1/6 | Adco-erythromycin | Capsule |
-| Reg. No. 27/20.1.1/0329 | Dyna-Erythromycin 125Mg | Powder |
-| Reg. No. X/13.12/275 | Stiemycin | Lotion |
+Four valid single-ingredient registrations are listed. Approved indication text was not available for any of them. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
-Approved indication text and Essential Medicines List status were not supplied. None of the four registered forms is an ophthalmic preparation, so route compatibility with an eye indication is unconfirmed.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| A/20.1.1/0117 | Ilosone 125P | Suspension | Not available |
+| V/20.1.1/6 | Adco-erythromycin | Capsule | Not available |
+| 27/20.1.1/0329 | Dyna-Erythromycin 125Mg | Powder | Not available |
+| X/13.12/275 | Stiemycin | Lotion | Not available |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+Label warnings and contraindications were not available. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
----
+**Contraindication-related conditions (from the knowledge graph, not label text):**
+- Cardiac: long QT syndrome (including familial), torsades de pointes
+- Metabolic: porphyria (including inherited porphyria and porphyrin metabolism disease)
+- Organ disease: kidney disease, liver disease, gallbladder disease, haematologic disease, folic acid deficiency anaemia
+- Gastrointestinal: *Clostridium difficile* colitis, perinatal necrotizing enterocolitis
+- Neuromuscular: myasthenia gravis (including adult-onset), neuromuscular junction disease
+- Hearing: hearing disorder, auditory system disease
+- Skin: dermatitis, exfoliative dermatitis
+- Other: pyoureter
+
+**Drug interactions:** 100 interactions were identified (DDInter). The main ones in the sample reviewed are:
+- **Major:** clarithromycin, loperamide
+- **Moderate:** famotidine, cimetidine, hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone, pioglitazone, chlorpropamide, aprepitant, alosetron, balsalazide, bisacodyl, picosulfuric acid, polyethylene glycol (3350 with electrolytes)
+- **Minor:** amoxicillin
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials or literature for this indication. The antibacterial mechanism fits poorly with a condition that is often viral or inflammatory. No ophthalmic erythromycin product is registered in the supplied SAHPRA data.
+The prediction score is very high, but evidence consists of a single review of a related condition, with no trials. The package insert safety data are also missing, which blocks safety screening. Other predicted indications (for example lymphogranuloma venereum) have stronger supporting literature, but doxycycline remains the preferred first-line therapy there. Predicted bacterial conjunctivitis largely overlaps with an existing indication.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications, approved indications). This is currently a blocking gap for safety screening.
-- Mechanism of action data from DrugBank.
-- A literature and trial search specific to erythromycin in punctate epithelial keratoconjunctivitis.
-- Confirmation of whether an ophthalmic erythromycin formulation is registered or accessible in South Africa.
-- If a repurposing question is pursued, lymphogranuloma venereum is the better-supported lead (L4). It would need erythromycin-specific comparative data first.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- SAHPRA package insert warnings, contraindications and approved indications (the blocking gap)
+- Mechanism of action data, for example from DrugBank
+- Clinical studies of erythromycin (ophthalmic route) in punctate epithelial keratoconjunctivitis or closely related conditions
+- Confirmation of which registered products suit ocular use, as the listed forms are suspension, capsule, powder and lotion
+- Review of resistance patterns and comparison with established ocular treatments
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

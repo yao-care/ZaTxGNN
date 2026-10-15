@@ -2,7 +2,7 @@
 layout: default
 title: Sodium Fluoride
 parent: Model Prediction Only (L5)
-nav_order: 420
+nav_order: 424
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,33 +29,32 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Sodium Fluoride: From Nutritional Trace-Element Supplementation to Epiglottitis
+# Sodium Fluoride: From Vitamin Deficiency Disorder to Epiglottitis
 
 ## One-Sentence Summary
 
-Sodium fluoride is registered in South Africa as a component of trace-element infusions and a prenatal capsule. No approved indication text is recorded for it.
-The TxGNN model predicts it may be effective for **epiglottitis**, but this is a model prediction only.
-There are **0 clinical trials** and **0 publications** for this indication, so the evidence is very weak.
+Sodium fluoride is registered in South Africa mainly as a trace-element component of multi-ingredient nutritional products. Its original indication in the knowledge graph is vitamin deficiency disorder.
+The TxGNN model predicts it may be effective for **epiglottitis**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record (registered products are trace-element infusions and a prenatal capsule) |
+| Original Indication | Vitamin deficiency disorder (from the knowledge graph; no approved indication text is available in the SAHPRA registrations) |
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 17 |
+| Number of SAHPRA Registrations | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Sodium fluoride is a component of trace-element and prenatal supplement products. No original indication is recorded, so a mechanistic link to epiglottitis cannot be established.
+Currently, detailed mechanism of action data is not available. Based on known information, sodium fluoride is used as a trace-element and mineral supplement ingredient, and its original indication is vitamin deficiency disorder. No mechanistic link to epiglottitis has been established.
 
-The only plausible rationale is speculative. In vitro, fluoride inhibits bacterial enolase and glycolysis, which is antibacterial. This has not been shown at clinically safe systemic concentrations. Epiglottitis is usually caused by *Haemophilus influenzae* type b or other pathogens, and effective antibiotics and vaccination already exist.
+Epiglottitis is an acute, potentially life-threatening bacterial infection of the epiglottis. It is treated with antibiotics and airway management. There is no documented antimicrobial or anti-inflammatory role for fluoride at safe doses in this condition.
 
-The high score (99.92%, model rank 718) reflects the knowledge-graph model only. The same pattern appears for the other top predictions: urinary tract infection, gonococcal urethritis, Ureaplasma urethritis, uterine inflammatory disease and xanthogranulomatous pyelonephritis. All are infection or inflammation related, with scores above 99.8% and no trials or literature. Gonococcal and Ureaplasma urethritis have identical scores, which suggests a shared graph-neighbourhood artefact rather than a disease-specific signal.
+The TxGNN score is very high, but it reflects patterns in the knowledge graph rather than drug-specific evidence. The other top predictions are also infections or inflammatory conditions of the urogenital and respiratory tracts (urinary tract infection, gonococcal urethritis, Ureaplasma urethritis, uterine inflammatory disease, xanthogranulomatous pyelonephritis and laryngitis). None has clinical trial or supporting literature evidence.
 
 ## Clinical Trial Evidence
 
@@ -63,45 +62,48 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for epiglottitis.
+No publications support epiglottitis. For the seventh-ranked prediction, laryngitis, four publications were retrieved. None shows therapeutic efficacy.
 
-For the rank 7 prediction (laryngitis), five publications were retrieved, but they are only indirectly related:
-- One 1975 in vitro study of diphtheria toxin modulation.
-- One animal study of dietary fluorine toxicity in broilers.
-- Three case reports of 18F-NaF PET/CT uptake in laryngeal or thyroid cartilage.
-
-The PET reports reflect the diagnostic radiotracer use of 18F-NaF, not treatment. None of this supports a repurposing claim.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [29245332](https://pubmed.ncbi.nlm.nih.gov/29245332/) | 2017 | Case report | Medicine | Elevated 18F-NaF uptake in the cricoid cartilage of a patient with laryngeal carcinoma; diagnostic imaging, not treatment |
+| [42721223](https://pubmed.ncbi.nlm.nih.gov/42721223/) | 2026 | Imaging methodology | Cartilage | [18F]NaF and [18F]FDG PET/CT used to assess calcification and glucose metabolism of thyroid cartilage with age |
+| [24178785](https://pubmed.ncbi.nlm.nih.gov/24178785/) | 2013 | Animal toxicity study | Biol Trace Elem Res | High dietary fluorine suppressed intestinal development in broilers (a toxicity finding) |
+| [235491](https://pubmed.ncbi.nlm.nih.gov/235491/) | 1975 | In vitro | Infect Immun | Ammonium chloride protected cultured cells from diphtheria toxin; not about fluoride therapy |
 
 ## South Africa Market Information
 
+All nine registrations are single-ingredient entries with valid status. No approved indication text is available for any of them. Essential Medicines List (EML) status was not part of the data compiled for this report.
+
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 29/24/0462 | Peditrace 10ml pdp100010 | Infusion | Not stated in the registration record |
-| Reg. No. 49/24/0996 | Addaven | Infusion | Not stated in the registration record |
-| Reg. No. 52/24/0031 | Nutryelt | Infusion | Not stated in the registration record |
-| Reg. No. H2466 | Complenatal Ff | Capsule | Not stated in the registration record |
+| 29/24/0462 | Peditrace 10ml pdp100010 | Infusion | Not available |
+| 49/24/0996 | Addaven | Infusion | Not available |
+| 52/24/0031 | Nutryelt | Infusion | Not available |
+| H2466 | Complenatal Ff | Capsule | Not available |
+| 41/10.2.1/0849 | Spiriva respimat inhaler 60 doses | Inhaler | Not available |
 
-Of the 17 registrations, the first 5 records are shown; the H2466 entry appears twice and is listed once. EML inclusion status is not available in the data provided. No registered dosage form is an inhaled or otherwise airway-directed product suited to epiglottitis, and route compatibility has not been assessed.
+Four further registrations are not listed above: ITN 1606n 150ml and ITN 55a 600ml (TPN), Gericomplex (capsule) and Filibon (capsule).
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindications and disease associations (from the knowledge graph, not label text):** kidney disease, pyoureter, sarcoidosis, hyperparathyroidism, osteitis fibrosa, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, nephrolithiasis (including the SLC26A1-related form), acute urate nephropathy, constipation disorder, lytic metastatic bone lesion and dental fluorosis.
+- **Drug interactions:** No interaction data were found.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for label warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score (Evidence Level L5). There are no trials or publications for epiglottitis, and no mechanism is documented. Effective standard treatments exist, so there is no clinical need to justify moving forward on this evidence.
+The prediction is computational only (L5), with no clinical trials and no supporting literature. No plausible mechanism links fluoride to epiglottitis, and effective standard-of-care treatment already exists. Safety information from the PI is also missing.
 
 **To proceed, the following is needed:**
-- The SAHPRA Professional Information (PI) for warnings and contraindications, which blocks any safety screening.
-- Mechanism of action data, for example from DrugBank.
-- The original approved indication, and a comparison of it with the predicted indication.
-- In vitro activity against epiglottitis pathogens at safe concentrations, and a review of fluoride systemic toxicity, including renal handling.
-- A route and formulation compatibility assessment.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data for sodium fluoride (e.g. from DrugBank)
+- SAHPRA package insert warnings and contraindications, which block safety screening
+- A mechanistic rationale and preclinical evidence for the predicted indication
+- Route compatibility assessment (not yet evaluated)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

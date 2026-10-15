@@ -2,7 +2,7 @@
 layout: default
 title: Magnesium Acetate
 parent: Model Prediction Only (L5)
-nav_order: 303
+nav_order: 305
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,55 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Acetate: From Parenteral Nutrition Component to Hypertensive Disorder
+# Magnesium Acetate: From an Unspecified Original Indication to Hypertensive Disorder
 
 ## One-Sentence Summary
 
-Magnesium acetate is registered in South Africa as an ingredient of parenteral nutrition (TPN) infusion products. The TxGNN model predicts it may be useful for **hypertensive disorder**, but no clinical trial or publication directly supports this. All 3 retrieved trials were judged irrelevant, and the 3 retrieved papers are preclinical work on acetate, not on the magnesium salt.
+Magnesium acetate is an electrolyte component registered in South Africa within parenteral nutrition products. The registration data compiled for this report do not state an approved indication.
+The TxGNN model predicts it may be relevant to **hypertensive disorder**, but there are **no registered clinical trials** and only **3 indirect preclinical or review publications**, which concern the acetate moiety rather than magnesium acetate itself.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data. Registered as a component of parenteral nutrition (TPN) products |
+| Original Indication | Not stated in the SAHPRA registration data compiled for this report |
 | Predicted New Indication | Hypertensive disorder |
 | TxGNN Prediction Score | 97.42% |
-| Evidence Level | L4 (preclinical only, indirect) |
+| Evidence Level | L4 (preclinical and indirect evidence only) |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 entries (2 distinct registration numbers) |
+| Number of SAHPRA Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, magnesium acetate is an electrolyte component of multi-ingredient parenteral nutrition products. Its established role is supplying magnesium and acetate within TPN, not treating any specific disease.
+Currently, detailed mechanism of action data is not available. Based on known information, magnesium acetate is a source of magnesium used in parenteral nutrition formulations, and the registered products contain it as a single-ingredient component.
 
-The only mechanistic hint in the retrieved data is indirect. Three papers describe acetate, a short-chain fatty acid (SCFA) produced by gut microbiota, as having a blood-pressure-lowering effect in animal models. These studies do not test magnesium acetate, so they cannot show that the magnesium salt has any effect. A blood-pressure effect of the magnesium ion is plausible from general pharmacological knowledge, but the supplied data do not support it. The high TxGNN score is a computational prediction and should be treated as a hypothesis only.
+Magnesium is a physiological calcium antagonist and promotes vasodilation, which offers a plausible link to blood pressure regulation. Separately, the short-chain fatty acid acetate has been reported in animal models to have antihypertensive effects.
+
+However, the retrieved literature concerns acetate and gut microbiota, not magnesium acetate as a compound. The link is therefore indirect and speculative. A high model score alone does not establish that magnesium acetate lowers blood pressure in humans.
 
 ## Clinical Trial Evidence
 
-All three retrieved trials were graded C (not evidence for this indication). They appear to have been matched on the drug name or the word "acetate".
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05251402](https://clinicaltrials.gov/study/NCT05251402) | Phase 2/3 | Active, not recruiting | 323 | DASH diet in uncontrolled asthma. Not a hypertension study |
-| [NCT07206524](https://clinicaltrials.gov/study/NCT07206524) | N/A | Recruiting | 15 | Magnesium concentration in hemodialysis dialysate and thromboinflammation. Magnesium exposure is relevant, the indication is not |
-| [NCT00570479](https://clinicaltrials.gov/study/NCT00570479) | Phase 1 | Completed | 12 | Anecortave acetate for steroid-induced glaucoma. A different compound |
-
-No SANCTR or PACTR registrations were identified.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35887270](https://pubmed.ncbi.nlm.nih.gov/35887270/) | 2022 | Preclinical | Int J Mol Sci | Maternal acetate supplementation reversed the blood-pressure rise in male offspring exposed to minocycline (animal model) |
-| [33087738](https://pubmed.ncbi.nlm.nih.gov/33087738/) | 2020 | Preclinical | Sci Rep | Prebiotic fibre and acetate release did not override a genetic predisposition to heart failure in the model studied |
-| [31295767](https://pubmed.ncbi.nlm.nih.gov/31295767/) | 2019 | Review (as classified) | Mol Nutr Food Res | Acetate supplementation examined for preventing programmed hypertension in offspring after a maternal high-fructose diet. The abstract describes an experimental animal study |
+| [33087738](https://pubmed.ncbi.nlm.nih.gov/33087738/) | 2020 | Preclinical | Scientific Reports | Prebiotic fibre and gut microbiota (acetate release) did not override a genetic predisposition to heart failure in a genetic hypertension model |
+| [31295767](https://pubmed.ncbi.nlm.nih.gov/31295767/) | 2019 | Preclinical / mechanistic | Molecular Nutrition & Food Research | Examined whether acetate supplementation or inhibiting trimethylamine formation prevents programmed hypertension in offspring of rats fed a high-fructose diet |
+| [35887270](https://pubmed.ncbi.nlm.nih.gov/35887270/) | 2022 | Preclinical | International Journal of Molecular Sciences | Maternal acetate supplementation reversed the blood pressure increase in male rat offspring exposed to minocycline |
 
-All three papers concern acetate as a gut-derived metabolite, not magnesium acetate, and none involves human patients.
+All three studies concern acetate (a short-chain fatty acid) in animal models, not magnesium acetate in humans.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion |
-| Reg. No. 41/25/0757 | Nutriflex lipid peri 1875ml | TPN |
-| Reg. No. 41/25/0759 | Nutriflex lipid special 625ml | TPN |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated in the data compiled |
+| Reg. No. 41/25/0759 | Nutriflex lipid special 625ml | TPN | Not stated in the data compiled |
 
-The registration data supplied contain no approved-indication text or manufacturer. All listed products are parenteral (infusion/TPN) presentations of fixed multi-ingredient nutrition mixtures.
+Both registrations are valid and single-ingredient. Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
 
 ## Safety Considerations
 
@@ -94,14 +88,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The link to hypertension rests on a model score and on indirect animal data about acetate. The retrieved trials are irrelevant. The other nine predicted indications (including pulmonary hypertension, malignant hypertensive renal disease, gout and open-angle glaucoma) have no supporting trials or relevant literature and are also on Hold.
+The prediction is supported only by a model score and indirect animal data on acetate, with no clinical trials. Magnesium acetate is registered in South Africa only as a component of parenteral nutrition products, so its use for hypertension is an unvalidated research question.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings and contraindications), needed before any safety screening
-- Mechanism of action data for magnesium acetate, for example from DrugBank
-- Magnesium-specific evidence on blood pressure, such as magnesium supplementation trials or meta-analyses
-- A route and formulation assessment. The registered products are fixed-composition TPN infusions, so a hypertension use would probably need a different product or route
-- Manual review of the trial records, particularly the truncated NCT02795754 record linked to the lower-ranked potassium deficiency prediction
+- Retrieval of the SAHPRA Professional Information to confirm approved indications, warnings and contraindications
+- Mechanism of action data for magnesium acetate
+- Human evidence (clinical trials or systematic reviews) on magnesium, specifically magnesium acetate, for blood pressure
+- Assessment of route and formulation compatibility, since current registrations are intravenous or parenteral nutrition products
+- Review of the other predicted indications, which currently have no supporting evidence (the highest of these is pulmonary hypertension, with a score of 97.22%)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

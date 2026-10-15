@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Valsartan
-parent: Model Prediction Only (L5)
-nav_order: 464
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 468
+evidence_level: L4
 indication_count: 7
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,72 +33,88 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Valsartan is an angiotensin II type 1 receptor blocker (ARB), a class established for treating hypertension.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, a kidney injury caused by severe hypertension.
-Evidence is very thin: **0 clinical trials** and **1 publication**, and that publication is a preclinical study of a different drug (avosentan), not valsartan.
+Valsartan is an angiotensin II receptor blocker, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but currently there are **no registered clinical trials** and only **1 indirect publication** (a preclinical study of a different drug), so this prediction rests mainly on mechanistic plausibility.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (based on the ARB class; approved indication text is not captured in the South African registration records supplied) |
+| Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 (preclinical/indirect evidence only) |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Based on known information, valsartan blocks the angiotensin II type 1 (AT1) receptor. Angiotensin II is a key driver of blood pressure elevation and of injury to the small vessels of the kidney. Blocking this pathway is a plausible way to protect the kidney in severe hypertension.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, valsartan is an angiotensin II type 1 (AT1) receptor blocker, its efficacy in hypertension is established, and mechanistically it may be applicable to malignant hypertensive renal disease.
 
-The predicted indication is essentially a severe, organ-damaging form of the hypertension that valsartan already treats. This suggests the model is picking up a close disease relationship, and that the original-indication field in the source data is incomplete. The high score is a graph-based prediction only and is not confirmed by any human data.
+Malignant hypertensive nephropathy is driven largely by overactivation of the renin-angiotensin-aldosterone system (RAAS). Blocking the AT1 receptor is therefore biologically plausible. In practice, this condition is essentially a severe variant of the already-approved indication of hypertension.
 
-The one linked paper studies avosentan, an endothelin antagonist, in a rat model of hypertensive kidney disease. It supports the general idea that blocking neurohormonal pathways may protect the kidney, but it does not test valsartan or any ARB. The evidence is therefore class-level and indirect.
+The same pathway reasoning applies to a related prediction, malignant renovascular hypertension (score 99.97%). An animal study (PMID 11560862) found that AT1 receptor blockade prevented lethal malignant hypertension, which supports the drug class mechanistically. However, ARBs can reduce renal function in bilateral renal artery stenosis, so clinical caution is needed.
+
+Other lower-ranked predictions have weaker support:
+- **Pulmonary hypertension (lung disease/hypoxia)** (99.97%): only preclinical or mechanistic papers, many involving the sacubitril/valsartan combination rather than valsartan alone (Evidence Level L4).
+- **Pulmonary hypertension, unclear multifactorial mechanism** (99.97%) and **Braddock syndrome** (99.96%): no trials or literature (L5).
+- **Chronic pulmonary heart disease** (99.58%): one Phase 1 trial not directly testing valsartan, plus heart-failure studies of sacubitril/valsartan (L4).
+- **Prinzmetal angina** (99.45%): the only paper is not relevant, and standard therapy is calcium channel blockers and nitrates (L5).
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for malignant hypertensive renal disease.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclinical (animal study) | Pharmacological Research | Avosentan, an endothelin antagonist and not an ARB, protected against hypertensive nephropathy in double transgenic rats at doses that did not cause fluid retention. |
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclinical (different drug) | Pharmacological Research | Avosentan, an endothelin antagonist (not valsartan), protected against hypertensive nephropathy in transgenic rats at doses that did not cause fluid retention. Indirect evidence only. |
 
 ## South Africa Market Information
 
-Valsartan has 20 SAHPRA registrations in total. The first 5 are listed below. Approved indication text was not available in the supplied records.
+All 20 registrations are valid single-ingredient registrations according to the data compiled. Approved indication text and Essential Medicines List (EML) status are not available. The five main registrations are listed below.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 43/7.1.3/0773 | Diolo 80 | Tablet |
-| Reg. No. 51/7.1.3/1106 | Calsar 5/80 Mg | Tablet |
-| Reg. No. 51/7.1.3/0610 | Valvasc 5/160 | Film-coated tablet |
-| Reg. No. 50/7.6/1019 | Vymada 50 Mg | Tablet |
-| Reg. No. 48/7.1.3/0567 | Niosar Co 80/12,5 Mg | Film-coated tablet |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 43/7.1.3/0773 | Diolo 80 | Tablet | Not available |
+| Reg. No. 43/7.1.3/0774 | Diolo 160 | Tablet | Not available |
+| Reg. No. 41/7.1.3/0291 | Exforge 5mg/160mg | Tablet | Not available |
+| Reg. No. 51/7.1.3/1106 | Calsar 5/80 Mg | Tablet | Not available |
+| Reg. No. 46/7.1.3/0744 | Valheft 80 | Film-coated tablet | Not available |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindication-related conditions (from the knowledge graph, not label text):** the TxGNN knowledge graph links valsartan to contraindications in the following areas:
+- Liver and biliary: liver failure, liver disease, hepatic coma/encephalopathy, pancreatitis, gallbladder disease, neonatal jaundice
+- Angioedema: including hereditary, acquired and RAAS-blocker-induced forms
+- Renal: anuria, impaired renal function, renal artery obstruction
+- Metabolic and electrolyte: diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcaemia, hyperparathyroidism, gout/hyperuricaemia
+- Other: systemic lupus erythematosus, neutropenia, agranulocytosis, hypotension
+
+These come from graph edges and may partly reflect combination products (for example, those containing a thiazide diuretic), so they must be checked against the approved label.
+
+**Drug Interactions:** 100 interactions were identified (20 shown in the data). Notable ones:
+- **Major:** potassium bicarbonate and potassium chloride (risk of hyperkalaemia)
+- **Moderate:** insulins (many formulations), exenatide, hydrocortisone, eluxadoline, polyethylene glycol with electrolytes
+
+Please refer to the SAHPRA-approved Professional Information (PI) for official warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no clinical trials, and the only linked paper studies a different drug in animals. The evidence is not enough to support moving this indication forward.
+The mechanistic basis (RAAS blockade in malignant hypertensive renal disease) is plausible and valsartan is widely marketed in South Africa. However, there are no clinical trials, and the only retrieved paper concerns a different drug in animals. Evidence is limited to model prediction and indirect mechanistic reasoning (L4).
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications, approved indications), which is currently missing and blocks any safety screening
-- Detailed mechanism of action data from DrugBank
-- Direct evidence for valsartan or other ARBs in malignant hypertension with kidney involvement, for example a structured literature review or human studies
-- A safety review of renal function risks with ARBs in patients with severe hypertensive kidney disease
-
-**Related prediction worth reviewing:** For malignant renovascular hypertension (ranked 2nd), one 2001 preclinical study in *Circulation* reported that AT1 receptor blockade prevented lethal malignant hypertension and kidney inflammation. This is a more direct mechanistic match, though still animal-only. It carries a specific safety concern, because ARBs can worsen renal function in renal artery stenosis.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Valsartan-specific clinical or high-quality preclinical evidence in malignant hypertensive nephropathy
+- SAHPRA package insert warnings and contraindications (not yet obtained, and needed for safety screening)
+- Detailed mechanism of action data
+- A renal safety plan, including monitoring of renal function and potassium, and screening for renal artery stenosis
+- Review of the product-specific approved indications for the 20 registrations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

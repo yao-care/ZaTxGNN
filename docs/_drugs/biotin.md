@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Biotin
-parent: Moderate Evidence (L3-L4)
-nav_order: 70
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 71
+evidence_level: L5
 indication_count: 10
 ---
 
 # Biotin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Biotin: From Parenteral Nutrition Vitamin Component to Dyspepsia
+# Biotin: From Nutritional Biotin Deficiency to Dyspepsia
 
 ## One-Sentence Summary
 
-Biotin (vitamin B7) is registered in South Africa as a component of parenteral vitamin and nutrition products. The registry data supplied does not state a formal indication.
-The TxGNN model predicts it may be effective for **dyspepsia**, but only **2 clinical trials** and **7 publications** were retrieved, and none tests biotin as a treatment for dyspepsia.
-The high model score is therefore not backed by clinical evidence.
+Biotin (vitamin B7) is a water-soluble vitamin used to treat and prevent nutritional biotin deficiency. The TxGNN model predicts it may be effective for **dyspepsia**, with a very high score. However, there are **no registered clinical trials** and **no publications that test biotin as a treatment for dyspepsia**, so the prediction rests on the model alone.
 
 ---
 
@@ -43,34 +41,33 @@ The high model score is therefore not backed by clinical evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registry data provided (registered products are parenteral vitamin and nutrition preparations) |
+| Original Indication | Nutritional biotin deficiency (from the TxGNN knowledge graph; the SAHPRA registration records compiled for this report contain no indication text) |
 | Predicted New Indication | Dyspepsia |
 | TxGNN Prediction Score | 99.43% |
-| Evidence Level | L4 |
+| Evidence Level | L5 (model prediction only) |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 10 |
+| Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, biotin is a water-soluble B vitamin that works as a cofactor for carboxylase enzymes in fatty acid, amino acid and glucose metabolism. Its role in South Africa is nutritional replacement, mostly within parenteral nutrition products. Mechanistically, a link to dyspepsia is not established.
+Detailed mechanism of action data is not available in the data compiled for this report. Biotin is a cofactor for carboxylase enzymes involved in fatty acid, glucose and amino acid metabolism. Its efficacy in correcting biotin deficiency is well established.
 
-The only loosely relevant paper is an open study of a multi-ingredient food supplement in functional dyspepsia after *H. pylori* treatment (PMID 25384804). That supplement cannot isolate any biotin effect. One case report describes a biotin-deficient infant who had been diagnosed with dyspepsia as a neonate and fed only an amino acid formula (PMID 15863846). This suggests dyspepsia may be a setting where deficiency occurs, not a condition that biotin treats.
+**The link to dyspepsia is weak.** There is no direct, plausible mechanism connecting biotin to dyspepsia. The retrieved literature does not test biotin as a dyspepsia treatment. It covers:
 
-The 99.43% score most likely reflects a knowledge-graph association rather than a proven therapeutic effect.
+- A case of biotin deficiency in an infant fed only an amino acid formula, who had been labelled with "dyspepsia" as a neonate.
+- Enteroendocrine cell studies in irritable bowel syndrome.
+- Gut microbiota and *H. pylori* gastritis.
+
+Any plausible link would be indirect, for example through biotin production by the gut microbiome. This is a hypothesis, not demonstrated evidence. The high TxGNN score reflects patterns in the knowledge graph and should not be read as clinical support.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05389813](https://clinicaltrials.gov/study/NCT05389813) | Phase 2/3 | Unknown | 150 | Oxycodone vs pregabalin as preemptive analgesia for postoperative pain. Not related to biotin or dyspepsia. |
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Transdermal vitamin absorption after bariatric surgery. A nutrient absorption study, not a dyspepsia treatment trial. |
-
-Both trials were graded low relevance (C). No SANCTR or PACTR registrations were identified.
+Currently no related clinical trials registered for biotin in dyspepsia.
 
 ---
 
@@ -78,37 +75,37 @@ Both trials were graded low relevance (C). No SANCTR or PACTR registrations were
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25384804](https://pubmed.ncbi.nlm.nih.gov/25384804/) | 2014 | Open clinical study | Minerva Gastroenterol Dietol | Multi-component food supplement benefited functional dyspepsia after *H. pylori* treatment. A biotin effect cannot be isolated. |
-| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Case report | J Dermatol | Biotin deficiency in an infant fed only amino acid formula, previously diagnosed with dyspepsia. |
-| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | Observational | Int J Mol Med | Stomach antral endocrine cells in irritable bowel syndrome. No biotin intervention. |
-| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | Observational | World J Gastrointest Endosc | Endocrine cells in the oxyntic mucosa in irritable bowel syndrome. No biotin intervention. |
-| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | Observational | J Clin Pathol | IL-10 in *H. pylori* gastritis. No biotin intervention. |
-| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Clinical study | Eksp Klin Gastroenterol | Prebiotic and vitamin product (includes biotin) for gut microbiota disorders in patients on antibiotics. Multi-component. |
-| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | Observational | Kidney Int | Small bowel T cells in IgA nephropathy. Not relevant to biotin. |
+| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | Cohort | Int J Mol Med | Stomach antral endocrine cells in 76 IBS patients vs 43 healthy controls. Not about biotin. |
+| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | Cohort | World J Gastrointest Endosc | Endocrine cells in the stomach's oxyntic mucosa in IBS. Not about biotin. |
+| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | Cohort | J Clin Pathol | Interleukin-10 in *H. pylori* gastritis. Not about biotin. |
+| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | Cohort | Kidney Int | Small bowel T cells and stress proteins in IgA nephropathy. Not about biotin. |
+| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Review | Eksp Klin Gastroenterol | A prebiotic and vitamin supplement (including biotin among many components) for gut microbiota disorders in patients with lung disease receiving antibiotics. Biotin's individual effect cannot be separated. |
+| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Case report | J Dermatol | A 5-month-old infant on amino acid formula developed biotin deficiency (hair loss, scaly dermatitis). Shows deficiency causing a problem, not biotin treating dyspepsia. |
 
-There are no RCTs or systematic reviews. The retrieved papers are indirect and none tests biotin for dyspepsia.
+None of these publications is a trial of biotin for dyspepsia.
 
 ---
 
 ## South Africa Market Information
 
-Five of the 10 registrations are shown. The registry data does not include approved indication text, manufacturer, or Essential Medicines List status.
-
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. U/22.1.4/200 | Soluvit novum 10ml vials | Injection | Not listed in data provided |
-| Reg. No. 36/22.1/0508 | Cernevit | Infusion | Not listed in data provided |
-| Reg. No. L/24/329 | Dextrose 20% in water 500ml | Infusion | Not listed in data provided |
-| Exclusion under Section 36 & Section 14 | ITN neonatal TPN 150ml | TPN | Not listed in data provided |
-| Exclusion under Section 36 & Section 14 | ITN baby 150ml | TPN | Not listed in data provided |
+| U/22.1.4/200 | Soluvit novum 10ml vials | Injection | Not stated in the data compiled |
+| 36/22.1/0508 | Cernevit | Infusion | Not stated in the data compiled |
+| L/24/329 | Dextrose 20% in water 500ml | Infusion | Not stated in the data compiled |
+| Exclusion under Section 36 & Section 14 | ITN neonatal TPN 150ml | TPN | Not stated in the data compiled |
 
-All registered forms are injectable or parenteral. No oral product appears in the data supplied, so route compatibility with a dyspepsia indication is unconfirmed.
+All 4 registrations are valid, and none is cancelled. All are parenteral products (injection, infusion, total parenteral nutrition). No oral biotin product appears in the data compiled, which matters because dyspepsia would usually be treated with an oral product. Essential Medicines List status is not available in the data.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindications flagged by the knowledge graph** (these are model-derived drug–disease associations, not label text): kidney disease, nephrolithiasis (including SLC26A1-related susceptibility), nephrocalcinosis, acute urate nephropathy, pyoureter, sarcoidosis, hyperparathyroidism, osteitis fibrosa, hypercalcaemia, phosphorus metabolism disease, constipation disorder and lytic metastatic bone lesion. Their clinical relevance for biotin should be verified against the approved Professional Information.
+- **Laboratory interference:** high-dose biotin is known to interfere with many immunoassays (for example troponin and thyroid tests). Any use at higher doses would need clear communication to laboratories and clinicians.
+- **Drug interactions:** no interaction records were found.
+
+For full safety information, please refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -117,18 +114,16 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only: the retrieved trials are unrelated to biotin or dyspepsia, and the literature is indirect. No biotin-specific mechanism for dyspepsia is established, and the registered products are parenteral, which is an unlikely fit for this condition.
+The prediction is model-only (L5). There are no clinical trials and no publications testing biotin in dyspepsia, and no plausible direct mechanism is evident. The registered South African products are all parenteral nutrition products, so there is also no obvious route-appropriate product for this use.
 
-Two other predicted indications in the same pack have more support and are better candidates for review:
-- **Biotin metabolic disease** (biotinidase deficiency and related disorders), L2, currently "Proceed with Guardrails". It has a direct mechanistic fit and a Phase 1/2 open-label study (NCT03269045) whose product identity is unverified.
-- **Vitamin deficiency disorder**, L3, currently "Research Question".
+**Other predictions for biotin:**
+Of the other predictions for biotin, **biotin metabolic disease** (TxGNN 92.14%) is better supported. It has six trials, including a completed Phase 2/3 randomised placebo-controlled trial of high-dose biotin, and a strong mechanistic rationale. However, those trials tested neurological diseases (ALS, adrenomyeloneuropathy) and glycaemic or microbiome outcomes, not inherited biotin metabolic disease itself. It could be considered for "Proceed with Guardrails", with laboratory-interference monitoring, but it was not the primary prediction evaluated here.
 
-**To proceed, the following is needed:**
-- Any controlled clinical data of biotin alone in dyspepsia. Otherwise, deprioritise this indication.
-- SAHPRA Professional Information (PI) warnings and contraindications for the registered products (currently a blocking data gap).
-- Mechanism of action data from DrugBank.
-- Approved indication text for the SAHPRA registrations.
-- A review of the biotin metabolic disease candidate first. Guardrails there include confirming the composition of ORL-1B, restricting use to confirmed biotin-pathway disorders, and noting biotin interference with immunoassays (e.g. troponin, thyroid tests).
+**To proceed with dyspepsia, the following is needed:**
+- Detailed mechanism of action data and a mechanistic hypothesis linking biotin to dyspepsia.
+- Retrieval of the SAHPRA package insert to obtain warnings and contraindications.
+- Any clinical evidence (even small pilot studies) of biotin in dyspepsia or functional gastrointestinal disorders.
+- Assessment of route and formulation, given that only parenteral products are registered.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

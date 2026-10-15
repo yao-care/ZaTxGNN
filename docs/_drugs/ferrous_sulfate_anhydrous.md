@@ -2,7 +2,7 @@
 layout: default
 title: Ferrous Sulfate Anhydrous
 parent: Model Prediction Only (L5)
-nav_order: 228
+nav_order: 230
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,45 +29,43 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Ferrous Sulfate Anhydrous: From Iron Supplementation to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+# Ferrous Sulfate Anhydrous: From Iron Deficiency Anaemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anaemia
 
 ## One-Sentence Summary
 
-Ferrous sulfate anhydrous is an oral iron salt. In South Africa it is registered only inside combination capsule products, and no approved indication text was recorded for them.
-The TxGNN model predicts it may be useful for **vitamin B12- and folate-independent constitutional megaloblastic anemia** with a very high score, but **no clinical trials and no publications** support this prediction.
-The prediction is therefore on hold. Among the other model predictions, **Plummer-Vinson syndrome** is the most biologically plausible and is worth a targeted evidence search.
+Ferrous sulfate anhydrous is an oral iron supplement, originally used to treat iron deficiency anaemia and related deficiency anaemias.
+The TxGNN model predicts it may be effective for **vitamin B12- and folate-independent constitutional megaloblastic anaemia**,
+but **no clinical trials and no publications** were available in the data compiled for this report, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the SAHPRA registration data supplied |
-| Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
+| Original Indication | Iron deficiency anaemia and related deficiency anaemias (the SAHPRA records in the data compiled for this report contain no approved indication text) |
+| Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anaemia |
 | TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ferrous sulfate is an iron salt used to replace iron, which is needed for haemoglobin synthesis and red cell production. Its role in iron-deficiency states is well established, but this cannot be checked against the registration data supplied.
+Currently, detailed mechanism of action data is not available. Based on known information, ferrous sulfate supplies elemental iron for haemoglobin synthesis, and its efficacy in iron deficiency anaemia is well established.
 
-For the top prediction, the mechanistic support is weak. Megaloblastic anemia is a defect in DNA synthesis, not a shortage of iron. Iron would help only if iron deficiency coexists. The high score likely reflects shared anemia-related nodes in the knowledge graph rather than a true therapeutic link.
+The link to the predicted indication is weak. Megaloblastic anaemia is typically driven by impaired DNA synthesis (B12 and folate pathways). A constitutional form independent of both would involve other defects, and iron is not an established treatment for these. A link is plausible only if iron deficiency coexists, and the data compiled for this report do not support that. The high score (99.78%, model rank 1577) is a computational prediction and should not be read as evidence of efficacy.
 
-The other three predictions vary in plausibility:
+**Other predicted indications (all L5, all Hold):**
 
-| Predicted Indication | TxGNN Score | Assessment |
-|------|------|------|
-| Plummer-Vinson syndrome | 99.77% | Plausible. It is classically linked with iron-deficiency anemia, dysphagia and esophageal webs, so iron repletion makes sense. Marked as a research question. |
-| Biotin metabolic disease | 99.51% | No plausible mechanism. These disorders are enzymatic defects that iron does not address. Likely a graph-proximity artifact. |
-| Non-syndromic esophageal malformation | 99.49% | No plausible mechanism. These are structural congenital anomalies, and the score probably reflects a graph link to Plummer-Vinson syndrome. |
-
-Any upgrade in evidence level should rest on retrieved studies, not on background knowledge.
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 2 | Plummer-Vinson syndrome | 99.77% | The most credible candidate. The condition is driven by iron deficiency (with dysphagia and oesophageal webs), and iron repletion is widely described as standard management. It is largely an extension of the existing iron deficiency indication, not a novel repurposing. Supporting evidence (case series, reviews) should be retrieved and graded before any upgrade. |
+| 3 | Biotin metabolic disease | 99.51% | No clear mechanistic route. The score likely reflects proximity in the knowledge graph (shared vitamin-deficiency neighbours). Biotin supplementation, not iron, is the treatment. |
+| 4 | Non-syndromic oesophageal malformation | 99.49% | These are structural defects managed surgically or endoscopically. The prediction probably arises from association with Plummer-Vinson syndrome. Oral iron may irritate the oesophagus in strictures or dysphagia. |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANCTR or PACTR).
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
@@ -75,35 +73,53 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-The pack lists 5 registration entries, but two registration numbers appear twice. There are only 3 distinct registrations.
-
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| H2466 | Complenatal Ff | Capsule | Not recorded in the data supplied |
-| G2667 (ACT 101/1965) | Gericomplex | Capsule | Not recorded in the data supplied |
-| 41/10.2.1/0849 | Spiriva respimat inhaler 60 doses | Inhaler | Not recorded in the data supplied |
+| H2466 | Complenatal Ff | Capsule | Not stated in the data compiled for this report |
+| G2667 (ACT 101/1965) | Gericomplex | Capsule | Not stated in the data compiled for this report |
+| 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not stated in the data compiled for this report |
 
-The Spiriva Respimat entry is an inhaler and is unlikely to contain an oral iron salt. It looks like a mapping error and should be checked against the SAHPRA register. Essential Medicines List (EML) status was not part of the data supplied.
+All three registrations are valid single-ingredient entries. The oral products are capsules. The Spiriva Respimat entry is an inhaler and is unusual for an iron product, so it should be verified against the SAHPRA register. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications suggested by the knowledge graph** (disease associations from the TxGNN knowledge graph, not label text):
+- Peptic ulcer disease
+- Ulcerative colitis and inflammatory bowel disease
+- Gastroenteritis
+- Dyskinesia of the oesophagus
+- Sickle cell anaemia and haemolytic anaemia
+- Hereditary persistence of fetal haemoglobin
+- Hereditary haemochromatosis, haemosiderosis and iron metabolism disease
+- Primary hyperoxaluria
+- Wilson disease
+
+**Drug Interactions:** 37 interactions were recorded. The 20 listed in the data compiled for this report are mostly Moderate, with a few Minor.
+- **Moderate:**
+  - Proton pump inhibitors: rabeprazole, omeprazole, dexlansoprazole, lansoprazole, pantoprazole, esomeprazole
+  - Tetracyclines: doxycycline, tetracycline, minocycline
+  - Fluoroquinolone: levofloxacin
+  - Antacids and minerals: magnesium oxide, calcium carbonate, aluminium hydroxide, magaldrate, sodium sulfate
+  - Others: pancrelipase, triethylenetetramine
+- **Minor:** cimetidine, zinc sulfate, zinc acetate
+
+Practical points are to separate dosing from tetracyclines, quinolones and antacids, and to recognise that acid suppression reduces iron absorption.
+
+Warnings and contraindications from the SAHPRA label were not available. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction scores very high, but it is supported only by the model (L5). The top-ranked indication has weak biological plausibility, because megaloblastic anemia is not an iron-supply problem. Plummer-Vinson syndrome is the only prediction with a credible mechanism, and it needs its own evidence review.
+The prediction has no supporting trials or literature (L5), and the proposed mechanism does not fit the disease. Only Plummer-Vinson syndrome looks biologically credible, and it largely overlaps the existing iron deficiency indication.
 
 **To proceed, the following is needed:**
-- SAHPRA Professional Information (PI) for the registered products, to complete safety screening. This is currently blocking.
-- Approved indication text and ingredient confirmation for each registration. This includes resolving the Spiriva Respimat entry and the duplicate rows.
-- Mechanism of action data for ferrous sulfate from DrugBank.
-- A targeted PubMed and ClinicalTrials.gov search for iron therapy in Plummer-Vinson syndrome, which could raise its evidence level.
-- Confirmation of whether iron deficiency coexists in the megaloblastic anemia setting, before any further consideration.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Retrieve and grade the literature for Plummer-Vinson syndrome (case series, reviews) as the priority candidate
+- Download and review the SAHPRA package inserts for warnings, contraindications and approved indications, which is a blocking gap for safety screening
+- Obtain mechanism of action data (for example from DrugBank)
+- Verify the registrations, especially the Spiriva Respimat entry, and check EML status
+- Review oral iron safety in patients with oesophageal strictures or dysphagia before considering any oesophageal-related indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

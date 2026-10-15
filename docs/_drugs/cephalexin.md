@@ -2,7 +2,7 @@
 layout: default
 title: Cephalexin
 parent: Moderate Evidence (L3-L4)
-nav_order: 109
+nav_order: 110
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cephalexin: From Systemic Antibacterial Use to Chronic Otitis Media
+# Cephalexin: From Bacterial Infections (Including Otitis Media) to Chronic Otitis Media
 
 ## One-Sentence Summary
 
-Cephalexin is a first-generation oral cephalosporin antibiotic. The TxGNN model predicts it may be effective for **chronic otitis media**. The supporting evidence is thin: **0 registered clinical trials** and **20 publications**, most of them microbiology surveys or studies of other antibiotics.
+Cephalexin is a first-generation cephalosporin antibiotic, originally used for bacterial infections such as streptococcal and staphylococcal infections, otitis media, bacterial arthritis and prostatitis.
+The TxGNN model predicts it may be effective for **chronic otitis media**,
+but there are currently **no registered clinical trials** and only **9 publications** (mostly bacteriology surveys, reviews and older studies of acute disease), so no study directly shows efficacy in the chronic form.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied SAHPRA registration data (cephalexin is a systemic antibacterial) |
+| Original Indication | Infectious otitis media, streptococcal and staphylococcal infections (the SAHPRA registration record contains no indication text) |
 | Predicted New Indication | Chronic otitis media |
 | TxGNN Prediction Score | 98.55% |
 | Evidence Level | L4 |
@@ -47,59 +51,80 @@ Cephalexin is a first-generation oral cephalosporin antibiotic. The TxGNN model 
 | Number of SAHPRA Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the supplied data. Cephalexin is a beta-lactam that inhibits bacterial cell wall synthesis. It is active against Gram-positive organisms such as *Staphylococcus aureus* and streptococci, which are found in chronic ear infections.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cephalexin is a first-generation cephalosporin that inhibits bacterial cell wall synthesis. Its efficacy in acute otitis media has been described, and mechanistically it may be applicable to chronic otitis media.
 
-Chronic otitis media is often a bacterial infection, so an antibacterial is a plausible fit. The fit is only partial, though. Cephalexin has limited activity against *H. influenzae*, anaerobes and *Pseudomonas*, and these organisms are prominent in chronic suppurative disease. Much of the retrieved literature concerns other cephalosporins (cefaclor, cefdinir, cefroxadine), so it supports the drug class more than cephalexin itself.
+Chronic otitis media, including chronic suppurative forms, involves *Staphylococcus aureus*, streptococci and Gram-negative organisms such as *Pseudomonas*. Cephalexin covers some of these organisms, so the prediction is a closely related extension of an existing use.
 
-Cephalexin may already be labelled for otitis media in some jurisdictions. If so, this finding reflects existing use rather than true repurposing. This was not verified from the supplied data.
+There are important limits. Cephalexin has limited activity against *Pseudomonas* and other common chronic-disease pathogens. The retrieved literature is mainly bacteriology and susceptibility surveys, reviews of other antibiotics, and an old comparison of cefroxadine versus cephalexin in acute suppurative otitis media. The high TxGNN score likely partly reflects the closeness of chronic otitis media to the already-labelled otitis media in the knowledge graph.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
-## Literature Evidence
+---
 
-Only papers that mention cephalexin or address chronic otitis media directly are listed. None is a modern trial of oral cephalexin in chronic otitis media.
+## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6361325](https://pubmed.ncbi.nlm.nih.gov/6361325/) | 1983 | RCT (double-blind) | Jpn J Antibiot | Cefroxadine vs cephalexin (250 mg four times daily) in acute suppurative otitis media and acute exacerbation of chronic suppurative otitis media. Outcomes were almost equal in the acute form. |
-| [8177625](https://pubmed.ncbi.nlm.nih.gov/8177625/) | 1994 | Retrospective clinical study | Pediatr Infect Dis J | 69 children with chronic suppurative otitis media. Mixed aerobic and anaerobic flora was common, and 58% of patients had beta-lactamase-producing bacteria. Therapy effective against anaerobes was favoured. The role of cephalexin is unclear. |
-| [6798820](https://pubmed.ncbi.nlm.nih.gov/6798820/) | 1981 | Observational | Acta Otolaryngol | Oral cephalexin vs cephalexin ear drops in chronic otitis media. Bacterial counts in otorrhoea fell more with ear drops than with oral dosing. Only a capsule is registered in South Africa. |
-| [22737435](https://pubmed.ncbi.nlm.nih.gov/22737435/) | 2011 | Observational (microbiology) | Iran Red Crescent Med J | Bacterial isolates and antimicrobial susceptibility in chronic suppurative otitis media patients in Kerman, Iran. |
-| [11838568](https://pubmed.ncbi.nlm.nih.gov/11838568/) | 2001 | Review | Indian J Pediatr | Overview of upper respiratory tract infections including otitis media. Most are viral and do not need antibiotics. |
-| [2685215](https://pubmed.ncbi.nlm.nih.gov/2685215/) | 1989 | Cohort | Nihon Jibiinkoka Gakkai Kaiho | Clinical and bacteriological factors in delayed recovery of otitis media with effusion in children. |
-| [7200999](https://pubmed.ncbi.nlm.nih.gov/7200999/) | 1982 | Pharmacokinetic study | J Infect Dis | Middle ear fluid penetration of amoxicillin, cefaclor, erythromycin-sulfisoxazole and trimethoprim-sulfamethoxazole. Cephalexin was not studied. |
-| [1920724](https://pubmed.ncbi.nlm.nih.gov/1920724/) | 1991 | Observational (bacteriology) | JAMA | Bacteriology of acute otitis media in adults. |
+| [6361325](https://pubmed.ncbi.nlm.nih.gov/6361325/) | 1983 | RCT | Jpn J Antibiot | Double-blind trial of cefroxadine vs cephalexin 250 mg q.i.d. in acute suppurative otitis media and acute exacerbation of chronic suppurative otitis media; the two drugs gave almost equal outcomes in the acute form |
+| [12017394](https://pubmed.ncbi.nlm.nih.gov/12017394/) | 2002 | Review | Clin Ther | Review of cefdinir, another oral cephalosporin, including its use in acute bacterial otitis media (not cephalexin) |
+| [11838568](https://pubmed.ncbi.nlm.nih.gov/11838568/) | 2001 | Review | Indian J Pediatr | Upper respiratory tract infections, including otitis media; most are viral and do not need antibiotics |
+| [3063494](https://pubmed.ncbi.nlm.nih.gov/3063494/) | 1988 | Review | Drugs | Review of enoxacin (a quinolone), not cephalexin; indirect relevance only |
+| [22737435](https://pubmed.ncbi.nlm.nih.gov/22737435/) | 2011 | Cohort | Iran Red Crescent Med J | Bacteria isolated and antimicrobial susceptibility in chronic suppurative otitis media in Kerman, Iran |
+| [1920724](https://pubmed.ncbi.nlm.nih.gov/1920724/) | 1991 | Cohort | JAMA | Bacteriology of acute otitis media in adults |
+| [3581497](https://pubmed.ncbi.nlm.nih.gov/3581497/) | 1987 | Cohort | Clin Otolaryngol | Persistent middle ear effusions in children with recurrent acute otitis media; diagnostic accuracy of tympanometry and otoscopy |
+| [3806956](https://pubmed.ncbi.nlm.nih.gov/3806956/) | 1986 | Cohort | Jpn J Antibiot | Clinical study of T-2588 (an oral cephem, not cephalexin) in ENT infections, including 2 cases of acute exacerbation of chronic otitis media |
+| [6798820](https://pubmed.ncbi.nlm.nih.gov/6798820/) | 1981 | Cohort | Acta Otolaryngol | Chronic otitis media patients given cephalexin orally or as ear drops; the bacterial count fell more with the ear drops than with oral doses |
+
+The most relevant item is the 1981 study (PMID 6798820), which suggests that local (ear drop) delivery reduced bacterial counts more than the oral route. Only an oral capsule is registered in South Africa.
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 37/20.1.1/0618 | Belex | Capsule (oral) | Not stated in the supplied data |
+| 37/20.1.1/0618 | Belex | Capsule (oral) | Not recorded in the data compiled for this report |
+
+Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindication-related diseases (from the knowledge graph, not from label text):** kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis and colitis. These should be checked against the approved Professional Information (PI).
+
+**Drug Interactions:** 100 potential interactions were identified. The ones graded Moderate are:
+- Metformin
+- Balsalazide
+- Picosulfuric acid
+
+Many other listed interactions (for example pantoprazole, omeprazole, vancomycin, doxycycline, morphine, glimepiride) have an unknown severity grade and need review by a pharmacist.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for the full warnings and contraindications. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The prediction has no registered trials behind it, and the literature is mostly indirect (microbiology surveys and studies of other cephalosporins).
-- Cephalexin's spectrum has gaps against organisms prominent in chronic suppurative disease.
-- The one study that used cephalexin directly in chronic otitis media (1981) favoured a topical route, and no topical product is registered in South Africa.
-- Acute suppurative otitis media (rank 2 in this pack) has more direct but dated comparative evidence and may be the better research question.
+The prediction is plausible, but the evidence is at L4, with no registered trials and no study directly showing cephalexin efficacy in chronic otitis media. Cephalexin has limited activity against *Pseudomonas*, a common pathogen in chronic suppurative disease, and its existing otitis media use overlaps with this prediction, so it is not truly new repurposing.
 
 **To proceed, the following is needed:**
-- The SAHPRA Professional Information (PI) for warnings, contraindications and approved indications. Safety review cannot start without it.
-- Confirmation of whether otitis media is already a labelled indication for cephalexin, which would make this label use rather than repurposing.
-- Mechanism of action data from DrugBank.
-- Current South African susceptibility data for the main pathogens in chronic otitis media.
-- Modern comparative trial evidence for cephalexin in chronic otitis media.
+- The SAHPRA package insert (warnings, contraindications and approved indications), since the safety data are currently a blocking gap
+- Mechanism of action data from DrugBank
+- Local susceptibility data in South Africa for chronic otitis media pathogens, including *Pseudomonas* and *S. aureus*
+- Prospective comparative studies of cephalexin in chronic otitis media, including the route of administration (oral versus topical)
+- Confirmation of EML status and of whether a new indication is clinically meaningful beyond the existing otitis media indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

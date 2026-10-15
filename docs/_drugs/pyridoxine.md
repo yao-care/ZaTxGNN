@@ -2,7 +2,7 @@
 layout: default
 title: Pyridoxine
 parent: Model Prediction Only (L5)
-nav_order: 392
+nav_order: 396
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,88 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pyridoxine: From Vitamin B6 Replacement to Gonococcal Urethritis
+# Pyridoxine: From Pyridoxine Deficiency Anaemia to Gonococcal Urethritis
 
 ## One-Sentence Summary
 
-Pyridoxine (vitamin B6) is a widely marketed vitamin used to replace or supplement B6. The TxGNN model predicts it may be effective for **gonococcal urethritis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only signal with no known mechanism, and no antibacterial activity against *Neisseria gonorrhoeae* is known.
-
----
+Pyridoxine (vitamin B6) is originally used to treat pyridoxine deficiency anaemia.
+The TxGNN model predicts it may be effective for **gonococcal urethritis**, but **0 clinical trials** and **0 publications** currently support this prediction.
+It is a computational signal only and has no supporting evidence or plausible biological rationale.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied registration data (vitamin B6 replacement is inferred and should be checked against the product label) |
+| Original Indication | Pyridoxine deficiency anaemia |
 | Predicted New Indication | Gonococcal urethritis |
 | TxGNN Prediction Score | 93.87% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 20 |
+| Number of SAHPRA Registrations | 13 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Pyridoxine is a precursor of pyridoxal 5'-phosphate (PLP), a cofactor for enzymes involved in amino acid, neurotransmitter, homocysteine and haem metabolism. Its established role is correcting B6 deficiency, not treating infection.
+Currently, detailed mechanism of action data is not available in the compiled record. Based on known pharmacology, pyridoxine is the precursor of pyridoxal 5'-phosphate (PLP), a cofactor in amino acid metabolism. Its efficacy in correcting vitamin B6 deficiency is established.
 
-The link between this role and gonococcal urethritis is weak. Gonococcal urethritis is a bacterial sexually transmitted infection treated with antibiotics, and pyridoxine has no known antibacterial activity against *N. gonorrhoeae*. The score of 0.9387 is identical to that of Ureaplasma urethritis (rank 2). This suggests the model is picking up a shared "urethritis" graph neighbourhood rather than a signal specific to this indication. The score should therefore be read as a hypothesis-generating flag, not as evidence of efficacy.
+**This prediction is not mechanistically supported.** Pyridoxine has no known antibacterial activity against *Neisseria gonorrhoeae*. The high TxGNN score appears to be a network-based artefact, probably driven by graph proximity to other urethritis-related nodes. No trials or publications back it.
 
-Among the other predictions, only "vitamin deficiency disorder" (rank 10) has meaningful supporting evidence. That is essentially replacement therapy, not true repurposing, and it is outside the scope of this report.
+The same applies to the other high-scoring predictions for this drug, such as Ureaplasma urethritis, xanthogranulomatous pyelonephritis, toxocariasis and congenital prothrombin deficiency. Their evidence is likewise absent or unrelated.
 
----
+The best-supported prediction in the compiled data is **vitamin deficiency disorder**. It is rated L2, with one completed Phase 2/3 study (NCT01128244, n=13) and reviews on B6 deficiency. However, it is essentially a restatement of the original indication, not true repurposing.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for gonococcal urethritis.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for gonococcal urethritis.
 
 ## South Africa Market Information
 
-Pyridoxine appears in 20 SAHPRA registrations, mainly as a component of multivitamin and vitamin B-complex products. The approved indication text was not provided for any of the listed products, and Essential Medicines List (EML) status was not included in the supplied data.
+Pyridoxine is registered in South Africa in 13 valid single-ingredient registrations, with no cancelled registrations. The table shows five of them.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H2611 (ACT 101/1965) | Becoplex ido vial 10ml | Injection | Not stated in supplied data |
-| T1012 (ACT 101/1965) | Beespan | Capsule | Not stated in supplied data |
-| H2412 (ACT 101/1965) | A-lennon vitamin b co ampoule 2ml | Injection | Not stated in supplied data |
-| H2975 (ACT 101/1965) | Vitamin b co 10ml | Injection | Not stated in supplied data |
-| U/2.6/218 | Restin | Capsule | Not stated in supplied data |
+| Registration Number | Product Name | Dosage Form |
+|---------|------|------|
+| H2611 (ACT 101/1965) | Becoplex ido vial 10ml | Injection |
+| T1012 (ACT 101/1965) | Beespan | Capsule |
+| H2412 (ACT 101/1965) | A-lennon vitamin b co ampoule 2ml | Injection |
+| A/21.8.1/743 | Menoflush | Tablet |
+| 36/22.1/0508 | Cernevit | Infusion |
 
-Available dosage forms across all registrations are injection, capsule, tablet, infusion and TPN.
-
----
+The remaining registrations are capsules, injections, infusions and TPN products, including multivitamin products.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Contraindications flagged in the knowledge graph (not label text):** These come from drug-disease contraindication links in the TxGNN knowledge graph. They are not taken from SAHPRA-approved labelling and should be verified against the Professional Information (PI). They include liver failure and liver disease, kidney disease and impaired renal function, peptic ulcer disease, diabetes mellitus and diabetic ketoacidosis, gout, systemic lupus erythematosus, peripheral neuropathy and peripheral nervous system disease, Wilson disease, hereditary haemochromatosis, rhabdomyolysis, and substance abuse/dependence.
+- **Drug interactions (13 recorded):**
+  - Moderate: altretamine, phenobarbital, levodopa (when given without a decarboxylase inhibitor) and phenytoin.
+  - Minor: amobarbital, butabarbital, butalbital, methohexital, pentobarbital, secobarbital, thiopental, methylphenobarbital and primidone.
+- **High-dose caution:** The vitamin neurotoxicity literature documents sensory neuropathy with chronic high-dose pyridoxine.
 
-No drug interaction records were found for pyridoxine in the queried source.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based model score, with no clinical trials, no publications and no plausible antibacterial mechanism. The identical score for Ureaplasma urethritis points to a shared-neighbourhood artefact. Gonococcal urethritis also has effective standard antibiotic treatment, so there is no evidence-based reason to pursue pyridoxine here.
+The prediction rests only on a model score of 93.87%. It has no clinical trials, no literature and no plausible antibacterial mechanism. Standard antimicrobial therapy is the appropriate treatment for gonococcal urethritis, and there is no basis for repurposing pyridoxine for it.
 
 **To proceed, the following is needed:**
-- Any preclinical or clinical evidence that pyridoxine has activity against *N. gonorrhoeae* or urethritis
-- Mechanism of action data for pyridoxine and confirmation of the approved indications from the SAHPRA-approved PI
-- SAHPRA package insert warnings and contraindications
-- A route and formulation compatibility assessment for the proposed use
-
-This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any use.
+- Any preclinical or clinical evidence of activity against *N. gonorrhoeae*, which is currently absent.
+- Mechanism of action data, together with the SAHPRA PI warnings and contraindications.
+- A shift in evaluation focus to better-supported directions, such as vitamin B6 deficiency states and B6-dependent conditions (including hyperoxaluria), assessed as separate indications. Any such use needs dose and duration guardrails for neuropathy risk and interaction checks, notably with levodopa, phenytoin and phenobarbital.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

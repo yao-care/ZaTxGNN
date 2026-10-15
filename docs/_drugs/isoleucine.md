@@ -2,7 +2,7 @@
 layout: default
 title: Isoleucine
 parent: Model Prediction Only (L5)
-nav_order: 275
+nav_order: 277
 evidence_level: L5
 indication_count: 1
 ---
@@ -33,83 +33,76 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Isoleucine is an essential branched-chain amino acid. In South Africa it is registered mainly as a component of parenteral nutrition and dialysis solutions, and no approved indication text is available.
-The TxGNN model predicts it may be relevant to **Gastroparesis**, but there are **0 clinical trials** and **0 publications** supporting this direction, so it rests on model prediction alone.
-
----
+Isoleucine is an essential branched-chain amino acid. In South Africa it is registered only as a component of parenteral nutrition and peritoneal dialysis products. The TxGNN model predicts it may be useful for **gastroparesis**, but there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (registered products are nutrition and dialysis solutions) |
+| Original Indication | Not stated in the SAHPRA registration data (all registrations are for amino acid-containing infusion products) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.32% |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 11 |
+| Number of SAHPRA Registrations | 10 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Isoleucine is an essential amino acid used as a nutritional component, mainly in parenteral nutrition and peritoneal dialysis products. No original indication is recorded for it as a single agent.
+Currently, detailed mechanism of action data is not available. Isoleucine is an essential amino acid that is mainly given as a nutritional component within multi-ingredient infusion products. No original indication or mechanism is recorded for it, so no verifiable mechanistic pathway to gastroparesis can be established from the data compiled for this report.
 
-No mechanistic link to gastroparesis can be established from the data supplied. Possible connections through nutritional status, gastric motility signalling or metabolic pathways are speculative. Nothing in the supplied trials or literature supports them.
+Two indirect links can be proposed, but both are speculative and unsupported by the data:
+- Nutritional support may help with the malnutrition that often accompanies gastroparesis.
+- Amino acids may influence gastric emptying and gut hormone signalling (for example CCK and GLP-1).
 
-The high TxGNN score (0.993) is a knowledge-graph prediction only and does not count as clinical evidence. The graph path behind the prediction should be reviewed before any hypothesis is formed.
-
----
+The score of 0.993 is a knowledge-graph model output, not clinical evidence, and should not be treated as validation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## South Africa Market Information
 
-Five of the 11 registrations are shown. All are multi-component products, not single-ingredient isoleucine.
+All 10 registrations are valid single-ingredient-category licences. The data compiled for this report does not include approved indication text or Essential Medicines List (EML) status. The five main registrations are listed below.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated in registration data |
-| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated in registration data |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated in registration data |
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated in registration data |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not stated in registration data |
+| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated |
+| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated |
+| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated |
+| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not stated |
+| Reg. No. 46/32.2/0518 | Smofkabiven | Infusion | Not stated |
 
-Adco-ipratropium is an ipratropium product and would not normally contain isoleucine. This entry may be a data-mapping error and should be checked against the SAHPRA record.
-
----
+Five further registrations exist: Numeta G16E, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml, and Adco-ipratropium (ni201), the last of which is listed as a vial. Its link to isoleucine is unclear and should be verified against the SAHPRA record.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+No label-based warnings, contraindications or drug interaction data were available. The drug interaction query returned no results.
 
----
+**Contraindication associations from the knowledge graph (not label text):** The TxGNN knowledge graph (PrimeKG) links isoleucine to contraindication with the following conditions. These are model-derived associations and need verification against the approved Professional Information.
+- **Renal:** kidney disease, chronic kidney disease, chronic renal failure syndrome, end stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy, pyoureter
+- **Cardiovascular:** heart disease, cardiovascular disease, ventricular fibrillation, digitalis poisoning
+- **Metabolic and calcium:** phenylketonuria, disorder of phenylalanine metabolism, phosphorus metabolism disease, hypercalcemia disease, humoral hypercalcemia of malignancy, sarcoidosis
+
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or literature (L5), and no mechanism of action or original indication is available. The registered South African products are multi-component nutrition solutions, and their PI safety data have not been reviewed.
+The prediction is supported only by a model score (Evidence Level L5). There are no clinical trials, no literature, no recorded mechanism and no label-based safety data. The knowledge graph also flags several renal and cardiac contraindication associations, which warrant caution in a population that may have comorbidities.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (for example from DrugBank) to test whether a plausible link to gastroparesis exists
-- Review of the knowledge-graph path behind the gastroparesis prediction
-- SAHPRA package insert warnings and contraindications for the registered products (currently blocking safety screening)
-- Verification of the Adco-ipratropium registration mapping
-- Route-compatibility assessment, since the registered forms are intravenous infusion or dialysis solutions
-- A literature and trial search for isoleucine or branched-chain amino acids in gastroparesis, to establish whether any real evidence exists
+- The SAHPRA Professional Information (warnings, contraindications, approved indications) for the registered products
+- Mechanism of action data, for example from DrugBank
+- A literature search for amino acid or isoleucine effects on gastric emptying and nutritional outcomes in gastroparesis
+- Assessment of route compatibility, since current registrations are infusion-based and the route needed for gastroparesis is undetermined
+- If preclinical or mechanistic support emerges, a safety review for patients with renal or cardiac disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

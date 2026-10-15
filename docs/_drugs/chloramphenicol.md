@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: Model Prediction Only (L5)
-nav_order: 111
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 112
+evidence_level: L3
 indication_count: 10
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,105 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chloramphenicol: From Broad-Spectrum Antibacterial to Conjunctivitis
+# Chloramphenicol: From Typhoid Fever and Other Bacterial Infections to Conjunctivitis
 
 ## One-Sentence Summary
 
-Chloramphenicol is a broad-spectrum bacteriostatic antibiotic, and it is already marketed in South Africa in ophthalmic and other topical products.
-The TxGNN model predicts it may be effective for **conjunctivitis**, with a score of 99.66%.
-No clinical trials or publications currently support this indication, so the prediction rests on the model alone. Because topical eye use is already established, it may not be true repurposing.
+Chloramphenicol is a broad-spectrum antibiotic originally used for typhoid fever, salmonellosis, bacterial meningitis, rickettsial infections and several skin and ear infections.
+The TxGNN model predicts it may be effective for **conjunctivitis**, with **no registered clinical trials** but **19 publications** (including a Cochrane review and comparative studies) in the data compiled for this report.
+This is closer to an extension of an existing anti-infective use than a true repurposing.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Typhoid fever, salmonellosis, paratyphoid fever, bacterial meningitis, rickettsial infections (listed in the knowledge graph; SAHPRA indication text not available) |
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 99.66% |
-| Evidence Level | L5 |
+| Evidence Level | L3 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 4 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
-The SAHPRA records supplied contain no approved indication text, so the original indication is not shown.
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from DrugBank. Chloramphenicol is generally described as a bacteriostatic antibiotic that inhibits the bacterial 50S ribosomal subunit, and this mechanism fits bacterial conjunctivitis.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Chloramphenicol is, however, a well-known broad-spectrum bacteriostatic antibiotic that inhibits the bacterial 50S ribosomal subunit, blocking protein synthesis. This activity extends to many of the bacteria that cause conjunctivitis.
 
-Topical ophthalmic use of chloramphenicol is a well-established existing use, and one registered South African product is an eye ointment. The prediction may therefore reflect a use that is already established rather than a new one.
+Its listed original indications are all infections, so conjunctivitis (most often bacterial) fits the same therapeutic area. Topical ophthalmic use is already established in clinical practice, and all registered South African products in the data are topical or ophthalmic or otic-type preparations (for example an eye ointment). The literature includes comparative studies against moxifloxacin and fusidic acid, and reviews of topical ophthalmic antibacterials.
 
-Because the original indication field is empty, we cannot assess how far conjunctivitis differs from the labelled indications. The prediction should be read as a plausible mechanism match, not as evidence of a new therapeutic use.
+The other nine model predictions (for example diffuse scleroderma, post-infectious syndromes, Chagas cardiomyopathy and chronic rhinosinusitis) lack credible supporting evidence. The scleroderma link is probably an artefact of chloramphenicol acetyltransferase (CAT) reporter assays used in gene-regulation studies, not a pharmacological effect. These are not recommended for further work at this stage.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for conjunctivitis.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Interventions for preventing ophthalmia neonatorum (antiseptic or antibiotic prophylaxis) |
+| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative study | Curr Ther Res | Moxifloxacin compared with chloramphenicol in bacterial eye infections |
+| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Comparative review of 16 topical ophthalmic antibacterial preparations |
+| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | Randomised single-blind trial | Acta Ophthalmol | Fusidic acid 1% vs chloramphenicol 0.5% in acute purulent conjunctivitis: clinical success 84% vs 81%; more trivial local side effects with chloramphenicol (14% vs 5%) |
+| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Open randomised trial | Acta Ophthalmol | In Tanzania, fusidic acid was superior to chloramphenicol (93% vs 48% clinical success) and framycetin (74%); the authors linked this to higher in vitro resistance to chloramphenicol |
+| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Safety review | Drug Saf | Debated link between topical ocular chloramphenicol and aplastic anaemia |
+| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Review / commentary | Eye (Lond) | "Topical chloramphenicol: use or abuse?" |
+| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Commentary | Clin Exp Ophthalmol | Over-the-counter chloramphenicol |
+| [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | Review | Clin Pharmacokinet | Treatment of ocular infections with topical antibacterials |
+| [7153511](https://pubmed.ncbi.nlm.nih.gov/7153511/) | 1982 | Observational | J Hyg (Lond) | Prior chloramphenicol drops delayed and reduced signs in neonatal chlamydial conjunctivitis, but swabs stayed positive in 85% |
+
+---
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. V/15.1/294 | Chlorphen 3.5g | Eye ointment |
-| Reg. No. H1278 (OM) | Spersadex comp 5ml | Drops |
-| Reg. No. H1236 (OM) | Covomycin 7.5ml | "Een" (as recorded) |
-| Reg. No. H1237 (OM) | Covomycin D | "Een" (as recorded) |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| V/15.1/294 | Chlorphen 3.5g | Eye ointment | Not available |
+| H1278 (OM) | Spersadex comp 5ml | Drops | Not available |
+| H1236 (OM) | Covomycin 7.5ml | Dosage form recorded as "Een" | Not available |
+| H1237 (OM) | Covomycin D | Dosage form recorded as "Een" | Not available |
 
-Only Chlorphen 3.5g is recorded as an ophthalmic dosage form. The other three entries are not classified as ophthalmic in the register data, so their suitability for eye use needs checking against the Professional Information (PI).
+All four registrations are valid single-ingredient products. Essential Medicines List status could not be determined from the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications / disease associations from the knowledge graph (not label text):** kidney disease, liver disease, gallbladder disease, thrombocytopenia, anaemia (including macrocytic and aplastic anaemia), agranulocytosis, neutropenia (including congenital forms), peripheral neuropathy, optic neuritis, acute intermittent porphyria and paroxysmal nocturnal haemoglobinuria. Haematological toxicity is the main concern.
 
-A drug interaction query returned no results.
+**Literature concern:** The possible link between topical ocular chloramphenicol and aplastic anaemia remains debated. It is relevant to over-the-counter use and antimicrobial stewardship.
+
+**Drug interactions (100 recorded; examples):**
+- **Major:** cisapride, naloxegol
+- **Moderate:** sulfonylureas (glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide), repaglinide, saxagliptin, simvastatin, rosuvastatin, metronidazole, aprepitant, budesonide, iron, eliglustat, nitisinone, naldemedine, balsalazide
+
+These interactions mostly concern systemic exposure and are likely of lower relevance to topical ocular use.
+
+Please also refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The conjunctivitis prediction has no supporting trials or literature (L5), and topical ophthalmic chloramphenicol is already a registered use, so this is not clearly repurposing. Safety information is also missing, which blocks safety screening.
+Chloramphenicol has a clear antibacterial mechanism, established topical ophthalmic use, and randomised comparative literature in conjunctivitis. However, there are no registered trials, resistance-related efficacy differences were reported in one study, and the aplastic anaemia debate calls for caution.
 
 **To proceed, the following is needed:**
-- SAHPRA PI warnings and contraindications for each registered product, downloaded and parsed
-- The SAHPRA-approved indications for each product, to confirm whether conjunctivitis is already labelled
+- SAHPRA package insert (warnings, contraindications and approved indications), which is currently missing and blocks formal safety screening
 - Mechanism of action data from DrugBank
-- Any interventional trials or clinical literature on chloramphenicol in conjunctivitis
-- Ophthalmic route confirmation for the products not recorded as eye formulations
-
-**Other predictions:** The model's other top predictions (scleroderma, post-infectious vasculitis, Chagas cardiomyopathy and others) have no supporting evidence, and some are contradicted by it. The "post-bacterial disorder" prediction has one possible lead, a Phase 2/3 rickettsial clearance study ([NCT05972772](https://clinicaltrials.gov/study/NCT05972772)). Whether chloramphenicol is an arm of that trial has not been verified.
+- Local South African susceptibility and resistance data for common conjunctival pathogens
+- Confirmation of whether the registered products are indicated for ocular use and of their EML and scheduling status
+- A stewardship and monitoring plan (prescriber-only use, avoidance in patients with prior blood dyscrasias, and awareness of systemic interactions)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

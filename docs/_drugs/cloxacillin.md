@@ -2,7 +2,7 @@
 layout: default
 title: Cloxacillin
 parent: Model Prediction Only (L5)
-nav_order: 140
+nav_order: 142
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cloxacillin: From Antibacterial Therapy to Chronic Rhinosinusitis
+# Cloxacillin: From Staphylococcal Infections to Chronic Rhinosinusitis
 
 ## One-Sentence Summary
 
-Cloxacillin is a beta-lactamase-resistant penicillin active against *Staphylococcus aureus*, and it is marketed in South Africa. The TxGNN model predicts it may be useful for **chronic rhinosinusitis**, but **no clinical trials and no publications** were found for this specific indication, so the prediction rests on the model score alone. The best-supported prediction in this pack is actually **bacterial arthritis**, which has 2 related trials and preclinical and pharmacokinetic literature. That is close to established anti-staphylococcal use rather than true repurposing.
+Cloxacillin is a beta-lactamase-stable penicillin, originally used for staphylococcal infections such as *Staphylococcus aureus* infection, pharyngitis, staphylococcal pneumonia and sinusitis.
+The TxGNN model predicts it may be effective for **chronic rhinosinusitis**, but there are currently **no clinical trials and no publications** supporting this specific prediction.
+The score largely reflects overlap with the existing sinusitis indication rather than a genuinely new use.
 
 ---
 
@@ -41,77 +43,94 @@ Cloxacillin is a beta-lactamase-resistant penicillin active against *Staphylococ
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA data supplied (anti-staphylococcal penicillin antibiotic) |
+| Original Indication | Staphylococcal infections (including *S. aureus* infection, pharyngitis, staphylococcal pneumonia, sinusitis) |
 | Predicted New Indication | Chronic rhinosinusitis |
 | TxGNN Prediction Score | 98.31% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 4 |
 | Recommended Decision | Hold |
+
+*Note: The registration records compiled for this report contain no approved-indication text, so the original indications above come from the TxGNN knowledge graph, not from SAHPRA label text.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the Evidence Pack. Cloxacillin is a beta-lactamase-resistant penicillin that acts on penicillin-susceptible and methicillin-susceptible *S. aureus* (MSSA). Because *S. aureus* can contribute to chronic sinus disease, a bacterial component in chronic rhinosinusitis is plausible.
+Detailed mechanism of action data is not currently available. Based on known information, cloxacillin is an isoxazolyl penicillin that is stable against staphylococcal beta-lactamase. Its efficacy in staphylococcal infections is established, and it may be mechanistically applicable to sinus infections caused by methicillin-susceptible *S. aureus*.
 
-This link is weak. Chronic rhinosinusitis is often driven by inflammation rather than infection alone, and no study in the pack tests cloxacillin for it. The sister prediction, chronic ethmoidal sinusitis (98.28%), has the same weak rationale and also no clinical evidence.
+The high score most likely reflects the fact that sinusitis is already among cloxacillin's known indications. Chronic rhinosinusitis is typically biofilm-associated and often polymicrobial, and cloxacillin has a narrow, anti-staphylococcal spectrum. No trials or literature were found to support its use in the chronic form. The second-ranked prediction, chronic ethmoidal sinusitis (score 98.28%), is a subtype of sinusitis and largely overlaps with the existing use, so it is not a true repurposing candidate either.
 
-Several high-scoring predictions have little or no plausible mechanism and are probably artefacts of the knowledge graph:
-- Paranasal sinus neoplasm (98.17%): a narrow-spectrum antibacterial has no known antineoplastic activity.
-- Celiac trunk compression syndrome, abdominal ectopic pregnancy and abdominal cystic lymphangioma (all 95.93%): non-infectious conditions with identical scores.
+### Other predictions reviewed
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 4 | Epiglottitis | 98.12% | L4 | Plausible anti-staphylococcal cover, but empirical therapy usually targets *H. influenzae* and streptococci with broader agents. Only a 1988 case series is available. |
+| 5 | Bacterial arthritis | 97.68% | L4 | The most credible new direction. Cloxacillin is active against methicillin-susceptible *S. aureus*, the leading cause of septic arthritis. Support is indirect (see below). |
+| 6 | Pneumonia | 97.22% | L4 | Mostly reflects the existing staphylococcal pneumonia indication. Retrieved literature is largely non-specific. |
+| 7 | Laryngitis | 96.32% | L4 | Most laryngitis is viral. Only a case report of glottic *S. aureus* and unrelated studies are available. |
+| 3, 8, 9, 10 | Paranasal sinus neoplasm, celiac trunk compression syndrome, abdominal ectopic pregnancy, abdominal cystic lymphangioma | 95.9–98.2% | L5 | No plausible antibacterial mechanism. Likely knowledge-graph artifacts. Three of these share an identical score, suggesting a non-informative prediction. |
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for chronic rhinosinusitis.
+Currently no related clinical trials registered for chronic rhinosinusitis.
 
-For **bacterial arthritis** (rank 5, score 97.68%), the most relevant trials retrieved were:
+For the most plausible alternative prediction, **bacterial arthritis**, one trial was identified:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04563325](https://clinicaltrials.gov/study/NCT04563325) | Phase 4 | Completed | 180 | Oral-only vs initial IV-then-oral antibiotics for paediatric bone and joint infections. Cloxacillin as a study arm is not confirmed in the data. |
-| [NCT04141787](https://clinicaltrials.gov/study/NCT04141787) | Phase 4 | Unknown | 310 | Home IV ceftriaxone for deep-seated staphylococcal infections. Cloxacillin is a likely comparator, but this is unconfirmed. |
+| [NCT04141787](https://clinicaltrials.gov/study/NCT04141787) | Phase 4 | Unknown | 310 | Randomised non-inferiority trial of home intravenous ceftriaxone for deep-seated staphylococcal infections (bone, joint, spine). Cloxacillin is likely a standard-of-care comparator, not the experimental drug, so the evidence is indirect. |
 
-No SANCTR or PACTR identifiers were found in the pack.
+No SANCTR or PACTR identifiers were found in the data compiled for this report.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature is available for chronic rhinosinusitis.
+Currently no related literature available for chronic rhinosinusitis.
 
-For **bacterial arthritis**, the most relevant publications retrieved were:
+For **bacterial arthritis** (the strongest alternative direction), selected publications are:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30772469](https://pubmed.ncbi.nlm.nih.gov/30772469/) | 2019 | Review | Int J Infect Dis | Updated review of antibiotic penetration into bone and joint tissue against common pathogens |
-| [27455444](https://pubmed.ncbi.nlm.nih.gov/27455444/) | 2016 | Cohort | Pediatr Infect Dis J | Spanish multicentre study of the epidemiology and management of acute septic arthritis and osteomyelitis |
-| [26695535](https://pubmed.ncbi.nlm.nih.gov/26695535/) | 2016 | Preclinical (animal) | Cell Microbiol | Cloxacillin controlled experimental *S. aureus* arthritis and reduced local and systemic cytokines |
-| [17576849](https://pubmed.ncbi.nlm.nih.gov/17576849/) | 2007 | Preclinical (rabbit) | Antimicrob Agents Chemother | Moxifloxacin, cloxacillin and vancomycin showed no significant difference after 7 days in *S. aureus* arthritis |
-| [10350394](https://pubmed.ncbi.nlm.nih.gov/10350394/) | 1999 | Pharmacokinetic study | J Antimicrob Chemother | Serum and synovial fluid concentrations and bactericidal activity of cloxacillin and fusidic acid against MSSA and MRSA isolates |
-| [12010570](https://pubmed.ncbi.nlm.nih.gov/12010570/) | 2002 | Preclinical (animal) | Arthritis Res | Cloxacillin combined with a free radical trap (PBN) was effective against *S. aureus* septic arthritis |
-| [3334740](https://pubmed.ncbi.nlm.nih.gov/3334740/) | 1988 | Preclinical (avian model) | J Orthop Res | Effect of different cloxacillin regimens on experimental staphylococcal septic arthritis |
+| [30772469](https://pubmed.ncbi.nlm.nih.gov/30772469/) | 2019 | Review | Int J Infect Dis | Updated review of antibiotic penetration into bone and joint tissue. |
+| [10350394](https://pubmed.ncbi.nlm.nih.gov/10350394/) | 1999 | Pharmacokinetic study | J Antimicrob Chemother | Cloxacillin (2 g IV) and fusidic acid concentrations and bactericidal activity in serum and synovial fluid against MSSA and MRSA. |
+| [27455444](https://pubmed.ncbi.nlm.nih.gov/27455444/) | 2016 | Cohort | Pediatr Infect Dis J | Spanish multicentre study of epidemiology and management of paediatric osteoarticular infection. |
+| [26695535](https://pubmed.ncbi.nlm.nih.gov/26695535/) | 2016 | Preclinical (animal) | Cell Microbiol | Cloxacillin controlled experimental *S. aureus* arthritis and was associated with reduced local and systemic cytokines. |
+| [3334740](https://pubmed.ncbi.nlm.nih.gov/3334740/) | 1988 | Preclinical (animal) | J Orthop Res | Effect of different cloxacillin regimens in an avian model of staphylococcal septic arthritis. |
+| [17576849](https://pubmed.ncbi.nlm.nih.gov/17576849/) | 2007 | Preclinical (animal) | Antimicrob Agents Chemother | Moxifloxacin, cloxacillin and vancomycin showed no significant difference after 7 days in a rabbit *S. aureus* arthritis model. |
+| [25104892](https://pubmed.ncbi.nlm.nih.gov/25104892/) | 2014 | Cohort | J Orthop | Clinical and microbiological characteristics of septic arthritis in a hospital cohort. |
+| [6695158](https://pubmed.ncbi.nlm.nih.gov/6695158/) | 1984 | Clinical comparison | Scand J Infect Dis | Cefuroxime versus cloxacillin and/or ampicillin in acute septic arthritis. |
+
+For **epiglottitis**, one 1988 case series is available ([3209935](https://pubmed.ncbi.nlm.nih.gov/3209935/), adult epiglottitis in Singapore, *J Laryngol Otol*), with no cloxacillin-specific efficacy data.
 
 ---
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. M/20.1.2/227 | Cloxacillin-fresenius powder for injecti | Injection |
-| Reg. No. 27/11.4.3/0108 | Apen | Capsule |
-| Reg. No. Z/20.1.2/0355 | Megamox S | Suspension |
-| Reg. No. N/20.1.2/0014 | Cloxam | Capsule |
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| M/20.1.2/227 | Cloxacillin-fresenius powder for injection | Injection | Not stated in the data compiled |
+| 27/11.4.3/0108 | Apen | Capsule | Not stated in the data compiled |
+| Z/20.1.2/0355 | Megamox S | Suspension | Not stated in the data compiled |
+| N/20.1.2/0014 | Cloxam | Capsule | Not stated in the data compiled |
 
-Approved indication text and manufacturer details were not available in the data supplied.
+All four registrations are valid single-ingredient products. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+**Contraindications from the knowledge graph** (these come from graph edges, not label text): kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, infectious mononucleosis, and chronic Epstein-Barr virus infection syndrome.
+
+**Drug Interactions:** 17 interactions were identified.
+- **Major:** methotrexate.
+- **Moderate:** doxycycline, tetracycline, minocycline, demeclocycline, balsalazide, picosulfuric acid, iodide I-131, iodide I-123, warfarin, proguanil, chloramphenicol, ethinylestradiol, mycophenolic acid, pemetrexed.
+- **Minor:** clarithromycin, erythromycin.
+
+Label-based warnings and contraindications are not available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -120,14 +139,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-- The top prediction (chronic rhinosinusitis, L5) has no trials or literature, and its mechanistic rationale is weak. Safety data from the SAHPRA PI are also missing.
-- Bacterial arthritis is the most credible signal (L3), but it largely reflects existing anti-staphylococcal use and should be treated as a research question, not a new indication.
+The top prediction, chronic rhinosinusitis, has no trials or literature and mostly overlaps with cloxacillin's existing sinusitis indication. Bacterial arthritis is the most credible genuine extension (L4, indirect evidence), but it is also not yet supported by direct clinical data.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications, approved indications), to confirm label status and enable safety screening.
-- Mechanism-of-action data (e.g. from DrugBank).
-- For chronic rhinosinusitis: any clinical or microbiological evidence linking MSSA to the disease and cloxacillin response, before further consideration.
-- For bacterial arthritis: confirmation of whether cloxacillin was used in the retrieved trials, and a check against current South African guideline status.
+- SAHPRA Professional Information (warnings, contraindications and approved indications). This is currently a blocking gap for safety screening.
+- Mechanism of action data for cloxacillin.
+- For bacterial arthritis, direct comparative clinical data on cloxacillin against current standard therapy, ideally from the South African setting with local MSSA/MRSA susceptibility patterns.
+- For chronic rhinosinusitis, evidence of benefit in the chronic, biofilm-associated, polymicrobial form, or confirmation that the prediction is only a restatement of the labeled sinusitis use.
+- Renal function considerations and a review of the major methotrexate interaction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

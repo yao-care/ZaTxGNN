@@ -2,7 +2,7 @@
 layout: default
 title: Cycloserine
 parent: Model Prediction Only (L5)
-nav_order: 156
+nav_order: 158
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cycloserine: From Drug-Resistant Tuberculosis to Irritable Bowel Syndrome
+# Cycloserine: From Pulmonary Tuberculosis to Irritable Bowel Syndrome
 
 ## One-Sentence Summary
 
-Cycloserine is a second-line (reserve) antibiotic used for drug-resistant tuberculosis. The TxGNN model predicts it may be effective for **irritable bowel syndrome**, but **no clinical trials and no publications** currently support this prediction. It rests on the knowledge-graph score alone.
+Cycloserine is an antibiotic originally used to treat pulmonary tuberculosis.
+The TxGNN model predicts it may be effective for **irritable bowel syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Drug-resistant tuberculosis (from the Evidence Pack's narrative; no approved indication text is recorded in the SAHPRA data) |
+| Original Indication | Pulmonary tuberculosis (from the TxGNN knowledge graph; no approved indication text is available for the SAHPRA registration) |
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
@@ -49,13 +50,15 @@ Cycloserine is a second-line (reserve) antibiotic used for drug-resistant tuberc
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Cycloserine is known as a cell-wall synthesis inhibitor (alanine racemase and D-Ala-D-Ala ligase). Its efficacy in drug-resistant tuberculosis is established. Mechanistically, no link to irritable bowel syndrome (IBS) has been established.
+Detailed mechanism of action data for the original indication is not available. Based on known information, cycloserine is a second-line antituberculosis agent whose efficacy in pulmonary tuberculosis is established. Whether that mechanism applies to irritable bowel syndrome cannot be determined from the data compiled for this report.
 
-The only speculative route is D-cycloserine's action as a partial agonist at the NMDA glycine site, which might influence gut-brain signalling. No supporting data were provided. The high score reflects patterns in the knowledge graph, not demonstrated biology or clinical results. Antibacterial action against tuberculosis has no clear bearing on a functional bowel disorder.
+The data compiled for this report notes that cycloserine acts as a partial agonist at the glycine site of the NMDA receptor. A link to the gut-brain axis or visceral hypersensitivity is conceivable but **speculative**, with no supporting clinical or literature evidence. The TxGNN score is a computational association, not proof of benefit.
+
+Other top-ranked predictions have similar limitations (acne, gastroparesis, conjunctivitis, pharyngitis, rhinitis and others). Most have no trials or literature. For insomnia, the available literature describes insomnia as an **adverse effect** of cycloserine (a case report of cycloserine-induced insomnia and psychosis in multidrug-resistant TB), which is a safety signal rather than support for repurposing.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for irritable bowel syndrome.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
@@ -65,32 +68,34 @@ Currently no related literature available for irritable bowel syndrome.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated in the source data |
+| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated in the data compiled |
 
-The only linked registration is a peritoneal dialysis amino-acid solution, which is not a typical cycloserine product. This looks like an ingredient-mapping artefact. Verify the actual cycloserine product registrations on the SAHPRA register before relying on the "Marketed" status.
+The only registration found is a single-ingredient infusion product (valid). Its product name suggests a peritoneal dialysis solution rather than an oral cycloserine product, so the registration data should be verified before any conclusions are drawn about local availability of cycloserine. Essential Medicines List (EML) status was not available in the data compiled.
 
 ## Safety Considerations
 
-- **Neuropsychiatric effects**: A 2022 case report (PMID 36712725) describes cycloserine-induced insomnia and psychosis in multidrug-resistant TB. Cycloserine is generally associated with CNS toxicity, which is a concern for long-term use in a non-life-threatening condition such as IBS.
+- **Contraindications (from knowledge-graph associations, not label text):** epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder, kidney disease, pyoureter, psychotic disorder, schizophreniform disorder, mental disorder, schizoaffective disorder, substance abuse/dependence, vitamin B12 deficiency, megaloblastic anaemia, sideroblastic anaemia.
+- **Drug Interactions (11 recorded):**
+  - **Major:** bupropion, ethanol, iohexol, iopamidol
+  - **Moderate:** picosulfuric acid, polyethylene glycol (3350 with electrolytes), sodium sulfate, caffeine, dicoumarol, warfarin, lindane
+- **Neurotoxicity:** The literature compiled describes cycloserine-induced insomnia and psychosis, consistent with its known CNS toxicity profile.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full safety information (warnings, contraindications, interactions). Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for label warnings and contraindications, which were not available in the data compiled. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials, no literature and no established mechanism, so it is L5 (model prediction only). Cycloserine's CNS toxicity and reserve-agent status make systemic use for IBS unfavourable without supporting evidence.
-
-Other predicted indications (e.g. insomnia, conjunctivitis) also remain at Hold. Their retrieved studies are indirect or point to safety concerns.
+The prediction is based on the TxGNN model alone (Evidence Level L5), with no clinical trials or publications for irritable bowel syndrome. Cycloserine's CNS toxicity and numerous knowledge-graph contraindications make the benefit-risk balance unfavourable without supporting evidence.
 
 **To proceed, the following is needed:**
-- The SAHPRA Professional Information (PI) for a genuine cycloserine product, including warnings and contraindications
-- Mechanism of action data (e.g. from DrugBank) and a plausible biological link to IBS
-- Preclinical or early clinical evidence in IBS
-- Confirmation of the correct SAHPRA registrations and available dosage forms (oral vs the registered infusion product)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data and a plausible mechanistic rationale for irritable bowel syndrome
+- Preclinical or early clinical evidence in irritable bowel syndrome
+- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
+- Verification of the SAHPRA registration, as the listed product appears to be a dialysis solution
+- Route and formulation compatibility assessment
+- A neuropsychiatric safety and drug interaction management plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

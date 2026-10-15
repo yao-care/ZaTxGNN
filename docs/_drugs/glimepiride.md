@@ -2,7 +2,7 @@
 layout: default
 title: Glimepiride
 parent: Model Prediction Only (L5)
-nav_order: 244
+nav_order: 246
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,89 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Glimepiride: From Type 2 Diabetes to Classic Stiff Person Syndrome
+# Glimepiride: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
 
 ## One-Sentence Summary
 
-Glimepiride is a sulfonylurea, a class of oral glucose-lowering medicines used for type 2 diabetes. The TxGNN model predicts it may be effective for **classic stiff person syndrome** with a very high score. However, there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model alone and the likely explanation is a graph-association artefact.
-
----
+Glimepiride is a sulfonylurea originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **classic stiff person syndrome**,
+but there are currently **no clinical trials** and **no publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (based on the drug class; the SAHPRA registration data provided do not state an indication) |
+| Original Indication | Type 2 diabetes mellitus (from the knowledge-graph indication data; the SAHPRA registration records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Classic stiff person syndrome |
-| TxGNN Prediction Score | 99.75% (model rank 1730) |
-| Evidence Level | L5 (model prediction only) |
+| TxGNN Prediction Score | 99.75% |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed |
 | Number of SAHPRA Registrations | 3 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source data. Glimepiride blocks ATP-sensitive potassium (K-ATP) channels on pancreatic beta cells, which stimulates insulin release. Its established use is in type 2 diabetes.
+Currently, detailed mechanism of action data is not available. Based on known information, glimepiride is a sulfonylurea that closes pancreatic KATP channels to stimulate insulin release, and its efficacy in type 2 diabetes is established.
 
-**No direct mechanistic link was identified.** Stiff person syndrome is a rare autoimmune disorder of the central nervous system, often associated with anti-GAD65 antibodies. The high score most likely reflects the comorbidity of autoimmune diabetes with stiff person syndrome in the knowledge graph. It does not appear to reflect a therapeutic mechanism. Because no original mechanism data were available, an independent mechanistic check was not possible.
+No mechanistic link to stiff person syndrome (SPS) has been established. SPS is an autoimmune neurological disorder involving anti-GAD65 antibodies and impaired GABAergic signalling, which is quite different from the pancreatic action of glimepiride. The only conceivable connection is the diabetes comorbidity common in SPS, and this is speculative.
 
-The same reasoning applies to the closely related prediction, **focal stiff limb syndrome** (score 99.75%). The other predictions are also not supported by evidence:
+The prediction should be read with caution. Focal stiff limb syndrome (an SPS-spectrum disorder) has an identical score, which suggests the signal is driven by shared disease-ontology neighbours in the knowledge graph rather than independent drug-specific evidence. Other high-scoring predictions for this drug follow a similar pattern:
 
-| Predicted Indication | Score | Assessment |
-|------|------|------|
-| Opsismodysplasia | 99.74% | Weak, speculative link only. The disease involves INPPL1 (SHIP2), a regulator of insulin/PI3K signalling, but nothing supports benefit in a skeletal dysplasia. |
-| Thiamine-responsive dysfunction syndrome | 99.73% | Indirect at most. Diabetes is a feature of this syndrome, so any use would be symptomatic diabetes management, not treatment of the underlying disease. |
-| Localized lipodystrophies (drug-induced, centrifugal, pressure-induced, idiopathic) | 99.56–99.62% | No mechanistic rationale. A sulfonylurea would not restore lost fat tissue, and the scores likely reflect graph proximity to diabetes. |
-| Pancreatic agenesis | 99.55% | Mechanistically contradictory. Glimepiride needs existing beta cells to work, and insulin replacement is the logical therapy. |
-
----
+- **Focal stiff limb syndrome** (99.75%): same score as classic SPS; likely a graph-neighbour effect.
+- **Opsismodysplasia** (99.74%): only a loose link through insulin/PI3K signalling (INPPL1/SHIP2), with no supporting data.
+- **Thiamine-responsive dysfunction syndrome** (99.73%): sulfonylureas might treat the diabetes component symptomatically, but this would not modify the disease.
+- **Localized lipodystrophies** (99.56%–99.62%): near-identical scores across subtypes suggest a class-level graph artefact; insulin-secretagogue action could even be unhelpful.
+- **Pancreatic agenesis** (99.55%): biologically implausible, because glimepiride needs residual beta cells to work.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for classic stiff person syndrome.
 
 ## Literature Evidence
 
-Currently no related literature available for classic stiff person syndrome. The only paper retrieved across all predictions concerns endosonographic imaging of suspected insulinomas (PMID [12720536](https://pubmed.ncbi.nlm.nih.gov/12720536/), 2003). It was linked to the pancreatic agenesis prediction and is unrelated to glimepiride or its treatment.
-
----
+Currently no related literature available for classic stiff person syndrome.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 41/21.2/0656 | Accord glimepiride | Tablet |
-| Reg. No. A39/21.2/0023 | Glimepiride 1 oethmaan | Tablet |
-| Reg. No. 43/21.2/0005 | Amaryl Combi 2/500 | Tablet |
+Glimepiride is marketed in South Africa with 3 valid single-ingredient registrations, all in oral tablet form. The approved indication text was not available in the data compiled for this report, and Essential Medicines List (EML) status was not available.
 
-All three products are oral tablets. Approved indication text and Essential Medicines List (EML) status were not included in the data provided.
-
----
+| Registration Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| Reg. No. 41/21.2/0656 | Accord glimepiride | Tablet | Not available |
+| Reg. No. A39/21.2/0023 | Glimepiride 1 oethmaan | Tablet | Not available |
+| Reg. No. 43/21.2/0005 | Amaryl Combi 2/500 | Tablet | Not available |
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. No drug interaction records were found for this drug in the data provided.
+Label warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available in the data compiled for this report. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
 
----
+- **Contraindications suggested by the knowledge graph** (not label text): kidney disease, liver disease, gallbladder disease, congestive heart failure, osteoporosis (including postmenopausal), infectious disease, thymus gland disease, and multiple pituitary-related conditions (hypopituitarism, pituitary hormone deficiencies, growth hormone deficiencies, hypogonadotropic hypogonadism, Kallmann syndrome, Sheehan syndrome). Also listed was pyoureter. These should be verified against the PI.
+- **Drug Interactions**: 100 interactions were identified in the DDI database. The 20 reviewed include mostly Moderate-level interactions. Examples include:
+  - Beta-agonists and sympathomimetics (salbutamol, formoterol, epinephrine, phenylephrine, pseudoephedrine)
+  - Beta-blocker (acebutolol)
+  - Corticosteroids (hydrocortisone; topical hydrocortisone and alclometasone are Minor)
+  - NSAIDs (ibuprofen, ketorolac)
+  - H2 blockers (famotidine, ranitidine)
+  - Hydrochlorothiazide, acetazolamide, acitretin, ethinylestradiol, nitazoxanide
+  - Albiglutide (GLP-1 agonist)
+  - Ethanol
+
+  Many of these are expected to alter glycaemic control, so hypoglycaemia or loss of control should be monitored.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature, and no plausible mechanism links K-ATP channel blockade to stiff person syndrome. The high score most likely reflects shared graph neighbours (diabetes and autoimmunity). The same applies to the other predicted indications. Safety review also cannot proceed until the SAHPRA package insert data are obtained.
+The prediction rests on the TxGNN score alone, with no clinical trials, no relevant publications, and no plausible mechanistic link between a pancreatic KATP-channel blocker and an autoimmune GABAergic disorder. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data for glimepiride (e.g. via the DrugBank API)
-- Any independent clinical or preclinical evidence for stiff person syndrome; none was retrieved
-- Approved indication text for the three SAHPRA registrations
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanism of action data for glimepiride (e.g., from DrugBank)
+- Any biological or clinical rationale linking sulfonylurea action to SPS, supported by preclinical or observational data
+- SAHPRA Professional Information (warnings, contraindications, approved indication text) to complete safety screening
+- Evaluation of whether the high score reflects a graph artefact, given that focal stiff limb syndrome has an identical score
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
