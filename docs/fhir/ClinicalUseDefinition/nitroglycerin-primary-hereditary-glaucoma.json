@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "primary-hereditary-glaucoma",
+          "display": "primary hereditary glaucoma"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "primary hereditary glaucoma",
       "concept": {
         "text": "primary hereditary glaucoma"
       }

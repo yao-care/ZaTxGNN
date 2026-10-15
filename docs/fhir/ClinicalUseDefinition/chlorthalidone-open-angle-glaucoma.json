@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "open-angle-glaucoma",
+          "display": "open-angle glaucoma"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "open-angle glaucoma",
       "concept": {
         "text": "open-angle glaucoma"
       }

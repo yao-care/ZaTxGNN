@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "chagas-cardiomyopathy",
+          "display": "Chagas cardiomyopathy"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "Chagas cardiomyopathy",
       "concept": {
         "text": "Chagas cardiomyopathy"
       }

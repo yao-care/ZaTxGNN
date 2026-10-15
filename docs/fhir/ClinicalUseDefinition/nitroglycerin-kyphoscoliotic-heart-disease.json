@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "kyphoscoliotic-heart-disease",
+          "display": "kyphoscoliotic heart disease"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "kyphoscoliotic heart disease",
       "concept": {
         "text": "kyphoscoliotic heart disease"
       }

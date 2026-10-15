@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "infective-urethral-stricture",
+          "display": "infective urethral stricture"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "infective urethral stricture",
       "concept": {
         "text": "infective urethral stricture"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "punctate-epithelial-keratoconjunctivitis",
+          "display": "punctate epithelial keratoconjunctivitis"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "punctate epithelial keratoconjunctivitis",
       "concept": {
         "text": "punctate epithelial keratoconjunctivitis"
       }

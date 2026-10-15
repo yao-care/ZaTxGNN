@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "post-bacterial-disorder",
+          "display": "post-bacterial disorder"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "post-bacterial disorder",
       "concept": {
         "text": "post-bacterial disorder"
       }

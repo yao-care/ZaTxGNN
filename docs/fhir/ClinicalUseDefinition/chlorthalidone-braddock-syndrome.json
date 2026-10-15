@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "braddock-syndrome",
+          "display": "Braddock syndrome"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "Braddock syndrome",
       "concept": {
         "text": "Braddock syndrome"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "congenital-hypotrichosis-milia",
+          "display": "congenital hypotrichosis milia"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "congenital hypotrichosis milia",
       "concept": {
         "text": "congenital hypotrichosis milia"
       }

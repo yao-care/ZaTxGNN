@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "pulmonary-hypertension",
+          "display": "pulmonary hypertension"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "pulmonary hypertension",
       "concept": {
         "text": "pulmonary hypertension"
       }

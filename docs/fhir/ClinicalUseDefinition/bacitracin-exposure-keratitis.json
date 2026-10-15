@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "exposure-keratitis",
+          "display": "exposure keratitis"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "exposure keratitis",
       "concept": {
         "text": "exposure keratitis"
       }

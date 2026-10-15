@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "infection-related-hemolytic-uremic-syndrome",
+          "display": "infection-related hemolytic uremic syndrome"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "infection-related hemolytic uremic syndrome",
       "concept": {
         "text": "infection-related hemolytic uremic syndrome"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "postinfectious-vasculitis",
+          "display": "postinfectious vasculitis"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "postinfectious vasculitis",
       "concept": {
         "text": "postinfectious vasculitis"
       }

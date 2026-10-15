@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "otitis-externa",
+          "display": "otitis externa"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "otitis externa",
       "concept": {
         "text": "otitis externa"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "prinzmetal-angina",
+          "display": "Prinzmetal angina"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "Prinzmetal angina",
       "concept": {
         "text": "Prinzmetal angina"
       }

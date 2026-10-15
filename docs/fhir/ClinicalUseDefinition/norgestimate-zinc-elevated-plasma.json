@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "zinc-elevated-plasma",
+          "display": "zinc, elevated plasma"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "zinc, elevated plasma",
       "concept": {
         "text": "zinc, elevated plasma"
       }

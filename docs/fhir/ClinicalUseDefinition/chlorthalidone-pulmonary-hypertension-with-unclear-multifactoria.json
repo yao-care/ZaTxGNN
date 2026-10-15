@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "autoimmune-oophoritis",
-          "display": "autoimmune oophoritis"
+          "code": "pulmonary-hypertension-with-unclear-multifactorial-mechanism",
+          "display": "pulmonary hypertension with unclear multifactorial mechanism"
         }
       ],
-      "text": "autoimmune oophoritis",
+      "text": "pulmonary hypertension with unclear multifactorial mechanism",
       "concept": {
         "text": "pulmonary hypertension with unclear multifactorial mechanism"
       }
