@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Albendazole with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Cestode infectious disease (99.7%)</li>
+<li>Intestinal helminthiasis (98.1%)</li>
+<li>Lung benign neoplasm (98.3%)</li>
+<li>Hamartoma of lung (98.3%)</li>
 <li>alveolar echinococcosis (100.0%)</li>
 <li>coenurosis (99.8%)</li>
-<li>Cestode infectious disease (99.7%)</li>
 <li>dermatofibrosarcoma protuberans (98.8%)</li>
-<li>lung benign neoplasm (98.3%)</li>
 <li>lung hilum carcinoma (98.3%)</li>
 <li>inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia (98.3%)</li>
 <li>fibroma of lung (98.3%)</li>
-<li>hamartoma of lung (98.3%)</li>
-<li>intestinal helminthiasis (98.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/albendazole/' | relative_url }}">View full drug report →</a></p>

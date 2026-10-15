@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Acyclovir with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>punctate epithelial keratoconjunctivitis (99.7%)</li>
-<li>common wart (99.5%)</li>
-<li>post-infectious neuralgia (99.2%)</li>
-<li>hepatitis C induced liver cirrhosis (99.2%)</li>
-<li>eosinophilic pustular folliculitis (99.2%)</li>
-<li>sequela of COVID-19 (99.2%)</li>
-<li>vulvovaginal candidiasis (99.1%)</li>
-<li>papular urticaria (99.1%)</li>
-<li>disease of orbital region (99.1%)</li>
-<li>epidemic keratoconjunctivitis (99.1%)</li>
+<li>Punctate epithelial keratoconjunctivitis (99.7%)</li>
+<li>Common wart (99.5%)</li>
+<li>Post-infectious neuralgia (99.2%)</li>
+<li>Hepatitis C induced liver cirrhosis (99.2%)</li>
+<li>Eosinophilic pustular folliculitis (99.2%)</li>
+<li>Sequela of COVID-19 (99.2%)</li>
+<li>Vulvovaginal candidiasis (99.1%)</li>
+<li>Papular urticaria (99.1%)</li>
+<li>Disease of orbital region (99.1%)</li>
+<li>Epidemic keratoconjunctivitis (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/acyclovir/' | relative_url }}">View full drug report →</a></p>

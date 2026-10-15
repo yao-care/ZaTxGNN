@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Salicylic acid with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.8%)</li>
+<li>Brachydactyly-syndactyly syndrome (99.7%)</li>
+<li>Brachyolmia-amelogenesis imperfecta syndrome (99.5%)</li>
+<li>Rosacea conjunctivitis (99.5%)</li>
+<li>Acromesomelic dysplasia, Hunter-Thompson type (99.5%)</li>
+<li>Pseudoachondroplasia (99.5%)</li>
+<li>Myosclerosis (99.5%)</li>
+<li>Brachyolmia (99.4%)</li>
+<li>Spondyloarthropathy, susceptibility to (99.3%)</li>
 <li>papillary conjunctivitis (99.9%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.8%)</li>
-<li>brachydactyly-syndactyly syndrome (99.7%)</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome (99.5%)</li>
-<li>rosacea conjunctivitis (99.5%)</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type (99.5%)</li>
-<li>pseudoachondroplasia (99.5%)</li>
-<li>myosclerosis (99.5%)</li>
-<li>brachyolmia (99.4%)</li>
-<li>spondyloarthropathy, susceptibility to (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/salicylic_acid/' | relative_url }}">View full drug report →</a></p>

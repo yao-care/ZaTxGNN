@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Iopamidol with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Female breast carcinoma (97.9%)</li>
+<li>Migraine with brainstem aura (97.4%)</li>
+<li>Migraine disorder (97.4%)</li>
+<li>Tendinitis (96.7%)</li>
+<li>Myositis fibrosa (96.6%)</li>
+<li>Idiopathic granulomatous myositis (96.6%)</li>
+<li>Hemoglobinopathy (96.4%)</li>
+<li>Pulmonary hypertension (96.2%)</li>
+<li>Fibromyalgia (96.1%)</li>
 <li>Prinzmetal angina (98.6%)</li>
-<li>female breast carcinoma (97.9%)</li>
-<li>migraine with brainstem aura (97.4%)</li>
-<li>migraine disorder (97.4%)</li>
-<li>tendinitis (96.7%)</li>
-<li>myositis fibrosa (96.6%)</li>
-<li>idiopathic granulomatous myositis (96.6%)</li>
-<li>hemoglobinopathy (96.4%)</li>
-<li>pulmonary hypertension (96.2%)</li>
-<li>fibromyalgia (96.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/iopamidol/' | relative_url }}">View full drug report →</a></p>
