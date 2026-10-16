@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 118
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Cholecalciferol: predicted new indication Renal osteodystrophy (evidence level L5). Approved use: Osteoporosis, postmenopausal osteoporosis, rickets, osteomalacia…"
 ---
 
 # Cholecalciferol

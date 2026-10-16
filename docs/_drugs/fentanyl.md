@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report"
 ---
 
 # Fentanyl

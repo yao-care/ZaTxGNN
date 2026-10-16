@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 ---
 
 # Pantothenic Acid

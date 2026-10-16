@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Fenoterol: predicted new indication Multiple system atrophy (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report"
 ---
 
 # Fenoterol

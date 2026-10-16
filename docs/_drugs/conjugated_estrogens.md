@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 148
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Conjugated Estrogens: predicted new indication Migraine disorder (evidence level L3). Approved use: Psychologic dyspareunia"
 ---
 
 # Conjugated Estrogens

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Quetiapine: predicted new indication Trichotillomania (evidence level L5). Approved use: Bipolar disorder, major affective disorder…"
 ---
 
 # Quetiapine

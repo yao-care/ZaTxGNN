@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 330
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L4). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 ---
 
 # Mometasone

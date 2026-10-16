@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, rhinitis, nasopharyngitis…"
 ---
 
 # Ephedrine

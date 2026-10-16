@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 104
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Cefixime: predicted new indication Ureaplasma urethritis (evidence level L4). Approved use: Urinary tract infection, bronchitis, tonsillitis, otitis media…"
 ---
 
 # Cefixime

@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 119
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Chromium: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not stated in the SAHPRA records compiled"
 ---
 
 # Chromium

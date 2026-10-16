@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 98
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Captopril: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertensive disorder, hypertension, diabetic nephropathy"
 ---
 
 # Captopril

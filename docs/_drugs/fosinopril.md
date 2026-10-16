@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Fosinopril: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder). The SAHPRA registration record…"
 ---
 
 # Fosinopril

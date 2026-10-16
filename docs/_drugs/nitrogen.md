@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Congenital alveolar capillary dysplasia"
 ---
 
 # Nitrogen

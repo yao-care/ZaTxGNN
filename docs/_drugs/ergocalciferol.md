@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ergocalciferol: predicted new indication Familial isolated hypoparathyroidism due to impaired PTH secretion (evidence level L5). Approved use: Vitamin D deficiency disorders, rickets, osteomalacia, o…"
 ---
 
 # Ergocalciferol

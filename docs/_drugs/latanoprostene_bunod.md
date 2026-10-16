@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Latanoprostene Bunod: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 ---
 
 # Latanoprostene Bunod

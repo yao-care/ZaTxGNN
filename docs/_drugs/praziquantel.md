@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 386
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Praziquantel: predicted new indication Plasmodium falciparum malaria (evidence level L3). Approved use: Opisthorchiasis, schistosomiasis, enterobiasis, trichinosis"
 ---
 
 # Praziquantel

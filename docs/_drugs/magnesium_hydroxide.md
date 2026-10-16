@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 307
 evidence_level: L3
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Magnesium Hydroxide: predicted new indication Active peptic ulcer disease (evidence level L3). Approved use: Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis…"
 ---
 
 # Magnesium Hydroxide

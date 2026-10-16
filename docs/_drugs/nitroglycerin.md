@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 345
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report"
 ---
 
 # Nitroglycerin

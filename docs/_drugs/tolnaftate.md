@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tolnaftate: predicted new indication Majocchi granuloma (evidence level L5). Approved use: Tinea pedis, tinea corporis…"
 ---
 
 # Tolnaftate
