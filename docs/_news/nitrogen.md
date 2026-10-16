@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Nitrogen with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>16q24.1 microdeletion syndrome (99.7%)</li>
 <li>primary interstitial lung disease specific to childhood (99.7%)</li>

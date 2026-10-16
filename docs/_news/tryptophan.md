@@ -3,7 +3,7 @@ layout: default
 title: "Tryptophan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tryptophan. Original indication: . 10 predicted indications."
+description: "Health news related to Tryptophan. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/tryptophan/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Tryptophan with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **insomnia** (the best-supported of the top 10 predictions), with **0 registered clinical trials** and **20 publications** retrieved, of which only a...</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>restless legs syndrome (99.7%)</li>
 <li>primary hereditary glaucoma (99.6%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Chlorobutanol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Chlorobutanol. Original indication: . 10 predicted indications."
+description: "Health news related to Chlorobutanol. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/chlorobutanol/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Chlorobutanol with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **erectile dysfunction**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is based on...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>erectile dysfunction (disease) (99.8%)</li>

@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Nystatin with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>vulvovaginitis (99.9%)</li>
 <li>disease of orbital region (99.9%)</li>

@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Praziquantel with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>uterine corpus epithelioid leiomyosarcoma (97.3%)</li>
 <li>Plasmodium falciparum malaria (97.2%)</li>

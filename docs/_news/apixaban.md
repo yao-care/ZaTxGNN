@@ -3,7 +3,7 @@ layout: default
 title: "Apixaban News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Apixaban. Original indication: . 10 predicted indications."
+description: "Health news related to Apixaban. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/apixaban/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Apixaban with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder**, but only **1 clinical trial** (not migraine-specific, and judged indirect) and **3 publications** (case reports and one small...</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>migraine disorder (99.0%)</li>
 <li>migraine with or without aura, susceptibility to (98.9%)</li>

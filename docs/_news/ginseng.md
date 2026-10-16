@@ -3,7 +3,7 @@ layout: default
 title: "Ginseng News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ginseng. Original indication: . 10 predicted indications."
+description: "Health news related to Ginseng. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/ginseng/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Ginseng with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **drug-induced osteoporosis**, with a very high score.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>drug-induced osteoporosis (100.0%)</li>
 <li>acne (disease) (99.9%)</li>

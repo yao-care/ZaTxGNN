@@ -3,7 +3,7 @@ layout: default
 title: "Magnesium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Magnesium. Original indication: . 10 predicted indications."
+description: "Health news related to Magnesium. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/magnesium/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Magnesium with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder** (score 98.0%), with **8 clinical trials** and **20 publications** identified for this direction.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>migraine disorder (98.0%)</li>
 <li>migraine with brainstem aura (98.0%)</li>

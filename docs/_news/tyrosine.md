@@ -3,7 +3,7 @@ layout: default
 title: "Tyrosine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tyrosine. Original indication: . 10 predicted indications."
+description: "Health news related to Tyrosine. Original indication: he TxGNN model ranks **cauda equina syndrome** as .... 10 predicted indications."
 permalink: /news/tyrosine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Tyrosine with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model ranks **cauda equina syndrome** as its top prediction (score 99.77%), but there are **no clinical trials and no publications** supporting this prediction.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>cauda equina syndrome (99.8%)</li>
 <li>obsolete neurogenic bladder (disease) (99.5%)</li>

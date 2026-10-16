@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Serine with the latest healt
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>familial visceral myopathy (100.0%)</li>
 <li>intestinal obstruction (100.0%)</li>

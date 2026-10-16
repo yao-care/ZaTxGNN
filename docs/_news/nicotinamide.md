@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Nicotinamide with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>zinc, elevated plasma (97.8%)</li>
 <li>isolated congenital adermatoglyphia (94.8%)</li>

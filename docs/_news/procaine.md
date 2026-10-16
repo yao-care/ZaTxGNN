@@ -3,7 +3,7 @@ layout: default
 title: "Procaine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Procaine. Original indication: . 10 predicted indications."
+description: "Health news related to Procaine. Original indication: he TxGNN model's top prediction is **methemoglobin.... 10 predicted indications."
 permalink: /news/procaine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Procaine with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model's top prediction is **methemoglobinemia**, but the available literature describes procaine as a **cause** of this condition rather than a treatment.</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>methemoglobinemia (99.5%)</li>
 <li>methemoglobinemia, alpha type (99.4%)</li>

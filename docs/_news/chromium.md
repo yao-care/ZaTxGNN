@@ -3,7 +3,7 @@ layout: default
 title: "Chromium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Chromium. Original indication: . 10 predicted indications."
+description: "Health news related to Chromium. Original indication: he TxGNN model gives its highest-scoring supported.... 10 predicted indications."
 permalink: /news/chromium/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Chromium with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: he TxGNN model gives its highest-scoring supported prediction for **Rheumatoid Arthritis**, with **1 directly relevant Phase 2/3 trial** and **1 randomised controlled trial publication** (both from...</li>
+<li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>osteoarthritis (98.7%)</li>
 <li>osteoarthritis susceptibility (98.5%)</li>

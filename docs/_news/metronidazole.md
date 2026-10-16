@@ -3,7 +3,7 @@ layout: default
 title: "Metronidazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Metronidazole. Original indication: . 10 predicted indications."
+description: "Health news related to Metronidazole. Original indication: . 5 predicted indications."
 permalink: /news/metronidazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/metronidazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Metronidazole?">
-<strong>Metronidazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Metronidazole</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,13 @@ This page combines the AI-predicted indications for Metronidazole with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>pneumocystosis (100.0%)</li>
-<li>punctate epithelial keratoconjunctivitis (99.9%)</li>
-<li>ulcerative proctosigmoiditis (99.9%)</li>
-<li>nocardiosis (99.9%)</li>
-<li>postmenopausal atrophic vaginitis (99.8%)</li>
-<li>Cryptococcal meningitis (99.8%)</li>
-<li>papillary conjunctivitis (99.8%)</li>
-<li>myiasis (99.8%)</li>
-<li>cap polyposis (99.7%)</li>
-<li>ulceration of vulva (99.7%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>Cap polyposis | L3 | Case reports and case series report remission with metronidazole; one paper proposes an anti-inflammatory mechanism. No controlled trials. Candidate for a low-risk exploratory study. (99.0%)</li>
+<li>Vulvar ulceration | L3 | Standard treatment for amoebic genital or cutaneous ulcers; used in vulvar Crohn's disease (retrospective study of 22 patients). Benefit depends on cause. (99.0%)</li>
+<li>Myiasis | L4 | Used as an adjunct for anaerobic wound infection and odour control; ivermectin and mechanical removal are primary treatments. (99.0%)</li>
+<li>Ulcerative proctosigmoiditis | L4 | Only general IBD reviews; metronidazole is proven in Crohn's disease, not ulcerative colitis. (99.0%)</li>
+<li>Nocardiosis | L4 | Case reports of brain abscess only; standard therapy is TMP-SMX. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/metronidazole/' | relative_url }}">View full drug report →</a></p>

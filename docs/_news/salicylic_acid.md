@@ -3,7 +3,7 @@ layout: default
 title: "Salicylic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Salicylic acid. Original indication: . 10 predicted indications."
+description: "Health news related to Salicylic acid. Original indication: . 0 predicted indications."
 permalink: /news/salicylic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/salicylic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Salicylic acid?">
-<strong>Salicylic acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Salicylic acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,20 +24,8 @@ This page combines the AI-predicted indications for Salicylic acid with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.8%)</li>
-<li>Brachydactyly-syndactyly syndrome (99.7%)</li>
-<li>Brachyolmia-amelogenesis imperfecta syndrome (99.5%)</li>
-<li>Rosacea conjunctivitis (99.5%)</li>
-<li>Acromesomelic dysplasia, Hunter-Thompson type (99.5%)</li>
-<li>Pseudoachondroplasia (99.5%)</li>
-<li>Myosclerosis (99.5%)</li>
-<li>Brachyolmia (99.4%)</li>
-<li>Spondyloarthropathy, susceptibility to (99.3%)</li>
-<li>papillary conjunctivitis (99.9%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/salicylic-acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/salicylic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

@@ -3,7 +3,7 @@ layout: default
 title: "Cefpodoxime News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cefpodoxime. Original indication: . 10 predicted indications."
+description: "Health news related to Cefpodoxime. Original indication: . 4 predicted indications."
 permalink: /news/cefpodoxime/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cefpodoxime/
 ---
 
 <p class="key-answer" data-question="What news is there about Cefpodoxime?">
-<strong>Cefpodoxime</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Cefpodoxime</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,11 @@ This page combines the AI-predicted indications for Cefpodoxime with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>osteoarthritis susceptibility (99.3%)</li>
-<li>osteoarthritis (99.2%)</li>
-<li>rheumatoid arthritis (99.2%)</li>
-<li>hemoglobinopathy (98.8%)</li>
-<li>brachyolmia (98.8%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (98.7%)</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type (98.7%)</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome (98.7%)</li>
-<li>myosclerosis (98.6%)</li>
-<li>pseudoachondroplasia (98.6%)</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Osteoarthritis | 99.25% | No established mechanism. Some antibiotics (e.g., doxycycline) have been studied for MMP inhibition, but this is not established for cephalosporins. (99.0%)</li>
+<li>Rheumatoid arthritis | 99.24% | No known immunomodulatory activity. Established therapies act on immune pathways that cefpodoxime does not target. (99.0%)</li>
+<li>Hemoglobinopathy | 98.84% | Antibiotics are used only for infection complications, not as disease-modifying therapy. (99.0%)</li>
+<li>Brachyolmia | 98.76% | Rare skeletal dysplasia. No known interaction with the relevant pathways. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cefpodoxime/' | relative_url }}">View full drug report →</a></p>

@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Flucloxacillin with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>conjunctivitis (99.8%)</li>
 <li>rheumatoid arthritis (99.8%)</li>

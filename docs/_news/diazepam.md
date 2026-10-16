@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Diazepam with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>insomnia (disease) (100.0%)</li>
 <li>cauda equina syndrome (100.0%)</li>
