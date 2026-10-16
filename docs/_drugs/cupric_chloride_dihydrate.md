@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Cupric Chloride Dihydrate
 parent: Model Prediction Only (L5)

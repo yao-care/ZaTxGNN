@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Calcium Carbonate
 parent: Model Prediction Only (L5)

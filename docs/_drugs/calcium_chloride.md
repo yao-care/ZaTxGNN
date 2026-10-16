@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Calcium Chloride
 parent: Model Prediction Only (L5)

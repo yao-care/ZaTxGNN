@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Iodine
 parent: Model Prediction Only (L5)

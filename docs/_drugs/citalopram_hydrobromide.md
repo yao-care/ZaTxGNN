@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Citalopram Hydrobromide
 parent: Model Prediction Only (L5)

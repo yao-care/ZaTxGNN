@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Ampicillin Sodium
 parent: Model Prediction Only (L5)

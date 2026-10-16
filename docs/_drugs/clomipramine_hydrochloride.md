@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Clomipramine Hydrochloride
 parent: Model Prediction Only (L5)

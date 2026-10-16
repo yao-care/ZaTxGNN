@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Dopamine Hcl
 parent: Model Prediction Only (L5)

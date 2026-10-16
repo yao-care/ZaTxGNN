@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Dl-Threonine
 parent: Model Prediction Only (L5)

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Cinchocaine Hydrochloride
 parent: Model Prediction Only (L5)
