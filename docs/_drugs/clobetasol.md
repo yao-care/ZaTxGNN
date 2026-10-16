@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Clobetasol: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report"
+monitor_inn: "Clobetasol"
+predicted_indications: ["primary cutaneous T-cell lymphoma", "lymphosarcoma", "cystic teratoma", "Crohn's colitis", "spinal cord dermoid cyst", "disease of orbital part of eye adnexa", "disease of orbital region", "dermoid cyst of ovary", "candidiasis", "polyp of vocal cord"]
 ---
 
 # Clobetasol

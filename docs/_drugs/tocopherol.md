@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tocopherol: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not available"
+monitor_inn: "Tocopherol"
+predicted_indications: ["sclerosing cholangitis", "pulmonary hypertension", "rheumatoid arthritis", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "kyphoscoliotic heart disease", "diffuse alopecia areata", "alopecia", "congestive heart failure", "peripheral vascular disease"]
 ---
 
 # Tocopherol

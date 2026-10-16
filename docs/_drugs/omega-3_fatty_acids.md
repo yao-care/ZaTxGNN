@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Omega-3 Fatty Acids: predicted new indication Tendinitis (evidence level L4). Approved use: Hypertriglyceridaemia"
+monitor_inn: "Omega-3 fatty acids"
+predicted_indications: ["tendinitis", "Glanzmann thrombasthenia", "amenorrhea (disease)", "idiopathic granulomatous myositis", "myositis fibrosa", "primary release disorder of platelets", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "fibromyalgia", "pseudo-von Willebrand disease"]
 ---
 
 # Omega-3 Fatty Acids

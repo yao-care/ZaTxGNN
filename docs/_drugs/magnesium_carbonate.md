@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Magnesium Carbonate: predicted new indication Active peptic ulcer disease (evidence level L4). Approved use: Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis…"
+monitor_inn: "MAGNESIUM CARBONATE"
+predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "gastroduodenitis", "gastric ulcer (disease)", "gastroparesis (disease)", "stomach disease", "duodenal obstruction", "duodenogastric reflux", "duodenal ulcer (disease)"]
 ---
 
 # Magnesium Carbonate

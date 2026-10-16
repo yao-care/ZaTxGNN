@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Adapalene: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne"
+monitor_inn: "Adapalene"
+predicted_indications: ["zinc, elevated plasma", "isolated congenital adermatoglyphia", "Beare-Stevenson cutis gyrata syndrome", "demodicidosis of sebaceous gland", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome", "prolidase deficiency", "drug-induced osteoporosis", "seborrheic dermatitis", "sebaceous gland anomaly", "inherited skin tumor"]
 ---
 
 # Adapalene

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sodium Chloride: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report"
+monitor_inn: "Sodium chloride"
+predicted_indications: ["breast fibrocystic disease", "vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia", "fat necrosis of breast"]
 ---
 
 # Sodium Chloride

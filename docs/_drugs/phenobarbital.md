@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
+monitor_inn: "Phenobarbital"
+predicted_indications: ["trigeminal nerve neoplasm", "thinking seizures", "startle epilepsy", "audiogenic seizures", "eating seizures", "micturation-induced seizures", "orgasm-induced seizures", "reading seizures", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 ---
 
 # Phenobarbital

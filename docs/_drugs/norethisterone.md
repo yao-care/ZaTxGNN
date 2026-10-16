@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Norethisterone: predicted new indication Amenorrhoea (evidence level L5). Approved use: Endometriosis, primary ovarian failure, postmenopausal osteoporosis…"
+monitor_inn: "NORETHISTERONE"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Norethisterone

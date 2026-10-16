@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Brimonidine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Open-angle glaucoma, ocular hypertension, rosacea"
+monitor_inn: "Brimonidine"
+predicted_indications: ["papillary conjunctivitis", "primary hereditary glaucoma", "lichen disease", "congenital hypotrichosis milia", "rosacea conjunctivitis", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "annular atrophic lichen planus", "lichen planus pigmentosus", "hypertrophic lichen planus"]
 ---
 
 # Brimonidine

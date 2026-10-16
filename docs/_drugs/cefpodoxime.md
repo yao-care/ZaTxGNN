@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cefpodoxime: predicted new indication Osteoarthritis susceptibility (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
+monitor_inn: "Cefpodoxime"
+predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis", "hemoglobinopathy", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "pseudoachondroplasia"]
 ---
 
 # Cefpodoxime

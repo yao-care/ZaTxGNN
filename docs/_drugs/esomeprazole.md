@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Esomeprazole: predicted new indication Duodenogastric reflux (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease…"
+monitor_inn: "Esomeprazole"
+predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "duodenal ulcer (disease)", "active peptic ulcer disease", "abnormality of glucagon secretion", "gastrojejunal ulcer", "peptic ulcer perforation", "Smouldering systemic mastocytosis", "multiple endocrine neoplasia", "acne (disease)"]
 ---
 
 # Esomeprazole

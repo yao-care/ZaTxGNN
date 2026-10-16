@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Diiodohydroxyquinoline: predicted new indication Osteoradionecrosis (evidence level L5). Approved use: Amoebiasis (amoebiasis due to Entamoeba histolytica)…"
+monitor_inn: "Diiodohydroxyquinoline"
+predicted_indications: ["osteoradionecrosis", "radiodermatitis", "pneumonitis", "aspiration pneumonia (disease)", "type 2 diabetes nephropathy", "byssinosis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "mixed mineral dust pneumoconiosis", "baritosis", "slate pneumoconiosis"]
 ---
 
 # Diiodohydroxyquinoline

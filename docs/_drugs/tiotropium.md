@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Bronchitis, asthma, intrinsic asthma, allergic asthma…"
+monitor_inn: "TIOTROPIUM"
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "COPD, severe early onset", "chronic obstructive pulmonary disease", "compensatory emphysema", "interstitial emphysema", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation"]
 ---
 
 # Tiotropium

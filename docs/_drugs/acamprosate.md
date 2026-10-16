@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Acamprosate: predicted new indication Progressive encephalopathy with leukodystrophy due to DECR deficiency (evidence level L5). Approved use: Substance abuse/dependence"
+monitor_inn: "Acamprosate"
+predicted_indications: ["progressive encephalopathy with leukodystrophy due to DECR deficiency", "trichotillomania", "Wernicke-Korsakoff syndrome", "alcohol amnestic disorder", "glaucoma", "Tourette syndrome", "attention deficit-hyperactivity disorder", "absence epilepsy", "alcohol withdrawal", "faciodigitogenital syndrome"]
 ---
 
 # Acamprosate

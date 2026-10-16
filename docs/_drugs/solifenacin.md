@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Solifenacin: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Overactive bladder"
+monitor_inn: "Solifenacin"
+predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "thoracic malformation", "renal-hepatic-pancreatic dysplasia", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "low compliance bladder", "polycystic kidney disease", "subarachnoid hemorrhage (disease)", "congenital analbuminemia"]
 ---
 
 # Solifenacin

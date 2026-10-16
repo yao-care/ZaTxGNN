@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Praziquantel: predicted new indication Plasmodium falciparum malaria (evidence level L3). Approved use: Opisthorchiasis, schistosomiasis, enterobiasis, trichinosis"
+monitor_inn: "Praziquantel"
+predicted_indications: ["uterine corpus epithelioid leiomyosarcoma", "Plasmodium falciparum malaria", "retroperitoneal sarcoma", "uterine corpus myxoid leiomyosarcoma", "anus leiomyosarcoma", "small intestinal sarcoma", "gnathomiasis", "fascioliasis", "leiomyosarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Praziquantel

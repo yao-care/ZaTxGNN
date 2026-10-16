@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Insulin Aspart: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
+monitor_inn: "Insulin aspart"
+predicted_indications: ["type 1 diabetes mellitus", "autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "permanent neonatal diabetes mellitus", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 ---
 
 # Insulin Aspart

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Iopamidol: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the registration data (iopamidol is a diagnostic contra…"
+monitor_inn: "Iopamidol"
+predicted_indications: ["Prinzmetal angina", "female breast carcinoma", "migraine with brainstem aura", "migraine disorder", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "hemoglobinopathy", "pulmonary hypertension", "fibromyalgia"]
 ---
 
 # Iopamidol

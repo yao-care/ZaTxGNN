@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Neomycin: predicted new indication Irritable bowel syndrome (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report"
+monitor_inn: "Neomycin"
+predicted_indications: ["irritable bowel syndrome", "peripheral arterial disease", "nasal cavity disease", "seborrheic dermatitis", "peripheral vascular disease", "pharyngitis", "acute laryngopharyngitis", "dermatitis", "ischemic disease", "headache disorder"]
 ---
 
 # Neomycin

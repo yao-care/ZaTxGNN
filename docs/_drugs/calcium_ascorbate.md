@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Calcium Ascorbate: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
+monitor_inn: "Calcium ascorbate"
+predicted_indications: ["insomnia (disease)", "diabetic cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "mature cataract", "immature cataract", "tetanic cataract", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy"]
 ---
 
 # Calcium Ascorbate

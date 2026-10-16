@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Benserazide: predicted new indication Congenital hypotrichosis milia (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
+monitor_inn: "Benserazide"
+predicted_indications: ["congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "small intestine cancer", "duodenum cancer", "headache disorder", "phaeochromocytoma", "trigeminal autonomic cephalalgia", "adrenal gland pheochromocytoma"]
 ---
 
 # Benserazide

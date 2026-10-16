@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Dextropropoxyphene: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the SAHPRA registration data"
+monitor_inn: "DEXTROPROPOXYPHENE"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Dextropropoxyphene

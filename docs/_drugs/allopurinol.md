@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Gout"
+monitor_inn: "Allopurinol"
+predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
 ---
 
 # Allopurinol

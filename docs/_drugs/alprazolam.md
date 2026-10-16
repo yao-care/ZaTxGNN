@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Alprazolam: predicted new indication Insomnia (evidence level L5). Approved use: Anxiety disorder"
+monitor_inn: "ALPRAZOLAM"
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Alprazolam

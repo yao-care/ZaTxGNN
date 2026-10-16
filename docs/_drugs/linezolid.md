@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Linezolid: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Streptococcal and staphylococcal infections…"
+monitor_inn: "Linezolid"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "septicemic plague", "pyelonephritis"]
 ---
 
 # Linezolid

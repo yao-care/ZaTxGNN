@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Pravastatin: predicted new indication HIV infectious disease (practically: HIV-associated dyslipidaemia and… (evidence level L2). Approved use: Hyperlipidaemia, atherosclerosis and cerebrovascular di…"
+monitor_inn: "PRAVASTATIN"
+predicted_indications: ["homozygous familial hypercholesterolemia", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "familial hypercholesterolemia", "hypoalphalipoproteinemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Pravastatin

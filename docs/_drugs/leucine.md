@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Leucine: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the registration data (registered products are amino ac…"
+monitor_inn: "Leucine"
+predicted_indications: ["congenital prothrombin deficiency", "gastroparesis (disease)", "acne (disease)", "bone Paget disease", "obsolete vitamin D deficiency", "postmenopausal osteoporosis", "sclerosing cholangitis", "pregnancy associated osteoporosis", "albinism-deafness syndrome", "Worth syndrome"]
 ---
 
 # Leucine

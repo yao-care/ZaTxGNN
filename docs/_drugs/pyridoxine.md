@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pyridoxine: predicted new indication Gonococcal urethritis (evidence level L5). Approved use: Pyridoxine deficiency anaemia"
+monitor_inn: "Pyridoxine"
+predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "urinary tract infection (disease)", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "congenital prothrombin deficiency", "toxocariasis", "toxascariasis", "anisakiasis", "vitamin deficiency disorder"]
 ---
 
 # Pyridoxine

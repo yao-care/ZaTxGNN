@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Methylprednisolone Aceponate: predicted new indication Gout (evidence level L5). Approved use: Not stated in the registration data compiled for this report (a topic…"
+monitor_inn: "Methylprednisolone aceponate"
+predicted_indications: ["gout", "Raynaud disease", "allergic asthma", "diabetic nephropathy", "brain small vessel disease 1 with or without ocular anomalies", "intrinsic asthma", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "congestive heart failure", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 ---
 
 # Methylprednisolone Aceponate

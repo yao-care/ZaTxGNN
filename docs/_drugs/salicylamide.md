@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Salicylamide: predicted new indication Pharyngitis (evidence level L4). Approved use: Headache disorder"
+monitor_inn: "Salicylamide"
+predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "common cold", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
 ---
 
 # Salicylamide

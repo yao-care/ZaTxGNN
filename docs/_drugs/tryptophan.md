@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tryptophan: predicted new indication Insomnia (evidence level L3). Approved use: Not stated"
+monitor_inn: "Tryptophan"
+predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency", "acne (disease)", "pregnancy associated osteoporosis"]
 ---
 
 # Tryptophan

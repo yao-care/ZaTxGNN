@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Nicotine: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Nicotine dependence"
+monitor_inn: "Nicotine"
+predicted_indications: ["exercise-induced malignant hyperthermia", "migraine with brainstem aura", "oppositional defiant disorder (disease)", "migraine disorder", "blepharospasm", "46,XY disorder of sex development due to testicular steroidogenesis defect", "longitudinal vaginal septum", "transverse vaginal septum", "communication disorder", "developmental disorder of mental health"]
 ---
 
 # Nicotine

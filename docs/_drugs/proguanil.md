@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Proguanil: predicted new indication Smouldering systemic mastocytosis (evidence level L5). Approved use: Plasmodium falciparum malaria"
+monitor_inn: "Proguanil"
+predicted_indications: ["Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "renal-hepatic-pancreatic dysplasia", "systemic mastocytosis", "polycystic kidney disease 3 with or without polycystic liver disease", "karyomegalic interstitial nephritis", "Joubert syndrome with renal defect", "thoracic malformation", "adult familial nephronophthisis-spastic quadriparesia syndrome", "polycystic kidney disease"]
 ---
 
 # Proguanil

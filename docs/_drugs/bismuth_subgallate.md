@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Bismuth Subgallate: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not stated"
+monitor_inn: "Bismuth subgallate"
+predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombophilia", "brachydactyly-syndactyly syndrome", "gout", "gastroduodenitis", "peptic ulcer disease"]
 ---
 
 # Bismuth Subgallate

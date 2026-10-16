@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Bismuth Subcarbonate: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the registration data compiled for this report"
+monitor_inn: "Bismuth subcarbonate"
+predicted_indications: ["insomnia (disease)", "enterocolitis (disease)", "irritable bowel syndrome", "neurocirculatory asthenia", "acute intermittent porphyria", "sleep disorder, initiating and maintaining sleep", "adult-onset myasthenia gravis", "myasthenia gravis with thymus hyperplasia", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system"]
 ---
 
 # Bismuth Subcarbonate

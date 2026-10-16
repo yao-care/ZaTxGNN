@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Amiloride: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension and congestive heart failure"
+monitor_inn: "AMILORIDE"
+predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
 ---
 
 # Amiloride

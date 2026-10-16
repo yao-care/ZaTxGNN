@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Calcium: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not available"
+monitor_inn: "Calcium"
+predicted_indications: ["thrombotic disease", "hemoglobinopathy", "female breast carcinoma", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "exostosis", "pyropoikilocytosis, hereditary", "vein disease", "non-inflammatory vasculopathy"]
 ---
 
 # Calcium

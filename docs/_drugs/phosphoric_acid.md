@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Phosphoric Acid: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available"
+monitor_inn: "Phosphoric acid"
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "hepatic porphyria", "gout", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis"]
 ---
 
 # Phosphoric Acid

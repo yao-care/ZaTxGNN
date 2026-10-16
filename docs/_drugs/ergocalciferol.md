@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ergocalciferol: predicted new indication Familial isolated hypoparathyroidism due to impaired PTH secretion (evidence level L5). Approved use: Vitamin D deficiency disorders, rickets, osteomalacia, o…"
+monitor_inn: "ERGOCALCIFEROL"
+predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemia (disease)", "renal osteodystrophy", "hypophosphatemic rickets", "calcium-alkali syndrome", "vitamin D-dependent rickets"]
 ---
 
 # Ergocalciferol

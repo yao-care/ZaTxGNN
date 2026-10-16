@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
+monitor_inn: "Isoniazid"
+predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "shigellosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "leprosy", "brachydactyly-syndactyly syndrome", "vestibular neuronitis", "motor nerve neuritis", "infectious otitis media", "brachial plexus neuritis"]
 ---
 
 # Isoniazid

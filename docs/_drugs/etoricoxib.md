@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the SAHPRA registration data (general pharmacology sour…"
+monitor_inn: "Etoricoxib"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Etoricoxib

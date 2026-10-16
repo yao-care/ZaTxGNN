@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Mephenesin: predicted new indication Metastatic melanoma (evidence level L5). Approved use: Not stated in the SAHPRA registration data. Historically used as a mu…"
+monitor_inn: "Mephenesin"
+predicted_indications: ["metastatic melanoma", "non-cutaneous melanoma", "epithelioid cell melanoma", "choroideremia", "mature cataract", "tetanic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "eyelid melanoma"]
 ---
 
 # Mephenesin

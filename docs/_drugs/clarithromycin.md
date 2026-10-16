@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Clarithromycin: predicted new indication Monoclonal gammopathy (evidence level L2). Approved use: Bacterial infections (e.g., otitis media, sinusitis, pneumonia…"
+monitor_inn: "Clarithromycin"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "septicemic plague", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 ---
 
 # Clarithromycin

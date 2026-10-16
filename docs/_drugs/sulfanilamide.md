@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sulfanilamide: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Vulvovaginal candidiasis, vulvovaginitis, vaginitis…"
+monitor_inn: "Sulfanilamide"
+predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis", "vaginal discharge", "leukoplakia of vagina", "apocrine adenosis of breast", "blunt duct adenosis of breast", "infective vaginitis", "herpetic vulvovaginitis"]
 ---
 
 # Sulfanilamide

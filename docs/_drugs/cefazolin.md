@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cefazolin: predicted new indication Infectious otitis media (evidence level L5). Approved use: Bacterial infections, including bacterial pneumonia, endocarditis…"
+monitor_inn: "Cefazolin"
+predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media", "middle ear cholesterol granuloma", "urinary tract infection (disease)"]
 ---
 
 # Cefazolin

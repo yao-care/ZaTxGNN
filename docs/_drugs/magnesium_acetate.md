@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Magnesium Acetate: predicted new indication Hypertensive disorder (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report"
+monitor_inn: "Magnesium acetate"
+predicted_indications: ["hypertensive disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Braddock syndrome", "chronic pulmonary heart disease", "gout", "open-angle glaucoma", "potassium deficiency disease"]
 ---
 
 # Magnesium Acetate

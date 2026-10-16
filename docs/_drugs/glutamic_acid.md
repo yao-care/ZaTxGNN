@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the SAHPRA registration data"
+monitor_inn: "Glutamic acid"
+predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)", "autosomal dominant neovascular inflammatory vitreoretinopathy", "dyspepsia", "open-angle glaucoma", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "Worth syndrome", "vitamin deficiency disorder"]
 ---
 
 # Glutamic Acid

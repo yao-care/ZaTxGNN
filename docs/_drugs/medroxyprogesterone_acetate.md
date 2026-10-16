@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (evidence level L3). Approved use: Endometriosis"
+monitor_inn: "Medroxyprogesterone acetate"
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "cervix endometriosis", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 ---
 
 # Medroxyprogesterone Acetate

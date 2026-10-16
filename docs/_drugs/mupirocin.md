@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Mupirocin: predicted new indication Pleural empyema (evidence level L5). Approved use: Impetigo, bullous impetigo"
+monitor_inn: "Mupirocin"
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "cutaneous candidiasis", "vaginal discharge", "exposure keratitis", "leukoplakia of vagina", "non-human animal disease", "staphylococcal scalded skin syndrome", "bacterial vaginosis"]
 ---
 
 # Mupirocin

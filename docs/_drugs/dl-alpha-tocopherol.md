@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Dl-Alpha-Tocopherol: predicted new indication Immature cataract (evidence level L5). Approved use: Not available"
+monitor_inn: "DL-alpha-Tocopherol"
+predicted_indications: ["immature cataract", "mature cataract", "tetanic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "diabetic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "antithrombin deficiency type 2"]
 ---
 
 # Dl-Alpha-Tocopherol

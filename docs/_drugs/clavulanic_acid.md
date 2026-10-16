@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia…"
+monitor_inn: "Clavulanic acid"
+predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
 ---
 
 # Clavulanic Acid

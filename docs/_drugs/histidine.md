@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Histidine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the registration data compiled for this report (markete…"
+monitor_inn: "Histidine"
+predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis", "congenital prothrombin deficiency", "familial visceral myopathy", "potassium deficiency disease", "dyspepsia", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "primary aldosteronism", "intestinal obstruction"]
 ---
 
 # Histidine

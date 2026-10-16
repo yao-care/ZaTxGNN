@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Selenium: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not stated in the SAHPRA registration data (the registered products a…"
+monitor_inn: "Selenium"
+predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "obsolete hyperuricemia (disease)", "hypotrichosis simplex of the scalp", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "hepatic porphyria", "congenital hypotrichosis milia", "hypouricemia, renal", "congestive heart failure", "primitive portal vein thrombosis"]
 ---
 
 # Selenium

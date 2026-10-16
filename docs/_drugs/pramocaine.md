@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not stated in the SAHPRA registration data. The knowledge graph lists…"
+monitor_inn: "Pramocaine"
+predicted_indications: ["papillary conjunctivitis", "acne keloid", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "vernal conjunctivitis", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "atopic conjunctivitis", "rosacea conjunctivitis"]
 ---
 
 # Pramocaine

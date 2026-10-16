@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Diclofenac: predicted new indication Juvenile idiopathic arthritis (evidence level L5). Approved use: Arthritis (rheumatoid arthritis, osteoarthritis…"
+monitor_inn: "Diclofenac"
+predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 ---
 
 # Diclofenac

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Fluocinolone Acetonide: predicted new indication Annular atrophic lichen planus (evidence level L5). Approved use: Inflammatory skin conditions, including atopic dermatitis…"
+monitor_inn: "FLUOCINOLONE ACETONIDE"
+predicted_indications: ["annular atrophic lichen planus", "hypertrophic lichen planus", "lichen planus pigmentosus", "lichen planus pemphigoides"]
 ---
 
 # Fluocinolone Acetonide

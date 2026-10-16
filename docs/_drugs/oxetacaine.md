@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Oxetacaine: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the SAHPRA registration data (oxetacaine is generally…"
+monitor_inn: "Oxetacaine"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "uterine polyp", "polyp of vocal cord", "polyp of middle ear", "polyp of ureter", "polyp of frontal sinus", "polyp of external auditory canal", "epulis"]
 ---
 
 # Oxetacaine

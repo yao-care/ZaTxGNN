@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ornithine: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report"
+monitor_inn: "Ornithine"
+predicted_indications: ["congenital prothrombin deficiency", "vitamin deficiency disorder", "biotin metabolic disease", "atypical coarctation of aorta", "aortic malformation", "acrodermatitis chronica atrophicans", "seborrheic keratosis", "seborrheic dermatitis", "neonatal dermatomyositis", "acne (disease)"]
 ---
 
 # Ornithine

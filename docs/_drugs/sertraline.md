@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Sertraline: predicted new indication Histrionic personality disorder (evidence level L5). Approved use: Anxiety disorder, obsessive-compulsive disorder…"
+monitor_inn: "SERTRALINE"
+predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
 ---
 
 # Sertraline

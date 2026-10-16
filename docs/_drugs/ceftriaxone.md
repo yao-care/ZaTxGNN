@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (e.g. pneumonia, bacterial meningitis…"
+monitor_inn: "Ceftriaxone"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media", "premalignant hematological system disease", "middle ear disease", "otosalpingitis"]
 ---
 
 # Ceftriaxone

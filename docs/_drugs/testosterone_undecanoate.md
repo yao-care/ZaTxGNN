@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Testosterone Undecanoate: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L5). Approved use: Hypogonadism (primary ovarian failure…"
+monitor_inn: "Testosterone undecanoate"
+predicted_indications: ["homozygous familial hypercholesterolemia", "androgen insensitivity syndrome", "Leydig cell hypoplasia due to LH resistance", "46,XY disorder of sex development due to impaired androgen production", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "telecanthus", "ovarian hyperstimulation syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 5"]
 ---
 
 # Testosterone Undecanoate

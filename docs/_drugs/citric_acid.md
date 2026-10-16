@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Citric Acid: predicted new indication Stomach disease (evidence level L4). Approved use: Dyspepsia"
+monitor_inn: "Citric acid"
+predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis", "thrombotic disease", "ulcerative blepharitis"]
 ---
 
 # Citric Acid

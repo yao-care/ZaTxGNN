@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Donepezil: predicted new indication Chronic tic disorder (evidence level L5). Approved use: Alzheimer disease"
+monitor_inn: "Donepezil"
+predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 ---
 
 # Donepezil

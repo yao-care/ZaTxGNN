@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cephalexin: predicted new indication Chronic otitis media (evidence level L4). Approved use: Infectious otitis media, streptococcal and staphylococcal infections"
+monitor_inn: "Cephalexin"
+predicted_indications: ["chronic otitis media", "suppurative otitis media", "middle ear disease", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media", "middle ear cholesterol granuloma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia"]
 ---
 
 # Cephalexin

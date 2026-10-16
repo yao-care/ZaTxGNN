@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sulfadoxine: predicted new indication Gout (evidence level L5). Approved use: Not stated in the SAHPRA record compiled for this report (the drug is…"
+monitor_inn: "Sulfadoxine"
+predicted_indications: ["gout", "bronchitis", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "conjunctivitis", "appendicitis", "obsolete hyperuricemia (disease)", "Lesch-Nyhan syndrome", "peritonitis"]
 ---
 
 # Sulfadoxine

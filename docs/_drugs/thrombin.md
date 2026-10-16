@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Thrombin: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not stated in the data compiled for this report"
+monitor_inn: "Thrombin"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "non-syndromic esophageal malformation", "esophageal disease", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "Scott syndrome", "HER2 positive breast carcinoma", "thrombocytopenia due to immune destruction"]
 ---
 
 # Thrombin

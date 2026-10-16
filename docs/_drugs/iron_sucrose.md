@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Iron Sucrose: predicted new indication Primary hyperoxaluria (evidence level L5). Approved use: Hyperphosphatemia"
+monitor_inn: "Iron sucrose"
+predicted_indications: ["primary hyperoxaluria", "pancreatitis", "tumoral calcinosis, hyperphosphatemic, familial", "familial apolipoprotein C-II deficiency", "esophageal varices without bleeding", "esophageal varices with bleeding", "familial hyperphosphatemic tumoral calcinosis/hyperphosphatemic hyperostosis syndrome", "hyperparathyroidism", "hyperlipidemia", "immune-mediated necrotizing myopathy"]
 ---
 
 # Iron Sucrose

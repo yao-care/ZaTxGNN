@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Azelastine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis (the registered product has no indication text…"
+monitor_inn: "Azelastine"
+predicted_indications: ["rosacea conjunctivitis", "allergic urticaria", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "pseudomembranous conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "conjunctivitis"]
 ---
 
 # Azelastine

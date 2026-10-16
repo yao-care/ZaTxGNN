@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
+monitor_inn: "Pantothenic acid"
+predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "Keshan disease"]
 ---
 
 # Pantothenic Acid

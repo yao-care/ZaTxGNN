@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Chromium: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not stated in the SAHPRA records compiled"
+monitor_inn: "Chromium"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "hepatic porphyria", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Chromium

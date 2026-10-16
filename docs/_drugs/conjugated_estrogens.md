@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Conjugated Estrogens: predicted new indication Migraine disorder (evidence level L3). Approved use: Psychologic dyspareunia"
+monitor_inn: "Conjugated estrogens"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "migraine with or without aura, susceptibility to", "thrombophilia"]
 ---
 
 # Conjugated Estrogens

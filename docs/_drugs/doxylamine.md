@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Doxylamine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Allergic rhinitis (other listed indications include vasomotor rhiniti…"
+monitor_inn: "DOXYLAMINE"
+predicted_indications: ["allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "cold urticaria"]
 ---
 
 # Doxylamine

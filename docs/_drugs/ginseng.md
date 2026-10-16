@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ginseng: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
+monitor_inn: "Ginseng"
+predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "mature cataract", "tetanic cataract"]
 ---
 
 # Ginseng

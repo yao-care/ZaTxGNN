@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Congenital alveolar capillary dysplasia"
+monitor_inn: "Nitrogen"
+predicted_indications: ["16q24.1 microdeletion syndrome", "primary interstitial lung disease specific to childhood", "isolated pulmonary capillaritis", "congenital pulmonary lymphangiectasia", "benign neoplasm of adrenal gland", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)"]
 ---
 
 # Nitrogen

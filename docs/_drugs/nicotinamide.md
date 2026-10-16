@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Nicotinamide: predicted new indication Elevated plasma zinc (evidence level L5). Approved use: Acne, pellagra, beriberi"
+monitor_inn: "Nicotinamide"
+predicted_indications: ["zinc, elevated plasma", "isolated congenital adermatoglyphia", "Beare-Stevenson cutis gyrata syndrome", "Werner syndrome", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome", "demodicidosis of sebaceous gland", "dyspepsia", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "inherited cutis laxa", "syndromic oculocutaneous albinism"]
 ---
 
 # Nicotinamide
