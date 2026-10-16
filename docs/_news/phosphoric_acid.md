@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Phosphoric acid with the lat
 <li>hepatoportal sclerosis (97.3%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/phosphoric_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/phosphoric-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

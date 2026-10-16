@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Nomegestrol acetate with the
 <li>rheumatoid arthritis (97.4%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/nomegestrol_acetate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/nomegestrol-acetate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

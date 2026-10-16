@@ -2,13 +2,13 @@
 layout: default
 title: Drug Repurposing Reports
 nav_order: 1
-description: "AI-powered drug repurposing predictions for 402 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation."
+description: "AI-powered drug repurposing predictions for 404 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation."
 permalink: /
 ---
 
 # Drug Repurposing: From AI to Evidence
 
-**ZaTxGNN** uses the Harvard TxGNN model to predict drug repurposing candidates for **402** SAHPRA-approved drugs, identifying potential new therapeutic uses.
+**ZaTxGNN** uses the Harvard TxGNN model to predict drug repurposing candidates for **404** SAHPRA-approved drugs, identifying potential new therapeutic uses.
 
 [Browse Drug Reports](/drugs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Learn Methodology](/methodology/){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -77,7 +77,7 @@ Enter a **drug name** or **disease name** to find repurposing predictions. Suppo
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #FB8C00;">
     <strong style="font-size: 1.1rem;">South African Drug Coverage</strong><br>
-    <span style="color: #666;">Focused on 402 SAHPRA-approved medicines with repurposing predictions ready for research.</span>
+    <span style="color: #666;">Focused on 404 SAHPRA-approved medicines with repurposing predictions ready for research.</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
     <strong style="font-size: 1.1rem;">FHIR Integration</strong><br>
@@ -94,7 +94,7 @@ Enter a **drug name** or **disease name** to find repurposing predictions. Suppo
 | **High Evidence** | L1-L2, priority for clinical evaluation | [View drugs](/evidence-high/) |
 | **Medium Evidence** | L3-L4, requires additional validation | [View drugs](/evidence-medium/) |
 | **AI Predictions** | L5, research direction reference | [View drugs](/evidence-low/) |
-| **Full Drug List** | All 402 drugs (searchable) | [Drug List](/drugs/) |
+| **Full Drug List** | All 404 drugs (searchable) | [Drug List](/drugs/) |
 | **Health News** | Automated health news monitoring | [View News](/news/) |
 | **FHIR API** | Integration endpoints | [FHIR Metadata](/fhir/metadata) |
 
@@ -105,13 +105,13 @@ Enter a **drug name** or **disease name** to find repurposing predictions. Suppo
 ZaTxGNN uses the **TxGNN** deep learning model published by Harvard's Zitnik Lab in *Nature Medicine* to predict potential new therapeutic uses for SAHPRA-approved medications.
 
 > "TxGNN is the first foundation model designed for clinician-centered drug repurposing, integrating knowledge graphs with deep learning to predict drug efficacy for rare diseases."
-> <cite>— Huang et al., Nature Medicine (2023)</cite>
+> <cite>— Huang et al., Nature Medicine (2024)</cite>
 
 ### Statistics
 
 | Item | Count |
 |------|-------|
-| Drug Reports | 402 |
+| Drug Reports | 404 |
 | Regulatory Agency | South African Health Products Regulatory Authority (SAHPRA) |
 
 [Learn More](/about/) | [Methodology](/methodology/) | [Data Sources](/sources/)

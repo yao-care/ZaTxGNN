@@ -1,6 +1,4 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Acamprosate Calcium
 parent: Model Prediction Only (L5)
