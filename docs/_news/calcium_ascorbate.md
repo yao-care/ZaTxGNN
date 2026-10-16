@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Calcium ascorbate with the l
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/calcium_ascorbate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/calcium-ascorbate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

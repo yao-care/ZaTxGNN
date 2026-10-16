@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Bismuth subcarbonate with th
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/bismuth_subcarbonate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/bismuth-subcarbonate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)
