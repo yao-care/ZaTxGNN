@@ -1,12 +1,12 @@
 {
   "generated": "2026-10-17",
-  "total_drugs": 404,
+  "total_drugs": 403,
   "level_counts": {
     "L1": 17,
     "L2": 9,
     "L3": 23,
     "L4": 74,
-    "L5": 281
+    "L5": 280
   },
   "all_drugs": [
     {
@@ -20,12 +20,6 @@
       "slug": "acamprosate",
       "level": "L5",
       "indication_count": 10
-    },
-    {
-      "name": "Acamprosate Calcium",
-      "slug": "acamprosate_calcium",
-      "level": "L5",
-      "indication_count": 0
     },
     {
       "name": "Acetaminophen",

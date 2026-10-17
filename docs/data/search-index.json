@@ -1,7 +1,7 @@
 {
   "generated": "2026-10-17",
-  "drug_count": 404,
-  "indication_count": 1444,
+  "drug_count": 403,
+  "indication_count": 1427,
   "drugs": [
     {
       "name": "Abacavir",
@@ -53,100 +53,6 @@
           "name": "Attention deficit-hyperactivity disorder",
           "score": 91.85,
           "level": "L4"
-        }
-      ]
-    },
-    {
-      "name": "Acamprosate Calcium",
-      "slug": "acamprosate-calcium",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": [
-        {
-          "name": "Progressive encephalopathy with leukodystrophy (DECR deficiency) | 0.985 | L5 | S0 | **Hold**",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Trichotillomania | 0.981 | L5 | S0 | Research Question",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Wernicke-Korsakoff syndrome | 0.981 | L4 | S0 | Research Question",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Alcohol amnestic disorder | 0.957 | L5 | S0 | **Hold**",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Glaucoma | 0.943 | L5 | S0 | **Hold**",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Tourette syndrome | 0.926 | L5 | S0 | Research Question",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Attention deficit-hyperactivity disorder | 0.919 | L3 | S1 | Research Question",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Absence epilepsy | 0.913 | L5 | S0 | **Hold**",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Alcohol withdrawal | 0.906 | **L1** | **S3** | **Proceed with Guardrails**",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "Faciodigitogenital syndrome (Aarskog syndrome) | 0.904 | L5 | S0 | **Hold**",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "2024 | Clinical Guideline (GRACE-4) | SAEM guideline on ED management of alcohol withdrawal; references acamprosate in AUD management",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "2014 | Systematic Review/Meta-analysis (JAMA) | Pharmacotherapy for alcohol use disorders — comprehensive evaluation",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "2021 | Review (Der Nervenarzt) | Update on pharmacotherapy of alcohol withdrawal",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "2001 | RCT (Alcohol and Alcoholism) | n=296 multicentre double-blind RCT; acamprosate from start of withdrawal",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "2024 | Prospective study (Cureus) | 12-week comparison of acamprosate vs baclofen as anti-craving agents",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "2021 | RCT | Calcium carbonate vs acamprosate; supports calcium component hypothesis",
-          "score": 99.0,
-          "level": "L5"
-        },
-        {
-          "name": "DrugBank | 2026-03-26 | drug: ACAMPROSATE CALCIUM | ✅ Success | 1 | Vocab match only; MOA not retrieved",
-          "score": 99.0,
-          "level": "L5"
         }
       ]
     },
@@ -17359,72 +17265,6 @@
       ]
     },
     {
-      "name": "2001 | RCT (Alcohol and Alcoholism) | n=296 multicentre double-blind RCT; acamprosate from start of withdrawal",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "2014 | Systematic Review/Meta-analysis (JAMA) | Pharmacotherapy for alcohol use disorders — comprehensive evaluation",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "2021 | RCT | Calcium carbonate vs acamprosate; supports calcium component hypothesis",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "2021 | Review (Der Nervenarzt) | Update on pharmacotherapy of alcohol withdrawal",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "2024 | Clinical Guideline (GRACE-4) | SAEM guideline on ED management of alcohol withdrawal; references acamprosate in AUD management",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
-      "name": "2024 | Prospective study (Cureus) | 12-week comparison of acamprosate vs baclofen as anti-craving agents",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "46,XY disorder of sex development due to impaired androgen production | 93.67% | L4 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -17501,17 +17341,6 @@
           "drug": "Famciclovir",
           "slug": "famciclovir",
           "score": 99.3
-        }
-      ]
-    },
-    {
-      "name": "Absence epilepsy | 0.913 | L5 | S0 | **Hold**",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
         }
       ]
     },
@@ -17784,17 +17613,6 @@
       ]
     },
     {
-      "name": "Alcohol amnestic disorder | 0.957 | L5 | S0 | **Hold**",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Alcohol withdrawal",
       "drug_count": 2,
       "drugs": [
@@ -17807,17 +17625,6 @@
           "drug": "Acamprosate",
           "slug": "acamprosate",
           "score": 90.61
-        }
-      ]
-    },
-    {
-      "name": "Alcohol withdrawal | 0.906 | **L1** | **S3** | **Proceed with Guardrails**",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
         }
       ]
     },
@@ -18333,17 +18140,6 @@
           "drug": "Acamprosate",
           "slug": "acamprosate",
           "score": 91.85
-        }
-      ]
-    },
-    {
-      "name": "Attention deficit-hyperactivity disorder | 0.919 | L3 | S1 | Research Question",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
         }
       ]
     },
@@ -20232,17 +20028,6 @@
       ]
     },
     {
-      "name": "DrugBank | 2026-03-26 | drug: ACAMPROSATE CALCIUM | ✅ Success | 1 | Vocab match only; MOA not retrieved",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Dry eye syndrome",
       "drug_count": 2,
       "drugs": [
@@ -20512,17 +20297,6 @@
       ]
     },
     {
-      "name": "Faciodigitogenital syndrome (Aarskog syndrome) | 0.904 | L5 | S0 | **Hold**",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Factor 5 excess with spontaneous thrombosis | 98.45% | L5 | Hormonal therapy modifies thrombosis risk, so there is a safety concern; likely a graph artefact",
       "drug_count": 1,
       "drugs": [
@@ -20783,17 +20557,6 @@
           "drug": "Fenoterol",
           "slug": "fenoterol",
           "score": 98.16
-        }
-      ]
-    },
-    {
-      "name": "Glaucoma | 0.943 | L5 | S0 | **Hold**",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
         }
       ]
     },
@@ -24138,17 +23901,6 @@
       ]
     },
     {
-      "name": "Progressive encephalopathy with leukodystrophy (DECR deficiency) | 0.985 | L5 | S0 | **Hold**",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Progressive supranuclear palsy-corticobasal syndrome",
       "drug_count": 1,
       "drugs": [
@@ -25712,17 +25464,6 @@
       ]
     },
     {
-      "name": "Tourette syndrome | 0.926 | L5 | S0 | Research Question",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
-        }
-      ]
-    },
-    {
       "name": "Tourette syndrome | 99.05% | L5 | No studies. Abuse liability and respiratory depression argue against use",
       "drug_count": 1,
       "drugs": [
@@ -25796,17 +25537,6 @@
           "drug": "Sulfanilamide",
           "slug": "sulfanilamide",
           "score": 99.23
-        }
-      ]
-    },
-    {
-      "name": "Trichotillomania | 0.981 | L5 | S0 | Research Question",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
         }
       ]
     },
@@ -26369,17 +26099,6 @@
           "drug": "Acamprosate",
           "slug": "acamprosate",
           "score": 98.07
-        }
-      ]
-    },
-    {
-      "name": "Wernicke-Korsakoff syndrome | 0.981 | L4 | S0 | Research Question",
-      "drug_count": 1,
-      "drugs": [
-        {
-          "drug": "Acamprosate Calcium",
-          "slug": "acamprosate-calcium",
-          "score": 99.0
         }
       ]
     },

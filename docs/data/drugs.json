@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-17",
-  "total_count": 404,
+  "total_count": 403,
   "source": "ZaTxGNN",
   "drugs": [
     {
@@ -22,16 +22,6 @@
       "predicted_indication": "Predicted Indication",
       "txgnn_score": "",
       "url": "/drugs/acamprosate/"
-    },
-    {
-      "slug": "acamprosate-calcium",
-      "name": "Acamprosate Calcium",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "Progressive encephalopathy with leukodystrophy (DECR deficiency)",
-      "txgnn_score": "",
-      "url": "/drugs/acamprosate-calcium/"
     },
     {
       "slug": "acetaminophen",
