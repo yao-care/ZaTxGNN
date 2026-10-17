@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Econazole: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, cutaneous candidiasis…"
 monitor_inn: "Econazole"
-predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "tinea profunda", "vulvovaginal candidiasis", "vulvovaginitis", "acne (disease)", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "dermatophytosis of scalp or beard", "tinea profunda", "vulvovaginitis", "acne (disease)", "postmenopausal atrophic vaginitis"]
 ---
 
 # Econazole

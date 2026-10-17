@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Miconazole: predicted new indication Acne (evidence level L3). Approved use: Tinea pedis, tinea corporis, cutaneous candidiasis, tinea unguium…"
 monitor_inn: "Miconazole"
-predicted_indications: ["acne (disease)", "gastrin secretion abnormality", "papillary conjunctivitis", "tinea profunda", "ectothrix infectious disease", "Majocchi granuloma", "superficial mycosis", "endothrix infectious disease", "dermatophytosis of scalp or beard", "blastomycosis"]
+predicted_indications: ["acne (disease)", "gastrin secretion abnormality", "papillary conjunctivitis", "tinea profunda", "ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "dermatophytosis of scalp or beard", "blastomycosis"]
 ---
 
 # Miconazole

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lansoprazole: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
 monitor_inn: "Lansoprazole"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "peptic ulcer perforation", "gastrojejunal ulcer", "abnormality of glucagon secretion", "gastroduodenitis", "acne (disease)", "Smouldering systemic mastocytosis", "leather-bottle stomach", "duodenitis"]
+predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "acne (disease)", "Smouldering systemic mastocytosis", "leather-bottle stomach", "duodenitis"]
 ---
 
 # Lansoprazole

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Carbamazepine: predicted new indication Trigeminal nerve neoplasm (evidence level L4). Approved use: Epilepsy (including partial epilepsy…"
 monitor_inn: "CARBAMAZEPINE"
-predicted_indications: ["trigeminal nerve neoplasm", "eating seizures", "audiogenic seizures", "thinking seizures", "orgasm-induced seizures", "startle epilepsy", "micturation-induced seizures", "reading seizures", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
+predicted_indications: ["trigeminal nerve neoplasm", "eating seizures", "audiogenic seizures", "thinking seizures", "orgasm-induced seizures", "micturation-induced seizures", "reading seizures", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
 ---
 
 # Carbamazepine

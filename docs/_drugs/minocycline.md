@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections and acne"
 monitor_inn: "Minocycline"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "neurotrophic keratopathy", "postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+predicted_indications: ["exposure keratitis", "neurotrophic keratopathy", "postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "paranasal sinus neoplasm (disease)"]
 ---
 
 # Minocycline

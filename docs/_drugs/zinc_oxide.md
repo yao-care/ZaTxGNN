@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Tinea pedis, dermatitis, tinea corporis, cutaneous candidiasis…"
 monitor_inn: "Zinc oxide"
-predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "post-infectious syndrome", "otitis externa"]
+predicted_indications: ["anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "post-infectious syndrome", "otitis externa"]
 ---
 
 # Zinc Oxide

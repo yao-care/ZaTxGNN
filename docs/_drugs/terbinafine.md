@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Terbinafine: predicted new indication Creeping myiasis (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection, tinea unguium…"
 monitor_inn: "Terbinafine"
-predicted_indications: ["creeping myiasis", "furuncular myiasis", "wound myiasis", "myiasis", "cutaneous candidiasis", "toxoplasmosis", "blastomycosis", "tinea manuum", "echinococcus granulosus infectious disease", "superficial mycosis"]
+predicted_indications: ["creeping myiasis", "furuncular myiasis", "wound myiasis", "myiasis", "cutaneous candidiasis", "toxoplasmosis", "blastomycosis", "tinea manuum", "echinococcus granulosus infectious disease"]
 ---
 
 # Terbinafine

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Prednisolone Acetate: predicted new indication Serous conjunctivitis except viral (evidence level L5). Approved use: Uveitis, iris and ciliary body disease, panuveitis, conjunctivitis…"
 monitor_inn: "PREDNISOLONE ACETATE"
-predicted_indications: ["serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
+predicted_indications: ["postinfectious vasculitis"]
 ---
 
 # Prednisolone Acetate

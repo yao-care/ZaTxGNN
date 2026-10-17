@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Chlorpheniramine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Chlorpheniramine"
-predicted_indications: ["allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "recalcitrant atopic dermatitis", "trigeminal autonomic cephalalgia", "IgE responsiveness, atopic", "rhinitis"]
+predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "headache disorder", "recalcitrant atopic dermatitis", "trigeminal autonomic cephalalgia", "IgE responsiveness, atopic"]
 ---
 
 # Chlorpheniramine
