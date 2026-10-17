@@ -6,6 +6,7 @@ nav_order: 13
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+description: "Acamprosate Calcium: not registered with SAHPRA in South Africa; review of TxGNN-predicted new indications for acamprosate and the supporting evidence (evidence level L5)."
 ---
 
 # Acamprosate Calcium
