@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Hypertension"
 monitor_inn: "VERAPAMIL"
-predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "periodic paralysis with transient compartment-like syndrome"]
+predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "periodic paralysis with transient compartment-like syndrome"]
 ---
 
 # Verapamil
