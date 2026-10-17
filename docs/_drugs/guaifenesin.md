@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Guaifenesin"
-predicted_indications: ["faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis", "tracheal disease", "trigeminal autonomic cephalalgia", "anorectal stricture", "anal polyp", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis", "tracheal disease", "trigeminal autonomic cephalalgia", "anorectal stricture", "anal polyp", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Guaifenesin
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

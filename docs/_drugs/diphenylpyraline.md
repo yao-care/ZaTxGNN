@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Diphenylpyraline: predicted new indication Allergic urticaria (evidence level L5). Approved use: Allergic rhinitis"
 monitor_inn: "Diphenylpyraline"
-predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "anorectal stricture"]
+predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "anorectal stricture"]
 ---
 
 # Diphenylpyraline
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

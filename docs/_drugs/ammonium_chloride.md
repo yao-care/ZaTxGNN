@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ammonium Chloride: predicted new indication Acute laryngopharyngitis (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
 monitor_inn: "Ammonium chloride"
-predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "allergic urticaria", "trigeminal autonomic cephalalgia", "headache disorder", "tracheal disease", "papillary conjunctivitis", "gonococcal urethritis"]
+predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "allergic urticaria", "trigeminal autonomic cephalalgia", "headache disorder", "tracheal disease", "papillary conjunctivitis", "gonococcal urethritis"]
 ---
 
 # Ammonium Chloride
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

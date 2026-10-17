@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Glycine"
-predicted_indications: ["faucial diphtheria", "cervical disc degenerative disorder", "dyspepsia", "non-syndromic esophageal malformation", "papillary conjunctivitis", "gastroparesis (disease)", "Ureaplasma urethritis", "gonococcal urethritis"]
+predicted_indications: ["acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "dyspepsia", "non-syndromic esophageal malformation", "papillary conjunctivitis", "gastroparesis (disease)", "Ureaplasma urethritis", "gonococcal urethritis"]
 ---
 
 # Glycine
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

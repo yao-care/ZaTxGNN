@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "Polymyxin B"
-predicted_indications: ["bronchitis", "laryngotracheitis", "conjunctivitis", "respiratory tract infectious disease", "tracheal disease", "laryngitis", "epiglottitis", "obstructive lung disease", "bronchial neoplasm (disease)", "acute contagious conjunctivitis"]
+predicted_indications: ["bronchitis", "laryngotracheitis", "respiratory tract infectious disease", "tracheal disease", "laryngitis", "epiglottitis", "obstructive lung disease", "bronchial neoplasm (disease)"]
 ---
 
 # Polymyxin B
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

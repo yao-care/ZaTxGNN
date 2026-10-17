@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Phenyltoloxamine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, common cold…"
 monitor_inn: "Phenyltoloxamine"
-predicted_indications: ["rosacea conjunctivitis", "anorectal stricture", "acute laryngopharyngitis", "pharyngitis", "anal polyp", "proctitis", "nasal cavity disease", "recalcitrant atopic dermatitis"]
+predicted_indications: ["anorectal stricture", "acute laryngopharyngitis", "pharyngitis", "anal polyp", "proctitis", "nasal cavity disease", "recalcitrant atopic dermatitis"]
 ---
 
 # Phenyltoloxamine
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Acetaminophen: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine, headache disorders, common cold, allergic rhinitis"
 monitor_inn: "Acetaminophen"
-predicted_indications: ["migraine with brainstem aura", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "ulerythema ophryogenesis", "fibromyalgia", "inclusion body myositis", "sciatic neuropathy"]
+predicted_indications: ["trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "ulerythema ophryogenesis", "fibromyalgia", "inclusion body myositis", "sciatic neuropathy"]
 ---
 
 # Acetaminophen
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

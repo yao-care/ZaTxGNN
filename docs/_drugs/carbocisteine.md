@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Carbocisteine: predicted new indication Gout (evidence level L5). Approved use: Not available"
 monitor_inn: "Carbocisteine"
-predicted_indications: ["gout", "bronchitis", "appendicitis", "congestive heart failure", "acute pulmonary heart disease", "epiglottitis", "peritonitis", "laryngitis", "Lesch-Nyhan syndrome", "gastrointestinal allergy"]
+predicted_indications: ["gout", "appendicitis", "congestive heart failure", "acute pulmonary heart disease", "epiglottitis", "peritonitis", "laryngitis", "Lesch-Nyhan syndrome", "gastrointestinal allergy"]
 ---
 
 # Carbocisteine
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

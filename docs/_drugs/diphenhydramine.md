@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Diphenhydramine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Insomnia, vasomotor rhinitis, allergic rhinitis…"
 monitor_inn: "Diphenhydramine"
-predicted_indications: ["rosacea conjunctivitis", "allergic urticaria", "cold urticaria", "cauda equina syndrome", "nasopharyngitis", "viral conjunctivitis", "neuralgia", "trigeminal autonomic cephalalgia", "glossodynia"]
+predicted_indications: ["cauda equina syndrome", "nasopharyngitis", "neuralgia", "trigeminal autonomic cephalalgia", "glossodynia"]
 ---
 
 # Diphenhydramine
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

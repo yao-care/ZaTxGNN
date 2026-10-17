@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tolnaftate: predicted new indication Majocchi granuloma (evidence level L5). Approved use: Tinea pedis, tinea corporis…"
 monitor_inn: "Tolnaftate"
-predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "cutaneous candidiasis", "endothrix infectious disease", "tinea profunda", "ophthalmic herpes zoster", "orbital cellulitis", "infectious mononucleosis"]
+predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "ophthalmic herpes zoster", "orbital cellulitis", "infectious mononucleosis"]
 ---
 
 # Tolnaftate
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 
