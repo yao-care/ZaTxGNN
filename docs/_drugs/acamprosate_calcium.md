@@ -6,7 +6,6 @@ nav_order: 13
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
-description: "Acamprosate Calcium: predicted new indication DB00659 (resolved via ZaTxGNN drug mapping (evidence level L5). Approved use: Acamprosate (calcium acetylhomotaurinate)"
 ---
 
 # Acamprosate Calcium
