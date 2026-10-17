@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-17",
-  "total_count": 403,
+  "total_count": 402,
   "source": "ZaTxGNN",
   "drugs": [
     {
@@ -202,16 +202,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/apixaban/"
-    },
-    {
-      "slug": "aprotinin",
-      "name": "Aprotinin",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "From publicly available sources, aprotinin is a broad-spectrum serine protease inhibitor (bovine pancreatic trypsin inhibitor, BPTI). It inhibits plasmin, kallikrein, and trypsin, reducing...",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/aprotinin/"
     },
     {
       "slug": "arginine",

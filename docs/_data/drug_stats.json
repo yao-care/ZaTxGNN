@@ -1,12 +1,12 @@
 {
   "generated": "2026-10-17",
-  "total_drugs": 403,
+  "total_drugs": 402,
   "level_counts": {
     "L1": 17,
     "L2": 9,
     "L3": 23,
     "L4": 74,
-    "L5": 280
+    "L5": 279
   },
   "all_drugs": [
     {
@@ -128,12 +128,6 @@
       "slug": "apixaban",
       "level": "L4",
       "indication_count": 10
-    },
-    {
-      "name": "Aprotinin",
-      "slug": "aprotinin",
-      "level": "L5",
-      "indication_count": 0
     },
     {
       "name": "Arginine",
