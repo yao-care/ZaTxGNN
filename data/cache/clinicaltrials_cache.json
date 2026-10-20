@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-10-20T03:37:33.226406",
+  "last_check": "2026-10-20T16:28:08.073792",
   "seen_trials": {
     "Acetaminophen": [
       "NCT05039619",
@@ -877,7 +877,8 @@
     ],
     "Ezetimibe": [
       "NCT06789432",
-      "NCT06767345"
+      "NCT06767345",
+      "NCT07255820"
     ],
     "Isotretinoin": [
       "NCT06172296"
@@ -1237,7 +1238,8 @@
       "NCT05979311"
     ],
     "Potassium": [
-      "NCT07861685"
+      "NCT07861685",
+      "NCT07238400"
     ],
     "Mometasone Furoate": [
       "NCT06200766",
