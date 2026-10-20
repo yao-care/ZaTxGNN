@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold"
 monitor_inn: "PSEUDOEPHEDRINE"
-predicted_indications: ["acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
 ---
 
 # Pseudoephedrine

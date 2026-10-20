@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-15
 description: "Calcifediol: predicted new indication Obsolete vitamin D deficiency (evidence level L5). Approved use: Not stated in the SAHPRA registration data. The knowledge graph lists…"
 monitor_inn: "CALCIFEDIOL"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis"]
+predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "hereditary hypophosphatemic rickets", "vitamin D-dependent rickets"]
 ---
 
 # Calcifediol

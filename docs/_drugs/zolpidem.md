@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Zolpidem: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L5). Approved use: Insomnia"
 monitor_inn: "Zolpidem"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy", "agoraphobia", "acute encephalopathy with biphasic seizures and late reduced diffusion", "Wernicke-Korsakoff syndrome", "manic bipolar affective disorder", "alcohol withdrawal", "major affective disorder", "anxiety", "epilepsy, childhood absence, susceptibility to"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "acute encephalopathy with biphasic seizures and late reduced diffusion", "Wernicke-Korsakoff syndrome", "manic bipolar affective disorder", "alcohol withdrawal", "major affective disorder", "anxiety", "epilepsy, childhood absence, susceptibility to"]
 ---
 
 # Zolpidem

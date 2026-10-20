@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Duloxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Major depressive disorder (also anxiety disorder, fibromyalgia…"
 monitor_inn: "DULOXETINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "schizotypal personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 ---
 
 # Duloxetine

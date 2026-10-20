@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Phenylpropanolamine: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLPROPANOLAMINE"
-predicted_indications: ["acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Phenylpropanolamine

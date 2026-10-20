@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis…"
 monitor_inn: "Fexofenadine"
-predicted_indications: ["parasitic eyelid infestation", "ulcerative blepharitis", "infective urethral stricture", "postinfectious vasculitis", "post-bacterial disorder", "noninfectious dermatoses of eyelid"]
+predicted_indications: ["rosacea conjunctivitis", "punctate epithelial keratoconjunctivitis", "blepharoconjunctivitis", "viral conjunctivitis", "parasitic eyelid infestation", "ulcerative blepharitis", "infective urethral stricture", "postinfectious vasculitis", "post-bacterial disorder", "noninfectious dermatoses of eyelid"]
 ---
 
 # Fexofenadine

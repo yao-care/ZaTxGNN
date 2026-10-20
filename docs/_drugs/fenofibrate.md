@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Fenofibrate: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L5). Approved use: Hypertriglyceridaemia and hyperlipidaemia (including familial combine…"
 monitor_inn: "FENOFIBRATE"
-predicted_indications: ["homozygous familial hypercholesterolemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hypercholesterolemia, autosomal dominant"]
+predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "hypercholesterolemia, autosomal dominant"]
 ---
 
 # Fenofibrate
