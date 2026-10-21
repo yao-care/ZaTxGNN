@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Dimethicone with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>insomnia (disease) (94.3%)</li>
-<li>mature cataract (92.7%)</li>
-<li>tetanic cataract (92.7%)</li>
-<li>craniostenosis cataract (92.7%)</li>
-<li>immature cataract (92.7%)</li>
-<li>diabetes mellitus type 2 associated cataract (92.7%)</li>
-<li>cortical cataract (92.7%)</li>
-<li>nuclear senile cataract (92.7%)</li>
-<li>senile cataract (92.4%)</li>
-<li>severe nonproliferative diabetic retinopathy (92.2%)</li>
+<li>Insomnia (94.3%)</li>
+<li>Mature cataract (92.7%)</li>
+<li>Tetanic cataract (92.7%)</li>
+<li>Craniostenosis cataract (92.7%)</li>
+<li>Immature cataract (92.7%)</li>
+<li>Type 2 diabetes-associated cataract (92.7%)</li>
+<li>Cortical cataract (92.7%)</li>
+<li>Nuclear senile cataract (92.7%)</li>
+<li>Senile cataract (92.4%)</li>
+<li>Severe non-proliferative diabetic retinopathy (92.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dimethicone/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Flucloxacillin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Flucloxacillin. Original indication: . 10 predicted indications."
+description: "Health news related to Flucloxacillin. Original indication: . 1 predicted indications."
 permalink: /news/flucloxacillin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/flucloxacillin/
 ---
 
 <p class="key-answer" data-question="What news is there about Flucloxacillin?">
-<strong>Flucloxacillin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Flucloxacillin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Flucloxacillin with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>conjunctivitis (99.8%)</li>
-<li>rheumatoid arthritis (99.8%)</li>
-<li>leprosy (99.8%)</li>
-<li>Prinzmetal angina (99.8%)</li>
-<li>conjunctivitis (disease) (99.7%)</li>
-<li>brachydactyly-syndactyly syndrome (99.7%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.7%)</li>
-<li>thrombotic disease (99.7%)</li>
-<li>antithrombin deficiency type 2 (99.6%)</li>
-<li>factor 5 excess with spontaneous thrombosis (99.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Conjunctivitis (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/flucloxacillin/' | relative_url }}">View full drug report →</a></p>

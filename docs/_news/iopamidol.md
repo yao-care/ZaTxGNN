@@ -3,7 +3,7 @@ layout: default
 title: "Iopamidol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Iopamidol. Original indication: . 9 predicted indications."
+description: "Health news related to Iopamidol. Original indication: . 10 predicted indications."
 permalink: /news/iopamidol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/iopamidol/
 ---
 
 <p class="key-answer" data-question="What news is there about Iopamidol?">
-<strong>Iopamidol</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Iopamidol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Iopamidol with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Prinzmetal angina (98.6%)</li>
 <li>Female breast carcinoma (97.9%)</li>
 <li>Migraine with brainstem aura (97.4%)</li>
 <li>Migraine disorder (97.4%)</li>

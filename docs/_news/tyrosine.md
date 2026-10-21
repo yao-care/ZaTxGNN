@@ -3,7 +3,7 @@ layout: default
 title: "Tyrosine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tyrosine. Original indication: he TxGNN model ranks **cauda equina syndrome** as .... 10 predicted indications."
+description: "Health news related to Tyrosine. Original indication: he TxGNN model ranks **cauda equina syndrome** as .... 1 predicted indications."
 permalink: /news/tyrosine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tyrosine/
 ---
 
 <p class="key-answer" data-question="What news is there about Tyrosine?">
-<strong>Tyrosine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tyrosine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Tyrosine with the latest hea
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model ranks **cauda equina syndrome** as its top prediction (score 99.77%), but there are **no clinical trials and no publications** supporting this prediction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>cauda equina syndrome (99.8%)</li>
-<li>obsolete neurogenic bladder (disease) (99.5%)</li>
-<li>angle-closure glaucoma (99.5%)</li>
-<li>hyperthyroidism (99.5%)</li>
-<li>postural orthostatic tachycardia syndrome (99.5%)</li>
-<li>hyperthyroxinemia (99.5%)</li>
-<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.4%)</li>
-<li>aqueous misdirection (99.3%)</li>
-<li>traumatic glaucoma (99.3%)</li>
-<li>neovascular glaucoma (99.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Cauda equina syndrome (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tyrosine/' | relative_url }}">View full drug report →</a></p>

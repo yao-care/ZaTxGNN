@@ -3,7 +3,7 @@ layout: default
 title: "Candesartan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Candesartan. Original indication: . 10 predicted indications."
+description: "Health news related to Candesartan. Original indication: . 1 predicted indications."
 permalink: /news/candesartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/candesartan/
 ---
 
 <p class="key-answer" data-question="What news is there about Candesartan?">
-<strong>Candesartan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Candesartan</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Candesartan with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>migraine disorder (100.0%)</li>
-<li>migraine with brainstem aura (100.0%)</li>
-<li>migraine with or without aura, susceptibility to (99.9%)</li>
-<li>pulmonary hypertension (99.9%)</li>
-<li>Prinzmetal angina (99.9%)</li>
-<li>kyphoscoliotic heart disease (99.9%)</li>
-<li>atrophoderma vermiculata (99.9%)</li>
-<li>ulerythema ophryogenesis (99.9%)</li>
-<li>benign prostatic hyperplasia (disease) (99.8%)</li>
-<li>alopecia (99.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine disorder (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/candesartan/' | relative_url }}">View full drug report →</a></p>

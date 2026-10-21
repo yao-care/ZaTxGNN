@@ -3,7 +3,7 @@ layout: default
 title: "Thiamine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Thiamine. Original indication: . 4 predicted indications."
+description: "Health news related to Thiamine. Original indication: . 5 predicted indications."
 permalink: /news/thiamine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/thiamine/
 ---
 
 <p class="key-answer" data-question="What news is there about Thiamine?">
-<strong>Thiamine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Thiamine</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,12 @@ This page combines the AI-predicted indications for Thiamine with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>Pulmonary hypertension | 98.97% | L3 | Proceed with Guardrails (99.0%)</li>
-<li>Graves disease | 98.15% | L3 | Research Question (99.0%)</li>
-<li>Open-angle glaucoma | 99.36% | L4 | Hold (99.0%)</li>
-<li>Peripheral vascular disease | 98.10% | L4 | Hold (99.0%)</li>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>Hyperthyroidism (99.4%)</li>
+<li>Pulmonary hypertension (99.0%)</li>
+<li>Graves disease (98.2%)</li>
+<li>Open-angle glaucoma (99.4%)</li>
+<li>Peripheral vascular disease (98.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/thiamine/' | relative_url }}">View full drug report →</a></p>

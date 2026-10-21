@@ -3,7 +3,7 @@ layout: default
 title: "Magnesium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Magnesium. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Magnesium. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/magnesium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/magnesium/
 ---
 
 <p class="key-answer" data-question="What news is there about Magnesium?">
-<strong>Magnesium</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Magnesium</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Magnesium with the latest he
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder** (score 98.0%), with **8 clinical trials** and **20 publications** identified for this direction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>migraine disorder (98.0%)</li>
-<li>migraine with brainstem aura (98.0%)</li>
-<li>severe nonproliferative diabetic retinopathy (97.5%)</li>
-<li>bronchitis (96.0%)</li>
-<li>diabetic retinopathy (95.8%)</li>
-<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (95.2%)</li>
-<li>dermatitis (95.0%)</li>
-<li>hyperthyroidism (95.0%)</li>
-<li>rheumatoid arthritis (94.9%)</li>
-<li>dry eye syndrome (94.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine disorder (98.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/magnesium/' | relative_url }}">View full drug report →</a></p>

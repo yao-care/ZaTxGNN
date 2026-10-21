@@ -3,7 +3,7 @@ layout: default
 title: "Albendazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Albendazole. Original indication: . 4 predicted indications."
+description: "Health news related to Albendazole. Original indication: . 6 predicted indications."
 permalink: /news/albendazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/albendazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Albendazole?">
-<strong>Albendazole</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Albendazole</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,9 @@ This page combines the AI-predicted indications for Albendazole with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>Alveolar echinococcosis (100.0%)</li>
+<li>Coenurosis (99.8%)</li>
 <li>Cestode infectious disease (99.7%)</li>
 <li>Intestinal helminthiasis (98.1%)</li>
 <li>Lung benign neoplasm (98.3%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Acyclovir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Acyclovir. Original indication: . 10 predicted indications."
+description: "Health news related to Acyclovir. Original indication: . 11 predicted indications."
 permalink: /news/acyclovir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/acyclovir/
 ---
 
 <p class="key-answer" data-question="What news is there about Acyclovir?">
-<strong>Acyclovir</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Acyclovir</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Acyclovir with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>Common wart (best-supported prediction; TxGNN rank 1 is punctate epithelial keratoconjunctivitis) (99.5%)</li>
 <li>Punctate epithelial keratoconjunctivitis (99.7%)</li>
 <li>Common wart (99.5%)</li>
 <li>Post-infectious neuralgia (99.2%)</li>

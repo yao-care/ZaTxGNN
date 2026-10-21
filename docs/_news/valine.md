@@ -3,7 +3,7 @@ layout: default
 title: "Valine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Valine. Original indication: . 9 predicted indications."
+description: "Health news related to Valine. Original indication: . 10 predicted indications."
 permalink: /news/valine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/valine/
 ---
 
 <p class="key-answer" data-question="What news is there about Valine?">
-<strong>Valine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Valine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Valine with the latest healt
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Sclerosing cholangitis (99.4%)</li>
 <li>Angle-closure glaucoma (99.4%)</li>
 <li>Hyperthyroidism (99.3%)</li>
 <li>Traumatic glaucoma (99.3%)</li>
