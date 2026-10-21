@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-10-21T03:31:08.952079",
+  "last_check": "2026-10-21T16:44:20.740212",
   "seen_trials": {
     "Acetaminophen": [
       "NCT05039619",
@@ -1754,6 +1754,9 @@
     ],
     "Solifenacin": [
       "NCT07619105"
+    ],
+    "Tiotropium": [
+      "NCT03842839"
     ]
   }
 }
