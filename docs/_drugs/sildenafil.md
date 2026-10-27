@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sildenafil: From Pulmonary Arterial Hypertension and Erectile Dysfunction to Genetic Alopecia
+## Sildenafil: From Pulmonary Arterial Hypertension and Erectile Dysfunction to Genetic Alopecia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

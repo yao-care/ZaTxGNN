@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Norethisterone: From Endometriosis and Menopausal Hormone Conditions to Amenorrhoea
+## Norethisterone: From Endometriosis and Menopausal Hormone Conditions to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

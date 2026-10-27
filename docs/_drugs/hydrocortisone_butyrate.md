@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Hydrocortisone Butyrate: Evaluation Report — No Repurposing Predictions Available
+## Hydrocortisone Butyrate: Evaluation Report — No Repurposing Predictions Available
+{: .text-alpha }
 
 ---
 

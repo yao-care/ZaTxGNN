@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Caffeine: From Headache and Cold-Related Conditions to Nasal Cavity Disease
+## Caffeine: From Headache and Cold-Related Conditions to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

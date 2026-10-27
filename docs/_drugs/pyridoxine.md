@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pyridoxine: From Pyridoxine Deficiency Anaemia to Gonococcal Urethritis
+## Pyridoxine: From Pyridoxine Deficiency Anaemia to Gonococcal Urethritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

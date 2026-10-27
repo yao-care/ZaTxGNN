@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Warfarin: From Thrombotic Disease to Heparin Cofactor II Deficiency
+## Warfarin: From Thrombotic Disease to Heparin Cofactor II Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

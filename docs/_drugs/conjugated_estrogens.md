@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Conjugated Estrogens: From Psychologic Dyspareunia to Migraine Disorder
+## Conjugated Estrogens: From Psychologic Dyspareunia to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

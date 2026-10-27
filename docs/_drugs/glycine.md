@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glycine: From Allergic Rhinitis and Upper Respiratory Conditions to Nasal Cavity Disease
+## Glycine: From Allergic Rhinitis and Upper Respiratory Conditions to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

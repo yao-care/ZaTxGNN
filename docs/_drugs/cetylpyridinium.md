@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Cetylpyridinium (DB11073): Drug Repurposing Evaluation Report – No Predictions Generated
+## Cetylpyridinium (DB11073): Drug Repurposing Evaluation Report – No Predictions Generated
+{: .text-alpha }
 
 ---
 

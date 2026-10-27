@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Dexamethasone Phosphate: Preliminary Evaluation — Insufficient Data for Assessment
+## Dexamethasone Phosphate: Preliminary Evaluation — Insufficient Data for Assessment
+{: .text-alpha }
 
 ## One-Sentence Summary
 

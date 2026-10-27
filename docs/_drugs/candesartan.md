@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Candesartan: From Hypertension to Migraine Disorder
+## Candesartan: From Hypertension to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

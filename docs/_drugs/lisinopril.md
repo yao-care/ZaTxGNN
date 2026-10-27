@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lisinopril: From Hypertension and Myocardial Infarction to Chronic Pulmonary Heart Disease
+## Lisinopril: From Hypertension and Myocardial Infarction to Chronic Pulmonary Heart Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

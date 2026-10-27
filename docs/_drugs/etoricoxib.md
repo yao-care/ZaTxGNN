@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Etoricoxib: From an Unspecified Registered Indication to Migraine Disorder
+## Etoricoxib: From an Unspecified Registered Indication to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

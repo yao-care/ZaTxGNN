@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lorazepam: From Anxiety and Epilepsy Indications to Trigeminal Nerve Neoplasm
+## Lorazepam: From Anxiety and Epilepsy Indications to Trigeminal Nerve Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

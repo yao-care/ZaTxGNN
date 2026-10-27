@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Phenyltoloxamine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
+## Phenyltoloxamine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

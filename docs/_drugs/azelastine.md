@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Azelastine: From Allergic Rhinitis to Rosacea Conjunctivitis
+## Azelastine: From Allergic Rhinitis to Rosacea Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

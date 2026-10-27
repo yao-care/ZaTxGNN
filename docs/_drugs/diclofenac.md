@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diclofenac: From Osteoarthritis and Rheumatoid Arthritis to Juvenile Idiopathic Arthritis
+## Diclofenac: From Osteoarthritis and Rheumatoid Arthritis to Juvenile Idiopathic Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

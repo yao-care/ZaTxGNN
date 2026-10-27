@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Clindamycin Phosphate: Repurposing Evaluation — Insufficient Data to Proceed
+## Clindamycin Phosphate: Repurposing Evaluation — Insufficient Data to Proceed
+{: .text-alpha }
 
 ---
 

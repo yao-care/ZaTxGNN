@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Arginine Hydrochloride: Insufficient Data for Drug Repurposing Assessment
+## Arginine Hydrochloride: Insufficient Data for Drug Repurposing Assessment
+{: .text-alpha }
 
 ---
 

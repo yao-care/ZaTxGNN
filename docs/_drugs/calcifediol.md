@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Calcifediol: From Hypercalcaemia and Vitamin D-Related Bone and Mineral Disorders to Obsolete Vitamin D Deficiency
+## Calcifediol: From Hypercalcaemia and Vitamin D-Related Bone and Mineral Disorders to Obsolete Vitamin D Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ginseng: From Registered Use (Indication Not Stated) to Drug-Induced Osteoporosis
+## Ginseng: From Registered Use (Indication Not Stated) to Drug-Induced Osteoporosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

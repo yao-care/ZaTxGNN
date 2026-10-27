@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Bisoprolol Fumarate: Repurposing Evaluation — No TxGNN Prediction Available
+## Bisoprolol Fumarate: Repurposing Evaluation — No TxGNN Prediction Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

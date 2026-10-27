@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Serine: From Open-Angle Glaucoma and Pulmonary Tuberculosis to Familial Visceral Myopathy
+## Serine: From Open-Angle Glaucoma and Pulmonary Tuberculosis to Familial Visceral Myopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

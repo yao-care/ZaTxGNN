@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Salicylamide: From Headache Disorder to Pharyngitis
+## Salicylamide: From Headache Disorder to Pharyngitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

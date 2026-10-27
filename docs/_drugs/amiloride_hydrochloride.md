@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amiloride Hydrochloride: Repurposing Candidacy Evaluation (No Active Prediction Available)
+## Amiloride Hydrochloride: Repurposing Candidacy Evaluation (No Active Prediction Available)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Praziquantel: From Opisthorchiasis and Schistosomiasis to Plasmodium falciparum Malaria
+## Praziquantel: From Opisthorchiasis and Schistosomiasis to Plasmodium falciparum Malaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

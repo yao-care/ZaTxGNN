@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Guaifenesin: From Rhinitis and Common Cold to Nasal Cavity Disease
+## Guaifenesin: From Rhinitis and Common Cold to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

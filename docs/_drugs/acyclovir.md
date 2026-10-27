@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acyclovir: From Herpes Simplex Infection to Common Wart
+## Acyclovir: From Herpes Simplex Infection to Common Wart
+{: .text-alpha }
 
 ## One-Sentence Summary
 

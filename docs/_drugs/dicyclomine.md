@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Dicyclomine: From Irritable Bowel Syndrome to Cauda Equina Syndrome
+## Dicyclomine: From Irritable Bowel Syndrome to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

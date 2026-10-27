@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ampicillin: From Bacterial Infections (UTI, Otitis Media, Pneumonia, Meningitis) to Laryngitis
+## Ampicillin: From Bacterial Infections (UTI, Otitis Media, Pneumonia, Meningitis) to Laryngitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

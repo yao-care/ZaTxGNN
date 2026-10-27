@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Atenolol: From Hypertension and Myocardial Infarction to Posterolateral Myocardial Infarction
+## Atenolol: From Hypertension and Myocardial Infarction to Posterolateral Myocardial Infarction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

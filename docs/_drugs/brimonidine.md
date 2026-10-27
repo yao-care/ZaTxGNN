@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Brimonidine: From Open-Angle Glaucoma to Papillary Conjunctivitis
+## Brimonidine: From Open-Angle Glaucoma to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

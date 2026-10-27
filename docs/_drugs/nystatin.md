@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Nystatin: From Cutaneous and Oral Candidiasis to Vulvovaginitis
+## Nystatin: From Cutaneous and Oral Candidiasis to Vulvovaginitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

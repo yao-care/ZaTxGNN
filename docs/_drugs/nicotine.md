@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nicotine: From Nicotine Dependence to Exercise-Induced Malignant Hyperthermia
+## Nicotine: From Nicotine Dependence to Exercise-Induced Malignant Hyperthermia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

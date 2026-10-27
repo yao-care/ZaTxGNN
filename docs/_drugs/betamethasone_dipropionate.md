@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Betamethasone Dipropionate: Repurposing Evaluation — Insufficient Data to Proceed
+## Betamethasone Dipropionate: Repurposing Evaluation — Insufficient Data to Proceed
+{: .text-alpha }
 
 ## One-Sentence Summary
 

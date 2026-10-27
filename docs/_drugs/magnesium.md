@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium: From Nutritional/Electrolyte Supplementation to Migraine Disorder
+## Magnesium: From Nutritional/Electrolyte Supplementation to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

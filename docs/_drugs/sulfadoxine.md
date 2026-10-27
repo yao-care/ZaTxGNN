@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfadoxine: From Malaria (Registered Antimalarial Use) to Gout
+## Sulfadoxine: From Malaria (Registered Antimalarial Use) to Gout
+{: .text-alpha }
 
 ## One-Sentence Summary
 

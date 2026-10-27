@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Indapamide: Drug Repurposing Evaluation — Prediction Data Unavailable
+## Indapamide: Drug Repurposing Evaluation — Prediction Data Unavailable
+{: .text-alpha }
 
 ---
 

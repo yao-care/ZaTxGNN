@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Copper: From Trace-Element Supplementation to Esotropia (Predicted)
+## Copper: From Trace-Element Supplementation to Esotropia (Predicted)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

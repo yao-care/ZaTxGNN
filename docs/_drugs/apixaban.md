@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Apixaban: From Thromboembolic Disease to Migraine Disorder
+## Apixaban: From Thromboembolic Disease to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Diltiazem Hydrochloride: Drug Repurposing Evaluation — Critical Data Gaps Identified
+## Diltiazem Hydrochloride: Drug Repurposing Evaluation — Critical Data Gaps Identified
+{: .text-alpha }
 
 ## One-Sentence Summary
 

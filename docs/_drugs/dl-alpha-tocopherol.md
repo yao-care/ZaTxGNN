@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# DL-alpha-Tocopherol: From Vitamin E Supplementation (No Indication Text on File) to Immature Cataract
+## DL-alpha-Tocopherol: From Vitamin E Supplementation (No Indication Text on File) to Immature Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

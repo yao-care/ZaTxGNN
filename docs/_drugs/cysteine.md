@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cysteine: From Bronchitis and Related Conditions to Dry Eye Syndrome
+## Cysteine: From Bronchitis and Related Conditions to Dry Eye Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

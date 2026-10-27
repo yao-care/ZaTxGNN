@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Allopurinol: From Gout to Hepatic Porphyria
+## Allopurinol: From Gout to Hepatic Porphyria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dexchlorpheniramine Maleate: From Allergic Conditions to Acute Intermittent Porphyria (Prediction Only)
+## Dexchlorpheniramine Maleate: From Allergic Conditions to Acute Intermittent Porphyria (Prediction Only)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

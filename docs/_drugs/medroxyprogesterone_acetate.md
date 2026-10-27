@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Medroxyprogesterone Acetate: From Endometriosis to Amenorrhea
+## Medroxyprogesterone Acetate: From Endometriosis to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

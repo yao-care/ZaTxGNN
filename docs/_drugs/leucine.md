@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Leucine: From Nutritional Amino Acid Component to Congenital Prothrombin Deficiency
+## Leucine: From Nutritional Amino Acid Component to Congenital Prothrombin Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

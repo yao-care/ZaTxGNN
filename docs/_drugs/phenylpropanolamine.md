@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-# Phenylpropanolamine: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
+## Phenylpropanolamine: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

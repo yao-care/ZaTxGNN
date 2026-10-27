@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tyrosine: From Nutritional and Parenteral Amino Acid Component to Cauda Equina Syndrome
+## Tyrosine: From Nutritional and Parenteral Amino Acid Component to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

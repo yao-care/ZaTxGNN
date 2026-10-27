@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Clobetasol: From Topical Corticosteroid-Responsive Skin Disease to Primary Cutaneous T-Cell Lymphoma
+## Clobetasol: From Topical Corticosteroid-Responsive Skin Disease to Primary Cutaneous T-Cell Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

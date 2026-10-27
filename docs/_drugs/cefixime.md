@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cefixime: From Urinary Tract and Respiratory Infections to Ureaplasma Urethritis
+## Cefixime: From Urinary Tract and Respiratory Infections to Ureaplasma Urethritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

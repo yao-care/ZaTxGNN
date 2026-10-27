@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Clove Oil: Initial Repurposing Screening — No Active Predictions Available
+## Clove Oil: Initial Repurposing Screening — No Active Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

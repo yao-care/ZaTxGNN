@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Potassium: From Unspecified Registered Uses to Hypertensive Disorder
+## Potassium: From Unspecified Registered Uses to Hypertensive Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

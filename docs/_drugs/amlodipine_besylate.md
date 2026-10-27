@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amlodipine Besylate: Drug Repurposing Evaluation — Pending TxGNN Prediction Data
+## Amlodipine Besylate: Drug Repurposing Evaluation — Pending TxGNN Prediction Data
+{: .text-alpha }
 
 ## One-Sentence Summary
 

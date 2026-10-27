@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **9**
 
 </div>
 
-# Pravastatin: From Hyperlipidaemia and Atherosclerosis to HIV-Associated Dyslipidaemia
+## Pravastatin: From Hyperlipidaemia and Atherosclerosis to HIV-Associated Dyslipidaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

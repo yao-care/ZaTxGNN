@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ergocalciferol: From Vitamin D Deficiency and Bone Disorders to Renal Osteodystrophy
+## Ergocalciferol: From Vitamin D Deficiency and Bone Disorders to Renal Osteodystrophy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

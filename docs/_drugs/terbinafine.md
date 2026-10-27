@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Terbinafine: From Tinea Infections to Creeping Myiasis
+## Terbinafine: From Tinea Infections to Creeping Myiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

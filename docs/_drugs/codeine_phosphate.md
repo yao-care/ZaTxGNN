@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Codeine Phosphate: Repurposing Evaluation — No TxGNN Prediction Generated
+## Codeine Phosphate: Repurposing Evaluation — No TxGNN Prediction Generated
+{: .text-alpha }
 
 ## One-Sentence Summary
 

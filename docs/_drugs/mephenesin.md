@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mephenesin: From Muscle Spasm (Centrally Acting Muscle Relaxant) to Metastatic Melanoma
+## Mephenesin: From Muscle Spasm (Centrally Acting Muscle Relaxant) to Metastatic Melanoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

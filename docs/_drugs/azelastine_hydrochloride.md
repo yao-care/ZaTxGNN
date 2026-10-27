@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Azelastine Hydrochloride: Drug Repurposing Assessment — Insufficient Data for Prediction
+## Azelastine Hydrochloride: Drug Repurposing Assessment — Insufficient Data for Prediction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

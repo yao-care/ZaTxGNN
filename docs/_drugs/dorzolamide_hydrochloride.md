@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Dorzolamide Hydrochloride: Repurposing Evaluation — No Predicted Indications Available
+## Dorzolamide Hydrochloride: Repurposing Evaluation — No Predicted Indications Available
+{: .text-alpha }
 
 ---
 

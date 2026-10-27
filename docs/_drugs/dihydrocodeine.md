@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dihydrocodeine: From Allergic Rhinitis and Upper Respiratory Tract Symptoms to Nasal Cavity Disease
+## Dihydrocodeine: From Allergic Rhinitis and Upper Respiratory Tract Symptoms to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

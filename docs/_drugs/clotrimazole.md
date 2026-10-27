@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clotrimazole: From Superficial Fungal Infections to Acne (Top Prediction) and Vulvovaginitis (Best-Supported Prediction)
+## Clotrimazole: From Superficial Fungal Infections to Acne (Top Prediction) and Vulvovaginitis (Best-Supported Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

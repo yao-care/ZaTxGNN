@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Bupropion Hydrochloride: Repurposing Evaluation — No TxGNN Prediction Available
+## Bupropion Hydrochloride: Repurposing Evaluation — No TxGNN Prediction Available
+{: .text-alpha }
 
 ---
 

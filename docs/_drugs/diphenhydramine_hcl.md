@@ -36,7 +36,8 @@ Looking at this Evidence Pack, I can see it has significant issues: no TxGNN pre
 
 ---
 
-# Diphenhydramine HCl: Evidence Pack Incomplete — Repurposing Analysis Pending
+## Diphenhydramine HCl: Evidence Pack Incomplete — Repurposing Analysis Pending
+{: .text-alpha }
 
 ## One-Sentence Summary
 

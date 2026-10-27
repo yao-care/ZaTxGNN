@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Clioquinol: From Tinea Infections to Cutaneous Candidiasis
+## Clioquinol: From Tinea Infections to Cutaneous Candidiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

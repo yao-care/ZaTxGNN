@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Histidine: From Nutritional Amino Acid Supplementation to Gastroparesis
+## Histidine: From Nutritional Amino Acid Supplementation to Gastroparesis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iopamidol: From Diagnostic Contrast Imaging to Prinzmetal Angina
+## Iopamidol: From Diagnostic Contrast Imaging to Prinzmetal Angina
+{: .text-alpha }
 
 ## One-Sentence Summary
 

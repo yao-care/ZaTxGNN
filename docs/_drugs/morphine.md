@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Morphine: From Diarrhoeal Disease to Myofascial Pain Syndrome
+## Morphine: From Diarrhoeal Disease to Myofascial Pain Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

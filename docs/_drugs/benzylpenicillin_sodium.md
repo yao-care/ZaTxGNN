@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Benzylpenicillin Sodium: No Repurposing Prediction Generated
+## Benzylpenicillin Sodium: No Repurposing Prediction Generated
+{: .text-alpha }
 
 ## One-Sentence Summary
 

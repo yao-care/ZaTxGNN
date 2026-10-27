@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Colchicine: From Gout and Familial Mediterranean Fever to Plasmodium falciparum Malaria
+## Colchicine: From Gout and Familial Mediterranean Fever to Plasmodium falciparum Malaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

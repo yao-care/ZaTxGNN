@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Doxycycline HCL: Drug Repurposing Evaluation — Insufficient Data to Generate Predictions
+## Doxycycline HCL: Drug Repurposing Evaluation — Insufficient Data to Generate Predictions
+{: .text-alpha }
 
 ## One-Sentence Summary
 

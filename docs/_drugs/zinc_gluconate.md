@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Gluconate: From Ascorbic Acid Deficiency (Scurvy) to Anemia of Prematurity
+## Zinc Gluconate: From Ascorbic Acid Deficiency (Scurvy) to Anemia of Prematurity
+{: .text-alpha }
 
 ## One-Sentence Summary
 

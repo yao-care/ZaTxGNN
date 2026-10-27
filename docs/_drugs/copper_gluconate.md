@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Copper Gluconate: Drug Repurposing Assessment — No TxGNN Prediction Available
+## Copper Gluconate: Drug Repurposing Assessment — No TxGNN Prediction Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

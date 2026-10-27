@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Calcium Chloride: No Repurposing Predictions Currently Available
+## Calcium Chloride: No Repurposing Predictions Currently Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

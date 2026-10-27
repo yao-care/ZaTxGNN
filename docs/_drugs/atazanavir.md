@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Atazanavir: From HIV Infection and AIDS to Feline Acquired Immunodeficiency Syndrome
+## Atazanavir: From HIV Infection and AIDS to Feline Acquired Immunodeficiency Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

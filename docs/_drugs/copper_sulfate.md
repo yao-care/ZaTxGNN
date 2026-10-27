@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Copper Sulfate: Drug Repurposing Evaluation — Insufficient Data for Prediction
+## Copper Sulfate: Drug Repurposing Evaluation — Insufficient Data for Prediction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

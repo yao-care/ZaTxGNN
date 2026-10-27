@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Chromium Chloride: Drug Repurposing Evaluation — Insufficient Data to Proceed
+## Chromium Chloride: Drug Repurposing Evaluation — Insufficient Data to Proceed
+{: .text-alpha }
 
 ---
 

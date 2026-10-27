@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calcium: From an Unspecified Registered Indication to Thrombotic Disease
+## Calcium: From an Unspecified Registered Indication to Thrombotic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

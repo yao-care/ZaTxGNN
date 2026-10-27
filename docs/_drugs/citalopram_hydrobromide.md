@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Citalopram Hydrobromide: Repurposing Evaluation — Predicted Indication Pending
+## Citalopram Hydrobromide: Repurposing Evaluation — Predicted Indication Pending
+{: .text-alpha }
 
 > **Report Status Notice:** This Evidence Pack is incomplete. The TxGNN prediction pipeline returned no predicted indications, and multiple critical data fields are unpopulated. This report documents the current data status and specifies the remediation steps required before a full repurposing evaluation can be conducted.
 

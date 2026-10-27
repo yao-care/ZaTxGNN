@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Ephedrine: From Allergic Rhinitis and Related Upper Airway Conditions to Nasal Cavity Disease
+## Ephedrine: From Allergic Rhinitis and Related Upper Airway Conditions to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

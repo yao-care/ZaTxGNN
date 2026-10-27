@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benzocaine: From Tinea Pedis and Dermatitis to Dyspepsia
+## Benzocaine: From Tinea Pedis and Dermatitis to Dyspepsia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

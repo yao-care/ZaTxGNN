@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amoxicillin Trihydrate: Repurposing Evaluation — Insufficient Data for Prediction
+## Amoxicillin Trihydrate: Repurposing Evaluation — Insufficient Data for Prediction
+{: .text-alpha }
 
 ---
 

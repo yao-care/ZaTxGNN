@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Cupric Chloride Dihydrate: No Repurposing Prediction Available
+## Cupric Chloride Dihydrate: No Repurposing Prediction Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

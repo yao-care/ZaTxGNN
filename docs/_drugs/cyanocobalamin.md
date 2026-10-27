@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Cyanocobalamin: From Vitamin B12 Deficiency to Biotin Metabolic Disease
+## Cyanocobalamin: From Vitamin B12 Deficiency to Biotin Metabolic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

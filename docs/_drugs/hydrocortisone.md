@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hydrocortisone: From Autoimmune and Adrenal Conditions to Alopecia Areata
+## Hydrocortisone: From Autoimmune and Adrenal Conditions to Alopecia Areata
+{: .text-alpha }
 
 ## One-Sentence Summary
 

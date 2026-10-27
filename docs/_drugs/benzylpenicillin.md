@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benzylpenicillin: From Streptococcal and Other Bacterial Infections to Pericoronitis
+## Benzylpenicillin: From Streptococcal and Other Bacterial Infections to Pericoronitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

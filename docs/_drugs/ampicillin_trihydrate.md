@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Ampicillin Trihydrate: Repurposing Evaluation — Insufficient Data to Generate Prediction
+## Ampicillin Trihydrate: Repurposing Evaluation — Insufficient Data to Generate Prediction
+{: .text-alpha }
 
 ---
 

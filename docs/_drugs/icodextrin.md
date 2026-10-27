@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Icodextrin: From Peritoneal Dialysis Osmotic Agent to Irritable Bowel Syndrome
+## Icodextrin: From Peritoneal Dialysis Osmotic Agent to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

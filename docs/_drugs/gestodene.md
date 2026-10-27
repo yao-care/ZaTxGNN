@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gestodene: From Contraception to Acne
+## Gestodene: From Contraception to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

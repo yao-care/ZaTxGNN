@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# CEFUROXIME SODIUM: Repurposing Evaluation — Insufficient Data for Full Assessment
+## CEFUROXIME SODIUM: Repurposing Evaluation — Insufficient Data for Full Assessment
+{: .text-alpha }
 
 ---
 

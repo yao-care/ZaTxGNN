@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Benzyl Benzoate (DB00676): Drug Repurposing Assessment — Insufficient Data for Active Prediction
+## Benzyl Benzoate (DB00676): Drug Repurposing Assessment — Insufficient Data for Active Prediction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluoxetine: From Depression and Anxiety Disorders to Schizoid Personality Disorder
+## Fluoxetine: From Depression and Anxiety Disorders to Schizoid Personality Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rivaroxaban: From Anticoagulation (Indication Not Listed in Registration Data) to Rheumatoid Arthritis
+## Rivaroxaban: From Anticoagulation (Indication Not Listed in Registration Data) to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

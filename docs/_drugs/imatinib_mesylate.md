@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Imatinib Mesylate: Repurposing Evaluation — No TxGNN Predictions Available
+## Imatinib Mesylate: Repurposing Evaluation — No TxGNN Predictions Available
+{: .text-alpha }
 
 ---
 

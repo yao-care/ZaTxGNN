@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pantothenic Acid: From Ascorbic Acid Deficiency (Scurvy) to Congenital Prothrombin Deficiency
+## Pantothenic Acid: From Ascorbic Acid Deficiency (Scurvy) to Congenital Prothrombin Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

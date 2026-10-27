@@ -36,7 +36,8 @@ The data-report skill's fidelity principle applies here: I must report only what
 
 ---
 
-# Dopamine HCl: Evidence Pack Incomplete — No Repurposing Predictions Available
+## Dopamine HCl: Evidence Pack Incomplete — No Repurposing Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

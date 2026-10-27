@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Chromium: From Unspecified Parenteral Nutrition Use to Rheumatoid Arthritis
+## Chromium: From Unspecified Parenteral Nutrition Use to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

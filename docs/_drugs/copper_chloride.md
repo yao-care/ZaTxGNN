@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Copper Chloride: Drug Repurposing Evaluation — Insufficient Data for Assessment
+## Copper Chloride: Drug Repurposing Evaluation — Insufficient Data for Assessment
+{: .text-alpha }
 
 ---
 

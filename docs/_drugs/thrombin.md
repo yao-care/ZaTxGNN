@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Thrombin: From Its Registered South African Use to Primary Release Disorder of Platelets
+## Thrombin: From Its Registered South African Use to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Aprotinin: Repurposing Evaluation — Insufficient Data for Standard Assessment
+## Aprotinin: Repurposing Evaluation — Insufficient Data for Standard Assessment
+{: .text-alpha }
 
 ---
 

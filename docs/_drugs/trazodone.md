@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Trazodone: From Unipolar Depression to Obsessive-Compulsive Disorder
+## Trazodone: From Unipolar Depression to Obsessive-Compulsive Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

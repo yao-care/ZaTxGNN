@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Estradiol Valerate: From Primary Ovarian Failure to Fragile X Premutation Carrier Symptoms (Top Prediction)
+## Estradiol Valerate: From Primary Ovarian Failure to Fragile X Premutation Carrier Symptoms (Top Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chlorthalidone: From Hypertension to Primary Hereditary Glaucoma
+## Chlorthalidone: From Hypertension to Primary Hereditary Glaucoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

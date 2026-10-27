@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Omega-3 Fatty Acids: From Hypertriglyceridaemia to Tendinitis
+## Omega-3 Fatty Acids: From Hypertriglyceridaemia to Tendinitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

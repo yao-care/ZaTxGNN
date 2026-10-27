@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Docetaxel Trihydrate: Repurposing Evaluation — Prediction Data Unavailable
+## Docetaxel Trihydrate: Repurposing Evaluation — Prediction Data Unavailable
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Atorvastatin Calcium: Repurposing Evaluation — Insufficient Evidence Pack for Full Assessment
+## Atorvastatin Calcium: Repurposing Evaluation — Insufficient Evidence Pack for Full Assessment
+{: .text-alpha }
 
 ## One-Sentence Summary
 

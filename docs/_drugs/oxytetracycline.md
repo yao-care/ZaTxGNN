@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Oxytetracycline: From Bacterial Infections to Chronic Rhinosinusitis
+## Oxytetracycline: From Bacterial Infections to Chronic Rhinosinusitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

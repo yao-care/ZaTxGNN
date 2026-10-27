@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bismuth Subgallate: From an Unspecified Local Indication to Heparin Cofactor 2 Deficiency
+## Bismuth Subgallate: From an Unspecified Local Indication to Heparin Cofactor 2 Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

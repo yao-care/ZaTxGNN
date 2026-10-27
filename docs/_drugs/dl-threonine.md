@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# DL-Threonine: No Repurposing Prediction Generated — Hold Pending Data Resolution
+## DL-Threonine: No Repurposing Prediction Generated — Hold Pending Data Resolution
+{: .text-alpha }
 
 ---
 

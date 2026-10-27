@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cephalexin: From Bacterial Infections (Including Otitis Media) to Chronic Otitis Media
+## Cephalexin: From Bacterial Infections (Including Otitis Media) to Chronic Otitis Media
+{: .text-alpha }
 
 ## One-Sentence Summary
 

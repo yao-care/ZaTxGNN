@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acamprosate: From Substance Dependence to Progressive Encephalopathy with Leukodystrophy due to DECR Deficiency
+## Acamprosate: From Substance Dependence to Progressive Encephalopathy with Leukodystrophy due to DECR Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

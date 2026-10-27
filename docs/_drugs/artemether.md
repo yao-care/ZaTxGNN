@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Artemether: From Malaria (Registered Antimalarial Use) to Plasmodium falciparum Malaria
+## Artemether: From Malaria (Registered Antimalarial Use) to Plasmodium falciparum Malaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

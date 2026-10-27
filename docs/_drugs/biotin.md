@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Biotin: From Nutritional Biotin Deficiency to Dyspepsia
+## Biotin: From Nutritional Biotin Deficiency to Dyspepsia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

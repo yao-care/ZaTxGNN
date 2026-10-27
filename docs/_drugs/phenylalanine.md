@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Phenylalanine: From Amino Acid Nutritional Component to Sclerosing Cholangitis
+## Phenylalanine: From Amino Acid Nutritional Component to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

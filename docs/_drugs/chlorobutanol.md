@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chlorobutanol: From an Unspecified Original Indication to Erectile Dysfunction
+## Chlorobutanol: From an Unspecified Original Indication to Erectile Dysfunction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amiodarone Hydrochloride: Repurposing Evaluation — Prediction Data Unavailable
+## Amiodarone Hydrochloride: Repurposing Evaluation — Prediction Data Unavailable
+{: .text-alpha }
 
 ## One-Sentence Summary
 

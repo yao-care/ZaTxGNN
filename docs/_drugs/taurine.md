@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Taurine: From Parenteral Nutrition Component to Alcohol Withdrawal Delirium
+## Taurine: From Parenteral Nutrition Component to Alcohol Withdrawal Delirium
+{: .text-alpha }
 
 ## One-Sentence Summary
 

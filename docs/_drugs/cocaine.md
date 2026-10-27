@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cocaine: From Local Anaesthesia to Cauda Equina Syndrome (Prediction Not Supported)
+## Cocaine: From Local Anaesthesia to Cauda Equina Syndrome (Prediction Not Supported)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

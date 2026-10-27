@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Diphenylpyraline Hydrochloride: Evaluation Incomplete — No Predictions Generated
+## Diphenylpyraline Hydrochloride: Evaluation Incomplete — No Predictions Generated
+{: .text-alpha }
 
 ## One-Sentence Summary
 

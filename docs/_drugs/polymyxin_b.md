@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Polymyxin B: From Topical Antibacterial Use to Bronchitis
+## Polymyxin B: From Topical Antibacterial Use to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

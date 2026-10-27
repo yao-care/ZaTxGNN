@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ceftriaxone: From Bacterial Infections to Infectious Otitis Media
+## Ceftriaxone: From Bacterial Infections to Infectious Otitis Media
+{: .text-alpha }
 
 ## One-Sentence Summary
 

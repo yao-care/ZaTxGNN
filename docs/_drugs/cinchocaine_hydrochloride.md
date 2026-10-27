@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Cinchocaine Hydrochloride: Drug Repurposing Evaluation — Insufficient Data for Full Assessment
+## Cinchocaine Hydrochloride: Drug Repurposing Evaluation — Insufficient Data for Full Assessment
+{: .text-alpha }
 
 ## One-Sentence Summary
 

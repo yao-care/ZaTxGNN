@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tolnaftate: From Tinea Infections to Superficial Mycosis
+## Tolnaftate: From Tinea Infections to Superficial Mycosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

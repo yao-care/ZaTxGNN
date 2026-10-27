@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Cupric Chloride: From Trace-Element Supplementation to Primary Release Disorder of Platelets
+## Cupric Chloride: From Trace-Element Supplementation to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

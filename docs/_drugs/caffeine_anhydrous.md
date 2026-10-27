@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Caffeine Anhydrous: Repurposing Evaluation — Insufficient Data to Generate Prediction
+## Caffeine Anhydrous: Repurposing Evaluation — Insufficient Data to Generate Prediction
+{: .text-alpha }
 
 ## Summary
 

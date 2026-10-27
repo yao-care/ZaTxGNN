@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Citric Acid: From Dyspepsia and Headache Disorder to Stomach Disease
+## Citric Acid: From Dyspepsia and Headache Disorder to Stomach Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

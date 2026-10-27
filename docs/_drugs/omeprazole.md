@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Omeprazole: From Acid-Related Gastric and Duodenal Disease to Duodenogastric Reflux
+## Omeprazole: From Acid-Related Gastric and Duodenal Disease to Duodenogastric Reflux
+{: .text-alpha }
 
 ## One-Sentence Summary
 

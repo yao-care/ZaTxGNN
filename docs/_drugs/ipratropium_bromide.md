@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Ipratropium Bromide: Evaluation Incomplete — No TxGNN Repurposing Prediction Available
+## Ipratropium Bromide: Evaluation Incomplete — No TxGNN Repurposing Prediction Available
+{: .text-alpha }
 
 ---
 

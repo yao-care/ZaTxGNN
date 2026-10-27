@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Acetaminophen: From Migraine and Headache to Migraine with Brainstem Aura
+## Acetaminophen: From Migraine and Headache to Migraine with Brainstem Aura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

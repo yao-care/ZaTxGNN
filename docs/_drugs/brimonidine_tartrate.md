@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Brimonidine Tartrate: Evaluation Report — No Repurposing Predictions Available
+## Brimonidine Tartrate: Evaluation Report — No Repurposing Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

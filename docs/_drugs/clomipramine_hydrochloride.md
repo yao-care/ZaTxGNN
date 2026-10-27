@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Clomipramine Hydrochloride: Repurposing Assessment — Insufficient Evidence Pack Data
+## Clomipramine Hydrochloride: Repurposing Assessment — Insufficient Evidence Pack Data
+{: .text-alpha }
 
 ## One-Sentence Summary
 

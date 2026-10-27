@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Sulfamethoxazole: From Infectious Otitis Media and Other Infections to Acute Contagious Conjunctivitis
+## Sulfamethoxazole: From Infectious Otitis Media and Other Infections to Acute Contagious Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

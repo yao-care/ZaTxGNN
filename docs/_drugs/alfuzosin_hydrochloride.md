@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Alfuzosin Hydrochloride: Evaluation Pending – No Repurposing Candidates Generated
+## Alfuzosin Hydrochloride: Evaluation Pending – No Repurposing Candidates Generated
+{: .text-alpha }
 
 ---
 

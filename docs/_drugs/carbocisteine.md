@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carbocisteine: From Mucolytic Use to Gout (Top TxGNN Prediction) and Bronchitis (Best-Supported Prediction)
+## Carbocisteine: From Mucolytic Use to Gout (Top TxGNN Prediction) and Bronchitis (Best-Supported Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tobramycin: From Bacterial Eye Infections to Exposure Keratitis
+## Tobramycin: From Bacterial Eye Infections to Exposure Keratitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

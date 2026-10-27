@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfanilamide: From Vulvovaginitis to Postmenopausal Atrophic Vaginitis
+## Sulfanilamide: From Vulvovaginitis to Postmenopausal Atrophic Vaginitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Oxide: From Dermatological and Anorectal Conditions to Acne
+## Zinc Oxide: From Dermatological and Anorectal Conditions to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

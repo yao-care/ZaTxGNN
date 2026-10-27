@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Arginine: From Parenteral Nutrition Component to Gastroparesis
+## Arginine: From Parenteral Nutrition Component to Gastroparesis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Diltiazem: From Hypertension to Susceptibility to Ischaemic Stroke (Obsolete Ontology Term)
+## Diltiazem: From Hypertension to Susceptibility to Ischaemic Stroke (Obsolete Ontology Term)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

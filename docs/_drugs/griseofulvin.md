@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Griseofulvin: From Tinea Infections to Myiasis
+## Griseofulvin: From Tinea Infections to Myiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

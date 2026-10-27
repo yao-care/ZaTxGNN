@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Carbonate: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Magnesium Carbonate: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

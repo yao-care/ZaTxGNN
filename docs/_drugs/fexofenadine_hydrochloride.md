@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Fexofenadine Hydrochloride: Repurposing Assessment — Insufficient Data to Proceed
+## Fexofenadine Hydrochloride: Repurposing Assessment — Insufficient Data to Proceed
+{: .text-alpha }
 
 ## One-Sentence Summary
 

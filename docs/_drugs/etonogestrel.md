@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Etonogestrel: From Contraception to Amenorrhea
+## Etonogestrel: From Contraception to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

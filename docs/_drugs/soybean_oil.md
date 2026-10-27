@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Soybean Oil: From Parenteral Nutrition to Amenorrhoea (Prediction Only)
+## Soybean Oil: From Parenteral Nutrition to Amenorrhoea (Prediction Only)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

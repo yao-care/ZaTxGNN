@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Acetate: From an Unspecified Original Indication to Hypertensive Disorder
+## Magnesium Acetate: From an Unspecified Original Indication to Hypertensive Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

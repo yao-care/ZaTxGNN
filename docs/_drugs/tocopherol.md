@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tocopherol: From an Unspecified Registered Indication to Sclerosing Cholangitis
+## Tocopherol: From an Unspecified Registered Indication to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

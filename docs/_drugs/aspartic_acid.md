@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Aspartic Acid: From Potassium Deficiency to Renal Tubular Acidosis
+## Aspartic Acid: From Potassium Deficiency to Renal Tubular Acidosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

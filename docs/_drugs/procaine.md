@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Procaine: From Unspecified Original Indication to Methemoglobinemia (Prediction Not Supported)
+## Procaine: From Unspecified Original Indication to Methemoglobinemia (Prediction Not Supported)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

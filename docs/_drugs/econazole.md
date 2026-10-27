@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Econazole: From Superficial Fungal Skin Infections to Ectothrix Infectious Disease
+## Econazole: From Superficial Fungal Skin Infections to Ectothrix Infectious Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

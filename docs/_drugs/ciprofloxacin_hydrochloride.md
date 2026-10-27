@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Ciprofloxacin Hydrochloride: Repurposing Analysis Unavailable — Data Gaps Prevent Evaluation
+## Ciprofloxacin Hydrochloride: Repurposing Analysis Unavailable — Data Gaps Prevent Evaluation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Glutamic Acid: From Parenteral Nutrition Component to Postmenopausal Osteoporosis
+## Glutamic Acid: From Parenteral Nutrition Component to Postmenopausal Osteoporosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

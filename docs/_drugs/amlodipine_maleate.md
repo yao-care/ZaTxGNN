@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amlodipine Maleate: Drug Repurposing Evaluation
+## Amlodipine Maleate: Drug Repurposing Evaluation
+{: .text-alpha }
 
 ---
 

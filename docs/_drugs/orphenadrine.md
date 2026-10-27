@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Orphenadrine: From Parkinson Disease to Retinal Dystrophy with or without Extraocular Anomalies
+## Orphenadrine: From Parkinson Disease to Retinal Dystrophy with or without Extraocular Anomalies
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ammonium Chloride: From Pharyngitis and Common Cold to Acute Laryngopharyngitis
+## Ammonium Chloride: From Pharyngitis and Common Cold to Acute Laryngopharyngitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

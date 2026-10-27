@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Framycetin: From Its Registered Topical and Rectal Uses to Sclerosing Cholangitis
+## Framycetin: From Its Registered Topical and Rectal Uses to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

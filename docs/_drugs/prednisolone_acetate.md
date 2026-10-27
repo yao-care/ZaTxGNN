@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prednisolone Acetate: From Uveitis and Anterior Eye Inflammation to Serous Conjunctivitis (Non-Viral)
+## Prednisolone Acetate: From Uveitis and Anterior Eye Inflammation to Serous Conjunctivitis (Non-Viral)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

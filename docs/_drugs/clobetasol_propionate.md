@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Clobetasol Propionate: From Atopic Eczema and Dermatitis to Exanthem
+## Clobetasol Propionate: From Atopic Eczema and Dermatitis to Exanthem
+{: .text-alpha }
 
 ## One-Sentence Summary
 

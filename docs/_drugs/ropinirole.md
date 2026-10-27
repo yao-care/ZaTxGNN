@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Ropinirole: From Parkinson Disease and Restless Legs Syndrome to Attention Deficit-Hyperactivity Disorder
+## Ropinirole: From Parkinson Disease and Restless Legs Syndrome to Attention Deficit-Hyperactivity Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

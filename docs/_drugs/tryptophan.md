@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Tryptophan: From Unspecified Registered Use (Parenteral Nutrition Component) to Insomnia
+## Tryptophan: From Unspecified Registered Use (Parenteral Nutrition Component) to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Doxylamine Succinate: Evaluation Report — No TxGNN Repurposing Prediction Available
+## Doxylamine Succinate: Evaluation Report — No TxGNN Repurposing Prediction Available
+{: .text-alpha }
 
 ---
 

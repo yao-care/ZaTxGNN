@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vitamin A: From Vitamin Deficiency Disorder to Congenital Prothrombin Deficiency
+## Vitamin A: From Vitamin Deficiency Disorder to Congenital Prothrombin Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

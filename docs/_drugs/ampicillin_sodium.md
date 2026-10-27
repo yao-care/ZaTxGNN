@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Ampicillin Sodium: No Repurposing Prediction Available
+## Ampicillin Sodium: No Repurposing Prediction Available
+{: .text-alpha }
 
 ---
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Citrate: From Peptic Ulcer Disease and Reflux to Papillary Conjunctivitis
+## Sodium Citrate: From Peptic Ulcer Disease and Reflux to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

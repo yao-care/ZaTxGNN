@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Calcium Chloride Dihydrate: Evaluation Report – No Active Repurposing Prediction Available
+## Calcium Chloride Dihydrate: Evaluation Report – No Active Repurposing Prediction Available
+{: .text-alpha }
 
 ---
 

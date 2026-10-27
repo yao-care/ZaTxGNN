@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ornithine: From an Unspecified Original Indication to Congenital Prothrombin Deficiency
+## Ornithine: From an Unspecified Original Indication to Congenital Prothrombin Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

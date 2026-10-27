@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Selenium: From Parenteral Nutrition Component to Sclerosing Cholangitis
+## Selenium: From Parenteral Nutrition Component to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

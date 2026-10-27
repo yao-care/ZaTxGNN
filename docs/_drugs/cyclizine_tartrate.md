@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Cyclizine Tartrate: Drug Repurposing Evaluation — No Predicted Indication
+## Cyclizine Tartrate: Drug Repurposing Evaluation — No Predicted Indication
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cloxacillin: From Staphylococcal Infections to Chronic Rhinosinusitis
+## Cloxacillin: From Staphylococcal Infections to Chronic Rhinosinusitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

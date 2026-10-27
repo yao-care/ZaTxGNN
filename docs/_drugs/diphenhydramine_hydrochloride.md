@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Diphenhydramine Hydrochloride: Preliminary Assessment — Insufficient Data for Repurposing Evaluation
+## Diphenhydramine Hydrochloride: Preliminary Assessment — Insufficient Data for Repurposing Evaluation
+{: .text-alpha }
 
 ---
 

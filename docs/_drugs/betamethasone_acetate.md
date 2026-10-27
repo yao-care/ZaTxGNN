@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# BETAMETHASONE ACETATE: Drug Repurposing Candidate Assessment
+## BETAMETHASONE ACETATE: Drug Repurposing Candidate Assessment
+{: .text-alpha }
 
 ---
 

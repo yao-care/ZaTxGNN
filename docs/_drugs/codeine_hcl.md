@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Codeine HCL: Incomplete Evidence Pack — Drug Repurposing Evaluation Not Possible
+## Codeine HCL: Incomplete Evidence Pack — Drug Repurposing Evaluation Not Possible
+{: .text-alpha }
 
 ## One-Sentence Summary
 

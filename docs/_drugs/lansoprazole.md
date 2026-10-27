@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Lansoprazole: From Gastric Ulcer and Acid-Related Disease to Duodenogastric Reflux
+## Lansoprazole: From Gastric Ulcer and Acid-Related Disease to Duodenogastric Reflux
+{: .text-alpha }
 
 ## One-Sentence Summary
 

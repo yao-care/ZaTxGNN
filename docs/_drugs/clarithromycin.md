@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Clarithromycin: From Respiratory and Soft-Tissue Bacterial Infections to Monoclonal Gammopathy
+## Clarithromycin: From Respiratory and Soft-Tissue Bacterial Infections to Monoclonal Gammopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

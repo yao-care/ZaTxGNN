@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cefazolin: From Bacterial Infections (Pneumonia, Endocarditis, Bacterial Arthritis) to Infectious Otitis Media
+## Cefazolin: From Bacterial Infections (Pneumonia, Endocarditis, Bacterial Arthritis) to Infectious Otitis Media
+{: .text-alpha }
 
 ## One-Sentence Summary
 

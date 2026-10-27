@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fentanyl: From Pain Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Fentanyl: From Pain Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

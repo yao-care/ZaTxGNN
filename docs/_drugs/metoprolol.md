@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Metoprolol: From Hypertension and Myocardial Infarction to Malignant Renovascular Hypertension
+## Metoprolol: From Hypertension and Myocardial Infarction to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

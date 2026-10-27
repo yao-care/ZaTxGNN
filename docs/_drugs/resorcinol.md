@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Resorcinol: From Acne and Dermatitis to Acne Keloid
+## Resorcinol: From Acne and Dermatitis to Acne Keloid
+{: .text-alpha }
 
 ## One-Sentence Summary
 

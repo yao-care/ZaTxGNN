@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mesterolone: From Male Androgen Deficiency to Gout
+## Mesterolone: From Male Androgen Deficiency to Gout
+{: .text-alpha }
 
 ## One-Sentence Summary
 

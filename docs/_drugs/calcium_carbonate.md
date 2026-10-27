@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Calcium Carbonate: Repurposing Evaluation Pending Data Remediation
+## Calcium Carbonate: Repurposing Evaluation Pending Data Remediation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

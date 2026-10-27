@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Calcium Gluconate: Repurposing Evaluation Incomplete — No Predictions Available
+## Calcium Gluconate: Repurposing Evaluation Incomplete — No Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

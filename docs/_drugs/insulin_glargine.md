@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Insulin Glargine: From Type 2 Diabetes Mellitus to Autoimmune Oophoritis
+## Insulin Glargine: From Type 2 Diabetes Mellitus to Autoimmune Oophoritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

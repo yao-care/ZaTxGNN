@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Linezolid: From Staphylococcal and Streptococcal Infections to Polyclonal Hyperviscosity Syndrome
+## Linezolid: From Staphylococcal and Streptococcal Infections to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

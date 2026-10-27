@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dabigatran etexilate: From Thromboembolic Anticoagulation to Sclerosing Cholangitis
+## Dabigatran etexilate: From Thromboembolic Anticoagulation to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

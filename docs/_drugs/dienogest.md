@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dienogest: From an Unspecified Original Indication to Amenorrhoea
+## Dienogest: From an Unspecified Original Indication to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

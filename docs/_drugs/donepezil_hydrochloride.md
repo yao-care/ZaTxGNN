@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Donepezil Hydrochloride: Evidence Pack Incomplete — Awaiting TxGNN Predictions
+## Donepezil Hydrochloride: Evidence Pack Incomplete — Awaiting TxGNN Predictions
+{: .text-alpha }
 
 ---
 

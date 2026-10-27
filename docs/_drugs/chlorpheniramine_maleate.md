@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Chlorpheniramine Maleate: From Allergic Conditions — Repurposing Evaluation Pending
+## Chlorpheniramine Maleate: From Allergic Conditions — Repurposing Evaluation Pending
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Calcium Acetate: From Hypercalcaemia and Phosphorus Metabolism Disorders to Calcium-Alkali Syndrome
+## Calcium Acetate: From Hypercalcaemia and Phosphorus Metabolism Disorders to Calcium-Alkali Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

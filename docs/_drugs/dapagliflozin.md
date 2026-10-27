@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Dapagliflozin: Evidence Pack Assessment — No Predicted New Indications Available
+## Dapagliflozin: Evidence Pack Assessment — No Predicted New Indications Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

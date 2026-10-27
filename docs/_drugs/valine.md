@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Valine: From Parenteral Nutrition Amino Acid Component to Sclerosing Cholangitis
+## Valine: From Parenteral Nutrition Amino Acid Component to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

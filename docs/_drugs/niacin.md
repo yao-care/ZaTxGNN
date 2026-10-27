@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Niacin: From Hyperlipidaemia to Homozygous Familial Hypercholesterolaemia
+## Niacin: From Hyperlipidaemia to Homozygous Familial Hypercholesterolaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

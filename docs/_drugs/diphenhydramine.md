@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diphenhydramine: From Allergic and Vasomotor Rhinitis to Rosacea Conjunctivitis
+## Diphenhydramine: From Allergic and Vasomotor Rhinitis to Rosacea Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

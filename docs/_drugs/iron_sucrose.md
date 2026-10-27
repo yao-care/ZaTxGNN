@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iron Sucrose: From Hyperphosphatemia to Primary Hyperoxaluria
+## Iron Sucrose: From Hyperphosphatemia to Primary Hyperoxaluria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

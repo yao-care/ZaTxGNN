@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Iodine: Repurposing Evaluation — Insufficient Evidence to Assess
+## Iodine: Repurposing Evaluation — Insufficient Evidence to Assess
+{: .text-alpha }
 
 ---
 

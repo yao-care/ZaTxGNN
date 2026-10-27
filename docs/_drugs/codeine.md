@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Codeine: From Allergic Rhinitis and Related Upper Airway Conditions to Nasal Cavity Disease
+## Codeine: From Allergic Rhinitis and Related Upper Airway Conditions to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

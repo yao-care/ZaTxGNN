@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Sodium Fluoride: From Vitamin Deficiency Disorder to Epiglottitis
+## Sodium Fluoride: From Vitamin Deficiency Disorder to Epiglottitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

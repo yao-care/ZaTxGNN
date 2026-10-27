@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nicotinamide: From Acne to Werner Syndrome
+## Nicotinamide: From Acne to Werner Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Buspirone: Repurposing Potential — No TxGNN Predictions Currently Available
+## Buspirone: Repurposing Potential — No TxGNN Predictions Currently Available
+{: .text-alpha }
 
 ---
 

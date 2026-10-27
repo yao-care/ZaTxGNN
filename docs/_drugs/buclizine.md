@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Buclizine: Repurposing Assessment — Insufficient Data to Proceed
+## Buclizine: Repurposing Assessment — Insufficient Data to Proceed
+{: .text-alpha }
 
 ## One-Sentence Summary
 

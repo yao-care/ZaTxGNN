@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methylprednisolone aceponate: From Topical Corticosteroid Use to Gout (Predicted)
+## Methylprednisolone aceponate: From Topical Corticosteroid Use to Gout (Predicted)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

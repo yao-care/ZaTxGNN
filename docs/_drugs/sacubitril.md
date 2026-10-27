@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sacubitril: From an Unspecified Original Indication to Brain Small Vessel Disease 1 (Top TxGNN Prediction)
+## Sacubitril: From an Unspecified Original Indication to Brain Small Vessel Disease 1 (Top TxGNN Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

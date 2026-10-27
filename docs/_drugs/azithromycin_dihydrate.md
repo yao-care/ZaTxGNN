@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Azithromycin Dihydrate: Evaluation Report — Incomplete Evidence Pack
+## Azithromycin Dihydrate: Evaluation Report — Incomplete Evidence Pack
+{: .text-alpha }
 
 ## One-Sentence Summary
 

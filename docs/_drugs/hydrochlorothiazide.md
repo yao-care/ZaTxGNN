@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Hydrochlorothiazide: Evaluation Incomplete — No TxGNN Repurposing Predictions Available
+## Hydrochlorothiazide: Evaluation Incomplete — No TxGNN Repurposing Predictions Available
+{: .text-alpha }
 
 ---
 

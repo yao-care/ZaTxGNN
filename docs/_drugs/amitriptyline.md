@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amitriptyline (DB00321): Drug Repurposing Evaluation — Insufficient Data to Generate Predictions
+## Amitriptyline (DB00321): Drug Repurposing Evaluation — Insufficient Data to Generate Predictions
+{: .text-alpha }
 
 ---
 

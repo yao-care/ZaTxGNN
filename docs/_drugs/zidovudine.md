@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Zidovudine: From HIV Infection and AIDS to Simian Immunodeficiency Virus Infection
+## Zidovudine: From HIV Infection and AIDS to Simian Immunodeficiency Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

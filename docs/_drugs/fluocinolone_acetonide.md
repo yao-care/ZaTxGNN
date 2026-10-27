@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Fluocinolone Acetonide: From Inflammatory Skin Conditions to Annular Atrophic Lichen Planus
+## Fluocinolone Acetonide: From Inflammatory Skin Conditions to Annular Atrophic Lichen Planus
+{: .text-alpha }
 
 ## One-Sentence Summary
 
