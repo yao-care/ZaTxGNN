@@ -1,87 +1,16 @@
 ---
-layout: default
-title: "Valine News"
-parent: Health News
-nav_exclude: true
-description: "Health news related to Valine. Original indication: . 10 predicted indications."
+layout: id_redirect
 permalink: /news/valine/
+sitemap: false
+search_exclude: true
+nav_exclude: true
 ---
-
-# Valine News
-
-[← Back to News Overview]({{ '/news/' | relative_url }})
-
----
-
-<p class="key-answer" data-question="What news is there about Valine?">
-<strong>Valine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
-</p>
-
-<div class="key-takeaway">
-This page combines the AI-predicted indications for Valine with the latest health news. Indications highlighted in orange have recent news coverage.
-</div>
-
-<div class="drug-info-card">
-<strong>Drug Information</strong>
-<ul>
-<li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Sclerosing cholangitis (99.4%)</li>
-<li>Angle-closure glaucoma (99.4%)</li>
-<li>Hyperthyroidism (99.3%)</li>
-<li>Traumatic glaucoma (99.3%)</li>
-<li>Aqueous misdirection (99.3%)</li>
-<li>Neovascular glaucoma (99.3%)</li>
-<li>Glaucomatous atrophy of optic disc (99.2%)</li>
-<li>Resistance to thyroid hormone (TR beta mutation) (99.2%)</li>
-<li>Obsolete bundle branch block (99.2%)</li>
-<li>Hyperthyroxinemia (99.1%)</li>
-</ul></li>
-</ul>
-<p><a href="{{ '/drugs/valine/' | relative_url }}">View full drug report →</a></p>
-</div>
-
-## Related News (0)
-
-*No related news yet. When news mentions this drug, it will be collected and shown here automatically.*
-
-
-<div class="disclaimer">
-<strong>Disclaimer</strong>: The news on this page is collected automatically and is for research reference only; it does not constitute medical advice.
-</div>
-
-<style>
-.indication-matched {
-  background: #fff3e0;
-  padding: 4px 8px;
-  border-radius: 4px;
-  border-left: 3px solid #ff9800;
-}
-.indication-tag {
-  display: inline-block;
-  background: #ff9800;
-  color: white;
-  padding: 2px 8px;
-  border-radius: 12px;
-  font-size: 0.8em;
-  margin-left: 8px;
-}
-.news-indication-tag {
-  display: inline-block;
-  background: #ff9800;
-  color: white;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 0.85em;
-  margin-left: 4px;
-}
-.news-drug-tag {
-  display: inline-block;
-  background: #1565c0;
-  color: white;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 0.85em;
-  margin-left: 4px;
-}
-</style>
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/valine/">
+<meta http-equiv="refresh" content="0; url=/drugs/valine/">
+<script>location="/drugs/valine/"</script>
+<a href="/drugs/valine/">/drugs/valine/</a>
+</html>

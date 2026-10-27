@@ -12,12 +12,12 @@ Evidence levels range from L1 (stronger clinical evidence) to L5 (model predicti
 
 ## Main content
 
-- `/` Drug Repurposing Reports — AI-powered drug repurposing predictions for 404 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation.
+- `/` Drug Repurposing Reports — AI-powered drug repurposing predictions for 402 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation.
 - `/drugs/` All Drugs — All drug validation reports and evidence level statistics in ZaTxGNN.
 - `/evidence-high/` High Evidence (L1-L2) — L1-L2 drug repurposing candidates in ZaTxGNN, supported by clinical trials or systematic reviews.
 - `/evidence-medium/` Moderate Evidence (L3-L4) — L3-L4 drug repurposing candidates in ZaTxGNN, backed by observational or preclinical evidence.
 - `/evidence-low/` Model Prediction Only (L5) — L5 candidates in ZaTxGNN: model prediction only, with no clinical or literature evidence yet.
-- `/methodology/` Methodology — How ZaTxGNN produces and validates predictions: TxGNN graph neural network prediction, evidence collection, L1-L5 grading, and decision recommendations.
+- `/methodology/` Methodology — How ZaTxGNN produces and validates predictions: TxGNN deep learning prediction, evidence collection, L1-L5 grading, and decision recommendations.
 - `/guide/` User Guide — ZaTxGNN user guide: how to look up drugs, read evidence levels and interpret recommendations.
 - `/sources/` Data Sources — Data sources behind ZaTxGNN: SAHPRA registration data, TxGNN, ClinicalTrials.gov, PubMed and DrugBank.
 - `/downloads/` Downloads — ZaTxGNN open data downloads: FHIR resources, prediction results and search index.
