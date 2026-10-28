@@ -49,7 +49,7 @@ The highest-scoring TxGNN prediction (retinal dystrophy) has no supporting evide
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder, major affective disorder, manic bipolar affective disorder, schizophrenia (from the knowledge graph; SAHPRA indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trichotillomania (rank 8); the rank 1 prediction is retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9938 (trichotillomania); 0.9957 (rank 1, retinal dystrophy) |
 | Evidence Level | L5 (trichotillomania); L5 for the rank 1 prediction |
