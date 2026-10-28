@@ -3,7 +3,7 @@ layout: default
 title: Carbidopa
 parent: Known Uses Only (No New Predictions)
 nav_order: 99
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-29
 description: "Carbidopa: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0

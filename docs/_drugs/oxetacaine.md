@@ -5,7 +5,7 @@ layout: default
 title: Oxetacaine
 parent: Known Uses Only (No New Predictions)
 nav_order: 360
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 description: "Oxetacaine: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Oxetacaine"
 predicted_indications: []

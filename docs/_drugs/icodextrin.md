@@ -5,7 +5,7 @@ layout: default
 title: Icodextrin
 parent: Known Uses Only (No New Predictions)
 nav_order: 258
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 description: "Icodextrin: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Icodextrin"
 predicted_indications: []

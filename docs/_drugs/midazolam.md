@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 325
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data"

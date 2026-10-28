@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-29
 description: "Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

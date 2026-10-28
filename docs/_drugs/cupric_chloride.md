@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Cupric Chloride"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "thrombocytopenia due to immune destruction"]
 description: "Cupric Chloride: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"

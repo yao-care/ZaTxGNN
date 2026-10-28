@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-29
 description: "Clarithromycin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Relations recorded in the knowledge graph: infectious otitis media…"
 ---
 

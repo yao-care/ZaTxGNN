@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Leucovorin"
 predicted_indications: ["primary hyperoxaluria", "congenital intrinsic factor deficiency"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-29
 description: "Leucovorin: predicted new indication primary hyperoxaluria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

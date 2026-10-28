@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"

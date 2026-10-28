@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 379
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 description: "Potassium: predicted new indication Hypertensive disorder (evidence level L5). Approved use: Not stated in the available SAHPRA registration data"
 monitor_inn: "Potassium"
 predicted_indications: ["hypertensive disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension"]

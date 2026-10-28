@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Levonorgestrel: predicted new indication acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

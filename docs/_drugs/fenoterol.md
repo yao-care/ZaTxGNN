@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-29
 description: "Fenoterol: predicted new indication multiple system atrophy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: Mesterolone
 parent: Known Uses Only (No New Predictions)
 nav_order: 314
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-29
 description: "Mesterolone: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0

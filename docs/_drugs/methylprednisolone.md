@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 319
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia areata (evidence level L3). Approved use: Not recorded in the local data"

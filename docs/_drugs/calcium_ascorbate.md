@@ -5,7 +5,7 @@ layout: default
 title: Calcium Ascorbate
 parent: Known Uses Only (No New Predictions)
 nav_order: 91
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 description: "Calcium Ascorbate: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Calcium ascorbate"
 predicted_indications: []

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Bismuth subcarbonate"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-29
 description: "Bismuth Subcarbonate: predicted new indication insomnia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

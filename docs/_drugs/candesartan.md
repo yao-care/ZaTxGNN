@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 96
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 description: "Candesartan: predicted new indication Migraine disorder (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]

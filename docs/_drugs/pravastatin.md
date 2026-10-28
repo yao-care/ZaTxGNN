@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 385
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"

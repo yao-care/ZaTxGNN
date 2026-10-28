@@ -5,7 +5,7 @@ layout: default
 title: Ornithine
 parent: Known Uses Only (No New Predictions)
 nav_order: 357
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 description: "Ornithine: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Ornithine"
 predicted_indications: []

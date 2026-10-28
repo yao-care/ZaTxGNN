@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Isoniazid"
 predicted_indications: ["conjunctivitis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-29
 description: "Isoniazid: predicted new indication conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

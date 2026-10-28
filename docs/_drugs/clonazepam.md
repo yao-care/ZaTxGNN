@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 3
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-29
 description: "Clonazepam: predicted new indication restless legs syndrome (evidence level L2). Approved use: Not recorded in the local data"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DL-alpha-Tocopherol"
 predicted_indications: ["mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "immature cataract", "diabetic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "antithrombin deficiency type 2"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-29
 description: "Dl-Alpha-Tocopherol: predicted new indication Mature cataract (evidence level L5). Approved use: Not stated in the SAHPRA licence data compiled for this report"
 ---
 

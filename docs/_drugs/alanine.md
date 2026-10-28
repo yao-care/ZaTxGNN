@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 description: "Alanine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not stated in the registration data compiled for this report (all app…"
 monitor_inn: "Alanine"
 predicted_indications: ["gastroparesis (disease)"]

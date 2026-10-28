@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Griseofulvin"
 predicted_indications: ["myiasis", "furuncular myiasis", "creeping myiasis", "wound myiasis", "echinococcus granulosus infectious disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-29
 description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

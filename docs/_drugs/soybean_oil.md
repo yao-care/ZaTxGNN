@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-29
 description: "Soybean Oil: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not stated in the SAHPRA registration data (the product is a parenter…"
 monitor_inn: "Soybean oil"
 predicted_indications: ["amenorrhea (disease)"]

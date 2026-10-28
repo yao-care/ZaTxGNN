@@ -3,18 +3,18 @@ noindex: true
 sitemap: false
 layout: default
 title: Amitriptyline
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 29
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-09-17
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Amitriptyline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **0** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,67 +33,20 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-## Amitriptyline (DB00321): Drug Repurposing Evaluation — Insufficient Data to Generate Predictions
+## Amitriptyline
 {: .text-alpha }
 
----
-
-## One-Sentence Summary
-
-Amitriptyline is a well-established tricyclic antidepressant (TCA) with decades of clinical use for depression and neuropathic pain.
-However, the current Evidence Pack contains **no TxGNN repurposing predictions**, no SAHPRA registration records, and critical safety data gaps — making a standard repurposing evaluation impossible at this stage.
-**Key data gaps (DG001, DG002) must be resolved before this candidate can progress.**
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|---------|
-| Original Indication | Not available in Evidence Pack |
-| Predicted New Indication | None — TxGNN returned no predictions |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not assessable (pipeline did not complete) |
+| Original Indication | Not recorded in the local data |
 | South Africa Market Status | Marketed (valid licences: 2 of 2) |
 | Number of SAHPRA Registrations | 2 (valid: 2) |
-| Recommended Decision | **Hold** |
 
 ---
 
-## South Africa Market Information
-
-No SAHPRA registrations were found for Amitriptyline in the current dataset.
-
-> **Note for reviewers:** Amitriptyline is a long-established generic medicine widely used internationally. The absence of SAHPRA records likely reflects a data collection gap rather than true absence from the South African market. Before concluding the drug is unavailable locally, verify directly against the [SAHPRA online medicine register](https://www.sahpra.org.za) and check Essential Medicines List (EML) inclusion status.
-
----
-
-## Safety Considerations
-
-All safety fields (warnings, contraindications, and drug interactions) were flagged as data gaps in this Evidence Pack. No DDI records were returned.
-
-> Please refer to the SAHPRA-approved Professional Information (PI) for complete safety information, including black-box warnings associated with tricyclic antidepressants (e.g., suicidality in young adults, cardiac arrhythmia risk, anticholinergic effects). Report adverse drug reactions to SAHPRA via the [MedSafety reporting portal](https://www.sahpra.org.za/pharmacovigilance/).
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The Evidence Pack for Amitriptyline is critically incomplete — the TxGNN prediction pipeline returned no repurposing candidates, no SAHPRA registration data is available for analysis, and both MOA and safety fields are empty. There is no scientific basis on which to evaluate a new indication at this time.
-
-**To proceed, the following is needed:**
-
-- **Resolve DG002 (High priority):** Retrieve Amitriptyline's mechanism of action from DrugBank (DB00321) via the DrugBank API — MOA data is required to evaluate mechanistic plausibility for any new indication
-- **Resolve DG001 (Blocking):** Download and parse the SAHPRA-approved Professional Information (PI) PDF to populate warnings and contraindications
-- **Re-run TxGNN prediction pipeline:** Investigate why no predictions were generated — check whether DB00321 is present in the knowledge graph node list and whether the drug-disease relation mappings are loading correctly
-- **Verify SAHPRA market status:** Confirm registration status directly via the SAHPRA online medicine register; update `market_status` field accordingly
-- **Re-submit for evaluation** once the above steps are complete and an Evidence Pack version ≥ v5 is available with at least one predicted indication
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application. Data as of 2026-04-04.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
