@@ -19,7 +19,7 @@ Drug repurposing predictions for South Africa SAHPRA-approved drugs using the Tx
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 402 |
+| **Drug Reports** | 395 |
 | **Total Predictions** | 7,786,582 |
 | **Unique Drugs** | 455 |
 | **Unique Indications** | 17,081 |
