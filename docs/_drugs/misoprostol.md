@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but there are *
 |------|------|
 | Original Indication | Not available (the SAHPRA registration entries contain no indication text) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.64% |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 (no clinical trials; the retrieved literature is indirect, so the data provide no direct evidence for amenorrhea) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -112,7 +112,7 @@ The SAHPRA package insert warnings and contraindications were not available for 
 **Decision: Hold**
 
 **Rationale:**
-The 99.64% TxGNN score has no direct clinical support. There are no registered trials, and the retrieved literature concerns pregnancy termination rather than treating amenorrhea. The safety profile, especially pregnancy-related risks, also works against this use. Because the SAHPRA label warnings could not be reviewed, safety screening cannot proceed.
+The 0.9964 TxGNN score has no direct clinical support. There are no registered trials, and the retrieved literature concerns pregnancy termination rather than treating amenorrhea. The safety profile, especially pregnancy-related risks, also works against this use. Because the SAHPRA label warnings could not be reviewed, safety screening cannot proceed.
 
 **To proceed, the following is needed:**
 - Download and review the SAHPRA package inserts for Arthrotec and Arthrotec 50 (warnings, contraindications and approved indications)
@@ -122,7 +122,7 @@ The 99.64% TxGNN score has no direct clinical support. There are no registered t
 - A pregnancy-exclusion and contraception strategy for women of reproductive age
 - Clarification of whether the registered Arthrotec products (which contain a second active ingredient) are appropriate for any investigation, or whether a single-ingredient misoprostol product would be needed
 
-*Note on the second prediction (atypical coarctation of aorta, score 99.30%):* there is no clinical or literature evidence (L5), and the safety signal runs in the opposite direction. The decision for this prediction is also **Hold**.
+*Note on the second prediction (atypical coarctation of aorta, score 0.9930):* there is no clinical or literature evidence (L5), and the safety signal runs in the opposite direction. The decision for this prediction is also **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

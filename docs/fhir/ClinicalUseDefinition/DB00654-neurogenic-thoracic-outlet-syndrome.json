@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00654",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00654"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "neurogenic-thoracic-outlet-syndrome",
-          "display": "neurogenic thoracic outlet syndrome"
-        }
-      ],
-      "text": "neurogenic thoracic outlet syndrome"
+      "concept": {
+        "text": "neurogenic thoracic outlet syndrome"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9972
     }
   ]
 }

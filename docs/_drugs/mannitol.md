@@ -2,19 +2,19 @@
 layout: default
 title: Mannitol
 parent: Model Prediction Only (L5)
-nav_order: 309
+nav_order: 308
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Mannitol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Congestive heart failure, brain oedema, ocular hypertension…"
+indication_count: 9
 monitor_inn: "Mannitol"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "King-Denborough syndrome"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
+last_modified_at: 2026-10-23
+description: "Mannitol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: No approved indication text is available for the local registration.…"
 ---
 
 # Mannitol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mannitol: From Congestive Heart Failure and Raised Intracranial Pressure to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Mannitol: From Cardiac, Cerebral and Ocular Fluid Disorders to Nephrogenic Syndrome of Inappropriate Antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Mannitol is an osmotic diuretic, listed for conditions such as brain oedema, intracranial hypertension, ocular hypertension and congestive heart failure.
-The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis**,
-but there are **no registered clinical trials** and only **1 general review article** behind this prediction, and that review contains no mannitol-specific data.
+Mannitol is an osmotic diuretic. It is recorded for conditions such as congestive heart failure, brain oedema, ocular hypertension and intracranial hypertension.
+The TxGNN model predicts it may be useful for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but **no clinical trials** and only **1 general review** support this direction, and that review does not study mannitol for NSIAD.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Congestive heart failure, brain oedema, ocular hypertension, pseudotumor cerebri, intracranial hypertension, cystic fibrosis (from the knowledge graph; the SAHPRA record has no indication text) |
+| Original Indication | No approved indication text is available for the local registration. The knowledge graph records congestive heart failure, brain oedema, ocular hypertension, pseudotumor cerebri, intracranial hypertension and cystic fibrosis (relations recorded in the knowledge graph, not approved indications) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mannitol is an osmotic diuretic. It is filtered by the kidney but not reabsorbed, so it draws water into the urine and lowers pressure in fluid-filled compartments such as the brain and eye.
+Detailed mechanism of action data are not available in the data compiled for this report. Mannitol is generally known as an osmotic diuretic, so a theoretical link to water-handling disorders exists.
 
-A theoretical link to disordered water handling therefore exists. However, nephrogenic syndrome of inappropriate antidiuresis is a condition of excessive water retention with low serum sodium. Mannitol raises serum osmolality and could worsen the dynamics of hyponatraemia, so the mechanism is more likely to cause harm than benefit. The high TxGNN score appears to reflect network proximity in the knowledge graph rather than a plausible therapeutic mechanism.
-
-Other predictions in the list (ranks 3 to 10) mostly reflect indirect associations. For example, mannitol is an excipient in some intravenous dantrolene products and a diluent for potassium infusions in periodic paralysis. These do not represent therapeutic activity of mannitol itself.
+NSIAD, however, is caused by gain-of-function variants in the vasopressin V2 receptor. Its usual management is fluid restriction and urea or solute loading. Mannitol would add osmotic load, but it is not a recognised treatment for this condition. The only literature item is a general review of pitfalls in evaluating hyponatraemia, which does not assess mannitol. The high model score is therefore not backed by mechanistic or clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -70,7 +67,7 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | Eur J Intern Med | Common pitfalls in evaluating and treating hyponatraemia, including the risks of overtreatment. It contains no mannitol-specific data. |
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | Describes common pitfalls in evaluating and treating hyponatraemia. It does not evaluate mannitol for NSIAD. |
 
 ## South Africa Market Information
 
@@ -78,28 +75,31 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | SX/34/0266 | Cardioplegic soln a 1000ml sxa3020 | Infusion | Not stated in the registration record |
 
-This single registration is a cardioplegic solution, not a standalone mannitol osmotic diuretic product. Essential Medicines List status is not available in the data compiled for this report.
+This registration is a single-ingredient, valid record for an injectable infusion. Its product name suggests use as a cardioplegic solution, so it should not be taken as evidence of approval for NSIAD or for other mannitol uses. Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph** (these come from drug-disease links, not from label text, and need verification against the Professional Information): anuria, impaired renal function, pulmonary oedema, intracranial haemorrhage, liver failure, hepatic coma and encephalopathy, liver and gallbladder disease, porphyria, thrombocytopenia, neutropenia, agranulocytosis, anaemia, anxiety and neurotic disorders, dysthymic disorder, substance abuse or dependence, and sleep apnoea syndromes.
-- **Drug interactions:** 100 interactions were identified, of which 20 are listed here. One is rated **Major**: **amikacin**. Most of the others are **Moderate**, including lamivudine, formoterol, salbutamol, arformoterol, amifostine, benazepril, captopril, bisacodyl, canagliflozin, dapagliflozin, carbamazepine, cisatracurium, citalopram, desvenlafaxine, picosulfuric acid, polyethylene glycol with electrolytes, iothalamic acid and diatrizoate. Doxycycline is rated **Minor**.
-- **Indication-specific concern:** the literature describes mannitol precipitating pulmonary oedema in patients with water intoxication, and expanding intravascular volume in patients with heart or kidney dysfunction.
+- **Contraindications recorded in the knowledge graph (not label text):** liver failure, hepatic coma and encephalopathy, anuria, impaired renal function, pulmonary oedema, intracranial haemorrhage, porphyria, and blood disorders (thrombocytopenia, neutropenia, agranulocytosis, anaemia). Others include sleep apnoea syndromes, anxiety and related disorders, and substance-related disorders.
+- **Drug interactions (100 recorded; examples):**
+  - Major: amikacin.
+  - Moderate: lamivudine, formoterol, salbutamol, arformoterol, benazepril, captopril, carbamazepine, citalopram, cisatracurium, canagliflozin, dapagliflozin, desvenlafaxine, bisacodyl, picosulfuric acid, polyethylene glycol with electrolytes, iothalamic acid, diatrizoate, amifostine.
+  - Minor: doxycycline.
+- **Specific concern for this prediction:** mannitol expands intravascular volume and adds osmotic load, which could be unhelpful in a water-retention disorder.
 
-Warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available for this report. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for official warnings and contraindications, which were not available for this report. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score. No trials exist, the single review is not specific to mannitol, and mannitol's osmotic action may worsen water and sodium imbalance in this condition. The other nine predicted indications are also at Hold, with evidence limited to L4 or L5.
+No trials exist, the only cited paper is a general hyponatraemia review that does not study mannitol, and NSIAD has established non-mannitol management. The score reflects model output only, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and a mechanistic assessment showing a plausible benefit in nephrogenic syndrome of inappropriate antidiuresis rather than harm
-- SAHPRA Professional Information, including warnings and contraindications, to complete the safety screen
-- Clarification of the registered product, since the only SAHPRA registration is a cardioplegic solution
-- Any mannitol-specific clinical or case data for this condition; none were found
+- Direct clinical or mechanistic evidence that mannitol benefits NSIAD
+- Mechanism of action data for mannitol
+- SAHPRA package insert warnings and contraindications, to allow safety screening
+- A risk assessment of osmotic load and volume expansion in patients with NSIAD
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

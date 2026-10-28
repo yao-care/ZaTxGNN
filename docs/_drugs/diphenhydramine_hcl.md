@@ -8,6 +8,7 @@ nav_order: 185
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Diphenhydramine Hcl
@@ -55,7 +56,7 @@ A full repurposing evaluation cannot be completed until these gaps are resolved;
 | Predicted New Indication | None — TxGNN predictions not generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — insufficient data for classification |
-| South Africa Market Status | Not captured (0 SAHPRA registrations recorded; likely a data retrieval error) |
+| South Africa Market Status | Marketed (valid licences on record: at least 19) |
 | Number of SAHPRA Registrations | 0 (inconsistent with known commercial availability in South Africa) |
 | Recommended Decision | **Hold** |
 

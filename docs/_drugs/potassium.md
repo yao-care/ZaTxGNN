@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Potassium
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 379
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Potassium: predicted new indication Hypertensive disorder (evidence level L5). Approved use: Not stated in the available SAHPRA registration data"
 monitor_inn: "Potassium"
-predicted_indications: ["hypertensive disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension", "Braddock syndrome", "chronic pulmonary heart disease", "congestive heart failure", "alopecia", "congenital hypotrichosis milia"]
+predicted_indications: ["hypertensive disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension"]
 ---
 
 # Potassium
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Potassium is an essential electrolyte, registered in South Africa mainly as a co
 |------|------|
 | Original Indication | Not stated in the available SAHPRA registration data |
 | Predicted New Indication | Hypertensive disorder |
-| TxGNN Prediction Score | 99.16% |
+| TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L1 (as assigned in the compiled data; see the caveat below) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Caveat on the evidence level:** The L1 rating (two or more completed Phase 3 RCTs) is not well supported by direct evidence. Only two Phase 3 trials test potassium itself: NCT03809884 (7 participants) and NCT00000509 (enrolment not reported). Most other Phase 3 trials concern potassium salts of other drugs, such as losartan potassium. The strongest support is the meta-analyses of randomised trials. A more conservative reading is therefore appropriate.
@@ -118,11 +118,8 @@ No label-based warnings, contraindications or drug interaction data were availab
 
 | Predicted Indication | Score | Evidence Level | Decision |
 |------|------|------|------|
-| Congestive heart failure | 98.41% | L4 | Research question. Only a small high-potassium diet safety study (n=30); no efficacy trial. |
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.05% | L4 | Hold. Evidence concerns potassium channel physiology, not potassium therapy. |
-| Malignant renovascular hypertension | 99.02% | L4 | Hold. Literature treats hypokalaemia as a diagnostic clue, not a therapy. |
-| Alopecia | 98.31% | L5 | Hold. Literature concerns minoxidil (a potassium channel opener). |
-| Pulmonary hypertension, unclear multifactorial mechanism; malignant hypertensive renal disease; Braddock syndrome; chronic pulmonary heart disease; congenital hypotrichosis milia | 98.3–99.1% | L5 | Hold. Prediction signal only, with no supporting trials or relevant literature. |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9905 | L5 | Hold. Evidence concerns potassium channel physiology, not potassium therapy. |
+| Malignant renovascular hypertension | 0.9902 | L5 | Hold. Literature treats hypokalaemia as a diagnostic clue, not a therapy. |
 
 ## Conclusion and Next Steps
 

@@ -2,13 +2,13 @@
 layout: default
 title: Calcium Acetate
 parent: Model Prediction Only (L5)
-nav_order: 90
+nav_order: 89
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
-description: "Calcium Acetate: predicted new indication Calcium-alkali syndrome (evidence level L5). Approved use: Hypercalcaemia disease, nephrocalcinosis…"
 monitor_inn: "CALCIUM ACETATE"
 predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
+last_modified_at: 2026-10-27
+description: "Calcium Acetate: predicted new indication calcium-alkali syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Calcium Acetate
@@ -33,14 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Calcium Acetate: From Hypercalcaemia and Phosphorus Metabolism Disorders to Calcium-Alkali Syndrome
+## Calcium Acetate: Calcium salt phosphate binder → calcium-alkali syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Calcium acetate is a calcium salt, originally used for conditions of calcium and phosphorus imbalance (hypercalcaemia disease, nephrocalcinosis, phosphorus metabolism disease) and cardiac arrest.
-The TxGNN model predicts it may be effective for **calcium-alkali syndrome**, but **no clinical trials and no publications** support this prediction.
-The predicted link most likely reflects a causal relationship (the drug can cause the condition) rather than a therapeutic one.
+Calcium acetate is a calcium salt used to manage calcium and phosphate balance. The TxGNN model predicts it for **calcium-alkali syndrome**, with a score of 0.9990. No clinical trials or publications were found to support this prediction, and the condition is recognised as being caused by excess calcium intake, so this is more likely a safety signal than a treatment opportunity.
 
 ---
 
@@ -48,23 +46,35 @@ The predicted link most likely reflects a causal relationship (the drug can caus
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypercalcaemia disease, nephrocalcinosis, phosphorus metabolism disease, cardiac arrest (from the TxGNN knowledge graph; no approved indication text is available for the SAHPRA registrations) |
-| Predicted New Indication | Calcium-alkali syndrome |
-| TxGNN Prediction Score | 99.90% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | calcium-alkali syndrome |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, calcium acetate is a calcium salt, and its calcium content is what makes it relevant to disorders of calcium and phosphorus balance.
+Detailed mechanism of action data is not available for this drug. Calcium acetate is a calcium salt that binds dietary phosphate in the gut and supplies calcium.
 
-On closer examination, the prediction appears **not to be a valid therapeutic opportunity**. Calcium-alkali syndrome (hypercalcaemia, metabolic alkalosis and acute kidney injury) is a recognised result of excess calcium intake combined with absorbable alkali. The model's association most likely captures this causal or adverse-effect relationship, not a treatment effect. Using a calcium salt to treat a condition it can cause would be inappropriate and potentially harmful.
+Calcium-alkali syndrome is characterised by hypercalcaemia, metabolic alkalosis and acute kidney injury. It is classically caused by excess calcium intake together with absorbable alkali. The high model score most likely reflects this causal or adverse-effect relationship rather than a therapeutic one. Because the drug can contribute to the condition, using it as a treatment would be inappropriate. This prediction is therefore not a valid repurposing candidate on the current information.
 
-The second-ranked prediction, **primary bone dysplasia with defective bone mineralization** (score 99.88%), is also speculative. Calcium provides a mineral substrate for bone, but defective mineralization in these disorders usually has genetic or phosphate-metabolism causes. In some of them, calcium or phosphate supplementation may be ineffective or may worsen hypercalcaemia or ectopic calcification. It also has no supporting trials or literature, and no mechanism data are available to assess it.
+A second prediction in the data, primary bone dysplasia with defective bone mineralization, has no supporting studies either and is not assessed further here.
+
+---
+
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+---
+
+## Literature Evidence
+
+Currently no related literature available.
 
 ---
 
@@ -72,35 +82,31 @@ The second-ranked prediction, **primary bone dysplasia with defective bone miner
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 44/24/0102 | Phosphosorb 660 | Tablet (oral) | Not available in the data compiled for this report |
-| Reg. No. 45/24/0919 | Osvaren | Film-coated tablet | Not available in the data compiled for this report |
+| Reg. No. 44/24/0102 | Phosphosorb 660 | Tablet | Not recorded in the local data |
+| Reg. No. 45/24/0919 | Osvaren | Fct | Not recorded in the local data |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
+Both registrations are valid single-ingredient products. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-**Contraindications (from the knowledge graph, not label text):** The TxGNN knowledge graph links calcium acetate to contraindication with the following conditions:
-- **Renal:** kidney disease, chronic kidney disease, chronic renal failure syndrome, end stage renal failure, acute urate nephropathy, nephrolithiasis, nephrolithiasis susceptibility caused by SLC26A1, pyoureter
-- **Calcium and parathyroid:** hypercalcaemia disease, humoral hypercalcaemia of malignancy, hyperparathyroidism, osteitis fibrosa, nephrocalcinosis, sarcoidosis
-- **Cardiac:** heart disease, cardiovascular disease, digitalis poisoning, ventricular fibrillation
-- **Other:** phosphorus metabolism disease, diarrhoeal disease
+- **Drug Interactions:** 83 interactions were recorded. Major interactions include:
+  - Dolutegravir
+  - Bictegravir
 
-Some of these overlap with the drug's original indication list (for example hypercalcaemia and phosphorus metabolism disease), so these edges should be interpreted with caution and verified against the approved Professional Information.
+  Moderate interactions include:
+  - Tetracyclines (doxycycline, tetracycline)
+  - Quinolones (gemifloxacin)
+  - Bisphosphonates (alendronic acid, risedronic acid, ibandronate)
+  - Calcium channel blockers (nifedipine, amlodipine)
+  - Beta-blockers (acebutolol, atenolol, betaxolol, bisoprolol)
+  - Thiazide diuretics (hydrochlorothiazide, bendroflumethiazide, benzthiazide)
+  - Topical vitamin D analogues (calcipotriol, calcitriol)
+  - Baloxavir marboxil
+- **Conditions of concern in the compiled data:** Compiled drug-disease data flag caution in kidney disease (including chronic and end-stage renal failure), nephrolithiasis, hypercalcaemia (including humoral hypercalcaemia of malignancy), hyperparathyroidism, sarcoidosis, heart and cardiovascular disease, digitalis poisoning and ventricular fibrillation. These are not taken from label text.
 
-**Drug Interactions:** 83 interactions were identified. The main ones are:
-- **Major:** dolutegravir, bictegravir (reduced absorption of integrase inhibitors is a concern, relevant in South Africa given widespread HIV treatment)
-- **Moderate:**
-  - Tetracyclines and quinolones: doxycycline, tetracycline, gemifloxacin
-  - Bisphosphonates: alendronic acid, risedronic acid, ibandronate
-  - Calcium channel blockers: nifedipine, amlodipine
-  - Beta-blockers: acebutolol, atenolol, betaxolol, bisoprolol
-  - Thiazide diuretics: hydrochlorothiazide, bendroflumethiazide, benzthiazide
-  - Vitamin D analogues: calcipotriol (topical), calcitriol (topical)
-  - Antiviral: baloxavir marboxil
-
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and precautions. Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -109,14 +115,13 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but there are no clinical trials or publications behind it. The calcium-alkali syndrome prediction most likely reflects a drug-caused condition, so it should not be pursued as a treatment. The bone mineralization prediction is speculative and carries potential harm.
+- The prediction has a high model score but no supporting trials or publications (evidence level L5). Calcium-alkali syndrome is a recognised consequence of excess calcium, so treatment use would be contraindicated.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (currently unavailable)
-- SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
-- Approved indication text for the two registered products
-- A formal literature review and a disease-subtype-specific assessment for primary bone dysplasia with defective mineralization
-- Confirmation that the calcium-alkali syndrome association is causal and not therapeutic, after which it should be removed from the candidate list
+- Confirmation that the model association reflects an adverse-effect relationship rather than a therapeutic one
+- Retrieval of the SAHPRA Professional Information for warnings and contraindications
+- Mechanism of action data
+- A systematic literature review before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -6,7 +6,7 @@ nav_order: 230
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anae… (evidence level L5). Approved use: Iron deficiency anaemia and related defic…"
+description: "Ferrous Sulfate Anhydrous: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anaemia and related defic…"
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Ferrous Sulfate Anhydrous: From Iron Deficiency Anaemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anaemia
+## Ferrous Sulfate Anhydrous: From Iron Deficiency Anaemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,25 +48,25 @@ but **no clinical trials and no publications** were available in the data compil
 |------|------|
 | Original Indication | Iron deficiency anaemia and related deficiency anaemias (the SAHPRA records in the data compiled for this report contain no approved indication text) |
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anaemia |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, ferrous sulfate supplies elemental iron for haemoglobin synthesis, and its efficacy in iron deficiency anaemia is well established.
 
-The link to the predicted indication is weak. Megaloblastic anaemia is typically driven by impaired DNA synthesis (B12 and folate pathways). A constitutional form independent of both would involve other defects, and iron is not an established treatment for these. A link is plausible only if iron deficiency coexists, and the data compiled for this report do not support that. The high score (99.78%, model rank 1577) is a computational prediction and should not be read as evidence of efficacy.
+The link to the predicted indication is weak. Megaloblastic anaemia is typically driven by impaired DNA synthesis (B12 and folate pathways). A constitutional form independent of both would involve other defects, and iron is not an established treatment for these. A link is plausible only if iron deficiency coexists, and the data compiled for this report do not support that. The high score (0.9978, model rank 1577) is a computational prediction and should not be read as evidence of efficacy.
 
 **Other predicted indications (all L5, all Hold):**
 
 | Rank | Predicted Indication | Score | Assessment |
 |------|------|------|------|
-| 2 | Plummer-Vinson syndrome | 99.77% | The most credible candidate. The condition is driven by iron deficiency (with dysphagia and oesophageal webs), and iron repletion is widely described as standard management. It is largely an extension of the existing iron deficiency indication, not a novel repurposing. Supporting evidence (case series, reviews) should be retrieved and graded before any upgrade. |
-| 3 | Biotin metabolic disease | 99.51% | No clear mechanistic route. The score likely reflects proximity in the knowledge graph (shared vitamin-deficiency neighbours). Biotin supplementation, not iron, is the treatment. |
-| 4 | Non-syndromic oesophageal malformation | 99.49% | These are structural defects managed surgically or endoscopically. The prediction probably arises from association with Plummer-Vinson syndrome. Oral iron may irritate the oesophagus in strictures or dysphagia. |
+| 2 | Plummer-Vinson syndrome | 0.9977 | The most credible candidate. The condition is driven by iron deficiency (with dysphagia and oesophageal webs), and iron repletion is widely described as standard management. It is largely an extension of the existing iron deficiency indication, not a novel repurposing. Supporting evidence (case series, reviews) should be retrieved and graded before any upgrade. |
+| 3 | Biotin metabolic disease | 0.9951 | No clear mechanistic route. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (e.g. vitamin-deficiency conditions), not biological evidence. Biotin supplementation, not iron, is the treatment. |
+| 4 | Non-syndromic oesophageal malformation | 0.9949 | These are structural defects managed surgically or endoscopically. The prediction probably arises from association with Plummer-Vinson syndrome. Oral iron may irritate the oesophagus in strictures or dysphagia. |
 
 ## Clinical Trial Evidence
 

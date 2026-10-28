@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Thiamine
-parent: Moderate Evidence (L3-L4)
-nav_order: 446
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Thiamine: predicted new indication Hyperthyroidism (evidence level L3). Approved use: Not stated in the data compiled for this report"
+parent: Model Prediction Only (L5)
+nav_order: 445
+evidence_level: L5
+indication_count: 3
 monitor_inn: "Thiamine"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "pulmonary hypertension", "hyperthyroxinemia", "kyphoscoliotic heart disease", "Graves disease", "peripheral vascular disease", "neonatal thyrotoxicosis"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
+last_modified_at: 2026-10-23
+description: "Thiamine: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not available"
 ---
 
 # Thiamine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,116 +33,85 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Thiamine: From Vitamin B1 Supplementation to Hyperthyroidism (Supportive Therapy)
+## Thiamine: From an Unspecified Original Indication to Resistance to Thyroid Hormone Due to a Mutation in Thyroid Hormone Receptor Beta (Top TxGNN Prediction)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Thiamine (vitamin B1) is a water-soluble vitamin marketed in South Africa in 13 registered products, mostly as injectable and oral vitamin B-complex or nutritional preparations. The TxGNN model ranks **hyperthyroidism** as its top predicted new indication, with **1 small clinical trial** and **about 20 publications** (mostly case reports) supporting this direction. The evidence suggests thiamine may serve as **supportive therapy for thiamine deficiency complications** in hyperthyroidism, not as an antithyroid treatment.
-
----
+Thiamine (vitamin B1) is registered in South Africa in several single-ingredient products, but the data compiled for this report contain no approved indication text. The TxGNN model's top-ranked prediction is **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, with **no clinical trials and no publications** supporting it. The only prediction with any supporting literature is **open-angle glaucoma** (rank 3, 6 publications, all indirect or associative), which is noted below as a secondary finding.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (the SAHPRA records contain no indication text) |
-| Predicted New Indication | Hyperthyroidism |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 13 |
-| Recommended Decision | Hold (research question stage) |
-
-Other predictions in the data, ranked by TxGNN score, were:
-
-| Rank | Predicted Indication | Score | Evidence Level | Recommendation |
-|---|---|---|---|---|
-| 5 | Pulmonary hypertension | 98.97% | L3 | Proceed with Guardrails |
-| 8 | Graves disease | 98.15% | L3 | Research Question |
-| 4 | Open-angle glaucoma | 99.36% | L4 | Hold |
-| 9 | Peripheral vascular disease | 98.10% | L4 | Hold |
-| 2, 3, 6, 7, 10 | Thyroid hormone resistance, hereditary glaucoma, hyperthyroxinemia, kyphoscoliotic heart disease, neonatal thyrotoxicosis | 97.5–99.4% | L5 | Hold |
-
-Note that **pulmonary hypertension** has the strongest evidence of all the predictions (see the final section), although it ranks fifth by model score.
-
----
+| Original Indication | Not available (no approved indication text in the SAHPRA records) |
+| Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
+| TxGNN Prediction Score | 0.9943 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences on record: at least 13) |
+| Number of SAHPRA Registrations | At least 13 (the list may be partial) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Thiamine is, however, well known as an essential cofactor (as thiamine pyrophosphate) for enzymes in carbohydrate and energy metabolism.
+Currently, detailed mechanism of action data is not available. Thiamine is generally known as a cofactor for enzymes in carbohydrate and energy metabolism, but no established connection to thyroid hormone receptor beta signalling or its mutations is evident in the data compiled for this report.
 
-Hyperthyroidism raises the metabolic rate and increases thiamine consumption. This can cause a **functional thiamine deficiency**, which has been linked to beriberi-like high-output heart failure and Wernicke's encephalopathy, especially when vomiting or poor intake coexists (for example, in hyperemesis gravidarum). The link is plausible and supported by case reports.
+The prediction comes from the TxGNN model (deep learning) alone and may reflect similarities the model learned between related diseases, not biological evidence. There is no trial, publication or mechanistic evidence to verify it, so it should be treated as a computational hypothesis only.
 
-Thiamine here acts as **corrective or supportive therapy** for the deficiency and its complications. There is no evidence that it treats the underlying thyroid disease itself.
-
----
+**Secondary predictions (for context):**
+- **Primary hereditary glaucoma (rank 2, score 0.9940)**: no trials or literature. Hereditary forms are driven by genetic variants (e.g. MYOC, CYP1B1) with no demonstrated link to thiamine. Evidence level L5, Hold.
+- **Open-angle glaucoma (rank 3, score 0.9936)**: six publications exist, but they are observational, metabolomic or mechanistic and none tests thiamine as a treatment. A plausible hypothesis is that thiamine supports mitochondrial energy metabolism in retinal ganglion cells and trabecular meshwork. Because no cited study directly tests thiamine as a treatment for this disease, the evidence is best regarded as L5 under the grading rules, even though the data file labels it L4. It is a research question rather than a candidate for use.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02767245](https://clinicaltrials.gov/study/NCT02767245) | Not applicable | Completed | 12 | Pilot study of thiamine supplementation to assess thiamine deficiency prevalence and cardiovascular function improvement in severe hyperthyroidism (2014–2016). Very small and not a Phase 2/3 RCT; results not provided in the data. |
-
-No SANCTR or PACTR registrations were identified in the data compiled for this report. The same trial also appears under the Graves disease prediction and should not be counted twice.
-
----
+Currently no related clinical trials registered for the top-ranked prediction. None were found for the two other predicted indications either.
 
 ## Literature Evidence
 
-Most relevant publications for hyperthyroidism (case reports and reviews; no RCTs identified):
+Currently no related literature available for the top-ranked prediction.
+
+For the secondary open-angle glaucoma prediction, the following publications were retrieved. None is an interventional study of thiamine:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26567494](https://pubmed.ncbi.nlm.nih.gov/26567494/) | 2015 | Case report/review | Crit Care Nurs Clin North Am | High-output heart failure caused by thyrotoxicosis and beriberi |
-| [18026802](https://pubmed.ncbi.nlm.nih.gov/18026802/) | 2008 | Case report | J Gen Intern Med | Thyrotoxicosis-associated Wernicke's encephalopathy |
-| [32934066](https://pubmed.ncbi.nlm.nih.gov/32934066/) | 2020 | Case report | Clin Med (London) | Pregnant woman with hyperemesis and thyrotoxicosis presenting with confusion and ataxia |
-| [32983708](https://pubmed.ncbi.nlm.nih.gov/32983708/) | 2020 | Case report | Cureus | Wernicke's encephalopathy with transient gestational hyperthyroidism and hyperemesis |
-| [7416185](https://pubmed.ncbi.nlm.nih.gov/7416185/) | 1980 | Case series | Am J Med | 23 cases of beriberi heart disease from relative thiamine deficiency |
-| [34995426](https://pubmed.ncbi.nlm.nih.gov/34995426/) | 2021 | Case report | S D Med | Wernicke encephalopathy in a Graves disease patient after sleeve gastrectomy |
-| [36176825](https://pubmed.ncbi.nlm.nih.gov/36176825/) | 2022 | Case report | Cureus | Hyperthyroidism with neurological consequences (Wernicke's encephalopathy) |
-| [7919625](https://pubmed.ncbi.nlm.nih.gov/7919625/) | 1994 | Case series | Intern Med | Pulmonary hypertension in hyperthyroidism resolved with antithyroid therapy; in cardiac beriberi it improved with thiamine |
-| [22635085](https://pubmed.ncbi.nlm.nih.gov/22635085/) | 2012 | Case report | Neuro Endocrinol Lett | Thyrotoxicosis- and hyperemesis-associated Wernicke's encephalopathy |
-| [13305517](https://pubmed.ncbi.nlm.nih.gov/13305517/) | 1955 | Clinical physiology study | Endocrinol Sci Costituz | Urinary thiamine after cocarboxylase load in hyperthyroidism and normal subjects |
-
----
+| [485004](https://pubmed.ncbi.nlm.nih.gov/485004/) | 1979 | Cohort | Annals of Ophthalmology | In 38 glaucoma patients vs 12 controls, blood thiamine was significantly lower in patients (P < 0.001); no difference in ascorbic acid. Poor thiamine absorption was noted in the glaucoma group. |
+| [32214001](https://pubmed.ncbi.nlm.nih.gov/32214001/) | 2020 | Cohort (cross-sectional) | Nutrients | Korean national survey analysis of obesity, nutrient intake and primary open-angle glaucoma. |
+| [29565276](https://pubmed.ncbi.nlm.nih.gov/29565276/) | 2018 | Cohort (cross-sectional) | Nutrients | Korean national survey analysis of dietary niacin and open-angle glaucoma. |
+| [40402521](https://pubmed.ncbi.nlm.nih.gov/40402521/) | 2025 | Metabolomic / mouse study | Investigative Ophthalmology & Visual Science | Aqueous humour metabolomics in glaucoma patients; dysregulated metabolites tested for anti-inflammatory and neuroprotective roles in mice. Relevance to thiamine cannot be confirmed. |
+| [30025119](https://pubmed.ncbi.nlm.nih.gov/30025119/) | 2018 | Other | Investigative Ophthalmology & Visual Science | microRNA profiling in glaucomatous eyes. Relevance to thiamine cannot be confirmed. |
+| [41889963](https://pubmed.ncbi.nlm.nih.gov/41889963/) | 2026 | Preprint (mechanistic) | bioRxiv | MIF-CD74 signalling in trabecular meshwork dysfunction. Relevance to thiamine cannot be confirmed. |
 
 ## South Africa Market Information
 
-All 13 registrations are valid single-ingredient records. The SAHPRA records in the data contain no approved indication text. The Essential Medicines List (EML) status was not available in the data. The first five registrations are shown:
+Thirteen single-ingredient registrations are listed (the list may be partial). No approved indication text is recorded for any of them. Five main registrations are shown:
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Y/6.1/415 | Dopamine HCl Fresenius 5ml 200mg/5ml | Injection | Not stated |
-| H2611 (ACT 101/1965) | Becoplex IDO vial 10ml | Injection | Not stated |
-| T1012 (ACT 101/1965) | Beespan | Capsule | Not stated |
-| H2412 (ACT 101/1965) | A-Lennon Vitamin B Co ampoule 2ml | Injection | Not stated |
-| H2975 (ACT 101/1965) | Vitamin B Co 10ml | Injection | Not stated |
+| H2611 (ACT 101/1965) | Becoplex ido vial 10ml | Injection | Not recorded |
+| T1012 (ACT 101/1965) | Beespan | Capsule | Not recorded |
+| H2412 (ACT 101/1965) | A-lennon vitamin b co ampoule 2ml | Injection | Not recorded |
+| H2975 (ACT 101/1965) | Vitamin b co 10ml | Injection | Not recorded |
+| U/22.1.4/200 | Soluvit novum 10ml vials | Injection | Not recorded |
 
-The remaining registrations include Restin, Menoflush, Soluvit Novum, Complenatal FF, Gericomplex, two TPN products, and one inhaler product record. Some of these entries (for example the dopamine and inhaler products) look inconsistent with a thiamine-containing product and should be verified against SAHPRA records.
-
----
+Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA. No interaction data were found in the data compiled for this report.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (research question stage)** for the top-ranked indication, hyperthyroidism.
+**Decision: Hold**
 
 **Rationale:**
-- Evidence is limited to one very small pilot trial (n=12) and case reports. The plausible role is supportive correction of thiamine deficiency, not treatment of hyperthyroidism itself.
-- Among the predictions, **pulmonary hypertension** is the most developed (thiamine-responsive pulmonary hypertension in deficient infants, supported by case series and a prospective observational study). It merits **Proceed with Guardrails**, restricted to deficiency-associated cases and not general pulmonary hypertension.
+The top-ranked prediction rests only on a TxGNN model (deep learning) score, with no trials, no literature and no plausible mechanistic link. The glaucoma signal is limited to associative and observational data, with no interventional evidence.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking data gap)
-- Mechanism of action data
-- Results from adequately powered controlled trials in hyperthyroidism, testing thiamine for deficiency-related cardiac outcomes
-- Verification of the SAHPRA registration list and approved indications
-- For pulmonary hypertension, a clear definition of the thiamine-deficient population and a deficiency testing plan before treatment
+- Mechanism of action data for thiamine, to allow a mechanistic assessment
+- SAHPRA Professional Information (approved indications, warnings, contraindications)
+- Any direct preclinical or clinical evidence for the predicted disease; for glaucoma, interventional or mechanistic studies of thiamine itself
+- Review of whether the associations in the glaucoma literature are causal (e.g. reduced blood thiamine levels as a consequence rather than a cause)
+- Confirmation of route and formulation compatibility with the predicted use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

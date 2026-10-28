@@ -4,17 +4,17 @@ title: Resorcinol
 parent: Model Prediction Only (L5)
 nav_order: 402
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Resorcinol: predicted new indication Acne keloid (evidence level L5). Approved use: Acne, dermatitis, acneiform dermatitis"
 monitor_inn: "Resorcinol"
-predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "rheumatoid vasculitis", "hypermobility of coccyx", "polyarticular juvenile rheumatoid arthritis", "ankylosing spondylitis"]
+predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
+description: "Resorcinol: predicted new indication Acne keloid (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Resorcinol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Resorcinol: From Acne and Dermatitis to Acne Keloid
+## Resorcinol: Acne keloid
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be useful for **acne keloid** (acne keloidalis),
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne, dermatitis, acneiform dermatitis (from the TxGNN knowledge graph; the South African registration lists no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne keloid |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 (model prediction only; no trials or literature) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Acne keloidalis is a chronic follicular inflammatory condition of the neck and scalp, so it shares general biological features with acne (follicular involvement and inflammation). Among the ten predictions generated, it is the closest to the original indications and therefore the most credible candidate. This overlap is indirect and plausible only. The high TxGNN score is a computational output and is not clinical evidence.
 
-Other predictions (for example dermatomyositis, juvenile arthritis, ankylosing spondylitis, rheumatoid vasculitis and childhood interstitial lung disease) have no identifiable mechanistic link to a topical keratolytic. They are most likely artefacts of the model's graph propagation and are not recommended for further pursuit.
+Other predictions (for example dermatomyositis and childhood interstitial lung disease) have no identifiable mechanistic link to a topical keratolytic. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are not recommended for further pursuit.
 
 ## Clinical Trial Evidence
 

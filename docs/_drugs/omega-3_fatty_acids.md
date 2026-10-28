@@ -4,17 +4,17 @@ title: Omega-3 Fatty Acids
 parent: Moderate Evidence (L3-L4)
 nav_order: 355
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Omega-3 Fatty Acids: predicted new indication Tendinitis (evidence level L4). Approved use: Hypertriglyceridaemia"
 monitor_inn: "Omega-3 fatty acids"
-predicted_indications: ["tendinitis", "Glanzmann thrombasthenia", "amenorrhea (disease)", "idiopathic granulomatous myositis", "myositis fibrosa", "primary release disorder of platelets", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "fibromyalgia", "pseudo-von Willebrand disease"]
+predicted_indications: ["tendinitis", "Glanzmann thrombasthenia", "amenorrhea (disease)"]
+description: "Omega-3 Fatty Acids: predicted new indication Tendinitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Omega-3 Fatty Acids
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Omega-3 Fatty Acids: From Hypertriglyceridaemia to Tendinitis
+## Omega-3 Fatty Acids: Tendinitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts they may be effective for **tendinitis**, but there are
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridaemia (from the TxGNN knowledge graph; the SAHPRA registration carries no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Tendinitis |
-| TxGNN Prediction Score | 99.13% |
+| TxGNN Prediction Score | 0.9913 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -107,7 +107,7 @@ The prediction score is high, but the evidence is indirect (reviews and a geneti
 
 ### Other Predicted Indications (for Reference)
 
-Among the other top-ranked predictions, **fibromyalgia** (score 98.74%, L4) has the most supporting literature, including a 2000 clinical study of omega-3 in fibromyalgia syndrome whose design and size could not be verified. The rest are weakly supported or biologically doubtful: Glanzmann thrombasthenia, primary release disorder of platelets and pseudo-von Willebrand disease are bleeding disorders where the mild antiplatelet effect could worsen bleeding. Amenorrhoea, idiopathic granulomatous myositis and myositis fibrosa rest on model scores alone. Brain small vessel disease 1 has only observational data on sporadic cerebrovascular disease, which does not address this genetic disorder.
+The other top-ranked predictions are weakly supported or biologically doubtful: Glanzmann thrombasthenia is a bleeding disorder where the mild antiplatelet effect could worsen bleeding. Amenorrhoea rests on model scores alone.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Tadalafil
 parent: Model Prediction Only (L5)
 nav_order: 433
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Erectile dysfunction, benign prostatic hyperplasia…"
 monitor_inn: "Tadalafil"
-predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura", "migraine disorder", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tadalafil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tadalafil: From Erectile Dysfunction and Pulmonary Hypertension to Ambras Type Hypertrichosis Universalis Congenita
+## Tadalafil: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tadalafil is a PDE5 inhibitor, originally used for erectile dysfunction, benign prostatic hyperplasia and pulmonary hypertension.
 The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**,
-but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a knowledge-graph prediction only.
+but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a TxGNN model (deep learning) prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Erectile dysfunction, benign prostatic hyperplasia, pulmonary hypertension, psychologic dyspareunia, premature ejaculation (from the knowledge graph; the SAHPRA records compiled here contain no approved-indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 A possible but unverified link is that raised cGMP could alter vasodilation and hair follicle signalling. Ambras syndrome, however, is a rare congenital disorder caused by genomic rearrangements affecting TRPS1 regulation. A PDE5 inhibitor is not expected to correct this genetic defect.
 
-The high score therefore reflects a knowledge-graph association only. The second-ranked prediction, hypertrichosis, may be linked to minoxidil, a vasodilator that causes hypertrichosis. That is an adverse-effect relationship for a different drug, not a therapeutic benefit from tadalafil.
+The high score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The second-ranked prediction, hypertrichosis, may be linked to minoxidil, a vasodilator that causes hypertrichosis. That is an adverse-effect relationship for a different drug, not a therapeutic benefit from tadalafil.
 
 ## Clinical Trial Evidence
 

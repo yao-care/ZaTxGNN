@@ -4,17 +4,17 @@ title: Roxithromycin
 parent: Model Prediction Only (L5)
 nav_order: 409
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Roxithromycin: predicted new indication Leprosy (evidence level L5). Approved use: Not stated in the South African registration data compiled for this r…"
+indication_count: 8
+last_modified_at: 2026-10-28
 monitor_inn: "Roxithromycin"
-predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "migraine disorder", "female breast carcinoma"]
+predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
+description: "Roxithromycin: predicted new indication Leprosy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Roxithromycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Roxithromycin: From Bacterial Infections to Leprosy
+## Roxithromycin: Leprosy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,12 +44,12 @@ Roxithromycin is a macrolide antibiotic, marketed in South Africa as an oral tab
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the South African registration data compiled for this report. Pharmacology sources describe use in respiratory tract, urinary and soft tissue infections |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.70% |
-| Evidence Level | L3 (preclinical and review literature only; no human trials) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| TxGNN Prediction Score | 0.9970 |
+| Evidence Level | L5 (preclinical and review literature only; no human trials) |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
@@ -93,8 +93,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 
 The other top-ranked predictions have very weak or no support:
 
-- **Pulmonary hypertension** (99.00%): only an indirect Cochrane review on antibiotic prophylaxis in COPD; no direct evidence.
-- **Female breast carcinoma** (98.93%): the only paper suggests antagonism with T-DM1, a safety concern rather than support.
+- **Pulmonary hypertension** (0.9900): only an indirect Cochrane review on antibiotic prophylaxis in COPD; no direct evidence.
 - **Hypertrichosis, Ambras syndrome, Dandy-Walker syndrome, hair shaft abnormality, nephrogenic syndrome of inappropriate antidiuresis, migraine, and a periodontal malformation syndrome**: computational predictions only, with no trials, no literature, and no plausible macrolide mechanism.
 
 ## Conclusion and Next Steps

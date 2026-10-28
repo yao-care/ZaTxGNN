@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Simvastatin
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 420
-evidence_level: L1
-indication_count: 8
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Simvastatin: predicted new indication Familial hypercholesterolaemia (evidence level L1). Approved use: Hypertriglyceridaemia, stroke and cerebrovascular disorders…"
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **8**
 
 </div>
 
-## Simvastatin: From Hypertriglyceridaemia and Atherosclerotic Disease to Familial Hypercholesterolaemia
+## Simvastatin: Brain stem infarction
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Because homozygous familial hypercholesterolaemia is already among its original 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridaemia, stroke and cerebrovascular disorders, atherosclerosis, familial combined hyperlipidaemia, homozygous familial hypercholesterolaemia (the SAHPRA indication text is not available in the data compiled for this report) |
-| Predicted New Indication | Familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 7 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brain stem infarction |
+| TxGNN Prediction Score | 0.9941 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 7 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 7) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -134,13 +134,11 @@ Report adverse drug reactions to SAHPRA.
 
 | Predicted Indication | Score | Evidence Level | Decision |
 |------|------|------|------|
-| Hypercholesterolaemia, autosomal dominant | 99.36% | L1 | Proceed with Guardrails (evidence largely overlaps with familial hypercholesterolaemia) |
-| HIV infectious disease | 99.22% | L3 | Research question (relevant to managing dyslipidaemia and drug interactions, not antiviral efficacy; one pilot study found no anti-HIV activity) |
-| Brain stem infarction | 99.41% | L5 | Hold (no specific data) |
-| CETP deficiency | 99.39% | L5 | Hold (no mechanistic rationale) |
-| CYP7A1 deficiency hypercholesterolaemia | 99.27% | L5 | Hold |
-| ABri amyloidosis | 99.13% | L5 | Hold |
-| Neurodevelopmental disorder with ataxic gait | 99.10% | L5 | Hold |
+| HIV infectious disease | 0.9922 | L3 | Research question (relevant to managing dyslipidaemia and drug interactions, not antiviral efficacy; one pilot study found no anti-HIV activity) |
+| Brain stem infarction | 0.9941 | L5 | Hold (no specific data) |
+| CETP deficiency | 0.9939 | L5 | Hold (no mechanistic rationale) |
+| ABri amyloidosis | 0.9913 | L5 | Hold |
+| Neurodevelopmental disorder with ataxic gait | 0.9910 | L5 | Hold |
 
 ## Conclusion and Next Steps
 

@@ -6,9 +6,9 @@ nav_order: 427
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension, congestive heart failure, hyperaldosteronism"
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Spironolactone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Spironolactone: From Hypertension and Heart Failure to Hypotrichosis Simplex of the Scalp
+## Spironolactone: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no clinical trials and no publications** supporting th
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, congestive heart failure, hyperaldosteronism (the SAHPRA registration data compiled for this report contain no approved indication text; these indications come from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 A plausible but unverified rationale is that blocking androgen receptor signalling in hair follicles could help androgen-driven hair loss. Spironolactone is used off-label in female pattern hair loss.
 
-However, hypotrichosis simplex of the scalp is a rare hereditary hair loss disorder caused mainly by genetic variants (for example CDSN, APCDD1, RPL21), not by androgen excess. The anti-androgen mechanism therefore has weak relevance to its underlying pathology. The prediction most likely reflects network proximity in the knowledge graph rather than a specific mechanistic link.
+However, hypotrichosis simplex of the scalp is a rare hereditary hair loss disorder caused mainly by genetic variants (for example CDSN, APCDD1, RPL21), not by androgen excess. The anti-androgen mechanism therefore has weak relevance to its underlying pathology. The prediction (score 0.9926) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-A second predicted indication, congenital hypotrichosis milia (score 99.04%), is similarly supported by no trials or literature. The same limitations apply.
+A second predicted indication, congenital hypotrichosis milia (score 0.9904), is similarly supported by no trials or literature. The same limitations apply.
 
 ## Clinical Trial Evidence
 

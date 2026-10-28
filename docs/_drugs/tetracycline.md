@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tetracycline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 444
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections, including urinary tract infection, bronchitis…"
 monitor_inn: "Tetracycline"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)", "exposure keratitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 ---
 
 # Tetracycline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **no registered clinical trials** and only **1 publicati
 |------|------|
 | Original Indication | Bacterial infections, including urinary tract infection, bronchitis, acne, pneumonia and conjunctivitis (SAHPRA indication text is not available for the registered product) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| TxGNN Prediction Score | 0.9958 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -108,12 +108,9 @@ The prediction score is high, but the evidence is limited to one two-patient cas
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |---|---|---|---|---|
-| 3 | Chronic rhinosinusitis | 99.15% | L4 | Systematic reviews and a meta-analysis on doxycycline and other antibiotics, but no tetracycline-specific trials; class-level, indirect evidence |
-| 8 | Post-infectious syndrome | 98.71% | L3 | One completed Phase 2 pilot, [NCT05219929](https://clinicaltrials.gov/study/NCT05219929) (n=60, post-treatment Lyme disease), assessing tolerability and feasibility, not efficacy |
-| 7 | Post-bacterial disorder | 98.76% | L3 | Same pilot trial plus unrelated studies; a vague category |
-| 10 | Otitis externa | 98.64% | L4 | Mostly veterinary literature; an in vitro study suggests tetracycline cytotoxicity in human tympanic membrane fibroblasts |
-| 2, 5, 9 | Chronic ethmoidal sinusitis, exposure keratitis, infective urethral stricture | 98.66–99.15% | L4 | Indirect evidence only |
-| 4, 6 | Paranasal sinus neoplasm, postinfectious vasculitis | 98.79–99.10% | L5 | Model prediction only |
+| 3 | Chronic rhinosinusitis | 0.9915 | L5 | Systematic reviews and a meta-analysis on doxycycline and other antibiotics, but no tetracycline-specific trials; class-level, indirect evidence |
+| 2, 5, 9 | Chronic ethmoidal sinusitis, exposure keratitis, infective urethral stricture | 98.66–0.9915 | L5 | Indirect evidence only |
+| 4, 6 | Paranasal sinus neoplasm | 0.9910 | L5 | Model prediction only |
 
 Of these alternatives, only the post-treatment Lyme disease pilot (NCT05219929) offers direct tetracycline clinical data.
 ## Disclaimer

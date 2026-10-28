@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 335
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the registration data compiled for this report"
 monitor_inn: "Mycophenolate mofetil"
-predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
+predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
 ---
 
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, wit
 |------|------|
 | Original Indication | Not stated in the registration data compiled for this report |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -148,7 +148,7 @@ The mechanistic rationale (IMPDH inhibition and potentiation of nucleoside analo
 - A DDI assessment against South African first-line antiretroviral regimens
 - A risk-benefit analysis of immunosuppression in HIV, with particular attention to opportunistic infections (including tuberculosis) and cytopenias
 
-**Other predictions in the data:** Multiple sclerosis (score 99.54%, L2) has the strongest supporting evidence of the other candidates, with small Phase 2 trials, a Cochrane review of MMF, and a retrospective study of 344 patients. It may merit its own evaluation. Hemosiderosis (L4) rests on case-level literature only. All remaining predictions are model output only (L5) and should be held.
+**Other predictions in the data:** Multiple sclerosis (score 0.9954, L2) has the strongest supporting evidence of the other candidates, with small Phase 2 trials, a Cochrane review of MMF, and a retrospective study of 344 patients. It may merit its own evaluation. Hemosiderosis (L4) rests on case-level literature only. All remaining predictions are model output only (L5) and should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

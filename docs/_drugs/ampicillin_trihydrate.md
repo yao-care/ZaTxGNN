@@ -8,6 +8,7 @@ nav_order: 39
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ampicillin Trihydrate
@@ -53,8 +54,8 @@ This evaluation **cannot proceed to a standard evidence review** until two block
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — prediction pipeline incomplete |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | **Hold** |
 
 ---

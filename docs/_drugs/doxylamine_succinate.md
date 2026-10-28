@@ -8,6 +8,7 @@ nav_order: 205
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Doxylamine Succinate
@@ -51,8 +52,8 @@ Doxylamine succinate is a first-generation H1 antihistamine with sedative proper
 | Predicted New Indication | Not available — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — model prediction only; no actual studies linked |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 11 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 11) |
 | Recommended Decision | **Hold** |
 
 ---

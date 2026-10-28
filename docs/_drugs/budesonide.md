@@ -50,10 +50,10 @@ The high score therefore rests mostly on the known effects of corticosteroids as
 |------|------|
 | Original Indication | Asthma, allergic rhinitis, Crohn disease and inflammatory bowel disease (SAHPRA registration entries did not include indication text) |
 | Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (model prediction only; no clinical studies of budesonide in this indication) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -103,7 +103,7 @@ Priority is given to the most relevant items. No randomised controlled trial in 
 | Reg. No. 42/21.5.1/0955 | Arrow Budesonide 2 ml | Vial | Not stated in the data compiled |
 | Reg. No. A39/21.5.1/0506 | Vannair 80/4.5 mcg per inhalation, 120 doses | Inhaler | Not stated in the data compiled |
 
-All five registrations are valid, and none has been cancelled. No Essential Medicines List (EML) status was available in the data compiled. Symbicort and Vannair are named as budesonide/formoterol products, although they are recorded as single-ingredient registrations. None of the registered forms is a dermal preparation, so a new formulation would be needed for atopic eczema.
+The drug is marketed in this country, with 5 of 5 licences valid. No Essential Medicines List (EML) status was available in the data compiled. Symbicort and Vannair are named as budesonide/formoterol products, although they are recorded as single-ingredient registrations. None of the registered forms is a dermal preparation, so a new formulation would be needed for atopic eczema.
 
 ---
 
@@ -136,7 +136,7 @@ The prediction is computational only (L5). There are no clinical trials for atop
 - A suitable dermal formulation and an assessment of its systemic absorption, particularly in children (growth and HPA axis).
 - A hypersensitivity risk assessment, given the documented contact allergy to budesonide.
 
-**Note on other predictions:** The second-ranked prediction, **bronchitis** (score 99.81%), has stronger support. It has Phase 2 trials of inhaled budesonide/formoterol in bronchiolitis obliterans (NCT00624754 and NCT01560689, each n=32) and supportive publications, giving an evidence level of L2. It is better suited to a focused follow-up review, since the registered inhaled products already match its route of administration.
+**Note on other predictions:** The second-ranked prediction, **bronchitis** (score 0.9981), has stronger support. It has Phase 2 trials of inhaled budesonide/formoterol in bronchiolitis obliterans (NCT00624754 and NCT01560689, each n=32) and supportive publications, giving an evidence level of L2. It is better suited to a focused follow-up review, since the registered inhaled products already match its route of administration.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

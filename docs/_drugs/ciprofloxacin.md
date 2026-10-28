@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ciprofloxacin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 124
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L4). Approved use: Bacterial infections (typhoid fever, salmonellosis, paratyphoid fever…"
 monitor_inn: "Ciprofloxacin"
-predicted_indications: ["diffuse scleroderma", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This is a model-driven hypothesis with limited supporting evidence.
 |------|------|
 | Original Indication | Bacterial infections (typhoid fever, salmonellosis, paratyphoid fever, bacterial pneumonia, shigellosis and others). The South African registration records compiled for this report do not include approved indication text. |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 8 |
+| TxGNN Prediction Score | 0.9987 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,7 +67,7 @@ Two lines of reasoning are available in the literature:
 1. **Possible antifibrotic effect on skin.** Scleroderma is an autoimmune connective tissue disorder marked by microvascular injury and excessive skin fibrosis. A 2010 study investigated whether oral ciprofloxacin could reduce skin fibrosis. The proposed mechanism is an effect on collagen synthesis and fibroblast activity, but this has not been confirmed.
 2. **Treating a complication, not the disease.** Ciprofloxacin may treat small bowel bacterial overgrowth in systemic sclerosis, which causes chronic diarrhoea and weight loss. This addresses a gastrointestinal complication rather than the underlying scleroderma.
 
-The evidence is therefore indirect, and the high TxGNN score reflects graph-based association rather than demonstrated clinical benefit.
+The evidence is therefore indirect, and the high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or demonstrated clinical benefit.
 
 ---
 
@@ -126,7 +126,7 @@ Corticosteroids are commonly used in scleroderma care, so this matters for the p
 **Decision: Hold**
 
 **Rationale:**
-- Support for scleroderma is limited to one exploratory skin study and one study of a GI complication, with no registered trials. The prediction rests mainly on a graph-based score.
+- Support for scleroderma is limited to one exploratory skin study and one study of a GI complication, with no registered trials. The prediction rests mainly on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence.
 - Safety data from the PI were not available, and the knowledge-graph contraindications include neuromuscular and tendon conditions that are relevant to scleroderma patients.
 
 **To proceed, the following is needed:**

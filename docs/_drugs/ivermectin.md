@@ -4,17 +4,17 @@ title: Ivermectin
 parent: Model Prediction Only (L5)
 nav_order: 281
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Strongyloidiasis, onchocerciasis"
 monitor_inn: "Ivermectin"
-predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata", "postmenopausal atrophic vaginitis", "candidiasis, invasive", "vulvitis"]
+predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
+description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ivermectin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ivermectin: From Strongyloidiasis and Onchocerciasis to Vulvovaginal Candidiasis
+## Ivermectin: Vulvovaginal candidiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **vulvovaginal candidiasis**, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Strongyloidiasis, onchocerciasis (from the knowledge graph; the SAHPRA registration entry carries no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Ivermectin is generally understood to act on glutamate-gated chloride channels in invertebrates, which is why it works against parasites such as *Strongyloides* and *Onchocerca*.
 
-Fungi such as *Candida* lack these targets, so a plausible antifungal mechanism is **not established**. The high score (99.95%) most likely reflects network similarity within the knowledge graph rather than a biological rationale. The prediction should be treated as a hypothesis only.
+Fungi such as *Candida* lack these targets, so a plausible antifungal mechanism is **not established**. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis only.
 
 Other top-ranked predictions show the same pattern. Most are candidiasis-related conditions or vulvovaginal conditions (for example esophageal, congenital, neonatal and invasive candidiasis, vulvovaginitis and vulvitis). All are L5, with no supporting trials. Two are especially doubtful:
 - **Postmenopausal atrophic vaginitis** is driven by oestrogen deficiency, not infection.

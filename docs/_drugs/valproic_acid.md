@@ -4,7 +4,7 @@ title: Valproic Acid
 parent: Model Prediction Only (L5)
 nav_order: 467
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "VALPROIC ACID"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 # Valproic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,26 +50,18 @@ Among the other predictions, **visual epilepsy** has the strongest support, thou
 |------|------|
 | Original Indication | Epilepsy; manic bipolar affective disorder; absence epilepsy (the SAHPRA registrations in the data have no indication text) |
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1) |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 **Overview of the top 10 predictions**
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 1 | Trigeminal nerve neoplasm | 99.97% | L5 | Hold |
-| 2 | Visual epilepsy | 99.88% | L1 | Proceed with Guardrails |
-| 3 | Trigeminal neuralgia | 99.83% | L4 | Research question |
-| 4 | Eating seizures | 99.81% | L4 | Research question |
-| 5 | Audiogenic seizures | 99.81% | L4 | Hold |
-| 6 | Orgasm-induced seizures | 99.81% | L5 | Hold |
-| 7 | Micturition-induced seizures | 99.81% | L4 | Hold |
-| 8 | Thinking seizures | 99.81% | L4 | Hold |
-| 9 | Startle epilepsy | 99.81% | L4 | Research question |
-| 10 | Reading seizures | 99.79% | L4 | Research question |
+| 1 | Trigeminal nerve neoplasm | 0.9997 | L5 | Hold |
+| 3 | Trigeminal neuralgia | 0.9983 | L4 | Research question |
 
 ---
 

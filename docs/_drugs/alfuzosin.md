@@ -2,13 +2,13 @@
 layout: default
 title: Alfuzosin
 parent: Model Prediction Only (L5)
-nav_order: 21
+nav_order: 20
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "ALFUZOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+last_modified_at: 2026-10-27
+description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Alfuzosin
@@ -33,34 +33,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Alfuzosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+## Alfuzosin: alpha-1 adrenergic antagonist → Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Alfuzosin is an alpha-1 adrenergic antagonist originally used to treat benign prostatic hyperplasia (BPH).
-The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is based on the model alone.
+Alfuzosin is a uroselective alpha-1 adrenergic antagonist. The TxGNN model predicts it may be useful for **Ambras type hypertrichosis universalis congenita**, but **no clinical trials and no publications** currently support this direction, so it remains a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (from the knowledge graph; the SAHPRA registration entries contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known information, alfuzosin is a uroselective alpha-1 adrenergic antagonist, and its efficacy in BPH is established through relaxation of smooth muscle in the prostate and bladder neck.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Alfuzosin is generally known as a uroselective alpha-1 adrenergic antagonist, and its relaxing effect on smooth muscle underlies its use in urological practice.
 
-The predicted link to Ambras syndrome is **not mechanistically supported**. Ambras syndrome is a rare genetic disorder associated with chromosome 8q rearrangements that affect regulation of *TRPS1*. No plausible pathway connects alpha-1 blockade to this condition. The very high score (~0.99999) most likely reflects proximity in the knowledge graph to hair-growth-related nodes rather than true therapeutic potential.
-
-Other top-ranked predictions show the same pattern. Most are rare genetic hair, skin or developmental disorders (hypertrichosis, hair shaft abnormalities, trichomegaly, hypotrichosis, Dandy-Walker-related syndromes), and none has any trial or literature support. Allergic urticaria is also predicted, but hypersensitivity reactions are a possible alfuzosin adverse effect, which argues against that use.
+The predicted disease, Ambras syndrome, is a rare genetic disorder linked to chromosome 8q rearrangements that affect regulation of TRPS1. No plausible pathway connects alpha-1 blockade to this condition. The very high TxGNN score (0.9999943) most likely reflects model-based proximity to hair-related disease nodes, not demonstrated therapeutic potential. The prediction should be regarded as hypothesis-generating only.
 
 ## Clinical Trial Evidence
 
@@ -74,38 +70,36 @@ Currently no related literature available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 41/5.2/0740 | Alfuwin XL | Tablet (oral) | Not stated in the data compiled for this report |
-| Reg. No. A40/5.2/0392 | Rantral MR | Tablet (oral) | Not stated in the data compiled for this report |
+| 41/5.2/0740 | Alfuwin xl | Tablet | Not recorded in local data |
+| A40/5.2/0392 | Rantral mr | Tablet | Not recorded in local data |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status could not be determined from the available data.
+Both registrations are single-ingredient products and currently valid. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-**Contraindications / conditions of concern (from knowledge-graph drug-disease edges, not label text):**
-multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorders, long QT syndrome (including familial), torsades de pointes, liver failure, liver disease, gallbladder disease, and intraoperative floppy iris syndrome.
+- **Drug Interactions** (100 interactions found; examples of the more significant ones):
+  - **Major**: cisapride, clarithromycin, dolasetron
+  - **Moderate**: famotidine, aprepitant, bisacodyl, bupropion, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), granisetron, levofloxacin, and several laxatives (lactulose, lactitol, glycerin, castor oil)
+  - **Minor**: cimetidine
 
-**Drug Interactions** (100 interactions recorded; selected examples from the DDInter-sourced list):
-- **Major:** cisapride, clarithromycin, dolasetron
-- **Moderate:** famotidine, aprepitant, bisacodyl, bupropion, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, granisetron, levofloxacin, and others
-- **Minor:** cimetidine
+  Several of the major interacting drugs are associated with QT prolongation or CYP3A4 inhibition, which warrants particular caution.
 
-Many of these relate to QT prolongation or CYP3A4 inhibition, consistent with the QT-related conditions listed above.
+- **Conditions of concern with alfuzosin**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorders, long QT syndrome (including familial), torsades de pointes, liver failure, liver disease, gallbladder disease, and intraoperative floppy iris syndrome.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for official warnings and contraindications, which were not available in the data compiled for this report. Report adverse drug reactions to SAHPRA.
+Label-based warnings and contraindications were not available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or literature (Evidence Level L5) and no plausible mechanism. The high TxGNN score appears to be a knowledge-graph artifact. Alfuzosin's vasodilatory and hypotensive effects, together with the QT-related cautions, add risk without any demonstrated benefit.
+The prediction rests on a model score alone, with no trials or publications and no plausible mechanism linking alpha-1 blockade to Ambras-type hypertrichosis. The safety profile (hypotension and QT-related concerns) also offers no reason to expose patients without supporting evidence.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for alfuzosin, to allow proper mechanistic analysis
-- The SAHPRA-approved package insert (PI), to confirm warnings, contraindications and approved indications
-- Preclinical or mechanistic evidence linking alpha-1 blockade to hair follicle biology or the *TRPS1* pathway
-- Route and formulation compatibility assessment for the proposed new indication
-- Review of the other predictions only if supporting evidence emerges; none currently has any
+- Preclinical or mechanistic evidence linking alpha-1 adrenergic antagonism to hair follicle biology or TRPS1-related pathways
+- Detailed mechanism of action data for alfuzosin
+- The SAHPRA Professional Information (warnings and contraindications) for a formal safety screen
+- Any case reports or registered studies in this condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

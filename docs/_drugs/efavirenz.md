@@ -48,10 +48,10 @@ Efavirenz was originally used to treat HIV infection and AIDS. The TxGNN model p
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the SAHPRA records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 14 |
+| South Africa Market Status | Marketed (valid licences: 14 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ The high TxGNN score most likely reflects how closely SIV infection resembles HI
 
 Two other predictions were also reviewed:
 - **Feline acquired immunodeficiency syndrome:** one in vitro and structural study compared NNRTIs against feline immunodeficiency virus (FIV) reverse transcriptase (PMID [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/)). It has no efficacy data in cats and is of limited veterinary relevance.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 99.77%):** no trials or literature were found, and no plausible mechanism is supported. Efavirenz's known CNS adverse effects argue for caution in this population. This is a hypothesis-generating signal only.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 0.9977):** no trials or literature were found, and no plausible mechanism is supported. Efavirenz's known CNS adverse effects argue for caution in this population. This is a hypothesis-generating signal only.
 
 ---
 

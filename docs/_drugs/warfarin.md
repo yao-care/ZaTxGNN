@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Warfarin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 475
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L4). Approved use: Pulmonary embolism, thrombotic disease, intracranial embolism"
 monitor_inn: "Warfarin"
-predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "migraine disorder"]
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 ---
 
 # Warfarin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Warfarin: From Thrombotic Disease to Heparin Cofactor II Deficiency
+## Warfarin: From Thrombotic Disease to Heparin Cofactor 2 Deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ Of the top 10 predictions, the one with the strongest evidence is **Thrombophili
 |------|------|
 | Original Indication | Pulmonary embolism, thrombotic disease, intracranial embolism (the SAHPRA record has no indication text) |
 | Predicted New Indication | Heparin cofactor 2 deficiency |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| TxGNN Prediction Score | 0.9987 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,7 +67,7 @@ Heparin cofactor II deficiency is an inherited thrombophilia, meaning a tendency
 The other predictions fall into three groups:
 
 - **Thrombotic and thrombophilic conditions** (factor V excess with spontaneous thrombosis, antithrombin deficiency type 2, thrombophilia): mechanistically coherent, but they overlap with existing use.
-- **Rheumatoid arthritis and benign breast conditions** (fibrocystic disease, benign mammary dysplasia, blunt duct adenosis, apocrine adenosis): no plausible therapeutic mechanism. These predictions likely reflect co-prescription or drug-interaction artefacts in the knowledge graph.
+- **Rheumatoid arthritis** (0.9921) and **benign breast conditions** (breast fibrocystic disease 0.9920, benign mammary dysplasia 0.9910): no plausible therapeutic mechanism. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Migraine**: several case reports describe remission on warfarin, and a hypothesis involving microembolism or hypercoagulability exists. It remains speculative, and warfarin's bleeding risk and narrow therapeutic index are major barriers.
 
 ---
@@ -153,7 +153,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, heparin cofactor II deficiency, is supported only by case reports (L4), and it largely overlaps with warfarin's existing thrombotic indication. Several lower-ranked predictions (rheumatoid arthritis, benign breast conditions) look like knowledge-graph artefacts from co-prescription. Migraine has interesting case reports, but its evidence is anecdotal and the bleeding risk is a major barrier. Thrombophilia (L3) may merit a research question, but it adds little beyond established VTE practice, and DOACs are increasingly used instead.
+The top prediction, heparin cofactor II deficiency, is supported only by case reports (L4), and it largely overlaps with warfarin's existing thrombotic indication. Several lower-ranked predictions (rheumatoid arthritis, benign breast conditions) look like TxGNN model (deep learning) artefacts from co-prescription. Migraine has interesting case reports, but its evidence is anecdotal and the bleeding risk is a major barrier. Thrombophilia (L3) may merit a research question, but it adds little beyond established VTE practice, and DOACs are increasingly used instead.
 
 **To proceed, the following is needed:**
 - SAHPRA Professional Information (warnings, contraindications and approved indications), which is currently missing and blocks safety screening

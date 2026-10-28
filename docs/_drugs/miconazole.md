@@ -4,17 +4,17 @@ title: Miconazole
 parent: Moderate Evidence (L3-L4)
 nav_order: 324
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Miconazole: predicted new indication Acne (evidence level L3). Approved use: Tinea pedis, tinea corporis, cutaneous candidiasis, tinea unguium…"
 monitor_inn: "Miconazole"
-predicted_indications: ["acne (disease)", "gastrin secretion abnormality", "papillary conjunctivitis", "ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "blastomycosis"]
+predicted_indications: ["acne (disease)"]
+description: "Miconazole: predicted new indication Acne (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Miconazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Miconazole: From Superficial Fungal Skin Infections to Acne
+## Miconazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **acne**, with **no registered 
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, tinea corporis, cutaneous candidiasis, tinea unguium, pityriasis versicolor, vulvovaginal candidiasis (from the knowledge graph; the SAHPRA records compiled for this report contain no indication text) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.54% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -73,12 +73,6 @@ The evidence consists of small, non-pivotal studies and laboratory data. It supp
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Superficial mycosis | 97.05% | L3 | Overlaps with existing labelled uses, so not true repurposing; supported by a 1989 comparative study versus clotrimazole and several reviews |
-| Tinea profunda / Majocchi granuloma | 97.20% / 97.08% | L4 | Mechanistically plausible; evidence is case reports and non-clinical papers; deep follicular disease usually needs systemic therapy |
-| Dermatophytosis of scalp or beard | 96.92% | L4 | General reviews only; oral therapy is the standard |
-| Blastomycosis | 95.17% | L3 | Historical IV and oral case series from the 1970s; IV miconazole is largely unavailable and superseded by itraconazole and amphotericin B |
-| Ectothrix and endothrix infections | 97.08% / 97.05% | L5 | Prediction only; no clinical evidence |
-| Gastrin secretion abnormality, papillary conjunctivitis | 98.75% / 98.01% | L5 | No identifiable mechanistic link; computational prediction only |
 
 ---
 
@@ -129,7 +123,7 @@ SAHPRA-approved warnings and contraindications were not available for this repor
 **Decision: Hold (research question only)**
 
 **Rationale:**
-The TxGNN score for acne is very high (99.54%), but the supporting evidence is limited to a small split-face study, a review and in vitro data, with no registered trials. A confounder is that Malassezia folliculitis mimics acne. A well-designed trial is needed before any clinical consideration.
+The TxGNN score for acne is very high (0.9954), but the supporting evidence is limited to a small split-face study, a review and in vitro data, with no registered trials. A confounder is that Malassezia folliculitis mimics acne. A well-designed trial is needed before any clinical consideration.
 
 **To proceed, the following is needed:**
 - Randomised, controlled trials in well-characterised acne vulgaris, ideally excluding Malassezia folliculitis, with comparison against standard topical therapy
@@ -138,7 +132,6 @@ The TxGNN score for acne is very high (99.54%), but the supporting evidence is l
 - Confirmation of approved indications for the registered products
 - Assessment of whether existing topical formulations are suitable for acne, including tolerability on facial skin
 
-**Note on other predictions:** Superficial mycosis overlaps with labelled indications, so it is the closest to a "Proceed with Guardrails" case, but it is not true repurposing. The remaining predictions (deep or hair-shaft dermatophyte infections, blastomycosis) are limited by topical penetration, historical evidence or lack of a mechanistic link.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

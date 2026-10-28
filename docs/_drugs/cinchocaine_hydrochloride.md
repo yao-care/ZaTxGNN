@@ -8,6 +8,7 @@ nav_order: 123
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cinchocaine Hydrochloride
@@ -51,8 +52,8 @@ A meaningful repurposing evaluation cannot proceed until the two identified crit
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A — pipeline did not complete |
 | Evidence Level | L5 — No model predictions or studies available |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 ---

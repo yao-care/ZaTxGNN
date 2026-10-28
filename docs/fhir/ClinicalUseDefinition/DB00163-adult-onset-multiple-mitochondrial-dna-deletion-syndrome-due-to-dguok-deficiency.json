@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00163",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00163"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "adult-onset-multiple-mitochondrial-dna-deletion-syndrome-due-to-dguok-deficiency",
-          "display": "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency"
-        }
-      ],
-      "text": "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency"
+      "concept": {
+        "text": "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9995
     }
   ]
 }

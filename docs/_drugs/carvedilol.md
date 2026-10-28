@@ -2,19 +2,19 @@
 layout: default
 title: Carvedilol
 parent: Model Prediction Only (L5)
-nav_order: 102
+nav_order: 101
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Carvedilol: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+last_modified_at: 2026-10-27
+description: "Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Carvedilol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,129 +33,81 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Carvedilol: From Hypertension to Malignant Renovascular Hypertension
+## Carvedilol: non-selective beta-blocker with alpha-1 blocking activity → malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Carvedilol is a beta-blocker (with additional alpha-1 blocking activity) originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
-but there are currently **0 clinical trials** and **0 publications** directly supporting this prediction. It is a model prediction only.
-
----
+Carvedilol is an oral beta-blocker that also blocks alpha-1 adrenergic receptors and has antioxidant activity. The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**. This is a model prediction only, with **no clinical trials** and **no publications** currently supporting this specific direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder); the SAHPRA registration text on file contains no indication wording, so this comes from the knowledge-graph indication data |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.55% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, carvedilol is a non-selective beta-blocker with alpha-1 blocking activity. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant renovascular hypertension.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, carvedilol combines beta-blockade with alpha-1 blockade. Together these lower blood pressure, and beta-blockade is also expected to reduce renin release.
 
-Lowering peripheral vascular resistance (alpha-1 blockade) and reducing renin release (beta-1 blockade) are plausibly relevant to renovascular hypertension, where renin-angiotensin activation drives the blood pressure rise.
+Malignant hypertensive renal disease is kidney injury caused by severe, uncontrolled blood pressure. Lowering blood pressure and suppressing renin could therefore be relevant. Carvedilol's reported antioxidant and anti-fibrotic properties might add some benefit, but this has not been demonstrated for this condition.
 
-The high TxGNN score most likely reflects similarity to the already-approved hypertension indication rather than disease-specific evidence. No trials or publications were found for this severe, accelerated form of hypertension. Oral carvedilol is also not a standard acute therapy for hypertensive emergencies.
-
-**Other predictions in the same list (all model predictions, none corroborated by clinical data):**
-
-| Predicted Indication | TxGNN Score | Evidence Level | Comment |
-|------|------|------|------|
-| Malignant hypertensive renal disease | 99.55% | L5 | Plausible via blood pressure lowering and renin suppression; largely overlaps with the existing hypertension indication; no trials or literature |
-| Pulmonary hypertension with unclear multifactorial mechanism | 99.54% | L5 | Beta-blockers are generally used cautiously in pulmonary arterial hypertension because of concerns about right ventricular function; no trials or literature |
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.54% | L4 | Preclinical support only (see below) |
-| Braddock syndrome | 99.37% | L5 | No mechanistic rationale evident; no trials or literature |
-
-For pulmonary hypertension owing to lung disease and/or hypoxia, the indirect preclinical findings are:
-- Carvedilol reversed hypertension induced by chronic intermittent hypoxia in rats (PMID 26291659).
-- Carvedilol inhibited right ventricular hypertrophy induced by chronic hypobaric hypoxia (PMID 16639551).
-- Adrenergic blockade reversed right heart remodelling in pulmonary hypertensive rats (PMID 20508210).
-
-These findings concern animal models or systemic hypertension. They do not show pulmonary hypertension outcomes in humans.
-
----
+There are important limitations:
+- No clinical trials or publications on this condition were found in the data compiled for this report.
+- The condition is closely tied to hypertensive emergencies, where oral carvedilol is not a standard acute therapy.
+- The high score largely reflects overlap with the drug's general blood-pressure-lowering effect, so it does not by itself show added value.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for the top-ranked prediction (malignant renovascular hypertension) or for any of the other predictions listed above.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for the top-ranked prediction (malignant renovascular hypertension).
-
-For the related prediction *pulmonary hypertension owing to lung disease and/or hypoxia*, the most relevant publications retrieved were:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [19789971](https://pubmed.ncbi.nlm.nih.gov/19789971/) | 2009 | Review | Cardiovasc Drugs Ther | Effects of beta-blockers on lung function in heart failure; the traditional view that they are unsuitable with impaired lung function has recently been challenged |
-| [28862654](https://pubmed.ncbi.nlm.nih.gov/28862654/) | 2017 | Review | Nutrients | Antioxidant strategies for cardiovascular conditions linked to oxidative stress |
-| [24798657](https://pubmed.ncbi.nlm.nih.gov/24798657/) | 2014 | Crossover study (11 patients) | J Clin Hypertens | Nighttime nifedipine vs carvedilol 20 mg on sleep blood pressure in hypertensive patients with sleep apnoea |
-| [26291659](https://pubmed.ncbi.nlm.nih.gov/26291659/) | 2015 | Preclinical (animal) | Eur J Pharmacol | Carvedilol reversed hypertension induced by chronic intermittent hypoxia in rats |
-| [16639551](https://pubmed.ncbi.nlm.nih.gov/16639551/) | 2006 | Preclinical (animal) | Pflugers Arch | Carvedilol inhibited right ventricular hypertrophy induced by chronic hypobaric hypoxia |
-| [20508210](https://pubmed.ncbi.nlm.nih.gov/20508210/) | 2010 | Preclinical (animal) | Am J Respir Crit Care Med | Adrenergic receptor blockade reversed right heart remodelling and dysfunction in pulmonary hypertensive rats |
-| [25187802](https://pubmed.ncbi.nlm.nih.gov/25187802/) | 2014 | Preclinical (in vitro) | Exp Ther Med | Carvedilol reduced cardiomyocyte apoptosis after simulated ischaemia/reperfusion via the TLR4/NF-κB pathway |
-| [31200253](https://pubmed.ncbi.nlm.nih.gov/31200253/) | 2019 | Preclinical | Biomed Pharmacother | Cardioprotective effects of carvedilol on ischaemia/reperfusion injury via AMPK signalling |
-| [10862260](https://pubmed.ncbi.nlm.nih.gov/10862260/) | 2000 | Review (toxicology) | Presse Med | Beta-blocker intoxication; carvedilol is among the more toxic agents in overdose |
-
-Several other retrieved papers (indole neuroprotectants, cholangiocarcinoma, triple-negative breast cancer, uveal melanoma, miR-150 cardiac remodelling) are off-topic and are not listed.
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 37/7.1.3/0281 | Carvedilol unicorn | Tablet (oral) | Not specified in the data compiled for this report |
+| Reg. No. 37/7.1.3/0281 | Carvedilol unicorn | Tablet (oral) | Not recorded in the local data |
 
-Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
-
----
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-**Contraindications suggested by the knowledge graph (not label text):** these come from drug-disease contraindication links and must be confirmed against the SAHPRA Professional Information (PI).
-- Respiratory: asthma (including intrinsic and allergic asthma), bronchitis, bronchial disease, pulmonary emphysema
-- Cardiac conduction: atrioventricular block, sick sinus syndrome (including the familial form)
-- Circulatory: hypotensive disorder, peripheral vascular disease, peripheral arterial disease, intermittent vascular claudication, Prinzmetal angina
-- Metabolic: diabetes mellitus, diabetic ketoacidosis
-- Other: liver failure, anaphylaxis, intraoperative floppy iris syndrome
+- **Drug Interactions**: 100 interactions are recorded and 20 are shown in the data compiled for this report. The most important listed is a **Major** interaction with **epinephrine**. **Moderate** interactions include:
+  - corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
+  - anticholinergics (atropine, hyoscyamine)
+  - bupropion
+  - morphine
+  - lorcaserin
+  - canagliflozin
+  - acetohexamide
+  - calcium salts (phosphate, acetate, carbonate, citrate)
 
-The respiratory contraindications are particularly relevant to any use in pulmonary hypertension owing to lung disease.
+  **Minor** interactions include acetylsalicylic acid, aluminium hydroxide and attapulgite.
 
-**Drug interactions (100 recorded; examples from the interaction database):**
-- **Major:** Epinephrine
-- **Moderate:** hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, morphine, bupropion, atropine, hyoscyamine, lorcaserin, canagliflozin, acetohexamide, and calcium salts (phosphate, acetate, carbonate, citrate)
-- **Minor:** acetylsalicylic acid, aluminium hydroxide, attapulgite
-
-Please refer to the SAHPRA-approved Professional Information (PI) for official warnings and contraindications. Report adverse drug reactions to SAHPRA.
-
----
+Warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5), with no clinical trials or publications for malignant renovascular hypertension. The high score likely reflects similarity to the existing hypertension indication. The related pulmonary hypertension prediction has only indirect animal evidence (L4), and carvedilol's respiratory contraindications add caution.
+- The prediction rests on a computational score alone (evidence level L5), with no trials or publications on this condition.
+- Oral carvedilol is not a standard acute therapy in this setting, and the mechanistic rationale largely overlaps with its general blood-pressure-lowering effect.
 
 **To proceed, the following is needed:**
-- Disease-specific clinical or observational data in renovascular hypertension
-- Mechanism of action data (MOA)
-- SAHPRA package insert warnings and contraindications (this blocks safety screening)
-- Approved indication text for the SAHPRA registration
-- Clarification of whether oral carvedilol has any role in hypertensive emergency-type conditions
-- For pulmonary hypertension: human data on right ventricular safety and respiratory tolerability
+- A literature and trial search that directly addresses malignant hypertensive renal disease and carvedilol
+- Mechanism of action data and the SAHPRA PI warnings and contraindications
+- Clarification of whether any role exists outside acute hypertensive emergencies, such as long-term renal protection
+- A review of the interaction profile for patients likely to receive the drug in this setting
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

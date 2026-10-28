@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Amiloride
-parent: Moderate Evidence (L3-L4)
-nav_order: 25
-evidence_level: L4
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Amiloride: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension and congestive heart failure"
+parent: Model Prediction Only (L5)
+nav_order: 24
+evidence_level: L5
+indication_count: 5
 monitor_inn: "AMILORIDE"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
+last_modified_at: 2026-10-27
+description: "Amiloride: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Amiloride
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,38 +33,30 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Amiloride: From Hypertension to Malignant Renovascular Hypertension
+## Amiloride: potassium-sparing diuretic (ENaC blocker) → malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Amiloride is a potassium-sparing diuretic, originally used for hypertension and congestive heart failure.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
-but there are currently **no registered clinical trials** and only **1 indirect publication** supporting this direction.
+Amiloride is a potassium-sparing diuretic that is marketed in South Africa. The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**, but **no clinical trials and no publications** in the data compiled for this report address this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and congestive heart failure (no approved indication text is recorded in the SAHPRA registrations compiled for this report; the original indications come from the TxGNN knowledge graph) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9982 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Amiloride is generally known to block the epithelial sodium channel (ENaC). It is already used for hypertension and heart failure, and it may be applicable to related hypertensive conditions.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Amiloride is generally known as a potassium-sparing diuretic that blocks epithelial sodium channels, and it has a blood-pressure-lowering effect. This makes a link to hypertension-related kidney disease plausible in theory.
 
-The relationship to the new indication is weak, however. Malignant renovascular hypertension is mainly driven by activation of the renin-angiotensin system, not by sodium-channel or mineralocorticoid mechanisms. The only linked paper (a 2003 review on mineralocorticoid hypertension) offers indirect support. The very high TxGNN score most likely reflects the closeness of this condition to the known hypertension indication in the knowledge graph, rather than new biology.
-
-Other predictions in the same list were also assessed:
-- **Malignant hypertensive renal disease** (score 99.82%, L5): prediction only, with no trials or literature. Hyperkalaemia risk in renal impairment is a major concern.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.81%, L4): there is a plausible preclinical rationale. Hypoxia downregulates ENaC in alveolar epithelium, and ASIC1 in smooth muscle is implicated in hypoxic pulmonary hypertension. There are no clinical trials, and most of the 20 retrieved papers are off-target.
-- **Chronic pulmonary heart disease** (score 99.68%, L3): amiloride is already used as adjunctive therapy in heart failure, but the supporting studies address general or left-sided heart failure, so the evidence is indirect.
-- **Pulmonary hypertension with unclear multifactorial mechanism and Braddock syndrome**: prediction only (L5), with no supporting data.
+The prediction looks like a neighbour of the hypertension-related uses of the drug. Malignant hypertensive renal disease is a severe, acute form of kidney damage from very high blood pressure. No study in the compiled data tests amiloride in this condition. Its potassium-retaining effect is also a concern when kidney function is impaired, because of the risk of hyperkalaemia.
 
 ## Clinical Trial Evidence
 
@@ -72,57 +64,38 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12929904](https://pubmed.ncbi.nlm.nih.gov/12929904/) | 2003 | Review | J Hypertens Suppl | Overview of investigating mineralocorticoid hypertension (primary aldosteronism, hypokalaemia, low renin). Only indirect support for the predicted indication. |
-
-For context, the literature linked to the other predicted indications includes:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [1888694](https://pubmed.ncbi.nlm.nih.gov/1888694/) | 1991 | Clinical study (double-blind crossover) | Cardiovasc Drugs Ther | Amiloride improved haemodynamics in 11 chronic heart failure patients on digoxin (chronic pulmonary heart disease). |
-| [2888942](https://pubmed.ncbi.nlm.nih.gov/2888942/) | 1987 | RCT | Lancet | Captopril alone vs frusemide plus amiloride in mild heart failure (14 patients); 4 patients on captopril alone deteriorated. |
-| [25398716](https://pubmed.ncbi.nlm.nih.gov/25398716/) | 2015 | Preclinical review | Exp Physiol | Smooth muscle ASIC1 is implicated in hypoxic pulmonary hypertension. |
-| [9376126](https://pubmed.ncbi.nlm.nih.gov/9376126/) | 1997 | Preclinical | Am J Respir Cell Mol Biol | Hypoxia reduced amiloride-sensitive sodium channel activity in rat alveolar cells. |
-| [15219007](https://pubmed.ncbi.nlm.nih.gov/15219007/) | 2004 | Cohort/physiological | Eur Respir J | High altitude impairs nasal sodium transport in HAPE-prone subjects. |
-| [8615380](https://pubmed.ncbi.nlm.nih.gov/8615380/) | 1996 | Case report | Am J Med Sci | Severe hyperkalaemia in an elderly heart failure patient on trimethoprim-sulfamethoxazole (safety signal). |
+Currently no related literature available.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. Q/18.1/168 | Sandoz Co-Amilozide | Tablet | Not recorded |
-| Reg. No. V/18.1/260 | Adco-retic 50mg/5mg | Tablet | Not recorded |
-| Reg. No. L/18.1/396 | Amiloretic | Tablet | Not recorded |
-| Reg. No. U/18.1/0040 | Amiloretic hs 25mg/2.5mg | Tablet | Not recorded |
+| Q/18.1/168 | Sandoz Co-Amilozide | Tablet | Not recorded in local data |
+| V/18.1/260 | Adco-retic 50mg/5mg | Tablet | Not recorded in local data |
+| L/18.1/396 | Amiloretic | Tablet | Not recorded in local data |
+| U/18.1/0040 | Amiloretic hs 25mg/2.5mg | Tablet | Not recorded in local data |
 
-All four registrations are valid oral tablets. Essential Medicines List (EML) status is not covered by the data compiled for this report.
+All four registrations are currently valid, and the product is available as an oral tablet. The approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-- **Contraindications / cautions (from knowledge graph associations, not label text)**: kidney disease, anuria, diabetic nephropathy, liver disease, hepatic coma/encephalopathy, pancreatitis, gallbladder disease, diabetes mellitus and diabetic ketoacidosis, gout and hyperuricaemia, acidosis (including lactic acidosis), potassium deficiency disease, hyperparathyroidism, systemic lupus erythematosus, and neonatal jaundice. These should be verified against the SAHPRA-approved Professional Information.
-- **Hyperkalaemia**: a recognised concern with potassium-sparing diuretics, particularly in renal impairment, in elderly patients, and with interacting drugs (see the trimethoprim-sulfamethoxazole case report above).
-- **Drug interactions**: 100 interactions were identified. The ones listed are mostly Moderate:
-  - Corticosteroids: hydrocortisone, betamethasone, budesonide, dexamethasone
-  - Antidiabetic agents: metformin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, exenatide
-  - Laxatives: bisacodyl, castor oil, glycerin, lactitol, lactulose
-  - Others: bupropion, dronabinol
-  - Minor: doxycycline, amoxicillin, cimetidine
+- **Drug Interactions**: The interaction screen returned 100 entries. Examples at moderate level include hydrocortisone, betamethasone, dexamethasone, budesonide, metformin, bupropion, and the SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin). Doxycycline, amoxicillin and cimetidine are listed as minor.
+- **Potassium and renal caution**: Hyperkalaemia in patients with impaired kidney function is the main safety concern for this prediction, since the predicted disease involves the kidney.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full warnings. Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high model score alone. There are no clinical trials, the single linked paper is an indirect review, and the proposed mechanism does not match the renin-driven biology of malignant renovascular hypertension. Hyperkalaemia and renal risks add to the concern. Of the related predictions, pulmonary hypertension due to lung disease or hypoxia (preclinical rationale) and chronic pulmonary heart disease (indirect heart-failure data) merit further research questions.
+The prediction has a very high model score (0.9982), but there are no trials or publications on this disease, so the evidence level is L5. The hyperkalaemia risk in renal impairment adds a safety concern.
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action data (MOA) for amiloride
-- The SAHPRA package insert warnings and contraindications, and the approved indication text for each registration
-- Direct clinical or mechanistic evidence in malignant renovascular hypertension (or in the more promising hypoxic pulmonary hypertension and cor pulmonale indications)
-- A potassium and renal function monitoring plan for the target population
+- Published or registered studies of amiloride in malignant hypertensive renal disease, or a well-supported mechanistic rationale
+- Mechanism-of-action data
+- SAHPRA Professional Information warnings and contraindications, to complete safety screening
+- A potassium and renal-function monitoring plan for patients with kidney impairment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

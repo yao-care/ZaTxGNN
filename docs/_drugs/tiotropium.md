@@ -4,17 +4,17 @@ title: Tiotropium
 parent: High Evidence (L1-L2)
 nav_order: 449
 evidence_level: L1
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Bronchitis, asthma, intrinsic asthma, allergic asthma…"
 monitor_inn: "TIOTROPIUM"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Tiotropium: From Bronchitis, Asthma and Emphysema to Obstructive Lung Disease
+## Tiotropium: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is largely an on-label extension, not true repurposing, because the predict
 
 | Item | Content |
 |------|------|
-| Original Indication | Bronchitis, asthma, intrinsic asthma, allergic asthma, pulmonary emphysema (from the knowledge graph; the SAHPRA indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

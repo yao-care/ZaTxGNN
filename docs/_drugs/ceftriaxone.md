@@ -4,17 +4,17 @@ title: Ceftriaxone
 parent: Model Prediction Only (L5)
 nav_order: 106
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (e.g. pneumonia, bacterial meningitis…"
 monitor_inn: "Ceftriaxone"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media", "premalignant hematological system disease", "middle ear disease", "otosalpingitis"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
 ---
 
 # Ceftriaxone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ceftriaxone: From Bacterial Infections to Infectious Otitis Media
+## Ceftriaxone: From Bacterial Infections to Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ceftriaxone is a third-generation cephalosporin antibiotic, originally used for bacterial infections such as pneumonia, meningitis, gonorrhoea and salmonellosis.
-The TxGNN model's top-ranked prediction is **hyperamylasemia** (99.39%), but this has no supporting evidence and no plausible mechanism.
+The TxGNN model's top-ranked prediction is **hyperamylasemia** (0.9939), but this has no supporting evidence and no plausible mechanism.
 The best-supported prediction is **infectious otitis media**, with **1 registered trial (which does not test ceftriaxone)** and **18 publications**. This is largely an on-spectrum use of the antibiotic rather than true repurposing.
 
 ---
@@ -50,26 +50,23 @@ The best-supported prediction is **infectious otitis media**, with **1 registere
 |------|------|
 | Original Indication | Bacterial infections (e.g. pneumonia, bacterial meningitis, gonorrhoea, salmonellosis). SAHPRA indication text is not available in the data compiled for this report. |
 | Predicted New Indication | Hyperamylasemia (top-ranked by TxGNN; see note below) |
-| TxGNN Prediction Score | 99.39% |
+| TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 for the top-ranked prediction (L3 for infectious otitis media, the best-supported candidate) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 6 |
+| South Africa Market Status | Marketed (valid licences: 6 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold (top-ranked prediction); Proceed with Guardrails is not yet justified for any candidate |
 
 **Note:** Several predictions score above 99%, but the score does not reflect evidence quality. The ten predictions below are summarised by evidence strength.
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 1 | Hyperamylasemia | 99.39% | L5 | Hold. The literature suggests an adverse-effect direction, not benefit |
-| 2 | Polyclonal hyperviscosity syndrome | 99.39% | L5 | Hold. No rationale or evidence |
-| 3 | Congenital analbuminemia | 99.37% | L5 | Hold. No rationale or evidence |
-| 4 | Infectious otitis media | 99.26% | L3 | Research question. Biologically plausible |
-| 5 | Blood group incompatibility | 99.12% | L5 | Hold. No mechanistic link |
-| 6 | Suppurative otitis media | 99.02% | L3 | Research question |
-| 7 | Chronic otitis media | 99.01% | L4 | Hold. Limited activity against the dominant pathogens |
-| 8 | Premalignant haematological system disease | 98.99% | L5 | Hold. Likely a graph-based artefact |
-| 9 | Middle ear disease | 98.99% | L4 | Research question. Overlaps with otitis media |
-| 10 | Otosalpingitis | 98.95% | L5 | Hold. Model prediction only |
+| 1 | Hyperamylasemia | 0.9939 | L5 | Hold. The literature suggests an adverse-effect direction, not benefit |
+| 2 | Polyclonal hyperviscosity syndrome | 0.9939 | L5 | Hold. No rationale or evidence |
+| 3 | Congenital analbuminemia | 0.9937 | L5 | Hold. No rationale or evidence |
+| 4 | Infectious otitis media | 0.9926 | L3 | Research question. Biologically plausible |
+| 5 | Blood group incompatibility | 0.9912 | L5 | Hold. No mechanistic link |
+| 6 | Suppurative otitis media | 0.9902 | L3 | Research question |
+| 7 | Chronic otitis media | 0.9901 | L4 | Hold. Limited activity against the dominant pathogens |
 
 ---
 
@@ -81,7 +78,7 @@ Detailed mechanism of action data is not available for this report. Ceftriaxone 
 
 **Otitis-media group (ranks 4, 6, 7, 9, 10):** Acute otitis media is caused mainly by *Streptococcus pneumoniae*, *Haemophilus influenzae* and *Moraxella catarrhalis*, all within ceftriaxone's spectrum. Single-dose intramuscular ceftriaxone is already used clinically for acute otitis media. The picture is weaker in chronic disease, which is dominated by *Pseudomonas aeruginosa*, *Staphylococcus aureus* and biofilm-forming organisms, against which ceftriaxone has limited activity (topical therapy is generally preferred).
 
-**Ranks 2, 3, 5 and 8** (hyperviscosity, analbuminemia, blood group incompatibility, premalignant haematological disease) have no mechanistic rationale. They are most likely knowledge-graph artefacts.
+**Ranks 2, 3, 5 and 8** (hyperviscosity, analbuminemia, blood group incompatibility, premalignant haematological disease) have no mechanistic rationale. They are most likely TxGNN model (deep learning) artefacts.
 
 ---
 

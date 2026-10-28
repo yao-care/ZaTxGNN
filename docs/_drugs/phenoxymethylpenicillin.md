@@ -4,17 +4,17 @@ title: Phenoxymethylpenicillin
 parent: Model Prediction Only (L5)
 nav_order: 370
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Streptococcal infection, pharyngitis, otitis media…"
 monitor_inn: "Phenoxymethylpenicillin"
-predicted_indications: ["epiglottitis", "laryngitis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "urogenital tuberculosis", "lymph node palisaded myofibroblastoma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma"]
+predicted_indications: ["epiglottitis", "laryngitis"]
+description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenoxymethylpenicillin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenoxymethylpenicillin: From Streptococcal and Upper Respiratory Tract Infections to Epiglottitis
+## Phenoxymethylpenicillin: Epiglottitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **epiglottitis**, with a very h
 
 | Item | Content |
 |------|------|
-| Original Indication | Streptococcal infection, pharyngitis, otitis media, respiratory tract infections, erysipelas, scarlet fever (the SAHPRA registration record contains no indication text; these are from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -73,12 +73,7 @@ The high score is therefore a model output only and should be interpreted cautio
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Laryngitis | 99.85% | L5 | Mostly viral. The only retrieved paper tested erythromycin, not penicillin V. Its abstract notes phenoxymethylpenicillin had no effect on the clinical course in earlier studies. |
-| Urinary tract infection | 98.89% | L4 | Poor activity against the Gram-negative organisms that cause most UTIs. Only indirect evidence (asymptomatic bacteriuria in girls). |
-| Ureaplasma urethritis | 98.78% | L5 | Ureaplasma has no cell wall, so beta-lactams are ineffective. Likely a false positive. |
-| Gonococcal urethritis | 98.78% | L5 | Widespread resistance. Guidelines recommend ceftriaxone-based regimens. |
-| Urogenital tuberculosis | 98.48% | L5 | Intrinsic resistance of *M. tuberculosis*. Likely a false positive. |
-| Lymph node palisaded myofibroblastoma, celiac trunk compression syndrome, abdominal ectopic pregnancy, abdominal cystic lymphangioma | 98.4% | L5 | Non-infectious conditions with no plausible mechanism. Likely knowledge-graph artefacts. |
+| Laryngitis | 0.9985 | L5 | Mostly viral. The only retrieved paper tested erythromycin, not penicillin V. Its abstract notes phenoxymethylpenicillin had no effect on the clinical course in earlier studies. |
 
 ---
 

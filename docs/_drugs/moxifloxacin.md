@@ -4,17 +4,17 @@ title: Moxifloxacin
 parent: Model Prediction Only (L5)
 nav_order: 333
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections"
 monitor_inn: "MOXIFLOXACIN"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm", "bubonic plague"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
+description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Moxifloxacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Moxifloxacin: From Bacterial Infections to Hyperamylasemia
+## Moxifloxacin: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ It is a computational signal only, and no plausible mechanism has been identifie
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (streptococcal infection, bacterial pneumonia, peritonitis, staphylococcal infection, plague and others, per the knowledge-graph indication list; the SAHPRA indication text is not stated for the registered products) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 For hyperamylasemia, **no mechanistic link could be identified**. Hyperamylasemia is a laboratory finding, usually caused by pancreatic, salivary gland or renal conditions. An antibacterial has no known role in lowering serum amylase. The high TxGNN score (rank 236 among all predictions) appears to be a model artefact, not a pharmacological signal.
 
-The other predictions for this drug show the same pattern. Most also have no supporting data, and some point toward safety concerns instead. For example, fluoroquinolones carry a known risk of peripheral neuropathy and dysglycaemia. The one exception is **bubonic plague** (prediction rank 10, score 99.41%). It is a close extension of the existing plague indications and is supported by preclinical studies. It is discussed in the conclusion.
+The other predictions for this drug show the same pattern. Most also have no supporting data, and some point toward safety concerns instead. For example, fluoroquinolones carry a known risk of peripheral neuropathy and dysglycaemia.
 
 ---
 
@@ -93,7 +93,7 @@ Both registrations are valid single-ingredient products. No combination products
 
 ## Safety Considerations
 
-- **Contraindications and risk conditions (knowledge-graph associations, not label text):** The drug is linked to the following conditions.
+- **Contraindications and risk conditions (TxGNN model (deep learning) output, not label text):** The drug is linked to the following conditions. These links come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
   - Cardiac: long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial ischaemia, coronary artery disease.
   - Neurological and neuromuscular: epilepsy, myasthenia gravis (including adult-onset), neuromuscular junction disease, peripheral neuropathy and other peripheral nervous system disease.
   - Tendon and joint: tendinitis, periarthritis, exostosis.
@@ -120,7 +120,6 @@ Label warnings from the SAHPRA package insert were not available. Please refer t
 - A credible mechanistic hypothesis linking moxifloxacin to amylase regulation, which is not currently available.
 - The SAHPRA package insert (warnings, contraindications and approved indications), which should be obtained and reviewed before any safety screening.
 - Detailed mechanism of action data from DrugBank.
-- Consideration of re-prioritising **bubonic plague** as the more credible candidate. It has L3 preclinical support from animal and in vitro pharmacodynamic studies and is close to the existing plague indications. It would still need human clinical evidence and a local regulatory review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Trandolapril
 parent: Model Prediction Only (L5)
 nav_order: 455
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Trandolapril: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder). The SAHPRA registration record…"
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trandolapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Trandolapril: From Hypertension to Malignant Renovascular Hypertension
+## Trandolapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Trandolapril is an ACE inhibitor originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but **no clinical trials** and **no publications** specific to this indication were found, so the support is a **model prediction only**.
 
 ---
@@ -48,12 +47,12 @@ but **no clinical trials** and **no publications** specific to this indication w
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The SAHPRA registration record contains no approved indication text. |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.92% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,11 +69,11 @@ There is also an important safety concern. ACE inhibitors can cause an acute dec
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Malignant hypertensive renal disease | 99.92% | L5 | RAAS inhibition may reduce intraglomerular pressure and proteinuria. No specific evidence; overlaps with the approved hypertension use. |
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.92% | L4 | Only indirect animal and preclinical papers. No human evidence; ACE inhibitors are not established therapy here. |
-| Pulmonary hypertension with unclear multifactorial mechanism | 99.92% | L5 | General vasoactive and remodelling rationale only. |
-| Braddock syndrome | 99.88% | L5 | No identifiable mechanistic link; the score likely reflects network proximity rather than biology. |
-| Chronic pulmonary heart disease | 99.19% | L4 | A single 1996 rat study; no human confirmation. |
+| Malignant hypertensive renal disease | 0.9992 | L5 | RAAS inhibition may reduce intraglomerular pressure and proteinuria. No specific evidence; overlaps with the approved hypertension use. |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9992 | L5 | Only indirect animal and preclinical papers. No human evidence; ACE inhibitors are not established therapy here. |
+| Pulmonary hypertension with unclear multifactorial mechanism | 0.9992 | L5 | General vasoactive and remodelling rationale only. |
+| Braddock syndrome | 0.9988 | L5 | No identifiable mechanistic link; the score likely reflects network proximity rather than biology. |
+| Chronic pulmonary heart disease | 0.9919 | L4 | A single 1996 rat study; no human confirmation. |
 
 ---
 
@@ -134,7 +133,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for official w
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials or literature for malignant renovascular hypertension. It also overlaps with the approved hypertension use, and ACE inhibitors carry a known renal risk in bilateral renal artery stenosis.
+It also overlaps with the approved hypertension use, and ACE inhibitors carry a known renal risk in bilateral renal artery stenosis.
 
 **To proceed, the following is needed:**
 - The SAHPRA Professional Information, to confirm warnings, contraindications and the approved indication

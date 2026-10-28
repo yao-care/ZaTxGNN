@@ -8,6 +8,7 @@ nav_order: 83
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Bupropion Hydrochloride
@@ -53,8 +54,8 @@ Multiple blocking data gaps — including absent mechanism of action data, missi
 | Predicted New Indication | Not available — no TxGNN prediction generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not evaluable |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -107,7 +108,7 @@ No TxGNN repurposing predictions were generated for bupropion hydrochloride in t
 
 - **Resolve DG001 (Blocking):** Retrieve the approved Professional Information (PI) from SAHPRA or a recognised pharmacopoeia source; extract warnings and contraindications.
 - **Resolve DG002 (High):** Query DrugBank API using the drug name "bupropion hydrochloride" or its synonyms (bupropion, amfebutamone) to obtain the DrugBank ID (expected: DB01156) and MOA data.
-- **Re-run TxGNN pipeline:** With a confirmed DrugBank ID, re-run the knowledge graph prediction to generate repurposing candidates and populate `predicted_indications`.
+- **Re-run TxGNN pipeline:** With a confirmed DrugBank ID, re-run the TxGNN model (deep learning) prediction to generate repurposing candidates and populate `predicted_indications`.
 - **Confirm SAHPRA status:** Manually verify the South African register for current or historical bupropion product registrations.
 - **Generate a new evidence pack (v5):** Once the above steps are complete, re-submit for full evaluation.
 

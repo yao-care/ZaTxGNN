@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Citalopram
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 126
-evidence_level: L5
+evidence_level: L2
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L5). Approved use: Depressive and anxiety disorders (major depressive disorder…"
 monitor_inn: "CITALOPRAM"
-predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder"]
+predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)"]
 ---
 
 # Citalopram
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The data compiled for this report include **4 clinical trials** (none confirmed 
 |------|------|
 | Original Indication | Depressive and anxiety disorders (major depressive disorder, unipolar and endogenous depression, dysthymic disorder, anxiety disorder, neurotic disorder). No approved indication text was available from the SAHPRA records. |
 | Predicted New Indication | Obsessive-compulsive disorder |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 (as assigned in the compiled data). This should be read cautiously, because no completed trial directly confirms citalopram in OCD; the supporting evidence is class-level (SSRI) and small open-label citalopram studies. |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 The original indications (depression and anxiety disorders) share serotonergic pathophysiology with OCD, which is often treated with SSRIs. Citalopram-specific OCD reports include treatment-resistant adult OCD (PMID 10572334), a concentration-response study (PMID 15089116), a single-blind comparison with fluvoxamine and paroxetine (PMID 9241005), and open-label studies in children and adolescents (PMID 9466233, 12839522).
 
-Other predicted indications (histrionic, schizotypal, paranoid and schizoid personality disorders) share an identical score (0.997) and have no or only indirect supporting evidence. They are not recommended for further evaluation at this stage (decision: Hold).
+Other predicted indications (histrionic personality disorder (disease) 0.9968, schizotypal personality disorder 0.9968, paranoid personality disorder 0.9968 and schizoid personality disorder 0.9968) share an identical score and have no or only indirect supporting evidence. They are not recommended for further evaluation at this stage (decision: Hold).
 
 ## Clinical Trial Evidence
 

@@ -48,10 +48,10 @@ The prediction is not mechanistically plausible, and the evidence supports a **H
 |------|------|
 | Original Indication | Anaerobic bacterial infections, giardiasis, bacterial vaginosis, peritonitis, rosacea (the SAHPRA registration data compiled for this report contain no approved indication text) |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,8 +69,8 @@ Nine further predictions were assessed. Two show somewhat more support, though s
 | 9 | Cap polyposis | L3 | Case reports and case series report remission with metronidazole; one paper proposes an anti-inflammatory mechanism. No controlled trials. Candidate for a low-risk exploratory study. |
 | 10 | Vulvar ulceration | L3 | Standard treatment for amoebic genital or cutaneous ulcers; used in vulvar Crohn's disease (retrospective study of 22 patients). Benefit depends on cause. |
 | 8 | Myiasis | L4 | Used as an adjunct for anaerobic wound infection and odour control; ivermectin and mechanical removal are primary treatments. |
-| 3 | Ulcerative proctosigmoiditis | L4 | Only general IBD reviews; metronidazole is proven in Crohn's disease, not ulcerative colitis. |
-| 4 | Nocardiosis | L4 | Case reports of brain abscess only; standard therapy is TMP-SMX. |
+| 3 | Ulcerative proctosigmoiditis | L5 | Only general IBD reviews; metronidazole is proven in Crohn's disease, not ulcerative colitis. |
+| 4 | Nocardiosis | L5 | Case reports of brain abscess only; standard therapy is TMP-SMX. |
 | 2, 5, 6, 7 | Punctate epithelial keratoconjunctivitis, postmenopausal atrophic vaginitis, cryptococcal meningitis, papillary conjunctivitis | L5 | No plausible mechanism or supporting evidence. |
 
 ## Clinical Trial Evidence

@@ -8,6 +8,7 @@ nav_order: 29
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amitriptyline
@@ -53,8 +54,8 @@ However, the current Evidence Pack contains **no TxGNN repurposing predictions**
 | Predicted New Indication | None — TxGNN returned no predictions |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable (pipeline did not complete) |
-| South Africa Market Status | Not registered with SAHPRA |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 ---

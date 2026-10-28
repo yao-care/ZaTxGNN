@@ -6,9 +6,9 @@ nav_order: 362
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Urinary tract infection, bronchitis, pneumonia…"
 monitor_inn: "Oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
+description: "Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Oxytetracycline
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Oxytetracycline: From Bacterial Infections to Chronic Rhinosinusitis
+## Oxytetracycline: Chronic rhinosinusitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,15 +45,15 @@ The TxGNN model's top-ranked prediction is **chronic rhinosinusitis**, but there
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, bronchitis, pneumonia, conjunctivitis and other bacterial infections (the SAHPRA indication text was not available, so this is taken from the knowledge-graph indication list) |
-| Predicted New Indication | Chronic rhinosinusitis (top-ranked prediction) |
-| TxGNN Prediction Score | 99.61% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Chronic rhinosinusitis |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
-**Note on other predictions:** The top 10 predictions all score between 99.27% and 99.61%. Nine of them have no trials or literature. Otitis externa (rank 10) is the only one with literature and is discussed below as the most evidence-supported candidate.
+**Note on other predictions:** The top 10 predictions all score between 0.9927 and 0.9961. Nine of them have no trials or literature. Otitis externa (rank 10) is the only one with literature and is discussed below as the most evidence-supported candidate.
 
 ## Why is This Prediction Reasonable?
 
@@ -62,7 +62,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 This is a plausible but unsupported link. No trials or publications were compiled for chronic rhinosinusitis, and the closely related prediction, chronic ethmoidal sinusitis, is likely a subtype of the same condition.
 
 Several other top predictions look weak:
-- **Paranasal sinus neoplasm:** There is no clear rationale for an antibiotic in a neoplasm. The score likely reflects graph proximity to sinus infections, and this is probably a false-positive signal.
+- **Paranasal sinus neoplasm:** There is no clear rationale for an antibiotic in a neoplasm. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and this is probably a false-positive signal.
 - **Chagas cardiomyopathy:** The causative organism is a protozoan, outside the usual antibacterial spectrum.
 - **Infective urethral stricture:** An established stricture is a structural problem that an antibiotic alone would not resolve.
 - **Post-bacterial disorder and post-infectious syndrome:** These are broad, non-specific categories.
@@ -75,7 +75,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature was found for chronic rhinosinusitis. The table below covers **otitis externa** (rank 10, TxGNN score 99.27%), the only predicted indication with literature. Study types were inferred from titles and should be verified.
+No literature was found for chronic rhinosinusitis. The table below covers **otitis externa** (rank 10, TxGNN score 0.9927), the only predicted indication with literature. Study types were inferred from titles and should be verified.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

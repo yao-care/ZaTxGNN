@@ -2,19 +2,19 @@
 layout: default
 title: Calcifediol
 parent: Model Prediction Only (L5)
-nav_order: 87
+nav_order: 86
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-15
-description: "Calcifediol: predicted new indication Obsolete vitamin D deficiency (evidence level L5). Approved use: Not stated in the SAHPRA registration data. The knowledge graph lists…"
+indication_count: 2
 monitor_inn: "CALCIFEDIOL"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "hereditary hypophosphatemic rickets", "vitamin D-dependent rickets"]
+predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis"]
+last_modified_at: 2026-10-27
+description: "Calcifediol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Calcifediol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,84 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Calcifediol: From Hypercalcaemia and Vitamin D-Related Bone and Mineral Disorders to Obsolete Vitamin D Deficiency
+## Calcifediol: Vitamin D metabolite (25-hydroxyvitamin D3) → obsolete vitamin D deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Calcifediol (25-hydroxyvitamin D3) is the main circulating form of vitamin D. The data compiled for this report list its original indications as hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, hypophosphataemia, rickets, osteomalacia and renal osteodystrophy.
-The TxGNN model predicts it may be effective for **obsolete vitamin D deficiency** (a flagged-obsolete ontology term), with **no clinical trials** and **no publications** supporting this specific prediction.
-Evidence is limited to model prediction only (L5).
+Calcifediol (25-hydroxyvitamin D3) is the main circulating form of vitamin D and the direct precursor of calcitriol. The TxGNN model predicts it may be relevant to **obsolete vitamin D deficiency**, a term flagged as obsolete in the disease ontology. No clinical trials or publications were found for this prediction, so it rests on model output alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data. The knowledge graph lists hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, hypophosphataemia, rickets, osteomalacia and renal osteodystrophy |
-| Predicted New Indication | Obsolete vitamin D deficiency |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | obsolete vitamin D deficiency |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, calcifediol is the direct circulating precursor of calcitriol (the active hormonal form of vitamin D) and the main marker of vitamin D status. Repletion in vitamin D deficiency is therefore mechanistically plausible.
+Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, calcifediol is the direct circulating precursor of calcitriol, the active hormone, and is the main marker of vitamin D status. Repletion in vitamin D deficiency is therefore mechanistically plausible.
 
-There is an important caveat. The predicted disease term is flagged as obsolete in the ontology. The very high TxGNN score (0.9999) probably reflects ontology proximity to the drug's existing indications (rickets, osteomalacia) rather than new, independent insight. No trials or literature were available, so this prediction should not be treated as clinical evidence.
+The disease term, however, is flagged as obsolete in the ontology. The very high score (0.9999) most likely reflects the term's closeness to the drug's existing associations, not independent clinical evidence. No trials or literature were supplied, so the prediction should be treated as a hypothesis only.
 
-### Other Predictions Considered
-
-| Predicted Indication | TxGNN Score | Evidence Level | Assessment |
-|------|------|------|------|
-| Renal tubular acidosis | 99.86% | L5 | Indirect and speculative. Vitamin D metabolites might help secondary bone disease, but there is no evidence that calcifediol corrects the underlying tubular defect. |
-| Hereditary hypophosphataemic rickets | 99.76% | L4 | Standard care is phosphate plus active vitamin D (calcitriol or alfacalcidol), or burosumab. Calcifediol may help maintain 25-OH vitamin D sufficiency but is not a primary therapy. |
-| Vitamin D-dependent rickets | 99.18% | L4 | The most mechanistically credible. In type 1B (CYP2R1 25-hydroxylase deficiency), calcifediol bypasses the enzyme block. Type 1A (1α-hydroxylase deficiency) would not benefit in the same way, because calcitriol is required. |
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no literature is available for the top predicted indication. Two publications were identified for lower-ranked predictions:
+Currently no related literature available.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38337700](https://pubmed.ncbi.nlm.nih.gov/38337700/) | 2024 | Review | Nutrients | Overview of rickets types and treatment with vitamin D and its analogues. Indirect evidence for hereditary hypophosphataemic rickets, with no calcifediol-specific efficacy data. |
-| [28548312](https://pubmed.ncbi.nlm.nih.gov/28548312/) | 2017 | Case report/Review | J Bone Miner Res | Describes 7 patients from 2 families with vitamin D-dependent rickets type 1B (25-hydroxylase deficiency). Supports biological plausibility but is descriptive, not a controlled study. |
+---
 
 ## South Africa Market Information
 
-Both registrations are valid single-ingredient oral capsules. Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed.
-
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| H2466 | Complenatal Ff | Capsule | Not available |
-| H2062 (ACT 101) | Filibon | Capsule | Not available |
+| H2466 | Complenatal Ff | Capsule | Not recorded |
+| H2062 (ACT 101) | Filibon | Capsule | Not recorded |
+
+Both registrations are currently valid single-ingredient records, and the available dosage form is oral capsule.
+
+---
 
 ## Safety Considerations
 
-- **Contraindication signals from the knowledge graph (not label text):** kidney disease, pyoureter, sarcoidosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, nephrolithiasis (including susceptibility caused by SLC26A1), acute urate nephropathy, hyperphosphataemia, hypervitaminosis, arteriosclerosis obliterans. Some of these overlap with the drug's listed indications, which reflects the graph's structure, so they need clinical interpretation against the approved PI.
-- **Drug interactions:** 57 interactions were identified, and the main ones are listed below.
-  - **Major:** cholecalciferol, calcitriol and burosumab. Combining with other vitamin D agents risks additive hypercalcaemia. Burosumab is a particular concern in X-linked hypophosphataemia.
-  - **Moderate:**
-    - Thiazide and thiazide-like diuretics (hydrochlorothiazide, bendroflumethiazide, benzthiazide, chlorothiazide, chlorthalidone)
-    - Enzyme-inducing anticonvulsants and barbiturates (carbamazepine, fosphenytoin, amobarbital, butalbital, butabarbital)
-    - Bile acid sequestrants (cholestyramine, colesevelam, colestipol)
-    - Aluminium hydroxide
-    - Topical calcipotriol and calcitriol
-    - Digitoxin
+**Drug Interactions** (57 interactions recorded; selected examples by severity):
+- **Major**: Cholecalciferol, Calcitriol, Burosumab
+- **Moderate**: Fosphenytoin, carbamazepine and barbiturates (amobarbital, butalbital, butabarbital), thiazide diuretics (hydrochlorothiazide, bendroflumethiazide, chlorothiazide, chlorthalidone), aluminium hydroxide, bile-acid sequestrants (cholestyramine, colesevelam, colestipol), digitoxin, topical calcipotriol and calcitriol
 
-Warnings and contraindications from the SAHPRA package insert were not available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+Combining calcifediol with other vitamin D products carries a risk of excess vitamin D effect and hypercalcaemia. Thiazides can also raise calcium levels.
+
+Conditions in which calcifediol is flagged as potentially problematic, from drug-disease relation data rather than label text: hypercalcaemia, nephrocalcinosis, nephrolithiasis, sarcoidosis, hyperphosphataemia, hypervitaminosis, kidney disease. Please confirm against the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction rests on an obsolete ontology term and a model score alone, with no trials or literature. The package insert safety information, which is a blocking gap, is also missing. Of the predictions, vitamin D-dependent rickets type 1B has the strongest mechanistic rationale, but only descriptive evidence.
+The prediction is supported only by the model score, with no trials or publications. The disease term is also obsolete in the ontology, so the score probably reflects ontology proximity and not new clinical insight. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert (warnings, contraindications and approved indications) for both registered products
-- Mechanism of action data (for example from DrugBank)
-- Mapping of the obsolete "vitamin D deficiency" term to a current ontology term, and a re-evaluation of the prediction
-- Controlled or systematic evidence for calcifediol in vitamin D-dependent rickets type 1B, the most credible candidate
-- A monitoring plan for serum calcium, phosphate and 25-OH vitamin D, particularly with renal impairment and with concomitant vitamin D agents or thiazides
+- Mapping of the obsolete term to a current vitamin D deficiency concept, then a focused literature and trial search
+- SAHPRA Professional Information (warnings, contraindications, approved indications) for the registered products
+- Detailed mechanism of action data
+- Review of the major interactions and the calcium and renal risk profile before considering any new-use plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

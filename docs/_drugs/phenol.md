@@ -6,9 +6,9 @@ nav_order: 369
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "PHENOL"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
+description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Phenol: From Dermatitis to Acrodermatitis Chronica Atrophicans
+## Phenol: Acrodermatitis chronica atrophicans
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ Phenol was originally used for dermatitis. The TxGNN model predicts it may be ef
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatitis (from the TxGNN knowledge graph; the SAHPRA registration carries no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Phenol is a known tissue irritant and protein denaturant, and its use in dermatitis comes from the TxGNN knowledge graph rather than from approved label text.
+Currently, detailed mechanism of action data is not available. Phenol is a known tissue irritant and protein denaturant, and its use in dermatitis comes from the TxGNN model (deep learning) rather than from approved label text. The prediction may reflect similarities the model learned between related diseases, not biological evidence.
 
-The top prediction is not supported by mechanistic reasoning. Acrodermatitis chronica atrophicans is a chronic skin condition associated with *Borrelia* infection and is treated with antibiotics. Phenol has no known antimicrobial or anti-atrophic role in this disease. The high score (99.95%) reflects network proximity in the knowledge graph, not biological or clinical evidence.
+The top prediction is not supported by mechanistic reasoning. Acrodermatitis chronica atrophicans is a chronic skin condition associated with *Borrelia* infection and is treated with antibiotics. Phenol has no known antimicrobial or anti-atrophic role in this disease. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence.
 
 Other top-ranked predictions have the same weakness: neonatal and amyopathic dermatomyositis, childhood connective-tissue-disease-related interstitial lung disease, familial hydroa vacciniforme, and severe nonproliferative diabetic retinopathy. All have no trials or publications. Phenol is also dermally absorbed and toxic in neonates, and its tissue toxicity raises ocular safety concerns.
 

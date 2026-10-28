@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Icodextrin
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 258
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-15
-description: "Icodextrin: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
+description: "Icodextrin: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Icodextrin"
-predicted_indications: ["irritable bowel syndrome", "non-syndromic esophageal malformation", "C1 inhibitor deficiency", "potassium deficiency disease", "serpinopathy with toxic serpin polymerization", "hereditary angioedema with C1Inh deficiency", "esophageal disease", "familial visceral myopathy", "renal tubular acidosis", "vitamin deficiency disorder"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Icodextrin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Icodextrin: From Peritoneal Dialysis Osmotic Agent to Irritable Bowel Syndrome
+## Icodextrin
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Icodextrin is a high-molecular-weight glucose polymer used as an osmotic agent in peritoneal dialysis. The TxGNN model predicts it may be effective for **irritable bowel syndrome**, but **no clinical trials and no publications** currently support this prediction. It rests on a knowledge-graph prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data compiled for this report (the drug is known as a peritoneal dialysis osmotic agent) |
-| Predicted New Indication | Irritable bowel syndrome |
-| TxGNN Prediction Score | 98.53% |
-| Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Based on known information, icodextrin is a glucose polymer (alpha-1,4/alpha-1,6 glucan) used as an osmotic agent in peritoneal dialysis. It is poorly absorbed from the peritoneal cavity.
-
-A plausible biological link between this action and irritable bowel syndrome has not been established. The high TxGNN score reflects a pattern in the knowledge graph, not demonstrated pharmacology. The absence of recorded mechanism data further limits any mechanistic assessment.
-
-The other top-ranked predictions are also unsupported by evidence and appear unlikely on biological grounds. They include non-syndromic oesophageal malformation, C1 inhibitor deficiency, potassium deficiency, serpinopathy, hereditary angioedema, oesophageal disease, familial visceral myopathy, renal tubular acidosis and vitamin deficiency disorder. All are rated L5 with a Hold recommendation. Several, such as the congenital and genetic conditions, are likely graph-topology artefacts rather than true biological signals.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 
 ## South Africa Market Information
 
@@ -82,19 +60,6 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 
 No drug interaction records were found for icodextrin in the data compiled for this report.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction for irritable bowel syndrome is supported only by the model score, with no trials, no literature and no plausible mechanism. Icodextrin is also designed for intraperitoneal use as a dialysis agent, and its route compatibility with any new indication has not been assessed.
-
-**To proceed, the following is needed:**
-- The SAHPRA Professional Information (approved indication, warnings, contraindications), which is a blocking gap for safety screening
-- Mechanism of action data (for example from DrugBank) to test any link to IBS
-- A literature and trial search specific to icodextrin and gastrointestinal motility or functional bowel disorders
-- A route-of-administration assessment, since a peritoneal dialysis solution is not an obvious fit for IBS treatment
-- A clear rationale for why a poorly absorbed osmotic glucose polymer would act on IBS pathophysiology, before any further investment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

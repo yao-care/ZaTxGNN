@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB01224",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB01224"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "retinal-dystrophy-with-or-without-extraocular-anomalies",
-          "display": "retinal dystrophy with or without extraocular anomalies"
-        }
-      ],
-      "text": "retinal dystrophy with or without extraocular anomalies"
+      "concept": {
+        "text": "retinal dystrophy with or without extraocular anomalies"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9957
     }
   ]
 }

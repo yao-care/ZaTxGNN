@@ -8,6 +8,7 @@ nav_order: 137
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Clomipramine Hydrochloride
@@ -49,8 +50,8 @@ Clomipramine hydrochloride is a tricyclic antidepressant (TCA) classically used 
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Unable to determine — no predictions present |
-| South Africa Market Status | Not registered |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **Note:** While the Evidence Pack does not populate original indications, clomipramine hydrochloride is internationally recognised (DrugBank DB01242) as a TCA approved for OCD, major depressive disorder, panic disorder, phobias, and cataplexy associated with narcolepsy. This contextual background is drawn from published pharmacological sources, not from the Evidence Pack data.

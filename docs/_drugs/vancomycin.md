@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Vancomycin is a glycopeptide antibiotic, originally used for Gram-positive infections such as *Clostridium difficile* colitis, staphylococcal infections and endocarditis.
-The TxGNN model predicts it may be effective for **diffuse scleroderma**, but **no clinical trials** and only **1 unrelated case report** support this direction. The prediction is most likely a graph-based artifact.
+The TxGNN model predicts it may be effective for **diffuse scleroderma**, but **no clinical trials** and only **1 unrelated case report** support this direction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -47,25 +47,25 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but **
 |------|------|
 | Original Indication | Clostridium difficile colitis, staphylococcal infections, endocarditis (SAHPRA licence indication text is not available) |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, vancomycin inhibits cell wall synthesis in Gram-positive bacteria, and its efficacy in Gram-positive infections is well established.
 
-Diffuse scleroderma (systemic sclerosis) is an autoimmune fibrotic disease, not a bacterial infection. There is no plausible mechanistic link between a cell wall–inhibiting antibiotic and this condition. The high TxGNN score is most likely a graph-based artifact. The only retrieved paper describes an erythroderma and sepsis case and does not address scleroderma treatment.
+Diffuse scleroderma (systemic sclerosis) is an autoimmune fibrotic disease, not a bacterial infection. There is no plausible mechanistic link between a cell wall–inhibiting antibiotic and this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only retrieved paper describes an erythroderma and sepsis case and does not address scleroderma treatment.
 
 **Other predictions reviewed**
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Streptococcal pneumonia | 99.60% | L4 | The only mechanistically plausible prediction. Vancomycin is already used for penicillin-resistant pneumococcal infections. This extends existing use and is not novel repurposing. Support is indirect (older reviews, no registered trials). |
-| Paratyphoid fever, salmonellosis, typhoid fever | 99.75–99.85% | L5 | Gram-negative organisms. The outer membrane blocks vancomycin, so no intrinsic activity is expected. |
-| Congenital analbuminemia, polyclonal hyperviscosity syndrome, hyperamylasemia, blood group incompatibility, premalignant haematological disease | 99.54–99.79% | L5 | No mechanistic rationale and no supporting evidence. |
+| Streptococcal pneumonia | 0.9960 | L4 | The only mechanistically plausible prediction. Vancomycin is already used for penicillin-resistant pneumococcal infections. This extends existing use and is not novel repurposing. Support is indirect (older reviews, no registered trials). |
+| Paratyphoid fever, salmonellosis, typhoid fever | 99.75–0.9985 | L5 | Gram-negative organisms. The outer membrane blocks vancomycin, so no intrinsic activity is expected. |
+| Congenital analbuminemia, polyclonal hyperviscosity syndrome, hyperamylasemia, blood group incompatibility, premalignant haematological disease | 99.54–0.9979 | L5 | No mechanistic rationale and no supporting evidence. |
 
 ## Clinical Trial Evidence
 

@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB06695",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB06695"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "obsolete-familial-combined-hyperlipidemia",
-          "display": "obsolete familial combined hyperlipidemia"
-        }
-      ],
-      "text": "obsolete familial combined hyperlipidemia"
+      "concept": {
+        "text": "obsolete familial combined hyperlipidemia"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9963
     }
   ]
 }

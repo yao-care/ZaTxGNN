@@ -8,6 +8,7 @@ nav_order: 127
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Citalopram Hydrobromide
@@ -55,8 +56,8 @@ Until the pipeline is re-run with a complete drug profile, no evidence-based rep
 | Predicted New Indication | Not available — prediction pending |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
-| South Africa Market Status | Not registered |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | **Hold** |
 
 ---

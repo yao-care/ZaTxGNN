@@ -8,6 +8,7 @@ nav_order: 163
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Dapagliflozin
@@ -49,8 +50,8 @@ Dapagliflozin (DrugBank: DB06292) is a sodium-glucose co-transporter 2 (SGLT2) i
 | Predicted New Indication | **None** — no TxGNN predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A |
-| South Africa Market Status | Not marketed (per evidence pack) |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 ---

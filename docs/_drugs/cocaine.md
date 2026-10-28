@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Cocaine is a natural-product local anaesthetic and monoamine reuptake inhibitor. The only South African registration in the data compiled for this report is a liquid toothache product, and no approved indication text is recorded for it. The TxGNN model predicts it may be useful for **cauda equina syndrome**, but there are **0 clinical trials** and only **1 case report** (not involving cocaine as a therapy), so this prediction is best regarded as a graph-based artefact.
+Cocaine is a natural-product local anaesthetic and monoamine reuptake inhibitor. The only South African registration in the data compiled for this report is a liquid toothache product, and no approved indication text is recorded for it. The TxGNN model predicts it may be useful for **cauda equina syndrome**, but there are **0 clinical trials** and only **1 case report** (not involving cocaine as a therapy), so this prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -48,10 +48,10 @@ Cocaine is a natural-product local anaesthetic and monoamine reuptake inhibitor.
 |------|------|
 | Original Indication | Not recorded in the SAHPRA registration data. The pharmacology data describes clinical use as a local anaesthetic in nasal, oral and laryngeal surgery |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,21 +60,21 @@ Cocaine is a natural-product local anaesthetic and monoamine reuptake inhibitor.
 
 Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, cocaine blocks sodium channels (local anaesthetic effect) and inhibits monoamine reuptake. The pharmacology data also lists activity at the 5-HT3 receptor and the dopamine transporter (DAT, rat data).
 
-**The prediction is not mechanistically credible.** Cauda equina syndrome is a compressive neurological emergency that needs urgent surgical decompression. A local anaesthetic or stimulant would not treat the compression. The only publication retrieved is a case report on lumbosacral disc pathology that does not involve cocaine. The high TxGNN score most likely reflects network proximity in the knowledge graph rather than a real therapeutic link.
+**The prediction is not mechanistically credible.** Cauda equina syndrome is a compressive neurological emergency that needs urgent surgical decompression. A local anaesthetic or stimulant would not treat the compression. The only publication retrieved is a case report on lumbosacral disc pathology that does not involve cocaine. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predicted indications** were also reviewed, and none is supported:
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Obsolete neurogenic bladder | 99.96% | L5 | Prediction only; obsolete disease term; unsuitable given cardiovascular and abuse risks |
-| Papillary conjunctivitis | 99.95% | L5 | No evidence; topical cocaine is toxic to the corneal epithelium |
-| Rhinitis | 99.92% | L4 | One RCT compared topical cocaine with adrenaline in endoscopic sinus surgery (a surgical field-preparation use, not rhinitis treatment). Most literature describes cocaine as a *cause* of rhinitis and midline destruction |
-| Irritable bowel syndrome | 99.89% | L5 | Retrieved papers unrelated to cocaine |
-| Anaphylaxis | 99.88% | L4 | Only preclinical catecholamine-uptake studies; epinephrine is the standard therapy |
-| Neurocirculatory asthenia | 99.83% | L5 | A stimulant would be expected to worsen symptoms |
-| Atopic conjunctivitis | 99.83% | L5 | No evidence; ocular toxicity |
-| Food-dependent exercise-induced anaphylaxis | 99.82% | L5 | No evidence; adds cardiovascular risk |
-| Pharyngitis | 99.71% | L4 | Literature documents harm (mucosal burns, abscess); safer anaesthetics such as lidocaine exist |
+| Obsolete neurogenic bladder | 0.9996 | L5 | Prediction only; obsolete disease term; unsuitable given cardiovascular and abuse risks |
+| Papillary conjunctivitis | 0.9995 | L5 | No evidence; topical cocaine is toxic to the corneal epithelium |
+| Rhinitis | 0.9992 | L4 | One RCT compared topical cocaine with adrenaline in endoscopic sinus surgery (a surgical field-preparation use, not rhinitis treatment). Most literature describes cocaine as a *cause* of rhinitis and midline destruction |
+| Irritable bowel syndrome | 0.9989 | L5 | Retrieved papers unrelated to cocaine |
+| Anaphylaxis | 0.9988 | L4 | Only preclinical catecholamine-uptake studies; epinephrine is the standard therapy |
+| Neurocirculatory asthenia | 0.9983 | L5 | A stimulant would be expected to worsen symptoms |
+| Atopic conjunctivitis | 0.9983 | L5 | No evidence; ocular toxicity |
+| Food-dependent exercise-induced anaphylaxis | 0.9982 | L5 | No evidence; adds cardiovascular risk |
+| Pharyngitis | 0.9971 | L5 | Literature documents harm (mucosal burns, abscess); safer anaesthetics such as lidocaine exist |
 
 ---
 

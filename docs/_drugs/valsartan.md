@@ -4,17 +4,17 @@ title: Valsartan
 parent: Moderate Evidence (L3-L4)
 nav_order: 468
 evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-15
-description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 6
+last_modified_at: 2026-10-28
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Valsartan: From Hypertension to Malignant Hypertensive Renal Disease
+## Valsartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ but currently there are **no registered clinical trials** and only **1 indirect 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
+| South Africa Market Status | Marketed (valid licences on record: at least 20) |
 | Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -60,13 +60,13 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Malignant hypertensive nephropathy is driven largely by overactivation of the renin-angiotensin-aldosterone system (RAAS). Blocking the AT1 receptor is therefore biologically plausible. In practice, this condition is essentially a severe variant of the already-approved indication of hypertension.
 
-The same pathway reasoning applies to a related prediction, malignant renovascular hypertension (score 99.97%). An animal study (PMID 11560862) found that AT1 receptor blockade prevented lethal malignant hypertension, which supports the drug class mechanistically. However, ARBs can reduce renal function in bilateral renal artery stenosis, so clinical caution is needed.
+An animal study (PMID 11560862) found that AT1 receptor blockade prevented lethal malignant hypertension, which supports the drug class mechanistically. However, ARBs can reduce renal function in bilateral renal artery stenosis, so clinical caution is needed.
 
 Other lower-ranked predictions have weaker support:
-- **Pulmonary hypertension (lung disease/hypoxia)** (99.97%): only preclinical or mechanistic papers, many involving the sacubitril/valsartan combination rather than valsartan alone (Evidence Level L4).
-- **Pulmonary hypertension, unclear multifactorial mechanism** (99.97%) and **Braddock syndrome** (99.96%): no trials or literature (L5).
-- **Chronic pulmonary heart disease** (99.58%): one Phase 1 trial not directly testing valsartan, plus heart-failure studies of sacubitril/valsartan (L4).
-- **Prinzmetal angina** (99.45%): the only paper is not relevant, and standard therapy is calcium channel blockers and nitrates (L5).
+- **Pulmonary hypertension (lung disease/hypoxia)** (0.9997): only preclinical or mechanistic papers, many involving the sacubitril/valsartan combination rather than valsartan alone (Evidence Level L4).
+- **Pulmonary hypertension, unclear multifactorial mechanism** (0.9997) and **Braddock syndrome** (0.9996): no trials or literature (L5).
+- **Chronic pulmonary heart disease** (0.9958): one Phase 1 trial not directly testing valsartan, plus heart-failure studies of sacubitril/valsartan (L4).
+- **Prinzmetal angina** (0.9945): the only paper is not relevant, and standard therapy is calcium channel blockers and nitrates (L5).
 
 ## Clinical Trial Evidence
 

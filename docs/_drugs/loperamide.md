@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Loperamide is an antimotility drug originally used to treat diarrhoeal disease and dysentery symptoms. The TxGNN model predicts it may be effective for **acute contagious conjunctivitis**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The prediction appears to be a knowledge-graph artefact rather than a pharmacological signal.
+Loperamide is an antimotility drug originally used to treat diarrhoeal disease and dysentery symptoms. The TxGNN model predicts it may be effective for **acute contagious conjunctivitis**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The prediction appears to be a TxGNN model (deep learning) artefact rather than a pharmacological signal.
 
 ## Quick Overview
 
@@ -46,19 +46,19 @@ Loperamide is an antimotility drug originally used to treat diarrhoeal disease a
 |------|------|
 | Original Indication | Diarrhoeal disease, dysentery |
 | Predicted New Indication | Acute contagious conjunctivitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Loperamide is generally understood as a peripheral mu-opioid receptor agonist acting on gut myenteric neurons to reduce motility. Its efficacy in symptomatic diarrhoea is established.
 
-For acute contagious conjunctivitis, no credible mechanistic link was identified. Loperamide has no known anti-infective or anti-inflammatory action in the eye. The high TxGNN score (ranked 366th overall) most likely reflects graph propagation and not a real pharmacological rationale. The other top-ranked predictions are also mostly conjunctivitis variants (conjunctivitis, pseudomembranous, chronic follicular, parasitic, serous, conjunctival folliculosis), plus Angelucci syndrome, which also lack supporting evidence.
+For acute contagious conjunctivitis, no credible mechanistic link was identified. Loperamide has no known anti-infective or anti-inflammatory action in the eye. The high TxGNN score (ranked 366th overall) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top-ranked predictions are also mostly conjunctivitis variants (conjunctivitis, pseudomembranous, chronic follicular, parasitic, serous, conjunctival folliculosis), plus Angelucci syndrome, which also lack supporting evidence.
 
-Predictions closer to the original use fare no better. For **amebic dysentery** (score 99.95%), loperamide has no antiparasitic activity, and the literature points to harm (see below). For **gastroduodenitis** (score 99.77%), the only publication is a safety case report.
+Predictions closer to the original use fare no better. For **amebic dysentery** (score 0.9995), loperamide has no antiparasitic activity, and the literature points to harm (see below). For **gastroduodenitis** (score 0.9977), the only publication is a safety case report.
 
 ## Clinical Trial Evidence
 

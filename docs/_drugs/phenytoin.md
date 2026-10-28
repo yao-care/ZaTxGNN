@@ -4,17 +4,17 @@ title: Phenytoin
 parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalised tonic-clonic…"
 monitor_inn: "PHENYTOIN"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenytoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenytoin: From Epilepsy to Trigeminal Nerve Neoplasm
+## Phenytoin: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (including generalised tonic-clonic, partial seizures and status epilepticus). The registration records compiled for this report carry no indication text, so this comes from the knowledge-graph indication list. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 Detailed mechanism of action data is not available in the data compiled for this report. Phenytoin is generally understood to work by blocking voltage-gated sodium channels, which stabilises overactive neurons. That explains its efficacy in epilepsy.
 
-The link to a trigeminal nerve tumour is weak. Phenytoin has **no recognised anti-tumour mechanism**. The very high score most likely reflects network proximity in the knowledge graph to *trigeminal neuralgia* and related neurological terms, rather than evidence that the drug shrinks or controls a tumour. At most, sodium channel blockade could ease nerve pain or seizures associated with a trigeminal lesion. That would be symptom control, not treatment of the neoplasm.
+The link to a trigeminal nerve tumour is weak. Phenytoin has **no recognised anti-tumour mechanism**. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as *trigeminal neuralgia* and related neurological terms, not biological evidence that the drug shrinks or controls a tumour. At most, sodium channel blockade could ease nerve pain or seizures associated with a trigeminal lesion. That would be symptom control, not treatment of the neoplasm.
 
 The two retrieved publications support this reading. One is a review of trigeminal neuralgia treatments, and the other is a case series on Sturge-Weber syndrome. Neither addresses neoplasm treatment.
 

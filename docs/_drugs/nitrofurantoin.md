@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nitrofurantoin
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 343
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
@@ -14,7 +14,7 @@ predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hem
 # Nitrofurantoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ This prediction is not supported by the evidence compiled for this report.
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data compiled for this report (nitrofurantoin is generally used as an antibacterial for urinary tract infections) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 (no trials; literature is limited to adverse-effect reports and observational data) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -115,7 +115,7 @@ Specific label warnings and contraindications from the SAHPRA Professional Infor
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials, no plausible therapeutic mechanism, and the available literature points to harm (pulmonary fibrosis, methotrexate interaction) rather than benefit in rheumatoid arthritis. The high TxGNN score appears to reflect adverse-effect associations in the knowledge graph.
+There are no clinical trials, no plausible therapeutic mechanism, and the available literature points to harm (pulmonary fibrosis, methotrexate interaction) rather than benefit in rheumatoid arthritis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - A credible mechanistic rationale (the mechanism of action data is missing)

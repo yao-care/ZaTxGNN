@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Phenylpropanolamine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 373
-evidence_level: L3
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Phenylpropanolamine: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLPROPANOLAMINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Phenylpropanolamine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Currently there are **0 registered clinical trials** and **3 publications** (1 h
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, and allergic or vernal conjunctivitis (the registration records compiled for South Africa contain no approved indication text) |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 6 |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 6 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

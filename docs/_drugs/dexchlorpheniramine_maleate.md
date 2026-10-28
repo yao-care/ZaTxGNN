@@ -2,19 +2,19 @@
 layout: default
 title: Dexchlorpheniramine Maleate
 parent: Model Prediction Only (L5)
-nav_order: 169
+nav_order: 168
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Dexchlorpheniramine Maleate: predicted new indication Acute intermittent porphyria (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
+indication_count: 1
 monitor_inn: "Dexchlorpheniramine maleate"
-predicted_indications: ["acute intermittent porphyria", "nephrogenic syndrome of inappropriate antidiuresis", "porphyria", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "allergic urticaria", "syndromic myopia", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "myopia X-linked"]
+predicted_indications: ["acute intermittent porphyria"]
+last_modified_at: 2026-10-27
+description: "Dexchlorpheniramine Maleate: predicted new indication acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dexchlorpheniramine Maleate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,94 +33,83 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Dexchlorpheniramine Maleate: From Allergic Conditions to Acute Intermittent Porphyria (Prediction Only)
+## Dexchlorpheniramine maleate: first-generation H1-antihistamine → acute intermittent porphyria
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Dexchlorpheniramine maleate is a first-generation H1-antihistamine, registered in South Africa as single-ingredient tablets and syrup.
-The TxGNN model predicts it may be effective for **acute intermittent porphyria** (score 99.1%), but **no clinical trials and no publications** support this prediction.
-The prediction is graph-based only, and first-generation antihistamines are listed as potentially unsafe in some porphyria drug databases.
+Dexchlorpheniramine maleate is a first-generation H1-antihistamine with anticholinergic activity, marketed in South Africa as single-ingredient products.
+The TxGNN model predicts it may be relevant to **acute intermittent porphyria** (score 0.9912).
+**No clinical trials and no publications** in the compiled data support this prediction, so it is a model output only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data compiled for this report (a first-generation H1-antihistamine, generally used for allergic conditions) |
-| Predicted New Indication | Acute intermittent porphyria |
-| TxGNN Prediction Score | 99.12% |
-| Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | acute intermittent porphyria |
+| TxGNN Prediction Score | 0.9912 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, dexchlorpheniramine is a first-generation H1-antihistamine with anticholinergic activity. It is used for allergic conditions, but the SAHPRA registration data compiled for this report contain no indication text.
+Detailed mechanism of action data is not available in the data compiled for this report. Dexchlorpheniramine is known as a first-generation H1-antihistamine that also has anticholinergic activity.
 
-**The prediction is not mechanistically supported.** Acute intermittent porphyria is caused by a deficiency of porphobilinogen deaminase (HMBS). H1-receptor antagonism does not act on this pathway. The high TxGNN score reflects graph-based associations, not pharmacological reasoning.
+The predicted condition arises from a deficiency of the enzyme porphobilinogen deaminase (HMBS), which disrupts haem biosynthesis. Nothing in the compiled data links H1-receptor blockade or anticholinergic activity to this enzymatic pathway. No mechanistic link has been established.
 
-**There is also a safety concern.** First-generation antihistamines are listed as potentially unsafe in some porphyria drug databases, so safety must be reviewed before any further consideration.
+The high score reflects a model-based association only. It is not supported by any trial or publication. Because of this, the prediction should be treated as a hypothesis, not as evidence of benefit.
 
-### Other Predictions Reviewed
-
-Nine further predictions were reviewed. Only one has a plausible mechanism.
-
-| Rank | Predicted Indication | Score | Evidence Level | Assessment |
-|---|---|---|---|---|
-| 2 | Nephrogenic syndrome of inappropriate antidiuresis | 98.4% | L5 | No plausible mechanism (AVPR2/GNAS gain-of-function) |
-| 3 | Porphyria | 97.7% | L5 | Parent category of rank 1; same safety concern |
-| 4 | Schizophrenia | 97.2% | L5 | Weak and speculative; anticholinergic activity could worsen cognition |
-| 5 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 97.1% | L5 | Genetic malformation; likely a graph artifact |
-| 6 | Allergic urticaria | 97.0% | L4 | Biologically coherent, but likely within or adjacent to existing use, so not true repurposing |
-| 7 | Syndromic myopia | 96.8% | L5 | Very indirect anticholinergic inference |
-| 8 | Atypical glycine encephalopathy | 96.7% | L5 | No mechanistic link; sedating antihistamines may lower seizure threshold |
-| 9 | Myopia 26, X-linked, female-limited | 96.7% | L5 | Monogenic; no mechanistic link |
-| 10 | Myopia X-linked | 96.6% | L5 | Likely driven by shared graph neighbours |
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-For the top prediction (acute intermittent porphyria), currently no related literature available.
+Currently no related literature available.
 
-For rank 6 (allergic urticaria), one publication was retrieved. It is indirect, old, and not an RCT:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39803](https://pubmed.ncbi.nlm.nih.gov/39803/) | 1979 | Case-based clinical/immunological study | Dermatologica | Single case of acquired heat contact urticaria in a young woman, with a minimum urtication temperature of 44 °C. Immunoglobulins and complement were normal and C1-inhibitor was slightly decreased. It does not test dexchlorpheniramine. |
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 48/21.5.4/0075 | Betadexamine Tablets | Tablet (oral) | Not available in the data compiled |
-| Reg. No. A40/21.5.4/0623 | Betadexamine | Syrup | Not available in the data compiled |
+| 48/21.5.4/0075 | Betadexamine Tablets | Tablet | Not recorded in local data |
+| A40/21.5.4/0623 | Betadexamine | Syrup | Not recorded in local data |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status could not be determined from the data compiled.
+Both registrations are currently valid single-ingredient products. The available forms are oral tablet and syrup.
+
+---
 
 ## Safety Considerations
 
-- **Porphyria:** First-generation antihistamines are listed as potentially unsafe in some porphyria drug databases. This must be checked before any consideration of use in porphyria.
-- **Anticholinergic activity:** This could worsen cognition (relevant to the schizophrenia prediction).
-- **Seizure threshold:** Sedating antihistamines may lower the seizure threshold in susceptible patients (relevant to the glycine encephalopathy prediction).
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-No drug interaction records were found. Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no clinical trials, no literature, and no plausible mechanism. A porphyria safety concern also exists for this drug class. The only biologically coherent prediction, allergic urticaria, falls within the drug's usual use as an antihistamine, so it is not true repurposing.
+The prediction rests on a model score alone (Evidence Level L5). No trials or publications address this condition, no mechanistic link is established, and safety information from the product labels has not been reviewed.
 
 **To proceed, the following is needed:**
-- The SAHPRA Professional Information (PI), including approved indications, warnings and contraindications. This is currently a blocking data gap.
-- Mechanism of action data (for example from DrugBank).
-- A porphyria safety review (for example against recognised porphyria drug-safety databases) before any further work on the porphyria predictions.
-- Direct clinical or literature evidence for any prediction that is to be pursued. For allergic urticaria, the question is whether it is genuinely new compared with the registered use.
+- Review of the SAHPRA Professional Information for warnings and contraindications, which is required before any safety screening
+- Mechanism of action data from DrugBank to allow a proper mechanistic assessment
+- A targeted literature search for any direct studies of this drug in the predicted condition
+- A specialist safety assessment of this drug for patients with the predicted condition before any further consideration
+- Confirmation of the approved indications from the SAHPRA licence records
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

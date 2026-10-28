@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pheniramine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 367
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Pheniramine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Pheniramine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pheniramine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,36 +33,35 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Pheniramine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
+## Pheniramine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pheniramine is a first-generation H1-antihistamine, originally used for allergic and upper respiratory conditions such as allergic rhinitis, the common cold, conjunctivitis, urticaria and angioedema.
-The TxGNN model predicts it may be effective for **allergic urticaria**,
 but there are currently **no registered clinical trials** and **no directly supporting studies** (only 4 case reports and a review of a different drug), so this prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, conjunctivitis, urticaria, angioedema (the SAHPRA registration does not list an approved indication text, so these are taken from the knowledge-graph indications) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9928 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this drug. Based on known information, pheniramine belongs to the first-generation H1-antihistamine class. It is expected to block histamine at H1 receptors, and this class effect is the basis for its use in allergic conditions.
 
-Urticaria and angioedema are already among pheniramine's recorded indications. Allergic urticaria is a closely related histamine-mediated condition, so the high TxGNN score is biologically plausible. This is largely an extension of an existing indication rather than a true repurposing. Because the link rests on class pharmacology rather than drug-specific data, it should be treated as a reasonable hypothesis and not as confirmed evidence.
+Urticaria and angioedema are already among pheniramine's recorded indications. This is largely an extension of an existing indication rather than a true repurposing. Because the link rests on class pharmacology rather than drug-specific data, it should be treated as a reasonable hypothesis and not as confirmed evidence.
 
 Two other predictions were also generated, both with no supporting trials or literature:
-- **Nasal cavity disease** (score 99.28%, evidence level L5): this overlaps with the existing allergic and vasomotor rhinitis indications. The category is too broad to assess and needs to be narrowed to specific conditions.
-- **Acute laryngopharyngitis** (score 99.25%, evidence level L5): this is an extension of the existing pharyngitis, common cold and nasopharyngitis indications. Antihistamines may relieve rhinorrhoea and postnasal drip but are not expected to treat the underlying infectious or inflammatory cause.
+- **Nasal cavity disease** (score 0.9928, evidence level L5): this overlaps with the existing allergic and vasomotor rhinitis indications. The category is too broad to assess and needs to be narrowed to specific conditions.
+- Antihistamines may relieve rhinorrhoea and postnasal drip but are not expected to treat the underlying infectious or inflammatory cause.
 
 ## Clinical Trial Evidence
 
@@ -112,7 +111,6 @@ The prediction is mechanistically plausible, but it largely duplicates an existi
 - The SAHPRA package insert (PI), to confirm the approved indications, warnings and contraindications
 - Mechanism of action data for pheniramine
 - Clinical evidence in allergic urticaria, such as comparative trials against other antihistamines
-- Clarification of whether the allergic urticaria prediction is a genuinely new indication or already covered by the existing label
 - For the nasal cavity disease and laryngopharyngitis predictions, narrowing to specific conditions and gathering supporting studies
 - Route compatibility assessment (only an oral effervescent tablet is currently registered)
 ## Disclaimer

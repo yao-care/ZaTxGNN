@@ -2,19 +2,19 @@
 layout: default
 title: Fenofibrate
 parent: Model Prediction Only (L5)
-nav_order: 225
+nav_order: 224
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-15
-description: "Fenofibrate: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L5). Approved use: Hypertriglyceridaemia and hyperlipidaemia (including familial combine…"
+indication_count: 1
 monitor_inn: "FENOFIBRATE"
-predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "hypercholesterolemia, autosomal dominant"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency"]
+last_modified_at: 2026-10-23
+description: "Fenofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, hyperlipidaemia, familial hyperlipidaemia…"
 ---
 
 # Fenofibrate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,100 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Fenofibrate: From Hypertriglyceridaemia to Homozygous Familial Hypercholesterolaemia
+## Fenofibrate: From Hyperlipidaemia to Cholesterol-Ester Transfer Protein Deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fenofibrate is an oral lipid-lowering drug, originally used for hypertriglyceridaemia and mixed hyperlipidaemia.
-The TxGNN model predicts it may be useful for **homozygous familial hypercholesterolaemia (HoFH)**, but this rests mostly on the model score. The only registered trial for this condition tests a different drug (alirocumab), and the supporting literature is **10 publications**, mainly reviews, guidelines and one small 1984 cohort study.
+Fenofibrate is a lipid-lowering drug used in hypertriglyceridaemia, hyperlipidaemia and related familial lipid disorders.
+The TxGNN model predicts it may be relevant for **cholesterol-ester transfer protein (CETP) deficiency**, but there are **no registered clinical trials** and only **3 publications** (all preclinical or mechanistic, none studying the disease itself), so the evidence is very weak.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridaemia and hyperlipidaemia (including familial combined hyperlipidaemia and low HDL-C), based on the knowledge-graph indication links; the registered product's indication text is not available in the data compiled for this report |
-| Predicted New Indication | Homozygous familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L4 (no fenofibrate trial in HoFH; evidence is mechanistic and indirect) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| Original Indication | Hypertriglyceridaemia, hyperlipidaemia, familial hyperlipidaemia, familial combined hyperlipidaemia and hypoalphalipoproteinaemia (relations recorded in the knowledge graph; the local registration lists no indication text) |
+| Predicted New Indication | Cholesterol-ester transfer protein deficiency |
+| TxGNN Prediction Score | 0.9961 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fenofibrate is generally described as a PPAR-alpha agonist. It lowers triglycerides and raises HDL-C, with a modest and variable effect on LDL-C.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, fenofibrate is a PPAR-alpha agonist. It lowers triglycerides and raises HDL cholesterol, and in mice it upregulates genes involved in HDL remodelling, such as phospholipid transfer protein (PMID 11342537).
 
-The link to HoFH is weak. In HoFH the LDL receptor is severely impaired, so a drug acting mainly through PPAR-alpha is unlikely to give meaningful LDL-C lowering. The most that can reasonably be proposed is a role as an add-on when HoFH is accompanied by raised triglycerides.
+CETP deficiency is characterised by markedly raised HDL cholesterol and impaired cholesteryl ester transfer. The overlap with fenofibrate is therefore in lipoprotein metabolism. However, the direction of effect is questionable. Fenofibrate already raises HDL-C, so it would not correct the high HDL-C of CETP deficiency. CETP deficiency is also generally regarded as a lipid-profile abnormality rather than a condition that clearly needs treatment.
 
-A small 1984 study in type II hyperlipoproteinaemia included one patient with HoFH who showed the greatest fall in total and LDL cholesterol. This is an anecdotal signal and not enough to support the indication. The model prediction therefore has little clinical corroboration at present.
+The only study combining the two themes (PMID 20332533) tested CETP *inhibition* together with PPAR-alpha agonism in transgenic mice. That is a different context from CETP deficiency as a disease. The very high TxGNN score most likely reflects network proximity within lipid-metabolism pathways rather than a true therapeutic rationale.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Open-label study of **alirocumab** (not fenofibrate) on LDL-C in children and adolescents aged 8–17 with HoFH. It gives no direct evidence for fenofibrate. |
+Currently no related clinical trials registered.
 
-No fenofibrate trial in HoFH is registered. No SANCTR or PACTR trials were identified.
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Cohort | Pharmacol Res Commun | 22 patients with type II hyperlipoproteinaemia on fenofibrate 300 mg/day. LDL-C fell about 24%, and the one HoFH patient had the largest fall. |
-| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Review | Indian Heart J | Non-statin lipid-lowering drugs. Fenofibrate monotherapy is mainly indicated for fasting triglycerides above 500 mg/dl, to reduce pancreatitis risk. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE guideline on dyslipidaemia management and cardiovascular prevention. |
-| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Review | Ann N Y Acad Sci | Treatment of dyslipidaemic children; fenofibrate is among the agents reported to reduce lipids in familial hypercholesterolaemia. |
-| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | PK study | Pharmacotherapy | Lomitapide (approved for HoFH) pharmacokinetic interactions, including with fenofibrate. |
-| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Review | Curr Atheroscler Rep | Dyslipidaemia management in pregnancy. |
-| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | Review | Indian Heart J | LDL-C lowering with statins and PCSK9 inhibitors. |
-| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Review | Pharmacotherapy | Ezetimibe pharmacology; general context only. |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Review | Drugs | Atorvastatin in hyperlipidaemias; general context only. |
-| [9627539](https://pubmed.ncbi.nlm.nih.gov/9627539/) | 1998 | Review | Can J Cardiol | Drug treatment of dyslipidaemia with a focus on atorvastatin; general context only. |
+|------|-----|------|------|---------|
+| [20332533](https://pubmed.ncbi.nlm.nih.gov/20332533/) | 2010 | Preclinical | J Cardiovasc Pharmacol Ther | In human ApoB100/CETP transgenic mice, the CETP inhibitor torcetrapib and fenofibrate were tested for effects on lipid profiles; CETP inhibition combined with PPAR-alpha agonism raised HDL-C and lowered LDL-C |
+| [11342537](https://pubmed.ncbi.nlm.nih.gov/11342537/) | 2001 | Mechanistic/Preclinical | J Biol Chem | Fenofibrate induced the phospholipid transfer protein gene, accounting for HDL enlargement in treated mice |
+| [30271349](https://pubmed.ncbi.nlm.nih.gov/30271349/) | 2018 | Mechanistic/Preclinical | Front Physiol | Plasma HDL-C did not correlate with faecal cholesterol or cholesterol efflux capacity, suggesting HDL function matters more than HDL-C level |
 
-No randomised controlled trials of fenofibrate in HoFH were identified.
+None of these studies directly addresses CETP deficiency as a disease.
+
+---
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 52/7.5/0769 | Pravafen 40/160 mg | Capsule (oral) | Not available in the data compiled for this report |
+| Reg. No. 52/7.5/0769 | Pravafen 40/160 mg | Capsule (oral) | No indication text available in the data compiled for this report |
 
-Pravafen is a pravastatin/fenofibrate 40/160 mg fixed-dose product. Essential Medicines List status could not be confirmed from the data compiled.
+Note: the data compiled for this report records one valid registration. The product name suggests it may contain more than one active ingredient, so this registration should not be taken as describing how single-ingredient fenofibrate is approved. Essential Medicines List status is not available in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-SAHPRA package insert warnings and contraindications were not available in the data compiled for this report. The following comes from a drug-disease knowledge graph, not from label text.
+**Contraindication relations recorded in the knowledge graph** (not taken from label text) include:
+- Liver failure and liver disease
+- Pancreatitis
+- Gallbladder disease, cholelithiasis and cholecystolithiasis
+- Muscle disorders: myopathy, muscular disease, rhabdomyolysis
+- Impaired renal function
+- Blood disorders: thrombocytopenia, anaemia, leukopenia, agranulocytosis, neutropenia and related congenital neutropenias
 
-- **Contraindication-related conditions (knowledge graph):** liver failure and liver disease, pancreatitis, gallbladder disease and gallstones, muscle disorders including myopathy and rhabdomyolysis, impaired renal function, and haematological conditions such as thrombocytopenia, anaemia, leukopenia, agranulocytosis and neutropenia.
-- **Drug Interactions:** 100 interactions were found. The 20 shown in the compiled data are all moderate. They involve:
-  - sulfonylureas (acetohexamide, chlorpropamide, glimepiride, glipizide, glyburide) and many insulin preparations, where glucose monitoring is advisable
-  - chenodeoxycholic acid
-  - esomeprazole
+**Drug Interactions:** 100 interactions were found in total. The records listed are all of Moderate severity:
+- Sulfonylureas: acetohexamide, chlorpropamide, glimepiride, glipizide, glyburide
+- Insulins: multiple formulations (human, aspart, degludec, detemir, glargine, glulisine, lispro and others), which may affect glycaemic control
+- Chenodeoxycholic acid
+- Esomeprazole
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+For full warnings and contraindications, refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only registered HoFH trial tests alirocumab, not fenofibrate, and the fenofibrate-specific literature is a single small 1984 study that included one HoFH patient. In HoFH the LDL receptor is severely impaired, so fenofibrate is unlikely to lower LDL-C meaningfully. At most it may help as an add-on for associated hypertriglyceridaemia.
+- The prediction rests on model score alone. No clinical trials exist, and the three publications are preclinical or mechanistic and do not study CETP deficiency, so the evidence level is L5. The expected direction of effect (further HDL-C elevation in a condition already marked by high HDL-C) does not support a treatment benefit, and it is unclear that the condition needs treatment.
 
 **To proceed, the following is needed:**
-- Clinical data, ideally a controlled study, of fenofibrate in HoFH, with LDL-C and triglycerides as outcomes
-- Clarification of the intended role, for example as an add-on to established HoFH therapies for raised triglycerides
-- Detailed mechanism of action data and the SAHPRA Professional Information (warnings, contraindications and approved indication text)
-- A review of drug interactions and monitoring (liver, renal, muscle, blood counts) for the intended patient group
+- Clear clinical justification that CETP deficiency requires treatment, and a defined therapeutic goal
+- Human data (case series or trials) in patients with CETP deficiency
+- Mechanism of action data for fenofibrate
+- SAHPRA Professional Information warnings and contraindications for the single-ingredient product, as the only local registration appears to be for a product that may contain more than one active ingredient
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

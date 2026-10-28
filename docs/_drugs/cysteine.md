@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cysteine
-parent: Moderate Evidence (L3-L4)
-nav_order: 160
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L4). Approved use: Bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis…"
+parent: Model Prediction Only (L5)
+nav_order: 159
+evidence_level: L5
+indication_count: 7
 monitor_inn: "Cysteine"
-predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma", "excretory apparatus of the lacrimal system anomaly", "tracheal disease", "nasolacrimal duct disease"]
+predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
+last_modified_at: 2026-10-27
+description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cysteine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,32 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Cysteine: From Bronchitis and Related Conditions to Dry Eye Syndrome
+## Cysteine: amino acid / thiol-containing mucolytic and antioxidant precursor → dry eye syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cysteine is a sulphur-containing amino acid, listed for bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis and amyloidosis in the knowledge graph used for the prediction.
-The TxGNN model predicts it may be useful for **dry eye syndrome**, but there are **no registered clinical trials** and only **preclinical or indirect publications** (about 20 retrieved, none testing cysteine itself as a treatment).
-This is a research hypothesis, not a clinically supported use.
+Cysteine is a sulfur-containing amino acid with a thiol group that acts as a precursor of glutathione. The TxGNN model predicts it may be relevant for **dry eye syndrome**. No clinical trials are registered, and the literature is **preclinical** (formulation and mechanism studies) that uses cysteine as a delivery component rather than testing it as a treatment.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis, amyloidosis (from the knowledge graph; no approved indication text is available from the SAHPRA registrations) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dry eye syndrome |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature retrieved, cysteine has a thiol (sulphydryl) group. This group is a building block of glutathione and a precursor of hydrogen sulphide/persulphide. Both are linked to defence against oxidative stress.
+Detailed mechanism of action data is not available for this drug. Based on general chemistry, the thiol group of cysteine can form disulfide bonds with mucus glycoproteins, which is the basis of "thiomer" (thiolated polymer) mucoadhesion. Cysteine is also a building block for glutathione and for hydrogen sulfide/persulfide species, which may counter oxidative stress.
 
-Dry eye disease involves a cycle of excess reactive oxygen species (ROS) and ROS/NLRP3 inflammasome-driven inflammation of the ocular surface. In theory, antioxidant and sulphur-donor chemistry could counter this. Thiol groups also form disulphide bonds with mucus glycoproteins, which is why thiolated polymers ("thiomers") are strongly mucoadhesive. That property is attractive for eye drops that must stay on the ocular surface.
+Excess reactive oxygen species (ROS) and ROS-driven NLRP3 inflammasome activation are described in the literature as important drivers of dry eye disease. This offers a plausible mechanistic link between cysteine chemistry and the ocular surface.
 
-An important caveat: the retrieved studies mostly use cysteine as a **component of a delivery system** (thiolated chitosan, cysteine-conjugated nanocarriers, persulphide prodrugs). They do not test cysteine itself as a therapy. The link to the original respiratory indications (mucus and antioxidant effects) is plausible but unproven for the eye.
+An important caveat: the retrieved studies use cysteine as part of a delivery system (thiolated chitosan, cysteine-conjugated nanocarriers, a persulfide prodrug, a cysteine-modified hyaluronic acid) or study dry eye and Sjögren's syndrome biology in general. None tests cysteine itself as a treatment for dry eye, so the evidence is classed L5 rather than a higher level.
 
 ## Clinical Trial Evidence
 
@@ -68,64 +66,47 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No randomised or clinical studies of cysteine in dry eye were found. The most relevant publications are listed below; the rest of the retrieved set was largely off-topic (Sjögren's syndrome genetics and biomarkers, animal models).
+The most relevant publications are listed below. All are preclinical, reviews or association studies; none is a clinical study of cysteine in dry eye.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40123221](https://pubmed.ncbi.nlm.nih.gov/40123221/) | 2025 | Preclinical formulation | Advanced Materials | Catalase self-assembled with cysteine-modified chitosan as an eye-drop nanoformulation targeting excess ROS in dry eye |
-| [41485487](https://pubmed.ncbi.nlm.nih.gov/41485487/) | 2026 | Preclinical | J Control Release | Superoxide-responsive persulphide prodrug designed to relieve dry eye by ROS elimination |
-| [36581034](https://pubmed.ncbi.nlm.nih.gov/36581034/) | 2023 | Preclinical formulation | Int J Biol Macromol | Chondroitin sulphate–L-cysteine conjugate on nanostructured lipid carriers improved corneal retention and permeation of dexamethasone |
-| [26606856](https://pubmed.ncbi.nlm.nih.gov/26606856/) | 2015 | Formulation study | Ther Deliv | Hyaluronic acid modified with cysteine ethyl ester evaluated as a mucoadhesive lubricant |
-| [24993428](https://pubmed.ncbi.nlm.nih.gov/24993428/) | 2014 | Review | J Control Release | Review of thiomers, showing improved mucoadhesion via disulphide bonds with mucus |
-| [31028759](https://pubmed.ncbi.nlm.nih.gov/31028759/) | 2019 | Review | Adv Drug Deliv Rev | Review of thiolated polymers and their bonding to mucus, keratins and membrane proteins |
-| [36626177](https://pubmed.ncbi.nlm.nih.gov/36626177/) | 2023 | Preclinical (animal) | Invest Ophthalmol Vis Sci | Aquaporin5 deficiency worsens ROS/NLRP3-mediated pyroptosis in lacrimal glands |
-| [25701684](https://pubmed.ncbi.nlm.nih.gov/25701684/) | 2015 | Preclinical and patient study | Exp Eye Res | ROS-activated NLRP3 inflammasomes drive inflammation in hyperosmolar corneal epithelial cells and dry eye patients |
-| [41335288](https://pubmed.ncbi.nlm.nih.gov/41335288/) | 2026 | Mendelian randomisation | Clin Rheumatol | Plasma metabolite associations with Sjögren's syndrome (genetic association, not a treatment study) |
+| [40123221](https://pubmed.ncbi.nlm.nih.gov/40123221/) | 2025 | Preclinical formulation | Advanced Materials | Catalase self-assembled with cysteine-modified chitosan as an eye-drop nanoformulation targeting ROS in dry eye |
+| [36581034](https://pubmed.ncbi.nlm.nih.gov/36581034/) | 2023 | Preclinical formulation | Int J Biol Macromol | Chondroitin sulfate–L-cysteine conjugate on lipid nanocarriers improved corneal retention and permeation |
+| [41485487](https://pubmed.ncbi.nlm.nih.gov/41485487/) | 2026 | Preclinical | J Control Release | Superoxide-responsive persulfide prodrug designed to eliminate ROS in dry eye |
+| [26606856](https://pubmed.ncbi.nlm.nih.gov/26606856/) | 2015 | Preclinical formulation | Ther Deliv | Hyaluronic acid–cysteine ethyl ester derivative evaluated as a mucoadhesive lubricant |
+| [24993428](https://pubmed.ncbi.nlm.nih.gov/24993428/) | 2014 | Review | J Control Release | Review of thiomers and their mucoadhesive properties |
+| [31028759](https://pubmed.ncbi.nlm.nih.gov/31028759/) | 2019 | Review | Adv Drug Deliv Rev | Review of thiolated polymers and disulfide bonding with mucus and tissue proteins |
+| [25701684](https://pubmed.ncbi.nlm.nih.gov/25701684/) | 2015 | Mechanistic (cells and patients) | Exp Eye Res | ROS-activated NLRP3 inflammasomes initiate inflammation in hyperosmolarity-stressed corneal cells and dry eye patients |
+| [24836981](https://pubmed.ncbi.nlm.nih.gov/24836981/) | 2014 | Mechanistic (animal) | Exp Eye Res | ROS-activated NLRP3 inflammasomes prime environment-induced murine dry eye |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| G2370 (Act 101/1965) | Cicatrin Powder 15G | Powder | Not available in the data compiled |
-| 52/25/0739 | Numeta G13E | Infusion | Not available in the data compiled |
-| 52/25/0740 | Numeta G16E | Infusion | Not available in the data compiled |
+| G2370 (ACT 101/1965) | Cicatrin Powder 15G | Powder | Not recorded |
+| 52/25/0739 | Numeta G13E | Infusion | Not recorded |
+| 52/25/0740 | Numeta G16E | Infusion | Not recorded |
 
-All three registrations are valid single-ingredient entries. The registered forms (powder, infusion) are not ophthalmic products, and no eye-drop formulation is registered. Essential Medicines List status could not be determined from the data compiled.
+All three registrations are currently valid. The data compiled for this report do not show Essential Medicines List status.
 
 ## Safety Considerations
 
-**Contraindication signals from the knowledge graph** (drug–disease links, not label text; they must be verified against the PI):
-peptic ulcer disease (including active), hypotensive disorder, respiratory failure, asthma, bronchial disease, oesophageal varices, phenylketonuria and disorders of phenylalanine metabolism.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-No drug interaction records were found. For label warnings and contraindications, please refer to the SAHPRA-approved Professional Information (PI) for the relevant product. Report adverse drug reactions to SAHPRA.
+No drug interactions were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but the evidence is model-only plus preclinical formulation work in which cysteine acts as a delivery component rather than a tested drug. There are no clinical trials, no ophthalmic product is registered in South Africa, and the SAHPRA label safety data are missing.
+The prediction score is high, and there is a plausible antioxidant and mucoadhesive rationale. However, no clinical trials exist, and no published study tests cysteine itself as a treatment for dry eye. The evidence is model prediction plus indirect preclinical work only.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications for the registered products
-- Mechanism of action data (for example from DrugBank)
-- Preclinical studies testing cysteine itself (not only conjugates or prodrugs) in dry eye models
-- An ophthalmic formulation and its ocular tolerability and safety assessment
-- A review of the knowledge-graph contraindication signals (asthma, peptic ulcer, hypotension) for relevance to any topical ocular use
-
-### Other predicted indications (for reference)
-
-| Rank | Predicted Indication | Evidence Level | Comment |
-|------|------|------|------|
-| 2 | Closed-angle glaucoma | L5 | Literature concerns SPARC (a cysteine-rich protein), likely a keyword artefact; Hold |
-| 3 | Nasal cavity disease | L4 | Only weak indirect support from an N-acetylcysteine combination study; Research question |
-| 4 | Acute laryngopharyngitis | L5 | Plausible from mucolytic and antioxidant role, but no evidence; Hold |
-| 5 | Pharyngitis | L4 | Indirect N-acetylcysteine biofilm data only; Research question |
-| 6 | Exercise-induced malignant hyperthermia | L5 | No mechanistic link supported by data; Hold |
-| 7 | Angle-closure glaucoma | L5 | Duplicate of rank 2; Hold |
-| 8 | Lacrimal excretory system anomaly | L5 | Structural anomaly, mechanism implausible; Hold |
-| 9 | Tracheal disease | L4 | Indirect N-acetylcysteine preclinical and review data; Research question |
-| 10 | Nasolacrimal duct disease | L5 | Prediction only; Hold |
+- Mechanism of action data for cysteine
+- Preclinical studies testing cysteine (not cysteine-conjugated carriers) on the ocular surface
+- An ophthalmic formulation and route assessment, since the locally registered products are a powder and parenteral infusions
+- SAHPRA package insert warnings and contraindications for safety screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

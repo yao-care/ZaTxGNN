@@ -4,7 +4,7 @@ title: Nitroglycerin
 parent: Moderate Evidence (L3-L4)
 nav_order: 345
 evidence_level: L3
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report"
 monitor_inn: "nitroglycerin"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 # Nitroglycerin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Nitroglycerin is a nitric oxide (NO)-donating vasodilator, registered in South A
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data compiled for this report |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
@@ -105,10 +105,9 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Prinzmetal angina | 99.39% | L4 | Coronary vasospasm responds to nitrates, so this is close to existing use rather than true repurposing. The literature is mostly reviews and older studies; no nitroglycerin-specific controlled trial and no registered trials. |
-| Kyphoscoliotic heart disease | 99.42% | L5 | Prediction only. Vasodilators may worsen ventilation-perfusion matching in restrictive lung disease. |
-| Primary hereditary glaucoma | 99.16% | L5 | Prediction only. The NO–cGMP pathway is relevant to outflow, but there is no clinical support. |
-| Congenital hypotrichosis milia | 99.02% | L5 | Prediction only. No plausible mechanistic rationale. |
+| Kyphoscoliotic heart disease | 0.9942 | L5 | Prediction only. Vasodilators may worsen ventilation-perfusion matching in restrictive lung disease. |
+| Primary hereditary glaucoma | 0.9916 | L5 | Prediction only. The NO–cGMP pathway is relevant to outflow, but there is no clinical support. |
+| Congenital hypotrichosis milia | 0.9902 | L5 | Prediction only. No plausible mechanistic rationale. |
 
 ## Conclusion and Next Steps
 

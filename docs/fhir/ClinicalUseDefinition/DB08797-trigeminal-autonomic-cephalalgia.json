@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB08797",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB08797"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "trigeminal-autonomic-cephalalgia",
-          "display": "trigeminal autonomic cephalalgia"
-        }
-      ],
-      "text": "trigeminal autonomic cephalalgia"
+      "concept": {
+        "text": "trigeminal autonomic cephalalgia"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9994
     }
   ]
 }

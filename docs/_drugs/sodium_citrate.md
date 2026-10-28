@@ -4,17 +4,17 @@ title: Sodium Citrate
 parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis…"
 monitor_inn: "Sodium citrate"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria", "intestinal obstruction"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
+description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sodium Citrate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sodium Citrate: From Peptic Ulcer Disease and Reflux to Papillary Conjunctivitis
+## Sodium Citrate: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,23 +46,23 @@ There are **no clinical trials and no publications** for this prediction, so the
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis, dyspepsia, pharyngitis, common cold, rhinitis (from the knowledge graph; no approved indication text is available in the SAHPRA records compiled for this report) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 14 |
+| South Africa Market Status | Marketed (valid licences: 14 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, sodium citrate acts as an antacid and buffering agent. Its use in gastric acid-related conditions is plausible, and it appears in several cough and cold products.
 
-No plausible mechanism links this buffering action to papillary conjunctivitis, which is usually driven by contact lens or foreign-body irritation and allergic mechanisms. The high score (99.95%, model rank 522) most likely reflects proximity in the knowledge graph rather than a biological rationale.
+No plausible mechanism links this buffering action to papillary conjunctivitis, which is usually driven by contact lens or foreign-body irritation and allergic mechanisms. The high score (0.9995, model rank 522) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions in the list are also weakly supported:
 
-- **Nasal cavity disease and acute laryngopharyngitis** sit close to the cold, rhinitis and pharyngitis indications. They are likely graph neighbours and have no trials or publications.
+- **Nasal cavity disease** sits close to the cold, rhinitis and pharyngitis indications. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It has no trials or publications.
 - **Stomach disease** (the only prediction with some biologically plausible mechanism, acid buffering) has only indirect literature, mostly preclinical gastric cancer work combining 3-bromopyruvate with sodium citrate.
 - **Gastroduodenitis and intestinal obstruction** have only weak or off-topic literature.
 - **Postgastrectomy syndrome, familial visceral myopathy, rosacea conjunctivitis and allergic urticaria** have no evidence and no supported mechanism.
@@ -132,7 +132,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The prediction for papillary conjunctivitis rests only on a graph-based score. There are no trials or publications, and no plausible mechanism. The evidence level is L5. Even the better-supported gastric predictions have only indirect or preclinical evidence (L4).
+The prediction for papillary conjunctivitis rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or publications, and no plausible mechanism. The evidence level is L5. Even the better-supported gastric predictions have only indirect or preclinical evidence (L4).
 
 **To proceed, the following is needed:**
 - Mechanism of action data for sodium citrate.

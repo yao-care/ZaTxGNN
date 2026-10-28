@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00133",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00133"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "intestinal-pseudoobstruction-neuronal-chronic-idiopathic-x-linked",
-          "display": "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked"
-        }
-      ],
-      "text": "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked"
+      "concept": {
+        "text": "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9988
     }
   ]
 }

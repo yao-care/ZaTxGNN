@@ -6,9 +6,9 @@ nav_order: 332
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Diarrhoeal disease"
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Morphine
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Morphine: From Diarrhoeal Disease to Myofascial Pain Syndrome
+## Morphine: Myofascial pain syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Morphine was originally used for diarrhoeal disease (per the TxGNN knowledge graph) and is a well-known opioid analgesic.
+Morphine was originally used for diarrhoeal disease and is a well-known opioid analgesic.
 The TxGNN model predicts it may be effective for **myofascial pain syndrome**,
 but there are **no registered clinical trials** and **10 publications** that only indirectly address this direction. The evidence is weak.
 
@@ -48,12 +48,12 @@ but there are **no registered clinical trials** and **10 publications** that onl
 
 | Item | Content |
 |------|------|
-| Original Indication | Diarrhoeal disease (from the TxGNN knowledge graph; the SAHPRA records compiled contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myofascial pain syndrome |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -136,7 +136,7 @@ The prediction score is high, but no clinical trials or direct clinical studies 
 
 ### Note on Other Predicted Indications
 
-Of the other nine predictions, **restless legs syndrome** (score 99.47%) has the strongest support (Evidence Level L3). It rests on observational registry data and case reports of low-dose and intrathecal morphine in refractory disease, and its only registered trial (NCT01476124) is a Phase 1 pharmacokinetic study in 18 healthy volunteers. It merits further research as a separate question. The remaining predictions (manic bipolar affective disorder, Tourette syndrome, ADHD inattentive type, migraine disorder, trichotillomania, methemoglobinemia, migraine with brainstem aura, specific developmental disorder) have only indirect or no evidence (L4-L5), and some carry a potential for harm. All were rated Hold.
+Of the other nine predictions, **restless legs syndrome** (score 0.9947) has the strongest support (Evidence Level L3). It rests on observational registry data and case reports of low-dose and intrathecal morphine in refractory disease, and its only registered trial (NCT01476124) is a Phase 1 pharmacokinetic study in 18 healthy volunteers. It merits further research as a separate question. The remaining predictions (manic bipolar affective disorder, Tourette syndrome, ADHD inattentive type, migraine disorder, trichotillomania, methemoglobinemia, migraine with brainstem aura, specific developmental disorder) have only indirect or no evidence (L4-L5), and some carry a potential for harm. All were rated Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

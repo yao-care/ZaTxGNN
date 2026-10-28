@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00764",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00764"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "primary-cutaneous-t-cell-lymphoma",
-          "display": "primary cutaneous T-cell lymphoma"
-        }
-      ],
-      "text": "primary cutaneous T-cell lymphoma"
+      "concept": {
+        "text": "primary cutaneous T-cell lymphoma"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9936
     }
   ]
 }

@@ -4,17 +4,17 @@ title: Pramocaine
 parent: Model Prediction Only (L5)
 nav_order: 384
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not stated in the SAHPRA registration data. The knowledge graph lists…"
 monitor_inn: "Pramocaine"
-predicted_indications: ["papillary conjunctivitis", "acne keloid", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "vernal conjunctivitis", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "atopic conjunctivitis", "rosacea conjunctivitis"]
+predicted_indications: ["papillary conjunctivitis"]
+description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pramocaine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pramocaine: From Topical Skin and Anorectal Conditions to Papillary Conjunctivitis
+## Pramocaine: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data. The knowledge graph lists tinea pedis, dermatitis, burns, haemorrhoids, otitis externa and related conditions. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.15% |
+| TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,21 +63,12 @@ Currently, detailed mechanism of action data is not available from the data comp
 
 Its original uses are surface-level symptom relief on skin, ear and anorectal tissue. In papillary conjunctivitis, a sodium channel blocker could at most numb ocular surface discomfort. There is no evidence that it affects the allergic or mechanical causes of the disease. Ocular use of pramocaine is also not an established route, and prolonged use of topical anaesthetics on the eye can damage the cornea.
 
-The prediction is therefore best viewed as a statistical signal from the knowledge graph, not a mechanistically supported hypothesis. Other highly ranked predictions include vernal, atopic and rosacea conjunctivitis, which suggests the model may be picking up a general ocular or inflammatory cluster rather than a pramocaine-specific effect.
+The prediction is therefore best viewed as a statistical signal from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, and not a mechanistically supported hypothesis.
 
 ### Other Predicted Indications (for context)
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Acne keloid | 98.53% | L5 | Possible symptom relief only; no effect on fibrosis expected |
-| 3 | Acrodermatitis chronica atrophicans | 98.43% | L5 | Antibiotic-treated infection; no antimicrobial role |
-| 4 | Neonatal dermatomyositis | 98.28% | L5 | Autoimmune; neonatal absorption and methaemoglobinaemia concerns |
-| 5 | Vernal conjunctivitis | 98.15% | L5 | Allergic disease; anaesthetic does not address it |
-| 6 | Hydroa vacciniforme, familial | 98.12% | L5 | Symptomatic relief at most |
-| 7 | Secondary childhood interstitial lung disease (connective tissue disease) | 97.99% | L5 | No plausible mechanism; likely graph artefact |
-| 8 | Amyopathic dermatomyositis | 97.87% | L5 | Symptom relief only |
-| 9 | Atopic conjunctivitis | 97.81% | L5 | Allergic mechanism not targeted; chronic ocular anaesthetic use unsafe |
-| 10 | Rosacea conjunctivitis | 97.79% | L5 | No activity against underlying processes |
 
 ---
 

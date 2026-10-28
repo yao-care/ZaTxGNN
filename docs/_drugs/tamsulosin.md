@@ -6,9 +6,9 @@ nav_order: 434
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
+description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tamsulosin
@@ -33,31 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tamsulosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+## Tamsulosin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tamsulosin is an alpha-1 adrenergic blocker, originally used to treat benign prostatic hyperplasia (BPH).
-The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but **no clinical trials and no publications** currently support this prediction. It rests on a graph-based model prediction alone.
+The TxGNN model (deep learning) predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but **no clinical trials and no publications** currently support this prediction. It rests on the model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (from the TxGNN knowledge graph; the SAHPRA records compiled for this report contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 8 |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Tamsulosin is generally known as an alpha-1A/1D adrenergic receptor antagonist. It relaxes smooth muscle in the prostate and bladder neck, which is why it is effective in BPH.
 
-For the predicted indication, no plausible mechanism has been established. Ambras syndrome is linked to chromosome 8q regulatory rearrangements affecting *TRPS1*, a genetic cause that alpha-1 blockade is not known to influence. The high score most likely reflects network proximity to other hair-related phenotypes in the knowledge graph rather than a biological rationale. The prediction should therefore be treated as a hypothesis-generating signal only.
+For the predicted indication, no plausible mechanism has been established. Ambras syndrome is linked to chromosome 8q regulatory rearrangements affecting *TRPS1*, a genetic cause that alpha-1 blockade is not known to influence. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should therefore be treated as a hypothesis-generating signal only.
 
 The other top-ranked predictions show the same pattern. Examples are hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia areata, alopecia and migraine with brainstem aura. All are L5 with no trials or supporting studies.
 
@@ -92,7 +92,7 @@ The remaining three registrations are Swifsul (55/21.12/0032), Beniprosin SR (A4
 
 ## Safety Considerations
 
-**Contraindications and conditions of concern (from knowledge graph associations, not label text):**
+**Contraindications and conditions of concern (from TxGNN model (deep learning) associations, which may reflect similarities the model learned between related diseases, not biological evidence and not label text):**
 multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver disease, gallbladder disease, priapism, and intraoperative floppy iris syndrome (relevant before cataract surgery).
 
 **Drug Interactions** (100 interactions identified; selected examples):

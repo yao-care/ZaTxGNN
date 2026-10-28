@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB01165",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB01165"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "monoclonal-gammopathy",
-          "display": "monoclonal gammopathy"
-        }
-      ],
-      "text": "monoclonal gammopathy"
+      "concept": {
+        "text": "monoclonal gammopathy"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9982
     }
   ]
 }

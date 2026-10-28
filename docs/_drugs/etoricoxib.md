@@ -4,17 +4,17 @@ title: Etoricoxib
 parent: Model Prediction Only (L5)
 nav_order: 221
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the SAHPRA registration data (general pharmacology sour…"
 monitor_inn: "Etoricoxib"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Etoricoxib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Etoricoxib is a selective COX-2 inhibitor. The SAHPRA registration data compiled
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data (general pharmacology sources list rheumatoid arthritis, osteoarthritis, chronic lower back pain, ankylosing spondylitis, acute pain and gout) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 (mechanistic plausibility only; no clinical studies in migraine) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 (mechanistic plausibility only; no clinical studies in migraine) |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

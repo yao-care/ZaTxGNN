@@ -2,19 +2,19 @@
 layout: default
 title: Diphenylpyraline
 parent: Model Prediction Only (L5)
-nav_order: 187
+nav_order: 186
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Diphenylpyraline: predicted new indication Allergic urticaria (evidence level L5). Approved use: Allergic rhinitis"
+indication_count: 1
 monitor_inn: "Diphenylpyraline"
-predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease", "nasopharyngitis", "rosacea conjunctivitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "anorectal stricture"]
+predicted_indications: ["nasal cavity disease"]
+last_modified_at: 2026-10-23
+description: "Diphenylpyraline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
 # Diphenylpyraline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,89 +33,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Diphenylpyraline: From Allergic Rhinitis to Allergic Urticaria
+## Diphenylpyraline: From Allergic Rhinitis to Nasal Cavity Disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Diphenylpyraline is a first-generation H1 antihistamine, originally used for allergic and vasomotor rhinitis, the common cold, allergic conjunctivitis and urticaria.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but **no clinical trials and no publications** were found for this specific prediction. Urticaria is already among the drug's original indications, so this is not a true repurposing candidate.
+Diphenylpyraline is a first-generation antihistamine. The relations recorded in the knowledge graph place it in allergic rhinitis, vasomotor rhinitis, common cold and related allergic conditions. The TxGNN model predicts it may be effective for **nasal cavity disease**, but **no clinical trials and no publications** in the data compiled for this report directly support this prediction. It is best read as a broad re-labelling of uses already recorded for the drug.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (the SAHPRA licence records contain no approved indication text; original indications come from the TxGNN knowledge graph) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.61% |
+| Original Indication | Allergic rhinitis (a relation recorded in the knowledge graph; the SAHPRA licence records contain no indication text) |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, diphenylpyraline is a first-generation H1 antihistamine with anticholinergic activity. Histamine released from mast cells drives the wheal-and-flare response in allergic urticaria, so H1 blockade is mechanistically plausible.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, diphenylpyraline is a first-generation H1 antihistamine. Blocking H1 receptors would be expected to reduce histamine-mediated nasal congestion, runny nose and mucosal swelling. First-generation agents also have anticholinergic drying effects. These points come from general knowledge and could not be verified against the supplied data.
 
-Urticaria and angioedema are already listed among the drug's original indications, so the prediction largely restates a known use. The same applies to several other predictions: acute laryngopharyngitis, nasal cavity disease, nasopharyngitis and rhinitis overlap with the original rhinitis, pharyngitis and common cold indications. For these, any benefit is symptomatic (drying of secretions) and does not treat underlying infection.
-
-Cold urticaria is a plausible histamine-mediated condition. However, current practice prefers second-generation antihistamines for better tolerability.
-
-Other predictions have weak or no mechanistic support:
-- **Rosacea conjunctivitis:** driven mainly by meibomian gland dysfunction and inflammation rather than histamine.
-- **Recalcitrant atopic dermatitis:** itch is only partly histamine-driven, so benefit is unlikely.
-- **IgE responsiveness, atopic:** a phenotype rather than a treatable disease; antihistamines act downstream of IgE.
-- **Anorectal stricture:** no plausible link; likely a knowledge-graph artifact.
+The drug is already used for allergic rhinitis, vasomotor rhinitis, pharyngitis and the common cold. These are all conditions of the nose and upper airway. "Nasal cavity disease" is a broad umbrella term that covers them. The high score (0.9915) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It probably does not point to a genuinely new repurposing opportunity. The novelty and specificity of this prediction are low.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for allergic urticaria.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No publications were found for allergic urticaria. The only literature in the data relates to the lower-ranked prediction **rhinitis** (score 96.58%, evidence level L4), which is an already-approved use:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [14039](https://pubmed.ncbi.nlm.nih.gov/14039/) | 1977 | Clinical study (double-blind per abstract; 63 on drug, 57 on placebo) | J Int Med Res | Better effect than placebo on all symptoms in allergic and vasomotor rhinitis; statistically significant for mucus discharge and eye redness |
-| [13294977](https://pubmed.ncbi.nlm.nih.gov/13294977/) | 1956 | Historical clinical evaluation | J Allergy | General clinical evaluation of diphenylpyraline (no abstract available) |
-| [13683344](https://pubmed.ncbi.nlm.nih.gov/13683344/) | 1961 | Historical clinical study | Svenska Lakartidningen | Long-acting formulation in hay fever (no abstract available) |
-| [13125198](https://pubmed.ncbi.nlm.nih.gov/13125198/) | 1954 | Historical clinical evaluation | Ann Allergy | Evaluation in ragweed pollinosis (no abstract available) |
+Currently no related literature available.
 
 ## South Africa Market Information
 
-All three registrations are valid single-ingredient syrups. No approved indication text was available in the data compiled for this report. Essential Medicines List (EML) status was not available.
+All three registrations are single-ingredient products and are currently valid. The licence records contain no approved-indication text. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 27/10.1/0529 | Dynalex | Syrup | Not available |
-| Reg. No. N/10.1/98 | Theophen Compound Elixir | Syrup | Not available |
-| Reg. No. W/10.1/0194 | Actophlem | Syrup | Not available |
+| Reg. No. 27/10.1/0529 | Dynalex | Syrup | Not stated in the licence record |
+| Reg. No. N/10.1/98 | Theophen Compound Elixir | Syrup | Not stated in the licence record |
+| Reg. No. W/10.1/0194 | Actophlem | Syrup | Not stated in the licence record |
 
 ## Safety Considerations
 
-Label warnings, contraindications and drug interaction data were not available. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+The knowledge graph records contraindication relations (these are not label text) with the following conditions:
 
-The drug-disease knowledge graph lists the following conditions as contraindications (not taken from label text; verify against the PI):
-- Hypertensive disorder and hypertension
-- Peptic ulcer disease
-- Benign prostatic hyperplasia
-- Ocular hypertension, angle-closure glaucoma and closed-angle glaucoma
-- Hyperthyroidism, Graves disease and thyrotoxicosis
-- Bladder neck obstruction
+- **Cardiovascular and endocrine:** hypertensive disorder, hypertension, hyperthyroidism, Graves disease, thyrotoxicosis
+- **Gastrointestinal:** peptic ulcer disease
+- **Genitourinary:** benign prostatic hyperplasia, bladder neck obstruction
+- **Eye:** ocular hypertension, angle-closure glaucoma, closed-angle glaucoma
+
+These are consistent with the anticholinergic profile of first-generation antihistamines, but they must be confirmed against the product label.
+
+No drug interaction records were found in the data compiled for this report.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings, contraindications and interactions. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for allergic urticaria rests on model score and mechanistic plausibility alone (evidence level L5), with no supporting trials or literature. Urticaria is already an original indication, so this adds no new repurposing value. The safety review is also blocked because label warnings and contraindications are missing.
+The prediction score is very high, but no clinical trial or publication directly studies nasal cavity disease, so the evidence level is L5 (model prediction only). The prediction also largely overlaps with uses already recorded for the drug, so it adds little new information.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert (PI) with approved indications, warnings and contraindications
-- Mechanism of action data (for example from DrugBank)
-- Any clinical evidence for diphenylpyraline in urticaria, ideally compared with second-generation antihistamines
-- A safety plan for the sedating and anticholinergic effects, especially in the conditions listed above
+- The SAHPRA package insert (PI), to confirm approved indications, warnings and contraindications
+- Mechanism of action data for diphenylpyraline
+- A more specific target condition (for example a defined nasal disease) in place of the broad "nasal cavity disease" category
+- A literature and trial search for specific nasal conditions
+- A safety review of the anticholinergic-related contraindications in the intended population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

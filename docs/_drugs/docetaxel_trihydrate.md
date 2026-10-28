@@ -8,6 +8,7 @@ nav_order: 193
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Docetaxel Trihydrate
@@ -49,8 +50,8 @@ Docetaxel Trihydrate is a well-established taxane-class antineoplastic agent use
 | Predicted New Indication | No prediction available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | — (No prediction generated) |
-| South Africa Market Status | Not Registered (SAHPRA) |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

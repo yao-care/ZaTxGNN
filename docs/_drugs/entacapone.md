@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Entacapone is a COMT inhibitor, originally used as an add-on to levodopa in Parkinson disease and related parkinsonian syndromes.
-The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration** (score 99.76%), but **no clinical trials and no publications** specifically support this prediction.
+The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration** (score 0.9976), but **no clinical trials and no publications** specifically support this prediction.
 The evidence is model-based only, so this top prediction should be treated as a hypothesis.
 
 ## Quick Overview
@@ -48,10 +48,10 @@ The evidence is model-based only, so this top prediction should be treated as a 
 |------|------|
 | Original Indication | Parkinson disease and related parkinsonian syndromes (the SAHPRA registration entries in the data compiled for this report contain no indication text) |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,15 +66,15 @@ This prediction is therefore supported only by its similarity to the original in
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Rasmussen subacute encephalitis | 99.73% | L5 | No clear mechanistic rationale |
-| 3 | Myelitis | 99.63% | L5 | No relevant anti-inflammatory mechanism |
-| 4 | Juvenile paralysis agitans (Hunt) | 99.60% | L5 | Close to the original indication, but benefit would be extrapolated and the score may be inflated by ontology overlap |
-| 5 | Transaldolase deficiency | 99.43% | L5 | No plausible mechanism |
-| 6 | Lethal infantile mitochondrial myopathy | 99.28% | L5 | No mechanism; hepatotoxicity is an added concern |
-| 7 | Lewy body dementia | 99.25% | L4 | Indirect preclinical support only |
-| 8 | Fructose-1,6-bisphosphatase deficiency | 99.22% | L5 | No plausible mechanism |
-| 9 | Perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis | 99.06% | L5 | Structural developmental disorder |
-| 10 | Progressive supranuclear palsy-corticobasal syndrome | 99.04% | L4 | Indirect evidence only |
+| 2 | Rasmussen subacute encephalitis | 0.9973 | L5 | No clear mechanistic rationale |
+| 3 | Myelitis | 0.9963 | L5 | No relevant anti-inflammatory mechanism |
+| 4 | Juvenile paralysis agitans (Hunt) | 0.9960 | L5 | Close to the original indication, but benefit would be extrapolated and the score may be inflated by ontology overlap |
+| 5 | Transaldolase deficiency | 0.9943 | L5 | No plausible mechanism |
+| 6 | Lethal infantile mitochondrial myopathy | 0.9928 | L5 | No mechanism; hepatotoxicity is an added concern |
+| 7 | Lewy body dementia | 0.9925 | L5 | Indirect preclinical support only |
+| 8 | Fructose-1,6-bisphosphatase deficiency | 0.9922 | L5 | No plausible mechanism |
+| 9 | Perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis | 0.9906 | L5 | Structural developmental disorder |
+| 10 | Progressive supranuclear palsy-corticobasal syndrome | 0.9904 | L5 | Indirect evidence only |
 
 Lewy body dementia (rank 7) and progressive supranuclear palsy-corticobasal syndrome (rank 10) have slightly more supporting material than the top prediction, but this material is background only and does not test entacapone.
 

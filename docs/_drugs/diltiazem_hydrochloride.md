@@ -8,6 +8,7 @@ nav_order: 182
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Diltiazem Hydrochloride
@@ -51,8 +52,8 @@ This report documents the current data status and outlines the steps required be
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not applicable — no predictions exist |
-| South Africa Market Status | Not Registered |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 ---

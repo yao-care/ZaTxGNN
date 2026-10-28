@@ -8,6 +8,7 @@ nav_order: 77
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Brimonidine Tartrate
@@ -49,8 +50,8 @@ Brimonidine tartrate is an alpha-2 adrenergic agonist with established clinical 
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | — |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | **Hold** |
 
 ---

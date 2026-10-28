@@ -4,17 +4,17 @@ title: Phenobarbital
 parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenobarbital
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenobarbital: From Epilepsy to Trigeminal Nerve Neoplasm
+## Phenobarbital: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,27 +48,21 @@ The more plausible predicted indications are reflex-type seizure disorders, whic
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (the SAHPRA registration record contains no approved indication text; this is taken from the knowledge-graph indication list) |
-| Predicted New Indication | Trigeminal nerve neoplasm (rank 1) |
-| TxGNN Prediction Score | 99.96% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Trigeminal nerve neoplasm |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 For context, the other nine predictions are:
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 2 | Thinking seizures | 99.96% | L3 | Research question |
-| 3 | Startle epilepsy | 99.96% | L4 | Hold |
-| 4 | Audiogenic seizures | 99.96% | L4 | Hold |
-| 5 | Eating seizures | 99.96% | L4 | Hold |
-| 6 | Micturition-induced seizures | 99.96% | L1 (assigned) | Research question |
-| 7 | Orgasm-induced seizures | 99.96% | L5 | Hold |
-| 8 | Reading seizures | 99.96% | L4 | Hold |
-| 9 | Trigeminal neuralgia | 99.88% | L4 | Hold |
-| 10 | Beta-ketothiolase deficiency | 99.81% | L5 | Hold |
+| 6 | Micturition-induced seizures | 0.9996 | L5 (assigned) | Research question |
+| 9 | Trigeminal neuralgia | 0.9988 | L4 | Hold |
+| 10 | Beta-ketothiolase deficiency | 0.9981 | L5 | Hold |
 
 Note: the L1 level shown for micturition-induced seizures is based on a neonatal seizure trial that does not address this condition. Read it as L4 at most.
 
@@ -80,7 +74,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 **Trigeminal nerve neoplasm (rank 1):** There is no clear mechanistic link. The only retrieved paper is a case series on Sturge-Weber syndrome, a neurocutaneous disorder in which phenobarbital is used to control seizures, not to treat tumours. The high score probably reflects network proximity to epilepsy and neurological terms rather than anti-tumour activity. This prediction should not be pursued as a cancer treatment.
 
-**Reflex seizure disorders (ranks 2-8):** Thinking, startle, audiogenic, eating, micturition-induced, orgasm-induced and reading seizures are all reflex epilepsies. Because phenobarbital already treats epilepsy, GABAergic enhancement is a plausible fit. However, the retrieved literature is mostly general or neonatal seizure guidance, preclinical animal studies, and isolated case reports. None demonstrates phenobarbital efficacy for these specific conditions. No literature at all was retrieved for orgasm-induced seizures.
+Because phenobarbital already treats epilepsy, GABAergic enhancement is a plausible fit. However, the retrieved literature is mostly general or neonatal seizure guidance, preclinical animal studies, and isolated case reports. None demonstrates phenobarbital efficacy for these specific conditions. No literature at all was retrieved for orgasm-induced seizures.
 
 **Trigeminal neuralgia (rank 9):** Carbamazepine is the first-line anticonvulsant, with baclofen, phenytoin and valproate also effective. Phenobarbital is not an established treatment. An older cat study suggested phenobarbital tends to depress, rather than facilitate, trigeminal inhibitory mechanisms, and it is relevant mainly as an enzyme inducer that lowers carbamazepine levels.
 

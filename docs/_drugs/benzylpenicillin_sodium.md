@@ -8,6 +8,7 @@ nav_order: 66
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Benzylpenicillin Sodium
@@ -51,8 +52,8 @@ Without prediction output, mechanism of action documentation, or SAHPRA registra
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — no prediction output produced |
-| South Africa Market Status | Not marketed (per Evidence Pack) |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

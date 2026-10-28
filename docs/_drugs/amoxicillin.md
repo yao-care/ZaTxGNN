@@ -2,19 +2,19 @@
 layout: default
 title: Amoxicillin
 parent: Model Prediction Only (L5)
-nav_order: 35
+nav_order: 34
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Amoxicillin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Urinary tract infection, infectious otitis media…"
+indication_count: 8
 monitor_inn: "Amoxicillin"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "epiglottitis"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+last_modified_at: 2026-10-23
+description: "Amoxicillin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections such as urinary tract infection…"
 ---
 
 # Amoxicillin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,83 +33,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Amoxicillin: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+## Amoxicillin: From Bacterial Infections to Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Amoxicillin is a beta-lactam antibiotic, originally used to treat bacterial infections such as urinary tract infection, otitis media, streptococcal infection and bacterial pneumonia.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but **no clinical trials and no publications** currently support this prediction.
-The score comes from a graph-based computation only, so this prediction should be treated as a hypothesis.
+Amoxicillin is a beta-lactam antibiotic with relations recorded in the knowledge graph for urinary tract infection, otitis media, streptococcal and staphylococcal infections, and pneumonia.
+The TxGNN model predicts it may be useful for **hyperamylasemia**, but there are **0 clinical trials** and **0 publications** directly studying this condition, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, infectious otitis media, streptococcal infection, bacterial pneumonia (SAHPRA indication text not available; taken from the TxGNN knowledge graph) |
-| Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 99.63% |
+| Original Indication | Bacterial infections such as urinary tract infection, infectious otitis media, streptococcal infection and bacterial pneumonia (relations recorded in the knowledge graph; SAHPRA licence records contain no indication text) |
+| Predicted New Indication | Hyperamylasemia |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 14 |
+| South Africa Market Status | Marketed (valid licences: 14 of 14) |
+| Number of Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Amoxicillin is a beta-lactam antibiotic with established efficacy in many bacterial infections.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Amoxicillin is known as a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, so its activity is directed at bacteria.
 
-Polyclonal hyperviscosity syndrome is caused by raised polyclonal immunoglobulin levels that thicken the blood. It is not a bacterial infection. No plausible mechanistic link between an antibacterial and this condition was identified. The high score (0.996) reflects network-based association only and should not be read as biological support.
+No mechanistic link to hyperamylasemia was identified. Amoxicillin has no known action on amylase metabolism or on pancreatic or salivary enzyme regulation. The high TxGNN score (0.9963) appears to be a network-based prediction without supporting clinical or literature data, and it should not be read as evidence of benefit.
 
-**Other predictions reviewed** (all with the same Hold or Research Question status):
-- **Epiglottitis** (score 98.70%, L4): the most plausible by mechanism. It is mainly caused by *Haemophilus influenzae* and streptococci, which amoxicillin already covers in related upper respiratory tract infections, so it is closer to a label extension than true repurposing. Evidence is limited to reviews, guidelines, epidemiology and case reports. Beta-lactamase production in *H. influenzae* limits use, and empirical therapy usually relies on third-generation cephalosporins.
-- **Septicaemic plague** (score 99.13%, L4): there is a biological rationale, but evidence is limited to a mouse model and in vitro studies. Beta-lactams are not first-line for plague, and no human trials exist.
-- **Other candidates** (hyperamylasaemia, congenital analbuminaemia, premalignant haematological disease, monoclonal gammopathy, congenital haematological disorder and others): no therapeutic mechanism or direct evidence was found. For congenital haematological disorder, the only relevant literature is an adverse-event report of amoxicillin-induced haemolytic anaemia, which is a safety signal.
+The other top-ranked predictions show the same pattern. Of the seven, five (hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant haematological disease, and haematological disease with acquired peripheral neuropathy) have no trials or publications. The remaining two (blood group incompatibility and monoclonal gammopathy) have only indirect case reports or supportive-care studies, and septicaemic plague has only indirect laboratory and animal data. Septicaemic plague is the only one that is biologically plausible for an antibacterial, but beta-lactams are not first-line for plague, and in vitro data suggest limited activity against intracellular *Yersinia pestis*.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for polyclonal hyperviscosity syndrome.
+Currently no related clinical trials are registered for hyperamylasemia.
 
 ## Literature Evidence
 
-Currently no related literature available for polyclonal hyperviscosity syndrome.
+Currently no related literature is available for hyperamylasemia.
 
 ## South Africa Market Information
 
-Amoxicillin is marketed in South Africa with 14 valid single-ingredient registrations, in oral, injectable and other forms. Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the available data.
+Amoxicillin is marketed in South Africa, with 14 valid SAHPRA registrations, all single-ingredient records. The licence records contain no approved indication text. Essential Medicines List status could not be determined from the data compiled for this report. The 5 main registrations are listed below.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 36/20.1.2/0115 | Zaloxy | Suspension | Not available |
-| Reg. No. Z/20.1.2/327 | Spectramox C 250 | Capsule | Not available |
-| Reg. No. J/20.1.2/0437 | Suprapen 500 | Capsule | Not available |
-| Reg. No. 41/20.1.2/0532 | Bindoclav | Tablet | Not available |
-| Reg. No. 34/20.1.2/0251 | Ranclav | Suspension | Not available |
+| 36/20.1.2/0115 | Zaloxy | Suspension | Not stated in the records |
+| Z/20.1.2/327 | Spectramox C 250 | Capsule | Not stated in the records |
+| J/20.1.2/0437 | Suprapen 500 | Capsule | Not stated in the records |
+| 41/20.1.2/0532 | Bindoclav | Tablet | Not stated in the records |
+| 41/20.1.2/0977 | Gulf amoxy co powder for injection vial | Injection | Not stated in the records |
 
-Nine further registrations exist, including Austell-co-amoxiclav, Auro-amoxiclav (tablet and suspension), Apoclav (injection), Amoxil D (drops) and others.
+Other available forms in the records include drops (Amoxil D) and further injection, tablet and suspension products.
 
 ## Safety Considerations
 
-SAHPRA package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+- **Relations recorded in the knowledge graph (not label text):** The knowledge graph links amoxicillin to contraindication relations with several conditions. They include liver failure, liver disease, cholestasis, kidney disease, porphyria, myasthenia gravis, *Clostridium difficile* colitis, infectious mononucleosis, long QT syndrome and torsades de pointes, ventricular tachycardia, osteoporosis and bone fracture. These are not confirmed by SAHPRA label text and should be checked against the Professional Information (PI).
+- **Drug Interactions (DDInter; 100 interactions recorded, examples shown):**
+  - Major: methotrexate; live oral cholera vaccine (*Vibrio cholerae* CVD 103-HgR)
+  - Moderate: doxycycline, minocycline, demeclocycline, ethinylestradiol, estradiol, dicoumarol, anisindione, mycophenolate mofetil, entecavir, balsalazide, and probiotic preparations (*Lactobacillus acidophilus*, *Bifidobacterium longum infantis*)
+  - Minor: allopurinol, amiloride, azithromycin, clarithromycin, erythromycin
 
-**Contraindication-related conditions in the knowledge graph** (not label text): liver disease and liver failure, cholestasis, kidney disease, porphyria, Clostridium difficile colitis, myasthenia gravis, infectious mononucleosis (including chronic Epstein-Barr virus infection syndrome), long QT syndrome, torsades de pointes, ventricular tachycardia, osteoporosis and bone fracture, and gallbladder disease. These should be verified against the PI.
-
-**Drug Interactions** (100 interactions recorded; selected examples):
-- **Major**: methotrexate (reduced renal clearance, raising methotrexate toxicity risk), and live oral cholera vaccine (*Vibrio cholerae* CVD 103-HgR).
-- **Moderate**: doxycycline, minocycline, demeclocycline, ethinylestradiol, estradiol, dicoumarol, anisindione, mycophenolate mofetil, entecavir, balsalazide, and probiotic preparations (*Lactobacillus acidophilus*, *Bifidobacterium longum infantis*).
-- **Minor**: allopurinol, amiloride, azithromycin, clarithromycin, erythromycin.
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for polyclonal hyperviscosity syndrome rests on a graph-based score alone (L5). There is no clinical, preclinical or mechanistic support, and no plausible mechanism linking an antibacterial to this condition. Safety data from the SAHPRA PI are also missing, which blocks safety screening.
+The prediction for hyperamylasemia is computational only, with no trials, no publications and no plausible mechanism. The evidence level is L5, so it does not support further development at this stage.
 
 **To proceed, the following is needed:**
-- Retrieval and review of the SAHPRA package insert (warnings, contraindications, approved indications)
-- Mechanism of action data (for example from DrugBank)
-- Any mechanistic or preclinical rationale for an effect on polyclonal hyperviscosity
-- If the team wishes to pursue a more credible direction, a focused review of epiglottitis (label extension within the infection class) or septicaemic plague (research question, requiring clinical data beyond animal and in vitro studies)
+- A plausible mechanistic hypothesis linking amoxicillin to amylase regulation
+- Any clinical or observational data on amoxicillin and serum amylase
+- Mechanism of action data and SAHPRA Professional Information warnings and contraindications
+- If a different indication is of interest, septicaemic plague could be considered as a research question only. It would need direct comparative efficacy data, given that beta-lactams are not first-line for plague.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -48,10 +48,10 @@ but at present there are **0 clinical trials** and **0 publications** supporting
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data. Pharmacology data describe use for dyspepsia, heartburn, epigastric pain, nausea and vomiting |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.08% |
+| TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data for domperidone is not available in the data c
 
 NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2) or, in some cases, in GNAS. These mutations cause water retention and low blood sodium (hyponatraemia) even though vasopressin is undetectable. No established mechanism links dopamine D2/D3 antagonism to V2 receptor signalling or to renal water handling. One speculative link is that domperidone raises prolactin and may influence the hypothalamic-pituitary axis. This is unlikely to affect constitutively active V2 receptors in the kidney.
 
-The high score (rank 4550) may reflect network proximity in the knowledge graph, such as shared hyponatraemia, electrolyte or neuroendocrine nodes, rather than real pharmacological relevance. The prediction should be regarded as a hypothesis only. Similarity between the original and predicted indications has not been assessed.
+The high score (rank 4550) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as shared hyponatraemia, electrolyte or neuroendocrine features, rather than real pharmacological relevance or biological evidence. The prediction should be regarded as a hypothesis only. Similarity between the original and predicted indications has not been assessed.
 
 ## Clinical Trial Evidence
 

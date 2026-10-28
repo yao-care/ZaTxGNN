@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lansoprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 287
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Lansoprazole: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
 monitor_inn: "Lansoprazole"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "acne (disease)", "Smouldering systemic mastocytosis", "leather-bottle stomach", "duodenitis"]
+predicted_indications: ["duodenal obstruction"]
+description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lansoprazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,35 +33,34 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Lansoprazole: From Gastric Ulcer and Acid-Related Disease to Duodenogastric Reflux
+## Lansoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lansoprazole is a proton pump inhibitor, originally used for gastric and duodenal ulcers, gastroesophageal reflux disease, esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux**,
 but there are **no registered clinical trials** and only **1 general review** supporting this direction, so the evidence is limited to model prediction and indirect literature.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (SAHPRA licence entries carry no indication text; these indications come from the TxGNN knowledge graph) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9968 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, lansoprazole is a proton pump inhibitor that suppresses gastric acid by inhibiting the H+/K+ ATPase of gastric parietal cells. Its efficacy in acid-related disorders is well established.
 
-Duodenogastric (bile) reflux is the backflow of duodenal contents into the stomach. Acid suppression may relieve symptoms of associated gastritis or oesophagitis, but it does not address the underlying bile reflux. The only supporting publication is a general review of PPIs, with no disease-specific data. The high prediction score probably reflects the closeness of this condition to approved acid-related diseases in the knowledge graph, rather than evidence of a distinct benefit.
+Duodenogastric (bile) reflux is the backflow of duodenal contents into the stomach. Acid suppression may relieve symptoms of associated gastritis or oesophagitis, but it does not address the underlying bile reflux. The only supporting publication is a general review of PPIs, with no disease-specific data.
 
 Other predicted indications were reviewed in the same way. None showed a distinct repurposing signal:
-- **Peptic ulcer perforation, gastrojejunal ulcer, gastroduodenitis and duodenitis** largely overlap with existing approved indications. The supporting literature is indirect, and several studies use lansoprazole only as a comparator to newer acid blockers.
+- The supporting literature is indirect, and several studies use lansoprazole only as a comparator to newer acid blockers.
 - **Duodenal obstruction, abnormality of glucagon secretion, acne, smouldering systemic mastocytosis and leather-bottle stomach** have no plausible mechanistic link and no trials or literature.
 
 ## Clinical Trial Evidence

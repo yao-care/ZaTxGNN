@@ -6,9 +6,9 @@ nav_order: 380
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "POTASSIUM ACETATE"
 predicted_indications: ["renal tubular acidosis"]
+description: "Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Potassium Acetate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Potassium Acetate: From Potassium Deficiency to Renal Tubular Acidosis
+## Potassium Acetate: Renal tubular acidosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials or publications** were found for this direction, so the
 
 | Item | Content |
 |------|------|
-| Original Indication | Potassium deficiency disease (from the TxGNN knowledge graph; no approved indication text is available for the SAHPRA registrations) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

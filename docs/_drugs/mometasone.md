@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mometasone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 330
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L4). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "Mometasone"
-predicted_indications: ["primary cutaneous T-cell lymphoma", "Crohn's colitis", "myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "cystic teratoma", "spinal cord dermoid cyst", "aregenerative anemia", "disease of orbital part of eye adnexa"]
+predicted_indications: ["primary cutaneous T-cell lymphoma"]
 ---
 
 # Mometasone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Mometasone is a potent corticosteroid, marketed in South Africa as a topical cre
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data compiled for this report (the drug's known uses are allergic rhinitis, asthma and nasal polyposis by the intranasal route, and allergic skin disorders by the topical route) |
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| TxGNN Prediction Score | 0.9936 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,7 +92,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale (topical corticosteroids in early-stage mycosis fungoides) is plausible, but there are no trials and no mometasone-specific literature. The only publications are two indirectly relevant case reports, so the evidence is insufficient to support progression. The other nine predicted indications (for example Crohn's colitis and myelodysplastic syndrome) have model predictions only (L5) and no identified mechanism or evidence.
+The mechanistic rationale (topical corticosteroids in early-stage mycosis fungoides) is plausible, but there are no trials and no mometasone-specific literature. The only publications are two indirectly relevant case reports, so the evidence is insufficient to support progression.
 
 **To proceed, the following is needed:**
 - Mometasone-specific clinical data in early-stage mycosis fungoides or cutaneous T-cell lymphoma (trials, series or comparative studies against other topical corticosteroids)

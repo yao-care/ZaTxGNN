@@ -4,17 +4,17 @@ title: Clobetasol
 parent: Moderate Evidence (L3-L4)
 nav_order: 134
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Clobetasol: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report"
 monitor_inn: "Clobetasol"
-predicted_indications: ["primary cutaneous T-cell lymphoma", "lymphosarcoma", "cystic teratoma", "Crohn's colitis", "spinal cord dermoid cyst", "disease of orbital part of eye adnexa", "disease of orbital region", "dermoid cyst of ovary", "candidiasis", "polyp of vocal cord"]
+predicted_indications: ["primary cutaneous T-cell lymphoma"]
 ---
 
 # Clobetasol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ No registered clinical trials were found for this indication, but **16 publicati
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data compiled for this report |
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

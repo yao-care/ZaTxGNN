@@ -46,10 +46,10 @@ Calcipotriol is a topical vitamin D3 analogue, registered in South Africa in com
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data compiled for this report (calcipotriol is an established psoriasis treatment, but the approved indication text was not available) |
 | Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

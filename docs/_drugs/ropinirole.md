@@ -48,10 +48,10 @@ but there are **no registered clinical trials** in the data compiled for this re
 |------|------|
 | Original Indication | Restless legs syndrome; Parkinson disease (SAHPRA indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?

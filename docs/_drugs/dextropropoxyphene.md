@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Not recorded in the SAHPRA registration data |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the compiled re
 
 NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2, R137C/L), or in some cases GNAS-related signalling. These produce constitutive receptor activity and water retention independent of vasopressin. Opioids can influence vasopressin release centrally, but this would not be expected to affect a receptor-autonomous, constitutively active V2 pathway.
 
-**No established mechanistic link was identified.** The high TxGNN score (0.995; model rank 3015) is a model-derived prediction, probably from network proximity or shared-gene relationships. No mechanistic or clinical data support it. It should be treated as a hypothesis only.
+**No established mechanistic link was identified.** The high TxGNN score (0.9946; model rank 3015) is a model-derived prediction, probably from network proximity or shared-gene relationships. No mechanistic or clinical data support it. It should be treated as a hypothesis only.
 
 Dextropropoxyphene has also been withdrawn from several major markets (including the EU and US in 2010) because of cardiotoxicity (QT prolongation, arrhythmia) and overdose risk. The "Marketed" status for South Africa should therefore be verified.
 

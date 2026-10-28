@@ -4,17 +4,17 @@ title: Tramadol
 parent: Model Prediction Only (L5)
 nav_order: 454
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Osteoarthritis, arthropathy"
 monitor_inn: "Tramadol"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tramadol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tramadol: From Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Tramadol: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 | Item | Content |
 |------|------|
-| Original Indication | Osteoarthritis, arthropathy (from the knowledge graph; the SAHPRA registration records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data were not available in the data compiled for this report. Based on general pharmacology, tramadol is a mu-opioid agonist with serotonin and noradrenaline reuptake inhibition. It provides symptomatic pain relief and does not change the course of disease.
 
-Acromesomelic dysplasia, Hunter-Thompson type is a rare genetic skeletal disorder caused by loss of function of the *GDF5* (CDMP1) gene. Tramadol does not act on this pathway. The very high TxGNN score most likely reflects closeness in the knowledge graph to skeletal and joint disease nodes (such as osteoarthritis), not a true therapeutic relationship.
+Acromesomelic dysplasia, Hunter-Thompson type is a rare genetic skeletal disorder caused by loss of function of the *GDF5* (CDMP1) gene. Tramadol does not act on this pathway. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions are similar. Most are rare genetic skeletal or connective tissue disorders (brachyolmia, pseudoachondroplasia, myosclerosis) or juvenile and rheumatoid arthritis variants. At best, tramadol could give symptomatic pain relief in some of these conditions. None has a disease-modifying rationale, and none has supporting clinical data.
 

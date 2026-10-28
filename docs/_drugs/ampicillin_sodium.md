@@ -8,6 +8,7 @@ nav_order: 38
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ampicillin Sodium
@@ -51,8 +52,8 @@ Ampicillin Sodium is a well-established broad-spectrum beta-lactam antibiotic, u
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | N/A — no predictions generated |
-| South Africa Market Status | Not registered |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

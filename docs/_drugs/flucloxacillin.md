@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Flucloxacillin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 234
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
+last_modified_at: 2026-10-28
 monitor_inn: "Flucloxacillin"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flucloxacillin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Flucloxacillin: From Bacterial Infections to Conjunctivitis
+## Flucloxacillin: Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **no registered clinical trials** and only **1 publicati
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data compiled for this report (flucloxacillin is generally used for staphylococcal infections) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 6 |
+| TxGNN Prediction Score | 0.9984 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 6 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,12 +62,12 @@ but there are currently **no registered clinical trials** and only **1 publicati
 
 Currently, detailed mechanism of action data is not available. Based on known information, flucloxacillin is a penicillinase-resistant penicillin (a beta-lactam), and it is used against infections caused by Gram-positive bacteria such as *Staphylococcus aureus*. Mechanistically, it may be applicable to bacterial conjunctivitis caused by susceptible organisms.
 
-However, the support is weak. The only paper retrieved is a case report on gonococcal dacryoadenitis. That involves a different pathogen (*Neisseria gonorrhoeae*) and a different site (the lacrimal gland), so it gives no direct evidence for flucloxacillin in conjunctivitis. The high TxGNN score is a prediction only. The model also returned a duplicate "conjunctivitis (disease)" entry (score 99.69%) with the same single reference; the two entries should be consolidated.
+However, the support is weak. The only paper retrieved is a case report on gonococcal dacryoadenitis. That involves a different pathogen (*Neisseria gonorrhoeae*) and a different site (the lacrimal gland), so it gives no direct evidence for flucloxacillin in conjunctivitis. The high TxGNN score is a prediction only. The model also returned a duplicate "conjunctivitis (disease)" entry (score 0.9969) with the same single reference; the two entries should be consolidated.
 
 Other top-ranked predictions have no plausible mechanistic link or no supporting evidence:
-- **Rheumatoid arthritis (99.83%)**: the literature shows flucloxacillin used for joint infections in RA patients, a methotrexate interaction study (no clinically significant interaction), and adverse event reports. None shows efficacy against RA itself.
+- **Rheumatoid arthritis (0.9983)**: the literature shows flucloxacillin used for joint infections in RA patients, a methotrexate interaction study (no clinically significant interaction), and adverse event reports. None shows efficacy against RA itself.
 - **Leprosy, Prinzmetal angina, brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, antithrombin deficiency type 2, factor 5 excess with spontaneous thrombosis**: prediction only, with no trials or literature.
-- **Thrombotic disease (99.66%)**: the papers retrieved concern *S. aureus* infections and an adverse event with a different drug, and are not repurposing evidence.
+- **Thrombotic disease (0.9967)**: the papers retrieved concern *S. aureus* infections and an adverse event with a different drug, and are not repurposing evidence.
 
 ---
 

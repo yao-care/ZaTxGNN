@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Duloxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Major depressive disorder (also anxiety disorder, fibromyalgia…"
 monitor_inn: "DULOXETINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 ---
 
 # Duloxetine
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **benign paroxysmal torticollis
 |------|------|
 | Original Indication | Major depressive disorder (also anxiety disorder, fibromyalgia, myofascial pain syndrome, female stress incontinence) |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
-The original indications come from the TxGNN knowledge graph, because the SAHPRA records compiled for this report contain no approved indication text.
+The original indications are not taken from the SAHPRA records compiled for this report, because they contain no approved indication text.
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Duloxetine belongs to the SNRI class, and its efficacy in depression and anxiety is established. However, no mechanistic route to benign paroxysmal torticollis of infancy is evident.
 
-This condition is an episodic disorder of infancy, often linked to variants in the *CACNA1A* calcium channel gene. It is unrelated to depression or pain in any established way, and no plausible duloxetine mechanism has been identified. The high TxGNN score most likely reflects network proximity in the knowledge graph rather than a specific biological rationale.
+This condition is an episodic disorder of infancy, often linked to variants in the *CACNA1A* calcium channel gene. It is unrelated to depression or pain in any established way, and no plausible duloxetine mechanism has been identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Safety in this age group is also a serious concern. Duloxetine carries a boxed warning for suicidality in young patients, and it has no established paediatric use in infants.
 
@@ -115,7 +115,7 @@ The top-ranked prediction has no supporting evidence, but two lower-ranked predi
 | Predicted Indication | Evidence Level | Supporting Evidence |
 |------|------|------|
 | Obsessive-compulsive disorder | L2 | A double-blind augmentation trial in resistant OCD ([PMID 27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/)), an open-label study ([PMID 25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/)), and a small completed Phase 4 trial ([NCT00464698](https://clinicaltrials.gov/study/NCT00464698), n=20). All are small, and there is no Phase 3 RCT. |
-| Agoraphobia | L3 | Open-label and small clinical reports in panic disorder ([PMID 19228176](https://pubmed.ncbi.nlm.nih.gov/19228176/), [PMID 24294001](https://pubmed.ncbi.nlm.nih.gov/24294001/)). Nothing is specific to agoraphobia. |
+| Agoraphobia | L5 | Open-label and small clinical reports in panic disorder ([PMID 19228176](https://pubmed.ncbi.nlm.nih.gov/19228176/), [PMID 24294001](https://pubmed.ncbi.nlm.nih.gov/24294001/)). Nothing is specific to agoraphobia. |
 
 Both are classed as research questions. The remaining predictions (personality disorders, Ohdo syndrome and variants, ligneous conjunctivitis) have no trials or literature and no supported mechanism.
 

@@ -8,6 +8,7 @@ nav_order: 141
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Clove Oil
@@ -49,8 +50,8 @@ Clove Oil (DrugBank ID: DB11338) is a naturally derived substance from *Syzygium
 | Predicted New Indication | No TxGNN predictions available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — TxGNN prediction run not yet completed |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

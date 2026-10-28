@@ -4,17 +4,17 @@ title: Pantothenic Acid
 parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "Pantothenic acid"
-predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "Keshan disease"]
+predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
+description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pantothenic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pantothenic Acid: From Ascorbic Acid Deficiency (Scurvy) to Congenital Prothrombin Deficiency
+## Pantothenic Acid: Congenital prothrombin deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Pantothenic acid (vitamin B5) is a coenzyme A precursor. The knowledge graph lists its original indications as ascorbic acid deficiency and scurvy.
+Pantothenic acid (vitamin B5) is a coenzyme A precursor. Its original indications are listed as ascorbic acid deficiency and scurvy.
 The TxGNN model's top prediction is **congenital prothrombin deficiency**, but there are **0 clinical trials** and **0 publications** supporting it. This is a computational prediction only, with no identified mechanistic link.
 
 ---
@@ -47,12 +47,12 @@ The TxGNN model's top prediction is **congenital prothrombin deficiency**, but t
 
 | Item | Content |
 |------|------|
-| Original Indication | Ascorbic acid deficiency, scurvy (from the knowledge graph; the SAHPRA registrations carry no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,18 +61,18 @@ The TxGNN model's top prediction is **congenital prothrombin deficiency**, but t
 
 Currently, detailed mechanism of action data is not available. Based on known information, pantothenic acid is a precursor of coenzyme A, a cofactor in lipid and energy metabolism. It is used as a nutritional supplement, including in parenteral nutrition products.
 
-For the top-ranked prediction, **no plausible mechanistic link was identified**. Congenital prothrombin deficiency is a genetic coagulation factor disorder (F2 gene). Pantothenic acid does not act on prothrombin synthesis or function. The high score is a computational artefact of the knowledge graph, not a pharmacologically grounded signal.
+For the top-ranked prediction, **no plausible mechanistic link was identified**. Congenital prothrombin deficiency is a genetic coagulation factor disorder (F2 gene). Pantothenic acid does not act on prothrombin synthesis or function. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions are weak, though a few have some indirect support:
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 1 | Congenital prothrombin deficiency | 99.96% | L5 | No mechanistic link, no studies |
-| 2 | Ochronosis disorder | 99.78% | L5 | Caused by homogentisate dioxygenase deficiency, with no link to CoA biosynthesis |
-| 3 | Glycerol metabolism disease | 99.77% | L5 | Loosely plausible biochemistry, but the retrieved papers are metabolomics profiling only |
-| 4 | Folic acid deficiency anaemia | 99.60% | L4 | Indirect historical and animal evidence; folic acid replacement is standard therapy |
-| 5 | Uterine inflammatory disease | 99.14% | L4 | One 2026 mouse study; no human data |
-| 6–10 | Xanthogranulomatous pyelonephritis, urinary tract infection, Ureaplasma urethritis, gonococcal urethritis, Keshan disease | 98.9–99.1% | L5 | No plausible mechanism or relevant evidence |
+| 1 | Congenital prothrombin deficiency | 0.9996 | L5 | No mechanistic link, no studies |
+| 2 | Ochronosis disorder | 0.9978 | L5 | Caused by homogentisate dioxygenase deficiency, with no link to CoA biosynthesis |
+| 3 | Glycerol metabolism disease | 0.9977 | L5 | Loosely plausible biochemistry, but the retrieved papers are metabolomics profiling only |
+| 4 | Folic acid deficiency anaemia | 0.9960 | L4 | Indirect historical and animal evidence; folic acid replacement is standard therapy |
+| 5 | Uterine inflammatory disease | 0.9914 | L5 | One 2026 mouse study; no human data |
+| 6–10 | Xanthogranulomatous pyelonephritis, urinary tract infection, Ureaplasma urethritis, gonococcal urethritis, Keshan disease | 98.9–0.9910 | L5 | No plausible mechanism or relevant evidence |
 
 The two most credible research directions are **folic acid deficiency anaemia** (B-vitamin interrelationships) and **uterine inflammatory disease** (preclinical anti-inflammatory signal). Both remain hypothesis-level.
 
@@ -113,7 +113,7 @@ All three registrations are valid single-ingredient entries, and all are injecta
 
 ## Safety Considerations
 
-**Contraindications (knowledge graph associations, not label text):** the TxGNN knowledge graph links pantothenic acid with the following conditions as contraindications. These should be verified against the SAHPRA-approved Professional Information (PI):
+**Contraindications (TxGNN model associations, not label text):** the TxGNN model (deep learning) links pantothenic acid with the following conditions as contraindications. This may reflect similarities the model learned between related diseases, not biological evidence. These should be verified against the SAHPRA-approved Professional Information (PI):
 - Kidney disease
 - Pyoureter
 - Sickle cell anaemia

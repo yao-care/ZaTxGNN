@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Acyclovir is an antiviral medicine originally used to treat herpes simplex, herpes zoster (shingles), chickenpox, herpes labialis, herpes simplex encephalitis and genital herpes.
-The TxGNN model's top-ranked prediction is **punctate epithelial keratoconjunctivitis** (score 99.67%), but the available evidence does not support it. The best-supported prediction is **common wart**, with **4 clinical trials** and **about 19 publications**, one of which is a randomised controlled trial. Because the evidence is clearly stronger for common wart, this report evaluates that indication in detail.
+The TxGNN model's top-ranked prediction is **punctate epithelial keratoconjunctivitis** (score 0.9967), but the available evidence does not support it. The best-supported prediction is **common wart**, with **4 clinical trials** and **about 19 publications**, one of which is a randomised controlled trial. Because the evidence is clearly stronger for common wart, this report evaluates that indication in detail.
 
 ## Quick Overview
 
@@ -47,26 +47,26 @@ The TxGNN model's top-ranked prediction is **punctate epithelial keratoconjuncti
 |------|------|
 | Original Indication | Herpes simplex, herpes zoster, chickenpox, herpes labialis, herpes simplex encephalitis, genital herpes (the registration records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Common wart (best-supported prediction; TxGNN rank 1 is punctate epithelial keratoconjunctivitis) |
-| TxGNN Prediction Score | 99.46% for common wart (99.67% for punctate epithelial keratoconjunctivitis) |
-| Evidence Level | L2 (common wart) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| TxGNN Prediction Score | 0.9946 for common wart (0.9967 for punctate epithelial keratoconjunctivitis) |
+| Evidence Level | L5 (common wart) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails (research question only; not for routine clinical use) |
 
 ### Other Predicted Indications (Summary)
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Punctate epithelial keratoconjunctivitis | 99.67% | L5 | Hold. The literature retrieved concerns microsporidial keratoconjunctivitis and corneal lipidosis, which do not respond to acyclovir. |
-| Common wart | 99.46% | L2 | Research question. Small randomised trials of intralesional use. |
-| Post-infectious neuralgia | 99.25% | L5 | Hold. No trials or literature. |
-| Hepatitis C induced liver cirrhosis | 99.23% | L5 | Hold. HCV is an RNA virus, so there is no plausible mechanism. |
-| Eosinophilic pustular folliculitis | 99.22% | L5 | Hold. No rationale or evidence. |
-| Sequela of COVID-19 | 99.16% | L4 | Hold. Evidence concerns treating herpesvirus reactivation, not COVID-19 sequelae. |
-| Vulvovaginal candidiasis | 99.11% | L5 | Hold. Acyclovir has no antifungal activity. |
-| Papular urticaria | 99.09% | L5 | Hold. No rationale or evidence. |
-| Disease of orbital region | 99.08% | L3 | Research question. Mostly an extension of existing herpetic eye uses. |
-| Epidemic keratoconjunctivitis | 99.07% | L4 | Hold. The usual cause is adenovirus, which acyclovir does not inhibit effectively. |
+| Punctate epithelial keratoconjunctivitis | 0.9967 | L5 | Hold. The literature retrieved concerns microsporidial keratoconjunctivitis and corneal lipidosis, which do not respond to acyclovir. |
+| Common wart | 0.9946 | L5 | Research question. Small randomised trials of intralesional use. |
+| Post-infectious neuralgia | 0.9925 | L5 | Hold. No trials or literature. |
+| Hepatitis C induced liver cirrhosis | 0.9923 | L5 | Hold. HCV is an RNA virus, so there is no plausible mechanism. |
+| Eosinophilic pustular folliculitis | 0.9922 | L5 | Hold. No rationale or evidence. |
+| Sequela of COVID-19 | 0.9916 | L5 | Hold. Evidence concerns treating herpesvirus reactivation, not COVID-19 sequelae. |
+| Vulvovaginal candidiasis | 0.9911 | L5 | Hold. Acyclovir has no antifungal activity. |
+| Papular urticaria | 0.9909 | L5 | Hold. No rationale or evidence. |
+| Disease of orbital region | 0.9908 | L5 | Research question. Mostly an extension of existing herpetic eye uses. |
+| Epidemic keratoconjunctivitis | 0.9907 | L5 | Hold. The usual cause is adenovirus, which acyclovir does not inhibit effectively. |
 
 ## Why is This Prediction Reasonable?
 

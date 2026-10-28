@@ -4,17 +4,17 @@ title: Chlorobutanol
 parent: Model Prediction Only (L5)
 nav_order: 113
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Chlorobutanol: predicted new indication Erectile dysfunction (evidence level L5). Approved use: Not stated in the registration data (the approved indication text is…"
+indication_count: 9
+last_modified_at: 2026-10-28
 monitor_inn: "Chlorobutanol"
-predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "migraine with or without aura, susceptibility to", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
+predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
+description: "Chlorobutanol: predicted new indication Erectile dysfunction (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chlorobutanol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Chlorobutanol: From an Unspecified Original Indication to Erectile Dysfunction
+## Chlorobutanol: Erectile dysfunction (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,21 +45,21 @@ The TxGNN model predicts it may be effective for **erectile dysfunction**, but t
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (the approved indication text is empty) |
-| Predicted New Indication | Erectile dysfunction |
-| TxGNN Prediction Score | 99.79% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Erectile dysfunction (disease) |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Chlorobutanol is known as a chloral-derivative with weak central nervous system (CNS) depressant and local anaesthetic properties, but its original mechanism has not been documented in the data compiled for this report.
 
-No mechanistic link to erectile dysfunction has been established. The only plausible hypothesis is that anxiolytic or sedative effects might help psychogenic erectile dysfunction. This is speculative, and the TxGNN score of 99.79% reflects graph-based proximity only.
+No mechanistic link to erectile dysfunction has been established. The only plausible hypothesis is that anxiolytic or sedative effects might help psychogenic erectile dysfunction. This is speculative, and the TxGNN score of 0.9979 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other top-ranked predictions are also unsupported by any trial or publication. They include migraine disorder (99.71%), migraine with brainstem aura (99.58%), Tourette syndrome (99.54%) and trichotillomania (99.50%). Several appear to be artefacts of network proximity. For example, the attention deficit-hyperactivity disorder prediction runs opposite to a sedative's expected pharmacology.
+Other top-ranked predictions are also unsupported by any trial or publication. They include migraine disorder (0.9971), migraine with brainstem aura (0.9958), Tourette syndrome (0.9954) and trichotillomania (0.9950). Several appear to be artefacts of network proximity. For example, the attention deficit-hyperactivity disorder prediction runs opposite to a sedative's expected pharmacology.
 
 ## Clinical Trial Evidence
 

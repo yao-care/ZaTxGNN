@@ -4,17 +4,17 @@ title: Sacubitril
 parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not available"
 monitor_inn: "Sacubitril"
-predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy", "sclerosing cholangitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "homozygous familial hypercholesterolemia", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
+predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 ---
 
 # Sacubitril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sacubitril: From an Unspecified Original Indication to Brain Small Vessel Disease 1 (Top TxGNN Prediction)
+## Sacubitril: From an Unspecified Original Indication to brain small vessel disease 1 with or without ocular anomalies (Top TxGNN Prediction)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,26 +48,21 @@ The best-supported prediction in the data is **diabetic nephropathy** (rank 3), 
 |------|------|
 | Original Indication | Not available (the SAHPRA registration data contain no approved indication text) |
 | Predicted New Indication | Brain small vessel disease 1 with or without ocular anomalies (rank 1) |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Other predictions in the data (top 10 by TxGNN score):**
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 1 | Brain small vessel disease 1 with or without ocular anomalies | 99.58% | L5 | Hold |
-| 2 | Autosomal dominant familial haematuria-retinal arteriolar tortuosity-contractures syndrome | 99.57% | L5 | Hold |
-| 3 | Diabetic nephropathy | 99.50% | L3 | Research question |
-| 4 | Rheumatoid arthritis | 99.35% | L5 | Hold |
-| 5 | Haemoglobinopathy | 99.18% | L5 | Hold |
-| 6 | Sclerosing cholangitis | 98.92% | L5 | Hold |
-| 7 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 98.92% | L5 | Hold |
-| 8 | Homozygous familial hypercholesterolaemia | 98.87% | L5 | Hold |
-| 9 | Partial deletion of the short arm of chromosome 16 | 98.85% | L5 | Hold |
-| 10 | Beta-thalassaemia with other manifestations | 98.83% | L5 | Hold |
+| 1 | Brain small vessel disease 1 with or without ocular anomalies | 0.9958 | L5 | Hold |
+| 2 | Autosomal dominant familial haematuria-retinal arteriolar tortuosity-contractures syndrome | 0.9957 | L5 | Hold |
+| 3 | Diabetic nephropathy | 0.9950 | L3 | Research question |
+| 4 | Rheumatoid arthritis | 0.9935 | L5 | Hold |
+| 5 | Haemoglobinopathy | 0.9918 | L5 | Hold |
 
 ## Why is This Prediction Reasonable?
 

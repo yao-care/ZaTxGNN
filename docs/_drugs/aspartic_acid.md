@@ -47,10 +47,10 @@ The TxGNN model predicts it may be useful for **renal tubular acidosis**, but th
 |------|------|
 | Original Indication | Potassium deficiency disease |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.47% |
+| TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -99,7 +99,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 **Decision: Hold**
 
 **Rationale:**
-The recommendation rests only on a high model score (99.47%). No clinical trials exist, the retrieved literature does not test aspartic acid in RTA, and RTA already has established first-line treatments. Knowledge-graph contraindication signals involving kidney disease also raise safety concerns for this population.
+The recommendation rests only on a high model score (0.9947). No clinical trials exist, the retrieved literature does not test aspartic acid in RTA, and RTA already has established first-line treatments. Knowledge-graph contraindication signals involving kidney disease also raise safety concerns for this population.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to test whether aspartate affects renal ammoniagenesis or acid-base handling

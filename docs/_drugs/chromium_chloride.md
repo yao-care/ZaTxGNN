@@ -8,6 +8,7 @@ nav_order: 120
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Chromium Chloride
@@ -53,8 +54,8 @@ Without a confirmed DrugBank ID, mechanism of action, or safety profile, a full 
 | Predicted New Indication | None — TxGNN returned no candidates |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (pipeline did not generate predictions) |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 ---

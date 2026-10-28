@@ -4,17 +4,17 @@ title: Lisinopril
 parent: Model Prediction Only (L5)
 nav_order: 299
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Lisinopril: predicted new indication Posterolateral myocardial infarction . Most meaningful new candidate:… (evidence level L5). Approved use: Hypertension, myocardial infarction"
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lisinopril: From Hypertension and Myocardial Infarction to Chronic Pulmonary Heart Disease
+## Lisinopril: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is **posterolateral myocardial infarctio
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, myocardial infarction (from the knowledge graph; no approved indication text is available in the SAHPRA records) |
-| Predicted New Indication | Posterolateral myocardial infarction (top-ranked; a subtype of the existing MI indication). Most meaningful new candidate: chronic pulmonary heart disease |
-| TxGNN Prediction Score | 99.90% (posterolateral myocardial infarction); 99.68% (chronic pulmonary heart disease) |
-| Evidence Level | L4 (top-ranked prediction); L3 for chronic pulmonary heart disease |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 (top-ranked prediction); L3 for chronic pulmonary heart disease |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold (top-ranked prediction); research question for chronic pulmonary heart disease |
 
 ---

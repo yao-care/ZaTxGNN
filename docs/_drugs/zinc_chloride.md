@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not stated in the registration records compiled for this report (prod…"
+last_modified_at: 2026-10-28
 monitor_inn: "ZINC CHLORIDE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
+description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zinc Chloride
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Zinc Chloride: From Mineral/Trace-Element Supplementation to Severe Nonproliferative Diabetic Retinopathy
+## Zinc Chloride: Severe nonproliferative diabetic retinopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,15 +44,15 @@ Zinc chloride is a zinc source marketed in South Africa mainly in parenteral nut
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records compiled for this report (products are trace-element/nutrition and related formulations) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 6 |
+| South Africa Market Status | Marketed (valid licences: 6 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
-Two other predictions were also generated, both at L5 and Hold: **Sjogren syndrome** (99.18%) and **dry eye syndrome** (99.18%).
+Two other predictions were also generated, both at L5 and Hold: **Sjogren syndrome** (0.9918) and **dry eye syndrome** (0.9918).
 
 ## Why is This Prediction Reasonable?
 

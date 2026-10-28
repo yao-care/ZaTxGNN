@@ -6,9 +6,9 @@ nav_order: 351
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L4). Approved use: Cutaneous candidiasis, oral candidiasis, candidiasis…"
 monitor_inn: "Nystatin"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Nystatin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Nystatin: From Cutaneous and Oral Candidiasis to Vulvovaginitis
+## Nystatin: Vulvovaginitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **vulvovaginitis**, but this is
 
 | Item | Content |
 |------|------|
-| Original Indication | Cutaneous candidiasis, oral candidiasis, candidiasis, vulvovaginal candidiasis (from the TxGNN knowledge graph; SAHPRA indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

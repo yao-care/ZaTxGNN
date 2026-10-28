@@ -8,6 +8,7 @@ nav_order: 203
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Doxycycline Hcl
@@ -51,8 +52,8 @@ Critical data gaps — including missing mechanism of action data and absent SAH
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model prediction unavailable; no supporting studies retrieved |
-| South Africa Market Status | Not found in regulatory query |
-| Number of SAHPRA Registrations | 0 (not found) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 ---

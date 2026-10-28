@@ -8,6 +8,7 @@ nav_order: 188
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Diphenylpyraline Hydrochloride
@@ -51,8 +52,8 @@ As a result, **no new indications, clinical trials, or supporting literature** a
 | Predicted New Indication | None — TxGNN pipeline returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A (pipeline did not complete) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 ---

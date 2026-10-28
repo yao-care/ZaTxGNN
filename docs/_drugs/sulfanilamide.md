@@ -4,17 +4,17 @@ title: Sulfanilamide
 parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Sulfanilamide: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Vulvovaginal candidiasis, vulvovaginitis, vaginitis…"
 monitor_inn: "Sulfanilamide"
-predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis", "vaginal discharge", "leukoplakia of vagina", "apocrine adenosis of breast", "blunt duct adenosis of breast", "infective vaginitis", "herpetic vulvovaginitis"]
+predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis"]
+description: "Sulfanilamide: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sulfanilamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +33,39 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sulfanilamide: From Vulvovaginitis to Postmenopausal Atrophic Vaginitis
+## Sulfanilamide: Postmenopausal atrophic vaginitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Sulfanilamide is a sulfonamide antibacterial, originally used for vulvovaginal infections such as vulvovaginal candidiasis, bacterial vaginosis and vaginitis.
 The TxGNN model predicts it may be effective for **postmenopausal atrophic vaginitis**, but **no clinical trials and no publications** currently support this prediction.
-Of the ten predictions reviewed, only **infective vaginitis** and **vaginal discharge** have any supporting literature, and that literature is old, indirect and of low quality.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Vulvovaginal candidiasis, vulvovaginitis, vaginitis, bacterial vaginosis, vulvitis (from the knowledge graph; the SAHPRA records compiled for this report contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Postmenopausal atrophic vaginitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sulfanilamide is a bacteriostatic sulfonamide. It blocks bacterial folate synthesis by competing with para-aminobenzoic acid (PABA) and inhibiting dihydropteroate synthase. Its established use is in infective vaginitis.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sulfanilamide is a bacteriostatic sulfonamide. It blocks bacterial folate synthesis by competing with para-aminobenzoic acid (PABA) and inhibiting dihydropteroate synthase.
 
-Postmenopausal atrophic vaginitis is a different problem. It is driven by oestrogen deficiency and thinning of the vaginal epithelium, not by infection. Sulfanilamide has no known oestrogenic or tissue-restorative action. The very high TxGNN score most likely reflects the drug's closeness to other vaginitis indications in the knowledge graph, not a mechanistic basis. Treat this prediction with caution.
+Postmenopausal atrophic vaginitis is a different problem. It is driven by oestrogen deficiency and thinning of the vaginal epithelium, not by infection. Sulfanilamide has no known oestrogenic or tissue-restorative action. Treat this prediction with caution.
 
 ### Other predicted indications
 
 The other nine predictions fall into three groups:
 
-- **Closest to the existing use:** Infective vaginitis is essentially an extension of the labelled use rather than true repurposing. Trichomonal vulvovaginitis and vaginal discharge are infection-related, but the evidence is weak (see below).
+- Trichomonal vulvovaginitis and vaginal discharge are infection-related, but the evidence is weak (see below).
 - **Plausible only for secondary bacterial infection:** Ulceration of vulva and herpetic vulvovaginitis. The underlying causes (herpes, syphilis, autoimmune disease) are not bacterial, and herpes needs antivirals such as acyclovir.
-- **No plausible mechanism:** Vulvar neoplasm, leukoplakia of vagina, apocrine adenosis of breast and blunt duct adenosis of breast. The last two share an identical score, which suggests a knowledge-graph artefact.
+- **No plausible mechanism:** Vulvar neoplasm, leukoplakia of vagina, apocrine adenosis of breast and blunt duct adenosis of breast. The last two share an identical score, which suggests a TxGNN model (deep learning) artefact.
 
 ## Clinical Trial Evidence
 
@@ -114,7 +113,6 @@ For label-based warnings, contraindications and dosing, please refer to the SAHP
 - SAHPRA Professional Information (package insert) warnings, contraindications and approved indications. This is currently a blocking gap for safety screening.
 - Mechanism of action data from DrugBank.
 - Confirmation of the two SAHPRA registrations, including the product-to-drug match and EML status.
-- For infective vaginitis, a head-to-head comparison against current standard-of-care agents using modern diagnostic criteria.
 - A reassessment of whether the non-infective predictions (atrophic vaginitis, vulvar neoplasm, leukoplakia, breast adenosis) merit any further work. On current evidence they do not.
 ## Disclaimer
 

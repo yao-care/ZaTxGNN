@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Oseltamivir
-parent: Model Prediction Only (L5)
-nav_order: 359
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Oseltamivir: predicted new indication Pyelonephritis (evidence level L5). Approved use: Influenza"
-monitor_inn: "Oseltamivir"
-predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "disorder of phenylalanine metabolism", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "staphylococcus aureus infection", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency", "pneumonia", "streptococcal pneumonia", "legionnaire disease, susceptibility to"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 358
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Oseltamivir: known uses and market status in South Africa; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Oseltamivir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +32,48 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Oseltamivir: From Influenza to Pyelonephritis
+<!-- known-uses-page -->
+<!-- description: Oseltamivir: known uses and market status in South Africa; currently no new candidate indication -->
+## Oseltamivir: Known uses and market status in South Africa
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Oseltamivir, so there is currently no new predicted indication. The drug's recorded uses are listed below. They come from its own records and are not model candidates.
 
-Oseltamivir is an oral antiviral (neuraminidase inhibitor) originally used to treat influenza.
-The TxGNN model predicts it may be effective for **pyelonephritis**, but there are **0 clinical trials** and only **1 loosely related publication** (a review on influenza in pregnancy that does not address pyelonephritis). This prediction is best treated as a computational artifact.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Influenza (from the TxGNN knowledge graph; the South African registration entries do not state an indication) |
-| Predicted New Indication | Pyelonephritis |
-| TxGNN Prediction Score | 97.85% |
-| Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 3 |
+| Evidence level | Not applicable |
+| Market status in South Africa | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| common cold | licence in another country |
+| human influenza | licence in another country |
+| influenza | licence in another country |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, oseltamivir is a viral neuraminidase inhibitor. Its efficacy in influenza is established, but it is not expected to act on the organisms that cause pyelonephritis.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Pyelonephritis is typically a bacterial infection of the upper urinary tract. Oseltamivir has no known antibacterial activity, so no plausible mechanistic link exists. The only retrieved paper concerns influenza in pregnancy and does not mention pyelonephritis. The high TxGNN score (97.85%) most likely reflects graph proximity, such as shared infection-related annotations, rather than real biological or clinical relevance.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for pyelonephritis.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26033556](https://pubmed.ncbi.nlm.nih.gov/26033556/) | 2015 | Review | Presse Médicale | Influenza in pregnant women: higher risk of pneumonia and hospitalisation. Does not address pyelonephritis, so relevance is indirect at best. |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 54/20.2.8/0687 | Oseltamivir Adco 30 Mg | Capsule | Not stated in the data compiled for this report |
-| 56/20.2.8/1086 | Ozetir | Suspension | Not stated in the data compiled for this report |
-
-Both registrations are valid single-ingredient products. Oral capsule and suspension forms are available.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 54/20.2.8/0687 | Oseltamivir Adco 30 Mg | capsule | Valid |
+| 56/20.2.8/1086 | Ozetir | suspension | Valid |
 
 ## Safety Considerations
 
@@ -99,19 +84,6 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on model output alone (L5). There are no trials, no relevant literature and no plausible mechanism for a neuraminidase inhibitor in a bacterial urinary tract infection. Pursuing it is not justified.
-
-**To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking neuraminidase inhibition to pyelonephritis (none currently exists)
-- Any preclinical or clinical signal for pyelonephritis
-- The SAHPRA Professional Information (warnings, contraindications and approved indication text) and DrugBank mechanism-of-action data
-
-**Note on other predictions for oseltamivir:** Among the lower-ranked predictions, **pneumonia** has substantially stronger support. It has a completed Phase 3 influenza trial (NCT00707941, 1,190 participants), a Cochrane review of neuraminidase inhibitors (PMID 24718923) and an L1 rating. It is best viewed as an extension of the approved influenza indication, with guardrails limiting use to confirmed or suspected influenza. Oseltamivir has shown no benefit against COVID-19 pneumonia. **Streptococcal pneumonia** (L3) is a research question only, as an adjunct to antibiotics in post-influenza bacterial pneumonia. If this report is intended to support a practical repurposing decision, these indications merit a separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

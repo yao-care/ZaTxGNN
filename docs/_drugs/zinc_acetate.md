@@ -48,19 +48,19 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Wilson disease, dermatitis, exanthem, burns, hereditary haemochromatosis and others (the data compiled for this report holds no approved indication text from SAHPRA licences) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Zinc acetate is a zinc salt, and zinc is an essential trace element. Its recorded uses in Wilson disease and metal-metabolism disorders are well recognised.
 
-One plausible link is that zinc is a cofactor of Cu/Zn superoxide dismutase, an antioxidant enzyme. Oxidative stress is thought to contribute to microvascular injury in the diabetic retina, so zinc could be relevant. This reasoning is speculative. None of the data compiled for this report tests it. The high score reflects proximity in a knowledge graph, not demonstrated efficacy.
+One plausible link is that zinc is a cofactor of Cu/Zn superoxide dismutase, an antioxidant enzyme. Oxidative stress is thought to contribute to microvascular injury in the diabetic retina, so zinc could be relevant. This reasoning is speculative. None of the data compiled for this report tests it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or demonstrated efficacy.
 
-The model also ranked diabetic retinopathy (score 99.92%) as a closely related prediction. It has the same absence of evidence.
+The model also ranked diabetic retinopathy (score 0.9992) as a closely related prediction. It has the same absence of evidence.
 
 ## Clinical Trial Evidence
 

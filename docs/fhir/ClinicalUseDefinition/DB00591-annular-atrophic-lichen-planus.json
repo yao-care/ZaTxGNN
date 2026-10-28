@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00591",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00591"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "annular-atrophic-lichen-planus",
-          "display": "annular atrophic lichen planus"
-        }
-      ],
-      "text": "annular atrophic lichen planus"
+      "concept": {
+        "text": "annular atrophic lichen planus"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9942
     }
   ]
 }

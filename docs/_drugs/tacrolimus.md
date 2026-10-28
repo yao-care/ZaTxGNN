@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tacrolimus
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 432
-evidence_level: L5
-indication_count: 3
+evidence_level: L1
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L1** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Tacrolimus: From Atopic Eczema to Seborrheic Dermatitis
+## Tacrolimus: Seborrheic dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **2 directly relevant clinical trials** (both completed) and **several publ
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic eczema / atopic dermatitis (per the TxGNN knowledge graph; SAHPRA indication text was not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 (see note below) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The strict rule (at least two completed Phase 3 RCTs) is not fully met for seborrheic dermatitis, where there is one completed Phase 3 trial and one completed Phase 4 trial. The L1 grade follows the compiled assessment; a conservative reading would be L2.
@@ -65,8 +65,7 @@ Seborrheic dermatitis is a chronic, relapsing inflammatory skin disease affectin
 The published literature supports facial use and maintenance therapy (for example PMID 26512166, 19213227 and 27804089).
 
 **Other predictions (brief):**
-- **Parapsoriasis** (score 99.24%): Evidence is limited to two case reports of topical tacrolimus in pityriasis lichenoides, with no registered trials (evidence level L4, research question only). Large plaque parapsoriasis carries a lymphoma-progression risk, which these reports do not address.
-- **Dermatitis** (score 99.17%): This largely confirms the existing atopic dermatitis use rather than offering new repurposing. It is supported by many trials, including large Phase 3 studies, but extension to other dermatitis subtypes should be assessed individually.
+- **Parapsoriasis** (score 0.9924): Evidence is limited to two case reports of topical tacrolimus in pityriasis lichenoides, with no registered trials (evidence level L4, research question only). Large plaque parapsoriasis carries a lymphoma-progression risk, which these reports do not address.
 
 ## Clinical Trial Evidence
 

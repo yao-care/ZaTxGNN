@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the registration data (products are amino acid-containi…"
 monitor_inn: "Tyrosine"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
 ---
 
 # Tyrosine
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Tyrosine is an amino acid found in several parenteral nutrition and dialysis solutions registered in South Africa, and no specific approved indication text is available in the data compiled for this report.
-The TxGNN model ranks **cauda equina syndrome** as its top prediction (score 99.77%), but there are **no clinical trials and no publications** supporting this prediction.
+The TxGNN model ranks **cauda equina syndrome** as its top prediction (score 0.9977), but there are **no clinical trials and no publications** supporting this prediction.
 The prediction is model-only, and the evidence is weak across all ten predicted indications.
 
 ---
@@ -50,10 +50,10 @@ The prediction is model-only, and the evidence is weak across all ten predicted 
 |------|------|
 | Original Indication | Not stated in the registration data (products are amino acid-containing infusion and parenteral nutrition solutions) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 8 |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

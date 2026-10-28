@@ -46,10 +46,10 @@ Arginine is an amino acid used as a component of parenteral nutrition and perito
 |------|------|
 | Original Indication | Not stated in the registration data compiled for this report (all 10 registered products are amino acid-containing nutrition or dialysis preparations) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 10 |
+| South Africa Market Status | Marketed (valid licences: 10 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

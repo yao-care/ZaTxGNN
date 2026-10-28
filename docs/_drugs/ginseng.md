@@ -2,13 +2,13 @@
 layout: default
 title: Ginseng
 parent: Model Prediction Only (L5)
-nav_order: 245
+nav_order: 244
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ginseng: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "Ginseng"
-predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "mature cataract", "tetanic cataract"]
+predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "diabetes mellitus type 2 associated cataract"]
+last_modified_at: 2026-10-23
+description: "Ginseng: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the registration records"
 ---
 
 # Ginseng
@@ -33,89 +33,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ginseng: From Registered Use (Indication Not Stated) to Drug-Induced Osteoporosis
+## Ginseng: From an Unspecified Registered Indication to Drug-Induced Osteoporosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ginseng is a herbal product registered in South Africa, but the data compiled for this report do not state its approved indication.
-The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, with a very high score.
-However, there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
-
----
+Ginseng is a herbal ingredient with two registrations in South Africa, but the registration records do not state an approved indication.
+The TxGNN model predicts it may be useful for **drug-induced osteoporosis**, with a very high model score.
+However, there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data |
+| Original Indication | Not stated in the registration records |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ginseng is a botanical whose main active constituents are ginsenosides. Its original indication could not be determined from the registration data, so the link between the original and new indication cannot be assessed.
+Currently, detailed mechanism of action data is not available for this drug. Ginseng's active constituents, the ginsenosides, have been proposed in the wider scientific literature to influence bone remodelling. However, none of the data compiled for this report supports that idea for drug-induced osteoporosis. No original indication could be confirmed from the local registration records, so the link between an existing use and this new one cannot be assessed.
 
-Ginsenosides have been proposed to influence bone remodelling. No supporting trials, publications or mechanistic data were found for drug-induced osteoporosis in the data compiled for this report. The score reflects a pattern found by the knowledge-graph model, not demonstrated clinical benefit. A high score alone should not be read as evidence of efficacy.
-
----
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not clinical proof. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for drug-induced osteoporosis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for drug-induced osteoporosis.
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| G2667 (ACT 101/1965) | Gericomplex | Capsule | Not stated in the data compiled |
-| 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not stated in the data compiled |
+| G2667 (ACT 101/1965) | Gericomplex | Capsule | Not stated in the registration record |
+| 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not stated in the registration record |
 
-Both registrations are valid and recorded as single-ingredient products. The Spiriva Respimat entry is an inhaler and is an unusual match for ginseng, so check this mapping against the SAHPRA register before relying on it. Essential Medicines List status could not be determined from the data compiled.
-
----
+Both registrations are currently valid and are recorded as single-ingredient products. The second record is a branded inhaler that is not normally associated with ginseng. The ingredient mapping for these two records should be verified before relying on them.
 
 ## Safety Considerations
 
-- **Drug Interactions**: 83 interactions were identified. The 20 detailed entries are all rated **Moderate**.
-  - **Glucose-lowering agents**: metformin, pioglitazone, acarbose, glimepiride, chlorpropamide, alogliptin, linagliptin, canagliflozin, dapagliflozin, empagliflozin, semaglutide, dulaglutide, albiglutide, lixisenatide, and insulins (aspart, degludec, detemir, glargine, glulisine). Monitor glucose when combining.
-  - **Acetylsalicylic acid**.
+- **Drug Interactions:** 83 interactions were identified. The 20 listed in the data compiled for this report are all rated **Moderate**. They cluster in two groups:
+  - **Glucose-lowering medicines:** acarbose, metformin, pioglitazone, glimepiride, chlorpropamide, alogliptin, linagliptin, canagliflozin, dapagliflozin, empagliflozin, albiglutide, dulaglutide, semaglutide, lixisenatide, and several insulins (aspart, degludec, detemir, glargine, glulisine). The practical concern is additive blood-glucose lowering, so glucose monitoring is advisable.
+  - **Acetylsalicylic acid.**
 
-For warnings, contraindications and other safety information, please refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for drug-induced osteoporosis rests on the TxGNN score alone (L5). No trials or publications support it, and the original indication and mechanism are unknown. SAHPRA package insert safety information is also not yet available.
-
-**Note on other predictions for ginseng:**
-Diabetic retinopathy has a more developed evidence base (about 20 mostly preclinical publications, rated L4). A 2026 prospective, randomised, double-blind study of Korean red ginseng in diabetic retinopathy (PMID 42395017) is relevant to it. This is a stronger research direction than osteoporosis, though still preliminary.
+The prediction for drug-induced osteoporosis has no supporting trials or publications, so the evidence level is L5. No approved indication or mechanism data could be confirmed to support it.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (PI), to confirm the original indication, warnings and contraindications
-- Verification of the SAHPRA registration entries, especially the inhaler product
-- Mechanism of action data for ginseng and ginsenosides
-- A systematic literature search on ginseng and bone metabolism or glucocorticoid-induced bone loss
-- Any registered or published human studies in the predicted indication
-- A review of interaction risks, especially with glucose-lowering medicines, in the likely target population
+- Preclinical or clinical studies that directly examine ginseng or ginsenosides in drug-induced (for example glucocorticoid-induced) osteoporosis
+- Mechanism of action data for the registered products
+- Verification of which active ingredients the two SAHPRA registrations actually contain, and their approved indications
+- Warnings and contraindications from the SAHPRA Professional Information
+- A review of interaction risk, particularly with glucose-lowering medicines and aspirin, in the likely patient population
+
+**Note on other predictions for this drug:** Among the other predicted indications, **diabetic retinopathy** has the most supporting literature (20 records). These are mostly preclinical and review studies, plus one 2026 randomised, double-blind clinical trial of Korean red ginseng (PMID 42395017). This trial is not specific to severe non-proliferative disease. It is a more promising research question than osteoporosis, though still without registered trials or confirmed clinical benefit.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

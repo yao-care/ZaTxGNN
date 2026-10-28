@@ -4,17 +4,17 @@ title: Risperidone
 parent: Model Prediction Only (L5)
 nav_order: 404
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Schizophrenia, bipolar disorder (including mania)…"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Risperidone: From Schizophrenia and Bipolar Disorder to Familial Horizontal Gaze Palsy with Progressive Scoliosis
+## Risperidone: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This is a computational prediction only: **0 clinical trials** and **0 publicati
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, bipolar disorder (including mania), autism spectrum disorder (from the knowledge-graph indication list; SAHPRA indication text was not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 7 |
+| South Africa Market Status | Marketed (valid licences: 7 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -111,7 +111,7 @@ The prediction rests on a model score alone, with no clinical trials, no publica
 - Any preclinical or clinical evidence in this specific condition
 - Mechanism of action data and the SAHPRA Professional Information for a full safety review
 
-**Other predictions for this drug:** the same analysis found a much better supported candidate, **major affective disorder** (TxGNN score 99.11%, evidence level L1, recommendation Proceed with Guardrails). It has two completed Phase 3 trials of adjunctive risperidone in treatment-resistant depression (NCT00095134, n=630; NCT00044681, n=258) and supportive meta-analyses. It would merit its own evaluation. Several other predictions (trichotillomania, Phelan-McDermid syndrome) rest only on case reports or preclinical work, and Asperger syndrome overlaps with the already approved autism indication.
+**Other predictions for this drug:** the same analysis found a much better supported candidate, **major affective disorder** (TxGNN score 0.9911, evidence level L1, recommendation Proceed with Guardrails). It has two completed Phase 3 trials of adjunctive risperidone in treatment-resistant depression (NCT00095134, n=630; NCT00044681, n=258) and supportive meta-analyses. It would merit its own evaluation. Several other predictions (trichotillomania, Phelan-McDermid syndrome) rest only on case reports or preclinical work, and Asperger syndrome overlaps with the already approved autism indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

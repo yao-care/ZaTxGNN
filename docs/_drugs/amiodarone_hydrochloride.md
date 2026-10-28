@@ -8,6 +8,7 @@ nav_order: 28
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amiodarone Hydrochloride
@@ -51,8 +52,8 @@ A complete repurposing evaluation cannot be produced at this time; the recommend
 | Predicted New Indication | Not available — TxGNN prediction not completed |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A |
-| South Africa Market Status | Not marketed (0 SAHPRA registrations on file) |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 ---

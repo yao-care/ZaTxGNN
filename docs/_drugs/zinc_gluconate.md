@@ -6,9 +6,9 @@ nav_order: 479
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Zinc Gluconate: predicted new indication Anemia of prematurity (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "Zinc gluconate"
 predicted_indications: ["anemia of prematurity", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "radiation or chemically induced disorder", "disease by subcellular system affected", "iatrogenic disease", "regional odontodysplasia"]
+description: "Zinc Gluconate: predicted new indication Anemia of prematurity (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zinc Gluconate
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Zinc Gluconate: From Ascorbic Acid Deficiency (Scurvy) to Anemia of Prematurity
+## Zinc Gluconate: Anemia of prematurity
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Zinc gluconate is a zinc salt. In the knowledge graph used for this prediction, its original indications are ascorbic acid deficiency and scurvy.
+Zinc gluconate is a zinc salt. Its original indications are ascorbic acid deficiency and scurvy.
 The TxGNN model predicts it may be effective for **anemia of prematurity**, but **no clinical trials and no publications** currently support this specific prediction.
 The evidence is therefore model prediction only.
 
@@ -46,12 +46,12 @@ The evidence is therefore model prediction only.
 
 | Item | Content |
 |------|------|
-| Original Indication | Ascorbic acid deficiency, scurvy (from the knowledge graph; no approved indication text is available in the SAHPRA records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Anemia of prematurity |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ The relationship between the original indications (nutrient deficiency states) a
 
 There is also a safety tension. Zinc can antagonise copper absorption, and copper deficiency can itself cause anaemia. One case report in the compiled literature describes severe anaemia from chronic excess zinc gluconate intake. Any use in preterm infants would need careful weighing of this risk.
 
-The other nine predictions for this drug are also very high scoring (above 99.8%). Only the top-ranked prediction is evaluated in detail here. Several of the others are broad ontology categories or rare dental and jaw dysplasias, and they have little or no supporting evidence.
+The other nine predictions for this drug also have very high TxGNN scores (between 0.9985 and 0.9989). Only the top-ranked prediction is evaluated in detail here. Several of the others are broad ontology categories or rare dental and jaw dysplasias, and they have little or no supporting evidence.
 
 ## Clinical Trial Evidence
 

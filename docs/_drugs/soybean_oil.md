@@ -4,17 +4,17 @@ title: Soybean Oil
 parent: Model Prediction Only (L5)
 nav_order: 426
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Soybean Oil: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not stated in the SAHPRA registration data (the product is a parenter…"
+description: "Soybean Oil: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not stated in the SAHPRA registration data (the product is a parenter…"
 monitor_inn: "Soybean oil"
-predicted_indications: ["amenorrhea (disease)", "non-syndromic esophageal malformation", "bone Paget disease", "esophageal disease", "juvenile Paget disease", "dentinogenesis imperfecta", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma", "adenosquamous breast carcinoma", "acantholytic variant squamous cell breast carcinoma"]
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Soybean Oil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Soybean Oil: From Parenteral Nutrition to Amenorrhoea (Prediction Only)
+## Soybean Oil: From Parenteral Nutrition to amenorrhea (disease) (Prediction Only)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Soybean oil is a lipid emulsion used in parenteral nutrition, supplying energy a
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data (the product is a parenteral nutrition lipid emulsion) |
 | Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,9 +60,8 @@ Soybean oil is a lipid emulsion used in parenteral nutrition, supplying energy a
 
 Currently, detailed mechanism of action data is not available. Based on known information, soybean oil is a parenteral nutrition lipid emulsion and a dietary source of linoleic acid and phytosterols. Its established role is nutritional support, not treatment of a specific disease.
 
-No plausible, evidence-supported link to the hypothalamic-pituitary-ovarian axis, which governs menstruation, was identified in the data compiled for this report. The high TxGNN score (0.996) is a graph-based prediction only. Similar scores across unrelated conditions (for example, bone, dental and tumour diseases) suggest the model is picking up general graph-neighbourhood patterns rather than disease-specific biology.
+No plausible, evidence-supported link to the hypothalamic-pituitary-ovarian axis, which governs menstruation, was identified in the data compiled for this report. The high TxGNN score (0.9961) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-**Other predictions:** The remaining nine top predictions (non-syndromic oesophageal malformation, bone Paget disease, juvenile Paget disease, dentinogenesis imperfecta, rectal cloacogenic carcinoma, gallbladder adenosquamous carcinoma, and two breast carcinoma subtypes) also have no trials or literature and no supported mechanism. The one exception is **oesophageal disease** (rank 4), which has indirect literature, summarised below.
 
 ---
 
@@ -113,7 +112,7 @@ No drug-drug interaction records were found in the data compiled for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a graph-based model score. There are no clinical trials or publications for amenorrhoea, and no plausible mechanism was identified. The evidence level is L5, and the safety information needed for screening is missing.
+The prediction is supported only by a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications for amenorrhoea, and no plausible mechanism was identified. The evidence level is L5, and the safety information needed for screening is missing.
 
 **To proceed, the following is needed:**
 - The SAHPRA package insert (warnings, contraindications and approved indication), which is a blocking gap for safety screening

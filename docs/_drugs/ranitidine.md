@@ -4,17 +4,17 @@ title: Ranitidine
 parent: Moderate Evidence (L3-L4)
 nav_order: 401
 evidence_level: L4
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Ranitidine: predicted new indication Active peptic ulcer disease (evidence level L4). Approved use: Gastric ulcer, gastro-oesophageal reflux disease, oesophagitis…"
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,23 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Ranitidine: From Gastric Ulcer to Active Peptic Ulcer Disease
+## Ranitidine: Peptic ulcer perforation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ranitidine is a histamine H2-receptor antagonist originally used for gastric and duodenal ulcers, gastro-oesophageal reflux disease (GORD) and related acid-hypersecretion conditions.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is essentially a label-consistent indication rather than true repurposing, with **no registered clinical trials** and **20 publications** (mostly drug reviews and comparator papers) linked to it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, gastro-oesophageal reflux disease, oesophagitis, dyspepsia, duodenal ulcer, Zollinger-Ellison syndrome (the SAHPRA entries supplied contain no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Peptic ulcer perforation |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +62,7 @@ Two cautions apply. Proton pump inhibitors (PPIs) have largely replaced H2 block
 
 ## Clinical Trial Evidence
 
-No trials are registered for active peptic ulcer disease itself. The related prediction "peptic ulcer disease" (rank 7) has five linked trials, none of which tests ranitidine as the investigational drug. Ranitidine appears as a comparator at most:
+Ranitidine appears as a comparator at most:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|

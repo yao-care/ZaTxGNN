@@ -4,17 +4,17 @@ title: Losartan
 parent: Moderate Evidence (L3-L4)
 nav_order: 303
 evidence_level: L4
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Losartan: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
 monitor_inn: "LOSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Losartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-## Losartan: From Hypertension to Malignant Renovascular Hypertension
+## Losartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Losartan is an angiotensin II receptor blocker, originally used to treat hypertension and diabetic nephropathy.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but there are currently **no registered clinical trials** and only **2 publications** (one case report and one animal-model methods paper) supporting this direction. This is largely a model prediction.
 
 ---
@@ -48,15 +47,15 @@ but there are currently **no registered clinical trials** and only **2 publicati
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, hypertensive disorder, diabetic nephropathy |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.73% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 18 |
+| South Africa Market Status | Marketed (valid licences: 18 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
-*Note: The original indications come from the TxGNN knowledge graph. The SAHPRA registration records compiled for this report do not include approved indication text.*
+The SAHPRA registration records compiled for this report do not include approved indication text.*
 
 ---
 
@@ -139,13 +138,13 @@ The prediction score is high and the mechanism is plausible, but evidence is lim
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 2 | Malignant hypertensive renal disease | 99.73% | L4 (animal model only) | Hold |
-| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.71% | L4 (mostly tangential literature, one negative human study) | Research question |
-| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 99.71% | L5 | Hold |
-| 5 | Braddock syndrome | 99.61% | L5 | Hold |
-| 6 | Prinzmetal angina | 99.45% | L5 | Hold |
-| 7 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 99.39% | L5 | Hold |
-| 8 | Brain small vessel disease 1 with or without ocular anomalies | 99.37% | L4 (preclinical and indirect studies) | Research question |
+| 2 | Malignant hypertensive renal disease | 0.9973 | L4 (animal model only) | Hold |
+| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9971 | L5 (mostly tangential literature, one negative human study) | Research question |
+| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 0.9971 | L5 | Hold |
+| 5 | Braddock syndrome | 0.9961 | L5 | Hold |
+| 6 | Prinzmetal angina | 0.9945 | L5 | Hold |
+| 7 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 0.9939 | L5 | Hold |
+| 8 | Brain small vessel disease 1 with or without ocular anomalies | 0.9937 | L5 (preclinical and indirect studies) | Research question |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

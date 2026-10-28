@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Azelastine
-parent: Model Prediction Only (L5)
-nav_order: 55
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Azelastine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis (the registered product has no indication text…"
-monitor_inn: "Azelastine"
-predicted_indications: ["rosacea conjunctivitis", "allergic urticaria", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "pseudomembranous conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 54
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Azelastine: known uses and market status in South Africa; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Azelastine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,47 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Azelastine: From Allergic Rhinitis to Rosacea Conjunctivitis
+<!-- known-uses-page -->
+<!-- description: Azelastine: known uses and market status in South Africa; currently no new candidate indication -->
+## Azelastine: Known uses and market status in South Africa
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model produced candidates for Azelastine, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The two known uses below are relations recorded in the knowledge graph, and no approval was found for them in the data used here.
 
-Azelastine is an antihistamine nasal spray originally used for allergic rhinitis and related allergic eye conditions.
-The TxGNN model predicts it may be effective for **rosacea conjunctivitis** (score 98.6%), but **no clinical trials and no publications** currently support this specific prediction.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (the registered product has no indication text, so this comes from the drug's known indications: allergic rhinitis, vasomotor rhinitis, atopic, papillary and vernal conjunctivitis) |
-| Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 98.6% |
-| Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 2 |
+| Evidence level | Not applicable |
+| Market status in South Africa | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available. Based on known information, azelastine is an H1-receptor antagonist with mast cell-stabilizing and anti-inflammatory activity. Its efficacy in allergic rhinitis and allergic conjunctivitis is established, and mechanistically it could relieve ocular surface inflammation.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-The link to rosacea conjunctivitis is weak, however. Rosacea-related eye disease is driven mainly by meibomian gland dysfunction and inflammation rather than histamine. The high score probably reflects the disease's closeness to other conjunctivitis conditions in the knowledge graph, not a specific biological rationale. The prediction should be treated as a hypothesis only.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| papillary conjunctivitis |
+| atopic conjunctivitis |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 55/21.5.1/0573 | Dymista Nasal Spray | Spray | Not stated in the data compiled for this report |
-
-Only one valid registration exists, and it is a nasal spray. No ophthalmic formulation is registered in the data compiled for this report, which matters for an eye indication.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 55/21.5.1/0573 | Dymista Nasal Spray | spray | Valid |
 
 ## Safety Considerations
 
@@ -82,20 +80,6 @@ Only one valid registration exists, and it is a nasal spray. No ophthalmic formu
 
 For label-based warnings and contraindications, please refer to the SAHPRA-approved PI. Report adverse drug reactions to SAHPRA.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on the model score alone (L5), with no trials or publications for rosacea conjunctivitis. The biological link is weak, and no ophthalmic product is registered in South Africa.
-
-**To proceed, the following is needed:**
-- Evidence that antihistamine or anti-inflammatory therapy helps rosacea-related ocular disease, such as pilot or comparative studies
-- Detailed mechanism of action data
-- Label-based safety information from the SAHPRA PI, which is currently missing
-- Confirmation of an ophthalmic formulation and its registration status
-
-**Note on other predictions:** Among the other predicted indications, general **conjunctivitis** (score 91.1%) has much stronger support. It has a completed Phase 3 active-controlled trial (NCT06212973), a completed Phase 4 trial (NCT06800274), and several randomized trials of azelastine eye drops. This is largely an existing, on-label use for allergic conjunctivitis. It could be assessed separately, limited to allergic subtypes. Before relying on NCT06212973, check the full record to confirm azelastine's role in the trial (test or comparator arm).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

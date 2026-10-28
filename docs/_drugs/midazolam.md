@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Midazolam
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 325
-evidence_level: L5
+evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Midazolam: predicted new indication Insomnia (evidence level L5). Approved use: Anxiety"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
+description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Midazolam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L2** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Midazolam: From Anxiety to Insomnia
+## Midazolam: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **2 registered clinical trials** (both only indirectly relevant) and **10 p
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety (from the TxGNN knowledge graph; the SAHPRA record has no approved indication text) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.74% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 (see note below) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The data compiled for this report assign L2. Strictly, the midazolam-specific studies are older randomised or comparative studies (1981–1990) in insomnia. The two registered trials are only indirectly relevant. No completed Phase 3 insomnia RCTs are listed.

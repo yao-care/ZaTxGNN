@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vilanterol
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 471
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Vilanterol: predicted new indication Obstructive lung disease (evidence level L1). Approved use: COPD, asthma and related airway diseases"
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Vilanterol: From Chronic Obstructive Pulmonary Disease and Asthma to Obstructive Lung Disease
+## Vilanterol: Hyperlucent lung
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Vilanterol is a long-acting beta2-agonist (LABA) bronchodilator, originally used to treat chronic obstructive pulmonary disease (COPD) and asthma.
-The TxGNN model predicts it may be effective for **obstructive lung disease**,
 with **26 clinical trials** and **20 publications** currently supporting this direction.
 Obstructive lung disease overlaps almost completely with vilanterol's existing indications, so this is better read as confirmation of current use than as true repurposing.
 
@@ -47,12 +46,12 @@ Obstructive lung disease overlaps almost completely with vilanterol's existing i
 
 | Item | Content |
 |------|------|
-| Original Indication | COPD, asthma and related airway diseases (the SAHPRA indication text was not available in the data compiled for this report; the original indications come from the TxGNN knowledge graph) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hyperlucent lung |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -126,7 +125,7 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 randomised trials and large RCT publications support vilanterol-containing regimens in COPD and asthma. However, the predicted "obstructive lung disease" largely restates the existing indication, so this confirms current use rather than opening a new one. The other nine predicted indications have no or only indirect evidence and should stay on **Hold**, except bronchial neoplasm, which is a research question only.
+Multiple completed Phase 3 randomised trials and large RCT publications support vilanterol-containing regimens in COPD and asthma. The other nine predicted indications have no or only indirect evidence and should stay on **Hold**, except bronchial neoplasm, which is a research question only.
 
 **To proceed, the following is needed:**
 - The SAHPRA Professional Information (indications, warnings, contraindications) for both registered products, which was not available in the data compiled for this report

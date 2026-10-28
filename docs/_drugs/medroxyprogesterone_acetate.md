@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 311
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (evidence level L3). Approved use: Endometriosis"
 monitor_inn: "Medroxyprogesterone acetate"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "cervix endometriosis", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Medroxyprogesterone Acetate: From Endometriosis to Amenorrhea
+## Medroxyprogesterone Acetate: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The literature largely describes amenorrhea as a *side effect* of MPA rather tha
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (the data compiled for this report also lists endometrial cancer, postmenopausal osteoporosis and postmenopausal atrophic vaginitis; SAHPRA indication text is not available) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 (no trials; mechanistic and review literature only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 (no trials; mechanistic and review literature only) |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -125,7 +125,7 @@ The model made nine further predictions. None has registered clinical trials.
 | Predicted Indication | Evidence Level | Assessment |
 |------|------|------|
 | Breast fibrocystic disease | L3 | Two small, dated MPA reports (1983, 1988); HRT literature suggests progestins may worsen breast findings. This is the most developed of the other predictions, but it carries a safety concern. |
-| Benign mammary dysplasia | L4 | Indirect and largely non-human evidence. |
+| Benign mammary dysplasia | L5 | Indirect and largely non-human evidence. |
 | Cervix endometriosis | L4 | Plausible extension of the approved endometriosis indication, but no direct evidence. |
 | Endometriosis of rectovaginal septum and vagina | L5 | Prediction only; likely an extension of the existing indication. |
 | Endometriosis in cutaneous scar | L5 | Prediction only; surgery is the standard treatment. |

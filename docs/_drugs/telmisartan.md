@@ -4,17 +4,17 @@ title: Telmisartan
 parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Hypertension"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
+description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Telmisartan: From Hypertension to Prinzmetal Angina
+## Telmisartan: Prinzmetal angina
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,21 +48,21 @@ The best-supported candidate among the top ten is **intracerebral hemorrhage**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (stroke and cerebrovascular disorders are also listed as original indications in the knowledge graph; no approved indication text is available from the SAHPRA records compiled for this report) |
-| Predicted New Indication | Prinzmetal angina (rank 1) |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Prinzmetal angina |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 17 |
+| South Africa Market Status | Marketed (valid licences: 17 of 17) |
+| Number of SAHPRA Registrations | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 **Other top-ranked predictions with evidence (for context):**
 
 | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|
-| Cerebral artery occlusion | 99.95% | L2 | Research question |
-| Intracerebral hemorrhage | 99.93% | L2 | Research question |
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.93% | L4 | Hold |
+| Cerebral artery occlusion | 0.9995 | L2 | Research question |
+| Intracerebral hemorrhage | 0.9993 | L5 | Research question |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9993 | L5 | Hold |
 
 The remaining predictions (brain stem infarction, ABri amyloidosis, pulmonary hypertension with unclear multifactorial mechanism, malignant renovascular hypertension, malignant hypertensive renal disease, Braddock syndrome) have no trials or literature and sit at L5 (Hold).
 

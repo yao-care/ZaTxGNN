@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB13956",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB13956"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "partial-trisomy-tetrasomy-of-the-short-arm-of-chromosome-5",
-          "display": "partial trisomy/tetrasomy of the short arm of chromosome 5"
-        }
-      ],
-      "text": "partial trisomy/tetrasomy of the short arm of chromosome 5"
+      "concept": {
+        "text": "partial trisomy/tetrasomy of the short arm of chromosome 5"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9992
     }
   ]
 }

@@ -8,6 +8,7 @@ nav_order: 26
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amiloride Hydrochloride
@@ -49,8 +50,8 @@ Amiloride Hydrochloride is a potassium-sparing diuretic, well established intern
 | Predicted New Indication | None — TxGNN returned no predictions |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | N/A |
-| South Africa Market Status | Not registered |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | **Hold** |
 
 ---

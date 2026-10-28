@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Hydrocortisone Acetate
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 255
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L5). Approved use: Autoimmune disease (other listed indications include adrenocortical i…"
 monitor_inn: "Hydrocortisone acetate"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucino
 # Hydrocortisone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but current support is limited to **1 clinical trial** (in which hydrocortisone 
 |------|------|
 | Original Indication | Autoimmune disease (other listed indications include adrenocortical insufficiency, Crohn disease, inflammatory bowel disease and congenital adrenal hyperplasia). No approved indication text is available from the SAHPRA registrations. |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 (indirect: hydrocortisone served as the comparator arm, not the test drug) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

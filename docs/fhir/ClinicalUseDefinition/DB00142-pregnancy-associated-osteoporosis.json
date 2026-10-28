@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00142",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00142"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "pregnancy-associated-osteoporosis",
-          "display": "pregnancy associated osteoporosis"
-        }
-      ],
-      "text": "pregnancy associated osteoporosis"
+      "concept": {
+        "text": "pregnancy associated osteoporosis"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9918
     }
   ]
 }

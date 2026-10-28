@@ -8,6 +8,7 @@ nav_order: 152
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Copper Sulfate
@@ -51,7 +52,7 @@ As a result, **no predicted new indication, supporting clinical trials, or linke
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A |
-| South Africa Market Status | Not Marketed |
+| South Africa Market Status | Marketed (valid licences on record: at least 6) |
 | Number of SAHPRA Registrations | 0 |
 | Recommended Decision | **Hold** |
 

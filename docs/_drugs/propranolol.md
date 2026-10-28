@@ -4,17 +4,17 @@ title: Propranolol
 parent: Model Prediction Only (L5)
 nav_order: 394
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not stated in the SAHPRA registrations compiled for this report. The…"
 monitor_inn: "Propranolol"
-predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy", "intramuscular hemangioma", "Maffucci syndrome", "breast epithelioid hemangioma", "breast capillary hemangioma"]
+predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
+description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Propranolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Propranolol: From Hypertension and Cardiac Disorders to Distal Myopathy, Tateyama Type
+## Propranolol: Distal myopathy, Tateyama type
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Propranolol is a non-selective beta-blocker, originally used for hypertension, atrial fibrillation, hypertrophic cardiomyopathy and infantile haemangioma.
 The TxGNN model's top-ranked prediction is **distal myopathy, Tateyama type**, but there are **no clinical trials and no publications** supporting it.
-Better-supported directions among the other predictions are **cardiomyopathy** (literature on hypertrophic cardiomyopathy) and **haemangioma subtypes** (literature on infantile haemangioma).
+Better-supported directions among the other predictions are **haemangioma subtypes** (literature on infantile haemangioma).
 
 ---
 
@@ -48,12 +48,12 @@ Better-supported directions among the other predictions are **cardiomyopathy** (
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registrations compiled for this report. The knowledge graph lists hypertension, atrial fibrillation, hypertrophic cardiomyopathy, haemangioma and related conditions |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Distal myopathy, Tateyama type |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +62,10 @@ Better-supported directions among the other predictions are **cardiomyopathy** (
 
 Currently, detailed mechanism of action data is not available. Based on known information, propranolol is a non-selective beta-adrenergic blocker. It is established in cardiovascular conditions (hypertension, arrhythmias, hypertrophic cardiomyopathy) and in infantile haemangioma. Its relevance to distal myopathy, Tateyama type, has not been demonstrated.
 
-For the top-ranked prediction, no mechanistic link is established. Beta-adrenergic blockade has no known relevance to this rare distal myopathy. The high score (0.994) most likely reflects network proximity in the knowledge graph rather than biological rationale. The second-ranked prediction (congenital myopathy with excess of thin filaments) is likewise unsupported.
+For the top-ranked prediction, no mechanistic link is established. Beta-adrenergic blockade has no known relevance to this rare distal myopathy. The high score (0.9940) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The second-ranked prediction (congenital myopathy with excess of thin filaments) is likewise unsupported.
 
 Predictions with a more plausible rationale, although still indirect:
 
-- **Cardiomyopathy (rank 6):** Beta-blockade reduces heart rate, myocardial oxygen demand and adrenergic stimulation, and improves diastolic filling in hypertrophic cardiomyopathy. This is already an original indication.
 - **Intramuscular, breast epithelioid and breast capillary haemangioma (ranks 7, 9, 10):** Propranolol is standard therapy for infantile haemangioma, but these are different or only related entities, so evidence is extrapolated.
 - **Cirrhotic cardiomyopathy (rank 5):** One 2024 report suggests propranolol can correct prolonged QT in cirrhosis, but other studies show blunted cardiovascular effects and possible harm to circulatory and renal function in advanced disease.
 - **Hypertrophic cardiomyopathy due to athletic training, chondroma, Maffucci syndrome (ranks 3, 4, 8):** Prediction only, with no supporting evidence.
@@ -136,7 +135,7 @@ SAHPRA package insert warnings and contraindications were not available for this
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, distal myopathy Tateyama type, rests on a model score alone (Evidence Level L5). There is no trial or literature support and no plausible mechanism, and the knowledge graph flags myopathy-type conditions as contraindications. Predictions with literature support (cardiomyopathy, haemangioma subtypes) are largely extrapolations from existing indications and are better treated as research questions than as new repurposing candidates.
+The top-ranked prediction, distal myopathy, Tateyama type, rests on a model score alone (Evidence Level L5). There is no trial or literature support and no plausible mechanism, and the knowledge graph flags myopathy-type conditions as contraindications. Predictions with literature support (haemangioma subtypes) are largely extrapolations from existing indications and are better treated as research questions than as new repurposing candidates.
 
 **To proceed, the following is needed:**
 - SAHPRA package insert warnings, contraindications and approved indications (currently a blocking gap for safety screening)

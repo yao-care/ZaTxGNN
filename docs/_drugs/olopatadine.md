@@ -4,17 +4,17 @@ title: Olopatadine
 parent: Model Prediction Only (L5)
 nav_order: 354
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis…"
 monitor_inn: "Olopatadine"
-predicted_indications: ["rosacea conjunctivitis", "punctate epithelial keratoconjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "blepharoconjunctivitis"]
+predicted_indications: ["rosacea conjunctivitis"]
+description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Olopatadine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Olopatadine: From Allergic Rhinitis and Allergic Conjunctivitis to Rosacea Conjunctivitis
+## Olopatadine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis (from the knowledge graph; the SAHPRA record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The link to rosacea conjunctivitis is uncertain. Ocular rosacea is driven mainly by meibomian gland dysfunction, innate immune activation and *Demodex* infestation. Mast cell or histamine involvement is not well established, so any benefit would probably be limited to symptomatic relief of itch or allergic overlap, not treatment of the underlying disease.
 
-The other top-ranked predictions are also conjunctival conditions. Several (serous conjunctivitis, Angelucci syndrome) largely overlap with existing allergic or vernal indications. Others (acute hemorrhagic and pseudomembranous conjunctivitis) have infectious or severe inflammatory causes that olopatadine is unlikely to address.
+The other top-ranked predictions are also conjunctival conditions.
 
 ---
 
@@ -78,8 +78,8 @@ Currently no related clinical trials registered.
 Currently no related literature available for rosacea conjunctivitis.
 
 For context, the lower-ranked predictions have only indirect evidence:
-- **Punctate epithelial keratoconjunctivitis**: [22606467](https://pubmed.ncbi.nlm.nih.gov/22606467/) (2011, case report, *Case Reports in Ophthalmological Medicine*) describes limbitis secondary to autologous serum eye drops in a patient with atopic keratoconjunctivitis. Olopatadine 0.2% was part of the background regimen, but the report did not test it for this indication.
-- **Parasitic conjunctivitis**: [34029500](https://pubmed.ncbi.nlm.nih.gov/34029500/) (2021, preclinical/mechanistic study, *Current Eye Research*) describes allergic conjunctivitis induced by *Acanthamoeba* excretory-secretory protein. It supports a histamine-mediated allergic component, but olopatadine would only be symptomatic and would not treat the infection.
+- Olopatadine 0.2% was part of the background regimen, but the report did not test it for this indication.
+- It supports a histamine-mediated allergic component, but olopatadine would only be symptomatic and would not treat the infection.
 
 ---
 

@@ -2,19 +2,19 @@
 layout: default
 title: Doxylamine
 parent: Model Prediction Only (L5)
-nav_order: 204
+nav_order: 203
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-15
-description: "Doxylamine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Allergic rhinitis (other listed indications include vasomotor rhiniti…"
+indication_count: 1
 monitor_inn: "DOXYLAMINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+last_modified_at: 2026-10-27
+description: "Doxylamine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Doxylamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Doxylamine: From Allergic Rhinitis to Allergic Urticaria
+## Doxylamine: H1-receptor antagonist (antihistamine with anticholinergic activity) → nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Doxylamine is a first-generation H1-antihistamine, originally used for allergic rhinitis, the common cold, urticaria and related allergic conditions.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but this is largely a subtype of an indication it already has. There are currently **no clinical trials** and **no publications** supporting this prediction.
+Doxylamine is a sedating antihistamine with anticholinergic activity that is marketed in South Africa.
+The TxGNN model predicts it may be useful for **nasal cavity disease**, with a prediction score of **0.9936**.
+No clinical trials or publications were found in the data compiled for this report, so the support is indirect.
 
 ---
 
@@ -47,80 +48,69 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but thi
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (other listed indications include vasomotor rhinitis, pharyngitis, common cold, conjunctivitis, urticaria and angioedema) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.85% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | nasal cavity disease |
+| TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 11 |
+| South Africa Market Status | Marketed (valid licences: 11 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
-
-Note: the data compiled for this report assigned a level of L4 (mechanistic reasoning only). Under the stated grading rules, a prediction with no actual trials or publications falls at L5. Either way, no direct clinical evidence exists.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, doxylamine is a first-generation H1-antihistamine with anticholinergic activity. Blocking the H1 receptor directly counters histamine-mediated wheal and flare, which drives urticaria.
+Detailed mechanism of action data is not available in the data compiled for this report. Doxylamine is known as a first-generation H1-receptor antagonist with anticholinergic properties. Blocking histamine H1 receptors and muscarinic receptors can reduce sneezing, rhinorrhoea and nasal secretions, which is a plausible route to symptomatic relief of nasal conditions.
 
-Urticaria and angioedema are already among doxylamine's listed indications. Allergic urticaria is a subtype of urticaria, so the high TxGNN score (0.998) mostly reflects an existing use rather than a true repurposing opportunity.
+"Nasal cavity disease" is a very broad category. It covers many different conditions, such as allergic, vasomotor and infective rhinitis, and the term is too non-specific to support a defined repurposing hypothesis. The mechanistic argument is therefore indirect and rests on general pharmacology, not on any study of this disease.
 
-Other predictions from the model follow the same pattern:
-
-- **Nasal cavity disease** (99.36%): a broad category overlapping with allergic rhinitis, vasomotor rhinitis and the common cold. It is too non-specific to form a defined hypothesis.
-- **Acute laryngopharyngitis** (99.34%): closely related to the existing pharyngitis and nasopharyngitis indications. Doxylamine may ease symptoms such as postnasal drip and throat irritation but has no known effect on the underlying infection.
-- **Cold urticaria** (99.26%): an inducible urticaria driven by mast-cell histamine release, so H1 blockade is rational. However, guidelines favour second-generation non-sedating antihistamines, which makes a sedating first-generation agent less attractive.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+No clinical trials or publications were provided that directly study nasal cavity disease, so the evidence level is L5 (model prediction only).
 
 ---
 
 ## South Africa Market Information
 
-Doxylamine has 11 valid SAHPRA registrations (all single-ingredient entries, none cancelled). No approved indication text, manufacturer or Essential Medicines List (EML) information was available in the data compiled for this report. The 5 registrations below are a selection.
+Eleven single-ingredient SAHPRA registrations are currently valid and none are cancelled. The records carry no approved-indication text. Essential Medicines List status is not available in the data compiled for this report.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 33/7.1.3/0452 | Hypace | Tablet | Not available |
-| 33/2.8/0098 | Doxy co | Tablet | Not available |
-| H/10.1/140 | Vicks Medinite | Syrup | Not available |
-| 36/2.8/0271 | Alpha-Dol | Tablet | Not available |
-| 33/2.8/0187 | Resdol | Tablet | Not available |
+| Reg. No. 33/7.1.3/0452 | Hypace | Tablet | Not recorded |
+| Reg. No. 33/2.8/0098 | Doxy co | Tablet | Not recorded |
+| Reg. No. H/10.1/140 | Vicks medinite | Syrup | Not recorded |
+| Reg. No. 36/2.8/0271 | Alpha-Dol | Tablet | Not recorded |
+| Reg. No. 29/2.6/0182 | Azor | Tablet | Not recorded |
 
-Available dosage forms are oral tablets and syrup.
+The list shows 5 of the 11 registrations.
 
 ---
 
 ## Safety Considerations
 
-**Contraindication signals from the knowledge graph** (taken from drug-disease relationships in the TxGNN knowledge graph, not from label text, so they must be checked against the SAHPRA Professional Information):
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs. Major-level interactions include:
+  - Potassium chloride
+  - Potassium citrate
 
-- **Cardiovascular:** hypertension, coronary artery disease, myocardial infarction, atherosclerosis, ventricular tachycardia
-- **Hepatic and pancreatic:** liver failure, liver disease, pancreatitis, gallbladder disease
-- **Gastrointestinal:** peptic ulcer disease
-- **Metabolic and endocrine:** diabetes mellitus, diabetic ketoacidosis, hyperthyroidism (Graves disease, thyrotoxicosis)
-- **Genitourinary:** benign prostatic hyperplasia, bladder neck obstruction
-- **Ocular:** angle-closure glaucoma, ocular hypertension
-- **Other:** substance abuse or dependence, hemoglobinopathy, paracetamol poisoning
+  Moderate-level interactions include:
+  - Anticholinergics and antispasmodics (atropine, hyoscyamine, scopolamine, glycopyrronium, dicyclomine, propantheline)
+  - Opioids and antidiarrhoeals (morphine, opium, loperamide, eluxadoline)
+  - Cannabinoids (dronabinol, nabilone)
+  - Metoclopramide
 
-**Drug interactions** (100 interactions identified; the most notable are below):
+  These reflect additive anticholinergic and sedative effects, and a risk of gastrointestinal mucosal injury with solid potassium preparations.
 
-- **Major:** potassium citrate and potassium chloride
-- **Moderate (additive anticholinergic or CNS effects):** hyoscyamine, atropine, scopolamine, glycopyrronium, dicyclomine, clidinium, propantheline, methscopolamine and mepenzolate
-- **Moderate (opioids and CNS depressants):** morphine, opium, loperamide, dronabinol, nabilone and eluxadoline
-- **Moderate (other):** metoclopramide
+- **Conditions of concern**: Conditions listed as of concern for this drug include:
+  - Angle-closure glaucoma
+  - Benign prostatic hyperplasia and bladder neck obstruction
+  - Peptic ulcer disease
+  - Liver disease
+  - Hyperthyroidism
+  - Cardiovascular disease (hypertension, coronary artery disease, ventricular tachycardia)
+  - Diabetes
+  - Substance abuse or dependence
 
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications, which were not available for this report. Report adverse drug reactions to SAHPRA.
+  These come from a drug-disease relation source and are not taken from approved label text, so they must be checked against the SAHPRA-approved Professional Information (PI).
+
+Please refer to the SAHPRA-approved Professional Information (PI) for formal warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -129,14 +119,14 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The top prediction largely restates an existing indication (urticaria). The other predictions are either too broad or already covered by current use, and there are no clinical trials or publications for any of them. For cold urticaria, a sedating first-generation antihistamine is also a poor fit compared with second-generation agents.
+The prediction score is high (0.9936), but the predicted indication is very broad, no trials or publications address it, and the supporting reasoning is indirect. The safety review is also incomplete, because the SAHPRA package insert warnings have not been retrieved.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications, which block safety screening
-- Mechanism of action data (for example, from DrugBank)
-- Approved indication text for the registered South African products
-- Published or registered clinical evidence for doxylamine in specific urticaria subtypes, such as cold urticaria
-- A comparison with second-generation non-sedating antihistamines, with attention to sedation and anticholinergic burden
+- Narrow the hypothesis to a specific nasal condition, such as allergic or vasomotor rhinitis
+- Retrieve and review the SAHPRA Professional Information, including approved indications, warnings and contraindications
+- Obtain detailed mechanism of action data
+- Search for clinical trials and publications that directly study the chosen condition
+- Review the interaction and contraindication profile for the intended patient population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

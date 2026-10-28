@@ -4,17 +4,17 @@ title: Tryptophan
 parent: Moderate Evidence (L3-L4)
 nav_order: 463
 evidence_level: L3
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Tryptophan: predicted new indication Insomnia (evidence level L3). Approved use: Not stated"
+description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not stated"
 monitor_inn: "Tryptophan"
-predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency", "acne (disease)", "pregnancy associated osteoporosis"]
+predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 ---
 
 # Tryptophan
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Tryptophan: From Unspecified Registered Use (Parenteral Nutrition Component) to Insomnia
+## Tryptophan: From Unspecified Registered Use (Parenteral Nutrition Component) to Restless legs syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Evidence is limited and dated, so this is a research-level opportunity, not a re
 |------|------|
 | Original Indication | Not stated (the approved indication text is empty in all registrations; tryptophan is a component of amino acid infusion products) |
 | Predicted New Indication | Insomnia (the top-ranked TxGNN prediction is restless legs syndrome, but insomnia has the strongest supporting evidence, so it is the focus of this report) |
-| TxGNN Prediction Score | Insomnia: 99.47% (restless legs syndrome, rank 1: 99.72%) |
+| TxGNN Prediction Score | Insomnia: 0.9947 (restless legs syndrome, rank 1: 0.9972) |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -101,7 +101,7 @@ Four further registrations are not listed: Adco-ipratropium (Reg. No. 33/10.2.1/
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge graph associations, not label text):** autoimmune disease, systemic lupus erythematosus (including paediatric), anxiety disorder, neurotic disorder, dysthymic disorder, schizophrenia, phenylketonuria and other disorders of phenylalanine metabolism, and eosinophilia-myalgia syndrome (including the form associated with tryptophan).
+- **Contraindications (from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence; not label text):** autoimmune disease, systemic lupus erythematosus (including paediatric), anxiety disorder, neurotic disorder, dysthymic disorder, schizophrenia, phenylketonuria and other disorders of phenylalanine metabolism, and eosinophilia-myalgia syndrome (including the form associated with tryptophan).
 - **Historical safety signal:** eosinophilia-myalgia syndrome was associated with contaminated L-tryptophan supplies, so only pharmaceutical-grade product should be considered.
 - **Drug Interactions:** 17 interactions were recorded. Major interactions are with lorcaserin, dolasetron, palonosetron, ondansetron, granisetron, fenfluramine, sibutramine, methylene blue, doxepin (oral and topical) and procarbazine. Moderate interactions are with morphine, codeine, hydrocodone, cyproheptadine, ozanimod and ifosfamide. Most of these raise concern about serotonergic effects.
 

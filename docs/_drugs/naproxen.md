@@ -6,9 +6,9 @@ nav_order: 337
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, gout…"
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
+description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Naproxen
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Naproxen: From Musculoskeletal Pain and Inflammatory Arthritis to Brachydactyly-Syndactyly Syndrome
+## Naproxen: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are **no clinical trials and no publications** supporting this predict
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, gout, bursitis, tendinitis, migraine and related conditions (from the knowledge-graph indication list; SAHPRA indication text was not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.35% |
+| TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 6 |
+| South Africa Market Status | Marketed (valid licences: 6 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,15 +64,15 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Brachydactyly-syndactyly syndromes are congenital limb malformations with developmental or genetic origins. Reducing inflammation through prostaglandin inhibition would not be expected to correct a structural skeletal defect. **No mechanistic link is supported by the available data.**
 
-The high TxGNN score most likely reflects proximity in the knowledge graph between this condition and the musculoskeletal terms among naproxen's original indications, rather than true biological relevance. Prenatal NSAID exposure is also a safety concern, not a therapeutic rationale.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between this condition and related diseases, such as the musculoskeletal terms among naproxen's original indications, not biological evidence. Prenatal NSAID exposure is also a safety concern, not a therapeutic rationale.
 
 Other top-ranked predictions show the same pattern (all L5, no trials, no literature, no mechanistic link):
 
 | Rank | Predicted Disease | TxGNN Score |
 |------|------|------|
-| 2 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.22% |
-| 3 | Acromesomelic dysplasia, Hunter-Thompson type | 99.17% |
-| 4 | Brachyolmia-amelogenesis imperfecta syndrome | 99.06% |
+| 2 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9922 |
+| 3 | Acromesomelic dysplasia, Hunter-Thompson type | 0.9917 |
+| 4 | Brachyolmia-amelogenesis imperfecta syndrome | 0.9906 |
 
 ---
 

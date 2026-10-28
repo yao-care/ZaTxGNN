@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: High Evidence (L1-L2)
-nav_order: 264
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Insulin Degludec: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
+parent: Model Prediction Only (L5)
+nav_order: 263
+evidence_level: L5
+indication_count: 5
 monitor_inn: "Insulin degludec"
-predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
+last_modified_at: 2026-10-27
+description: "Insulin Degludec: predicted new indication autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,105 +33,70 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Degludec: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin degludec: long-acting basal insulin analogue → autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Insulin degludec is an ultra-long-acting basal insulin analogue, originally used to treat diabetes mellitus (including diabetic ketoacidosis in the knowledge graph).
-The TxGNN model predicts it may be effective for **Type 1 Diabetes Mellitus**,
-with **42 clinical trials** and **20 publications** currently supporting this direction.
-Note that this is effectively an on-label use rather than true repurposing; the high score reflects an already-established relationship.
+Insulin degludec is a long-acting basal insulin analogue. The TxGNN model predicts it may be relevant to **autoimmune oophoritis**, but **no clinical trials and no publications** were found in the data compiled for this report, so this is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (from the knowledge graph; SAHPRA indication text not available) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L1 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | autoimmune oophoritis |
+| TxGNN Prediction Score | 0.9923 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, insulin degludec is a basal insulin analogue that binds the insulin receptor and lowers blood glucose. Published reviews describe a flat, stable glucose-lowering profile with a duration of action beyond 42 hours.
+Currently, detailed mechanism of action data is not available. Insulin degludec is an insulin analogue that acts on the insulin receptor to lower blood glucose.
 
-Type 1 diabetes is characterised by absolute insulin deficiency, so basal insulin replacement is directly mechanistically relevant. Insulin degludec is already marketed for diabetes, so the very high TxGNN score reflects a known relationship rather than a novel discovery.
-
-The other nine predictions (ranks 2-10) have no supporting trials or literature. Some are likely adverse-effect or comorbidity signals rather than therapeutic ones (e.g. drug-induced localised lipodystrophy and pressure-induced localised lipoatrophy are known injection-site effects of insulin). Pancreatic agenesis is mechanistically plausible (insulin replacement is standard care) but lacks degludec-specific data and would need separate paediatric evaluation. These are not recommended for further consideration at this stage.
+The data compiled for this report shows no clear mechanistic link between insulin and autoimmune oophoritis. Autoimmune oophoritis is an immune-mediated ovarian disorder, and insulin signalling is not an established therapeutic target for it. The high score looks like a network-based pattern in the model, not a result backed by clinical or published evidence. The prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-The data contain many more registered trials (largely Phase 1 PK/PD studies, plus several Phase 3 trials). The ten most relevant are listed below.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02034513](https://clinicaltrials.gov/study/NCT02034513) | Phase 3 | Completed | 501 | SWITCH 1: degludec vs insulin glargine, both with insulin aspart, in T1D (double-blind crossover) |
-| [NCT05463744](https://clinicaltrials.gov/study/NCT05463744) | Phase 3 | Completed | 692 | Once-weekly efsitora alfa vs degludec in T1D on multiple daily injections |
-| [NCT02500706](https://clinicaltrials.gov/study/NCT02500706) | Phase 3 | Completed | 1108 | Faster-acting insulin aspart vs NovoRapid, both with degludec, in adults with T1D |
-| [NCT02670915](https://clinicaltrials.gov/study/NCT02670915) | Phase 3 | Completed | 834 | Faster-acting insulin aspart vs NovoRapid, both with degludec, in children and adolescents with T1D |
-| [NCT00978627](https://clinicaltrials.gov/study/NCT00978627) | Phase 3 | Completed | 548 | Degludec/aspart (IDegAsp) vs insulin detemir plus aspart in T1D (BOOST T1) |
-| [NCT01835431](https://clinicaltrials.gov/study/NCT01835431) | Phase 3 | Completed | 362 | IDegAsp once daily vs insulin detemir in children and adolescents with T1D |
-| [NCT03952130](https://clinicaltrials.gov/study/NCT03952130) | Phase 3 | Completed | 354 | LY900014 vs lispro with glargine or degludec in adults with T1D (indirect evidence for degludec) |
-| [NCT04075513](https://clinicaltrials.gov/study/NCT04075513) | Phase 4 | Completed | 343 | Glargine 300 U/mL vs degludec on glucose in target range using continuous glucose monitoring (CGM) in T1D |
-| [NCT00612040](https://clinicaltrials.gov/study/NCT00612040) | Phase 2 | Completed | 178 | Two degludec formulations vs glargine, with aspart, 16-week treat-to-target in T1D |
-| [NCT03838783](https://clinicaltrials.gov/study/NCT03838783) | Phase 4 | Unknown | 30 | Degludec with insulin pump in exercising T1D patients; small, status unknown |
-
-No SANCTR or PACTR identifiers were available in the data compiled for this report.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: once-weekly icodec vs once-daily degludec in adults with T1D |
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: degludec vs detemir in pregnant women with T1D (non-inferiority) |
-| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | RCT | Lancet | QWINT-5: once-weekly efsitora vs once-daily degludec in T1D |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Meta-analysis | Clin Ther | Degludec vs other long-acting analogues in T1D and T2D |
-| [40627908](https://pubmed.ncbi.nlm.nih.gov/40627908/) | 2025 | Systematic review/meta-analysis | J Diabetes Complications | Degludec vs efsitora in T1D and T2D |
-| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Systematic review (Cochrane) | Cochrane Database Syst Rev | (Ultra-)long-acting insulin analogues in T1D |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Network meta-analysis | Value Health | Relative efficacy and safety of basal insulin regimens in adults with T1D |
-| [35147781](https://pubmed.ncbi.nlm.nih.gov/35147781/) | 2022 | Real-world study | Acta Diabetol | Pregnancy outcomes in women with T1D using degludec vs other long-acting analogues |
-| [40903851](https://pubmed.ncbi.nlm.nih.gov/40903851/) | 2025 | RCT | Diabetes Obes Metab | Early degludec plus IV insulin infusion in diabetic ketoacidosis management |
-| [25963320](https://pubmed.ncbi.nlm.nih.gov/25963320/) | 2015 | Review | Diabetes Res Clin Pract | Clinical use of degludec; half-life about 25 h, duration of action over 42 h |
+Currently no related literature available.
 
 ## South Africa Market Information
 
-Approved indication text was not available for these registrations. Essential Medicines List (EML) status was not available in the data compiled for this report.
-
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 47/21.1/0108 | Tresiba Penfill 3 ml | Injection | Not available |
-| Reg. No. 50/21.13/0985 | Xultophy | Pen set | Not available |
-| Reg. No. 47/21.1/0165 | Ryzodeg FlexTouch pre-filled pen 3 ml | Injection | Not available |
+| Reg. No. 47/21.1/0108 | Tresiba penfill 3ml | Injection | Not recorded |
+| Reg. No. 50/21.13/0985 | Xultophy | Penset | Not recorded |
+| Reg. No. 47/21.1/0165 | Ryzodeg flextouch pre-filled pen 3ml | Injection | Not recorded |
+
+Xultophy and Ryzodeg are products with more than one active ingredient in their names, so their licences should not be used to describe how single-ingredient insulin degludec is approved. All three registrations are currently valid.
 
 ## Safety Considerations
 
-- **Drug Interactions**: 100 interactions were identified, mostly of Moderate severity. Examples include:
-  - Other glucose-lowering agents (metformin, pioglitazone, alogliptin, albiglutide): additive blood glucose lowering.
-  - Sympathomimetics and beta-agonists (epinephrine, salbutamol, formoterol, phenylephrine, pseudoephedrine): may alter glycaemic control.
-  - Beta-blocker (acebutolol): may mask hypoglycaemia symptoms.
-  - Corticosteroids (hydrocortisone), hormonal agents (estradiol, levonorgestrel, norethisterone), hydrochlorothiazide, alpelisib, doxycycline, and ethanol (all Moderate).
-  - Topical hydrocortisone and topical alclometasone are Minor.
-- **Injection-site effects**: Localised lipodystrophy and lipoatrophy are known effects of repeated subcutaneous insulin injection, so injection-site rotation is advisable.
+- **Drug Interactions**: 100 interactions were found in the interaction database. Those listed here are mostly of moderate severity.
+  - Moderate: phenylephrine, acebutolol, formoterol, pseudoephedrine, doxycycline, epinephrine, levonorgestrel, hydrocortisone, albiglutide, salbutamol, ethanol, hydrochlorothiazide, alogliptin, metformin, pioglitazone, estradiol, alpelisib, norethisterone
+  - Minor: topical hydrocortisone, topical alclometasone
 
-Warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available in the data compiled for this report. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
+  Many of these affect blood glucose, so glucose monitoring is advisable when any of them is co-prescribed.
+
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple completed Phase 3 RCTs and several meta-analyses support degludec in type 1 diabetes, and the drug is already marketed in South Africa. Because this is an established use rather than a true repurposing, the main gaps are local regulatory and safety documentation.
+The prediction has a high model score but no trials, no publications and no plausible mechanism, so there is no basis for moving it forward in clinical practice.
 
 **To proceed, the following is needed:**
-- Review of the SAHPRA-approved PI to confirm the registered indications (including type 1 diabetes) and to obtain warnings and contraindications
-- Mechanism of action data from DrugBank
-- Hypoglycaemia monitoring and review of interactions with co-prescribed medicines
-- Separate paediatric and safety evaluation before any consideration of use in pancreatic agenesis
-- The other predictions (ranks 2-10) should remain on Hold, as there is no supporting evidence
+- Any clinical or published study directly addressing insulin in autoimmune oophoritis
+- A credible mechanistic rationale linking insulin signalling to ovarian autoimmunity
+- Mechanism of action data and the SAHPRA Professional Information warnings and contraindications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

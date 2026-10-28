@@ -6,9 +6,9 @@ nav_order: 280
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Esophageal candidiasis, candidemia, histoplasmosis, aspergillosis…"
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
+description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Itraconazole
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Itraconazole: From Systemic Fungal Infections to Pneumocystosis
+## Itraconazole: Pneumocystosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Esophageal candidiasis, candidemia, histoplasmosis, aspergillosis, blastomycosis and other fungal infections (from the knowledge graph; the SAHPRA registration lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L4 (see the note on the evidence level in the Conclusion) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| TxGNN Prediction Score | 0.9934 |
+| Evidence Level | L5 (see the note on the evidence level in the Conclusion) |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

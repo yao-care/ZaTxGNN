@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ipratropium
-parent: High Evidence (L1-L2)
-nav_order: 271
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ipratropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease…"
+parent: Model Prediction Only (L5)
+nav_order: 270
+evidence_level: L5
+indication_count: 9
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
+last_modified_at: 2026-10-27
+description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,114 +33,91 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Ipratropium: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## Ipratropium: Anticholinergic (muscarinic antagonist) → Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ipratropium is an inhaled anticholinergic bronchodilator, originally used for chronic obstructive pulmonary disease (COPD), rhinitis, bronchitis and emphysema.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **25 clinical trials** and **20 publications** compiled for this direction.
-This is essentially an on-label indication, so the prediction works as a positive control for the model rather than a true new use.
+Ipratropium is an anticholinergic medicine that blocks muscarinic receptors and is marketed in South Africa in inhaled and nebulised forms.
+The TxGNN model predicts it may be useful for **nasal cavity disease**.
+Support is thin: **no registered clinical trials** and only **2 publications** were retrieved, neither of which studies this disease directly.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease, allergic and vasomotor rhinitis, bronchitis, common cold, pulmonary emphysema (from the knowledge graph; SAHPRA indication text is not available in the data compiled) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 14 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 14 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 14) |
+| Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature retrieved, ipratropium is a non-selective muscarinic antagonist and a quaternary derivative of atropine. It blocks vagally mediated (cholinergic) bronchoconstriction in airway smooth muscle, which is the established basis for bronchodilation in COPD and asthma.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Ipratropium belongs to the anticholinergic class. It blocks muscarinic receptors, which reduces cholinergic stimulation of glands and airway smooth muscle.
 
-COPD, bronchitis, emphysema and bronchial disease are already original indications, and they all fall under obstructive lung disease. The prediction is therefore mechanistically consistent. It is best read as a confirmation that the model recovers known uses, not as a discovery of a new one.
+In the nose, this mechanism could reduce glandular secretion and runny nose. That makes a benefit in nasal conditions biologically plausible. A systematic review and meta-analysis of intranasal anticholinergics in chronic rhinitis ([PMID 35838014](https://pubmed.ncbi.nlm.nih.gov/35838014/), *The Laryngoscope*, 2023) supports this general idea. However, it concerns chronic rhinitis, a related condition, and not the predicted disease as a whole.
+
+"Nasal cavity disease" is also a very broad category. The prediction score reflects the model's pattern matching and does not show that a specific nasal condition responds to treatment.
+
+---
 
 ## Clinical Trial Evidence
 
-The table shows the most relevant trials (up to 10), prioritising completed Phase 3 studies and direct ipratropium comparisons. No SANCTR or PACTR identifiers appear in the data compiled.
+Currently no related clinical trials registered. No SANCTR or PACTR entries were identified in the data compiled for this report.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02177253](https://clinicaltrials.gov/study/NCT02177253) | Phase 3 | Completed | 1118 | 12-week study of ipratropium/salbutamol via Respimat vs Combivent aerosol, ipratropium Respimat and placebo in COPD |
-| [NCT02172469](https://clinicaltrials.gov/study/NCT02172469) | Phase 3 | Completed | 215 | Tiotropium capsules vs Atrovent MDI (ipratropium) in COPD, efficacy and safety |
-| [NCT00239434](https://clinicaltrials.gov/study/NCT00239434) | Phase 3 | Completed | 200 | Once-daily tiotropium vs ipratropium MDI four times daily in COPD |
-| [NCT02172404](https://clinicaltrials.gov/study/NCT02172404) | Phase 3 | Completed | 160 | HandiHaler vs MDI: administration technique and ease of use in COPD (not an efficacy trial) |
-| [NCT01136421](https://clinicaltrials.gov/study/NCT01136421) | Phase 3 | Completed | 124 | Magnesium sulfate vs ipratropium, both with SABA, in acute COPD exacerbation |
-| [NCT02686086](https://clinicaltrials.gov/study/NCT02686086) | NA | Completed | 60 | Lung volume and symptom scores after bronchodilator by vibrating mesh vs jet nebuliser in COPD |
-| [NCT01415518](https://clinicaltrials.gov/study/NCT01415518) | Phase 4 | Completed | 581 | Symbicort added to Atrovent plus theophylline in severe COPD |
-| [NCT01691482](https://clinicaltrials.gov/study/NCT01691482) | Phase 4 | Completed | 56 | 4-week crossover of albuterol and ipratropium, alone and combined, in COPD |
-| [NCT00371527](https://clinicaltrials.gov/study/NCT00371527) | NA | Completed | 200 | Ipratropium vs placebo in acute bronchitis without underlying lung disease |
-| [NCT04446637](https://clinicaltrials.gov/study/NCT04446637) | Phase 3 | Withdrawn | 0 | Ipratropium/levosalbutamol fixed-dose combination vs free combination in COPD; no data |
-
-Several other studies were also compiled, including terminated or withdrawn trials with little or no enrolment, and asthma trials in children and adults.
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Tiotropium vs ipratropium in stable COPD |
-| [35616126](https://pubmed.ncbi.nlm.nih.gov/35616126/) | 2022 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Magnesium sulfate as adjunct in COPD exacerbations |
-| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Review | Ann Pharmacother | Efficacy and safety of ipratropium combined with tiotropium in COPD |
-| [20163324](https://pubmed.ncbi.nlm.nih.gov/20163324/) | 2010 | Review | Expert Opin Drug Metab Toxicol | Albuterol, ipratropium and their combination in COPD: mechanism, efficacy, safety |
-| [10565879](https://pubmed.ncbi.nlm.nih.gov/10565879/) | 1999 | Review | Respir Care Clin N Am | Ipratropium is an established, safe bronchodilator alone or with albuterol |
-| [2977109](https://pubmed.ncbi.nlm.nih.gov/2977109/) | 1988 | Review | Clin Pharm | Pharmacology, efficacy, adverse effects and dosing of ipratropium in obstructive lung disease |
-| [15987237](https://pubmed.ncbi.nlm.nih.gov/15987237/) | 2005 | Review | Treat Respir Med | Ipratropium HFA reformulation for maintenance treatment of bronchospasm |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | Finnish guideline on diagnosis and pharmacotherapy of stable COPD |
-| [38457591](https://pubmed.ncbi.nlm.nih.gov/38457591/) | 2024 | Retrospective study | Medicine | Probiotics added to budesonide and ipratropium in 118 COPD patients |
-| [9926698](https://pubmed.ncbi.nlm.nih.gov/9926698/) | 1998 | Review | J La State Med Soc | Albuterol plus ipratropium gives a synergistic benefit in COPD |
+| [39047643](https://pubmed.ncbi.nlm.nih.gov/39047643/) | 2024 | Preclinical | Colloids and Surfaces B: Biointerfaces | A ROS-responsive hydrogel was tested as a new delivery strategy for ipratropium bromide in allergic rhinitis. It targets mucin (MUC5AC) and aims to reduce the need for frequent nasal sprays and nasal irritation. This is an experimental study in a related condition, not a clinical trial. |
+| [42524014](https://pubmed.ncbi.nlm.nih.gov/42524014/) | 2026 | Review | Advanced Pharmaceutical Bulletin | Review of intranasal drug delivery in Parkinson's disease. It covers the nasal route in general and does not test ipratropium for nasal disease. |
+
+---
 
 ## South Africa Market Information
 
-Fourteen valid single-ingredient registrations are listed, with none cancelled. The approved indication text and manufacturer are not available in the data compiled, and Essential Medicines List status could not be confirmed from it. The five main registrations are shown below.
+Ipratropium is **marketed** in South Africa. The local records show 14 valid single-ingredient licences and no cancelled ones. The licence status has been verified.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Q/10.2.1/117 | Atrovent 0.025 % | Nebuliser | Not available |
-| 29/10.2.1/0015 | Combivent | Inhaler | Not available |
-| 33/10.2.1/0214 | Ipvent-40 | Inhaler | Not available |
-| 37/10.2.1/0462 | Ipvent Respules | Nebuliser | Not available |
-| 35/10.2.1/0302 | Duovent HFA | Inhaler | Not available |
+- Registered dosage forms are inhaler, nebuliser solution, vial (inhalation solution), tablet and capsule.
+- No nasal spray is among the registered dosage forms, so a nasal use would need a suitable formulation or route to be confirmed.
+- The approved indication text is not recorded in the local data.
+- A few product names in the records (for example, those with tablet or capsule forms) do not clearly look like ipratropium products. Check these against the SAHPRA register before relying on them.
+- Essential Medicines List (EML) status is not covered in the data compiled for this report.
 
-The remaining nine registrations are mostly inhaled or nebulised products (vials, nebuliser solutions). Two oral entries, Ciploxx 250 (tablet) and Gericomplex (capsule), appear in the list and should be checked against SAHPRA records, since they do not look like ipratropium products.
+---
 
 ## Safety Considerations
 
-Warnings and contraindications from the package insert are not available in the data compiled.
-
-- **Conditions flagged in the knowledge graph (not label text):** hypertension, long QT syndrome, epilepsy, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, metabolic acidosis, benign prostatic hyperplasia, bladder neck obstruction, ocular hypertension and angle-closure glaucoma, hyperthyroidism and thyrotoxicosis, sudden cardiac arrest, heart conduction disease, myocardial ischaemia and coronary artery disease. These must be checked against the SAHPRA Professional Information (PI). Several are typical of anticholinergic or combined beta-agonist products such as Combivent.
-- **Drug interactions:** 100 interactions were recorded, all at Moderate level in the 20 shown. They are mostly additive anticholinergic effects with agents such as atropine, hyoscyamine, glycopyrronium, scopolamine, trospium, dicyclomine, aclidinium and propantheline. Others include promethazine, chlorpheniramine, eluxadoline, prucalopride, acetylcholine, physostigmine (ophthalmic) and inhaled insulin.
-- **Hypersensitivity:** a published case report describes severe anaphylaxis after ipratropium inhalation (PMID 8449120). A paediatric case report describes unilateral mydriasis after inhalation (PMID 40069469).
+- **Conditions flagged for caution** (from contraindication data that is not taken from label text and needs confirmation against the Professional Information): angle-closure glaucoma and ocular hypertension, benign prostatic hyperplasia and bladder neck obstruction, long QT syndrome and other heart conduction disease, sudden cardiac arrest, myocardial ischaemia and coronary artery disease, hypertension, epilepsy, hyperthyroidism (including Graves disease and thyrotoxicosis), diabetes and diabetic ketoacidosis, potassium deficiency, and metabolic acidosis.
+- **Drug interactions:** 100 interactions were recorded. The listed ones are mostly moderate and involve other anticholinergic or antimuscarinic agents, where additive effects are expected. Examples are atropine, hyoscyamine, glycopyrronium, scopolamine, dicyclomine, trospium and aclidinium. Sedating antihistamines such as promethazine and chlorpheniramine also appear on the list.
+- **Case-report signals:** one case report describes severe anaphylaxis after ipratropium inhalation ([PMID 8449120](https://pubmed.ncbi.nlm.nih.gov/8449120/)). Another describes unilateral pupil dilation after inhalation ([PMID 40069469](https://pubmed.ncbi.nlm.nih.gov/40069469/)). Nasal use may also cause local irritation.
 
 Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
+---
+
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Obstructive lung disease is already covered by established ipratropium uses, supported by a large completed Phase 3 trial (1118 participants) and several Phase 3 comparisons against tiotropium. The product is widely marketed in South Africa, so this is confirmation of an existing use, not a new repurposing opportunity. Safety data from the label are missing, which is why guardrails apply.
+- The prediction score is very high (0.9986), but no clinical trial or publication directly studies nasal cavity disease. The evidence is therefore model prediction only (L5).
+- The registered forms do not include a nasal route. The package insert warnings and contraindications are also still missing.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings, contraindications and approved indications (the blocking data gap)
-- Mechanism of action data from DrugBank
-- Confirmation of Essential Medicines List status and of the two unexpected oral registrations
-- A clinical review of the knowledge-graph contraindication list (cardiovascular, glaucoma, urinary obstruction) before any extension of use
-
-**Other predicted indications (lower priority):**
-
-| Predicted Indication | Evidence Level | Decision |
-|------|------|------|
-| Nasal cavity disease | L3 | Proceed with Guardrails (largely on-label for rhinitis; a 2023 meta-analysis of intranasal anticholinergics, PMID 35838014, is the strongest source) |
-| Pharyngitis | L4 | Hold (only indirect evidence) |
-| Tracheal disease | L4 | Research Question (animal and in vitro data only) |
-| Respiratory malformation | L3 | Research Question (loose match; one small Phase 3 study in familial dysautonomia) |
-| Anaphylaxis | L4 | Hold (animal data only, plus a case report of ipratropium-induced anaphylaxis) |
-| Acute laryngopharyngitis, papillary conjunctivitis, Rienhoff syndrome, food-dependent exercise-induced anaphylaxis | L5 | Hold (model prediction only, no supporting studies) |
+- Define which specific nasal condition is being targeted, since "nasal cavity disease" is too broad to test.
+- Clinical studies of intranasal ipratropium in that condition, including a review of the chronic rhinitis meta-analysis.
+- Confirmation of an available nasal formulation and route in South Africa.
+- The SAHPRA Professional Information (warnings, contraindications) and detailed mechanism-of-action data.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

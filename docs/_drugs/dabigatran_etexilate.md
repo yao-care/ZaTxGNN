@@ -4,17 +4,17 @@ title: Dabigatran Etexilate
 parent: Model Prediction Only (L5)
 nav_order: 162
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not available in the registration data (the anticoagulant use is infe…"
 monitor_inn: "Dabigatran etexilate"
-predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets", "Glanzmann thrombasthenia", "gout", "pseudo-von Willebrand disease", "rheumatoid arthritis", "HIV infectious disease"]
+predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
 ---
 
 # Dabigatran Etexilate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 |------|------|
 | Original Indication | Not available in the registration data (the anticoagulant use is inferred from the drug class) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The link to sclerosing cholangitis is speculative. Thrombin and PAR signalling may contribute to liver fibrosis and inflammation, but this has not been established for diseases of the bile ducts. The single linked publication (PMID 36906733) is a drug-interaction study of cilofexor, a different compound. It does not test dabigatran in this disease. The very high TxGNN score is a computational prediction only.
 
-Other top-ranked predictions are weaker still. Several are bleeding disorders (Glanzmann thrombasthenia, pseudo-von Willebrand disease, primary platelet release disorder), where an anticoagulant would be expected to raise bleeding risk. Others are lipid disorders and gout, with no plausible mechanistic link and no evidence. These look like network-level artefacts rather than genuine therapeutic signals.
+Other top-ranked predictions are weaker still. One is a bleeding disorder (primary platelet release disorder), where an anticoagulant would be expected to raise bleeding risk. Others are lipid disorders, with no plausible mechanistic link and no evidence. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

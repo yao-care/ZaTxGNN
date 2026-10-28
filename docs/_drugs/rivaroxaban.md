@@ -4,17 +4,17 @@ title: Rivaroxaban
 parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available"
 monitor_inn: "Rivaroxaban"
-predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "systemic mastocytosis", "Smouldering systemic mastocytosis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Rivaroxaban
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ This prediction is a computational signal only.
 |------|------|
 | Original Indication | Not available (the approved indication text in both SAHPRA registrations is empty) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -115,15 +115,9 @@ Other predictions for this drug were also reviewed and all are recommended as **
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Gout | 99.51% | L5 | No credible mechanistic link. The retrieved literature is unrelated. |
-| HIV infectious disease | 99.17% | L4 | Literature covers rivaroxaban as an anticoagulant in people with HIV and its interactions with ritonavir- or cobicistat-boosted antiretrovirals. There is no evidence of antiviral activity. The one registered trial (NCT00786422) is a VTE study, not an HIV study. This is highly relevant to South Africa because of HIV prevalence, and it is a safety concern, not a repurposing signal. |
-| Brachydactyly-syndactyly syndrome | 99.10% | L5 | No data. |
-| Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 98.95% | L5 | No data. |
-| Sclerosing cholangitis | 98.88% | L5 | Speculative link only. Bleeding and pharmacokinetic concerns in cholestatic liver disease. |
-| Systemic mastocytosis | 98.82% | L5 | No mechanistic link, with potential bleeding concern. |
-| Smouldering systemic mastocytosis | 98.78% | L5 | Score likely inherited from the parent disease node. |
-| Simian immunodeficiency virus infection | 98.67% | L5 | Animal disease, not a relevant human indication. |
-| Feline acquired immunodeficiency syndrome | 98.67% | L5 | Veterinary disease, not a relevant human indication. |
+| Gout | 0.9951 | L5 | No credible mechanistic link. The retrieved literature is unrelated. |
+| HIV infectious disease | 0.9917 | L4 | Literature covers rivaroxaban as an anticoagulant in people with HIV and its interactions with ritonavir- or cobicistat-boosted antiretrovirals. There is no evidence of antiviral activity. The one registered trial (NCT00786422) is a VTE study, not an HIV study. This is highly relevant to South Africa because of HIV prevalence, and it is a safety concern, not a repurposing signal. |
+| Brachydactyly-syndactyly syndrome | 0.9910 | L5 | No data. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

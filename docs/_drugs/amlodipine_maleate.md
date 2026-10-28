@@ -8,6 +8,7 @@ nav_order: 33
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amlodipine Maleate
@@ -51,7 +52,7 @@ Amlodipine maleate is a specific salt form of the dihydropyridine calcium channe
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Cannot be determined — no predictions available |
-| South Africa Market Status | Not marketed |
+| South Africa Market Status | Marketed (valid licences on record: at least 20) |
 | Number of SAHPRA Registrations | 0 |
 | Recommended Decision | **Hold** |
 

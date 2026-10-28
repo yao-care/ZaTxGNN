@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-15
-description: "Clobetasol Propionate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Atopic eczema and other dermatitis (atopic, contact, occupational…"
+last_modified_at: 2026-10-28
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
+description: "Clobetasol Propionate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Clobetasol Propionate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Clobetasol Propionate: From Atopic Eczema and Dermatitis to Exanthem
+## Clobetasol Propionate: Vulvar inverted follicular keratosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,13 +49,13 @@ The top-ranked prediction (rank 1) has no evidence. The table below therefore sh
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic eczema and other dermatitis (atopic, contact, occupational, seborrheic); scalp dermatosis. No approved-indication text was available in the SAHPRA records compiled for this report. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication (rank 1) | Vulvar inverted follicular keratosis |
-| TxGNN Prediction Score (rank 1) | 99.46% |
+| TxGNN Prediction Score (rank 1) | 0.9946 |
 | Evidence Level (rank 1) | L5 (model prediction only) |
-| Best-evidenced prediction (rank 3) | Exanthem (disease), score 99.26%, L1 for the lichen planus subset only |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| Best-evidenced prediction (rank 3) | Vulvar inverted follicular keratosis |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold (rank 1); Proceed with Guardrails as a research question for the lichen planus subset |
 
 ---
@@ -64,9 +64,9 @@ The top-ranked prediction (rank 1) has no evidence. The table below therefore sh
 
 Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, clobetasol propionate is a synthetic glucocorticoid that binds the glucocorticoid receptor (NR3C1). It is used to treat skin inflammation and itching in conditions such as allergic reactions, eczema and psoriasis. Its anti-inflammatory and immunosuppressive action is mechanistically plausible for other inflammatory skin and mucosal diseases.
 
-**Rank 1, vulvar inverted follicular keratosis (99.46%):** This is a benign epithelial lesion related to seborrheic keratosis, which is among clobetasol's original indication classes. However, topical corticosteroids are not an established treatment for keratotic lesions of this type, and no clinical or literature evidence supports the link.
+**Rank 1, vulvar inverted follicular keratosis (0.9946):** This is a benign epithelial lesion related to seborrheic keratosis, which is among clobetasol's original indication classes. However, topical corticosteroids are not an established treatment for keratotic lesions of this type, and no clinical or literature evidence supports the link.
 
-**Rank 3, exanthem (99.26%):** The disease mapping is imprecise. Most of the trials mapped to this term study oral or vulvar lichen planus or lichen sclerosus, inflammatory mucocutaneous diseases in which a glucocorticoid mechanism is plausible. The evidence supports a nearby indication, not exanthem itself, and should not be extrapolated to exanthems generally.
+**Rank 3, exanthem (0.9926):** The disease mapping is imprecise. Most of the trials mapped to this term study oral or vulvar lichen planus or lichen sclerosus, inflammatory mucocutaneous diseases in which a glucocorticoid mechanism is plausible. The evidence supports a nearby indication, not exanthem itself, and should not be extrapolated to exanthems generally.
 
 **Other predictions:**
 - **Acne keloidalis (rank 4):** a plausible link, since potent steroids reduce inflammation, fibroblast proliferation and collagen synthesis. One 2005 open-label study exists.

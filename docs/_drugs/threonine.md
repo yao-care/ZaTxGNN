@@ -47,15 +47,15 @@ The TxGNN model predicts it may be useful for **gastroparesis**, but the predict
 |------|------|
 | Original Indication | Not available (no approved indication text in the SAHPRA records compiled for this report) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.32% |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 12 |
+| South Africa Market Status | Marketed (valid licences: 12 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available, and no original indication is recorded to anchor a rationale. The prediction rests only on a high TxGNN knowledge-graph score (99.32%), and no mechanism is supported by the data compiled for this report.
+Currently, detailed mechanism of action data is not available, and no original indication is recorded to anchor a rationale. The prediction rests only on a high TxGNN TxGNN model (deep learning) score (0.9932), and no mechanism is supported by the data compiled for this report.
 
 Threonine is an essential amino acid involved in protein synthesis and in the production of glycine and serine. It is also a major component of intestinal mucins, which are rich in threonine. One plausible but unverified hypothesis is that it supports gut mucosal integrity or neurotransmitter precursor pools (via glycine).
 

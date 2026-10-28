@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Codeine
-parent: Moderate Evidence (L3-L4)
-nav_order: 144
-evidence_level: L4
-indication_count: 4
-last_modified_at: 2026-10-15
-description: "Codeine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
+parent: Model Prediction Only (L5)
+nav_order: 143
+evidence_level: L5
+indication_count: 3
 monitor_inn: "CODEINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+last_modified_at: 2026-10-27
+description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Codeine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,111 +33,82 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Codeine: From Allergic Rhinitis and Related Upper Airway Conditions to Nasal Cavity Disease
+## Codeine: opioid analgesic → nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Codeine is an opioid medicine that the knowledge graph links to symptom relief in allergic rhinitis, vasomotor rhinitis, pharyngitis, the common cold and headache disorders.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, but **no clinical trials** and only **1 publication** (a case report describing an adverse association, not a benefit) were found.
-The prediction is therefore best viewed as a model signal that mostly reflects overlap with existing indications.
-
----
+Codeine is an opioid analgesic that is currently marketed in South Africa in several single-ingredient products. The TxGNN model predicts it may be relevant to **nasal cavity disease**, but no clinical trials and only **1 publication** (a case report) are linked to this prediction, and that report describes an incidental finding rather than a treatment benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, headache disorder (from the knowledge graph; no approved indication text is available in the SAHPRA data) |
-| Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 20 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | nasal cavity disease |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences on record: at least 20) |
+| Number of SAHPRA Registrations | at least 20 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Codeine is an opioid, and its use in rhinitis, the common cold and headache is established in the knowledge graph, but no mechanism-based argument for nasal cavity disease can be made from the data compiled for this report.
+Detailed mechanism of action data is not currently available for this drug, so no mechanism can be proposed for nasal cavity disease. Codeine is an opioid analgesic and cough suppressant, and the SAHPRA records compiled for this report include syrups, tablets, capsules, a suspension and an injection.
 
-Nasal cavity disease is a broad category that already includes rhinitis and common-cold symptoms. The high score (99.93%) most likely reflects this overlap with existing indications rather than a new therapeutic effect.
-
-The only publication retrieved describes a rhinolith (a stone in the nose) formed around a foreign body made of hardened codeine and opium. This is an incidental or adverse association, not evidence of benefit.
-
-Other predictions were also generated for this drug. They were weaker or argue against repurposing:
-- **Acute laryngopharyngitis** (score 99.92%): no trials or literature. It is closely related to the existing pharyngitis and common cold indications, so any benefit would be speculative.
-- **Trigeminal autonomic cephalalgia** (score 99.43%): the two publications are descriptive and show no benefit from codeine. Opioids are generally not recommended in cluster headache because of dependence and medication-overuse headache.
-- **Allergic urticaria** (score 99.37%): the literature shows that codeine causes mast-cell histamine release and urticaria, and it is used as a skin-test positive control. This points to harm, not treatment.
-
----
+The single publication linked to this prediction (PMID 17315836) is a case report of a rhinolith that formed around a foreign body made of codeine and opium wrapped in nylon. It describes an unusual incidental event and does not show any therapeutic effect of codeine on nasal disease. The high score is therefore best read as a statistical association from the model, not as evidence of benefit. Because no cited study directly examines codeine as a treatment for nasal cavity disease, the evidence level is L5.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Case report | Ear, Nose & Throat Journal | Unusual rhinolith formed around a foreign body of hardened codeine and opium ("opioma") in a 21-year-old man with nasal obstruction. It describes an incidental association, not a therapeutic effect. |
-
----
+| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Case report | Ear, Nose & Throat Journal | A 21-year-old man had a unilateral rhinolith formed around an impacted foreign body, a hardened mixture of codeine and opium ("opioma"). The report is not evidence of therapeutic benefit. |
 
 ## South Africa Market Information
 
-Twenty valid single-ingredient registrations were found. No approved indication text is recorded for any of them. The first five are listed below. Essential Medicines List (EML) status is not available in the data compiled for this report.
+The data compiled for this report list 20 valid single-ingredient registrations, and the list may be partial. The approved indication text is not recorded for these registrations. The first five are shown below.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| S/2.8/137 | Empacod | Tablet | Not available |
-| B 1006 (ACT 101) | Omnopon 1ml Fresenius 20 | Injection | Not available |
-| B1192 (ACT 101) | Codeine phos | Tablet | Not available |
-| X/2.8/109 | Cogesic | Tablet | Not available |
-| G1260 (ACT 101) | Codomil new formula | Syrup | Not available |
+| S/2.8/137 | Empacod | Tablet | Not recorded |
+| B 1006 (ACT 101) | Omnopon 1mlfresenius 20 | Injection | Not recorded |
+| B1192 (ACT 101) | Codeine phos | Tablet | Not recorded |
+| X/2.8/109 | Cogesic | Tablet | Not recorded |
+| G1260 (ACT101) | Codomil new formula | Syrup | Not recorded |
 
-The remaining registrations include syrups, capsules, tablets and one suspension.
-
----
+Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-- **Disease-level cautions (knowledge graph):** The knowledge graph lists many conditions in which codeine is contraindicated or requires caution. These come from graph relationships, not from label text. Examples include:
-  - Respiratory: chronic obstructive pulmonary disease
-  - Hepatic and renal: liver failure, liver disease, kidney disease
-  - Neurological and psychiatric: epilepsy, anxiety disorder, psychotic disorder
-  - Gastrointestinal: pancreatitis, gallbladder disease, peptic ulcer disease, inflammatory bowel disease
-  - Endocrine and metabolic: hypothyroidism, porphyria
-  - Other: hypertension, thrombocytopenia
-- **Drug interactions:** The interaction query returned 100 interactions in total, of which 20 are shown here. Two are rated Major:
-  - Alvimopan
-  - Bupropion
+**Contraindication-related conditions (not from label text):** The data compiled for this report flag the following conditions as potential contraindications. They should be checked against the approved Professional Information (PI):
+- Hypertensive disorder, hypertension, liver failure, liver disease, kidney disease
+- Epilepsy, insomnia, anxiety disorder, psychotic and other mental disorders
+- Chronic obstructive pulmonary disease
+- Porphyria, pancreatitis, gallbladder disease, thrombocytopenia
+- Hypothyroidism, peptic ulcer disease, inflammatory bowel disease, gastritis, dermatitis herpetiformis
 
-  The listed Moderate interactions include:
-  - Anticholinergics: atropine, glycopyrronium, hyoscyamine, dicyclomine, clidinium
-  - Antidiarrhoeals: loperamide, kaolin, attapulgite
-  - Antiemetics: granisetron, dolasetron
-  - Others: cimetidine, dexamethasone, dronabinol, eliglustat, eluxadoline
+**Drug Interactions:** The interaction query returned 100 entries. Examples:
+- **Major:** Alvimopan, Bupropion
+- **Moderate:** Atropine, Cimetidine, Dexamethasone, Dicyclomine, Glycopyrronium, Granisetron, Hyoscyamine, Loperamide and others
 
-For label warnings and contraindications, please refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
-
----
+Label warnings and contraindications were not available. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and overlap with existing indications. There are no clinical trials, and the only publication describes an adverse association, not benefit. Opioid-related safety concerns and the lack of mechanism data further weaken the case.
+The prediction score is very high, but the only linked publication is a case report of a foreign-body rhinolith and shows no therapeutic effect. No trials exist, and the mechanism data and label safety information are missing.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for codeine
-- The SAHPRA package insert (warnings, contraindications and approved indications), which is currently missing and blocks safety screening
-- Clarification of what "nasal cavity disease" would mean as a distinct indication beyond existing rhinitis and common-cold use
-- Any controlled clinical evidence of benefit in the predicted indication. None was found.
+- SAHPRA Professional Information (warnings, contraindications and approved indications)
+- Studies that directly assess codeine for a defined nasal cavity condition, with a clear clinical rationale
+- A risk-benefit review covering opioid dependence and the flagged contraindicated conditions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

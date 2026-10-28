@@ -6,9 +6,9 @@ nav_order: 428
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Stavudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "STAVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Stavudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Stavudine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Stavudine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Stavudine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The prediction is a computational signal only, and the condition is a veterinary
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (taken from the TxGNN knowledge graph, as the SAHPRA registration entries contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.55% |
+| TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,8 +63,8 @@ Feline immunodeficiency virus (FIV) is a lentivirus, and its reverse transcripta
 Stavudine is also being phased out of human use because of mitochondrial toxicity (lipodystrophy, peripheral neuropathy, pancreatitis, lactic acidosis). This limits its appeal for veterinary repurposing. Feline AIDS is also not a human clinical indication, so the relevance to South African human healthcare is limited.
 
 *Other predictions in the data (lower priority):*
-- **Simian immunodeficiency virus (SIV) infection** (score 99.55%, evidence level L4): only preclinical or in vitro studies are available (see below).
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.51%, evidence level L5): no clear mechanistic link was identified. Stavudine's known neurotoxicity argues against use in a neurological condition.
+- **Simian immunodeficiency virus (SIV) infection** (score 0.9955, evidence level L4): only preclinical or in vitro studies are available (see below).
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9951, evidence level L5): no clear mechanistic link was identified. Stavudine's known neurotoxicity argues against use in a neurological condition.
 
 ## Clinical Trial Evidence
 

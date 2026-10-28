@@ -4,17 +4,17 @@ title: Glutamic Acid
 parent: Moderate Evidence (L3-L4)
 nav_order: 247
 evidence_level: L4
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "Glutamic acid"
-predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)", "autosomal dominant neovascular inflammatory vitreoretinopathy", "dyspepsia", "open-angle glaucoma", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "Worth syndrome", "vitamin deficiency disorder"]
+predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
 ---
 
 # Glutamic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Glutamic acid is an amino acid that, in South Africa, is registered only as a co
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data (all five registrations are parenteral nutrition infusion products) |
 | Predicted New Indication | Postmenopausal osteoporosis |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?
@@ -112,15 +112,9 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Pregnancy associated osteoporosis | 99.18% | L5 | No trials or literature |
-| 3 | Primary hereditary glaucoma | 99.13% | L5 | Excitotoxicity argues against supplementation |
-| 4 | Gastroparesis | 99.11% | L5 | Literature is about GAD autoantibodies, not glutamic acid |
-| 5 | Autosomal dominant neovascular inflammatory vitreoretinopathy | 98.95% | L5 | No rationale identified |
-| 6 | Dyspepsia | 98.90% | L5 | Literature unrelated to glutamic acid |
-| 7 | Open-angle glaucoma | 98.90% | L4 | Only indirect evidence, with a safety concern |
-| 8 | Succinyl-CoA:3-ketoacid CoA transferase deficiency | 98.81% | L5 | Metabolic link only conceptual |
-| 9 | Worth syndrome | 98.68% | L5 | No rationale identified |
-| 10 | Vitamin deficiency disorder | 96.63% | L5 | Literature concerns vitamin K and D, not glutamic acid |
+| 2 | Pregnancy associated osteoporosis | 0.9918 | L5 | No trials or literature |
+| 3 | Primary hereditary glaucoma | 0.9913 | L5 | Excitotoxicity argues against supplementation |
+| 4 | Gastroparesis | 0.9911 | L5 | Literature is about GAD autoantibodies, not glutamic acid |
 
 ## Conclusion and Next Steps
 

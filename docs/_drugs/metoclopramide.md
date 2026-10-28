@@ -4,17 +4,17 @@ title: Metoclopramide
 parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
-indication_count: 5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Metoclopramide: predicted new indication Gastric ulcer (evidence level L5). Approved use: Gastroesophageal reflux disease"
 monitor_inn: "METOCLOPRAMIDE"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Metoclopramide: From Gastroesophageal Reflux Disease to Gastric Ulcer
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The evidence concerns procedural use during endoscopy, not ulcer treatment, so t
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastroesophageal reflux disease; oesophagitis; peptic oesophagitis (from the knowledge graph; no approved indication text is available from SAHPRA records) |
-| Predicted New Indication | Gastric ulcer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 (observational and review-level evidence only; no completed Phase 3 or Phase 2/3 RCT for this indication) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 (observational and review-level evidence only; no completed Phase 3 or Phase 2/3 RCT for this indication) |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,10 +70,7 @@ Other ranked predictions follow the same pattern:
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Gastroduodenitis | 99.90% | L3 | Motility-based link only; two recent RCTs address endoscopic visualisation in GI bleeding, not inflammation |
-| 3 | Peptic ulcer disease | 99.85% | L4 | Indirect, symptomatic link; no trials |
-| 4 | Gastrojejunal ulcer | 99.78% | L4 | Speculative; shares generic literature with peptic ulcer disease |
-| 5 | Peptic ulcer perforation | 99.78% | L5 | No plausible therapeutic role; likely a graph-propagation artefact |
+| 2 | Gastroduodenitis | 0.9990 | L5 | Motility-based link only; two recent RCTs address endoscopic visualisation in GI bleeding, not inflammation |
 
 ---
 

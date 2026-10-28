@@ -6,7 +6,7 @@ nav_order: 397
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Quetiapine: predicted new indication Trichotillomania (evidence level L5). Approved use: Bipolar disorder, major affective disorder…"
+description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Bipolar disorder, major affective disorder…"
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Quetiapine: From Bipolar Disorder and Schizophrenia to Trichotillomania
+## Quetiapine: From Bipolar Disorder and Schizophrenia to Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -51,10 +51,10 @@ The highest-scoring TxGNN prediction (retinal dystrophy) has no supporting evide
 |------|------|
 | Original Indication | Bipolar disorder, major affective disorder, manic bipolar affective disorder, schizophrenia (from the knowledge graph; SAHPRA indication text is not available) |
 | Predicted New Indication | Trichotillomania (rank 8); the rank 1 prediction is retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.38% (trichotillomania); 99.57% (rank 1, retinal dystrophy) |
-| Evidence Level | L4 (trichotillomania); L5 for the rank 1 prediction |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| TxGNN Prediction Score | 0.9938 (trichotillomania); 0.9957 (rank 1, retinal dystrophy) |
+| Evidence Level | L5 (trichotillomania); L5 for the rank 1 prediction |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold (overall); trichotillomania is a research question only |
 
 ---
@@ -65,7 +65,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Trichotillomania (hair-pulling disorder) belongs to the obsessive-compulsive spectrum. Atypical antipsychotics with 5-HT2A and D2 antagonism are used as augmentation in OCD and related conditions, so a symptom-level link is plausible. The quetiapine-specific publications are small case reports or series, and one report describes quetiapine *worsening* obsessive-compulsive symptoms in a patient with trichotillomania, so the direction of effect is not consistent.
 
-For the other top-ranked predictions (retinal dystrophy, congenital disorder of glycosylation, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria syndrome, X-linked myopias, Charcot-Marie-Tooth type 1G), no mechanistic link to quetiapine can be established. They are structural, chromosomal or inherited metabolic conditions, and the high scores are most likely knowledge-graph artefacts.
+For the other top-ranked predictions (retinal dystrophy, congenital disorder of glycosylation, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria syndrome, X-linked myopias, Charcot-Marie-Tooth type 1G), no mechanistic link to quetiapine can be established. They are structural, chromosomal or inherited metabolic conditions, and the high scores are most likely TxGNN model (deep learning) artefacts.
 
 ---
 

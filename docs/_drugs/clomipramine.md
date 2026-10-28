@@ -4,7 +4,7 @@ title: Clomipramine
 parent: High Evidence (L1-L2)
 nav_order: 136
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L1). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
@@ -14,7 +14,7 @@ predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of in
 # Clomipramine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ with **8 clinical trials** and **20 publications** in the data compiled for this
 |------|------|
 | Original Indication | Obsessive-compulsive disorder (the SAHPRA registration lists no indication text) |
 | Predicted New Indication | Anxiety disorder |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L1 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -167,7 +167,7 @@ Clomipramine has plausible serotonergic and noradrenergic mechanisms for anxiety
 | Major depressive disorder | L1 | Proceed with Guardrails | Established use. The only registered trial (NCT01305707, terminated) does not isolate clomipramine |
 | Endogenous depression | L1 | Proceed with Guardrails | Evidence is inherited from the major depressive disorder literature |
 | Attention deficit-hyperactivity disorder | L3 | Research Question | Limited evidence. Cardiac and anticholinergic concerns in children, and better first-line options exist |
-| Schizotypal, schizoid, paranoid and histrionic personality disorders; benign paroxysmal torticollis of infancy | L4–L5 | Hold | No direct efficacy evidence |
+| Schizotypal, schizoid, paranoid and histrionic personality disorders; benign paroxysmal torticollis of infancy | L5–L5 | Hold | No direct efficacy evidence |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

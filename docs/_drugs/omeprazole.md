@@ -4,17 +4,17 @@ title: Omeprazole
 parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Omeprazole: predicted new indication Duodenogastric reflux (evidence level L5). Approved use: Gastric ulcer, peptic ulcer disease, GORD, oesophagitis…"
 monitor_inn: "Omeprazole"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "duodenitis"]
+predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Omeprazole: From Acid-Related Gastric and Duodenal Disease to Duodenogastric Reflux
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Omeprazole is a proton pump inhibitor, originally used for gastric and duodenal ulcers, gastro-oesophageal reflux disease (GORD), oesophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux** (score 99.64%), but the supporting evidence is thin: **1 registered clinical trial** (a diagnostic imaging study that does not test omeprazole) and **15 publications**, mostly animal studies, small Barrett's oesophagus studies and general reviews.
 Of the ten predictions, the best-supported is **gastrojejunal (marginal) ulcer**, which is addressed in the conclusion.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, GORD, oesophagitis, duodenal ulcer, Zollinger-Ellison syndrome (from the knowledge graph; SAHPRA indication text is not available) |
-| Predicted New Indication | Duodenogastric reflux (top-ranked prediction) |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L3 (small human studies in Barrett's oesophagus; no controlled efficacy trial) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9964 |
+| Evidence Level | L5 (small human studies in Barrett's oesophagus; no controlled efficacy trial) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold for duodenogastric reflux (Research Question); Proceed with Guardrails for gastrojejunal ulcer |
 
 ## Why is This Prediction Reasonable?
@@ -60,11 +59,10 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 For duodenogastric reflux, the rationale is only partial. Acid suppression may reduce mucosal injury from refluxed duodenal contents, but omeprazole does not stop bile reflux itself. Small human studies in Barrett's oesophagus (1998, 2000) examined its effect on duodenogastric and bile reflux, and a paediatric study (2006) looked at oesophageal bile reflux. Animal studies raise a safety concern: acid blockade under duodenogastric reflux promoted foregut growth stimulation and gastric carcinogenesis in rats (1996, 1999). The link is therefore plausible but unproven, and potentially harmful.
 
-Several other predictions are largely extensions of approved acid-related indications, for example active peptic ulcer disease, gastroduodenitis and duodenitis. These are not true repurposing candidates. Others are weakly supported, such as duodenal obstruction and the two mastocytosis entries.
+These are not true repurposing candidates. Others are weakly supported, such as duodenal obstruction and the two mastocytosis entries.
 
 ## Clinical Trial Evidence
 
-**Duodenogastric reflux (top prediction)**
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -79,7 +77,7 @@ Several other predictions are largely extensions of approved acid-related indica
 | [NCT03163680](https://clinicaltrials.gov/study/NCT03163680) | N/A | Completed | 295 | Low-dose PPI in acute peptic ulcer bleeding; related setting, not specific to gastrojejunal ulcer |
 | [NCT02724150](https://clinicaltrials.gov/study/NCT02724150) | Phase 4 | Withdrawn | 0 | High vs low dose PPI in peptic ulcer bleeding; withdrawn, no evidence |
 
-**Other predictions:** [NCT00557921](https://clinicaltrials.gov/study/NCT00557921) (COGENT-1, Phase 3, terminated, n=5000) tested clopidogrel plus omeprazole against clopidogrel to reduce upper GI bleeding and ulcer disease. It was listed for duodenal obstruction and peptic ulcer perforation, but it does not target either condition and its early termination limits interpretation. No registered trials were found for active peptic ulcer disease, abnormality of glucagon secretion, gastroduodenitis, the two mastocytosis entries, or duodenitis.
+**Other predictions:** [NCT00557921](https://clinicaltrials.gov/study/NCT00557921) (COGENT-1, Phase 3, terminated, n=5000) tested clopidogrel plus omeprazole against clopidogrel to reduce upper GI bleeding and ulcer disease. It was listed for duodenal obstruction and peptic ulcer perforation, but it does not target either condition and its early termination limits interpretation.
 
 ## Literature Evidence
 
@@ -140,9 +138,9 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full safet
 **Decision: Hold for duodenogastric reflux (Research Question); Proceed with Guardrails for gastrojejunal (marginal) ulcer**
 
 **Rationale:**
-- Duodenogastric reflux has a very high model score, but the only registered trial does not test omeprazole, the human data are small studies in Barrett's oesophagus, and animal data point to a carcinogenesis risk. This is a research question, not an actionable repurposing candidate.
+- This is a research question, not an actionable repurposing candidate.
 - Gastrojejunal ulcer is acid-mediated, so PPI use is mechanistically plausible, and several Phase 4 trials are testing PPIs after bariatric surgery (L2). Those trials mainly compare formulations, doses or comparators rather than placebo-controlled omeprazole efficacy.
-- Several other high-scoring predictions are extensions of existing indications (active peptic ulcer, duodenitis, gastroduodenitis) and are not true repurposing. Duodenal obstruction, peptic ulcer perforation, glucagon secretion abnormality and the two mastocytosis entries have indirect or no supporting evidence, and all stay on Hold.
+- Duodenal obstruction, peptic ulcer perforation, glucagon secretion abnormality and the two mastocytosis entries have indirect or no supporting evidence, and all stay on Hold.
 
 **To proceed, the following is needed:**
 - The SAHPRA Professional Information, including approved indications, warnings and contraindications. This is a blocking gap for safety screening.

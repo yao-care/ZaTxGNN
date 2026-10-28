@@ -6,9 +6,9 @@ nav_order: 350
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne, postmenopausal osteoporosis, osteoporosis…"
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Norgestimate
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Norgestimate: From Acne and Postmenopausal Conditions to Elevated Plasma Zinc
+## Norgestimate: Zinc, elevated plasma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Norgestimate is a progestin, mainly used in combined hormonal products. The knowledge graph links it to acne, postmenopausal osteoporosis, osteoporosis and atrophic vulvovaginal conditions.
+Norgestimate is a progestin, mainly used in combined hormonal products.
 The TxGNN model predicts it may be effective for **elevated plasma zinc**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne, postmenopausal osteoporosis, osteoporosis, atrophic vulvovaginal conditions (from the knowledge graph; the SAHPRA registration data contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Zinc, elevated plasma |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Hormonal contraceptives have been reported to alter circulating trace-element levels (for example, higher copper and lower zinc). This is general class-level background and not evidence from the data compiled for this report. It also points in the opposite direction to what the prediction would need, since it suggests lowering rather than raising zinc.
 
-"Elevated plasma zinc" is a laboratory finding rather than a clearly treatable disease, and it is unclear what therapeutic benefit a progestin would offer. The score of 0.99 is a model output only and may reflect knowledge-graph artefacts, such as shared links to other conditions or zinc-related pathways.
+"Elevated plasma zinc" is a laboratory finding rather than a clearly treatable disease, and it is unclear what therapeutic benefit a progestin would offer. The score of 0.9906 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the SAHPRA registration records contain no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -120,8 +120,8 @@ Nevirapine's label warnings and contraindications were not available in the data
 - The evidence is preclinical or indirect only (L4), with no clinical trials. SIV is naturally resistant to nevirapine, and SIV is a nonhuman primate disease with no human clinical relevance. The high TxGNN score most likely reflects similarity to HIV rather than true efficacy.
 
 **Other predictions reviewed (also Hold):**
-- **Feline acquired immunodeficiency syndrome (score 99.85%, L4):** One biochemical/structural study of NNRTIs against feline immunodeficiency virus (PMID 38031646) exists. Its title alone does not show that nevirapine inhibits the virus, and differences in the NNRTI binding pocket suggest limited activity. This is a veterinary indication.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 99.82%, L5):** There are no trials or literature and no identifiable mechanistic link. Any hypothesis, such as involvement of retroelement reverse transcriptase, would be speculative. Nevirapine's hepatotoxicity, skin toxicity and many interactions weigh against repurposing without supporting evidence.
+- **Feline acquired immunodeficiency syndrome (score 0.9985, L4):** One biochemical/structural study of NNRTIs against feline immunodeficiency virus (PMID 38031646) exists. Its title alone does not show that nevirapine inhibits the virus, and differences in the NNRTI binding pocket suggest limited activity. This is a veterinary indication.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 0.9982, L5):** There are no trials or literature and no identifiable mechanistic link. Any hypothesis, such as involvement of retroelement reverse transcriptase, would be speculative. Nevirapine's hepatotoxicity, skin toxicity and many interactions weigh against repurposing without supporting evidence.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data

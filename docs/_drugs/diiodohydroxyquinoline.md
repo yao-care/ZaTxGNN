@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Diiodohydroxyquinoline
-parent: Model Prediction Only (L5)
-nav_order: 180
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Diiodohydroxyquinoline: predicted new indication Osteoradionecrosis (evidence level L5). Approved use: Amoebiasis (amoebiasis due to Entamoeba histolytica)…"
-monitor_inn: "Diiodohydroxyquinoline"
-predicted_indications: ["osteoradionecrosis", "radiodermatitis", "pneumonitis", "aspiration pneumonia (disease)", "type 2 diabetes nephropathy", "byssinosis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "mixed mineral dust pneumoconiosis", "baritosis", "slate pneumoconiosis"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 179
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Diiodohydroxyquinoline: known uses and market status in South Africa; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Diiodohydroxyquinoline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,67 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Diiodohydroxyquinoline: From Amoebiasis to Osteoradionecrosis
+<!-- known-uses-page -->
+<!-- description: Diiodohydroxyquinoline: known uses and market status in South Africa; currently no new candidate indication -->
+## Diiodohydroxyquinoline: Known uses and market status in South Africa
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate indication with a score of 0.99 or higher for Diiodohydroxyquinoline, so there is currently no new predicted indication. The drug's recorded uses are listed below. They are the drug's own recorded uses, not model candidates.
 
-Diiodohydroxyquinoline was originally used to treat amoebiasis (infection with *Entamoeba histolytica*).
-The TxGNN model predicts it may be effective for **osteoradionecrosis**, but this is a computational prediction only, with **no clinical trials** and **no publications** currently supporting this direction.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Amoebiasis (amoebiasis due to *Entamoeba histolytica*), based on the TxGNN knowledge graph. The SAHPRA record compiled for this report has no approved indication text. |
-| Predicted New Indication | Osteoradionecrosis |
-| TxGNN Prediction Score | 97.96% |
-| Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in South Africa | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available. Diiodohydroxyquinoline is an iodinated hydroxyquinoline whose use in amoebiasis is established in the knowledge graph. Whether that anti-infective activity applies to osteoradionecrosis cannot be judged from the data compiled for this report.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Osteoradionecrosis is a complication of radiotherapy in which irradiated bone fails to heal, often with infection. A link through anti-infective or metal-chelating effects on irradiated bone is conceivable, but this is speculation and no data support it. The high score most likely reflects network patterns in the knowledge graph rather than drug-specific evidence.
-
-Other predicted indications are also at the prediction-only stage (radiodermatitis, 96.3%; pneumonitis, 95.6%; aspiration pneumonia, 91.0%; type 2 diabetic nephropathy, 90.6%). Only pneumonitis has any publication, and it is indirect (see below).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for osteoradionecrosis.
-
-For context, the only publication identified among the other predicted indications relates to pneumonitis:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [32473310](https://pubmed.ncbi.nlm.nih.gov/32473310/) | 2020 | Preclinical/in silico screening (inferred from title; unverified) | Pharmacological Research | Two-tier screening identified diiodohydroxyquinoline, bexarotene, cetilistat and abiraterone as potential COVID-19 treatments. Its relevance to osteoradionecrosis is not established. |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| amebiasis |
+| amoebiasis due to entamoeba histolytica |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G1781 (ACT 101) | Viocort | Cream (topical) | Not available in the compiled data |
-
-The single registration is a valid, single-ingredient topical product. Essential Medicines List (EML) status is not available in the compiled data. Any oral or systemic use for the predicted indication would have no registered South African product on this record.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| G1781 (ACT 101) | Viocort | cream | Valid |
 
 ## Safety Considerations
 
@@ -111,20 +89,6 @@ Please refer to the SAHPRA-approved Professional Information (PI) for label warn
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction for osteoradionecrosis rests only on a model score, with no trials, no publications, no mechanistic data and no confirmed route compatibility. Safety data from the label are also missing.
-
-**To proceed, the following is needed:**
-- Mechanism of action data, to assess a plausible pathway to irradiated bone
-- Obtain the SAHPRA Professional Information to complete the safety review, which currently blocks progression
-- A literature and trial search specific to osteoradionecrosis
-- Route assessment: the only registered product is a topical cream, so suitability for bone disease needs evaluation
-- Review of the full text of PMID 32473310 to determine whether its findings have any relevance
-- A neurotoxicity and hepatic risk assessment before any consideration of systemic or prolonged use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

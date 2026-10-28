@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mepyramine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 314
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Mepyramine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis"
 monitor_inn: "MEPYRAMINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mepyramine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Mepyramine: From Allergic Rhinitis to Allergic Urticaria
+## Mepyramine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mepyramine is a first-generation histamine H1 antihistamine, originally used for allergic rhinitis, urticaria, angioedema and common cold symptoms.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but there are **no registered clinical trials** and only **4 indirect publications** (mostly preclinical, plus one veterinary study).
 Because urticaria and angioedema are already among its labelled uses, this prediction is largely a subtype of an existing indication rather than a true repurposing target.
 
 ---
@@ -48,12 +47,12 @@ Because urticaria and angioedema are already among its labelled uses, this predi
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (the first listed in the original indication set; SAHPRA registrations in the data compiled for this report carry no approved indication text) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 8 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9974 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,7 @@ Because urticaria and angioedema are already among its labelled uses, this predi
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, mepyramine is a first-generation histamine H1 receptor antagonist. Histamine released from mast cells is the central mediator of urticaria, so H1 blockade is mechanistically coherent for this condition.
 
-Urticaria and angioedema are already among mepyramine's original indications in the knowledge graph. Allergic urticaria is therefore a subtype of an existing use, not a genuinely new therapeutic area. The same applies to the other top predictions: nasal cavity disease (overlaps with allergic and vasomotor rhinitis), acute laryngopharyngitis (overlaps with pharyngitis, nasopharyngitis and common cold) and cold urticaria (a histamine-mediated physical urticaria).
+Allergic urticaria is therefore a subtype of an existing use, not a genuinely new therapeutic area. The same applies to the other top predictions: nasal cavity disease (overlaps with allergic and vasomotor rhinitis), acute laryngopharyngitis (overlaps with pharyngitis, nasopharyngitis and common cold) and cold urticaria (a histamine-mediated physical urticaria).
 
 For cold urticaria, guidelines prefer second-generation antihistamines, which limits the incremental value of mepyramine.
 
@@ -126,7 +125,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for official w
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible but largely overlaps with existing labelled uses. There are no clinical trials and no human efficacy data for allergic urticaria, so the evidence rests on the model score alone (L4/L5). All eight South African products are multi-purpose cough, cold and teething preparations, not dedicated urticaria treatments, and second-generation antihistamines are generally preferred for urticaria.
+The prediction is mechanistically plausible but largely overlaps with existing labelled uses. All eight South African products are multi-purpose cough, cold and teething preparations, not dedicated urticaria treatments, and second-generation antihistamines are generally preferred for urticaria.
 
 **To proceed, the following is needed:**
 - The SAHPRA package inserts (warnings, contraindications and approved indications), as this is a blocking gap for safety screening

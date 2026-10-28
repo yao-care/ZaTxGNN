@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **biotin metabolic disease**, b
 |------|------|
 | Original Indication | Vitamin deficiency disorder; folic acid deficiency anaemia; iron deficiency anaemia; hypochromic and microcytic anaemia (SAHPRA registrations contain no indication text) |
 | Predicted New Indication | Biotin metabolic disease |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 (model prediction only; the supporting literature is indirect and does not test folic acid in this condition) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 11 |
+| South Africa Market Status | Marketed (valid licences: 11 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---

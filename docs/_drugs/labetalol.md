@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Labetalol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 284
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Labetalol: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertensive disorder / hypertension"
 monitor_inn: "LABETALOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Labetalol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,31 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Labetalol: From Hypertension to Malignant Renovascular Hypertension
+## Labetalol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Labetalol is a combined alpha-1 and beta-adrenergic blocker, originally used to treat hypertension and hypertensive disorders.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but there are **no registered clinical trials** and only **1 publication** (a 1981 case report) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder / hypertension (the registration entry carries no indication text, so this comes from the knowledge graph) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9908 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, labetalol blocks both alpha-1 and beta-adrenergic receptors. Alpha-1 blockade causes vasodilation, and beta-blockade reduces heart rate and renin release.
 
-Malignant renovascular hypertension is a severe form of hypertension in which the renin-angiotensin system plays a major role. Reduced renin release and vasodilation are therefore mechanistically plausible. However, this is largely an extension of the existing hypertension indication rather than true repurposing. The high TxGNN score probably reflects how close the prediction sits to the approved hypertension indication in the knowledge graph.
+Malignant renovascular hypertension is a severe form of hypertension in which the renin-angiotensin system plays a major role. Reduced renin release and vasodilation are therefore mechanistically plausible. However, this is largely an extension of the existing hypertension indication rather than true repurposing.
 
 Other predicted indications in the data (malignant hypertensive renal disease, and two forms of pulmonary hypertension) are weaker. The two pulmonary hypertension predictions have no supportive evidence and carry safety concerns, because non-selective beta-blockade is generally cautioned in pulmonary vascular disease and lung disease.
 

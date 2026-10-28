@@ -4,17 +4,17 @@ title: Levodopa
 parent: Model Prediction Only (L5)
 nav_order: 293
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian disorders (SAHPRA indicati…"
 monitor_inn: "Levodopa"
-predicted_indications: ["Rasmussen subacute encephalitis", "PLA2G6-associated neurodegeneration", "myelitis", "transaldolase deficiency", "paralysis agitans, juvenile, of Hunt", "fructose-1,6-bisphosphatase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome"]
+predicted_indications: ["Rasmussen subacute encephalitis"]
+description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levodopa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +33,39 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Levodopa: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Levodopa: Rasmussen subacute encephalitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Levodopa is a dopamine precursor, originally used to treat Parkinson disease and related parkinsonian disorders.
-The TxGNN model's top-ranked prediction is **Rasmussen subacute encephalitis** (score 99.06%), but there are **0 clinical trials** and **0 publications** supporting it. Among the ten predicted indications, the better-supported directions are **PLA2G6-associated neurodegeneration**, **Lewy body dementia** and **multiple system atrophy, parkinsonian type**, all of which rest on case-level or review-level evidence only.
+The TxGNN model's top-ranked prediction is **Rasmussen subacute encephalitis** (score 0.9906), but there are **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related parkinsonian disorders (SAHPRA indication text not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 6 |
+| South Africa Market Status | Marketed (valid licences: 6 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data are not available in the data compiled for this report. Levodopa is known to be converted to dopamine in the brain, replacing the dopamine lost in the nigrostriatal pathway in Parkinson disease. Its efficacy in Parkinson disease is well established, and it may be applicable to other conditions that involve a similar dopamine deficiency.
 
-For the top-ranked prediction, **Rasmussen subacute encephalitis**, no plausible direct mechanism is supported. It is an autoimmune, inflammatory epilepsy syndrome with progressive unilateral hemispheric atrophy. The high score probably reflects an indirect, graph-derived association (for example, shared parkinsonism-related nodes) rather than a real pharmacological link.
+For the top-ranked prediction, **Rasmussen subacute encephalitis**, no plausible direct mechanism is supported. It is an autoimmune, inflammatory epilepsy syndrome with progressive unilateral hemispheric atrophy.
 
 The more biologically plausible predictions are those involving nigrostriatal dopaminergic dysfunction:
 
-- **PLA2G6-associated neurodegeneration (rank 2):** Case series describe levodopa-responsive parkinsonism, at least initially. Levodopa would be symptomatic only, and the response often wanes with disease progression, with a risk of dyskinesia and motor fluctuations.
-- **Lewy body dementia (rank 8):** It shares nigrostriatal loss with Parkinson disease, and levodopa is used for motor symptoms with modest benefit. Hallucinations and confusion are the main concerns.
-- **Multiple system atrophy, parkinsonian type (rank 9) and progressive supranuclear palsy-corticobasal syndrome (rank 7):** Responses are typically partial and short-lived. Levodopa may also worsen orthostatic hypotension in MSA-P.
-- **X-linked intellectual disability-ataxia-apraxia syndrome (rank 10):** The supporting literature actually concerns MCT8 deficiency (Allan-Herndon-Dudley syndrome), where levodopa/carbidopa responses have been reported. The disease mapping is imprecise.
+- Levodopa would be symptomatic only, and the response often wanes with disease progression, with a risk of dyskinesia and motor fluctuations.
+- Hallucinations and confusion are the main concerns.
+- Levodopa may also worsen orthostatic hypotension in MSA-P.
+- The disease mapping is imprecise.
 
-Several other predictions have no plausible mechanism (transaldolase deficiency, fructose-1,6-bisphosphatase deficiency). "Paralysis agitans, juvenile, of Hunt" is a historical term for juvenile parkinsonism that overlaps the existing indication and is not a new opportunity. Myelitis is supported only by case reports of parkinsonism occurring alongside myelitis, not by evidence of benefit for myelitis itself.
 
 ## Clinical Trial Evidence
 
@@ -123,7 +122,6 @@ SAHPRA package insert warnings and contraindications were not available in the d
 - **Eye:** open-angle glaucoma, angle-closure glaucoma
 - **Metabolic and other:** diabetes mellitus, diabetic ketoacidosis, melanoma, hemoglobinopathy
 
-Several of these matter for the predicted indications: orthostatic hypotension and multiple system atrophy are relevant to the MSA-P prediction, and psychotic disorder is relevant to the Lewy body dementia prediction.
 
 **Drug interactions:** The interaction screen returned 100 interacting drugs. The 20 shown in the data compiled for this report are:
 
@@ -135,13 +133,12 @@ Several of these matter for the predicted indications: orthostatic hypotension a
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, Rasmussen subacute encephalitis, has no trials, no literature and no plausible direct mechanism, so it is at evidence level L5. Other predictions (PLA2G6-associated neurodegeneration, Lewy body dementia, MSA-P) have more plausible mechanisms but rest on case series, reviews and one small feasibility trial, so they remain research questions rather than candidates for clinical adoption.
+The top-ranked prediction, Rasmussen subacute encephalitis, has no trials, no literature and no plausible direct mechanism, so it is at evidence level L5.
 
 **To proceed, the following is needed:**
 - Download and review the SAHPRA package insert to obtain warnings, contraindications and approved indications (a blocking gap for safety screening)
 - Obtain mechanism of action data from DrugBank
 - For Rasmussen subacute encephalitis, a clear mechanistic rationale before any further investigation
-- For PLA2G6-associated neurodegeneration, Lewy body dementia and MSA-P, prospective controlled studies of levodopa that assess motor benefit against neuropsychiatric and orthostatic adverse effects
 - Confirmation of the intervention and relevance of NCT06831500
 - Evaluation of route and formulation compatibility for any candidate indication
 ## Disclaimer

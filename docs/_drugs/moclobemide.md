@@ -6,9 +6,9 @@ nav_order: 329
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Moclobemide
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **2**
 
 </div>
 
-## Moclobemide: From Anxiety Disorder to Agoraphobia
+## Moclobemide: Agoraphobia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,12 +44,12 @@ Moclobemide is a reversible inhibitor of monoamine oxidase A, originally used fo
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (from the TxGNN knowledge graph; no SAHPRA indication text available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Agoraphobia |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on the evidence level:** The L2 level comes from the scoring in the data compiled for this report. It rests on published randomised trials in panic disorder with agoraphobia, not on a registered trial in the predicted indication. The published trials are small and old (1999), so the level should be read cautiously.
@@ -111,7 +111,7 @@ Two randomised trials in panic disorder with agoraphobia, plus supporting review
 
 ---
 
-*A second prediction, benign paroxysmal torticollis of infancy (score 99.30%), has no supporting trials or literature (evidence level L5) and no evident mechanistic rationale. It is likely a graph-based artifact, and the recommendation is **Hold**.*
+*A second prediction, benign paroxysmal torticollis of infancy (score 0.9930), has no supporting trials or literature (evidence level L5) and no evident mechanistic rationale. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and the recommendation is **Hold**.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Zidovudine
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 476
-evidence_level: L5
-indication_count: 6
+evidence_level: L4
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection"
 monitor_inn: "ZIDOVUDINE"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Zidovudine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ There are **no registered clinical trials**, and the predicted new indication is
 |------|------|
 | Original Indication | HIV infection; AIDS |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L4 (preclinical/animal studies only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

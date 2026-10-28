@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Montelukast
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 331
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Montelukast: predicted new indication Bronchitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, intrinsic asthma…"
 monitor_inn: "Montelukast"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "2-hydroxyethyl methacrylate sensitization", "uterine polyp", "polyp of vocal cord", "polyp of middle ear", "fibroepithelial polyp"]
+predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+description: "Montelukast: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Montelukast: From Allergic Rhinitis and Asthma to Bronchitis
+## Montelukast: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **bronchitis** (including bronc
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, intrinsic asthma, allergic asthma (from the knowledge graph; the SAHPRA records compiled for this report contain no approved-indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L1 (for the related asthma indication; for bronchitis itself, see the note below) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold (bronchitis); Proceed with Guardrails (asthma and obstructive airway disease) |
 
 *Note on evidence level:* The top-ranked prediction, bronchitis, has no completed Phase 3 trial demonstrating benefit in bronchitis itself. One large Phase 3 trial in RSV bronchiolitis (NCT00076973, n=1,125) exists but no results are summarised in the data compiled for this report. Strict application of the grading rules would therefore place bronchitis at about L2. The L1 level applies to asthma, which is the on-label use (rank 3 prediction).

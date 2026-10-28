@@ -2,13 +2,13 @@
 layout: default
 title: Doravirine
 parent: Model Prediction Only (L5)
-nav_order: 199
+nav_order: 198
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Doravirine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "DORAVIRINE"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-23
+description: "Doravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
 # Doravirine
@@ -33,35 +33,36 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Doravirine: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Doravirine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Doravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally used to treat HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but there are **0 clinical trials** and **1 publication**, and that publication concerns a different drug (islatravir). The prediction is therefore **model-based only**. SIV infection is an animal infection model, not a human clinical indication.
+Doravirine is an antiretroviral drug (a non-nucleoside reverse transcriptase inhibitor) that has a relation recorded in the knowledge graph for HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, but there are **0 clinical trials** and **0 publications** directly studying this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (the SAHPRA registration does not list an approved indication text) |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.93% |
+| Original Indication | HIV infectious disease and AIDS (relations recorded in the knowledge graph; the local licence record contains no indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
+| Number of approvals | 1 SAHPRA registration (a single-ingredient record) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, doravirine is an NNRTI that is approved for HIV-1, and its efficacy in HIV-1 is established. SIV is a closely related lentivirus, so NNRTI activity could plausibly extend to it.
+Detailed mechanism of action data is not available in the data compiled for this report. From general knowledge of the drug class, doravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) that acts against HIV-1.
 
-There are important reasons for caution. SIV reverse transcriptase generally belongs to the HIV-2/SIV lineage, and NNRTIs are typically inactive against HIV-2. The high TxGNN score most likely reflects the network proximity of SIV to HIV in the knowledge graph rather than direct pharmacological evidence. SIV is also a non-human infection, so it has no direct clinical use in South African patients.
+Feline immunodeficiency virus (FIV) is a lentivirus that also uses a reverse transcriptase, so a theoretical link exists. However, NNRTIs are generally poorly active against reverse transcriptases of non-HIV-1 lentiviruses, because the NNRTI binding pocket differs structurally. The very high score (0.9993) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Confidence in the prediction is therefore low.
 
-**Other predictions (all low confidence):**
-- **Feline acquired immunodeficiency syndrome** (score 99.93%): a veterinary indication. NNRTIs generally show poor activity against feline immunodeficiency virus reverse transcriptase. There are no trials or literature.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.91%): a rare genetic disorder with no plausible link to reverse transcriptase inhibition. This is likely a graph-based artifact.
+Two other predictions were also generated, with similar scores:
+- **Simian immunodeficiency virus infection** (score 0.9993): biologically plausible because SIV is a standard animal model for HIV. However, SIV strains resembling HIV-2 are intrinsically resistant to many NNRTIs. The only retrieved paper concerns islatravir, a different drug, in human HIV-1, so it gives no direct support.
+- **A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (score 0.9991): no plausible mechanistic link was found, and this is likely a false positive.
 
 ## Clinical Trial Evidence
 
@@ -69,40 +70,37 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Review | Current Opinion in HIV and AIDS | Discusses islatravir, a novel reverse transcriptase translocation inhibitor, for HIV-1 treatment and prevention. It does not address doravirine or SIV, so it does not support this prediction. |
+Currently no related literature available for feline acquired immunodeficiency syndrome.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 53/20.2.8/0233 | Delstrigo | Film-coated tablet (Fct) | Not stated in the compiled data |
+| 53/20.2.8/0233 | Delstrigo | Film-coated tablet (Fct) | Not stated in the data compiled for this report |
 
-Essential Medicines List (EML) inclusion status is not available in the compiled data.
+Delstrigo is a registered product, and the data compiled for this report do not describe how doravirine is licensed or marketed as a single ingredient. Essential Medicines List inclusion status was not available.
 
 ## Safety Considerations
 
-**Drug Interactions:** The interaction screening returned **59 interactions**. The first 20 records reviewed included:
-- **Major:** Dexamethasone, Lumacaftor
-- **Moderate:** Glycerol phenylbutyrate, Metreleptin, Troglitazone, Deferasirox, Praziquantel, Griseofulvin
-- **Minor:** Aprepitant, Cimetidine, Clarithromycin, Clotrimazole, Miconazole, Cobicistat, Ticagrelor, Ivacaftor, Zafirlukast, Chloramphenicol, Erythromycin, Fluconazole
+**Drug Interactions:** The interaction search returned 59 entries; the 20 listed here include the following.
+- **Major:** dexamethasone, lumacaftor
+- **Moderate:** glycerol phenylbutyrate, metreleptin, troglitazone, deferasirox, praziquantel, griseofulvin
+- **Minor:** aprepitant, cimetidine, clarithromycin, clotrimazole, miconazole, cobicistat, ticagrelor, ivacaftor, zafirlukast, chloramphenicol, erythromycin, fluconazole
 
-The remaining interactions were not reviewed here. Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
+For warnings and contraindications, please refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5). There are no clinical trials, and the only linked paper concerns a different drug. SIV is an animal infection, and NNRTIs are generally not active against the HIV-2/SIV lineage. The other two predictions are also unsupported, one being a veterinary indication and the other having no plausible mechanism.
+The prediction is supported only by the TxGNN model score. No clinical trials or publications directly study doravirine in this disease, so the evidence level is L5. The known weak activity of NNRTIs against non-HIV-1 lentiviral reverse transcriptases further lowers confidence. Feline AIDS is a veterinary condition, which also raises questions about relevance to South African human healthcare.
 
 **To proceed, the following is needed:**
-- Doravirine-specific in vitro or animal data showing activity against SIV reverse transcriptase
-- Clarification of whether any human clinical need exists, since SIV is not a human disease
-- Detailed mechanism of action data
-- The SAHPRA Professional Information (PI) for Delstrigo, covering warnings, contraindications and approved indication
-- A full review of the 59 drug interactions (including the Major interactions with dexamethasone and lumacaftor) should any repurposing proceed
+- In vitro activity data of doravirine against FIV (and SIV) reverse transcriptase
+- Mechanism of action data for doravirine
+- Package insert warnings and contraindications from SAHPRA (a blocking gap for safety screening)
+- A decision on whether a veterinary or animal-model indication is within the scope of this evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

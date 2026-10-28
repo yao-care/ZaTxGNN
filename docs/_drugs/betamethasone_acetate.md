@@ -8,6 +8,7 @@ nav_order: 68
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Betamethasone Acetate
@@ -53,8 +54,8 @@ This report documents current findings and outlines the remediation steps requir
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — TxGNN output absent |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 18 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 18) |
 | Recommended Decision | **Hold** |
 
 ---

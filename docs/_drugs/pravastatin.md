@@ -4,17 +4,17 @@ title: Pravastatin
 parent: High Evidence (L1-L2)
 nav_order: 385
 evidence_level: L2
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Pravastatin: predicted new indication HIV infectious disease (practically: HIV-associated dyslipidaemia and… (evidence level L2). Approved use: Hyperlipidaemia, atherosclerosis and cerebrovascular di…"
 monitor_inn: "PRAVASTATIN"
-predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **9** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **9**
 
 </div>
 
-## Pravastatin: From Hyperlipidaemia and Atherosclerosis to HIV-Associated Dyslipidaemia
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This direction is supported by **12 clinical trials** and **20 publications**, a
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperlipidaemia, atherosclerosis and cerebrovascular disorders (taken from the knowledge-graph indication list, because the SAHPRA registrations carry no indication text) |
-| Predicted New Indication | HIV infectious disease (practically: HIV-associated dyslipidaemia and cardiovascular risk) |
-| TxGNN Prediction Score | 99.74% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | HIV infectious disease |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on other predictions:** Eight other predicted indications were reviewed. Their recommendations are summarised below.

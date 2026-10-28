@@ -4,17 +4,17 @@ title: Minocycline
 parent: Model Prediction Only (L5)
 nav_order: 326
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections and acne"
+indication_count: 2
+last_modified_at: 2026-10-28
 monitor_inn: "Minocycline"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "neurotrophic keratopathy", "postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Minocycline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Minocycline: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
+## Minocycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be useful for **punctate epithelial keratoconjun
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections and acne (from the knowledge graph; the SAHPRA registration has no indication text on record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,10 +59,8 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 A plausible rationale is that tetracyclines have anti-inflammatory activity and can inhibit matrix metalloproteinases (MMPs), enzymes involved in tissue breakdown. These properties could in theory help calm inflammation and limit damage to the corneal surface. This reasoning is speculative: no trials or publications were found in the data compiled for this report to support it, and the high TxGNN score reflects a model prediction only.
 
-Other top-ranked predictions show the same pattern. Exposure keratitis (99.20%) and neurotrophic keratopathy (98.98%) are also eye-surface conditions with no supporting evidence. Of the ten predictions reviewed, only two have any evidence attached, and in neither case is it direct:
+Other top-ranked predictions show the same pattern. Of the ten predictions reviewed, only two have any evidence attached, and in neither case is it direct:
 
-- **Otitis externa** (98.70%): indirect literature only (see below).
-- **Post-infectious syndrome** (98.68%): a single withdrawn trial with no participants.
 
 ## Clinical Trial Evidence
 
@@ -78,7 +76,7 @@ For completeness, the only trial found across the other top-ten predictions was:
 
 Currently no related literature available for punctate epithelial keratoconjunctivitis.
 
-The only literature found was for the sixth-ranked prediction, otitis externa. It is indirect and does not demonstrate efficacy:
+It is indirect and does not demonstrate efficacy:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -111,7 +109,7 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (99.63%), with no clinical trials or publications for punctate epithelial keratoconjunctivitis (Evidence Level L5). The registered product is an oral tablet, and no route compatibility has been established for an eye-surface condition.
+The prediction is supported only by a model score (0.9963), with no clinical trials or publications for punctate epithelial keratoconjunctivitis (Evidence Level L5). The registered product is an oral tablet, and no route compatibility has been established for an eye-surface condition.
 
 **To proceed, the following is needed:**
 - A systematic search for clinical and preclinical evidence of tetracyclines or minocycline in punctate epithelial keratoconjunctivitis and related ocular surface disease

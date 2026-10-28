@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pantoprazole
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 363
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Pantoprazole: predicted new indication Active peptic ulcer disease (evidence level L1). Approved use: Peptic ulcer disease, GORD, oesophagitis, Zollinger-Ellison syndrome"
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,36 +33,31 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-## Pantoprazole: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pantoprazole is a proton pump inhibitor (PPI) originally used for peptic ulcer disease, gastro-oesophageal reflux disease (GORD), oesophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, with **15 clinical trials** (1 listed for this top-ranked indication and 15 for the related duodenal ulcer prediction) and **18 publications** currently supporting this direction.
 This prediction is largely on-label or closely related to existing uses, so it is better seen as confirmation than as true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, GORD, oesophagitis, Zollinger-Ellison syndrome (from the knowledge graph; SAHPRA indication text is not available) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L1 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9921 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 Other predictions in the data compiled for this report:
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 2 | Peptic ulcer perforation | 99.63% | L3 | Research question |
-| 3 | Gastrojejunal ulcer | 99.63% | L3 | Research question |
-| 4 | Duodenogastric reflux | 99.27% | L3 | Research question |
-| 5 | Duodenal obstruction | 99.21% | L5 | Hold |
-| 6 | Duodenal ulcer | 99.18% | L1 | Proceed with Guardrails |
+| 5 | Duodenal obstruction | 0.9921 | L5 | Hold |
 
 ## Why is This Prediction Reasonable?
 
@@ -135,7 +130,6 @@ Multiple Phase 3 trials and several RCTs support pantoprazole in peptic and duod
 - SAHPRA PI warnings, contraindications and approved indication text (currently missing, and a blocking gap for safety screening)
 - Confirmation of the mechanism of action from a primary source such as DrugBank
 - Review of the full interaction list against local co-medications, especially atazanavir and acalabrutinib
-- Attention to bone health and vitamin B12 status in long-term use, given the knowledge-graph signals
 - Confirmation of the exact design and comparator of the key trials, since some titles and designs are truncated or unconfirmed
 ## Disclaimer
 

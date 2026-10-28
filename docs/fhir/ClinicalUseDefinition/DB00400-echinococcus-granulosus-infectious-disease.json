@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00400",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00400"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "echinococcus-granulosus-infectious-disease",
-          "display": "echinococcus granulosus infectious disease"
-        }
-      ],
-      "text": "echinococcus granulosus infectious disease"
+      "concept": {
+        "text": "echinococcus granulosus infectious disease"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9932
     }
   ]
 }

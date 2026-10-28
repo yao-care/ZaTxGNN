@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB01242",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB01242"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "attention-deficit-hyperactivity-disorder",
-          "display": "attention deficit-hyperactivity disorder"
-        }
-      ],
-      "text": "attention deficit-hyperactivity disorder"
+      "concept": {
+        "text": "attention deficit-hyperactivity disorder"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9958
     }
   ]
 }

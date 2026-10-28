@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Estradiol Valerate: predicted new indication Symptomatic form of fragile X syndrome in female carrier (evidence level L5). Approved use: Primary ovarian failure"
 monitor_inn: "Estradiol valerate"
-predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "ovarian remnant syndrome", "anovulation", "luteoma of pregnancy", "ovarian dysfunction"]
+predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "anovulation", "ovarian remnant syndrome", "luteoma of pregnancy", "ovarian dysfunction"]
 ---
 
 # Estradiol Valerate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Estradiol Valerate: From Primary Ovarian Failure to Fragile X Premutation Carrier Symptoms (Top Prediction)
+## Estradiol Valerate: From Primary Ovarian Failure to Symptomatic Form of Fragile X Syndrome in Female Carrier (Top Prediction)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,13 +50,13 @@ The only prediction in the top 10 with a registered clinical trial is **anovulat
 |------|------|
 | Original Indication | Primary ovarian failure |
 | Predicted New Indication | Symptomatic form of fragile X syndrome in female carrier (rank 1 of 10 predictions reviewed) |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
-**Other predictions reviewed (all scores 99.9%+):**
+**Other predictions reviewed (all scores 0.9991 or higher):**
 
 | Rank | Predicted Indication | Evidence Level | Recommendation |
 |---|---|---|---|
@@ -80,7 +80,7 @@ Detailed mechanism of action data is not currently available. Estradiol valerate
 
 **Ranks 2 and 5 (BPES):** BPES type I is linked to premature ovarian insufficiency (FOXL2 changes). Oestrogen replacement is rational only for the ovarian component and would not treat the eyelid malformations.
 
-**Ranks 3, 4 and 6 (partial chromosome 5p, 12p and 18p trisomy/tetrasomy):** There is no clear mechanistic rationale. These predictions probably reflect proximity in the knowledge graph rather than an oestrogen-responsive pathway.
+**Ranks 3, 4 and 6 (partial chromosome 5p, 12p and 18p trisomy/tetrasomy):** There is no clear mechanistic rationale. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Rank 7 (ovarian remnant syndrome) and rank 9 (luteoma of pregnancy):** Neither is an established oestradiol indication. In ovarian remnant syndrome, oestrogen could stimulate remnant tissue. Luteoma of pregnancy is hormone-driven, usually resolves after delivery, and oestradiol could be counterproductive.
 

@@ -8,6 +8,7 @@ nav_order: 256
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Hydrocortisone Butyrate
@@ -53,8 +54,8 @@ This report documents the outstanding data gaps and recommends a **Hold** decisi
 | Predicted New Indication | None — no TxGNN predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — No predictions or supporting evidence available |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

@@ -4,7 +4,7 @@ title: Lorazepam
 parent: Model Prediction Only (L5)
 nav_order: 302
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Anxiety disorder and seizure conditions (status epilepticus…"
 monitor_inn: "LORAZEPAM"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm"]
 # Lorazepam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,26 +50,17 @@ Among the other predicted indications, **insomnia** has the most direct supporti
 |------|------|
 | Original Indication | Anxiety disorder and seizure conditions (status epilepticus, absence epilepsy, Lennox-Gastaut syndrome and others). SAHPRA indication text was not available in the data compiled for this report. |
 | Predicted New Indication | Trigeminal nerve neoplasm (top-ranked prediction) |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 **Other predicted indications reviewed**
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 1 | Trigeminal nerve neoplasm | 99.87% | L5 | Hold |
-| 2 | Insomnia | 99.80% | L3 | Research Question |
-| 3 | Reading seizures | 99.64% | L4 | Hold |
-| 4 | Audiogenic seizures | 99.63% | L4 | Hold |
-| 5 | Eating seizures | 99.63% | L5 | Hold |
-| 6 | Orgasm-induced seizures | 99.63% | L5 | Hold |
-| 7 | Thinking seizures | 99.63% | L4 | Hold |
-| 8 | Startle epilepsy | 99.63% | L5 | Hold |
-| 9 | Micturition-induced seizures | 99.63% | L4 | Hold |
-| 10 | Acute encephalopathy with biphasic seizures and late reduced diffusion | 99.47% | L5 | Hold |
+| 1 | Trigeminal nerve neoplasm | 0.9987 | L5 | Hold |
 
 ---
 
@@ -77,7 +68,7 @@ Among the other predicted indications, **insomnia** has the most direct supporti
 
 Detailed mechanism of action data is not available in the data compiled for this report. Lorazepam is known to be a benzodiazepine that enhances GABA-A receptor-mediated inhibition, which produces sedative, anxiolytic and anticonvulsant effects.
 
-**Trigeminal nerve neoplasm (top prediction):** No mechanistic rationale supports this prediction. The high score comes from the graph-based model alone, and there is no plausible anti-tumour link. At most, lorazepam could treat symptoms such as anxiety or seizures in a patient with a tumour, and these uses are already covered by existing indications.
+**Trigeminal nerve neoplasm (top prediction):** No mechanistic rationale supports this prediction. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and there is no plausible anti-tumour link. At most, lorazepam could treat symptoms such as anxiety or seizures in a patient with a tumour, and these uses are already covered by existing indications.
 
 **Insomnia:** Enhanced GABA-A inhibition is a well-established mechanism for sedative-hypnotic effects, so the prediction is plausible. Insomnia is also close to the existing anxiety indications, so this is more a question of labelling and regional use than true repurposing. Benzodiazepines are generally reserved for short-term use because of dependence, tolerance, cognitive impairment and fall risk, especially in older adults.
 

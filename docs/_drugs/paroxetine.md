@@ -6,9 +6,9 @@ nav_order: 365
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Anxiety disorder, major depressive disorder…"
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
+description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paroxetine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Paroxetine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
+## Paroxetine: Ohdo syndrome and variants
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This prediction rests on the model score alone: **no clinical trials and no publ
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, major depressive disorder, obsessive-compulsive disorder, post-traumatic stress disorder, social phobia and related conditions (from the TxGNN knowledge graph; SAHPRA indication text was not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.11% |
+| TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Paroxetine is gen
 
 Ohdo syndrome and its variants (for example, Say-Barber-Biesecker-Young-Simpson syndrome) are rare genetic conditions. They are usually linked to variants in the *KAT6B* gene and involve intellectual disability, low muscle tone and blepharophimosis (narrowed eye openings). The underlying problem lies in chromatin and epigenetic regulation. No plausible pathway links serotonin reuptake inhibition to this biology.
 
-The very high score (0.991) is a computational output only. It may reflect knowledge-graph artefacts, such as shared neurodevelopmental or psychiatric phenotype associations, rather than a true therapeutic rationale. The prediction should be treated as a hypothesis with no supporting evidence at this stage.
+The very high score (0.9911) is a computational output only. It may reflect TxGNN model (deep learning) artefacts, such as shared neurodevelopmental or psychiatric phenotype associations, rather than a true therapeutic rationale. The prediction should be treated as a hypothesis with no supporting evidence at this stage.
 
 ## Clinical Trial Evidence
 

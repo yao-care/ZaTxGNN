@@ -4,17 +4,17 @@ title: Trimethoprim
 parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "Trimethoprim"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trimethoprim
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trimethoprim: From Urinary Tract Infection to Punctate Epithelial Keratoconjunctivitis
+## Trimethoprim: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection (SAHPRA indication text not available; taken from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trimethoprim is an antibacterial whose efficacy in bacterial infections is established, and it has been used in ophthalmic combinations (with polymyxin B) for bacterial conjunctivitis and blepharoconjunctivitis. These are already listed among its original indications.
 
-The prediction is therefore a graph-based extension to a closely related ocular surface disease. The main limitation is that punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious, and an antibacterial would be unlikely to help in those cases. The prediction is plausible only for a bacterial subset, and this has not been tested.
+The prediction therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The main limitation is that punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious, and an antibacterial would be unlikely to help in those cases. The prediction is plausible only for a bacterial subset, and this has not been tested.
 
 ## Clinical Trial Evidence
 
@@ -67,7 +67,6 @@ Currently no related clinical trials registered for punctate epithelial keratoco
 
 Currently no related literature available for punctate epithelial keratoconjunctivitis.
 
-For context, the second-ranked prediction, conjunctivitis, already falls within the original indications. It has supporting literature, including a multicentre comparison of polymyxin B/trimethoprim with moxifloxacin ([19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/), 2008), a paediatric survey ([8595639](https://pubmed.ncbi.nlm.nih.gov/8595639/), 1995) and a clinical evaluation of trimethoprim-containing ophthalmic solutions ([6204534](https://pubmed.ncbi.nlm.nih.gov/6204534/), 1984). It is not a true repurposing candidate. The other eight predicted indications are weakly supported or unsupported. Several are indirect (exposure keratitis, infective urethral stricture, otitis externa), and for post-bacterial disorder the trials tested trimethoprim-sulfamethoxazole rather than trimethoprim alone.
 
 ## South Africa Market Information
 

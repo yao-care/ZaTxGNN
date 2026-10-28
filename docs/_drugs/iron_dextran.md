@@ -8,6 +8,7 @@ nav_order: 275
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Iron Dextran
@@ -53,8 +54,8 @@ All critical data gaps must be resolved before this candidate can advance.
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | — |
 | Evidence Level | L5 (no predictions, no supporting studies retrieved) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

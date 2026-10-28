@@ -8,6 +8,7 @@ nav_order: 32
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amlodipine Besylate
@@ -51,7 +52,7 @@ This report is a **preliminary holding record** and cannot proceed to a full rep
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
-| South Africa Market Status | Not Marketed (per available data — see note below) |
+| South Africa Market Status | Marketed (valid licences on record: at least 20) |
 | Number of SAHPRA Registrations | 0 |
 | Recommended Decision | **Hold** |
 

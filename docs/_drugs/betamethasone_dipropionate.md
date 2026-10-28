@@ -8,6 +8,7 @@ nav_order: 69
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Betamethasone Dipropionate
@@ -49,8 +50,8 @@ Betamethasone dipropionate is a potent synthetic corticosteroid with established
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not applicable — no predictions returned |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 18 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 18) |
 | Recommended Decision | **Hold** |
 
 ---

@@ -4,17 +4,17 @@ title: Triamterene
 parent: Model Prediction Only (L5)
 nav_order: 460
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Triamterene: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension and congestive heart failure"
 monitor_inn: "TRIAMTERENE"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Triamterene
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Triamterene: From Hypertension to Malignant Renovascular Hypertension
+## Triamterene: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Triamterene is a potassium-sparing diuretic, originally used to treat hypertension and congestive heart failure.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but currently there are **0 clinical trials** and **0 publications** directly supporting this prediction. It is a model prediction only.
 
 ---
@@ -48,12 +47,12 @@ but currently there are **0 clinical trials** and **0 publications** directly su
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and congestive heart failure (the SAHPRA registration carries no indication text, so these come from the TxGNN knowledge graph) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,17 +61,17 @@ but currently there are **0 clinical trials** and **0 publications** directly su
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, triamterene is a potassium-sparing diuretic that blocks the epithelial sodium channel (ENaC) in the distal nephron. This increases sodium excretion, lowers blood volume and reduces blood pressure. Its efficacy in hypertension and congestive heart failure is established.
 
-The link to malignant renovascular hypertension is weak. This condition is driven mainly by activation of the renin-angiotensin system and usually needs RAAS blockade and revascularisation. Diuretic monotherapy is not a rational primary strategy. The high TxGNN score most likely reflects closeness in the knowledge graph to the approved hypertension indication, not independent evidence.
+The link to malignant renovascular hypertension is weak. This condition is driven mainly by activation of the renin-angiotensin system and usually needs RAAS blockade and revascularisation. Diuretic monotherapy is not a rational primary strategy.
 
 Other predictions in the same list show a similar pattern:
 
 | Predicted Indication | TxGNN Score | Assessment |
 |------|------|------|
-| Malignant hypertensive renal disease | 99.89% | Largely a restatement of the hypertension indication. Hyperkalaemia risk in renal impairment is a major concern. |
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.88% | No evidence of effect on pulmonary vascular remodelling. |
-| Pulmonary hypertension with unclear multifactorial mechanism | 99.88% | Only generic diuretic volume reduction. No supporting data. |
-| Braddock syndrome | 99.84% | No plausible mechanistic link. |
-| Chronic pulmonary heart disease (cor pulmonale) | 99.75% | Indirect support only, through the approved heart failure use. Rated L4 (research question). |
+| Malignant hypertensive renal disease | 0.9989 | Largely a restatement of the hypertension indication. Hyperkalaemia risk in renal impairment is a major concern. |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9988 | No evidence of effect on pulmonary vascular remodelling. |
+| Pulmonary hypertension with unclear multifactorial mechanism | 0.9988 | Only generic diuretic volume reduction. No supporting data. |
+| Braddock syndrome | 0.9984 | No plausible mechanistic link. |
+| Chronic pulmonary heart disease (cor pulmonale) | 0.9975 | Indirect support only, through the approved heart failure use. Rated L4 (research question). |
 
 ---
 

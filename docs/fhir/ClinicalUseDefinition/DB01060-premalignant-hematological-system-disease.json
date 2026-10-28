@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB01060",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB01060"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "premalignant-hematological-system-disease",
-          "display": "premalignant hematological system disease"
-        }
-      ],
-      "text": "premalignant hematological system disease"
+      "concept": {
+        "text": "premalignant hematological system disease"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9929
     }
   ]
 }

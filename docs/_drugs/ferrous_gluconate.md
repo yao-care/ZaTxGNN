@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ferrous Gluconate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 229
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Ferrous Gluconate: predicted new indication Plummer-Vinson syndrome (evidence level L4). Approved use: Iron deficiency anaemia (other listed indications: anaemia of prematu…"
@@ -14,7 +14,7 @@ predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-inde
 # Ferrous Gluconate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,13 +49,13 @@ The TxGNN model predicts it may be useful for **Plummer-Vinson syndrome**, but t
 |------|------|
 | Original Indication | Iron deficiency anaemia (other listed indications: anaemia of prematurity, hypochromic anaemia, deficiency anaemia, microcytic anaemia) |
 | Predicted New Indication | Plummer-Vinson syndrome |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: the SAHPRA registration record contains no approved indication text. The original indications above come from the TxGNN knowledge graph.*
+*Note: the SAHPRA registration record contains no approved indication text. The original indications above are not taken from the registration record; the prediction scores on this page come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*
 
 ---
 
@@ -65,16 +65,16 @@ Detailed mechanism of action data is not available for this drug. Based on known
 
 Plummer-Vinson syndrome is characterised by iron deficiency anaemia, difficulty swallowing (dysphagia) and oesophageal webs. Iron replacement is the established standard of care and is known to improve both the anaemia and the swallowing symptoms. This makes the prediction mechanistically plausible.
 
-However, this prediction largely overlaps with the drug's existing iron deficiency anaemia indication. The high TxGNN score most likely reflects the close relationship between the two diseases in the knowledge graph, rather than a genuinely novel repurposing signal. No direct trial or literature evidence was found in the data compiled for this report.
+However, this prediction largely overlaps with the drug's existing iron deficiency anaemia indication. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than a genuinely novel repurposing signal. No direct trial or literature evidence was found in the data compiled for this report.
 
 ### Other Predictions Reviewed
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Vitamin B12- and folate-independent constitutional megaloblastic anaemia | 99.94% | L5 | Unclear mechanistic link. Megaloblastic changes reflect impaired DNA synthesis rather than iron deficiency. Hold. |
-| 3 | Non-syndromic oesophageal malformation | 99.67% | L5 | Structural congenital defect that iron would not be expected to correct. Likely driven by association with Plummer-Vinson syndrome. Hold. |
-| 4 | Biotin metabolic disease | 99.42% | L5 | No clear role for iron. Likely a vitamin-deficiency category association. Hold. |
-| 5 | Vitamin deficiency disorder | 99.17% | L4 | One small pilot trial in a related disorder (see below). Indirect link only. |
+| 2 | Vitamin B12- and folate-independent constitutional megaloblastic anaemia | 0.9994 | L5 | Unclear mechanistic link. Megaloblastic changes reflect impaired DNA synthesis rather than iron deficiency. Hold. |
+| 3 | Non-syndromic oesophageal malformation | 0.9967 | L5 | Structural congenital defect that iron would not be expected to correct. Likely driven by association with Plummer-Vinson syndrome. Hold. |
+| 4 | Biotin metabolic disease | 0.9942 | L5 | No clear role for iron. Likely a vitamin-deficiency category association. Hold. |
+| 5 | Vitamin deficiency disorder | 0.9917 | L5 | One small pilot trial in a related disorder (see below). Indirect link only. |
 
 ---
 

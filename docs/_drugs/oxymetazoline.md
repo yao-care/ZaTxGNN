@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 361
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Pharyngitis, common cold"
 monitor_inn: "OXYMETAZOLINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder"]
+predicted_indications: ["nasal cavity disease", "headache disorder"]
+description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Oxymetazoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
+## Oxymetazoline: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are **no registered clinical trials** and only **5 publications** (mos
 
 | Item | Content |
 |------|------|
-| Original Indication | Pharyngitis, common cold (from the knowledge graph; the SAHPRA registration carries no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,8 +65,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 The predicted indication is very close to the existing use. Nasal congestion in the common cold is already a nasal cavity condition, so this prediction is largely an extension of the current indication rather than a true repurposing. The high score is therefore plausible, but it does not by itself show new benefit.
 
 The other two predictions are weaker:
-- **Acute laryngopharyngitis** (score 99.95%, L5): This is a computational prediction only, with no trials or literature. Topical nasal delivery does not reliably reach the pharynx or larynx. The score is probably driven by the link to the original pharyngitis indication.
-- **Headache disorder** (score 99.04%, L4): One small study reports intranasal tetracaine plus oxymetazoline in status migrainosus (PMID 31919839). Oxymetazoline cannot be separated from the local anaesthetic in that combination, so its own contribution is unknown.
+- **Headache disorder** (score 0.9904, L4): One small study reports intranasal tetracaine plus oxymetazoline in status migrainosus (PMID 31919839). Oxymetazoline cannot be separated from the local anaesthetic in that combination, so its own contribution is unknown.
 
 ---
 
@@ -122,7 +121,6 @@ The prediction is mostly a restatement of the existing nasal decongestant use. T
 - Detailed mechanism of action data from DrugBank.
 - Controlled clinical evidence in a defined nasal cavity condition, to show a benefit beyond current decongestant use.
 - For the headache prediction, a study that isolates oxymetazoline from the tetracaine combination.
-- For the acute laryngopharyngitis prediction, evidence that topical nasal delivery reaches the target tissue.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

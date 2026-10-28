@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00766",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00766"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "abdominal-ectopic-pregnancy",
-          "display": "abdominal ectopic pregnancy"
-        }
-      ],
-      "text": "abdominal ectopic pregnancy"
+      "concept": {
+        "text": "abdominal ectopic pregnancy"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.998
     }
   ]
 }

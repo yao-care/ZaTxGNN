@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 |------|------|
 | Original Indication | HIV infection / AIDS (the registration record in South Africa has no approved indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,7 +67,7 @@ This prediction has little repurposing value for human use. SIV infection occurs
 
 Other predictions from the model were weaker:
 - **Feline acquired immunodeficiency syndrome (veterinary):** a mechanistic rationale exists, but FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity. No trials or literature were found.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter:** no clear mechanistic link was identified, and the score likely reflects knowledge-graph artifacts.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter:** no clear mechanistic link was identified, and the score likely reflects TxGNN model (deep learning) artifacts.
 - **Obsolete familial combined hyperlipidemia:** the disease term is obsolete, and protease inhibitors are associated with dyslipidaemia as an adverse effect, which argues against benefit.
 
 ---

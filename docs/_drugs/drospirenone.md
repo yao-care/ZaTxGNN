@@ -8,6 +8,7 @@ nav_order: 206
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Drospirenone
@@ -51,8 +52,8 @@ A complete drug repurposing evaluation **cannot be conducted** until these data 
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — no linked studies; prediction pipeline not yet run |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | **Hold** |
 
 ---

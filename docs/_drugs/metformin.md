@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 ## One-Sentence Summary
 
 Metformin is a widely used oral antidiabetic drug, originally indicated for **type 2 diabetes mellitus**.
-The TxGNN model predicts it may be effective for **focal stiff limb syndrome** (score 99.4%),
+The TxGNN model predicts it may be effective for **focal stiff limb syndrome** (score 0.9940),
 but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only prediction.
 
 ---
@@ -50,10 +50,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Type 2 diabetes mellitus |
 | Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 16 |
+| South Africa Market Status | Marketed (valid licences: 16 of 16) |
+| Number of SAHPRA Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,16 +64,16 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Focal stiff limb syndrome is a rare condition within the stiff-person spectrum, thought to involve impaired GABAergic inhibition and, in many cases, autoimmune or neurological mechanisms. No plausible pathway from metformin's metabolic effects to this pathology can be established from the available evidence.
 
-The related prediction, classic stiff person syndrome, received an identical score (99.45%). It may reflect a knowledge-graph association through diabetes, as stiff person syndrome often co-occurs with type 1 diabetes (shared GAD autoimmunity). This is a hypothesis about why the model made the prediction, not evidence of efficacy.
+The related prediction, classic stiff person syndrome, received an identical score (0.9945). The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This is a hypothesis about why the model made the prediction, not evidence of efficacy.
 
 **Other predicted indications (all L5, Hold, no trials or literature):**
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Classic stiff person syndrome | 99.45% | Possible link via shared diabetes/GAD autoimmunity; no therapeutic rationale |
-| 3 | Opsismodysplasia | 99.40% | Speculative link via insulin/PI3K signalling (INPPL1/SHIP2); benefit unlikely for a congenital structural disease |
-| 4 | Thiamine-responsive dysfunction syndrome | 99.40% | Defect is thiamine transport; standard treatment is thiamine supplementation |
-| 5 | Drug-induced localized lipodystrophy | 99.06% | Plausible insulin-sensitising rationale, but localized injection-related lipodystrophy is a different process |
+| 2 | Classic stiff person syndrome | 0.9945 | Possible link via shared diabetes/GAD autoimmunity; no therapeutic rationale |
+| 3 | Opsismodysplasia | 0.9940 | Speculative link via insulin/PI3K signalling (INPPL1/SHIP2); benefit unlikely for a congenital structural disease |
+| 4 | Thiamine-responsive dysfunction syndrome | 0.9940 | Defect is thiamine transport; standard treatment is thiamine supplementation |
+| 5 | Drug-induced localized lipodystrophy | 0.9906 | Plausible insulin-sensitising rationale, but localized injection-related lipodystrophy is a different process |
 
 ---
 
@@ -107,7 +107,7 @@ The remaining registrations include fixed-dose combinations with other antidiabe
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** The knowledge graph links metformin to liver failure, liver disease, kidney disease, congestive heart failure, pancreatitis, gallbladder disease, pyoureter, adrenocortical insufficiency, thymus gland disease, and a range of pituitary deficiency and hypogonadotropic hypogonadism conditions. These should be verified against the approved label.
+- **Contraindications (TxGNN model output, not label text):** The TxGNN model (deep learning) links metformin to liver failure, liver disease, kidney disease, congestive heart failure, pancreatitis, gallbladder disease, pyoureter, adrenocortical insufficiency, thymus gland disease, and a range of pituitary deficiency and hypogonadotropic hypogonadism conditions. These links may reflect similarities the model learned between related diseases, not biological evidence, and should be verified against the approved label.
 - **Drug Interactions:** 100 interactions were identified in total; the 20 reviewed include:
   - **Major:** Acetazolamide, ethanol
   - **Moderate:** Dolutegravir, abemaciclib, phenylephrine, ranitidine, formoterol, pseudoephedrine, ketorolac, nifedipine, epinephrine, ibuprofen, ethinylestradiol, hydrocortisone, salbutamol, hydrochlorothiazide, acetohexamide
@@ -122,7 +122,7 @@ SAHPRA-approved Professional Information (PI) warnings and contraindications wer
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature and no supportable mechanistic link to focal stiff limb syndrome (Evidence Level L5). The most plausible explanation for the high score is a diabetes-related knowledge-graph association rather than a therapeutic effect.
+The prediction rests only on a TxGNN model (deep learning) score, with no clinical trials, no literature and no supportable mechanistic link to focal stiff limb syndrome (Evidence Level L5). The high score may reflect similarities the model learned between related diseases, not biological evidence or a therapeutic effect.
 
 **To proceed, the following is needed:**
 - SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)

@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00426",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00426"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "malignant-visceral-pleura-tumor",
-          "display": "malignant visceral pleura tumor"
-        }
-      ],
-      "text": "malignant visceral pleura tumor"
+      "concept": {
+        "text": "malignant visceral pleura tumor"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9904
     }
   ]
 }

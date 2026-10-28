@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
-description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
+last_modified_at: 2026-10-28
 monitor_inn: "PIOGLITAZONE"
-predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pioglitazone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Pioglitazone: From Type 2 Diabetes Mellitus to Opsismodysplasia
+## Pioglitazone: Opsismodysplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,27 +46,27 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (from the knowledge graph; the registration records list no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Opsismodysplasia |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Pioglitazone is generally known as a PPAR-gamma agonist (a thiazolidinedione) that improves insulin sensitivity. Its efficacy in type 2 diabetes is established.
 
-Opsismodysplasia is a rare skeletal dysplasia caused by mutations in *INPPL1* (SHIP2), a phosphoinositide phosphatase that modulates PI3K/insulin signalling. A theoretical link to insulin signalling therefore exists. However, there is no demonstrated effect of pioglitazone on this pathway in skeletal development. The high score (0.996) reflects model output only and is not backed by trials or literature. At present the link should be regarded as speculative.
+Opsismodysplasia is a rare skeletal dysplasia caused by mutations in *INPPL1* (SHIP2), a phosphoinositide phosphatase that modulates PI3K/insulin signalling. A theoretical link to insulin signalling therefore exists. However, there is no demonstrated effect of pioglitazone on this pathway in skeletal development. The high score (0.9959) reflects model output only and is not backed by trials or literature. At present the link should be regarded as speculative.
 
 Other top-ranked predictions show the same pattern: all are L5 with no trials. They include:
-- focal stiff limb syndrome and classic stiff person syndrome (score 99.50%)
-- thiamine-responsive dysfunction syndrome (99.48%)
-- several localised lipodystrophies (99.18–99.30%)
-- pancreatic agenesis (99.18%)
+- focal stiff limb syndrome and classic stiff person syndrome (score 0.9950)
+- thiamine-responsive dysfunction syndrome (0.9948)
+- several localised lipodystrophies (99.18–0.9930)
+- pancreatic agenesis (0.9918)
 
-Many of these appear to reflect shared diabetes or insulin-related features in the knowledge graph rather than a therapeutic mechanism. The lipodystrophy predictions have a plausible PPAR-gamma adipogenesis rationale, but it is unproven for localised forms.
+Many of these scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than a therapeutic mechanism. The lipodystrophy predictions have a plausible PPAR-gamma adipogenesis rationale, but it is unproven for localised forms.
 
 ## Clinical Trial Evidence
 
@@ -89,7 +89,7 @@ Both registrations are valid single-ingredient oral products. Essential Medicine
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not label text):** The knowledge graph links pioglitazone with contraindication in congestive heart failure, kidney disease, liver disease and gallbladder disease. It also links it to pituitary hormone deficiencies and hypogonadotropic hypogonadism (including Kallmann syndrome), adrenocortical insufficiency (Addison disease), thymus gland disease and infectious disease. These associations should be verified against the approved label.
+- **Contraindications (associations, not label text):** Pioglitazone is associated with contraindication in congestive heart failure, kidney disease, liver disease and gallbladder disease. It is also linked to pituitary hormone deficiencies and hypogonadotropic hypogonadism (including Kallmann syndrome), adrenocortical insufficiency (Addison disease), thymus gland disease and infectious disease. These associations should be verified against the approved label.
 - **Drug Interactions:** 100 interactions were identified (DDInter). Examples at **Moderate** level include phenylephrine, pseudoephedrine, epinephrine, salbutamol, formoterol, hydrocortisone, acetazolamide, hydrochlorothiazide, ethanol, abiraterone and alpelisib. Examples at **Minor** level include nifedipine, ethinylestradiol and topical corticosteroids.
 
 Warnings and contraindications from the SAHPRA-approved Professional Information (PI) have not been retrieved. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.

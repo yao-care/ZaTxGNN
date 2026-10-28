@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Desogestrel
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 165
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L3). Approved use: Not stated in the registration data compiled for this report (desoges…"
 monitor_inn: "Desogestrel"
-predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
+predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
 ---
 
 # Desogestrel
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ with **1 clinical trial** (indirect relevance) and **11 publications** currently
 |------|------|
 | Original Indication | Not stated in the registration data compiled for this report (desogestrel is a progestin used in oral contraceptives) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

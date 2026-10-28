@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00656",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00656"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "schizoid-personality-disorder",
-          "display": "schizoid personality disorder"
-        }
-      ],
-      "text": "schizoid personality disorder"
+      "concept": {
+        "text": "schizoid personality disorder"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9992
     }
   ]
 }

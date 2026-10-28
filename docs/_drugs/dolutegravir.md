@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dolutegravir
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 194
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Dolutegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Dolutegravir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ but there are **no registered clinical trials**, and only **1 preclinical/veteri
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the SAHPRA registration data compiled for this report contain no approved indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences on record: at least 20) |
 | Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -67,8 +67,8 @@ Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and causes pr
 The high TxGNN score is a computational prediction, not clinical evidence. Because FIV affects cats, this is not a human therapeutic repurposing opportunity.
 
 **Other predictions in the data:**
-- **Simian immunodeficiency virus infection** (score 99.85%, L4): supported by nonhuman primate and in vitro studies, including dolutegravir monotherapy in SIV-infected macaques with resistance selection. Its main value is as a research model for HIV, which overlaps with the existing indication.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.80%, L5): no mechanistic link, trials or literature. This likely reflects a network artifact and should be treated as hypothesis-generating only.
+- **Simian immunodeficiency virus infection** (score 0.9985, L4): supported by nonhuman primate and in vitro studies, including dolutegravir monotherapy in SIV-infected macaques with resistance selection. Its main value is as a research model for HIV, which overlaps with the existing indication.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9980, L5): no mechanistic link, trials or literature. This likely reflects a network artifact and should be treated as hypothesis-generating only.
 
 ---
 

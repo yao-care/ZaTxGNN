@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levothyroxine
-parent: Moderate Evidence (L3-L4)
-nav_order: 296
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Levothyroxine: predicted new indication Endemic goiter (evidence level L3). Approved use: Hypothyroidism"
+parent: Model Prediction Only (L5)
+nav_order: 295
+evidence_level: L5
+indication_count: 4
 monitor_inn: "Levothyroxine"
-predicted_indications: ["endemic goiter", "renal hypodysplasia/aplasia", "nodular goiter (disease)", "bilateral renal agenesis", "nontoxic goiter", "lingual goiter", "dyshormonogenic goiter", "substernal goiter", "Potter sequence", "Carney complex"]
+predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
+last_modified_at: 2026-10-23
+description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism and related thyroid conditions"
 ---
 
 # Levothyroxine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,112 +33,80 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Levothyroxine: From Hypothyroidism to Endemic Goiter
+## Levothyroxine: From Thyroid Hormone Replacement to Renal Hypodysplasia/Aplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Levothyroxine is a synthetic thyroid hormone, originally used to treat hypothyroidism and related thyroid diseases.
-The TxGNN model predicts it may be effective for **endemic goiter**, with **no registered clinical trials** but **20 publications** (mainly older European studies from 1987 to 2004) supporting this direction.
-
----
+Levothyroxine is a thyroid hormone replacement used for hypothyroidism and related thyroid conditions.
+The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypothyroidism (the SAHPRA registration data compiled for this report contain no approved indication text; the original indications are taken from the TxGNN knowledge graph and include myxedema, congenital hypothyroidism, goiter, Hashimoto thyroiditis and thyroid cancer) |
-| Predicted New Indication | Endemic goiter |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Hypothyroidism and related thyroid conditions (relations recorded in the knowledge graph; the local registration contains no indication text) |
+| Predicted New Indication | Renal hypodysplasia/aplasia |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on established pharmacology, levothyroxine replaces or supplements thyroid hormone and suppresses pituitary TSH.
+Detailed mechanism of action data is not currently available for levothyroxine. It is a synthetic thyroid hormone, and the relations recorded in the knowledge graph centre on hypothyroidism, other thyroid diseases (including thyroid cancer) and hyperlipidaemia.
 
-Endemic goiter is usually caused by iodine deficiency. Low iodine raises TSH, and TSH drives thyroid growth. Levothyroxine lowers TSH and so reduces this growth stimulus. This is a direct and well-established mechanism, and the indication overlaps with the goiter and thyroid disease uses already listed for the drug.
+The link to renal hypodysplasia/aplasia is weak. Thyroid hormone contributes to general kidney development and maturation, but these structural malformations are mainly driven by genetic variants that affect nephrogenesis (for example PAX2, HNF1B, RET, GDNF). The defect is established in utero, so postnatal hormone replacement is biologically implausible as a treatment. The high score (0.9967) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the co-occurrence of congenital anomalies with congenital hypothyroidism, not biological evidence or a therapeutic mechanism.
 
-Important caveat: the literature suggests that levothyroxine alone does not correct the intrathyroidal iodine deficiency, and relapse after stopping is common. Several studies therefore favour iodine, or an iodine-levothyroxine combination.
-
----
+Other predictions for this drug have the same problem:
+- **Bilateral renal agenesis** (score 0.9960): the kidneys are absent and levothyroxine cannot regenerate them. No supporting studies.
+- **Potter sequence** (score 0.9933): management is supportive. There is no clinical evidence that levothyroxine alters its course.
+- **Carney complex** (score 0.9918): the most biologically coherent, because thyroid nodules and neoplasia occur and TSH signals through cAMP, but levothyroxine would only manage a co-occurring thyroid condition, not the underlying disease. No evidence supports it.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for endemic goiter.
-
-(For reference, the related prediction of nodular goiter, rank 3, does have trials: [NCT00277589](https://clinicaltrials.gov/study/NCT00277589), a Phase 4 randomised placebo-controlled study with 1024 patients, and [NCT00941551](https://clinicaltrials.gov/study/NCT00941551), a randomised trial with 150 patients. These are outside the endemic goiter prediction.)
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2515973](https://pubmed.ncbi.nlm.nih.gov/2515973/) | 1989 | Multicentre randomised trial | Eur J Clin Invest | 166 patients randomised to levothyroxine, iodine, or the combination for 12 months |
-| [3278876](https://pubmed.ncbi.nlm.nih.gov/3278876/) | 1988 | Multicentre study | Dtsch Med Wochenschr | 74 patients: levothyroxine alone vs levothyroxine plus iodide for 6 months, goitre reduction assessed |
-| [7900936](https://pubmed.ncbi.nlm.nih.gov/7900936/) | 1993 | Comparative study | Clin Endocrinol | Effect of levothyroxine vs iodine on thyroid size and growth-stimulating immunoglobulins |
-| [9011485](https://pubmed.ncbi.nlm.nih.gov/9011485/) | 1996 | Clinical study | Dtsch Med Wochenschr | Iodide 300 µg vs levothyroxine 1.5 µg/kg in middle-aged and elderly patients |
-| [8676600](https://pubmed.ncbi.nlm.nih.gov/8676600/) | 1996 | Clinical study | Klin Padiatr | Adolescents: iodine vs iodine plus levothyroxine, with lipid parameters |
-| [11256036](https://pubmed.ncbi.nlm.nih.gov/11256036/) | 2001 | Clinical study | Dtsch Med Wochenschr | Two doses of levothyroxine-iodide combination for euthyroid diffuse goitre |
-| [1789063](https://pubmed.ncbi.nlm.nih.gov/1789063/) | 1991 | Double-blind clinical study | Acta Endocrinol | Thyroid iodine concentration under iodine alone vs iodine plus levothyroxine |
-| [8147031](https://pubmed.ncbi.nlm.nih.gov/8147031/) | 1993 | Review | Z Gesamte Inn Med | Iodine should always be part of therapy; levothyroxine alone leaves intrathyroidal iodine deficiency unchanged and relapse is common |
-| [24393641](https://pubmed.ncbi.nlm.nih.gov/24393641/) | 1998 | Supplementation study | Asia Pac J Clin Nutr | Levothyroxine 100 µg/day in an iodine-deficient Aboriginal population followed for 1.5 years |
-| [15035314](https://pubmed.ncbi.nlm.nih.gov/15035314/) | 2004 | Review | MMW Fortschr Med | Overview of diagnosis and treatment of benign goitre |
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 56/21.3/0331 | Roidace 25 | Tablet (oral) | Not available in the data compiled for this report |
+| Reg. No. 56/21.3/0331 | Roidace 25 | Tablet | Not stated in the data compiled for this report |
 
-Essential Medicines List (EML) status was not available in the data compiled for this report.
-
----
+This is a single-ingredient oral product and is currently valid. Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-**Knowledge-graph contraindication signals** (from drug-disease relationships, not label text):
-- Cardiovascular: hypertension, coronary artery disease, myocardial infarction
-- Pituitary and endocrine: hypopituitarism and related pituitary hormone deficiencies, hypogonadotropic hypogonadism, Kallmann syndrome, Sheehan syndrome
-- Metabolic: diabetes mellitus, diabetic ketoacidosis
-- Bone: osteoporosis, postmenopausal osteoporosis
-- Thymus gland disease
+- **Relations recorded in the knowledge graph (not label text):** The knowledge graph links levothyroxine to the following conditions as contraindications. These need to be verified against the approved Professional Information (PI).
+  - Cardiovascular: hypertension, coronary artery disease, myocardial infarction
+  - Pituitary and gonadal: hypopituitarism and pituitary hormone deficiencies, growth hormone deficiency, Sheehan syndrome, hypogonadotropic hypogonadism, Kallmann syndrome
+  - Metabolic and bone: diabetes mellitus, diabetic ketoacidosis, osteoporosis (including postmenopausal)
+  - Other: thymus gland disease
+- **Drug Interactions:** 100 interactions were found, and 20 are listed in the data compiled for this report. Most are Moderate, and one (cimetidine) is Minor.
+  - Antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, albiglutide, dulaglutide, chlorpropamide, and the SGLT2 inhibitors canagliflozin, dapagliflozin and empagliflozin): thyroid hormone may alter glycaemic control.
+  - Acid-suppressing agents (omeprazole, rabeprazole, dexlansoprazole, cimetidine) and mineral products (calcium acetate, calcium phosphate, magnesium oxide): these may affect absorption.
+  - Sympathomimetics (epinephrine, isometheptene, diethylpropion).
 
-**Drug interactions** (100 interactions identified; most are Moderate, examples below):
-- Antidiabetic agents: metformin, pioglitazone, alogliptin, canagliflozin, dapagliflozin, empagliflozin, dulaglutide, albiglutide, acarbose, chlorpropamide
-- Acid suppressants: omeprazole, rabeprazole, dexlansoprazole (Moderate); cimetidine (Minor)
-- Minerals and antacids: calcium acetate, calcium phosphate, magnesium oxide
-- Sympathomimetics: epinephrine, isometheptene, diethylpropion
-
-**Risks of TSH suppression** (from the literature): atrial fibrillation, adverse cardiac effects and bone loss, particularly in older patients.
-
-Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications, which were not available in the data compiled for this report. Report adverse drug reactions to SAHPRA.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and official contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanism is direct and well established, and multiple comparative studies in endemic goiter exist, but they are old, mostly European, and many favour iodine or iodine-levothyroxine combinations over levothyroxine alone. No registered trials support this indication, and TSH suppression carries cardiac and bone risks.
+No clinical trial or publication studies levothyroxine in renal hypodysplasia/aplasia, and the biological rationale is weak because these are structural, genetically driven developmental defects. The high TxGNN score is a computational signal only (evidence level L5).
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings and contraindications (a blocking data gap for safety screening)
-- Detailed mechanism of action data
-- Evidence relevant to South African populations, including regional iodine status
-- Guardrails: avoid overt TSH suppression, use iodine (alone or combined) as the preferred option, avoid use in older patients and those with cardiac or bone risk, and monitor TSH, cardiac and bone health
-
----
-
-*Note on other predictions:* Renal hypodysplasia/aplasia, bilateral renal agenesis, Potter sequence and Carney complex are model scores only, with no trials or literature and no plausible mechanism. They are rated Hold. Lingual, dyshormonogenic and substernal goiter have only case reports, reviews or preclinical data and remain research questions.
+- Any direct clinical or preclinical evidence that thyroid hormone alters renal development outcomes in this condition
+- SAHPRA Professional Information (warnings, contraindications and approved indications) for Roidace 25
+- Mechanism of action data
+- If any pathway is pursued, Carney complex (thyroid management in a co-occurring condition) is the most plausible direction, but it still needs supporting studies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

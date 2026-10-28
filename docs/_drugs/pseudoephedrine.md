@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 395
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold"
 monitor_inn: "PSEUDOEPHEDRINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
+description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Pseudoephedrine: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
+## Pseudoephedrine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ Currently there are **0 registered clinical trials** and **7 publications** (one
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold (from the TxGNN knowledge graph; no SAHPRA indication text is available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences on record: at least 19) |
 | Number of SAHPRA Registrations | 19 |
 | Recommended Decision | Hold (research question) |
 
@@ -61,8 +61,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 This closely matches its existing uses in rhinitis, nasopharyngitis and the common cold. "Nasal cavity disease" is therefore mostly a wider label for what the drug already treats, not a true repurposing to a new disease area.
 
 Two other predictions were also generated, and both are weak:
-- **Acute laryngopharyngitis** (score 99.73%): there are no trials or literature. The link is only indirect, because pseudoephedrine reduces upper-airway congestion and is already used for pharyngitis. It overlaps heavily with approved uses. Evidence level L5, Hold.
-- **Allergic urticaria** (score 99.14%): the retrieved literature concerns H1-antihistamines (ebastine, desloratadine, fexofenadine, loratadine), not pseudoephedrine. Pseudoephedrine does not block H1 receptors or stabilise mast cells. The high score probably reflects co-formulation with antihistamines rather than a true therapeutic link. Evidence level L5, Hold.
+- **Allergic urticaria** (score 0.9914): the retrieved literature concerns H1-antihistamines (ebastine, desloratadine, fexofenadine, loratadine), not pseudoephedrine. Pseudoephedrine does not block H1 receptors or stabilise mast cells. The high score probably reflects co-formulation with antihistamines rather than a true therapeutic link. Evidence level L5, Hold.
 
 ## Clinical Trial Evidence
 

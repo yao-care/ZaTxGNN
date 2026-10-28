@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Magnesium Trisilicate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 308
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Magnesium Trisilicate: predicted new indication Active peptic ulcer disease (evidence level L4). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, oesophagitis…"
 monitor_inn: "MAGNESIUM TRISILICATE"
 predicted_indications: ["gastroduodenitis"]
+description: "Magnesium Trisilicate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Magnesium Trisilicate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Magnesium Trisilicate: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Magnesium Trisilicate: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Magnesium trisilicate is an antacid originally used for peptic ulcer disease, gastroesophageal reflux disease, oesophagitis and dyspepsia.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is essentially the same as its existing indication rather than true repurposing.
 There are currently **no registered clinical trials** and only **2 publications** retrieved for this top prediction, neither of which directly evaluates magnesium trisilicate as a monotherapy.
 
 ---
@@ -48,12 +47,12 @@ There are currently **no registered clinical trials** and only **2 publications*
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, oesophagitis, peptic oesophagitis, dyspepsia (from the TxGNN knowledge graph; the SAHPRA registration carries no indication text) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,7 @@ There are currently **no registered clinical trials** and only **2 publications*
 
 Currently, detailed mechanism of action data is not available. Based on known information, magnesium trisilicate is an antacid that neutralises gastric acid. Its use in acid-related upper gastrointestinal disease is long established, and mechanistically it is applicable to active peptic ulcer disease.
 
-The predicted indication is essentially the same as the drug's existing indication. The very high prediction score most likely reflects this close overlap in the knowledge graph, so the prediction should not be read as a new therapeutic discovery.
+The predicted indication is essentially the same as the drug's existing indication.
 
 Other predicted conditions follow the same pattern. Gastric ulcer falls within the peptic ulcer class. Gastroduodenitis is similar to the existing dyspepsia and oesophagitis indications, although no studies were retrieved for it. Gastrojejunal ulcer (an anastomotic ulcer) shares acid-peptic pathogenesis, but the evidence is indirect. Peptic ulcer perforation is a surgical emergency that antacids do not treat. At most, antacids could support ulcer management after surgery.
 
@@ -76,7 +75,6 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The table below covers the top prediction (active peptic ulcer disease), followed by the most relevant papers retrieved for the related predicted conditions (gastrojejunal ulcer and gastric ulcer).
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

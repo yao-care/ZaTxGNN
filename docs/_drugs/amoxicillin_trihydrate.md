@@ -8,6 +8,7 @@ nav_order: 36
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amoxicillin Trihydrate
@@ -53,8 +54,8 @@ A complete drug repurposing evaluation **cannot be conducted** until the identif
 | Predicted New Indication | None — no TxGNN predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — No predictions or supporting studies available |
-| South Africa Market Status | Not Registered |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 14 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---

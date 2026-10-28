@@ -4,17 +4,17 @@ title: Zinc Oxide
 parent: Moderate Evidence (L3-L4)
 nav_order: 480
 evidence_level: L4
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Tinea pedis, dermatitis, tinea corporis, cutaneous candidiasis…"
 monitor_inn: "Zinc oxide"
-predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "post-infectious syndrome", "otitis externa"]
+predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
+description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Zinc Oxide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Zinc Oxide: From Dermatological and Anorectal Conditions to Acne
+## Zinc Oxide: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be useful for **acne (disease)**, but there are 
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, dermatitis, tinea corporis, cutaneous candidiasis, pityriasis versicolor, haemorrhoids, burns, proctitis (from the TxGNN knowledge graph; the SAHPRA registrations list no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

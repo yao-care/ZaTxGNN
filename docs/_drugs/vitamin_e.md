@@ -6,9 +6,9 @@ nav_order: 474
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L5). Approved use: Cholestasis (including benign recurrent and familial intrahepatic cho…"
 monitor_inn: "Vitamin E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
+description: "Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vitamin E
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Vitamin E: From Cholestasis-Related Vitamin Deficiency to Inborn Disorder of Bilirubin Metabolism
+## Vitamin E: Inborn disorder of bilirubin metabolism
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **inborn disorder of bilirubin 
 
 | Item | Content |
 |------|------|
-| Original Indication | Cholestasis (including benign recurrent and familial intrahepatic cholestasis) and familial isolated vitamin E deficiency (from the knowledge graph; South African registrations list no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Inborn disorder of bilirubin metabolism |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

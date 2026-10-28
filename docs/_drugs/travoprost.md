@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Travoprost"
-predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
+predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
 ---
 
 # Travoprost
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 |------|------|
 | Original Indication | Open-angle glaucoma; ocular hypertension |
 | Predicted New Indication | Visceral calciphylaxis |
-| TxGNN Prediction Score | 99.9998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, travoprost is a topical prostaglandin FP-receptor agonist. Its efficacy in lowering intraocular pressure is established, and it has vasodilatory properties.
 
-No plausible link to calcific uremic arteriolopathy (calciphylaxis) is documented. The very high score most likely reflects proximity to vascular-disease nodes in the knowledge graph rather than a validated mechanism. The original indication (an eye pressure disorder) and the predicted indication (a calcifying small-vessel disease, usually in kidney failure) share no known pathway.
+No plausible link to calcific uremic arteriolopathy (calciphylaxis) is documented. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The original indication (an eye pressure disorder) and the predicted indication (a calcifying small-vessel disease, usually in kidney failure) share no known pathway.
 
-Other top-ranked predictions are also computational only, with no trials or literature: venous, arterial and neurogenic thoracic outlet syndrome, angiodysplasia of stomach, blue toe syndrome, spontaneous coronary artery dissection and lymphangiectasis. The broader "vascular disease" prediction (score 99.9997%) and hemangioendothelioma are discussed below as the only ones with any retrieved material, and neither shows a therapeutic benefit.
+Other top-ranked predictions are also computational only, with no trials or literature: venous, arterial and neurogenic thoracic outlet syndrome, angiodysplasia of stomach, blue toe syndrome, spontaneous coronary artery dissection and lymphangiectasis. The broader "vascular disease" prediction (score 1.0000) and hemangioendothelioma are discussed below as the only ones with any retrieved material, and neither shows a therapeutic benefit.
 
 ## Clinical Trial Evidence
 

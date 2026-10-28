@@ -2,19 +2,19 @@
 layout: default
 title: Ephedrine
 parent: Model Prediction Only (L5)
-nav_order: 214
+nav_order: 213
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-15
-description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, rhinitis, nasopharyngitis…"
+indication_count: 2
 monitor_inn: "EPHEDRINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+last_modified_at: 2026-10-27
+description: "Ephedrine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ephedrine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,35 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Ephedrine: From Allergic Rhinitis and Related Upper Airway Conditions to Nasal Cavity Disease
+## Ephedrine: sympathomimetic (indirect alpha/beta-adrenergic agonist) → nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ephedrine is a sympathomimetic agent originally used for allergic and vasomotor rhinitis, the common cold, pharyngitis, bronchitis and conjunctivitis, among other conditions.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, but the evidence is thin: **0 registered clinical trials** and only **2 publications** (a 1964 combination-product study and a 2000 uncontrolled observation of a compound spray). Because the new indication largely overlaps with its existing uses, this is a broader restatement rather than a true repurposing.
+Ephedrine is a sympathomimetic drug that promotes norepinephrine release and is marketed in South Africa in single-ingredient products.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **no registered clinical trials** and only **2 low-tier publications** (a 1964 combination-product test and a 2000 uncontrolled observation of a compound spray), neither of which directly establishes efficacy for this disease.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, rhinitis, nasopharyngitis, common cold, pharyngitis, bronchitis, headache disorder, conjunctivitis (atopic, papillary, vernal). The indication text on the local registrations is empty, so this list comes from the knowledge graph. |
-| Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 (no trials; only two low-tier publications on combination products) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 12 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | nasal cavity disease |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 12 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. From general pharmacology, ephedrine is an indirect-acting sympathomimetic that promotes norepinephrine release and also has some direct adrenergic activity. Alpha-1 mediated vasoconstriction of nasal mucosal vessels reduces swelling and congestion.
+Detailed mechanism of action data is not currently available. Based on general pharmacology, ephedrine is an indirect-acting sympathomimetic that promotes norepinephrine release and acts on alpha- and beta-adrenergic receptors. Alpha-1 mediated vasoconstriction of nasal mucosal vessels reduces mucosal swelling and congestion, which is mechanistically consistent with a role in nasal cavity disorders.
 
-This is consistent with its established use in allergic rhinitis, vasomotor rhinitis, rhinitis and nasopharyngitis. "Nasal cavity disease" is a broad category that already contains these conditions. The high TxGNN score therefore mostly reflects existing uses, and the mechanistic link is inferred rather than demonstrated.
-
-Two other predictions were generated, both at evidence level L5 (model prediction only) and both on Hold:
-- **Acute laryngopharyngitis** (score 99.90%): no trials or literature. The link is indirect decongestion, and vasoconstriction does not address the infectious or inflammatory cause. Pharyngitis is already an original indication.
-- **Trigeminal autonomic cephalalgia** (score 99.34%): no trials or literature. The link to headache is speculative, and sympathomimetics carry cardiovascular risks and may worsen headache.
+Because nasal congestion is a feature of many upper-airway conditions, the prediction is largely a broad restatement of familiar decongestant pharmacology rather than a truly novel repurposing idea. This link is inferred from general pharmacology and has not been confirmed by the data compiled for this report.
 
 ## Clinical Trial Evidence
 
@@ -71,57 +67,40 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14211229](https://pubmed.ncbi.nlm.nih.gov/14211229/) | 1964 | Clinical testing (combination product) | Svenska lakartidningen | Experimental testing of an antihistamine (N-hydroxyethylpromethazine chloride) combined with ephedrine hydrochloride in the nasal cavity. No abstract is available, so results cannot be summarised. |
-| [11789239](https://pubmed.ncbi.nlm.nih.gov/11789239/) | 2000 | Preliminary clinical observation (uncontrolled) | Zhongguo Zhong Xi Yi Jie He Za Zhi | Preliminary observation of a compound rhinitis spray for chronic rhinitis. The abstract states only the aim, and ephedrine's individual contribution cannot be isolated. |
-
-Both publications involve combination products, are uncontrolled or old, and have not been assessed for relevance.
+| [14211229](https://pubmed.ncbi.nlm.nih.gov/14211229/) | 1964 | Clinical testing (combination product) | Svenska lakartidningen | Experimental clinical testing of an antihistamine (N-hydroxyethylpromethazine chloride) combined with ephedrine hydrochloride in the nasal cavity; no abstract available |
+| [11789239](https://pubmed.ncbi.nlm.nih.gov/11789239/) | 2000 | Preliminary observation (uncontrolled) | Zhongguo Zhong xi yi jie he za zhi | Compound rhinitis spray studied in chronic rhinitis; the product is a combination, so the effect of ephedrine alone cannot be separated |
 
 ## South Africa Market Information
 
-All 12 registrations are valid single-ingredient registrations. The approved indication text is not available for any of them. The data compiled for this report does not state Essential Medicines List (EML) status.
-
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| C795 (OM) | Grippon Cold And Flu Syrup | Syrup | Not available |
-| G1236 | Codef Cough | Syrup | Not available |
-| 29/5.8/0782 | Sinuend | Tablet | Not available |
-| G979 | Sinucon | Tablet | Not available |
-| C 810 (OM) | Colcleer (cold + flu) | Tablet | Not available |
+| C795 (OM) | Grippon Cold And Flu Syrup | Syrup | Not recorded |
+| G1236 | Codef Cough | Syrup | Not recorded |
+| 29/5.8/0782 | Sinuend | Tablet | Not recorded |
+| G979 | Sinucon | Tablet | Not recorded |
+| C 810 (OM) | Colcleer (cold+flu) | Tablet | Not recorded |
 
-The remaining 7 registrations are Brunacod, Docsed, Flusin (capsule), Dequa-coff, Corbar linctus, Coughcod senior and Coughcod junior. The product names suggest that most are cough, cold and flu preparations.
+Showing 5 of the 12 valid single-ingredient registrations. Other products include syrups (Brunacod, Docsed, Dequa-coff, Corbar linctus, Coughcod senior and junior) and a capsule (Flusin). Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-- **Contraindications suggested by the knowledge graph** (drug-disease edges, not label text): hypertension, congestive heart failure, hypothyroidism, open-angle glaucoma, epilepsy, anxiety and other mental disorders (including psychotic disorders), COPD, liver and kidney disease, gastric and peptic ulcer, pancreatitis, gallbladder disease, inflammatory bowel disease, thrombocytopenia and porphyria. These need confirmation against the SAHPRA-approved Professional Information (PI).
-- **Drug interactions:** 100 interactions were recorded; 20 are shown in the data compiled for this report. Major-level interactions among those shown include:
-  - Tramadol
-  - Amitriptyline
-  - Bupropion
-  - Methylene blue
+- **Contraindications flagged in the source data (not label text):** hypertension, congestive heart failure, liver disease and liver failure, kidney disease, epilepsy, COPD, peptic and gastric ulcer, hypothyroidism, open-angle glaucoma, inflammatory bowel disease, pancreatitis, gallbladder disease, thrombocytopenia, porphyria, anxiety and related disorders, and psychotic or other mental disorders. These should be checked against the SAHPRA-approved Professional Information (PI).
+- **Drug Interactions:** 100 interactions are recorded. Major-level examples include tramadol, amitriptyline, bupropion and methylene blue. Moderate-level examples include metformin, salbutamol, formoterol, methylphenidate, amphetamine, atenolol and atomoxetine.
 
-  Moderate-level interactions include:
-  - Beta-blockers (atenolol, acebutolol)
-  - Other adrenergic agents (salbutamol, formoterol, arformoterol, methylphenidate, amphetamine, atomoxetine)
-  - Antidiabetic agents (metformin, acarbose, alogliptin, albiglutide)
-
-  Morphine and ascorbic acid are minor.
-
-The label warnings and contraindications from the SAHPRA package insert have not been retrieved. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+SAHPRA package insert warnings and contraindications have not yet been retrieved. Please refer to the SAHPRA-approved PI and report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for nasal cavity disease largely restates ephedrine's existing uses. There are no registered trials, and the two publications are old or uncontrolled combination-product studies. Package insert safety data has not been obtained, which blocks progression to safety screening.
+No registered trials and only two low-tier publications involving combination products support this prediction, so no cited study directly establishes ephedrine's efficacy in nasal cavity disease. The evidence is at model-prediction level (L5), and the broad cardiovascular and interaction profile calls for careful review.
 
 **To proceed, the following is needed:**
-- Download and review the SAHPRA package inserts to obtain warnings, contraindications and approved indications for the 12 registrations.
-- Obtain mechanism-of-action data from DrugBank.
-- Define which specific nasal cavity conditions go beyond the current labelled uses. If none do, the prediction adds little novelty.
-- Search for controlled studies of ephedrine as a single agent in nasal conditions.
-- Assess cardiovascular and interaction risks, given the number of KG-flagged contraindications and recorded interactions.
-- Consider the two other predictions (acute laryngopharyngitis, trigeminal autonomic cephalalgia) only if supporting evidence emerges. Both currently have no clinical support.
+- Retrieve and review the SAHPRA package insert for warnings and contraindications
+- Obtain detailed mechanism of action data from DrugBank
+- Search for controlled studies of single-ingredient ephedrine in specific nasal conditions
+- Define the specific nasal cavity condition and population of interest, with a cardiovascular safety and interaction review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

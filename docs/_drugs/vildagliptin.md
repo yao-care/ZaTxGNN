@@ -4,7 +4,7 @@ title: Vildagliptin
 parent: Model Prediction Only (L5)
 nav_order: 472
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "VILDAGLIPTIN"
@@ -14,7 +14,7 @@ predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndr
 # Vildagliptin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Vildagliptin is an oral DPP-4 inhibitor used to treat type 2 diabetes mellitus. The TxGNN model's top-ranked prediction is **classic stiff person syndrome**, but there are **0 clinical trials** and **0 publications** behind it, so it is a graph-based prediction only. Among the model's 10 predicted indications, only **type 1 diabetes mellitus** has meaningful supporting evidence (**7 registered trials** and **20 publications** retrieved). It is covered in a separate section below.
+Vildagliptin is an oral DPP-4 inhibitor used to treat type 2 diabetes mellitus. The TxGNN model's top-ranked prediction is **classic stiff person syndrome**, but there are **0 clinical trials** and **0 publications** behind it, so it is a model-based prediction only.
 
 ---
 
@@ -48,10 +48,10 @@ Vildagliptin is an oral DPP-4 inhibitor used to treat type 2 diabetes mellitus. 
 |------|------|
 | Original Indication | Type 2 diabetes mellitus (SAHPRA indication text is not recorded in the data compiled for this report) |
 | Predicted New Indication | Classic stiff person syndrome |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Vildagliptin is an oral DPP-4 inhibitor used to treat type 2 diabetes mellitus. 
 
 Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that vildagliptin binds dipeptidyl peptidase-4 (DPP-4), as well as DPP-8, DPP-9 and TRPV4. DPP-4 inhibition raises active GLP-1 and GIP levels, which improves insulin secretion and suppresses glucagon in type 2 diabetes.
 
-For classic stiff person syndrome, no plausible mechanistic link is established. The disease is an autoimmune disorder of GABAergic signalling, and nothing in the data connects it to DPP-4 inhibition. The score of 99.88% is identical to that of focal stiff limb syndrome, the second-ranked prediction. This suggests the prediction comes from shared disease-graph neighbours rather than drug-specific biology. The model's other top-ranked predictions also lack any supporting evidence. These are thiamine-responsive dysfunction syndrome, opsismodysplasia, several localised lipodystrophies and pancreatic agenesis.
+For classic stiff person syndrome, no plausible mechanistic link is established. The disease is an autoimmune disorder of GABAergic signalling, and nothing in the data connects it to DPP-4 inhibition. The score of 0.9988 is identical to that of focal stiff limb syndrome, the second-ranked prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The model's other top-ranked predictions also lack any supporting evidence. These are thiamine-responsive dysfunction syndrome, opsismodysplasia, several localised lipodystrophies and pancreatic agenesis.
 
 ---
 
@@ -76,9 +76,7 @@ Currently no related literature available for classic stiff person syndrome.
 
 ---
 
-## Other Predicted Indication With Evidence: Type 1 Diabetes Mellitus
 
-This is the model's 10th-ranked prediction (score 99.37%). It is the only one of the 10 predicted indications with trials and publications.
 
 **Selected clinical trials (type 1 diabetes populations)**
 
@@ -129,7 +127,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold** (classic stiff person syndrome)
 
 **Rationale:**
-- The prediction has no trials, no literature and no plausible mechanistic link. The high score reflects graph proximity, not drug-specific evidence.
+- The prediction has no trials, no literature and no plausible mechanistic link. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - Type 1 diabetes is the only predicted indication worth pursuing. It could be framed as a **research question** for adjunctive use, not as a ready-to-use indication.
 
 **To proceed, the following is needed:**

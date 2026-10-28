@@ -8,6 +8,7 @@ nav_order: 145
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Codeine Hcl
@@ -49,7 +50,7 @@ Codeine HCL is a well-known opioid analgesic and antitussive agent used for pain
 | Predicted New Indication | None returned by TxGNN |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A |
-| South Africa Market Status | Not marketed |
+| South Africa Market Status | Marketed (valid licences on record: at least 20) |
 | Number of SAHPRA Registrations | 0 |
 | Recommended Decision | **Hold** |
 

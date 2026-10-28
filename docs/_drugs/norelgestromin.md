@@ -48,10 +48,10 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Not stated in the registration data compiled for this report (the product is a contraceptive patch) |
 | Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -8,6 +8,7 @@ nav_order: 201
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Dorzolamide Hydrochloride
@@ -51,8 +52,8 @@ Dorzolamide hydrochloride is a carbonic anhydrase inhibitor conventionally used 
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — no predictions generated; evaluation cannot proceed |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 ---

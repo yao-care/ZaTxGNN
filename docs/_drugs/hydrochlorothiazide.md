@@ -8,6 +8,7 @@ nav_order: 253
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Hydrochlorothiazide
@@ -51,7 +52,7 @@ Hydrochlorothiazide is a long-established thiazide diuretic used primarily for h
 | Predicted New Indication | None generated in this Evidence Pack |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — no predictions to evaluate |
-| South Africa Market Status | Not Marketed *(per Evidence Pack — see data quality note below)* |
+| South Africa Market Status | Marketed (valid licences on record: at least 20) |
 | Number of SAHPRA Registrations | 0 *(per Evidence Pack — likely a data retrieval gap; see note)* |
 | Recommended Decision | **Hold** |
 

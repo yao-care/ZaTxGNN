@@ -4,17 +4,17 @@ title: Latanoprostene Bunod
 parent: Model Prediction Only (L5)
 nav_order: 289
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Latanoprostene Bunod: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Latanoprostene bunod"
-predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "idiopathic spontaneous coronary artery dissection", "angiodysplasia of stomach", "lymphangiectasis", "hemangioendothelioma"]
+predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "idiopathic spontaneous coronary artery dissection", "angiodysplasia of stomach", "lymphangiectasis", "hemangioendothelioma"]
 ---
 
 # Latanoprostene Bunod
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Among the other top-ranked predictions, only "vascular disease" has any related 
 |------|------|
 | Original Indication | Open-angle glaucoma; ocular hypertension (SAHPRA indication text not available) |
 | Predicted New Indication | Visceral calciphylaxis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,10 +61,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 The link to visceral calciphylaxis (a condition of calcification and blockage of small blood vessels) is only theoretical. NO-mediated vasodilation could in principle relate to calcific vascular disease, but no clinical or published support exists. The drug is given as an eye drop, so very little reaches the rest of the body, which makes an effect on a visceral vascular disease unlikely. The prediction should be treated as a hypothesis only.
 
 Other predictions in the top 10 are also weak:
-- **Primary hereditary glaucoma** (score 99.71%): mechanistically coherent, but it is essentially an extension of the existing indication. Congenital forms often need surgery, and no specific evidence was found.
-- **Thoracic outlet syndromes (venous, arterial, neurogenic)**, **spontaneous coronary artery dissection**, **angiodysplasia of stomach** and **lymphangiectasis**: no plausible mechanistic link and no evidence. These are likely artefacts of how the model propagates information through its knowledge graph.
-- **Vascular disease** (score 99.53%): indirect ocular blood-flow rationale only.
-- **Hemangioendothelioma** (score 99.47%): the only publication is a safety signal, not evidence of benefit.
+- **Thoracic outlet syndromes (venous, arterial, neurogenic)**, **spontaneous coronary artery dissection**, **angiodysplasia of stomach** and **lymphangiectasis**: no plausible mechanistic link and no evidence. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+- **Vascular disease** (score 0.9953): indirect ocular blood-flow rationale only.
+- **Hemangioendothelioma** (score 0.9947): the only publication is a safety signal, not evidence of benefit.
 
 ## Clinical Trial Evidence
 

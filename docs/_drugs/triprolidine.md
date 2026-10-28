@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Triprolidine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 462
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Triprolidine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis (other original indications: vasomotor rhinitis…"
 monitor_inn: "TRIPROLIDINE"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Triprolidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Triprolidine: From Allergic Rhinitis to Allergic Urticaria
+## Triprolidine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Triprolidine is a first-generation H1-receptor antihistamine, originally used for allergic and vasomotor rhinitis, the common cold, allergic conjunctivitis and urticaria.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but there are **no registered clinical trials** and only **2 loosely related publications**, so the prediction rests mainly on mechanism and model score.
 Much of this is an extension of an existing indication rather than true repurposing.
 
 ---
@@ -48,12 +47,12 @@ Much of this is an extension of an existing indication rather than true repurpos
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (other original indications: vasomotor rhinitis, common cold, atopic conjunctivitis, urticaria, angioedema). No approved indication text is available in the SAHPRA records compiled for this report. |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 13 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 13 of 13) |
+| Number of SAHPRA Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,7 @@ Much of this is an extension of an existing indication rather than true repurpos
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, triprolidine is a first-generation H1-receptor antagonist. It blocks histamine at H1 receptors and also has anticholinergic and sedating effects.
 
-Allergic urticaria is a histamine-mediated condition, so H1 blockade is mechanistically consistent. Triprolidine is already linked to urticaria (disease) and angioedema in the knowledge graph. The very high TxGNN score (0.9999) therefore probably reflects its close similarity to these existing indications rather than a new therapeutic signal.
+Allergic urticaria is a histamine-mediated condition, so H1 blockade is mechanistically consistent.
 
 Other predictions (cold urticaria, nasal cavity disease, pharyngitis, acute laryngopharyngitis, recalcitrant atopic dermatitis, atopic IgE responsiveness) have even weaker support. Most have no direct evidence, and some are mechanistically doubtful. For example, histamine is not the main driver of atopic dermatitis, and the drying effect could worsen throat irritation.
 

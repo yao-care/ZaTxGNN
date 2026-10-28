@@ -8,6 +8,7 @@ nav_order: 94
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Calcium Chloride Dihydrate
@@ -53,7 +54,7 @@ Due to blocking data gaps and the absence of any prediction output, this candida
 | Predicted New Indication | None – TxGNN returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction only; no predictions generated) |
-| South Africa Market Status | Not marketed |
+| South Africa Market Status | Marketed (valid licences on record: at least 17) |
 | Number of SAHPRA Registrations | 0 |
 | Recommended Decision | **Hold** |
 

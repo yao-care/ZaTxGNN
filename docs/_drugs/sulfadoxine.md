@@ -4,17 +4,17 @@ title: Sulfadoxine
 parent: Model Prediction Only (L5)
 nav_order: 429
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Sulfadoxine: predicted new indication Gout (evidence level L5). Approved use: Not stated in the SAHPRA record compiled for this report (the drug is…"
 monitor_inn: "Sulfadoxine"
-predicted_indications: ["gout", "bronchitis", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "conjunctivitis", "appendicitis", "obsolete hyperuricemia (disease)", "Lesch-Nyhan syndrome", "peritonitis"]
+predicted_indications: ["gout"]
+description: "Sulfadoxine: predicted new indication Gout (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sulfadoxine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sulfadoxine: From Malaria (Registered Antimalarial Use) to Gout
+## Sulfadoxine: Gout
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Sulfadoxine is a long-acting sulfonamide that inhibits the folate pathway of microbes and is registered in South Africa as Fansidar tablets, where it is used mainly with pyrimethamine against malaria.
 The TxGNN model predicts it may be effective for **gout**, but **no clinical trials and no relevant publications** support this prediction.
-It is a graph-based signal only and should be treated as hypothesis-level.
 
 ---
 
@@ -48,12 +47,12 @@ It is a graph-based signal only and should be treated as hypothesis-level.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA record compiled for this report (the drug is generally used with pyrimethamine for malaria) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Gout |
-| TxGNN Prediction Score | 99.10% |
+| TxGNN Prediction Score | 0.9910 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,14 +61,11 @@ It is a graph-based signal only and should be treated as hypothesis-level.
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, sulfadoxine is a long-acting sulfonamide that inhibits dihydropteroate synthase in the microbial folate pathway.
 
-For gout, no plausible mechanism has been identified. Sulfadoxine has no known uricosuric or xanthine oxidase inhibitory activity. The high score (0.991) most likely reflects graph proximity, possibly through sulfonamide-class links to urate handling, rather than a real pharmacological relationship.
+For gout, no plausible mechanism has been identified. Sulfadoxine has no known uricosuric or xanthine oxidase inhibitory activity.
 
 Other predictions for this drug show the same weakness:
-- **Obsolete hyperuricemia (disease)** and **Lesch-Nyhan syndrome** are probably the same signal as gout, because they sit close to it in the knowledge graph. They are not independent evidence.
-- **Bronchitis** and **peritonitis** have only a general antibacterial rationale. Acute bronchitis is mostly viral, and better-characterised antibiotics exist.
-- **Diabetic nephropathy** has no therapeutic rationale. Sulfonamides are renally cleared and carry renal and hypoglycaemia concerns.
-- **Conjunctivitis**: the one paper describes ocular damage caused by sulfadoxine-pyrimethamine, which is an adverse effect, not a benefit.
-- **Two COL4A1-related rare vascular disorders** and **appendicitis** have no mechanistic link, and the literature matches look like retrieval artefacts.
+- They are not independent evidence.
+- Sulfonamides are renally cleared and carry renal and hypoglycaemia concerns.
 
 ---
 
@@ -123,12 +119,11 @@ SAHPRA package insert warnings and contraindications were not available. Please 
 **Decision: Hold**
 
 **Rationale:**
-The gout prediction rests only on a knowledge-graph score, with no trials, no supporting literature and no plausible mechanism. The drug also carries notable safety concerns (severe cutaneous reactions, blood disorders, renal effects), and established urate-lowering agents are available.
+The gout prediction rests only on a TxGNN model (deep learning) score, with no trials, no supporting literature and no plausible mechanism. The drug also carries notable safety concerns (severe cutaneous reactions, blood disorders, renal effects), and established urate-lowering agents are available.
 
 **To proceed, the following is needed:**
 - Retrieve the SAHPRA package insert to confirm the registered indication, warnings and contraindications
 - Obtain mechanism of action data (for example from DrugBank) and test whether any urate-related mechanism exists
-- Run a systematic literature search specific to sulfonamides and urate handling, to check whether the graph signal has any real basis
 - Consider reprioritising to candidates with actual supporting evidence, since the other nine predictions are equally unsupported
 ## Disclaimer
 

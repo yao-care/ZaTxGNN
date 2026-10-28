@@ -2,19 +2,19 @@
 layout: default
 title: Glycine
 parent: Model Prediction Only (L5)
-nav_order: 248
+nav_order: 247
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
+indication_count: 1
 monitor_inn: "Glycine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "dyspepsia", "non-syndromic esophageal malformation", "papillary conjunctivitis", "gastroparesis (disease)", "Ureaplasma urethritis", "gonococcal urethritis"]
+predicted_indications: ["nasal cavity disease"]
+last_modified_at: 2026-10-27
+description: "Glycine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Glycine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Glycine: From Allergic Rhinitis and Upper Respiratory Conditions to Nasal Cavity Disease
+## Glycine: amino acid nutrient and neurotransmitter → nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Glycine is an amino acid. The knowledge graph used for this report lists it for allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis and nasopharyngitis.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, but this is a computational prediction only.
-**1 clinical trial** and **2 publications** were retrieved, and none of them tests glycine as a treatment for this condition.
+Glycine is an amino acid used in South Africa as an ingredient in parenteral nutrition and other products.
+The TxGNN model predicts it may be relevant for **nasal cavity disease**, but **no clinical trial or publication** directly studies glycine for this condition.
+The prediction rests on a model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; the SAHPRA registrations carry no indication text) |
-| Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.85% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | nasal cavity disease |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 11 |
+| South Africa Market Status | Marketed (valid licences: 11 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Glycine is a simple amino acid. In South Africa it is registered mainly as a component of parenteral nutrition and peritoneal dialysis products, with one powder product (Cicatrin). Its knowledge-graph indications include several nose and throat conditions.
+Currently, detailed mechanism of action data is not available for glycine, so no mechanism can be described with confidence.
 
-The prediction is probably driven by similarity to these original indications (rhinitis and nasopharyngitis are themselves nasal conditions), not by new mechanistic insight. No credible mechanistic link between glycine and nasal cavity disease was identified in the data compiled for this report. The high score (0.998) should be read as a model output only.
+The review of the linked studies did not find a credible mechanistic link between glycine and nasal cavity disease. The one linked trial is a diagnostic imaging study of a PET tracer in cancer patients, and the two linked papers cover lectin staining of bovine nasal mucosa and polymer-based delivery agents for nasal vaccines. None of them tests glycine as a treatment.
 
-Other predictions, such as acute laryngopharyngitis (99.84%), have no trials or literature behind them. Dyspepsia (96.42%) has only indirect literature. Several others, such as faucial diphtheria, gonococcal urethritis and Ureaplasma urethritis, have no plausible role for glycine.
+The high TxGNN score (0.9985) is a computational output only. It should be read as a hypothesis for further investigation, not as evidence of benefit.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET/CT or PET/MRI imaging of angiogenesis (αvβ3 integrin) with a new radiotracer in cancer patients. It is a diagnostic study and does not test glycine, so it provides no efficacy or safety evidence. |
+| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET/CT or PET/MRI imaging of the tracer 18F-FPPRGD2 to assess angiogenesis in glioblastoma, gynaecological cancers and renal cell carcinoma. It does not test glycine and gives no efficacy or safety evidence for nasal cavity disease. |
 
-No SANCTR or PACTR registrations were identified.
+No SANCTR or PACTR registrations were identified in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Preclinical | Chem Pharm Bull | Oligoarginine-polymer conjugates as a mucosal vaccine adjuvant for antibody induction in nasal cavities (mouse). It is not about glycine therapy. |
-| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic research | Vet Pathol | Lectin histochemistry of normal and herpesvirus-infected bovine nasal mucosa. It is not relevant to glycine treatment. |
-
-Neither publication supports a therapeutic role for glycine in nasal cavity disease.
+| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Preclinical | Chem Pharm Bull | Oligoarginine-linked polymers as mucosal adjuvants for nasal vaccination in mice. Not about glycine. |
+| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic research | Vet Pathol | Lectin histochemistry of normal and herpesvirus-infected bovine nasal mucosa. Not about glycine. |
 
 ## South Africa Market Information
 
-All 11 registrations are valid single-ingredient products. No approved indication text was available for any of them. Essential Medicines List status could not be determined from the data compiled for this report. The first five registrations are shown below.
+SAHPRA records show 11 valid single-ingredient registrations; none carry approved-indication text in the local data. Main registrations:
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| G2370 (Act 101/1965) | Cicatrin Powder 15G | Powder | Not stated |
-| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated |
-| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated |
-| 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated |
-
-The other six registrations are Numeta G13E, Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized and Nutriflex Lipid Special 625ml. They are mostly infusion or parenteral nutrition products. None is a nasal or oral formulation for upper respiratory use, so route compatibility with the predicted indication is unestablished.
+| G2370 (ACT 101/1965) | Cicatrin Powder 15G | Powder | Not recorded |
+| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not recorded |
+| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not recorded |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not recorded |
+| 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not recorded |
 
 ## Safety Considerations
 
-No label-based warnings, contraindications or drug interaction data were available.
-
-The knowledge graph links glycine to contraindications in the following conditions. This is not label text and should be verified against the Professional Information:
-- **Renal:** kidney disease, chronic kidney disease, chronic renal failure, end-stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy
-- **Calcium, phosphate and parathyroid disorders:** hypercalcaemia, humoral hypercalcaemia of malignancy, hyperparathyroidism, osteitis fibrosa, hyperphosphataemia, phosphorus metabolism disease, sarcoidosis, hypervitaminosis, lytic metastatic bone lesion
-- **Cardiovascular:** heart disease, cardiovascular disease, arteriosclerosis obliterans, digitalis poisoning, ventricular fibrillation
-- **Metabolic and other:** phenylketonuria and disorders of phenylalanine metabolism, constipation disorder
-
-Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score but no supporting clinical evidence (Level L5). The only trial retrieved is an unrelated imaging study, and the two publications are unrelated to glycine therapy. The prediction appears to reflect similarity to glycine's existing nasal and throat indications. Current SAHPRA-registered glycine products are mainly parenteral or dialysis formulations, not nasal ones.
+The prediction has a high model score but no study directly examines glycine in nasal cavity disease, so the evidence level is L5. Safety and mechanism data are also missing.
 
 **To proceed, the following is needed:**
-- A targeted literature review of glycine in nasal and upper airway disease
-- Mechanism of action data
-- SAHPRA Professional Information (warnings and contraindications), which is currently missing and blocks safety screening
-- A route and formulation assessment, since no registered product is suited to nasal use
-- Clinical data, at minimum a well-designed pilot study, before any further consideration
+- Mechanism of action data for glycine and a plausible biological link to nasal cavity disease
+- Retrieval of the SAHPRA Professional Information to review warnings and contraindications
+- Preclinical or clinical studies that test glycine directly in a nasal condition
+- Confirmation of a suitable route and formulation (all current registrations are for infusion, powder or vial forms, not nasal use)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

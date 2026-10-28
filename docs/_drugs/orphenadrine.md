@@ -6,9 +6,9 @@ nav_order: 358
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Parkinsonian disorder / Parkinson disease"
 monitor_inn: "ORPHENADRINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
+description: "Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Orphenadrine
@@ -33,32 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Orphenadrine: From Parkinson Disease to Retinal Dystrophy with or without Extraocular Anomalies
+## Orphenadrine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Orphenadrine was originally used to treat parkinsonian disorders (Parkinson disease). The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, with a high score of 99.29%. However, there are currently **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
+Orphenadrine was originally used to treat parkinsonian disorders (Parkinson disease). The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, with a high score of 0.9929. However, there are currently **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinsonian disorder / Parkinson disease (the SAHPRA registration data compiled for this report has no indication text, so this comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on general pharmacology, orphenadrine is an anticholinergic agent that also has NMDA-receptor-blocking and antihistamine properties. Its efficacy in parkinsonian disorders and in drug-induced extrapyramidal symptoms is established.
 
-No plausible mechanistic link to inherited retinal degeneration was identified. The predicted condition is a genetic retinal disorder, and nothing in the data compiled for this report connects cholinergic or NMDA blockade to its disease process. The high TxGNN score is therefore a statistical signal from the knowledge graph, not a demonstrated biological rationale.
+No plausible mechanistic link to inherited retinal degeneration was identified. The predicted condition is a genetic retinal disorder, and nothing in the data compiled for this report connects cholinergic or NMDA blockade to its disease process. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-**Note on other predictions:** Among the seven predicted indications, only **schizophrenia** (rank 5, score 99.13%) has supporting literature, mostly older studies of orphenadrine used with antipsychotics (e.g., haloperidol) to treat extrapyramidal side effects. This shows a role as an adjunct for antipsychotic side effects, not as a treatment for core schizophrenia. NMDA antagonism may even worsen psychotic-like symptoms, so the direction of effect is unclear. It is the only prediction that merits a research question, but it is outside the primary prediction evaluated here.
+**Note on other predictions:** Among the seven predicted indications, only **schizophrenia** (rank 5, score 0.9913) has supporting literature, mostly older studies of orphenadrine used with antipsychotics (e.g., haloperidol) to treat extrapyramidal side effects. This shows a role as an adjunct for antipsychotic side effects, not as a treatment for core schizophrenia. NMDA antagonism may even worsen psychotic-like symptoms, so the direction of effect is unclear. It is the only prediction that merits a research question, but it is outside the primary prediction evaluated here.
 
 ## Clinical Trial Evidence
 

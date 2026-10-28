@@ -8,6 +8,7 @@ nav_order: 150
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Copper Chloride
@@ -53,7 +54,7 @@ As a result, **no supporting clinical trials or publications** can be presented,
 | Predicted New Indication | None — TxGNN returned no candidates |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction unavailable; no supporting studies) |
-| South Africa Market Status | Not marketed |
+| South Africa Market Status | Marketed (valid licences on record: at least 6) |
 | Number of SAHPRA Registrations | 0 |
 | Recommended Decision | **Hold** |
 

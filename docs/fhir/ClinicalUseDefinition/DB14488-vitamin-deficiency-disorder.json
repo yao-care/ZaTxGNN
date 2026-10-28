@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB14488",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB14488"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "vitamin-deficiency-disorder",
-          "display": "vitamin deficiency disorder"
-        }
-      ],
-      "text": "vitamin deficiency disorder"
+      "concept": {
+        "text": "vitamin deficiency disorder"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9917
     }
   ]
 }

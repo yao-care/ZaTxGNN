@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Benserazide
-parent: Model Prediction Only (L5)
-nav_order: 61
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Benserazide: predicted new indication Congenital hypotrichosis milia (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
-monitor_inn: "Benserazide"
-predicted_indications: ["congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "small intestine cancer", "duodenum cancer", "headache disorder", "phaeochromocytoma", "trigeminal autonomic cephalalgia", "adrenal gland pheochromocytoma"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 60
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Benserazide: known uses and market status in South Africa; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Benserazide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,63 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Benserazide: From Parkinsonism (Registered Combination Product) to Congenital Hypotrichosis Milia
+<!-- known-uses-page -->
+<!-- description: Benserazide: known uses and market status in South Africa; currently no new candidate indication -->
+## Benserazide: Known uses and market status in South Africa
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Benserazide, so there is currently no new predicted indication. The drug's own recorded uses are listed below; none are recorded for this drug at present.
 
-Benserazide is a peripheral aromatic L-amino acid decarboxylase (AADC) inhibitor. In South Africa it is registered as part of a combination capsule (Madopar HBS), which is used with levodopa for Parkinsonism.
-The TxGNN model predicts it may be effective for **congenital hypotrichosis milia** (score 98.4%), but there are **no clinical trials and no publications** supporting this prediction. It is a model prediction only.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data compiled for this report (the registered product is Madopar HBS 100 mg/25 mg) |
-| Predicted New Indication | Congenital hypotrichosis milia |
-| TxGNN Prediction Score | 98.44% |
-| Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 0 |
+| Evidence level | Not applicable |
+| Market status in South Africa | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Benserazide inhibits AADC (the DDC gene product) outside the brain. This stops levodopa being converted to dopamine in the periphery. Pharmacology data also list cystathionine β-synthase (CBS) as a target. Detailed mechanism of action data are not otherwise available in the data compiled for this report.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-**No mechanistic link can be established between AADC inhibition and this condition.** Nothing in the available data connects AADC or CBS inhibition to hair follicle development or to congenital hypotrichosis milia. The score of 0.984 comes from the knowledge-graph model alone, and no clinical or published evidence backs it. The prediction should be treated as a hypothesis-generating signal only.
-
-Other top-ranked predictions are similar: hypotrichosis simplex of the scalp (98.4%), diffuse alopecia areata (98.1%) and alopecia (97.8%). They also have no supporting clinical evidence. Alopecia areata is autoimmune, and no rationale is given for how an AADC inhibitor would act on it. The cluster of hair-related predictions may reflect shared graph neighbours rather than real biology.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for congenital hypotrichosis milia.
-
-For the related prediction **alopecia**, one paper was retrieved: [34900390](https://pubmed.ncbi.nlm.nih.gov/34900390/) (2021, Review/Commentary, *Tremor and Other Hyperkinetic Movements*). It describes alopecia areata as a rare adverse effect of tremor drugs. It does not show a benefit of benserazide and appears to be tangential.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 31/5.4.1/0194 | Madopar HBS 100 mg/25 mg | Capsule (oral) | Not stated in the registration data compiled for this report |
-
-Essential Medicines List (EML) status is not stated in the data compiled for this report.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/5.4.1/0194 | Madopar hbs 100mg/25mg | capsule | Valid |
 
 ## Safety Considerations
 
@@ -100,19 +81,6 @@ No warnings or contraindications are available in the data compiled for this rep
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a model score. There are no clinical trials, no supporting literature and no plausible mechanistic link between AADC inhibition and congenital hypotrichosis milia. Safety data from the SAHPRA PI are also missing, so safety screening cannot proceed.
-
-**To proceed, the following is needed:**
-- The SAHPRA package insert (PI), parsed for warnings, contraindications and the approved indication text
-- Detailed mechanism of action data (for example from DrugBank)
-- A biological rationale linking AADC or CBS inhibition to hair follicle development
-- Preclinical or mechanistic studies, since no clinical evidence exists
-- Review of the migraine-induction signal and of whether a topical or other route would be needed (route compatibility is not yet assessed)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

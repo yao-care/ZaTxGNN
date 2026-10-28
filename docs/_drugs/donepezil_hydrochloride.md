@@ -8,6 +8,7 @@ nav_order: 197
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Donepezil Hydrochloride
@@ -53,8 +54,8 @@ This Evidence Pack was generated with critical data gaps — the TxGNN pipeline 
 | Predicted New Indication | None returned by TxGNN |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — Model prediction not yet completed |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

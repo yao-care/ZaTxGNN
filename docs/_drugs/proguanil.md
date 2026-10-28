@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Proguanil
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 392
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-15
-description: "Proguanil: predicted new indication Smouldering systemic mastocytosis (evidence level L5). Approved use: Plasmodium falciparum malaria"
+description: "Proguanil: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Proguanil"
-predicted_indications: ["Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "renal-hepatic-pancreatic dysplasia", "systemic mastocytosis", "polycystic kidney disease 3 with or without polycystic liver disease", "karyomegalic interstitial nephritis", "Joubert syndrome with renal defect", "thoracic malformation", "adult familial nephronophthisis-spastic quadriparesia syndrome", "polycystic kidney disease"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Proguanil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,53 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Proguanil: From Malaria to Smouldering Systemic Mastocytosis
+## Proguanil
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Proguanil is an antimalarial originally used to treat *Plasmodium falciparum* malaria and malaria prophylaxis.
-The TxGNN model predicts it may be effective for **Smouldering Systemic Mastocytosis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasmodium falciparum malaria; malaria (from the knowledge graph, as no approved indication text is available for the SAHPRA registration) |
-| Predicted New Indication | Smouldering systemic mastocytosis |
-| TxGNN Prediction Score | 92.12% |
-| Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available. Based on known information, proguanil is a prodrug. Its metabolite, cycloguanil, inhibits dihydrofolate reductase (DHFR), and proguanil itself has reported effects on mitochondrial function. Its efficacy in malaria is established.
-
-A link between these properties and mast cell proliferation (for example, KIT-driven disease) is speculative. The score of 0.92 appears to reflect the structure of the knowledge graph rather than a validated pharmacological target. Approved and investigational KIT inhibitors already exist for systemic mastocytosis, so any proguanil rationale would need to be clearly differentiated from them.
-
-**Other predictions in the set** (all L5, all Hold, no trials or literature):
-
-| Predicted Indication | Score | Comment |
-|------|------|------|
-| Lymphoadenopathic mastocytosis with eosinophilia | 90.45% | Rare mast cell/eosinophilic neoplasm; no established pathway to proguanil |
-| Renal-hepatic-pancreatic dysplasia | 86.62% | Developmental ciliopathy-related disorder; unlikely to be reversible by a postnatal antimalarial |
-| Systemic mastocytosis | 86.27% | Parent category of the two mastocytosis predictions above, so they are not independent |
-| Polycystic kidney disease 3 (with or without polycystic liver disease) | 84.42% | Hypothetical link via mitochondrial and AMPK/mTOR signalling |
-| Karyomegalic interstitial nephritis | 84.40% | Linked to FAN1 and DNA repair; no known connection to proguanil |
-| Joubert syndrome with renal defect | 84.20% | Ciliopathy; score likely reflects network neighbours |
-| Thoracic malformation | 84.09% | Structural congenital anomaly; no plausible pharmacological reversal |
-| Adult familial nephronophthisis-spastic quadriparesia syndrome | 83.54% | Ultra-rare ciliopathy-spectrum disorder; no support found |
-| Polycystic kidney disease | 71.09% | Lowest score; hypothetical; proguanil needs dose adjustment in renal impairment |
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 
 ## South Africa Market Information
 
@@ -105,19 +70,6 @@ Trizivar is a single-ingredient oral product with a valid registration. Essentia
 
 Please refer to the SAHPRA-approved Professional Information (PI) for the full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by the model score (L5). There are no clinical trials or publications, and no credible mechanistic link between proguanil and mast cell disease. The related predictions are either not independent of each other or biologically implausible.
-
-**To proceed, the following is needed:**
-- Mechanism of action data for proguanil and cycloguanil, to test for any link to mast cell biology
-- A literature and trial search specific to proguanil in mastocytosis, then preclinical testing (for example, in KIT-driven mast cell models) if a signal emerges
-- A differentiated rationale against existing KIT-inhibitor therapy
-- The SAHPRA package insert warnings and contraindications, which are still missing and block any safety screening
-- A review of the interaction and renal dosing considerations for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

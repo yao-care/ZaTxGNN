@@ -50,10 +50,10 @@ with **no registered clinical trials** but **20 publications** (including 1 rand
 |------|------|
 | Original Indication | Adrenocortical insufficiency, Crohn disease / inflammatory bowel disease, acute lymphoblastic leukaemia, congenital adrenal hyperplasia (SAHPRA indication text not available in the data compiled for this report) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

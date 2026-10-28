@@ -4,17 +4,17 @@ title: Polymyxin B
 parent: Moderate Evidence (L3-L4)
 nav_order: 378
 evidence_level: L4
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "Polymyxin B"
-predicted_indications: ["bronchitis", "laryngotracheitis", "respiratory tract infectious disease", "tracheal disease", "laryngitis", "epiglottitis", "obstructive lung disease", "bronchial neoplasm (disease)", "acute contagious conjunctivitis"]
+predicted_indications: ["bronchitis", "laryngotracheitis"]
+description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Polymyxin B
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Polymyxin B: From Topical Antibacterial Use to Bronchitis
+## Polymyxin B: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Polymyxin B is a polypeptide antibiotic active against Gram-negative bacteria. T
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data compiled for this report (all three entries have blank indication text). Polymyxin B is an antibacterial for Gram-negative infections. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,7 +70,7 @@ The wider literature on "polymyxin B and bronchitis" is dominated by a different
 
 Currently no related clinical trials registered for bronchitis.
 
-*Note:* For the broader prediction "respiratory tract infectious disease", trials exist, mostly in ventilator-associated pneumonia. Examples are [NCT07086391](https://clinicaltrials.gov/study/NCT07086391) (nebulisation methods, recruiting) and [NCT06076603](https://clinicaltrials.gov/study/NCT06076603) (lung fluid pharmacokinetics). These do not directly evaluate bronchitis.
+Examples are [NCT07086391](https://clinicaltrials.gov/study/NCT07086391) (nebulisation methods, recruiting) and [NCT06076603](https://clinicaltrials.gov/study/NCT06076603) (lung fluid pharmacokinetics). These do not directly evaluate bronchitis.
 
 ---
 

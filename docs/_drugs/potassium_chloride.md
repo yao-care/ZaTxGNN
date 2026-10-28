@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Potassium Chloride
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 381
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
+description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Potassium Chloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Potassium Chloride: From Potassium Deficiency to Renal Tubular Acidosis
+## Potassium Chloride: Renal tubular acidosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ There are **no registered clinical trials** and **18 publications** (mostly case
 
 | Item | Content |
 |------|------|
-| Original Indication | Potassium deficiency disease; constipation disorder (the SAHPRA registrations compiled for this report list no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 (see note below) |
-| South Africa Market Status | Marketed |
+| South Africa Market Status | Marketed (valid licences on record: at least 14) |
 | Number of SAHPRA Registrations | 14 |
 | Recommended Decision | Hold |
 
@@ -98,7 +98,7 @@ Other retrieved items are less relevant: a veterinary hyperkalaemia review, a li
 
 ## South Africa Market Information
 
-None of the 14 valid registrations has approved indication text in the data compiled for this report. All are single-ingredient products, and no information on Essential Medicines List (EML) inclusion is available. Five main registrations are shown below.
+All are single-ingredient products, and no information on Essential Medicines List (EML) inclusion is available. Five main registrations are shown below.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

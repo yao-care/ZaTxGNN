@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB11085",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB11085"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "secondary-interstitial-lung-disease-specific-to-childhood-associated-with-a-connective-tissue-disease",
-          "display": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
-        }
-      ],
-      "text": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      "concept": {
+        "text": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9982
     }
   ]
 }

@@ -2,13 +2,13 @@
 layout: default
 title: Empagliflozin
 parent: Model Prediction Only (L5)
-nav_order: 211
+nav_order: 210
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Empagliflozin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "EMPAGLIFLOZIN"
-predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
+predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
+last_modified_at: 2026-10-23
+description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
 # Empagliflozin
@@ -33,36 +33,38 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Empagliflozin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+## Empagliflozin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Empagliflozin was originally used to treat type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **focal stiff limb syndrome**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model alone.
+Empagliflozin is an SGLT2 inhibitor, recorded in the knowledge graph for type 2 diabetes mellitus. The TxGNN model predicts it may be effective for **classic stiff person syndrome**, but **no clinical trials and no publications** were found in the data compiled for this report. The prediction rests on the computational score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (the registration records compiled for this report carry no approved-indication text, so this comes from the TxGNN knowledge graph) |
-| Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.06% |
+| Original Indication | Type 2 diabetes mellitus (relation recorded in the knowledge graph; the local licence records contain no indication text) |
+| Predicted New Indication | Classic stiff person syndrome |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
+
+Two other predictions have identical evidence status (no trials, no literature, L5, Hold):
+- **Focal stiff limb syndrome**: score 0.9906
+- **Opsismodysplasia**: score 0.9903
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Empagliflozin is known to be an SGLT2 inhibitor that lowers renal glucose reabsorption, and its efficacy in type 2 diabetes mellitus is established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Empagliflozin is generally known as an SGLT2 inhibitor that lowers blood glucose by increasing urinary glucose excretion. This is background knowledge, not something verified in the data compiled here.
 
-The data compiled for this report do not support a mechanistic link to focal stiff limb syndrome. This is a rare disorder of the stiff-person spectrum, often associated with GAD65 or glycine receptor autoimmunity that impairs inhibitory neurotransmission. No established biological connection between SGLT2 inhibition and this pathology is evident.
+Stiff person syndrome is an autoimmune neurological disorder, typically linked to anti-GAD65 antibodies and impaired GABAergic signalling. SGLT2 inhibition does not target these pathways. The only conceivable link is indirect, through the overlap of diabetes and autoimmunity, and this is speculative. No mechanistic link is supported by the data.
 
-Two further points weaken the prediction:
-- The second-ranked prediction, classic stiff person syndrome, has an identical score (99.06%). This suggests the model is propagating a shared disease-node signal rather than drug-specific evidence.
-- The third-ranked prediction, opsismodysplasia (score 99.03%), is a rare skeletal dysplasia caused by INPPL1 (SHIP2) mutations. SHIP2 is involved in insulin/PI3K signalling, so there is a thematic overlap with a diabetes drug. Empagliflozin does not act on this pathway, so this is hypothesis-generating only, and use in a paediatric skeletal disorder would raise unassessed safety concerns.
+The score for focal stiff limb syndrome is identical to that of classic stiff person syndrome. This suggests both scores come from the shared disease-ontology neighbourhood rather than from independent evidence.
+
+For opsismodysplasia, a rare skeletal dysplasia caused by INPPL1 (SHIP2) mutations, there is a speculative connection to insulin/PI3K signalling. Empagliflozin has no established action on SHIP2 or skeletal development. SGLT2 inhibitors also raise a theoretical concern for bone and mineral metabolism in growing children.
 
 ## Clinical Trial Evidence
 
@@ -76,33 +78,36 @@ Currently no related literature available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 48/21.2/1380 | Jardiance | Tablet | Not available in the compiled data |
-| Reg. No. 48/21.2/0411 | Jardiance | Tablet | Not available in the compiled data |
-| Reg. No. 49/21.2/0915 | Synjardy 5/500 Mg | Tablet | Not available in the compiled data |
+| Reg. No. 48/21.2/1380 | Jardiance | Tablet | Not stated in the available records |
+| Reg. No. 48/21.2/0411 | Jardiance | Tablet | Not stated in the available records |
+| Reg. No. 49/21.2/0915 | Synjardy 5/500 Mg | Tablet | Not stated in the available records |
 
-All three registrations are currently valid, and all are oral tablets. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+Essential Medicines List (EML) inclusion status is not available in the data compiled for this report. All three registrations are valid and oral tablets. The Synjardy registration is listed in the records as a single-ingredient entry, but the product name suggests a fixed-dose combination. It should therefore not be used to describe empagliflozin alone.
 
 ## Safety Considerations
 
-**Drug Interactions**: The interaction screen returned 100 interacting drugs, mostly of Moderate severity, with a few Minor. Examples from the data compiled for this report:
-- **Moderate**: phenylephrine, acebutolol, acetazolamide, formoterol, pseudoephedrine, nifedipine, epinephrine, ethinylestradiol, hydrocortisone, salbutamol, ethanol, fosinopril, furosemide
-- **Minor**: topical hydrocortisone, topical alclometasone
+- **Drug Interactions**: The interaction screen returned 100 records, and 20 are shown in the data compiled. Most are rated Moderate, and a few are Minor. Examples of Moderate interactions:
+  - Sympathomimetics and bronchodilators: phenylephrine, pseudoephedrine, epinephrine, salbutamol, formoterol
+  - Cardiovascular and diuretic agents: acebutolol, nifedipine, fosinopril, furosemide, acetazolamide
+  - Hormones and corticosteroids: ethinylestradiol, hydrocortisone
+  - Others: ethanol, fosamprenavir, fosphenytoin, fostamatinib, fostemsavir, gemifloxacin
+- **Minor interactions**: topical hydrocortisone and topical alclometasone.
 
-Only the first 20 entries were available for review. Please refer to the SAHPRA-approved Professional Information (PI) for warnings, contraindications, and the full interaction profile. Report adverse drug reactions to SAHPRA.
+Warning and contraindication text from the SAHPRA-approved Professional Information (PI) was not available. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score, with no clinical trials or publications. The identical scores for related stiff-person conditions suggest a shared-node artefact, and no plausible mechanistic link to SGLT2 inhibition is evident.
+The prediction is supported only by a computational score. There are no clinical trials, no publications and no plausible mechanistic link. The same holds for the two other predicted diseases.
 
 **To proceed, the following is needed:**
-- Mechanism of action data, to allow a proper mechanistic-link analysis
-- SAHPRA Professional Information (warnings and contraindications), which is a blocking gap for safety screening
-- Independent preclinical or mechanistic evidence linking SGLT2 inhibition to stiff-person-spectrum or related pathology
-- A literature and trial registry search (including SANCTR and PACTR) to confirm no relevant studies exist
-- Safety assessment for the target population, including paediatric considerations if opsismodysplasia is pursued
+- Retrieve the SAHPRA Professional Information (indications, warnings, contraindications), which is currently a blocking gap for safety screening
+- Obtain mechanism of action data
+- Run a systematic literature and trial registry search (including SANCTR and PACTR) for empagliflozin in stiff person spectrum disorders
+- Test the mechanistic hypothesis preclinically before any clinical consideration
+- For opsismodysplasia, assess paediatric bone and mineral safety separately
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

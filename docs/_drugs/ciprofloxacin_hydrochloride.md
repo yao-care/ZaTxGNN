@@ -8,6 +8,7 @@ nav_order: 125
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ciprofloxacin Hydrochloride
@@ -51,8 +52,8 @@ A meaningful drug repurposing evaluation cannot be completed until these data ga
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — model prediction not generated; no supporting studies retrievable |
-| South Africa Market Status | Not registered (no SAHPRA licences found) |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

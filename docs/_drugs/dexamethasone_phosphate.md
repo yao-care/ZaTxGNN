@@ -8,6 +8,7 @@ nav_order: 168
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Dexamethasone Phosphate
@@ -47,8 +48,8 @@ Dexamethasone phosphate is a phosphate ester prodrug of dexamethasone, a potent 
 | Predicted New Indication | None — no TxGNN predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (No predictions or supporting studies) |
-| South Africa Market Status | Not marketed (per evidence pack) |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | **Hold** |
 
 ## Why is This Prediction Reasonable?
@@ -90,7 +91,7 @@ No SAHPRA registrations were found in the evidence pack. However, it should be n
 The evidence pack contains critical data gaps — no DrugBank ID mapping, no TxGNN predictions, no regulatory data, and no safety information. A meaningful drug repurposing evaluation cannot be conducted without these foundational elements.
 
 **To proceed, the following is needed:**
-- **Resolve DrugBank ID mapping**: Dexamethasone phosphate (DrugBank: DB14649) or parent compound dexamethasone (DrugBank: DB01234) should be correctly linked to enable TxGNN knowledge graph predictions
+- **Resolve DrugBank ID mapping**: Dexamethasone phosphate (DrugBank: DB14649) or parent compound dexamethasone (DrugBank: DB01234) should be correctly linked to enable TxGNN TxGNN model (deep learning) predictions
 - **Re-run TxGNN prediction pipeline** with the corrected DrugBank mapping to generate repurposing candidates
 - **Collect SAHPRA registration data** for dexamethasone and its salt forms available in South Africa
 - **Obtain safety data** from the SAHPRA-approved Professional Information (PI) and DrugBank

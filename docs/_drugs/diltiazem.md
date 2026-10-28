@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Diltiazem
-parent: Model Prediction Only (L5)
-nav_order: 181
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Diltiazem: predicted new indication Obsolete susceptibility to ischaemic stroke (evidence level L5). Approved use: Hypertension, atrial fibrillation, Prinzmetal angina…"
-monitor_inn: "DILTIAZEM"
-predicted_indications: ["obsolete susceptibility to ischemic stroke"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 180
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Diltiazem: known uses and market status in South Africa; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Diltiazem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,61 +32,47 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Diltiazem: From Hypertension to Susceptibility to Ischaemic Stroke (Obsolete Ontology Term)
+<!-- known-uses-page -->
+<!-- description: Diltiazem: known uses and market status in South Africa; currently no new candidate indication -->
+## Diltiazem: Known uses and market status in South Africa
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications for Diltiazem. Every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug.
 
-Diltiazem is a calcium channel blocker, originally used for hypertension, atrial fibrillation, Prinzmetal (vasospastic) angina and ventricular tachycardia.
-The TxGNN model predicts it may be relevant to **"obsolete susceptibility to ischemic stroke"**, but **no clinical trials and no publications** were found in the data compiled for this report. The prediction rests on the model score alone.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, atrial fibrillation, Prinzmetal angina, ventricular tachycardia (from the TxGNN knowledge graph; the SAHPRA registration entries contain no indication text) |
-| Predicted New Indication | Obsolete susceptibility to ischaemic stroke |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in South Africa | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| Prinzmetal angina | Licence in another country (approved indication: angina) |
 
-Detailed mechanism-of-action data is not available for this report. Diltiazem is generally known as a non-dihydropyridine L-type calcium channel blocker. Its efficacy in hypertension and in cardiac rhythm and angina disorders is established. Mechanistically, it could plausibly relate to ischaemic stroke through blood pressure lowering, vasodilation, reduced vasospasm and possible effects on cerebral vascular tone. This is general pharmacological reasoning, not evidence from the data compiled for this report.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-There are important caveats:
-- The predicted disease term is labelled **"obsolete"**, meaning it is a deprecated ontology entry. The prediction may reflect a legacy or duplicated disease node rather than a distinct clinical indication.
-- Stroke prevention through blood pressure control is already an expected benefit of treating hypertension. It is not a novel repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 28/7.1/0298 | Sandoz Diltiazem HCl 60 | Tablet | Not available |
-| Reg. No. 28/7.1/0579 | Tilazem 180 CR | Sustained-release capsule (SRC) | Not available |
-| Reg. No. 30/7.1/0183 | Adco-Zildem SR | Sustained-release capsule (SRC) | Not available |
-
-All 3 registrations are valid single-ingredient products. None are cancelled. Essential Medicines List (EML) status is not covered by the data compiled for this report.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/7.1/0298 | Sandoz Diltiazem Hci 60 | tablet | Valid |
+| 28/7.1/0579 | Tilazem 180 Cr | Src | Valid |
+| 30/7.1/0183 | Adco-zildem sr | Src | Valid |
 
 ## Safety Considerations
 
@@ -104,24 +89,10 @@ All 3 registrations are valid single-ingredient products. None are cancelled. Es
 
   Polypharmacy is a particular concern in a stroke population.
 
-The knowledge-graph signals are not a substitute for label information. Please refer to the SAHPRA-approved Professional Information (PI) for formal warnings and contraindications. Report adverse drug reactions to SAHPRA.
+The TxGNN model (deep learning) signals may reflect similarities the model learned between related diseases, not biological evidence, and are not a substitute for label information. Please refer to the SAHPRA-approved Professional Information (PI) for formal warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The only support is a high model score. There are no trials or publications, the target disease term is obsolete, and any stroke-related benefit overlaps with existing blood pressure control. Evidence is at L5.
-
-**To proceed, the following is needed:**
-- Clarify which current disease entity the obsolete term maps to, and define a clinically meaningful stroke-related indication
-- Mechanism of action data and a mechanistic-link analysis
-- Systematic literature and trial searches (including SANCTR and PACTR) on diltiazem in stroke prevention or outcomes
-- SAHPRA package insert warnings and contraindications, which are needed before any safety screening
-- A review of interaction and contraindication risks for a stroke population on multiple medicines
-- Route and formulation compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

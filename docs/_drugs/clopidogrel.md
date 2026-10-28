@@ -4,17 +4,17 @@ title: Clopidogrel
 parent: Model Prediction Only (L5)
 nav_order: 139
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Clopidogrel: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Acute coronary syndrome"
 monitor_inn: "Clopidogrel"
-predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "osteoarthritis susceptibility", "pseudoachondroplasia", "fibromyalgia"]
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Clopidogrel: From Acute Coronary Syndrome to Migraine Disorder
+## Clopidogrel: From Acute Coronary Syndrome to Migraine with Brainstem Aura
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **migraine disorder** (the top-
 |------|------|
 | Original Indication | Acute coronary syndrome; intracranial embolism; ST-elevation myocardial infarction (SAHPRA indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Migraine with brainstem aura (rank 1, TxGNN); migraine disorder (rank 2) is evaluated in detail below because it has the strongest evidence |
-| TxGNN Prediction Score | 99.44% (migraine with brainstem aura); 99.44% (migraine disorder) |
-| Evidence Level | L2 (migraine disorder); L3 (migraine with brainstem aura) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| TxGNN Prediction Score | 0.9944 (migraine with brainstem aura); 0.9944 (migraine disorder) |
+| Evidence Level | L5 (migraine disorder); L3 (migraine with brainstem aura) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails (migraine disorder in PFO-related migraine, research setting only) |
 
 **Other predictions in the top 10.** Osteoarthritis, tendinitis, idiopathic granulomatous myositis, myositis fibrosa, rheumatoid arthritis, osteoarthritis susceptibility, pseudoachondroplasia and fibromyalgia have little or no supporting evidence (L4–L5). All are rated **Hold**. For rheumatoid arthritis, the literature includes reports of clopidogrel-associated inflammatory arthritis, which is a safety signal against use. For osteoarthritis, a propensity-matched study suggests ticagrelor, not clopidogrel, is associated with lower risk.

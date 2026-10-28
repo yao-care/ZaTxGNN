@@ -4,7 +4,7 @@ title: Carbamazepine
 parent: Moderate Evidence (L3-L4)
 nav_order: 99
 evidence_level: L4
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Carbamazepine: predicted new indication Trigeminal nerve neoplasm (evidence level L4). Approved use: Epilepsy (including partial epilepsy…"
 monitor_inn: "CARBAMAZEPINE"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficien
 # Carbamazepine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 |------|------|
 | Original Indication | Epilepsy (including partial epilepsy, generalised tonic-clonic seizures, Lennox-Gastaut syndrome), manic bipolar disorder, trigeminal and glossopharyngeal neuralgia (SAHPRA indication text not available) |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

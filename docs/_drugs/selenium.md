@@ -4,17 +4,17 @@ title: Selenium
 parent: Moderate Evidence (L3-L4)
 nav_order: 415
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Selenium: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not stated in the SAHPRA registration data (the registered products a…"
 monitor_inn: "Selenium"
-predicted_indications: ["sclerosing cholangitis", "rheumatoid arthritis", "obsolete hyperuricemia (disease)", "hypotrichosis simplex of the scalp", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "hepatic porphyria", "congenital hypotrichosis milia", "hypouricemia, renal", "congestive heart failure", "primitive portal vein thrombosis"]
+predicted_indications: ["sclerosing cholangitis"]
 ---
 
 # Selenium
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be useful for **sclerosing cholangitis**, but th
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data (the registered products are TPN formulations) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.04% |
+| TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -99,7 +99,6 @@ Warnings and contraindications from the SAHPRA package insert are not available 
 **Rationale:**
 The prediction rests on a high model score and indirect observational and preclinical literature. No trial or study tests selenium as a treatment for sclerosing cholangitis, and the package insert safety data are missing.
 
-Among the other predictions in the data, **congestive heart failure** has the strongest support. Four Phase 3 trials involve selenium, and three large ones are still recruiting: NCT07543562, NCT07234422 and NCT06694727. One small trial is completed (NCT02530788, n=21). That indication is rated "Proceed with Guardrails", but no confirmatory efficacy results exist yet. It would be a more productive candidate to evaluate first.
 
 **To proceed, the following is needed:**
 - The SAHPRA package insert, to obtain warnings, contraindications and the approved indications.

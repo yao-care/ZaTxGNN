@@ -2,13 +2,13 @@
 layout: default
 title: Ascorbic Acid
 parent: Model Prediction Only (L5)
-nav_order: 47
+nav_order: 46
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected", "vitamin deficiency disorder"]
+last_modified_at: 2026-10-27
+description: "Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ascorbic Acid
@@ -33,13 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ascorbic Acid: From Ascorbic Acid Deficiency (Scurvy) to Non-syndromic Esophageal Malformation
+## Ascorbic acid: Essential vitamin and antioxidant → non-syndromic esophageal malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ascorbic acid (vitamin C) is originally used to prevent and treat vitamin C deficiency and scurvy.
-The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation**, but there are **no clinical trials** and **no publications** supporting this prediction. It rests on the model score alone and is most likely a graph-prediction artifact.
+Ascorbic acid (vitamin C) is an essential water-soluble vitamin that acts as an antioxidant and as a cofactor for collagen synthesis.
+The TxGNN model predicts it may be relevant to **non-syndromic esophageal malformation**, with a score of 0.9996.
+However, **no clinical trials and no publications** support this prediction, so it rests on the model output alone.
 
 ---
 
@@ -47,68 +48,59 @@ The TxGNN model predicts it may be effective for **non-syndromic esophageal malf
 
 | Item | Content |
 |------|------|
-| Original Indication | Ascorbic acid deficiency, scurvy (from the TxGNN knowledge graph; indication text was not available for the SAHPRA registrations) |
-| Predicted New Indication | Non-syndromic esophageal malformation |
-| TxGNN Prediction Score | 99.96% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | non-syndromic esophageal malformation |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 18 |
+| South Africa Market Status | Marketed (valid licences on record: at least 18) |
+| Number of SAHPRA Registrations | at least 18 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for ascorbic acid is not available in the data compiled for this report. Based on known pharmacology, ascorbic acid is an antioxidant and a cofactor for collagen and catecholamine synthesis. Its efficacy in correcting vitamin C deficiency is well established.
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, ascorbic acid scavenges reactive oxygen species and is a cofactor for hydroxylase enzymes involved in collagen synthesis.
 
-No mechanistic link to the predicted indication was identified. Non-syndromic esophageal malformation is a structural congenital defect, and an antioxidant or cofactor vitamin is unlikely to correct it. The very high TxGNN score (rank 398 overall) is therefore best read as a likely graph artifact rather than a credible repurposing signal.
-
-Other predictions for this drug have more supporting evidence than this top-ranked one (see Conclusion and Next Steps).
+No mechanistic link to non-syndromic esophageal malformation was identified. This is a structural congenital malformation of the oesophagus, arising during embryonic development. An antioxidant or cofactor vitamin is unlikely to correct such a defect. The very high score, combined with a complete absence of supporting trials or literature, suggests the prediction is probably a model artefact and should not be acted on clinically.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for non-syndromic esophageal malformation.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for non-syndromic esophageal malformation.
 
 ---
 
 ## South Africa Market Information
 
-SAHPRA lists 18 valid registrations, none cancelled. Dosage forms include tablets, capsules, effervescent tablets, sachets, syrup and infusions. Approved indication text and Essential Medicines List status were not available in the data compiled for this report. The five registrations below are examples.
+Ascorbic acid is marketed in South Africa. The data compiled for this report show 18 valid single-ingredient registrations, and the list may be partial. Products include oral tablets, capsules, effervescent tablets, sachets and syrups, as well as infusion and parenteral nutrition products. No approved-indication text is recorded for these registrations in the local data.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 36/22.1/0508 | Cernevit | Infusion | Not available in compiled data |
-| H2466 | Complenatal Ff | Capsule | Not available in compiled data |
-| H0689 (ACT 101/1965) | Autrin | Capsule | Not available in compiled data |
-| 35/5.8/0152 | Flutex effervescent | Effervescent tablet | Not available in compiled data |
-| A/21.8.1/743 | Menoflush | Tablet | Not available in compiled data |
+| B/2.8/1329 | Paracetacod | Tablet | Not recorded |
+| C1009 | Fluend | Capsule | Not recorded |
+| 35/5.8/0152 | Flutex effervescent | Effervescent tablet | Not recorded |
+| H0689 (ACT 101/1965) | Autrin | Capsule | Not recorded |
+| Y/5.8/308 | Demazin Flu | Effervescent tablet | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-**Contraindication signals from the knowledge graph** (graph-derived drug-disease links, not label text; they need confirmation against the Professional Information):
-- Cardiovascular and metabolic: hypertension, diabetes mellitus, diabetic ketoacidosis, potassium deficiency
-- Renal and urinary: kidney disease, anuria, nephrocalcinosis, primary hyperoxaluria
-- Hepatic and gastrointestinal: liver disease, gallbladder disease, peptic ulcer disease
-- Haematological: blood coagulation disease, sickle cell anaemia, hereditary hemochromatosis, hereditary persistence of fetal haemoglobin
-- Other: epilepsy, multiple sclerosis, sarcoidosis, rheumatoid arthritis, systemic lupus erythematosus, hypercalcaemia, hyperparathyroidism, allergic and vasomotor rhinitis, sunburn
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-**Drug interactions** (25 recorded; DDInter):
-- Moderate: amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine, aluminium hydroxide, bortezomib, deferoxamine
-- Minor: paclitaxel, cisplatin, doxorubicin (including liposomal), ethinylestradiol, pseudoephedrine, ephedrine, flecainide, fluphenazine, indinavir, mexiletine, and others
-
-**Other signal:** In a rat acid-reflux model, ascorbic acid combined with sodium nitrite enhanced esophageal carcinogenesis (PMID 17953708). This was found under a different esophageal prediction, not this one, but it is relevant to any esophageal use.
-
-Please refer to the SAHPRA-approved Professional Information (PI) for label warnings and contraindications. Report adverse drug reactions to SAHPRA.
+The data compiled for this report list 25 drug interactions. Those shown are mainly minor, and moderate interactions were recorded with:
+- Amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine and benzphetamine
+- Aluminium hydroxide
+- Bortezomib
+- Deferoxamine
 
 ---
 
@@ -117,16 +109,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for label warn
 **Decision: Hold**
 
 **Rationale:**
-- The prediction has no trials, no literature and no plausible mechanism, so it should not be pursued.
-- Ascorbic acid is widely marketed in South Africa, but this does not support efficacy in a structural congenital malformation.
+The score is very high, but there are no trials or publications for non-syndromic esophageal malformation, and no plausible mechanism by which ascorbic acid would correct a structural congenital defect. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Redirect evaluation to better-supported predictions for this drug:
-  - **Injury** (L2): Phase 2 trials in sepsis-induced and COVID-19 acute lung injury, with small and heterogeneous evidence.
-  - **Vitamin deficiency disorder** (L3): largely an on-label extension.
-  - **Esophageal disease** (L4): literature is mainly old epidemiology and animal work, with a potential safety signal.
-- Obtain the SAHPRA Professional Information to confirm approved indications, warnings and contraindications.
-- Obtain detailed mechanism-of-action data to support any mechanistic-link analysis.
+- Any preclinical or clinical evidence that directly studies ascorbic acid in this condition
+- A plausible mechanistic rationale for a developmental malformation
+- Mechanism of action data and SAHPRA Professional Information warnings and contraindications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

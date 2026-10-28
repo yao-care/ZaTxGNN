@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sulfamethoxazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 430
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L4). Approved use: Infectious otitis media, nocardiosis, toxoplasmosis, pneumocystosis…"
 monitor_inn: "Sulfamethoxazole"
-predicted_indications: ["acute contagious conjunctivitis", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "endocardial fibroelastosis", "postinfectious vasculitis", "post-bacterial disorder", "parasitic eyelid infestation", "post-infectious syndrome", "ulcerative blepharitis", "blepharoconjunctivitis"]
+predicted_indications: ["acute contagious conjunctivitis"]
+description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sulfamethoxazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Sulfamethoxazole: From Infectious Otitis Media and Other Infections to Acute Contagious Conjunctivitis
+## Sulfamethoxazole: Acute contagious conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,23 +45,22 @@ The TxGNN model predicts it may be effective for **acute contagious conjunctivit
 
 | Item | Content |
 |------|------|
-| Original Indication | Infectious otitis media, nocardiosis, toxoplasmosis, pneumocystosis, shigellosis, conjunctivitis and others (knowledge-graph indications; the approved indication text for the South African registrations was not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acute contagious conjunctivitis |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 7 |
+| TxGNN Prediction Score | 0.9963 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 7 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known pharmacology, sulfamethoxazole is a sulfonamide antibacterial that inhibits bacterial folate synthesis (dihydropteroate synthase). It is commonly used together with trimethoprim (co-trimoxazole), and its efficacy in several bacterial and protozoal infections is established.
 
-Conjunctivitis is already among sulfamethoxazole's original indications in the knowledge graph. This prediction is therefore not true repurposing, but an extension of existing use to the acute contagious (bacterial) form of the disease. Antibacterial activity against the causative bacteria is plausible.
+Conjunctivitis is already among sulfamethoxazole's original indications. This prediction, made by the TxGNN model (deep learning), is therefore not true repurposing, but an extension of existing use to the acute contagious (bacterial) form of the disease. It may reflect similarities the model learned between related diseases, not biological evidence. Antibacterial activity against the causative bacteria is plausible.
 
 The only supporting publication is a retrospective study of bacteria and antibiotic susceptibility in childhood acute bacterial conjunctivitis. It is indirect evidence and does not show that sulfamethoxazole works clinically in this condition.
 
-Other predicted indications (ranks 2-10) were also reviewed. Most are prediction-only with no supporting evidence. The most notable are exposure keratitis (indirect literature only) and "post-bacterial disorder" (infection prophylaxis trials in established uses). None was considered stronger than the lead prediction.
 
 ## Clinical Trial Evidence
 

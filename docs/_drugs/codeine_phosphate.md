@@ -8,6 +8,7 @@ nav_order: 146
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Codeine Phosphate
@@ -51,7 +52,7 @@ This report documents the current evaluation status and outlines the remediation
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not applicable |
 | Evidence Level | L5 — Model prediction not available; no supporting studies retrievable |
-| South Africa Market Status | Not marketed (no SAHPRA registration on record) |
+| South Africa Market Status | Marketed (valid licences on record: at least 20) |
 | Number of SAHPRA Registrations | 0 |
 | Recommended Decision | **Hold** |
 

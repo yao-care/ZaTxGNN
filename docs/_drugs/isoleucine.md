@@ -6,7 +6,7 @@ nav_order: 277
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Isoleucine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
+description: "Isoleucine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "ISOLEUCINE"
 predicted_indications: ["gastroparesis (disease)"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Isoleucine: From Parenteral Nutrition Component to Gastroparesis
+## Isoleucine: From Parenteral Nutrition Component to gastroparesis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,10 +46,10 @@ Isoleucine is an essential branched-chain amino acid. In South Africa it is regi
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data (all registrations are for amino acid-containing infusion products) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.32% |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 10 |
+| South Africa Market Status | Marketed (valid licences: 10 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Two indirect links can be proposed, but both are speculative and unsupported by 
 - Nutritional support may help with the malnutrition that often accompanies gastroparesis.
 - Amino acids may influence gastric emptying and gut hormone signalling (for example CCK and GLP-1).
 
-The score of 0.993 is a knowledge-graph model output, not clinical evidence, and should not be treated as validation.
+The score of 0.9932 is a TxGNN model (deep learning) output, not clinical evidence, and may reflect similarities the model learned between related diseases, not biological evidence; it should not be treated as validation.
 
 ## Clinical Trial Evidence
 

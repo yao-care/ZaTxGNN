@@ -4,17 +4,17 @@ title: Alanine
 parent: Model Prediction Only (L5)
 nav_order: 19
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Alanine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not stated in the registration data compiled for this report (all app…"
 monitor_inn: "Alanine"
-predicted_indications: ["gastroparesis (disease)", "obsolete vitamin D deficiency", "dyspepsia", "congenital prothrombin deficiency", "hypophosphatemic rickets", "renal tubular acidosis", "sclerosing cholangitis", "potassium deficiency disease", "postmenopausal osteoporosis", "albinism-deafness syndrome"]
+predicted_indications: ["gastroparesis (disease)"]
 ---
 
 # Alanine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Alanine: From Parenteral Nutrition Amino Acid Component to Gastroparesis
+## Alanine: From Parenteral Nutrition Amino Acid Component to gastroparesis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be useful for **gastroparesis**, but **no clinic
 |------|------|
 | Original Indication | Not stated in the registration data compiled for this report (all approved indication fields are empty) |
 | Predicted New Indication | Gastroparesis (disease) |
-| TxGNN Prediction Score | 99.37% |
+| TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,9 +59,8 @@ Currently, detailed mechanism of action data is not available. Alanine is a non-
 
 No credible mechanistic link to gastroparesis could be established from the data compiled for this report. The retrieved literature concerns gastrointestinal and hepatic complications in renal disease and diabetes. It mentions gastroparesis only as a comorbidity and does not address gastric motility or alanine as a therapy.
 
-The high TxGNN score is a graph-based prediction only. It should be treated as a hypothesis, not as supporting evidence.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis, not as supporting evidence.
 
-Other predicted indications were also reviewed. They are dyspepsia, hypophosphataemic rickets, renal tubular acidosis, sclerosing cholangitis, potassium deficiency, postmenopausal osteoporosis, congenital prothrombin deficiency, obsolete vitamin D deficiency and albinism-deafness syndrome. None has trial evidence, and none has a demonstrated therapeutic link to alanine.
 
 ## Clinical Trial Evidence
 
@@ -103,7 +102,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph score alone. There are no clinical trials, and none of the retrieved literature evaluates alanine as a treatment for gastroparesis. The knowledge-graph contraindication signals for renal and cardiac disease, which overlap with the populations that develop gastroparesis, add further caution.
+The prediction rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, and none of the retrieved literature evaluates alanine as a treatment for gastroparesis. The knowledge-graph contraindication signals for renal and cardiac disease, which overlap with the populations that develop gastroparesis, add further caution.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible mechanistic rationale for gastric motility

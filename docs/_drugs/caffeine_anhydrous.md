@@ -8,6 +8,7 @@ nav_order: 86
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Caffeine Anhydrous
@@ -49,7 +50,7 @@ Caffeine Anhydrous is a drug compound currently under entry into the TxGNN South
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — Model prediction not yet generated; no supporting studies |
-| South Africa Market Status | Not Registered |
+| South Africa Market Status | Marketed (valid licences on record: at least 20) |
 | Number of SAHPRA Registrations | 0 |
 | Recommended Decision | **Hold** |
 

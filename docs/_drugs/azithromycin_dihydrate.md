@@ -8,6 +8,7 @@ nav_order: 58
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Azithromycin Dihydrate
@@ -51,8 +52,8 @@ A **Hold** decision is recommended until all identified data gaps are resolved.
 | Predicted New Indication | None — TxGNN predictions not generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | Not assessable |
-| South Africa Market Status | Not found in this dataset (see note below) |
-| Number of SAHPRA Registrations | 0 (likely a data retrieval failure — see note) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 > **⚠️ Important Note on Market Status**: The Evidence Pack reports 0 SAHPRA registrations and "not marketed" status for Azithromycin. This is almost certainly a **data collection failure**, not the true regulatory situation. Azithromycin is a well-established antibiotic that appears on the South African Standard Treatment Guidelines and Essential Medicines List (EML). Direct SAHPRA database verification is required before this field can be relied upon.

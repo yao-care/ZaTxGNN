@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clarithromycin
-parent: High Evidence (L1-L2)
-nav_order: 129
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Clarithromycin: predicted new indication Monoclonal gammopathy (evidence level L2). Approved use: Bacterial infections (e.g., otitis media, sinusitis, pneumonia…"
+parent: Model Prediction Only (L5)
+nav_order: 128
+evidence_level: L5
+indication_count: 5
 monitor_inn: "Clarithromycin"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "septicemic plague", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
+last_modified_at: 2026-10-23
+description: "Clarithromycin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Relations recorded in the knowledge graph: infectious otitis media…"
 ---
 
 # Clarithromycin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,132 +33,71 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Clarithromycin: From Respiratory and Soft-Tissue Bacterial Infections to Monoclonal Gammopathy
+## Clarithromycin: From Bacterial Respiratory and Ear Infections to Polyclonal Hyperviscosity Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Clarithromycin is a macrolide antibiotic, originally used for bacterial infections such as otitis media, sinusitis, streptococcal and staphylococcal infections, and pneumonia (including Mycoplasma and Chlamydia pneumonia).
-The TxGNN model's top-ranked prediction (hyperamylasemia) has no real clinical support. The best-supported prediction in the data compiled for this report is **Monoclonal Gammopathy**, with **1 clinical trial** and **20 publications**, most of which concern clarithromycin in multiple myeloma and Waldenström's macroglobulinemia, closely related plasma cell disorders.
-
-This report therefore evaluates the best-supported candidate (rank 7) rather than the top-scoring one (rank 1), and explains why.
-
----
+Clarithromycin is a macrolide antibiotic. The TxGNN model (deep learning) predicts it may be effective for **polyclonal hyperviscosity syndrome**, but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone. The score comes from the TxGNN model and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (e.g., otitis media, sinusitis, pneumonia, streptococcal and staphylococcal infections). The SAHPRA registration records compiled for this report contain no indication text. |
-| Predicted New Indication | Monoclonal gammopathy (rank 7 of 10; selected for having the strongest evidence) |
-| TxGNN Prediction Score | 98.81% (the top-ranked prediction, hyperamylasemia, scored 99.35%) |
-| Evidence Level | L2 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
-| Recommended Decision | Hold (research question only) |
-
----
+| Original Indication | Relations recorded in the knowledge graph: infectious otitis media, streptococcal infection, bacterial pneumonia, Staphylococcus aureus infection, maxillary sinusitis, Mycoplasma pneumoniae pneumonia, and others. The local licence records contain no approved indication text. |
+| Predicted New Indication | Polyclonal hyperviscosity syndrome |
+| TxGNN Prediction Score | 0.9935 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for clarithromycin is not available in the data compiled for this report. Based on known information, clarithromycin is a 14-membered ring macrolide antibiotic whose efficacy in bacterial infections is well established. The literature suggests it may also act against plasma cell disorders.
+Currently, detailed mechanism of action data is not available. Clarithromycin is a macrolide antibacterial. This report does not treat any such relations as approved indications, because the licence records compiled for this report contain no indication text.
 
-Monoclonal gammopathy of undetermined significance (MGUS) is a premalignant plasma cell condition that can progress to multiple myeloma. Clarithromycin has been studied for years as an add-on in myeloma regimens. The proposed mechanisms include:
-
-- **Autophagy inhibition** in myeloma cells, which can enhance the effect of other anti-myeloma drugs.
-- **Modulation of cytokines** such as IL-6.
-- **Enhanced corticosteroid exposure**, partly through CYP3A4 inhibition, which raises dexamethasone levels.
-
-Important caveats: the benefit is seen in **combination** regimens, not as monotherapy. The evidence is mainly in established multiple myeloma and Waldenström's macroglobulinemia, not MGUS. A randomised Phase 3 trial (PMID 34021118) in transplant-ineligible myeloma found no significant difference in the primary endpoint (progression-free survival) with clarithromycin added to lenalidomide and dexamethasone.
-
-**Other predictions were reviewed and not supported:**
-
-| Predicted Indication | Score | Evidence Level | Assessment |
-|------|------|------|------|
-| Hyperamylasemia | 99.35% | L4 | The only publication is a case report in which clarithromycin treated *M. abscessus* infection, not hyperamylasemia. No plausible mechanism. |
-| Polyclonal hyperviscosity syndrome | 99.35% | L5 | Prediction only, no data. |
-| Congenital analbuminemia | 99.21% | L5 | Genetic albumin synthesis disorder, no plausible mechanism. |
-| Punctate epithelial keratoconjunctivitis | 99.11% | L4 | One 2024 observational study on meibomitis-related keratoconjunctivitis. Indirect evidence only. Flagged as a research question. |
-| Blood group incompatibility | 99.07% | L5 | Prediction only, no data. |
-| Premalignant haematological system disease | 98.92% | L5 | Prediction only, no data. |
-| Septicaemic plague | 98.70% | L4 | The literature retrieved concerns ketolides and *H. pylori*, not plague. Standard antibiotics remain the treatment of choice. |
-| Haematological disease with acquired peripheral neuropathy | 98.69% | L5 | Prediction only, no data. |
-| Congenital haematological disorder | 98.32% | L4 | The single case report concerns treating MAC infection, not the disorder. |
-
----
+Clarithromycin is known to have immunomodulatory and anti-inflammatory effects. However, nothing in the data compiled for this report connects these effects to lowering serum viscosity or to polyclonal gammopathy, which drives polyclonal hyperviscosity syndrome. The high score (0.9935) is a computational prediction only. A mechanistic link cannot be assessed without mechanism data, and the original indications (infection) are biologically distant from the predicted one (a haematological and protein disorder).
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00006219](https://clinicaltrials.gov/study/NCT00006219) | Phase 2 | Completed | Not reported | Randomised trial comparing dehydroepiandrosterone (DHEA) with clarithromycin (Biaxin) for chemoprevention of multiple myeloma in patients with MGUS or borderline disease. Results are not available, and the design does not isolate the effect of clarithromycin. |
-
-No SANCTR or PACTR registrations were found in the data compiled for this report.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The table lists the most relevant publications, prioritising clinical trials, then reviews and observational studies. All concern myeloma or Waldenström's macroglobulinemia, not MGUS specifically.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [34021118](https://pubmed.ncbi.nlm.nih.gov/34021118/) | 2021 | Phase 3 randomised trial | Blood Cancer J | 286 transplant-ineligible myeloma patients received lenalidomide and dexamethasone with or without clarithromycin. No significant difference in progression-free survival. |
-| [30792190](https://pubmed.ncbi.nlm.nih.gov/30792190/) | 2019 | Phase 2 | Blood Adv | Clarithromycin, pomalidomide and dexamethasone (ClaPd) in 120 patients with relapsed/refractory myeloma. |
-| [34424561](https://pubmed.ncbi.nlm.nih.gov/34424561/) | 2021 | Phase 2 | Am J Hematol | Carfilzomib/dexamethasone induction followed by lenalidomide, clarithromycin and dexamethasone consolidation in newly diagnosed myeloma. |
-| [24576165](https://pubmed.ncbi.nlm.nih.gov/24576165/) | 2014 | Clinical study | Leuk Lymphoma | T-BiRD (thalidomide, clarithromycin, lenalidomide, dexamethasone) in 26 newly diagnosed myeloma patients. |
-| [12720150](https://pubmed.ncbi.nlm.nih.gov/12720150/) | 2003 | Phase 2 | Semin Oncol | Thalidomide alone, or combined with clarithromycin and dexamethasone, in Waldenström's macroglobulinemia. |
-| [12685831](https://pubmed.ncbi.nlm.nih.gov/12685831/) | 2002 | Phase 2 | Leuk Lymphoma | BLT-D regimen (clarithromycin, low-dose thalidomide, dexamethasone) in myeloma and Waldenström's macroglobulinemia. |
-| [24723438](https://pubmed.ncbi.nlm.nih.gov/24723438/) | 2014 | Retrospective cohort | Am J Hematol | Adding clarithromycin to lenalidomide/dexamethasone at progression in 24 myeloma patients suggested it may overcome resistance. |
-| [25687081](https://pubmed.ncbi.nlm.nih.gov/25687081/) | 2015 | Review | Zhongguo Shi Yan Xue Ye Xue Za Zhi | Reviews clarithromycin in myeloma, noting improved response and survival when combined with conventional chemotherapy. |
-| [33138750](https://pubmed.ncbi.nlm.nih.gov/33138750/) | 2021 | Review | Curr Med Chem | Drug repositioning in haematological disease. |
-| [20811702](https://pubmed.ncbi.nlm.nih.gov/20811702/) | 2010 | Laboratory study | Int J Oncol | Clarithromycin attenuates autophagy in myeloma cells. |
-
----
+Currently no related literature available.
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 51/20.1.1/0193 | Claribax | Tablet (oral) | Not available in the data compiled for this report |
-| Reg. No. A38/20.1.1/0631 | Mylan clarithromycin | Tablet (oral) | Not available in the data compiled for this report |
+| 51/20.1.1/0193 | Claribax | Tablet | Not stated in the data compiled |
+| A38/20.1.1/0631 | Mylan clarithromycin | Tablet | Not stated in the data compiled |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
-
----
+Both registrations are single-ingredient, valid oral tablet products. Essential Medicines List status is not included in the data compiled for this report.
 
 ## Safety Considerations
 
-**Contraindications and conditions of concern (from the knowledge graph, not label text):**
-Associations were recorded with the following conditions, which should be checked against the SAHPRA Professional Information (PI):
-- **Cardiac:** long QT syndrome, torsades de pointes, ventricular tachycardia (including catecholaminergic and infant forms)
-- **Hepatic:** liver failure, liver disease, cholestasis (including benign recurrent and familial intrahepatic forms), gallbladder disease
-- **Metabolic:** porphyria (including inherited forms)
-- **Renal:** kidney disease
-- **Neuromuscular:** myasthenia gravis, neuromuscular junction disease
-- **Gastrointestinal:** *Clostridium difficile* colitis, perinatal necrotising enterocolitis
-- **Bone:** osteoporosis, postmenopausal osteoporosis, bone fracture
-- **Other:** infectious mononucleosis, chronic Epstein-Barr virus infection syndrome, pyoureter
+**Contraindication-type relations in the knowledge graph** (these are graph relations, not label text): long QT syndrome, torsades de pointes, ventricular tachycardia, liver failure, liver disease, cholestasis, porphyria, kidney disease, myasthenia gravis, Clostridium difficile colitis, osteoporosis, bone fracture, gallbladder disease, and infectious mononucleosis, among others.
 
-**Drug interactions:** 100 interactions were found. Examples of those classed as **Major** are abemaciclib, fentanyl and acalabrutinib. Examples classed as **Moderate** are paclitaxel, tramadol, nifedipine, ethinylestradiol, hydrocortisone, famotidine and afatinib. Clarithromycin's CYP3A4 inhibition is clinically important in myeloma regimens because it raises exposure to co-administered drugs such as dexamethasone.
+**Drug interactions** (100 recorded; examples from the compiled list):
+- **Major**: abemaciclib, acalabrutinib, fentanyl
+- **Moderate**: paclitaxel, tramadol, nifedipine, famotidine, formoterol, adenosine, afatinib, abiraterone, ethinylestradiol, hydrocortisone, trastuzumab emtansine
+- **Minor**: dolutegravir, zidovudine, loratadine
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for official warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (research question only)**
+**Decision: Hold**
 
 **Rationale:**
-The top-scoring predictions are not supported by clinical data, and the high TxGNN scores should not be taken as evidence of efficacy. The best-supported candidate, monoclonal gammopathy, rests on one completed Phase 2 trial with no available results, plus a body of myeloma data that does not apply directly to MGUS. The one randomised Phase 3 trial in myeloma showed no significant progression-free survival benefit. Benefit has only been seen in combination regimens.
+The prediction is supported only by a model score. No trials or publications address polyclonal hyperviscosity syndrome, and no plausible mechanism has been identified. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Results of NCT00006219, or a new controlled study of clarithromycin in MGUS
-- The SAHPRA package insert warnings and contraindications, which are a blocking data gap for safety screening
-- Detailed mechanism of action data
-- A drug interaction and QT-risk assessment for the proposed combination regimens
-- Confirmation of the approved indication text and EML status for the two local registrations
+- Mechanism of action data for clarithromycin
+- Any preclinical or clinical evidence that studies this condition directly
+- The SAHPRA Professional Information, to complete the safety review (warnings and contraindications)
+- Review of the other predicted indications. Hyperamylasemia has only one indirect case report. Punctate epithelial keratoconjunctivitis has one 2024 observational study (PMID 38472959) and may be a research question, but no listed study directly assesses clarithromycin for that condition.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

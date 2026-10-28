@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Cupric Chloride: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not stated in the data compiled for this report"
+last_modified_at: 2026-10-28
 monitor_inn: "Cupric Chloride"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "thrombocytopenia due to immune destruction"]
+description: "Cupric Chloride: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cupric Chloride
@@ -33,34 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Cupric Chloride: From Trace-Element Supplementation to Primary Release Disorder of Platelets
+## Cupric Chloride: Primary release disorder of platelets
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Cupric chloride is a source of copper, an essential trace element, and is registered in South Africa as a single-ingredient infusion product (Addaven).
 The TxGNN model predicts it may be relevant to **primary release disorder of platelets**, but **no clinical trials and no publications** currently support this direction.
-The prediction is a graph-based signal only and should be treated as a hypothesis.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it should be treated as a hypothesis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (the registration record has no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-Two other predictions were also generated, both L5 and Hold: pseudo-von Willebrand disease (99.25%) and thrombocytopenia due to immune destruction (99.02%).
+Two other predictions were also generated, both L5 and Hold: pseudo-von Willebrand disease (0.9925) and thrombocytopenia due to immune destruction (0.9902).
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Cupric chloride supplies copper, an essential trace element and cofactor for enzymes such as lysyl oxidase and ceruloplasmin. The original indication could not be confirmed from the registration record.
 
-The review found **no established mechanistic link** between cupric chloride and platelet granule release or signalling defects. The high score (99.29%) reflects graph-based proximity in the TxGNN knowledge graph, not a validated biological rationale.
+The review found **no established mechanistic link** between cupric chloride and platelet granule release or signalling defects. The high score (0.9929) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The same applies to the other two predictions:
 - **Pseudo-von Willebrand disease:** this condition arises from gain-of-function mutations in GP1BA that increase platelet GPIb-alpha affinity for von Willebrand factor (VWF). Copper has no known action on this interaction.

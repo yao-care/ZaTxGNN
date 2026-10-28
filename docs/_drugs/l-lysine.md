@@ -4,17 +4,17 @@ title: L-Lysine
 parent: Model Prediction Only (L5)
 nav_order: 283
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "L-Lysine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated"
 monitor_inn: "L-Lysine"
-predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency", "dyspepsia", "familial visceral myopathy", "vitamin deficiency disorder", "hypophosphatemic rickets", "renal tubular acidosis", "biotin metabolic disease", "postgastrectomy syndrome"]
+predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
+description: "L-Lysine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # L-Lysine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## L-Lysine: From an Unspecified Original Indication to Gastroparesis
+## L-Lysine: Gastroparesis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **gastroparesis**, but there ar
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated (the SAHPRA registration records compiled for this report contain no approved indication text) |
-| Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.77% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroparesis (disease) |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,13 +61,13 @@ The TxGNN model predicts it may be effective for **gastroparesis**, but there ar
 
 Currently, detailed mechanism of action data is not available. L-Lysine is an essential amino acid and a component of parenteral nutrition and infusion products. Its original indication could not be determined from the data compiled for this report.
 
-No credible mechanistic link between L-Lysine and gastroparesis was identified. The only retrieved paper (PMID 29414870) concerns delivery of mesenchymal stem cells from gelatin-alginate hydrogels to the stomach lumen. It does not study L-Lysine. The high score (0.998) is therefore a computational prediction only, and it may reflect proximity in the knowledge graph rather than true biology.
+No credible mechanistic link between L-Lysine and gastroparesis was identified. The only retrieved paper (PMID 29414870) concerns delivery of mesenchymal stem cells from gelatin-alginate hydrogels to the stomach lumen. It does not study L-Lysine. The high score (0.9977) comes from the TxGNN model (deep learning) and is therefore a computational prediction only. It may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions are also unsupported or only weakly supported:
 - **Congenital prothrombin deficiency, hypophosphatemic rickets, dyspepsia, familial visceral myopathy and postgastrectomy syndrome:** no trials or literature. The link to congenital prothrombin deficiency is purely speculative (lysine-analog antifibrinolytics act on a different mechanism).
 - **Obsolete vitamin D deficiency:** the ontology term is deprecated, so the prediction may map to a duplicate node.
-- **Vitamin deficiency disorder and biotin metabolic disease:** only indirect biochemical relevance (carnitine and biotin pathways), based on animal, in vitro or metabolomics studies. None tests L-Lysine as a treatment.
-- **Renal tubular acidosis:** the one paper reports a transient proximal tubulopathy after amino acid infusion. This is a safety signal against this use.
+- None tests L-Lysine as a treatment.
+- This is a safety signal against this use.
 
 ---
 
@@ -120,7 +120,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full safet
 
 **Rationale:**
 - The prediction rests on a model score alone (Evidence Level L5). There are no clinical trials, the only retrieved paper does not evaluate L-Lysine, and no mechanistic link to gastroparesis was found.
-- The safety data are incomplete. The package insert could not be retrieved, and the knowledge graph flags renal, cardiac and metabolic conditions.
+- The safety data are incomplete. The package insert could not be retrieved.
 
 **To proceed, the following is needed:**
 - SAHPRA package insert warnings and contraindications (a blocking data gap)

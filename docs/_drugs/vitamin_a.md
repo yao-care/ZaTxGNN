@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Vitamin A"
-predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
+predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 ---
 
 # Vitamin A
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Vitamin A is a fat-soluble vitamin, originally used to treat vitamin deficiency disorders, including vitamin A deficiency.
-The TxGNN model's top-ranked prediction is **congenital prothrombin deficiency**, but there are **0 clinical trials** and **0 publications** supporting this direction. It is a graph-based prediction only.
+The TxGNN model (deep learning)'s top-ranked prediction is **congenital prothrombin deficiency**, but there are **0 clinical trials** and **0 publications** supporting this direction. It is a model-based prediction only.
 Among the other predictions, **perinatal disease** (vitamin A in very low birth weight infants) has the most substantial evidence and is discussed below as a more promising direction.
 
 ---
@@ -50,10 +50,10 @@ Among the other predictions, **perinatal disease** (vitamin A in very low birth 
 |------|------|
 | Original Indication | Vitamin deficiency disorder; vitamin A deficiency (SAHPRA licence indication text is not available) |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Among the other predictions, **perinatal disease** (vitamin A in very low birth 
 
 Currently, detailed mechanism of action data is not available. Based on known information, vitamin A (retinol) acts through its active metabolite retinoic acid, which signals via nuclear receptors to regulate cell differentiation, epithelial integrity, immunity and vision. Its efficacy in correcting vitamin A deficiency is well established.
 
-For the top-ranked prediction, **congenital prothrombin deficiency**, there is no clear mechanistic link. This is a monogenic defect of coagulation factor II, and vitamin A is not known to influence prothrombin synthesis (unlike vitamin K). The high score most likely reflects the structure of the knowledge graph rather than biology, and the prediction should be treated with caution.
+For the top-ranked prediction, **congenital prothrombin deficiency**, there is no clear mechanistic link. This is a monogenic defect of coagulation factor II, and vitamin A is not known to influence prothrombin synthesis (unlike vitamin K). The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should be treated with caution.
 
 Other predictions in the data set vary in plausibility:
 - **Perinatal disease**: plausible. Vitamin A supports lung epithelial development, and preterm infants have low hepatic stores. Several Cochrane reviews of supplementation in very low birth weight infants report a reduction in bronchopulmonary dysplasia or oxygen requirement, though the benefit is modest and the evidence relates to specific conditions rather than the broad category.
@@ -123,7 +123,7 @@ Other registrations: neonatal TPN (exclusion under Section 36 and Section 14), G
 
 ## Safety Considerations
 
-**Contraindications (knowledge-graph associations, not label text):** The TxGNN knowledge graph links vitamin A with caution or contraindication in the following conditions: kidney disease, liver disease, gallbladder disease, peptic ulcer disease, sarcoidosis, hypercalcaemia, nephrocalcinosis, nephrolithiasis, primary hyperoxaluria, sickle cell anaemia, hemolytic anaemia, hereditary haemochromatosis, haemosiderosis, Wilson disease, hyperphosphataemia, inflammatory bowel disease (including ulcerative colitis), gastroenteritis, hypervitaminosis, and arteriosclerosis obliterans.
+**Contraindications (TxGNN model output, not label text):** The TxGNN model (deep learning) links vitamin A with caution or contraindication in the following conditions: kidney disease, liver disease, gallbladder disease, peptic ulcer disease, sarcoidosis, hypercalcaemia, nephrocalcinosis, nephrolithiasis, primary hyperoxaluria, sickle cell anaemia, hemolytic anaemia, hereditary haemochromatosis, haemosiderosis, Wilson disease, hyperphosphataemia, inflammatory bowel disease (including ulcerative colitis), gastroenteritis, hypervitaminosis, and arteriosclerosis obliterans. These associations come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Drug Interactions:** 68 interactions were identified. Main ones:
 - **Major:** isotretinoin, acitretin, tretinoin (additive retinoid toxicity), and tetracycline-class antibiotics (doxycycline, minocycline, tetracycline, oxytetracycline, demeclocycline, omadacycline, eravacycline, sarecycline)

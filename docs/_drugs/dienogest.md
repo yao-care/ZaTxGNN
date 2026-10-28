@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dienogest
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 177
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Dienogest: predicted new indication Amenorrhoea (evidence level L4). Approved use: Not available in the data compiled for this report (the approved indi…"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "brea
 # Dienogest
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Dienogest is a selective progestin. The data compiled for this report do not sta
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the approved indication text is blank) |
 | Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

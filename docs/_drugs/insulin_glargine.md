@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 2 diabetes mellitus (also type 1 diabetes mellitus and diabetic…"
+last_modified_at: 2026-10-28
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
+description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Glargine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Glargine: From Type 2 Diabetes Mellitus to Autoimmune Oophoritis
+## Insulin Glargine: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,26 +45,26 @@ The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (also type 1 diabetes mellitus and diabetic ketoacidosis) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Insulin glargine is a long-acting insulin analogue, and its efficacy in diabetes mellitus is well established. It has no known immunomodulatory mechanism that would be relevant to autoimmune oophoritis.
 
-The most plausible explanation for the prediction is co-occurrence. Autoimmune oophoritis is often seen in polyglandular autoimmune syndromes, which can include type 1 diabetes. This is an association with the original indication, not evidence that insulin glargine treats the ovarian condition. The high score (99.88%) is a knowledge-graph prediction only and should not be read as evidence of efficacy.
+The most plausible explanation for the prediction is co-occurrence. Autoimmune oophoritis is often seen in polyglandular autoimmune syndromes, which can include type 1 diabetes. This is an association with the original indication, not evidence that insulin glargine treats the ovarian condition. The high score (0.9988) is a TxGNN model (deep learning) prediction only and should not be read as evidence of efficacy.
 
 **Other top-ranked predictions show the same pattern:**
-- **Thiamine-responsive dysfunction syndrome** (99.61%): diabetes is a shared feature. Insulin would only treat the hyperglycaemia, while the primary treatment is thiamine.
-- **Focal stiff limb syndrome and classic stiff person syndrome** (99.60%): both are linked to anti-GAD autoimmunity and type 1 diabetes. Insulin would only treat coexisting diabetes.
-- **Opsismodysplasia** (99.59%): there is a speculative link through insulin/PI3K signalling (INPPL1/SHIP2), with no clinical support.
-- **Pancreatic agenesis** (99.43%): insulin replacement is standard care for the resulting diabetes. This is the same mechanism as the original indication, not a novel repurposing. It is the only prediction with any literature (L4), and that literature is indirect.
-- **Lipodystrophy and lipoatrophy conditions** (ranks 7–10, 99.34–99.42%): localized lipodystrophy is a known adverse effect of injected insulin, so these predictions are likely knowledge-graph artefacts. Insulin glargine should not be considered for them.
+- **Thiamine-responsive dysfunction syndrome** (0.9961): diabetes is a shared feature. Insulin would only treat the hyperglycaemia, while the primary treatment is thiamine.
+- **Focal stiff limb syndrome and classic stiff person syndrome** (0.9961): both are linked to anti-GAD autoimmunity and type 1 diabetes. Insulin would only treat coexisting diabetes.
+- **Opsismodysplasia** (0.9959): there is a speculative link through insulin/PI3K signalling (INPPL1/SHIP2), with no clinical support.
+- **Pancreatic agenesis** (0.9943): insulin replacement is standard care for the resulting diabetes. This is the same mechanism as the original indication, not a novel repurposing. It is the only prediction with any literature (L4), and that literature is indirect.
+- **Lipodystrophy and lipoatrophy conditions** (ranks 7–10, 99.34–0.9942): localized lipodystrophy is a known adverse effect of injected insulin, so these predictions are likely TxGNN model (deep learning) artefacts. Insulin glargine should not be considered for them.
 
 ## Clinical Trial Evidence
 
@@ -109,7 +109,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The prediction for autoimmune oophoritis rests only on a knowledge-graph score. There are no trials or publications, and no plausible mechanism by which insulin glargine would treat the condition. None of the other top-ten predictions offers a genuine repurposing opportunity either. Several reflect shared diabetes comorbidity, and the lipodystrophy-related ones reflect adverse effects of the drug.
+The prediction for autoimmune oophoritis rests only on a TxGNN model (deep learning) score. There are no trials or publications, and no plausible mechanism by which insulin glargine would treat the condition. None of the other top-ten predictions offers a genuine repurposing opportunity either. Several reflect shared diabetes comorbidity, and the lipodystrophy-related ones reflect adverse effects of the drug.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for insulin glargine

@@ -48,22 +48,22 @@ with **1 clinical trial** (a postoperative sore throat study) and **2 publicatio
 |------|------|
 | Original Indication | Not available (the SAHPRA registration record has no approved indication text) |
 | Predicted New Indication | Pharyngitis |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Zinc has plausible local effects in the oropharynx, including support of mucosal repair, modulation of local inflammation, and possible antiviral activity. These are hypotheses, not confirmed mechanisms for zinc sulfate in this setting.
 
-The available studies concern sore throat after surgery or mucositis caused by radiotherapy, not infectious pharyngitis. The link to the predicted indication is therefore partial. The very high TxGNN score (99.85%) is a computational prediction and does not by itself establish efficacy.
+The available studies concern sore throat after surgery or mucositis caused by radiotherapy, not infectious pharyngitis. The link to the predicted indication is therefore partial. The very high TxGNN score (0.9985) is a computational prediction and does not by itself establish efficacy.
 
 Other predictions in the model output are weaker:
-- **Acute laryngopharyngitis** (score 99.81%): the only evidence is a study of radiation-induced oropharyngeal mucositis, which is indirect. No registered trials were identified.
-- **Nasal cavity disease** (score 99.81%): the literature describes zinc sulfate mainly as a tool to induce anosmia in animals, which raises an olfactory toxicity concern rather than showing benefit.
-- **Congenital prothrombin deficiency** (score 99.16%): there is no mechanistic rationale and no supporting evidence, and this looks like a model artifact.
+- **Acute laryngopharyngitis** (score 0.9981): the only evidence is a study of radiation-induced oropharyngeal mucositis, which is indirect. No registered trials were identified.
+- **Nasal cavity disease** (score 0.9981): the literature describes zinc sulfate mainly as a tool to induce anosmia in animals, which raises an olfactory toxicity concern rather than showing benefit.
+- **Congenital prothrombin deficiency** (score 0.9916): there is no mechanistic rationale and no supporting evidence, and this looks like a model artifact.
 
 ## Clinical Trial Evidence
 

@@ -50,10 +50,10 @@ The prediction is therefore computational only.
 |------|------|
 | Original Indication | Not stated in the registration data compiled for this report (all 11 SAHPRA registrations are amino acid-containing infusion products) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 11 |
+| South Africa Market Status | Marketed (valid licences: 11 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ The data compiled for this report show no direct mechanistic link. The only loos
 
 Supplementing phenylalanine in a liver disease with impaired hepatic amino acid metabolism could also carry risk. The high TxGNN score should therefore be treated as a hypothesis-generating signal only.
 
-A second prediction, **congenital prothrombin deficiency** (score 99.26%), has no trials and no literature. Phenylalanine has no known role in prothrombin synthesis or function, so this prediction is likely a knowledge-graph artefact.
+A second prediction, **congenital prothrombin deficiency** (score 0.9926), has no trials and no literature. Phenylalanine has no known role in prothrombin synthesis or function, so this prediction is likely a TxGNN model (deep learning) artefact.
 
 ---
 
@@ -111,7 +111,7 @@ Warnings, contraindications and drug interaction data are not available from the
 - **Calcium-related:** hypercalcaemia, humoral hypercalcaemia of malignancy, sarcoidosis
 - **Cardiovascular:** heart disease, cardiovascular disease, digitalis poisoning, ventricular fibrillation
 
-These are knowledge-graph associations and need confirmation against the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
+These are predictions from the TxGNN model (deep learning). They may reflect similarities the model learned between related diseases, not biological evidence, and need confirmation against the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
 ---
 

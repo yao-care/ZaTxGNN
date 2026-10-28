@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rilpivirine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 403
-evidence_level: L4
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Rilpivirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-10-28
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Rilpivirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Rilpivirine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Rilpivirine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS (the SAHPRA registration records compiled for this report contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,10 +64,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 Feline immunodeficiency virus (FIV) is a lentivirus with a related reverse transcriptase, so there is a plausible mechanistic basis for the prediction. However, the only available study (2023) compared NNRTIs against FIV and HIV reverse transcriptase in biochemical and structural experiments. This is indirect, in vitro evidence, and NNRTIs are generally only weakly active against FIV. There is no in vivo or clinical evidence in cats.
 
 Other predictions with a high score are worth noting for context:
-- **Simian immunodeficiency virus infection** (score 99.97%): several macaque studies of long-acting rilpivirine, alone or with cabotegravir, cover treatment, post-exposure prophylaxis and remission. This is preclinical support for the existing HIV indication rather than a new indication.
-- **AIDS related complex** (99.56%): a historical term for symptomatic HIV disease, already within the approved indication.
-- **Congenital HIV** (99.56%): the literature is mainly about long-acting cabotegravir/rilpivirine in pregnancy. It addresses pregnancy safety and pharmacokinetics, not treatment of infants.
-- **A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (99.97%): no trials, no literature and no plausible mechanism. This is likely a network artefact of the model.
+- **Simian immunodeficiency virus infection** (score 0.9997): several macaque studies of long-acting rilpivirine, alone or with cabotegravir, cover treatment, post-exposure prophylaxis and remission. This is preclinical support for the existing HIV indication rather than a new indication.
+- It addresses pregnancy safety and pharmacokinetics, not treatment of infants.
+- **A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (0.9997): no trials, no literature and no plausible mechanism. This is likely a network artefact of the model.
 
 ---
 

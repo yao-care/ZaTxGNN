@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections (streptococcal and staphylococcal infections…"
 monitor_inn: "Levofloxacin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
 ---
 
 # Levofloxacin
@@ -48,10 +48,10 @@ Among the other predictions, **septicemic plague** has the most credible support
 |------|------|
 | Original Indication | Bacterial infections (streptococcal and staphylococcal infections, bacterial pneumonia, anthrax, sinusitis, conjunctivitis, pyelonephritis, among others). SAHPRA indication text is not available in the data compiled for this report. |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis (rank 1) |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (rank 1 prediction). For reference: septicemic plague L3; monoclonal gammopathy L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold (rank 1 prediction) |
 
 ## Why is This Prediction Reasonable?
@@ -65,7 +65,7 @@ Of the ten predictions reviewed, two merit separate comment:
 - **Septicemic plague (rank 9):** Levofloxacin acts directly on *Yersinia pestis*. Studies in African green monkeys showed cure of experimental pneumonic plague, and this model supported FDA approval under the Animal Rule. Evidence is non-human, there are no human RCTs, and some older mouse studies reported lack of efficacy against a nalidixic acid-resistant strain. Plague is already a labelled use in some jurisdictions, so this may not be a true repurposing.
 - **Monoclonal gammopathy (rank 7):** The literature concerns levofloxacin as prophylaxis against infection in newly diagnosed symptomatic multiple myeloma, not treatment of the gammopathy itself. The TEAMM trial (a double-blind, placebo-controlled phase 3 RCT) is the key study. The evidence is indirect for the predicted indication.
 
-The remaining predictions (hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant haematological disease, haematological disease with acquired peripheral neuropathy, congenital haematological disorder) have no supporting trials or literature and appear to be graph-based artifacts. Blood group incompatibility is supported only by a case report of an infectious complication. Fluoroquinolones carry a known peripheral neuropathy risk, so the neuropathy-associated prediction is more likely a safety concern than a benefit.
+The remaining predictions (hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant haematological disease, haematological disease with acquired peripheral neuropathy, congenital haematological disorder) have no supporting trials or literature. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Blood group incompatibility is supported only by a case report of an infectious complication. Fluoroquinolones carry a known peripheral neuropathy risk, so the neuropathy-associated prediction is more likely a safety concern than a benefit.
 
 ## Clinical Trial Evidence
 

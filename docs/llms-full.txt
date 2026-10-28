@@ -12,7 +12,7 @@ Evidence levels range from L1 (stronger clinical evidence) to L5 (model predicti
 
 ## Main content
 
-- `/` Drug Repurposing Reports — AI-powered drug repurposing predictions for 402 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation.
+- `/` Drug Repurposing Reports — AI-powered drug repurposing predictions for 395 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation.
 - `/drugs/` All Drugs — All drug validation reports and evidence level statistics in ZaTxGNN.
 - `/evidence-high/` High Evidence (L1-L2) — L1-L2 drug repurposing candidates in ZaTxGNN, supported by clinical trials or systematic reviews.
 - `/evidence-medium/` Moderate Evidence (L3-L4) — L3-L4 drug repurposing candidates in ZaTxGNN, backed by observational or preclinical evidence.

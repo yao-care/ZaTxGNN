@@ -8,6 +8,7 @@ nav_order: 95
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Calcium Gluconate
@@ -49,8 +50,8 @@ Calcium Gluconate (DrugBank: DB11126) is a calcium salt preparation; however, th
 | Predicted New Indication | None available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model output unavailable; no supporting studies retrievable |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 424
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "SODIUM FLUORIDE"
 predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
+description: "Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sodium Fluoride
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Sodium Fluoride: From Vitamin Deficiency Disorder to Epiglottitis
+## Sodium Fluoride: Epiglottitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Sodium fluoride is registered in South Africa mainly as a trace-element component of multi-ingredient nutritional products. Its original indication in the knowledge graph is vitamin deficiency disorder.
+Sodium fluoride is registered in South Africa mainly as a trace-element component of multi-ingredient nutritional products.
 The TxGNN model predicts it may be effective for **epiglottitis**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin deficiency disorder (from the knowledge graph; no approved indication text is available in the SAHPRA registrations) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Epiglottitis is an acute, potentially life-threatening bacterial infection of the epiglottis. It is treated with antibiotics and airway management. There is no documented antimicrobial or anti-inflammatory role for fluoride at safe doses in this condition.
 
-The TxGNN score is very high, but it reflects patterns in the knowledge graph rather than drug-specific evidence. The other top predictions are also infections or inflammatory conditions of the urogenital and respiratory tracts (urinary tract infection, gonococcal urethritis, Ureaplasma urethritis, uterine inflammatory disease, xanthogranulomatous pyelonephritis and laryngitis). None has clinical trial or supporting literature evidence.
+The TxGNN score is very high, but it comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top predictions are also infections or inflammatory conditions of the urogenital and respiratory tracts (urinary tract infection, gonococcal urethritis, Ureaplasma urethritis, uterine inflammatory disease, xanthogranulomatous pyelonephritis and laryngitis). None has clinical trial or supporting literature evidence.
 
 ## Clinical Trial Evidence
 

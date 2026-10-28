@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Progesterone
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 391
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Progesterone: predicted new indication Amenorrhea (evidence level L5). Approved use: Endometriosis"
 monitor_inn: "Progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "cervix endometriosis", "renal hypoplasia (disease)", "endometriosis in cutaneous scar", "endometriosis of rectovaginal septum and vagina", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Progesterone: predicted new indication Amenorrhea (disease) (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Progesterone: From Endometriosis to Amenorrhea
+## Progesterone: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **4 clinical trials** and **19 publications** currently supporting this dir
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (the SAHPRA registration does not list an approved indication text; original indications are taken from the TxGNN knowledge graph) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L1 (as scored in the data compiled for this report; see note below) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The data compiled for this report assigns L1, but only one completed Phase 3 trial (NCT00946192) was identified, and it tested estrogen rather than progesterone. Under the strict definition (at least 2 completed Phase 3 RCTs) the level would be lower, closer to L2. Read L1 as an upper bound.
@@ -145,8 +145,7 @@ Progesterone is already used in amenorrhoea as a withdrawal challenge and for cy
 | Rank | Predicted Indication | Evidence Level | Recommendation | Comment |
 |------|------|------|------|------|
 | 2 | Breast fibrocystic disease | L4 | Research question | Plausible luteal-insufficiency hypothesis; no registered trials, only older reviews and epidemiology |
-| 3 | Benign mammary dysplasia | L4 | Research question | Essentially the same condition as rank 2; evidence is indirect and includes veterinary studies |
-| 4 | Renal hypoplasia, bilateral | L5 | Hold | No clear mechanistic link; score likely reflects graph proximity |
+| 3 | Benign mammary dysplasia | L5 | Research question | Essentially the same condition as rank 2; evidence is indirect and includes veterinary studies |
 | 5 | Cervix endometriosis | L4 | Hold | Literature focuses on antiprogestins; parent endometriosis indication already exists |
 | 6 | Renal hypoplasia (disease) | L5 | Hold | One preclinical Pkd mouse study only; no clinical evidence |
 | 7 | Endometriosis in cutaneous scar | L4 | Hold | Single case report; surgery is the usual treatment |

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but 
 |------|------|
 | Original Indication | Type 1 and type 2 diabetes mellitus, diabetic ketoacidosis (the SAHPRA registration entry carries no indication text) |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but 
 
 Currently, detailed mechanism of action data is not available. Based on known information, insulin lispro is a rapid-acting human insulin analogue. Its efficacy in lowering blood glucose in diabetes is well established. It acts as a replacement hormone rather than an immune-modulating drug.
 
-The only plausible link to autoimmune oophoritis is the overlap of autoimmune endocrine conditions with type 1 diabetes (autoimmune polyendocrine syndromes). Insulin lispro has no known immunomodulatory action on ovarian autoimmunity. The high score most likely reflects network proximity to autoimmune endocrine disease in the knowledge graph, not a therapeutic mechanism. The prediction should be treated as unverified.
+The only plausible link to autoimmune oophoritis is the overlap of autoimmune endocrine conditions with type 1 diabetes (autoimmune polyendocrine syndromes). Insulin lispro has no known immunomodulatory action on ovarian autoimmunity. The high score of 0.9978 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as unverified.
 
 ### Other Predicted Indications (All Hold)
 
@@ -69,14 +69,14 @@ None of the other predictions have supporting clinical trials. They are summaris
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Thiamine-responsive dysfunction syndrome | 99.37% | L5 | Diabetes is a feature of the disease. Insulin only manages this symptom, and thiamine is the disease-directed therapy. |
-| 3 | Classic stiff person syndrome | 99.36% | L5 | Association with anti-GAD65 autoimmunity and comorbid type 1 diabetes. Insulin does not treat the neurological disease. |
-| 4 | Focal stiff limb syndrome | 99.36% | L5 | Same reasoning as stiff person syndrome. |
-| 5 | Opsismodysplasia | 99.34% | L5 | A speculative pathway link (INPPL1/SHIP2 in insulin signalling). No evidence, and hypoglycaemia risk is not justified. |
-| 6 | Drug-induced localized lipodystrophy | 99.09% | L5 | Insulin causes this as an injection-site adverse effect. Likely a false-positive signal. |
-| 7 | Pancreatic agenesis | 99.09% | L4 | Insulin replacement is rational and already standard care. It is not a novel repurposing. |
-| 8 | Centrifugal lipodystrophy | 99.04% | L5 | A localized paediatric skin and fat disorder. Insulin has no demonstrated role. |
-| 9 | Pressure-induced localized lipoatrophy | 99.03% | L5 | Mechanical in origin. Injection-site lipoatrophy is an insulin adverse effect. |
+| 2 | Thiamine-responsive dysfunction syndrome | 0.9937 | L5 | Diabetes is a feature of the disease. Insulin only manages this symptom, and thiamine is the disease-directed therapy. |
+| 3 | Classic stiff person syndrome | 0.9936 | L5 | Association with anti-GAD65 autoimmunity and comorbid type 1 diabetes. Insulin does not treat the neurological disease. |
+| 4 | Focal stiff limb syndrome | 0.9936 | L5 | Same reasoning as stiff person syndrome. |
+| 5 | Opsismodysplasia | 0.9934 | L5 | A speculative pathway link (INPPL1/SHIP2 in insulin signalling). No evidence, and hypoglycaemia risk is not justified. |
+| 6 | Drug-induced localized lipodystrophy | 0.9909 | L5 | Insulin causes this as an injection-site adverse effect. Likely a false-positive signal. |
+| 7 | Pancreatic agenesis | 0.9909 | L5 | Insulin replacement is rational and already standard care. It is not a novel repurposing. |
+| 8 | Centrifugal lipodystrophy | 0.9904 | L5 | A localized paediatric skin and fat disorder. Insulin has no demonstrated role. |
+| 9 | Pressure-induced localized lipoatrophy | 0.9903 | L5 | Mechanical in origin. Injection-site lipoatrophy is an insulin adverse effect. |
 
 ---
 

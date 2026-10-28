@@ -4,17 +4,17 @@ title: Potassium Iodide
 parent: Moderate Evidence (L3-L4)
 nav_order: 382
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Potassium Iodide"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "allergic urticaria", "papillary conjunctivitis", "trigeminal autonomic cephalalgia", "headache disorder", "tracheal disease", "laryngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Potassium Iodide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Potassium Iodide: From Allergic and Upper Respiratory Tract Conditions to Nasal Cavity Disease
+## Potassium Iodide: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Potassium iodide is listed in the knowledge graph for allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold and nasopharyngitis.
+Potassium iodide is listed for allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold and nasopharyngitis. These are not predictions of the TxGNN model (deep learning) and have no TxGNN score.
 The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **no registered clinical trials** and only **4 publications**, all case reports (3 veterinary, 1 human), supporting this direction.
 
 ---
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, nasopharyngitis (from the knowledge graph; the SAHPRA registrations do not state an approved indication) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,15 +67,6 @@ The available reports describe fungal or oomycete infections of the nose and fac
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Acute laryngopharyngitis | 99.95% | L5 | Weak link through historical expectorant use; no trials or literature |
-| 3 | Faucial diphtheria | 98.75% | L5 | Network association only; no mechanistic rationale |
-| 4 | Cervical disc degenerative disorder | 98.70% | L5 | Likely a graph artefact |
-| 5 | Allergic urticaria | 97.60% | L5 | Iodides can themselves cause urticaria, so this is a safety concern |
-| 6 | Papillary conjunctivitis | 97.11% | L5 | No mechanistic evidence |
-| 7 | Trigeminal autonomic cephalalgia | 97.08% | L5 | No identifiable link |
-| 8 | Headache disorder | 96.92% | L5 | The only linked article concerns Sweet's syndrome and is not relevant |
-| 9 | Tracheal disease | 94.36% | L5 | No direct evidence |
-| 10 | Laryngitis | 82.63% | L4 | Literature mostly unrelated (Graves' disease surgery); one sporotrichosis case only |
 
 ---
 
@@ -139,7 +130,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full safet
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.95%), but the supporting evidence is limited to veterinary case reports and a single human case of fungal infection. There are no registered trials and no controlled human data. The locally registered products are infusion formulations, not suited to nasal use. Safety data from the product label are also missing.
+The TxGNN score is very high (0.9995), but the supporting evidence is limited to veterinary case reports and a single human case of fungal infection. There are no registered trials and no controlled human data. The locally registered products are infusion formulations, not suited to nasal use. Safety data from the product label are also missing.
 
 **To proceed, the following is needed:**
 - Clarify the target population: specific fungal infections of the nose and face (for example, zygomycosis or sporotrichosis) rather than "nasal cavity disease" in general

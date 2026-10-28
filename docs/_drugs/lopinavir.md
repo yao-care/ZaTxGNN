@@ -48,21 +48,21 @@ The top-ranked prediction is also an animal disease, so its relevance to human p
 |------|------|
 | Original Indication | HIV infection / AIDS (the SAHPRA records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Lopinavir is a known HIV-1 protease inhibitor. Its efficacy in HIV infection is established, and the reasoning below draws on general pharmacological knowledge rather than the supplied data.
 
-Feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1, so a protease inhibitor is plausible as an antiviral. However, FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity. Published work suggests HIV-1 protease inhibitors are not reliably active against it. The very high TxGNN score most likely reflects proximity in the knowledge graph rather than demonstrated biology.
+Feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1, so a protease inhibitor is plausible as an antiviral. However, FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity. Published work suggests HIV-1 protease inhibitors are not reliably active against it. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other two predictions are weaker still:
-- **Simian immunodeficiency virus (SIV) infection** (score 99.90%, evidence level L4): SIV is a primate model of HIV and largely duplicates the original indication. It has little standalone value as a human repurposing target. Three preclinical macaque studies exist, listed below.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.90%, evidence level L5): No mechanistic link could be established. It is a rare genetic disorder with no known rationale for a protease inhibitor, and there are no trials or publications.
+- **Simian immunodeficiency virus (SIV) infection** (score 0.9990, evidence level L4): SIV is a primate model of HIV and largely duplicates the original indication. It has little standalone value as a human repurposing target. Three preclinical macaque studies exist, listed below.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9990, evidence level L5): No mechanistic link could be established. It is a rare genetic disorder with no known rationale for a protease inhibitor, and there are no trials or publications.
 
 ## Clinical Trial Evidence
 

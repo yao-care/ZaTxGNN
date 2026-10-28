@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00959",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00959"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "quinquaud-s-folliculitis-decalvans",
-          "display": "Quinquaud's folliculitis decalvans"
-        }
-      ],
-      "text": "Quinquaud's folliculitis decalvans"
+      "concept": {
+        "text": "Quinquaud's folliculitis decalvans"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9999
     }
   ]
 }

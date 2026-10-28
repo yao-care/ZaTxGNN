@@ -6,9 +6,9 @@ nav_order: 327
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
+description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mirtazapine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Mirtazapine: From Depression to Ohdo Syndrome and Variants
+## Mirtazapine: Ohdo syndrome and variants
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; the SAHPRA registration records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,11 +61,11 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Mirtazapine is generally known as a noradrenergic and specific serotonergic antidepressant, but this is background knowledge and not part of the supplied record.
 
-Ohdo syndrome is a rare genetic neurodevelopmental disorder (KAT6B-related). The data compiled for this report supports no mechanistic link between mirtazapine and this condition. The high score (0.994) probably reflects proximity in the knowledge graph, for example through shared symptoms or genes, rather than a true therapeutic relationship.
+Ohdo syndrome is a rare genetic neurodevelopmental disorder (KAT6B-related). The data compiled for this report supports no mechanistic link between mirtazapine and this condition. The high score (0.9942) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Two other predictions deserve mention because they are related or overlapping:
-- **Blepharophimosis - intellectual disability syndrome, Ohdo type** (score 99.11%) is closely related to, and likely overlaps with, the first prediction. The two are probably not independent. There are no trials or publications. Any symptomatic benefit (for mood, sleep or appetite) cannot be assessed from the available data, and there is no evidence that mirtazapine modifies the underlying genetic disorder.
-- **Benign paroxysmal torticollis of infancy** (score 99.11%) is a self-limiting episodic disorder of infancy, often linked to CACNA1A variants and considered a migraine equivalent. Any rationale would be speculative. Because it usually resolves on its own and affects infants, the benefit-risk of an antidepressant would need careful justification, including the boxed warnings for antidepressants in young patients.
+- **Blepharophimosis - intellectual disability syndrome, Ohdo type** (score 0.9911) is closely related to, and likely overlaps with, the first prediction. The two are probably not independent. There are no trials or publications. Any symptomatic benefit (for mood, sleep or appetite) cannot be assessed from the available data, and there is no evidence that mirtazapine modifies the underlying genetic disorder.
+- **Benign paroxysmal torticollis of infancy** (score 0.9911) is a self-limiting episodic disorder of infancy, often linked to CACNA1A variants and considered a migraine equivalent. Any rationale would be speculative. Because it usually resolves on its own and affects infants, the benefit-risk of an antidepressant would need careful justification, including the boxed warnings for antidepressants in young patients.
 
 ---
 

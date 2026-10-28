@@ -8,6 +8,7 @@ nav_order: 44
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Arginine Hydrochloride
@@ -53,8 +54,8 @@ A complete repurposing evaluation cannot be conducted until critical data gaps â
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 â€” no predictions or supporting studies available |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 10 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---

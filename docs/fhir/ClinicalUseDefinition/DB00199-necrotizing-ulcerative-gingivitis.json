@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00199",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00199"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "necrotizing-ulcerative-gingivitis",
-          "display": "necrotizing ulcerative gingivitis"
-        }
-      ],
-      "text": "necrotizing ulcerative gingivitis"
+      "concept": {
+        "text": "necrotizing ulcerative gingivitis"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.99
     }
   ]
 }

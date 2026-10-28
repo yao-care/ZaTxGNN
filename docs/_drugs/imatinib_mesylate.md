@@ -8,6 +8,7 @@ nav_order: 260
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Imatinib Mesylate
@@ -51,8 +52,8 @@ Imatinib mesylate is a targeted tyrosine kinase inhibitor with a well-establishe
 | Predicted New Indication | No TxGNN predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Unable to assess |
-| South Africa Market Status | Not Marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

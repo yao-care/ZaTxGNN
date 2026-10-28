@@ -4,17 +4,17 @@ title: Bisoprolol
 parent: Model Prediction Only (L5)
 nav_order: 74
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "BISOPROLOL"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Bisoprolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Bisoprolol: From Hypertension to Malignant Hypertensive Renal Disease
+## Bisoprolol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
-*Note: The SAHPRA records compiled for this report contain no approved-indication text, so the original indication is taken from the knowledge-graph indication data.*
+*Note: The SAHPRA records compiled for this report contain no approved-indication text, so the original indication cannot be taken from them.*
 
 ---
 
@@ -69,10 +69,10 @@ Malignant hypertensive renal disease is a severe end-organ complication of hyper
 Important caveats: beta-blockers are not first-line treatment for hypertensive emergencies, and no data compiled for this report show a renal benefit. This prediction is essentially an extension of the existing antihypertensive indication.
 
 Other predictions with similar scores were also generated (all Hold):
-- **Malignant renovascular hypertension** (99.94%, L5): beta-1 blockade reduces renin release, which is plausible, but this emergency is generally managed with other agents and revascularisation.
-- **Pulmonary hypertension, unclear multifactorial mechanism** (99.93%, L5): beta-blockade is not an established treatment, and there are concerns about right ventricular function and cardiac output. The prediction likely reflects the shared word "hypertension".
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.93%, L4): only indirect evidence (see below).
-- **Braddock syndrome** (99.91%, L5): no clear mechanistic rationale, and the condition is rare and poorly characterised.
+- **Malignant renovascular hypertension** (0.9994, L5): beta-1 blockade reduces renin release, which is plausible, but this emergency is generally managed with other agents and revascularisation.
+- **Pulmonary hypertension, unclear multifactorial mechanism** (0.9993, L5): beta-blockade is not an established treatment, and there are concerns about right ventricular function and cardiac output. The prediction likely reflects the shared word "hypertension".
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (0.9993, L4): only indirect evidence (see below).
+- **Braddock syndrome** (0.9991, L5): no clear mechanistic rationale, and the condition is rare and poorly characterised.
 
 ---
 

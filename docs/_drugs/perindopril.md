@@ -4,17 +4,17 @@ title: Perindopril
 parent: Model Prediction Only (L5)
 nav_order: 366
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder). Approved indication text is not…"
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Perindopril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Perindopril: From Hypertension to Malignant Hypertensive Renal Disease
+## Perindopril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,24 +45,24 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). Approved indication text is not available in the SAHPRA registration data compiled for this report |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 (preclinical or mechanistic reasoning only; no relevant clinical studies) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 (preclinical or mechanistic reasoning only; no relevant clinical studies) |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, perindopril is an ACE inhibitor. It blocks the renin-angiotensin-aldosterone system (RAAS), lowering blood pressure and reducing pressure within the kidney's filtering units (intraglomerular pressure). This is biologically plausible for hypertensive kidney injury.
 
-Malignant hypertensive renal disease is a severe form of hypertension, which is already perindopril's established indication. The high TxGNN score (99.77%) largely reflects this closeness to the approved indication rather than independent evidence. The single publication retrieved (functional state of a solitary kidney after nephrectomy for renal cancer) does not study perindopril or malignant hypertensive nephropathy.
+Malignant hypertensive renal disease is a severe form of hypertension, which is already perindopril's established indication. The high TxGNN score (0.9977) largely reflects this closeness to the approved indication rather than independent evidence. The single publication retrieved (functional state of a solitary kidney after nephrectomy for renal cancer) does not study perindopril or malignant hypertensive nephropathy.
 
 Other predictions in the list are weaker:
-- **Malignant renovascular hypertension** (99.77%, L5): ACE inhibition is mechanistically relevant, but ACE inhibitors can precipitate acute renal failure in bilateral renal artery stenosis or stenosis of a solitary kidney. No trials or literature were found.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.75%, L4): Animal studies in hypoxic rats (e.g. PMID 11282121 and PMID 10602319) give a preclinical signal. Most other retrieved papers are irrelevant keyword matches.
-- **Pulmonary hypertension with unclear multifactorial mechanism** (99.75%, L5) and **Braddock syndrome** (99.66%, L5): no supporting evidence and no identifiable mechanistic link.
+- **Malignant renovascular hypertension** (0.9977, L5): ACE inhibition is mechanistically relevant, but ACE inhibitors can precipitate acute renal failure in bilateral renal artery stenosis or stenosis of a solitary kidney. No trials or literature were found.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (0.9975, L4): Animal studies in hypoxic rats (e.g. PMID 11282121 and PMID 10602319) give a preclinical signal. Most other retrieved papers are irrelevant keyword matches.
+- **Pulmonary hypertension with unclear multifactorial mechanism** (0.9975, L5) and **Braddock syndrome** (0.9966, L5): no supporting evidence and no identifiable mechanistic link.
 
 ## Clinical Trial Evidence
 

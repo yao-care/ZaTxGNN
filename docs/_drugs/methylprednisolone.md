@@ -4,17 +4,17 @@ title: Methylprednisolone
 parent: Moderate Evidence (L3-L4)
 nav_order: 319
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Methylprednisolone: predicted new indication Alopecia areata (evidence level L3). Approved use: Autoimmune disease"
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Methylprednisolone: predicted new indication Alopecia areata (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Methylprednisolone: From Autoimmune Disease to Alopecia Areata
+## Methylprednisolone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **1 clinical trial** and **20 publications** currently supporting this dire
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease (SAHPRA indication text not available; original indications taken from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -138,7 +138,7 @@ The mechanism is plausible and supported by one completed Phase 4 trial plus mul
 
 ### Other Predicted Indications (Brief Note)
 
-- **Idiopathic steroid-sensitive nephrotic syndrome** (score 99.39%, L3, Research Question): mostly reviews and retrospective studies of IV methylprednisolone; prednisolone remains the standard steroid, so the added value of methylprednisolone is unclear.
+- **Idiopathic steroid-sensitive nephrotic syndrome**: mostly reviews and retrospective studies of IV methylprednisolone; prednisolone remains the standard steroid, so the added value of methylprednisolone is unclear.
 - **Alopecia universalis with onychodystrophy and vitiligo:** indirect plausibility through shared autoimmune mechanisms only; Hold.
 - **Alopecia mucinosa, telogen effluvium, folliculitis decalvans, alopecia antibody deficiency, hereditary hypotrichosis with recurrent skin vesicles, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome and atrichia with papular lesions:** prediction only, with no supporting trials or relevant literature (L5); Hold.
 ## Disclaimer

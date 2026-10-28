@@ -48,10 +48,10 @@ Indacaterol is an ultra-long-acting inhaled beta-2 agonist (a bronchodilator) us
 |------|------|
 | Original Indication | Not recorded in the SAHPRA licence data compiled for this report. Published literature describes use in COPD and asthma. |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,7 +105,7 @@ The SAHPRA package insert warnings and contraindications were not available for 
 
 ## Other Predictions in the Data
 
-- **Bronchial disease** (score 99.18%) is the only other prediction with clinical evidence, and it is effectively an on-label use rather than true repurposing. It has 24 registered trials and 20 publications. The key ones are:
+- **Bronchial disease** (score 0.9918) is the only other prediction with clinical evidence, and it is effectively an on-label use rather than true repurposing. It has 24 registered trials and 20 publications. The key ones are:
   - Phase 3 trial NCT02554786 (n=2,216), the 52-week QMF149 trial in asthma
   - Phase 3 trial NCT00529529 (n=805), a 26-week safety study against salmeterol
   - Phase 3 trial NCT01079130 (n=511), the 14-day efficacy trial against placebo and salmeterol
@@ -113,7 +113,7 @@ The SAHPRA package insert warnings and contraindications were not available for 
   - Phase 3 trial NCT04206761, which was withdrawn with 0 enrolment and does not count as evidence
   - Most of the Phase 3 evidence is for fixed-dose combinations, not indacaterol alone. LABA use in asthma requires inhaled corticosteroid co-therapy.
 - The remaining predictions have no clinical trials or literature: headache disorder, trigeminal autonomic cephalalgia, paratenonitis, calcific tendinitis, hypertrichosis, myositis, anaphylaxis and Ambras-type hypertrichosis.
-  - Several are likely artefacts of neighbouring diseases in the knowledge graph.
+  - These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
   - Indacaterol must not be used in place of epinephrine in anaphylaxis.
 
 ---

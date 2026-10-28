@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00646",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00646"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "spinal-cord-dermoid-cyst",
-          "display": "spinal cord dermoid cyst"
-        }
-      ],
-      "text": "spinal cord dermoid cyst"
+      "concept": {
+        "text": "spinal cord dermoid cyst"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9988
     }
   ]
 }

@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB09096",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB09096"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "2-hydroxyethyl-methacrylate-sensitization",
-          "display": "2-hydroxyethyl methacrylate sensitization"
-        }
-      ],
-      "text": "2-hydroxyethyl methacrylate sensitization"
+      "concept": {
+        "text": "2-hydroxyethyl methacrylate sensitization"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9943
     }
   ]
 }

@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00370",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00370"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "blepharophimosis-intellectual-disability-syndrome-ohdo-type",
-          "display": "blepharophimosis - intellectual disability syndrome, Ohdo type"
-        }
-      ],
-      "text": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      "concept": {
+        "text": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9911
     }
   ]
 }

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Conjugated Estrogens
-parent: Moderate Evidence (L3-L4)
-nav_order: 148
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Conjugated Estrogens: predicted new indication Migraine disorder (evidence level L3). Approved use: Psychologic dyspareunia"
+parent: Model Prediction Only (L5)
+nav_order: 147
+evidence_level: L5
+indication_count: 9
 monitor_inn: "Conjugated estrogens"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "migraine with or without aura, susceptibility to", "thrombophilia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "thrombophilia"]
+last_modified_at: 2026-10-27
+description: "Conjugated Estrogens: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Conjugated Estrogens
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Conjugated Estrogens: From Psychologic Dyspareunia to Migraine Disorder
+## Conjugated estrogens: Estrogen receptor agonist → migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Conjugated estrogens are a mixed-estrogen hormone product, and the data compiled for this report lists psychologic dyspareunia as the original indication.
-The TxGNN model predicts they may be effective for **migraine disorder**.
-Support is limited to **0 registered clinical trials** and **5 publications** (mostly reviews and observational cohorts) with mixed findings.
+Conjugated estrogens are a mixed-estrogen hormone product. The TxGNN model predicts they may be relevant to **migraine disorder**, but there are **no registered clinical trials** and only **5 publications** (reviews and cohort studies on hormones and migraine), so the evidence is indirect and preliminary.
 
 ---
 
@@ -48,23 +46,23 @@ Support is limited to **0 registered clinical trials** and **5 publications** (m
 
 | Item | Content |
 |------|------|
-| Original Indication | Psychologic dyspareunia (from the TxGNN knowledge graph; the SAHPRA record has no indication text) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | migraine disorder |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, conjugated estrogens are a mixed-estrogen product that acts through estrogen receptors. Their use in hormone-related conditions is established, and mechanistically they may be applicable to hormone-linked migraine.
+Detailed mechanism of action data is not available in the data compiled for this report. Conjugated estrogens are a mixed-estrogen preparation that acts on oestrogen receptors.
 
-Migraine is strongly linked to estrogen fluctuations, for example estrogen-withdrawal migraine and perimenstrual or perimenopausal patterns. Stable estrogen exposure may reduce attack frequency in some women. The effect is inconsistent, however: oral or fluctuating dosing can worsen migraine, so any response is likely to depend on dose, route and patient.
+Migraine is closely linked to oestrogen fluctuations, such as oestrogen-withdrawal migraine and perimenstrual or perimenopausal patterns. Stable oestrogen exposure may reduce attack frequency in some women. However, the effect is inconsistent: oral or fluctuating dosing can worsen migraine, so any response is likely to depend on dose, route and patient. Migraine with aura also carries an added ischaemic stroke risk with oestrogen exposure, which is a key safety concern.
 
-The link between the original indication (a sexual-function and hormonal condition) and migraine is therefore indirect. It rests on shared hormonal biology, not on a shared disease process. Migraine with aura also carries an added risk of ischaemic stroke with estrogen exposure, which is the key safety concern.
+The cited publications address hormones and migraine broadly (including hormone replacement therapy in postmenopausal women). None of them is a trial of conjugated estrogens specifically in migraine. For this reason the evidence level is L5 and not higher.
 
 ---
 
@@ -78,11 +76,11 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29521155](https://pubmed.ncbi.nlm.nih.gov/29521155/) | 2018 | Review | Climacteric | Hormonal fluctuations, especially in the perimenopause, are an important migraine trigger. Different migraine types are influenced differently. |
-| [11306204](https://pubmed.ncbi.nlm.nih.gov/11306204/) | 2001 | Cohort | Maturitas | Assessed how hormone replacement therapy (HRT) influences primary headaches in postmenopausal women. |
-| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Cohort | Headache | Compared three oral HRT schemes on migraine course in postmenopausal women. Effects differed between schemes. |
-| [8309263](https://pubmed.ncbi.nlm.nih.gov/8309263/) | 1994 | Review | Mayo Clin Proc | Compared the effectiveness of transdermal and oral estrogen therapy in various groups of women. |
-| [14195735](https://pubmed.ncbi.nlm.nih.gov/14195735/) | 1964 | Case series | Medizinische Klinik | Early report on conjugated estrogens for climacteric disorders. Only indirectly relevant. |
+| [29521155](https://pubmed.ncbi.nlm.nih.gov/29521155/) | 2018 | Review | Climacteric | Hormonal fluctuations, especially around the menopausal transition, are important migraine triggers; hormone exposure can change the course of migraine with and without aura |
+| [11306204](https://pubmed.ncbi.nlm.nih.gov/11306204/) | 2001 | Cohort | Maturitas | Evaluated how hormone replacement therapy influences the course of primary headaches in postmenopausal women |
+| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Cohort | Headache | Compared three oral HRT schemes and their differing effects on migraine in postmenopausal women |
+| [8309263](https://pubmed.ncbi.nlm.nih.gov/8309263/) | 1994 | Review | Mayo Clin Proc | Compared transdermal and oral oestrogen therapy across groups of women; not specific to migraine |
+| [14195735](https://pubmed.ncbi.nlm.nih.gov/14195735/) | 1964 | Case series | Medizinische Klinik | Early report on conjugated estrogens for climacteric disorders; not specific to migraine |
 
 ---
 
@@ -90,23 +88,15 @@ Currently no related clinical trials registered.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 27/21.8.2/0021 | Estracombi TTS | Pad (transdermal) | Not stated in the data compiled for this report |
-
-Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+| Reg. No. 27/21.8.2/0021 | Estracombi Tts | Pad | Indication text not recorded in the local data |
 
 ---
 
 ## Safety Considerations
 
-**Drug interactions:** The interaction query returned 100 entries; 20 are shown in the data compiled for this report. Almost all are rated Moderate, and one (cimetidine) is rated Minor. They include:
-- Antidiabetic agents (acarbose, acetohexamide, chlorpropamide, alogliptin, albiglutide, dulaglutide, canagliflozin, dapagliflozin, empagliflozin), where estrogens may alter glycaemic control.
-- Corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone).
-- Others: aprepitant, clarithromycin, clotrimazole, chenodeoxycholic acid, topical calcitriol.
-
-**Class-level concerns relevant to this prediction:**
-- Estrogens are prothrombotic, so caution is needed in patients with thrombophilia.
-- Migraine with aura carries an added ischaemic stroke risk with estrogen exposure.
-- Several other model predictions (antithrombin deficiency, factor V-related thrombosis, heparin cofactor 2 deficiency, thrombophilia) are better read as safety or contraindication signals than as therapeutic opportunities.
+- **Drug Interactions**: 100 interactions were identified in the interaction database. Most of those listed are moderate, including corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), antidiabetic agents (acarbose, alogliptin, canagliflozin, dapagliflozin, empagliflozin, chlorpropamide, acetohexamide, albiglutide, dulaglutide), aprepitant, clarithromycin and clotrimazole. Cimetidine is a minor interaction.
+- **Thrombotic risk**: Oestrogens are prothrombotic. Several lower-ranked model predictions (antithrombin deficiency, thrombophilia, factor V-related thrombosis) are safety signals and not therapeutic opportunities.
+- **Migraine with aura**: Oestrogen exposure adds ischaemic stroke risk in this group.
 
 Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
@@ -117,14 +107,13 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 **Decision: Hold**
 
 **Rationale:**
-Evidence for migraine is limited to reviews and observational cohorts with inconsistent results, and no clinical trials are registered. Hormone therapy can improve or worsen migraine, and estrogen exposure raises stroke risk in migraine with aura, so the risk-benefit balance is unresolved.
+- No study directly tests conjugated estrogens in migraine disorder, and the available literature shows inconsistent effects, with worsening possible depending on dose and route. Stroke risk in migraine with aura is a significant safety concern.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert, to complete the warnings and contraindications review. This gap currently blocks safety screening.
-- Mechanism of action data.
-- Controlled trials of conjugated estrogens in migraine, with attention to dose, route (transdermal versus oral) and aura status.
-- A stroke and thrombosis risk-stratification plan for any pilot study.
-- Clarification of the approved indication text and route for the registered product (a transdermal pad), since the literature mostly concerns oral therapy.
+- Controlled clinical studies of conjugated estrogens in migraine, defining dose, route and patient subgroup
+- Mechanism of action data
+- SAHPRA Professional Information warnings and contraindications for formal safety screening
+- A stroke and thrombosis risk assessment, particularly for migraine with aura
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

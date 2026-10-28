@@ -2,19 +2,19 @@
 layout: default
 title: Cilazapril
 parent: Model Prediction Only (L5)
-nav_order: 121
+nav_order: 120
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-15
-description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension (hypertensive disorder). The registration record in th…"
+indication_count: 3
 monitor_inn: "CILAZAPRIL"
-predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease"]
+predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease"]
+last_modified_at: 2026-10-28
+description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cilazapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,38 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Cilazapril: From Hypertension to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
+## Cilazapril: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cilazapril is an ACE inhibitor originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia**,
-supported by **4 preclinical publications** (animal and in vitro studies) and **no registered clinical trials**.
+Cilazapril is an ACE inhibitor, originally used to treat hypertension.
+The TxGNN model predicts it may be useful for **pulmonary hypertension owing to lung disease and/or hypoxia**,
+but the support comes only from **4 preclinical or in vitro publications** and **no clinical trials**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The registration record in the data compiled for this report has no approved indication text, so this comes from the knowledge graph. |
-| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia (the best-supported of the predictions, ranked 2nd by TxGNN; the top-ranked prediction, pulmonary hypertension with unclear multifactorial mechanism, has no supporting studies) |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L4 (preclinical and mechanism studies only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
-| Recommended Decision | Hold (treat as a research question) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| TxGNN Prediction Score | 0.9920 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cilazapril is known to be an ACE inhibitor: it blocks angiotensin-converting enzyme and so lowers angiotensin II. Its efficacy in hypertension is established, and mechanistically it may be applicable to pulmonary hypertension linked to lung disease or low oxygen levels.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cilazapril belongs to the ACE inhibitor class. These drugs reduce the production of angiotensin II, a molecule that narrows blood vessels and promotes vascular remodelling.
 
-The renin-angiotensin system acts in the lung blood vessels as well as in the systemic circulation. Four preclinical publications from 1991 to 1997 support this link:
-- In rats exposed to chronic hypoxia, cilazapril reduced the thickening of the pulmonary artery wall.
-- In a second rat study, cilazapril protected against the rise in mean pulmonary arterial pressure and the fall in arterial oxygen (PaO2) under chronic hypoxia.
-- A study of local pulmonary arterial ACE suggests it plays a role in developing hypoxic pulmonary hypertension.
-- In cultured heart muscle cell aggregates, cilazapril and captopril sped up recovery from hypoxia.
+In chronic hypoxia, the renin-angiotensin system in the lung blood vessels becomes more active, and the pulmonary arteries thicken and narrow. Blocking ACE could, in theory, reduce this vasoconstriction and remodelling. Rat studies from 1991 to 1997 suggest cilazapril reduced the thickening of pulmonary arteries and the rise in pulmonary arterial pressure under chronic hypoxia.
 
-All of this evidence comes from animals or cell cultures. Whether it applies to patients is untested. Two further predictions, malignant renovascular hypertension and malignant hypertensive renal disease, are mechanistically plausible but largely overlap with the existing hypertension use. They are better seen as extensions of the current indication than as new repurposing opportunities.
+However, these are animal and cell-culture findings only. None of the cited studies tested the drug in patients with this condition, so the link remains a hypothesis. Because no cited study directly addresses the disease in humans, the evidence level is capped at L5.
 
 ## Clinical Trial Evidence
 
@@ -74,42 +70,41 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1708054](https://pubmed.ncbi.nlm.nih.gov/1708054/) | 1991 | Preclinical animal study | J Cardiovasc Pharmacol | Studied whether cilazapril prevents thickening of the pulmonary artery wall in rats exposed to chronic hypoxia (8% oxygen for 4 weeks) |
-| [7712584](https://pubmed.ncbi.nlm.nih.gov/7712584/) | 1994 | Preclinical animal study | Zhonghua Jie He He Hu Xi Za Zhi | Cilazapril protected against the rise in mean pulmonary arterial pressure and the fall in PaO2 in rats with chronic hypoxic pulmonary hypertension |
-| [10072805](https://pubmed.ncbi.nlm.nih.gov/10072805/) | 1997 | Preclinical animal study (mechanistic) | Zhonghua Jie He He Hu Xi Za Zhi | Examined the role of the local pulmonary arterial renin-angiotensin system in hypoxic pulmonary hypertension |
-| [1378120](https://pubmed.ncbi.nlm.nih.gov/1378120/) | 1992 | In vitro study | J Cardiovasc Pharmacol | Cilazapril and captopril accelerated recovery from hypoxia in cultured myocardial cell aggregates |
+| [1708054](https://pubmed.ncbi.nlm.nih.gov/1708054/) | 1991 | Preclinical (rat) | J Cardiovasc Pharmacol | Cilazapril, a long-acting ACE inhibitor, was tested for prevention of pulmonary artery medial thickening in rats exposed to chronic hypoxia |
+| [7712584](https://pubmed.ncbi.nlm.nih.gov/7712584/) | 1994 | Preclinical (rat) | Zhonghua Jie He He Hu Xi Za Zhi | Cilazapril protected against the rise in mean pulmonary arterial pressure and the fall in PaO2 in rats with chronic hypoxic pulmonary hypertension |
+| [10072805](https://pubmed.ncbi.nlm.nih.gov/10072805/) | 1997 | Preclinical (animal) | Zhonghua Jie He He Hu Xi Za Zhi | Studied the role of local pulmonary arterial ACE and the renin-angiotensin system in hypoxic pulmonary hypertension |
+| [1378120](https://pubmed.ncbi.nlm.nih.gov/1378120/) | 1992 | In vitro | J Cardiovasc Pharmacol | Cilazapril and captopril accelerated recovery from hypoxia in cultured myocardial cell aggregates (heart cells, not lung) |
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 29/7.1.3/0022 | Inhibace plus 5mg/12.5mg | Tablet (oral) | Not available in the data compiled for this report |
+| Reg. No. 29/7.1.3/0022 | Inhibace plus 5mg/12.5mg | Tablet | Not stated in the data compiled for this report |
 
-The Essential Medicines List (EML) inclusion status of cilazapril is not stated in the data compiled for this report.
+This is the only registration, and it is a combination product (the "plus" presentation). It should not be used to describe how single-ingredient cilazapril is approved or marketed in South Africa. Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-**Drug Interactions**: The interaction data compiled for this report only record the pharmacological target of cilazapril (angiotensin-converting enzyme, ACE). No specific drug-drug interactions are listed.
+- **Drug Interactions**: The only interaction record is a pharmacological target entry (angiotensin-converting enzyme, the drug's intended target). It is not a drug-drug interaction with a defined severity.
 
-**Points raised in the repurposing assessment (not from label text):**
-- Systemic hypotension and effects on hypoxic pulmonary vasoconstriction would need consideration in patients with lung disease or hypoxia.
-- For the renal-related predictions, ACE inhibitors can cause acute decline in renal function in bilateral renal artery stenosis, as well as hyperkalaemia and acute kidney injury.
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
+For context, ACE inhibitors as a class carry cautions in bilateral renal artery stenosis, renal impairment and hyperkalaemia. These are class-level considerations and not label text for this product.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (treat as a research question)**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.2%), and animal studies support a plausible effect in hypoxic pulmonary hypertension. However, there are no human studies, the evidence is more than 25 years old, and safety information from the SAHPRA label has not been reviewed. The other predictions (multifactorial pulmonary hypertension, malignant renovascular hypertension, malignant hypertensive renal disease) rest on computational prediction alone.
+The TxGNN score is high (0.9920), but the support is limited to rat and cell-culture studies from the 1990s, with no clinical trials. The prediction is therefore a research question, not a basis for clinical use.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (PI) warnings and contraindications. This gap blocks the safety screening step.
-- Detailed mechanism of action data (for example from DrugBank).
-- The approved indication text and Essential Medicines List status for the registered product (Inhibace plus is a combination-strength product name, so the active ingredients should be confirmed).
-- Human evidence: a literature search for clinical studies, and ideally a pilot or Phase 2 study in pulmonary hypertension associated with lung disease or hypoxia.
-- A safety plan covering blood pressure, renal function and potassium monitoring in patients with chronic lung disease.
+- Human clinical data (at least a pilot or Phase 2 study) in pulmonary hypertension due to lung disease or hypoxia
+- A review of the SAHPRA Professional Information for warnings and contraindications, particularly in patients with low blood pressure or renal impairment
+- Detailed mechanism of action data for cilazapril
+- Licence and indication details for any single-ingredient cilazapril product in South Africa
+
+**Other predictions (not supported by any study):** Two further predictions, pulmonary hypertension with unclear multifactorial mechanism (0.9920) and malignant hypertensive renal disease (0.9912), have no trials or literature and are at evidence level L5, so both are on Hold. The malignant hypertensive renal disease prediction largely overlaps with the existing hypertension use and may not be true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

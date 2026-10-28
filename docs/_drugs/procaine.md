@@ -50,10 +50,10 @@ No clinical trials are registered for this prediction, and only **5 publications
 |------|------|
 | Original Indication | Not available (the single SAHPRA registration lists no approved indication text) |
 | Predicted New Indication | Methemoglobinemia |
-| TxGNN Prediction Score | 99.50% |
+| TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ No clinical trials are registered for this prediction, and only **5 publications
 
 Currently, detailed mechanism of action data is not available. Procaine is known as a local anaesthetic that blocks sodium channels. Pharmacology data compiled for this report also list the ryanodine receptors RyR1 and RyR2 as proposed molecular targets. However, no public bioactivity data were found to confirm these targets.
 
-For methemoglobinemia, the published literature points in the opposite direction from the prediction. Reports describe procaine and related local anaesthetics such as lignocaine as **causing** methemoglobin formation (for example, "Methemoglobinemia due to intravenous procaine", 1970). The high TxGNN score therefore most likely reflects a drug-disease association in the knowledge graph, not a therapeutic relationship. On current evidence, using procaine for this indication would be a safety concern.
+For methemoglobinemia, the published literature points in the opposite direction from the prediction. Reports describe procaine and related local anaesthetics such as lignocaine as **causing** methemoglobin formation (for example, "Methemoglobinemia due to intravenous procaine", 1970). The high TxGNN score (0.9950) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. On current evidence, using procaine for this indication would be a safety concern.
 
 Other predictions in the list include methemoglobinemia (alpha type), methemoglobin reductase deficiency, anaphylaxis, Tourette syndrome, hyperthyroidism, fibromyalgia, tendinitis, idiopathic granulomatous myositis and myositis fibrosa. Of these, the musculoskeletal pain indications are the most plausible. They are noted under Conclusion and Next Steps.
 
@@ -123,7 +123,7 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 **Decision: Hold**
 
 **Rationale:**
-The prediction for methemoglobinemia is not supported. The evidence shows procaine causing the condition, so repurposing it for this indication would be a safety concern. There are no clinical trials, and the TxGNN score appears to reflect a knowledge-graph association rather than a therapeutic one.
+The prediction for methemoglobinemia is not supported. The evidence shows procaine causing the condition, so repurposing it for this indication would be a safety concern. There are no clinical trials, and the TxGNN score (0.9950) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions of note:**
 - **Tendinitis** (evidence level L3, research question): a 2022 study of 1% procaine neural therapy in supraspinatus tendinopathy ([35480510](https://pubmed.ncbi.nlm.nih.gov/35480510/)) and a 2013 RCT of local anaesthetic versus corticosteroid injection in lateral epicondylitis ([23494116](https://pubmed.ncbi.nlm.nih.gov/23494116/)) offer more modern, though not procaine-specific, data.

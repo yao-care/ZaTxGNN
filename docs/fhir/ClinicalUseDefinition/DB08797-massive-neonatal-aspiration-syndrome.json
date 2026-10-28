@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB08797",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB08797"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "massive-neonatal-aspiration-syndrome",
-          "display": "massive neonatal aspiration syndrome"
-        }
-      ],
-      "text": "massive neonatal aspiration syndrome"
+      "concept": {
+        "text": "massive neonatal aspiration syndrome"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9958
     }
   ]
 }

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Lamotrigine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 286
-evidence_level: L3
-indication_count: 9
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L3). Approved use: Epilepsy (partial epilepsy…"
 monitor_inn: "LAMOTRIGINE"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 # Lamotrigine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-## Lamotrigine: From Epilepsy to Trigeminal Neuralgia
+## Lamotrigine: From Epilepsy to Trigeminal Nerve Neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -52,10 +52,10 @@ The TxGNN model's top-ranked prediction is trigeminal nerve neoplasm, but the ev
 | Original Indication | Epilepsy (partial epilepsy, Lennox-Gastaut syndrome). No approved indication text is available from the SAHPRA registrations. |
 | Predicted New Indication (top-ranked) | Trigeminal nerve neoplasm |
 | Predicted New Indication (best-supported) | Trigeminal neuralgia |
-| TxGNN Prediction Score | Trigeminal nerve neoplasm: 99.97%; trigeminal neuralgia: 99.89% |
+| TxGNN Prediction Score | Trigeminal nerve neoplasm: 0.9997; trigeminal neuralgia: 0.9989 |
 | Evidence Level | Trigeminal nerve neoplasm: L5; trigeminal neuralgia: L2 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Trigeminal nerve neoplasm: Hold; trigeminal neuralgia: Proceed with Guardrails |
 
 ---
@@ -66,7 +66,7 @@ Detailed mechanism of action data was not available in the data compiled for thi
 
 **Trigeminal neuralgia (best-supported):** Trigeminal neuralgia involves ectopic, hyperexcitable nerve discharges, so a sodium-channel-blocking anti-seizure drug is mechanistically plausible. The EAN 2019 guideline positions lamotrigine as an add-on or alternative option, not a first-line agent.
 
-**Trigeminal nerve neoplasm (top-ranked):** The high score appears to reflect the closeness of this disease to trigeminal neuralgia in the knowledge graph. The retrieved literature concerns trigeminal neuralgia and a cavernous malformation case, not tumour treatment. Lamotrigine has no anti-tumour rationale, so this prediction should be regarded as an artefact of the model.
+**Trigeminal nerve neoplasm (top-ranked):** The high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as trigeminal neuralgia, not biological evidence. The retrieved literature concerns trigeminal neuralgia and a cavernous malformation case, not tumour treatment. Lamotrigine has no anti-tumour rationale, so this prediction should be regarded as an artefact of the model.
 
 **Other predictions (summarised):** The remaining predictions are mostly reflex seizure types. They extend the approved epilepsy use, but evidence is weak.
 
@@ -144,7 +144,6 @@ Please refer to the SAHPRA-approved PI for warnings and contraindications, and r
 **Rationale:**
 - The neoplasm prediction has no supporting evidence and no anti-tumour rationale (L5), so it should not be pursued.
 - For trigeminal neuralgia, two completed small trials (one Phase 2/3 against carbamazepine) and guideline support as an add-on or alternative option make this a plausible extension (L2). The trials are too small for confirmatory (L1) evidence, and lamotrigine is not first-line.
-- The other seizure predictions are extensions of the existing epilepsy use. Startle epilepsy has the most support (small case series).
 
 **To proceed, the following is needed:**
 - Review of the SAHPRA PI (warnings and contraindications), which was a blocking data gap for safety screening.

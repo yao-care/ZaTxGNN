@@ -4,7 +4,7 @@ title: Salbutamol
 parent: Model Prediction Only (L5)
 nav_order: 411
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Asthma"
 monitor_inn: "Salbutamol"
@@ -14,7 +14,7 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 # Salbutamol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ However, **no clinical trials and no publications** were found for this specific
 |------|------|
 | Original Indication | Asthma; bronchial disease |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.996% (model rank 65) |
+| TxGNN Prediction Score | 1.0000 (model rank 65) |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 10 |
+| South Africa Market Status | Marketed (valid licences: 10 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -119,7 +119,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The prediction for papillary conjunctivitis has a high model score but no supporting trials or publications. No ophthalmic formulation is registered in South Africa, and knowledge-graph signals for glaucoma and ocular hypertension call for caution.
+The prediction for papillary conjunctivitis has a high model score but no supporting trials or publications. No ophthalmic formulation is registered in South Africa. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - A literature and trial search specific to salbutamol or beta-2 agonists in papillary or allergic conjunctivitis, plus preclinical ocular data

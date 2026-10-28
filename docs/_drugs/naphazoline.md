@@ -50,10 +50,10 @@ but there are currently **no clinical trials and no publications** supporting th
 |------|------|
 | Original Indication | Not stated in the SAHPRA registration data; pharmacology data describe use as a vasoconstrictor to reduce eye redness |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ but there are currently **no clinical trials and no publications** supporting th
 
 Currently, detailed mechanism of action data is not available. Based on known information, naphazoline is an alpha-adrenergic agonist. It acts on alpha-1A, alpha-2A and alpha-2C adrenoceptors, and its effect of narrowing blood vessels is established for ocular redness.
 
-A plausible link between this vasoconstrictor action and a hereditary hair-growth disorder has not been established. The high score (99.83%) is a graph-based prediction only, and it may reflect network proximity to other vasoactive or hair-related drugs rather than a true biological relationship.
+A plausible link between this vasoconstrictor action and a hereditary hair-growth disorder has not been established. The high score (0.9983) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top predictions (congenital hypotrichosis milia, diffuse alopecia areata, alopecia, hypertrichosis) face the same problem. For alopecia in general, established agents such as minoxidil act through vasodilation and potassium channel opening, so the mechanistic direction of a vasoconstrictor is questionable. In alopecia areata, an autoimmune condition, topical vasoconstriction has no known immunomodulatory benefit and could in theory reduce follicular perfusion.
 

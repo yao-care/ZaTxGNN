@@ -6,9 +6,9 @@ nav_order: 450
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial infections of the eye (e.g. conjunctivitis…"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
+description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Tobramycin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tobramycin: From Bacterial Eye Infections to Exposure Keratitis
+## Tobramycin: Exposure keratitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections of the eye (e.g. conjunctivitis, staphylococcal infection). The SAHPRA registrations in the data compiled for this report carry no indication text, so this comes from the knowledge graph. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Exposure keratitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -103,7 +103,7 @@ Both registrations are valid single-ingredient products. Essential Medicines Lis
 
 ## Safety Considerations
 
-**Contraindications (knowledge graph associations, not label text):** The knowledge graph links tobramycin to contraindications in several groups of conditions:
+**Contraindications (associations learned by the TxGNN model (deep learning), not label text):** The TxGNN model (deep learning) links tobramycin to contraindications in several groups of conditions; these links may reflect similarities the model learned between related diseases, not biological evidence:
 - **Eye conditions:** herpes simplex virus keratitis, open-angle glaucoma, glaucoma, ocular hypertension, viral eye infection, fungal infection of eye, ocular tuberculosis, ophthalmic herpes zoster, corneal pigmentation, eye infectious disease
 - **Renal and metabolic conditions:** kidney disease, diabetes mellitus, diabetic ketoacidosis, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease
 - **Neuromuscular and neurological conditions:** myasthenia gravis (including adult-onset), neuromuscular junction disease, parkinsonian disorder, Parkinson disease, central nervous system origin vertigo
@@ -129,7 +129,7 @@ Package insert warnings and contraindications from SAHPRA are not available in t
 **Decision: Hold**
 
 **Rationale:**
-- The prediction score is very high (99.93%), but no clinical trials exist and the literature is indirect. Corneal epithelial toxicity is a real concern in a damaged cornea, so the evidence level is L4.
+- The prediction score is very high (0.9993), but no clinical trials exist and the literature is indirect. Corneal epithelial toxicity is a real concern in a damaged cornea, so the evidence level is L4.
 
 **To proceed, the following is needed:**
 - SAHPRA package insert warnings, contraindications and approved indications for Mydex and Tobradex (the safety screening step is currently blocked by this gap)

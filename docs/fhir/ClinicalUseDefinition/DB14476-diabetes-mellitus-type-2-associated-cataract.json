@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB14476",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB14476"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "diabetes-mellitus-type-2-associated-cataract",
-          "display": "diabetes mellitus type 2 associated cataract"
-        }
-      ],
-      "text": "diabetes mellitus type 2 associated cataract"
+      "concept": {
+        "text": "diabetes mellitus type 2 associated cataract"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9998
     }
   ]
 }

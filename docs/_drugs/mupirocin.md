@@ -4,17 +4,17 @@ title: Mupirocin
 parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Mupirocin: predicted new indication Pleural empyema (evidence level L5). Approved use: Impetigo, bullous impetigo"
 monitor_inn: "Mupirocin"
-predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "cutaneous candidiasis", "vaginal discharge", "exposure keratitis", "leukoplakia of vagina", "non-human animal disease", "staphylococcal scalded skin syndrome", "bacterial vaginosis"]
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mupirocin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mupirocin: From Impetigo to Pleural Empyema
+## Mupirocin: Pleural empyema (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mupirocin is a topical antibiotic originally used to treat impetigo and bullous impetigo.
 The TxGNN model's top-ranked prediction is **pleural empyema**, but **no clinical trials and no publications** support it.
-The best-supported of the ten predictions in the data compiled for this report is **staphylococcal scalded skin syndrome (SSSS)**, with **12 publications**, mostly observational.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Impetigo, bullous impetigo (the SAHPRA registration carries no indication text) |
-| Predicted New Indication | Pleural empyema (rank 1 of 10 predictions) |
-| TxGNN Prediction Score | 99.49% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pleural empyema (disease) |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Other predictions in the data compiled for this report:**
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 2 | Punctate epithelial keratoconjunctivitis | 99.10% | L5 | Hold |
-| 3 | Neurotrophic keratopathy | 98.48% | L5 | Hold |
-| 4 | Cutaneous candidiasis | 98.27% | L4 | Research Question |
-| 5 | Vaginal discharge | 96.01% | L5 | Hold |
-| 6 | Exposure keratitis | 95.89% | L4 | Hold |
-| 7 | Leukoplakia of vagina | 95.81% | L5 | Hold |
-| 8 | Non-human animal disease | 95.66% | L5 | Hold |
-| 9 | Staphylococcal scalded skin syndrome | 95.57% | L3 | Research Question |
-| 10 | Bacterial vaginosis | 95.19% | L4 | Hold |
+| 2 | Punctate epithelial keratoconjunctivitis | 0.9910 | L5 | Hold |
 
 ## Why is This Prediction Reasonable?
 
@@ -74,9 +65,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 **Pleural empyema (rank 1):** *S. aureus* is a common cause of empyema, so an antibacterial link exists on paper. However, mupirocin is a topical agent with no meaningful systemic or pleural exposure. The link is therefore only a model prediction, and no trials or literature support it.
 
-**Staphylococcal scalded skin syndrome (rank 9, the best-supported):** SSSS is caused by exfoliative toxin-producing *S. aureus*. This is the same pathogenic mechanism as bullous impetigo, which is already an original indication of mupirocin. The data show mupirocin used as adjunctive topical care alongside systemic antibiotics, not as standalone therapy.
+This is the same pathogenic mechanism as bullous impetigo, which is already an original indication of mupirocin. The data show mupirocin used as adjunctive topical care alongside systemic antibiotics, not as standalone therapy.
 
-**Other predictions:** Most have weak or no plausible mechanistic links. Neurotrophic keratopathy and leukoplakia of vagina are not primarily infectious. Punctate epithelial keratoconjunctivitis is often viral or inflammatory. Bacterial vaginosis is anaerobe-dominated, which mupirocin does not target well. "Non-human animal disease" is a non-specific category that cannot be evaluated.
+**Other predictions:** Most have weak or no plausible mechanistic links. Punctate epithelial keratoconjunctivitis is often viral or inflammatory.
 
 ## Clinical Trial Evidence
 
@@ -86,11 +77,9 @@ Currently no related clinical trials registered for pleural empyema. No clinical
 
 No literature is available for pleural empyema (rank 1). Publications exist for several lower-ranked predictions; the most relevant are listed below.
 
-**Staphylococcal scalded skin syndrome (rank 9)**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37404367](https://pubmed.ncbi.nlm.nih.gov/37404367/) | 2023 | Comparative clinical study | Clin Cosmet Investig Dermatol | Compared treatment duration, influencing factors and costs of different IV antibiotics combined with 2% mupirocin ointment in paediatric SSSS |
 | [15482208](https://pubmed.ncbi.nlm.nih.gov/15482208/) | 2004 | Review | Expert Rev Anti Infect Ther | Treatment of bullous impetigo and SSSS in infants; both arise from staphylococcal exfoliative toxin |
 | [35901469](https://pubmed.ncbi.nlm.nih.gov/35901469/) | 2022 | Case series | Adv Neonatal Care | SSSS identification and wound care in neonates with MSSA infection |
 | [27047925](https://pubmed.ncbi.nlm.nih.gov/27047925/) | 2014 | Case report | Dermatopathology (Basel) | SSSS in an adult receiving chemotherapy for leukaemia |
@@ -130,7 +119,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 
 **Rationale:**
 - Pleural empyema has no clinical trials or literature, and a topical agent is unlikely to reach the pleural space, so the prediction rests on the model score alone (L5).
-- Staphylococcal scalded skin syndrome is the only prediction with clinical-level support (L3, "Research Question"). That support is observational, and mupirocin acts only as an adjunct to systemic antibiotics.
+- That support is observational, and mupirocin acts only as an adjunct to systemic antibiotics.
 
 **To proceed, the following is needed:**
 - The SAHPRA package insert, to confirm approved indications, warnings and contraindications (a blocking data gap).

@@ -6,9 +6,9 @@ nav_order: 348
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Norethisterone: predicted new indication Amenorrhoea (evidence level L5). Approved use: Endometriosis, primary ovarian failure, postmenopausal osteoporosis…"
 monitor_inn: "NORETHISTERONE"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Norethisterone: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Norethisterone
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Norethisterone: From Endometriosis and Menopausal Hormone Conditions to Amenorrhoea
+## Norethisterone: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Norethisterone is a synthetic progestogen, originally used for conditions such as endometriosis, primary ovarian failure, postmenopausal osteoporosis, atrophic vaginitis and acne (as listed in the knowledge graph).
+Norethisterone is a synthetic progestogen, originally used for conditions such as endometriosis, primary ovarian failure, postmenopausal osteoporosis, atrophic vaginitis and acne.
 The TxGNN model predicts it may be effective for **amenorrhoea**, with **no registered clinical trials** and **20 publications** identified. Most of these are contraceptive reviews in which amenorrhoea is a side effect rather than a treatment target, so the evidence is weak.
 
 ---
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **amenorrhoea**, with **no regi
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis, primary ovarian failure, postmenopausal osteoporosis, postmenopausal atrophic vaginitis, acne (from the knowledge graph; no approved indication text is available for the SAHPRA registrations) |
-| Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.60% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 (model prediction with no supporting trials; the data compiled for this report graded it L4, but no preclinical or mechanism studies were supplied) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 9 |
+| South Africa Market Status | Marketed (valid licences: 9 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---

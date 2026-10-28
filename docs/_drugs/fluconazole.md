@@ -2,19 +2,19 @@
 layout: default
 title: Fluconazole
 parent: Model Prediction Only (L5)
-nav_order: 235
+nav_order: 234
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Oral candidiasis, oesophageal candidiasis, vulvovaginal candidiasis…"
+indication_count: 1
 monitor_inn: "Fluconazole"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "Plasmodium falciparum malaria", "allergic urticaria", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "pneumocystosis", "blood group incompatibility", "premalignant hematological system disease", "papular urticaria"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+last_modified_at: 2026-10-27
+description: "Fluconazole: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,80 +33,87 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluconazole: From Candidiasis to Punctate Epithelial Keratoconjunctivitis
+## Fluconazole: Azole antifungal (CYP51 inhibitor) → punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fluconazole is an oral azole antifungal, originally used to treat candidiasis (oral, oesophageal, vulvovaginal, disseminated) and cryptococcal meningitis.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
+Fluconazole is an oral azole antifungal. The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **no clinical trials and no publications** in the data compiled for this report support this direction, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Oral candidiasis, oesophageal candidiasis, vulvovaginal candidiasis, disseminated candidiasis, candidaemia, cryptococcal meningitis (SAHPRA indication text was not available in the data compiled for this report) |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.24% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, fluconazole is an azole antifungal whose efficacy in candidiasis and cryptococcal infection is established. Azoles generally act by inhibiting fungal CYP51 (lanosterol 14-alpha-demethylase), which disrupts ergosterol synthesis.
+Detailed mechanism of action data are not available in the data compiled for this report. Fluconazole is a member of the azole antifungal class, which generally acts by inhibiting fungal CYP51 (lanosterol 14-alpha-demethylase), a step in fungal ergosterol synthesis.
 
-For punctate epithelial keratoconjunctivitis, no supporting mechanism is evident in the data compiled for this report. The condition is often viral (adenoviral) or inflammatory in origin, so an antifungal's mechanism has no clear relevance. The high TxGNN score is a computational prediction and should not be read as evidence of efficacy.
+Punctate epithelial keratoconjunctivitis is most often viral (for example adenoviral) or inflammatory in origin. Fluconazole's antifungal action therefore has no clear relevance to it, and the data provide no supporting mechanism. The high TxGNN score is a model output only. No similarity analysis between the original and predicted indications has been completed, and route compatibility (oral capsules in South Africa versus the likely need for ocular exposure) has not been assessed.
 
-Other predictions for this drug were also reviewed. Only two had any supporting material, and neither is stronger than the lead prediction:
-- **Plasmodium falciparum malaria**: in vitro activity of antifungals against field isolates has been reported (L4). Potency is generally weak relative to achievable plasma levels, and there are no clinical data.
-- **Pneumocystosis**: the only trial found tests rezafungin, not fluconazole. *Pneumocystis* lacks ergosterol, the main azole target, so fluconazole is not a standard therapy.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for punctate epithelial keratoconjunctivitis.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available for punctate epithelial keratoconjunctivitis.
+Currently no related literature available.
+
+---
 
 ## South Africa Market Information
 
-Fluconazole is marketed in South Africa as an oral capsule. Essential Medicines List (EML) status and approved indication text were not available in the data compiled for this report.
+Fluconazole is currently marketed in South Africa, with valid single-ingredient registrations in oral capsule form. Approved indication text is not recorded in the local data. Essential Medicines List status was not provided in the data.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| A39/20.2.2/0534 | Mycorest | Capsule | Not available |
-| A38/20.2.2/0559 | Ralmient | Capsule | Not available |
-| A38/20.2.2/0558 | Ralmient | Capsule | Not available |
+| A39/20.2.2/0534 | Mycorest | Capsule | Not recorded in the local data |
+| A38/20.2.2/0559 | Ralmient | Capsule | Not recorded in the local data |
+| A38/20.2.2/0558 | Ralmient | Capsule | Not recorded in the local data |
 
-No ophthalmic (topical) formulation is registered. Only oral capsules are available, which matters for any ocular surface indication.
+---
 
 ## Safety Considerations
 
-- **Contraindications and disease associations (knowledge graph, not label text)**: long QT syndrome, familial long QT syndrome, kidney disease, pyoureter, liver disease, gallbladder disease.
-- **Drug interactions** (100 interactions identified; selected examples):
-  - **Major**: chlorpropamide.
-  - **Moderate**: omeprazole, rabeprazole, famotidine, dexlansoprazole, dexamethasone, hydrocortisone, betamethasone, triamcinolone, budesonide, aprepitant, loperamide, saxagliptin, bisacodyl.
-  - **Minor**: amphotericin B, clarithromycin.
-- **Additional observation**: one cohort study in kidney transplant recipients reported that fluconazole raised tacrolimus trough levels, so tacrolimus dose adjustment and monitoring are needed.
+- **Drug Interactions** (100 interactions recorded; examples shown):
+  - **Major:** chlorpropamide
+  - **Moderate:** famotidine, rabeprazole, omeprazole, dexlansoprazole, hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, loperamide, aprepitant, saxagliptin, bisacodyl, picosulfuric acid, polyethylene glycol 3350 with electrolytes
+  - **Minor:** amphotericin B, clarithromycin
+- **Conditions flagged for caution in the data compiled for this report** (not taken from label text): long QT syndrome, familial long QT syndrome, kidney disease, liver disease, gallbladder disease, pyoureter.
 
-Label warnings and contraindications from the SAHPRA-approved Professional Information (PI) were not available in the data compiled for this report. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
+SAHPRA package insert warnings and contraindications have not yet been retrieved. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials, no literature and no plausible mechanism, so it is evidence level L5. No topical or ophthalmic formulation is registered locally, and the data compiled for this report are incomplete on label safety.
+The prediction score is high, but no clinical trial or publication addresses punctate epithelial keratoconjunctivitis, and no plausible mechanism is evident. Evidence is at L5 (model prediction only). The safety data from the package insert are also missing.
 
 **To proceed, the following is needed:**
-- Download and review the SAHPRA Professional Information to complete the safety review (a blocking gap)
-- Detailed mechanism of action data (e.g. from DrugBank)
-- A literature search focused on azoles in adenoviral or other keratoconjunctivitis, and a clear rationale for any antifungal role
-- An assessment of route and formulation feasibility, since only oral capsules are registered
-- Re-evaluation of other candidate indications with better evidence before further investment
+- A literature and trial search specifically for fluconazole (including topical/ocular use) in punctate epithelial keratoconjunctivitis
+- A plausible mechanistic rationale, including the likely cause (viral, inflammatory or fungal) in the target population
+- Assessment of route compatibility, since only oral capsules are registered
+- Retrieval of the SAHPRA package insert warnings and contraindications
+- Confirmed mechanism of action data
+- A review of QT-prolongation and interaction risks for any intended population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

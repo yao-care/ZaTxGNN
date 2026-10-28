@@ -6,9 +6,9 @@ nav_order: 389
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease"
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
+description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Prednisone
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Prednisone: From Autoimmune Disease to Alopecia Areata
+## Prednisone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **no 
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease (the SAHPRA registrations in the data compiled for this report carry no approved-indication text, so this is taken from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -127,9 +127,9 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 
 | Predicted Indication | Evidence Level | Decision | Comment |
 |------|------|------|------|
-| Alopecia mucinosa | L4 | Hold | Only case reports; some concern lymphoma-associated disease where steroids are inappropriate |
+| Alopecia mucinosa | L5 | Hold | Only case reports; some concern lymphoma-associated disease where steroids are inappropriate |
 | Tenosynovitis | L3 | Research Question | Case reports and cohorts within disease-specific regimens (RA, PMR, checkpoint inhibitor toxicity); aetiology heterogeneous, including infection |
-| Alopecia antibody deficiency | L4 | Hold | Poorly defined entity; papers describe lupus and polyglandular syndrome |
+| Alopecia antibody deficiency | L5 | Hold | Poorly defined entity; papers describe lupus and polyglandular syndrome |
 | Telogen effluvium, folliculitis decalvans, and others (rare genetic hair disorders, lacrimal gland prolapse) | L5 | Hold | Model prediction only, no supporting evidence |
 
 ---

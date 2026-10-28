@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but **no 
 |------|------|
 | Original Indication | Obesity disorder; monogenic obesity (the SAHPRA registration entry contains no approved indication text) |
 | Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,15 +61,15 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but **no 
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Sibutramine is generally described as a serotonin-norepinephrine reuptake inhibitor (SNRI) used for weight management, and its efficacy in obesity is the basis of its original indication.
 
-For hypervitaminosis, however, no credible mechanistic link was identified. Hypervitaminosis is a state of nutrient excess, and it has no known dependence on monoamine reuptake. The very high TxGNN score (99.98%) reflects a knowledge-graph association only. It is not backed by any trial or publication.
+For hypervitaminosis, however, no credible mechanistic link was identified. Hypervitaminosis is a state of nutrient excess, and it has no known dependence on monoamine reuptake. The very high TxGNN score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any trial or publication.
 
 **Other predictions from the same model (all L5, all Hold):**
 
 | Predicted Indication | TxGNN Score | Assessment |
 |------|------|------|
-| Proximal 16p11.2 microdeletion syndrome | 99.98% | The most biologically plausible. This syndrome is associated with syndromic obesity and hyperphagia, which overlaps with sibutramine's original obesity indication (appetite and satiety modulation). No efficacy evidence was provided, and the population may have neurodevelopmental and cardiac comorbidities. |
-| Obsolete hypertelorism (disease) | 99.97% | A craniofacial structural anomaly, and the term is obsolete. A reuptake inhibitor cannot plausibly correct a developmental malformation. Likely a graph-association artefact. |
-| Frontorhiny | 99.95% | A frontonasal dysplasia-type congenital malformation with no recognised pharmacological link. Likely a graph-association artefact. |
+| Proximal 16p11.2 microdeletion syndrome | 0.9998 | The most biologically plausible. This syndrome is associated with syndromic obesity and hyperphagia, which overlaps with sibutramine's original obesity indication (appetite and satiety modulation). No efficacy evidence was provided, and the population may have neurodevelopmental and cardiac comorbidities. |
+| Obsolete hypertelorism (disease) | 0.9997 | A craniofacial structural anomaly, and the term is obsolete. A reuptake inhibitor cannot plausibly correct a developmental malformation. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| Frontorhiny | 0.9995 | A frontonasal dysplasia-type congenital malformation with no recognised pharmacological link. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
 
 ---
 
@@ -100,7 +100,7 @@ The registration is a valid single-ingredient product. The data compiled for thi
 **Key points from the data compiled for this report:**
 
 - **Cardiovascular risk (important context):** Sibutramine was withdrawn from many markets because of increased cardiovascular risk (SCOUT trial). This is relevant to any new use, especially in populations with cardiac comorbidities.
-- **Contraindications (from knowledge-graph associations, not label text):** Hypertension and hypertensive disorders; coronary artery disease, myocardial infarction, heart disease, cardiovascular disease, heart conduction disease and sudden cardiac arrest; stroke, cerebrovascular disorder and cerebral infarction; liver failure; kidney disease, chronic kidney disease and chronic renal failure; epilepsy; diabetes mellitus and diabetic ketoacidosis; blood coagulation disease; hemoglobinopathy; angle-closure glaucoma; anorexia nervosa and bulimia nervosa; neuroleptic malignant syndrome and serotonin syndrome; pyoureter.
+- **Contraindications (listed from associations between the drug and diseases, not label text):** Hypertension and hypertensive disorders; coronary artery disease, myocardial infarction, heart disease, cardiovascular disease, heart conduction disease and sudden cardiac arrest; stroke, cerebrovascular disorder and cerebral infarction; liver failure; kidney disease, chronic kidney disease and chronic renal failure; epilepsy; diabetes mellitus and diabetic ketoacidosis; blood coagulation disease; hemoglobinopathy; angle-closure glaucoma; anorexia nervosa and bulimia nervosa; neuroleptic malignant syndrome and serotonin syndrome; pyoureter.
 - **Drug interactions:** The query returned 100 interactions, and 20 are shown in the data compiled for this report. The following are **Major**:
   - Fentanyl
   - Dextromethorphan
@@ -117,7 +117,7 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 **Decision: Hold**
 
 **Rationale:**
-The prediction for hypervitaminosis rests only on a graph-based score, with no trials, no literature and no plausible mechanism. Sibutramine also carries a serious cardiovascular safety history and many contraindications, so the risk is not justified by the current evidence.
+The prediction for hypervitaminosis rests only on a score from the TxGNN model (deep learning), with no trials, no literature and no plausible mechanism. Sibutramine also carries a serious cardiovascular safety history and many contraindications, so the risk is not justified by the current evidence.
 
 **To proceed, the following is needed:**
 - The SAHPRA package insert (warnings and contraindications), which is a blocking gap for safety screening

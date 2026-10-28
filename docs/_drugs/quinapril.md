@@ -4,17 +4,17 @@ title: Quinapril
 parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Quinapril: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder). The SAHPRA licence records comp…"
 monitor_inn: "QUINAPRIL"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Quinapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Quinapril: From Hypertension to Malignant Renovascular Hypertension
+## Quinapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Quinapril is an ACE inhibitor originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder). The SAHPRA licence records compiled for this report contain no approved indication text, so this is taken from the knowledge-graph indication data. |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.86% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,14 +65,13 @@ An important caution applies: ACE inhibitors carry a known risk of acute decline
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Malignant hypertensive renal disease | 99.86% | L5 | Hold. RAAS blockade may reduce intraglomerular pressure and proteinuria, but there is no direct clinical evidence. |
-| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.85% | L4 | Research question. Animal data only. |
-| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 99.85% | L5 | Hold. Loose mechanistic rationale only. |
-| 5 | Braddock syndrome | 99.79% | L5 | Hold. No clear mechanistic link found. |
+| 2 | Malignant hypertensive renal disease | 0.9986 | L5 | Hold. RAAS blockade may reduce intraglomerular pressure and proteinuria, but there is no direct clinical evidence. |
+| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9985 | L5 | Research question. Animal data only. |
+| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 0.9985 | L5 | Hold. Loose mechanistic rationale only. |
+| 5 | Braddock syndrome | 0.9979 | L5 | Hold. No clear mechanistic link found. |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for malignant renovascular hypertension, and none for the other predicted indications.
 
 ## Literature Evidence
 
@@ -114,7 +112,7 @@ For authoritative warnings and contraindications, please refer to the SAHPRA-app
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and a plausible RAAS mechanism, with no trials or publications for malignant renovascular hypertension. The renal risks of ACE inhibitors in renovascular disease add further reason for caution.
+The renal risks of ACE inhibitors in renovascular disease add further reason for caution.
 
 **To proceed, the following is needed:**
 - The SAHPRA Professional Information, to complete the safety review (warnings and contraindications are currently missing)

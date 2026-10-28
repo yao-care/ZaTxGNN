@@ -4,17 +4,17 @@ title: Rosuvastatin
 parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia and related lipid disorders (hypertriglyceridaemia…"
 monitor_inn: "ROSUVASTATIN"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
+description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rosuvastatin: From Hyperlipidaemia and Atherosclerosis to Cholesterol-Ester Transfer Protein Deficiency
+## Rosuvastatin: Cholesterol-ester transfer protein deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be relevant to **cholesterol-ester transfer prot
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperlipidaemia and related lipid disorders (hypertriglyceridaemia, familial combined hyperlipidaemia, homozygous familial hypercholesterolaemia), and atherosclerosis and stroke-related disorders. These come from the TxGNN knowledge graph, because no indication text was available for the SAHPRA registrations. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 5 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,7 +78,7 @@ The data compiled for this report include other predictions with far more eviden
 | Familial hypercholesterolaemia | L1 | Several completed Phase 3 trials, including paediatric heterozygous and homozygous FH (e.g. [NCT00355615](https://clinicaltrials.gov/study/NCT00355615), [NCT01078675](https://clinicaltrials.gov/study/NCT01078675), [NCT02226198](https://clinicaltrials.gov/study/NCT02226198)). This overlaps with existing labelled use and confirms an established indication rather than a new one. Proceed with Guardrails. |
 | Hyperlipidaemia | L1 | Large Phase 3 programme, including [NCT00653744](https://clinicaltrials.gov/study/NCT00653744) (n=1,700) and the STELLAR RCT ([PMID 12860216](https://pubmed.ncbi.nlm.nih.gov/12860216/)). This is also an established use. Proceed with Guardrails. |
 | HIV infectious disease | L2 | The use is cardiometabolic and inflammation risk reduction, not antiviral. One placebo-controlled Phase 2 trial ([NCT01218802](https://clinicaltrials.gov/study/NCT01218802)) exists. Results are mixed: a 2024 report found no benefit on arterial stiffness ([PMID 39088828](https://pubmed.ncbi.nlm.nih.gov/39088828/)) and a 2015 RCT found worsened insulin resistance ([PMID 26157049](https://pubmed.ncbi.nlm.nih.gov/26157049/)). Protease-inhibitor interactions are a key concern. This is a research question. |
-| Brain stem infarction, hypoalphalipoproteinaemia, hypercholesterolaemia due to CYP7A1 deficiency | L4 | Only indirect or preclinical evidence. Hold. |
+| Brain stem infarction, hypoalphalipoproteinaemia, hypercholesterolaemia due to CYP7A1 deficiency | L5 | Only indirect or preclinical evidence. Hold. |
 | Hepatic lipase deficiency, ABri amyloidosis, a rare neurodevelopmental disorder | L5 | Prediction only. Hold. |
 
 ## South Africa Market Information

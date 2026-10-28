@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Candesartan
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 96
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Candesartan: predicted new indication Migraine disorder (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Candesartan"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 ---
 
 # Candesartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **4 linked clinical trials** (3 directly on migraine) and **20 publications
 |------|------|
 | Original Indication | Hypertension (from public pharmacology data; the SAHPRA registrations compiled for this report contain no indication text) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 (with a caveat: the direct randomised evidence includes a Phase 2/3 trial and a Phase 2 trial; see the Conclusion) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

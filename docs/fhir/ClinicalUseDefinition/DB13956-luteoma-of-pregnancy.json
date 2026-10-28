@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB13956",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB13956"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "luteoma-of-pregnancy",
-          "display": "luteoma of pregnancy"
-        }
-      ],
-      "text": "luteoma of pregnancy"
+      "concept": {
+        "text": "luteoma of pregnancy"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9991
     }
   ]
 }

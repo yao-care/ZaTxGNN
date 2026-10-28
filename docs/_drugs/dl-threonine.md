@@ -8,6 +8,7 @@ nav_order: 191
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Dl-Threonine
@@ -53,8 +54,8 @@ Without these foundational data elements, evidence-level classification and a cl
 | Predicted New Indication | No prediction generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | Not assignable — pipeline inputs missing |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 12 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 12) |
 | Recommended Decision | **Hold** |
 
 ---

@@ -8,6 +8,7 @@ nav_order: 157
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cyclizine Tartrate
@@ -49,8 +50,8 @@ Cyclizine tartrate is an antihistamine (H1 receptor antagonist) of the piperazin
 | Predicted New Indication | **None** — TxGNN returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | **L5** (No model prediction, no clinical studies in pack) |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

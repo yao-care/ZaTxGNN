@@ -4,17 +4,17 @@ title: Citric Acid
 parent: Moderate Evidence (L3-L4)
 nav_order: 128
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Citric Acid: predicted new indication Stomach disease (evidence level L4). Approved use: Dyspepsia"
 monitor_inn: "Citric acid"
-predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis", "thrombotic disease", "ulcerative blepharitis"]
+predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 ---
 
 # Citric Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be useful for **stomach disease**, but there are
 |------|------|
 | Original Indication | Dyspepsia; headache disorder (from the TxGNN knowledge graph; no approved indication text is recorded for the SAHPRA registration) |
 | Predicted New Indication | Stomach disease |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -102,12 +102,11 @@ Please refer to the SAHPRA-approved Professional Information (PI) for label warn
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Pharyngitis | 99.68% | L5 | Citric acid is used to provoke cough in challenge tests, not to treat it; no supporting trials |
-| 3 | Acute laryngopharyngitis | 99.59% | L5 | No trials or literature |
-| 4 | Postgastrectomy syndrome | 99.58% | L5 | No trials or literature; may reflect similarity to gastrointestinal indications |
-| 5 | Nasal cavity disease | 99.52% | L5 | One unrelated paper on aluminium entry into the brain |
-| 8 | Rhinitis | 99.07% | L4 | Indirect: citric acid/surfactant antibiofilm work in a sheep sinusitis model; many papers use citric acid only as a cough challenge or taste-masking agent |
-| 9 | Thrombotic disease | 98.86% | L4 | Calcium chelation gives a plausible but indirect antithrombotic mechanism; the aspirin plus citric acid study is mainly an aspirin effect |
+| 2 | Pharyngitis | 0.9968 | L5 | Citric acid is used to provoke cough in challenge tests, not to treat it; no supporting trials |
+| 3 | Acute laryngopharyngitis | 0.9959 | L5 | No trials or literature |
+| 4 | Postgastrectomy syndrome | 0.9958 | L5 | No trials or literature; may reflect similarity to gastrointestinal indications |
+| 5 | Nasal cavity disease | 0.9952 | L5 | One unrelated paper on aluminium entry into the brain |
+| 8 | Rhinitis | 0.9907 | L4 | Indirect: citric acid/surfactant antibiofilm work in a sheep sinusitis model; many papers use citric acid only as a cough challenge or taste-masking agent |
 
 Ranks 6, 7 and 10 (papillary conjunctivitis, blepharoconjunctivitis, ulcerative blepharitis) have no trials or literature.
 

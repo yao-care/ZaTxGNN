@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the registration data (registered products are dialysis…"
 monitor_inn: "Sodium acetate"
-predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
+predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "Ureaplasma urethritis", "gonococcal urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
 ---
 
 # Sodium Acetate
@@ -47,9 +47,9 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 |------|------|
 | Original Indication | Not stated in the registration data (registered products are dialysis solutions, Ringer-lactate and glucose infusions, and an injection) |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
+| South Africa Market Status | Marketed (valid licences on record: at least 12) |
 | Number of SAHPRA Registrations | 12 |
 | Recommended Decision | Hold |
 
@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 
 Currently, detailed mechanism of action data is not available. Based on known information, sodium acetate is an electrolyte and alkalinising agent: acetate is metabolised to bicarbonate. It is used as a buffer and sodium source in dialysis and infusion fluids.
 
-Congenital prothrombin deficiency is a rare inherited bleeding disorder caused by deficiency or dysfunction of coagulation factor II. Sodium acetate has no known role in the synthesis or function of factor II. The high TxGNN score appears to be a graph-based prediction artefact without clinical support, so the prediction is **not considered mechanistically reasonable** on current information.
+Congenital prothrombin deficiency is a rare inherited bleeding disorder caused by deficiency or dysfunction of coagulation factor II. Sodium acetate has no known role in the synthesis or function of factor II. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction is **not considered mechanistically reasonable** on current information.
 
 Other top-ranked predictions are also unsupported. They include epiglottitis, urinary tract infection, sclerosing cholangitis, gonococcal urethritis, Ureaplasma urethritis, dyspepsia, uterine inflammatory disease, gastroparesis and xanthogranulomatous pyelonephritis. Sodium acetate has no antimicrobial activity. The literature linked to dyspepsia and gastroparesis reflects its use as a ¹³C-labelled tracer in gastric emptying breath tests, not therapeutic benefit.
 

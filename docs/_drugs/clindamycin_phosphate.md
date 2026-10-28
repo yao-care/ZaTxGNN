@@ -8,6 +8,7 @@ nav_order: 132
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Clindamycin Phosphate
@@ -53,8 +54,8 @@ This evaluation **cannot advance to a full repurposing analysis** until the iden
 | Predicted New Indication | Not available — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not determinable (no predictions present) |
-| South Africa Market Status | Not marketed (0 SAHPRA registrations recorded) |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | **Hold** |
 
 ---

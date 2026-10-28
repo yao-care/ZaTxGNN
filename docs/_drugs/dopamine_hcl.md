@@ -8,6 +8,7 @@ nav_order: 198
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Dopamine Hcl
@@ -55,8 +56,8 @@ This report summarises what is available and identifies the actions required bef
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not applicable — no predictions available |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

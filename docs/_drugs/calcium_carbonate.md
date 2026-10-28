@@ -8,6 +8,7 @@ nav_order: 92
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Calcium Carbonate
@@ -47,8 +48,8 @@ Calcium Carbonate (DrugBank ID: DB06724) is a well-characterised inorganic compo
 | Predicted New Indication | No predictions generated in current cycle |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A |
-| South Africa Market Status | Not marketed |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Safety Considerations

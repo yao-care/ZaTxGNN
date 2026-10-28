@@ -48,32 +48,32 @@ The more evidence-supported direction among the ten predictions is **congenital 
 |------|------|
 | Original Indication | Streptococcal infection, bacterial pneumonia, staphylococcal infection, conjunctivitis, chancroid and others (the SAHPRA registrations in the data compiled for this report carry no indication text) |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 **Overview of all ten predictions**
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 1 | Hyperamylasemia | 99.81% | L5 | Hold |
-| 2 | Polyclonal hyperviscosity syndrome | 99.81% | L5 | Hold |
-| 3 | Congenital analbuminemia | 99.79% | L5 | Hold |
-| 4 | Punctate epithelial keratoconjunctivitis | 99.78% | L4 | Hold |
-| 5 | Blood group incompatibility | 99.70% | L5 | Hold |
-| 6 | Premalignant haematological system disease | 99.64% | L5 | Hold |
-| 7 | Monoclonal gammopathy | 99.61% | L4 | Research Question |
-| 8 | Haematological disease associated with acquired peripheral neuropathy | 99.56% | L5 | Hold |
-| 9 | Septicaemic plague | 99.52% | L4 | Research Question |
-| 10 | Congenital haematological disorder | 99.40% | L3 | Research Question |
+| 1 | Hyperamylasemia | 0.9981 | L5 | Hold |
+| 2 | Polyclonal hyperviscosity syndrome | 0.9981 | L5 | Hold |
+| 3 | Congenital analbuminemia | 0.9979 | L5 | Hold |
+| 4 | Punctate epithelial keratoconjunctivitis | 0.9978 | L5 | Hold |
+| 5 | Blood group incompatibility | 0.9970 | L5 | Hold |
+| 6 | Premalignant haematological system disease | 0.9964 | L5 | Hold |
+| 7 | Monoclonal gammopathy | 0.9961 | L5 | Research Question |
+| 8 | Haematological disease associated with acquired peripheral neuropathy | 0.9956 | L5 | Hold |
+| 9 | Septicaemic plague | 0.9952 | L5 | Research Question |
+| 10 | Congenital haematological disorder | 0.9940 | L5 | Research Question |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory, genital and ocular infections is established, and its anti-inflammatory and immunomodulatory properties are the likely basis for any non-infectious applications.
 
-For the top-ranked prediction, **hyperamylasemia**, no mechanistic link can be identified. It is a laboratory finding rather than a disease with an antimicrobial or immunomodulatory target. The high score reflects a pattern in the knowledge graph and is not backed by trials or publications. The same applies to polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility and the other L5 predictions.
+For the top-ranked prediction, **hyperamylasemia**, no mechanistic link can be identified. It is a laboratory finding rather than a disease with an antimicrobial or immunomodulatory target. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by trials or publications. The same applies to polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility and the other L5 predictions.
 
 Three lower-ranked predictions have some plausibility:
 - **Congenital hematological disorder (sickle cell disease):** azithromycin's anti-inflammatory effects and activity against atypical respiratory pathogens could reduce acute chest syndrome and improve lung function. This is rationale only, as no efficacy data exist.

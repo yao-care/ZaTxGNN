@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Pyridoxine
-parent: Model Prediction Only (L5)
-nav_order: 396
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Pyridoxine: predicted new indication Gonococcal urethritis (evidence level L5). Approved use: Pyridoxine deficiency anaemia"
-monitor_inn: "Pyridoxine"
-predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "urinary tract infection (disease)", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "congenital prothrombin deficiency", "toxocariasis", "toxascariasis", "anisakiasis", "vitamin deficiency disorder"]
+parent: Known Uses Only (No New Predictions)
+nav_order: 395
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Pyridoxine: known uses and market status in South Africa; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Pyridoxine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,58 +32,60 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pyridoxine: From Pyridoxine Deficiency Anaemia to Gonococcal Urethritis
+<!-- known-uses-page -->
+<!-- description: Pyridoxine: known uses and market status in South Africa; currently no new candidate indication -->
+## Pyridoxine: Known uses and market status in South Africa
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Pyridoxine, so there is currently no new predicted indication. The uses recorded for this drug are listed below. They are the drug's own recorded uses, not model candidates.
 
-Pyridoxine (vitamin B6) is originally used to treat pyridoxine deficiency anaemia.
-The TxGNN model predicts it may be effective for **gonococcal urethritis**, but **0 clinical trials** and **0 publications** currently support this prediction.
-It is a computational signal only and has no supporting evidence or plausible biological rationale.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Pyridoxine deficiency anaemia |
-| Predicted New Indication | Gonococcal urethritis |
-| TxGNN Prediction Score | 93.87% |
-| Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 13 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 3 |
+| Evidence level | Not applicable |
+| Market status in South Africa | Marketed (valid licences on record: at least 13) |
+| Number of SAHPRA Registrations | at least 13 |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Currently, detailed mechanism of action data is not available in the compiled record. Based on known pharmacology, pyridoxine is the precursor of pyridoxal 5'-phosphate (PLP), a cofactor in amino acid metabolism. Its efficacy in correcting vitamin B6 deficiency is established.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| dermatitis | licence in another country |
+| eczema | licence in another country |
 
-**This prediction is not mechanistically supported.** Pyridoxine has no known antibacterial activity against *Neisseria gonorrhoeae*. The high TxGNN score appears to be a network-based artefact, probably driven by graph proximity to other urethritis-related nodes. No trials or publications back it.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The same applies to the other high-scoring predictions for this drug, such as Ureaplasma urethritis, xanthogranulomatous pyelonephritis, toxocariasis and congenital prothrombin deficiency. Their evidence is likewise absent or unrelated.
-
-The best-supported prediction in the compiled data is **vitamin deficiency disorder**. It is rated L2, with one completed Phase 2/3 study (NCT01128244, n=13) and reviews on B6 deficiency. However, it is essentially a restatement of the original indication, not true repurposing.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for gonococcal urethritis.
-
-## Literature Evidence
-
-Currently no related literature available for gonococcal urethritis.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| pyridoxine deficiency anemia |
 
 ## South Africa Market Information
 
-Pyridoxine is registered in South Africa in 13 valid single-ingredient registrations, with no cancelled registrations. The table shows five of them.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| H2611 (ACT 101/1965) | Becoplex ido vial 10ml | injection | Valid |
+| T1012 (ACT 101/1965) | Beespan | capsule | Valid |
+| H2412 (ACT 101/1965) | A-lennon vitamin b co ampoule 2ml | injection | Valid |
+| H2975 (ACT 101/1965) | Vitamin b co 10ml | injection | Valid |
+| U/2.6/218 | Restin | capsule | Valid |
+| A/21.8.1/743 | Menoflush | tablet | Valid |
+| U/22.1.4/200 | Soluvit novum 10ml vials pds000010 | injection | Valid |
+| H2466 | Complenatal Ff | capsule | Valid |
+| 36/22.1/0508 | Cernevit | infusion | Valid |
+| ARTICLE 21B              N/A | ITN 1606n 150ml | Tpn | Valid |
+| L/24/329 | Dextrose 20% in water 500ml pcd201850 | infusion | Valid |
+| EXCLUSION UNDER SECTION 36 & SECTION 14 | ITN 55a 600ml | Tpn | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| H2611 (ACT 101/1965) | Becoplex ido vial 10ml | Injection |
-| T1012 (ACT 101/1965) | Beespan | Capsule |
-| H2412 (ACT 101/1965) | A-lennon vitamin b co ampoule 2ml | Injection |
-| A/21.8.1/743 | Menoflush | Tablet |
-| 36/22.1/0508 | Cernevit | Infusion |
-
-The remaining registrations are capsules, injections, infusions and TPN products, including multivitamin products.
+Only part of the licence list is held in the data; the list may be incomplete.
 
 ## Safety Considerations
 
@@ -96,17 +97,6 @@ The remaining registrations are capsules, injections, infusions and TPN products
 
 Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a model score of 93.87%. It has no clinical trials, no literature and no plausible antibacterial mechanism. Standard antimicrobial therapy is the appropriate treatment for gonococcal urethritis, and there is no basis for repurposing pyridoxine for it.
-
-**To proceed, the following is needed:**
-- Any preclinical or clinical evidence of activity against *N. gonorrhoeae*, which is currently absent.
-- Mechanism of action data, together with the SAHPRA PI warnings and contraindications.
-- A shift in evaluation focus to better-supported directions, such as vitamin B6 deficiency states and B6-dependent conditions (including hyperoxaluria), assessed as separate indications. Any such use needs dose and duration guardrails for neuropathy risk and interaction checks, notably with levodopa, phenytoin and phenobarbital.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

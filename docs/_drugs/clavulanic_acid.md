@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "Clavulanic acid"
-predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
+predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
 ---
 
 # Clavulanic Acid
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Clavulanic Acid: From Bacterial Infections to Gonococcal Urethritis
+## Clavulanic Acid: From Bacterial Infections to Ureaplasma urethritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **Ureaplasma urethritis**, but this p
 |------|------|
 | Original Indication | Urinary tract infection, bacterial pneumonia, staphylococcal infection, *E. coli* infection, Klebsiella pneumonia (no approved indication text is available from the SAHPRA records) |
 | Predicted New Indication | Ureaplasma urethritis (rank 1, model score only); gonococcal urethritis (rank 2) is the best-supported alternative |
-| TxGNN Prediction Score | 99.93% (Ureaplasma urethritis); 99.93% (gonococcal urethritis) |
+| TxGNN Prediction Score | 0.9993 (Ureaplasma urethritis); 0.9993 (gonococcal urethritis) |
 | Evidence Level | L5 or L4 for Ureaplasma urethritis (no direct evidence); L3 for gonococcal urethritis |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 14 |
+| South Africa Market Status | Marketed (valid licences: 14 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold (Ureaplasma urethritis); gonococcal urethritis is a research question only |
 
 ---

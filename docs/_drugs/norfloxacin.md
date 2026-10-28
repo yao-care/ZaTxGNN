@@ -2,13 +2,13 @@
 layout: default
 title: Norfloxacin
 parent: Model Prediction Only (L5)
-nav_order: 349
+nav_order: 348
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Norfloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Urinary tract infection, typhoid fever, salmonellosis…"
 monitor_inn: "Norfloxacin"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+last_modified_at: 2026-10-23
+description: "Norfloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Urinary tract infection, typhoid fever and other bacterial infections"
 ---
 
 # Norfloxacin
@@ -33,104 +33,87 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Norfloxacin: From Bacterial Infections to Hyperamylasemia
+## Norfloxacin: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Norfloxacin is a fluoroquinolone antibiotic, originally used for infections such as urinary tract infection, typhoid fever, dysentery and bacterial pneumonia.
-The TxGNN model predicts it may be effective for **hyperamylasemia**, but there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
-
----
+Norfloxacin is a fluoroquinolone antibiotic used for infections such as urinary tract infection, typhoid fever, bronchitis and diarrhoeal disease. The TxGNN model (deep learning) predicts it may be useful for **polyclonal hyperviscosity syndrome**, but **no clinical trials and no publications** currently support this prediction, so it remains a model-only signal. The score comes from the TxGNN model and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, typhoid fever, salmonellosis, bacterial pneumonia and other bacterial infections (the SAHPRA registrations in the compiled data carry no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.70% |
+| Original Indication | Urinary tract infection, typhoid fever and other bacterial infections (relations recorded in the knowledge graph; the licence records compiled for this report contain no indication text) |
+| Predicted New Indication | Polyclonal hyperviscosity syndrome |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled data. Norfloxacin is a fluoroquinolone antibiotic that inhibits bacterial DNA gyrase and topoisomerase IV, and its efficacy against bacterial infections is established.
+Detailed mechanism of action data are not available in the data compiled for this report. Norfloxacin belongs to the fluoroquinolone class, which is generally known to act by inhibiting bacterial DNA gyrase and topoisomerase IV.
 
-The review found no identifiable mechanistic link to hyperamylasemia. Norfloxacin has no known action on amylase regulation or pancreatic physiology. The high TxGNN score appears to be a graph-based prediction artefact without biological support, and this prediction should not be treated as a credible new indication.
+Polyclonal hyperviscosity syndrome is driven by elevated serum immunoglobulins, not by a bacterial process. No plausible mechanistic link between norfloxacin and this condition was identified. The high score (0.9970) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by trials or literature.
 
-Other predictions for this drug (ranks 2-10) were also reviewed. Most are likewise computational only and lack biological plausibility, for example polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, diffuse scleroderma and monoclonal gammopathy. Norfloxacin and other fluoroquinolones are associated with peripheral neuropathy as an adverse effect, which argues against use in hematological disease associated with acquired peripheral neuropathy.
+## Safety Considerations
 
-The only prediction with a plausible rationale is **septicemic plague** (rank 10, score 99.37%), which is an extension of the existing antibacterial use rather than true repurposing. Fluoroquinolones are active against *Yersinia pestis*, but the available evidence is preclinical and concerns the drug class rather than norfloxacin specifically. Better-characterised agents (streptomycin, gentamicin, doxycycline, ciprofloxacin, levofloxacin) are preferred.
+No label-based warnings or contraindications were available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
----
+**Contraindication relations recorded in the knowledge graph** (not label text) include:
+- Cardiac: long QT syndrome, familial long QT syndrome, torsades de pointes
+- Hepatic and renal: liver failure, liver disease, cirrhosis of liver, kidney disease, gallbladder disease
+- Neurological and psychiatric: epilepsy, peripheral neuropathy, peripheral nervous system disease, anxiety disorder, psychotic disorder, mental disorder
+- Musculoskeletal: tendinitis, rhabdomyolysis, periarthritis
+- Metabolic: diabetes mellitus, diabetic ketoacidosis, potassium deficiency
+- Haematological: thrombocytopenia, anaemia
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for hyperamylasemia.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for hyperamylasemia.
-
-For context, the literature retrieved for other predictions is limited and does not support norfloxacin efficacy in those conditions:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10987101](https://pubmed.ncbi.nlm.nih.gov/10987101/) | 2000 | Preclinical (animal) | Antibiotiki i khimioterapiia | Mouse study of combined fluoroquinolone and vaccine prophylaxis for plague. Norfloxacin had less effect on post-vaccine immunity than ciprofloxacin, ofloxacin and pefloxacin (septicemic plague) |
-| [8834911](https://pubmed.ncbi.nlm.nih.gov/8834911/) | 1996 | Cohort/Observational | Antimicrob Agents Chemother | Fluoroquinolone-resistant *E. coli* emerged in the faecal flora of 10 of 25 haematology patients on norfloxacin prophylaxis (monoclonal gammopathy; shows resistance, not therapeutic benefit) |
-| [22959880](https://pubmed.ncbi.nlm.nih.gov/22959880/) | 2012 | Case series | Am J Ophthalmol | Repeated corneal swabbing for microsporidial keratoconjunctivitis. No norfloxacin efficacy shown |
-| [12867402](https://pubmed.ncbi.nlm.nih.gov/12867402/) | 2003 | Case series | Ophthalmology | Six cases of microsporidial keratoconjunctivitis in healthy individuals. No norfloxacin efficacy shown |
-
----
+**Drug interactions** (100 recorded; the 20 retrieved include these):
+- **Major:** hydrocortisone, dexamethasone, betamethasone, triamcinolone, bupropion, chlorpropamide
+- **Moderate:** antidiabetic agents (metformin, pioglitazone, acarbose, alogliptin, canagliflozin, albiglutide), famotidine, loperamide, acetylsalicylic acid, balsalazide, bisacodyl, and calcium and potassium salts
 
 ## South Africa Market Information
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. 43/20.1.1/0657 | Utifloxa | Tablet | Not available in the compiled data |
-| Reg. No. 32/20.1.1/0377 | Floxin | Tablet | Not available in the compiled data |
+| Reg. No. 43/20.1.1/0657 | Utifloxa | Tablet | Not stated in the records compiled |
+| Reg. No. 32/20.1.1/0377 | Floxin | Tablet | Not stated in the records compiled |
 
-Both registrations are valid single-ingredient oral products. Essential Medicines List (EML) status was not available in the compiled data.
-
----
-
-## Safety Considerations
-
-**Contraindications flagged in the knowledge graph** (these come from graph relationships, not from label text):
-- Cardiac: long QT syndrome (including familial), torsades de pointes
-- Hepatic and renal: liver failure, liver disease, cirrhosis, kidney disease, gallbladder disease
-- Neurological and psychiatric: epilepsy, peripheral neuropathy, peripheral nervous system disease, anxiety disorder, psychotic disorders, mental disorder
-- Musculoskeletal: tendinitis, rhabdomyolysis
-- Metabolic: diabetes mellitus, diabetic ketoacidosis, potassium deficiency
-- Haematological: thrombocytopenia, anaemia
-
-**Drug Interactions** (100 interactions recorded; the main ones in the data are listed):
-- **Major:** hydrocortisone, dexamethasone, betamethasone, triamcinolone (corticosteroids), bupropion, chlorpropamide
-- **Moderate:** antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, canagliflozin, albiglutide), famotidine, loperamide, acetylsalicylic acid, balsalazide, bisacodyl, calcium and potassium salts
-
-Please refer to the SAHPRA-approved Professional Information (PI) for official warnings and contraindications, and report adverse drug reactions to SAHPRA.
-
----
+Both are single-ingredient, valid registrations for oral use. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for hyperamylasemia has no clinical trials, no literature and no plausible mechanism, so it is a model output only (L5). Norfloxacin also carries a notable safety profile (QT prolongation, tendon, neurological and glucose-related effects, and many interactions), so there is no basis to pursue this indication.
+The prediction rests only on a model score. There are no trials or publications on this disease, and no plausible mechanism links an antibacterial DNA gyrase inhibitor to an immunoglobulin-driven hyperviscosity state.
 
 **To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking norfloxacin to amylase regulation or pancreatic physiology
-- Supporting preclinical or clinical studies
-- Mechanism of action data and the SAHPRA package insert warnings and contraindications, to complete safety screening
-- If any fluoroquinolone-based indication is pursued, the septicemic plague question would only be worth studying as an antibacterial extension, and would need comparison against established agents
+- Any direct clinical or preclinical evidence on norfloxacin in polyclonal hyperviscosity syndrome
+- A mechanistic rationale, and mechanism of action data from DrugBank
+- SAHPRA Professional Information (warnings and contraindications) to complete safety screening
+
+---
+
+## Other Predictions Reviewed
+
+Nine further predictions were reviewed. None has a supported mechanism or direct clinical evidence.
+
+| Rank | Predicted Disease | Score | Evidence Level | Decision | Comment |
+|---|---|---|---|---|---|
+| 2 | Hyperamylasaemia | 0.9970 | L5 | Hold | A laboratory finding with no known link to norfloxacin |
+| 3 | Congenital analbuminaemia | 0.9967 | L5 | Hold | Genetic albumin synthesis disorder; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| 4 | Blood group incompatibility | 0.9955 | L5 | Hold | Alloimmune reaction, no relevant mechanism |
+| 5 | Punctate epithelial keratoconjunctivitis | 0.9954 | L5 | Hold | Two case series (PMIDs 12867402, 22959880) concern microsporidial keratoconjunctivitis and do not study norfloxacin. They do not directly address the predicted disease or the drug. |
+| 6 | Premalignant haematological system disease | 0.9948 | L5 | Hold | No link or evidence |
+| 7 | Diffuse scleroderma | 0.9944 | L5 | Hold | No antifibrotic mechanism, and fluoroquinolones carry tendon and connective tissue safety signals |
+| 8 | Monoclonal gammopathy | 0.9942 | L5 | Hold | The one paper (PMID 8834911) reports fluoroquinolone-resistant *E. coli* in cancer patients on prophylaxis, not treatment of the disease |
+| 9 | Haematological disease with acquired peripheral neuropathy | 0.9938 | L5 | Hold | Fluoroquinolones carry a peripheral neuropathy warning, so the safety direction is unfavourable |
+| 10 | Septicaemic plague | 0.9937 | L5 | Hold | See below |
+
+**Septicaemic plague** is the only biologically plausible candidate, because *Yersinia pestis* is susceptible to fluoroquinolones. The two retrieved papers (PMIDs 10987101, 11057367) are animal and in vitro studies, one on plague prophylaxis combined with vaccine and one on cholera resistance. Neither studies norfloxacin as a treatment for septicaemic plague, so the evidence level is L5 and not higher. Norfloxacin's limited systemic exposure, as it is used mainly for urinary and intestinal infections, makes it a poor fit for bacteraemic disease. Better-established agents are available.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

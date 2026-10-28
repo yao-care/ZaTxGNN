@@ -2,19 +2,19 @@
 layout: default
 title: Ammonium Chloride
 parent: Model Prediction Only (L5)
-nav_order: 34
+nav_order: 33
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ammonium Chloride: predicted new indication Acute laryngopharyngitis (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
+indication_count: 1
 monitor_inn: "Ammonium chloride"
-predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "allergic urticaria", "trigeminal autonomic cephalalgia", "headache disorder", "tracheal disease", "papillary conjunctivitis", "gonococcal urethritis"]
+predicted_indications: ["nasal cavity disease"]
+last_modified_at: 2026-10-23
+description: "Ammonium Chloride: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
 ---
 
 # Ammonium Chloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ammonium Chloride: From Pharyngitis and Common Cold to Acute Laryngopharyngitis
+## Ammonium chloride: From Pharyngitis, Common Cold and Nasopharyngitis to Nasal Cavity Disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ammonium chloride is a traditional expectorant, originally used for pharyngitis, common cold and nasopharyngitis.
-The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
-It is a model prediction only, and the score likely reflects similarity to the existing indications rather than a new mechanism.
+Ammonium chloride is recorded in the knowledge graph as being used for pharyngitis, common cold and nasopharyngitis. The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ---
 
@@ -48,85 +46,71 @@ It is a model prediction only, and the score likely reflects similarity to the e
 
 | Item | Content |
 |------|------|
-| Original Indication | Pharyngitis, common cold, nasopharyngitis (from the TxGNN knowledge graph; no approved indication text is available from the SAHPRA records) |
-| Predicted New Indication | Acute laryngopharyngitis |
-| TxGNN Prediction Score | 99.94% |
+| Original Indication | Pharyngitis, common cold, nasopharyngitis (relations recorded in the knowledge graph; the SAHPRA licence records compiled for this report contain no indication text) |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 16 |
+| South Africa Market Status | Marketed (valid licences: 16 of 16) |
+| Number of SAHPRA Registrations | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ammonium chloride is a traditional expectorant that may increase respiratory tract secretions. It is used in South Africa only in combination cough preparations, and mechanistically it may be applicable to acute laryngopharyngitis.
+Currently, detailed mechanism of action data is not available. Based on known information, ammonium chloride is used in oral cough and cold preparations. The nasal cavity disease prediction (score 0.9994) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (such as pharyngitis, common cold, nasopharyngitis), not biological evidence. Mechanistically it may be applicable to nasal cavity disease, but this has not been verified.
 
-Acute laryngopharyngitis is very close to the existing indications (pharyngitis, common cold, nasopharyngitis), all of which are upper respiratory tract conditions. The high score most likely reflects this similarity to the existing indications rather than a genuinely new mechanism. No trials or literature were found to confirm it.
+A plausible but unproven link is anatomical: the original indications and the predicted indication all involve the upper airway. Ammonium chloride is generally known as an expectorant that may thin mucus secretions. This reflects the proximity of the conditions rather than demonstrated efficacy in nasal cavity disease.
 
-**Other predictions in the top 10** (all prediction only unless stated):
-- **Nasal cavity disease** (99.94%): plausible given the labelled upper respiratory indications, but the category is broad and non-specific.
-- **Faucial diphtheria** (98.93%): no plausible mechanism. Diphtheria is a toxin-mediated infection that needs antitoxin and antibiotics.
-- **Cervical disc degenerative disorder** (98.87%): no plausible mechanism; likely a graph-based artifact.
-- **Allergic urticaria** (98.50%): the one retrieved paper is about occupational skin disease from epoxy compounds and is likely a spurious match.
-- **Trigeminal autonomic cephalalgia** (98.17%): no direct evidence.
-- **Headache disorder** (97.99%): the only indication with historical clinical signals (see below).
-- **Tracheal disease** (97.96%): biologically plausible given the expectorant action, but the one retrieved paper is a preclinical plant-extract study.
-- **Papillary conjunctivitis** (91.73%) and **gonococcal urethritis** (91.64%): no rationale or evidence; gonococcal urethritis has established antibiotic therapy.
+The term "nasal cavity disease" is also broad and non-specific, which limits how far the prediction can be interpreted. The high score is a computational result only.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for acute laryngopharyngitis.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for acute laryngopharyngitis.
-
-For reference, four historical papers were found for the lower-ranked prediction **headache disorder**. They are from the 1950s, and no abstracts were available. Their titles suggest case series or clinical reports, and their methods cannot be verified.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [13254186](https://pubmed.ncbi.nlm.nih.gov/13254186/) | 1955 | Historical clinical report | Orvosi Hetilap | Ammonium chloride therapy of chronic migraine |
-| [13345397](https://pubmed.ncbi.nlm.nih.gov/13345397/) | 1956 | Historical clinical report | Ideggyogyaszati Szemle | Neuro-endocrine effects of ammonium chloride in chronic headaches |
-| [13317850](https://pubmed.ncbi.nlm.nih.gov/13317850/) | 1956 | Historical clinical report | Endokrinologie | Neuroendocrine effects of ammonium chloride, with focus on chronic headaches |
-| [13466764](https://pubmed.ncbi.nlm.nih.gov/13466764/) | 1957 | Historical report / hypothesis | Revue Neurologique | Ammonium chloride treatment of anachlorhydric migraine; pathogenic considerations |
+Currently no related literature available.
 
 ---
 
 ## South Africa Market Information
 
-All 16 registrations are valid single-ingredient registrations (no cancelled ones). Most are syrups, and one is a tablet. No approved indication text is available in the data compiled for this report. The first 5 registrations are listed below. Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
+All 16 registrations are single-ingredient records and are valid. The records compiled for this report contain no approved indication text and no manufacturer information, and Essential Medicines List (EML) status is not available. The 5 registrations below are a selection of the 16.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| Reg. No. G830 (ACT101/1965) | Benylin & codeine | Syrup | Not available |
-| Reg. No. 31/2.6/0241 | Coprax | Tablet | Not available |
-| Reg. No. 28/10.1/0249 | Expectalin with cod | Syrup | Not available |
-| Reg. No. 27/10.1/0529 | Dynalex | Syrup | Not available |
-| Reg. No. G/10.1/1112 | Broncleer & cod unboxed | Syrup | Not available |
+| G830 (ACT101/1965) | Benylin & codeine | Syrup | Not stated in the records |
+| 31/2.6/0241 | Coprax | Tablet | Not stated in the records |
+| 28/10.1/0249 | Expectalin with cod | Syrup | Not stated in the records |
+| 27/10.1/0529 | Dynalex | Syrup | Not stated in the records |
+| G/10.1/1112 | Broncleer & cod unboxed | Syrup | Not stated in the records |
+
+The other 11 registrations are mostly syrups (for example Tussilinct cough, Phenorant with codeine, Flutex cough linct, Mucosolv expectorant and Coughcod senior/junior).
 
 ---
 
 ## Safety Considerations
 
-Product-specific warnings and contraindications are not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-**Contraindication signals from the knowledge graph** (these come from graph edges, not label text, and should be confirmed against the PI). They include:
-- Hepatic and renal: liver failure, impaired renal function, anuria
-- Metabolic and endocrine: adrenocortical insufficiency/Addison disease, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, hyperthyroidism/Graves disease/thyrotoxicosis
-- Cardiovascular: hypertension, sudden cardiac arrest, heart conduction disease, myocardial ischaemia, coronary artery disease, pulmonary oedema
+**Contraindications recorded in the knowledge graph (not label text):** the knowledge graph links ammonium chloride to contraindication relations with a range of conditions. These include:
+- Renal and metabolic: anuria, impaired renal function, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease
+- Hepatic: liver failure
+- Cardiovascular: hypertension, hypertensive disorder, myocardial ischemia, coronary artery disease, sudden cardiac arrest, heart conduction disease, pulmonary edema
+- Endocrine: adrenocortical insufficiency, Addison disease, hyperthyroidism, Graves disease, thyrotoxicosis
+- Eye, urinary and gastrointestinal: angle-closure glaucoma, ocular hypertension, benign prostatic hyperplasia, bladder neck obstruction, peptic ulcer disease, necrotizing enterocolitis
 - Neurological and psychiatric: epilepsy, insomnia, anxiety disorder, agoraphobia, obsessive-compulsive disorder
-- Other: peptic ulcer disease, benign prostatic hyperplasia, bladder neck obstruction, ocular hypertension, angle-closure glaucoma, necrotizing enterocolitis
 
-**Drug Interactions** (21 recorded from DDInter; 20 shown in the data compiled):
-- **Moderate**: amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine
-- **Minor**: ephedrine (including nasal), pseudoephedrine, methadone, mexiletine, flecainide, and the tricyclic antidepressants (amitriptyline, clomipramine, desipramine, doxepin including topical, imipramine, nortriptyline, protriptyline, trimipramine)
+These are database relations and should be checked against the SAHPRA-approved Professional Information (PI).
 
-Several registered products also contain codeine, so the safety profile of the whole combination must be considered.
+**Drug Interactions:** 21 interactions were found in the interaction database (the data lists 20 of them).
+- **Moderate:** amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine
+- **Minor:** ephedrine, pseudoephedrine, methadone, mexiletine, flecainide, and the tricyclic antidepressants (amitriptyline, clomipramine, desipramine, doxepin, imipramine, nortriptyline, protriptyline, trimipramine)
+
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ---
 
@@ -135,14 +119,14 @@ Several registered products also contain codeine, so the safety profile of the w
 **Decision: Hold**
 
 **Rationale:**
-The prediction for acute laryngopharyngitis is supported only by the model score (L5) and is very close to existing indications, so it adds little new. No trials or literature support it, and the safety data from the product labels is incomplete.
+The prediction is supported only by a model score (Evidence Level L5). No clinical trials or publications address nasal cavity disease, the mechanism of action is not documented, and "nasal cavity disease" is too broad to define a clear target population.
 
 **To proceed, the following is needed:**
-- Download and review the SAHPRA Professional Information (PI) for the registered products to obtain warnings, contraindications and approved indications
-- Detailed mechanism of action data (MOA), for example from DrugBank
-- Any clinical evidence for acute laryngopharyngitis, particularly modern controlled trials
-- For headache disorder (graded L4, "Research Question"): the 1950s reports are not enough, and modern controlled studies would be needed before progressing
-- A safety review of the knowledge-graph contraindication signals, given the many cardiovascular, renal and hepatic flags
+- Mechanism of action data, for example from DrugBank
+- The SAHPRA Professional Information, to obtain approved indications, warnings and contraindications, which blocks safety screening
+- A narrower definition of the target condition (for example allergic rhinitis, rhinosinusitis, nasal congestion) and a search for studies on it
+- Route and formulation compatibility assessment: the current products are mostly oral syrups, and the route for a nasal indication has not been assessed
+- Review of the knowledge-graph contraindication relations, especially renal, hepatic and cardiovascular, against the PI
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

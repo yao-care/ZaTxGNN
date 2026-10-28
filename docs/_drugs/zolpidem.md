@@ -4,17 +4,17 @@ title: Zolpidem
 parent: Model Prediction Only (L5)
 nav_order: 482
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Zolpidem: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L5). Approved use: Insomnia"
 monitor_inn: "Zolpidem"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "acute encephalopathy with biphasic seizures and late reduced diffusion", "Wernicke-Korsakoff syndrome", "manic bipolar affective disorder", "alcohol withdrawal", "major affective disorder", "anxiety", "epilepsy, childhood absence, susceptibility to"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Zolpidem: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+## Zolpidem: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Zolpidem is a sedative-hypnotic originally used to treat insomnia.
-The TxGNN model's top-ranked prediction is **sleep disorder, initiating and maintaining sleep**, with **20 publications** (including a network meta-analysis and a clinical practice guideline) supporting this direction. Note that this is essentially the drug's existing, approved use rather than true repurposing. The data compiled for this report also assessed nine other predicted indications, and none of them has solid supporting evidence.
+Note that this is essentially the drug's existing, approved use rather than true repurposing. The data compiled for this report also assessed nine other predicted indications, and none of them has solid supporting evidence.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is **sleep disorder, initiating and main
 
 | Item | Content |
 |------|------|
-| Original Indication | Insomnia (no approved indication text is recorded in the SAHPRA registration data; the original indication comes from the TxGNN knowledge graph) |
-| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L1 per the data compiled for this report (based on guidelines, systematic reviews and meta-analyses, plus two completed Phase 3 zolpidem MR insomnia trials; no trial is listed directly under this indication) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
+| TxGNN Prediction Score | 0.9926 |
+| Evidence Level | L5 per the data compiled for this report (based on guidelines, systematic reviews and meta-analyses, plus two completed Phase 3 zolpidem MR insomnia trials; no trial is listed directly under this indication) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -69,7 +69,7 @@ Zolpidem's alpha-1 selectivity also explains why the other predicted indications
 
 ## Clinical Trial Evidence
 
-No clinical trials are listed directly under the top-ranked indication. Two completed Phase 3 trials of zolpidem MR in insomnia appear in the data under a different predicted indication (manic bipolar affective disorder). They are insomnia trials rather than bipolar trials, so they support the on-label insomnia use.
+No clinical trials are listed directly under the top-ranked indication. They are insomnia trials rather than bipolar trials, so they support the on-label insomnia use.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -115,7 +115,6 @@ All three registrations are valid single-ingredient products. The data compiled 
 
 SAHPRA package-insert warnings and contraindications were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-**Knowledge-graph contraindication signals** (these come from drug-disease graph edges, not from label text, and must be verified against the PI): anxiety disorder, neurotic disorder, dysthymic disorder, liver disease, gallbladder disease, obstructive sleep apnoea, sleep apnoea syndrome, congenital central hypoventilation syndrome, amnestic disorder, retrograde amnesia, substance-related disorder, substance abuse/dependence, and attention deficit hyperactivity disorder.
 
 **Drug interactions:** 100 interactions were identified; the first 20 retrieved are summarised below.
 - **Major:** morphine and liposomal morphine (additive CNS and respiratory depression is the expected concern).
@@ -137,17 +136,11 @@ The top-ranked prediction coincides with zolpidem's established insomnia use. It
 
 | Predicted Indication | Score | Evidence Level | Recommendation |
 |------|------|------|------|
-| Anxiety | 94.69% | L2 | Research Question (benefit is for anxiety-related insomnia, not anxiety itself) |
-| Major affective disorder | 94.94% | L3 | Research Question (symptomatic sleep benefit as add-on to antidepressants) |
-| Manic bipolar affective disorder | 95.93% | L4 | Hold (reports of zolpidem-induced mania) |
-| Alcohol withdrawal | 95.00% | L4 | Hold (literature is mainly about withdrawal and dependence) |
-| Benign paroxysmal torticollis of infancy, agoraphobia, acute encephalopathy with biphasic seizures, Wernicke-Korsakoff syndrome, childhood absence epilepsy | 92.8-99.3% | L5 | Hold (no clinical evidence) |
 
 **To proceed, the following is needed:**
 - The SAHPRA-approved package insert, to obtain warnings, contraindications, approved indications and complex-sleep-behaviour precautions.
 - Mechanism of action data from DrugBank.
 - Prescribing guardrails: short-term use, lowest effective dose, caution in older adults, hepatic impairment, sleep apnoea and substance-use history, and screening for interacting CNS depressants (especially opioids).
-- If the sleep-in-comorbid-depression or anxiety questions are pursued, a properly designed trial with those conditions as the enrolled population.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

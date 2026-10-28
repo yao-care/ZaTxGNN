@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Magnesium Carbonate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 306
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Magnesium Carbonate: predicted new indication Active peptic ulcer disease (evidence level L4). Approved use: Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis…"
 monitor_inn: "MAGNESIUM CARBONATE"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
+description: "Magnesium Carbonate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Magnesium Carbonate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Magnesium Carbonate: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Magnesium Carbonate: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Magnesium carbonate is an antacid, originally used for peptic ulcer disease, reflux disease, oesophagitis, constipation and dyspepsia.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is largely a restatement of its existing use rather than true repurposing.
 Currently there are **0 clinical trials** and **1 publication** (an in vitro antacid study) supporting this prediction.
 
 ---
@@ -48,12 +47,12 @@ Currently there are **0 clinical trials** and **1 publication** (an in vitro ant
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis, constipation, dyspepsia (from the knowledge graph; the SAHPRA registration carries no indication text) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Active peptic ulcer disease overlaps closely with the drug's existing peptic ulcer indication. The prediction therefore reflects the drug's known use rather than a genuinely new therapeutic area. The same is true of gastric ulcer and duodenal ulcer, which are also predicted.
 
-Other predictions are weaker. Peptic ulcer perforation, duodenal obstruction and gastroparesis have no plausible antacid mechanism. Perforation and obstruction need surgical or procedural management, and gastroparesis is a motility disorder. Their high scores likely reflect proximity to peptic ulcer in the knowledge graph.
+Other predictions are weaker. Peptic ulcer perforation, duodenal obstruction and gastroparesis have no plausible antacid mechanism. Perforation and obstruction need surgical or procedural management, and gastroparesis is a motility disorder.
 
 Modern ulcer healing relies mainly on proton pump inhibitors and *H. pylori* eradication. Antacids are now mostly used for symptom relief.
 
@@ -72,7 +71,7 @@ Modern ulcer healing relies mainly on proton pump inhibitors and *H. pylori* era
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered. This applies to active peptic ulcer disease and to all other predicted indications.
+Currently no related clinical trials registered.
 
 ---
 
@@ -82,7 +81,7 @@ Currently no related clinical trials registered. This applies to active peptic u
 |------|-----|------|------|---------|
 | [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | In vitro / product quality | Medicine and Pharmacy Reports | Evaluated the acid-neutralising capacity and other properties of antacids marketed in Morocco. No clinical outcome data. |
 
-Related indirect evidence exists for other predicted conditions, such as gastrojejunal ulcer and gastroduodenitis. It consists of in vitro antacid and bile acid-binding studies and small mucosal protection studies. None of it addresses active peptic ulcer healing in patients.
+Related indirect evidence exists for other predicted conditions, such as gastrojejunal ulcer and gastroduodenitis. It consists of in vitro antacid and bile acid-binding studies and small mucosal protection studies.
 
 ---
 
@@ -124,7 +123,7 @@ Label warnings and contraindications from the SAHPRA package insert are not avai
 **Decision: Hold**
 
 **Rationale:**
-- The prediction for active peptic ulcer disease largely restates the existing antacid use. The only supporting publication is an in vitro study, and there are no registered trials. No other predicted indication has stronger evidence.
+- The only supporting publication is an in vitro study, and there are no registered trials. No other predicted indication has stronger evidence.
 
 **To proceed, the following is needed:**
 - The SAHPRA package insert (Reg. No. 45/24/0919), to confirm the registered indication, warnings and contraindications. This is a blocking gap for safety screening.

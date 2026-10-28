@@ -4,17 +4,17 @@ title: Salicylic Acid
 parent: Model Prediction Only (L5)
 nav_order: 413
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not stated in the SAHPRA registration data. The knowledge graph lists…"
 monitor_inn: "Salicylic acid"
-predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to"]
+predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
+description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Salicylic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Salicylic Acid: From Superficial Skin and Inflammatory Conditions to Papillary Conjunctivitis
+## Salicylic Acid: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ The prediction is computational only.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the SAHPRA registration data. The knowledge graph lists tinea pedis, acne, seborrhoeic dermatitis, rheumatoid arthritis, allergic rhinitis and others |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this report. Salicylic acid is proposed to act through inhibition of cyclooxygenase (COX) enzymes, which reduces prostaglandin synthesis and inflammation. However, no publicly available bioactivity data confirming this at a specific molecular target were found. Pharmacology data list ASIC3 as an associated target, but this is not confirmed as a primary mechanism.
 
-The link to papillary conjunctivitis is plausible but indirect. Salicylic acid is already listed for allergic rhinitis, another allergic mucosal condition, and papillary conjunctivitis involves allergic or inflammatory irritation of the conjunctiva. Salicylic acid is also keratolytic and irritating to mucous membranes, so tolerability in the eye is a real concern. The very high TxGNN score reflects model proximity in the knowledge graph, not clinical evidence.
+The link to papillary conjunctivitis is plausible but indirect. Salicylic acid is already listed for allergic rhinitis, another allergic mucosal condition, and papillary conjunctivitis involves allergic or inflammatory irritation of the conjunctiva. Salicylic acid is also keratolytic and irritating to mucous membranes, so tolerability in the eye is a real concern. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ### Other Predictions Reviewed
 
@@ -66,15 +66,14 @@ Nine other predictions were also evaluated. All lack trials and literature.
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.78% | L5 | No credible mechanistic link; likely a knowledge-graph artefact |
-| Brachydactyly-syndactyly syndrome | 99.73% | L5 | No credible mechanistic link |
-| Brachyolmia-amelogenesis imperfecta syndrome | 99.55% | L5 | No credible mechanistic link |
-| Rosacea conjunctivitis | 99.53% | L5 | Weak, speculative link via facial inflammatory skin disease; eye irritation concern |
-| Acromesomelic dysplasia, Hunter-Thompson type | 99.52% | L5 | No credible mechanistic link |
-| Pseudoachondroplasia | 99.51% | L5 | No credible mechanistic link |
-| Myosclerosis | 99.49% | L5 | Tenuous, speculative link; no evidence on fibrosis |
-| Brachyolmia | 99.44% | L5 | No credible mechanistic link |
-| Spondyloarthropathy, susceptibility to | 99.34% | L4 | Plausible class-level rationale: NSAIDs are first-line symptomatic therapy. Treated as a research question needing a dedicated literature review |
+| Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9978 | L5 | No credible mechanistic link; likely a TxGNN model (deep learning) artefact |
+| Brachydactyly-syndactyly syndrome | 0.9973 | L5 | No credible mechanistic link |
+| Brachyolmia-amelogenesis imperfecta syndrome | 0.9955 | L5 | No credible mechanistic link |
+| Rosacea conjunctivitis | 0.9953 | L5 | Weak, speculative link via facial inflammatory skin disease; eye irritation concern |
+| Acromesomelic dysplasia, Hunter-Thompson type | 0.9952 | L5 | No credible mechanistic link |
+| Pseudoachondroplasia | 0.9951 | L5 | No credible mechanistic link |
+| Myosclerosis | 0.9949 | L5 | Tenuous, speculative link; no evidence on fibrosis |
+| Brachyolmia | 0.9944 | L5 | No credible mechanistic link |
 
 ## Clinical Trial Evidence
 

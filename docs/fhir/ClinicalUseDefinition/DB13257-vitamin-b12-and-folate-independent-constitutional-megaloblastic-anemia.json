@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB13257",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB13257"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "vitamin-b12-and-folate-independent-constitutional-megaloblastic-anemia",
-          "display": "vitamin B12- and folate-independent constitutional megaloblastic anemia"
-        }
-      ],
-      "text": "vitamin B12- and folate-independent constitutional megaloblastic anemia"
+      "concept": {
+        "text": "vitamin B12- and folate-independent constitutional megaloblastic anemia"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9978
     }
   ]
 }

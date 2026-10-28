@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB13908",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB13908"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "ciliary-body-cancer",
-          "display": "ciliary body cancer"
-        }
-      ],
-      "text": "ciliary body cancer"
+      "concept": {
+        "text": "ciliary body cancer"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9946
     }
   ]
 }

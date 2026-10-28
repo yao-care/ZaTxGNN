@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: Moderate Evidence (L3-L4)
 nav_order: 451
 evidence_level: L3
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Rheumatoid arthritis"
 monitor_inn: "Tocilizumab"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Tocilizumab: From Rheumatoid Arthritis to Ankylosing Spondylitis
+## Tocilizumab: Ankylosing spondylitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The data compiled for this report include **4 clinical trials** (2 of them termi
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis (also juvenile idiopathic arthritis, temporal arteritis, Castleman disease and others, per the knowledge graph; SAHPRA indication text was not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ankylosing spondylitis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -135,7 +135,6 @@ The biological rationale is plausible, but the two Phase 3 RCTs in ankylosing sp
 - A TB screening and infection monitoring plan appropriate for South African patients
 - Review of other tocilizumab-containing registrations, if any, and EML status
 
-**Note on other predictions:** Other predicted indications are polyarticular juvenile idiopathic arthritis and its rheumatoid factor-positive subtype. These overlap with existing labelled use (L1 evidence, "Proceed with Guardrails") and are not true repurposing. Rheumatoid vasculitis is supported only by case reports, with safety signals in both directions.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

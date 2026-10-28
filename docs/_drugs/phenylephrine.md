@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Phenylephrine
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 372
-evidence_level: L5
-indication_count: 3
+evidence_level: L4
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLEPHRINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Phenylephrine: From Allergic Rhinitis and Nasal Congestion to Nasal Cavity Disease
+## Phenylephrine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,11 +47,11 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (plus conjunctivitis, haemorrhoids and others, per the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 (preclinical/mechanistic and indirect supportive literature; no registered trials) |
-| South Africa Market Status | Marketed |
+| South Africa Market Status | Marketed (valid licences on record: at least 20) |
 | Number of SAHPRA Registrations | 20 |
 | Recommended Decision | Hold |
 
@@ -119,7 +119,7 @@ The remaining registrations include cold and flu products in capsule, syrup, sac
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.97%), but there are no registered clinical trials and the literature is indirect: combination products, a surgical adjunct study of another drug, and a case report. Nasal cavity disease also largely overlaps with phenylephrine's existing rhinitis and cold indications, so there is little that is new to evaluate. The same prediction approach also produced lower-ranked predictions with weaker support (acute laryngopharyngitis: no evidence; trigeminal autonomic cephalalgia: diagnostic pupillometry only, with no evidence of therapeutic benefit).
+The TxGNN score is very high (0.9997), but there are no registered clinical trials and the literature is indirect: combination products, a surgical adjunct study of another drug, and a case report. Nasal cavity disease also largely overlaps with phenylephrine's existing rhinitis and cold indications, so there is little that is new to evaluate. The same prediction approach also produced lower-ranked predictions with weaker support (acute laryngopharyngitis: no evidence; trigeminal autonomic cephalalgia: diagnostic pupillometry only, with no evidence of therapeutic benefit).
 
 **To proceed, the following is needed:**
 - SAHPRA Professional Information warnings and contraindications for the relevant phenylephrine products (a blocking data gap)

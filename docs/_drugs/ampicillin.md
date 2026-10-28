@@ -4,17 +4,17 @@ title: Ampicillin
 parent: Moderate Evidence (L3-L4)
 nav_order: 37
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L4). Approved use: Bacterial infections (urinary tract infection, otitis media…"
 monitor_inn: "Ampicillin"
-predicted_indications: ["laryngitis", "gonococcal urethritis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 ---
 
 # Ampicillin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **laryngitis**, but there are *
 |------|------|
 | Original Indication | Bacterial infections (urinary tract infection, otitis media, bacterial pneumonia, meningitis, among others). SAHPRA indication text is not available in the data compiled for this report. |
 | Predicted New Indication | Laryngitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 8 |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

@@ -4,17 +4,17 @@ title: Mebendazole
 parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Mebendazole: predicted new indication Acne (evidence level L5). Approved use: Enterobiasis, ascaridiasis, trichuriasis"
 monitor_inn: "Mebendazole"
-predicted_indications: ["acne (disease)", "leishmaniasis, diffuse cutaneous", "echinococcus granulosus infectious disease", "hordeolum", "alveolar echinococcosis", "inhalational botulism", "toxin-mediated infectious botulism", "impetigo", "Sorsby's fundus dystrophy", "demodicidosis of sebaceous gland"]
+predicted_indications: ["acne (disease)"]
+description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mebendazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mebendazole: From Enterobiasis, Ascariasis and Trichuriasis to Acne
+## Mebendazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mebendazole is an anthelmintic, originally used to treat intestinal worm infections (enterobiasis, ascaridiasis and trichuriasis).
 The TxGNN model's top-ranked prediction is **acne**, but there are **no clinical trials** and only **1 publication** (an unrelated case report) behind it, so this prediction is model-only.
-By contrast, the best-supported predicted use is **alveolar echinococcosis** (rank 5), with **20 publications** (mostly reviews, a WHO guideline and observational studies) and no registered trials. Benzimidazoles are already used for this infection, so this is largely confirmation of existing use rather than a new repurposing signal.
+Benzimidazoles are already used for this infection, so this is largely confirmation of existing use rather than a new repurposing signal.
 
 ---
 
@@ -48,27 +48,18 @@ By contrast, the best-supported predicted use is **alveolar echinococcosis** (ra
 
 | Item | Content |
 |------|------|
-| Original Indication | Enterobiasis, ascaridiasis, trichuriasis (from the knowledge graph; the SAHPRA records compiled for this report contain no indication text) |
-| Predicted New Indication | Acne (rank 1 prediction) |
-| TxGNN Prediction Score | 99.20% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 For comparison, the other predictions:
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 2 | Diffuse cutaneous leishmaniasis | 98.38% | L5 | Hold |
-| 3 | Echinococcus granulosus infection (cystic echinococcosis) | 95.61% | L4 | Research question |
-| 4 | Hordeolum | 94.88% | L5 | Hold |
-| 5 | Alveolar echinococcosis | 94.20% | L3 | Research question |
-| 6 | Inhalational botulism | 93.82% | L5 | Hold |
-| 7 | Toxin-mediated infectious botulism | 93.52% | L5 | Hold |
-| 8 | Impetigo | 93.22% | L5 | Hold |
-| 9 | Sorsby's fundus dystrophy | 93.13% | L5 | Hold |
-| 10 | Demodicidosis of sebaceous gland | 92.99% | L5 | Hold |
 
 ---
 
@@ -76,11 +67,11 @@ For comparison, the other predictions:
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, mebendazole is a benzimidazole anthelmintic that binds parasite beta-tubulin, disrupting microtubule formation and glucose uptake in worms. Its efficacy in intestinal nematode infections is established.
 
-**Acne (rank 1):** No credible mechanistic link was identified. The only publication retrieved is a 1982 case report of proliferative sparganosis (a parasitic infection) in Venezuela, in which the patient had acne-like skin lesions. It is unrelated to acne treatment. The high model score is not backed by clinical or mechanistic evidence, and this should be read as a likely artefact of the knowledge-graph prediction.
+**Acne (rank 1):** No credible mechanistic link was identified. The only publication retrieved is a 1982 case report of proliferative sparganosis (a parasitic infection) in Venezuela, in which the patient had acne-like skin lesions. It is unrelated to acne treatment. The high model score is not backed by clinical or mechanistic evidence, and this should be read as a likely artefact of the TxGNN model (deep learning) prediction.
 
-**Echinococcosis (ranks 3 and 5):** These predictions are biologically plausible. Larval tapeworm stages (*Echinococcus granulosus* and *E. multilocularis*) are susceptible to benzimidazoles that target beta-tubulin. The WHO 1996 guidelines list mebendazole and albendazole as chemotherapy options, alone or around surgery. In alveolar echinococcosis, benzimidazoles are mainly parasitostatic (they halt growth rather than kill), and the parasite can resume growth when treatment stops. One case report describes possible parasitocidal effects after 13 years of continuous mebendazole. In practice, albendazole is generally preferred.
+**Echinococcosis (ranks 3 and 5):** These predictions are biologically plausible. Larval tapeworm stages (*Echinococcus granulosus* and *E. multilocularis*) are susceptible to benzimidazoles that target beta-tubulin. The WHO 1996 guidelines list mebendazole and albendazole as chemotherapy options, alone or around surgery. One case report describes possible parasitocidal effects after 13 years of continuous mebendazole. In practice, albendazole is generally preferred.
 
-**Other predictions:** For diffuse cutaneous leishmaniasis and demodicidosis, an antiparasitic rationale is conceivable but unsupported by any data provided. For hordeolum and impetigo (bacterial infections), botulism (toxin-mediated) and Sorsby's fundus dystrophy (a genetic macular disease), no plausible mechanistic link to mebendazole is evident.
+**Other predictions:** For diffuse cutaneous leishmaniasis and demodicidosis, an antiparasitic rationale is conceivable but unsupported by any data provided.
 
 ---
 
@@ -98,7 +89,6 @@ Currently no related clinical trials registered for the top-ranked prediction (a
 |------|-----|------|------|---------|
 | [7072899](https://pubmed.ncbi.nlm.nih.gov/7072899/) | 1982 | Case report | Am J Trop Med Hyg | First reported case of human proliferative sparganosis in the southern hemisphere, with acne-like skin lesions. Not related to acne treatment or to mebendazole. |
 
-**Best-supported prediction: alveolar echinococcosis (rank 5), selected publications**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

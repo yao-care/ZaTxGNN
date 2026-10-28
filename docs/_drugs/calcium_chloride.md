@@ -8,6 +8,7 @@ nav_order: 93
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Calcium Chloride
@@ -51,7 +52,7 @@ A full repurposing evaluation cannot be completed at this time — this report d
 | Predicted New Indication | None available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model prediction not yet run; no supporting studies on file |
-| South Africa Market Status | Not marketed |
+| South Africa Market Status | Marketed (valid licences on record: at least 17) |
 | Number of SAHPRA Registrations | 0 |
 | Recommended Decision | Hold |
 

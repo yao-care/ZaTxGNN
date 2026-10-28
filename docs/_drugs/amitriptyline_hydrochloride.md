@@ -8,6 +8,7 @@ nav_order: 30
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amitriptyline Hydrochloride
@@ -53,8 +54,8 @@ A complete repurposing assessment cannot be completed until the two identified d
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — prediction pipeline not completed |
-| South Africa Market Status | Not marketed (0 SAHPRA registrations on record) |
-| Number of SAHPRA Registrations | 0 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 ---

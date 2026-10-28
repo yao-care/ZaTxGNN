@@ -4,17 +4,17 @@ title: Meloxicam
 parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…"
 monitor_inn: "Meloxicam"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Meloxicam: From Rheumatoid Arthritis and Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Meloxicam: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,33 +45,31 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, spondyloarthropathy (the SAHPRA registration data compiled for this report contain no indication text, so these indications come from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 1 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, meloxicam is a COX-2-preferential NSAID. It reduces prostaglandin-mediated inflammation and pain in arthritic conditions.
 
-The predicted disease is a genetic skeletal dysplasia caused by loss-of-function variants in the CDMP1/GDF5 gene, resulting in a structural growth defect. Meloxicam might ease pain or inflammation, but it does not address the underlying pathology. We found **no clear mechanistic link**. The high TxGNN score is most likely a network-proximity artefact arising from shared musculoskeletal annotations in the knowledge graph.
+The predicted disease is a genetic skeletal dysplasia caused by loss-of-function variants in the CDMP1/GDF5 gene, resulting in a structural growth defect. Meloxicam might ease pain or inflammation, but it does not address the underlying pathology. We found **no clear mechanistic link**. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other top-ranked predictions** (all with no clinical trials):
 
 | Rank | Predicted Indication | Score | Assessment |
 |---|---|---|---|
-| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.92% | No plausible mechanistic link; likely a graph artefact |
-| 3 | Myosclerosis | 99.90% | Weak and speculative; no evidence that fibrosis can be modified |
-| 4 | Brachyolmia | 99.89% | No plausible mechanistic link |
-| 5 | Pseudoachondroplasia | 99.81% | Indirect at best; possible symptomatic pain relief only |
-| 6 | Spondyloarthropathy, susceptibility to | 99.52% | Plausible, but already an original indication, so not true repurposing |
-| 7 | Rheumatoid nodulosis | 99.51% | No known NSAID effect on nodule formation |
-| 8 | Rheumatoid factor-positive polyarticular JIA | 99.44% | Strong mechanistic fit; an extension within the existing indication class; evidence level L4 |
-| 9 | WHIM syndrome | 99.38% | No mechanistic link (CXCR4 gain-of-function) |
-| 10 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.36% | No plausible mechanistic link |
+| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 0.9992 | No plausible mechanistic link; the score comes from the TxGNN model (deep learning) and may reflect similarities learned between related diseases, not biological evidence |
+| 3 | Myosclerosis | 0.9990 | Weak and speculative; no evidence that fibrosis can be modified |
+| 4 | Brachyolmia | 0.9989 | No plausible mechanistic link |
+| 5 | Pseudoachondroplasia | 0.9981 | Indirect at best; possible symptomatic pain relief only |
+| 7 | Rheumatoid nodulosis | 0.9951 | No known NSAID effect on nodule formation |
+| 9 | WHIM syndrome | 0.9938 | No mechanistic link (CXCR4 gain-of-function) |
+| 10 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9936 | No plausible mechanistic link |
 
 Of these, only rank 8 (rheumatoid factor-positive polyarticular JIA) has any supporting literature and a credible mechanistic rationale. It is closer to the existing indication than to a genuinely new one.
 
@@ -99,7 +97,7 @@ Only one valid single-ingredient registration exists, and the route of administr
 
 ## Safety Considerations
 
-**Contraindications / conditions of concern (from knowledge graph associations, not label text):** hypertension, congestive heart failure, cardiovascular disease, myocardial infarction, stroke and cerebrovascular disorders, kidney disease and impaired renal function, active peptic ulcer disease, gastritis, blood coagulation disorders, anaemia, diabetes mellitus (including diabetic ketoacidosis), hyperlipidaemia, and substance abuse/dependence.
+**Contraindications / conditions of concern (from the drug's associations with these conditions, not label text):** hypertension, congestive heart failure, cardiovascular disease, myocardial infarction, stroke and cerebrovascular disorders, kidney disease and impaired renal function, active peptic ulcer disease, gastritis, blood coagulation disorders, anaemia, diabetes mellitus (including diabetic ketoacidosis), hyperlipidaemia, and substance abuse/dependence.
 
 **Drug interactions** (100 interactions found; examples shown):
 - **Moderate:** corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), acetylsalicylic acid, metformin, sulfonylureas (glimepiride, chlorpropamide), mesalazine, balsalazide, aprepitant, vancomycin, kanamycin, potassium citrate and bicarbonate, and bowel-preparation agents (sodium picosulfate, sodium sulfate, polyethylene glycol with electrolytes)
@@ -112,7 +110,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for authoritat
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no clinical trials and no literature, and no mechanistic link to the predicted disease. The score appears to be a knowledge-graph artefact. The only credible candidate in the list (polyarticular JIA) lies within meloxicam's existing indication class, so it is not a true repurposing opportunity.
+The top prediction has no clinical trials and no literature, and no mechanistic link to the predicted disease. The score appears to be a TxGNN model (deep learning) artefact. The only credible candidate in the list (polyarticular JIA) lies within meloxicam's existing indication class, so it is not a true repurposing opportunity.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data (MOA)

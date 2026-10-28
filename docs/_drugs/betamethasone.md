@@ -4,7 +4,7 @@ title: Betamethasone
 parent: High Evidence (L1-L2)
 nav_order: 67
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Betamethasone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, inflammatory bowel disease (Crohn disease)…"
 monitor_inn: "Betamethasone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Betamethasone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ with **6 registered clinical trials** (2 completed trials directly involving bet
 |------|------|
 | Original Indication | Autoimmune disease, inflammatory bowel disease (Crohn disease), adrenocortical insufficiency, acute lymphoblastic leukaemia, among others (SAHPRA indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 18 |
+| South Africa Market Status | Marketed (valid licences: 18 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 18) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

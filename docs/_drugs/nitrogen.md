@@ -4,17 +4,17 @@ title: Nitrogen
 parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Congenital alveolar capillary dysplasia"
 monitor_inn: "Nitrogen"
-predicted_indications: ["16q24.1 microdeletion syndrome", "primary interstitial lung disease specific to childhood", "isolated pulmonary capillaritis", "congenital pulmonary lymphangiectasia", "benign neoplasm of adrenal gland", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)"]
+predicted_indications: ["16q24.1 microdeletion syndrome", "primary interstitial lung disease specific to childhood", "isolated pulmonary capillaritis", "congenital pulmonary lymphangiectasia"]
+description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nitrogen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nitrogen: From Congenital Alveolar Capillary Dysplasia to 16q24.1 Microdeletion Syndrome
+## Nitrogen: 16q24.1 microdeletion syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,21 +45,21 @@ The TxGNN model predicts it may be effective for **16q24.1 microdeletion syndrom
 
 | Item | Content |
 |------|------|
-| Original Indication | Congenital alveolar capillary dysplasia; persistent fetal circulation syndrome (taken from the knowledge graph, as the SAHPRA registrations list no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | 16q24.1 microdeletion syndrome |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 2 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this drug. Nitrogen is an inert gas, and in this setting it serves as a diluent or carrier for inhaled nitric oxide mixtures rather than as an active agent.
 
-The prediction arises from the knowledge graph. The 16q24.1 deletion involves *FOXF1* and neighbouring regulatory elements, the same locus implicated in congenital alveolar capillary dysplasia, the drug's original indication. The shared genetic and disease-network neighbours explain the high score.
+The prediction score comes from the TxGNN model (deep learning). The 16q24.1 deletion involves *FOXF1* and neighbouring regulatory elements, the same locus implicated in congenital alveolar capillary dysplasia, the drug's original indication. The high score may reflect similarities the model learned between related diseases, not biological evidence.
 
-This link is a knowledge-graph artefact, not a therapeutic mechanism. Nitrogen has no pharmacological activity on the underlying genetic defect, so the prediction should not be read as a treatment signal.
+This link is a TxGNN model (deep learning) artefact, not a therapeutic mechanism. Nitrogen has no pharmacological activity on the underlying genetic defect, so the prediction should not be read as a treatment signal.
 
 The other top predictions follow the same pattern: childhood interstitial lung disease, isolated pulmonary capillaritis, congenital pulmonary lymphangiectasia, Dandy-Walker malformation syndrome, hair shaft abnormalities and hypertrichosis. Each is driven by disease similarity or shared genetic neighbours, with no pharmacological rationale.
 
@@ -94,7 +94,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on model scores and knowledge-graph proximity. There are no clinical trials, no relevant literature and no plausible pharmacological mechanism for an inert gas in 16q24.1 microdeletion syndrome. The evidence level is L5.
+The prediction rests only on the score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no relevant literature and no plausible pharmacological mechanism for an inert gas in 16q24.1 microdeletion syndrome. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - Retrieval of SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)

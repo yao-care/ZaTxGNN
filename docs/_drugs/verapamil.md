@@ -4,17 +4,17 @@ title: Verapamil
 parent: Model Prediction Only (L5)
 nav_order: 470
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Hypertension"
 monitor_inn: "VERAPAMIL"
-predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
+predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
+description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Verapamil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Verapamil: From Hypertension to Obsolete Bundle Branch Block
+## Verapamil: Obsolete bundle branch block
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (also atrial fibrillation, acute coronary syndrome, Prinzmetal angina, ventricular tachycardia, per the knowledge graph; the SAHPRA indication text was empty) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obsolete bundle branch block |
-| TxGNN Prediction Score | 99.62% |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed |
-| Number of SAHPRA Registrations | 4 |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, verapamil is an L-type calcium channel blocker that slows atrioventricular (AV) nodal conduction. Its efficacy in hypertension and supraventricular and ventricular arrhythmias is established.
 
-The prediction most likely reflects graph proximity: bundle branch block is a conduction disorder, and verapamil is already linked to conduction-related conditions such as atrial fibrillation and ventricular tachycardia. This is a statistical association, not a mechanistic one.
+The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence: bundle branch block is a conduction disorder, and verapamil is already linked to conduction-related conditions such as atrial fibrillation and ventricular tachycardia. This is a statistical association, not a mechanistic one.
 
 Mechanistically, the prediction is hard to support. Verapamil slows conduction rather than improving it, so benefit in bundle branch block is implausible and it may be harmful. The disease term is also flagged as obsolete, which further weakens the prediction. Knowledge graph contraindication edges list atrioventricular block and heart failure among the conditions where verapamil should be avoided.
 
@@ -66,12 +66,11 @@ Mechanistically, the prediction is hard to support. Verapamil slows conduction r
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Malignant renovascular hypertension | 99.27% | L5 | Two retrieved papers did not evaluate verapamil for this condition |
-| Malignant hypertensive renal disease | 99.27% | L5 | No trials or literature; standard care uses other agents |
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.26% | L4 | Only indirect preclinical evidence; calcium channel blockers may worsen gas exchange |
-| Pulmonary hypertension with unclear multifactorial mechanism | 99.26% | L5 | No evidence; empirical use not supported |
-| Braddock syndrome | 99.15% | L5 | No mechanistic link; likely a network artifact |
-| Periodic paralysis with transient compartment-like syndrome | 99.08% | L5 | Loose ion-channel connection only; safety uncertain |
+| Malignant hypertensive renal disease | 0.9927 | L5 | No trials or literature; standard care uses other agents |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9926 | L5 | Only indirect preclinical evidence; calcium channel blockers may worsen gas exchange |
+| Pulmonary hypertension with unclear multifactorial mechanism | 0.9926 | L5 | No evidence; empirical use not supported |
+| Braddock syndrome | 0.9915 | L5 | No mechanistic link; likely a network artifact |
+| Periodic paralysis with transient compartment-like syndrome | 0.9908 | L5 | Loose ion-channel connection only; safety uncertain |
 
 ## Clinical Trial Evidence
 
@@ -107,7 +106,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 **Decision: Hold**
 
 **Rationale:**
-The 99.62% TxGNN score is not backed by any clinical trial or publication. Verapamil slows cardiac conduction, so benefit in bundle branch block is mechanistically implausible and potentially harmful. The target disease term is also obsolete. None of the other six predictions has clinical evidence either.
+The 0.9962 TxGNN score is not backed by any clinical trial or publication. Verapamil slows cardiac conduction, so benefit in bundle branch block is mechanistically implausible and potentially harmful. The target disease term is also obsolete. None of the other six predictions has clinical evidence either.
 
 **To proceed, the following is needed:**
 - Retrieval of the SAHPRA Professional Information (warnings, contraindications and approved indications), currently a blocking gap

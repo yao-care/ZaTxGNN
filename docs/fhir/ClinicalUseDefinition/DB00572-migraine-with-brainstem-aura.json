@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00572",
-      "display": "Dynapayne"
+      "reference": "MedicationKnowledge/DB00572"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://zatxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "migraine-with-brainstem-aura",
-          "display": "migraine with brainstem aura"
-        }
-      ],
-      "text": "migraine with brainstem aura"
+      "concept": {
+        "text": "migraine with brainstem aura"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://zatxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9942
     }
   ]
 }
