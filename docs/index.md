@@ -15,6 +15,42 @@ permalink: /
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## South Africa: what this site covers
+
+This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [SAHPRA](https://www.sahpra.org.za/) (South Africa).
+
+Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Highest evidence levels on this site
+
+| Medicine | Evidence level |
+|---|---|
+| [Candesartan](/drugs/candesartan/) | L1 |
+| [Clomipramine](/drugs/clomipramine/) | L1 |
+| [Progesterone](/drugs/progesterone/) | L1 |
+| [Potassium](/drugs/potassium/) | L1 |
+| [Salmeterol](/drugs/salmeterol/) | L1 |
+| [Tiotropium](/drugs/tiotropium/) | L1 |
+| [Montelukast](/drugs/montelukast/) | L1 |
+| [Tacrolimus](/drugs/tacrolimus/) | L1 |
+| [Bupropion](/drugs/bupropion/) | L2 |
+| [Dexamethasone](/drugs/dexamethasone/) | L2 |
+
+### Medicines covered only by this site among the 30 TxGNN sites
+
+| Medicine | Evidence level |
+|---|---|
+| [Omega-3 Fatty Acids](/drugs/omega-3-fatty-acids/) | L4 |
+| [Bismuth Subcarbonate](/drugs/bismuth-subcarbonate/) | L5 |
+| [Dextropropoxyphene](/drugs/dextropropoxyphene/) | L5 |
+| [Bismuth Subgallate](/drugs/bismuth-subgallate/) | N/A |
+| [Magnesium Acetate](/drugs/magnesium-acetate/) | N/A |
+| [Methylprednisolone Aceponate](/drugs/methylprednisolone-aceponate/) | N/A |
+| [Phosphoric Acid](/drugs/phosphoric-acid/) | N/A |
+
+<!-- local-home:end -->
+
 ## Drug Search
 
 Enter a **drug name** or **disease name** to find repurposing predictions. Supports generic names, brand names, and disease keywords.
