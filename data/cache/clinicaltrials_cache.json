@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-10-29T04:36:16.131355",
+  "last_check": "2026-10-29T18:06:27.895184",
   "seen_trials": {
     "Acetaminophen": [
       "NCT05039619",
@@ -1730,7 +1730,8 @@
       "NCT07876323"
     ],
     "Salmeterol": [
-      "NCT05776927"
+      "NCT05776927",
+      "NCT00662740"
     ],
     "Fexofenadine Hydrochloride": [
       "NCT05263206"
@@ -1757,7 +1758,8 @@
       "NCT07619105"
     ],
     "Tiotropium": [
-      "NCT03842839"
+      "NCT03842839",
+      "NCT00662740"
     ]
   }
 }
