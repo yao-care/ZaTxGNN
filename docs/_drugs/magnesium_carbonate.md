@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "MAGNESIUM CARBONATE"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
 description: "Magnesium Carbonate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Currently there are **0 clinical trials** and **1 publication** (an in vitro ant
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---

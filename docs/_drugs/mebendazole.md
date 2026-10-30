@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Benzimidazoles are already used for this infection, so this is largely confirmat
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 For comparison, the other predictions:

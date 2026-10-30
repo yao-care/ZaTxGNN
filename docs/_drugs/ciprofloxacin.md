@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L4). Approved use: Bacterial infections (typhoid fever, salmonellosis, paratyphoid fever…"
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
@@ -52,8 +52,8 @@ This is a model-driven hypothesis with limited supporting evidence.
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 6 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

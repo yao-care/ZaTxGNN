@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 385
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This direction is supported by **12 clinical trials** and **20 publications**, a
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 3 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on other predictions:** Eight other predicted indications were reviewed. Their recommendations are summarised below.

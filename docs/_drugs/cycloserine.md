@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cycloserine"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Cycloserine: predicted new indication irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Cycloserine is an antibiotic that is also an NMDA receptor partial agonist at th
 | Predicted New Indication | irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---

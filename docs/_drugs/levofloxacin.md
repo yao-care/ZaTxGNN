@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections (streptococcal and staphylococcal infections…"
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -50,8 +50,8 @@ Among the other predictions, **septicemic plague** has the most credible support
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis (rank 1) |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (rank 1 prediction). For reference: septicemic plague L3; monoclonal gammopathy L4 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 3 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 3) |
 | Recommended Decision | Hold (rank 1 prediction) |
 
 ## Why is This Prediction Reasonable?

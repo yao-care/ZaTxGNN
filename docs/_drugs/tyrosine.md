@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the registration data (products are amino acid-containi…"
 monitor_inn: "Tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -52,8 +52,8 @@ The prediction is model-only, and the evidence is weak across all ten predicted 
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 7 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---

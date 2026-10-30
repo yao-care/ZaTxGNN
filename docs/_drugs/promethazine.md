@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 392
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Promethazine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,8 +46,8 @@ All candidates produced by the model for Promethazine are already known uses, so
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 3 |
 | Evidence level | Not applicable |
-| Market status in South Africa | Marketed (valid licences: 17 of 17) |
-| Number of SAHPRA Registrations | 17 (valid: 17) |
+| Market status in South Africa | Marketed (valid licences: 14 of 17) |
+| Number of SAHPRA Registrations | 17 (valid: 14) |
 
 ## Known uses among the model's candidates
 
@@ -74,9 +74,9 @@ All candidates produced by the model for Promethazine are already known uses, so
 |------|------|------|------|
 | B1234 | Propain | syrup | Valid |
 | 27/2.8/0242 | Goldgesic | syrup | Valid |
-| 27/2.8/0575 | Salterpyn | syrup | Valid |
-| X/2.8/174 | Mepromol | syrup | Valid |
-| X/2.8/298 | Pynmed Tablets/Tablette | tablet | Valid |
+| 27/2.8/0575 | Salterpyn | syrup | Canceled |
+| X/2.8/174 | Mepromol | syrup | Canceled |
+| X/2.8/298 | Pynmed Tablets/Tablette | tablet | Canceled |
 | 28/2.8/0566 | Medipyn s | syrup | Valid |
 | X/2.8/0032 | Ban Pain A/F | syrup | Valid |
 | X/2.8/299 | Pynmed pain and fever | syrup | Valid |

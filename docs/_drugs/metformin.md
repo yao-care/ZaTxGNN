@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "METFORMIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 16 of 16) |
-| Number of SAHPRA Registrations | 16 (valid: 16) |
+| South Africa Market Status | Marketed (valid licences: 14 of 16) |
+| Number of SAHPRA Registrations | 16 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---

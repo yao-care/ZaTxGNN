@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Because homozygous familial hypercholesterolaemia is already among its original 
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 7 of 7) |
-| Number of SAHPRA Registrations | 7 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 6 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

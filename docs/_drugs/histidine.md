@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Histidine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant for **gastroparesis (disease)**, but
 | Predicted New Indication | gastroparesis (disease) |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 8 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

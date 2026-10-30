@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 243
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Gestodene: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,8 +46,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gestodene, s
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Market status in South Africa | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| Market status in South Africa | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 
 ## Known uses recorded for this drug
 
@@ -71,7 +71,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gestodene, s
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 52/18.8/1019 | Dyolafem | tablet | Valid |
-| W/21.8.2/317 | Triodene Ed | Sct | Valid |
+| W/21.8.2/317 | Triodene Ed | Sct | Canceled |
 | W/18.8/11 | Minulette | tablet | Valid |
 
 ## Safety Considerations

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Amoxicillin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections such as urinary tract infection…"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **hyperamylasemia**, but there are
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 14 of 14) |
-| Number of Registrations | 14 (valid: 14) |
+| South Africa Market Status | Marketed (valid licences: 12 of 14) |
+| Number of Registrations | 14 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 88
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -48,8 +48,8 @@ Calcipotriol is a topical vitamin D3 analogue, registered in South Africa in com
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

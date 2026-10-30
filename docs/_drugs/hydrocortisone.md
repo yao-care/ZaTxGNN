@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Hydrocortisone: predicted new indication alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -55,8 +55,8 @@ with **1 clinical trial** (in which hydrocortisone was only the weak comparator)
 | Predicted New Indication | alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 12 of 12) |
-| Number of SAHPRA Registrations | 12 (valid: 12) |
+| South Africa Market Status | Marketed (valid licences: 9 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Glimepiride: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -50,8 +50,8 @@ This is a computational prediction only.
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

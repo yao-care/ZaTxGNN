@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 463
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not stated"
 monitor_inn: "Tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -50,8 +50,8 @@ Evidence is limited and dated, so this is a research-level opportunity, not a re
 | Predicted New Indication | Insomnia (the top-ranked TxGNN prediction is restless legs syndrome, but insomnia has the strongest supporting evidence, so it is the focus of this report) |
 | TxGNN Prediction Score | Insomnia: 0.9947 (restless legs syndrome, rank 1: 0.9972) |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 8 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 8) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

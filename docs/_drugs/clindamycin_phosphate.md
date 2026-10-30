@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -54,8 +54,8 @@ This evaluation **cannot advance to a full repurposing analysis** until the iden
 | Predicted New Indication | Not available — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not determinable (no predictions present) |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 4 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 4) |
 | Recommended Decision | **Hold** |
 
 ---

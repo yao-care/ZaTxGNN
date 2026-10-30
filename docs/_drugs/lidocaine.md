@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

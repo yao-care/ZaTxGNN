@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Glycine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Glycine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The prediction rests on a model score alone.
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 10 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

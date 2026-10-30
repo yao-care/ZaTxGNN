@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "NORETHISTERONE"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Norethisterone: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **amenorrhoea**, with **no regi
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 (model prediction with no supporting trials; the data compiled for this report graded it L4, but no preclinical or mechanism studies were supplied) |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 8 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

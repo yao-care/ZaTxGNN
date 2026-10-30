@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Asthma"
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** were found for this specific
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 1.0000 (model rank 65) |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 10 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 8 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

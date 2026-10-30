@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Misoprostol: predicted new indication Amenorrhea (evidence level L5). Approved use: Not available"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but there are *
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 (no clinical trials; the retrieved literature is indirect, so the data provide no direct evidence for amenorrhea) |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 37
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L4). Approved use: Bacterial infections (urinary tract infection, otitis media…"
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **laryngitis**, but there are *
 | Predicted New Indication | Laryngitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 8 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 7 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 116
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ This report documents the current data status and defines the minimum requiremen
 | Predicted New Indication | Not available — TxGNN generated no candidate predictions |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — No predictions generated; evaluation cannot be initiated |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 10 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 10) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Integrity Note:** Chlorpheniramine maleate is a decades-old, widely available molecule present in numerous over-the-counter and prescription products across Africa (including well-known brands such as *Allergex* and *Piriton* in South Africa). A result of zero SAHPRA registrations almost certainly reflects an input data gap rather than a genuine absence from the South African market. SAHPRA records must be independently verified before this field is relied upon.

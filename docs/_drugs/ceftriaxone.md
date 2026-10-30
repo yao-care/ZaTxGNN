@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (e.g. pneumonia, bacterial meningitis…"
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
@@ -52,8 +52,8 @@ The best-supported prediction is **infectious otitis media**, with **1 registere
 | Predicted New Indication | Hyperamylasemia (top-ranked by TxGNN; see note below) |
 | TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 for the top-ranked prediction (L3 for infectious otitis media, the best-supported candidate) |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 5 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 5) |
 | Recommended Decision | Hold (top-ranked prediction); Proceed with Guardrails is not yet justified for any candidate |
 
 **Note:** Several predictions score above 99%, but the score does not reflect evidence quality. The ten predictions below are summarised by evidence strength.

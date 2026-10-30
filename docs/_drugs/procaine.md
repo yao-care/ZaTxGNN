@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 390
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Procaine: predicted new indication Methemoglobinemia (evidence level L4). Approved use: Not available"
 monitor_inn: "Procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa"]
@@ -52,8 +52,8 @@ No clinical trials are registered for this prediction, and only **5 publications
 | Predicted New Indication | Methemoglobinemia |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 466
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not available. The SAHPRA registrations in the data compiled for this…"
 monitor_inn: "Valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -48,8 +48,8 @@ Valine is a branched-chain amino acid (BCAA) that is registered in South Africa 
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 10 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

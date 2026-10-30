@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not stated in the local licence records. The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence."
 ---
 
@@ -52,8 +52,8 @@ Stronger evidence exists for other predicted uses, notably **phobic disorder** (
 | Predicted New Indication | Paranoid personality disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 1 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Evidence level note:** None of the retrieved publications directly studies fluoxetine in paranoid personality disorder. They concern borderline personality disorder, depression with personality disorders, and cluster A pharmacotherapy in general. The evidence level is therefore capped at L5.

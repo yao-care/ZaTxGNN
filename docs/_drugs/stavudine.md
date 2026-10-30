@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "STAVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Stavudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction is a computational signal only, and the condition is a veterinary
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

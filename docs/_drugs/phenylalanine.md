@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the registration data compiled for this report"
 monitor_inn: "PHENYLALANINE"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -52,8 +52,8 @@ The prediction is therefore computational only.
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 10 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---

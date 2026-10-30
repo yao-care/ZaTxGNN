@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 130
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "Clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **Ureaplasma urethritis**, but this p
 | Predicted New Indication | Ureaplasma urethritis (rank 1, model score only); gonococcal urethritis (rank 2) is the best-supported alternative |
 | TxGNN Prediction Score | 0.9993 (Ureaplasma urethritis); 0.9993 (gonococcal urethritis) |
 | Evidence Level | L5 or L4 for Ureaplasma urethritis (no direct evidence); L3 for gonococcal urethritis |
-| South Africa Market Status | Marketed (valid licences: 14 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 14) |
+| South Africa Market Status | Marketed (valid licences: 11 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 11) |
 | Recommended Decision | Hold (Ureaplasma urethritis); gonococcal urethritis is a research question only |
 
 ---

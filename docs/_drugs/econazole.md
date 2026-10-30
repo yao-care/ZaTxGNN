@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Econazole: predicted new indication ectothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 | Predicted New Indication | ectothrix infectious disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

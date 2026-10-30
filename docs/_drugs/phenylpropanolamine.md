@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Phenylpropanolamine: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLPROPANOLAMINE"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
@@ -52,8 +52,8 @@ Currently there are **0 registered clinical trials** and **3 publications** (1 h
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 4 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

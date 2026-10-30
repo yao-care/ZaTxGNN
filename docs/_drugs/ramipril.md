@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Ramipril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension and stroke-related conditions"
 ---
 
@@ -50,8 +50,8 @@ Ramipril is an ACE inhibitor. The TxGNN model (deep learning) predicts it may be
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 7 of 7) |
-| Number of SAHPRA Registrations | 7 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 6 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

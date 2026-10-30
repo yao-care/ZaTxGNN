@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Threonine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not available"
 monitor_inn: "THREONINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **gastroparesis**, but the predict
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 12 of 12) |
-| Number of SAHPRA Registrations | 12 (valid: 12) |
+| South Africa Market Status | Marketed (valid licences: 11 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Lamivudine: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,7 +52,7 @@ This is a veterinary prediction, not a new human-medicine use.
 | Predicted New Indication | feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 20) |
+| South Africa Market Status | Marketed (valid licences on record: at least 17) |
 | Number of SAHPRA Registrations | at least 20 |
 | Recommended Decision | Hold |
 

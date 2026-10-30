@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Alprazolam: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **insomnia (disease)**, but the
 | Predicted New Indication | insomnia (disease) |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 4 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

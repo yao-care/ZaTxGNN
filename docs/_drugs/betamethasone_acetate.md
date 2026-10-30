@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -54,8 +54,8 @@ This report documents current findings and outlines the remediation steps requir
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — TxGNN output absent |
-| South Africa Market Status | Marketed (valid licences: 18 of 18) |
-| Number of SAHPRA Registrations | 18 (valid: 18) |
+| South Africa Market Status | Marketed (valid licences: 17 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 17) |
 | Recommended Decision | **Hold** |
 
 ---

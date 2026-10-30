@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ The TxGNN model predicts it may be relevant for **rosacea conjunctivitis**, with
 | Predicted New Indication | rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 19) |
+| South Africa Market Status | Marketed (valid licences on record: at least 17) |
 | Number of SAHPRA Registrations | at least 19 |
 | Recommended Decision | Hold |
 

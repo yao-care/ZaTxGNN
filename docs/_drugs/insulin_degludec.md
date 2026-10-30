@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Insulin Degludec: predicted new indication autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Insulin degludec is a long-acting basal insulin analogue. The TxGNN model predic
 | Predicted New Indication | autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

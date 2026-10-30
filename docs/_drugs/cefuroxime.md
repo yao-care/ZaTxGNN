@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Cefuroxime"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Cefuroxime: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** that study this d
 | Predicted New Indication | polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 1 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Guaifenesin: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 7 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

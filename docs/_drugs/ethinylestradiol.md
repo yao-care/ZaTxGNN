@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ETHINYLESTRADIOL"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Ethinylestradiol: predicted new indication Elevated plasma zinc (zinc, elevated plasma) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ There are **no clinical trials and no publications** in the data compiled for th
 | Predicted New Indication | Elevated plasma zinc (zinc, elevated plasma) |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 20 of 20) |
-| Number of SAHPRA Registrations | 20 (valid: 20) |
+| South Africa Market Status | Marketed (valid licences: 18 of 20) |
+| Number of SAHPRA Registrations | 20 (valid: 18) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the registration data (registered products are dialysis…"
 monitor_inn: "Sodium acetate"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "Ureaplasma urethritis", "gonococcal urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 12) |
+| South Africa Market Status | Marketed (valid licences on record: at least 11) |
 | Number of SAHPRA Registrations | 12 |
 | Recommended Decision | Hold |
 

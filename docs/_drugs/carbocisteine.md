@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Carbocisteine: predicted new indication gout (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be relevant to **gout**, with a score of 0.9967.
 | Predicted New Indication | gout |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

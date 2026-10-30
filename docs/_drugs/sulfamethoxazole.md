@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acute contagious conjunctivit
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 7 of 7) |
-| Number of SAHPRA Registrations | 7 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 6 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "METOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and myocardial infarction"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---

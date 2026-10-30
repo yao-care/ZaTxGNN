@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 81
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Asthma, allergic rhinitis…"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -52,8 +52,8 @@ The high score therefore rests mostly on the known effects of corticosteroids as
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (model prediction only; no clinical studies of budesonide in this indication) |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 4 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

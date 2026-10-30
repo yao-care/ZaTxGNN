@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "immature cataract", "tetanic cataract", "mature cataract", "cortical cataract", "craniostenosis cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "diabetic cataract"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence records (the registered products are parent…"
 ---
 
@@ -52,8 +52,8 @@ This is a model prediction only (evidence level L5) and the recommendation is **
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 9 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---

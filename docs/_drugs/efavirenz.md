@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 210
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,8 +50,8 @@ Efavirenz was originally used to treat HIV infection and AIDS. The TxGNN model p
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 14 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 14) |
+| South Africa Market Status | Marketed (valid licences: 13 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---

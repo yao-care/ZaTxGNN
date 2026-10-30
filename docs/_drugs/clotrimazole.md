@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Clotrimazole: predicted new indication acne (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Evidence is very thin: **1 clinical trial** (a suspended combination-product stu
 | Predicted New Indication | acne |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 7 of 7) |
-| Number of SAHPRA Registrations | 7 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 6 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

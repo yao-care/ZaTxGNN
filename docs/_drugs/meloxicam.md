@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "Meloxicam"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

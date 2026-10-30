@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 303
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "LOSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ but there are currently **no registered clinical trials** and only **2 publicati
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 18 of 18) |
-| Number of SAHPRA Registrations | 18 (valid: 18) |
+| South Africa Market Status | Marketed (valid licences: 14 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 14) |
 | Recommended Decision | Hold |
 
 The SAHPRA registration records compiled for this report do not include approved indication text.*

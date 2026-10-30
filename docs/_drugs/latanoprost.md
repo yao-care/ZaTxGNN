@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Latanoprost is a prostaglandin F2-alpha analogue originally used to treat open-a
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

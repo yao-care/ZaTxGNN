@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Abacavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and only **1 preclinical publication** (a co
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 10 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 10) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The one cited study examined feline immunodeficiency virus (FIV) replication in vitro. FIV is the virus that causes feline AIDS, but the study tested a three-drug combination (zidovudine, lamivudine and abacavir) and does not isolate abacavir's own effect. It does not directly address the predicted disease as a treated condition, so the evidence level is capped at L5 (model prediction, no directly supporting study).

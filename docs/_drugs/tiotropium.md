@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 449
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This is largely an on-label extension, not true repurposing, because the predict
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 2 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

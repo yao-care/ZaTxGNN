@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ERGOCALCIFEROL"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "hypophosphatemia (disease)", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Ergocalciferol: predicted new indication Acromesomelic dysplasia, Campailla-Martinelli type (evidence level L5). Approved use: Rickets, osteomalacia, osteoporosis…"
 ---
 
@@ -48,8 +48,8 @@ Ergocalciferol (vitamin D2) has relations recorded in the knowledge graph with b
 | Predicted New Indication | Acromesomelic dysplasia, Campailla-Martinelli type |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

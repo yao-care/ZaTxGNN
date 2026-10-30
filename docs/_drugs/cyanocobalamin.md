@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CYANOCOBALAMIN"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Cyanocobalamin is a synthetic form of vitamin B12, used to correct B12 and relat
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 9 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---

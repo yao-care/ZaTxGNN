@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Irbesartan: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ No clinical trials or publications on this disease are currently available, so t
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

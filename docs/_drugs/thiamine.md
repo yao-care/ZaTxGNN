@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Thiamine: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not available"
 ---
 
@@ -48,7 +48,7 @@ Thiamine (vitamin B1) is registered in South Africa in several single-ingredient
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 13) |
+| South Africa Market Status | Marketed (valid licences on record: at least 11) |
 | Number of SAHPRA Registrations | At least 13 (the list may be partial) |
 | Recommended Decision | Hold |
 

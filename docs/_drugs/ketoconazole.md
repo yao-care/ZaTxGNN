@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Ketoconazole: predicted new indication acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **acne (disease)**, but the suppor
 | Predicted New Indication | acne (disease) |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

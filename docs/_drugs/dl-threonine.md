@@ -5,7 +5,7 @@ layout: default
 title: Dl-Threonine
 parent: Known Uses Only (No New Predictions)
 nav_order: 191
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -42,8 +42,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 12 of 12) |
-| Number of SAHPRA Registrations | 12 (valid: 12) |
+| South Africa Market Status | Marketed (valid licences: 11 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 11) |
 
 ---
 

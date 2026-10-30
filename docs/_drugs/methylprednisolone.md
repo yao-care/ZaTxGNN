@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 319
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia areata (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **1 clinical trial** and **20 publications** currently supporting this dire
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

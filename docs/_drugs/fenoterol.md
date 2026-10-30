@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Fenoterol: predicted new indication multiple system atrophy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant for **multiple system atrophy**, but
 | Predicted New Indication | multiple system atrophy |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 2 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

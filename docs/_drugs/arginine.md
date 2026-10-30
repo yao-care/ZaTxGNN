@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 43
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not stated in the registration data compiled for this report (all 10…"
 monitor_inn: "ARGININE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -48,8 +48,8 @@ Arginine is an amino acid used as a component of parenteral nutrition and perito
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 10 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 9 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

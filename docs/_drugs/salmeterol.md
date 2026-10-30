@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 414
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "SALMETEROL"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This direction is currently supported by **9 clinical trials** and **20 publicat
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L1 |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 5 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

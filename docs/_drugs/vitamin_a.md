@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -52,8 +52,8 @@ Among the other predictions, **perinatal disease** (vitamin A in very low birth 
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 8 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

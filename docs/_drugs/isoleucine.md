@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Isoleucine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "ISOLEUCINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -48,8 +48,8 @@ Isoleucine is an essential branched-chain amino acid. In South Africa it is regi
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 9 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

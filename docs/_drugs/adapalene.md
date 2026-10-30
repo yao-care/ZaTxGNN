@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Adapalene is a topical retinoid applied to the skin. The TxGNN model predicts it
 | Predicted New Indication | zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

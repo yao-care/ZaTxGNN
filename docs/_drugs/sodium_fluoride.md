@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "SODIUM FLUORIDE"
 predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
 description: "Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 8 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

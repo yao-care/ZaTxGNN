@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 395
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Pyridoxine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| Market status in South Africa | Marketed (valid licences on record: at least 13) |
+| Market status in South Africa | Marketed (valid licences on record: at least 12) |
 | Number of SAHPRA Registrations | at least 13 |
 
 ## Known uses recorded for this drug
@@ -75,7 +75,7 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | T1012 (ACT 101/1965) | Beespan | capsule | Valid |
 | H2412 (ACT 101/1965) | A-lennon vitamin b co ampoule 2ml | injection | Valid |
 | H2975 (ACT 101/1965) | Vitamin b co 10ml | injection | Valid |
-| U/2.6/218 | Restin | capsule | Valid |
+| U/2.6/218 | Restin | capsule | Canceled |
 | A/21.8.1/743 | Menoflush | tablet | Valid |
 | U/22.1.4/200 | Soluvit novum 10ml vials pds000010 | injection | Valid |
 | H2466 | Complenatal Ff | capsule | Valid |

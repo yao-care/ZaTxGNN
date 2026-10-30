@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Ferrous Sulfate Anhydrous: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anaemia and related defic…"
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** were available in the data compil
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anaemia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

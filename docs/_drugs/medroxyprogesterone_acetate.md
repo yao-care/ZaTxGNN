@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The literature largely describes amenorrhea as a *side effect* of MPA rather tha
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (no trials; mechanistic and review literature only) |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 2 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

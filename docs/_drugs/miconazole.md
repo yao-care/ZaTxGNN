@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 324
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acne**, with **no registered 
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 6 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 6) |
 | Recommended Decision | Hold (research question only) |
 
 ---

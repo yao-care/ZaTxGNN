@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L3). Approved use: Epilepsy (partial epilepsy…"
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -54,8 +54,8 @@ The TxGNN model's top-ranked prediction is trigeminal nerve neoplasm, but the ev
 | Predicted New Indication (best-supported) | Trigeminal neuralgia |
 | TxGNN Prediction Score | Trigeminal nerve neoplasm: 0.9997; trigeminal neuralgia: 0.9989 |
 | Evidence Level | Trigeminal nerve neoplasm: L5; trigeminal neuralgia: L2 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Trigeminal nerve neoplasm: Hold; trigeminal neuralgia: Proceed with Guardrails |
 
 ---

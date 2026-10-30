@@ -5,7 +5,7 @@ layout: default
 title: Codeine Phosphate
 parent: Known Uses Only (No New Predictions)
 nav_order: 146
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,7 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences on record: at least 20) |
+| South Africa Market Status | Marketed (valid licences on record: at least 16) |
 | Number of SAHPRA Registrations | 0 |
 
 ---

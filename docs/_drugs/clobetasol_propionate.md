@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 description: "Clobetasol Propionate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,8 +54,8 @@ The top-ranked prediction (rank 1) has no evidence. The table below therefore sh
 | TxGNN Prediction Score (rank 1) | 0.9946 |
 | Evidence Level (rank 1) | L5 (model prediction only) |
 | Best-evidenced prediction (rank 3) | Vulvar inverted follicular keratosis |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 | Recommended Decision | Hold (rank 1); Proceed with Guardrails as a research question for the lichen planus subset |
 
 ---

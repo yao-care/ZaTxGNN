@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ but currently there are **no registered clinical trials** and only **1 publicati
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 3 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

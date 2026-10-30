@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 339
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Nevirapine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 3 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

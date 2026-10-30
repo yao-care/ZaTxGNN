@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "DICYCLOMINE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** were found in the data compi
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 3 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 476
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -50,8 +50,8 @@ There are **no registered clinical trials**, and the predicted new indication is
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L4 (preclinical/animal studies only) |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 7 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

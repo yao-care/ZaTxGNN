@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 289
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Leucine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,8 +46,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Market status in South Africa | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| Market status in South Africa | Marketed (valid licences: 10 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 10) |
 
 ## Known uses recorded for this drug
 
@@ -70,7 +70,7 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | infusion | Valid |
+| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | infusion | Canceled |
 | 33/10.2.1/0271 | Adco-ipratropium  (ni201) | vial | Valid |
 | 38/34/0172 | Extraneal 2L single bag | infusion | Valid |
 | 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |

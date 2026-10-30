@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 monitor_inn: "Tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

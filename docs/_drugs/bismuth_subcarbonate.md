@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Bismuth subcarbonate"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Bismuth Subcarbonate: predicted new indication insomnia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Bismuth subcarbonate is a poorly absorbed bismuth-based gastrointestinal agent. 
 | Predicted New Indication | insomnia |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

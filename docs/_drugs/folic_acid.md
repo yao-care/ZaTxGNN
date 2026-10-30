@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **biotin metabolic disease**, b
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 (model prediction only; the supporting literature is indirect and does not test folic acid in this condition) |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 10 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
