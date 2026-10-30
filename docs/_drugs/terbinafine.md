@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 441
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Terbinafine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN model's candidates for Terbinafine are all known uses, so there is cur
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in South Africa | Marketed (valid licences: 5 of 5) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
 | Number of SAHPRA Registrations | 5 (valid: 5) |
 
 ## Known uses among the model's candidates

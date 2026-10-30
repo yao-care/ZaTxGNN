@@ -3,7 +3,7 @@ layout: default
 title: Carbidopa
 parent: Known Uses Only (No New Predictions)
 nav_order: 99
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Carbidopa: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Carbidopa
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 1 |
-| Market status in South Africa | Marketed (valid licences: 5 of 5) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
 | Number of SAHPRA Registrations | 5 (valid: 5) |
 
 ## Known uses among the model's candidates

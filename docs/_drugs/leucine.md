@@ -46,7 +46,7 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Market status in South Africa | Marketed (valid licences: 10 of 11) |
+| South Africa Market Status | Marketed (valid licences: 10 of 11) |
 | Number of SAHPRA Registrations | 11 (valid: 10) |
 
 ## Known uses recorded for this drug

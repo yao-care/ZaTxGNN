@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 103
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Cefixime: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefixime, so
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 10 |
 | Evidence level | Not applicable |
-| Market status in South Africa | Marketed (valid licences: 1 of 1) |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
 | Number of SAHPRA Registrations | 1 (valid: 1) |
 
 ## Known uses recorded for this drug

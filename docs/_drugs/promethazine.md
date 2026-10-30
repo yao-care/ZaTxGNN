@@ -46,7 +46,7 @@ All candidates produced by the model for Promethazine are already known uses, so
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 3 |
 | Evidence level | Not applicable |
-| Market status in South Africa | Marketed (valid licences: 14 of 17) |
+| South Africa Market Status | Marketed (valid licences: 14 of 17) |
 | Number of SAHPRA Registrations | 17 (valid: 14) |
 
 ## Known uses among the model's candidates

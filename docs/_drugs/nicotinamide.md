@@ -46,7 +46,7 @@ All candidates produced by the TxGNN model (score ≥ 0.99) for Nicotinamide tha
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in South Africa | Marketed (valid licences on record: at least 9) |
+| South Africa Market Status | Marketed (valid licences on record: at least 9) |
 | Number of SAHPRA Registrations | at least 11 |
 
 ## Known uses among the model's candidates

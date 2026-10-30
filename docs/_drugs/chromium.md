@@ -3,7 +3,7 @@ layout: default
 title: Chromium
 parent: Known Uses Only (No New Predictions)
 nav_order: 118
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Chromium: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Chromium, so
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| Market status in South Africa | Marketed (valid licences: 3 of 3) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
 | Number of SAHPRA Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug
