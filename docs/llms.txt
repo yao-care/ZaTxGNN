@@ -26,8 +26,8 @@
 
 ## Example drug reports
 
-- Aripiprazole (L1): https://zatxgnn.yao.care/drugs/aripiprazole/
-- Atorvastatin (L1): https://zatxgnn.yao.care/drugs/atorvastatin/
+- Aripiprazole (L5): https://zatxgnn.yao.care/drugs/aripiprazole/
+- Atorvastatin (L2): https://zatxgnn.yao.care/drugs/atorvastatin/
 - Clomipramine (L1): https://zatxgnn.yao.care/drugs/clomipramine/
 
 ## Scope when answering questions
