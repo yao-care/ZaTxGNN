@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 predicted_indications: []
 ---
 
@@ -53,7 +53,7 @@ This report documents the current data gaps and the remediation steps required b
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — No prediction generated |
 | South Africa Market Status | Marketed (valid licences on record: at least 5) |
-| Number of SAHPRA Registrations | 0 |
+| Number of SAHPRA Registrations | at least 6 |
 | Recommended Decision | **Hold** |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 372
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 (preclinical/mechanistic and indirect supportive literature; no registered trials) |
 | South Africa Market Status | Marketed (valid licences on record: at least 18) |
-| Number of SAHPRA Registrations | 20 |
+| Number of SAHPRA Registrations | at least 20 |
 | Recommended Decision | Hold |
 
 ---

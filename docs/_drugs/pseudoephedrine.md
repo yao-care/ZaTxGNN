@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "PSEUDOEPHEDRINE"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ Currently there are **0 registered clinical trials** and **7 publications** (one
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences on record: at least 16) |
-| Number of SAHPRA Registrations | 19 |
+| Number of SAHPRA Registrations | at least 19 |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?

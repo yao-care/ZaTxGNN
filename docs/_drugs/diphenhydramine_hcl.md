@@ -5,7 +5,7 @@ layout: default
 title: Diphenhydramine Hcl
 parent: Known Uses Only (No New Predictions)
 nav_order: 185
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -46,7 +46,7 @@ Looking at this Evidence Pack, I can see it has significant issues: no TxGNN pre
 |------|---------|
 | Original Indication | Not recorded in the local data |
 | South Africa Market Status | Marketed (valid licences on record: at least 17) |
-| Number of SAHPRA Registrations | 0 (inconsistent with known commercial availability in South Africa) |
+| Number of SAHPRA Registrations | at least 19 |
 
 ---
 

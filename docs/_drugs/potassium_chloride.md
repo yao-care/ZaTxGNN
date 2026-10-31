@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 381
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
@@ -53,7 +53,7 @@ There are **no registered clinical trials** and **18 publications** (mostly case
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 (see note below) |
 | South Africa Market Status | Marketed (valid licences on record: at least 14) |
-| Number of SAHPRA Registrations | 14 |
+| Number of SAHPRA Registrations | at least 14 |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* Under the standard rules, a prediction with no clinical trials and only case reports, reviews and small cohorts would be L5 (model prediction only). The L4 grade comes from the mechanistic rationale (potassium repletion for hypokalaemia in RTA), not from preclinical or mechanism studies.
