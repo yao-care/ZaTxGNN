@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -130,7 +130,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for label warn
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, hyperamylasemia, has no trials, no literature and no plausible mechanism, so it is a model prediction only (L5). The highest-evidence direction, sickle cell disease (L3), is supported only by two withdrawn trials with zero enrollment.
+The top-ranked prediction, hyperamylasemia, has no trials, no literature and no plausible mechanism, so it is a model prediction only (L5).
 
 **To proceed, the following is needed:**
 - Retrieve the SAHPRA Professional Information to confirm approved indications, warnings and contraindications (blocking gap for safety screening)
