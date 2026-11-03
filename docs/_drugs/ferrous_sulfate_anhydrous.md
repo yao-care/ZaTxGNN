@@ -38,9 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Ferrous sulfate anhydrous is an oral iron supplement, originally used to treat iron deficiency anaemia and related deficiency anaemias.
-The TxGNN model predicts it may be effective for **vitamin B12- and folate-independent constitutional megaloblastic anaemia**,
-but **no clinical trials and no publications** were available in the data compiled for this report, so the prediction rests on the model alone.
+Ferrous sulfate anhydrous is an oral iron supplement used to correct iron deficiency. The TxGNN model predicts it may be effective for **vitamin B12- and folate-independent constitutional megaloblastic anemia**, but **no clinical trials and no publications** were found to support this direction, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
@@ -54,26 +54,29 @@ but **no clinical trials and no publications** were available in the data compil
 | Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ferrous sulfate supplies elemental iron for haemoglobin synthesis, and its efficacy in iron deficiency anaemia is well established.
+Detailed mechanism of action data is not available for this drug. Ferrous sulfate supplies elemental iron, which the body uses to build haemoglobin. Its established role is correcting iron deficiency.
 
-The link to the predicted indication is weak. Megaloblastic anaemia is typically driven by impaired DNA synthesis (B12 and folate pathways). A constitutional form independent of both would involve other defects, and iron is not an established treatment for these. A link is plausible only if iron deficiency coexists, and the data compiled for this report do not support that. The high score (0.9978, model rank 1577) is a computational prediction and should not be read as evidence of efficacy.
+Megaloblastic anaemia is usually caused by impaired DNA synthesis, most often through vitamin B12 or folate pathway problems. A constitutional form independent of both vitamins would involve other inherited defects, and iron is not an established treatment for these. A link would be plausible only if iron deficiency coexists, and the data compiled for this report do not support that.
 
-**Other predicted indications (all L5, all Hold):**
+The high score (0.9978) is a computational output and not evidence of benefit. The mechanistic link is therefore weak and unproven.
 
-| Rank | Predicted Indication | Score | Assessment |
-|------|------|------|------|
-| 3 | Biotin metabolic disease | 0.9951 | No clear mechanistic route. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (e.g. vitamin-deficiency conditions), not biological evidence. Biotin supplementation, not iron, is the treatment. |
-| 4 | Non-syndromic oesophageal malformation | 0.9949 | — |
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## South Africa Market Information
 
@@ -83,46 +86,35 @@ Currently no related literature available.
 | G2667 (ACT 101/1965) | Gericomplex | Capsule | Not stated in the data compiled for this report |
 | 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not stated in the data compiled for this report |
 
-All three registrations are valid single-ingredient entries. The oral products are capsules. The Spiriva Respimat entry is an inhaler and is unusual for an iron product, so it should be verified against the SAHPRA register. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Of the 3 registrations on record, 2 are valid and 1 is cancelled. Essential Medicines List status is not recorded in the data compiled for this report.
+
+---
 
 ## Safety Considerations
 
-**Contraindications suggested by the knowledge graph** (disease associations from the TxGNN knowledge graph, not label text):
-- Peptic ulcer disease
-- Ulcerative colitis and inflammatory bowel disease
-- Gastroenteritis
-- Dyskinesia of the oesophagus
-- Sickle cell anaemia and haemolytic anaemia
-- Hereditary persistence of fetal haemoglobin
-- Hereditary haemochromatosis, haemosiderosis and iron metabolism disease
-- Primary hyperoxaluria
-- Wilson disease
+- **Conditions in which iron may be unsuitable** (relations noted in the data compiled for this report, not taken from label text): peptic ulcer disease, sickle cell anaemia, hereditary persistence of fetal haemoglobin, primary hyperoxaluria, hereditary haemochromatosis, haemosiderosis, iron metabolism disease, Wilson disease, ulcerative colitis, inflammatory bowel disease, haemolytic anaemia, dyskinesia of the oesophagus, gastroenteritis.
+- **Drug Interactions**: 37 interactions were recorded. Examples:
+  - Moderate: proton pump inhibitors (rabeprazole, omeprazole, lansoprazole, dexlansoprazole, pantoprazole, esomeprazole), tetracyclines (doxycycline, tetracycline, minocycline), levofloxacin, antacids and minerals (magnesium oxide, calcium carbonate, aluminium hydroxide, magaldrate), pancrelipase, sodium sulfate, triethylenetetramine.
+  - Minor: cimetidine, zinc sulfate, zinc acetate.
 
-**Drug Interactions:** 37 interactions were recorded. The 20 listed in the data compiled for this report are mostly Moderate, with a few Minor.
-- **Moderate:**
-  - Proton pump inhibitors: rabeprazole, omeprazole, dexlansoprazole, lansoprazole, pantoprazole, esomeprazole
-  - Tetracyclines: doxycycline, tetracycline, minocycline
-  - Fluoroquinolone: levofloxacin
-  - Antacids and minerals: magnesium oxide, calcium carbonate, aluminium hydroxide, magaldrate, sodium sulfate
-  - Others: pancrelipase, triethylenetetramine
-- **Minor:** cimetidine, zinc sulfate, zinc acetate
+Please also refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
-Practical points are to separate dosing from tetracyclines, quinolones and antacids, and to recognise that acid suppression reduces iron absorption.
-
-Warnings and contraindications from the SAHPRA label were not available. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5), and the proposed mechanism does not fit the disease. Only Plummer-Vinson syndrome looks biologically credible, and it largely overlaps the existing iron deficiency indication.
+The prediction has no supporting trials or publications (evidence level L5), and the biological rationale for iron in a B12- and folate-independent megaloblastic anaemia is weak.
 
 **To proceed, the following is needed:**
-- Download and review the SAHPRA package inserts for warnings, contraindications and approved indications, which is a blocking gap for safety screening
-- Obtain mechanism of action data (for example from DrugBank)
-- Verify the registrations, especially the Spiriva Respimat entry, and check EML status
-- Review oral iron safety in patients with oesophageal strictures or dysphagia before considering any oesophageal-related indication
+- A literature and trial search that directly addresses this disease
+- Mechanism of action data for ferrous sulfate
+- Clinical confirmation that the target condition is linked to iron status
+- The SAHPRA Professional Information (warnings and contraindications) for the registered products
+- A safety review for patients with the conditions listed above and for the interacting medicines
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -38,8 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Nystatin is a polyene antifungal originally used to treat candidiasis (cutaneous, oral and vulvovaginal).
-The data compiled for this report contain **no clinical trials** and **20 publications**, mostly reviews and guidelines.
+Nystatin is a polyene antifungal medicine marketed in South Africa. The TxGNN model predicts it may be relevant to **disease of orbital region**, but this rests on a model score alone: **1 clinical trial** was linked, and it tests a different compound in a different eye condition, and **no publications** were found.
 
 ## Quick Overview
 
@@ -51,40 +50,27 @@ The data compiled for this report contain **no clinical trials** and **20 public
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 4 of 4) |
 | Number of SAHPRA Registrations | 4 (valid: 4) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, nystatin binds ergosterol in the Candida cell membrane, forming pores and causing leakage of cell contents. Its efficacy against candidiasis is established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Nystatin is a polyene antifungal that is generally understood to bind ergosterol in fungal cell membranes, so any effect would be expected only where a fungal infection is involved.
 
-The effect is expected to be limited to the candidal subtype. Non-candidal vulvovaginitis (bacterial, trichomonal, atrophic) is not expected to respond.
-
-Other high-scoring predictions for nystatin (for example orbital region disease, cystic teratoma, spinal cord dermoid cyst, biotin metabolic disease) have no plausible mechanistic link or supporting evidence and are likely model artefacts. They are not recommended for further evaluation.
+No plausible mechanistic link between nystatin and disease of orbital region was identified. The only linked trial studies a different compound for a retinal condition, and fungal orbital infection, while possible in principle, is not an established indication for nystatin. The high score is therefore most likely a computational artefact rather than a signal of real benefit.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for vulvovaginitis. The only trial linked to any of the top-ranked predictions concerns an unrelated compound (ASP7317) in geographic atrophy and provides no evidence for nystatin.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03178149](https://clinicaltrials.gov/study/NCT03178149) | Phase 1 | Recruiting | 42 | Phase 1b dose-escalation safety study of ASP7317 (not nystatin) in geographic atrophy secondary to age-related macular degeneration; a retinal disease, so it gives no evidence for nystatin in orbital disease |
+
+No SANCTR or PACTR registrations were found.
 
 ## Literature Evidence
 
-No randomised controlled trials were retrieved. The most relevant publications are listed below (reviews prioritised).
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clin Evid | Vulvovaginal candidiasis is the second most common cause of vaginitis after bacterial vaginosis; *C. albicans* accounts for 85–90% of cases |
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | Management of fluconazole-resistant vulvovaginal candidiasis, with nystatin among the alternative therapies |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | J Womens Health | Boric acid for recurrent vulvovaginal candidiasis; non-albicans species are more resistant to azoles |
-| [18729533](https://pubmed.ncbi.nlm.nih.gov/18729533/) | 2008 | Review | Drugs | Local treatment of vulvovaginal candidosis; local and oral therapy considered equally effective in uncomplicated disease |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Review | Obstet Gynecol Clin North Am | Nystatin, introduced in the 1950s, has been surpassed by imidazoles and triazoles as first-choice therapy |
-| [10796183](https://pubmed.ncbi.nlm.nih.gov/10796183/) | 2000 | Systematic review | Cochrane Database Syst Rev | Topical treatment for vaginal candidiasis in pregnancy |
-| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | Clinical study | Mycoses | Fluconazole and nystatin susceptibility compared with clinical outcome in 283 patients with complicated vulvovaginal candidosis |
-| [36588489](https://pubmed.ncbi.nlm.nih.gov/36588489/) | 2022 | Clinical study | Rom J Morphol Embryol | Clinical and histopathological features of candida vaginitis before local nystatin treatment |
-| [41745294](https://pubmed.ncbi.nlm.nih.gov/41745294/) | 2026 | Review | J Fungi (Basel) | Current and emerging antifungal agents for vulvovaginal candidiasis; azoles and polyenes remain the cornerstone |
-| [4919155](https://pubmed.ncbi.nlm.nih.gov/4919155/) | 1970 | Review | Med Clin North Am | General review of nystatin |
+Currently no related literature available.
 
 ## South Africa Market Information
-
-SAHPRA indication text and manufacturer details are not available in the data compiled for this report. Essential Medicines List (EML) status is also not available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -93,28 +79,27 @@ SAHPRA indication text and manufacturer details are not available in the data co
 | G1591 | Kenacomb | Cream | Not available |
 | G1592 | Kenacomb | Ointment | Not available |
 
-All four registrations are valid single-entry registrations. None has been cancelled.
+All 4 registrations are currently valid. Essential Medicines List status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 
-- **Disease-level contraindication signals (knowledge graph, not label text):** adrenocortical insufficiency, Addison disease, skin atrophy, telangiectasis, capillary disease and hereditary haemorrhagic telangiectasia. These probably reflect the corticosteroid component of combination products (for example Kenacomb) rather than nystatin itself, and must be verified against the PI.
-- **Drug interactions:** The interaction screen returned 100 entries, all of unknown severity. Examples include cyclosporine, fluconazole, erythromycin, azithromycin, octreotide, bortezomib, tramadol and sildenafil. These need clinical verification.
+Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
+Drug interaction screening returned 100 potential interactions, all with an unclassified severity level. Examples include cyclosporine, fluconazole, erythromycin, azithromycin, bortezomib, tramadol and sildenafil. Their clinical significance has not been graded and should be checked against the PI before any use.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Vulvovaginitis due to Candida is already within nystatin's established antifungal activity, and the product is marketed in South Africa. However, the evidence is limited to reviews and guidelines with no trials, and nystatin has been largely superseded by azoles as first-line therapy. Non-candidal vulvovaginitis should not be expected to respond. The other top-ranked predictions should be held.
+The prediction has a high model score but no supporting evidence: the single linked trial concerns a different drug and a retinal disease, no publications were found, and there is no plausible mechanism. It does not justify further investment at this stage.
 
 **To proceed, the following is needed:**
-- SAHPRA package inserts (warnings, contraindications, approved indications), which are currently a blocking data gap
-- Mechanism of action data from DrugBank
-- Confirmation of whether the registered products carry a vulvovaginal indication, and in which dosage forms (the compiled data show topical and "other" routes only)
-- Comparative efficacy data against azoles, particularly for fluconazole-resistant or non-albicans infections
-- Clarification of the severity of the listed drug interactions
+- Any published case series or studies of nystatin in orbital or periorbital fungal disease
+- Mechanism of action data and a defined biological rationale for the orbital region
+- Review of the SAHPRA Professional Information for warnings and contraindications
+- Confirmation of a suitable route of administration for orbital use, as the registered forms are topical and vaginal/other
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

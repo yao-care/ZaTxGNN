@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Chloramphenicol is a broad-spectrum bacteriostatic antibiotic that blocks protein synthesis in bacteria.
+Chloramphenicol is an antibacterial drug that is currently marketed in South Africa in topical and ear/eye preparations. The TxGNN model predicts it may be relevant to **diffuse scleroderma**, but **no clinical trials** and only **4 in vitro laboratory publications** are linked to this prediction, so the evidence is very weak.
 
 ## Quick Overview
 
@@ -50,15 +50,13 @@ Chloramphenicol is a broad-spectrum bacteriostatic antibiotic that blocks protei
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 4 of 4) |
 | Number of SAHPRA Registrations | 4 (valid: 4) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Chloramphenicol inhibits the bacterial 50S ribosomal subunit and stops bacterial protein synthesis. Detailed mechanism-of-action data were not available in the compiled data, so this description rests on general pharmacological knowledge of the drug.
+Detailed mechanism of action data are not available for this drug. Chloramphenicol is a well-known antibacterial agent, and its established use is against bacterial and rickettsial infections. Nothing in the data compiled for this report links this activity to the biology of scleroderma, which is an autoimmune, fibrosing disease.
 
-Topical ophthalmic use of chloramphenicol is already established in clinical practice. The literature includes comparative studies against fusidic acid, framycetin and moxifloxacin, and reviews of topical ophthalmic antibacterials. This prediction is therefore closer to an extension of an existing anti-infective use than to true repurposing.
-
-An important caution is that the literature discusses a debated link between ocular chloramphenicol and aplastic anaemia, as well as over-the-counter use and antimicrobial stewardship.
+The four linked publications are laboratory studies of collagen gene regulation in scleroderma fibroblasts (COL1A1 promoter activity, Smad3/Sp1/p300 interactions, TGF-beta signalling). None of them tests chloramphenicol as a treatment. The association most likely arises because chloramphenicol acetyltransferase (CAT) reporter-gene assays are widely used in this type of laboratory work. This looks like a technical artefact rather than a pharmacological link. The high model score is therefore not supported by the available evidence.
 
 ## Clinical Trial Evidence
 
@@ -68,18 +66,14 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative study | Current Therapeutic Research | Moxifloxacin compared with chloramphenicol for bacterial eye infections; chloramphenicol is bacteriostatic and used mainly topically because of its known toxicity |
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Interventions for preventing ophthalmia neonatorum (neonatal conjunctivitis) |
-| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Comparative review of 16 topical ophthalmic antibacterial preparations |
-| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Open, randomised | Acta Ophthalmologica | In Tanzania, fusidic acid was superior to chloramphenicol (93% vs 48% success) and framycetin (74%), with higher in vitro resistance to chloramphenicol |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Safety review | Drug Safety | Debated link between topical ocular chloramphenicol and aplastic anaemia |
-| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Review / commentary | Eye (London) | Topical chloramphenicol: use or abuse? |
-| [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | Review | Clinical Pharmacokinetics | Treatment of ocular infections with topical antibacterials |
-| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Commentary | Clin Exp Ophthalmol | Commentary on over-the-counter chloramphenicol |
+| [8702443](https://pubmed.ncbi.nlm.nih.gov/8702443/) | 1996 | In vitro / basic research | Arthritis and Rheumatism | Transcriptional regulation of the COL1A1 collagen gene in dermal fibroblasts from patients with diffuse systemic sclerosis; role of intronic sequences |
+| [9811061](https://pubmed.ncbi.nlm.nih.gov/9811061/) | 1998 | In vitro / basic research | Arthritis and Rheumatism | Promoter elements and transcription factors behind up-regulated COL1A1 expression in systemic sclerosis |
+| [11229480](https://pubmed.ncbi.nlm.nih.gov/11229480/) | 2001 | In vitro / basic research | Arthritis and Rheumatism | Blockade of TGF-beta signalling reduced excess collagen synthesis in scleroderma fibroblasts |
+| [16319104](https://pubmed.ncbi.nlm.nih.gov/16319104/) | 2006 | In vitro / basic research | Rheumatology (Oxford) | Constitutively phosphorylated Smad3 interacts with Sp1 and p300 in scleroderma fibroblasts |
+
+None of these studies evaluates chloramphenicol as a therapy.
 
 ## South Africa Market Information
-
-Four single-ingredient products are registered with SAHPRA and currently valid. No approved-indication text is recorded for them in the local data. Essential Medicines List status is not recorded in the compiled data.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -88,26 +82,27 @@ Four single-ingredient products are registered with SAHPRA and currently valid. 
 | H1236 (OM) | Covomycin 7.5ml | Een | Not recorded |
 | H1237 (OM) | Covomycin D | Een | Not recorded |
 
+All four registrations are single-ingredient products and currently valid. Essential Medicines List status is not available in the data compiled for this report.
+
 ## Safety Considerations
 
-- **Key concern from the literature**: a debated association between ocular chloramphenicol and aplastic anaemia, which is relevant to over-the-counter use and antimicrobial stewardship.
-- **Conditions of concern (not label text)**: the compiled data flag haematological and other conditions where use is of concern, including aplastic anaemia, thrombocytopenia, neutropenia and agranulocytosis, other anaemias, kidney and liver disease, gallbladder disease, peripheral neuropathy, optic neuritis, acute intermittent porphyria and paroxysmal nocturnal haemoglobinuria.
-- **Drug interactions**: 100 interactions are recorded. Major ones include **cisapride** and **naloxegol**. Moderate ones include sulfonylureas (glipizide, glimepiride, glyburide, chlorpropamide, acetohexamide), repaglinide, saxagliptin, simvastatin, rosuvastatin, metronidazole, budesonide, aprepitant, iron, balsalazide, eliglustat, naldemedine and nitisinone.
+- **Haematological and organ-related cautions:** Chloramphenicol is associated with blood-related toxicity. Conditions on its caution list include thrombocytopenia, anaemia, aplastic anaemia, agranulocytosis and neutropenia, as well as kidney disease, liver disease, gallbladder disease, peripheral neuropathy, optic neuritis, acute intermittent porphyria and paroxysmal nocturnal haemoglobinuria. These are not taken from product label text and must be checked against the SAHPRA-approved Professional Information (PI).
+- **Drug Interactions:** 100 interactions were found in total. Examples of major interactions are **cisapride** and **naloxegol**. Examples of moderate interactions include sulfonylureas (glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide), repaglinide, saxagliptin, metronidazole, simvastatin, rosuvastatin, aprepitant, budesonide, iron, eliglustat, naldemedine and nitisinone.
 
-Package-insert warnings and contraindications were not available in the compiled data. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanism is consistent with bacterial conjunctivitis, and the literature includes randomised comparisons with other topical antibiotics. Topical use is already established. However, there are no registered trials, the randomised studies are from 1987, one showed inferior results to fusidic acid, and the aplastic anaemia concern remains debated.
+The prediction rests only on laboratory studies of scleroderma fibroblasts that do not test chloramphenicol, and a reporter-gene artefact is the likely explanation. There are no clinical trials and no plausible mechanism, and the drug's known blood toxicity is a further concern. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Review of the SAHPRA Professional Information for the ophthalmic products (indications, warnings, contraindications)
-- Current local resistance data for common conjunctivitis pathogens
-- A prescribing and stewardship plan covering over-the-counter availability and haematological safety counselling
-- Detailed mechanism-of-action data from DrugBank
+- Mechanism of action data and a credible pharmacological rationale for scleroderma
+- Preclinical studies that directly test chloramphenicol in scleroderma models
+- Safety information from the SAHPRA-approved Professional Information, including a risk assessment for blood toxicity in a chronic disease setting
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

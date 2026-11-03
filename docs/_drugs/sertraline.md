@@ -38,10 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Sertraline is a selective serotonin reuptake inhibitor (SSRI).
-The TxGNN model predicts it may be effective for **paranoid personality disorder**, but there are **no clinical trials** and **no publications that directly study this disease**. The prediction therefore rests on the model score alone.
-
----
+Sertraline is a selective serotonin reuptake inhibitor (SSRI) antidepressant marketed in South Africa.
+The TxGNN model predicts it may be effective for **paranoid personality disorder**, but **no clinical trials** and **no publications that directly study this disease** were found; the available literature concerns other personality disorders and depression.
 
 ## Quick Overview
 
@@ -55,40 +53,26 @@ The TxGNN model predicts it may be effective for **paranoid personality disorder
 | Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sertraline is an SSRI. Its use in anxiety and mood-related conditions is recorded in the knowledge graph, and mechanistically it may influence impulsivity, affective instability and comorbid depression or anxiety.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Sertraline is an SSRI, a class that increases serotonergic signalling. Serotonergic modulation may influence impulsivity, affective instability, irritability and comorbid depression or anxiety.
 
-The retrieved literature does not study paranoid personality disorder itself. It covers borderline personality disorder, personality-disorder comorbidity in depression treated with sertraline, and an aripiprazole add-on study in sertraline-resistant borderline personality disorder. These link sertraline to other conditions, not to paranoid traits.
-
-The identical score (0.9993) given to several personality disorders (schizotypal, histrionic, schizoid) suggests a shared, class-level signal in the model rather than biology specific to paranoid personality disorder.
-
----
+The link to paranoid personality disorder is indirect. The retrieved literature concerns borderline personality disorder and personality-disorder comorbidity in major depression, not paranoid personality disorder. Serotonergic effects on comorbid mood or anxiety symptoms do not establish efficacy for paranoid traits. The very high score (0.9993) is shared by several other personality disorders. This pattern suggests a class-level computational signal rather than disease-specific biology.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for paranoid personality disorder.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-None of these studies addresses paranoid personality disorder directly.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9817625](https://pubmed.ncbi.nlm.nih.gov/9817625/) | 1998 | RCT (secondary analysis) | Int Clin Psychopharmacol | 308 depressed primary-care patients treated with sertraline or citalopram; examined personality disorder frequency and change with treatment (not paranoid-specific) |
-| [18848360](https://pubmed.ncbi.nlm.nih.gov/18848360/) | 2008 | Clinical trial | Psychiatry Res | Aripiprazole add-on in 21 sertraline-resistant patients with borderline personality disorder |
-| [36853245](https://pubmed.ncbi.nlm.nih.gov/36853245/) | 2023 | Review | JAMA | Review of borderline personality disorder |
-| [11686052](https://pubmed.ncbi.nlm.nih.gov/11686052/) | 2001 | Review | L'Encephale | Psychiatric adverse effects of alpha-interferon; low relevance |
-
----
+| [9817625](https://pubmed.ncbi.nlm.nih.gov/9817625/) | 1998 | RCT (secondary analysis) | Int Clin Psychopharmacol | 308 primary-care patients with major depression, treated with sertraline or citalopram for 24 weeks; examined personality-disorder comorbidity and the effect of treatment on personality-disorder diagnoses. Not specific to paranoid personality disorder. |
+| [18848360](https://pubmed.ncbi.nlm.nih.gov/18848360/) | 2008 | Clinical trial | Psychiatry Res | Aripiprazole augmentation in 21 sertraline-resistant patients with borderline personality disorder; concerns a different personality disorder. |
+| [36853245](https://pubmed.ncbi.nlm.nih.gov/36853245/) | 2023 | Review | JAMA | General review of borderline personality disorder; not specific to sertraline or paranoid personality disorder. |
+| [11686052](https://pubmed.ncbi.nlm.nih.gov/11686052/) | 2001 | Review | L'Encephale | Psychiatric complications of alpha-interferon; low relevance. |
 
 ## South Africa Market Information
-
-All four registrations are single-ingredient oral tablets. No approved indication text is available in the data compiled for this report, and Essential Medicines List status is not available.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -97,36 +81,27 @@ All four registrations are single-ingredient oral tablets. No approved indicatio
 | A39/1.2/0308 | Sertra | Tablet | Not available |
 | A40/1.2/0654 | Aurolift 50Mg | Tablet | Not available |
 
----
+All four registrations are single-ingredient products and all are valid.
 
 ## Safety Considerations
 
-**Contraindication-type relations in the knowledge graph** (these come from the knowledge graph, not from label text): epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis, and serotonin syndrome.
+- **Drug Interactions**: The interaction query returned 100 interacting drugs in total. Major-level interactions include bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron and phentermine. Moderate-level interactions include famotidine, loperamide, morphine, acetylsalicylic acid, clarithromycin, and the sulfonylureas chlorpropamide and glimepiride, as well as insulin aspart.
 
-**Drug Interactions**: 100 interactions were found. Examples rated **Major**: bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron, phentermine. Examples rated **Moderate**: acetylsalicylic acid, morphine, clarithromycin, famotidine, loperamide, and the sulfonylureas chlorpropamide and glimepiride.
-
-Please refer to the SAHPRA-approved Professional Information (PI) for full warnings and contraindications. Report adverse drug reactions to SAHPRA.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No clinical trial or publication studies sertraline in paranoid personality disorder, so the evidence level is L5 and support is limited to a computational score shared across several personality disorders.
+No clinical trial and no publication directly studies sertraline in paranoid personality disorder. The prediction rests on a computational score that is identical across several personality disorders, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Studies that directly address sertraline in paranoid personality disorder
-- Mechanism of action data
-- SAHPRA Professional Information, covering approved indications, warnings and contraindications
-- A review of whether the knowledge-graph contraindications (e.g. bipolar disorder, serotonin syndrome) apply to this population
+- Studies that directly assess sertraline in paranoid personality disorder
+- Detailed mechanism-of-action data
+- Review of the SAHPRA Professional Information for warnings and contraindications
+- A safety review of the major drug interactions, especially with other serotonergic agents
 
----
-
-### Note on other predicted indications
-
-It is supported by randomised trials and network meta-analyses in panic disorder with or without agoraphobia. It overlaps with existing anxiety-disorder uses, so it is better handled as a label clarification question than as new repurposing. It was not assessed as the primary indication in this report.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

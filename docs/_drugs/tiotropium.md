@@ -38,10 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Tiotropium is an inhaled long-acting bronchodilator, originally used for airway diseases such as bronchitis, asthma and pulmonary emphysema.
-This is largely an on-label extension, not true repurposing, because the predicted indication overlaps with the drug's established use.
-
----
+Tiotropium is an inhaled long-acting muscarinic antagonist (anticholinergic bronchodilator). The TxGNN model predicts it may be useful for **respiratory malformation**. The 3 linked clinical trials and 5 publications do not study this condition directly, so the prediction rests mainly on the model score.
 
 ## Quick Overview
 
@@ -53,59 +50,41 @@ This is largely an on-label extension, not true repurposing, because the predict
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 2 of 4) |
 | Number of SAHPRA Registrations | 4 (valid: 2) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, tiotropium is a long-acting muscarinic antagonist (LAMA). It blocks M3 receptors on airway smooth muscle, which produces sustained bronchodilation. The published literature also describes slow dissociation from M3 and M1 receptors, which allows once-daily dosing.
+Detailed mechanism of action data is not available in the data compiled for this report. Tiotropium belongs to the class of long-acting muscarinic antagonists. These drugs block muscarinic receptors in the airways, relax airway smooth muscle and reduce cholinergic bronchoconstriction.
 
-The mechanism is directly applicable. Cholinergic tone contributes to airway narrowing in these conditions, and blocking it relieves obstruction.
-
-Other predictions in the list are much weaker. Examples are respiratory malformation, tracheal stenosis, Rienhoff syndrome, and several emphysema subtypes. They have no direct clinical support, and some are mechanistically implausible.
-
----
+Respiratory malformations are structural abnormalities of the airways or lungs. Some patients have secondary airflow obstruction or excess cholinergic tone, and bronchodilation might ease these. This is a theoretical link only. Structural defects themselves would not respond to a bronchodilator, and no evidence in the supplied data shows benefit in patients with these malformations.
 
 ## Clinical Trial Evidence
 
-The table lists the 10 most relevant trials. The compiled data holds 35 trials for this indication, most of them in COPD. No SANCTR or PACTR identifiers were available.
+The linked trials were done in cystic fibrosis, not in patients with respiratory malformations. They are only indirectly relevant. They do give some safety, tolerability and dose information for inhaled tiotropium in a different chronic lung condition.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00240435](https://clinicaltrials.gov/study/NCT00240435) | Phase 3 | Completed | 491 | Tiotropium Respimat (5 and 10 mcg) vs placebo and ipratropium MDI over 12 weeks in COPD; primary endpoint was bronchodilator efficacy |
-| [NCT01431274](https://clinicaltrials.gov/study/NCT01431274) | Phase 3 | Completed | 2,624 | 52-week trial of tiotropium + olodaterol vs the individual components in COPD (TONADO 1) |
-| [NCT00877383](https://clinicaltrials.gov/study/NCT00877383) | Phase 3 | Completed | 1,142 | Indacaterol added to tiotropium vs tiotropium alone over 12 weeks in moderate-to-severe COPD |
-| [NCT00900731](https://clinicaltrials.gov/study/NCT00900731) | Phase 3 | Completed | 1,598 | Indacaterol vs tiotropium over 12 weeks in moderate-to-severe COPD |
-| [NCT01854645](https://clinicaltrials.gov/study/NCT01854645) | Phase 3 | Completed | 2,103 | 24-week trial of PT003, PT005 and PT001 vs placebo, with open-label tiotropium as active control |
-| [NCT01525615](https://clinicaltrials.gov/study/NCT01525615) | Phase 3 | Completed | 404 | Tiotropium + olodaterol vs placebo on exercise endurance after 12 weeks in COPD |
-| [NCT00157235](https://clinicaltrials.gov/study/NCT00157235) | Phase 3 | Completed | 234 | Tiotropium vs placebo on exercise tolerance during 8 weeks of pulmonary rehabilitation |
-| [NCT00772538](https://clinicaltrials.gov/study/NCT00772538) | Phase 3 | Completed | 459 | Tiotropium Respimat 5 mcg vs placebo over 48 weeks as add-on therapy in severe persistent asthma |
-| [NCT01316380](https://clinicaltrials.gov/study/NCT01316380) | Phase 3 | Completed | 465 | Tiotropium (2.5 and 5 mcg) vs placebo over 12 weeks in mild persistent asthma |
-| [NCT04780984](https://clinicaltrials.gov/study/NCT04780984) | Phase 2 | Completed | 116 | Dose-ranging study of the pharmacodynamics, relative bioavailability and safety of tiotropium inhalation solution in COPD |
+| [NCT01179347](https://clinicaltrials.gov/study/NCT01179347) | Phase 3 | Completed | 464 | Placebo-controlled 12-week study of tiotropium 5 mcg once daily via Respimat in cystic fibrosis, assessing efficacy and safety |
+| [NCT00737100](https://clinicaltrials.gov/study/NCT00737100) | Phase 2 | Completed | 510 | Placebo-controlled 12-week dose-finding study (2.5 and 5 mcg) of lung function, safety and pharmacokinetics in cystic fibrosis |
+| [NCT02172534](https://clinicaltrials.gov/study/NCT02172534) | Phase 1 | Completed | 113 | Safety, tolerability and pharmacokinetics of single and 28-day multiple doses in children, adolescents and adults with cystic fibrosis |
 
----
+No SANCTR or PACTR registrations were identified in the data compiled for this report.
 
 ## Literature Evidence
 
+None of these publications addresses respiratory malformation treated with tiotropium.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28877027](https://pubmed.ncbi.nlm.nih.gov/28877027/) | 2017 | RCT | N Engl J Med | Tested whether long-term tiotropium improves lung function and slows its decline in mild-to-moderate COPD |
-| [30655277](https://pubmed.ncbi.nlm.nih.gov/30655277/) | 2019 | RCT | Eur Respir J | Tiotropium/olodaterol reduced activity-related breathlessness more than tiotropium alone in a crossover study |
-| [32928003](https://pubmed.ncbi.nlm.nih.gov/32928003/) | 2020 | RCT (post hoc) | COPD | Dual bronchodilation (tiotropium/olodaterol) vs tiotropium alone in patients not on background ICS |
-| [26407963](https://pubmed.ncbi.nlm.nih.gov/26407963/) | 2016 | RCT | Sleep Breath | Compared Respimat and HandiHaler on sleeping oxygen saturation and sleep quality in COPD |
-| [27940287](https://pubmed.ncbi.nlm.nih.gov/27940287/) | 2017 | Randomised crossover trial | Pulm Pharmacol Ther | Glycopyrronium had a faster onset of bronchodilation than tiotropium in moderate-to-severe COPD |
-| [32727455](https://pubmed.ncbi.nlm.nih.gov/32727455/) | 2020 | Review | Respir Res | Review of the clinical development of tiotropium in COPD (compiled under the COPD prediction) |
-| [16844726](https://pubmed.ncbi.nlm.nih.gov/16844726/) | 2006 | Meta-analysis | Thorax | Systematic review of tiotropium efficacy on clinical events, symptoms, lung function and adverse events in stable COPD |
-| [21672999](https://pubmed.ncbi.nlm.nih.gov/21672999/) | 2011 | Meta-analysis | BMJ | Mortality risk associated with the tiotropium mist inhaler in COPD |
-| [12010082](https://pubmed.ncbi.nlm.nih.gov/12010082/) | 2002 | Review | Drugs | Tiotropium antagonises M1, M2 and M3 receptors and dissociates slowly from M3, allowing once-daily dosing |
-| [10069510](https://pubmed.ncbi.nlm.nih.gov/10069510/) | 1999 | Review | Life Sci | Mechanistic and clinical profile of tiotropium in obstructive lung disease |
-
----
+| [26229457](https://pubmed.ncbi.nlm.nih.gov/26229457/) | 2015 | Review | Int J Chron Obstruct Pulmon Dis | Role of dual bronchodilation (indacaterol-glycopyrronium) in chronic airway disease, covering patient-reported outcomes and quality of life |
+| [31522031](https://pubmed.ncbi.nlm.nih.gov/31522031/) | 2019 | Clinical trial (physiological) | Respir Med | Lung deflation with tiotropium/olodaterol altered cardiocirculatory responses to exertion in hyperinflated patients |
+| [22608352](https://pubmed.ncbi.nlm.nih.gov/22608352/) | 2012 | Observational (mechanistic) | Respir Med | Nasal ciliary beating was depressed in chronic airway disease, linked to disease severity |
+| [40850565](https://pubmed.ncbi.nlm.nih.gov/40850565/) | 2025 | Preclinical | Chem Biol Interact | Cholinergic mechanisms of ventilatory dysfunction in mice exposed to a nerve agent |
+| [33787023](https://pubmed.ncbi.nlm.nih.gov/33787023/) | 2021 | Case report | Rev Fac Cien Med Univ Nac Cordoba | COVID-19 in a young patient with pectus excavatum, a chest-wall deformity with altered lung function |
 
 ## South Africa Market Information
 
-Tiotropium is marketed in South Africa. The data compiled for this report do not include approved indication text or manufacturer names, and it does not state Essential Medicines List (EML) status.
+Tiotropium is marketed in South Africa. Two registrations are valid and two are cancelled. The indication text is not recorded in the local data for any of them.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -114,43 +93,48 @@ Tiotropium is marketed in South Africa. The data compiled for this report do not
 | Reg. No. 36/10.2.1/0045 | Forvent (refill) | Capsule | Not available in the compiled data |
 | Reg. No. 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not available in the compiled data |
 
----
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-**Contraindications and conditions of concern** (from drug-disease relationships in the knowledge graph, not from label text):
-- Angle-closure (closed-angle) glaucoma
-- Benign prostatic hyperplasia
-- Bladder neck obstruction
-- Impaired renal function
+SAHPRA package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
 
-**Drug Interactions:** A total of 100 interactions were recorded. Most of the listed ones are additive anticholinergic effects (rated Moderate) with other antimuscarinic agents:
-- Atropine, hyoscyamine, scopolamine, glycopyrronium (including topical), dicyclomine, clidinium, trospium, methscopolamine, propantheline and mepenzolate
-- Eluxadoline and prucalopride
-- Inhaled human insulin (rapid acting), rated Moderate
-- Cimetidine, rated Minor
-- Calcitriol, pantoprazole, glimepiride, mesalazine and doxycycline, rated Unknown
+- **Conditions needing caution with anticholinergic bronchodilators** (not taken from label text; confirm against the PI):
+  - benign prostatic hyperplasia
+  - bladder neck obstruction
+  - angle-closure (closed-angle) glaucoma
+  - impaired renal function
+- **Drug Interactions**: 100 interactions were found. The main concern is additive anticholinergic effects with other antimuscarinic drugs. Moderate-level interactions include:
+  - hyoscyamine
+  - atropine
+  - glycopyrronium (including topical)
+  - clidinium
+  - dicyclomine
+  - trospium
+  - mepenzolate
+  - methscopolamine
+  - propantheline
+  - scopolamine
+  - eluxadoline
+  - prucalopride
+  - inhaled human insulin
 
-Concurrent use of other anticholinergics should be avoided or monitored.
-
-Warnings from the SAHPRA-approved Professional Information (PI) were not available in the compiled data. Please refer to the PI for full safety information. Report adverse drug reactions to SAHPRA.
-
----
+  Cimetidine is a minor interaction.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- Several large Phase 3 randomised trials and a randomised trial published in the NEJM support tiotropium in COPD and other obstructive airway disease. This is an on-label extension of an established, marketed drug, not true repurposing.
-- Safety review cannot be completed from the data compiled, because the SAHPRA PI warnings and contraindications are missing.
-- The other nine predicted indications (rank 2 to 10) should be placed on **Hold**. They have no direct supporting evidence, or the mechanism is implausible. Severe early-onset COPD is a research question only.
+- The prediction score is high, but no trial or publication studies tiotropium in respiratory malformation. The evidence is model prediction only (L5).
+- Structural defects are unlikely to respond to bronchodilation, and the benefit would be limited to any secondary airflow obstruction.
 
 **To proceed, the following is needed:**
-- SAHPRA-approved PI text, covering approved indications, warnings and contraindications for each of the four registrations
-- Detailed mechanism of action data
-- Confirmation of EML status and of local clinical guidelines for COPD and asthma
-- A monitoring plan for patients with glaucoma, prostatic hyperplasia, bladder outlet obstruction or renal impairment, and for those taking other anticholinergics
+- Clinical or observational data in patients with respiratory malformations showing a measurable bronchodilator response
+- Definition of which malformation types and patient subgroups could plausibly benefit
+- Mechanism of action data and the SAHPRA Professional Information (warnings, contraindications, approved indication text)
+- A safety review for paediatric use, since many malformations present in children
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

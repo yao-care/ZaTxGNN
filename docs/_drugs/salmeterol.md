@@ -38,8 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Salmeterol is a long-acting inhaled bronchodilator, originally used for asthma (intrinsic and allergic) and pulmonary emphysema.
-This direction is currently supported by **9 clinical trials** and **20 publications**.
+Salmeterol is an inhaled long-acting beta2-agonist bronchodilator.
+The TxGNN model predicts it may be useful for **respiratory malformation**, but no study directly examines this condition. The only support is **2 indirect clinical trials** (cystic fibrosis and asthma in pregnancy) and a small set of loosely related publications.
 
 ## Quick Overview
 
@@ -51,50 +51,34 @@ This direction is currently supported by **9 clinical trials** and **20 publicat
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 5 of 6) |
 | Number of SAHPRA Registrations | 6 (valid: 5) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the data compiled for this report. Salmeterol is a long-acting beta2-adrenoceptor agonist. It relaxes airway smooth muscle to produce sustained bronchodilation, and it may also improve mucociliary clearance, which is impaired in chronic bronchitis.
+Detailed mechanism of action data is not available in the data compiled for this report. Salmeterol is a long-acting beta2-adrenergic agonist. Drugs of this class relax airway smooth muscle and may also raise ciliary beat frequency and support mucociliary clearance.
 
-Chronic bronchitis is a COPD phenotype and is closely related to the existing emphysema/COPD indication. This is therefore largely an extension within the same disease family rather than true repurposing. The very high TxGNN score is consistent with that. Most of the supporting trials test salmeterol alone or combined with the inhaled corticosteroid fluticasone, so the effect of salmeterol alone is sometimes hard to separate.
+This gives a possible link to ciliary disorders such as primary ciliary dyskinesia. "Respiratory malformation" is a broad, structurally defined category, though. Bronchodilation or ciliary stimulation is not an established treatment mechanism for it.
+
+The supporting trials concern cystic fibrosis and asthma in pregnancy, and the literature mostly addresses other airway conditions. The evidence is therefore indirect. The high TxGNN score is a model output and does not show that the drug works for this condition.
 
 ## Clinical Trial Evidence
 
-Registry titles do not always make clear whether salmeterol was the studied arm, so each trial's relevance should be verified. No SANCTR or PACTR identifiers were available in the data compiled. The key findings below are study aims, as no results were provided.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02173691](https://clinicaltrials.gov/study/NCT02173691) | Phase 3 | Completed | 584 | Six-month comparison of tiotropium, salmeterol aerosol and placebo for bronchodilator efficacy and safety in COPD (most directly relevant) |
-| [NCT00268177](https://clinicaltrials.gov/study/NCT00268177) | Phase 3 | Completed | 130 | 13-week study of salmeterol/fluticasone 50/500 mcg vs placebo on airway inflammation in COPD |
-| [NCT00269087](https://clinicaltrials.gov/study/NCT00269087) | Phase 3 | Completed | 122 | 56-week safety study of salmeterol/fluticasone 50/500 mcg in COPD (chronic bronchitis, emphysema) |
-| [NCT00269126](https://clinicaltrials.gov/study/NCT00269126) | Phase 3 | Completed | 150 | 18-week comparison of two medicines in COPD (title uninformative; intervention to be verified) |
-| [NCT00064402](https://clinicaltrials.gov/study/NCT00064402) | Phase 3 | Completed | 741 | Arformoterol maintenance treatment in COPD with an active control (indirect for salmeterol) |
-| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Phase 3 | Completed | 799 | 12-month safety of arformoterol in COPD vs an active comparator (indirect for salmeterol) |
-| [NCT00403286](https://clinicaltrials.gov/study/NCT00403286) | Phase 2 | Completed | 457 | Dose-finding of fluticasone/formoterol against Advair Diskus (salmeterol/fluticasone) in COPD |
-| [NCT01361984](https://clinicaltrials.gov/study/NCT01361984) | Phase 4 | Unknown | 20 | Nebulized arformoterol vs salmeterol dry-powder inhaler in COPD (small) |
-| [NCT00233051](https://clinicaltrials.gov/study/NCT00233051) | NA | Terminated | 20 | Sputum gene expression as a biomarker of drug response in COPD (weak evidence) |
+| [NCT00005110](https://clinicaltrials.gov/study/NCT00005110) | Not applicable | Suspended | Not reported | Long-term salmeterol vs albuterol or placebo, inhaled twice daily for 6 months, in cystic fibrosis. This is a different disease. |
+| [NCT01681979](https://clinicaltrials.gov/study/NCT01681979) | Not stated | Completed | 1 | Asthma treatment in pregnancy and adverse pregnancy outcomes. It is not about respiratory malformation. |
+
+No SANCTR or PACTR registrations were identified in the data compiled for this report.
 
 ## Literature Evidence
 
-Abstracts in the data were truncated, so the findings below reflect stated study aims and designs.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [17557771](https://pubmed.ncbi.nlm.nih.gov/17557771/) | 2007 | RCT | Thorax | Effect of salmeterol/fluticasone on airway inflammation in COPD |
-| [12970006](https://pubmed.ncbi.nlm.nih.gov/12970006/) | 2003 | Clinical study | Chest | Fluticasone 250 mcg/salmeterol 50 mcg in one Diskus inhaler vs placebo and each component in COPD |
-| [15970448](https://pubmed.ncbi.nlm.nih.gov/15970448/) | 2006 | Clinical study | Pulm Pharmacol Ther | Acute effect of salmeterol vs placebo on mucociliary and cough clearance in 14 patients with chronic bronchitis |
-| [17196106](https://pubmed.ncbi.nlm.nih.gov/17196106/) | 2006 | Meta-analysis | Respir Res | Pooled outcomes of salmeterol 50 mcg twice daily vs placebo/usual therapy in COPD |
-| [19124357](https://pubmed.ncbi.nlm.nih.gov/19124357/) | 2008 | Clinical study | Ther Adv Respir Dis | One-year safety and tolerance (including tachyphylaxis) of arformoterol and salmeterol in COPD |
-| [9916607](https://pubmed.ncbi.nlm.nih.gov/9916607/) | 1998 | Open-label study | Clin Ther | Salmeterol vs oral theophylline in mild-to-moderate COPD (efficacy, tolerability, quality of life) |
-| [15329047](https://pubmed.ncbi.nlm.nih.gov/15329047/) | 2004 | Review | Drugs | Review of salmeterol/fluticasone in COPD, including its approval for COPD with chronic bronchitis in the US |
-| [19210134](https://pubmed.ncbi.nlm.nih.gov/19210134/) | 2009 | Cohort | Curr Med Res Opin | Healthcare use and costs in chronic bronchitis after starting fluticasone/salmeterol vs other inhaled maintenance therapies |
-| [12236842](https://pubmed.ncbi.nlm.nih.gov/12236842/) | 2002 | Review | Br J Clin Pharmacol | Long-acting beta2-agonists: exacerbation benefit, with concern about possible suboptimal anti-inflammatory control |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | Finnish national guideline on diagnosis and pharmacotherapy of stable COPD |
+| [34902004](https://pubmed.ncbi.nlm.nih.gov/34902004/) | 2022 | RCT | JAMA Pediatrics | Inhaled corticosteroids alone and with long-acting beta2-agonists for reduced lung function in preterm-born children. This is the closest paediatric lung-development setting, but not a malformation. |
+| [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Review | Journal of Asthma | Review of a budesonide/formoterol inhaler in persistent asthma. Context for long-acting beta2-agonist use only. |
+| [20703071](https://pubmed.ncbi.nlm.nih.gov/20703071/) | 2010 | Case report | Arerugi | Primary ciliary dyskinesia in a girl previously treated as asthma. It illustrates the ciliary-disorder angle but gives no evidence of drug benefit. |
 
 ## South Africa Market Information
-
-Six registrations are on file. SAHPRA indication text is blank for all of them, and manufacturer details are not available in the data compiled. Three of them contain salmeterol.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -102,31 +86,30 @@ Six registrations are on file. SAHPRA indication text is blank for all of them, 
 | 50/21.5.4/0731 | Duoasma 25/50 | Inhaler | Not stated in data |
 | 42/21.5.4/0218 | Sereflo 25/50 HFA, 120 dose | Inhaler | Not stated in data |
 
-The other three registrations (Keppra solution, Med-lemon flu & congestion sachet, Tin colloid injection) do not look like salmeterol products. They may be matching errors in the registry data and should be checked against SAHPRA records.
+One further licence (Med-lemon flu & congestion hot medication, sachet, Reg. No. 27/5.8/0430) is cancelled. Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 
-SAHPRA package insert warnings and contraindications were not available. Please refer to the SAHPRA-approved Professional Information (PI) and report adverse drug reactions to SAHPRA.
-
-- **Knowledge-graph contraindication flags (not label text):** hypertension, long QT syndrome, epilepsy and hyperglycaemia. The graph also flags several pituitary and hormone-deficiency conditions and osteoporosis, which should be verified against the PI before being relied on.
-- **Drug interactions:** 100 interactions were found, and the 20 reviewed are summarised below.
+- **Drug Interactions** (100 interactions recorded; main ones shown):
   - **Major:** clarithromycin.
-  - **Moderate:** epinephrine, isometheptene, diethylpropion, famotidine, dolasetron, and several antidiabetic agents (acarbose, alogliptin, canagliflozin, chlorpropamide, dapagliflozin, empagliflozin, albiglutide, dulaglutide).
-  - **Minor:** corticosteroids (hydrocortisone, triamcinolone, dexamethasone, beclomethasone, betamethasone, budesonide).
-- **Class guardrail:** in asthma, LABA-related serious adverse events (asthma-related death, intubation) are documented in Cochrane reviews. Salmeterol should not be used without an inhaled corticosteroid in asthma.
+  - **Moderate:** epinephrine, famotidine, isometheptene, diethylpropion, dolasetron, and glucose-lowering agents (acarbose, alogliptin, canagliflozin, chlorpropamide, dapagliflozin, empagliflozin, albiglutide, dulaglutide).
+  - **Minor:** corticosteroids such as hydrocortisone, dexamethasone, budesonide, beclomethasone, betamethasone and triamcinolone.
+
+Warnings and contraindications from the SAHPRA label are not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Two completed Phase 3 trials in COPD directly involve salmeterol (alone or with fluticasone), alongside several supporting Phase 3 studies and a body of COPD literature. Bronchitis is a near-label extension of the existing emphysema/COPD use rather than a novel indication.
+No study directly addresses respiratory malformation, so the evidence level is L5. The trials and publications concern other diseases, and the proposed mechanism is speculative for a structural condition.
 
 **To proceed, the following is needed:**
-- Parse the SAHPRA package inserts to obtain warnings, contraindications and approved indication wording (this gap currently blocks formal safety screening).
-- Obtain DrugBank mechanism-of-action data.
-- Verify the intervention and salmeterol arm in the trials with unclear titles (NCT00269126, NCT00268177) and the three registry entries that do not appear to contain salmeterol.
-- Define clinical guardrails: use with an inhaled corticosteroid where indicated, and monitor for cardiovascular effects, QT prolongation and clarithromycin interactions.
+- Mechanism of action data and a clearer biological rationale linking beta2-agonist or ciliary effects to the specific malformation types of interest
+- Studies directly in patients with respiratory malformation, such as case series or registry data
+- The SAHPRA Professional Information, to complete warnings, contraindications and approved-use details
+- A review of dosage-form and route suitability for the target population
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
