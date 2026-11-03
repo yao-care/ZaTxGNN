@@ -24,6 +24,11 @@ the platform integrates clinical evidence from ClinicalTrials.gov and PubMed so 
 quickly assess how credible each prediction is.
 </p>
 
+<p>
+SAHPRA (the South African Health Products Regulatory Authority) became operational on 1 February 2018,
+succeeding the Medicines Control Council as the country's medicines regulator.
+</p>
+
 ---
 
 ## About the Developer
