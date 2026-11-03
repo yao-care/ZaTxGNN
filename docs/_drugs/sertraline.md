@@ -4,17 +4,17 @@ title: Sertraline
 parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 monitor_inn: "SERTRALINE"
-predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-10-29
-description: "Sertraline: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Anxiety disorder, post-traumatic stress disorder, social phobia…"
+predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
+last_modified_at: 2026-11-03
+description: "Sertraline: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Sertraline: From Anxiety Disorders to Paranoid Personality Disorder
+## Sertraline: Paranoid personality disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,7 +47,7 @@ The TxGNN model predicts it may be effective for **paranoid personality disorder
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, post-traumatic stress disorder, social phobia, obsessive-compulsive disorder, dysthymic disorder (relations recorded in the knowledge graph; the local licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Paranoid personality disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
@@ -126,7 +126,7 @@ No clinical trial or publication studies sertraline in paranoid personality diso
 
 ### Note on other predicted indications
 
-Agoraphobia is the only other prediction with substantial evidence. It is supported by randomised trials and network meta-analyses in panic disorder with or without agoraphobia. It overlaps with existing anxiety-disorder uses, so it is better handled as a label clarification question than as new repurposing. It was not assessed as the primary indication in this report.
+It is supported by randomised trials and network meta-analyses in panic disorder with or without agoraphobia. It overlaps with existing anxiety-disorder uses, so it is better handled as a label clarification question than as new repurposing. It was not assessed as the primary indication in this report.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

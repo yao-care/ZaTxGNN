@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methylprednisolone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 319
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-30
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Methylprednisolone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Methylprednisolone: predicted new indication Alopecia areata (evidence level L3). Approved use: Not recorded in the local data"
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-## Methylprednisolone: Alopecia areata
+## Methylprednisolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Methylprednisolone is a systemic glucocorticoid originally used for autoimmune and inflammatory conditions such as Crohn disease, adrenocortical insufficiency and acute lymphoblastic leukaemia.
-The TxGNN model predicts it may be effective for **alopecia areata**,
-with **1 clinical trial** and **20 publications** currently supporting this direction.
 
 ---
 
@@ -49,9 +47,9 @@ with **1 clinical trial** and **20 publications** currently supporting this dire
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Alopecia areata |
+| Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L3 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 2 of 3) |
 | Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |

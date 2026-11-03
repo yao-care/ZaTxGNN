@@ -4,17 +4,17 @@ title: Prednisone
 parent: High Evidence (L1-L2)
 nav_order: 389
 evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-29
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Prednisone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Prednisone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -128,7 +128,6 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 | Predicted Indication | Evidence Level | Decision | Comment |
 |------|------|------|------|
 | Alopecia mucinosa | L5 | Hold | Only case reports; some concern lymphoma-associated disease where steroids are inappropriate |
-| Tenosynovitis | L3 | Research Question | Case reports and cohorts within disease-specific regimens (RA, PMR, checkpoint inhibitor toxicity); aetiology heterogeneous, including infection |
 | Alopecia antibody deficiency | L5 | Hold | Poorly defined entity; papers describe lupus and polyglandular syndrome |
 | Telogen effluvium, folliculitis decalvans, and others (rare genetic hair disorders, lacrimal gland prolapse) | L5 | Hold | Model prediction only, no supporting evidence |
 

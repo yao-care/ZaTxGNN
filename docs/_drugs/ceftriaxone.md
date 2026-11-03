@@ -4,17 +4,17 @@ title: Ceftriaxone
 parent: Model Prediction Only (L5)
 nav_order: 106
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-30
-description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (e.g. pneumonia, bacterial meningitis…"
+indication_count: 5
+last_modified_at: 2026-11-03
 monitor_inn: "Ceftriaxone"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
+description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ceftriaxone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Ceftriaxone: From Bacterial Infections to Hyperamylasemia
+## Ceftriaxone: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ceftriaxone is a third-generation cephalosporin antibiotic, originally used for bacterial infections such as pneumonia, meningitis, gonorrhoea and salmonellosis.
 The TxGNN model's top-ranked prediction is **hyperamylasemia** (0.9939), but this has no supporting evidence and no plausible mechanism.
-The best-supported prediction is **infectious otitis media**, with **1 registered trial (which does not test ceftriaxone)** and **18 publications**. This is largely an on-spectrum use of the antibiotic rather than true repurposing.
+This is largely an on-spectrum use of the antibiotic rather than true repurposing.
 
 ---
 
@@ -48,8 +48,8 @@ The best-supported prediction is **infectious otitis media**, with **1 registere
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (e.g. pneumonia, bacterial meningitis, gonorrhoea, salmonellosis). SAHPRA indication text is not available in the data compiled for this report. |
-| Predicted New Indication | Hyperamylasemia (top-ranked by TxGNN; see note below) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 for the top-ranked prediction (L3 for infectious otitis media, the best-supported candidate) |
 | South Africa Market Status | Marketed (valid licences: 5 of 6) |
@@ -63,9 +63,7 @@ The best-supported prediction is **infectious otitis media**, with **1 registere
 | 1 | Hyperamylasemia | 0.9939 | L5 | Hold. The literature suggests an adverse-effect direction, not benefit |
 | 2 | Polyclonal hyperviscosity syndrome | 0.9939 | L5 | Hold. No rationale or evidence |
 | 3 | Congenital analbuminemia | 0.9937 | L5 | Hold. No rationale or evidence |
-| 4 | Infectious otitis media | 0.9926 | L3 | Research question. Biologically plausible |
 | 5 | Blood group incompatibility | 0.9912 | L5 | Hold. No mechanistic link |
-| 6 | Suppurative otitis media | 0.9902 | L3 | Research question |
 | 7 | Chronic otitis media | 0.9901 | L4 | Hold. Limited activity against the dominant pathogens |
 
 ---
@@ -84,7 +82,7 @@ Detailed mechanism of action data is not available for this report. Ceftriaxone 
 
 ## Clinical Trial Evidence
 
-Only one registered trial was identified, for infectious otitis media (rank 4). It does not test ceftriaxone and provides disease-context information only.
+It does not test ceftriaxone and provides disease-context information only.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -103,7 +101,6 @@ Selected publications for **infectious otitis media** (rank 4) and **suppurative
 | [8989332](https://pubmed.ncbi.nlm.nih.gov/8989332/) | 1997 | RCT | Pediatrics | Single IM dose of ceftriaxone compared with 10 days of oral trimethoprim-sulfamethoxazole in acute otitis media |
 | [11099083](https://pubmed.ncbi.nlm.nih.gov/11099083/) | 2000 | Clinical study | Pediatr Infect Dis J | One-day vs three-day IM ceftriaxone in nonresponsive acute otitis media |
 | [9877360](https://pubmed.ncbi.nlm.nih.gov/9877360/) | 1998 | Clinical study | Pediatr Infect Dis J | Bacteriological efficacy of a three-day IM ceftriaxone regimen in nonresponsive acute otitis media |
-| [2523493](https://pubmed.ncbi.nlm.nih.gov/2523493/) | 1989 | Clinical study | Jpn J Antibiot | Ceftriaxone 1 g once daily vs cefotiam in acute suppurative otitis media and acute exacerbation of chronic disease; efficacy 71% vs 86% |
 | [12166789](https://pubmed.ncbi.nlm.nih.gov/12166789/) | 2002 | Consensus | Clin Pediatr | Consensus recommendations for treating acute otitis media |
 | [10688388](https://pubmed.ncbi.nlm.nih.gov/10688388/) | 2000 | Review | Clin Ther | Review of treatment recommendations for acute otitis media |
 | [35841649](https://pubmed.ncbi.nlm.nih.gov/35841649/) | 2022 | Cohort | Int J Pediatr Otorhinolaryngol | Patterns of ceftriaxone use for acute otitis media in US primary care; possible marker of antimicrobial resistance |

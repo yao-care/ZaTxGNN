@@ -4,17 +4,17 @@ title: Calcifediol
 parent: Model Prediction Only (L5)
 nav_order: 86
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 monitor_inn: "CALCIFEDIOL"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis"]
-last_modified_at: 2026-10-29
-description: "Calcifediol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["renal tubular acidosis"]
+last_modified_at: 2026-11-03
+description: "Calcifediol: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Calcifediol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Calcifediol: Vitamin D metabolite (25-hydroxyvitamin D3) → obsolete vitamin D deficiency
+## Calcifediol: Renal tubular acidosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Calcifediol (25-hydroxyvitamin D3) is the main circulating form of vitamin D and the direct precursor of calcitriol. The TxGNN model predicts it may be relevant to **obsolete vitamin D deficiency**, a term flagged as obsolete in the disease ontology. No clinical trials or publications were found for this prediction, so it rests on model output alone.
+Calcifediol (25-hydroxyvitamin D3) is the main circulating form of vitamin D and the direct precursor of calcitriol. No clinical trials or publications were found for this prediction, so it rests on model output alone.
 
 ---
 
@@ -47,8 +47,8 @@ Calcifediol (25-hydroxyvitamin D3) is the main circulating form of vitamin D and
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | obsolete vitamin D deficiency |
-| TxGNN Prediction Score | 0.9999 |
+| Predicted New Indication | Renal tubular acidosis |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 2 of 2) |
 | Number of SAHPRA Registrations | 2 (valid: 2) |
@@ -60,7 +60,7 @@ Calcifediol (25-hydroxyvitamin D3) is the main circulating form of vitamin D and
 
 Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, calcifediol is the direct circulating precursor of calcitriol, the active hormone, and is the main marker of vitamin D status. Repletion in vitamin D deficiency is therefore mechanistically plausible.
 
-The disease term, however, is flagged as obsolete in the ontology. The very high score (0.9999) most likely reflects the term's closeness to the drug's existing associations, not independent clinical evidence. No trials or literature were supplied, so the prediction should be treated as a hypothesis only.
+The disease term, however, is flagged as obsolete in the ontology. No trials or literature were supplied, so the prediction should be treated as a hypothesis only.
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tiotropium
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 449
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-30
+evidence_level: L5
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "TIOTROPIUM"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **5**
 
 </div>
 
-## Tiotropium: Obstructive lung disease
+## Tiotropium: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tiotropium is an inhaled long-acting bronchodilator, originally used for airway diseases such as bronchitis, asthma and pulmonary emphysema.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **35 clinical trials** and **20 publications** compiled for this prediction.
 This is largely an on-label extension, not true repurposing, because the predicted indication overlaps with the drug's established use.
 
 ---
@@ -49,9 +48,9 @@ This is largely an on-label extension, not true repurposing, because the predict
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L1 |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 2 of 4) |
 | Number of SAHPRA Registrations | 4 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
@@ -62,7 +61,7 @@ This is largely an on-label extension, not true repurposing, because the predict
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, tiotropium is a long-acting muscarinic antagonist (LAMA). It blocks M3 receptors on airway smooth muscle, which produces sustained bronchodilation. The published literature also describes slow dissociation from M3 and M1 receptors, which allows once-daily dosing.
 
-The predicted indication, obstructive lung disease, is the same disease family as the drug's original indications (bronchitis, asthma, emphysema). The mechanism is directly applicable. Cholinergic tone contributes to airway narrowing in these conditions, and blocking it relieves obstruction.
+The mechanism is directly applicable. Cholinergic tone contributes to airway narrowing in these conditions, and blocking it relieves obstruction.
 
 Other predictions in the list are much weaker. Examples are respiratory malformation, tracheal stenosis, Rienhoff syndrome, and several emphysema subtypes. They have no direct clinical support, and some are mechanistically implausible.
 

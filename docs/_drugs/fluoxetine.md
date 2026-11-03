@@ -4,17 +4,17 @@ title: Fluoxetine
 parent: Model Prediction Only (L5)
 nav_order: 236
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "FLUOXETINE"
-predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-10-30
-description: "Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not stated in the local licence records. The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence."
+predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
+last_modified_at: 2026-11-03
+description: "Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluoxetine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Fluoxetine: From Depressive and Anxiety Disorders to Paranoid Personality Disorder
+## Fluoxetine: Paranoid personality disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,7 +48,7 @@ Stronger evidence exists for other predicted uses, notably **phobic disorder** (
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the local licence records. The knowledge graph records anxiety disorder, neurotic disorder, dysthymic disorder, bipolar disorder, unipolar depression, major depressive disorder, bulimia nervosa and obsessive-compulsive disorder (relations recorded in the knowledge graph, not label-approved indications) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Paranoid personality disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
@@ -64,7 +64,6 @@ Stronger evidence exists for other predicted uses, notably **phobic disorder** (
 |------|------|------|------|
 | Phobic disorder | 0.9963 | 1 completed Phase 3 trial (childhood social phobia, NCT00043537) and a placebo-controlled trial publication of fluoxetine in generalised social phobia (PMID 15466674) | Proceed with Guardrails |
 | Manic bipolar affective disorder | 0.9964 | Phase 4 trial in bipolar depression relapse prevention; evidence concerns the depressive phase, not mania | Proceed with Guardrails (depressive phase only, with a mood stabiliser) |
-| Agoraphobia | 0.9986 | Panic disorder studies (indirect) | Research question |
 | Schizotypal personality disorder | 0.9992 | Small uncontrolled studies | Research question |
 | Schizoid, histrionic, benign paroxysmal torticollis of infancy, Ohdo syndrome | 99.89–0.9992 | No relevant evidence | Hold |
 

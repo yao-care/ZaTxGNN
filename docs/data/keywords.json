@@ -1,7 +1,7 @@
 {
   "generated": "2026-03-26",
   "drug_count": 68,
-  "indication_count": 391,
+  "indication_count": 389,
   "drugs": [
     {
       "slug": "cefpodoxime",
@@ -1792,7 +1792,6 @@
       "related_drugs": [
         "pyridoxine",
         "zinc_acetate",
-        "cefuroxime",
         "pantothenic_acid"
       ]
     },
@@ -1888,7 +1887,6 @@
       },
       "related_drugs": [
         "pyridoxine",
-        "ascorbic_acid",
         "icodextrin"
       ]
     },
@@ -2267,7 +2265,6 @@
       },
       "related_drugs": [
         "sodium_chloride",
-        "nystatin",
         "ivermectin"
       ]
     },
@@ -3535,7 +3532,6 @@
         "zh": []
       },
       "related_drugs": [
-        "albendazole",
         "mebendazole"
       ]
     },
@@ -3544,18 +3540,6 @@
       "keywords": {
         "en": [
           "coenurosis"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "albendazole"
-      ]
-    },
-    {
-      "name": "Cestode infectious disease",
-      "keywords": {
-        "en": [
-          "Cestode infectious disease"
         ],
         "zh": []
       },
@@ -5182,18 +5166,6 @@
       },
       "related_drugs": [
         "lidocaine"
-      ]
-    },
-    {
-      "name": "septicemic plague",
-      "keywords": {
-        "en": [
-          "septicemic plague"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "levofloxacin"
       ]
     },
     {

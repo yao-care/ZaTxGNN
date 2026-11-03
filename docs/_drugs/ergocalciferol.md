@@ -4,17 +4,17 @@ title: Ergocalciferol
 parent: Model Prediction Only (L5)
 nav_order: 214
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 monitor_inn: "ERGOCALCIFEROL"
-predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "hypophosphatemia (disease)", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-10-30
+predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
+last_modified_at: 2026-11-03
 description: "Ergocalciferol: predicted new indication Acromesomelic dysplasia, Campailla-Martinelli type (evidence level L5). Approved use: Rickets, osteomalacia, osteoporosis…"
 ---
 
 # Ergocalciferol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---

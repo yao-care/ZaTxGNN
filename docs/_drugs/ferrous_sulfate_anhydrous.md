@@ -4,17 +4,17 @@ title: Ferrous Sulfate Anhydrous
 parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-30
-description: "Ferrous Sulfate Anhydrous: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anaemia and related defic…"
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "Ferrous sulfate anhydrous"
-predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "non-syndromic esophageal malformation"]
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
+description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ferrous Sulfate Anhydrous
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Ferrous Sulfate Anhydrous: From Iron Deficiency Anaemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+## Ferrous Sulfate Anhydrous: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,8 +46,8 @@ but **no clinical trials and no publications** were available in the data compil
 
 | Item | Content |
 |------|------|
-| Original Indication | Iron deficiency anaemia and related deficiency anaemias (the SAHPRA records in the data compiled for this report contain no approved indication text) |
-| Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anaemia |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 2 of 3) |
@@ -64,9 +64,8 @@ The link to the predicted indication is weak. Megaloblastic anaemia is typically
 
 | Rank | Predicted Indication | Score | Assessment |
 |------|------|------|------|
-| 2 | Plummer-Vinson syndrome | 0.9977 | The most credible candidate. The condition is driven by iron deficiency (with dysphagia and oesophageal webs), and iron repletion is widely described as standard management. It is largely an extension of the existing iron deficiency indication, not a novel repurposing. Supporting evidence (case series, reviews) should be retrieved and graded before any upgrade. |
 | 3 | Biotin metabolic disease | 0.9951 | No clear mechanistic route. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (e.g. vitamin-deficiency conditions), not biological evidence. Biotin supplementation, not iron, is the treatment. |
-| 4 | Non-syndromic oesophageal malformation | 0.9949 | These are structural defects managed surgically or endoscopically. The prediction probably arises from association with Plummer-Vinson syndrome. Oral iron may irritate the oesophagus in strictures or dysphagia. |
+| 4 | Non-syndromic oesophageal malformation | 0.9949 | — |
 
 ## Clinical Trial Evidence
 
@@ -120,7 +119,6 @@ Warnings and contraindications from the SAHPRA label were not available. Please 
 The prediction has no supporting trials or literature (L5), and the proposed mechanism does not fit the disease. Only Plummer-Vinson syndrome looks biologically credible, and it largely overlaps the existing iron deficiency indication.
 
 **To proceed, the following is needed:**
-- Retrieve and grade the literature for Plummer-Vinson syndrome (case series, reviews) as the priority candidate
 - Download and review the SAHPRA package inserts for warnings, contraindications and approved indications, which is a blocking gap for safety screening
 - Obtain mechanism of action data (for example from DrugBank)
 - Verify the registrations, especially the Spiriva Respimat entry, and check EML status

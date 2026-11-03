@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Albendazole
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 19
-evidence_level: L2
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Albendazole"
-predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
-last_modified_at: 2026-10-29
-description: "Albendazole: predicted new indication alveolar echinococcosis (evidence level L2). Approved use: Not recorded in the local data"
+predicted_indications: ["coenurosis"]
+last_modified_at: 2026-11-03
+description: "Albendazole: predicted new indication Coenurosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Albendazole
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **3**
 
 </div>
 
-## Albendazole: benzimidazole anthelmintic (beta-tubulin inhibitor) → alveolar echinococcosis
+## Albendazole: Coenurosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Albendazole is a benzimidazole anthelmintic that binds parasite beta-tubulin and disrupts microtubule formation.
-The TxGNN model predicts it may be effective for **alveolar echinococcosis**, with a score of **0.9997**.
 The data compiled for this report include **3 clinical trials** (one completed Phase 2 trial directly in early-stage alveolar echinococcosis) and **20 publications**, mostly reviews.
 
 ## Quick Overview
@@ -47,9 +46,9 @@ The data compiled for this report include **3 clinical trials** (one completed P
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | alveolar echinococcosis |
-| TxGNN Prediction Score | 0.9997 |
-| Evidence Level | L2 |
+| Predicted New Indication | Coenurosis |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 1 of 1) |
 | Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |

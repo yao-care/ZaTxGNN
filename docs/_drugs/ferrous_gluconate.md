@@ -4,17 +4,17 @@ title: Ferrous Gluconate
 parent: Model Prediction Only (L5)
 nav_order: 229
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-29
-description: "Ferrous Gluconate: predicted new indication Plummer-Vinson syndrome (evidence level L4). Approved use: Iron deficiency anaemia (other listed indications: anaemia of prematu…"
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "FERROUS GLUCONATE"
-predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
+description: "Ferrous Gluconate: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ferrous Gluconate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Ferrous Gluconate: From Iron Deficiency Anaemia to Plummer-Vinson Syndrome
+## Ferrous Gluconate: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ferrous gluconate is an iron supplement, originally used to treat iron deficiency anaemia and related anaemias.
-The TxGNN model predicts it may be useful for **Plummer-Vinson syndrome**, but there are currently **no clinical trials** and **no publications** directly supporting this prediction. The prediction rests on model output and mechanistic reasoning alone.
+The prediction rests on model output and mechanistic reasoning alone.
 
 ---
 
@@ -47,8 +47,8 @@ The TxGNN model predicts it may be useful for **Plummer-Vinson syndrome**, but t
 
 | Item | Content |
 |------|------|
-| Original Indication | Iron deficiency anaemia (other listed indications: anaemia of prematurity, hypochromic anaemia, deficiency anaemia, microcytic anaemia) |
-| Predicted New Indication | Plummer-Vinson syndrome |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 1 of 1) |
@@ -72,7 +72,7 @@ However, this prediction largely overlaps with the drug's existing iron deficien
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|------|
 | 2 | Vitamin B12- and folate-independent constitutional megaloblastic anaemia | 0.9994 | L5 | Unclear mechanistic link. Megaloblastic changes reflect impaired DNA synthesis rather than iron deficiency. Hold. |
-| 3 | Non-syndromic oesophageal malformation | 0.9967 | L5 | Structural congenital defect that iron would not be expected to correct. Likely driven by association with Plummer-Vinson syndrome. Hold. |
+| 3 | Non-syndromic oesophageal malformation | 0.9967 | L5 | — |
 | 4 | Biotin metabolic disease | 0.9942 | L5 | No clear role for iron. Likely a vitamin-deficiency category association. Hold. |
 | 5 | Vitamin deficiency disorder | 0.9917 | L5 | One small pilot trial in a related disorder (see below). Indirect link only. |
 
@@ -129,12 +129,11 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, Plummer-Vinson syndrome, is mechanistically plausible but largely duplicates the existing iron deficiency anaemia indication, so it is not a novel repurposing opportunity. No trials or publications support it. The other four predictions have weak or unclear mechanistic links, and the only trial found is a small pilot in a related disorder.
+No trials or publications support it. The other four predictions have weak or unclear mechanistic links, and the only trial found is a small pilot in a related disorder.
 
 **To proceed, the following is needed:**
 - The SAHPRA package insert (PI), to obtain warnings and contraindications and to confirm the approved indication of the registered product. The safety data gap is a blocking item.
 - Mechanism of action data from DrugBank.
-- A targeted literature search on iron replacement in Plummer-Vinson syndrome, to confirm whether the prediction adds anything beyond standard iron deficiency anaemia care.
 - A check of whether oral ferrous gluconate formulations are available in South Africa, since the only registration found is an injectable product.
 - Review of the knowledge graph contraindication signals (for example inflammatory bowel disease and peptic ulcer disease) against the label before any use in these patients.
 ## Disclaimer

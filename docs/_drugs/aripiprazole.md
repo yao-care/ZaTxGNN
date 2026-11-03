@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: Model Prediction Only (L5)
 nav_order: 44
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-29
-description: "Aripiprazole: predicted new indication Major affective disorder (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+last_modified_at: 2026-11-03
+description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Aripiprazole: dopamine D2 partial agonist and serotonin modulator → major affective disorder
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Aripiprazole is an antipsychotic that acts on dopamine and serotonin receptors, and it is registered in South Africa as an injectable product.
-The TxGNN model predicts it may be effective for **major affective disorder**, with **36 clinical trials** and **19 publications** compiled for this direction, including several large Phase 3 placebo-controlled trials of add-on use alongside antidepressants.
 
 ---
 
@@ -48,8 +47,8 @@ The TxGNN model predicts it may be effective for **major affective disorder**, w
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Major affective disorder |
-| TxGNN Prediction Score | 0.9962 |
+| Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 1 of 1) |
 | Number of SAHPRA Registrations | 1 (valid: 1) |

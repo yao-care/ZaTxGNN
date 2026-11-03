@@ -4,17 +4,17 @@ title: Ciprofloxacin
 parent: Model Prediction Only (L5)
 nav_order: 124
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L4). Approved use: Bacterial infections (typhoid fever, salmonellosis, paratyphoid fever…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Ciprofloxacin"
-predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ciprofloxacin: From Bacterial Infections to Diffuse Scleroderma
+## Ciprofloxacin: Diffuse scleroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,7 +48,7 @@ This is a model-driven hypothesis with limited supporting evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (typhoid fever, salmonellosis, paratyphoid fever, bacterial pneumonia, shigellosis and others). The South African registration records compiled for this report do not include approved indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
@@ -136,7 +136,7 @@ Corticosteroids are commonly used in scleroderma care, so this matters for the p
 - Mechanism of action data and a mechanistic rationale for antifibrotic activity
 - A review of interactions with corticosteroids and other drugs commonly used in scleroderma
 
-**Note:** Another predicted indication for ciprofloxacin, **septicemic plague**, has stronger supporting evidence. It includes randomized non-inferiority trial publications for bubonic plague and animal model data, and is rated L2. It may merit its own evaluation.
+It includes randomized non-inferiority trial publications for bubonic plague and animal model data, and is rated L2. It may merit its own evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

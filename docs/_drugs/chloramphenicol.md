@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 111
-evidence_level: L3
-indication_count: 9
+evidence_level: L5
+indication_count: 8
 monitor_inn: "Chloramphenicol"
-predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-29
-description: "Chloramphenicol: predicted new indication conjunctivitis (evidence level L3). Approved use: Not recorded in the local data"
+predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+last_modified_at: 2026-11-03
+description: "Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,30 +33,28 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-## Chloramphenicol: Bacterial protein synthesis inhibitor (50S ribosomal subunit) → conjunctivitis
+## Chloramphenicol: Diffuse scleroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Chloramphenicol is a broad-spectrum bacteriostatic antibiotic that blocks protein synthesis in bacteria.
-The TxGNN model predicts it may be effective for **conjunctivitis**,
-and the data compiled for this report include **no registered clinical trials** and **19 publications** on this direction, mostly reviews, commentaries and older comparative studies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | conjunctivitis |
-| TxGNN Prediction Score | 0.9966 |
-| Evidence Level | L3 |
+| Predicted New Indication | Diffuse scleroderma |
+| TxGNN Prediction Score | 0.9965 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 4 of 4) |
 | Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Chloramphenicol inhibits the bacterial 50S ribosomal subunit and stops bacterial protein synthesis. Detailed mechanism-of-action data were not available in the compiled data, so this description rests on general pharmacological knowledge of the drug. Because many cases of conjunctivitis are bacterial, this mechanism fits the predicted use directly.
+Chloramphenicol inhibits the bacterial 50S ribosomal subunit and stops bacterial protein synthesis. Detailed mechanism-of-action data were not available in the compiled data, so this description rests on general pharmacological knowledge of the drug.
 
 Topical ophthalmic use of chloramphenicol is already established in clinical practice. The literature includes comparative studies against fusidic acid, framycetin and moxifloxacin, and reviews of topical ophthalmic antibacterials. This prediction is therefore closer to an extension of an existing anti-infective use than to true repurposing.
 
@@ -73,12 +71,10 @@ Currently no related clinical trials registered.
 | [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative study | Current Therapeutic Research | Moxifloxacin compared with chloramphenicol for bacterial eye infections; chloramphenicol is bacteriostatic and used mainly topically because of its known toxicity |
 | [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Interventions for preventing ophthalmia neonatorum (neonatal conjunctivitis) |
 | [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Comparative review of 16 topical ophthalmic antibacterial preparations |
-| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | Randomised, single-blind | Acta Ophthalmologica | Fusidic acid vs chloramphenicol 0.5% eye drops in acute purulent conjunctivitis: clinical success 84% vs 81%; more trivial side effects with chloramphenicol (14% vs 5%) |
 | [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Open, randomised | Acta Ophthalmologica | In Tanzania, fusidic acid was superior to chloramphenicol (93% vs 48% success) and framycetin (74%), with higher in vitro resistance to chloramphenicol |
 | [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Safety review | Drug Safety | Debated link between topical ocular chloramphenicol and aplastic anaemia |
 | [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Review / commentary | Eye (London) | Topical chloramphenicol: use or abuse? |
 | [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | Review | Clinical Pharmacokinetics | Treatment of ocular infections with topical antibacterials |
-| [7153511](https://pubmed.ncbi.nlm.nih.gov/7153511/) | 1982 | Clinical / laboratory study | Journal of Hygiene | Prior chloramphenicol drops delayed and reduced signs of neonatal chlamydial conjunctivitis, but swabs stayed positive in 85% of treated infants |
 | [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Commentary | Clin Exp Ophthalmol | Commentary on over-the-counter chloramphenicol |
 
 ## South Africa Market Information

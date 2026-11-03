@@ -4,17 +4,17 @@ title: Levofloxacin
 parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections (streptococcal and staphylococcal infections…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Levofloxacin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
+description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Levofloxacin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+## Levofloxacin: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,8 +46,8 @@ Among the other predictions, **septicemic plague** has the most credible support
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (streptococcal and staphylococcal infections, bacterial pneumonia, anthrax, sinusitis, conjunctivitis, pyelonephritis, among others). SAHPRA indication text is not available in the data compiled for this report. |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis (rank 1) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (rank 1 prediction). For reference: septicemic plague L3; monoclonal gammopathy L4 |
 | South Africa Market Status | Marketed (valid licences: 3 of 4) |
@@ -62,7 +62,7 @@ However, the rank 1 prediction is weakly supported. The only publication retriev
 
 Of the ten predictions reviewed, two merit separate comment:
 
-- **Septicemic plague (rank 9):** Levofloxacin acts directly on *Yersinia pestis*. Studies in African green monkeys showed cure of experimental pneumonic plague, and this model supported FDA approval under the Animal Rule. Evidence is non-human, there are no human RCTs, and some older mouse studies reported lack of efficacy against a nalidixic acid-resistant strain. Plague is already a labelled use in some jurisdictions, so this may not be a true repurposing.
+- Studies in African green monkeys showed cure of experimental pneumonic plague, and this model supported FDA approval under the Animal Rule. Evidence is non-human, there are no human RCTs, and some older mouse studies reported lack of efficacy against a nalidixic acid-resistant strain. Plague is already a labelled use in some jurisdictions, so this may not be a true repurposing.
 - **Monoclonal gammopathy (rank 7):** The literature concerns levofloxacin as prophylaxis against infection in newly diagnosed symptomatic multiple myeloma, not treatment of the gammopathy itself. The TEAMM trial (a double-blind, placebo-controlled phase 3 RCT) is the key study. The evidence is indirect for the predicted indication.
 
 The remaining predictions (hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant haematological disease, haematological disease with acquired peripheral neuropathy, congenital haematological disorder) have no supporting trials or literature. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Blood group incompatibility is supported only by a case report of an infectious complication. Fluoroquinolones carry a known peripheral neuropathy risk, so the neuropathy-associated prediction is more likely a safety concern than a benefit.

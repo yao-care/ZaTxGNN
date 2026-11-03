@@ -4,17 +4,17 @@ title: Risperidone
 parent: Model Prediction Only (L5)
 nav_order: 404
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-30
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -111,7 +111,7 @@ The prediction rests on a model score alone, with no clinical trials, no publica
 - Any preclinical or clinical evidence in this specific condition
 - Mechanism of action data and the SAHPRA Professional Information for a full safety review
 
-**Other predictions for this drug:** the same analysis found a much better supported candidate, **major affective disorder** (TxGNN score 0.9911, evidence level L1, recommendation Proceed with Guardrails). It has two completed Phase 3 trials of adjunctive risperidone in treatment-resistant depression (NCT00095134, n=630; NCT00044681, n=258) and supportive meta-analyses. It would merit its own evaluation. Several other predictions (trichotillomania, Phelan-McDermid syndrome) rest only on case reports or preclinical work, and Asperger syndrome overlaps with the already approved autism indication.
+It has two completed Phase 3 trials of adjunctive risperidone in treatment-resistant depression (NCT00095134, n=630; NCT00044681, n=258) and supportive meta-analyses. It would merit its own evaluation. Several other predictions (trichotillomania, Phelan-McDermid syndrome) rest only on case reports or preclinical work, and Asperger syndrome overlaps with the already approved autism indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

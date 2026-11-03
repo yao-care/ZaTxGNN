@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nystatin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 351
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-29
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Nystatin"
-predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
-description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L4). Approved use: Not recorded in the local data"
+predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nystatin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,22 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Nystatin: Vulvovaginitis
+## Nystatin: Disease of orbital region
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nystatin is a polyene antifungal originally used to treat candidiasis (cutaneous, oral and vulvovaginal).
-The TxGNN model predicts it may be effective for **vulvovaginitis**, but this is largely an extension of an existing indication (candidal vulvovaginitis). The data compiled for this report contain **no clinical trials** and **20 publications**, mostly reviews and guidelines.
+The data compiled for this report contain **no clinical trials** and **20 publications**, mostly reviews and guidelines.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 0.9992 |
-| Evidence Level | L4 |
+| Predicted New Indication | Disease of orbital region |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 4 of 4) |
 | Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **vulvovaginitis**, but this is
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, nystatin binds ergosterol in the Candida cell membrane, forming pores and causing leakage of cell contents. Its efficacy against candidiasis is established.
 
-Vulvovaginal candidiasis is a major cause of vulvovaginitis, so the prediction is largely an on-label extension rather than true repurposing. The effect is expected to be limited to the candidal subtype. Non-candidal vulvovaginitis (bacterial, trichomonal, atrophic) is not expected to respond.
+The effect is expected to be limited to the candidal subtype. Non-candidal vulvovaginitis (bacterial, trichomonal, atrophic) is not expected to respond.
 
 Other high-scoring predictions for nystatin (for example orbital region disease, cystic teratoma, spinal cord dermoid cyst, biotin metabolic disease) have no plausible mechanistic link or supporting evidence and are likely model artefacts. They are not recommended for further evaluation.
 

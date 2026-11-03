@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexamethasone
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 167
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-29
-description: "Dexamethasone: predicted new indication Alopecia areata (evidence level L2). Approved use: Adrenocortical insufficiency…"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Dexamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Dexamethasone: From Adrenocortical Insufficiency and Inflammatory Conditions to Alopecia Areata
+## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Dexamethasone is a potent glucocorticoid, originally used for conditions such as adrenocortical insufficiency, Crohn disease, acute lymphoblastic leukaemia and congenital adrenal hyperplasia.
-The TxGNN model predicts it may be effective for **alopecia areata**,
-with **no registered clinical trials** but **20 publications** (including 1 randomised controlled trial and 1 network meta-analysis) currently supporting this direction.
 
 ---
 
@@ -48,10 +46,10 @@ with **no registered clinical trials** but **20 publications** (including 1 rand
 
 | Item | Content |
 |------|------|
-| Original Indication | Adrenocortical insufficiency, Crohn disease / inflammatory bowel disease, acute lymphoblastic leukaemia, congenital adrenal hyperplasia (SAHPRA indication text not available in the data compiled for this report) |
-| Predicted New Indication | Alopecia areata |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L2 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 9 of 9) |
 | Number of SAHPRA Registrations | 9 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
@@ -60,7 +58,7 @@ with **no registered clinical trials** but **20 publications** (including 1 rand
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug in the data compiled for this report. Based on known information, dexamethasone is a potent glucocorticoid. Its efficacy in a range of inflammatory and immune-mediated conditions is established, and mechanistically it may be applicable to alopecia areata.
+Currently, detailed mechanism of action data is not available for this drug in the data compiled for this report. Based on known information, dexamethasone is a potent glucocorticoid.
 
 Alopecia areata is a T-cell-mediated autoimmune disease in which the immune privilege of the hair follicle collapses. Glucocorticoids have broad immunosuppressive and anti-inflammatory activity. They suppress cytotoxic T-cell infiltration around the follicle and dampen pro-inflammatory cytokine signalling. This fits the disease biology and the existing use of dexamethasone in other immune-driven conditions such as Crohn disease.
 

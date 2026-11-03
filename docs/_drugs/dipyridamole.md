@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dipyridamole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 188
-evidence_level: L4
-indication_count: 8
+evidence_level: L5
+indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
-predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-10-29
-description: "Dipyridamole: predicted new indication Thrombotic disease (evidence level L5). Approved use: Atrial fibrillation"
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
+last_modified_at: 2026-11-03
+description: "Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-## Dipyridamole: From Atrial Fibrillation to Thrombotic Disease
+## Dipyridamole: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Dipyridamole is an oral antiplatelet and vasodilator drug. Atrial fibrillation appears as its original indication in the source data, but this is not confirmed by SAHPRA label text. The TxGNN model (deep learning) predicts it may be useful in **thrombotic disease**, a broad disease category. There are **no registered clinical trials** for this category and **20 publications**, mostly older reviews, so the evidence is indirect.
+Dipyridamole is an oral antiplatelet and vasodilator drug. Atrial fibrillation appears as its original indication in the source data, but this is not confirmed by SAHPRA label text. There are **no registered clinical trials** for this category and **20 publications**, mostly older reviews, so the evidence is indirect.
 
 ---
 
@@ -46,10 +46,10 @@ Dipyridamole is an oral antiplatelet and vasodilator drug. Atrial fibrillation a
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation (a relation recorded in the knowledge graph, not an approved indication; the SAHPRA record compiled for this report contains no indication text) |
-| Predicted New Indication | Thrombotic disease |
-| TxGNN Prediction Score | 0.9994 |
-| Evidence Level | L4 (mechanistic and review literature only; no trials) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 (mechanistic and review literature only; no trials) |
 | South Africa Market Status | Marketed (valid licences: 1 of 1) |
 | Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
