@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN DETEMIR"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 description: "Insulin Detemir: predicted new indication autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,11 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **9**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Insulin Detemir: Long-acting basal insulin analogue → autoimmune oophoritis (autoimmune oophoritis)
-{: .text-alpha }
-
-Note: the format rule for English pages says to write the name once without parentheses, so the title is given as follows.
 
 ## Insulin Detemir: Long-acting basal insulin analogue → autoimmune oophoritis
 {: .text-alpha }

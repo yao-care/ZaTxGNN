@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Hydrocortisone: predicted new indication alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -32,11 +32,6 @@ Evidence Level: **L2** | Predicted Indications: **9**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Hydrocortisone: Corticosteroid (glucocorticoid) → alopecia areata (alopecia areata)
-{: .text-alpha }
-
-Note: the page language is English, so per the rules the name is written once without parentheses: see corrected title below.
 
 ## Hydrocortisone: Corticosteroid (glucocorticoid) → alopecia areata
 {: .text-alpha }
