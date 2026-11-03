@@ -14,6 +14,7 @@
 - Drug Repurposing Reports: https://zatxgnn.yao.care/
 - All Drugs: https://zatxgnn.yao.care/drugs/
 - High Evidence (L1-L2): https://zatxgnn.yao.care/evidence-high/
+- South African Drugs with Trial Evidence for a New Use: https://zatxgnn.yao.care/clinical-trial-evidence/
 - Moderate Evidence (L3-L4): https://zatxgnn.yao.care/evidence-medium/
 - Model Prediction Only (L5): https://zatxgnn.yao.care/evidence-low/
 - Methodology: https://zatxgnn.yao.care/methodology/

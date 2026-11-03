@@ -12,6 +12,8 @@ description: "L1-L2 drug repurposing candidates in ZaTxGNN, supported by clinica
 Candidates that may be prioritised for clinical evaluation
 </p>
 
+Which of these drugs have trial evidence for their predicted new indication, and how many registered trials are cited? See [South African medicines with clinical-trial evidence for a new indication]({{ '/clinical-trial-evidence/' | relative_url }}).
+
 ---
 
 ## Criteria
