@@ -3,18 +3,18 @@ layout: default
 title: Betamethasone
 parent: Moderate Evidence (L3-L4)
 nav_order: 67
-evidence_level: L3
+evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-11-03
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L3). Approved use: Not recorded in the local data"
+description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,9 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Betamethasone is a synthetic corticosteroid with anti-inflammatory and immunosuppressive activity, marketed in South Africa in topical, injectable and oral forms. The TxGNN model predicts it may be useful for **alopecia mucinosa** (follicular mucinosis). Support is thin: **no registered clinical trials** and **1 publication**, a 1964 case series with a therapy review.
+Betamethasone is a corticosteroid with anti-inflammatory and immunosuppressive activity, and it is widely marketed in South Africa. The TxGNN model predicts it may be useful for **alopecia mucinosa** (also called follicular mucinosis). Evidence is very limited: **no clinical trials** and **one publication**, a 1964 report of three cases with a review of therapy. The evidence level is **L4**.
+
+---
 
 ## Quick Overview
 
@@ -47,30 +49,38 @@ Betamethasone is a synthetic corticosteroid with anti-inflammatory and immunosup
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed (valid licences: 17 of 18) |
 | Number of SAHPRA Registrations | 18 (valid: 17) |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Betamethasone belongs to the glucocorticoid class. These drugs bind intracellular glucocorticoid receptors and suppress inflammatory gene expression, which reduces immune-cell infiltration in tissue.
+Detailed mechanism of action data are not available in the data compiled for this report. Betamethasone is a glucocorticoid. Drugs of this class suppress inflammatory cell activity and cytokine production, which can reduce inflammatory infiltrates in the skin.
 
-Alopecia mucinosa (follicular mucinosis) is characterised by mucin deposition in hair follicles with an inflammatory cell infiltrate. A corticosteroid could plausibly dampen that infiltrate, which is the basis of the model's prediction. The only supporting literature is a 1964 report of three cases with a review of therapy. It offers no controlled evidence that betamethasone specifically works, so the mechanistic link remains a hypothesis.
+Alopecia mucinosa is characterised by mucin deposition in hair follicles, often with an inflammatory infiltrate. The proposed link is that a corticosteroid could reduce this infiltrate. The only supporting literature is a 1964 report of three cases with a review of therapy. This link is therefore a plausible hypothesis, not a demonstrated effect. The score reflects a model prediction, not clinical proof.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14164963](https://pubmed.ncbi.nlm.nih.gov/14164963/) | 1964 | Case series / Review | Archives of Dermatology | Report of three cases of follicular mucinosis (alopecia mucinosa) with a review of therapy. No abstract is available, and the report does not provide controlled evidence for betamethasone. |
+| [14164963](https://pubmed.ncbi.nlm.nih.gov/14164963/) | 1964 | Case series / Review | Archives of Dermatology | Report of three cases of follicular mucinosis (alopecia mucinosa) with a review of therapy. No abstract is available, and there is no controlled or modern evidence. |
+
+---
 
 ## South Africa Market Information
 
-Betamethasone single-ingredient products are registered with SAHPRA as topical creams and ointments, injections, syrups and tablets. The approved indication text is not recorded in the local data. Five of the main registrations are shown below.
+Betamethasone is marketed in South Africa as a single-ingredient product in several forms (cream, ointment, lotion, syrup, tablet and injection). Of the 18 registrations on record, 17 are valid and 1 is cancelled. Examples of valid registrations:
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -80,28 +90,33 @@ Betamethasone single-ingredient products are registered with SAHPRA as topical c
 | 27/21.5.1/0491 | Betanoid | Syrup | Not available |
 | 30/13.4.1/0458 | Topivate | Cream | Not available |
 
+Approved indication text is not recorded in the local data for these registrations.
+
+---
+
 ## Safety Considerations
 
-- **Drug Interactions:** The interaction screen returned 100 interacting drugs. Examples include:
+- **Drug Interactions** (100 interactions were found; the main ones are listed):
   - **Major:** adalimumab.
-  - **Moderate:** zidovudine, isotretinoin, acarbose, acebutolol, acetazolamide, ketorolac, nifedipine, ibuprofen, ethinylestradiol, fluvoxamine, fosamprenavir, aldesleukin, alemtuzumab.
+  - **Moderate:** zidovudine, isotretinoin, acarbose, acebutolol, acetazolamide, ketorolac, nifedipine, ibuprofen, ethinylestradiol, albiglutide, aldesleukin, alefacept, alemtuzumab, fluvoxamine, fosamprenavir.
   - **Minor:** formoterol, salbutamol.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
+No warning or contraindication text was available from the product labels. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The only evidence for alopecia mucinosa is a single 1964 case series and therapy review, with no registered trials. The high model score is not matched by clinical support, so a decision to proceed is premature.
+- The only evidence for alopecia mucinosa is a 1964 report of three cases with a review of therapy. There are no trials, cohorts or large case series, so the evidence level is L4. The high model score is not matched by clinical data.
 
 **To proceed, the following is needed:**
-- Contemporary clinical data on corticosteroid treatment of follicular mucinosis, such as case series, observational cohorts or a pilot trial.
-- A review of the full 1964 report, and of any more recent literature, to see which corticosteroids, routes and outcomes were described.
-- Selection of a suitable route and formulation (topical or intralesional) from the registered SAHPRA products.
-- The SAHPRA Professional Information warnings and contraindications for the chosen product.
-- A review of the interaction profile, particularly the major interaction with adalimumab.
+- Contemporary clinical studies of corticosteroids, topical or intralesional, in alopecia mucinosa (case series, cohorts or controlled trials).
+- Mechanism of action data and a clearer account of the mechanistic link.
+- Route and formulation compatibility assessment (topical and intralesional use against registered products).
+- Review of the SAHPRA Professional Information for warnings, contraindications and dermatological safety with prolonged corticosteroid use.
 
 ## Disclaimer
 

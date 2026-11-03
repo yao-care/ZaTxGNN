@@ -90,7 +90,7 @@
     {
       "name": "Amiodarone",
       "slug": "amiodarone",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -240,7 +240,7 @@
     {
       "name": "Betamethasone",
       "slug": "betamethasone",
-      "level": "L3",
+      "level": "L4",
       "indication_count": 7
     },
     {
@@ -1374,7 +1374,7 @@
     {
       "name": "Medroxyprogesterone Acetate",
       "slug": "medroxyprogesterone_acetate",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 6
     },
     {
