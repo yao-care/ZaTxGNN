@@ -46,6 +46,8 @@ This list is based on the registration data of [SAHPRA](https://www.sahpra.org.z
 | **L4** | {{ l4_count }} | Preclinical / mechanistic studies |
 | **L5** | {{ l5_count }} | Model prediction only |
 
+Shortlist: [South African medicines with clinical-trial evidence for a new indication]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, with predicted indication and registered trial counts).
+
 ---
 
 ## Full drug list
