@@ -3,7 +3,7 @@ layout: default
 title: Carbidopa
 parent: Known Uses Only (No New Predictions)
 nav_order: 99
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Carbidopa: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Carbidopa. Every candidate that can be traced to a source is already a known use, so there is currently no new predicted indication. The one known use is hereditary late onset Parkinson disease, supported by a licence in another country.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 1 |
@@ -50,16 +51,19 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Carbidopa
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | hereditary late onset Parkinson disease | licence in another country (approved indication: parkinson disease) |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

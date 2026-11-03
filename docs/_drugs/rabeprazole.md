@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 398
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Rabeprazole: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazole, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The known uses listed below come from knowledge graph relations only, not from a licence or label.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,16 +53,19 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazo
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | Smouldering systemic mastocytosis |

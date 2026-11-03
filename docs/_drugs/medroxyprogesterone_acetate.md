@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -131,6 +131,7 @@ The model made nine further predictions. None has registered clinical trials.
 | Endometriosis in cutaneous scar | L5 | Prediction only; surgery is the standard treatment. |
 | Blunt duct adenosis and apocrine adenosis of breast | L5 | Prediction only; progestin effects on breast epithelium are mixed. |
 | Renal hypoplasia (bilateral and unspecified) | L5 | No plausible mechanism; likely a network artefact. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

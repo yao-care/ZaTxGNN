@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 134
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 description: "Clobetasol: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report"
 monitor_inn: "Clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -120,6 +120,7 @@ Cohort-level evidence, including a roughly 200-patient experience with response 
 | Crohn's colitis | L4 | Hold | Literature concerns cutaneous manifestations and adverse effects, not luminal disease. |
 | Candidiasis | L4 | Hold | Candidiasis appears as a side effect of topical steroids, so the direction is adverse. |
 | Cystic teratoma, spinal cord dermoid cyst, disease of orbital part of eye adnexa, dermoid cyst of ovary, polyp of vocal cord | L5 | Hold | No plausible mechanism or supporting evidence. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

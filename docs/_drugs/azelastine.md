@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 54
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Azelastine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model produced candidates for Azelastine, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The two known uses below are relations recorded in the knowledge graph, and no approval was found for them in the data used here.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,16 +53,19 @@ The TxGNN deep-learning model produced candidates for Azelastine, but every cand
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | papillary conjunctivitis |

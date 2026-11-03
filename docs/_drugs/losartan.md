@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 303
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "LOSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -145,6 +145,7 @@ The prediction score is high and the mechanism is plausible, but evidence is lim
 | 6 | Prinzmetal angina | 0.9945 | L5 | Hold |
 | 7 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 0.9939 | L5 | Hold |
 | 8 | Brain small vessel disease 1 with or without ocular anomalies | 0.9937 | L5 (preclinical and indirect studies) | Research question |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

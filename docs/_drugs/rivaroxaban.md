@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -118,6 +118,7 @@ Other predictions for this drug were also reviewed and all are recommended as **
 | Gout | 0.9951 | L5 | No credible mechanistic link. The retrieved literature is unrelated. |
 | HIV infectious disease | 0.9917 | L4 | Literature covers rivaroxaban as an anticoagulant in people with HIV and its interactions with ritonavir- or cobicistat-boosted antiretrovirals. There is no evidence of antiviral activity. The one registered trial (NCT00786422) is a VTE study, not an HIV study. This is highly relevant to South Africa because of HIV prevalence, and it is a safety concern, not a repurposing signal. |
 | Brachydactyly-syndactyly syndrome | 0.9910 | L5 | No data. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

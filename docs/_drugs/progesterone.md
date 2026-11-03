@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 391
 evidence_level: L1
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 monitor_inn: "Progesterone"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: predicted new indication Amenorrhea (disease) (evidence level L1). Approved use: Not recorded in the local data"
@@ -152,6 +152,7 @@ Progesterone is already used in amenorrhoea as a withdrawal challenge and for cy
 | 8 | Endometriosis of rectovaginal septum and vagina | L4 | Hold | Receptor expression study only; does not test treatment efficacy |
 | 9 | Blunt duct adenosis of breast | L5 | Hold | No trials or literature retrieved |
 | 10 | Apocrine adenosis of breast | L5 | Hold | Pathology and diagnostic literature only; progesterone not evaluated as treatment |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

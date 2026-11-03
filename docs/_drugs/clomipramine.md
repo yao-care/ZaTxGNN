@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 136
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L1). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
@@ -168,6 +168,7 @@ Clomipramine has plausible serotonergic and noradrenergic mechanisms for anxiety
 | Endogenous depression | L1 | Proceed with Guardrails | Evidence is inherited from the major depressive disorder literature |
 | Attention deficit-hyperactivity disorder | L3 | Research Question | Limited evidence. Cardiac and anticholinergic concerns in children, and better first-line options exist |
 | Schizotypal, schizoid, paranoid and histrionic personality disorders; benign paroxysmal torticollis of infancy | L5–L5 | Hold | No direct efficacy evidence |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

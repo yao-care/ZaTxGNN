@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 99
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 description: "Carbamazepine: predicted new indication Trigeminal nerve neoplasm (evidence level L4). Approved use: Epilepsy (including partial epilepsy…"
 monitor_inn: "CARBAMAZEPINE"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
@@ -150,6 +150,7 @@ The other nine predictions have weaker or purely indirect support and none has c
 | Reading seizures | L4 | Indirect evidence, including a case where carbamazepine worsened focal reflex seizures. Research question |
 | Beta-ketothiolase deficiency | L5 | No evidence and no plausible mechanistic link. Hold |
 | Rett syndrome, congenital variant | L5 | No evidence. Carbamazepine could at most give symptomatic seizure control. Hold |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
