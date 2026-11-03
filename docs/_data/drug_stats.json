@@ -2,8 +2,8 @@
   "generated": "2026-11-03",
   "total_drugs": 395,
   "level_counts": {
-    "L1": 5,
-    "L2": 13,
+    "L1": 4,
+    "L2": 14,
     "L3": 11,
     "L4": 30,
     "L5": 285
@@ -1488,7 +1488,7 @@
     {
       "name": "Montelukast",
       "slug": "montelukast",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 2
     },
     {
