@@ -32,7 +32,7 @@ description: "All drug validation reports and evidence level statistics in ZaTxG
 ---
 
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
-This list is based on the registration data of [SAHPRA](https://www.sahpra.org.za/) (South Africa).
+This list is based on the [Medicine Price Registry](https://medicineprices.org.za/) (South Africa); registration status comes from [SAHPRA](https://www.sahpra.org.za/) data.
 
 <!-- local-home:end -->
 

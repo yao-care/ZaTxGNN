@@ -3,6 +3,7 @@ layout: default
 title: Drug Repurposing Reports
 nav_order: 1
 description: "AI-powered drug repurposing predictions for 395 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation."
+last_modified_at: 2026-11-04
 permalink: /
 ---
 
@@ -18,7 +19,7 @@ permalink: /
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
 ## South Africa: what this site covers
 
-This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [SAHPRA](https://www.sahpra.org.za/) (South Africa).
+This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the [Medicine Price Registry](https://medicineprices.org.za/) (South Africa); registration status comes from [SAHPRA](https://www.sahpra.org.za/) data.
 
 Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
 
@@ -26,16 +27,16 @@ Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {
 
 | Medicine | Evidence level |
 |---|---|
-| [Candesartan](/drugs/candesartan/) | L1 |
 | [Clomipramine](/drugs/clomipramine/) | L1 |
-| [Progesterone](/drugs/progesterone/) | L1 |
 | [Potassium](/drugs/potassium/) | L1 |
-| [Salmeterol](/drugs/salmeterol/) | L1 |
-| [Tiotropium](/drugs/tiotropium/) | L1 |
-| [Montelukast](/drugs/montelukast/) | L1 |
 | [Tacrolimus](/drugs/tacrolimus/) | L1 |
 | [Bupropion](/drugs/bupropion/) | L2 |
-| [Dexamethasone](/drugs/dexamethasone/) | L2 |
+| [Mycophenolate Mofetil](/drugs/mycophenolate-mofetil/) | L2 |
+| [Candesartan](/drugs/candesartan/) | L2 |
+| [Hydrocortisone](/drugs/hydrocortisone/) | L2 |
+| [Hydrocortisone Acetate](/drugs/hydrocortisone-acetate/) | L2 |
+| [Prednisolone](/drugs/prednisolone/) | L2 |
+| [Prednisone](/drugs/prednisone/) | L2 |
 
 ### Medicines covered only by this site among the 30 TxGNN sites
 
@@ -199,7 +200,7 @@ ZaTxGNN uses the **TxGNN** deep learning model published by Harvard's Zitnik Lab
 <strong>Disclaimer</strong><br>
 This report is for <strong>research purposes only</strong> and does not constitute medical advice. Drug use should follow physician guidance. Any drug repurposing decisions require complete clinical validation and regulatory review.
 <br><br>
-<small>Last updated: 2026-03-10 | Maintainer: 藥提醒科技有限公司 (yao.care)</small>
+<small>Last updated: {{ page.last_modified_at | date: "%Y-%m-%d" }} | Maintainer: 藥提醒科技有限公司 (yao.care)</small>
 </div>
 
 ---
