@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zinc Sulfate
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 481
-evidence_level: L2
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-11-04
 monitor_inn: "ZINC SULFATE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
-description: "Zinc Sulfate: predicted new indication Pharyngitis (evidence level L2). Approved use: Not recorded in the local data"
+description: "Zinc Sulfate: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zinc Sulfate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,13 +36,10 @@ Evidence Level: **L2** | Predicted Indications: **4**
 ## Zinc Sulfate: Pharyngitis
 {: .text-alpha }
 
-*Note on the title: the main prediction is written once because the page language is English.*
-
 ## One-Sentence Summary
 
-Zinc sulfate is a zinc salt used as a mineral supplement and local therapy. The TxGNN model predicts it may be effective for **pharyngitis**, with **1 clinical trial** and **2 publications** in the data compiled for this report, and the findings so far are mixed.
-
----
+Zinc sulfate is a zinc salt used as a mineral supplement and in topical or local preparations.
+The TxGNN model predicts it may be relevant for **pharyngitis**, but the supporting evidence is weak: **1 registered clinical trial** (in a related condition, postoperative sore throat) and **2 publications**, and the only randomised trial in pharyngitis itself found no benefit.
 
 ## Quick Overview
 
@@ -51,39 +48,29 @@ Zinc sulfate is a zinc salt used as a mineral supplement and local therapy. The 
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 0.9985 |
-| Evidence Level | L2 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 1 of 1) |
 | Number of SAHPRA Registrations | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, zinc has plausible local effects in the oropharynx: it supports mucosal repair, may modulate local inflammation, and may have antiviral activity.
+Currently, detailed mechanism of action data is not available. Based on general knowledge, zinc has plausible local effects in the oropharynx, including support of mucosal repair, modulation of local inflammation and possible antiviral activity.
 
-The available evidence concerns sore throat after surgery or radiotherapy, not infectious pharyngitis, so the link to the predicted indication is partial. A randomized placebo-controlled trial of zinc lozenges (NCT02405832) reduced the incidence and severity of postoperative sore throat, which is pharyngitis after intubation. In contrast, a randomized trial in radiation-induced pharyngitis (PMID 23720981) found no benefit. The very high TxGNN score is a computational prediction and does not by itself establish efficacy.
-
----
+The available studies concern sore throat or mucosal injury after surgery or radiotherapy rather than infectious pharyngitis, so the link to the predicted indication is only partial. The very high TxGNN score (0.9985) is a computational output and does not by itself establish efficacy.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02405832](https://clinicaltrials.gov/study/NCT02405832) | Not applicable | Completed | 87 | Randomized, double-blinded, placebo-controlled study of preoperative zinc lozenges for postoperative sore throat; reduced incidence and severity of sore throat after intubation (results published 2018). Not an infectious pharyngitis population. |
-
-No SANCTR or PACTR registrations were identified in the data compiled for this report.
-
----
+| [NCT02405832](https://clinicaltrials.gov/study/NCT02405832) | Not applicable | Completed | 87 | Randomised, double-blind, placebo-controlled study of zinc lozenges for postoperative sore throat after intubation. This is a related condition, not pharyngitis, and it used lozenges rather than zinc sulfate. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23720981](https://pubmed.ncbi.nlm.nih.gov/23720981/) | 2013 | RCT | J Med Assoc Thai | Randomized double-blind placebo-controlled trial of zinc sulfate for radiation-induced oral mucositis and pharyngitis in head and neck cancer; no benefit found. |
-| [20123362](https://pubmed.ncbi.nlm.nih.gov/20123362/) | 2010 | Case report / clinical observation | Oral Surg Oral Med Oral Pathol Oral Radiol Endod | Long-lasting post-tonsillectomy taste disturbance; discusses a possible role of zinc deficiency. Indirect relevance. |
-
----
+| [23720981](https://pubmed.ncbi.nlm.nih.gov/23720981/) | 2013 | RCT | J Med Assoc Thai | Randomised, placebo-controlled trial of zinc sulfate for radiation-induced oral mucositis and pharyngitis in head and neck cancer patients. No benefit of zinc sulfate was found for radiation-induced pharyngitis. |
+| [20123362](https://pubmed.ncbi.nlm.nih.gov/20123362/) | 2010 | Case report / clinical observation | Oral Surg Oral Med Oral Pathol Oral Radiol Endod | Long-lasting taste disturbance after tonsillectomy; discusses a possible role of zinc deficiency. Indirect evidence only. |
 
 ## South Africa Market Information
 
@@ -91,32 +78,22 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 |---------|------|------|-----------|
 | H1501 (OM) | Nazene Z 20ml | Spray | Not recorded in the data compiled for this report |
 
-The data compiled for this report do not state Essential Medicines List (EML) status.
-
----
-
 ## Safety Considerations
 
-- **Drug Interactions** (100 interactions recorded; examples): 
-  - Moderate: alendronic acid, risedronic acid, ibandronate, tetracycline, baloxavir marboxil. Zinc may reduce absorption of some of these when taken together, so spacing the doses is usually advised.
-  - Minor: corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone), azathioprine, baricitinib and several biologic immunomodulators.
+- **Drug Interactions**: The interaction data compiled for this report list mostly minor interactions (for example with corticosteroids such as hydrocortisone, dexamethasone and betamethasone, and with biologic immunosuppressants). Moderate interactions were recorded with alendronic acid, risedronic acid, ibandronate, tetracycline and baloxavir marboxil. Separating the timing of doses of zinc and these agents should be considered.
 
-Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications, which are not available in the data compiled for this report. Intranasal zinc exposure has been linked in animal studies to loss of smell, so caution applies to nasal products. Report adverse drug reactions to SAHPRA.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- Evidence level is L2: one randomized placebo-controlled trial supports benefit for postoperative sore throat, but a randomized trial in radiation-induced pharyngitis showed no benefit, and no trial has studied infectious pharyngitis.
+The only randomised trial in pharyngitis itself found no benefit of zinc sulfate, and the lozenge trial addresses a related condition (postoperative sore throat), so all direct evidence is negative or absent. The high TxGNN score alone does not justify progression.
 
 **To proceed, the following is needed:**
-- A randomized trial in infectious pharyngitis using a defined zinc formulation and dose
-- Review of the SAHPRA Professional Information for warnings and contraindications
-- Mechanism of action data
-- Confirmation that the registered spray product's route and formulation suit throat use
+- Well-designed randomised trials of zinc sulfate in infectious pharyngitis
+- Mechanism of action data and the approved indication and safety information from the SAHPRA Professional Information for the registered product
 
 ## Disclaimer
 
