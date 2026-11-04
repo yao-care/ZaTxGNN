@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ampicillin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 37
-evidence_level: L4
+evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
-description: "Ampicillin: predicted new indication Laryngitis (evidence level L4). Approved use: Bacterial infections (urinary tract infection, otitis media…"
+last_modified_at: 2026-11-04
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+description: "Ampicillin: predicted new indication Laryngitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ampicillin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-## Ampicillin: From Bacterial Infections (UTI, Otitis Media, Pneumonia, Meningitis) to Laryngitis
+## Ampicillin: Laryngitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ampicillin is a penicillin-class antibiotic originally used for bacterial infections such as urinary tract infection, otitis media, bacterial pneumonia and bacterial meningitis.
-The TxGNN model predicts it may be effective for **laryngitis**, but there are **no registered clinical trials** and the retrieved literature is **indirect** (mostly epiglottitis, laryngeal abscess and neck infections, not laryngitis itself).
+Ampicillin is a beta-lactam antibiotic that blocks bacterial cell wall synthesis and is marketed in South Africa. The TxGNN model predicts it may be useful for **laryngitis**, but **no clinical trials** are registered and the **20 publications** retrieved do not test ampicillin in laryngitis itself, so the evidence level is **L5**.
 
 ---
 
@@ -47,10 +46,10 @@ The TxGNN model predicts it may be effective for **laryngitis**, but there are *
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (urinary tract infection, otitis media, bacterial pneumonia, meningitis, among others). SAHPRA indication text is not available in the data compiled for this report. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Laryngitis |
 | TxGNN Prediction Score | 0.9997 |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 7 of 8) |
 | Number of SAHPRA Registrations | 8 (valid: 7) |
 | Recommended Decision | Hold |
@@ -59,17 +58,9 @@ The TxGNN model predicts it may be effective for **laryngitis**, but there are *
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ampicillin is a beta-lactam antibiotic, and this class inhibits bacterial cell wall synthesis. Its efficacy in several upper and lower respiratory tract infections is established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, ampicillin is a beta-lactam that inhibits bacterial cell wall synthesis, so it can act against susceptible bacteria.
 
-Bacterial infections of the larynx and supraglottis, such as epiglottitis caused by *Haemophilus influenzae* and deep neck abscesses, are plausibly susceptible to ampicillin, which is why the model links the drug to laryngitis.
-
-There are important limits. Laryngitis is mostly viral and self-limiting, so an antibiotic would rarely be indicated. Beta-lactamase production in *H. influenzae* also limits ampicillin as monotherapy. The prediction score is high, but the biological support is indirect.
-
-Other predictions in the model output were reviewed and are weaker or only historical:
-- **Gonococcal urethritis (L2):** Several comparative trials from the 1970s to 1980s showed efficacy with ampicillin plus probenecid. Penicillinase production and chromosomal resistance have since made ampicillin obsolete for gonorrhoea, so this is a historical finding rather than a new opportunity.
-- **Bacterial arthritis (L4):** Plausible for susceptible organisms, with joint penetration shown in animal studies. Human evidence is indirect, and ampicillin is not first-line given *S. aureus* prevalence.
-- **Ureaplasma urethritis and paranasal sinus neoplasm (L5):** Biologically implausible. *Ureaplasma* has no cell wall, and ampicillin has no antineoplastic activity.
-- **Chronic rhinosinusitis, gingivitis, conjunctivitis and pericoronitis (L4), and chronic ethmoidal sinusitis (L3):** Evidence is microbiological or indirect, with no clinical benefit shown for ampicillin.
+The reasoning for laryngitis is indirect. Bacterial infections of the larynx and surrounding structures, such as epiglottitis caused by *Haemophilus influenzae* or deep neck abscess, are plausibly susceptible to ampicillin. However, laryngitis itself is mostly viral and self-limiting, so antibiotics would rarely be indicated. Beta-lactamase production in *H. influenzae* also limits ampicillin as monotherapy. The high model score therefore should not be read as proof of benefit.
 
 ---
 
@@ -81,26 +72,24 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The retrieved publications for laryngitis are indirect. None is a randomised trial of ampicillin in laryngitis.
+None of these publications studies ampicillin in laryngitis. They concern related conditions (acute epiglottitis, laryngeal abscess, neck infections) or other diseases. The most relevant are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Clinical report | Reviews of Infectious Diseases | Sulbactam/ampicillin in acute epiglottitis in children; about 25% of Hib strains produce beta-lactamase and resist ampicillin |
-| [3290661](https://pubmed.ncbi.nlm.nih.gov/3290661/) | 1988 | Case series | Monatsschrift Kinderheilkunde | Acute epiglottitis: treatment changes after ampicillin-resistant *H. influenzae* type b emerged |
-| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Case series | Anesthesia and Analgesia | 23 children with epiglottitis treated with ampicillin or chloramphenicol; duration of intubation reviewed |
-| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Review | Anaesthesia and Intensive Care | 161 children with acute epiglottitis; complications and airway management |
-| [3322611](https://pubmed.ncbi.nlm.nih.gov/3322611/) | 1987 | Retrospective case series | Clinical Otolaryngology | 19 adult epiglottitis cases; bacteriology and therapeutic principles |
-| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Review | Western Journal of Medicine | Adult epiglottitis is increasing; 9 cases described |
-| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Case report/Review | Annals of Otology, Rhinology & Laryngology | Spontaneous laryngeal abscess; case and review of reported cases |
-| [38145982](https://pubmed.ncbi.nlm.nih.gov/38145982/) | 2024 | Cohort | Eur Arch Otorhinolaryngol | Microbiology and antibiotic selection in neck abscesses in patients with diabetes |
+| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Review | Anaesth Intensive Care | Retrospective review of 161 children with acute epiglottitis, with airway management and complications |
+| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Clinical report | Rev Infect Dis | Sulbactam/ampicillin for acute epiglottitis in children, given ampicillin-resistant *H. influenzae* type b |
+| [3290661](https://pubmed.ncbi.nlm.nih.gov/3290661/) | 1988 | Case series | Monatsschr Kinderheilkd | Epiglottitis in 27 children; rising ampicillin resistance of *H. influenzae* type b changed treatment |
+| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Case series | Anesth Analg | Duration of intubation and fever in 23 children with epiglottitis treated with ampicillin or chloramphenicol |
+| [3322611](https://pubmed.ncbi.nlm.nih.gov/3322611/) | 1987 | Case series | Clin Otolaryngol Allied Sci | Bacteriology and treatment of 19 adult epiglottitis cases |
+| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Case report/Review | Ann Otol Rhinol Laryngol | Spontaneous laryngeal abscess: new case and review of reported cases |
+| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Cohort | Otolaryngol Head Neck Surg | Perioperative antibiotic choice and complications after laryngectomy |
 | [7487676](https://pubmed.ncbi.nlm.nih.gov/7487676/) | 1995 | Animal study | Auris Nasus Larynx | Ibuprofen added to ampicillin in experimental otitis media in chinchillas |
-| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Cohort | Otolaryngol Head Neck Surg | Laryngectomy complications are associated with perioperative antibiotic choice |
 
 ---
 
 ## South Africa Market Information
 
-SAHPRA approved-indication text is not available in the data compiled for this report. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Seven of the eight SAHPRA registrations are valid and one is cancelled. All are single-ingredient products. No approved indication text is recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -110,32 +99,20 @@ SAHPRA approved-indication text is not available in the data compiled for this r
 | Reg. No. 27/11.4.3/0108 | Apen | Capsule | Not available |
 | Reg. No. Z/20.1.2/0354 | Megapen S | Suspension | Not available |
 
-Three further injectable products are also registered: Ampoxin 500, Ampoxin vial 10ml and Ampoxin 250. All 8 registrations are valid single-ingredient products. Injectable, oral capsule and suspension forms are all available.
-
 ---
 
 ## Safety Considerations
 
-**Contraindications (from knowledge-graph disease associations, not label text):** The model's knowledge graph links ampicillin to caution or contraindication in the following conditions:
-- Kidney disease and impaired renal function
-- Haematological disease
-- Peptic ulcer disease
-- *Clostridium difficile* colitis
-- Perinatal necrotizing enterocolitis
-- Infectious mononucleosis and chronic Epstein-Barr virus infection syndrome
-- Pyoureter
-- Acute urate nephropathy
+Label warnings and contraindications from the SAHPRA Professional Information (PI) are not available in the data compiled for this report. Please refer to the SAHPRA-approved PI for safety information. Report adverse drug reactions to SAHPRA.
 
-**Drug Interactions:** 61 interactions were identified. Those listed as moderate include:
-- Doxycycline, minocycline, tetracycline
+**Drug Interactions:** 61 interactions were identified. The main ones with a Moderate level are:
+- Doxycycline, minocycline and tetracycline
 - Kanamycin
 - Balsalazide
-- Lansoprazole, dexlansoprazole
+- Lansoprazole and dexlansoprazole
 - Picosulfuric acid
 
-Clarithromycin is rated minor. Several others have an unknown severity rating, including omeprazole, pantoprazole, vancomycin, morphine, prednisone, hydrocortisone and potassium chloride.
-
-SAHPRA package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for full safety information. Report adverse drug reactions to SAHPRA.
+Clarithromycin is rated Minor.
 
 ---
 
@@ -144,14 +121,13 @@ SAHPRA package insert warnings and contraindications were not available in the d
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but the supporting evidence is only indirect. It concerns epiglottitis and neck infections rather than laryngitis, which is mostly viral and does not need antibiotics. No clinical trials are registered, and beta-lactamase-producing *H. influenzae* limits ampicillin's usefulness. Using antibiotics for a mostly viral illness also raises stewardship concerns.
+- The evidence level is L5. No study tests ampicillin in laryngitis, and the retrieved papers address epiglottitis, laryngeal abscess and other conditions. Laryngitis is mostly viral, and beta-lactamase-producing organisms limit ampicillin's usefulness, so the high model score is not supported by clinical data.
 
 **To proceed, the following is needed:**
-- SAHPRA package insert warnings, contraindications and approved indications (currently a blocking gap)
-- Mechanism of action data from DrugBank
-- Clinical evidence specific to bacterial laryngitis, with a defined bacterial subgroup
-- Local South African antimicrobial resistance data for *H. influenzae* and related pathogens
-- Review of whether the other predictions (for example bacterial arthritis) merit a separate evaluation. Gonococcal urethritis is not supported by current guidelines because of resistance.
+- Clinical studies that directly test ampicillin in bacterial laryngitis, defining the target population
+- Mechanism of action data and the SAHPRA Professional Information warnings and contraindications
+- A review of local *H. influenzae* resistance patterns and antibiotic stewardship considerations
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

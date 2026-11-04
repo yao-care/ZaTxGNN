@@ -3,18 +3,18 @@ layout: default
 title: Miconazole
 parent: Moderate Evidence (L3-L4)
 nav_order: 324
-evidence_level: L3
+evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-04
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
-description: "Miconazole: predicted new indication Acne (disease) (evidence level L3). Approved use: Not recorded in the local data"
+description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Miconazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,10 +38,7 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Miconazole is a topical imidazole antifungal, originally used for tinea (athlete's foot, ringworm, nail and groin infections), cutaneous candidiasis, pityriasis versicolor and vulvovaginal candidiasis.
-The TxGNN model predicts it may be effective for **acne**, with **no registered clinical trials** and **4 publications** (one review, two small clinical studies and one in vitro study) supporting this direction.
-
----
+Miconazole is an imidazole antifungal used on the skin and mucous membranes. The TxGNN model predicts it may be useful for **acne (acne (disease))**, but the supporting evidence is limited to **1 review**, small clinical studies and laboratory data, with **no registered clinical trials**. The evidence level is **L4**.
 
 ## Quick Overview
 
@@ -50,52 +47,35 @@ The TxGNN model predicts it may be effective for **acne**, with **no registered 
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9954 |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed (valid licences: 6 of 9) |
 | Number of SAHPRA Registrations | 9 (valid: 6) |
-| Recommended Decision | Hold (research question only) |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Miconazole is an imidazole antifungal, and the group is generally known to inhibit fungal ergosterol synthesis (CYP51). Its efficacy in superficial fungal skin infections is well established.
+Detailed mechanism of action data is not currently available. Miconazole belongs to the imidazole antifungal class, and the literature describes activity against *Cutibacterium (Propionibacterium) acnes* and *Malassezia* yeasts in laboratory studies. Both organisms can contribute to inflammation around hair follicles.
 
-For acne, the link is plausible but indirect:
-- Miconazole has in vitro activity against *Propionibacterium (Cutibacterium) acnes*, the bacterium implicated in acne. A 2010 study tested azole antifungals against isolates from patients with acne vulgaris.
-- It is also active against *Malassezia*, which can cause follicular inflammation. Malassezia folliculitis is often misdiagnosed as acne, so some apparent responses may reflect treatment of the fungal condition rather than true acne.
-- A 2008 review describes anti-inflammatory effects of miconazole on skin.
-- A small 2004 split-face study in mild inflammatory catamenial acne suggests a clinical signal.
+A review of miconazole's effects on skin disorders (2008) also describes anti-inflammatory effects on skin. A small split-face study in mild inflammatory catamenial acne (2004) suggests a possible clinical signal. A further study in Malassezia folliculitis, a condition often misdiagnosed as acne, is a different disease and does not directly show benefit in acne.
 
-The evidence consists of small, non-pivotal studies and laboratory data. It supports further investigation rather than clinical use.
-
-### Other predicted indications (for context)
-
-| Predicted Indication | Score | Evidence Level | Comment |
-|------|------|------|------|
-
----
+Taken together, the mechanistic plausibility is reasonable, but the clinical data are small and not pivotal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for acne.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical study (split-face, small) | Skin Res Technol | Clinical and bioinstrumental assessment in mild inflammatory catamenial acne |
-| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Review | Expert Opin Pharmacother | Overview of the multiple effects of miconazole on skin disorders |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Clinical/therapeutic trial | Clin Exp Dermatol | Malassezia (Pityrosporum) folliculitis in 62 patients, frequently misdiagnosed as acne vulgaris; therapeutic trials |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biol Pharm Bull | In vitro activity of azole antifungals against *P. acnes* isolated from patients with acne vulgaris |
-
----
+| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Review | Expert Opin Pharmacother | Overview of miconazole's antibacterial and anti-inflammatory effects on skin disorders |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Small split-face clinical study | Skin Res Technol | Clinical and bioinstrumental assessment in mild inflammatory catamenial acne; suggests a possible signal |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biol Pharm Bull | Azole antifungals, including miconazole, tested for activity against *P. acnes* isolated from acne patients |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Clinical/therapeutic trial | Clin Exp Dermatol | Diagnosis and treatment of Pityrosporum (Malassezia) folliculitis, which is often mistaken for acne; indirect relevance only |
 
 ## South Africa Market Information
 
-All 9 registrations are valid single-ingredient products. No approved indication text was available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
+Six of the nine SAHPRA registrations are currently valid and three are cancelled. All are single-ingredient records. No approved indication text is recorded for any of them. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 | Registration Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -105,32 +85,24 @@ All 9 registrations are valid single-ingredient products. No approved indication
 | 36/13.9.2/0509 | Sutharex Cream | Cream | Not available |
 | X/13.12/292 | Acneclear | Cream | Not available |
 
-Four further registrations exist: Elozart, Gyno-Daktarin Vc, Daktacort and Gyno-daktarin combipak (vaginal cream). All registered forms are topical or vaginal, and one product is named Acneclear.
-
----
-
 ## Safety Considerations
 
-- **Disease associations in the knowledge graph:** liver disease and gallbladder disease are linked to miconazole as contraindication-type associations. These come from a knowledge graph, not from SAHPRA label text, and need verification against the Professional Information (PI).
-- **Drug interactions:** 100 interactions were recorded. The sample reviewed was mostly Moderate, with some Minor. Moderate examples include paclitaxel, fentanyl, alfentanil, hydrocodone, acalabrutinib, nifedipine, amlodipine, amiodarone, amitriptyline, alprazolam, alfuzosin, aliskiren, alosetron, ethinylestradiol and estradiol. Minor examples include dolutegravir, loratadine, amphotericin B and ambrisentan. These are likely most relevant with systemic exposure or large-area or mucosal use, and clinical relevance for topical use should be confirmed.
+- **Drug Interactions**: 100 interactions were found in the DDI query. The ones shown here are only a sample, and those listed as Moderate include paclitaxel, fentanyl, alfentanil, acalabrutinib, nifedipine, amlodipine, amiodarone, amitriptyline, alprazolam, ethinylestradiol, estradiol, alfuzosin, aliskiren, alosetron and hydrocodone. Minor interactions include dolutegravir, loratadine, amphotericin B and ambrisentan. The clinical relevance of each depends on formulation and route, and systemic exposure after topical use is generally lower.
 
-SAHPRA-approved warnings and contraindications were not available for this report. Please refer to the approved Professional Information (PI). Report adverse drug reactions to SAHPRA.
-
----
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (research question only)**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN score for acne is very high (0.9954), but the supporting evidence is limited to a small split-face study, a review and in vitro data, with no registered trials. A confounder is that Malassezia folliculitis mimics acne. A well-designed trial is needed before any clinical consideration.
+The evidence level is L4. The only support is a review of miconazole's effects on skin disorders, one small split-face study, and laboratory data. No registered trials exist, so the prediction remains a research question rather than a basis for clinical use.
 
 **To proceed, the following is needed:**
-- Randomised, controlled trials in well-characterised acne vulgaris, ideally excluding Malassezia folliculitis, with comparison against standard topical therapy
-- Mechanism of action data (currently missing)
-- SAHPRA package insert warnings and contraindications, which are blocking for safety screening
-- Confirmation of approved indications for the registered products
-- Assessment of whether existing topical formulations are suitable for acne, including tolerability on facial skin
+- A randomised controlled trial of topical miconazole in acne vulgaris
+- Detailed mechanism of action data
+- SAHPRA Professional Information review for warnings and contraindications
+- Comparison with current standard acne treatments, and an assessment of whether a suitable topical formulation is available for this use
 
 ## Disclaimer
 
