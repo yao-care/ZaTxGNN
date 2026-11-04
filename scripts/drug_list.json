@@ -1,6 +1,6 @@
 {
   "total": 344,
-  "generated_at": "2026-11-03T19:05:37.028875",
+  "generated_at": "2026-11-04T04:57:30.492079",
   "drugs": [
     {
       "name": "Abacavir",
@@ -3573,7 +3573,7 @@
     {
       "name": "Montelukast",
       "file": "montelukast.md",
-      "evidence_level": "L1",
+      "evidence_level": "L2",
       "indication_count": 2,
       "predicted_indication": "",
       "inn": "Montelukast",
