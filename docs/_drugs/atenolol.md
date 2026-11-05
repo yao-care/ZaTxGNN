@@ -101,7 +101,7 @@ Atenolol is marketed in South Africa. Approved indication text is not available 
 
 Showing 6 of 47 registrations (valid registrations first).
 
-All registered products are oral tablets.
+All registered products are oral tablets. The product names Co-Tenidone, Tenoret and Tenchlor suggest 50 mg/12.5 mg combination products. Please verify against the registration records.
 
 ---
 

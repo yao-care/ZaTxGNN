@@ -89,7 +89,7 @@ Essential Medicines List (EML) inclusion status is not available in the data com
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
-No drug interaction records were found in the data compiled for this report. Because the registered products are not ophthalmic formulations, safety in the eye cannot be assumed from the existing skin products.
+No drug interaction records were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
@@ -100,7 +100,7 @@ No drug interaction records were found in the data compiled for this report. Bec
 
 **To proceed, the following is needed:**
 - Direct clinical or laboratory evidence of fusidic acid in exposure keratitis, or in secondary bacterial keratitis in exposed corneas
-- An ophthalmic formulation and route assessment, since current South African registrations are topical skin products only
+- An ophthalmic formulation and route assessment
 - SAHPRA Professional Information warnings and contraindications, and mechanism of action data
 - A safety review for ocular use, including tolerability and antimicrobial resistance considerations
 ## Disclaimer

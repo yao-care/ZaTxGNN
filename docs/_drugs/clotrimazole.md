@@ -72,7 +72,7 @@ No related publications are available for this prediction. No SANCTR or PACTR re
 
 ## South Africa Market Information
 
-No registered product text in the data compiled for this report supports use in acne.
+Clotrimazole is marketed in South Africa. They are mainly topical creams, plus a kit and vaginal-cream presentations. No registered product text in the data compiled for this report supports use in acne.
 
 ## Safety Considerations
 

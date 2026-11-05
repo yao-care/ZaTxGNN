@@ -134,7 +134,7 @@ For cerebral artery occlusion, all retrieved studies are animal studies. For pul
 
 ## South Africa Market Information
 
-Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status could not be determined from the available data.
+Telmisartan is marketed in South Africa. Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status could not be determined from the available data.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

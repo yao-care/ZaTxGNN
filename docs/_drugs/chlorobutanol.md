@@ -92,7 +92,7 @@ No drug-drug interactions were found in the interaction query.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score, with no clinical trials, no publications and no established mechanism. The only registered product is a topical cream, and there is no known pharmacological route to an erectile dysfunction effect. Safety data are also missing, which blocks progression to safety screening.
+The prediction is supported only by the TxGNN model score, with no clinical trials, no publications and no established mechanism. There is no known pharmacological route to an erectile dysfunction effect. Safety data are also missing, which blocks progression to safety screening.
 
 **To proceed, the following is needed:**
 - The SAHPRA package insert (warnings, contraindications and approved indication), to complete safety screening

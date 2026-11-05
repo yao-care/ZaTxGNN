@@ -74,7 +74,7 @@ For context, the lower-ranked prediction of migraine has only a case report ([17
 
 ## South Africa Market Information
 
-Approved-indication text and Essential Medicines List status are not available in the data compiled for this report.
+Tadalafil is marketed in South Africa. Approved-indication text and Essential Medicines List status are not available in the data compiled for this report.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

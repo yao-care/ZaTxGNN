@@ -95,7 +95,7 @@ For the third-ranked prediction (pulmonary hypertension owing to lung disease an
 
 Showing 5 of 42 registrations (valid registrations first).
 
-The Essential Medicines List (EML) status could not be determined from the available data.
+The product names with "10/12,5" suggest quinapril/hydrochlorothiazide combinations. Please verify against the SAHPRA Professional Information. The Essential Medicines List (EML) status could not be determined from the available data.
 
 ## Safety Considerations
 

@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-L-Lysine is an essential amino acid. In South Africa it is registered only as a component of parenteral nutrition and infusion products, and no approved indication text is available.
+L-Lysine is an essential amino acid. In South Africa it is registered as a component of parenteral nutrition and infusion products, and no approved indication text is available.
 The TxGNN model predicts it may be effective for **gastroparesis**, but there are **0 clinical trials** and only **1 publication**, a preclinical stem-cell study that does not evaluate L-Lysine, so this prediction is based on the model alone.
 
 ---

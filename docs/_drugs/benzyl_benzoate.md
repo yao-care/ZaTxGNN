@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Benzyl Benzoate is a well-established topical antiparasitic agent with recognised use in the treatment of scabies and pediculosis (lice infestation). A complete repurposing evaluation cannot proceed until two blocking data gaps — regulatory safety information and mechanism of action — are resolved and the prediction pipeline is re-run.
+Benzyl Benzoate is a well-established topical antiparasitic agent with recognised use in the treatment of scabies and pediculosis (lice infestation). The current Evidence Pack contains **no TxGNN-generated repurposing predictions** for this drug. A complete repurposing evaluation cannot proceed until two blocking data gaps — regulatory safety information and mechanism of action — are resolved and the prediction pipeline is re-run.
 
 ---
 
@@ -67,7 +67,7 @@ No safety data — including key warnings, contraindications, or drug interactio
 **Decision: Hold**
 
 **Rationale:**
-There is no evidence base on which to build a repurposing recommendation at this stage.
+The Evidence Pack for Benzyl Benzoate is incomplete at a foundational level: the TxGNN pipeline returned no repurposing candidates, no mechanism of action is available to support biological plausibility analysis. There is no evidence base on which to build a repurposing recommendation at this stage.
 
 **To proceed, the following is needed:**
 

@@ -98,7 +98,7 @@ Other retrieved items are less relevant: a veterinary hyperkalaemia review, a li
 
 ## South Africa Market Information
 
-Five main registrations are shown below.
+No information on Essential Medicines List (EML) inclusion is available. Five main registrations are shown below.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

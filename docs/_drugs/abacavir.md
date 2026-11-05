@@ -94,6 +94,8 @@ No approved-indication text is available in the licence records compiled for thi
 
 Showing 5 of 68 registrations (valid registrations first).
 
+Several product names (for example Auro Abacavir Lamivudine, Kivexa, Heteruam) suggest fixed-dose combinations. Verify against the SAHPRA register before relying on them.
+
 ## Safety Considerations
 
 **Contraindication relations recorded in the knowledge graph (not label text):** liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, lactic acidosis, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), hypertriglyceridaemia, obesity disorders, myopathy and other muscle diseases (including myositis and dermatomyositis), familial periodic paralysis, and pyoureter.

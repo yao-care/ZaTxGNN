@@ -41,6 +41,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Diphenhydramine Hydrochloride is a first-generation H1 antihistamine, widely recognised for its use in allergic conditions, insomnia, and motion sickness.
+**No new indications were predicted by the TxGNN model** in this Evidence Pack.
 A full repurposing evaluation cannot proceed until prediction data and regulatory information are obtained.
 
 ---
@@ -76,6 +77,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
+The Evidence Pack contains no TxGNN repurposing predictions, no mechanism of action, and no safety information — making it impossible to conduct a meaningful repurposing evaluation at this stage.
 
 **To proceed, the following is needed:**
 

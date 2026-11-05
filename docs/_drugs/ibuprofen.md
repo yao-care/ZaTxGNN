@@ -72,7 +72,7 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Indication text is not recorded in the local data. The table below lists five of the registrations.
+Ibuprofen is marketed in South Africa. Indication text is not recorded in the local data. The table below lists five of the registrations.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

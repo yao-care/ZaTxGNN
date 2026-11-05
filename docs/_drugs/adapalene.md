@@ -68,7 +68,7 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-The approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the compiled data.
+Adapalene is marketed in South Africa. The approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the compiled data.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

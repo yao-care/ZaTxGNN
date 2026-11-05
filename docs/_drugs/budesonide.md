@@ -105,7 +105,7 @@ Priority is given to the most relevant items. No randomised controlled trial in 
 
 Showing 5 of 64 registrations (valid registrations first).
 
-No Essential Medicines List (EML) status was available in the data compiled. None of the registered forms is a dermal preparation, so a new formulation would be needed for atopic eczema.
+The drug is marketed in this country. No Essential Medicines List (EML) status was available in the data compiled. Symbicort and Vannair are named as budesonide/formoterol products. None of the registered forms is a dermal preparation, so a new formulation would be needed for atopic eczema.
 
 ---
 

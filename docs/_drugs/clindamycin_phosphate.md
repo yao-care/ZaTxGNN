@@ -41,6 +41,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Clindamycin phosphate is a lincosamide antibiotic prodrug, rapidly hydrolysed in vivo to clindamycin, and widely used for bacterial infections including acne vulgaris, bacterial vaginosis, and serious anaerobic infections.
+The current Evidence Pack contains **no TxGNN repurposing predictions**, and multiple blocking data gaps.
 This evaluation **cannot advance to a full repurposing analysis** until the identified gaps are remediated.
 
 ---

@@ -85,7 +85,7 @@ Currently no related literature available for malignant hypertensive renal disea
 |------|------|------|------|
 | H/5.2/72 | Lopresor | tablet | Cancelled |
 
-Essential Medicines List status is not available in the data compiled for this report.
+This is a single-ingredient product. Essential Medicines List status is not available in the data compiled for this report.
 
 ---
 

@@ -83,7 +83,7 @@ No SANCTR or PACTR registrations were found in the data compiled for this report
 
 ## South Africa Market Information
 
-Approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data.
+Hydrocortisone is marketed in South Africa. Approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

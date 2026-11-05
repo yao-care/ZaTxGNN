@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Amlodipine maleate is a specific salt form of the dihydropyridine calcium channel blocker amlodipine, used in the management of hypertension and angina pectoris in other markets. This report therefore functions as an initial data gap assessment rather than a full repurposing evaluation.
+Amlodipine maleate is a specific salt form of the dihydropyridine calcium channel blocker amlodipine, used in the management of hypertension and angina pectoris in other markets. No TxGNN repurposing predictions were generated for this compound in the current Evidence Pack. This report therefore functions as an initial data gap assessment rather than a full repurposing evaluation.
 
 ---
 

@@ -96,7 +96,7 @@ No publications were found for Rasmussen subacute encephalitis. The most relevan
 
 ## South Africa Market Information
 
-Approved indication text and Essential Medicines List status were not available.
+Levodopa is marketed in South Africa. Approved indication text and Essential Medicines List status were not available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

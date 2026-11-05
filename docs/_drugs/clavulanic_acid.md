@@ -101,7 +101,7 @@ Ureaplasma urethritis (rank 1): the literature is general and indirect.
 
 ## South Africa Market Information
 
-No approved indication text and no Essential Medicines List (EML) status are available in the data compiled for this report. The five main registrations are:
+Clavulanic acid is registered in South Africa. No approved indication text and no Essential Medicines List (EML) status are available in the data compiled for this report. The five main registrations are:
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

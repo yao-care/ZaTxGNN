@@ -112,7 +112,7 @@ Currently no related literature available for classic stiff person syndrome.
 
 Showing 5 of 58 registrations (valid registrations first).
 
-The product strengths suggest a fixed-dose pairing with a second agent, probably metformin, but this should be confirmed against the SAHPRA record. Essential Medicines List status could not be determined from the data.
+The only dosage form is oral tablet. The product strengths suggest a fixed-dose pairing with a second agent, probably metformin, but this should be confirmed against the SAHPRA record. Essential Medicines List status could not be determined from the data.
 
 ---
 

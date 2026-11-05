@@ -58,7 +58,7 @@ The data collection pipeline retrieved only DrugBank records; South African regu
 | Number of SAHPRA Registrations | 65 (valid: 58) |
 | Recommended Decision | **Hold** |
 
-> ⚠️ **Data Reliability Note:** The Evidence Pack was built from DrugBank data only (`inputs_received: ["drugbank"]`). Independent SAHPRA database verification is required before any regulatory conclusions are drawn.
+> ⚠️ **Data Reliability Note:** The Evidence Pack was built from DrugBank data only (`inputs_received: ["drugbank"]`). Indapamide is a well-established antihypertensive on the WHO Essential Medicines List and is expected to hold SAHPRA registration. Independent SAHPRA database verification is required before any regulatory conclusions are drawn.
 
 ---
 

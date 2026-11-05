@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Desogestrel is a progestin used in hormonal contraceptives and is registered in South Africa as single-ingredient tablets.
+Desogestrel is a progestin used in hormonal contraceptives and is registered in South Africa as tablets.
 The TxGNN model predicts it may be useful for **amenorrhea**,
 with **1 clinical trial** (indirect relevance) and **11 publications** currently supporting this direction.
 

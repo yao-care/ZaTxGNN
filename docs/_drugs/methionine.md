@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Methionine is an essential sulphur-containing amino acid. In South Africa it is registered only as an ingredient of parenteral nutrition and dialysis solutions, and no approved indication text is available in the data compiled for this report.
+Methionine is an essential sulphur-containing amino acid. In South Africa it is registered as an ingredient of parenteral nutrition and dialysis solutions, and no approved indication text is available in the data compiled for this report.
 The TxGNN model predicts it may be effective for **acne (disease)**, but there are **0 clinical trials** and only **2 publications**, neither of which tests methionine as a treatment.
 This is a model prediction only (evidence level L5) and the recommendation is **Hold**.
 
@@ -98,6 +98,8 @@ No approved indication text is available for any of them. The data compiled for 
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
 Showing 5 of 33 registrations (valid registrations first).
+
+These products are mostly multi-component nutrition and dialysis preparations, so their licences do not describe a stand-alone methionine product.
 
 ---
 

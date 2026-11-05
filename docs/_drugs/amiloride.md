@@ -78,7 +78,7 @@ Currently no related literature available.
 
 Showing 5 of 16 registrations (valid registrations first).
 
-The approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
+The product is available as an oral tablet. The approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

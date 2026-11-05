@@ -82,7 +82,7 @@ Currently no related literature available for the top-ranked prediction.
 
 ## South Africa Market Information
 
-The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
+Verapamil is marketed in South Africa. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

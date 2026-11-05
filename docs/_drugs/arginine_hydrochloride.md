@@ -41,6 +41,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Arginine hydrochloride is an amino acid salt with established clinical roles in treating metabolic alkalosis and as a diagnostic provocative agent in growth hormone stimulation testing.
+No TxGNN repurposing predictions were generated for this drug in the current analysis cycle.
 A complete repurposing evaluation cannot be conducted until critical data gaps — including DrugBank mapping, mechanism of action, and safety documentation — are resolved.
 
 ---

@@ -100,7 +100,7 @@ Approved indication text was not available in the data compiled for this report.
 
 Showing 5 of 54 registrations (valid registrations first).
 
-All products are parenteral (infusion) formulations.
+All products are parenteral (infusion) formulations. No oral arginine product was identified, so route compatibility with a gastroparesis indication has not been assessed.
 
 ## Safety Considerations
 

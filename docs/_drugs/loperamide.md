@@ -90,6 +90,8 @@ Approved indication text and manufacturer details were not available in the data
 
 Showing 5 of 25 registrations (valid registrations first).
 
+No ophthalmic formulation is registered.
+
 ## Safety Considerations
 
 - **Disease contraindications (from the knowledge graph, not label text):** liver disease, gallbladder disease, paralytic ileus, intestinal obstruction, familial visceral myopathy, dysentery, diarrhoeal disease, infectious diarrhoeal disease, intestinal infectious disease.

@@ -86,7 +86,7 @@ No label-based warnings or contraindications were available in the data compiled
 
 Showing 5 of 6 registrations (valid registrations first).
 
-Both are single-ingredient, valid registrations for oral use. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
