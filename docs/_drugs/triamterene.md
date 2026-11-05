@@ -51,8 +51,8 @@ but currently there are **0 clinical trials** and **0 publications** directly su
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -98,7 +98,6 @@ No literature was retrieved for the top predicted indication. Two publications w
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| H1786 (ACT 101/1965) | Diamox Tablets 250 Mg | tablet | Valid |
 | 29/10.1/0295 | Loretic | tablet | Valid |
 | U/18.1/72 | Renezide | tablet | Cancelled |
 | G/18.1/71 | Dyazide Tablets | tablet | Cancelled |
