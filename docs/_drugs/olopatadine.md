@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 14 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,9 +85,15 @@ For context, the lower-ranked predictions have only indirect evidence:
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 53/21.5.1/0457 | Ryaltris | Spray | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/15.4/0189 | Patanol 5ml | drops | Valid |
+| 47/15.4/1224 | Olopagen Once Daily | drops | Valid |
+| 49/15.4/1078 | Olopagen | drops | Valid |
+| 49/15.4/1209 | Olotivo | tablet | Valid |
+| 53/21.5.1/0457 | Ryaltris | spray | Valid |
+
+Showing 5 of 14 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

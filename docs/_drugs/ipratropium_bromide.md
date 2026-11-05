@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -52,11 +52,11 @@ Ipratropium bromide is a well-established anticholinergic bronchodilator, widely
 | Predicted New Indication | **None** — TxGNN prediction was not generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — No prediction available |
-| South Africa Market Status | Marketed (valid licences: 9 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 19 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 19) |
 | Recommended Decision | **Hold** |
 
-> ⚠️ **Data Quality Flag:** Ipratropium bromide (e.g., Atrovent®) is a globally available bronchodilator. Zero SAHPRA registrations is unexpected and likely reflects a **data query mismatch** (e.g., spelling variant or salt-form mismatch) rather than true market absence. Manual verification against the SAHPRA online register is strongly recommended before drawing any regulatory conclusions.
+> ⚠️ **Data Quality Flag:** Ipratropium bromide (e.g., Atrovent®) is a globally available bronchodilator. Manual verification against the SAHPRA online register is strongly recommended before drawing any regulatory conclusions.
 
 ---
 
@@ -85,8 +85,6 @@ No TxGNN-predicted indication is available in this Evidence Pack. Literature evi
 ---
 
 ## South Africa Market Information
-
-No SAHPRA registration records were found for Ipratropium Bromide in the current data pull.
 
 > ⚠️ **Verification Required:** Ipratropium bromide preparations (e.g., Atrovent® by Boehringer Ingelheim) are known to be registered and routinely dispensed in South Africa, including in public sector formularies. A **manual search of the SAHPRA online register** using the INN "ipratropium" is strongly recommended to retrieve confirmed registration numbers, approved dosage forms, and the current Professional Information (PI) document.
 

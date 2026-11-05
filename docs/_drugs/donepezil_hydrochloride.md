@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -54,8 +54,8 @@ This Evidence Pack was generated with critical data gaps — the TxGNN pipeline 
 | Predicted New Indication | None returned by TxGNN |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — Model prediction not yet completed |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 37 of 42) |
+| Number of SAHPRA Registrations | 42 (valid: 37) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -74,9 +74,7 @@ Once TxGNN predictions are available, any predicted new indication should be eva
 
 ## South Africa Market Information
 
-Donepezil hydrochloride is currently **not registered with SAHPRA** and holds no marketing authorisation in South Africa. No registration records are available.
-
-> Donepezil is registered and in active clinical use in many other jurisdictions, including the United States (FDA), European Union (EMA), and United Kingdom (MHRA), for Alzheimer's disease. The absence of SAHPRA registration reflects the local regulatory status only.
+> Donepezil is registered and in active clinical use in many other jurisdictions, including the United States (FDA), European Union (EMA), and United Kingdom (MHRA), for Alzheimer's disease.
 
 ---
 
@@ -93,7 +91,6 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-This Evidence Pack is materially incomplete — there are no TxGNN-predicted indications, no SAHPRA registration data, and no verified safety information. A repurposing recommendation cannot responsibly be made in the absence of these foundational inputs.
 
 **To proceed, the following is needed:**
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Econazole: predicted new indication ectothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 | Predicted New Indication | ectothrix infectious disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 4 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,12 +82,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. R/18.6/179 | Gyno pevaryl depot | Vaginal cream | Not recorded in the local data |
-| Reg. No. Q/13.4.1/0220 | Pevisone | Cream | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| J/18.6/176 | Gyno pevaryl | vaginal cream | Valid |
+| 36/18.6/0130 | Vari-econazole nitrate mm vc | Vcr | Valid |
+| H/13.9.2/165 | Pevaryl spr sln 30g | Spr | Valid |
+| Q/13.4.1/0220 | Pevisone | cream | Valid |
+| R/18.6/179 | Gyno pevaryl depot | vaginal cream | Cancelled |
 
-Both registrations are currently valid. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 8 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ---
 

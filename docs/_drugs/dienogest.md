@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Dienogest: predicted new indication Amenorrhoea (evidence level L4). Approved use: Not available in the data compiled for this report (the approved indi…"
 monitor_inn: "Dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -48,8 +48,8 @@ Dienogest is a selective progestin. The data compiled for this report do not sta
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 12 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,9 +80,15 @@ None of these publications tests dienogest as a treatment for amenorrhoea.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 43/18.8/0591 | Qlaira | Tablet (oral) | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 44/21.8.2/0159 | Visanne | tablet | Valid |
+| 50/21.8.2/0082 | Endoact | tablet | Valid |
+| 51/21.8.2/0194 | Metrinelle | tablet | Valid |
+| 52/21.8.2/0336 | Rovulum | Fct | Valid |
+| 55/21.8.2/0035.034 | Dienogest Adco | tablet | Valid |
+
+Showing 5 of 14 registrations (valid registrations first).
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

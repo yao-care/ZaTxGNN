@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 325
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **2 registered clinical trials** (both only indirectly relevant) and **10 p
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 (see note below) |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 42 of 57) |
+| Number of SAHPRA Registrations | 57 (valid: 42) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The data compiled for this report assign L2. Strictly, the midazolam-specific studies are older randomised or comparative studies (1981–1990) in insomnia. The two registered trials are only indirectly relevant. No completed Phase 3 insomnia RCTs are listed.
@@ -104,9 +104,15 @@ Four further retrieved publications were judged indirect or not relevant: a lemb
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| T/2.2/207 | Dormicum | Injection | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/2.2/0078 | Dormicum | tablet | Valid |
+| 37/2.2/211 | Midazoject ampoule 5ml | injection | Valid |
+| 37/2.2/212 | Midazoject ampoule 3ml | injection | Valid |
+| 37/2.2/213 | Midazoject ampoule 10ml | injection | Valid |
+| 38/2.2/0565 | Pharma-q midazolam ampoule 3ml | injection | Valid |
+
+Showing 5 of 57 registrations (valid registrations first).
 
 Essential Medicines List (EML) status was not available in the data compiled for this report.
 

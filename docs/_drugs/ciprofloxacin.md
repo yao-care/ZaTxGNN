@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This is a model-driven hypothesis with limited supporting evidence.
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 77 of 108) |
+| Number of SAHPRA Registrations | 108 (valid: 77) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,15 +88,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Ciprofloxacin has 8 valid single-ingredient SAHPRA registrations and no cancelled ones. The five below are shown; the other three are Biofloxx 500, Ciploxx 250 and Xindex. Approved indication text and Essential Medicines List status are not available in the data compiled for this report.
+Approved indication text and Essential Medicines List status are not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 36/20.1.1/0377 | Ciploxx 500 | Tablet | Not stated in compiled data |
-| Reg. No. 35/20.1.1/0101 | Orpic | Tablet | Not stated in compiled data |
-| Reg. No. A39/20.1.1/0646 | Sabax-ciprofloxacin 50ml | Infusion | Not stated in compiled data |
-| Reg. No. 33/16.2/0024 | Ciprobay HC Otic Drops | Drops | Not stated in compiled data |
-| Reg. No. A40/15.1/0048 | Ceprolen 5ml | Drops | Not stated in compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/20.1.1/0118 | Ciprofloxacin 250 pharma-q | tablet | Valid |
+| 32/20.1.1/0119 | Ciprofloxacin 500 pharma-q | tablet | Valid |
+| 33/20.1.1/0365 | Cifran 250 | tablet | Valid |
+| 33/20.1.1/0366 | Cifran 500 | tablet | Valid |
+| 33/20.1.1/0371 | Simayla ciprofloxacin | tablet | Valid |
+
+Showing 5 of 108 registrations (valid registrations first).
 
 Oral and injectable forms are available locally. For scleroderma, the oral route is the one studied in the available literature.
 

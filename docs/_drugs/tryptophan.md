@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 463
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not stated"
 monitor_inn: "Tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -50,8 +50,8 @@ Evidence is limited and dated, so this is a research-level opportunity, not a re
 | Predicted New Indication | Insomnia (the top-ranked TxGNN prediction is restless legs syndrome, but insomnia has the strongest supporting evidence, so it is the focus of this report) |
 | TxGNN Prediction Score | Insomnia: 0.9947 (restless legs syndrome, rank 1: 0.9972) |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 8 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 15 of 16) |
+| Number of SAHPRA Registrations | 16 (valid: 15) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -85,17 +85,17 @@ For restless legs syndrome, the supporting evidence consists of small 1986-1987 
 
 ## South Africa Market Information
 
-Tryptophan is registered only as a component of multi-ingredient infusion products. All 9 registrations are valid single-entity registrations, and no approved indication text is available in the data compiled for this report. The Essential Medicines List (EML) status was not available.
+Tryptophan is registered only as a component of multi-ingredient infusion products. The Essential Medicines List (EML) status was not available.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not available |
-| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not available |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not available |
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
-Four further registrations are not listed: Adco-ipratropium (Reg. No. 33/10.2.1/0271), Numeta G16E, Nutriflex Omega Specialized and Nutriflex lipid special 625ml.
+Showing 5 of 16 registrations (valid registrations first).
 
 **Note:** all registered forms are infusions. There is no registered oral tryptophan product in the data compiled for this report, and an oral formulation would be needed for insomnia. Route compatibility has not been assessed.
 

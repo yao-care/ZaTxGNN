@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be effective for **gaze palsy, familial horizont
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 73 of 90) |
+| Number of SAHPRA Registrations | 90 (valid: 73) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,9 +70,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 42/2.6.5/0179 | Abilify im 1.3ml vial | Injection | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/2.6.5/0493 | Abilify | tablet | Valid |
+| 42/2.6.5/0179 | Abilify im 1.3ml vial | injection | Valid |
+| 46/2.6.5/0874 | Arizofy | tablet | Valid |
+| 46/2.6.5/0875 | Arizofy | tablet | Valid |
+| 46/2.6.5/0876 | Arizofy | tablet | Valid |
+
+Showing 5 of 90 registrations (valid registrations first).
 
 Aripiprazole is marketed in South Africa as a single-ingredient injectable. Essential Medicines List status is not available in the compiled data.
 

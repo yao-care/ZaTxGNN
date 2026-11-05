@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "DORAVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Doravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Number of approvals | 1 SAHPRA registration (a single-ingredient record) |
 | Recommended Decision | Hold |
 
@@ -74,9 +74,10 @@ Currently no related literature available for feline acquired immunodeficiency s
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 53/20.2.8/0233 | Delstrigo | Film-coated tablet (Fct) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 53/20.2.8/0232 | Pifeltro | Fct | Valid |
+| 53/20.2.8/0233 | Delstrigo | Fct | Valid |
 
 Delstrigo is a registered product, and the data compiled for this report do not describe how doravirine is licensed or marketed as a single ingredient. Essential Medicines List inclusion status was not available.
 

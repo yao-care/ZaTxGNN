@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Tenofovir Alafenamide: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
 ---
 
@@ -52,8 +52,8 @@ There are **no registered clinical trials** and **8 publications** (all preclini
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 36 of 37) |
+| Number of SAHPRA Registrations | 37 (valid: 36) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,14 +91,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-All four registrations are valid, single-ingredient products. The licence records compiled for this report contain no approved indication text, and Essential Medicines List status is not available.
+The licence records compiled for this report contain no approved indication text, and Essential Medicines List status is not available.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 52/20.2.8/0273 | Vemlidy | Film-coated tablet | Not stated in the records |
-| Reg. No. 55/20.2.8/0080.079 | Tafbin | Film-coated tablet | Not stated in the records |
-| Reg. No. 55/20.2.8/0455 | Altaeda | Film-coated tablet | Not stated in the records |
-| Reg. No. 56/20.2.8/0020 | Tavirant | Film-coated tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 52/20.2.8/0273 | Vemlidy | Fct | Valid |
+| 54/20.2.8/0705 | Envuteg | Fct | Valid |
+| 55/20.2.8/0080.079 | Tafbin | Fct | Valid |
+| 55/20.2.8/0455 | Altaeda | Fct | Valid |
+| 56/20.2.8/0020 | Tavirant | Fct | Valid |
+
+Showing 5 of 37 registrations (valid registrations first).
 
 ---
 

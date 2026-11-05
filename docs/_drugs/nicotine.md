@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 341
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Nicotine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nicotine, so
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 21 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 21) |
 
 ## Known uses recorded for this drug
 
@@ -76,8 +76,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nicotine, so
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| A/21.8.1/743 | Menoflush | tablet | Valid |
-| H2466 | Complenatal Ff | capsule | Valid |
+| 29/34/0150 | Nicorette | patch | Valid |
+| 29/34/0392 | Quit 1/2/3/4 | inhaler | Valid |
+| 30/24/0273 | Nicorette | tablet | Valid |
+| 45/32.16/0952 | Nicorette Transdermal Patch 10Mg | patch | Valid |
+| 45/32.16/0953 | Nicorette Transdermal Patch 15Mg | patch | Valid |
+
+Showing 5 of 31 registrations (valid registrations first).
 
 ## Safety Considerations
 

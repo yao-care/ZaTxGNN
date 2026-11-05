@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "L-Lysine"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
 description: "L-Lysine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **gastroparesis**, but there ar
 | Predicted New Indication | Gastroparesis (disease) |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 23 of 40) |
+| Number of SAHPRA Registrations | 40 (valid: 23) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,15 +87,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-All five registrations are valid single-ingredient licences. No approved indication text is available for any of them. The Essential Medicines List (EML) status of these products could not be determined from the data compiled for this report.
+No approved indication text is available for any of them. The Essential Medicines List (EML) status of these products could not be determined from the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not available |
-| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not available |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | Infusion | Not available |
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available |
-| Reg. No. 41/25/0759 | Nutriflex lipid special 625ml | TPN | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
+
+Showing 5 of 40 registrations (valid registrations first).
 
 ---
 

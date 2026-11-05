@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease and related parkinsonian syndromes"
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -50,8 +50,8 @@ The evidence is model-based only, so this top prediction should be treated as a 
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 7 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -102,12 +102,17 @@ For Lewy body dementia (rank 7), two preclinical publications were identified:
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 8/5.4.1/0138 | Stalevo 100/25 | Tablet (oral) | Indication text not available in the compiled data |
-| Reg. No. 38/5.4.1/0137 | Stalevo 150/37.5 | Tablet (oral) | Indication text not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/5.4.1/0684 | Comtan | tablet | Valid |
+| 49/5.4.1/1067 | Enkobist 200 | Fct | Valid |
+| 38/5.4.1/0137 | Stalevo 150/37.5 | tablet | Valid |
+| 8/5.4.1/0067 | Stalevo 50/12.5 | tablet | Valid |
+| 8/5.4.1/0138 | Stalevo 100/25 | tablet | Valid |
 
-Both registrations are valid and none are cancelled. The data compiled for this report do not state Essential Medicines List (EML) status.
+Showing 5 of 7 registrations (valid registrations first).
+
+The data compiled for this report do not state Essential Medicines List (EML) status.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Oxetacaine
 parent: Known Uses Only (No New Predictions)
 nav_order: 360
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Oxetacaine: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Oxetacaine"
 predicted_indications: []
@@ -43,14 +43,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| E/11.4.3/1223 | Mucaine | Suspension | Not recorded in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| E/11.4.3/1223 | Mucaine | suspension | Valid |
+| E/11.4.3/1224 | Mucaine Tablet | Not recorded | Cancelled |
 
 The registration is a valid single-ingredient product. The Essential Medicines List (EML) status of oxetacaine could not be determined from the data compiled for this report.
 

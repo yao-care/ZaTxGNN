@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cycloserine"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Cycloserine: predicted new indication irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Cycloserine is an antibiotic that is also an NMDA receptor partial agonist at th
 | Predicted New Indication | irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 0) |
+| South Africa Market Status | Marketed (valid licences: 4 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/20.1.1/0036 | Aspen Cycloserine | capsule | Valid |
+| 42/20.1.1/0542 | Medivision Cycloserine 250 | capsule | Valid |
+| 57/20.1.1/0156 | Cycloserine 250 mg Pd | capsule | Valid |
+| 58/20.1.1/0041 | Serestip | capsule | Valid |
+| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | infusion | Cancelled |
 
-Cycloserine is listed with one valid single-ingredient registration. The Essential Medicines List status is not stated in the data compiled for this report.
+The Essential Medicines List status is not stated in the data compiled for this report.
 
 ---
 

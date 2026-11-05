@@ -5,7 +5,7 @@ layout: default
 title: Ornithine
 parent: Known Uses Only (No New Predictions)
 nav_order: 357
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Ornithine: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Ornithine"
 predicted_indications: []
@@ -43,17 +43,18 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not stated in the data compiled |
-| Reg. No. 52/25/0740 | Numeta G16E | Infusion | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 52/25/0739 | Numeta G13E | infusion | Valid |
+| 52/25/0740 | Numeta G16E | infusion | Valid |
+| 52/25/0741 | Numeta G19E | Not recorded | Valid |
 
-Both registrations are valid single-ingredient entries, and both are injectable (infusion) forms only. Essential Medicines List status could not be determined from the data compiled for this report.
+Essential Medicines List status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 

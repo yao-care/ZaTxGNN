@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "OXYMETAZOLINE"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
 description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are **no registered clinical trials** and only **5 publications** (mos
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 24 of 42) |
+| Number of SAHPRA Registrations | 42 (valid: 24) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,9 +91,15 @@ None of these is a randomised trial of oxymetazoline in nasal cavity disease, so
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H1501 (OM) | Nazene Z 20ml | Spray | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/16.1/0366 | Iliadin baby 5ml | Nod | Valid |
+| 44/16.1/0745 | Sinarest 0,025 % | spray | Valid |
+| 44/16.1/0746 | Sinarest 0,05 % | spray | Valid |
+| 45/16.1/0232 | Oxyspray moisturising 23ml | spray | Valid |
+| 47/16.1/0792 | Oxymist 0,025 | spray | Valid |
+
+Showing 5 of 42 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

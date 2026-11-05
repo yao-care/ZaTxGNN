@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L3). Approved use: Not stated in the registration data compiled for this report (desoges…"
 monitor_inn: "Desogestrel"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -52,8 +52,8 @@ with **1 clinical trial** (indirect relevance) and **11 publications** currently
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 7 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,12 +94,17 @@ The mechanism is plausible, but in amenorrhea the benefit is mostly cycle manage
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 49/18.8/0711 | Merdeza | Tablet (oral) | Not available in the data compiled for this report |
-| Reg. No. Y/18.8/78 | Mercilon | Tablet (oral) | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| Q18.8/324 | Marvelon 150/30 | tablet | Valid |
+| 48/18.8/1041 | Desimar | tablet | Valid |
+| 49/18.8/0711 | Merdeza | tablet | Valid |
+| Y/18.8/78 | Mercilon | tablet | Valid |
+| 46/34/0891 | Cerazette | tablet | Valid |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
+Showing 5 of 8 registrations (valid registrations first).
+
+Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 
 ---
 

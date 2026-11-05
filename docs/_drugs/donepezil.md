@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Donepezil is a cholinesterase inhibitor that is marketed in South Africa. The Tx
 | Predicted New Indication | Psychogenic movement disorders |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 37 of 42) |
+| Number of SAHPRA Registrations | 42 (valid: 37) |
 | Recommended Decision | Hold |
 
 ---
@@ -78,9 +78,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 46/7.1.3/0744 | Valheft 80 | Fct (film-coated tablet) | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/5.3/0315 | Aricept | tablet | Valid |
+| 32/5.3/0316 | Aricept | tablet | Valid |
+| 41/5.3/0836 | Ariknow 10 | Fct | Valid |
+| 41/5.3/0837 | Ran Donepezil 5 | tablet | Valid |
+| 41/5.3/0838 | Ran Donepezil 10 | tablet | Valid |
+
+Showing 5 of 42 registrations (valid registrations first).
 
 This is a single-ingredient product with a valid registration. Essential Medicines List status is not available in the data compiled for this report.
 

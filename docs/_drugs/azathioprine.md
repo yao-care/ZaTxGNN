@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Azathioprine: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ No clinical trials or publications were found for this prediction, so it rests o
 | Predicted New Indication | colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 7 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,12 +80,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 37/26/0692 | Azathioprine 50 pch | Tablet | Not recorded in the local data |
-| Reg. No. D/26/98 | Imuran | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/26/0006 | Azamun | tablet | Valid |
+| 37/26/0692 | Azathioprine 50 pch | tablet | Valid |
+| D/26/98 | Imuran | tablet | Valid |
+| H.2746 | Imuran vial powder for reconstitution | injection | Valid |
+| L/26/413 | Azapress | tablet | Valid |
 
-Both registrations are valid single-ingredient products for oral use. The data compiled for this report does not show Essential Medicines List status.
+Showing 5 of 9 registrations (valid registrations first).
+
+The data compiled for this report does not show Essential Medicines List status.
 
 ---
 

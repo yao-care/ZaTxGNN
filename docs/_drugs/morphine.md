@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Morphine is an opioid analgesic that acts as a mu-opioid receptor agonist. The T
 | Predicted New Indication | Myofascial pain syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 31 of 38) |
+| Number of SAHPRA Registrations | 38 (valid: 31) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,13 +79,17 @@ None of the publications below tests morphine as a treatment for myofascial pain
 
 ## South Africa Market Information
 
-Morphine-containing products are marketed in South Africa, and all three registrations in the data compiled for this report are valid single-ingredient records. No approved-indication text is recorded for them.
+No approved-indication text is recorded for them.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BV329 | Opium Camphorated Tinct | Liquid | Not available in the data compiled |
-| B769 (ACT 101) | Cyclimorph 1ml | Injection | Not available in the data compiled |
-| G2815 | Toothache Essence (Dozen) | Liquid | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| B 930(ACT 101/1965) | Morphine sulph fresenius ampoule 1ml | injection | Valid |
+| B 931(ACT 101/1965) | Morphine sulph fresenius | injection | Valid |
+| BV329 | Opium Camphorated Tinct | liquid | Valid |
+| R/2.9/294 | Mst continus | Srt | Valid |
+| R/2.9/295 | Mst continus | Srt | Valid |
+
+Showing 5 of 38 registrations (valid registrations first).
 
 ## Safety Considerations
 

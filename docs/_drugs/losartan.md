@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 303
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "LOSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ but there are currently **no registered clinical trials** and only **2 publicati
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 14 of 18) |
-| Number of SAHPRA Registrations | 18 (valid: 14) |
+| South Africa Market Status | Marketed (valid licences: 79 of 108) |
+| Number of SAHPRA Registrations | 108 (valid: 79) |
 | Recommended Decision | Hold |
 
 The SAHPRA registration records compiled for this report do not include approved indication text.*
@@ -91,17 +91,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Losartan is registered in South Africa as single-ingredient and fixed-dose combination tablets (many combined with hydrochlorothiazide, e.g. 50/12.5 mg and 100/25 mg). All 18 registrations are currently valid. The records compiled for this report do not include approved indication text, and Essential Medicines List (EML) status is not available in the data.
+Losartan is registered in South Africa as single-ingredient and fixed-dose combination tablets (many combined with hydrochlorothiazide, e.g. 50/12.5 mg and 100/25 mg). The records compiled for this report do not include approved indication text, and Essential Medicines List (EML) status is not available in the data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/7.1.3/0824 | Losartan 50 Strides | Tablet | Not available |
-| Reg. No. 41/7.1.3/1075 | Spec-losartan | Tablet | Not available |
-| Reg. No. 41/7.1.3/0821 | Ciplazar | Tablet | Not available |
-| Reg. No. 41/7.1.3/0497 | Austell losartan | Tablet | Not available |
-| Reg. No. 37/7.1.3/0281 | Fortzaar 100mg/25mg | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/7.1.3/0268 | Cozaar | tablet | Valid |
+| 36/7.1.3/0490 | Cozaar | tablet | Valid |
+| 41/7.1.3/0287 | Zartan | tablet | Valid |
+| 41/7.1.3/0289 | Zartan | tablet | Valid |
+| 41/7.1.3/0497 | Austell losartan | tablet | Valid |
 
-Showing 5 of 18 registrations.
+Showing 5 of 108 registrations (valid registrations first).
 
 ---
 

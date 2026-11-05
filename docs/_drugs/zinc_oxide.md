@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 480
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Zinc oxide"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
 description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **acne (disease)**, but there are 
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 31 of 50) |
+| Number of SAHPRA Registrations | 50 (valid: 31) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,14 +75,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H990 (OM) | Achromide | Ointment | Not stated in the data compiled for this report |
-| G2011 (OM) | Biohist | Syrup | Not stated in the data compiled for this report |
-| E512 | Anugesic | Suppository | Not stated in the data compiled for this report |
-| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| E512 | Anugesic | suppository | Valid |
+| H990 (OM) | Achromide | ointment | Valid |
+| 33/34/0168 | Calamine LOTION-DAROL | lotion | Valid |
+| 83/534 | Curatex | emulsion | Valid |
+| BV0086 | Calamine Lotion | Not recorded | Valid |
 
-All four registrations are valid single-ingredient entries. Essential Medicines List (EML) status was not available in the data compiled for this report. The dosage forms (syrup, suppository, vial) do not match a typical topical zinc oxide product, so the product-to-ingredient mapping should be verified against the SAHPRA register before relying on it.
+Showing 5 of 50 registrations (valid registrations first).
+
+Essential Medicines List (EML) status was not available in the data compiled for this report. The dosage forms (syrup, suppository, vial) do not match a typical topical zinc oxide product, so the product-to-ingredient mapping should be verified against the SAHPRA register before relying on it.
 
 ## Safety Considerations
 

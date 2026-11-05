@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "MEPYRAMINE"
 predicted_indications: ["nasal cavity disease"]
 description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Because urticaria and angioedema are already among its labelled uses, this predi
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 30 of 60) |
+| Number of SAHPRA Registrations | 60 (valid: 30) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,15 +88,17 @@ All retrieved literature is indirect. None of it tests mepyramine for allergic u
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G1260 (ACT101) | Codomil new formula | Syrup | Not available |
-| G892 (OM) | Adco-Metaxol | Suspension | Not available |
-| C739 | Sinu-flu (was Universal cold & flu) | Tablet | Not available |
-| G1236 | Codef Cough | Syrup | Not available |
-| B0917 (ACT 101) | Vidol teething powders | Powder | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| C 791(ACT 101) | Mepyramine Maleate Fresenius 50Mg | injection | Valid |
+| C790 (OM) | Mepyrimal | syrup | Valid |
+| 29/5.7.1/0026 | Antihist 2ml | injection | Valid |
+| 34/13.4/0471 | Mepyraderm | cream | Valid |
+| C739 | Sinu-flu (was Universal cold & flu) | tablet | Valid |
 
-Eight valid single-ingredient registrations exist in total; the five above are shown. The remaining three are Docsed (G0616), Coughcod senior (G1071) and Coughcod junior (G1027), all syrups. No registrations are cancelled. Essential Medicines List status could not be determined from the data compiled for this report.
+Showing 5 of 60 registrations (valid registrations first).
+
+Essential Medicines List status could not be determined from the data compiled for this report.
 
 ---
 

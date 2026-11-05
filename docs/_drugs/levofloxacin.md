@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 53 of 84) |
+| Number of SAHPRA Registrations | 84 (valid: 53) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,14 +71,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 44/20.1.1/0249 | Zybact 250 Mg | Tablet | Not available in data compiled |
-| Reg. No. A39/20.1.1/0578 | Levofloxacin-winthrop IV sol for infusion | Infusion | Not available in data compiled |
-| Reg. No. 42/20.1.1/0632 | Lintrip 250 | Tablet | Not available in data compiled |
-| Reg. No. 46/20.1.1/0978 | Levojub 500 | Film-coated tablet (Fct) | Not available in data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/20.1.1/1018 | Austell levofloxacin | tablet | Valid |
+| 41/20.1.1/1019 | Austell levofloxacin | tablet | Valid |
+| 41/20.14.1/008 | Tavaloxx 500 | tablet | Valid |
+| 41/20.14.1/009 | Tavaloxx | tablet | Valid |
+| 42/20.1.1/0632 | Lintrip 250 | tablet | Valid |
 
-Three of the four registrations are valid and one is cancelled. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 84 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

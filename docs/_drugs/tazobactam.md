@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 435
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Tazobactam: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tazobacta
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 24 of 33) |
+| Number of SAHPRA Registrations | 33 (valid: 24) |
 
 ## Known uses among the model's candidates
 
@@ -74,7 +74,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tazobacta
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 36/1.2/0273 | Serlife | tablet | Valid |
+| 37/20.1.1/0454 | Tazobax powder for reconstitution vial | injection | Valid |
+| 42/20.1.1/0695 | Caplin vial powder for solution vial 50m | infusion | Valid |
+| 44/20.1.1/0082 | Razobin 4 powder for injection vial | injection | Valid |
+| 44/20.1.1/0274 | Pirabax 4/0.5 powder for solution for in | infusion | Valid |
+| 45/20.1.1/1173 | Piperacillin/tazobactam fresenius powder | infusion | Valid |
+
+Showing 5 of 33 registrations (valid registrations first).
 
 ## Safety Considerations
 

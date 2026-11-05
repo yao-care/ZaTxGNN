@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Artemether"
 predicted_indications: ["acquired angioedema", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Artemether: predicted new indication acquired angioedema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **acquired angioedema**, but ther
 | Predicted New Indication | acquired angioedema |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +79,13 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 34/20.2.6 /0161 | Coartem | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/20.2.6/0161 | Coartem | tablet | Valid |
+| 61/20.2.6/1375 | Lumiter 20/120 mg | tablet | Valid |
+| 43/20.2.6/0225 | Coartem 20 mg/120 mg Dispersible Tablets | tablet | Cancelled |
 
-Coartem is the only registered product in the data. Its Essential Medicines List status is not recorded in the data compiled for this report.
+Its Essential Medicines List status is not recorded in the data compiled for this report.
 
 ---
 

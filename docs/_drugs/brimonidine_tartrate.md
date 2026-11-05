@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ Brimonidine tartrate is an alpha-2 adrenergic agonist with established clinical 
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | — |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -74,7 +74,6 @@ The TxGNN model returned zero repurposing candidates for brimonidine tartrate in
 - **Resolve DrugBank ID** (DG002 prerequisite): The evidence pack records no DrugBank ID for this drug despite a successful DrugBank query (`result_count: 1`). Extract and populate the DrugBank ID from that result, then re-run the TxGNN prediction pipeline to confirm that brimonidine tartrate maps to at least one disease node in the knowledge graph.
 - **Retrieve MOA data** (DG002 — High severity): Once the DrugBank ID is resolved, query the DrugBank API to obtain mechanism of action, pharmacodynamics, and drug class information. This is required for the mechanistic plausibility analysis.
 - **Retrieve safety data** (DG001 — **Blocking** severity): Download and parse the SAHPRA-approved Professional Information (PI) PDF to extract warnings, contraindications, and drug interactions. This must be resolved before any safety screen can be initiated.
-- **Verify SAHPRA registration status**: Zero licences are currently recorded. Confirm whether registered products containing brimonidine tartrate (e.g., Alphagan®, Mirvaso®) hold current SAHPRA registrations or were withdrawn — zero entries may reflect a data retrieval gap rather than true non-registration.
 - **Re-run the full evidence collection pipeline**: Once a valid repurposing candidate is generated, populate clinical trial and literature evidence via the ClinicalTrials.gov, PubMed, and ICTRP collectors before repeating this evaluation.
 ## Disclaimer
 

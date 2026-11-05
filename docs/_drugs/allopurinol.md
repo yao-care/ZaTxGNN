@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "primitive portal vein thrombosis", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Gout"
 ---
 
@@ -50,8 +50,8 @@ Allopurinol is a xanthine oxidase inhibitor whose relations recorded in the know
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 44 of 56) |
+| Number of SAHPRA Registrations | 56 (valid: 44) |
 | Recommended Decision | Hold |
 
 ---
@@ -83,9 +83,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| P/3.3/180 | Allopurinol 100 cipla | Tablet (oral) | No indication text available in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/3.3/0229 | Adco allopurinol | tablet | Valid |
+| 49/3.3/0016 | Austell allopurinol | tablet | Valid |
+| 49/3.3/0017 | Austell allopurinol | tablet | Valid |
+| 49/3.3/0020 | Lessuric 100 | tablet | Valid |
+| 49/3.3/0021 | Lessuric 300 | tablet | Valid |
+
+Showing 5 of 56 registrations (valid registrations first).
 
 Essential Medicines List status could not be determined from the data compiled for this report.
 

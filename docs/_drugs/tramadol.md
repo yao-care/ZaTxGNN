@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 77 of 83) |
+| Number of SAHPRA Registrations | 83 (valid: 77) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,17 +71,17 @@ Currently no related literature available for tramadol in this predicted indicat
 
 ## South Africa Market Information
 
-Tramadol is marketed in South Africa under 9 valid SAHPRA registrations, all single-ingredient entries. Approved indication text and Essential Medicines List (EML) status were not available in the data compiled for this report. Some product names (for example Tramazac co, Painogesic Co, Dytracet, Tamoltra) suggest tramadol/paracetamol combinations, although the records classify them as single entries. Please confirm the composition in the Professional Information (PI).
+Approved indication text and Essential Medicines List (EML) status were not available in the data compiled for this report. Some product names (for example Tramazac co, Painogesic Co, Dytracet, Tamoltra) suggest tramadol/paracetamol combinations, although the records classify them as single entries.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 32/2.9/0652 | Tramahexal | Capsule | Not available |
-| Reg. No. 44/2.9/0496 | Tramazac SR | Sustained-release tablet (Srt) | Not available |
-| Reg. No. 36/2.9/0337 | Dolotram 50 | Injection | Not available |
-| Reg. No. 37/2.9/0532 | Dolotram | Capsule | Not available |
-| Reg. No. 54/2.9/0185 | Domadol Plus | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/2.9/0646 | Tramal sr | Srt | Valid |
+| 31/2.9/0647 | Tramal sr | Srt | Valid |
+| 32/2.9/0652 | Tramahexal | capsule | Valid |
+| 37/2.9/0532 | Dolotram | capsule | Valid |
+| 37/2.9/0596 | Domadol | capsule | Valid |
 
-Four further registrations are valid: Tramazac co 37.5mg/325mg (45/2.9/0303), Painogesic Co (A 48/2.9/0774), Dytracet (45/2.9/0747) and Tamoltra 37.5mg/325mg (46/2.9/0976).
+Showing 5 of 83 registrations (valid registrations first).
 
 ## Safety Considerations
 

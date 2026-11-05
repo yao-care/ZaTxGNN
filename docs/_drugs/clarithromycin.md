@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Clarithromycin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Relations recorded in the knowledge graph: infectious otitis media…"
 ---
 
@@ -48,8 +48,8 @@ Clarithromycin is a macrolide antibiotic. The TxGNN model (deep learning) predic
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 53 of 58) |
+| Number of SAHPRA Registrations | 58 (valid: 53) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,12 +68,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 51/20.1.1/0193 | Claribax | Tablet | Not stated in the data compiled |
-| A38/20.1.1/0631 | Mylan clarithromycin | Tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/20.1.1/0264 | Klacid i.v. | injection | Valid |
+| 29/20.1.1/0163 | Clacee | tablet | Valid |
+| 31/20.2.2/0379 | Klacid xl | Srt | Valid |
+| 37/20.1.1/0437 | Klarithran | tablet | Valid |
+| 37/20.1.1/0439 | Simayla Clarithromycin 500 | tablet | Valid |
 
-Both registrations are single-ingredient, valid oral tablet products. Essential Medicines List status is not included in the data compiled for this report.
+Showing 5 of 58 registrations (valid registrations first).
+
+Essential Medicines List status is not included in the data compiled for this report.
 
 ## Safety Considerations
 

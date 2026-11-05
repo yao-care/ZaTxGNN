@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Anaplastic astrocytoma, astrocytoma (excluding glioblastoma)…"
 ---
 
@@ -48,8 +48,8 @@ Temozolomide is an oral alkylating chemotherapy agent. The knowledge graph recor
 | Predicted New Indication | Cauda equina neoplasm |
 | TxGNN Prediction Score | 0.9930 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 18 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,15 @@ Only the first report is relevant to this prediction, and it concerns a related 
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 32/26/0724 | Temodal 250 Mg Capsules | Capsule | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/26/0721 | Temodal 5 Mg Capsules | capsule | Valid |
+| 32/26/0722 | Temodal 20 Mg Capsule | capsule | Valid |
+| 32/26/0723 | Temodal 100 Mg Capsules | capsule | Valid |
+| 32/26/0724 | Temodal 250 Mg Capsules | capsule | Valid |
+| 42/26/0961 | Temodal 140 Mg | capsule | Valid |
+
+Showing 5 of 18 registrations (valid registrations first).
 
 ## Cytotoxicity
 

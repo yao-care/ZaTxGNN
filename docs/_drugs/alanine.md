@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Alanine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not stated in the registration data compiled for this report (all app…"
 monitor_inn: "Alanine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **gastroparesis**, but **no clinic
 | Predicted New Indication | Gastroparesis (disease) |
 | TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 36 of 55) |
+| Number of SAHPRA Registrations | 55 (valid: 36) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,6 @@ Currently, detailed mechanism of action data is not available. Alanine is a non-
 No credible mechanistic link to gastroparesis could be established from the data compiled for this report. The retrieved literature concerns gastrointestinal and hepatic complications in renal disease and diabetes. It mentions gastroparesis only as a comorbidity and does not address gastric motility or alanine as a therapy.
 
 The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis, not as supporting evidence.
-
 
 ## Clinical Trial Evidence
 
@@ -76,19 +75,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-All nine registrations are valid single-ingredient registrations. No approved indication text is available for any of them, and no Essential Medicines List (EML) status could be determined from the data compiled for this report.
+No approved indication text is available for any of them, and no Essential Medicines List (EML) status could be determined from the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not available |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not available |
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not available |
-| Reg. No. 52/25/0740 | Numeta G16E | Infusion | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/23/0210 | Dipeptiven 100ml | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 
-Four more registrations are not listed above: Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036), Nutriflex Omega Specialized (49/25/0065) and Nutriflex lipid special 625ml (41/25/0759).
-
-The Adco-ipratropium entry looks inconsistent with an alanine-containing product. Its registration should be verified.
+Showing 5 of 55 registrations (valid registrations first).
 
 ## Safety Considerations
 

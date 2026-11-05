@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,10 +71,10 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. X/18.8/46 | Cilest | Tablet | Not stated in the data compiled for this report |
-| Reg. No. X/18.8/47 | Tricilest | Tablet | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| X/18.8/46 | Cilest | tablet | Valid |
+| X/18.8/47 | Tricilest | tablet | Valid |
 
 Both registrations are valid, single-ingredient entries for oral tablets. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

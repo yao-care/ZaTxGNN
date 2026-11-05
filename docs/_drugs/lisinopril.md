@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **posterolateral myocardial infarctio
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 (top-ranked prediction); L3 for chronic pulmonary heart disease |
-| South Africa Market Status | Marketed (valid licences: 7 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 42 of 68) |
+| Number of SAHPRA Registrations | 68 (valid: 42) |
 | Recommended Decision | Hold (top-ranked prediction); research question for chronic pulmonary heart disease |
 
 ---
@@ -99,17 +99,17 @@ Other indications:
 
 ## South Africa Market Information
 
-All 9 registrations are valid, single-ingredient entries in tablet form (oral). Approved indication text is not available in the data compiled for this report. Several products are lisinopril/hydrochlorothiazide combinations, judging by their names (for example, the "co" and "Lisoretic" products). Essential Medicines List status could not be determined from the available data.
+Approved indication text is not available in the data compiled for this report. Several products are lisinopril/hydrochlorothiazide combinations, judging by their names (for example, the "co" and "Lisoretic" products). Essential Medicines List status could not be determined from the available data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 33/7.1.3/0513 | Adco-zetomax | Tablet | Not available |
-| 37/7.1.3/0392 | Austell-lisinopril | Tablet | Not available |
-| 41/7.1.3/1050 | Lisinozide 10 Mg | Tablet | Not available |
-| 37/7.1.3/0160 | Adco-zetomax co 10/12.5 | Tablet | Not available |
-| 36/7.1.3/0114 | Simayla Lisinopril 20 | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/7.1.3/0513 | Adco-zetomax | tablet | Valid |
+| 33/7.1.3/0514 | Adco-zetomax | tablet | Valid |
+| 33/7.1.3/0515 | Adco-zetomax | tablet | Valid |
+| 35/7.1.3/0209 | Sinopren | tablet | Valid |
+| 35/7.1.3/0210 | Sinopren | tablet | Valid |
 
-Four further registrations are not listed here: Lisoretic 20/12.5, Lisoretic 10/12.5, Zestozide 20, and Lisinopril co unicorn 10mg/12.5mg.
+Showing 5 of 68 registrations (valid registrations first).
 
 ---
 

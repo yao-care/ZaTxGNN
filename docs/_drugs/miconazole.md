@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 324
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Miconazole is an imidazole antifungal used on the skin and mucous membranes. The
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 6 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 12 of 22) |
+| Number of SAHPRA Registrations | 22 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,15 +75,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Six of the nine SAHPRA registrations are currently valid and three are cancelled. All are single-ingredient records. No approved indication text is recorded for any of them. Essential Medicines List (EML) status is not available in the data compiled for this report.
+No approved indication text is recorded for any of them. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 34/13.9.2/0182 | Dermazole | Cream | Not available |
-| 36/20.2.2/0233 | Vari miconazole 2% | Gel (recorded as "Geo") | Not available |
-| 33/13.9.2/0124 | Covarex | Cream | Not available |
-| 36/13.9.2/0509 | Sutharex Cream | Cream | Not available |
-| X/13.12/292 | Acneclear | Cream | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/20.2.2/0630 | Micmat | tablet | Valid |
+| L/20.2.2/183 | Daktarin oral | Geo | Valid |
+| 33/13.9.2/0124 | Covarex | cream | Valid |
+| 34/13.9.2/0182 | Dermazole | cream | Valid |
+| 35/13.4.1/0392 | Elozart | cream | Valid |
+
+Showing 5 of 22 registrations (valid registrations first).
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 164
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Darunavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection / AIDS"
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 31 of 37) |
+| Number of SAHPRA Registrations | 37 (valid: 31) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,9 +93,15 @@ All four studies are indirect: they test ART regimens or adjunct agents, not dar
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 56/20.2.8/0838 | Ronivid 400/50 Mg | Film-coated tablet (Fct) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/20.2.8/0747 | Prezista | tablet | Valid |
+| 45/20.2.8/0616 | Prezista | tablet | Valid |
+| 46/20.2.8/0850 | Prezista | tablet | Valid |
+| 46/20.2.8/0851 | Prezista | tablet | Valid |
+| 47/20.2.8/1173 | Prezista 400Mg | Fct | Valid |
+
+Showing 5 of 37 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

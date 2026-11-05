@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **biotin metabolic disease**, b
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 (model prediction only; the supporting literature is indirect and does not test folic acid in this condition) |
-| South Africa Market Status | Marketed (valid licences: 10 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 46 of 55) |
+| Number of SAHPRA Registrations | 55 (valid: 46) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,17 +93,19 @@ These publications address vitamins in general. None demonstrates that folic aci
 
 ## South Africa Market Information
 
-All 11 registrations are valid single-ingredient entries. No approved-indication text is recorded for any of them. The five main ones are listed below. Essential Medicines List (EML) status was not available in the data compiled for this report.
+No approved-indication text is recorded for any of them. The five main ones are listed below. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A40/22.2/0592 | Gulf folic acid | Tablet | Not recorded |
-| H0689 (ACT 101/1965) | Autrin | Capsule | Not recorded |
-| H2466 | Complenatal FF | Capsule | Not recorded |
-| H2062 (ACT 101) | Filibon | Capsule | Not recorded |
-| 36/22.1/0508 | Cernevit | Infusion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| T1205 (ACT 101/1965) | Be-tabs folic acid | tablet | Valid |
+| 36/22.1/0508 | Cernevit | infusion | Valid |
+| A40/22.2/0592 | Gulf folic acid | tablet | Valid |
+| G/10.1/176 | Linctifed wet cough (was Linctifed exp p | syrup | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
 
-The remaining six include Soluvit Novum (injection), Gericomplex (capsule), Linctifed wet cough (syrup), Dextrose 20% in water (infusion), ITN neonatal TPN, and Spiriva Respimat (inhaler). Several of these entries look like multivitamin or parenteral nutrition products, and some (Linctifed, Spiriva) are unlikely to contain folic acid as a relevant active ingredient. The registration mapping should be verified against the SAHPRA register.
+Showing 5 of 55 registrations (valid registrations first).
+
+The registration mapping should be verified against the SAHPRA register.
 
 ---
 

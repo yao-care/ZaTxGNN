@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "DEXTROMETHORPHAN"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Dextromethorphan: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Dextromethorphan is an antitussive used in cough and cold products in South Afri
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 26 of 42) |
+| Number of SAHPRA Registrations | 42 (valid: 26) |
 | Recommended Decision | Hold |
 
 ---
@@ -78,15 +78,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-All 5 SAHPRA registrations found are valid single-ingredient products. Approved indication text is not recorded in the local data for any of them. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Approved indication text is not recorded in the local data for any of them. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 28/5.8/0231 | Flustat | Syrup | Not recorded |
-| H/10.1/140 | Vicks medinite | Syrup | Not recorded |
-| 28/20.2.2/0119 | Medaspor topical | Cream | Not recorded |
-| 28/5.8/0304 | Kiddyflu | Syrup | Not recorded |
-| Y/5.8/308 | Demazin Flu | Effervescent tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/10.1/0002 | Benylin Dmd | syrup | Valid |
+| 27/10.1/0553 | Flusin dm | syrup | Valid |
+| 27/5.8/0286 | Sinustat flu | syrup | Valid |
+| 28/5.8/0231 | Flustat | syrup | Valid |
+| 28/5.8/0304 | Kiddyflu | syrup | Valid |
+
+Showing 5 of 42 registrations (valid registrations first).
 
 ---
 

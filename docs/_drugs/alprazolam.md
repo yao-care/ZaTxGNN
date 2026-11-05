@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ No clinical trials are registered, and the only study that directly addresses in
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 4 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 29 of 40) |
+| Number of SAHPRA Registrations | 40 (valid: 29) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,15 +90,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 28/2.6/0001 | Biozane | Tablet | Not recorded in local data |
-| Reg. No. 29/2.6/0182 | Azor | Tablet | Not recorded in local data |
-| Reg. No. 30/2.6/0264 | Zopax | Tablet | Not recorded in local data |
-| Reg. No. 31/2.6/0241 | Coprax | Tablet | Not recorded in local data |
-| Reg. No. 32/2.6/0372 | Mylan alprazolam | Tablet | Not recorded in local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/2.6/0096 | Xanor | tablet | Valid |
+| 28/2.6/0001 | Biozane | tablet | Valid |
+| 28/2.6/0002 | Biozane  1 Mg | tablet | Valid |
+| 29/2.6/0180 | Azor | tablet | Valid |
+| 29/2.6/0181 | Azor | tablet | Valid |
 
-Four of the five registrations are valid and one is cancelled. All are single-ingredient oral tablets.
+Showing 5 of 40 registrations (valid registrations first).
 
 ---
 

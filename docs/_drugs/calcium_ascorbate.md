@@ -5,7 +5,7 @@ layout: default
 title: Calcium Ascorbate
 parent: Known Uses Only (No New Predictions)
 nav_order: 91
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Calcium Ascorbate: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Calcium ascorbate"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 
 None has clinical trial or literature support.
 
@@ -53,13 +53,12 @@ None has clinical trial or literature support.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| P/7.1.4/281 | Nitrolingual | Inhaler | Not stated in the data compiled |
-| C769 (ACT 101/1965) | Ilvico | Syrup | Not stated in the data compiled |
-| C770 (ACT 101/1965) | Ilvico | Tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| C769 (ACT 101/1965) | Ilvico | syrup | Valid |
+| C770 (ACT 101/1965) | Ilvico | tablet | Valid |
 
-All three registrations are valid single-ingredient entries. No Essential Medicines List (EML) status was available in the data compiled. The Nitrolingual entry should be verified against the SAHPRA register, because that product name is not usually associated with calcium ascorbate.
+No Essential Medicines List (EML) status was available in the data compiled.
 
 ## Safety Considerations
 

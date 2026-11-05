@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ginseng"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "diabetes mellitus type 2 associated cataract"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Ginseng: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the registration records"
 ---
 
@@ -70,12 +70,10 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2667 (ACT 101/1965) | Gericomplex | Capsule | Not stated in the registration record |
-| 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not stated in the registration record |
-
-Both registrations are currently valid and are recorded as single-ingredient products. The second record is a branded inhaler that is not normally associated with ginseng. The ingredient mapping for these two records should be verified before relying on them.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| T1165 | Activex 40 Plus Capsules | capsule | Cancelled |
 
 ## Safety Considerations
 

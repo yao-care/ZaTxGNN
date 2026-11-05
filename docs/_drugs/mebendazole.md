@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Benzimidazoles are already used for this infection, so this is largely confirmat
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 20 of 25) |
+| Number of SAHPRA Registrations | 25 (valid: 20) |
 | Recommended Decision | Hold |
 
 For comparison, the other predictions:
@@ -89,7 +89,6 @@ Currently no related clinical trials registered for the top-ranked prediction (a
 |------|-----|------|------|---------|
 | [7072899](https://pubmed.ncbi.nlm.nih.gov/7072899/) | 1982 | Case report | Am J Trop Med Hyg | First reported case of human proliferative sparganosis in the southern hemisphere, with acne-like skin lesions. Not related to acne treatment or to mebendazole. |
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [8789923](https://pubmed.ncbi.nlm.nih.gov/8789923/) | 1996 | Guideline | Bull World Health Organ | WHO guidance on cystic and alveolar echinococcosis; benzimidazoles (albendazole or mebendazole) are used as chemotherapy alongside surgery and PAIR |
@@ -115,12 +114,17 @@ Note: the other retrieved items for ranks 3 and 5 are preclinical studies or con
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 32/12/0538 | Cipex | Tablet (oral) | Not available in the compiled data |
-| Reg. No. 27/12/0082 | Adco-wormex | Tablet (oral) | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/12/0082 | Adco-wormex | tablet | Valid |
+| 28/12/0281 | Wormgo | tablet | Valid |
+| 31/12/0219 | D-worm sd | tablet | Valid |
+| 31/12/0526 | Wormstop | tablet | Valid |
+| 31/12/0527 | Wormstop | tablet | Valid |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report. Neither registration is for acne or echinococcosis based on available information, so any such use would be off-label.
+Showing 5 of 25 registrations (valid registrations first).
+
+Essential Medicines List (EML) status could not be confirmed from the data compiled for this report. Neither registration is for acne or echinococcosis based on available information, so any such use would be off-label.
 
 ---
 

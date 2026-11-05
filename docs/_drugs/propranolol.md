@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Better-supported directions among the other predictions are **haemangioma subtyp
 | Predicted New Indication | Distal myopathy, Tateyama type |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 19 of 29) |
+| Number of SAHPRA Registrations | 29 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -101,12 +101,17 @@ For context, the literature for the better-supported predictions is summarised b
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| L/5.2/192 | Pur-Bloka 10 | Tablet | Not available in the data compiled for this report |
-| Q/5.2/158 | Sandoz Propranolol HCl 10 | Tablet | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/5.2/0420 | Indoblok | tablet | Valid |
+| 28/5.2/0421 | Indoblok | tablet | Valid |
+| G/5.2/2863 | Inderal | tablet | Valid |
+| L/5.2/192 | Pur-Bloka 10 | tablet | Valid |
+| L/5.2/193 | Pur-Bloka 40 | tablet | Valid |
 
-Both registrations are valid single-ingredient oral tablets. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Showing 5 of 29 registrations (valid registrations first).
+
+Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ---
 

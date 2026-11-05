@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 383
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Currently there are **no registered clinical trials** and **7 retrieved publicat
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 (mechanistic and indirect evidence only; no ADHD-specific trial) |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 58 of 63) |
+| Number of SAHPRA Registrations | 63 (valid: 58) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,13 +89,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 42/5.4.1/1024 | Pexasp 1Mg | Tablet | Not stated in the data compiled |
-| Reg. No. 42/5.4.1/1023 | Pexasp | Tablet | Not stated in the data compiled |
-| Reg. No. 43/5.4.1/0623 | Prames 0.25 | Tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/5.4.1/0298 | Pexola | tablet | Valid |
+| 32/5.4.1/0299 | Pexola | tablet | Valid |
+| 32/5.4.1/0300 | Pexola | tablet | Valid |
+| 42/5.4.1/1022 | Pexasp | tablet | Valid |
+| 42/5.4.1/1023 | Pexasp | tablet | Valid |
 
-All three registrations are valid single-ingredient oral tablets.
+Showing 5 of 63 registrations (valid registrations first).
 
 ---
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 459
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Alopecia Mucinosa** (follicul
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 7 of 13) |
+| Number of SAHPRA Registrations | 13 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-All five registrations are single-ingredient products with valid status. No approved indication text was available for any of them, and Essential Medicines List (EML) status was not available in the data compiled for this report. Note that the registered forms are topical or local (paste, nasal spray, cream, ointment), not intralesional injection.
+No approved indication text was available for any of them, and Essential Medicines List (EML) status was not available in the data compiled for this report. Note that the registered forms are topical or local (paste, nasal spray, cream, ointment), not intralesional injection.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G1595 | Kenalog In Orabase | Paste | Not available |
-| 45.21.5.1/0676 | Triamist 120 dose | Spray | Not available |
-| G1591 | Kenacomb | Cream | Not available |
-| G1592 | Kenacomb | Ointment | Not available |
-| Q/13.4.1/0220 | Pevisone | Cream | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 45.21.5.1/0676 | Triamist 120 dose | spray | Valid |
+| G1595 | Kenalog In Orabase | Pas | Valid |
+| 29/21.5.1/0715 | Nasacor t 120dose | spray | Valid |
+| G1591 | Kenacomb | cream | Valid |
+| G1592 | Kenacomb | ointment | Valid |
+
+Showing 5 of 13 registrations (valid registrations first).
 
 ## Safety Considerations
 

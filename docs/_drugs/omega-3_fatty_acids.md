@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 355
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Omega-3 fatty acids"
 predicted_indications: ["tendinitis", "Glanzmann thrombasthenia", "amenorrhea (disease)"]
 description: "Omega-3 Fatty Acids: predicted new indication Tendinitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts they may be effective for **tendinitis**, but there are
 | Predicted New Indication | Tendinitis |
 | TxGNN Prediction Score | 0.9913 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,10 @@ Two further retrieved items (a 1990 familial hypercholesterolaemia animal-model 
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 49/25/0065 | Nutriflex Omega Specialized | Infusion | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 49/25/0065 | Nutriflex Omega Specialized | Not recorded | Valid |
+| 49/25/0066 | Nutriflex Omega Plus | Not recorded | Valid |
 
 The compiled data do not show whether this product is on the Essential Medicines List. It is an intravenous infusion product, so oral supplements and other formulations are not covered by this registration.
 

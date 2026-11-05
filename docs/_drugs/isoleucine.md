@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Isoleucine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "ISOLEUCINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -48,8 +48,8 @@ Isoleucine is an essential branched-chain amino acid. In South Africa it is regi
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 27 of 45) |
+| Number of SAHPRA Registrations | 45 (valid: 27) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,17 +72,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-All 10 registrations are valid single-ingredient-category licences. The data compiled for this report does not include approved indication text or Essential Medicines List (EML) status. The five main registrations are listed below.
+The data compiled for this report does not include approved indication text or Essential Medicines List (EML) status. The five main registrations are listed below.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated |
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not stated |
-| Reg. No. 46/32.2/0518 | Smofkabiven | Infusion | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
-Five further registrations exist: Numeta G16E, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml, and Adco-ipratropium (ni201), the last of which is listed as a vial. Its link to isoleucine is unclear and should be verified against the SAHPRA record.
+Showing 5 of 45 registrations (valid registrations first).
 
 ## Safety Considerations
 

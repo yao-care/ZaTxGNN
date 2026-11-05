@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ There are currently **no clinical trials** and only **1 publication** (a diagnos
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 19 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,13 +82,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 31/7.1/0658 | Bio-captopril | Tablet | Not recorded in the local data |
-| 31/7.1.3/0478 | Captoretic Hs | Tablet | Not recorded in the local data |
-| Y/7.1.3/379 | Capozide | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/7.1/0398 | Capace | tablet | Valid |
+| 29/7.1/0228 | Mylan captopril | tablet | Valid |
+| 31/7.1/0039 | Capto-Hexal 12.5 | tablet | Valid |
+| 31/7.1/0040 | Captohexal 25 | tablet | Valid |
+| 31/7.1/0658 | Bio-captopril | tablet | Valid |
 
-All three registrations are currently valid. Essential Medicines List (EML) status is not recorded in the data compiled for this report.
+Showing 5 of 31 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 
 ---
 

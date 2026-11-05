@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Doxylamine succinate is a first-generation H1 antihistamine with sedative properties, widely used internationally for short-term insomnia and pregnancy-related nausea (in combination with pyridoxine). The current evidence pack contains **no TxGNN repurposing predictions** for this drug, and it carries **zero SAHPRA registrations** in South Africa. This report serves as a data gap summary; a full repurposing evaluation cannot be completed until core data items are resolved.
+Doxylamine succinate is a first-generation H1 antihistamine with sedative properties, widely used internationally for short-term insomnia and pregnancy-related nausea (in combination with pyridoxine). This report serves as a data gap summary; a full repurposing evaluation cannot be completed until core data items are resolved.
 
 ---
 
@@ -52,8 +52,8 @@ Doxylamine succinate is a first-generation H1 antihistamine with sedative proper
 | Predicted New Indication | Not available — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — model prediction only; no actual studies linked |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 36 of 49) |
+| Number of SAHPRA Registrations | 49 (valid: 36) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -72,7 +72,7 @@ Until both gaps are resolved, any repurposing inference would be speculative and
 
 ## South Africa Market Status
 
-Doxylamine succinate currently has **no SAHPRA registrations**. It is not listed on the South African Essential Medicines List (EML). Healthcare professionals seeking to use this drug in South Africa would need to access it through Section 21 unregistered medicine provisions, or await a formal registration application.
+It is not listed on the South African Essential Medicines List (EML).
 
 > Note: Doxylamine-containing products (e.g., combined with pyridoxine for pregnancy nausea) are available in other markets such as the United States (Diclegis®/Bonjesta®) and Canada. A targeted SAHPRA registration pathway for the pregnancy nausea indication may be worth exploring separately.
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 136
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L1). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
@@ -52,8 +52,8 @@ with **8 clinical trials** and **20 publications** in the data compiled for this
 | Predicted New Indication | Anxiety disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L1 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 17 of 22) |
+| Number of SAHPRA Registrations | 22 (valid: 17) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -102,9 +102,15 @@ OCD is closely related to anxiety disorders. Guideline-level and network meta-an
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 35/1.2/0253 | Clomidep | Tablet | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 35/1.2/0253 | Clomidep | tablet | Valid |
+| B1532 | Anafranil | tablet | Valid |
+| C/1.2/182 | Anafranil | tablet | Valid |
+| W/1.2/140 | Anafranil sr | Srt | Valid |
+| Y/1.2/0268 | Equinorm | tablet | Valid |
+
+Showing 5 of 22 registrations (valid registrations first).
 
 The data compiled for this report do not show whether clomipramine is on the Essential Medicines List.
 

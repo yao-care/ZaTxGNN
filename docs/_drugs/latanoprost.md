@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Latanoprost is a prostaglandin F2-alpha analogue originally used to treat open-a
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 22 of 28) |
+| Number of SAHPRA Registrations | 28 (valid: 22) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,13 +70,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 46/15.4/0918 | Spersatan | Drops | Not available in the compiled data |
-| Reg. No. 51/15.4/0618 | Aglatan | Drops | Not available in the compiled data |
-| Reg. No. 47/15.4/0528 | Co-atana 2.5ml | Drops | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/15.4/0614 | Xalatan 2.5ml | drops | Valid |
+| 47/15.4/0116 | Atana 2.5ml | drops | Valid |
+| 36/15.4/0043 | Xalacom 2.5ml | drops | Valid |
+| 47/15.4/0528 | Co-atana 2.5ml | drops | Valid |
+| 51/15.4/0618 | Aglatan | drops | Valid |
 
-All three registrations are valid single-ingredient products in drop form. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
+Showing 5 of 28 registrations (valid registrations first).
+
+Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 
 ## Safety Considerations
 

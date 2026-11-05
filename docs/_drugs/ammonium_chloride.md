@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ammonium chloride"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Ammonium Chloride: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
 ---
 
@@ -50,8 +50,8 @@ Ammonium chloride is recorded in the knowledge graph as being used for pharyngit
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 16 of 16) |
-| Number of SAHPRA Registrations | 16 (valid: 16) |
+| South Africa Market Status | Marketed (valid licences: 90 of 119) |
+| Number of SAHPRA Registrations | 119 (valid: 90) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,17 +80,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-All 16 registrations are single-ingredient records and are valid. The records compiled for this report contain no approved indication text and no manufacturer information, and Essential Medicines List (EML) status is not available. The 5 registrations below are a selection of the 16.
+The records compiled for this report contain no approved indication text and no manufacturer information, and Essential Medicines List (EML) status is not available.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G830 (ACT101/1965) | Benylin & codeine | Syrup | Not stated in the records |
-| 31/2.6/0241 | Coprax | Tablet | Not stated in the records |
-| 28/10.1/0249 | Expectalin with cod | Syrup | Not stated in the records |
-| 27/10.1/0529 | Dynalex | Syrup | Not stated in the records |
-| G/10.1/1112 | Broncleer & cod unboxed | Syrup | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| G115 (ACT 101/1965) | Dilinct | syrup | Valid |
+| 27/10.1/0013 | Amcough | solution | Valid |
+| 27/10.1/0140 | Relief-coff expect | syrup | Valid |
+| 27/10.1/0529 | Dynalex | syrup | Valid |
+| 28/10.1/0206 | Bronchoped | syrup | Valid |
 
-The other 11 registrations are mostly syrups (for example Tussilinct cough, Phenorant with codeine, Flutex cough linct, Mucosolv expectorant and Coughcod senior/junior).
+Showing 5 of 119 registrations (valid registrations first).
 
 ---
 

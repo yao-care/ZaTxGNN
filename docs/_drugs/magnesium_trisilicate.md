@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "MAGNESIUM TRISILICATE"
 predicted_indications: ["gastroduodenitis"]
 description: "Magnesium Trisilicate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ There are currently **no registered clinical trials** and only **2 publications*
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 15 of 32) |
+| Number of SAHPRA Registrations | 32 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---
@@ -75,7 +75,6 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [14248445](https://pubmed.ncbi.nlm.nih.gov/14248445/) | 1965 | Double-blind trial | British Medical Journal | Bismuth aluminate vs magnesium trisilicate in peptic ulceration with simultaneous gastric analysis (no abstract available) |
@@ -97,9 +96,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| E/11.4.1/1195 | Bisma-Rex Powder | Powder | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| E/11.4.1/1195 | Bisma-Rex Powder | powder | Valid |
+| BV0720 | Magnesium Trisilicate | Not recorded | Valid |
+| 32/11.4.1/0519 | * Gastrogel | suspension | Valid |
+| 37/11.4.1/0074 | Neutracid | tablet | Valid |
+| BV0349 | Magnesium Trisilicate | Not recorded | Valid |
+
+Showing 5 of 32 registrations (valid registrations first).
 
 The Essential Medicines List (EML) inclusion status could not be confirmed from the data compiled for this report.
 

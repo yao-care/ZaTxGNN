@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Bupropion is an antidepressant that inhibits the reuptake of norepinephrine and 
 | Predicted New Indication | attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 27 of 30) |
+| Number of SAHPRA Registrations | 30 (valid: 27) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -96,9 +96,15 @@ No SANCTR or PACTR identifiers were available in the data compiled for this repo
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/1.2/0373 | Voxra Xl 150 | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/1.2/0266 | Wellbutrin Sr | Srt | Valid |
+| 34/34/0374 | Zyban | tablet | Valid |
+| 41/1.2/0371 | Wellbutrin xl | Srt | Valid |
+| 41/1.2/0372 | Wellbutrin xl | Srt | Valid |
+| 41/1.2/0373 | Voxra Xl 150 | tablet | Valid |
+
+Showing 5 of 30 registrations (valid registrations first).
 
 The route of administration is oral. Essential Medicines List status is not available in the data compiled for this report.
 

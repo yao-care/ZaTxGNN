@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not available"
 monitor_inn: "Sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -50,8 +50,8 @@ The best-supported prediction in the data is **diabetic nephropathy** (rank 3), 
 | Predicted New Indication | Brain small vessel disease 1 with or without ocular anomalies (rank 1) |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 33 of 33) |
+| Number of SAHPRA Registrations | 33 (valid: 33) |
 | Recommended Decision | Hold |
 
 **Other predictions in the data (top 10 by TxGNN score):**
@@ -114,9 +114,15 @@ A further 5 publications on this prediction were retrieved but are not listed he
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 50/7.6/1019 | Vymada 50 Mg | Tablet (oral) | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 50/4.6/1016 | Entresto | tablet | Valid |
+| 50/7.6/1017 | Entresto | tablet | Valid |
+| 50/7.6/1018 | Entresto | tablet | Valid |
+| 50/7.6/1019 | Vymada 50 Mg | tablet | Valid |
+| 50/7.6/1020 | Vymada 100 Mg | tablet | Valid |
+
+Showing 5 of 33 registrations (valid registrations first).
 
 Status: valid, single-ingredient product. No information on Essential Medicines List (EML) inclusion was available in the data compiled for this report.
 

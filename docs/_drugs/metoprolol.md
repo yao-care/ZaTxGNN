@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "METOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and myocardial infarction"
 ---
 
@@ -81,11 +81,11 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H/5.2/72 | Lopresor | Tablet (oral) | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| H/5.2/72 | Lopresor | tablet | Cancelled |
 
-This is a single-ingredient product, currently valid. Essential Medicines List status is not available in the data compiled for this report.
+Essential Medicines List status is not available in the data compiled for this report.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 373
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Phenyltoloxamine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Phenylt
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 9 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 3 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 5 of 15) |
+| Number of SAHPRA Registrations | 15 (valid: 5) |
 
 ## Known uses recorded for this drug
 
@@ -82,11 +82,13 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Phenylt
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| F/5.8/279 | Sinutab With Codeine | tablet | Canceled |
-| B697 (ACT 101 1965) | Suncodin Tablets | tablet | Valid |
-| F/5.8/275 | Sinutab | tablet | Canceled |
+| B697 (ACT 101 1965) | Suncodin | tablet | Valid |
+| C0879 (ACT 101) | Dequa-flu | capsule | Valid |
+| G841 | Pholtex Linctus | liquid | Valid |
 | Y/5.8/264 | Adco-sinal co | tablet | Valid |
-| C0879 (ACT 101) | Dequa-Flu | capsule | Valid |
+| G0841 | Pholtex Linctus | liquid | Valid |
+
+Showing 5 of 15 registrations (valid registrations first).
 
 ## Safety Considerations
 

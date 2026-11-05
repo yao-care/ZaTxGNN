@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Benzyl Benzoate is a well-established topical antiparasitic agent with recognised use in the treatment of scabies and pediculosis (lice infestation). The current Evidence Pack contains **no TxGNN-generated repurposing predictions** for this drug, and Benzyl Benzoate holds **no SAHPRA registrations** in South Africa. A complete repurposing evaluation cannot proceed until two blocking data gaps — regulatory safety information and mechanism of action — are resolved and the prediction pipeline is re-run.
+Benzyl Benzoate is a well-established topical antiparasitic agent with recognised use in the treatment of scabies and pediculosis (lice infestation). A complete repurposing evaluation cannot proceed until two blocking data gaps — regulatory safety information and mechanism of action — are resolved and the prediction pipeline is re-run.
 
 ---
 
@@ -50,15 +50,15 @@ Benzyl Benzoate is a well-established topical antiparasitic agent with recognise
 | Predicted New Indication | None available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not applicable — no predictions generated |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 13 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 13) |
 | Recommended Decision | **Hold** |
 
 ---
 
 ## Safety Considerations
 
-No safety data — including key warnings, contraindications, or drug interaction records — was available in this Evidence Pack. As Benzyl Benzoate holds no current SAHPRA registration, there is no locally approved Professional Information (PI) to reference. For interim safety guidance, consult the WHO Model Formulary, international product labelling, or DrugBank entry DB00676. Any adverse reactions observed in clinical practice should still be reported to SAHPRA through the MedSafety reporting system.
+No safety data — including key warnings, contraindications, or drug interaction records — was available in this Evidence Pack. For interim safety guidance, consult the WHO Model Formulary, international product labelling, or DrugBank entry DB00676. Any adverse reactions observed in clinical practice should still be reported to SAHPRA through the MedSafety reporting system.
 
 ---
 
@@ -67,7 +67,7 @@ No safety data — including key warnings, contraindications, or drug interactio
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack for Benzyl Benzoate is incomplete at a foundational level: the TxGNN pipeline returned no repurposing candidates, no mechanism of action is available to support biological plausibility analysis, and the drug carries no SAHPRA registration history. There is no evidence base on which to build a repurposing recommendation at this stage.
+There is no evidence base on which to build a repurposing recommendation at this stage.
 
 **To proceed, the following is needed:**
 

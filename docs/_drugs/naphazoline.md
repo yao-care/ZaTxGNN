@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "NAPHAZOLINE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -52,8 +52,8 @@ but there are currently **no clinical trials and no publications** supporting th
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 16 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,12 +88,17 @@ For the lower-ranked prediction of open-angle glaucoma, one publication was link
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H 1272 (ACT 101/1965) | Oculosan 10ml | Drops | Not stated |
-| H1236 (OM) | Covomycin 7.5ml | Een (as recorded) | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| H1124 | Antistin privin 10ml | drops | Valid |
+| H1176 | Murine clear eyes 15ml | drops | Valid |
+| H1236 | Covomycin 7.5ml | Een | Valid |
+| H1272 | Oculosan 10ml | drops | Valid |
+| H1318 | Safyr bleu 15ml | drops | Valid |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Showing 5 of 18 registrations (valid registrations first).
+
+Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ---
 

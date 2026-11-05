@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Sibutramine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity disorder"
 monitor_inn: "SIBUTRAMINE"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but **no 
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,9 +87,15 @@ Currently no related literature available for hypervitaminosis.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/11.3/0313 | Ciplatrim 15 | Capsule (oral) | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/11.3/0025 | Reductil 10 | capsule | Valid |
+| 33/11.3/0026 | Reductil 15 | capsule | Valid |
+| 33/11.3/0027 | Ectiva 10Mg | capsule | Valid |
+| 33/11.3/0028 | Ectiva 15Mg | capsule | Valid |
+| 41/11.3/0180 | Leantil Capsules 10 Mg | capsule | Valid |
+
+Showing 5 of 8 registrations (valid registrations first).
 
 The registration is a valid single-ingredient product. The data compiled for this report do not show Essential Medicines List (EML) inclusion status.
 

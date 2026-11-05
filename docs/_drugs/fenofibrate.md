@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Fenofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, hyperlipidaemia, familial hyperlipidaemia…"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant for **cholesterol-ester transfer pro
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 13 of 13) |
+| Number of SAHPRA Registrations | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,11 +87,17 @@ None of these studies directly addresses CETP deficiency as a disease.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 52/7.5/0769 | Pravafen 40/160 mg | Capsule (oral) | No indication text available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/7.5/0494 | Lipanthyl | capsule | Valid |
+| 56/7.5/0613 | Lipfeno | capsule | Valid |
+| 52/7.5/0769 | Pravafen 40/160Mg | capsule | Valid |
+| 41/7.5/0556 | Lipanthyl 160 mg | tablet | Valid |
+| 41/7.5/0848 | Tricor 160 mg | tablet | Valid |
 
-Note: the data compiled for this report records one valid registration. The product name suggests it may contain more than one active ingredient, so this registration should not be taken as describing how single-ingredient fenofibrate is approved. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 13 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease, AIDS, and hepatitis C virus infection"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 55 of 62) |
+| Number of SAHPRA Registrations | 62 (valid: 55) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,17 +85,17 @@ For context, the closely related SIV prediction (rank 2) has preclinical publica
 
 ## South Africa Market Information
 
-All 9 registrations are valid single-ingredient licences. No approved-indication text is available in the data compiled for this report. Essential Medicines List status is not stated in the data.
+No approved-indication text is available in the data compiled for this report. Essential Medicines List status is not stated in the data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 51/20.2.8/0687.686 | Hetrovir 100 | Tablet | Not available |
-| 51/20.2.8/0154 | Norvir Oral Powder | Sachet | Not available |
-| 56/20.2.8/0838 | Ronivid 400/50 Mg | Film-coated tablet | Not available |
-| 45/20.2.8/0925 | Zatonav | Film-coated tablet | Not available |
-| 43/20.2.8/0356 | Aluvia 100/25 | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/20.2.8/0217 | Norvir 80 Mg/Ml | solution | Valid |
+| 34/20.2.8/0175 | Norvir Sec 100 Mg | capsule | Valid |
+| 44/20.2.8/0128 | Norvir | tablet | Valid |
+| 45/20.2.8/0924 | Rinavo | tablet | Valid |
+| 51/20.2.8/0154 | Norvir Oral Powder | sachet | Valid |
 
-Four further registrations (Emcovir, Paxlovid, Quadrimune, Lopimune 40/10 Oral Pellets) are also valid.
+Showing 5 of 62 registrations (valid registrations first).
 
 ## Safety Considerations
 

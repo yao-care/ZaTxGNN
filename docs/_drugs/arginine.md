@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 43
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not stated in the registration data compiled for this report (all 10…"
 monitor_inn: "ARGININE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -48,8 +48,8 @@ Arginine is an amino acid used as a component of parenteral nutrition and perito
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 9 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 35 of 54) |
+| Number of SAHPRA Registrations | 54 (valid: 35) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,19 +88,19 @@ Two further retrieved publications (PMID 33867519, a case report on lactate norm
 
 ## South Africa Market Information
 
-All 10 registrations are valid, single-ingredient registrations. Approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available.
+Approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not available |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not available |
-| 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available |
-| 52/25/0739 | Numeta G13E | Infusion | Not available |
-| 52/25/0740 | Numeta G16E | Infusion | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
-Other registrations include Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036), Nutriflex Omega Specialized (49/25/0065), Nutriflex Lipid Special 625ml (41/25/0759) and Adco-ipratropium (33/10.2.1/0271, listed as a vial). The last entry looks like a data-matching anomaly, since ipratropium is not an arginine product, and should be verified.
+Showing 5 of 54 registrations (valid registrations first).
 
-All products are parenteral (infusion) formulations. No oral arginine product was identified, so route compatibility with a gastroparesis indication has not been assessed.
+All products are parenteral (infusion) formulations.
 
 ## Safety Considerations
 

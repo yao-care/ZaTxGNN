@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Phenylpropanolamine: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLPROPANOLAMINE"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
@@ -52,8 +52,8 @@ Currently there are **0 registered clinical trials** and **3 publications** (1 h
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 20 of 39) |
+| Number of SAHPRA Registrations | 39 (valid: 20) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,17 +88,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-All 6 registrations are valid single-ingredient products. The compiled records contain no approved indication text and no manufacturer details. Essential Medicines List (EML) inclusion status is not available in the compiled data.
+The compiled records contain no approved indication text and no manufacturer details. Essential Medicines List (EML) inclusion status is not available in the compiled data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 27/5.8/0101 | Sinuclear | Capsule | Not available in compiled data |
-| Reg. No. Z/5.8/360 | Sinustat | Capsule | Not available in compiled data |
-| Reg. No. F/5.8/275 | Sinutab | Tablet | Not available in compiled data |
-| Reg. No. 28/5.8/0231 | Flustat | Syrup | Not available in compiled data |
-| Reg. No. Y/5.8/264 | Adco-sinal co | Tablet | Not available in compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/5.8/0101 | Sinuclear | capsule | Valid |
+| 28/5.8/0231 | Flustat | syrup | Valid |
+| 28/5.8/0648 | Betalix decongestant | syrup | Valid |
+| M/5.8/0125 | Rinex | syrup | Valid |
+| M/5.8/67 | Rinex diffucaps | capsule | Valid |
 
-One further registration is held for Sinutab With Codeine (Reg. No. F/5.8/279, tablet).
+Showing 5 of 39 registrations (valid registrations first).
 
 ---
 

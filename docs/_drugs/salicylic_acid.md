@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Salicylic acid"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
 description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction is computational only.
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 32 of 38) |
+| Number of SAHPRA Registrations | 38 (valid: 32) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,12 +85,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| L13.4.1/66 | Diprosalic | Lotion | Not available in the data compiled for this report |
-| H/13.4.1/32 | Diprosalic | Ointment | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 48/2.7/0609 | Cancard | tablet | Valid |
+| G1995 | Wart magic liquid (stx) | lotion | Valid |
+| G2311 (ACT 101/1965) | Posalfilin | ointment | Valid |
+| H/13.4.1/32 | Diprosalic | ointment | Valid |
+| L13.4.1/66 | Diprosalic Lotion | lotion | Valid |
 
-Both registrations are valid and are topical products. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Showing 5 of 38 registrations (valid registrations first).
+
+Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 

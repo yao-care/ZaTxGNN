@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Imatinib: predicted new indication heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ For this specific disease there are **no registered clinical trials** and only *
 | Predicted New Indication | heart fibrosarcoma |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 23 of 26) |
+| Number of SAHPRA Registrations | 26 (valid: 23) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 42/34/0496 | Imavec | Capsule | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 38/34/0143 | Gleevec | tablet | Valid |
+| 38/34/0144 | Gleevec | tablet | Valid |
+| 42/34/0496 | Imavec | capsule | Valid |
+| 44/26/0886 | Sunmatin | tablet | Valid |
+| 44/26/0887 | Sunmatin | tablet | Valid |
 
-One valid single-ingredient registration is listed. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 26 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Cytotoxicity
 

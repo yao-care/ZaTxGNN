@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The prediction rests on the model score alone.
 | Predicted New Indication | post-bacterial disorder |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 18 of 26) |
+| Number of SAHPRA Registrations | 26 (valid: 18) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,14 +80,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-All 4 registrations are valid and single-ingredient. The licence records carry no approved-indication text. Essential Medicines List (EML) status is not recorded in the data compiled for this report.
+The licence records carry no approved-indication text. Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A39/34/0163 | Sabax Low Magnesium Acid Diasol (1000Ml) | Solution | Not recorded |
-| 29/34/0328 | Haemocarb acid concentrate 5l afm7204 | Infusion | Not recorded |
-| A39/34/0168 | Sabax Standard Acute Acid Diasol | Solution | Not recorded |
-| SECTION 21 | Haemodialysis Concentrate | Solution | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/34/0328 | Haemocarb acid concentrate 5l afm7204 | infusion | Valid |
+| 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
+| 49/25/0066 | Nutriflex Omega Plus | infusion | Valid |
+| A39/34/0162 | Sabax Low Glucose Acid Diasol 5000Ml | solution | Valid |
+| A39/34/0163 | Sabax Low Magnesium Acid Diasol (1000Ml) | solution | Valid |
+
+Showing 5 of 26 registrations (valid registrations first).
 
 ---
 

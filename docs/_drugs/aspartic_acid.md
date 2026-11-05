@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 48
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Aspartic Acid: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "ASPARTIC ACID"
 predicted_indications: ["renal tubular acidosis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **renal tubular acidosis**, but th
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 22 of 25) |
+| Number of SAHPRA Registrations | 25 (valid: 22) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,15 +76,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Five single-ingredient registrations are currently valid. All are infusion or parenteral nutrition products in which aspartic acid is a component. The data compiled for this report do not include approved indication text or manufacturer details. Essential Medicines List (EML) status was not available.
+All are infusion or parenteral nutrition products in which aspartic acid is a component. The data compiled for this report do not include approved indication text or manufacturer details. Essential Medicines List (EML) status was not available.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not available |
-| Reg. No. 52/25/0740 | Numeta G16E | Infusion | Not available |
-| Reg. No. 49/25/0065 | Nutriflex Omega Specialized | Infusion | Not available |
-| Reg. No. 41/25/0759 | Nutriflex lipid special 625ml | TPN | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
+| 41/25/0758 | Nutriflex lipid plus without electrolyte | Tpn | Valid |
+| 41/25/0759 | Nutriflex lipid special 2500ml | Tpn | Valid |
+| 41/25/0760 | Nutriflex lipid special without electrol | Tpn | Valid |
+
+Showing 5 of 25 registrations (valid registrations first).
 
 ## Safety Considerations
 

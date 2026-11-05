@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Iron: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **vitamin B12- and folate-indep
 | Predicted New Indication | vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,15 +69,14 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 32/8.3/0166 | Venofer ampoule 5ml | Injection | Not recorded |
-| 46/8.3/0166 | Monofer vial 1ml | Injection | Not recorded |
-| 46/8.3/0849 | Rautevene solution for injection ampoule | Injection | Not recorded |
-| H842 (ACT 101 OF 1965) | Ferrimed | Syrup | Not recorded |
-| L/24/329 | Dextrose 20% in water 500ml pcd201850 | Infusion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/8.3/0166 | Venofer ampoule 5ml | injection | Valid |
+| 46/8.3/0166 | Monofer vial 1ml | injection | Valid |
+| 46/8.3/0849 | Rautevene solution for injection ampoule | injection | Valid |
+| H842 (ACT 101 OF 1965) | Ferrimed | syrup | Valid |
 
-All six registrations on file are valid and single-ingredient (a sixth, ITN neonatal TPN, is registered under an exclusion under Sections 36 and 14 and is not shown above). Essential Medicines List status is not available in the data compiled for this report.
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

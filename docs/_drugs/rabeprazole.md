@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 398
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Rabeprazole: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazo
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 16 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 16) |
 
 ## Known uses among the model's candidates
 
@@ -75,8 +75,13 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| 32/11.4.3/0614 | Pariet | tablet | Valid |
 | 33/11.4.3/0206 | Pariet | tablet | Valid |
-| 56/11.4.3/0623.621 | Ulcopraz 10 | tablet | Valid |
+| 44/11.4.3/0597 | Rabemed | tablet | Valid |
+| 44/11.4.3/0598 | Rabemed | tablet | Valid |
+| 48/11.4.3/1095 | Baprez 10 Ec | tablet | Valid |
+
+Showing 5 of 18 registrations (valid registrations first).
 
 ## Safety Considerations
 

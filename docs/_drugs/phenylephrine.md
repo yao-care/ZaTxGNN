@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 372
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 (preclinical/mechanistic and indirect supportive literature; no registered trials) |
-| South Africa Market Status | Marketed (valid licences on record: at least 18) |
-| Number of SAHPRA Registrations | at least 20 |
+| South Africa Market Status | Marketed (valid licences: 96 of 137) |
+| Number of SAHPRA Registrations | 137 (valid: 96) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,17 +87,19 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-All 20 registrations are valid single-ingredient entries. The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information. The first five registrations are shown below.
+The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information. The first five registrations are shown below.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2971 | Celestone Injection | Injection | Not available |
-| C739 | Sinu-flu (was Universal cold & flu) | Tablet | Not available |
-| 28/5.8/0696 | Degoran Fizzy Effervescent Tablets | Effervescent tablet | Not available |
-| X/5.8/383 | Adco-sinal ns | Capsule | Not available |
-| G1235 (ACT 101) | Famucaps | Capsule | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 49/7.2/0153 | Tacyphen | injection | Valid |
+| 59/7.2/0062 | Phenylcord 10 Mg/Ml | injection | Valid |
+| D/15.2/22 | Minims Phenylephrine Hydrochloride 10 % | drops | Valid |
+| H1403 (O/M) | Naphensyl paed 10ml | Nod | Valid |
+| H1542 | Universal nasal 15ml | Nod | Valid |
 
-The remaining registrations include cold and flu products in capsule, syrup, sachet and tablet forms. Some product names in the registration list (for example Tegretol s, Amoxil D, Trandate and Nitrolingual) do not look like phenylephrine products and should be verified against SAHPRA records before use.
+Showing 5 of 137 registrations (valid registrations first).
+
+The remaining registrations include cold and flu products in capsule, syrup, sachet and tablet forms.
 
 ---
 

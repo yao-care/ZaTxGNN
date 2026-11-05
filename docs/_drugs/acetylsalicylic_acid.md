@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Acetylsalicylic acid (aspirin) is a cyclooxygenase (COX) inhibitor with antiplat
 | Predicted New Indication | atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 110 of 162) |
+| Number of SAHPRA Registrations | 162 (valid: 110) |
 | Recommended Decision | Hold |
 
 ---
@@ -78,14 +78,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Four SAHPRA registrations are recorded as valid. The local records do not include approved-indication text. Essential Medicines List status is not available in the data compiled for this report.
+The local records do not include approved-indication text. Essential Medicines List status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 53/8/0369.368 | Aspirin 100 Clicks | Tablet |
-| Reg. No. 31/8/0413 | Bayer aspirin cardio | Tablet |
-| Reg. No. 44/8.2/0657 | Clopiwin Plus 75/75 | Tablet |
-| Reg. No. B1127 (OM) | Tenston | Tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/2.7/0767 | Ecotrin | tablet | Valid |
+| 31/2.8/0071 | Disprin Cardiocare | effervescent tablet | Valid |
+| 31/8/0413 | Bayer aspirin cardio | tablet | Valid |
+| 43/8/0830 | Soluspirin cv | effervescent tablet | Valid |
+| 51/8/2010 | Coprin 100 Mg | tablet | Valid |
+
+Showing 5 of 162 registrations (valid registrations first).
 
 ---
 

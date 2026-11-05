@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 452
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Tolnaftate: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model's candidates for Tolnaftate are all already known uses, so there
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 3 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 4 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 4) |
 
 ## Known uses among the model's candidates
 
@@ -76,7 +76,11 @@ The TxGNN model's candidates for Tolnaftate are all already known uses, so there
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G2331(ACT 101/1965) | Quadriderm | cream | Valid |
+| G2331 | Quadriderm | cream | Valid |
+| G2342 | Tinaderm Solution | Not recorded | Valid |
+| P/13.9.2/199 | Scholl ATHLETE'S Foot Powder | powder | Valid |
+| P/13.9.2/202 | Scholl ATHLETE'S Foot Treatment | solution | Valid |
+| G2330 | Tinaderm Cream | Not recorded | Cancelled |
 
 ## Safety Considerations
 

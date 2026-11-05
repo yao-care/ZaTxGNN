@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 10 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -86,13 +86,17 @@ Currently no related clinical trials registered for feline acquired immunodefici
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 55/20.2.8/0301 | Daliduo | Film-coated tablet (Fct) | Not recorded in the data compiled |
-| Reg. No. 56/20.2.8/0020 | Tavirant | Film-coated tablet (Fct) | Not recorded in the data compiled |
-| Reg. No. 49/20.2.8/0399 | Erestz | Film-coated tablet (Fct) | Not recorded in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 46/20.2.8/0793 | Edurant | tablet | Valid |
+| 49/20.2.8/0399 | Erestz | Fct | Valid |
+| 55/20.2.8/0301 | Daliduo | Fct | Valid |
+| 56/20.2.8/0020 | Tavirant | Fct | Valid |
+| 57/20.2.8/0334 | Rekambys 600 mg | Not recorded | Valid |
 
-All three registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
+Showing 5 of 10 registrations (valid registrations first).
+
+Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
 
 ---
 

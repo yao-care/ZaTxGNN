@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 457
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "TRAZODONE"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **no registered clinical trials** but **20 publications** (mostly small, da
 | Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 21 of 23) |
+| Number of SAHPRA Registrations | 23 (valid: 21) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,13 +96,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 54/1.2/0145 | Sariprev 50 | Capsule | Not available |
-| Reg. No. E/1.2/9 | Molipaxin | Capsule | Not available |
-| Reg. No. 43/1.2/0698 | Biotech trazodone | Capsule | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/1.2/0491 | Aspen trazodone | capsule | Valid |
+| 37/1.2/0492 | Aspen trazodone | capsule | Valid |
+| 43/1.2/0698 | Biotech trazodone | capsule | Valid |
+| 43/1.2/0699 | Biotech trazodone | capsule | Valid |
+| 47/1.2/1035 | Trezot 50 | capsule | Valid |
 
-All three registrations are valid single-ingredient oral products. The data compiled for this report does not show Essential Medicines List (EML) status.
+Showing 5 of 23 registrations (valid registrations first).
+
+The data compiled for this report does not show Essential Medicines List (EML) status.
 
 ---
 

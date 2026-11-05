@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Atropine: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Atropine is a non-selective antimuscarinic (cholinergic antagonist) drug. The Tx
 | Predicted New Indication | migraine disorder |
 | TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 20 of 40) |
+| Number of SAHPRA Registrations | 40 (valid: 20) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,9 +83,15 @@ None of the publications below tested atropine as a treatment for migraine in pa
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| C955(ACT101/1965) | Colstat | Capsule | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| H.1135 | Atropine eye drops alcon 5ml | drops | Valid |
+| 27/5.4/0461 | Atropine 1 Mg Unimed | injection | Valid |
+| 30/5.4/0165 | Mylan Atropine | injection | Valid |
+| 31/5.4/0206 | Pharma-q atropine ampoule 1ml | injection | Valid |
+| 31/5.4/0207 | Pharma-q atropine ampoule 1ml | injection | Valid |
+
+Showing 5 of 40 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

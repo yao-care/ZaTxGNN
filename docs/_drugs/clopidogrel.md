@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Clopidogrel: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Acute coronary syndrome"
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **migraine disorder** (the top-
 | Predicted New Indication | Migraine with brainstem aura (rank 1, TxGNN); migraine disorder (rank 2) is evaluated in detail below because it has the strongest evidence |
 | TxGNN Prediction Score | 0.9944 (migraine with brainstem aura); 0.9944 (migraine disorder) |
 | Evidence Level | L5 (migraine disorder); L3 (migraine with brainstem aura) |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 32 of 36) |
+| Number of SAHPRA Registrations | 36 (valid: 32) |
 | Recommended Decision | Proceed with Guardrails (migraine disorder in PFO-related migraine, research setting only) |
 
 **Other predictions in the top 10.** Osteoarthritis, tendinitis, idiopathic granulomatous myositis, myositis fibrosa, rheumatoid arthritis, osteoarthritis susceptibility, pseudoachondroplasia and fibromyalgia have little or no supporting evidence (L4–L5). All are rated **Hold**. For rheumatoid arthritis, the literature includes reports of clopidogrel-associated inflammatory arthritis, which is a safety signal against use. For osteoarthritis, a propensity-matched study suggests ticagrelor, not clopidogrel, is associated with lower risk.
@@ -97,13 +97,17 @@ The abstracts available in the data compiled for this report are truncated and d
 
 ## South Africa Market Information
 
-Three valid single-ingredient registrations are on record. Approved indication text and manufacturer details are not available in the data compiled for this report. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Approved indication text and manufacturer details are not available in the data compiled for this report. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/8.2/0146 | Mistro | Tablet | Not available |
-| Reg. No. 47/8.2/0009 | Aviolix 75 | Film-coated tablet | Not available |
-| Reg. No. 44/8.2/0657 | Clopiwin Plus 75/75 | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/8.2/0408 | Plavix 75 Mg | tablet | Valid |
+| 41/8.2/0051 | Clopiwin | tablet | Valid |
+| 41/8.2/0146 | Mistro | tablet | Valid |
+| 41/8.2/0611 | Arrow Clopidogrel | tablet | Valid |
+| 42/8.2/0128 | Clopidogrel 75 mg pd | tablet | Valid |
+
+Showing 5 of 36 registrations (valid registrations first).
 
 ## Safety Considerations
 

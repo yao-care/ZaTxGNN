@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ Of the ten predictions, the best-supported is **gastrojejunal (marginal) ulcer**
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 (small human studies in Barrett's oesophagus; no controlled efficacy trial) |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 41 of 49) |
+| Number of SAHPRA Registrations | 49 (valid: 41) |
 | Recommended Decision | Hold for duodenogastric reflux (Research Question); Proceed with Guardrails for gastrojejunal ulcer |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,6 @@ For duodenogastric reflux, the rationale is only partial. Acid suppression may r
 These are not true repurposing candidates. Others are weakly supported, such as duodenal obstruction and the two mastocytosis entries.
 
 ## Clinical Trial Evidence
-
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -104,13 +103,17 @@ These are not true repurposing candidates. Others are weakly supported, such as 
 
 ## South Africa Market Information
 
-Omeprazole has 3 valid SAHPRA registrations, all single-ingredient oral products. Approved indication text and manufacturer details are not available. Essential Medicines List status is not available in the data compiled for this report.
+Approved indication text and manufacturer details are not available. Essential Medicines List status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A39/11.4.3/0466 | Rapacid | Capsule | Not available |
-| 34/11.4.3/0301 | Omez | Capsule | Not available |
-| 43/11.4.3/0502 | Corpocid | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/11.4.3/0087 | Altosec | capsule | Valid |
+| 32/11.4.3/0222 | Losec mups | tablet | Valid |
+| 32/11.4.3/0223 | Losec mups | tablet | Valid |
+| 32/11.4.3/0224 | Losec Mups 40 | tablet | Valid |
+| 34/11.4.3/0081 | Omiloc | capsule | Valid |
+
+Showing 5 of 49 registrations (valid registrations first).
 
 ## Safety Considerations
 

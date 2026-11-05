@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "BISOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 86 of 93) |
+| Number of SAHPRA Registrations | 93 (valid: 86) |
 | Recommended Decision | Hold |
 
 *Note: The SAHPRA records compiled for this report contain no approved-indication text, so the original indication cannot be taken from them.*
@@ -105,15 +105,17 @@ None addresses pulmonary vascular pressure or outcomes in pulmonary hypertension
 
 ## South Africa Market Information
 
-Nine valid SAHPRA registrations exist, all listed as single-ingredient records (no cancelled registrations). Most listed products appear to be bisoprolol combination tablets (e.g. with hydrochlorothiazide or amlodipine, judging by the product names). Approved-indication text and Essential Medicines List status are not available in the data compiled for this report. The first five registrations are shown:
+Most listed products appear to be bisoprolol combination tablets (e.g. with hydrochlorothiazide or amlodipine, judging by the product names). Approved-indication text and Essential Medicines List status are not available in the data compiled for this report. The first five registrations are shown:
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 43/7.1.3/0059 | Bisozyd co 2.5mg/6.25mg | Tablet | Not available |
-| 47/7.1.3/0710 | Emcor 5/5 Fdc | Tablet | Not available |
-| 44/7.1.3/0561 | Zirinak Co 5/6,25 | Tablet | Not available |
-| 51/7.1.3/0495 | Cosyrel 5/5 | Film-coated tablet (Fct) | Not available |
-| 37/7.1.3/0564 | Ziabeta 2.5/6.25mg | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/6.1/0457 | Cardicor | tablet | Valid |
+| 36/6.1/0458 | Cardicor | tablet | Valid |
+| 36/6.1/0459 | Cardicor | tablet | Valid |
+| 37/5.2/0010 | Adco-bisocor | tablet | Valid |
+| 37/5.2/0011 | Adco-bisocor | tablet | Valid |
+
+Showing 5 of 93 registrations (valid registrations first).
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Two lower-ranked predictions, **agoraphobia** (6 publications) and **dysthymic d
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 84 of 92) |
+| Number of SAHPRA Registrations | 92 (valid: 84) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,7 +83,6 @@ No literature was found for benign paroxysmal torticollis of infancy. The litera
 | [15470803](https://pubmed.ncbi.nlm.nih.gov/15470803/) | 2004 | Case report | Pharmacopsychiatry | Remission of panic disorder after olanzapine plus paroxetine |
 | [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Case report | Am J Psychiatry | Olanzapine and panic attacks |
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [21154393](https://pubmed.ncbi.nlm.nih.gov/21154393/) | 2010 | Systematic review | Cochrane Database Syst Rev | Second-generation antipsychotics for major depressive disorder and dysthymia |
@@ -94,14 +93,17 @@ No literature was found for benign paroxysmal torticollis of infancy. The litera
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 44/2.6.5/1019 | Olawin Film Coated 2,5 Mg | Film-coated tablet | Not available in the data compiled |
-| Reg. No. 42/2.6.5/0814 | Redilanz 2,5 | Tablet | Not available in the data compiled |
-| Reg. No. 45/2.6.5/0166 | Mylan olanzapine | Tablet | Not available in the data compiled |
-| Reg. No. 44/2.6.5/0447 | Zylena | Tablet | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/2.6.5/0058 | Zyprexa | tablet | Valid |
+| 31/2.6.5/0060 | Zyprexa | tablet | Valid |
+| 32/2.6.5/0685 | Zyprexa | tablet | Valid |
+| 35/2.6.5/0307 | Zyprexa powder for injection | injection | Valid |
+| 37/2.6.5/0316 | Olexar | tablet | Valid |
 
-All 4 registrations are valid single-ingredient products. Essential Medicines List (EML) status is not covered in the data compiled for this report.
+Showing 5 of 92 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not covered in the data compiled for this report.
 
 ## Safety Considerations
 

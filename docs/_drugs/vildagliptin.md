@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -50,8 +50,8 @@ Vildagliptin is an oral DPP-4 inhibitor used to treat type 2 diabetes mellitus. 
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 54 of 58) |
+| Number of SAHPRA Registrations | 58 (valid: 54) |
 | Recommended Decision | Hold |
 
 ---
@@ -75,8 +75,6 @@ Currently no related clinical trials registered for classic stiff person syndrom
 Currently no related literature available for classic stiff person syndrome.
 
 ---
-
-
 
 **Selected clinical trials (type 1 diabetes populations)**
 
@@ -104,12 +102,17 @@ Currently no related literature available for classic stiff person syndrome.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 57/21.2/0061 | Vileptin Co 50/1 000 | Tablet | Not recorded in the data compiled |
-| Reg. No. 57/21.2/0060 | Vileptin Co 50/850 | Tablet | Not recorded in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/21.2/0487 | Galvus | tablet | Valid |
+| 45/21.2/1009 | Jalra | tablet | Valid |
+| 52/21.2/1017 | Zomvil 50 | tablet | Valid |
+| 53/21.2/0333 | Vileptin | tablet | Valid |
+| 55/21.2/0382 | Vildagliptin 50 Accord | tablet | Valid |
 
-Both registrations are currently valid, and the only dosage form is oral tablet. The product strengths suggest a fixed-dose pairing with a second agent, probably metformin, but this should be confirmed against the SAHPRA record. Essential Medicines List status could not be determined from the data.
+Showing 5 of 58 registrations (valid registrations first).
+
+The product strengths suggest a fixed-dose pairing with a second agent, probably metformin, but this should be confirmed against the SAHPRA record. Essential Medicines List status could not be determined from the data.
 
 ---
 

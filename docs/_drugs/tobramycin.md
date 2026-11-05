@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 450
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 19 of 22) |
+| Number of SAHPRA Registrations | 22 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,12 +92,17 @@ None of these publications tests tobramycin in exposure keratitis.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 49/15.3/0196 | Mydex | Drops | Not available in the data compiled |
-| Reg. No. X/15.3/92 | Tobradex 3.5g | Eye ointment | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 46/15.1/0942 | Toryn | drops | Valid |
+| F/20.1.1/130 | Nebcin | injection | Valid |
+| 31/20.1.1/0155 | Micro-Tobramicin | injection | Valid |
+| 31/20.1.1/0156 | Micro-Tobramicin | injection | Valid |
+| 48/20.1.1/0502 | Bramitob Nebuliser Solution 300Mg/4Ml | nebuliser | Valid |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 22 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ---
 

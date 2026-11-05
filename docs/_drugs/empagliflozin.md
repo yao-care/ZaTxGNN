@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -48,8 +48,8 @@ Empagliflozin is an SGLT2 inhibitor, recorded in the knowledge graph for type 2 
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 36 of 36) |
+| Number of SAHPRA Registrations | 36 (valid: 36) |
 | Recommended Decision | Hold |
 
 Two other predictions have identical evidence status (no trials, no literature, L5, Hold):
@@ -76,13 +76,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 48/21.2/1380 | Jardiance | Tablet | Not stated in the available records |
-| Reg. No. 48/21.2/0411 | Jardiance | Tablet | Not stated in the available records |
-| Reg. No. 49/21.2/0915 | Synjardy 5/500 Mg | Tablet | Not stated in the available records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 48/21.2/0411 | Jardiance | tablet | Valid |
+| 48/21.2/1380 | Jardiance | tablet | Valid |
+| 56/21.2/0280 | Stenit 10 | Fct | Valid |
+| 56/21.2/0281 | Stenit 25 | Fct | Valid |
+| 56/21.2/0700 | Empagliflozin 10 Unicorn | Fct | Valid |
 
-Essential Medicines List (EML) inclusion status is not available in the data compiled for this report. All three registrations are valid and oral tablets. The Synjardy registration is listed in the records as a single-ingredient entry, but the product name suggests a fixed-dose combination. It should therefore not be used to describe empagliflozin alone.
+Showing 5 of 36 registrations (valid registrations first).
+
+Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

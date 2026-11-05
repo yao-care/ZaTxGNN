@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 3
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Clonazepam: predicted new indication restless legs syndrome (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ and **no clinical trials** are registered in the data compiled for this report, 
 | Predicted New Indication | restless legs syndrome |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 11 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 11) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -91,9 +91,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 45/2.5/0820 | Clonam | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 45/2.5/0820 | Clonam 0,5 | tablet | Valid |
+| 45/2.5/0821 | Clonam 2 | tablet | Valid |
+| F/2.5/189 | Rivotril | tablet | Valid |
+| F/2.5/190 | Rivotril | tablet | Valid |
+| F/2.5/187 | Rivotril | injection | Valid |
+
+Showing 5 of 11 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

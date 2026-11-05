@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Bismuth subcarbonate"
 predicted_indications: ["insomnia (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Bismuth Subcarbonate: predicted new indication insomnia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Bismuth subcarbonate is a poorly absorbed bismuth-based gastrointestinal agent. 
 | Predicted New Indication | insomnia |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 0) |
+| South Africa Market Status | Marketed (valid licences: 4 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,9 +68,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| E/11.4.1/683 | Pawmag | Powder | Indication text not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| B079 | Intestopect | Not recorded | Valid |
+| E/11.4.1/1352 | Gertges Antacid Mixture | Not recorded | Valid |
+| E0793 | Kantrexil Nf Suspension | Not recorded | Valid |
+| E0802 | Kantrexil Nf Tablets | Not recorded | Valid |
+| E/11.4.1/683 | Pawmag | powder | Cancelled |
+
+Showing 5 of 6 registrations (valid registrations first).
 
 The product is a single-ingredient registration with valid status. Its Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 

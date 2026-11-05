@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 345
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report"
 monitor_inn: "nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -48,8 +48,8 @@ Nitroglycerin is a nitric oxide (NO)-donating vasodilator, registered in South A
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 4 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 4) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
@@ -85,9 +85,13 @@ No SANCTR or PACTR identifiers were found in the data compiled for this report.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| P/7.1.4/281 | Nitrolingual | Inhaler | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| W/7.1/392 | Nitrocine 10ml | injection | Valid |
+| H.513 | Angised | tablet | Valid |
+| P/7.1.4/281 | Nitrolingual | inhaler | Valid |
+| H0513 | Angised | tablet | Valid |
+| K/7.1.4/292 | NITRO-BID* | ointment | Cancelled |
 
 The Essential Medicines List (EML) status of this product could not be determined from the data compiled for this report.
 

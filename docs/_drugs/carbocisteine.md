@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Carbocisteine: predicted new indication gout (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be relevant to **gout**, with a score of 0.9967.
 | Predicted New Indication | gout |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 0) |
+| South Africa Market Status | Marketed (valid licences: 26 of 40) |
+| Number of SAHPRA Registrations | 40 (valid: 26) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,9 +62,15 @@ The prediction therefore has no identifiable mechanistic support. The high score
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. M/10.1/248 | Flemex | Syrup | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| L/10.1/0320 | Bronchette | syrup | Valid |
+| T/10.2.2/227 | Lessmusec | capsule | Valid |
+| W/10.1/57 | Mucosolv | capsule | Valid |
+| X/10.2.2/0159 | Dis-chem mucolytic | syrup | Valid |
+| X/10.2.2/0184 | Flemlite | syrup | Valid |
+
+Showing 5 of 40 registrations (valid registrations first).
 
 Inclusion on the Essential Medicines List (EML) is not stated in the data compiled for this report.
 

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 193
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Docetaxel Trihydrate is a well-established taxane-class antineoplastic agent used globally for solid tumours including breast, lung, prostate, and gastric cancers. However, the current Evidence Pack contains **no TxGNN repurposing predictions** for this compound, and the automated pipeline retrieved **zero SAHPRA registrations**. A **Hold** decision is warranted until critical data gaps are resolved.
+Docetaxel Trihydrate is a well-established taxane-class antineoplastic agent used globally for solid tumours including breast, lung, prostate, and gastric cancers. A **Hold** decision is warranted until critical data gaps are resolved.
 
 ---
 
@@ -50,8 +50,8 @@ Docetaxel Trihydrate is a well-established taxane-class antineoplastic agent use
 | Predicted New Indication | No prediction available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | — (No prediction generated) |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 46 of 61) |
+| Number of SAHPRA Registrations | 61 (valid: 46) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -73,8 +73,6 @@ Docetaxel Trihydrate is confirmed as a taxane-class cytotoxic agent; the drug na
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
-> **Note:** No SAHPRA-approved PI was found in this Evidence Pack, as the drug is not currently registered in South Africa under this name. Until local registration is confirmed, prescribers should refer to an internationally recognised source (e.g., EMA-approved SmPC or FDA-approved PI for Docetaxel).
 
 ---
 

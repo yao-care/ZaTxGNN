@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 103
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Cefixime: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefixime, so
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 10 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 3 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -84,6 +84,10 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefixime, so
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 51/20.1.1/0073 | Exsef | tablet | Valid |
+| W/20.1.1/256 | Fixime 400 Mg | tablet | Valid |
+| 53/20.1.1/0172 | Cefixime 400 Tablets Resmed | tablet | Valid |
+| W/20.1.1/255 | Fixime 200 mg | tablet | Cancelled |
+| W/20.1.1/257 | Fixime Paediatric 100 mg/5 ml* | suspension | Cancelled |
 
 ## Safety Considerations
 

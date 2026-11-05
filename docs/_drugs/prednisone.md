@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 389
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **no 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 12 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -92,12 +92,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G3004 | Be-tabs prednisone | Tablet | Not available in the data compiled for this report |
-| LX/25.5.1/269 | Meticorten | Tablet | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/21.5.1/0521 | Pulmison 20 Mg | tablet | Valid |
+| 35/21.5.1/0364 | Pulmison 5 Mg/Ml Paediatric | solution | Valid |
+| G2962 | Meticorten | tablet | Valid |
+| G3004 | Be-tabs prednisone | tablet | Valid |
+| G3054 | Panafcort | tablet | Valid |
 
-Both registrations are valid single-ingredient oral products. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Showing 5 of 12 registrations (valid registrations first).
+
+Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ---
 

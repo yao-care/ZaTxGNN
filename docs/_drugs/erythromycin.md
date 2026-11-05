@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ but currently there are **no registered clinical trials** and only **1 publicati
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 39 of 64) |
+| Number of SAHPRA Registrations | 64 (valid: 39) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,14 +82,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Four single-ingredient SAHPRA registrations are valid. The approved indication text is not recorded for any of them in the local data, and Essential Medicines List status is not available in the data compiled for this report.
+The approved indication text is not recorded for any of them in the local data, and Essential Medicines List status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A/20.1.1/0117 | Ilosone 125P | Suspension | Not recorded |
-| V/20.1.1/6 | Adco-erythromycin | Capsule | Not recorded |
-| 27/20.1.1/0329 | Dyna-Erythromycin 125Mg | Powder | Not recorded |
-| X/13.12/275 | Stiemycin | Lotion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/20.1.1/0386 | Xeramel | capsule | Valid |
+| 36/20.1.1/0221 | Etocin | tablet | Valid |
+| 36/20.1.1/0222 | Eryko | tablet | Valid |
+| 41/20.1.1/0976 | Racemin | tablet | Valid |
+| A/20.1.1/0117 | Ilosone 125P | suspension | Valid |
+
+Showing 5 of 64 registrations (valid registrations first).
 
 ---
 

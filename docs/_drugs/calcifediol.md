@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CALCIFEDIOL"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Calcifediol: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -78,10 +78,10 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H2466 | Complenatal Ff | Capsule | Not recorded |
-| H2062 (ACT 101) | Filibon | Capsule | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| H2062 (ACT 101) | Filibon | capsule | Valid |
+| H2466 | Complenatal Ff | capsule | Valid |
 
 Both registrations are currently valid single-ingredient records, and the available dosage form is oral capsule.
 

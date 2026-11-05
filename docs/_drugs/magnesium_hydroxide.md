@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "MAGNESIUM HYDROXIDE"
 predicted_indications: ["stomach disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Magnesium Hydroxide: predicted new indication Stomach disease (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **stomach disease**, a broad pa
 | Predicted New Indication | Stomach disease |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 16 of 27) |
+| Number of SAHPRA Registrations | 27 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,12 +84,17 @@ The publications below are the most relevant of those compiled. Most involve alu
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| E/11.4.3/1223 | Mucaine | Suspension | Not available in the licence record |
-| 41/1.2/0373 | Voxra Xl 150 | Tablet | Not available in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| X/11.4.1/391 | BABY'S Own Tummy | tablet | Valid |
+| X/11.4/189 | Deopens Antacid Tablets | tablet | Valid |
+| 30/11/0066 | PHIPP'S Milk Of Magnesia Mint | suspension | Valid |
+| 30/11/1967 | PHIPP'S Milk Of Magnesia - Cherry | Not recorded | Valid |
+| 31/11.4.3/0524 | LO-ACID Tablets | tablet | Valid |
 
-Both registrations are valid single-ingredient products. The licence records contain no approved indication text. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 27 registrations (valid registrations first).
+
+The licence records contain no approved indication text. Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

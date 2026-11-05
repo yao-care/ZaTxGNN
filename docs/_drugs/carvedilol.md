@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Carvedilol is an oral beta-blocker that also blocks alpha-1 adrenergic receptors
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 34 of 37) |
+| Number of SAHPRA Registrations | 37 (valid: 34) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,9 +73,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 37/7.1.3/0281 | Carvedilol unicorn | Tablet (oral) | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/7.1.3/0198 | Dilatrend | tablet | Valid |
+| 31/7.1.3/0199 | Dilatrend | tablet | Valid |
+| 34/7.1.3/0433 | Carloc | tablet | Valid |
+| 34/7.1.3/0434 | Carloc | tablet | Valid |
+| 37/7.1.3/0276 | Carvetrend | tablet | Valid |
+
+Showing 5 of 37 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

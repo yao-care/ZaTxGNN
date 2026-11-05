@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 319
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Methylprednisolone Aceponate: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Methylpredni
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 15 of 16) |
+| Number of SAHPRA Registrations | 16 (valid: 15) |
 
 ## Known uses recorded for this drug
 
@@ -74,7 +74,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Methylpredni
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| 32/13.4.1/0362 | Advantan Milk | Mlk | Valid |
+| X/13.4.1/384 | Advantan | cream | Valid |
 | X/13.4.1/385 | Advantan | ointment | Valid |
+| X/13.4.1/386 | Advantan fatty oint | ointment | Valid |
+| 56/13.4.1/0423 | Macepatan Cream | cream | Valid |
+
+Showing 5 of 16 registrations (valid registrations first).
 
 ## Safety Considerations
 

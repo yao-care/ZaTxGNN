@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 335
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the registration data compiled for this report"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, wit
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 26 of 32) |
+| Number of SAHPRA Registrations | 32 (valid: 26) |
 | Recommended Decision | Hold |
 
 ---
@@ -101,9 +101,15 @@ Note: no trial directly demonstrates efficacy of MMF in HIV. The one Phase 3 stu
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 41/34/0815 | Mycocept | Capsule (oral) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/34/0107 | Cellcept vial 20ml | infusion | Valid |
+| 41/34/0815 | Mycocept | capsule | Valid |
+| 43/24.1/0215 | Immunolate 500 | tablet | Valid |
+| 43/32.2/0241 | Mycocept | tablet | Valid |
+| 44/32.2/0631 | Mycokem | tablet | Valid |
+
+Showing 5 of 32 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the compiled data.
 

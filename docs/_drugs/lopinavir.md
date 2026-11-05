@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 301
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Lopinavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection / AIDS"
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,8 +50,8 @@ The top-ranked prediction is also an animal disease, so its relevance to human p
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 26 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 26) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,13 +80,17 @@ No literature is available for the top-ranked indication. The three publications
 
 ## South Africa Market Information
 
-Lopinavir has 3 valid single-ingredient registrations with SAHPRA. No approved indication text or manufacturer details were available in the data compiled for this report. Essential Medicines List (EML) status was not available in the data.
+No approved indication text or manufacturer details were available in the data compiled for this report. Essential Medicines List (EML) status was not available in the data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 43/20.2.8/0356 | Aluvia 100/25 | Tablet | Not available |
-| Reg. No. 51/20.2.8/0123 | Lopimune 40/10 Oral Pellets | Capsule | Not available |
-| Reg. No. 55/20.2.8/0388 | Quadrimune | Capsule | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 35/20.2.28/0255 | Kaletra | syrup | Valid |
+| 35/20.2.8/0254 | Kaletra Solution | capsule | Valid |
+| 41/20.2.8/0217 | Aluvia 200mg/50mg | tablet | Valid |
+| 43/20.2.8/0356 | Aluvia 100mg/25mg | tablet | Valid |
+| 45.20.2.8/0111 | Rilovia 200mg/50mg | tablet | Valid |
+
+Showing 5 of 31 registrations (valid registrations first).
 
 ## Safety Considerations
 

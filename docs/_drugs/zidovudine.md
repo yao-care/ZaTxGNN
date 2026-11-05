@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 476
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -50,8 +50,8 @@ There are **no registered clinical trials**, and the predicted new indication is
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L4 (preclinical/animal studies only) |
-| South Africa Market Status | Marketed (valid licences: 7 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 45 of 74) |
+| Number of SAHPRA Registrations | 74 (valid: 45) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,17 +85,19 @@ The 20 publications are almost all animal or in vitro studies. No human trials o
 
 ## South Africa Market Information
 
-Nine valid SAHPRA registrations were found, all in tablet or kit form. The approved indication text was not available in the data compiled for this report.
+The approved indication text was not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 44/20.2.8/0106 | Adco lamivudine & zidovudine 150mg/300mg | Tablet | Not stated |
-| Reg. No. 32/20.2.8/0200 | Retrovir/3tc HIV starter pack (AZT) 100m | Kit | Not stated |
-| Reg. No. A40/20.2.8/0244 | Cipla-Duovir | Tablet | Not stated |
-| Reg. No. 41/20.2.8/0218 | Cipla Duovir & efavirenz co-pack | Kit | Not stated |
-| Reg. No. 43/20.2.8/0363 | Hevaz | Tablet | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/20.2.8/0204 | Retrovir | tablet | Valid |
+| 37/20.2.8/0614 | Cipla Zidovudine Oral Solution | solution | Valid |
+| 38/20.2.8/0230 | Aspen-Zidovudine 300 Mg | tablet | Valid |
+| 41/20.2.8/0237 | Adco-zidovudine | tablet | Valid |
+| 45/20.2.8/0086 | Dizovin | tablet | Valid |
 
-Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named "Simayla Simvastatin 40" (Reg. No. 36/7.5/0372). The simvastatin entry looks like a data-matching error, because simvastatin is not a zidovudine product. It should be checked against the SAHPRA register.
+Showing 5 of 74 registrations (valid registrations first).
+
+The simvastatin entry looks like a data-matching error, because simvastatin is not a zidovudine product. It should be checked against the SAHPRA register.
 
 ## Safety Considerations
 

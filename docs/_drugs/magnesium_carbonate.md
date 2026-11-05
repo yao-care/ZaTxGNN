@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "MAGNESIUM CARBONATE"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
 description: "Magnesium Carbonate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Currently there are **0 clinical trials** and **1 publication** (an in vitro ant
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 0) |
+| South Africa Market Status | Marketed (valid licences: 25 of 45) |
+| Number of SAHPRA Registrations | 45 (valid: 25) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,9 +87,15 @@ Related indirect evidence exists for other predicted conditions, such as gastroj
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 45/24/0919 | Osvaren | Fct | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/11.4.1/0519 | * Gastrogel | suspension | Valid |
+| 32/11.4.1/0568 | Digestif Rennie Aniseed | tablet | Valid |
+| 32/11.5/0611 | BE-LAX Suspension | suspension | Valid |
+| 33/11.4.3/0134 | Rennie Deflatine | tablet | Valid |
+| 41/11.4.1/0772 | Digestif Rennie Orange Tablets | tablet | Valid |
+
+Showing 5 of 45 registrations (valid registrations first).
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

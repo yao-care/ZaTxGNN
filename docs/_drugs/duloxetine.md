@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Duloxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Major depressive disorder (also anxiety disorder, fibromyalgia…"
 monitor_inn: "DULOXETINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **benign paroxysmal torticollis
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 29 of 36) |
+| Number of SAHPRA Registrations | 36 (valid: 29) |
 | Recommended Decision | Hold |
 
 The original indications are not taken from the SAHPRA records compiled for this report, because they contain no approved indication text.
@@ -73,12 +73,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 50/1.2/0849 | Duloxetine Xr 30 Biotech | Capsule | Not stated in the records compiled |
-| Reg. No. 54/1.2/0590 | Duloxetine Mr 60 Unicorn | Capsule | Not stated in the records compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/1.2/1029 | Cymgen | capsule | Valid |
+| 41/1.2/1030 | Cymgen | capsule | Valid |
+| 44/1.2/0114 | Yelate | capsule | Valid |
+| 44/1.2/0115 | Yelate | capsule | Valid |
+| 44/1.2/0116 | Drl duloxetine | capsule | Valid |
 
-Both registrations are valid single-ingredient products, and none are cancelled. No Essential Medicines List (EML) information was available.
+Showing 5 of 36 registrations (valid registrations first).
+
+No Essential Medicines List (EML) information was available.
 
 ## Safety Considerations
 

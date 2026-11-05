@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 339
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Nevirapine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 3 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 23 of 39) |
+| Number of SAHPRA Registrations | 39 (valid: 23) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,14 +92,17 @@ The literature below was retrieved for this prediction. Most of it is in vitro o
 
 ## South Africa Market Information
 
-All four registrations are valid, single-ingredient oral tablets. The registration records contain no approved indication text, and the data compiled for this report do not show Essential Medicines List (EML) status.
+The registration records contain no approved indication text, and the data compiled for this report do not show Essential Medicines List (EML) status.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. A40/20.2.8/0659 | Sonke-Laminevstav 30 | Tablet | Not stated in the records |
-| Reg. No. 45/20.2.8/0388 | Mivirdo | Tablet | Not stated in the records |
-| Reg. No. 44/20.2.8/0212 | Tri-Nestlam 150/30/200 | Tablet | Not stated in the records |
-| Reg. No. 46/20.2.8/0943 | Nevasta | Tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/20.2.8/0640 | Viramune 200 Mg | tablet | Valid |
+| 33/20.2.8/0504 | Viramune 50 Mg/5 Ml | suspension | Valid |
+| 38/20.2.8/0240 | Aspen nevirapine | tablet | Valid |
+| 41/20.2.8/0235 | Adco-nevirapine | tablet | Valid |
+| 42/20.2.8/0661 | Nevir | tablet | Valid |
+
+Showing 5 of 39 registrations (valid registrations first).
 
 ---
 

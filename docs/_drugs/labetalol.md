@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "LABETALOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are **no registered clinical trials** and only **1 publication** (a 19
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,13 @@ This is a single case report and does not establish efficacy.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| J/7.1.3/52 | Trandate | Tablet (oral) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| J/7.1.3/52 | Trandate | tablet | Valid |
+| 43/7.1.3/0661 | Adco Labetalol 5 Mg/Ml | infusion | Valid |
+| J/7.1.3/54 | Trandate 20ml | injection | Valid |
+| 42/7.1.3/0519 | Aspen Labetalol | solution | Valid |
+| 57/7.1.3/0906 | Labetalol 5 mg/ml Rbc | solution | Valid |
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "FERROUS GLUCONATE"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
 description: "Ferrous Gluconate: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Ferrous gluconate is an iron salt used as an iron supplement. The TxGNN model pr
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 7 of 13) |
+| Number of SAHPRA Registrations | 13 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,11 +68,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 52/24/0031 | Nutryelt | Infusion (injectable) | Not stated in the available registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 52/24/0031 | Nutryelt | infusion | Valid |
+| H0762 | Gertges F.E.G Tablets | tablet | Valid |
+| H0799 | Ferronicum | tablet | Valid |
+| 43/8.3/0675 | Ferrous Gluconate Syrup Barrs | syrup | Valid |
+| H0748 | Ferrous Gluconate Elixir | elixir | Valid |
 
-The one registration is a valid single-ingredient product. Essential Medicines List status is not recorded in the data compiled for this report.
+Showing 5 of 13 registrations (valid registrations first).
+
+Essential Medicines List status is not recorded in the data compiled for this report.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 337
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Neomycin: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Neomycin, so
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 12 of 12) |
-| Number of SAHPRA Registrations | 12 (valid: 12) |
+| South Africa Market Status | Marketed (valid licences: 44 of 69) |
+| Number of SAHPRA Registrations | 69 (valid: 44) |
 
 ## Known uses recorded for this drug
 
@@ -74,18 +74,20 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Neomycin, so
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G1831 | Betnovate 'n' | ointment | Valid |
-| G2023 (OM) | Neoderm | cream | Valid |
-| H1236 (OM) | Covomycin 7.5ml | Een | Valid |
-| H.1158 | Maxitrol 3.5g | eye ointment | Valid |
-| D/2.5/204 | Tegretol s | suspension | Valid |
+| 50/20.1.1/0250 | Polygynax® | Pvc | Valid |
 | E/20.1.2/119 | Amoxil D | drops | Valid |
-| H1237 (OM) | Covomycin D | Een | Valid |
+| G1396 (ACT 101/1965 | Synalar n cream | cream | Valid |
+| G1397(ACT 101/1965 | Synalar 'n' ointment | ointment | Valid |
 | G1591 | Kenacomb | cream | Valid |
 | G1592 | Kenacomb | ointment | Valid |
-| H1258 (ACT 101/1965) | Betnesol 'n' 5ml | drops | Valid |
-| J/7.1.3/52 | Trandate | tablet | Valid |
-| G2370 (ACT 101/1965) | Cicatrin Powder 15G | powder | Valid |
+| G1828 | Betnovate 'n' | cream | Valid |
+| G1831 | Betnovate 'n' | ointment | Valid |
+| G2370 | Cicatrin Powder 15G | powder | Valid |
+| H.1145 | Maxitrol 5ml | drops | Valid |
+| H.1158 | Maxitrol 3.5g | eye ointment | Valid |
+| H1236 | Covomycin 7.5ml | Een | Valid |
+
+Showing 12 of 69 registrations (valid registrations first).
 
 ## Safety Considerations
 

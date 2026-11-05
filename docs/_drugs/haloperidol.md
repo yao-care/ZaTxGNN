@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Haloperidol: predicted new indication congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 8 of 16) |
+| Number of SAHPRA Registrations | 16 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,12 +80,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Q/2.6.5/170 | Haloperidol 5 oethmaan | Tablet | Not recorded |
-| Q/2.6.5/169 | Haloperidol 1.5 oethmaan | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 42/2.6.5/0065 | Gulf haloperidol | tablet | Valid |
+| B/2.6.5/10 | Serenace 0.5Mg Capsules | capsule | Valid |
+| B1541(ACT101/1965) | Serenace Injection 5Mg/Ml | injection | Valid |
+| G/2.6.5/96 | Serenace 5Mg Tablets | tablet | Valid |
+| K/2.6.5/72 | Serenace Injection 20Mg/2Ml | injection | Valid |
 
-Both registrations are valid single-ingredient oral tablet products. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 16 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ---
 

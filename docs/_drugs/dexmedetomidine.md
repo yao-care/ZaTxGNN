@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Dexmedetomidine: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **nephrogenic syndrome of inappro
 | Predicted New Indication | nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 32 of 32) |
+| Number of SAHPRA Registrations | 32 (valid: 32) |
 | Recommended Decision | Hold |
 
 ---
@@ -79,9 +79,15 @@ Currently no related literature available for nephrogenic syndrome of inappropri
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 34/2.9/0239 | Precedex concentrated solution vial 2ml | Injection | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/2.9/0239 | Precedex concentrated solution vial 2ml | injection | Valid |
+| 50/2.9/1064 | Demodinex | injection | Valid |
+| 51/2.9/0984 | Demetev | infusion | Valid |
+| 54/2.9/0218 | Dexisun | infusion | Valid |
+| 54/2.9/0696 | Sedmedex 100 Μg/Ml | injection | Valid |
+
+Showing 5 of 32 registrations (valid registrations first).
 
 At least one valid single-ingredient registration exists, and the data compiled for this report show no cancelled registrations.
 

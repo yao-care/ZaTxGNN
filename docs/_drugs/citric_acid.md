@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: predicted new indication Stomach disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but **no clinical trials** and **no publications that test citric acid as a trea
 | Predicted New Indication | Stomach disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 49 of 68) |
+| Number of SAHPRA Registrations | 68 (valid: 49) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,9 +88,15 @@ No publication tests citric acid as a treatment for stomach disease. The most re
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A39/11.5/0058 | Picolax 16.1g | Sachet | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| A39/11.5/0058 | Picolax 16.1g | sachet | Valid |
+| D/8.2.262 | Fenwal Acd Solution Usp Formula A (500 Ml) | solution | Valid |
+| T1100 | Minamino | syrup | Valid |
+| 54/18.3/0663 | Prazgen Otc | Not recorded | Valid |
+| 27/18.3/0542 | CITROSOL* | talbet | Valid |
+
+Showing 5 of 68 registrations (valid registrations first).
 
 ---
 

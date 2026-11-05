@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ There are currently **no registered clinical trials** and **no publication that 
 | Predicted New Indication | Dyspepsia |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 39 of 43) |
+| Number of SAHPRA Registrations | 43 (valid: 39) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,14 +89,17 @@ The publications below were retrieved in connection with this prediction. None o
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| U/22.1.4/200 | Soluvit novum 10ml vials pds000010 | Injection | Not recorded |
-| 36/22.1/0508 | Cernevit | Infusion | Not recorded |
-| L/24/329 | Dextrose 20% in water 500ml pcd201850 | Infusion | Not recorded |
-| EXCLUSION UNDER SECTION 36 & SECTION 14 | ITN neonatal tpn 150ml 101 | Tpn | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/22.1/0508 | Cernevit | infusion | Valid |
+| U/22.1.4/200 | Soluvit novum 10ml vials pds000010 | injection | Valid |
+| F1052 | Promote | liquid | Valid |
+| 57/22.2/0880 | Envitavit | vial | Valid |
+| F1022 | Nutrison Paediatric Energy | liquid | Valid |
 
-All four listed registrations are currently valid. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 43 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ---
 

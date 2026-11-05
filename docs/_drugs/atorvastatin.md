@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "ATORVASTATIN"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -53,8 +53,8 @@ Most of this work concerns HIV-associated lipid disorders, cardiovascular risk a
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 8 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 101 of 125) |
+| Number of SAHPRA Registrations | 125 (valid: 101) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -109,15 +109,17 @@ Several further trials in the data are pharmacokinetic interaction studies or ta
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 43/7.5/0169 | Dynator | Tablet | Not recorded in the local data |
-| 45/7.5/0447 | Atorvastatin lhc | Tablet | Not recorded in the local data |
-| 43/7.5/0480 | Atorvastatin winthrop | Tablet | Not recorded in the local data |
-| A39/7.5/0017 | Aspavor | Tablet | Not recorded in the local data |
-| A39/7.0/0326 | Caduet 5mg/10mg | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/7.5/0357 | Lipitor | tablet | Valid |
+| 31/7.5/0358 | Lipitor | tablet | Valid |
+| 31/7.5/0359 | Lipitor | tablet | Valid |
+| 37/7.5/0210 | Lipitor | tablet | Valid |
+| 42/7.5/0552 | Atolip | tablet | Valid |
 
-The data list 9 valid registrations in total (none cancelled); only the first five are shown. The data do not state Essential Medicines List status.
+Showing 5 of 125 registrations (valid registrations first).
+
+The data do not state Essential Medicines List status.
 
 ---
 

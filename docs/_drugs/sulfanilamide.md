@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Sulfanilamide"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis"]
 description: "Sulfanilamide: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **postmenopausal atrophic vagin
 | Predicted New Indication | Postmenopausal atrophic vaginitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 6 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,12 +88,17 @@ There is no literature for the top-ranked prediction, postmenopausal atrophic va
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H990 (OM) | Achromide | Ointment | Not available in the data compiled for this report |
-| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| H1078 | Ams | ointment | Valid |
+| H990 (OM) | Achromide | ointment | Valid |
+| G1639 | Resmed A.M.S. Cream | Not recorded | Valid |
+| G1957 | K.J.K. Antiseptic Cream | Not recorded | Valid |
+| G2087 | Daromide Ointment | Not recorded | Valid |
 
-Both registrations are valid single-ingredient entries. The Adco-ipratropium entry is named for a different drug (ipratropium), so the registration match should be checked against the SAHPRA register before it is relied upon. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
+Showing 5 of 8 registrations (valid registrations first).
+
+Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 

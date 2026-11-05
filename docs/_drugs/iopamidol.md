@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 269
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Iopamidol: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Iopamidol, s
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 12 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 12) |
 
 ## Known uses recorded for this drug
 
@@ -75,6 +75,12 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Iopamidol, s
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | Q/28/200 | Jopamiron 200 10Ml | injection | Valid |
+| Q/28/201 | Jopamiron 300 20Ml | injection | Valid |
+| U/28/96 | Jopamiron 300 10Ml | injection | Valid |
+| Q/28/202 | Jopamiron 300 50 Ml | injection | Valid |
+| Q/28/203 | Jopamiron 300 100 Ml | injection | Valid |
+
+Showing 5 of 12 registrations (valid registrations first).
 
 ## Safety Considerations
 

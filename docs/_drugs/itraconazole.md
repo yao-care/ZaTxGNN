@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but there a
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 (see the note on the evidence level in the Conclusion) |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 8 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +84,15 @@ None of the publications below tests itraconazole against pneumocystosis. They a
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 37/20.2.2/0559 | Adco-sporozole | Capsule (oral) | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/20.2.2/0559 | Adco-sporozole | capsule | Valid |
+| 53/20.2.2/0383 | Fungikem | capsule | Valid |
+| 53/20.2.2/0384.383 | Mynoscend | capsule | Valid |
+| 53/20.2.2/0385.383 | Itraconazole 100 Ascend | capsule | Valid |
+| A39/20.1.7/0383 | Mylan Itraconazole 100 Mg | capsule | Valid |
+
+Showing 5 of 9 registrations (valid registrations first).
 
 ## Safety Considerations
 

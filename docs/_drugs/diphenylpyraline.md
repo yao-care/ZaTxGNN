@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenylpyraline"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Diphenylpyraline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
@@ -48,8 +48,8 @@ Diphenylpyraline is a first-generation antihistamine. The relations recorded in 
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 6 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,13 +68,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-All three registrations are single-ingredient products and are currently valid. The licence records contain no approved-indication text. Essential Medicines List (EML) status is not available in the data compiled for this report.
+The licence records contain no approved-indication text. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 27/10.1/0529 | Dynalex | Syrup | Not stated in the licence record |
-| Reg. No. N/10.1/98 | Theophen Compound Elixir | Syrup | Not stated in the licence record |
-| Reg. No. W/10.1/0194 | Actophlem | Syrup | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/10.1/0529 | Dynalex | syrup | Valid |
+| G703 (ACT 101/1965) | Solphyllex | syrup | Valid |
+| N/10.1/98 | Theophen Compound Elixir | syrup | Valid |
+| W/10.0/194 | Actophlem | syrup | Valid |
+| W/10.1/0194 | Actophlem | syrup | Valid |
+
+Showing 5 of 10 registrations (valid registrations first).
 
 ## Safety Considerations
 

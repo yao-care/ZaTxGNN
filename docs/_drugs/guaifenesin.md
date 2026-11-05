@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Guaifenesin: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 7 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 54 of 81) |
+| Number of SAHPRA Registrations | 81 (valid: 54) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,15 +71,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-All 8 registered products are single-ingredient syrups and currently valid. Approved indication text is not recorded in the local data for any of them.
+Approved indication text is not recorded in the local data for any of them.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Y/10.1.1/139 | Merck-Expectorant | Syrup | Not recorded |
-| 27/10.1/0485 | Adco-neofed paed | Syrup | Not recorded |
-| Y/10.1/140 | Merck-Paed Expectorant | Syrup | Not recorded |
-| G1032 (OM) | Corbar linctus | Syrup | Not recorded |
-| 27/10.1/0537 | Trifen expect adult | Syrup | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| G0693(ACT101) 1965 | Dis-Chem Paediatric Expectorant | syrup | Valid |
+| 27/10.1/0536 | Trifen expect paediatric | syrup | Valid |
+| 27/10.1/0537 | Trifen expect adult | syrup | Valid |
+| 28/10.1/0433 | Flusin junior cough | syrup | Valid |
+| 30/10.1/0050 | Flusin Expectorant Syrup | solution | Valid |
+
+Showing 5 of 81 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

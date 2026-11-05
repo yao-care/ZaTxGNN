@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ but **no clinical trials** and **no publications** specific to this indication w
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 13 of 25) |
+| Number of SAHPRA Registrations | 25 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -103,9 +103,15 @@ For "chronic pulmonary heart disease", one animal study is available: [8989645](
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A39/7.1.3/0508 | Tarka 180mg/2mg | Slow-release tablet (Srt) | Not listed in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/7.1.3/0261 | Mavik (was Gopten) | capsule | Valid |
+| 28/7.1.3/0263 | Mavik (was Gopten) | capsule | Valid |
+| A39/7.1.3/0531 | Mavik (Was Gopten) | capsule | Valid |
+| 34/30.2/0241 | Synagis 100 Mg | injection | Valid |
+| A39/7.1.3/0508 | Tarka 180mg/2mg | Srt | Valid |
+
+Showing 5 of 25 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

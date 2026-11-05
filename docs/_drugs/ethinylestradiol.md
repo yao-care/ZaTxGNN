@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ETHINYLESTRADIOL"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Ethinylestradiol: predicted new indication Elevated plasma zinc (zinc, elevated plasma) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ There are **no clinical trials and no publications** in the data compiled for th
 | Predicted New Indication | Elevated plasma zinc (zinc, elevated plasma) |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 18 of 20) |
-| Number of SAHPRA Registrations | 20 (valid: 18) |
+| South Africa Market Status | Marketed (valid licences: 65 of 78) |
+| Number of SAHPRA Registrations | 78 (valid: 65) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,15 +82,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-The drug is marketed in South Africa, with 20 valid single-ingredient registrations and no cancelled ones. The registration records carry no approved-indication text. Inclusion on the Essential Medicines List was not assessed in the data compiled for this report.
+The registration records carry no approved-indication text. Inclusion on the Essential Medicines List was not assessed in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 44/18.8/0397 | Ynez | Film-coated tablet (Fct) | Not recorded |
-| 50/21.8.2/0590 | Contrezin | Tablet | Not recorded |
-| 47/21.8.2/0141 | Drasira | Tablet | Not recorded |
-| 34/20.2.2/0244 | Adco-dermed | Sha | Not recorded |
-| 49/18.8/0711 | Merdeza | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 50/21.8.2/0590 | Contrezin | tablet | Valid |
+| N/18.8/0040 | Triphasil | tablet | Valid |
+| 29/21.8.2/0685 | Minerva | tablet | Valid |
+| 31/18.8/0462 | Melodene | tablet | Valid |
+| 33/18.8/0054 | Loette 28 | tablet | Valid |
+
+Showing 5 of 78 registrations (valid registrations first).
 
 Other registered products include Loette 28, Dyolafem, Tricilest, Minerva, Triodene Ed, Contrez, Novynette, Oralcon, Ruby, Ginette, Nordiol, Mercilon, Evra (patch), Trigestrel and Menoflush. Available dosage forms include tablets, a patch, and other forms.
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 379
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Potassium: predicted new indication Hypertensive disorder (evidence level L5). Approved use: Not stated in the available SAHPRA registration data"
 monitor_inn: "Potassium"
 predicted_indications: ["hypertensive disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension"]
@@ -48,8 +48,8 @@ Potassium is an essential electrolyte, registered in South Africa mainly as a co
 | Predicted New Indication | Hypertensive disorder |
 | TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L1 (as assigned in the compiled data; see the caveat below) |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Caveat on the evidence level:** The L1 rating (two or more completed Phase 3 RCTs) is not well supported by direct evidence. Only two Phase 3 trials test potassium itself: NCT03809884 (7 participants) and NCT00000509 (enrolment not reported). Most other Phase 3 trials concern potassium salts of other drugs, such as losartan potassium. The strongest support is the meta-analyses of randomised trials. A more conservative reading is therefore appropriate.
@@ -95,14 +95,12 @@ No SANCTR or PACTR identifiers were found in the data compiled for this report.
 
 ## South Africa Market Information
 
-None of the four registrations has an approved indication text in the available data. Essential Medicines List status could not be determined from the data compiled for this report.
+Essential Medicines List status could not be determined from the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| T/30.3/704 | Stabilised Human Serum-5% Protein Solution | Infusion | Not stated |
-| Exclusion under Section 36 & Section 14 | ITN 3014Xa 750ml | TPN | Not stated |
-| Article 21B (N/A) | TPN non-specific | Infusion | Not stated |
-| 49/25/0065 | Nutriflex Omega Specialized | Infusion | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| T/30.3/704 | Stabilised Human Serum-5% Protein Solution | infusion | Valid |
+| 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
 
 All registered forms are injectable or parenteral nutrition products. Oral potassium products, which would be the relevant route for hypertension, are not among the registrations in the compiled data.
 

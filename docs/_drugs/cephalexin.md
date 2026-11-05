@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 109
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Cephalexin: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidates for Cephalexin, but every candidate that can
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 24 of 43) |
+| Number of SAHPRA Registrations | 43 (valid: 24) |
 
 ## Known uses among the model's candidates
 
@@ -74,7 +74,13 @@ The TxGNN model produced candidates for Cephalexin, but every candidate that can
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/20.1.1/0618 | Belex | capsule | Valid |
+| 29/20.1.1/0124 | Cephalexin pharma-q | capsule | Valid |
+| 29/20.1.1/0125 | Cephalexin pharma-q | capsule | Valid |
+| 30/20.1.1/0334 | Ranceph | capsule | Valid |
+| 30/20.1.1/0335 | Ranceph | capsule | Valid |
+| 37/20.1.1/0617 | Belex | tablet | Valid |
+
+Showing 5 of 43 registrations (valid registrations first).
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia"
 ---
 
@@ -52,8 +52,8 @@ There are **no clinical trials** and **no publications that directly study this 
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 84 of 97) |
+| Number of SAHPRA Registrations | 97 (valid: 84) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,13 +89,15 @@ Neither publication below studies CETP deficiency with ezetimibe. They are liste
 
 Six single-ingredient registrations are recorded. The approved indication text is not available in the records compiled for this report. Essential Medicines List status is not available.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 54/7.5/0364 | Ezorb | Tablet | Not available |
-| 55/7.5/0779 | Lypstaplus 10 Mg/10 Mg | Tablet | Not available |
-| 50/7.5/1171 | Liptruzet 10/10 | Film-coated tablet | Not available |
-| 54/7.5/0693 | Reguchole 10/5Mg | Tablet | Not available |
-| A51/7.5/1008 | Tryzetor Plus 10/20 Mg | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/7.5/0413 | Ezetrol | tablet | Valid |
+| 47/7.5/0174 | Ezetimibe 10 Unicorn | tablet | Valid |
+| 47/7.5/0175 | Tactus 10Mg | tablet | Valid |
+| 48/7.5/0637 | Mezibe 10 | tablet | Valid |
+| 49/7.5/0797 | Trezecol 10Mg | Tabs | Valid |
+
+Showing 5 of 97 registrations (valid registrations first).
 
 A sixth registration, Liptruzet 10/40 (50/7.5/1173, film-coated tablet), is also recorded.
 

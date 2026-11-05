@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Fusidic Acid: predicted new indication exposure keratitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 | Predicted New Indication | exposure keratitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 11 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,13 +73,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 45/13.4.1/0678 | Fucibet | Cream | Not recorded in the local data |
-| Reg. No. 45/13.4.1/0568 | Fucidin h | Cream | Not recorded in the local data |
-| Reg. No. G2090 (OM) | Fucidin  H | Ointment | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/20.1/0065 | Fucidin  Iv | infusion | Valid |
+| 48/20.1.6/0946 | Stafubak Cream | cream | Valid |
+| 48/20.1.6/0947 | Stafubak Ointment | ointment | Valid |
+| E/20.1/91 | Fucidin Suspension | suspension | Valid |
+| Q/20.1.6/0128 | Fucidin | cream | Valid |
 
-All three registrations are single-ingredient products and are currently valid. All are topical dosage forms (cream or ointment), and none is an ophthalmic preparation. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+Showing 5 of 11 registrations (valid registrations first).
+
+Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

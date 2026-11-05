@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension / hypertensive disorder"
 ---
 
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** directly support this prediction,
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 0) |
+| South Africa Market Status | Marketed (valid licences: 2 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,11 +90,17 @@ No literature directly addresses the top predicted indication. The nearest publi
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 31/7.1/0677 | Tri-plen 2.5mg/2.5mg | Tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 35/7.1/0231 | Felodipine 10 kiara (was felodipine-hexa | Srt | Valid |
+| 36/7.1/0302 | Felodipine 5 kiara (was felodipine-hexal | Srt | Valid |
+| 29/7.1/0662 | Plendil 2,5Mg | Srt | Cancelled |
+| Y/7.1/294 | Plendil 5Mg | Srt | Cancelled |
+| Y/7.1/295 | Plendil 10Mg | Srt | Cancelled |
 
-This single registration is valid, but it is a combination-type product name (2.5 mg/2.5 mg) listed as a single-ingredient record. It should not be used to describe how felodipine alone is approved. Essential Medicines List status is not stated in the data compiled.
+Showing 5 of 11 registrations (valid registrations first).
+
+Essential Medicines List status is not stated in the data compiled.
 
 ## Safety Considerations
 

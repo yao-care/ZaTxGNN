@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Anaerobic bacterial infections, giardiasis, bacterial vaginosis…"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -50,8 +50,8 @@ The prediction is not mechanistically plausible, and the evidence supports a **H
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 60 of 79) |
+| Number of SAHPRA Registrations | 79 (valid: 60) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -96,13 +96,17 @@ None of these papers shows that metronidazole treats pneumocystosis.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| S/20.2.6/153 | Sandoz Metronidazole | Tablet (oral) | Not available in the data compiled |
-| 42/20.2/0567 | Bio metronidazole iv | Infusion (injectable) | Not available in the data compiled |
-| 33/20.2.6/0243 | Metrogel v | Vaginal gel (topical) | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/20.2.6/0347 | Dynametron | tablet | Valid |
+| 28/20.2.6/0036 | Merck-Metronidazole 200 | tablet | Valid |
+| 29/20.2.6/0745 | Bemetrazole | tablet | Valid |
+| 32/20.2/0218 | Metagyl | tablet | Valid |
+| 32/20.2/0219 | Metagyl forte | tablet | Valid |
 
-All three registrations are valid single-ingredient products. Essential Medicines List status was not included in the data compiled for this report.
+Showing 5 of 79 registrations (valid registrations first).
+
+Essential Medicines List status was not included in the data compiled for this report.
 
 ## Safety Considerations
 

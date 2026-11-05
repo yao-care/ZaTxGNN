@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "VALPROIC ACID"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -52,8 +52,8 @@ Among the other predictions, **visual epilepsy** has the strongest support, thou
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1) |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 20 of 20) |
+| Number of SAHPRA Registrations | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
 **Overview of the top 10 predictions**
@@ -130,13 +130,17 @@ For eating seizures, micturition-induced seizures, thinking seizures and reading
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 45/2.5/0094 | Eprolep CR | Sustained-release tablet (Srt) | Indication text not available in the data compiled for this report |
-| Reg. No. 45/2.5/0412 | Eprolep CR | Sustained-release tablet (Srt) | Indication text not available in the data compiled for this report |
-| Reg. No. 45/2.5/0411 | Navalpro CR | Sustained-release tablet (Srt) | Indication text not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/2.5/0322 | Epilim cr | Srt | Valid |
+| 27/2.5/0500 | Epilim crushable | tablet | Valid |
+| 55/2.5/0504 | Embivil Mr 250 Mg | tablet | Valid |
+| 55/2.5/0505 | Embivil Mr 500 Mg | tablet | Valid |
+| 57/2.5/0189 | Lepquity | syrup | Valid |
 
-All three registrations are valid single-ingredient products, and none are cancelled. The data compiled for this report do not state Essential Medicines List (EML) status, so this should be checked separately.
+Showing 5 of 20 registrations (valid registrations first).
+
+The data compiled for this report do not state Essential Medicines List (EML) status, so this should be checked separately.
 
 ---
 

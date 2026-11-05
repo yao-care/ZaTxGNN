@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 99
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Carbamazepine: predicted new indication Trigeminal nerve neoplasm (evidence level L4). Approved use: Epilepsy (including partial epilepsy…"
 monitor_inn: "CARBAMAZEPINE"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 23 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 23) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,12 +93,17 @@ The 20 retrieved publications were reviewed. Most are case reports, and none is 
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 29/2.5/0195 | Zecarb | Tablet | Not available in the compiled data |
-| Reg. No. D/2.5/204 | Tegretol S | Suspension | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/2.5/0195 | Zecarb 200 | tablet | Valid |
+| 32/2.5/0144 | Bio-Carbamazepine 200 | tablet | Valid |
+| 37/2.5/0482 | Partid-200 | tablet | Valid |
+| 42/2.5/0840 | Zeptol | tablet | Valid |
+| 43/2.5/0840 | Gulf Carbamazepine 200 | tablet | Valid |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) status is not covered by the compiled data.
+Showing 5 of 31 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not covered by the compiled data.
 
 ---
 

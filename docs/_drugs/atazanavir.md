@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Atazanavir: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection and AIDS"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 16 of 35) |
+| Number of SAHPRA Registrations | 35 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,12 +88,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Both registrations are single-ingredient products. Essential Medicines List status is not available in the data compiled for this report. Approved indication text is not available for either registration.
+Essential Medicines List status is not available in the data compiled for this report. Approved indication text is not available for either registration.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 45/20.2.8/0925 | Zatonav | Film-coated tablet (Fct) | Not available in the compiled data |
-| 50/20.2.8/0242 | Emcovir | Tablet | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 42/20.2.8/0838 | Aspen Atazanavir 150Mg | capsule | Valid |
+| 42/20.2.8/0839 | Aspen Atazanavir 200Mg | capsule | Valid |
+| 49/20.2.8/0195 | Zorovir 200Mg | capsule | Valid |
+| 49/20.2.8/0196 | Zorovir 300Mg | capsule | Valid |
+| 45/20.2.8/0925 | Zatonav | Fct | Valid |
+
+Showing 5 of 35 registrations (valid registrations first).
 
 ---
 

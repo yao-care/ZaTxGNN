@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 1 and type 2 diabetes mellitus, diabetic ketoacidosis"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but 
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 3 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -100,9 +100,15 @@ One general review was supplied for the rank 7 prediction (pancreatic agenesis).
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 29/21.1/0785 | Humalog vial 10ml | Injection | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/21.1/0073 | Humalog Mix 25 | penset | Valid |
+| 33/21.1/0074 | Humalog mix 50 kwikpen  3ml | injection | Valid |
+| 29/21.1/0785 | Humalog | penset | Valid |
+| 50/21.1/0680 | Humalog kwikpen 3ml | injection | Cancelled |
+| 56/21.1/0047 | Lyumjev U100 | solution | Cancelled |
+
+Showing 5 of 12 registrations (valid registrations first).
 
 Insulin lispro is available only as an injectable product in South Africa. The data compiled for this report do not show its Essential Medicines List (EML) status.
 

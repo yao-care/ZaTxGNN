@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be relevant for **rosacea conjunctivitis**, with
 | Predicted New Indication | rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 17) |
-| Number of SAHPRA Registrations | at least 19 |
+| South Africa Market Status | Marketed (valid licences: 75 of 114) |
+| Number of SAHPRA Registrations | 114 (valid: 75) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,15 +70,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-The data compiled for this report lists 19 valid single-ingredient registrations and none cancelled. The list may be partial. None of the records carry approved-indication text. The table shows 5 of them.
+The list may be partial. None of the records carry approved-indication text. The table shows 5 of them.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 28/2.8/0729 | Tylenol nightpain | Tablet | Not recorded |
-| M/10.1/248 | Flemex | Syrup | Not recorded |
-| 43/2.6.5/0042 | Rispevon | Tablet | Not recorded |
-| C1009 | Fluend | Capsule | Not recorded |
-| G2011 (OM) | Biohist | Syrup | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| G1077 | Diphenhydramine Expect. | liquid | Valid |
+| N/2.2/37 | Sleep-eze pm | tablet | Valid |
+| 27/10.1/0013 | Amcough | solution | Valid |
+| 28/10.1/0248 | Expectalin | syrup | Valid |
+| 28/10.1/0249 | Expectalin with cod | syrup | Valid |
+
+Showing 5 of 114 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

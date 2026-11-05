@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Insulin Aspart: predicted new indication autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **autoimmune oophoritis**, but **
 | Predicted New Indication | autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 4 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,12 +69,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 34/21.1/0160 | Novorapid penfill 3ml | Injection | Not recorded |
-| Reg. No. 47/21.1/0165 | Ryzodeg flextouch pre-filled pen 3ml | Injection | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/21.1/0160 | Novorapid flexpen penset 3ml | injection | Valid |
+| 35/21.1/0031 | Novomix 30 penfill 3ml | injection | Valid |
+| 47/21.1/0165 | Ryzodeg flextouch pre-filled pen 3ml | injection | Valid |
+| 51/21.1/0733 | Fiasp | penset | Valid |
+| 55/21.1/0513 | Truvelog | solution | Cancelled |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

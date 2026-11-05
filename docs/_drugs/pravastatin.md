@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 385
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This direction is supported by **12 clinical trials** and **20 publications**, a
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 3 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 23 of 32) |
+| Number of SAHPRA Registrations | 32 (valid: 23) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on other predictions:** Eight other predicted indications were reviewed. Their recommendations are summarised below.
@@ -112,14 +112,17 @@ Two further trials (NCT00017758, a Phase 1 pharmacokinetic study of efavirenz an
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. A40/7.5/0749 | Novales 20 | Tablet | Not available in the compiled data |
-| Reg. No. A39/7.5/0358 | Arrow Pravastatin | Tablet | Not available in the compiled data |
-| Reg. No. 42/7.5/0372 | Pixeta | Tablet | Not available in the compiled data |
-| Reg. No. 52/7.5/0769 | Pravafen 40/160Mg | Capsule | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/7.5/0423 | Prava | tablet | Valid |
+| 37/7.5/0638 | Pranalip | tablet | Valid |
+| 37/7.5/0639 | Pranalip 20 | tablet | Valid |
+| 37/7.5/0640 | Pranalip 40 | tablet | Valid |
+| 38/7.5/0123 | Aspen pravastatin | tablet | Valid |
 
-All four registrations are currently valid and are for single-ingredient products, as the data records them. Essential Medicines List status could not be confirmed from the compiled data.
+Showing 5 of 32 registrations (valid registrations first).
+
+Essential Medicines List status could not be confirmed from the compiled data.
 
 ---
 

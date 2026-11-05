@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CODEINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Codeine is an opioid analgesic that is currently marketed in South Africa in sev
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 16) |
-| Number of SAHPRA Registrations | at least 20 |
+| South Africa Market Status | Marketed (valid licences: 178 of 292) |
+| Number of SAHPRA Registrations | 292 (valid: 178) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,15 +70,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-The data compiled for this report list 20 valid single-ingredient registrations, and the list may be partial. The approved indication text is not recorded for these registrations. The first five are shown below.
+The approved indication text is not recorded for these registrations. The first five are shown below.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| S/2.8/137 | Empacod | Tablet | Not recorded |
-| B 1006 (ACT 101) | Omnopon 1mlfresenius 20 | Injection | Not recorded |
-| B1192 (ACT 101) | Codeine phos | Tablet | Not recorded |
-| X/2.8/109 | Cogesic | Tablet | Not recorded |
-| G1260 (ACT101) | Codomil new formula | Syrup | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| B1192 | Codeine | tablet | Valid |
+| 27/10.1/0536 | Trifen expect paediatric | syrup | Valid |
+| 27/10.1/0537 | Trifen expect adult | syrup | Valid |
+| 27/2.8/0137 | Astrapain forte | tablet | Valid |
+| 27/2.8/0139 | Astrapain | syrup | Valid |
+
+Showing 5 of 292 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

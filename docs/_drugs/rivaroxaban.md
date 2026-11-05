@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -50,8 +50,8 @@ This prediction is a computational signal only.
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 110 of 120) |
+| Number of SAHPRA Registrations | 120 (valid: 110) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,10 +75,15 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 55/8.2/0140 | Axolta 10 Mg | Film-coated tablet (Fct) | Not available |
-| 55/8.2/0719 | Rexarav 20 Mg | Film-coated tablet (Fct) | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 42/8.2/1046 | Xarelto | tablet | Valid |
+| 46/8.2/0111 | Xarelto | tablet | Valid |
+| 46/8.2/0112 | Xarelto | tablet | Valid |
+| 50/8.2/2019 | Ixarola 20 | Fct | Valid |
+| 50/8.2/9017 | Ixarola 10 | Fct | Valid |
+
+Showing 5 of 120 registrations (valid registrations first).
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

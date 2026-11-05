@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **Rasmussen subacute encephalitis** (
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 16 of 17) |
+| Number of SAHPRA Registrations | 17 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -65,7 +65,6 @@ The more biologically plausible predictions are those involving nigrostriatal do
 - Hallucinations and confusion are the main concerns.
 - Levodopa may also worsen orthostatic hypotension in MSA-P.
 - The disease mapping is imprecise.
-
 
 ## Clinical Trial Evidence
 
@@ -97,17 +96,17 @@ No publications were found for Rasmussen subacute encephalitis. The most relevan
 
 ## South Africa Market Information
 
-Levodopa is marketed in South Africa, with six valid single-ingredient registrations in the data compiled for this report. Approved indication text and Essential Medicines List status were not available.
+Approved indication text and Essential Medicines List status were not available.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 32/5.4.1/0081 | Teva Carbi-Levo 25/100 | Tablet | Not available |
-| Reg. No. 31/5.4.1/0194 | Madopar HBS 100mg/25mg | Capsule | Not available |
-| Reg. No. 45/5.4.1/0765 | Lecardop 25/100 | Tablet | Not available |
-| Reg. No. R/3.1/50 | Panamor AT | Tablet | Not available |
-| Reg. No. 8/5.4.1/0138 | Stalevo 100/25 | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/5.4.1/0271 | Carbilev 25/100 | tablet | Valid |
+| 31/5.4.1/0194 | Madopar hbs 100mg/25mg | capsule | Valid |
+| 32/5.4.1/0024 | Teva carbi-levo 25/250 | tablet | Valid |
+| 32/5.4.1/0081 | Teva carbi-levo 25/100 | tablet | Valid |
+| 38/5.4.1/0137 | Stalevo 150/37.5 | tablet | Valid |
 
-A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid.
+Showing 5 of 17 registrations (valid registrations first).
 
 ## Safety Considerations
 
@@ -121,7 +120,6 @@ SAHPRA package insert warnings and contraindications were not available in the d
 - **Gastrointestinal, hepatic and renal:** peptic ulcer disease, gastric ulcer, diarrheal disease, liver disease, gallbladder disease, kidney disease, pyoureter
 - **Eye:** open-angle glaucoma, angle-closure glaucoma
 - **Metabolic and other:** diabetes mellitus, diabetic ketoacidosis, melanoma, hemoglobinopathy
-
 
 **Drug interactions:** The interaction screen returned 100 interacting drugs. The 20 shown in the data compiled for this report are:
 

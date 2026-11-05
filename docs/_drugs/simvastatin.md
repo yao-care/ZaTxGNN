@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Because homozygous familial hypercholesterolaemia is already among its original 
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 7) |
-| Number of SAHPRA Registrations | 7 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 90 of 109) |
+| Number of SAHPRA Registrations | 109 (valid: 90) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -95,17 +95,17 @@ No SANCTR or PACTR identifiers were available in the data compiled for this repo
 
 ## South Africa Market Information
 
-All seven registrations are valid single-ingredient products. Indication text, manufacturer, and Essential Medicines List (EML) status were not available in the data compiled for this report.
+Indication text, manufacturer, and Essential Medicines List (EML) status were not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 36/7.5/0213 | Lipidex | Tablet | Refer to approved PI |
-| Reg. No. 37/7.5/0336 | Aspen simvastatin | Tablet | Refer to approved PI |
-| Reg. No. 38/7.5/0335 | Mylan simvastatin | Tablet | Refer to approved PI |
-| Reg. No. 41/7.5/0391 | Choleste | Tablet | Refer to approved PI |
-| Reg. No. A40/7.5/0399 | Roltesim 10 | Film-coated tablet | Refer to approved PI |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/7.5/447 | Zocor | tablet | Valid |
+| 35/7.5/0237 | Simvacor | tablet | Valid |
+| 35/7.5/0238 | Simvacor | tablet | Valid |
+| 35/7.5/0277 | Adco-simvastatin | tablet | Valid |
+| 35/7.5/0278 | Adco-simvastatin | tablet | Valid |
 
-Two further registrations (Simayla Simvastatin 40 and Tryzetor Plus 10/20 mg) are also valid.
+Showing 5 of 109 registrations (valid registrations first).
 
 ## Safety Considerations
 

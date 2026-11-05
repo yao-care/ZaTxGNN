@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 304
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Magnesium Acetate: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 10 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 10) |
 
 ## Known uses recorded for this drug
 
@@ -74,8 +74,13 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 41/25/0757 | Nutriflex Lipid Peri | infusion | Valid |
-| 41/25/0759 | Nutriflex lipid special 625ml | Tpn | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
+| 41/25/0759 | Nutriflex lipid special 2500ml | Tpn | Valid |
+| 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
+| 49/25/0066 | Nutriflex Omega Plus | infusion | Valid |
+
+Showing 5 of 10 registrations (valid registrations first).
 
 ## Safety Considerations
 

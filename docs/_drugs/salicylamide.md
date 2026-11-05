@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Salicylamide: predicted new indication Pharyngitis (evidence level L4). Approved use: Headache disorder"
 monitor_inn: "Salicylamide"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
@@ -52,8 +52,8 @@ The evidence is therefore very weak, and the prediction is not yet supported by 
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 6 of 13) |
+| Number of SAHPRA Registrations | 13 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,14 +88,17 @@ For other predicted indications, the retrieved literature is mostly about safety
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G1221 (ACT 101) | Flutex | Capsule | Not stated in the data compiled |
-| B851 (ACT 101) | Flutex junior cold & flu (alcohol free) | Syrup | Not stated in the data compiled |
-| C759 (OM) | Histamed co | Capsule | Not stated in the data compiled |
-| C770 (ACT 101/1965) | Ilvico | Tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| B851 (ACT 101) | Flutex junior cold & flu-alcohol free | syrup | Valid |
+| C759 (OM) | Histamed co | capsule | Valid |
+| C770 (ACT 101/1965) | Ilvico | tablet | Valid |
+| G1221 | Flutex | capsule | Valid |
+| G1719 | Intralgin | Not recorded | Valid |
 
-All 4 registrations are valid single-ingredient entries. The data compiled for this report do not show whether salicylamide is on the Essential Medicines List.
+Showing 5 of 13 registrations (valid registrations first).
+
+The data compiled for this report do not show whether salicylamide is on the Essential Medicines List.
 
 ---
 

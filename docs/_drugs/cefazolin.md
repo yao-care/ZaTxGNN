@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Cefazolin: predicted new indication infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ but **no clinical trials** and only **2 loosely related publications** (a review
 | Predicted New Indication | infectious otitis media |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 24 of 29) |
+| Number of SAHPRA Registrations | 29 (valid: 24) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,9 +77,15 @@ Neither publication tests cefazolin for infectious otitis media itself, so this 
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 36/20.1.1/0259 | Sabax cefazolin powder for injection | Injection | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/20.1.1/0332 | Ranzol 500 Injection | injection | Valid |
+| 31/20.1.1/0675 | Cefazolin 500Mg Oethmaan | injection | Valid |
+| 31/20.1.1/0676 | Cefazolin 1G Oethmaan | injection | Valid |
+| 36/20.1.1/0259 | Sabax cefazolin powder for injection | injection | Valid |
+| 36/20.1.1/0260 | Sabax Cefazolin 1G Injection | powder | Valid |
+
+Showing 5 of 29 registrations (valid registrations first).
 
 ## Safety Considerations
 

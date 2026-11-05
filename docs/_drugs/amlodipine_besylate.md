@@ -5,7 +5,7 @@ layout: default
 title: Amlodipine Besylate
 parent: Known Uses Only (No New Predictions)
 nav_order: 32
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,10 +41,10 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences on record: at least 20) |
-| Number of SAHPRA Registrations | at least 20 |
+| South Africa Market Status | Marketed (valid licences: 303 of 328) |
+| Number of SAHPRA Registrations | 328 (valid: 303) |
 
-Amlodipine is a globally ubiquitous antihypertensive that is almost certainly registered in South Africa under multiple brand names. This result most likely indicates a data retrieval failure rather than actual non-registration. **SAHPRA's online registry must be consulted directly before drawing any conclusions.**
+Amlodipine is a globally ubiquitous antihypertensive that is almost certainly registered in South Africa under multiple brand names. **SAHPRA's online registry must be consulted directly before drawing any conclusions.**
 
 ---
 

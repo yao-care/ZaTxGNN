@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 343
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "Nitrofurantoin"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
@@ -50,8 +50,8 @@ This prediction is not supported by the evidence compiled for this report.
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 (no trials; literature is limited to adverse-effect reports and observational data) |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 30 of 32) |
+| Number of SAHPRA Registrations | 32 (valid: 30) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +84,15 @@ Four further retrieved papers (on bacteriuria screening, sialadenitis, autoimmun
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 53/18.5/0109.107 | Cipladantin 50 | Capsule | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 52/18.5/0756.754 | Urimso 50 | capsule | Valid |
+| 52/18.5/0757.755 | Urimso 100 | capsule | Valid |
+| 52/18.5/0758.754 | Turanto 50 | capsule | Valid |
+| 52/18.5/0759.755 | Turanto 100 | capsule | Valid |
+| 53/18.5/0109.107 | Cipladantin 50 | capsule | Valid |
+
+Showing 5 of 32 registrations (valid registrations first).
 
 The Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

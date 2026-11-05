@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials and no publications** supporting th
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 20 of 20) |
+| Number of SAHPRA Registrations | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,12 +74,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Q/18.1/70 | Spironolactone 25 Kiara (was Sandoz Spir...) | Tablet | Not stated in the data compiled |
-| H1945 (Act 101 of 1965) | Aldazide | Tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 55/18.1/0776 | Spironolactone 25 Mg Accord | tablet | Valid |
+| 55/18.1/0777 | Spironolactone 100 Mg Accord | tablet | Valid |
+| 57/18.1/0346.344 | Jubactone Fc 25 Mg | Fct | Valid |
+| 57/18.1/0347.345 | Jubactone Fc 100 Mg | Fct | Valid |
+| H/18.1/2 | Aldactone | tablet | Valid |
 
-Both registrations are valid, single-ingredient entries for oral tablets. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Showing 5 of 20 registrations (valid registrations first).
+
+Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Buspirone
 parent: Known Uses Only (No New Predictions)
 nav_order: 84
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -36,14 +36,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 ## Buspirone
 {: .text-alpha }
 
-
 ## Quick Overview
 
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 
 ---
 

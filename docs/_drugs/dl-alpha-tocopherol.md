@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DL-alpha-Tocopherol"
 predicted_indications: ["mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "immature cataract", "diabetic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "antithrombin deficiency type 2"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Dl-Alpha-Tocopherol: predicted new indication Mature cataract (evidence level L5). Approved use: Not stated in the SAHPRA licence data compiled for this report"
 ---
 
@@ -50,8 +50,8 @@ The prediction is therefore supported by the model score alone.
 | Predicted New Indication | Mature cataract |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 15 of 20) |
+| Number of SAHPRA Registrations | 20 (valid: 15) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,15 @@ No publication directly studies mature cataract. The only publication linked to 
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 36/22.1/0508 | Cernevit | Infusion | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
+| 36/22.1/0508 | Cernevit | infusion | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| Z/22.1/236 | Vitalipid novum adult 10ml pdv00001a | infusion | Valid |
+| T1095 | Alpha Vit E Capsules 100 iu | capsule | Valid |
+
+Showing 5 of 20 registrations (valid registrations first).
 
 Cernevit is a multi-ingredient vitamin product. Its licence does not describe how tocopherol alone is approved or marketed. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

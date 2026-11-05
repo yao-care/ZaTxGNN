@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 442
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Testosterone Undecanoate: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Testosterone
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 4 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -77,7 +77,9 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Testosterone
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| 57/21.7/0452 | Testosterone Pd | injection | Valid |
 | A38/21.7/0641 | Nebido 4ml vial | injection | Valid |
+| 57/21.7/0491 | Testosterone Cipla | solution | Valid |
 
 ## Safety Considerations
 

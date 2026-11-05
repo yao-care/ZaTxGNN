@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 348
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "NORETHISTERONE"
 description: "Norethisterone: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
@@ -41,24 +41,24 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 8 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 17 of 22) |
+| Number of SAHPRA Registrations | 22 (valid: 17) |
 
 ---
 
 ## South Africa Market Information
 
-Norethisterone has 9 valid SAHPRA registrations, all single-ingredient entries as classified in the data compiled for this report. No approved indication text and no Essential Medicines List (EML) information were available. The 5 main registrations are listed below.
+No approved indication text and no Essential Medicines List (EML) information were available. The 5 main registrations are listed below.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| B/18.8/135 | Micro-Novum | Tablet | Not available |
-| 29/21.8.2/0763 | Estro-Pause N | Tablet | Not available |
-| 29/21.8.2/0764 | Estro-Pause N Forte | Tablet | Not available |
-| 27/21.8.2/0021 | Estracombi TTS | Pad (transdermal) | Not available |
-| S/18.8/124 | Trinovum Tablets | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| B/18.8/135 | Micro-Novum | tablet | Valid |
+| 27/21.8.2/0021 | Estracombi Tts | Pad | Valid |
+| 29/21.8.2/0763 | Estro-Pause N | tablet | Valid |
+| 29/21.8.2/0764 | Estro-Pause N Forte | tablet | Valid |
+| 31/21.8.2/0537 | Evorel conti | patch | Valid |
 
-Four further registrations: Trisequens Forte (tablet), Minulette (tablet), Gyno-Pevaryl Depot (vaginal cream) and Evorel Sequi (patch).
+Showing 5 of 22 registrations (valid registrations first).
 
 ---
 

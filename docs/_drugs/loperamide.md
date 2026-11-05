@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Diarrhoeal disease, dysentery"
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "Angelucci syndrome"]
@@ -48,8 +48,8 @@ Loperamide is an antimotility drug originally used to treat diarrhoeal disease a
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 20 of 25) |
+| Number of SAHPRA Registrations | 25 (valid: 20) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,16 +78,17 @@ For context, literature found for other predicted indications consists of safety
 
 ## South Africa Market Information
 
-Loperamide is registered in South Africa as a single-ingredient product under 4 valid registrations. Approved indication text and manufacturer details were not available in the data compiled for this report.
+Approved indication text and manufacturer details were not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Y/11.9/0073 | Norimode | Tablet | Not available |
-| V/11.9/0213 | Gastron | Tablet | Not available |
-| 31/11.9.2/0402 | Imodium Plus | Tablet | Not available |
-| 28/11.9/0649 | Loperastat | Syrup | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/11.9/0140 | Dis-chem anti-diarrhoeal | tablet | Valid |
+| 29/11.9/0616 | Lopedium | effervescent tablet | Valid |
+| A39/11.9/0407 | Cipla-loperamide | tablet | Valid |
+| H/11.9/152 | Imodium | tablet | Valid |
+| U/11.9/213 | Imodium | capsule | Valid |
 
-No ophthalmic formulation is registered; the available forms are oral tablets and syrup.
+Showing 5 of 25 registrations (valid registrations first).
 
 ## Safety Considerations
 

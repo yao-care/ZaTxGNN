@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Celecoxib"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The TxGNN model predicts it may be relevant for **acromesomelic dysplasia, Hunte
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 60 of 63) |
+| Number of SAHPRA Registrations | 63 (valid: 60) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 33/3.1/0333 | Celebrex | Capsule | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/3.1/0332 | Celebrex | capsule | Valid |
+| 33/3.1/0333 | Celebrex | capsule | Valid |
+| 46/3.1/0702 | Celecoxib unicorn | capsule | Valid |
+| 46/3.1/0703 | Celecoxib unicorn | capsule | Valid |
+| 46/3.1/0704 | Coxleon | capsule | Valid |
 
-One valid single-ingredient registration is on record. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 63 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ---
 

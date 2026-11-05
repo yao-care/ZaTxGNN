@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "Docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The linked studies are mostly combination regimens (gemcitabine plus docetaxel, 
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 46 of 61) |
+| Number of SAHPRA Registrations | 61 (valid: 46) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -90,9 +90,15 @@ In Ewing sarcoma, docetaxel has been used mainly in combination with gemcitabine
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A39/26/0551 | Docetere 80Mg | Infusion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/26/0479 | Taxotere  20 Mg | injection | Valid |
+| 29/26/0480 | Taxotere 80 Mg | injection | Valid |
+| 42/26/0006 | Eriox 20 | infusion | Valid |
+| 42/26/0008 | Eriox 80 | infusion | Valid |
+| 43/26/0793 | Docefrez 20 | infusion | Valid |
+
+Showing 5 of 61 registrations (valid registrations first).
 
 ## Cytotoxicity
 

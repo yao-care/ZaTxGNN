@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** support this prediction, so 
 | Predicted New Indication | non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 15) |
-| Number of SAHPRA Registrations | at least 18 |
+| South Africa Market Status | Marketed (valid licences: 77 of 125) |
+| Number of SAHPRA Registrations | 125 (valid: 77) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,15 +80,17 @@ Currently no related literature available for non-syndromic esophageal malformat
 
 ## South Africa Market Information
 
-Ascorbic acid is marketed in South Africa. The data compiled for this report show 18 valid single-ingredient registrations, and the list may be partial. Products include oral tablets, capsules, effervescent tablets, sachets and syrups, as well as infusion and parenteral nutrition products. No approved-indication text is recorded for these registrations in the local data.
+Ascorbic acid is marketed in South Africa. Products include oral tablets, capsules, effervescent tablets, sachets and syrups, as well as infusion and parenteral nutrition products. No approved-indication text is recorded for these registrations in the local data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| B/2.8/1329 | Paracetacod | Tablet | Not recorded |
-| C1009 | Fluend | Capsule | Not recorded |
-| 35/5.8/0152 | Flutex effervescent | Effervescent tablet | Not recorded |
-| H0689 (ACT 101/1965) | Autrin | Capsule | Not recorded |
-| Y/5.8/308 | Demazin Flu | Effervescent tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/5.8/0449 | Sinustat flu | capsule | Valid |
+| 27/10.1/0553 | Flusin dm | syrup | Valid |
+| 27/5.8/0435 | Coryx | effervescent tablet | Valid |
+| 27/5.8/0523 | Flusin c | syrup | Valid |
+| 27/A.5.8/435 | Coryx | effervescent tablet | Valid |
+
+Showing 5 of 125 registrations (valid registrations first).
 
 ---
 

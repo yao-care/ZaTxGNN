@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 326
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **punctate epithelial keratoconjun
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 17 of 17) |
+| Number of SAHPRA Registrations | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,6 @@ Currently, detailed mechanism of action data is not available. Based on known in
 A plausible rationale is that tetracyclines have anti-inflammatory activity and can inhibit matrix metalloproteinases (MMPs), enzymes involved in tissue breakdown. These properties could in theory help calm inflammation and limit damage to the corneal surface. This reasoning is speculative: no trials or publications were found in the data compiled for this report to support it, and the high TxGNN score reflects a model prediction only.
 
 Other top-ranked predictions show the same pattern. Of the ten predictions reviewed, only two have any evidence attached, and in neither case is it direct:
-
 
 ## Clinical Trial Evidence
 
@@ -88,9 +87,15 @@ It is indirect and does not demonstrate efficacy:
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 28/20.1.1/0574 | Sandoz Minocycline | Tablet (oral) | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/20.1.1/0573 | Sandoz Minocycline | tablet | Valid |
+| 28/20.1.1/0574 | Sandoz Minocycline | tablet | Valid |
+| 29/20.1.1/0570 | Minotabs 50 | tablet | Valid |
+| W/20.1.1/0442 | Cyclimycin | capsule | Valid |
+| W/20.1.1/0443 | Cyclimycin | capsule | Valid |
+
+Showing 5 of 17 registrations (valid registrations first).
 
 Only an oral tablet is registered. No ophthalmic or other topical formulation is registered, which would be relevant for any eye-surface use. Essential Medicines List status could not be determined from the data compiled.
 

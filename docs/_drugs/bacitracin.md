@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "bacitracin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Bacitracin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **punctate epithelial keratoconjun
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 4 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,9 +69,15 @@ Currently no related literature available for this predicted indication.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2370 (Act 101/1965) | Cicatrin Powder 15G | Powder | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| G2370 | Cicatrin Powder 15G | powder | Valid |
+| G2375 | Polysporin Ointment | Not recorded | Valid |
+| G2404 | Neobacrin Antibiotic Ointment | Not recorded | Valid |
+| G2411 | Neobacrin Tulle | Not recorded | Valid |
+| G2377 | Nebacetin Ointment | Not recorded | Cancelled |
+
+Showing 5 of 11 registrations (valid registrations first).
 
 The data compiled for this report do not show whether this product is on the Essential Medicines List. The registration is a single-ingredient product and is currently valid.
 

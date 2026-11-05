@@ -5,7 +5,7 @@ layout: default
 title: Mephenesin
 parent: Known Uses Only (No New Predictions)
 nav_order: 313
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Mephenesin: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Mephenesin"
 predicted_indications: []
@@ -43,14 +43,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 56/2.8/0309 | Pynspas | Tablet | Not stated in the registration data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 56/2.8/0309 | Pynspas | tablet | Valid |
+| B1490 | Spasmend | tablet | Valid |
 
 The product is registered as a single-ingredient oral tablet and is currently valid. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

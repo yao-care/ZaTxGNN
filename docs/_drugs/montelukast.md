@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 331
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Montelukast is a leukotriene receptor antagonist that is already marketed in Sou
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 96 of 111) |
+| Number of SAHPRA Registrations | 111 (valid: 96) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -99,14 +99,15 @@ Much of the registered trial activity concerns bronchiolitis, a related but dist
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 44/10.2.2/0486 | Sintrine | Not specified in the compiled data ("Chu") | Not available |
-| Reg. No. 44/10.2.2/0823 | Lumont | Not specified in the compiled data ("Chu") | Not available |
-| Reg. No. 44/10.2.2/0829 | Sintair | Not specified in the compiled data ("Chu") | Not available |
-| Reg. No. 49/5.7.1/0551 | Glemolev | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/10.2.2/0321 | Singulair | Chu | Valid |
+| 32/10.2.2/0322 | Singulair | tablet | Valid |
+| 35/10.2.2/0397 | Singulair 4Mg | Chu | Valid |
+| 43/10.2.2/0785 | Topraz | Chu | Valid |
+| 43/10.2.2/0786 | Topraz | Chu | Valid |
 
-All 4 registrations are single-ingredient products and all are valid.
+Showing 5 of 111 registrations (valid registrations first).
 
 ---
 

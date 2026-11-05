@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Irbesartan: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ No clinical trials or publications on this disease are currently available, so t
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 43 of 76) |
+| Number of SAHPRA Registrations | 76 (valid: 43) |
 | Recommended Decision | Hold |
 
 ---
@@ -83,13 +83,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 46/7.1.3/0124 | Jubitan | Tablet | Not recorded in the local data |
-| 42/7.1.3/0116 | Co Irbewin 300/25 | Tablet | Not recorded in the local data |
-| 45/7.1.3/0073 | Isart Co 150 | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 43/7.1.3/0720 | Dynarb | tablet | Valid |
+| 43/7.1.3/0721 | Dynarb | tablet | Valid |
+| 44/7.1.3/0907 | Irtanel 150 | tablet | Valid |
+| 44/7.1.3/0908 | Irtanel 300 | tablet | Valid |
+| 44/7.1.3/0910 | Antosart 150 | Fct | Valid |
 
-All three registrations are currently valid, and all are recorded as single-ingredient oral tablets. The product names "Co Irbewin" and "Isart Co" may indicate combination products, so the composition should be checked against the registered Professional Information (PI) before it is relied on.
+Showing 5 of 76 registrations (valid registrations first).
+
+The product names "Co Irbewin" and "Isart Co" may indicate combination products, so the composition should be checked against the registered Professional Information (PI) before it is relied on.
 
 ---
 

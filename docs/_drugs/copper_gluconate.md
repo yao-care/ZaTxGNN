@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ This report documents the current data gaps and the remediation steps required b
 | Predicted New Indication | None — TxGNN prediction not generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — No prediction generated |
-| South Africa Market Status | Marketed (valid licences on record: at least 5) |
-| Number of SAHPRA Registrations | at least 6 |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -61,8 +61,6 @@ This report documents the current data gaps and the remediation steps required b
 ## Why No Prediction Was Generated
 
 The TxGNN knowledge graph pipeline requires a valid **DrugBank ID** to anchor a compound within the disease–drug network and generate ranked repurposing candidates. For Copper Gluconate, the DrugBank query returned one result (`result_count: 1`), yet the `drugbank_id` field remains unresolved (`null`). This indicates the compound may be catalogued under a related identifier — for example, elemental copper (DrugBank: DB09130) or under a specific salt or formulation entry — that the automated matching step did not confirm.
-
-Additionally, no SAHPRA-registered product was found (0 licences), and no original approved indications are on record within the current dataset. Without these regulatory anchors, the pipeline lacks the inputs needed to generate a meaningful disease ranking.
 
 Two critical data gaps are blocking progress:
 

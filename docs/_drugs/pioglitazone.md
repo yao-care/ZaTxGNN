@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 12 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,12 +80,17 @@ For context, the seventh-ranked or lower-ranked prediction (pancreatic agenesis)
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A40/21.2/0149 | Cipla-pioglitazone | Tablet | Not stated in the data compiled |
-| 46/21.2/0257 | Pioglitazone Hydrochloride Tablets Macleods 15 Mg | Tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/21.2/0498 | Actos | tablet | Valid |
+| 34/21.2/0499 | Actos | tablet | Valid |
+| 43/21.2/0140 | Accord Pioglitazone 15 | tablet | Valid |
+| 43/21.2/0141 | Accord Pioglitazone 30 | tablet | Valid |
+| 43/21.2/0142 | Accord Pioglitazone 45 | tablet | Valid |
 
-Both registrations are valid single-ingredient oral products. Essential Medicines List (EML) status could not be determined from the data compiled.
+Showing 5 of 14 registrations (valid registrations first).
+
+Essential Medicines List (EML) status could not be determined from the data compiled.
 
 ## Safety Considerations
 

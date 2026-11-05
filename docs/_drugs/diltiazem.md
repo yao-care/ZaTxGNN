@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 180
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Diltiazem: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 8 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 8) |
 
 ## Known uses among the model's candidates
 
@@ -76,7 +76,11 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 |------|------|------|------|
 | 28/7.1/0298 | Sandoz Diltiazem Hci 60 | tablet | Valid |
 | 28/7.1/0579 | Tilazem 180 Cr | Src | Valid |
+| 28/7.1/0580 | Tilazem 240 Cr | Src | Valid |
 | 30/7.1/0183 | Adco-zildem sr | Src | Valid |
+| 30/7.1/0184 | Adco-zildem sr | Src | Valid |
+
+Showing 5 of 11 registrations (valid registrations first).
 
 ## Safety Considerations
 

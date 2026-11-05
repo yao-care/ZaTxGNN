@@ -5,7 +5,7 @@ layout: default
 title: Calcium Chloride Dihydrate
 parent: Known Uses Only (No New Predictions)
 nav_order: 94
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -36,14 +36,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 ## Calcium Chloride Dihydrate
 {: .text-alpha }
 
-
 ## Quick Overview
 
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences on record: at least 16) |
-| Number of SAHPRA Registrations | at least 17 |
+| South Africa Market Status | Marketed (valid licences: 100 of 133) |
+| Number of SAHPRA Registrations | 133 (valid: 100) |
 
 ---
 

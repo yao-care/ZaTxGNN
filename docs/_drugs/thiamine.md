@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Thiamine: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not available"
 ---
 
@@ -48,8 +48,8 @@ Thiamine (vitamin B1) is registered in South Africa in several single-ingredient
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 11) |
-| Number of SAHPRA Registrations | at least 13 |
+| South Africa Market Status | Marketed (valid licences: 43 of 83) |
+| Number of SAHPRA Registrations | 83 (valid: 43) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,13 +85,15 @@ For the secondary open-angle glaucoma prediction, the following publications wer
 
 Thirteen single-ingredient registrations are listed (the list may be partial). No approved indication text is recorded for any of them. Five main registrations are shown:
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H2611 (ACT 101/1965) | Becoplex ido vial 10ml | Injection | Not recorded |
-| T1012 (ACT 101/1965) | Beespan | Capsule | Not recorded |
-| H2412 (ACT 101/1965) | A-lennon vitamin b co ampoule 2ml | Injection | Not recorded |
-| H2975 (ACT 101/1965) | Vitamin b co 10ml | Injection | Not recorded |
-| U/22.1.4/200 | Soluvit novum 10ml vials | Injection | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| H.2479 (ACT 101 OF 1965) | Thiamine hcl 10ml | injection | Valid |
+| A/21.8.1/743 | Menoflush | tablet | Valid |
+| B 1492 (OM) | Adco-phenobarb vital | syrup | Valid |
+| C661 (OM) | Corenza c | effervescent tablet | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+
+Showing 5 of 83 registrations (valid registrations first).
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

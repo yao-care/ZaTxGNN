@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Cocaine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the SAHPRA registration data. The pharmacology data d…"
 monitor_inn: "Cocaine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "rhinitis", "irritable bowel syndrome", "anaphylaxis", "neurocirculatory asthenia", "atopic conjunctivitis", "food-dependent exercise-induced anaphylaxis", "pharyngitis"]
@@ -50,8 +50,8 @@ Cocaine is a natural-product local anaesthetic and monoamine reuptake inhibitor.
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Not marketed (no licence on record) |
+| Number of SAHPRA Registrations | 0 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---
@@ -102,9 +102,7 @@ For context, the most relevant item among the other predicted indications is an 
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2815 | Toothache Essence (Dozen) | Liquid | Not recorded |
+No SAHPRA registration was found in the data compiled for this report.
 
 Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
 

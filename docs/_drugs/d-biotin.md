@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -48,8 +48,8 @@ D-Biotin (Vitamin B7/Vitamin H) is a water-soluble B-complex vitamin essential f
 | Predicted New Indication | None — no TxGNN predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (No predictions or supporting studies) |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 39 of 43) |
+| Number of SAHPRA Registrations | 43 (valid: 39) |
 | Recommended Decision | **Hold** |
 
 ## Why is This Prediction Reasonable?
@@ -71,8 +71,6 @@ Currently no related clinical trials registered (no predicted indication to eval
 Currently no related literature available (no predicted indication to evaluate).
 
 ## South Africa Market Information
-
-D-Biotin has no SAHPRA registrations on record. It may be available as an over-the-counter dietary supplement or as a component of multivitamin formulations, but no scheduled pharmaceutical products were identified in the regulatory dataset.
 
 ## Safety Considerations
 

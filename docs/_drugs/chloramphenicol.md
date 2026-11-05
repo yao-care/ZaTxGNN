@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Chloramphenicol"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Chloramphenicol is an antibacterial drug that is currently marketed in South Afr
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 22 of 37) |
+| Number of SAHPRA Registrations | 37 (valid: 22) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,14 +75,17 @@ None of these studies evaluates chloramphenicol as a therapy.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| V/15.1/294 | Chlorphen 3.5g | Eye ointment | Not recorded |
-| H1278 (OM) | Spersadex comp 5ml | Drops | Not recorded |
-| H1236 (OM) | Covomycin 7.5ml | Een | Not recorded |
-| H1237 (OM) | Covomycin D | Een | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| A557 (OM) | Chlorcol | capsule | Valid |
+| H1193 | Chloramex Opthalmic Ointment 3.5G | eye ointment | Valid |
+| H1207 | Chlornicol  3.5G | eye ointment | Valid |
+| H1217 | Chloromycetin | eye ointment | Valid |
+| V/15.1/294 | Chlorphen 3.5g | eye ointment | Valid |
 
-All four registrations are single-ingredient products and currently valid. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 37 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

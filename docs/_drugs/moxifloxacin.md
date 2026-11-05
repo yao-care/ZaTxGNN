@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "MOXIFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ It is a computational signal only, and no plausible mechanism has been identifie
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 28 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 28) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,12 +82,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/20.1.1/0777 | Numoxx | Tablet (oral) | Not stated in the data compiled |
-| Reg. No. 49/20.1.1/0675 | Moxifloxacin 400Mg/250Ml Fresenius | Infusion (injectable) | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/20.1.1/0008 | Avelon Tabs 10S | tablet | Valid |
+| 41/20.1.1/0777 | Ran-Moxifloxacin | tablet | Valid |
+| 42.20.1.1/0593 | Moxibay | tablet | Valid |
+| 42/20.1.1/0142 | Litares | tablet | Valid |
+| 42/20.1.1/0442 | Drl moxifloxacin | tablet | Valid |
 
-Both registrations are valid single-ingredient products. No combination products and no cancelled registrations were found. Both oral and intravenous routes are therefore available locally.
+Showing 5 of 31 registrations (valid registrations first).
+
+Both oral and intravenous routes are therefore available locally.
 
 ---
 

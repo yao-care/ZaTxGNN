@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -52,8 +52,8 @@ Among the other predictions, **perinatal disease** (vitamin A in very low birth 
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 18 of 35) |
+| Number of SAHPRA Registrations | 35 (valid: 18) |
 | Recommended Decision | Hold |
 
 ---
@@ -107,17 +107,17 @@ For context, the most relevant publications retrieved for the best-supported pre
 
 ## South Africa Market Information
 
-Vitamin A is marketed in South Africa in 9 valid registrations, all as single-ingredient entries. Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status was not available in the data.
+Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status was not available in the data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Z/22.1/236 | Vitalipid Novum Adult | Infusion | Not available |
-| 30/22.1/0201 | Vitalipid Novum Infant | Infusion | Not available |
-| A/21.8.1/743 | Menoflush | Tablet | Not available |
-| H2466 | Complenatal FF | Capsule | Not available |
-| L/24/329 | Dextrose 20% in water 500 ml | Infusion | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
+| 36/22.1/0508 | Cernevit | infusion | Valid |
+| A/21.8.1/743 | Menoflush | tablet | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| H2062 (ACT 101) | Filibon | capsule | Valid |
 
-Other registrations: neonatal TPN (exclusion under Section 36 and Section 14), Gericomplex (capsule), Spiriva Respimat inhaler (listing as returned in the data) and Filibon (capsule).
+Showing 5 of 35 registrations (valid registrations first).
 
 ---
 

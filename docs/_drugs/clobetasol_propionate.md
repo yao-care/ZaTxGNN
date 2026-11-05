@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 description: "Clobetasol Propionate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,8 +54,8 @@ The top-ranked prediction (rank 1) has no evidence. The table below therefore sh
 | TxGNN Prediction Score (rank 1) | 0.9946 |
 | Evidence Level (rank 1) | L5 (model prediction only) |
 | Best-evidenced prediction (rank 3) | Vulvar inverted follicular keratosis |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 18 of 19) |
+| Number of SAHPRA Registrations | 19 (valid: 18) |
 | Recommended Decision | Hold (rank 1); Proceed with Guardrails as a research question for the lichen planus subset |
 
 ---
@@ -109,12 +109,17 @@ No related literature was available for the other predicted indications.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 46/13.4.1/0556 | Clobex 120ml | Spray | Not available in the data compiled |
-| Reg. No. 27/13.4.1/0122 | Dovate | Ointment | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/13.4.1/0122 | Dovate | ointment | Valid |
+| 27/13.4.1/0316 | Dovate | cream | Valid |
+| 28/13.4.1/0611 | Xenovate | ointment | Valid |
+| 28/13.4.1/0728 | Xenovate | cream | Valid |
+| A40/13.4.1/0035 | Clobex | Sha | Valid |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status was not available in the data compiled.
+Showing 5 of 19 registrations (valid registrations first).
+
+Essential Medicines List (EML) inclusion status was not available in the data compiled.
 
 ---
 

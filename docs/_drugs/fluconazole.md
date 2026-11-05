@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Fluconazole: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Fluconazole is an oral azole antifungal. The TxGNN model predicts it may be effe
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 68 of 84) |
+| Number of SAHPRA Registrations | 84 (valid: 68) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,15 @@ Currently no related literature available.
 
 Fluconazole is currently marketed in South Africa, with valid single-ingredient registrations in oral capsule form. Approved indication text is not recorded in the local data. Essential Medicines List status was not provided in the data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A39/20.2.2/0534 | Mycorest | Capsule | Not recorded in the local data |
-| A38/20.2.2/0559 | Ralmient | Capsule | Not recorded in the local data |
-| A38/20.2.2/0558 | Ralmient | Capsule | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/20.2.2/0151 | Diflucan | capsule | Valid |
+| 36/20.2.2/0261 | Fluzol | capsule | Valid |
+| 36/20.2.2/0262 | Rucintix | capsule | Valid |
+| 36/20.2.2/0263 | Fluzol | capsule | Valid |
+| 36/20.2.2/0265 | Fluconazole unicorn | capsule | Valid |
+
+Showing 5 of 84 registrations (valid registrations first).
 
 ---
 

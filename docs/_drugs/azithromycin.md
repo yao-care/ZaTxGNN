@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -50,8 +50,8 @@ The more evidence-supported direction among the ten predictions is **congenital 
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 35 of 42) |
+| Number of SAHPRA Registrations | 42 (valid: 35) |
 | Recommended Decision | Hold |
 
 **Overview of all ten predictions**
@@ -107,12 +107,17 @@ No publications are available for hyperamylasemia. The most relevant publication
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 51/A20.1.1/0587 | Novazith Suspension | Suspension | Not available in the data compiled for this report |
-| A39/20.1.1/0382 | Azithromycin 500 Biotech | Tablet | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/20.1.1/0045 | Zithromax | tablet | Valid |
+| 33/20.1.1/0269 | Clamelle | capsule | Valid |
+| 36/20.1.1/0164 | Varimax | capsule | Valid |
+| 36/20.1.1/0190 | Zithromax iv pow f/sol f/infusion | injection | Valid |
+| 37/20.1.1/0222 | Aspen azithromycin | tablet | Valid |
 
-Both registrations are valid single-ingredient products. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 42 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

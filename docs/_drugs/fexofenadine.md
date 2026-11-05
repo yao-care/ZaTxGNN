@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Fexofenadine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant for **rosacea conjunctivitis**, but 
 | Predicted New Indication | rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 39 of 41) |
+| Number of SAHPRA Registrations | 41 (valid: 39) |
 | Recommended Decision | Hold |
 
 ---
@@ -79,9 +79,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A38/5.7.1/0415 | Fexo | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/5.7.1/0446 | Telfast | tablet | Valid |
+| 32/5.7.1/0447 | Telfast | tablet | Valid |
+| 41/5.7.1/0133 | Fexaway | tablet | Valid |
+| 41/5.7.1/0134 | Fexaway | tablet | Valid |
+| 41/5.7.1/0319 | Fastway | tablet | Valid |
+
+Showing 5 of 41 registrations (valid registrations first).
 
 The drug is available as an oral tablet. A single valid single-ingredient registration is recorded.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 415
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Selenium: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not stated in the SAHPRA registration data (the registered products a…"
 monitor_inn: "Selenium"
 predicted_indications: ["sclerosing cholangitis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **sclerosing cholangitis**, but th
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 10 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,12 +77,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| EXCLUSION UNDER SECTION 36 & SECTION 14 | ITN 5501a 2240ml | TPN (infusion) | Not stated |
-| ARTICLE 21B N/A | ITN 1606n 150ml | TPN (infusion) | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 38/24/0441 | Selesyn 100 Peroral | solution | Valid |
+| A38/32.2/0442 | Selesyn solution for infusion | infusion | Valid |
+| 49/24/0996 | Addaven | infusion | Valid |
+| 52/24/0031 | Nutryelt | infusion | Valid |
+| G1679 | Selenium Sulfide 2.5% suspension | suspension | Valid |
 
-Both entries are listed as valid single-ingredient products. Their registration identifiers are exclusion or authorisation references rather than standard registration numbers.
+Showing 5 of 10 registrations (valid registrations first).
 
 ## Safety Considerations
 
@@ -98,7 +101,6 @@ Warnings and contraindications from the SAHPRA package insert are not available 
 
 **Rationale:**
 The prediction rests on a high model score and indirect observational and preclinical literature. No trial or study tests selenium as a treatment for sclerosing cholangitis, and the package insert safety data are missing.
-
 
 **To proceed, the following is needed:**
 - The SAHPRA package insert, to obtain warnings, contraindications and the approved indications.

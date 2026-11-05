@@ -5,7 +5,7 @@ layout: default
 title: Amiodarone Hydrochloride
 parent: Known Uses Only (No New Predictions)
 nav_order: 28
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 25 of 28) |
+| Number of SAHPRA Registrations | 28 (valid: 25) |
 
 ---
 

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 116
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -52,11 +52,11 @@ This report documents the current data status and defines the minimum requiremen
 | Predicted New Indication | Not available — TxGNN generated no candidate predictions |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — No predictions generated; evaluation cannot be initiated |
-| South Africa Market Status | Marketed (valid licences: 10 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 76 of 110) |
+| Number of SAHPRA Registrations | 110 (valid: 76) |
 | Recommended Decision | **Hold** |
 
-> ⚠️ **Data Integrity Note:** Chlorpheniramine maleate is a decades-old, widely available molecule present in numerous over-the-counter and prescription products across Africa (including well-known brands such as *Allergex* and *Piriton* in South Africa). A result of zero SAHPRA registrations almost certainly reflects an input data gap rather than a genuine absence from the South African market. SAHPRA records must be independently verified before this field is relied upon.
+> ⚠️ **Data Integrity Note:** Chlorpheniramine maleate is a decades-old, widely available molecule present in numerous over-the-counter and prescription products across Africa (including well-known brands such as *Allergex* and *Piriton* in South Africa). SAHPRA records must be independently verified before this field is relied upon.
 
 ---
 
@@ -72,13 +72,15 @@ Detailed mechanism of action data was not provided in the Evidence Pack (recorde
 
 ## South Africa Market Information
 
-No SAHPRA registration records are present in the current Evidence Pack.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/5.7.1/0166 | Rhineton | tablet | Valid |
+| C668 (OM) | Allergex | tablet | Valid |
+| C807 (OM) | Allergex | syrup | Valid |
+| 27/10.1/0536 | Trifen expect paediatric | syrup | Valid |
+| 27/10.1/0553 | Flusin dm | syrup | Valid |
 
-As noted above, this is strongly suspected to be a data completeness issue. The following table is provided as a placeholder pending data retrieval:
-
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|--------------------|-------------|-------------|-------------------|
-| *Pending SAHPRA verification* | — | — | — |
+Showing 5 of 110 registrations (valid registrations first).
 
 **Recommended action:** Query the SAHPRA online medicines register (`https://www.sahpra.org.za`) using the search term "chlorpheniramine" to retrieve all active and historical registration records.
 

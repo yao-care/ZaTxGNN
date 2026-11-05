@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -41,7 +41,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Diphenhydramine Hydrochloride is a first-generation H1 antihistamine, widely recognised for its use in allergic conditions, insomnia, and motion sickness.
-**No new indications were predicted by the TxGNN model** in this Evidence Pack, and no SAHPRA registrations were identified in the current dataset.
 A full repurposing evaluation cannot proceed until prediction data and regulatory information are obtained.
 
 ---
@@ -54,15 +53,13 @@ A full repurposing evaluation cannot proceed until prediction data and regulator
 | Predicted New Indication | None — no TxGNN predictions present in this Evidence Pack |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — model prediction data absent; no linked studies |
-| South Africa Market Status | Marketed (valid licences on record: at least 17) |
-| Number of SAHPRA Registrations | at least 19 |
+| South Africa Market Status | Marketed (valid licences: 75 of 114) |
+| Number of SAHPRA Registrations | 114 (valid: 75) |
 | Recommended Decision | **Hold** |
 
 ---
 
 ## South Africa Market Information
-
-No SAHPRA registrations were found for Diphenhydramine Hydrochloride in the current dataset.
 
 > **Note for reviewers:** Diphenhydramine is a long-established OTC antihistamine globally. It may appear in South Africa under brand or combination product registrations (e.g., sleep aids, cough-and-cold preparations) that are not captured in this dataset. Manual verification via the [SAHPRA medicines register](https://www.sahpra.org.za) is strongly recommended before concluding the drug is absent from the local market.
 
@@ -79,7 +76,6 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack contains no TxGNN repurposing predictions, no SAHPRA registration data, no mechanism of action, and no safety information — making it impossible to conduct a meaningful repurposing evaluation at this stage.
 
 **To proceed, the following is needed:**
 

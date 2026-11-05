@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **0 registered clinical trials** and only **1 publication** direct
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 14) |
-| Number of SAHPRA Registrations | at least 18 |
+| South Africa Market Status | Marketed (valid licences: 108 of 138) |
+| Number of SAHPRA Registrations | 138 (valid: 108) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -99,17 +99,17 @@ Note: summaries are based mainly on titles and partial abstracts.
 
 ## South Africa Market Information
 
-Tenofovir disoproxil is widely registered in South Africa, with 18 valid registrations (all single-ingredient entries, none cancelled). Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
+Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A40/20.2.8/0681 | Viread | Tablet | Not available |
-| 42/20.2.8/0561 | Cipla Tenofovir 300 | Tablet | Not available |
-| 44/20.2.8/0332 | Adco tenofovir | Tablet | Not available |
-| 41/20.2.8/0171 | Truvada | Tablet | Not available |
-| 45/20.2.8/0108 | Mivuten | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 43/20.2.8/0181 | Aspen tenofovir | tablet | Valid |
+| 44/20.2.8/0332 | Adco tenofovir | tablet | Valid |
+| 45/20.2.8/0825 | Ricovir | tablet | Valid |
+| 46/20.2.8/0019 | Hetero tenofovir | tablet | Valid |
+| 46/20.2.8/0040 | Tenofovir Winthrop | Fct | Valid |
 
-The remaining 13 registrations include Imavec (capsule), Tenemine, Tencitab, Adco emtevir, Tenofovir Winthrop, Ranega, Luvigen, Hetripco, Delstrigo, Milutin, Teevir and Triovir, plus one topical gel entry (Xamiol). These registrations should be verified against the SAHPRA register, because the topical gel entry appears unusual for tenofovir.
+Showing 5 of 138 registrations (valid registrations first).
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the registration data (products are amino acid-containi…"
 monitor_inn: "Tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -52,8 +52,8 @@ The prediction is model-only, and the evidence is weak across all ten predicted 
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 7 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 10 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,17 +105,17 @@ Many of the thyroid-related papers retrieved concern tyrosine kinase inhibitors,
 
 ## South Africa Market Information
 
-All eight registrations are valid single-ingredient entries. No approved indication text is recorded for any of them, and Essential Medicines List status is not available in the data compiled for this report.
+No approved indication text is recorded for any of them, and Essential Medicines List status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated |
-| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not stated |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not stated |
-| Reg. No. 52/25/0740 | Numeta G16E | Infusion | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 46/32.2/0518 | Smofkabiven | Inf | Valid |
+| 47/32.2/0036 | Smofkabiven Peripheral | infusion | Valid |
 
-Three further registrations exist: Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036) and Adco-ipratropium (33/10.2.1/0271). The last is listed as a vial and its link to tyrosine should be verified.
+Showing 5 of 11 registrations (valid registrations first).
 
 ---
 

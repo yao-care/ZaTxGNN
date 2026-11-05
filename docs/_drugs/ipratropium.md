@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ Support is thin: **no registered clinical trials** and only **2 publications** w
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 19 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,7 +85,7 @@ Currently no related clinical trials registered. No SANCTR or PACTR entries were
 
 ## South Africa Market Information
 
-Ipratropium is **marketed** in South Africa. The local records show 14 valid single-ingredient licences and no cancelled ones. The licence status has been verified.
+Ipratropium is **marketed** in South Africa. The licence status has been verified.
 
 - Registered dosage forms are inhaler, nebuliser solution, vial (inhalation solution), tablet and capsule.
 - No nasal spray is among the registered dosage forms, so a nasal use would need a suitable formulation or route to be confirmed.

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Dorzolamide hydrochloride is a carbonic anhydrase inhibitor conventionally used 
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — no predictions generated; evaluation cannot proceed |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 30 of 34) |
+| Number of SAHPRA Registrations | 34 (valid: 30) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -82,7 +82,6 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack is structurally incomplete: no TxGNN-predicted indications exist, the DrugBank ID is unresolved, original indications are not recorded, and there are zero SAHPRA registrations on file. A repurposing evaluation cannot be meaningfully completed or acted upon under these conditions.
 
 **To proceed, the following is needed:**
 

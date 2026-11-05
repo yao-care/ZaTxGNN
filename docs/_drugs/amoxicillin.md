@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Amoxicillin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections such as urinary tract infection…"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **hyperamylasemia**, but there are
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 12 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 12) |
+| South Africa Market Status | Marketed (valid licences: 231 of 286) |
+| Number of SAHPRA Registrations | 286 (valid: 231) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,15 +71,17 @@ Currently no related literature is available for hyperamylasemia.
 
 ## South Africa Market Information
 
-Amoxicillin is marketed in South Africa, with 14 valid SAHPRA registrations, all single-ingredient records. The licence records contain no approved indication text. Essential Medicines List status could not be determined from the data compiled for this report. The 5 main registrations are listed below.
+The licence records contain no approved indication text. Essential Medicines List status could not be determined from the data compiled for this report. The 5 main registrations are listed below.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 36/20.1.2/0115 | Zaloxy | Suspension | Not stated in the records |
-| Z/20.1.2/327 | Spectramox C 250 | Capsule | Not stated in the records |
-| J/20.1.2/0437 | Suprapen 500 | Capsule | Not stated in the records |
-| 41/20.1.2/0532 | Bindoclav | Tablet | Not stated in the records |
-| 41/20.1.2/0977 | Gulf amoxy co powder for injection vial | Injection | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/20.1.2/0325 | A-Lennon Amoxycillin | capsule | Valid |
+| 27/20.1.2/0439 | A-Lennon Amoxycillin | suspension | Valid |
+| 27/20.1.2/0440 | A-Lennon Amoxycillin | suspension | Valid |
+| 27/20.1.2/0472 | Saltermox s | suspension | Valid |
+| 27/20.1.2/0473 | Saltermox Sf 250 Mg | suspension | Valid |
+
+Showing 5 of 286 registrations (valid registrations first).
 
 Other available forms in the records include drops (Amoxil D) and further injection, tablet and suspension products.
 

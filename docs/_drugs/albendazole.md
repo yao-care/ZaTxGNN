@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Albendazole"
 predicted_indications: ["coenurosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Albendazole: predicted new indication Coenurosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Albendazole is a benzimidazole anthelmintic that acts against tapeworm larvae an
 | Predicted New Indication | Coenurosis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 8 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -95,9 +95,15 @@ None of these publications studies coenurosis. They concern neurocysticercosis o
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A38/12/0426 | Wormadole | Chu | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/12/0354 | Zentel | tablet | Valid |
+| 31/12/0472 | Bendex-400 | tablet | Valid |
+| A38/12/0426 | Wormadole | Chu | Valid |
+| Q/12/74 | Zentel | tablet | Valid |
+| 29/12/0552 | Paranthil Tablets | tablet | Valid |
+
+Showing 5 of 11 registrations (valid registrations first).
 
 This is a single-ingredient product with a valid registration. Essential Medicines List status is not available in the data compiled for this report.
 

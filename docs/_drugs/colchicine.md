@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Colchicine is a microtubule polymerization inhibitor that is marketed in South A
 | Predicted New Indication | Plasmodium falciparum malaria |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 19 of 21) |
+| Number of SAHPRA Registrations | 21 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,13 +75,17 @@ Neither publication studies colchicine in malaria directly.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| C665 (ACT 101/1965) | Colchicine houde | Tablet | Not recorded in the local data |
-| 41/3.3/0260 | Aspen colchicine ds | Tablet | Not recorded in the local data |
-| C0822 (ACT 101) | Aspen colchicine | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/3.3/0260 | Aspen colchicine ds | tablet | Valid |
+| 50/3.3/0484 | Kolcrys | tablet | Valid |
+| 50/3.3/0836 | Colchicine 0,5 Mg Activo | tablet | Valid |
+| 50/3.3/1036 | Podagra Otc | tablet | Valid |
+| 51/3.3/0358 | Gouteze Otc | tablet | Valid |
 
-All three registrations are single-ingredient products and are currently valid. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 21 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Cytotoxicity
 

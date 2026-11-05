@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Isotretinoin: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Isotretinoin is a retinoid, marketed in South Africa as an oral capsule and a to
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 14 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,12 +68,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 43/13.4.2/0746 | Oratane 5Mg | Capsule (oral) | Not recorded in the local data |
-| Reg. No. 29/13.12/0027 | Isotrex | Gel (topical) | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/13.4.2/0356 | Acnetane | capsule | Valid |
+| 34/13.4.2/0357 | Acnetane | capsule | Valid |
+| 35/13.4.2/0375 | Oratane | capsule | Valid |
+| 35/13.4.2/0376 | Oratane | capsule | Valid |
+| 37/13.4.2/0041 | Tretoderm | capsule | Valid |
 
-Both registrations are single-ingredient products and currently valid. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 14 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

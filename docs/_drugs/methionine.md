@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "immature cataract", "tetanic cataract", "mature cataract", "cortical cataract", "craniostenosis cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "diabetic cataract"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence records (the registered products are parent…"
 ---
 
@@ -52,8 +52,8 @@ This is a model prediction only (evidence level L5) and the recommendation is **
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 19 of 33) |
+| Number of SAHPRA Registrations | 33 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,17 +87,17 @@ Neither paper studies methionine as an acne therapy.
 
 ## South Africa Market Information
 
-All 10 registrations are valid single-entry records. No approved indication text is available for any of them. The data compiled for this report do not show Essential Medicines List (EML) status.
+No approved indication text is available for any of them. The data compiled for this report do not show Essential Medicines List (EML) status.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated |
-| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated |
-| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not stated |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated |
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
-Five further registrations are on file: Numeta G13E, Numeta G16E, Smofkabiven, Nutriflex Omega Specialized and Nutriflex lipid special 625ml. These products are mostly multi-component nutrition and dialysis preparations, so their licences do not describe a stand-alone methionine product.
+Showing 5 of 33 registrations (valid registrations first).
 
 ---
 

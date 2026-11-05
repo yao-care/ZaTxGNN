@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 77
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Brinzolamide: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidates for Brinzolamide, but every candidate that c
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 
 ## Known uses among the model's candidates
 
@@ -74,8 +74,11 @@ The TxGNN model produced candidates for Brinzolamide, but every candidate that c
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 50/15.4/0358 | Simbrinza | drops | Valid |
+| 34/15.4/0382 | Azoptic 5ml eye suspension | drops | Valid |
 | 44/15.4/0046 | Azarga 5ml | drops | Valid |
+| 50/15.4/0358 | Simbrinza | drops | Valid |
+| 51/15.4/0920 | Ocurinz | Not recorded | Valid |
+| 53/15.4/0249 | Azibrin 1 % | suspension | Valid |
 
 ## Safety Considerations
 

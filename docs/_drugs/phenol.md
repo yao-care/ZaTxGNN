@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "PHENOL"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
 description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Phenol was originally used for dermatitis. The TxGNN model predicts it may be ef
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 23 of 39) |
+| Number of SAHPRA Registrations | 39 (valid: 23) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,11 +90,17 @@ For dry eye syndrome (rank 8), the 20 retrieved papers are preclinical or epidem
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2011 (OM) | Biohist | Syrup | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| G1796 | Calasthetic | cream | Valid |
+| 33/34/0168 | Calamine LOTION-DAROL | lotion | Valid |
+| BV0347 | Magenta Paint | Not recorded | Valid |
+| BV0348 | Magnesium Sulphate Paste | Not recorded | Valid |
+| BV0476 | Calamine Lotion | Not recorded | Valid |
 
-No Essential Medicines List (EML) status was available in the data compiled. The only registered product is a syrup, an oral form. This does not match the topical or local use of phenol in the predicted skin and scarring indications, so route compatibility is unresolved.
+Showing 5 of 39 registrations (valid registrations first).
+
+No Essential Medicines List (EML) status was available in the data compiled.
 
 ---
 

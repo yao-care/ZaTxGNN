@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 378
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Polymyxin B is a polypeptide antibiotic active against Gram-negative bacteria. T
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 11 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,13 +93,17 @@ Examples are [NCT07086391](https://clinicaltrials.gov/study/NCT07086391) (nebuli
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2401 (ACT 101/1965) | Terramycin Topical Ointment | Ointment | Not stated in the data compiled |
-| H.1158 | Maxitrol 3.5g | Eye ointment | Not stated in the data compiled |
-| G1625 (OLD MEDICNE) | Terracortril | Ointment | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 50/20.1.1/0250 | Polygynax® | Pvc | Valid |
+| G1625 (OLD MEDICNE) | Terracortril | ointment | Valid |
+| G2375 | Polysporin | ointment | Valid |
+| G2401 | Terramycin Topical Ointment | ointment | Valid |
+| H.1145 | Maxitrol 5ml | drops | Valid |
 
-All three registrations are valid and are topical (skin or eye) products. No oral, injectable or inhalation product appears among the SAHPRA entries compiled, so the inhaled or systemic routes relevant to bronchitis would be unregistered use. Essential Medicines List status could not be determined from the data compiled.
+Showing 5 of 18 registrations (valid registrations first).
+
+No oral, injectable or inhalation product appears among the SAHPRA entries compiled, so the inhaled or systemic routes relevant to bronchitis would be unregistered use. Essential Medicines List status could not be determined from the data compiled.
 
 ---
 

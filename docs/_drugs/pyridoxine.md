@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 395
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Pyridoxine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences on record: at least 12) |
-| Number of SAHPRA Registrations | at least 13 |
+| South Africa Market Status | Marketed (valid licences: 34 of 59) |
+| Number of SAHPRA Registrations | 59 (valid: 34) |
 
 ## Known uses recorded for this drug
 
@@ -75,19 +75,21 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| H2611 (ACT 101/1965) | Becoplex ido vial 10ml | injection | Valid |
-| T1012 (ACT 101/1965) | Beespan | capsule | Valid |
-| H2412 (ACT 101/1965) | A-lennon vitamin b co ampoule 2ml | injection | Valid |
-| H2975 (ACT 101/1965) | Vitamin b co 10ml | injection | Valid |
-| U/2.6/218 | Restin | capsule | Canceled |
-| A/21.8.1/743 | Menoflush | tablet | Valid |
-| U/22.1.4/200 | Soluvit novum 10ml vials pds000010 | injection | Valid |
-| H2466 | Complenatal Ff | capsule | Valid |
 | 36/22.1/0508 | Cernevit | infusion | Valid |
-| ARTICLE 21B              N/A | ITN 1606n 150ml | Tpn | Valid |
-| L/24/329 | Dextrose 20% in water 500ml pcd201850 | infusion | Valid |
-| EXCLUSION UNDER SECTION 36 & SECTION 14 | ITN 55a 600ml | Tpn | Valid |
+| 52/20.2/0208 | Cotrizid | tablet | Valid |
+| A/21.8.1/743 | Menoflush | tablet | Valid |
+| B1492 | Adco-phenobarb vital | syrup | Valid |
 | G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| H2062 (ACT 101) | Filibon | capsule | Valid |
+| H2412 | A-lennon vitamin b co ampoule 2ml | injection | Valid |
+| H2466 | Complenatal Ff | capsule | Valid |
+| H2487 (ACT101/1065) | Neurobion | tablet | Valid |
+| H2611 | Becoplex ido vial 10ml | injection | Valid |
+| H2975 | Vitamin b co 10ml | injection | Valid |
+| T1012 | Beespan | capsule | Valid |
+| T1100 | Minamino | syrup | Valid |
+
+Showing 13 of 59 registrations (valid registrations first).
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

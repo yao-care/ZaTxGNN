@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 432
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **2 directly relevant clinical trials** (both completed) and **several publ
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 (see note below) |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 51 of 54) |
+| Number of SAHPRA Registrations | 54 (valid: 51) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The strict rule (at least two completed Phase 3 RCTs) is not fully met for seborrheic dermatitis, where there is one completed Phase 3 trial and one completed Phase 4 trial. The L1 grade follows the compiled assessment; a conservative reading would be L2.
@@ -93,15 +93,17 @@ For reference, the broader dermatitis category includes many completed Phase 3/4
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. A40/13.12/0219 | Protopic | Ointment | Not available in the compiled data |
-| Reg. No. A39/34/0647 | Prograf | Capsule | Not available in the compiled data |
-| Reg. No. 32/34/0561 | Prograf ampoule 1ml | Infusion | Not available in the compiled data |
-| Reg. No. 43/34/1051 | Graftac 0,5 | Capsule | Not available in the compiled data |
-| Reg. No. 51/32.16/0172 | Tacrum 0,5 Mg | Capsule | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/34/0559 | Prograf prc04ksa | capsule | Valid |
+| 32/34/0560 | Prograf prc07ksa | capsule | Valid |
+| 42/34/0786 | Advagraf | Src | Valid |
+| 42/34/0787 | Advagraf | Src | Valid |
+| 42/34/0788 | Advagraf | Src | Valid |
 
-All five registrations are valid single-ingredient products. Only the ointment (Protopic) is relevant to a topical dermatological use; the capsule and infusion products are systemic formulations. Essential Medicines List status could not be confirmed from the compiled data.
+Showing 5 of 54 registrations (valid registrations first).
+
+Only the ointment (Protopic) is relevant to a topical dermatological use; the capsule and infusion products are systemic formulations. Essential Medicines List status could not be confirmed from the compiled data.
 
 ## Safety Considerations
 

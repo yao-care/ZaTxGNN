@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 466
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not available. The SAHPRA registrations in the data compiled for this…"
 monitor_inn: "Valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -48,8 +48,8 @@ Valine is a branched-chain amino acid (BCAA) that is registered in South Africa 
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 10 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 17 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,17 +75,17 @@ Neither paper evaluates valine as a treatment.
 
 ## South Africa Market Information
 
-All 11 registrations are valid single-ingredient-category entries. The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information for them. The first 5 are listed below.
+The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information for them. The first 5 are listed below.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not stated |
-| Reg. No. 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not stated |
-| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not stated |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not stated |
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
-Six further registrations exist, including Numeta G13E, Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized and Nutriflex Lipid Special 625ml. Note that the product name "Adco-ipratropium" does not obviously match an amino acid product and should be verified against the SAHPRA register.
+Showing 5 of 18 registrations (valid registrations first).
 
 ## Safety Considerations
 

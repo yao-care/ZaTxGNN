@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
 description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **familial visceral myopathy**,
 | Predicted New Indication | Familial visceral myopathy |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 17 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,17 +73,17 @@ Currently no related literature available for familial visceral myopathy.
 
 ## South Africa Market Information
 
-All 10 registrations are single-ingredient products with valid status. The data compiled contain no manufacturer or approved indication text, and EML inclusion status is not available. The 5 shown below are the main registrations.
+The data compiled contain no manufacturer or approved indication text, and EML inclusion status is not available. The 5 shown below are the main registrations.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 38/34/0172 | Extraneal 2L single bag | Infusion | Not available |
-| Reg. No. 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not available |
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available |
-| Reg. No. 46/32.2/0518 | Smofkabiven | Infusion | Not available |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
-The remaining registrations are Adco-ipratropium (33/10.2.1/0271, vial), Numeta G16E (52/25/0740), Smofkabiven Peripheral (47/32.2/0036), Nutriflex Omega Specialized (49/25/0065) and Nutriflex lipid special 625ml (41/25/0759).
+Showing 5 of 18 registrations (valid registrations first).
 
 ## Safety Considerations
 

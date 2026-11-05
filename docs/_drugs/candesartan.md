@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 96
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 description: "Candesartan: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **4 registered clinical trials** (3 directly on migraine) and **20 publicat
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 26 of 43) |
+| Number of SAHPRA Registrations | 43 (valid: 26) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -86,12 +86,17 @@ Blood pressure–lowering agents are already used in migraine prevention, and ca
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 48/7.1.3/0472 | Ranepres 8 Mg | Tablet | Not available in the data compiled |
-| Reg. No. 48/7.1.3/0514 | Ranepres Plus 16/12.5 Mg | Tablet | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/7.1.3/0099 | Atacand | tablet | Valid |
+| 32/7.1.3/0100 | Atacand 16Mg | tablet | Valid |
+| 45/7.1.3/0301 | Mylacand | tablet | Valid |
+| 45/7.1.3/0302 | Mylacand | tablet | Valid |
+| 46/7.1.3/0231 | Abecard 8 | tablet | Valid |
 
-Both registrations are currently valid, and the drug is marketed in South Africa as an oral tablet. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 43 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

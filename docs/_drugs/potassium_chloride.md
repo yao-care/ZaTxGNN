@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 381
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ There are **no registered clinical trials** and **18 publications** (mostly case
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 (see note below) |
-| South Africa Market Status | Marketed (valid licences on record: at least 14) |
-| Number of SAHPRA Registrations | at least 14 |
+| South Africa Market Status | Marketed (valid licences: 126 of 182) |
+| Number of SAHPRA Registrations | 182 (valid: 126) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* Under the standard rules, a prediction with no clinical trials and only case reports, reviews and small cohorts would be L5 (model prediction only). The L4 grade comes from the mechanistic rationale (potassium repletion for hypokalaemia in RTA), not from preclinical or mechanism studies.
@@ -98,17 +98,17 @@ Other retrieved items are less relevant: a veterinary hyperkalaemia review, a li
 
 ## South Africa Market Information
 
-All are single-ingredient products, and no information on Essential Medicines List (EML) inclusion is available. Five main registrations are shown below.
+Five main registrations are shown below.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H1888 (ACT 101) | Urirex-k 50mg/300mg | Tablet | Not stated |
-| E875 (ACT 101/1965) | Plasmalyte B 1000ml | Infusion | Not stated |
-| F/24/271 | Maintelyte 10% 1000ml | Infusion | Not stated |
-| 34/24/0371 | Euromed Lactated Ringer's Solution | Solution | Not stated |
-| 36/34/0485 | Combibic Electrolyte Solution with Potassium | Infusion | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 35/24/0370 | Ultipot | Srt | Valid |
+| 36/24/0176 | Potassium chloride unicorn | Srt | Valid |
+| 36/24/0177 | Sandoz k-600 | Srt | Valid |
+| 52/24/0441 | Plenish-K 600 Sr | Srt | Valid |
+| E587 (ACT 101/1965) | Slow-K | tablet | Valid |
 
-The other nine registrations are mostly infusion or solution products (for example Ringer-lactate, cardioplegic solutions, a dialysis concentrate and a veterinary plasma product). Only one oral product (a tablet) appears. Oral formulations are therefore scarcely represented, although oral potassium is commonly used for chronic hypokalaemia.
+Showing 5 of 182 registrations (valid registrations first).
 
 ---
 

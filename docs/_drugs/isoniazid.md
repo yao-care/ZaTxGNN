@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Isoniazid"
 predicted_indications: ["conjunctivitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Isoniazid: predicted new indication conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Isoniazid is an antimycobacterial medicine used against tuberculosis. The TxGNN 
 | Predicted New Indication | conjunctivitis |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 47 of 71) |
+| Number of SAHPRA Registrations | 71 (valid: 47) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,9 +81,15 @@ The most relevant publications are listed below. None is a randomised trial of i
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 52/20.2/0208 | Cotrizid | Tablet | Indication text not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 48/20.2.3/0748 | Afaris fc 150mg/75mg | tablet | Valid |
+| 51/20.2.3/0450.446 | Solonex 100 | tablet | Valid |
+| 51/20.2.3/0451.447 | Solonex 300 | tablet | Valid |
+| 57/20.2.3/0155 | Ukuzid 300Mg | tablet | Valid |
+| A17 (ACT 101 1965) | Winthrop Isoniazid 100 Mg | tablet | Valid |
+
+Showing 5 of 71 registrations (valid registrations first).
 
 The Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 

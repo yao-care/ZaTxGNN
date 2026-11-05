@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Threonine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not available"
 monitor_inn: "THREONINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **gastroparesis**, but the predict
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 11 of 12) |
-| Number of SAHPRA Registrations | 12 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 18 of 19) |
+| Number of SAHPRA Registrations | 19 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,17 +71,19 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Threonine is registered in South Africa only as a component of multi-ingredient products, each listed as a single-entry licence. No approved indication text is recorded for any of them. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+No approved indication text is recorded for any of them. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2370 (ACT 101/1965) | Cicatrin Powder 15G | Powder | Not recorded |
-| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not recorded |
-| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not recorded |
-| 38/34/0172 | Extraneal 2L single bag | Infusion | Not recorded |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
-Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Peripheral, Nutriflex Omega Specialized, and Nutriflex Lipid Special 625ml. All are infusion or parenteral nutrition products. No registrations are cancelled.
+Showing 5 of 19 registrations (valid registrations first).
+
+All are infusion or parenteral nutrition products.
 
 ## Safety Considerations
 

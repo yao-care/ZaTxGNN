@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but 
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 7 of 15) |
+| Number of SAHPRA Registrations | 15 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,13 +85,17 @@ For reference, the only literature retrieved among the top-ten predictions relat
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 49/21.1/1230 | Toujeo pen 1.5ml | Injection | Not available in the data compiled for this report |
-| Reg. No. 51/21.1/0729 | Endulin Select | Solution | Not available in the data compiled for this report |
-| Reg. No. 41/21.1/0363 | Optisulin cartridge 3ml | Injection | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/21.1/0248 | Lantus solostar disposable pen 3ml | injection | Valid |
+| 41/21.1/0363 | Optisulin pen 3ml | injection | Valid |
+| 49/21.1/0708 | Basaglar pre-filled pen 3ml | injection | Valid |
+| 49/21.1/1230 | Toujeo pen 1.5ml | injection | Valid |
+| 52/32.16/0149 | Soliqua 33/100 | penset | Valid |
 
-All three registrations are valid single-ingredient products. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 15 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

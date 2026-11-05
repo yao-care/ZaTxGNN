@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Tiotropium is an inhaled long-acting muscarinic antagonist (anticholinergic bron
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 6 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,14 +84,17 @@ None of these publications addresses respiratory malformation treated with tiotr
 
 ## South Africa Market Information
 
-Tiotropium is marketed in South Africa. Two registrations are valid and two are cancelled. The indication text is not recorded in the local data for any of them.
+Tiotropium is marketed in South Africa. The indication text is not recorded in the local data for any of them.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 51/10.2.1/1120 | Tiotor 10 | Capsule | Not available in the compiled data |
-| Reg. No. 50/10.2.1/0671 | Tiores | Capsule | Not available in the compiled data |
-| Reg. No. 36/10.2.1/0045 | Forvent (refill) | Capsule | Not available in the compiled data |
-| Reg. No. 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/10.2.1/0044 | Spiriva inh.caps 30 with handihaler | Kit | Valid |
+| 36/10.2.1/0045 | Forvent handihaler complete with 30 inh | Kit | Valid |
+| 50/10.2.1/0671 | Tiores | capsule | Valid |
+| 51/10.2.1/0143 | Neumotropio | capsule | Valid |
+| 57/10.2.1/0007 | Fibrotiem | capsule | Valid |
+
+Showing 5 of 9 registrations (valid registrations first).
 
 Essential Medicines List status is not available in the data compiled for this report.
 

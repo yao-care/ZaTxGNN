@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Benzylpenicillin"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Benzylpenicillin: predicted new indication pericoronitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ No clinical trials or publications were found for this prediction, so it rests o
 | Predicted New Indication | pericoronitis |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 22 of 25) |
+| Number of SAHPRA Registrations | 25 (valid: 22) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,12 +82,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A/20.1.2/626 | Benzyl Penicillin Fresenius 1Mu | Injection | Not recorded in the local data |
-| A/20.1.2/444 | Bio-Pen 1Mu | Injection | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 56/20.1.2/0384 | Benzathine Benzylpenicillin 1.2Mu Ando | injection | Valid |
+| 56/20.1.2/0385 | Benzathine Benzylpenicillin 2.4Mu Ando | injection | Valid |
+| 56/20.1.2/0929 | Benpen 1Mu | injection | Valid |
+| 56/20.1.2/0930 | Benpen 5Mu | injection | Valid |
+| A/20.1.2/626 | Benzyl Penicillin Fresenius 1Mu | injection | Valid |
 
-Both registrations are single-ingredient products and both are currently valid. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 25 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ---
 

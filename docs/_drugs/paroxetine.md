@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This prediction rests on the model score alone: **no clinical trials and no publ
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 24 of 28) |
+| Number of SAHPRA Registrations | 28 (valid: 24) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Paroxetine has 5 valid single-ingredient registrations in South Africa. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was also not available.
+The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was also not available.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 42/1.2/0208 | Lenio | Tablet | Not available |
-| 36/1.2/0160 | Hexal-Paroxetine | Film-coated tablet (Fct) | Not available |
-| A39/1.2/0216 | Xet | Tablet | Not available |
-| A38/1.2/0612 | Aropax CR 12,5 | Tablet | Not available |
-| 38/1.2/0072 | Paroxetine Unicorn | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/1.2/0096 | Adco-paroxetine | tablet | Valid |
+| 36/1.2/0158 | Parax | tablet | Valid |
+| 36/1.2/0159 | Parax | tablet | Valid |
+| 36/1.2/0160 | Hexal-Paroxetine | Fct | Valid |
+| 37/1.2/0665 | Sedarin | tablet | Valid |
+
+Showing 5 of 28 registrations (valid registrations first).
 
 ## Safety Considerations
 

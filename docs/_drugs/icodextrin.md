@@ -5,7 +5,7 @@ layout: default
 title: Icodextrin
 parent: Known Uses Only (No New Predictions)
 nav_order: 258
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Icodextrin: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Icodextrin"
 predicted_indications: []
@@ -48,9 +48,9 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 38/34/0172 | Extraneal 2L twinbag system 2 | Infusion (peritoneal dialysis solution) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 38/34/0172 | Extraneal 2L single bag | infusion | Valid |
 
 Only one valid single-ingredient registration exists. Essential Medicines List (EML) status was not available in the data compiled for this report.
 

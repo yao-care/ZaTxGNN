@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 67
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Betamethasone is a corticosteroid with anti-inflammatory and immunosuppressive a
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 17 of 18) |
-| Number of SAHPRA Registrations | 18 (valid: 17) |
+| South Africa Market Status | Marketed (valid licences: 60 of 67) |
+| Number of SAHPRA Registrations | 67 (valid: 60) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,15 +80,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Betamethasone is marketed in South Africa as a single-ingredient product in several forms (cream, ointment, lotion, syrup, tablet and injection). Of the 18 registrations on record, 17 are valid and 1 is cancelled. Examples of valid registrations:
+Betamethasone is marketed in South Africa as a single-ingredient product in several forms (cream, ointment, lotion, syrup, tablet and injection). Examples of valid registrations:
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2963 | Celestone Soluspan Injection 1 ml | Injection | Not available |
-| G2971 | Celestone Injection | Injection | Not available |
-| 48/21.5.4/0075 | Betadexamine Tablets | Tablet | Not available |
-| 27/21.5.1/0491 | Betanoid | Syrup | Not available |
-| 30/13.4.1/0458 | Topivate | Cream | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/21.5.1/0543 | Betanoid | tablet | Valid |
+| G1833 | Betnovate Skin | lotion | Valid |
+| G2935 | Celestone | tablet | Valid |
+| G2971 (ACT 101/1965) | Celestone Injection | injection | Valid |
+| L/13.4.1/0382 | Persivate | cream | Valid |
+
+Showing 5 of 67 registrations (valid registrations first).
 
 Approved indication text is not recorded in the local data for these registrations.
 

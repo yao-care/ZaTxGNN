@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ There are **no clinical trials and no publications** for this prediction, so the
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 14 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 14) |
+| South Africa Market Status | Marketed (valid licences: 76 of 107) |
+| Number of SAHPRA Registrations | 107 (valid: 76) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,17 +90,17 @@ These items do not demonstrate efficacy of sodium citrate for any predicted indi
 
 ## South Africa Market Information
 
-All 14 registrations are valid single-ingredient entries. Approved indication text and manufacturer are not available in the data compiled for this report, and Essential Medicines List status was not available either. Most products are syrups, which suggests sodium citrate is mainly marketed as an ingredient in cough and cold preparations.
+Approved indication text and manufacturer are not available in the data compiled for this report, and Essential Medicines List status was not available either. Most products are syrups, which suggests sodium citrate is mainly marketed as an ingredient in cough and cold preparations.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 43/2.6.5/0042 | Rispevon | Tablet | Not available |
-| Y/2.8/306 | Paincodein | Tablet | Not available |
-| G/10.1/1112 | Broncleer & cod unboxed | Syrup | Not available |
-| G998 (OM) | Tussilinct cough | Syrup | Not available |
-| G1053 (ACT 101 OF 1965) | Phenorant with codeine | Syrup | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/10.1/0013 | Amcough | solution | Valid |
+| 28/10.1/0206 | Bronchoped | syrup | Valid |
+| C934(OM) | Allergin expect | syrup | Valid |
+| D/8.2.262 | Fenwal Acd Solution Usp Formula A (500 Ml) | solution | Valid |
+| G 983 | Famtuss | syrup | Valid |
 
-The remaining nine registrations include further cough syrups (Tussitot cough, Alcophyllex, Diatussin, Actophlem, Coughcod senior and junior, Mucosolv expectorant), Astrapain forte tablets, and Sabax balanced ophthalmic salt solution.
+Showing 5 of 107 registrations (valid registrations first).
 
 ## Safety Considerations
 

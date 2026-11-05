@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "TENOFOVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Tenofovir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection, HIV infection, AIDS"
 ---
 
@@ -50,8 +50,8 @@ There are **no registered clinical trials** and **20 publications** (mostly non-
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 5 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 152 of 183) |
+| Number of SAHPRA Registrations | 183 (valid: 152) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,16 +85,18 @@ The data compiled for this report contain 20 publications. All studies of the pr
 
 ## South Africa Market Information
 
-All six registrations are valid single-ingredient tablet products. No approved-indication text is recorded for them in the data compiled for this report, and Essential Medicines List status is not available there.
+No approved-indication text is recorded for them in the data compiled for this report, and Essential Medicines List status is not available there.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 44/20.2.8/0307 | Zefin | Tablet | Not recorded |
-| Reg. No. 47/20.2.8/0188 | Emtroc 200mg/300mg | Tablet | Not recorded |
-| Reg. No. 47/20.2.8/0328 | Trivenz | Tablet | Not recorded |
-| Reg. No. 47/20.2.8/0327 | Rizene | Tablet | Not recorded |
-| Reg. No. 47/20.2.8/0326 | Triploco | Film-coated tablet | Not recorded |
-| Reg. No. 56/20.2.8/0464 | Tetrilune | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 43/20.2.8/0181 | Aspen tenofovir | tablet | Valid |
+| 44/20.2.8/0332 | Adco tenofovir | tablet | Valid |
+| 45/20.2.8/0825 | Ricovir | tablet | Valid |
+| 46/20.2.8/0019 | Hetero tenofovir | tablet | Valid |
+| 46/20.2.8/0040 | Tenofovir Winthrop | Fct | Valid |
+| 52/20.2.8/0273 | Vemlidy | Fct | Valid |
+
+Showing 6 of 183 registrations (valid registrations first).
 
 ## Safety Considerations
 

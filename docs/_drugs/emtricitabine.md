@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 19) |
-| Number of SAHPRA Registrations | at least 20 |
+| South Africa Market Status | Marketed (valid licences: 78 of 87) |
+| Number of SAHPRA Registrations | 87 (valid: 78) |
 | Number of Approvals | At least 20 SAHPRA registrations (the list may be partial) |
 | Recommended Decision | Hold |
 
@@ -78,15 +78,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Listed below are 5 of the at least 20 registrations found; the list may be partial. All are single-ingredient records with valid status. The records compiled for this report contain no approved indication text and no Essential Medicines List (EML) information.
+Listed below are 5 of the at least 20 registrations found; the list may be partial. The records compiled for this report contain no approved indication text and no Essential Medicines List (EML) information.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 47/20.2.8/0188 | Emtroc 200mg/300mg | Tablet | Not stated in the records |
-| 41/20.2.8/0171 | Truvada | Tablet | Not stated in the records |
-| 41/2.6.5/1056 | Rutra 1 Mg/Ml Solution | Solution | Not stated in the records |
-| A40/20.2.8/0508 | Sonke-efavirenz | Tablet | Not stated in the records |
-| 55/20.2.8/0080.079 | Tafbin | Film-coated tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 43/20.2.8/0130 | Tencitab | tablet | Valid |
+| 44/20.2.8/0086 | Tyricten 200/300mg | tablet | Valid |
+| 44/20.2.8/0446 | Didivir 200/300mg | tablet | Valid |
+| 44/20.2.8/0779 | Odimune | tablet | Valid |
+| 44/20.2.8/0780 | Trenvir | tablet | Valid |
+
+Showing 5 of 87 registrations (valid registrations first).
 
 ## Safety Considerations
 

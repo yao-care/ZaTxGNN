@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Fenoterol: predicted new indication multiple system atrophy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant for **multiple system atrophy**, but
 | Predicted New Indication | multiple system atrophy |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 10 of 13) |
+| Number of SAHPRA Registrations | 13 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,14 +71,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 35/10.2.1/0004 | Adco-nebrafen 4ml | Vial | Not recorded |
-| 35/10.2.1/0302 | Duovent Hfa | Inhaler | Not recorded |
-| 37/20.1.1/0042 | Adco ceftriaxone powder f/injecton | Injection | Not recorded |
-| Z/10.2.1/78 | Atrovent beta udv 4ml | Vial | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| Q/10.2.1/370 | Berotec 0.1 % | nebuliser | Valid |
+| 33/10.2.1/ 0194 | Adco-fenoterol | vial | Valid |
+| 33/10.2.1/0195 | Adco-fenoterol | vial | Valid |
+| 35/10.2.1/0004 | Adco-nebrafen 4ml | vial | Valid |
+| A40/10.2/0624 | Fenovent | syrup | Valid |
 
-All four registrations are currently valid. Essential Medicines List status is not recorded in the data compiled for this report.
+Showing 5 of 13 registrations (valid registrations first).
+
+Essential Medicines List status is not recorded in the data compiled for this report.
 
 ## Safety Considerations
 

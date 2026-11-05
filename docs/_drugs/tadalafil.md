@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "Tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 66 of 73) |
+| Number of SAHPRA Registrations | 73 (valid: 66) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,13 +74,17 @@ For context, the lower-ranked prediction of migraine has only a case report ([17
 
 ## South Africa Market Information
 
-Tadalafil is marketed in South Africa with 3 valid single-ingredient registrations. Approved-indication text and Essential Medicines List status are not available in the data compiled for this report.
+Approved-indication text and Essential Medicines List status are not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 52/7.1.5/0841.837 | Trado 10 | Film-coated tablet (Fct) | Not available |
-| Reg. No. 51/7.1.5/0391 | Tidalis 20 | Film-coated tablet (Fct) | Not available |
-| Reg. No. 41/7.1.5/0645 | Cialis OAD, 2.5 mg | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/7.1.5/0384 | Cialis | tablet | Valid |
+| 36/7.1.5/0385 | Ciavor | tablet | Valid |
+| 41/7.1.5/0644 | Cialis | tablet | Valid |
+| 48/7.1.5/0657 | Ciavor 5 | Fct | Valid |
+| 49/7.1.5/0285 | Tadalafil 5 Mg Dyna | Fct | Valid |
+
+Showing 5 of 73 registrations (valid registrations first).
 
 ## Safety Considerations
 

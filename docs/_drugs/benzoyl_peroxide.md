@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Benzoyl Peroxide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acne"
 monitor_inn: "Benzoyl peroxide"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **vulvar inverted follicular ke
 | Predicted New Indication | Vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 14 of 22) |
+| Number of SAHPRA Registrations | 22 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,12 +82,17 @@ No literature was retrieved for the lead prediction (vulvar inverted follicular 
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 51/13.12/0911 | Deriva Co | Gel (topical) | Not recorded in the data compiled |
-| Reg. No. X/13.12/292 | Acneclear | Cream (topical) | Not recorded in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 44/13.12/0109 | Epiduo 0.1% /2.5% 30g | gel | Valid |
+| 50/13.12/9031 | Epiduo Forte | Gel | Valid |
+| 51/13.12/0911 | Deriva Co | Gel | Valid |
+| 57/13.11/0267 | Clenzoyl Gel | Geo | Valid |
+| P/13.12/37 | Acnidazil | cream | Valid |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Showing 5 of 22 registrations (valid registrations first).
+
+Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Cytotoxicity
 

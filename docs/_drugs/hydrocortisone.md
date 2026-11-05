@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Hydrocortisone: predicted new indication alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ with **1 clinical trial** (in which hydrocortisone was only the weak comparator)
 | Predicted New Indication | alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 9 of 12) |
-| Number of SAHPRA Registrations | 12 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 46 of 70) |
+| Number of SAHPRA Registrations | 70 (valid: 46) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -83,17 +83,17 @@ No SANCTR or PACTR registrations were found in the data compiled for this report
 
 ## South Africa Market Information
 
-Hydrocortisone is marketed in South Africa, with 12 valid single-ingredient registrations in the data compiled for this report (none cancelled). Approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data.
+Approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H/13.4.1/109 | Locoid | Ointment | Not recorded |
-| 35/13.4.1/0384 | Vari-hydrocortisone | Cream | Not recorded |
-| R/13.4.1/202 | Skincalm | Cream | Not recorded |
-| 33/16.2/0024 | Ciprobay HC Otic Drops | Drops | Not recorded |
-| 35/13.4.1/0392 | Elozart | Cream | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/21.5/0016 | Cortaject 100 Mg | injection | Valid |
+| 43/21.5/1143 | Macleods hydrocortisone powder for sol f | injection | Valid |
+| 59/21.5/0169 | Hidrotef 100 Mg | injection | Valid |
+| G/21.5/201 | Solu cortef 4ml | injection | Valid |
+| H/13.4.1/107 | Locoid | cream | Valid |
 
-Available forms are topical or local (cream, ointment, drops, suppository); no oral or injectable form appears in the data. Intralesional use, as in the historical reports, would not be covered by these products.
+Showing 5 of 70 registrations (valid registrations first).
 
 ## Safety Considerations
 

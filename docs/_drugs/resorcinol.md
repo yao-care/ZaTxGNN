@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Resorcinol"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
 description: "Resorcinol: predicted new indication Acne keloid (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **acne keloid** (acne keloidalis),
 | Predicted New Indication | Acne keloid |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 (model prediction only; no trials or literature) |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 6 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| E512 | Anugesic | Suppository | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| E512 | Anugesic | suppository | Valid |
+| BV0347 | Magenta Paint | Not recorded | Valid |
+| E0514 | Anusol H.C. Suppositories | Not recorded | Valid |
+| E1598 | Rectosan 'A' Ointment | ointment | Valid |
+| G1370 | Eskamel Acne And Pimple Ointment | ointment | Valid |
 
-Only one registration (single-ingredient, valid) was identified. The registered product is a suppository, not a topical skin formulation. Its route is therefore not directly aligned with the topical use expected for dermatological indications. Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
+Showing 5 of 9 registrations (valid registrations first).
+
+Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 

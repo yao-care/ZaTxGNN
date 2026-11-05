@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The prediction currently rests on the general antiseizure mechanism and literatu
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 54 of 59) |
+| Number of SAHPRA Registrations | 59 (valid: 54) |
 | Recommended Decision | Hold |
 
 ---
@@ -102,12 +102,17 @@ No publication addresses visual epilepsy directly. The most relevant general sei
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/2.5/0460 | Redilev | Tablet | Not available in the compiled data |
-| Reg. No. A40/2.5/0587 | Keppra | Solution | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/2.5/0088 | Keppra | tablet | Valid |
+| 36/2.5/0089 | Keppra | tablet | Valid |
+| 36/2.5/0090 | Keppra | tablet | Valid |
+| 41/2.5/0460 | Redilev | tablet | Valid |
+| 41/2.5/0461 | Redilev | tablet | Valid |
 
-Both registrations are valid single-ingredient products. Essential Medicines List status was not available in the compiled data. Please verify the approved indications in the SAHPRA Professional Information (PI).
+Showing 5 of 59 registrations (valid registrations first).
+
+Essential Medicines List status was not available in the compiled data. Please verify the approved indications in the SAHPRA Professional Information (PI).
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Ampicillin is a beta-lactam antibiotic that blocks bacterial cell wall synthesis
 | Predicted New Indication | Laryngitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 7 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 30 of 70) |
+| Number of SAHPRA Registrations | 70 (valid: 30) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,15 +89,17 @@ None of these publications studies ampicillin in laryngitis. They concern relate
 
 ## South Africa Market Information
 
-Seven of the eight SAHPRA registrations are valid and one is cancelled. All are single-ingredient products. No approved indication text is recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
+No approved indication text is recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/20.1.2/0122 | Auro ampicillin powder for injection vial | Injection | Not available |
-| Reg. No. L/20.1.2/94 | Spectracil C 250 | Capsule | Not available |
-| Reg. No. Z/20.1.2/0355 | Megamox S | Suspension | Not available |
-| Reg. No. 27/11.4.3/0108 | Apen | Capsule | Not available |
-| Reg. No. Z/20.1.2/0354 | Megapen S | Suspension | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/20.1.2/0247 | Ampicillin 250 injection unimed vial | injection | Valid |
+| 30/20.1.2/0248 | Ampicillin 500 injection unimed vial | injection | Valid |
+| 41/20.1.2/0122 | Auro ampicillin powder for injection via | injection | Valid |
+| H/20.1.2/0022 | Petercillin | capsule | Valid |
+| H/20.1.2/0023 | Petercillin | capsule | Valid |
+
+Showing 5 of 70 registrations (valid registrations first).
 
 ---
 

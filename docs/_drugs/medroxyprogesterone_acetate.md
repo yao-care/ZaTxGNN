@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 311
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Medroxyprogesterone acetate (MPA) is a synthetic progestin marketed in South Afr
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 2 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 16 of 21) |
+| Number of SAHPRA Registrations | 21 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,14 +78,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 52/21.8.2/0991 | Mytricon | Injection | Not available |
-| E/21.8.2/114 | Depo-provera 1ml | Injection | Not available |
-| 32/21.8/0631 | Premelle Cycle-5 | Tablet | Not available |
-| 36/21.8/0197 | Premelle Ld-0.3/1.5 | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 38/21.8.2/0188 | Mensera | tablet | Valid |
+| 38/21.8.2/0189 | Mensera | tablet | Valid |
+| 52/21.8.2/0991 | Mytricon | injection | Valid |
+| G2988 | Provera | tablet | Valid |
+| S/21.8.2/1 | Provera | tablet | Valid |
 
-Two of the four registrations are valid and two are cancelled. The data compiled for this report do not show Essential Medicines List status.
+Showing 5 of 21 registrations (valid registrations first).
+
+The data compiled for this report do not show Essential Medicines List status.
 
 ## Safety Considerations
 

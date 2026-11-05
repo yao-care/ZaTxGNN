@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L4). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "Mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -48,8 +48,8 @@ Mometasone is a potent corticosteroid, marketed in South Africa as a topical cre
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 47 of 51) |
+| Number of SAHPRA Registrations | 51 (valid: 47) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,11 +73,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A38/13.4.1/0668 | Aspen mometasone | Cream | Not stated in the compiled data |
-| 52/21.5.1/0538 | Rhinimet | Spray | Not stated in the compiled data |
-| 53/21.5.1/0457 | Ryaltris | Spray | Not stated in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/21.5.1/0157 | Nasonex aqueous 140dose | Aqs | Valid |
+| 33/21.5.1/0482 | Rinelon aqueous 140dose | Aqs | Valid |
+| 34/21.5.1/0344 | Asmanex Twisthaler 400 Μg | inhaler | Valid |
+| 44/13.4.1/0095 | Momate | ointment | Valid |
+| 46/21.5.1/0490 | Mometasone Clicks Nasal Spray | spray | Valid |
+
+Showing 5 of 51 registrations (valid registrations first).
 
 Only the cream is a topical formulation relevant to skin-directed therapy. Essential Medicines List (EML) status is not covered in the compiled data.
 

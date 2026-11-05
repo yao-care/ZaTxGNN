@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 424
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Solifenacin: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model's candidates for Solifenacin (score ≥ 0.99) are all already kn
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 47 of 49) |
+| Number of SAHPRA Registrations | 49 (valid: 47) |
 
 ## Known uses among the model's candidates
 
@@ -74,7 +74,13 @@ The TxGNN model's candidates for Solifenacin (score ≥ 0.99) are all already kn
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 56/21.12/1063 | Firsoltam | Mrt | Valid |
+| 48/5.4/0139 | Solifenacin 5 Teva | Fct | Valid |
+| 48/5.4/0140 | Solifenacin 10 Teva | Fct | Valid |
+| 48/5.4/0612 | Solifenacin 5 Unicorn | Fct | Valid |
+| 48/5.4/0613 | Solifenacin 10 Unicorn | Fct | Valid |
+| 49/5.4/0130 | Furlin 5 | Fct | Valid |
+
+Showing 5 of 49 registrations (valid registrations first).
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "FORMOTEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Formoterol: predicted new indication respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Formoterol is a long-acting beta2-adrenergic agonist that relaxes airway smooth 
 | Predicted New Indication | respiratory malformation |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 27 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 27) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,10 +89,15 @@ None of the retrieved publications directly studies respiratory malformation. Th
 
 Formoterol is marketed in South Africa. Two single-ingredient registrations are listed, both valid. No approved indication text is recorded in the local data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A39/21.5.1/0506 | Vannair 80/4.5mcg per inhalation 120 dos | Inhaler | Not recorded |
-| 36/2.6.5/0070 | Seroquel | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/10.2.1/0624 | Foradil dry powder inhalation | capsule | Valid |
+| 32/10.2.1/0168 | Oxis Turbuhaler 9 60 Dose | inhaler | Valid |
+| 37/10.2.1/0084 | Foratec Dp-Caps | capsule | Valid |
+| A40/10.2.1/0413 | Foratec hfa 120dose | inhaler | Valid |
+| 42/21.5.1/0895 | Innuvair 100mcg/6mcg 120 dose | inhaler | Valid |
+
+Showing 5 of 31 registrations (valid registrations first).
 
 ---
 

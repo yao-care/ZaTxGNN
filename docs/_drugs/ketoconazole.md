@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 1
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Ketoconazole is an azole antifungal that is marketed in South Africa as a topica
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 6 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,12 +84,17 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 33/20.2.2/0503 | Ketazol | Cream | Not recorded in the local data |
-| Reg. No. 34/20.2.2/0244 | Adco-dermed | Sha | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/20.2.2/0309 | Ketazol | tablet | Valid |
+| 37/20.2.2./0381 | Sandoz Ketoconazole 200 Tablets | tablet | Valid |
+| P/20.2.2/36 | Nizoral 200 Mg | tablet | Valid |
+| S/20.2.2/161 | Nizcreme | cream | Valid |
+| 33/20.2.2/0472 | Kez shampoo | Sha | Valid |
 
-One of the two registrations is currently valid and both are single-ingredient products. The only valid product is a topical cream. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 10 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "ZINC CHLORIDE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
 description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Zinc chloride is a zinc source marketed in South Africa mainly in parenteral nut
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 4 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 4) |
 | Recommended Decision | Hold |
 
 Two other predictions were also generated, both at L5 and Hold: **Sjogren syndrome** (0.9918) and **dry eye syndrome** (0.9918).
@@ -74,16 +74,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Six registrations are on record. Approved indication text was not available for any of them.
+Approved indication text was not available for any of them.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Y/6.1/415 | Dopamine HCl Fresenius 5 ml 200 mg/5 ml | Injection | Not available |
-| 29/24/0462 | Peditrace 10 ml | Infusion | Not available |
-| 49/24/0996 | Addaven | Infusion | Not available |
-| Article 21B (N/A) | ITN 3007m 2500 ml | TPN | Not available |
-| Exclusion under Section 36 & Section 14 | ITN 55a 600 ml | TPN | Not available |
-| H2062 (Act 101) | Filibon | Capsule | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/24/0462 | Peditrace 10ml pdp100010 | infusion | Valid |
+| 49/24/0996 | Addaven | infusion | Valid |
+| H2062 (ACT 101) | Filibon | capsule | Valid |
+| B0035 | Synacthen 0,25 | tablet | Valid |
+| 34/16.4/0294 | Tartar Control Listerine Antiseptic | solution | Cancelled |
 
 Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report. Available dosage forms span injectable, infusion, TPN and oral routes; none is an ophthalmic formulation.
 

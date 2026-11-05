@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not available in the registration data (the anticoagulant use is infe…"
 monitor_inn: "Dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 18 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,12 +73,17 @@ Currently no related clinical trials registered for sclerosing cholangitis.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 56/8.2/0690.687 | Dabitrin 110Mg | Capsule | Not available |
-| Reg. No. 56/8.2/0695 | Dabigatran 75 Drl | Capsule | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 42/8.2/0130 | Pradaxa | capsule | Valid |
+| 42/8.2/0131 | Pradaxa | capsule | Valid |
+| 45/8.2/0162 | Pradaxa | capsule | Valid |
+| 56/8.2/0689.686 | Dabitrin 75 Mg | capsule | Valid |
+| 56/8.2/0690.687 | Dabitrin 110Mg | capsule | Valid |
 
-Both registrations are valid single-ingredient oral products. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 18 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

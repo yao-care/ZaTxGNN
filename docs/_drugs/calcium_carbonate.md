@@ -5,7 +5,7 @@ layout: default
 title: Calcium Carbonate
 parent: Known Uses Only (No New Predictions)
 nav_order: 92
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 40 of 64) |
+| Number of SAHPRA Registrations | 64 (valid: 40) |
 
 ## Disclaimer
 

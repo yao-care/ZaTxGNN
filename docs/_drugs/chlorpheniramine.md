@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 76 of 110) |
+| Number of SAHPRA Registrations | 110 (valid: 76) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,15 +80,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 37/5.8/0260 | Sinutab sinus allergy congestion and pain | Tablet | Not recorded in local data |
-| 37/5.8/0552 | Corenza Cold And Flu Syrup | Syrup | Not recorded in local data |
-| 27/5.8/0123 | Degoran Cold And Flu Hot Medicated Drink | Sachet | Not recorded in local data |
-| G1235 (ACT 101) | Famucaps | Capsule | Not recorded in local data |
-| 37/5.8/0139 | Sinutab sinus pain extra strength | Tablet | Not recorded in local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/5.7.1/0166 | Rhineton | tablet | Valid |
+| C668 (OM) | Allergex | tablet | Valid |
+| C807 (OM) | Allergex | syrup | Valid |
+| 27/10.1/0536 | Trifen expect paediatric | syrup | Valid |
+| 27/10.1/0553 | Flusin dm | syrup | Valid |
 
-These are 5 of 11 registrations, all currently valid. The approved indication text is not recorded in the local data.
+Showing 5 of 110 registrations (valid registrations first).
+
+The approved indication text is not recorded in the local data.
 
 ## Safety Considerations
 

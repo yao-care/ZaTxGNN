@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Levonorgestrel is a synthetic progestin used in hormonal contraception. The TxGN
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 36 of 37) |
+| Number of SAHPRA Registrations | 37 (valid: 36) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -76,15 +76,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-All 11 SAHPRA registrations are single-ingredient oral tablets and all are valid. The approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
+The approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 44/21.8.2/0808 | Medilevo 1,5 Mg | Tablet | Not recorded |
-| Reg. No. 51/21.8.2/0584 | Femilevo 1,5Mg | Tablet | Not recorded |
-| Reg. No. 49/21.8.2/0574 | Vonel | Tablet | Not recorded |
-| Reg. No. 33/18.8/0054 | Loette 28 | Tablet | Not recorded |
-| Reg. No. 36/21.8.2/0212 | Plan B | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/34/0332 | Mirena | Iud | Valid |
+| 33/21.8.2/0471 | Norlevo | tablet | Valid |
+| 36/21.8.2/0212 | Plan B | tablet | Valid |
+| 41/21.8.2/0021 | Escapelle | tablet | Valid |
+| 44/21.8.2/0808 | Medilevo 1,5 Mg | tablet | Valid |
+
+Showing 5 of 37 registrations (valid registrations first).
 
 ## Safety Considerations
 

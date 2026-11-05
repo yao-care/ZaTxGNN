@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Insulin Degludec: predicted new indication autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Insulin degludec is a long-acting basal insulin analogue. The TxGNN model predic
 | Predicted New Indication | autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 3 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,13 +68,14 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 47/21.1/0108 | Tresiba penfill 3ml | Injection | Not recorded |
-| Reg. No. 50/21.13/0985 | Xultophy | Penset | Not recorded |
-| Reg. No. 47/21.1/0165 | Ryzodeg flextouch pre-filled pen 3ml | Injection | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 47/21.1/0108 | Tresiba flextouch 3ml | injection | Valid |
+| 47/21.1/0165 | Ryzodeg flextouch pre-filled pen 3ml | injection | Valid |
+| 47/21.1/0109 | Tresiba 200 U/ml | penfill cartridge | Valid |
+| 50/21.13/0985 | Xultophy | penset | Cancelled |
 
-Xultophy and Ryzodeg are products with more than one active ingredient in their names, so their licences should not be used to describe how single-ingredient insulin degludec is approved. All three registrations are currently valid.
+Xultophy and Ryzodeg are products with more than one active ingredient in their names, so their licences should not be used to describe how single-ingredient insulin degludec is approved.
 
 ## Safety Considerations
 

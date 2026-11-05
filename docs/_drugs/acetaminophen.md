@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 13
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Acetaminophen: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All candidates produced by the TxGNN model for Acetaminophen (score ≥ 0.99) th
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences on record: at least 17) |
-| Number of SAHPRA Registrations | at least 19 |
+| South Africa Market Status | Marketed (valid licences: 428 of 595) |
+| Number of SAHPRA Registrations | 595 (valid: 428) |
 
 ## Known uses among the model's candidates
 
@@ -74,25 +74,27 @@ All candidates produced by the TxGNN model for Acetaminophen (score ≥ 0.99) th
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| X/2.8/64 | Antalgic Sf | syrup | Valid |
-| 45/2.9/0303 | Tramazac co 37.5mg/325mg | tablet | Valid |
-| 37/5.8/0138 | Sinutab sinus pain non-drowsy | tablet | Valid |
+| 27/2.7/0014 | Clicks paracetamol | tablet | Valid |
+| 27/2.7/0138 | Painblok | tablet | Valid |
 | 27/2.7/0352 | Dynadol | tablet | Valid |
-| A39/5.8/0451 | Efferflu-c | effervescent tablet | Valid |
-| 27/5.8/0101 | Sinuclear | capsule | Valid |
-| X/2.8/109 | Cogesic | tablet | Valid |
-| 45/2.9/0747 | Dytracet | Fct | Valid |
-| 28/2.8/0729 | Tylenol nightpain | tablet | Canceled |
-| 56/2.8/0309 | Pynspas | tablet | Valid |
-| A 48/2.9/0774 | Painogesic Co | Fct | Valid |
-| 54/2.8/0012 | Parafengen Iv | infusion | Valid |
-| Z/5.8/360 | Sinustat | capsule | Valid |
-| 37/2.8/0133 | Ibupain | capsule | Valid |
-| E/2.9/97 | Doxyfene | capsule | Valid |
-| 32/2.8/0605 | Uniflex (was Besenol nc) | tablet | Valid |
-| A39/2.8/0229 | Ibumol grape | suspension | Valid |
-| N/2.9/100 | Infapain | syrup | Canceled |
-| T/5.8/196 | Sudafed sinus pain (was Sudagesic) 500mg | tablet | Valid |
+| 27/2.8/0022 | Antalgic | tablet | Valid |
+| 27/5.8/0449 | Sinustat flu | capsule | Valid |
+| 28/2.7/0234 | Gencetamol | tablet | Valid |
+| 28/2.7/0509 | Paracetamol | tablet | Valid |
+| 28/2.7/0511 | Gulf paracetamol | tablet | Valid |
+| 28/2.7/0582 | Pyngesic t | tablet | Valid |
+| 29/2.7/0287 | Dis-chem paracetamol | tablet | Valid |
+| 29/2.7/0299 | Pacimol  * | tablet | Valid |
+| 29/2.7/0617 | Zypol | tablet | Valid |
+| 30/2.8/0420 | Tylenol extended relief caplet | capsule | Valid |
+| 31/2.7/0193 | Actamol | tablet | Valid |
+| 33/2.7/0435 | Varipan 500Mg Tablets | tablet | Valid |
+| 34/2.7/0466 | Painogesic | tablet | Valid |
+| 42/2.7/0543 | Parafizz 500 | effervescent tablet | Valid |
+| 45/2.7/1188 | Paracetamol fresenius 100ml bottle | infusion | Valid |
+| 47/2.7/0931 | Obident 500 Tablets | tablet | Valid |
+
+Showing 19 of 595 registrations (valid registrations first).
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

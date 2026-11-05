@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 54 of 77) |
+| Number of SAHPRA Registrations | 77 (valid: 54) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -67,20 +67,21 @@ Currently no related clinical trials registered for punctate epithelial keratoco
 
 Currently no related literature available for punctate epithelial keratoconjunctivitis.
 
-
 ## South Africa Market Information
 
-All nine registrations are valid single-ingredient products. Approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the data provided.
+Approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the data provided.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 27/20.2/0335 | Dynazole | Suspension | Not available |
-| Z/20.2/209 | Trixazole | Tablet | Not available |
-| K/20.2.1/335 | Spectrim | Capsule | Not available |
-| W/20.2/376 | Novatrim | Suspension | Not available |
-| R/20.1.1/47 | Rocephin | Injection | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/20.2/0077 | Xeroprim | tablet | Valid |
+| 27/20.2/0302 | Pharma-Q Co Trimoxazole  Tablets | tablet | Valid |
+| 27/20.2/0335 | Dynazole | suspension | Valid |
+| 28/20.2/0389 | Xerazole Suspension | suspension | Valid |
+| 28/20.2/0416 | Novatrim | tablet | Valid |
 
-The remaining four registrations are Purbac injection 5ml (L/20.2/336), Xerazole Suspension (28/20.2/0389), Co-Trimoxazole 960 Biotech (W/20.2.1/88) and Cotrizid (52/20.2/0208). No ophthalmic formulation appears among the registrations listed, which matters for the predicted ocular indication.
+Showing 5 of 77 registrations (valid registrations first).
+
+No ophthalmic formulation appears among the registrations listed, which matters for the predicted ocular indication.
 
 ## Safety Considerations
 
@@ -95,7 +96,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but there are no trials or publications for punctate epithelial keratoconjunctivitis (Evidence Level L5). Many cases are viral or non-infectious, and no ophthalmic trimethoprim product was identified among the South African registrations.
+The TxGNN score is very high, but there are no trials or publications for punctate epithelial keratoconjunctivitis (Evidence Level L5).
 
 **To proceed, the following is needed:**
 - Clinical or literature evidence of trimethoprim (or polymyxin B/trimethoprim) in punctate epithelial keratoconjunctivitis, ideally stratified by bacterial versus viral cause

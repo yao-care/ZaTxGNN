@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 40
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Amylmetacresol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "Amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 32 of 32) |
+| Number of SAHPRA Registrations | 32 (valid: 32) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,9 +83,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| W/2.7/142 | Nurofen period pain (was Nurofen extra s...) | Tablet (oral) | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 52/16.4/0125 | Orothroat Plus Honey And Lemon Lozenges | Loz | Valid |
+| 52/16.4/0126 | Orothroat Plus Blackcurrant Lozenges | Loz | Valid |
+| 28/16.4/0647 | Strepsils Numbing | lozenge | Valid |
+| 34/16.4/0502 | Strepsils Coolmint | lozenge | Valid |
+| 45/16.4/0620 | Strepsils Warm Ginger | lozenge | Valid |
+
+Showing 5 of 32 registrations (valid registrations first).
 
 ## Safety Considerations
 

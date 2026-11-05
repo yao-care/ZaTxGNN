@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "VERAPAMIL"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Obsolete bundle branch block |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 22 of 26) |
+| Number of SAHPRA Registrations | 26 (valid: 22) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,14 +82,17 @@ Currently no related literature available for the top-ranked prediction.
 
 ## South Africa Market Information
 
-Verapamil is marketed in South Africa with 4 valid single-ingredient registrations. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
+The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Q/7.1.4/161 | Verapamil 40 Oethmaan | Tablet | Not available |
-| 31/7.1/0637 | Verahexal 240 SR | Sustained-release tablet | Not available |
-| 31/7.1.3/0631 | Tarka | Sustained-release capsule | Not available |
-| A39/7.1.3/0508 | Tarka 180mg/2mg | Sustained-release tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/7.1/0637 | Verahexal 240 sr | Srt | Valid |
+| H/7.1.4/0237 | Vasomil - 40 | tablet | Valid |
+| H646 ACT 101 OF 1965 | Isoptin  40Mg | tablet | Valid |
+| H647 ACT 101 OF 1965 | Isoptin 2ml | injection | Valid |
+| M/7.1.4/0179 | Vasomil 80 | tablet | Valid |
+
+Showing 5 of 26 registrations (valid registrations first).
 
 ## Safety Considerations
 

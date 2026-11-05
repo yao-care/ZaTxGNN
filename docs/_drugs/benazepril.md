@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BENAZEPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Benazepril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Benazepril is an angiotensin-converting enzyme (ACE) inhibitor. The TxGNN model 
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 6 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,9 +68,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 28/7.1.3/0121 | Cibadrex 10 10mg/12.5mg | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| X/7.1.3/335 | Cibace | tablet | Valid |
+| 28/7.1.3/0121 | Cibadrex 10 10mg/12.5mg | tablet | Valid |
+| 97/8/10 | Fortekor 20 | tablet | Valid |
+| 97/8/9 | Fortekor 5 | tablet | Valid |
+| 19/5.3/05 | Cardalis 2,5 mg/20 mg | tablet | Valid |
+
+Showing 5 of 8 registrations (valid registrations first).
 
 - The product strengths (10 mg/12.5 mg) suggest a fixed-dose combination product. This registration should not be taken as evidence of how single-ingredient benazepril is approved. Please verify the formulation against the SAHPRA-approved Professional Information (PI).
 - Essential Medicines List status is not available in the data compiled for this report.

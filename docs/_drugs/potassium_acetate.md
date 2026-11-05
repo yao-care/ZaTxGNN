@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "POTASSIUM ACETATE"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials or publications** were found for this direction, so the
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 11 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,15 +72,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-All five registrations are valid single-ingredient products. Approved indication text was not available for any of them. Potassium acetate in these products is a component of parenteral nutrition or infusion preparations, not a standalone potassium product. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
+Approved indication text was not available for any of them. Potassium acetate in these products is a component of parenteral nutrition or infusion preparations, not a standalone potassium product. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not available |
-| Reg. No. 52/25/0740 | Numeta G16E | Infusion | Not available |
-| Reg. No. 49/25/0065 | Nutriflex Omega Specialized | Infusion | Not available |
-| Reg. No. 41/25/0759 | Nutriflex lipid special 625ml | TPN | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
+| 41/25/0759 | Nutriflex lipid special 2500ml | Tpn | Valid |
+| 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
+| 49/25/0066 | Nutriflex Omega Plus | infusion | Valid |
+
+Showing 5 of 11 registrations (valid registrations first).
 
 ## Safety Considerations
 

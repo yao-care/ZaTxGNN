@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 54
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Azelastine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced candidates for Azelastine, but every cand
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 7 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 7) |
 
 ## Known uses among the model's candidates
 
@@ -76,6 +76,12 @@ The TxGNN deep-learning model produced candidates for Azelastine, but every cand
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 55/21.5.1/0573 | Dymista Nasal Spray | spray | Valid |
+| 46/5.7.1/0107 | Arzep Nasal Spray | metered spray | Valid |
+| 46/5.7.1/0108 | Azelastine Zydus 0,14 mg | metered spray | Valid |
+| 57/21.5.1/0333 | Cipzamist | suspension | Valid |
+| 47/15.4/0142 | Azelastine PHARMA-Q | Not recorded | Valid |
+
+Showing 5 of 9 registrations (valid registrations first).
 
 ## Safety Considerations
 

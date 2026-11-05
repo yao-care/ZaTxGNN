@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **respiratory malformation**, but 
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 39 of 44) |
+| Number of SAHPRA Registrations | 44 (valid: 39) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,13 +80,17 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 47/21.5.4/1320 | Airflusal Forspiro 50/250 | Dry-powder inhaler | Not stated in data |
-| 50/21.5.4/0731 | Duoasma 25/50 | Inhaler | Not stated in data |
-| 42/21.5.4/0218 | Sereflo 25/50 HFA, 120 dose | Inhaler | Not stated in data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/10.2.1/0350 | Serevent accuhaler 60dose | Acc | Valid |
+| 55/21.5.4/0278 | Spirodisc 50/100 | inhaler | Valid |
+| 55/21.5.4/0279 | Spirodisc 50/250 | inhaler | Valid |
+| 55/21.5.4/0280 | Spirodisc 50/500 | inhaler | Valid |
+| 42/21.5.4/0218 | Sereflo 25/50 hfa synchrobreathe 120 dos | inhaler | Valid |
 
-One further licence (Med-lemon flu & congestion hot medication, sachet, Reg. No. 27/5.8/0430) is cancelled. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 44 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

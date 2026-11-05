@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ALFUZOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Alfuzosin is a uroselective alpha-1 adrenergic antagonist. The TxGNN model predi
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 2 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,12 +68,14 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 41/5.2/0740 | Alfuwin xl | Tablet | Not recorded in local data |
-| A40/5.2/0392 | Rantral mr | Tablet | Not recorded in local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/5.2/0740 | Alfuwin xl | tablet | Valid |
+| A40/5.2/0392 | Rantral mr | tablet | Valid |
+| 35/5.2/0074 | Xatral xl | tablet | Cancelled |
+| 51/5.2/0717 | Osfuzal Xr | tablet | Cancelled |
 
-Both registrations are single-ingredient products and currently valid. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

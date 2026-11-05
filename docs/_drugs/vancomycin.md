@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis, staphylococcal infections, endocarditis"
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but **
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 26 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 26) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,13 +79,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 29/20.1.1/0674 | Vancomycin-Faulding Pow F/Injection | Injection | Not available |
-| Reg. No. 54/20.1.1/0295 | Cytovan 500Mg Iv | Infusion | Not available |
-| Reg. No. 29/20.1.1/0675 | Vancomycin-Faulding 1G | Injection | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/20.1.1/0675 | Vancomycin- Faulding 1G | injection | Valid |
+| 42/20.1.1/0971 | Gulf vancomycin powder for injection 10m | injection | Valid |
+| 42/20.1.1/0972 | Gulf vancomycin powder for injection 20 | injection | Valid |
+| 53/20.1.1/0584 | Comavyn 125 | capsule | Valid |
+| 54/20.1.1/0295 | Cytovan 1G Iv | infusion | Valid |
 
-All 3 registrations are valid single-ingredient products. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 31 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

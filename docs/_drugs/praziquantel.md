@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 385
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Praziquantel: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Praziquantel
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 4 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 5 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 5) |
 
 ## Known uses recorded for this drug
 
@@ -77,8 +77,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Praziquantel
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| P/12/23 | Biltricide | tablet | Valid |
 | 56/12/1162 | Quantimak 600 | Fct | Valid |
+| 57/12/0056 | Prazibil 600 | tablet | Valid |
+| P/12/23 | Biltricide | tablet | Valid |
+| S/12/154 | Cysticide | tablet | Valid |
+| 57/12/0057.056 | Quintipar 600 | tablet | Valid |
+
+Showing 5 of 7 registrations (valid registrations first).
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "FOSINOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Fosinopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ At present there are **no clinical trials and no publications** directly support
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 31/7.1.3/0416 | Monozide | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| A39/7.1.3/0349 | Mylan Fosinopril 20 | tablet | Valid |
+| A39/7.1.3/0441 | Mylan Fosinopril 10 | tablet | Valid |
+| X/7.1.3/284 | Monopril | tablet | Valid |
+| X/7.1.3/285 | Monopril | tablet | Valid |
+| 31/7.1.3/0416 | Monozide | tablet | Valid |
 
-The data compiled for this report show one valid registration and no cancelled registrations. Essential Medicines List (EML) inclusion status is not available in the data and should be checked separately.
+Essential Medicines List (EML) inclusion status is not available in the data and should be checked separately.
 
 ## Safety Considerations
 

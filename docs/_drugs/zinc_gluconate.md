@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "Zinc gluconate"
 predicted_indications: ["anemia of prematurity", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "radiation or chemically induced disorder", "disease by subcellular system affected", "iatrogenic disease", "regional odontodysplasia"]
 description: "Zinc Gluconate: predicted new indication Anemia of prematurity (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence is therefore model prediction only.
 | Predicted New Indication | Anemia of prematurity |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,13 +74,12 @@ Currently no related literature available for anemia of prematurity.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 52/24/0031 | Nutryelt | Infusion | Not available in the data compiled |
-| G2667 (ACT 101/1965) | Gericomplex | Capsule | Not available in the data compiled |
-| 41/10.2.1/0849 | Spiriva respimat inhaler 60 doses | Inhaler | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 52/24/0031 | Nutryelt | infusion | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
 
-All three registrations are valid single-ingredient entries. Essential Medicines List (EML) status could not be determined from the data compiled.
+Essential Medicines List (EML) status could not be determined from the data compiled.
 
 Note that the listing of Spiriva Respimat (an inhaler product) under zinc gluconate looks inconsistent and should be verified against the SAHPRA register before any reliance is placed on it.
 

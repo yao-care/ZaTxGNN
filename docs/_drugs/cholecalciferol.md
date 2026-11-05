@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CHOLECALCIFEROL"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Cholecalciferol: predicted new indication acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The TxGNN model predicts it may be relevant to **acromesomelic dysplasia, Campai
 | Predicted New Indication | acromesomelic dysplasia, Campailla Martinelli type |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,15 @@ Currently no related literature available for this disease.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 36/22.1/0508 | Cernevit | Infusion | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 55/22.2/0781 | Soskain | capsule | Valid |
+| 36/22.1/0508 | Cernevit | infusion | Valid |
+| A50/3.2/0637 | Osteonate Plus 5600 Once A Week | tablet | Valid |
+| 53/3.2/0225 | Preovidlen | tablet | Valid |
+| 57/22.2/0880 | Envitavit | vial | Valid |
 
-One valid SAHPRA registration was identified, and the market status is Marketed. No registered indication relates to the predicted disease. Essential Medicines List status was not available in the compiled data.
+No registered indication relates to the predicted disease. Essential Medicines List status was not available in the compiled data.
 
 ---
 

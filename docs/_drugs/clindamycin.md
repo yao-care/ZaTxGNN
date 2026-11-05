@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 23 of 25) |
+| Number of SAHPRA Registrations | 25 (valid: 23) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,15 +69,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| P/20.1.6/63 | Dalacin T Solution | Solution | Not recorded in the local data |
-| F/20.1.1/169 | Dalacin C 600Mg | Injection | Not recorded in the local data |
-| 42/13.11/0441 | Clindoxyl | Geo | Not recorded in the local data |
-| A.682 | Daraprim | Tablet | Not recorded in the local data |
-| 49/13.12/0499 | Treclin Gel | Gel | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/20.1.1/0292 | Dalacin vc | Vcr | Valid |
+| 32/20.1.1/0038 | Clindahexal | capsule | Valid |
+| 48/20.1.1/0806 | Clindamycin Actor | capsule | Valid |
+| 52/20.1.1/0028 | Cezlin | capsule | Valid |
+| 52/20.1.1/0029 | Klidar 150 Mg | capsule | Valid |
 
-All five registrations are currently valid. Essential Medicines List (EML) status is not recorded in the data compiled for this report.
+Showing 5 of 25 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "METOCLOPRAMIDE"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence concerns procedural use during endoscopy, not ulcer treatment, so t
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 (observational and review-level evidence only; no completed Phase 3 or Phase 2/3 RCT for this indication) |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 27 of 42) |
+| Number of SAHPRA Registrations | 42 (valid: 27) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,14 +105,17 @@ Most of the literature is older review material on motility and dyspepsia. None 
 
 ## South Africa Market Information
 
-All four registrations are single-ingredient products with valid status. No approved indication text or manufacturer details are available in the data compiled for this report. Essential Medicines List (EML) status was not available in the compiled data and should be confirmed.
+No approved indication text or manufacturer details are available in the data compiled for this report. Essential Medicines List (EML) status was not available in the compiled data and should be confirmed.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 29/5.7.2/0781 | Pramalon | Injection | Not available |
-| Reg. No. V/5.7.2/352 | Bio metoclopramide | Tablet | Not available |
-| Reg. No. Q/5.7.2/228 | Metoclopramide 10 oethmaan | Tablet | Not available |
-| Reg. No. L/5.7.2/0319 | Clopamon | Syrup | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/5.7.2/0210 | Merck-Metoclopramide | tablet | Valid |
+| C/5.7.2/920 | Maxolon T | tablet | Valid |
+| C919 | Maxolon i 2ml | injection | Valid |
+| K/11.2/49 | Adco-contromet | tablet | Valid |
+| L/5.7.2/0322 | Clopamon | tablet | Valid |
+
+Showing 5 of 42 registrations (valid registrations first).
 
 Available routes are injectable, oral (tablet) and oral liquid (syrup).
 

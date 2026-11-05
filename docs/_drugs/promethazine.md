@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 392
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Promethazine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All candidates produced by the model for Promethazine are already known uses, so
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 3 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 14 of 17) |
-| Number of SAHPRA Registrations | 17 (valid: 14) |
+| South Africa Market Status | Marketed (valid licences: 36 of 62) |
+| Number of SAHPRA Registrations | 62 (valid: 36) |
 
 ## Known uses among the model's candidates
 
@@ -76,23 +76,25 @@ All candidates produced by the model for Promethazine are already known uses, so
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| B1234 | Propain | syrup | Valid |
-| 27/2.8/0242 | Goldgesic | syrup | Valid |
-| 27/2.8/0575 | Salterpyn | syrup | Canceled |
-| X/2.8/174 | Mepromol | syrup | Canceled |
-| X/2.8/298 | Pynmed Tablets/Tablette | tablet | Canceled |
-| 28/2.8/0566 | Medipyn s | syrup | Valid |
-| X/2.8/0032 | Ban Pain A/F | syrup | Valid |
-| X/2.8/299 | Pynmed pain and fever | syrup | Valid |
-| Z/2.8/0241 | Megapyn | suspension | Valid |
-| G968 (ACT 101/1965) | Stilpane | syrup | Valid |
-| G1064 (ACT 101/1965) | Brunacod | syrup | Valid |
-| D/5.8/54 | Colcaps | syrup | Valid |
-| 27/2.8/0139 | Astrapain | syrup | Valid |
-| G1008 (ACT101) | Dequa-coff | syrup | Valid |
-| S/2.8/29 | Painagon | syrup | Valid |
+| C0851 | Avomine | tablet | Valid |
+| C855 (ACT 101 1965) | Phenergan | tablet | Valid |
+| C857 (ACT 101 1965) | Phenergan 1 Ml | injection | Valid |
+| C858 (ACT 101 1965) | Phenergan | tablet | Valid |
+| G603 (ACT 101 1965) | Phensedyl | syrup | Valid |
+| R/5.7.1/154 | Receptozine | tablet | Valid |
 | R/5.7.1/155 | Receptozine | tablet | Valid |
-| F/2.8/8 | Propain | tablet | Valid |
+| 27/2.8/0139 | Astrapain | syrup | Valid |
+| 27/2.8/0229 | Vacudol Syrup | syrup | Valid |
+| 27/2.8/0242 | Goldgesic | syrup | Valid |
+| 28/2.8/0566 | Medipyn s | syrup | Valid |
+| B/2.8/867 | Stopayne | syrup | Valid |
+| B1450 | Promethazine hcl 1ml fresenius | injection | Valid |
+| B1637 | Promethazine hcl 2ml fresenius | injection | Valid |
+| C0829 | Lenazine | syrup | Valid |
+| D/5.8/54 | Colcaps | syrup | Valid |
+| E/5.7.1/125 | Histodor | tablet | Valid |
+
+Showing 17 of 62 registrations (valid registrations first).
 
 ## Safety Considerations
 

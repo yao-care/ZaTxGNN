@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **cholesterol-ester transfer prot
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 129 of 139) |
+| Number of SAHPRA Registrations | 139 (valid: 129) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,15 +83,17 @@ The data compiled for this report include other predictions with far more eviden
 
 ## South Africa Market Information
 
-Rosuvastatin is marketed in South Africa. All five SAHPRA registrations are valid single-ingredient products, and none are cancelled. Approved indication text was not available for these registrations.
+Rosuvastatin is marketed in South Africa. Approved indication text was not available for these registrations.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 46/7.5/0222 | Rostor | Tablet |
-| Reg. No. 47/7.5/0900 | Rosuvastatin 5 Pharmc | Film-coated tablet |
-| Reg. No. 55/7.5/0563 | Lypovas 5 | Tablet |
-| Reg. No. 55/7.5/0779 | Lypstaplus 10 Mg/10 Mg | Tablet |
-| Reg. No. 54/7.5/0693 | Reguchole 10/5Mg | Tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/7.5/0349 | Crestor | tablet | Valid |
+| 36/7.5/0350 | Crestor | tablet | Valid |
+| 36/7.5/0351 | Crestor | tablet | Valid |
+| 36/7.5/0353 | Zuvamor | tablet | Valid |
+| 36/7.5/0354 | Zuvamor | tablet | Valid |
+
+Showing 5 of 139 registrations (valid registrations first).
 
 ## Safety Considerations
 

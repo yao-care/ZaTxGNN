@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the SAHPRA registration data. Pharmacology data describ…"
 monitor_inn: "DOMPERIDONE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,8 +50,8 @@ but at present there are **0 clinical trials** and **0 publications** supporting
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 7 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 52/5.7.2/0563 | Domperidone Cipla | Orally disintegrating tablet (ODT) | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/5.7.2/0330 | Vomidon | tablet | Valid |
+| 42/5.7.2/0836 | Bio-domperidone | tablet | Valid |
+| 52/5.7.2/0563 | Domperidone Cipla | Odt | Valid |
+| A38/5.7.2/0636 | Vomi-guard | tablet | Valid |
+| K/5.7.2/261 | Motilium | tablet | Valid |
+
+Showing 5 of 9 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
 

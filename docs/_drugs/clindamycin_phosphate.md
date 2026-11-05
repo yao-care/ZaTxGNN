@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -41,7 +41,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Clindamycin phosphate is a lincosamide antibiotic prodrug, rapidly hydrolysed in vivo to clindamycin, and widely used for bacterial infections including acne vulgaris, bacterial vaginosis, and serious anaerobic infections.
-The current Evidence Pack contains **no TxGNN repurposing predictions**, no SAHPRA registration records, and multiple blocking data gaps.
 This evaluation **cannot advance to a full repurposing analysis** until the identified gaps are remediated.
 
 ---
@@ -54,8 +53,8 @@ This evaluation **cannot advance to a full repurposing analysis** until the iden
 | Predicted New Indication | Not available — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not determinable (no predictions present) |
-| South Africa Market Status | Marketed (valid licences: 4 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 23 of 25) |
+| Number of SAHPRA Registrations | 25 (valid: 23) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -68,7 +67,7 @@ What is known about the drug itself: clindamycin phosphate is the phosphate este
 
 Beyond direct antibacterial activity, clindamycin has documented anti-inflammatory effects that have been explored in inflammatory dermatological conditions. Some early-phase research has also investigated its potential in protozoan infections and, mechanistically, in oncology-adjacent contexts — however, without TxGNN model output in the current pack, no specific repurposing target can be assessed or recommended.
 
-> **Note on SAHPRA registrations:** The Evidence Pack records zero SAHPRA registrations. In practice, clindamycin-containing products (capsules, injectables, topical gels/solutions) are widely registered and used in South Africa. The zero-registration finding most likely reflects a data retrieval gap rather than a genuine absence from the South African market. Direct verification against the SAHPRA Product Register is strongly recommended before drawing regulatory conclusions.
+> In practice, clindamycin-containing products (capsules, injectables, topical gels/solutions) are widely registered and used in South Africa. Direct verification against the SAHPRA Product Register is strongly recommended before drawing regulatory conclusions.
 
 ---
 
@@ -85,8 +84,6 @@ Currently no related literature is available in this Evidence Pack.
 ---
 
 ## South Africa Market Information
-
-No SAHPRA-registered products were returned for Clindamycin Phosphate in the current Evidence Pack. See the note above regarding likely data retrieval issues.
 
 ---
 

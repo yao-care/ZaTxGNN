@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "FLUTICASONE FUROATE"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Fluticasone Furoate: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Fluticasone furoate is a glucocorticoid that reduces inflammation and is supplie
 | Predicted New Indication | atopic eczema |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 12 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,12 +71,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/21.5.1/0967 | Genemist | Spray | Not recorded in the local data |
-| Reg. No. 48/21.5.1/0247 | Revinty Ellipta 92/22 µg | Inhaler | Not recorded in the local data |
-| Reg. No. 41/21.5.1/0968 | Avamys 120 dose | Aqueous spray | Not recorded in the local data |
-| Reg. No. 52/21.5.1/0177 | Trelegy Ellipta | Inhaler | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/21.5.1/0967 | Genemist | spray | Valid |
+| 41/21.5.1/0968 | Avamys 120 dose | Aqs | Valid |
+| 48/21.5.1/0247 | Revinty Ellipta 92/22 Μg | inhaler | Valid |
+| 48/21.5.1/0248 | Revinty Ellipta 184/22 Μg | inhaler | Valid |
+| 48/21.5.1/0249 | Relvar ellipta 92/22ug 30 dose | inhaler | Valid |
+
+Showing 5 of 12 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

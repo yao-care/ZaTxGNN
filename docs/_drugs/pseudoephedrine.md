@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "PSEUDOEPHEDRINE"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Currently there are **0 registered clinical trials** and **7 publications** (one
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 16) |
-| Number of SAHPRA Registrations | at least 19 |
+| South Africa Market Status | Marketed (valid licences: 79 of 133) |
+| Number of SAHPRA Registrations | 133 (valid: 79) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -85,15 +85,17 @@ No human randomised controlled trial data are included. For the allergic urticar
 
 ## South Africa Market Information
 
-All 19 registrations are valid single-ingredient entries, but no approved indication text is available in the data compiled for this report. The first 5 are shown. EML inclusion status is not available.
+The first 5 are shown. EML inclusion status is not available.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 36/5.8/0207 | Sinutab 3-way | Tablet | Not available |
-| 37/5.8/0138 | Sinutab sinus pain non-drowsy | Tablet | Not available |
-| T/5.8/196 | Sudafed sinus pain 500 mg | Tablet | Not available |
-| 36/5.8/0206 | Benylin daytime flu | Tablet | Not available |
-| 40/5.8/0218 | Ibumax cold & flu | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/5.8/0533 | Drilix | syrup | Valid |
+| 29/11.3/0316 | Relislim | tablet | Valid |
+| Y/5.8/136 | Merck-Fed Tablets | tablet | Valid |
+| 27/10.1/0002 | Benylin Dmd | syrup | Valid |
+| 27/10.1/0490 | Coryx Cough And Cold | solution | Valid |
+
+Showing 5 of 133 registrations (valid registrations first).
 
 Other registered forms include syrups, capsules, sachets, a cream and a transdermal patch.
 

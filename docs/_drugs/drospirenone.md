@@ -5,7 +5,7 @@ layout: default
 title: Drospirenone
 parent: Known Uses Only (No New Predictions)
 nav_order: 206
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 32 of 39) |
+| Number of SAHPRA Registrations | 39 (valid: 32) |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 167
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, but **no
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 41 of 54) |
+| Number of SAHPRA Registrations | 54 (valid: 41) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,17 +69,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Dexamethasone-containing products are marketed in South Africa, with 9 valid single-ingredient registrations and no cancelled registrations. Approved indication text is not recorded in the local data. Essential Medicines List status is not recorded in the data compiled for this report.
+Approved indication text is not recorded in the local data. Essential Medicines List status is not recorded in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A40/21.5.1/0748 | Fresenius dexamethasone ampoule 1 ml | Injection | Not available |
-| 33/21.5.1/0512 | Pharma-q dexamethasone phosphate ampoule | Injection | Not available |
-| 49/16.2/0071 | Xindex | Drops | Not available |
-| 49/15.3/0196 | Mydex | Drops | Not available |
-| H.1158 | Maxitrol 3.5 g | Eye ointment | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 44/15.2/0045 | Ozurdex intravitreal | Imp | Valid |
+| 54/32/0323 | Neofordex | tablet | Valid |
+| H.1143 | Maxidex 5ml | drops | Valid |
+| Z/21.5.1/0285 | Decasone ampoule 1ml | injection | Valid |
+| 33/21.5.1/0512 | Pharma-q dexamethasone phosphate ampoule | injection | Valid |
 
-The remaining four registrations are Spersadex comp 5ml (drops), Maxitrol 3.5g (eye ointment), Covomycin D and Tobradex 3.5g (eye ointment).
+Showing 5 of 54 registrations (valid registrations first).
 
 ## Safety Considerations
 

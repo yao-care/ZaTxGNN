@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 421
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Sodium Chloride: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences on record: at least 15) |
-| Number of SAHPRA Registrations | at least 15 |
+| South Africa Market Status | Marketed (valid licences: 189 of 263) |
+| Number of SAHPRA Registrations | 263 (valid: 189) |
 
 ## Known uses recorded for this drug
 
@@ -74,21 +74,23 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| Z/24/107 | Neonatal maint solution spb0008 | infusion | Valid |
-| 85/23.4/3 | Sabax plasma vet 3000ml | infusion | Valid |
-| 36/34/0484 | Combibic Electrolyte Sol No/Potass 500 | infusion | Valid |
-| V/24/142 | Sustenance 1L fss001000ffx | infusion | Valid |
-| F/24/271 | Maintelyte 10% 1000m afb2774 | infusion | Valid |
-| D/24/208 | Ringer-lactate 3000ml afb2327 | infusion | Valid |
-| 47/34/0134 | Accusol 35 K0 | Sol | Valid |
-| Z/24/2 | St thomas cardioplegic 1000ml sxa3024 | infusion | Valid |
-| W/24/222 | Maintelyte 5% 1000ml afb3731 | infusion | Valid |
-| X/34/164 | Dianeal ls 4.25% glucose 2000ml afb9792 | infusion | Valid |
-| 34/24/0371 | Euromed Lactated Ringer'S Solution | solution | Valid |
-| E875(ACT 101/1965) | Plasmalyte b 200ml tfa3742 | infusion | Valid |
-| E875 (ACT 101/1965) | Sabax Plasmalyte B (1000Ml) | infusion | Valid |
-| 49/32.11/1185 | Duosol 00 5000ml solution for haemofiltr | infusion | Valid |
-| 36/34/0277 | Capd/dpca 2 stay safe 2l 1.5% glucose | infusion | Valid |
+| 33/24/0537 | Euromed Sodium Chloride 0.9 % Irrigation Solution | solution | Valid |
+| 33/24/0539 | Euromed 0.9% Sodium Chloride 1000 Ml | solution | Valid |
+| E880 (ACT 101/1965) | Sod chlor 200ml (tfa1328) | infusion | Valid |
+| E883 (ACT 101/1965) | Sod chlor 200ml (tfa1378) | infusion | Valid |
+| F993 (ACT 101/1965) | Sod chlor 3000ml (afb7127) | infusion | Valid |
+| 28/24/0553 | Intrapour Sodium Chloride 500Ml | solution | Valid |
+| 28/34/0577 | Adco saline 30ml | infusion | Valid |
+| 29/34/0325 | Dianeal norm ca/gluc 1.5% 1000ml afb9333 | infusion | Valid |
+| 29/34/0326 | Dianeal norm ca/gluc 2.5% 2000ml afb9346 | infusion | Valid |
+| 29/34/0327 | Dianeal norm ca/gluc 4.25% 1000ml afb935 | infusion | Valid |
+| 29/34/0328 | Haemocarb acid concentrate 5l afm7204 | infusion | Valid |
+| 29/34/0329 | Sabax Liquid Bicarbonate Conc 5Lt | liquid | Valid |
+| 29/34/0407 | Sabax Low Calcium Diasol  5Lt | Dia | Valid |
+| 32/24/0128 | Autosterile sodium chloride bp 1000ml | infusion | Valid |
+| 32/24/0130 | Autosterile ringer-lactate bp 1000ml | infusion | Valid |
+
+Showing 15 of 263 registrations (valid registrations first).
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

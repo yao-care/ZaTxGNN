@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -81,7 +81,6 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model did not produce any repurposing predictions for Cupric Chloride Dihydrate, and no SAHPRA-registered products, original indications, safety warnings, or supporting evidence were found — making a meaningful evaluation impossible at this stage.
 
 **To proceed, the following is needed:**
 

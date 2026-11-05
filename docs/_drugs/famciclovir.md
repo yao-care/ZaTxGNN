@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Famciclovir"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The only linked trial (**1 trial**) tests oxycodone rather than famciclovir, so 
 | Predicted New Indication | Post-infectious neuralgia |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 6 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,15 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 45/20.2.8/1157 | Macleods Famciclovir Tablets 125 Mg | Film-coated tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/20.2.8/0189 | Famvir | tablet | Valid |
+| 30/20.2.8/0277 | Famvir | tablet | Valid |
+| 42/20.2.8/0667 | Ciplafam | tablet | Valid |
+| 42/20.2.8/0668 | Ciplafam | tablet | Valid |
+| 45/20.2.8/1157 | Macleods Famciclovir Tablets 125 Mg | Fct | Valid |
+
+Showing 5 of 6 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

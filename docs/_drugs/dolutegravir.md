@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Dolutegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -52,8 +52,8 @@ but there are **no registered clinical trials**, and only **1 preclinical/veteri
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 20) |
-| Number of SAHPRA Registrations | at least 20 |
+| South Africa Market Status | Marketed (valid licences: 104 of 108) |
+| Number of SAHPRA Registrations | 108 (valid: 104) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,17 +90,17 @@ Additional literature relates to the SIV prediction (for example [PMID 30381490]
 
 ## South Africa Market Information
 
-Dolutegravir has 20 valid single-ingredient SAHPRA registrations and no cancelled registrations. Approved indication text and Essential Medicines List status are not available in the data compiled for this report; please verify against the Professional Information (PI) and the current EML.
+Approved indication text and Essential Medicines List status are not available in the data compiled for this report; please verify against the Professional Information (PI) and the current EML.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 56/20.2.8/0018 | Odinsti Dispersible Tablets | Orodispersible tablet | Not available |
-| Reg. No. 51/20.2.8/1032.1031 | Dalimune | Tablet | Not available |
-| Reg. No. 52/20.2.8/0002.001 | Hetvir 50 | Film-coated tablet | Not available |
-| Reg. No. 54/20.2.8/0642.641 | Lomida | Tablet | Not available |
-| Reg. No. 55/20.2.8/0301 | Daliduo | Film-coated tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 48/20.2.8/0403 | Tivicay | tablet | Valid |
+| 51/20.2.8/0695 | Novalute | Fct | Valid |
+| 51/20.2.8/0914.913 | Olegra | Fct | Valid |
+| 51/20.2.8/1032.1031 | Dalimune | tablet | Valid |
+| 52/20.2.8/0002.001 | Hetvir 50 | Fct | Valid |
 
-*Showing 5 of 20 registrations. Others include a paediatric effervescent tablet (Damicava Paed).*
+Showing 5 of 108 registrations (valid registrations first).
 
 ---
 

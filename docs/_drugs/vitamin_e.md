@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Vitamin E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
 description: "Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **inborn disorder of bilirubin 
 | Predicted New Indication | Inborn disorder of bilirubin metabolism |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 12 of 17) |
+| Number of SAHPRA Registrations | 17 (valid: 12) |
 | Recommended Decision | Hold |
 
 ---
@@ -97,14 +97,17 @@ Related literature for the closely linked prediction "bilirubin metabolism disea
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Z/22.1/236 | Vitalipid Novum Adult 10 ml | Infusion | Not stated in the data compiled |
-| 30/22.1/0201 | Vitalipid Novum Infant 10 ml | Infusion | Not stated in the data compiled |
-| L/24/329 | Dextrose 20% in water 500 ml | Infusion | Not stated in the data compiled |
-| Exclusion under Section 36 & Section 14 | ITN Neonatal TPN 150 ml | TPN | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
+| Z/22.1/236 | Vitalipid novum adult 10ml pdv00001a | infusion | Valid |
+| T1095 | Alpha Vit E Capsules 100 iu | capsule | Valid |
+| T1096 | Alpha Vit E Capsules 400 iu | capsule | Valid |
+| T1097 | Alpha Vit E Capsules 1 000 iu | tablet | Valid |
 
-All four registrations are valid and are parenteral (infusion or parenteral nutrition) products. No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment. Essential Medicines List status could not be confirmed from the data compiled.
+Showing 5 of 17 registrations (valid registrations first).
+
+No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment. Essential Medicines List status could not be confirmed from the data compiled.
 
 ---
 

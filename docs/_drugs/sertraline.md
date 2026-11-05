@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "SERTRALINE"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Sertraline: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **paranoid personality disorder
 | Predicted New Indication | Paranoid personality disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 33 of 37) |
+| Number of SAHPRA Registrations | 37 (valid: 33) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,14 +74,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 36/1.2/0273 | Serlife | Tablet | Not available |
-| 36/1.2/0274 | Tralidep | Tablet | Not available |
-| A39/1.2/0308 | Sertra | Tablet | Not available |
-| A40/1.2/0654 | Aurolift 50Mg | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/1.2/0381 | Zoloft | tablet | Valid |
+| 36/1.2/0272 | Serlife | tablet | Valid |
+| 36/1.2/0273 | Serlife | tablet | Valid |
+| 36/1.2/0274 | Tralidep | tablet | Valid |
+| 36/1.2/0275 | Tralidep | tablet | Valid |
 
-All four registrations are single-ingredient products and all are valid.
+Showing 5 of 37 registrations (valid registrations first).
 
 ## Safety Considerations
 

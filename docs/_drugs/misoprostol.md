@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Misoprostol: predicted new indication Amenorrhea (evidence level L5). Approved use: Not available"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but there are *
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 (no clinical trials; the retrieved literature is indirect, so the data provide no direct evidence for amenorrhea) |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 6 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,12 +81,17 @@ None of these papers tests misoprostol as a treatment for amenorrhea. They are l
 
 ## South Africa Market Information
 
-Both registrations are valid single-ingredient entries. The data compiled for this report do not include indication text, manufacturer details or Essential Medicines List (EML) status.
+The data compiled for this report do not include indication text, manufacturer details or Essential Medicines List (EML) status.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 32/3.1/0353 | Arthrotec | Tablet (oral) | Not available |
-| Reg. No. 28/3.1/0440 | Arthrotec 50 | Tablet (oral) | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| S/11.10/392 | Misoprostol pfizer (cytotec) | tablet | Valid |
+| 32/3.1/0353 | Arthrotec | tablet | Valid |
+| 54/21.12/0619 | Medabon Co | Kit | Valid |
+| 55/11.10/0503 | Acemiso | tablet | Valid |
+| 55/21.12/0760 | Acegyne | tablet | Valid |
+
+Showing 5 of 7 registrations (valid registrations first).
 
 ## Safety Considerations
 

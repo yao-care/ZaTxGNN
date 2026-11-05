@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "PHENYTOIN"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 15 of 17) |
+| Number of SAHPRA Registrations | 17 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---
@@ -86,12 +86,17 @@ Currently no related clinical trials registered. No ClinicalTrials.gov, SANCTR o
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| B0884 (ACT 101) | Phenytoin sod | Tablet | Not stated in the registration data compiled |
-| B1624 (OLD MEDICNE) | Epanutin Ready Mixed Parenteral | Injection | Not stated in the registration data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| B0884 | Phenytoin sod | tablet | Valid |
+| B1624 (OLD MEDICNE) | Epanutin 5ml | injection | Valid |
+| B554 (ACT 101 OF 1965) | Epanutin | capsule | Valid |
+| B555 (ACT 101 OF 1965) | Epanutin | suspension | Valid |
+| G/2.5/101 | Epanutin Infatabs | tablet | Valid |
 
-Both registrations are valid single-ingredient products, and none are cancelled. Oral (tablet) and injectable forms are both available.
+Showing 5 of 17 registrations (valid registrations first).
+
+Oral (tablet) and injectable forms are both available.
 
 ---
 

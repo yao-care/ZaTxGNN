@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 441
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Terbinafine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model's candidates for Terbinafine are all known uses, so there is cur
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 29 of 34) |
+| Number of SAHPRA Registrations | 34 (valid: 29) |
 
 ## Known uses among the model's candidates
 
@@ -74,11 +74,13 @@ The TxGNN model's candidates for Terbinafine are all known uses, so there is cur
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| A40/20.2.2/0344 | Dermax 250 | tablet | Valid |
-| 38/20.2.2/0148 | Terbicil | cream | Valid |
-| 32/20.2.2/0564 | Lamisil derm gel | gel | Valid |
-| Z/20.2.2/186 | Lamisil | cream | Valid |
-| 42/20.2.2/0382 | Almatil | cream | Valid |
+| 38/20.2.2/0395 | Terbinafine unicorn | tablet | Valid |
+| 42/20.2.2/0446 | Terbi-Clear | tablet | Valid |
+| 42/20.2.2/0472 | Binacil | tablet | Valid |
+| 51/20.2.2/0105 | Terbi-Clear Cream | cream | Valid |
+| A38/20.2.2/0484 | Terbicil | tablet | Valid |
+
+Showing 5 of 34 registrations (valid registrations first).
 
 ## Safety Considerations
 

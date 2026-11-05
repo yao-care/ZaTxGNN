@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
 description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model (deep learning) predicts it may be effective for **Ambras type h
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 26 of 29) |
+| Number of SAHPRA Registrations | 29 (valid: 26) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,17 +78,17 @@ For the related prediction of general alopecia (rank 9), two publications were r
 
 ## South Africa Market Information
 
-Eight valid single-ingredient registrations were found. The approved indication text, and the Essential Medicines List (EML) status, were not available in the data compiled for this report.
+The approved indication text, and the Essential Medicines List (EML) status, were not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 53/34/0057 | Uriwel | Capsule | Not available |
-| Reg. No. 48/34/0855 | Pravlex SR 0,4 mg | Capsule | Not available |
-| Reg. No. 56/34/0989 | Urilosin 0,4 | Capsule | Not available |
-| Reg. No. A40/34/0317 | Prostaflo SR | Modified-release capsule (listed as "Src") | Not available |
-| Reg. No. 56/21.12/1063 | Firsoltam | Listed as "Mrt" | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/34/0428 | Flomax sr | Src | Valid |
+| 42/18.10/0538 | Omsal | Src | Valid |
+| 48/34/0855 | Pravlex Sr 0,4Mg | capsule | Valid |
+| 53/34/0057 | Uriwel | capsule | Valid |
+| 56/34/0989 | Urilosin 0,4 | capsule | Valid |
 
-The remaining three registrations are Swifsul (55/21.12/0032), Beniprosin SR (A40/34/0211) and Duodart 0.5 mg/0.4 mg (44/21.12/0850). Duodart is listed in the data as a single-ingredient registration, although its strength suggests a dutasteride/tamsulosin combination. This should be verified against the registration record.
+Showing 5 of 29 registrations (valid registrations first).
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 451
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Tocilizumab"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The data compiled for this report include **4 clinical trials** (2 of them termi
 | Predicted New Indication | Ankylosing spondylitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -100,9 +100,12 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 48/30.1/0370 | Actemra SC prefilled syringe 0.9 ml | Injection | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 43/30.1/0944 | Actemra 80 vial 4ml | infusion | Valid |
+| 43/30.1/0945 | Actemra 200 vial 10ml | infusion | Valid |
+| 43/30.1/0946 | Actemra 400 vial 20ml | infusion | Valid |
+| 49/30.1/0398 | Actemra Sc | vial | Valid |
 
 Essential Medicines List (EML) status was not available in the data compiled for this report.
 

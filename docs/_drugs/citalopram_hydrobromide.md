@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -56,8 +56,8 @@ Until the pipeline is re-run with a complete drug profile, no evidence-based rep
 | Predicted New Indication | Not available — prediction pending |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 53 of 60) |
+| Number of SAHPRA Registrations | 60 (valid: 53) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -75,10 +75,6 @@ Because no TxGNN predicted indication has been generated, it is not possible at 
 ---
 
 ## South Africa Market Information
-
-Citalopram hydrobromide currently has **no SAHPRA registrations** recorded in this Evidence Pack.
-
-> No registered products were found to tabulate. Before any procurement or regulatory decision, this result should be verified against the current [SAHPRA online register](https://www.sahpra.org.za/), as citalopram preparations are widely available internationally and registration data in this dataset may be incomplete or not yet ingested.
 
 ---
 

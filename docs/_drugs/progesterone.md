@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 391
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ No clinical trials are registered for this use, and the **18 publications** retr
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 10 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,9 +83,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. A40/21.8.2/0771 | Utrogestan | Capsule (oral) | Approved indication text not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/21.8.2/0215 | Utrogestan | capsule | Valid |
+| 45/21.8.2/1098 | Lutiges 100 Mg Vat | vaginal cream | Valid |
+| 57/21.8.2/0422 | Tanilive 100 Mg Oral Capsules | capsule | Valid |
+| 57/21.8.2/0423 | Tanilive 200 Mg Oral Capsules | capsule | Valid |
+| A40/21.8.2/0771 | Utrogestan | capsule | Valid |
+
+Showing 5 of 11 registrations (valid registrations first).
 
 ## Safety Considerations
 

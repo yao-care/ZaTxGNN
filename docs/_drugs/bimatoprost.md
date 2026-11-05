@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bimatoprost"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Bimatoprost: predicted new indication malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ This prediction has **no registered clinical trials and no publications** behind
 | Predicted New Indication | malformation syndrome with odontal and/or periodontal component |
 | TxGNN Prediction Score | 1.0000 (0.99997377 before rounding) |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 22 of 22) |
+| Number of SAHPRA Registrations | 22 (valid: 22) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,12 +72,17 @@ Currently no related literature available for this predicted indication.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 56/15.4/0781 | Glauptico | Drops | Not recorded in the local data |
-| Reg. No. 54/15.4/0389.388 | Timpromat | Drops | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/15.4/0157 | Lumigan 3ml | drops | Valid |
+| 42/15.4/0127 | Ganfort 3ml | drops | Valid |
+| 42/15.4/0835 | Lumigan 2.5ml | drops | Valid |
+| 54/15.4/0319.317 | Bimapres 0.01% | drops | Valid |
+| 54/15.4/0320.318 | Bimapres 0,03% | drops | Valid |
 
-Both registrations are single-ingredient products and both are currently valid. The only dosage form on record is drops (ophthalmic-type liquid), so no formulation suited to the predicted indication is registered locally.
+Showing 5 of 22 registrations (valid registrations first).
+
+The only dosage form on record is drops (ophthalmic-type liquid), so no formulation suited to the predicted indication is registered locally.
 
 ## Safety Considerations
 

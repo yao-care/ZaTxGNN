@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Pantothenic acid"
 predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top prediction is **congenital prothrombin deficiency**, but t
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -101,13 +101,12 @@ The five papers retrieved for glycerol metabolism disease are metabolomics, micr
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| U/22.1.4/200 | Soluvit novum 10ml vials | Injection | Not stated in the data compiled |
-| L/24/329 | Dextrose 20% in water 500ml | Infusion | Not stated in the data compiled |
-| Exclusion under Section 36 & Section 14 | ITN neonatal TPN 150ml | TPN | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| U/22.1.4/200 | Soluvit novum 10ml vials pds000010 | injection | Valid |
+| 57/22.2/0880 | Envitavit | vial | Valid |
 
-All three registrations are valid single-ingredient entries, and all are injectable or parenteral products. The data compiled for this report do not include Essential Medicines List (EML) status.
+The data compiled for this report do not include Essential Medicines List (EML) status.
 
 ---
 

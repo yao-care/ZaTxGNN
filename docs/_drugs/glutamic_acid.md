@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 247
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "Glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -48,8 +48,8 @@ Glutamic acid is an amino acid that, in South Africa, is registered only as a co
 | Predicted New Indication | Postmenopausal osteoporosis |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 22 of 26) |
+| Number of SAHPRA Registrations | 26 (valid: 22) |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?
@@ -81,15 +81,17 @@ The table lists the most relevant publications. None tests glutamic acid as a tr
 
 ## South Africa Market Information
 
-All five registrations are single-ingredient, valid, and listed as infusion or total parenteral nutrition (TPN) products. No approved indication text or Essential Medicines List status is available in the data compiled for this report.
+No approved indication text or Essential Medicines List status is available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not stated |
-| Reg. No. 52/25/0739 | Numeta G13E | Infusion | Not stated |
-| Reg. No. 52/25/0740 | Numeta G16E | Infusion | Not stated |
-| Reg. No. 49/25/0065 | Nutriflex Omega Specialized | Infusion | Not stated |
-| Reg. No. 41/25/0759 | Nutriflex lipid special 625ml | TPN | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
+| 41/25/0758 | Nutriflex lipid plus without electrolyte | Tpn | Valid |
+| 41/25/0759 | Nutriflex lipid special 2500ml | Tpn | Valid |
+| 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
+
+Showing 5 of 26 registrations (valid registrations first).
 
 ## Safety Considerations
 

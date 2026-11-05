@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "METFORMIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 14 of 16) |
-| Number of SAHPRA Registrations | 16 (valid: 14) |
+| South Africa Market Status | Marketed (valid licences: 214 of 229) |
+| Number of SAHPRA Registrations | 229 (valid: 214) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,15 +91,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Metformin is marketed in South Africa with 16 valid SAHPRA registrations (all single-entity records, none cancelled). The approved indication text was not available for these registrations. Essential Medicines List (EML) status was not available in the data compiled for this report. Five main registrations are shown below.
+The approved indication text was not available for these registrations. Essential Medicines List (EML) status was not available in the data compiled for this report. Five main registrations are shown below.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/21.2/0071 | Gluconorm | Tablet | Not available |
-| Reg. No. 33/21.2/0204 | Mylan metformin | Tablet | Not available |
-| Reg. No. 35/21.2/0093 | Metformin 500 Biotech | Tablet | Not available |
-| Reg. No. A39/21.2/0027 | Glucophage XR | Sustained-release tablet (SRT) | Not available |
-| Reg. No. 52/21.2/0090 | Metformin XR 500 mg Accord | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/21.2/0046 | Metformin hcl 500 fc kiara (was sandoz m | tablet | Valid |
+| 28/21.2/0047 | Metformin hcl 850 fc kiara (was sandoz m | tablet | Valid |
+| 33/21.2/0204 | Mylan metformin | tablet | Valid |
+| 33/21.2/0205 | Mylan metformin | tablet | Valid |
+| 35/21.2/0093 | Metformin 500 Biotech | tablet | Valid |
+
+Showing 5 of 229 registrations (valid registrations first).
 
 The remaining registrations include fixed-dose combinations with other antidiabetic agents (for example Janumet, Synjardy, Xigduo XR and Amaryl Combi).
 

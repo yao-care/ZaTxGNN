@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ATENOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and myocardial infarction"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 39 of 47) |
+| Number of SAHPRA Registrations | 47 (valid: 39) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,18 +88,20 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## South Africa Market Information
 
-Atenolol is marketed in South Africa. All 6 SAHPRA registrations are valid and listed as single-ingredient records. Approved indication text is not available in the data compiled for this report. Essential Medicines List status is also not available in the data compiled for this report.
+Atenolol is marketed in South Africa. Approved indication text is not available in the data compiled for this report. Essential Medicines List status is also not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| 41/5.2/0005 | Gulf atenolol | Tablet |
-| A38/5.2/0502 | Tenopress | Tablet |
-| 32/5.2/0670 | B-block | Tablet |
-| Y/7.1.3/24 | Sandoz Co-Tenidone 50/12.5 | Tablet |
-| S/7.1.3/201 | Tenoret 50 50mg/12.5mg | Tablet |
-| Z/7.1.3/0096 | Tenchlor hs 50mg/12.5mg | Tablet |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/5.2/0251 | Tenormin | tablet | Valid |
+| 27/5.2/0468 | Hexa-blok | tablet | Valid |
+| 27/5.2/0469 | Hexa-blok | tablet | Valid |
+| 30/5.2/0026 | Atenolol 50 Arya | tablet | Valid |
+| 30/5.2/0035 | Atenolol 100 Arya | tablet | Valid |
+| 32/5.2/0670 | B-block | tablet | Valid |
 
-All registered products are oral tablets. The product names Co-Tenidone, Tenoret and Tenchlor suggest 50 mg/12.5 mg combination products, although they are recorded as single-ingredient. Please verify against the registration records.
+Showing 6 of 47 registrations (valid registrations first).
+
+All registered products are oral tablets.
 
 ---
 

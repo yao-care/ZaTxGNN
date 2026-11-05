@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
 description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Because of this, the prediction is not supported by biological rationale, and th
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 67 of 98) |
+| Number of SAHPRA Registrations | 98 (valid: 67) |
 | Recommended Decision | Hold |
 
 ---
@@ -86,15 +86,17 @@ None of the retrieved publications tests ceftriaxone as a treatment for hyperamy
 
 ## South Africa Market Information
 
-Ceftriaxone is marketed in South Africa as single-ingredient injectable products. Five registrations are currently valid and one is cancelled. The approved indication text is not recorded in the local data. Essential Medicines List status is not available from the data compiled for this report.
+Ceftriaxone is marketed in South Africa as single-ingredient injectable products. The approved indication text is not recorded in the local data. Essential Medicines List status is not available from the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 47/20.1.1/1245 | Obkef 1G Injection | Injection | Not available |
-| Reg. No. 48/20.1.1/0228 | Ceftriaxone 1G Fksa | Injection | Not available |
-| Reg. No. 37/20.1.1/0042 | Adco Ceftriaxone powder for injection | Injection | Not available |
-| Reg. No. 37/20.1.1/0368 | Rociject powder for injection | Injection | Not available |
-| Reg. No. R/20.1.1/47 | Rocephin | Injection | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/20.1.1/0318 | Oframax  250 | injection | Valid |
+| 34/20.1.1/0319 | Ceftriaxone 1 G Unimed | Inj | Valid |
+| 34/20.1.1/0321 | Fraxone 1G | injection | Valid |
+| 34/20.1.1/0322 | Triaphin vial 5ml | injection | Valid |
+| 34/20.1.1/0323 | Triaphin vial 15ml | injection | Valid |
+
+Showing 5 of 98 registrations (valid registrations first).
 
 ---
 

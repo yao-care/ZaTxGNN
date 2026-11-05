@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This is a computational prediction only: **0 clinical trials** and **0 publicati
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 7) |
-| Number of SAHPRA Registrations | 7 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 118 of 149) |
+| Number of SAHPRA Registrations | 149 (valid: 118) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,17 +70,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Risperidone is marketed in South Africa as single-ingredient products. Seven valid registrations were found, and none are cancelled. The five main ones are listed below. The approved indication text was not available in the data compiled.
+Risperidone is marketed in South Africa as single-ingredient products. The five main ones are listed below. The approved indication text was not available in the data compiled.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| Reg. No. 46/2.6.5/0362 | Zoxadon ODT 0.5 mg | Orally disintegrating tablet |
-| Reg. No. A40/2.6.5/0706 | Perizal | Tablet |
-| Reg. No. 42/2.6.5/0792 | Risnia | Tablet |
-| Reg. No. 44/2.6.5/0003 | Perida 0,5 mg | Tablet |
-| Reg. No. 41/2.6.5/1056 | Rutra 1 mg/ml Solution | Oral solution |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/2.6.5/0235 | Risperdal | tablet | Valid |
+| 27/2.6.5/0236 | Risperdal | tablet | Valid |
+| 27/2.6.5/0237 | Risperdal | tablet | Valid |
+| 27/2.6.5/0238 | Risperdal  4Mg | tablet | Valid |
+| 33/2.6.5/0111 | Risperdal | tablet | Valid |
 
-Two further registrations are not listed above: Rispevon (tablet) and Mylan Risperidone 0,5 (tablet).
+Showing 5 of 149 registrations (valid registrations first).
 
 ## Safety Considerations
 

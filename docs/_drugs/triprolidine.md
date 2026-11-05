@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "TRIPROLIDINE"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Much of this is an extension of an existing indication rather than true repurpos
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 13) |
-| Number of SAHPRA Registrations | 13 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 37 of 59) |
+| Number of SAHPRA Registrations | 59 (valid: 37) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,17 +88,17 @@ Evidence for related predictions is also indirect:
 
 ## South Africa Market Information
 
-All 13 registrations are valid single-ingredient products. Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status was not available.
+Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status was not available.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 27/5.8/0260 | Adco-flupain | Syrup | Not available |
-| Y/10.1.1/138 | Merck-Cough Linctus | Syrup | Not available |
-| 27/10.1/0256 | Adco-tussend | Syrup | Not available |
-| 31/5.8/0056 | Coryx paediatric | Syrup | Not available |
-| Y/10.1.1/139 | Merck-Expectorant | Syrup | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/10.1/0536 | Trifen expect paediatric | syrup | Valid |
+| 27/10.1/0537 | Trifen expect adult | syrup | Valid |
+| 27/5.8/0260 | Adco-flupain | syrup | Valid |
+| 28/10.1/0433 | Flusin junior cough | syrup | Valid |
+| 30/10.1/0049 | Fludactil co linctus | syrup | Valid |
 
-Eight further syrup registrations exist. There is also one topical cream, Medaspor topical (28/20.2.2/0119).
+Showing 5 of 59 registrations (valid registrations first).
 
 ---
 

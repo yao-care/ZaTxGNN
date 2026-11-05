@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 303
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Magnesium: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 5 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -74,10 +74,7 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| EXCLUSION UNDER SECTION 36 & SECTION 14 | ITN8011XA 1520ml adult | Tpn | Valid |
-| ARTICLE 21B              N/A | TPN non-specific | infusion | Valid |
 | G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
-| 41/10.2.1/0849 | Spiriva respimat inhaler 60 doses | inhaler | Canceled |
 | H2062 (ACT 101) | Filibon | capsule | Valid |
 | 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
 

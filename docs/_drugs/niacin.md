@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 339
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Niacin: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,7 +74,7 @@ The TxGNN deep-learning model produced candidates for Niacin with a score of 0.9
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| H2062 (ACT 101) | Filibon | capsule | Valid |
+| 42/7.5/1092 | Tredaptive | tablet | Valid |
 
 ## Safety Considerations
 

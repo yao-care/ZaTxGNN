@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L3). Approved use: Epilepsy (partial epilepsy…"
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -54,8 +54,8 @@ The TxGNN model's top-ranked prediction is trigeminal nerve neoplasm, but the ev
 | Predicted New Indication (best-supported) | Trigeminal neuralgia |
 | TxGNN Prediction Score | Trigeminal nerve neoplasm: 0.9997; trigeminal neuralgia: 0.9989 |
 | Evidence Level | Trigeminal nerve neoplasm: L5; trigeminal neuralgia: L2 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 100 of 116) |
+| Number of SAHPRA Registrations | 116 (valid: 100) |
 | Recommended Decision | Trigeminal nerve neoplasm: Hold; trigeminal neuralgia: Proceed with Guardrails |
 
 ---
@@ -116,13 +116,17 @@ Selected from the trigeminal neuralgia results (priority given to guidelines and
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 36/2.5/0407 | Lamictin p2 | Effervescent tablet | Not available |
-| Reg. No. A38/2.5/0567 | Lamorola 25 | Tablet | Not available |
-| Reg. No. A39/2.5/0473 | Sandoz Lamotrigine 25 | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/2.5/0303 | Lamictin p5 | effervescent tablet | Valid |
+| 29/2.5/0304 | Lamictin p25 | effervescent tablet | Valid |
+| 29/2.5/0305 | Lamictin P100 | effervescent tablet | Valid |
+| 29/2.5/0472 | Lamictin | tablet | Valid |
+| 32/2.5/0460 | Lamictin P200 | effervescent tablet | Valid |
 
-All three registrations are valid single-ingredient oral products. Essential Medicines List status was not available in the data compiled for this report.
+Showing 5 of 116 registrations (valid registrations first).
+
+Essential Medicines List status was not available in the data compiled for this report.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 210
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,8 +50,8 @@ Efavirenz was originally used to treat HIV infection and AIDS. The TxGNN model p
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 13 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 13) |
+| South Africa Market Status | Marketed (valid licences: 62 of 89) |
+| Number of SAHPRA Registrations | 89 (valid: 62) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,15 +95,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-SAHPRA lists 14 valid single-ingredient registrations. Approved indication text and Essential Medicines List status are not included in the data compiled for this report. The five main registrations are shown below.
+Approved indication text and Essential Medicines List status are not included in the data compiled for this report. The five main registrations are shown below.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 42/20.2.8/0979 | Adco-efavirenz | Capsule | Not available in compiled data |
-| A40/20.2.8/0508 | Sonke-efavirenz | Tablet | Not available in compiled data |
-| 43/20.2.8/0363 | Hevaz | Tablet | Not available in compiled data |
-| 52/20.2.8/0062 | Triovir | Film-coated tablet | Not available in compiled data |
-| 41/20.2.8/0218 | Cipla Duovir & Efavirenz co-pack | Kit | Not available in compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/20.2.8/0401 | Stocrin 50 | capsule | Valid |
+| 33/20.2.8/0403 | Stocrin 200 | capsule | Valid |
+| 37/20.2.8/0628 | Stocrin | tablet | Valid |
+| 41/20.2.8/0106 | Cipla-efavirenz | tablet | Valid |
+| 41/20.2.8/0541 | Erige | capsule | Valid |
+
+Showing 5 of 89 registrations (valid registrations first).
 
 ---
 

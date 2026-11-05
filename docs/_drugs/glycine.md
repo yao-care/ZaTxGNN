@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Glycine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Glycine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The prediction rests on a model score alone.
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 35 of 59) |
+| Number of SAHPRA Registrations | 59 (valid: 35) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,15 +79,17 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 
 ## South Africa Market Information
 
-SAHPRA records show 11 valid single-ingredient registrations; none carry approved-indication text in the local data. Main registrations:
+Main registrations:
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2370 (ACT 101/1965) | Cicatrin Powder 15G | Powder | Not recorded |
-| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | Infusion | Not recorded |
-| 33/10.2.1/0271 | Adco-ipratropium (ni201) | Vial | Not recorded |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml | Infusion | Not recorded |
-| 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
+
+Showing 5 of 59 registrations (valid registrations first).
 
 ## Safety Considerations
 

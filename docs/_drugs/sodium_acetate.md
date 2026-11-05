@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the registration data (registered products are dialysis…"
 monitor_inn: "Sodium acetate"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "Ureaplasma urethritis", "gonococcal urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 11) |
-| Number of SAHPRA Registrations | at least 12 |
+| South Africa Market Status | Marketed (valid licences: 10 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,15 +71,17 @@ Currently no related literature available for congenital prothrombin deficiency.
 
 ## South Africa Market Information
 
-All 12 registrations are valid single-ingredient products. The registration data contain no approved indication text, and Essential Medicines List status is not stated in the data compiled for this report. The five main registrations are listed below.
+The registration data contain no approved indication text, and Essential Medicines List status is not stated in the data compiled for this report. The five main registrations are listed below.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 37/34/0243 | Nutrineal Pd4 W/1.1% Amin Acid (2.5L) | Solution | Not stated |
-| Y/6.1/415 | Dopamine HCl Fresenius 5ml 200mg/5ml | Injection | Not stated |
-| D/24/208 | Sabax Ringer-Lactate 500ml | Solution | Not stated |
-| X/34/164 | Dianeal LS 4.25% Glucose 2000ml | Infusion | Not stated |
-| E/24/115 | Hidroliet 5% Gluc 1000ml | Infusion | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/34/0243 | Nutrineal Pd4 W/1.1% Amin Acid (2.5L) | solution | Cancelled |
+| D/24/208 | Sabax ringer-lactate 500ml | solution | Valid |
+| X/34/164 | Dianeal ls 4.25% glucose 2000ml afb9792 | infusion | Valid |
+| E/24/115 | Hidroliet 5% gluc 1000ml tfa2764 | infusion | Valid |
+| 36/34/0277 | Capd/dpca 2 stay safe 2l 1.5% glucose | infusion | Valid |
+
+Showing 5 of 11 registrations (valid registrations first).
 
 ## Safety Considerations
 

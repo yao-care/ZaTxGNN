@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Cysteine is a sulfur-containing amino acid with a thiol group that acts as a pre
 | Predicted New Indication | Dry eye syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 9 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,13 +81,17 @@ The most relevant publications are listed below. All are preclinical, reviews or
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2370 (ACT 101/1965) | Cicatrin Powder 15G | Powder | Not recorded |
-| 52/25/0739 | Numeta G13E | Infusion | Not recorded |
-| 52/25/0740 | Numeta G16E | Infusion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 52/25/0739 | Numeta G13E | infusion | Valid |
+| 52/25/0740 | Numeta G16E | infusion | Valid |
+| G2370 | Cicatrin Powder 15G | powder | Valid |
+| 30/25.2/0406 | Vamin 14 | solution | Valid |
+| 52/25/0741 | Numeta G19E | Not recorded | Valid |
 
-All three registrations are currently valid. The data compiled for this report do not show Essential Medicines List status.
+Showing 5 of 14 registrations (valid registrations first).
+
+The data compiled for this report do not show Essential Medicines List status.
 
 ## Safety Considerations
 

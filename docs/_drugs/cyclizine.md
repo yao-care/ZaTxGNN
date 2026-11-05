@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclizine"
 predicted_indications: ["allergic urticaria", "nasal cavity disease", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Cyclizine: predicted new indication allergic urticaria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Cyclizine is a first-generation H1 antihistamine with anticholinergic activity. 
 | Predicted New Indication | allergic urticaria |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 23 of 36) |
+| Number of SAHPRA Registrations | 36 (valid: 23) |
 | Recommended Decision | Hold |
 
 ---
@@ -78,9 +78,15 @@ Currently no related literature available for allergic urticaria.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| B769 (ACT 101) | Cyclimorph 1ml | Injection | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/5.7.2/0203 | Medazine nausea | tablet | Valid |
+| 27/5.7.2/0386 | Adco-cyclizine | tablet | Valid |
+| 28/5.7.2/0435 | Dischem emitex(was emitex) | tablet | Valid |
+| 28/5.7/0499 | Covamet | tablet | Valid |
+| C/5.7.2/975 | Valoid as | suppository | Valid |
+
+Showing 5 of 36 registrations (valid registrations first).
 
 The product is a single-ingredient registration with a valid status. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

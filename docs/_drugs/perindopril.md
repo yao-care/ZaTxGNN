@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (preclinical or mechanistic reasoning only; no relevant clinical studies) |
-| South Africa Market Status | Marketed (valid licences: 8 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 129 of 135) |
+| Number of SAHPRA Registrations | 135 (valid: 129) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,15 +85,15 @@ For the pulmonary hypertension prediction (rank 3), the most relevant item is pr
 
 Perindopril is marketed in South Africa. Approved indication text is not available for any of the registrations. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 34/7.1.3/0480 | Vectoryl | Tablet | Not available |
-| 37/7.1.3/0021 | Perindopril unicorn | Tablet | Not available |
-| 41/7.1.3/0652 | Spec-perindopril | Tablet | Not available |
-| 44/7.1.3/0503 | Ciplasyl plus 4mg/1.25mg | Tablet | Not available |
-| 55/7.1.3/0812 | Teprilam 10/10 | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/7.1.3/0480 | Vectoryl | tablet | Valid |
+| 36/7.1.3/0020 | Prexum | tablet | Valid |
+| 36/7.1.3/0021 | Perdotor (was circator) | tablet | Valid |
+| 37/7.1.3/0021 | Perindopril unicorn | tablet | Valid |
+| 38/7.1.3/0116 | Vectoryl | tablet | Valid |
 
-Four further registrations are valid: Cosyrel 5/5 (film-coated tablet), Pearinda, Preterax 2mg/0.625mg, and Spec-perindopril plus 4mg/1.25mg (all tablets).
+Showing 5 of 135 registrations (valid registrations first).
 
 ## Safety Considerations
 

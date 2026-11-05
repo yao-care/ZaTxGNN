@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 24 of 26) |
+| Number of SAHPRA Registrations | 26 (valid: 24) |
 | Recommended Decision | Hold |
 
 ---
@@ -83,12 +83,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 44/1.2/1005 | Mirtaneo 15 | Tablet | Not available in the compiled data |
-| Reg. No. 41/1.2/0529 | Ramure 15Mg | Tablet | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/1.2/0142 | Aspen mirtazapine | tablet | Valid |
+| 41/1.2/0143 | Aspen mirtazapine | tablet | Valid |
+| 41/1.2/0367 | Mylan mirtazapine | tablet | Valid |
+| 41/1.2/0368 | Mylan mirtazapine | tablet | Valid |
+| 41/1.2/0529 | Ramure 15Mg | tablet | Valid |
 
-Both registrations are valid single-ingredient oral tablets. Essential Medicines List (EML) status is not available in the compiled data.
+Showing 5 of 26 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the compiled data.
 
 ---
 

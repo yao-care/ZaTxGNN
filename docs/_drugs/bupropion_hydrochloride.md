@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 83
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -42,7 +42,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 Bupropion hydrochloride is a norepinephrine-dopamine reuptake inhibitor (NDRI) with established use in major depressive disorder and smoking cessation.
 The current evidence pack contains **no TxGNN repurposing predictions** for this drug, meaning a formal drug repurposing evaluation cannot be completed at this stage.
-Multiple blocking data gaps — including absent mechanism of action data, missing safety information, and no SAHPRA registration records — must be resolved before this candidate can advance.
 
 ---
 
@@ -54,8 +53,8 @@ Multiple blocking data gaps — including absent mechanism of action data, missi
 | Predicted New Indication | Not available — no TxGNN prediction generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not evaluable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 27 of 30) |
+| Number of SAHPRA Registrations | 30 (valid: 27) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -76,10 +75,6 @@ Until these gaps are resolved and the prediction pipeline is re-run with a valid
 ---
 
 ## South Africa Market Information
-
-No SAHPRA registrations were found for bupropion hydrochloride in the current evidence pack (total licences: 0).
-
-> **Important verification note:** This result should be independently confirmed against the [SAHPRA online medicines register](https://www.sahpra.org.za/). Bupropion-containing products such as **Wellbutrin XL** (antidepressant) and **Zyban** (smoking cessation) are known to be available in South Africa under Section 21 authorisations or full registration in other markets. The absence of records in this pack most likely reflects a data retrieval failure rather than a definitive absence from the South African market.
 
 ---
 

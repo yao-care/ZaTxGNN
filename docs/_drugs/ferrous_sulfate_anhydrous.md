@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Ferrous sulfate anhydrous is an oral iron supplement used to correct iron defici
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,13 +80,13 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H2466 | Complenatal Ff | Capsule | Not stated in the data compiled for this report |
-| G2667 (ACT 101/1965) | Gericomplex | Capsule | Not stated in the data compiled for this report |
-| 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| H2466 | Complenatal Ff | capsule | Valid |
+| P/33/161 | Bidomak Fe | Not recorded | Valid |
 
-Of the 3 registrations on record, 2 are valid and 1 is cancelled. Essential Medicines List status is not recorded in the data compiled for this report.
+Essential Medicines List status is not recorded in the data compiled for this report.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 134
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Clobetasol: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report"
 monitor_inn: "Clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -50,8 +50,8 @@ No registered clinical trials were found for this indication, but **16 publicati
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 18 of 19) |
+| Number of SAHPRA Registrations | 19 (valid: 18) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -83,12 +83,17 @@ The most relevant publications are listed below (cohort studies first, then case
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| F/13.4.1/176 | Dermovate | Cream | Not available in the data compiled |
-| 28/13.4.1/0611 | Xenovate | Ointment | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/13.4.1/0122 | Dovate | ointment | Valid |
+| 27/13.4.1/0316 | Dovate | cream | Valid |
+| 28/13.4.1/0611 | Xenovate | ointment | Valid |
+| 28/13.4.1/0728 | Xenovate | cream | Valid |
+| A40/13.4.1/0035 | Clobex | Sha | Valid |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Showing 5 of 19 registrations (valid registrations first).
+
+Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 

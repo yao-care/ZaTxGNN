@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 382
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Potassium Iodide"
 predicted_indications: ["nasal cavity disease"]
 description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 10 of 15) |
+| Number of SAHPRA Registrations | 15 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,13 +91,17 @@ All four are single case reports of fungal or oomycete infections; none is a con
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 29/24/0462 | Peditrace 10ml pdp100010 | Infusion | Not stated in the available data |
-| Reg. No. 49/24/0996 | Addaven | Infusion | Not stated in the available data |
-| Reg. No. 52/24/0031 | Nutryelt | Infusion | Not stated in the available data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/24/0462 | Peditrace 10ml pdp100010 | infusion | Valid |
+| 49/24/0996 | Addaven | infusion | Valid |
+| 52/24/0031 | Nutryelt | infusion | Valid |
+| 33/13.1/0169 | Iodine TINCTURE-DAROL | solution | Valid |
+| BV0346 | Aqueous Iodine Solution (LUGOL'S IODINE) | Not recorded | Valid |
 
-All three registrations are valid single-ingredient entries and all are infusion products. These are injectable (parenteral) formulations, so they are not directly suited to nasal or upper respiratory use. Essential Medicines List status could not be confirmed from the data compiled for this report.
+Showing 5 of 15 registrations (valid registrations first).
+
+Essential Medicines List status could not be confirmed from the data compiled for this report.
 
 ---
 

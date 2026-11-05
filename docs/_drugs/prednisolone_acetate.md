@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). Approved use: Uveitis, iridocyclitis, conjunctivitis and related eye inflammation"
 ---
 
@@ -50,8 +50,8 @@ The TxGNN model (deep learning) predicts this drug may be useful for **conjuncti
 | Predicted New Indication | Conjunctival folliculosis |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 26 of 33) |
+| Number of SAHPRA Registrations | 33 (valid: 26) |
 | Recommended Decision | Hold |
 
 ---
@@ -83,11 +83,17 @@ Currently no related literature available for conjunctival folliculosis.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| J/15.2/73 | Pred-mild 5ml | Drops | Not stated in the available licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/21.5/0316 | Capsoid | tablet | Valid |
+| 36/21.5.1/0191 | Prednisilone 15 strides | syrup | Valid |
+| G2968 | Lenisolone | tablet | Valid |
+| G3055 | Prelone | tablet | Valid |
+| 28/21.5.1/0158 | Prelone | syrup | Valid |
 
-Prednisolone acetate has one valid single-ingredient registration, with no cancelled or non-marketed registrations. Essential Medicines List status was not available in the data compiled for this report.
+Showing 5 of 33 registrations (valid registrations first).
+
+Essential Medicines List status was not available in the data compiled for this report.
 
 ---
 

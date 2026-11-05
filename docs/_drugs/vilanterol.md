@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Obstructive lung disease overlaps almost completely with vilanterol's existing i
 | Predicted New Indication | Hyperlucent lung |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 7 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 7) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -101,12 +101,17 @@ The data compiled for this report also include other completed Phase 3 vilantero
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 48/21.5.1/0247 | Revinty Ellipta 92/22 µg | Inhaler | Not available in the data compiled for this report |
-| Reg. No. 52/21.5.1/0177 | Trelegy Ellipta | Inhaler | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 48/21.5.1/0247 | Revinty Ellipta 92/22 Μg | inhaler | Valid |
+| 48/21.5.1/0248 | Revinty Ellipta 184/22 Μg | inhaler | Valid |
+| 48/21.5.1/0249 | Relvar ellipta 92/22ug 30 dose | inhaler | Valid |
+| 48/21.5.1/0250 | Relvar ellipta 184/22ug 30 dose | inhaler | Valid |
+| 52/21.5.1/0177 | Trelegy Ellipta | inhaler | Valid |
 
-Both registrations are currently valid. The data compiled for this report did not include Essential Medicines List (EML) status.
+Showing 5 of 7 registrations (valid registrations first).
+
+The data compiled for this report did not include Essential Medicines List (EML) status.
 
 ## Safety Considerations
 

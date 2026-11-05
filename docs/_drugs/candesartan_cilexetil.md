@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CANDESARTAN CILEXETIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ No clinical trials or publications in the data compiled for this report directly
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 26 of 43) |
+| Number of SAHPRA Registrations | 43 (valid: 26) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,14 +70,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 48/7.1.3/0412 | Aterwin | Tablet | – |
-| Reg. No. 44/7.1.3/0555 | Candepres plus 16mg/12.5mg | Tablet | – |
-| Reg. No. 35/7.1.3/0098 | Atacand plus 16mg/12.5mg | Tablet | – |
-| Reg. No. 45/7.1.3/0394 | Mylacand plus 16mg/12.5mg | Tablet | – |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/7.1.3/0099 | Atacand | tablet | Valid |
+| 32/7.1.3/0100 | Atacand 16Mg | tablet | Valid |
+| 45/7.1.3/0301 | Mylacand | tablet | Valid |
+| 45/7.1.3/0302 | Mylacand | tablet | Valid |
+| 46/7.1.3/0231 | Abecard 8 | tablet | Valid |
 
-All four registrations are currently valid. Essential Medicines List (EML) status is not recorded in the data compiled for this report.
+Showing 5 of 43 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 
 ## Safety Considerations
 

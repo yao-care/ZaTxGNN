@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Soybean Oil: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not stated in the SAHPRA registration data (the product is a parenter…"
 monitor_inn: "Soybean oil"
 predicted_indications: ["amenorrhea (disease)"]
@@ -50,8 +50,8 @@ Soybean oil is a lipid emulsion used in parenteral nutrition, supplying energy a
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,6 @@ Soybean oil is a lipid emulsion used in parenteral nutrition, supplying energy a
 Currently, detailed mechanism of action data is not available. Based on known information, soybean oil is a parenteral nutrition lipid emulsion and a dietary source of linoleic acid and phytosterols. Its established role is nutritional support, not treatment of a specific disease.
 
 No plausible, evidence-supported link to the hypothalamic-pituitary-ovarian axis, which governs menstruation, was identified in the data compiled for this report. The high TxGNN score (0.9961) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
-
 
 ---
 
@@ -91,9 +90,10 @@ The n-6-rich profile of soybean oil may be pro-inflammatory, so the direction of
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 49/25/0065 | Nutriflex Omega Specialized | Infusion | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
+| 49/25/0066 | Nutriflex Omega Plus | infusion | Valid |
 
 Essential Medicines List (EML) inclusion status could not be confirmed from the data compiled for this report.
 

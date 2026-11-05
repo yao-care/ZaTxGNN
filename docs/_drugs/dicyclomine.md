@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "DICYCLOMINE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** were found in the data compi
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 18 of 39) |
+| Number of SAHPRA Registrations | 39 (valid: 18) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,14 +82,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 33/20.2.2/0267 | Pinaspor V | Vcr | Not recorded |
-| Reg. No. 32/11.4.2/0211 | Co-gel | Suspension | Not recorded |
-| Reg. No. 41/1.2/0373 | Voxra Xl 150 | Tablet | Not recorded |
-| Reg. No. 46/11.4.2/008 | Meddev | Syrup | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| REG NO. G/5.7/80 | Asic | tablet | Valid |
+| 27/11.4.2/0009 | Amgel | suspension | Valid |
+| 32/11.4.2/0211 | Co-gel | suspension | Valid |
+| 46/11.4.2/008 | Meddev | syrup | Valid |
+| E1246 | Medigel | suspension | Valid |
 
-All four registrations are single-ingredient products and currently valid. Essential Medicines List (EML) status is not recorded in the compiled data.
+Showing 5 of 39 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not recorded in the compiled data.
 
 ---
 

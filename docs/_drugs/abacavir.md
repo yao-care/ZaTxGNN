@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Abacavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and only **1 preclinical publication** (a co
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 53 of 68) |
+| Number of SAHPRA Registrations | 68 (valid: 53) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The one cited study examined feline immunodeficiency virus (FIV) replication in vitro. FIV is the virus that causes feline AIDS, but the study tested a three-drug combination (zidovudine, lamivudine and abacavir) and does not isolate abacavir's own effect. It does not directly address the predicted disease as a treated condition, so the evidence level is capped at L5 (model prediction, no directly supporting study).
@@ -82,17 +82,17 @@ For the related SIV prediction, one in vitro study ([15040537](https://pubmed.nc
 
 ## South Africa Market Information
 
-All 11 registrations are valid single-ingredient records. No approved-indication text is available in the licence records compiled for this report. Essential Medicines List (EML) status was not available in the data compiled.
+No approved-indication text is available in the licence records compiled for this report. Essential Medicines List (EML) status was not available in the data compiled.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 54/20.2.8/0219 | Vexabax | Film-coated tablet | Not stated in the records |
-| Reg. No. 49/20.2.8/0462 | Dumiva Dispersible Tablets | Effervescent tablet | Not stated in the records |
-| Reg. No. 44/20.2.8/0293 | Auro Abacavir Lamivudine 600/300Mg Tablets | Film-coated tablet | Not stated in the records |
-| Reg. No. 54/20.2.8/0206 | Cagol | Tablet | Not stated in the records |
-| Reg. No. 55/20.2.8/0338 | Vuterar | Tablet | Not stated in the records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 43/20.2.8/0386 | Adco-abacavir | tablet | Valid |
+| 43/20.2.8/0724 | Aspen abacavir | tablet | Valid |
+| 46/20.2.8/0006 | Kavimun paed | tablet | Valid |
+| 46/20.2.8/0979 | Kavimun | Fct | Valid |
+| 51/20.2.8/0304 | Hetacav 300 | Fct | Valid |
 
-Showing 5 of 11 registrations. Several product names (for example Auro Abacavir Lamivudine, Kivexa, Heteruam) suggest fixed-dose combinations, even though the records label them as single-ingredient. Verify against the SAHPRA register before relying on them.
+Showing 5 of 68 registrations (valid registrations first).
 
 ## Safety Considerations
 

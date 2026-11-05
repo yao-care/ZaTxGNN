@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Mannitol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Mannitol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: No approved indication text is available for the local registration.…"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nephrogenic syndrome of inapprop
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 12 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,15 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SX/34/0266 | Cardioplegic soln a 1000ml sxa3020 | Infusion | Not stated in the registration record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| F594 (ACT 101/1965) | Osmitrol  500ml (afd5633) | infusion | Valid |
+| 31/34/0163 | Mannitol fresenius irrigation solution | infusion | Valid |
+| D/18.1/211 | Osmitrol  500ml (afd5633) | infusion | Valid |
+| H1652 | Osmitrol (mannitol)  3000ml irrigation ( | solution | Valid |
+| L/18.1/228 | Mannitol 20% fresenius solution for infu | infusion | Valid |
+
+Showing 5 of 14 registrations (valid registrations first).
 
 This registration is a single-ingredient, valid record for an injectable infusion. Its product name suggests use as a cardioplegic solution, so it should not be taken as evidence of approval for NSIAD or for other mannitol uses. Essential Medicines List status is not available in the data compiled for this report.
 

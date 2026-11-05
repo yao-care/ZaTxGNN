@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Fluocinolone acetonide is a synthetic corticosteroid used for inflammatory and i
 | Predicted New Indication | Lichen planus pemphigoides |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 13 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 56/16.2/0942 | Otixal | Drops | Not stated in the available record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 56/16.2/0942 | Otixal | drops | Valid |
+| B/13.4.1/133 | Synalar gel | gel | Valid |
+| G1396 (ACT 101/1965 | Synalar n cream | cream | Valid |
+| G1397(ACT 101/1965 | Synalar 'n' ointment | ointment | Valid |
+| G1398 | Synalar c | cream | Valid |
 
-The drug is marketed in South Africa under one valid single-ingredient registration. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 18 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

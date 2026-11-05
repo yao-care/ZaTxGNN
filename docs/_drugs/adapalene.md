@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Adapalene is a topical retinoid applied to the skin. The TxGNN model predicts it
 | Predicted New Indication | zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 7 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,12 +68,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Adapalene is marketed in South Africa, with 2 valid single-ingredient registrations, both topical. The approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the compiled data.
+The approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the compiled data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 46/13.11/0162 | Dapta Cream | Cream | Not recorded |
-| Reg. No. 51/13.12/0911 | Deriva Co | Gel | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/13.12/0606 | Differin gel | gel | Valid |
+| 32/13.12/0476 | Differin | cream | Valid |
+| 44/13.11/0766 | Deriva gel | gel | Valid |
+| 44/13.12/0109 | Epiduo 0.1% /2.5% 30g | gel | Valid |
+| 50/13.12/9031 | Epiduo Forte | Gel | Valid |
+
+Showing 5 of 9 registrations (valid registrations first).
 
 ## Safety Considerations
 

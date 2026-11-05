@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -41,7 +41,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Arginine hydrochloride is an amino acid salt with established clinical roles in treating metabolic alkalosis and as a diagnostic provocative agent in growth hormone stimulation testing.
-No TxGNN repurposing predictions were generated for this drug in the current analysis cycle, and the drug holds no SAHPRA registration in South Africa.
 A complete repurposing evaluation cannot be conducted until critical data gaps — including DrugBank mapping, mechanism of action, and safety documentation — are resolved.
 
 ---
@@ -54,8 +53,8 @@ A complete repurposing evaluation cannot be conducted until critical data gaps �
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — no predictions or supporting studies available |
-| South Africa Market Status | Marketed (valid licences: 9 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 35 of 54) |
+| Number of SAHPRA Registrations | 54 (valid: 35) |
 | Recommended Decision | Hold |
 
 ---
@@ -72,7 +71,7 @@ The absence of predictions most likely reflects a failure to map the drug name "
 
 ## South Africa Market Information
 
-Arginine hydrochloride is **not currently registered with SAHPRA** and carries no approved South African product licences on record. It does not appear on the South African Essential Medicines List (EML). Any clinical use in South Africa would require a **Section 21 Unregistered Medicine Authorisation** from SAHPRA before procurement or administration.
+It does not appear on the South African Essential Medicines List (EML).
 
 ---
 

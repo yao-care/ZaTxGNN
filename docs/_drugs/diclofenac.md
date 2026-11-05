@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Diclofenac is a non-steroidal anti-inflammatory drug (NSAID) that inhibits cyclo
 | Predicted New Indication | hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 12 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 12) |
+| South Africa Market Status | Marketed (valid licences: 95 of 112) |
+| Number of SAHPRA Registrations | 112 (valid: 95) |
 | Recommended Decision | Hold |
 
 ---
@@ -78,15 +78,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Diclofenac is marketed in South Africa, with 14 valid SAHPRA registrations and none cancelled. The records list single-ingredient products in oral (tablet, capsule), injectable, suppository, sachet and topical gel forms. Indication text is not recorded in the local data. The main registrations are:
+The records list single-ingredient products in oral (tablet, capsule), injectable, suppository, sachet and topical gel forms. Indication text is not recorded in the local data. The main registrations are:
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A38/3.1/0651 | K-fenak otc | Tablet | Not recorded |
-| A39/3.1/0588 | Cataflam | Sachet | Not recorded |
-| U/3.1/181 | Adco-diclofenac | Tablet | Not recorded |
-| 31/3.1/0334 | Diclofenac injection unimed 3ml | Injection | Not recorded |
-| U/3.1/77 | Voltaren emulgel | Gel | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/3.1/0121 | Panamor supp | suppository | Valid |
+| 27/3.1/0314 | A-lennon diclofenac | tablet | Valid |
+| 27/3.1/0315 | A-lennon diclofenac | tablet | Valid |
+| 27/3.1/321 | Veltex 75cr | Src | Valid |
+| 28/3.1/0306 | Cataflam d dispersible | effervescent tablet | Valid |
+
+Showing 5 of 112 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

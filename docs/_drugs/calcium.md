@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 88
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Calcium: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 2 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences on record: at least 4) |
-| Number of SAHPRA Registrations | at least 5 |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 
 ## Known uses recorded for this drug
 
@@ -75,11 +75,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| ARTICLE 21B              N/A | ITN 7009a 2520ml | Tpn | Valid |
-| EXCLUSION UNDER SECTION 36 & SECTION 14 | ITN8011XA 1520ml adult | Tpn | Valid |
 | T/30.3/704 | Stabilised Human Serum-5% Protein Solution | infusion | Valid |
 | G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
-| 41/10.2.1/0849 | Spiriva respimat inhaler 60 doses | inhaler | Canceled |
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

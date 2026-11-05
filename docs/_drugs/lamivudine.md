@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Lamivudine: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ This is a veterinary prediction, not a new human-medicine use.
 | Predicted New Indication | feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences on record: at least 17) |
-| Number of SAHPRA Registrations | at least 20 |
+| South Africa Market Status | Marketed (valid licences: 145 of 200) |
+| Number of SAHPRA Registrations | 200 (valid: 145) |
 | Recommended Decision | Hold |
 
 ---
@@ -86,15 +86,17 @@ Currently no related clinical trials registered. No SANCTR or PACTR entries were
 
 ## South Africa Market Information
 
-Lamivudine is marketed in South Africa. The local data show 20 valid registrations and no cancelled ones. The record set may be partial. Approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the data compiled for this report.
+Lamivudine is marketed in South Africa. The record set may be partial. Approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 41/20.2.8/0236 | Adco-lamivudine | Tablet | Not recorded in the local data |
-| 46/20.2.8/0010 | Lazena | Tablet | Not recorded in the local data |
-| 45/20.2.8/0108 | Mivuten | Tablet | Not recorded in the local data |
-| A40/20.2.8/272 | Sonke-lamivudine | Tablet | Not recorded in the local data |
-| 46/20.2.8/0012 | Dumiva | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/20.2.8/0366 | 3tc | tablet | Valid |
+| 41/20.2.8/0236 | Adco-lamivudine | tablet | Valid |
+| 41/20.2.8/0514 | Adco-Lamivudine Solution Alcohol And Sugar Free | solution | Valid |
+| 43/20.2.8/0831 | Hetlam | tablet | Valid |
+| 43/20.2.8/0832 | Aspen Lamivudine 300Mg | tablet | Valid |
+
+Showing 5 of 200 registrations (valid registrations first).
 
 ---
 

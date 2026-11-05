@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CYANOCOBALAMIN"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Cyanocobalamin is a synthetic form of vitamin B12, used to correct B12 and relat
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 28 of 44) |
+| Number of SAHPRA Registrations | 44 (valid: 28) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,17 +80,19 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Eleven single-ingredient SAHPRA registrations are valid and none are cancelled. No approved indication text is recorded for any of them. Dosage forms include injection, capsule, tablet, infusion, parenteral nutrition (TPN) and inhaler. Many of these products are multi-ingredient vitamin or nutrition products listed as containing cyanocobalamin.
+No approved indication text is recorded for any of them. Dosage forms include injection, capsule, tablet, infusion, parenteral nutrition (TPN) and inhaler. Many of these products are multi-ingredient vitamin or nutrition products listed as containing cyanocobalamin.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H2413 (ACT 101/1965) | A-lennon vitamin b12 1ml | Injection | Not recorded |
-| T1012 (ACT 101/1965) | Beespan | Capsule | Not recorded |
-| U/2.6/218 | Restin | Capsule | Not recorded |
-| A/21.8.1/743 | Menoflush | Tablet | Not recorded |
-| 36/22.1/0508 | Cernevit | Infusion | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| H2413 (ACT 101/1965) | A-lennon vitamin b12 1ml | injection | Valid |
+| V/22.1.3/226 | Cobalatec 20ml | injection | Valid |
+| 36/22.1/0508 | Cernevit | infusion | Valid |
+| A/21.8.1/743 | Menoflush | tablet | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
 
-The list shows 5 of 11 registrations. Essential Medicines List (EML) status is not recorded in the data compiled for this report.
+Showing 5 of 44 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 
 ---
 

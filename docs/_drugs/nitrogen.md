@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Nitrogen"
 predicted_indications: ["16q24.1 microdeletion syndrome", "primary interstitial lung disease specific to childhood", "isolated pulmonary capillaritis", "congenital pulmonary lymphangiectasia"]
 description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **16q24.1 microdeletion syndrom
 | Predicted New Indication | 16q24.1 microdeletion syndrome |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 3 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,12 +75,14 @@ Searches for lower-ranked predictions returned only keyword-level matches. Examp
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Exclusion under Section 36 & Section 14 | ITN paediatric TPN 107 | TPN | Not stated |
-| Article 21B (N/A) | TPN non-specific | Infusion | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/34/0036 | Afrox Compressed Medical Air | cylinder | Valid |
+| 29/34/0700 | Air Liquide Medical Air | container | Valid |
+| 29/34/0703 | Air Liquide Medical Nitronox | container | Valid |
+| T/30.1/734 | Allpyral Special Grass Treatment Set | Not recorded | Cancelled |
 
-Both registrations are single-ingredient entries with valid status. Essential Medicines List status could not be confirmed from the data compiled for this report.
+Essential Medicines List status could not be confirmed from the data compiled for this report.
 
 ## Safety Considerations
 

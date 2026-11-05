@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but the support comes only from **4 preclinical or in vitro publications** and *
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,11 +77,13 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 29/7.1.3/0022 | Inhibace plus 5mg/12.5mg | Tablet | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| Y/7.1.3/65 | Inhibace | tablet | Valid |
+| 29/7.1.3/0022 | Inhibace plus 5mg/12.5mg | tablet | Valid |
+| Y/7.1.3/66 | Inhibace | tablet | Valid |
 
-This is the only registration, and it is a combination product (the "plus" presentation). It should not be used to describe how single-ingredient cilazapril is approved or marketed in South Africa. Essential Medicines List status is not available in the data compiled for this report.
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

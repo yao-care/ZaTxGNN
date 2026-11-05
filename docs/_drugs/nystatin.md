@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Nystatin is a polyene antifungal medicine marketed in South Africa. The TxGNN mo
 | Predicted New Indication | Disease of orbital region |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 14 of 21) |
+| Number of SAHPRA Registrations | 21 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,14 +72,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| L/20.1.6/0394 | Nystacid | Ointment | Not available |
-| 50/20.1.1/0250 | Polygynax® | Pvc | Not available |
-| G1591 | Kenacomb | Cream | Not available |
-| G1592 | Kenacomb | Ointment | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 31/20.1.7/0288 | Candacide | suspension | Valid |
+| D/20.1.7/170 | Canstat | vaginal cream | Valid |
+| D/20.1.7/269 | Mycostatin | suspension | Valid |
+| E/18.6/126 | Mycostatin | Vcr | Valid |
+| G2397 | Mycostatin | cream | Valid |
 
-All 4 registrations are currently valid. Essential Medicines List status could not be determined from the data compiled for this report.
+Showing 5 of 21 registrations (valid registrations first).
+
+Essential Medicines List status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 

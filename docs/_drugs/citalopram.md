@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 126
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L5). Approved use: Depressive and anxiety disorders (major depressive disorder…"
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)"]
@@ -50,8 +50,8 @@ The data compiled for this report include **4 clinical trials** (none confirmed 
 | Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 (as assigned in the compiled data). This should be read cautiously, because no completed trial directly confirms citalopram in OCD; the supporting evidence is class-level (SSRI) and small open-label citalopram studies. |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 53 of 60) |
+| Number of SAHPRA Registrations | 60 (valid: 53) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -91,14 +91,17 @@ No randomised, double-blind citalopram trial in OCD was identified among the ret
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 36/1.2/0469 | Citalopram 20 Oethmaan | Film-coated tablet (Fct) | Not available in the compiled data |
-| Reg. No. A39/1.2/0548 | Cilate | Tablet | Not available in the compiled data |
-| Reg. No. 41/1.2/0458 | Drl Citalopram 20 | Tablet | Not available in the compiled data |
-| Reg. No. A38/1.2/0548 | Tamomilt | Tablet | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/1.2/0232 | Cipramil | tablet | Valid |
+| 35/1.2/0272 | Adco-talomil | tablet | Valid |
+| 36/1.2/0092 | Cilift | tablet | Valid |
+| 36/1.2/0469 | Citalopram 20 Oethmaan | Fct | Valid |
+| 36/1.2/0518 | Citalohexal 20 | tablet | Valid |
 
-All 4 registrations are valid single-ingredient products; none are cancelled. Essential Medicines List (EML) status was not available in the compiled data.
+Showing 5 of 60 registrations (valid registrations first).
+
+Essential Medicines List (EML) status was not available in the compiled data.
 
 ## Safety Considerations
 

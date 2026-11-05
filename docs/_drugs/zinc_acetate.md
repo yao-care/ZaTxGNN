@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Zinc Acetate: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Wilson disease, dermatitis, exanthem, burns…"
 monitor_inn: "Zinc acetate"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "bronchitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "urinary tract infection (disease)"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,14 +79,17 @@ For the other predicted indications, the data compiled for this report holds onl
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 32/34/0561 | Prograf ampoule 1ml | Infusion | Not available in the compiled data |
-| 41/25/0757 | Nutriflex Lipid Peri | Infusion | Not available in the compiled data |
-| 49/25/0065 | Nutriflex Omega Specialized | Infusion | Not available in the compiled data |
-| 41/25/0759 | Nutriflex lipid special 625ml | TPN | Not available in the compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
+| 41/25/0759 | Nutriflex lipid special 2500ml | Tpn | Valid |
+| 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
+| 49/25/0066 | Nutriflex Omega Plus | infusion | Valid |
 
-All four registrations are valid single-ingredient entries, and all are injectable or parenteral nutrition forms. Several of these product names (for example Prograf, which is a tacrolimus product) do not obviously correspond to zinc acetate, so the registration matching should be verified against the SAHPRA register before relying on it. The compiled data does not state Essential Medicines List status.
+Showing 5 of 8 registrations (valid registrations first).
+
+Several of these product names (for example Prograf, which is a tacrolimus product) do not obviously correspond to zinc acetate, so the registration matching should be verified against the SAHPRA register before relying on it. The compiled data does not state Essential Medicines List status.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "TRIAMTERENE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ but currently there are **0 clinical trials** and **0 publications** directly su
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 0) |
+| South Africa Market Status | Marketed (valid licences: 2 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,9 +96,13 @@ No literature was retrieved for the top predicted indication. Two publications w
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| U/18.1/72 | Renezide | Tablet (oral) | Not stated in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| H1786 (ACT 101/1965) | Diamox Tablets 250 Mg | tablet | Valid |
+| 29/10.1/0295 | Loretic | tablet | Valid |
+| U/18.1/72 | Renezide | tablet | Cancelled |
+| G/18.1/71 | Dyazide Tablets | tablet | Cancelled |
+| W/18.1/114 | Sandoz CO-TRIAMTERZIDE 50/25 | tablet | Cancelled |
 
 Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 159
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the SAHPRA registration data compiled for this report.…"
 monitor_inn: "Cyproterone acetate"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **migraine disorder**, but this pr
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 3 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 10 of 16) |
+| Number of SAHPRA Registrations | 16 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,14 +75,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-All 4 registrations are valid, single-ingredient oral tablets. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the available data.
+The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the available data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 29/21.8.2/0685 | Minerva | Tablet | Not available |
-| Reg. No. 38/21.8.2/0248 | Adco-Fem 35 | Tablet | Not available |
-| Reg. No. 38/21.8.2/0055 | Diva-35 | Tablet | Not available |
-| Reg. No. 33/21.8.2/0185 | Ginette | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/21.12/0515 | Androcur | tablet | Valid |
+| 35/21.12/0293 | Cipla-cyproterone acetate | tablet | Valid |
+| A39/21.8.2/0161 | Claro 35 | tablet | Valid |
+| R/21.12/160 | Androcur | tablet | Valid |
+| 29/21.8.2/0685 | Minerva | tablet | Valid |
+
+Showing 5 of 16 registrations (valid registrations first).
 
 ## Safety Considerations
 

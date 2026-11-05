@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **catecholaminergic polymorphic ve
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 25 of 28) |
+| Number of SAHPRA Registrations | 28 (valid: 25) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,12 +79,17 @@ The publications below describe CPVT itself or treatments other than amiodarone.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 32/6.2/0650 | Hexarone | Tablet | Not recorded in the local data |
-| 56/6.2/0549 | Myorythm 100 | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/6.2/0513 | Arycor | tablet | Valid |
+| 32/6.2/0514 | Arycor | tablet | Valid |
+| 32/6.2/0650 | Hexarone | tablet | Valid |
+| 32/6.2/0651 | Hexarone | tablet | Valid |
+| 34/6.2/0119 | Bio-amiodarone | tablet | Valid |
 
-Both registrations are valid single-ingredient oral products. Essential Medicines List status is not stated in the data compiled for this report.
+Showing 5 of 28 registrations (valid registrations first).
+
+Essential Medicines List status is not stated in the data compiled for this report.
 
 ## Safety Considerations
 

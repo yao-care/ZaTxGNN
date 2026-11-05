@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Framycetin: predicted new indication sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Framycetin is a poorly absorbed aminoglycoside antibiotic that is currently mark
 | Predicted New Indication | sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 4 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,12 +68,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| H1482 (ACT 101 1965) | Sofradex 8ml | Eed | Not recorded in the local data |
-| E529 (ACT 101 1965) | Proctosedyl Suppositories | Suppository | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| E529 (ACT 101 1965) | Proctosedyl Suppositories | suppository | Valid |
+| E530 (ACT 101 1965) | Proctosedyl Ointment | ointment | Valid |
+| H1482 (ACT 101 1965) | Sofradex 8ml | Eed | Valid |
+| 17/16.1/05 | Ubrostar | syringe | Valid |
+| G2414 | Soframycin Sterile Powder | Not recorded | Cancelled |
 
-Both registrations are valid. The data compiled for this report do not show Essential Medicines List (EML) inclusion status.
+Showing 5 of 6 registrations (valid registrations first).
+
+The data compiled for this report do not show Essential Medicines List (EML) inclusion status.
 
 ## Safety Considerations
 

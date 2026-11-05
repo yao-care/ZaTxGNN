@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are **no clinical trials and no publications** supporting this predict
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 28 of 42) |
+| Number of SAHPRA Registrations | 42 (valid: 28) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,18 +90,18 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Naproxen is marketed in South Africa with 6 valid single-ingredient registrations. Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
+Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
 
-| Registration Number | Product Name | Dosage Form |
-|---------|------|------|
-| X/3.1/156 | Adco-naproxen | Tablet |
-| 31/2.7/0145 | Aleve | Tablet |
-| 28/3.1/0038 | Napinflam | Tablet |
-| 28/3.1/0044 | Naproscript | Tablet |
-| 45/3.1/0179 | Vimovo 500/20mg | Tablet |
-| T/2.2/207 | Dormicum | Injection |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/3.1/0437 | Nafasol ec-250 | tablet | Valid |
+| 27/3.1/0438 | Nafasol ec | tablet | Valid |
+| 27/3.1/0534 | Be-Tabs Naproxen | tablet | Valid |
+| 28/3.1/0038 | Napinflam | tablet | Valid |
+| 28/3.1/0044 | Naproscript | tablet | Valid |
+| 30/3.1/0374 | Synflex | tablet | Valid |
 
-Note: Dormicum is listed under naproxen in the compiled registration data, but it is a brand name usually associated with midazolam and is an injection. This entry should be verified against the SAHPRA register before being relied upon.
+Showing 6 of 42 registrations (valid registrations first).
 
 Available routes: oral (tablet) and injectable (injection).
 

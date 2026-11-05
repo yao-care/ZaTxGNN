@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The best-supported candidate among the top ten is **intracerebral hemorrhage**, 
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 17 of 17) |
-| Number of SAHPRA Registrations | 17 (valid: 17) |
+| South Africa Market Status | Marketed (valid licences: 129 of 136) |
+| Number of SAHPRA Registrations | 136 (valid: 129) |
 | Recommended Decision | Hold |
 
 **Other top-ranked predictions with evidence (for context):**
@@ -134,17 +134,17 @@ For cerebral artery occlusion, all retrieved studies are animal studies. For pul
 
 ## South Africa Market Information
 
-Telmisartan is marketed in South Africa with 17 valid registrations (all valid, none cancelled). Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status could not be determined from the available data.
+Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status could not be determined from the available data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 48/7.1.3/0726 | Telmisartan 40 Unicorn | Tablet | Not available |
-| Reg. No. 47/7.1.3/1120 | Tesminol 40 Mg | Tablet | Not available |
-| Reg. No. 46/7.1.3/0938 | Telpres 40 | Film-coated tablet | Not available |
-| Reg. No. 46/7.1.3/0939 | Telpres 80 | Film-coated tablet | Not available |
-| Reg. No. 46/7.1.3/0928 | Tremistan Plus 80/12.5 Mg | Film-coated tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/7.1.3/0020 | Micardis | tablet | Valid |
+| 33/7.1.3/0021 | Micardis | tablet | Valid |
+| 33/7.1.3/0022 | Pritor | tablet | Valid |
+| 33/7.1.3/0023 | Pritor | tablet | Valid |
+| 45/7.1.3/0606 | Mizart | tablet | Valid |
 
-The remaining 12 registrations include fixed-dose combinations with hydrochlorothiazide or amlodipine (e.g. Telpres Plus, Stytem, Co-pritor, Co-Telza, Amtelip, Ticarda Plus).
+Showing 5 of 136 registrations (valid registrations first).
 
 ---
 

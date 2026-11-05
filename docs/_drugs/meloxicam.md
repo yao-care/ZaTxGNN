@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "Meloxicam"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 0) |
+| South Africa Market Status | Marketed (valid licences: 62 of 68) |
+| Number of SAHPRA Registrations | 68 (valid: 62) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,11 +89,17 @@ For the rank 8 prediction (rheumatoid factor-positive polyarticular JIA), one pa
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 35/3.1/0329 | Melflam | Tablet | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/3.1/0425 | Mobic 15 Mg Suppositories | suppository | Valid |
+| 35/3.1/0055 | Coxflam | tablet | Valid |
+| 35/3.1/0328 | Coxflam | tablet | Valid |
+| 36/3.1/0101 | Loxiflam | tablet | Valid |
+| 36/3.1/0102 | Loxiflam | tablet | Valid |
 
-Only one valid single-ingredient registration exists, and the route of administration is oral. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 68 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

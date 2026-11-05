@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Glimepiride: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -50,8 +50,8 @@ This is a computational prediction only.
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 35 of 46) |
+| Number of SAHPRA Registrations | 46 (valid: 35) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,13 +72,17 @@ Currently no related literature available for focal stiff limb syndrome. The onl
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 41/21.2/0656 | Accord glimepiride | Tablet | Not available in the compiled records |
-| Reg. No. A39/21.2/0023 | Glimepiride 1 oethmaan | Tablet | Not available in the compiled records |
-| Reg. No. 43/21.2/0005 | Amaryl Combi 2/500 | Tablet | Not available in the compiled records |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/21.2/0060 | Amaryl 1 | tablet | Valid |
+| 30/21.2/0061 | Amaryl 2 | tablet | Valid |
+| 30/21.2/0062 | Amaryl 3 | tablet | Valid |
+| 30/21.2/0063 | Amaryl 4 | tablet | Valid |
+| 38/21.2/0315 | Sandoz Glimepiride 1 | tablet | Valid |
 
-All three registrations are valid. Essential Medicines List status is not available in the compiled data. The third product, Amaryl Combi, is named as a combination product; its licence is not used here to describe the single-ingredient drug.
+Showing 5 of 46 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the compiled data.
 
 ## Safety Considerations
 

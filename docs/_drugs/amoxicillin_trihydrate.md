@@ -5,7 +5,7 @@ layout: default
 title: Amoxicillin Trihydrate
 parent: Known Uses Only (No New Predictions)
 nav_order: 36
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -36,14 +36,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 ## Amoxicillin Trihydrate
 {: .text-alpha }
 
-
 ## Quick Overview
 
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 12 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 12) |
+| South Africa Market Status | Marketed (valid licences: 231 of 286) |
+| Number of SAHPRA Registrations | 286 (valid: 231) |
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CINCHOCAINE"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **bronchitis**, but **no clinic
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 5 of 6) |
+| Number of SAHPRA Registrations | 6 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -79,12 +79,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| E/11.8/0667 | Scheriproct (new formulary) | Ointment | Indication text not recorded |
-| E529 (ACT 101 1965) | Proctosedyl Suppositories | Suppository | Indication text not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| E/11.8/0667 | Scheriproct (new formulary) | ointment | Valid |
+| E/11.8/0668 | Scheriproct (new formulary) | Suh | Valid |
+| E529 (ACT 101 1965) | Proctosedyl Suppositories | suppository | Valid |
+| E530 (ACT 101 1965) | Proctosedyl Ointment | ointment | Valid |
+| H/16.3/199 | MEDI-KEEL A Throat Gargle | solution | Valid |
 
-Both products have valid registrations. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+Showing 5 of 6 registrations (valid registrations first).
+
+Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
 ---
 

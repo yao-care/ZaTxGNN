@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **thrombotic disease**, but there 
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 30 of 43) |
+| Number of SAHPRA Registrations | 43 (valid: 30) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,17 +89,17 @@ None of the retrieved publications directly studies theophylline for thrombotic 
 
 ## South Africa Market Information
 
-Approved indication text is not available in the local licence records. All 8 registrations are single-ingredient products with valid status. The data compiled for this report does not state Essential Medicines List (EML) status.
+Approved indication text is not available in the local licence records. The data compiled for this report does not state Essential Medicines List (EML) status.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G721 (OM) | Alcophyllin | Syrup | Not stated |
-| S/10.2/126 | Nuelin liquid | Syrup | Not stated |
-| M/10.2/0533 | Theophen | Syrup | Not stated |
-| G892 (OM) | Adco-Metaxol | Suspension | Not stated |
-| N/10.1/98 | Theophen Compound Elixir | Syrup | Not stated |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 33/10.2/0416 | Theophylline 200 Gdc | tablet | Valid |
+| 33/10.2/0417 | Theophylline 300 Gdc | tablet | Valid |
+| K/10.2/311 | Euphyllin retard | Srt | Valid |
+| P/10.2/54 | Nuelin sa | Srt | Valid |
+| V/10.2/96 | Theoplus  200 Mg | Srt | Valid |
 
-Three further valid registrations are not shown: Alcophyllex (G720 (OM)), Diatussin (biotussin) (G1276 (OM)) and Actophlem (W/10.1/0194).
+Showing 5 of 43 registrations (valid registrations first).
 
 ---
 

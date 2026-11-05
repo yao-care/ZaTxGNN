@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Flucloxacillin"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and only **1 publicati
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 18 of 23) |
+| Number of SAHPRA Registrations | 23 (valid: 18) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,15 +95,17 @@ For context, the literature on the second-ranked prediction (rheumatoid arthriti
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A50/2.6.5/0687 | Septapen | Tablet | Not listed in the data compiled |
-| 44/20.1.2/0816 | Flucloxacillin 250 oethmaan | Capsule | Not listed in the data compiled |
-| J/20.1.2/0437 | Suprapen 500 | Capsule | Not listed in the data compiled |
-| Z/20.1.2/0354 | Megapen S | Suspension | Not listed in the data compiled |
-| 27/20.1.2/0106 | Macropen | Capsule | Not listed in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 44/20.1.2/0816 | Flucloxacillin 250 oethmaan | capsule | Valid |
+| A40/20.1.2/0285 | Flupen | capsule | Valid |
+| A50/2.6.5/0687 | Septapen | tablet | Valid |
+| E/2.1.2/0089 | Floxapen | capsule | Valid |
+| E/2.1.2/0095 | Floxapen | suspension | Valid |
 
-A sixth registration, 27/20.1.2/0107 (Macropen s, suspension), is also valid. All six registrations are single-ingredient products. Essential Medicines List status was not available in the data compiled for this report.
+Showing 5 of 23 registrations (valid registrations first).
+
+Essential Medicines List status was not available in the data compiled for this report.
 
 ---
 

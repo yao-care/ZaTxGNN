@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acute contagious conjunctivit
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 7) |
-| Number of SAHPRA Registrations | 7 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 56 of 77) |
+| Number of SAHPRA Registrations | 77 (valid: 56) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,6 @@ Currently, detailed mechanism of action data is not available from the data comp
 Conjunctivitis is already among sulfamethoxazole's original indications. This prediction, made by the TxGNN model (deep learning), is therefore not true repurposing, but an extension of existing use to the acute contagious (bacterial) form of the disease. It may reflect similarities the model learned between related diseases, not biological evidence. Antibacterial activity against the causative bacteria is plausible.
 
 The only supporting publication is a retrospective study of bacteria and antibiotic susceptibility in childhood acute bacterial conjunctivitis. It is indirect evidence and does not show that sulfamethoxazole works clinically in this condition.
-
 
 ## Clinical Trial Evidence
 
@@ -74,17 +73,17 @@ Currently no related clinical trials registered for acute contagious conjunctivi
 
 ## South Africa Market Information
 
-All 7 registrations are valid single-ingredient products. Approved indication text and manufacturer details were not available. Essential Medicines List (EML) status was not confirmed from the data compiled.
+Approved indication text and manufacturer details were not available. Essential Medicines List (EML) status was not confirmed from the data compiled.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Z/20.2/209 | Trixazole | Tablet | Not available |
-| K/20.2.1/335 | Spectrim | Capsule | Not available |
-| L/20.2/336 | Purbac injection 5ml | Injection | Not available |
-| 28/20.2/0389 | Xerazole Suspension | Suspension | Not available |
-| W/20.2.1/88 | Co-Trimoxazole 960 Biotech | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/20.2/0077 | Xeroprim | tablet | Valid |
+| 27/20.2/0302 | Pharma-Q Co Trimoxazole  Tablets | tablet | Valid |
+| 27/20.2/0335 | Dynazole | suspension | Valid |
+| 28/20.2/0389 | Xerazole Suspension | suspension | Valid |
+| 28/20.2/0416 | Novatrim | tablet | Valid |
 
-Two further registrations are not shown: Cocc.Co.Syrup (Vern.Pp), G 894 (OM), a syrup, and Cotrizid, 52/20.2/0208, a tablet.
+Showing 5 of 77 registrations (valid registrations first).
 
 No ophthalmic (eye drop or ointment) formulation is registered. The available forms are oral, injectable, suspension and syrup. Route compatibility with an ocular indication therefore has not been established.
 

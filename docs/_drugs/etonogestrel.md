@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Etonogestrel"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Etonogestrel: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant for **amenorrhea (disease)**, but **
 | Predicted New Indication | amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,9 +73,10 @@ The only publication linked to this prediction is not relevant to etonogestrel o
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 38/34/0171 | Nuvaring | Vri | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 34/18.8/0448 | Implanon nxt | Imp | Valid |
+| 38/34/0171 | Nuvaring | Vri | Valid |
 
 ## Safety Considerations
 

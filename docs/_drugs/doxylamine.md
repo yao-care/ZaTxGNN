@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "DOXYLAMINE"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Doxylamine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ No clinical trials or publications were found in the data compiled for this repo
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 36 of 49) |
+| Number of SAHPRA Registrations | 49 (valid: 36) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,17 +70,17 @@ No clinical trials or publications were provided that directly study nasal cavit
 
 ## South Africa Market Information
 
-Eleven single-ingredient SAHPRA registrations are currently valid and none are cancelled. The records carry no approved-indication text. Essential Medicines List status is not available in the data compiled for this report.
+The records carry no approved-indication text. Essential Medicines List status is not available in the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 33/7.1.3/0452 | Hypace | Tablet | Not recorded |
-| Reg. No. 33/2.8/0098 | Doxy co | Tablet | Not recorded |
-| Reg. No. H/10.1/140 | Vicks medinite | Syrup | Not recorded |
-| Reg. No. 36/2.8/0271 | Alpha-Dol | Tablet | Not recorded |
-| Reg. No. 29/2.6/0182 | Azor | Tablet | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 54/2.2/0168 | Nomowake | tablet | Valid |
+| Q/2.2/0186 | Somnil | tablet | Valid |
+| 28/2.8/0383 | Tensodol | tablet | Valid |
+| 28/2.8/0713 | Tensodol | tablet | Valid |
+| 32/2.8/0726 | Pharmadol  quinoline (yellow) | tablet | Valid |
 
-The list shows 5 of the 11 registrations.
+Showing 5 of 49 registrations (valid registrations first).
 
 ---
 

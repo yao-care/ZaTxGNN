@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ This prediction is largely on-label or closely related to existing uses, so it i
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 68 of 86) |
+| Number of SAHPRA Registrations | 86 (valid: 68) |
 | Recommended Decision | Proceed with Guardrails |
 
 Other predictions in the data compiled for this report:
@@ -103,14 +103,17 @@ Two further trials (NCT00881413, NCT00839488) were withdrawn or terminated with 
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 45/11.4.3/0592 | Pentoz otc | Tablet | Not available |
-| Reg. No. 44/11.4.3/0305 | Prazoloc powder for solution vial | Injection | Not available |
-| Reg. No. 43/11.4.3/0844 | Mylan pantoprazole | Tablet | Not available |
-| Reg. No. 43/11.4.3/0843 | Mylan pantoprazole | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/11.4.3/0407 | Pantoloc | tablet | Valid |
+| 33/11.4.3//0041 | Pantoloc I.V. | injection | Valid |
+| 34/11.4.3/0005 | Pantoloc | tablet | Valid |
+| 38/11.4.3/0060 | Topzole | tablet | Valid |
+| 38/11.4.3/0061 | Topzole | tablet | Valid |
 
-All four registrations are valid single-ingredient products. Both oral (tablet) and injectable forms are available. Essential Medicines List (EML) status is not covered in the data compiled for this report.
+Showing 5 of 86 registrations (valid registrations first).
+
+Both oral (tablet) and injectable forms are available. Essential Medicines List (EML) status is not covered in the data compiled for this report.
 
 ## Safety Considerations
 

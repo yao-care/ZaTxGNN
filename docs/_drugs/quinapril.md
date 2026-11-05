@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 25 of 42) |
+| Number of SAHPRA Registrations | 42 (valid: 25) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,7 +72,6 @@ An important caution applies: ACE inhibitors carry a known risk of acute decline
 
 ## Clinical Trial Evidence
 
-
 ## Literature Evidence
 
 Currently no related literature is available for malignant renovascular hypertension.
@@ -86,15 +85,17 @@ For the third-ranked prediction (pulmonary hypertension owing to lung disease an
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 43/7.1.3/1044 | Biquretic 10/12,5 Mg | Tablet | Not available |
-| Reg. No. 41/7.1.3/0212 | Quinace Co 10/12,5 | Tablet | Not available |
-| Reg. No. 43/7.1.3/1046 | Kwinco 10/12,5 Mg | Tablet | Not available |
-| Reg. No. 38/5.2/0106 | Bisoprolol Hexal | Tablet | Not available |
-| Reg. No. 27/7.1.3/0165 | Accuretic 10/12.5 | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 41/7.1.3/0177 | Quinace 10 Mg | tablet | Valid |
+| 41/7.1.3/0178 | Quinace 20 Mg | tablet | Valid |
+| A40/7.1.3/0601 | Quinagen 5 Mg | tablet | Valid |
+| A40/7.1.3/0602 | Quinagen 10 Mg | tablet | Valid |
+| A40/7.1.3/0603 | Quinagen 20 Mg | tablet | Valid |
 
-All five registrations are valid and oral tablets. The product names with "10/12,5" suggest quinapril/hydrochlorothiazide combinations, but the data compiled for this report classify them as single-ingredient products. Please verify against the SAHPRA Professional Information. The Essential Medicines List (EML) status could not be determined from the available data.
+Showing 5 of 42 registrations (valid registrations first).
+
+The Essential Medicines List (EML) status could not be determined from the available data.
 
 ## Safety Considerations
 

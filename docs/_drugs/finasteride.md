@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypertrichosis** (the highest
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita (rank 1); hypertrichosis is rank 2 and is the one with literature |
 | TxGNN Prediction Score | 0.9999 (rank 1 prediction); 0.9999 (hypertrichosis) |
 | Evidence Level | L5 (Ambras type); L4 (hypertrichosis) |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 17 of 21) |
+| Number of SAHPRA Registrations | 21 (valid: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,11 +82,15 @@ The four publications retrieved for hypertrichosis are narrative reviews or a me
 
 Finasteride is available in South Africa as oral tablets. No approved-indication text or manufacturer information is available in the data compiled for this report. Essential Medicines List (EML) status is not available in the compiled data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 48/21.12/0594 | Finasteride 1 Unicorn | Tablet | Not available |
-| Reg. No. 43/21.12/0055 | Profina | Tablet | Not available |
-| Reg. No. 27/21.12/0069 | Proscar | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 32/21.12/0303 | Propecia | tablet | Valid |
+| 40/21.12/0567 | Finpro | tablet | Valid |
+| 41/21.12/0221 | Finpecia | tablet | Valid |
+| 41/21.12/0422 | Fincar | tablet | Valid |
+| 42/21.12/0461 | Finide | tablet | Valid |
+
+Showing 5 of 21 registrations (valid registrations first).
 
 ## Safety Considerations
 

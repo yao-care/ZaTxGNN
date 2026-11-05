@@ -5,7 +5,7 @@ layout: default
 title: Clomipramine Hydrochloride
 parent: Known Uses Only (No New Predictions)
 nav_order: 137
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 17 of 22) |
+| Number of SAHPRA Registrations | 22 (valid: 17) |
 
 > **Note:** While the Evidence Pack does not populate original indications, clomipramine hydrochloride is internationally recognised (DrugBank DB01242) as a TCA approved for OCD, major depressive disorder, panic disorder, phobias, and cataplexy associated with narcolepsy. This contextual background is drawn from published pharmacological sources, not from the Evidence Pack data.
 

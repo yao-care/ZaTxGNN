@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Apixaban: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Apixaban is a direct oral anticoagulant that inhibits factor Xa. The TxGNN model
 | Predicted New Indication | migraine disorder |
 | TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 44 of 44) |
+| Number of SAHPRA Registrations | 44 (valid: 44) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,15 @@ The link to migraine is indirect and speculative. Migraine with aura, particular
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 56/8.2/0627.625 | Xarpix 2,5 | Fct | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 47/8.2/0463 | Eliquis | tablet | Valid |
+| 47/8.2/0464 | Eliquis | tablet | Valid |
+| 55/8.2/0053 | Zyquis 2.5 | tablet | Valid |
+| 55/8.2/0054 | Zyquis 5 | tablet | Valid |
+| 55/8.2/0055.053 | Clotixar 2,5 | Fct | Valid |
+
+Showing 5 of 44 registrations (valid registrations first).
 
 ## Safety Considerations
 

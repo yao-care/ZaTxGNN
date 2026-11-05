@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefuroxime"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Cefuroxime: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** that study this d
 | Predicted New Indication | polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 70 of 91) |
+| Number of SAHPRA Registrations | 91 (valid: 70) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,14 +72,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| A38/20.1.1/0676 | Betaroxime | Injection | Not recorded in the local data |
-| 42/20.1.1/0737 | Fksa cefuroxime vial powder for solution | Injection | Not recorded in the local data |
-| 36/20.1.1/0296 | Sabax cefuroxime 250mg | Injection | Not recorded in the local data |
-| L/20.1.1/0098 | Zinacef | Injection | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/20.1.1/0483 | Litha cefuroxime sterile powder | injection | Valid |
+| 30/20.1.1/0484 | Aspen cefuroxime sterile powder | injection | Valid |
+| 30/20.1.1/0485 | Litha cefuroxime pow for inj | injection | Valid |
+| 34/20.1.1/0349 | Ceroxim | tablet | Valid |
+| 34/20.1.1/0350 | Ceroxim | tablet | Valid |
 
-All four registrations are single-ingredient products and are currently valid. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 91 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

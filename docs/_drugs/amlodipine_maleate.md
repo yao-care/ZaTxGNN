@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Amlodipine maleate is a specific salt form of the dihydropyridine calcium channel blocker amlodipine, used in the management of hypertension and angina pectoris in other markets. No TxGNN repurposing predictions were generated for this compound in the current Evidence Pack, and the maleate salt formulation holds no SAHPRA registrations on record. This report therefore functions as an initial data gap assessment rather than a full repurposing evaluation.
+Amlodipine maleate is a specific salt form of the dihydropyridine calcium channel blocker amlodipine, used in the management of hypertension and angina pectoris in other markets. This report therefore functions as an initial data gap assessment rather than a full repurposing evaluation.
 
 ---
 
@@ -52,8 +52,8 @@ Amlodipine maleate is a specific salt form of the dihydropyridine calcium channe
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Cannot be determined — no predictions available |
-| South Africa Market Status | Marketed (valid licences on record: at least 20) |
-| Number of SAHPRA Registrations | at least 20 |
+| South Africa Market Status | Marketed (valid licences: 303 of 328) |
+| Number of SAHPRA Registrations | 328 (valid: 303) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -72,11 +72,15 @@ Until the DrugBank ID is resolved and original indication data is populated, the
 
 ## South Africa Market Information
 
-No SAHPRA registrations were found for **amlodipine maleate** specifically.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/7.1/0480 | Norcard | tablet | Valid |
+| 36/7.1/0481 | Norcard | tablet | Valid |
+| 37/7.1/0376 | Amlodipine 5 oethmaan | tablet | Valid |
+| 37/7.1/0377 | Amlodipine 10 oethmaan | tablet | Valid |
+| 37/7.1/0378 | Amlodipine 5 Biotech | tablet | Valid |
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|--------------|-------------|---------------------|
-| — | No registered products found | — | — |
+Showing 5 of 328 registrations (valid registrations first).
 
 > Amlodipine besylate products are widely available in South Africa. If coverage of the active moiety is intended, a separate regulatory search using the maleate and besylate salt forms together is recommended.
 

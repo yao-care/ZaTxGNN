@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Travoprost"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 11 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -98,12 +98,17 @@ Selected publications retrieved under the broader "vascular disease" and hemangi
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 51/15.4/0099 | Ocutra Co | Drops | Not available |
-| A40/15.4/0511 | Duotrav 2.5ml | Drops | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/15.4/0333 | Travatan 2.5ml | drops | Valid |
+| 51/15.4/0099 | Ocutra Co | drops | Valid |
+| 56/15.4/0727 | Ravtagon Forte | drops | Valid |
+| 56/15.4/0782 | Opturan | drops | Valid |
+| A40/15.4/0511 | Duotrav 2.5ml | drops | Valid |
 
-Both registrations are currently valid. Essential Medicines List status could not be confirmed from the data compiled for this report.
+Showing 5 of 11 registrations (valid registrations first).
+
+Essential Medicines List status could not be confirmed from the data compiled for this report.
 
 ## Safety Considerations
 

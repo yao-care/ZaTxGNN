@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Note that this is essentially the drug's existing, approved use rather than true
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 per the data compiled for this report (based on guidelines, systematic reviews and meta-analyses, plus two completed Phase 3 zolpidem MR insomnia trials; no trial is listed directly under this indication) |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 28 of 32) |
+| Number of SAHPRA Registrations | 32 (valid: 28) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -101,20 +101,23 @@ No SANCTR or PACTR identifiers are available in the data compiled for this repor
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. A40/2.2/0441 | Stilnox 12.5 MR | Tablet | Not recorded in the data compiled for this report |
-| Reg. No. 37/2.2/0540 | Ivedal | Tablet | Not recorded in the data compiled for this report |
-| Reg. No. A40/2.2/0041 | Stilnox MR | Srt (sustained-release tablet) | Not recorded in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/2.2/0651 | Stilnox | tablet | Valid |
+| 36/2.2/0087 | Noxidem 10 | tablet | Valid |
+| 36/2.2/0095 | Zolpihexal | tablet | Valid |
+| 36/2.2/0132 | Adco-zolpidem hemitartrate | tablet | Valid |
+| 36/2.2/0328 | Zolnoxs | tablet | Valid |
 
-All three registrations are valid single-ingredient products. The data compiled for this report does not state Essential Medicines List (EML) status.
+Showing 5 of 32 registrations (valid registrations first).
+
+The data compiled for this report does not state Essential Medicines List (EML) status.
 
 ---
 
 ## Safety Considerations
 
 SAHPRA package-insert warnings and contraindications were not available in the data compiled for this report. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
-
 
 **Drug interactions:** 100 interactions were identified; the first 20 retrieved are summarised below.
 - **Major:** morphine and liposomal morphine (additive CNS and respiratory depression is the expected concern).

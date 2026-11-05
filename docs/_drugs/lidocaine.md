@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 58 of 79) |
+| Number of SAHPRA Registrations | 79 (valid: 58) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,12 +75,17 @@ For context, the other TxGNN predictions were also reviewed. None provides direc
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| F/21.5.4/228 | Depo-Medrol With Lidocaine | Injection | Not stated in the data compiled |
-| W/2.7/142 | Nurofen period pain (was Nurofen extra s...) | Tablet | Not stated in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 39/4/0437 | Lignocaine ampoule 5ml | injection | Valid |
+| 43/3.2.3/0382 | Versatis 5% | Pls | Valid |
+| G2826 | Xylocaine 475 dose 50ml | Spr | Valid |
+| G2829 | Remicaine 5ml | injection | Valid |
+| 30/4/0478 | Emla 5% | Psd | Valid |
 
-Both records are classed as single-ingredient and valid. Essential Medicines List status could not be confirmed from the data compiled. No ophthalmic lidocaine product appears among the registrations listed, so route compatibility for an eye indication is unconfirmed.
+Showing 5 of 79 registrations (valid registrations first).
+
+Essential Medicines List status could not be confirmed from the data compiled. No ophthalmic lidocaine product appears among the registrations listed, so route compatibility for an eye indication is unconfirmed.
 
 ## Safety Considerations
 

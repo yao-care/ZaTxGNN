@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the SAHPRA licence data compiled for this report. Pub…"
 monitor_inn: "Indacaterol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -50,8 +50,8 @@ Indacaterol is an ultra-long-acting inhaled beta-2 agonist (a bronchodilator) us
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 12 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,12 +80,17 @@ Currently no related literature available for nephrogenic syndrome of inappropri
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 54/10.2.1/0870.867 | Bemrist Breezhaler 150/80 | Capsule (oral inhalation) | Not listed in the data compiled |
-| 54/10.2.1/0875.873 | Zimbus Breezhaler 150/50/80 | Capsule (oral inhalation) | Not listed in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 44/10.2.1/0544 | Onbrez breezhaler (30 caps & inhaler) | Kit | Valid |
+| 47/10.2.1/1183 | Ultibro breezhaler (30 caps & inhaler de | Kit | Valid |
+| 54/10.2.1/0870.867 | Bemrist Breezhaler 150/80 | capsule | Valid |
+| 54/10.2.1/0871.868 | Bemrist Breezhaler 150/160 | capsule | Valid |
+| 54/10.2.1/0872.869 | Bemrist Breezhaler 150/320 | capsule | Valid |
 
-Both registrations are valid and there are no cancelled registrations. The strengths in the product names (150/80 and 150/50/80) match the published indacaterol/mometasone and indacaterol/glycopyrronium/mometasone fixed-dose combinations. The registrations are nonetheless classified as single-entry products in the source data. No Essential Medicines List (EML) status is recorded.
+Showing 5 of 12 registrations (valid registrations first).
+
+The strengths in the product names (150/80 and 150/50/80) match the published indacaterol/mometasone and indacaterol/glycopyrronium/mometasone fixed-dose combinations. No Essential Medicines List (EML) status is recorded.
 
 ---
 

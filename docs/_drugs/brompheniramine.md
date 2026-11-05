@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 78
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Brompheniramine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The deep-learning model's candidates for Brompheniramine that can be traced to a
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 4 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 4) |
 
 ## Known uses among the model's candidates
 
@@ -77,6 +77,11 @@ The deep-learning model's candidates for Brompheniramine that can be traced to a
 |------|------|------|------|
 | C769 (ACT 101/1965) | Ilvico | syrup | Valid |
 | C770 (ACT 101/1965) | Ilvico | tablet | Valid |
+| C0572 | Dimetapp Extentabs | tablet | Valid |
+| C0573 | Dimetapp Elixer | Not recorded | Valid |
+| 37/5.8/0406 | Dimetapp Paediatric Elixir | syrup | Cancelled |
+
+Showing 5 of 8 registrations (valid registrations first).
 
 ## Safety Considerations
 

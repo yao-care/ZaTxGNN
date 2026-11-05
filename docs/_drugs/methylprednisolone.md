@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Methylprednisolone is a synthetic glucocorticoid with anti-inflammatory and immu
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 36 of 39) |
+| Number of SAHPRA Registrations | 39 (valid: 36) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,15 +60,19 @@ The prediction likely reflects the closeness of alopecia mucinosa to other infla
 
 ## South Africa Market Information
 
-Three SAHPRA registrations are recorded; two are valid and one is cancelled. All are single-ingredient injectable products. No approved indication text is recorded for them in the local data.
+No approved indication text is recorded for them in the local data.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 42/21.5.1/0309 | Mylan methylprednisolone powder for solution | Injection | Not available |
-| Reg. No. F/21.5.4/228 | Depo-Medrol With Lidocaine | Injection | Not available |
-| Reg. No. 42/21.5.1/0311 | Mylan methylprednisolone powder for solution | Injection | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 42/21.5.1/0309 | Methylprednisolone 40 viatris powder for | injection | Valid |
+| 42/21.5.1/0311 | Methylprednisolone 500 viatris powder fo | injection | Valid |
+| 42/21.5.1/0312 | Methylprednisolone 1000 viatris powder f | injection | Valid |
+| C/3.1/198 | Depo-Medrol 80Mg | injection | Valid |
+| C726 (ACT 101 OF 1965) | Depo-medrol 2ml | injection | Valid |
 
-Only injectable forms are registered. Whether a route suitable for alopecia mucinosa (for example intralesional or topical) is available locally has not been assessed.
+Showing 5 of 39 registrations (valid registrations first).
+
+Whether a route suitable for alopecia mucinosa (for example intralesional or topical) is available locally has not been assessed.
 
 ## Safety Considerations
 

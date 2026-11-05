@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "SODIUM FLUORIDE"
 predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
 description: "Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 12 of 21) |
+| Number of SAHPRA Registrations | 21 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,17 +78,17 @@ No publications support epiglottitis. For the seventh-ranked prediction, laryngi
 
 ## South Africa Market Information
 
-All nine registrations are single-ingredient entries with valid status. No approved indication text is available for any of them. Essential Medicines List (EML) status was not part of the data compiled for this report.
+No approved indication text is available for any of them. Essential Medicines List (EML) status was not part of the data compiled for this report.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 29/24/0462 | Peditrace 10ml pdp100010 | Infusion | Not available |
-| 49/24/0996 | Addaven | Infusion | Not available |
-| 52/24/0031 | Nutryelt | Infusion | Not available |
-| H2466 | Complenatal Ff | Capsule | Not available |
-| 41/10.2.1/0849 | Spiriva respimat inhaler 60 doses | Inhaler | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| E/24/728 | Zymafluor | tablet | Valid |
+| Y/24/394 | Zymafluor | drops | Valid |
+| 29/24/0462 | Peditrace 10ml pdp100010 | infusion | Valid |
+| 49/24/0996 | Addaven | infusion | Valid |
+| 52/24/0031 | Nutryelt | infusion | Valid |
 
-Four further registrations are not listed above: ITN 1606n 150ml and ITN 55a 600ml (TPN), Gericomplex (capsule) and Filibon (capsule).
+Showing 5 of 21 registrations (valid registrations first).
 
 ## Safety Considerations
 

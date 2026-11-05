@@ -36,7 +36,6 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 ## Iron Dextran
 {: .text-alpha }
 
-
 ## Quick Overview
 
 | Item | Content |

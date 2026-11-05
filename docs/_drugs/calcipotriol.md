@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 88
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -48,8 +48,8 @@ Calcipotriol is a topical vitamin D3 analogue, registered in South Africa in com
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 8 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,10 +77,15 @@ Currently no related clinical trials registered.
 
 Calcipotriol is registered in South Africa only in two products, both listed as valid. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 37/13.9.1/0241 | Dovobet | Ointment | Not available in compiled data |
-| Reg. No. 44/13.9.1/0632 | Xamiol | Gel (topical) | Not available in compiled data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/13.9.1/0270 | Dovonex Cream | cream | Valid |
+| 29/13.9.1/0762 | Dovonex Scalp Solution | solution | Valid |
+| Z/13.9.1/207 | Dovonex | ointment | Valid |
+| 37/13.9.1/0241 | Dovobet | ointment | Valid |
+| 46/13.9.1/0615 | Dovobet Gel | Gel | Valid |
+
+Showing 5 of 9 registrations (valid registrations first).
 
 ## Safety Considerations
 

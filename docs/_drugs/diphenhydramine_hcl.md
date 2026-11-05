@@ -5,7 +5,7 @@ layout: default
 title: Diphenhydramine Hcl
 parent: Known Uses Only (No New Predictions)
 nav_order: 185
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -33,8 +33,6 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 </div>
 
-Looking at this Evidence Pack, I can see it has significant issues: no TxGNN predictions, a null DrugBank ID, zero SAHPRA registrations (likely a data retrieval error for a known drug), and two blocking/high-severity data gaps. I'll generate an honest, complete report that reflects this situation.
-
 ---
 
 ## Diphenhydramine Hcl
@@ -45,8 +43,8 @@ Looking at this Evidence Pack, I can see it has significant issues: no TxGNN pre
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences on record: at least 17) |
-| Number of SAHPRA Registrations | at least 19 |
+| South Africa Market Status | Marketed (valid licences: 75 of 114) |
+| Number of SAHPRA Registrations | 114 (valid: 75) |
 
 ---
 

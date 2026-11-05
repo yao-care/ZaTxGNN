@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -41,7 +41,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Amitriptyline hydrochloride is a tricyclic antidepressant (TCA) with established use in depression, neuropathic pain, and migraine prophylaxis.
-**No TxGNN repurposing predictions were generated in this evaluation run**, and the drug carries zero SAHPRA registrations on record in this Evidence Pack.
 A complete repurposing assessment cannot be completed until the two identified data gaps — SAHPRA label warnings (Blocking) and formal mechanism of action data (High) — are resolved.
 
 ---
@@ -54,8 +53,8 @@ A complete repurposing assessment cannot be completed until the two identified d
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — prediction pipeline not completed |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 20 of 30) |
+| Number of SAHPRA Registrations | 30 (valid: 20) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -86,9 +85,7 @@ Currently no related literature available in this Evidence Pack.
 
 ## South Africa Market Information
 
-According to this Evidence Pack, amitriptyline hydrochloride has **zero active SAHPRA product registrations** on record.
-
-> **Verification recommended:** Amitriptyline is an established medicine included on the WHO Essential Medicines List (EML) and is widely registered globally. Healthcare professionals should confirm current SAHPRA registration status directly via the [SAHPRA online medicines register](https://www.sahpra.org.za) before drawing conclusions from this data. A data retrieval issue cannot be excluded.
+> **Verification recommended:** Amitriptyline is an established medicine included on the WHO Essential Medicines List (EML) and is widely registered globally. Healthcare professionals should confirm current SAHPRA registration status directly via the [SAHPRA online medicines register](https://www.sahpra.org.za) before drawing conclusions from this data.
 
 ---
 
@@ -113,7 +110,6 @@ The TxGNN prediction pipeline was not completed due to a blocking data gap (miss
 
 - **Resolve DG001 (Blocking):** Download the SAHPRA Professional Information PDF for amitriptyline hydrochloride and extract warnings and contraindications to unblock the pipeline entry gate
 - **Resolve DG002 (High):** Re-query the DrugBank API to retrieve and populate formal MOA, pharmacodynamic, and toxicity data (the query returned a successful result but data was not written to the Evidence Pack — investigate the extraction step)
-- **Verify SAHPRA registration status:** Manually search the SAHPRA medicines register for amitriptyline hydrochloride and all known South African brand names to confirm whether a zero-registration result reflects true absence or a data retrieval failure
 - **Re-run TxGNN prediction pipeline** after the above gaps are resolved to generate repurposing candidates and a full evidence-backed report
 
 ---

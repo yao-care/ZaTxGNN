@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Dexpanthenol: predicted new indication anorectal stricture (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Dexpanthenol is a precursor of pantothenic acid (vitamin B5) and coenzyme A that
 | Predicted New Indication | anorectal stricture |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 15 of 19) |
+| Number of SAHPRA Registrations | 19 (valid: 15) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,11 +68,17 @@ Currently no related literature available for anorectal stricture.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 36/22.1/0508 | Cernevit | Infusion | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/22.1/0508 | Cernevit | infusion | Valid |
+| G0931 | Broncol cough | syrup | Valid |
+| 28/33/0592 | Taxi Tonic | syrup | Valid |
+| 49/13.12/0002 | Barridex | of ointment | Valid |
+| 49/13.12/0003.002 | Pandexan | of ointment | Valid |
 
-This is the only registration, and it is valid. The available dosage form is injectable (infusion) only. No topical or rectal form is recorded locally, so route compatibility with an anorectal condition is unconfirmed. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 19 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Ranitidine is a histamine H2-receptor antagonist that reduces gastric acid secre
 | Predicted New Indication | Peptic ulcer perforation |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 30 of 68) |
+| Number of SAHPRA Registrations | 68 (valid: 30) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,12 +87,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 32/11.4.3/0142 | Histak 150 Tables | Tablet (oral) | Not available in the data compiled |
-| A39/11.4.3/0391 | Austac-75 | Tablet (oral) | Not available in the data compiled |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 30/11.4.3/0040 | Zantac 75 | tablet | Valid |
+| 30/11.4.3/0041 | Zantac 75 | tablet | Valid |
+| 31/11.4.3/0529 | Ranihexal | tablet | Valid |
+| 31/11.4.3/0530 | Ranihexal 300 | tablet | Valid |
+| 31/11.4.3/0673 | Ranitidine Biotech 150 | tablet | Valid |
 
-Of the two single-ingredient registrations, one is valid and one is cancelled. Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 68 registrations (valid registrations first).
+
+Essential Medicines List status is not available in the data compiled for this report.
 
 ---
 

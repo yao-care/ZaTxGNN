@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 329
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Moclobemide is a reversible inhibitor of monoamine oxidase A, originally used fo
 | Predicted New Indication | Agoraphobia |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 6 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on the evidence level:** The L2 level comes from the scoring in the data compiled for this report. It rests on published randomised trials in panic disorder with agoraphobia, not on a registered trial in the predicted indication. The published trials are small and old (1999), so the level should be read cautiously.
@@ -83,11 +83,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 35/1.2/0251 | Medpro-Ciprofloxacin 750 | Tablet | Not available |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/1.2/0112 | Aurorix | tablet | Valid |
+| 34/1.2/0169 | Clorix 150 | tablet | Valid |
+| 34/1.2/0170 | Clorix 300 | tablet | Valid |
+| 36/1.2/0049 | Depnil | tablet | Valid |
+| X/1.2/308 | Aurorix | tablet | Valid |
 
-**Important data discrepancy:** The only registration listed is for a product named "Medpro-Ciprofloxacin 750". Ciprofloxacin is an antibiotic, not moclobemide. This looks like a mismatch in the registration data. The "Marketed" status and the count of 1 registration for moclobemide therefore **cannot be relied on** until checked against the SAHPRA register. The Essential Medicines List status is not available in the data compiled for this report.
+Showing 5 of 8 registrations (valid registrations first).
+
+The Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

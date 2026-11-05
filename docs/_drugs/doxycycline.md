@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Doxycycline: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but there are **no registered clinical trials** and only **1 publication** (a 19
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 15 of 28) |
+| Number of SAHPRA Registrations | 28 (valid: 15) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,13 +72,17 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 31/20.1.1/0425 | Doxycycline biotech | Tablet | Not recorded in the local data |
-| Reg. No. 32/20.1.1/0254 | Doxytet | Capsule | Not recorded in the local data |
-| Reg. No. 32/20.1.1/0117 | Doxymed | Tablet | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 27/20.1.1/0495 | Doxycyl | capsule | Valid |
+| 28/20.1.1/0059 | Doxycyl | capsule | Valid |
+| 31/20.1.1/0425 | Doxycycline biotech | tablet | Valid |
+| 32/20.1.1/0117 | Doxymed | tablet | Valid |
+| 32/20.1.1/0254 | Doxytet | capsule | Valid |
 
-All three registrations are single-ingredient products and are currently valid. Essential Medicines List (EML) status is not recorded in the data compiled for this report.
+Showing 5 of 28 registrations (valid registrations first).
+
+Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 
 ## Safety Considerations
 

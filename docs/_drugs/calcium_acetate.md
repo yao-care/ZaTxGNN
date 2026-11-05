@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CALCIUM ACETATE"
 predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Calcium Acetate: predicted new indication calcium-alkali syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,12 +80,12 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 44/24/0102 | Phosphosorb 660 | Tablet | Not recorded in the local data |
-| Reg. No. 45/24/0919 | Osvaren | Fct | Not recorded in the local data |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 44/24/0102 | Phosphosorb 660 | tablet | Valid |
+| 45/24/0919 | Osvaren | Fct | Cancelled |
 
-Both registrations are valid single-ingredient products. Essential Medicines List (EML) status is not available in the data compiled for this report.
+Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ---
 

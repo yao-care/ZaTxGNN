@@ -5,7 +5,7 @@ layout: default
 title: Ampicillin Trihydrate
 parent: Known Uses Only (No New Predictions)
 nav_order: 39
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -36,14 +36,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 ## Ampicillin Trihydrate
 {: .text-alpha }
 
-
 ## Quick Overview
 
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 7 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 30 of 70) |
+| Number of SAHPRA Registrations | 70 (valid: 30) |
 
 ---
 

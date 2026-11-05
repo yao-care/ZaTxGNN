@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -54,11 +54,11 @@ The data collection pipeline retrieved only DrugBank records; South African regu
 | Predicted New Indication | Not available — TxGNN returned no candidates |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | N/A |
-| South Africa Market Status | Marketed (valid licences: 14 of 15) |
-| Number of SAHPRA Registrations | 15 (valid: 14) |
+| South Africa Market Status | Marketed (valid licences: 58 of 65) |
+| Number of SAHPRA Registrations | 65 (valid: 58) |
 | Recommended Decision | **Hold** |
 
-> ⚠️ **Data Reliability Note:** The Evidence Pack was built from DrugBank data only (`inputs_received: ["drugbank"]`). SAHPRA registration data was not collected. Indapamide is a well-established antihypertensive on the WHO Essential Medicines List and is expected to hold SAHPRA registration — the 0-registration result very likely reflects a collection gap rather than true absence from the South African market. Independent SAHPRA database verification is required before any regulatory conclusions are drawn.
+> ⚠️ **Data Reliability Note:** The Evidence Pack was built from DrugBank data only (`inputs_received: ["drugbank"]`). Independent SAHPRA database verification is required before any regulatory conclusions are drawn.
 
 ---
 
@@ -94,7 +94,6 @@ This candidate cannot be evaluated for drug repurposing potential because no TxG
 - **[Blocking — DG001]** Obtain the SAHPRA-approved Professional Information (PI) for Indapamide; extract approved indications, warnings, and contraindications from the PDF document
 - **[High — DG002]** Query the DrugBank API for Indapamide's mechanism of action (`DB00808`) and populate `original_moa`
 - **[Blocking]** Re-run the TxGNN prediction pipeline with Indapamide's DrugBank ID to generate `predicted_indications`; confirm that the drug node exists in the knowledge graph (`data/node.csv`) and that disease vocabulary mapping is functioning
-- **[High]** Independently verify SAHPRA registration status through the SAHPRA online register ([https://www.sahpra.org.za/find-a-medicine/](https://www.sahpra.org.za/find-a-medicine/)) to resolve the 0-registration anomaly
 - **[Medium]** Check whether Indapamide appears on the South African Essential Medicines List (EML) and the Standard Treatment Guidelines (STG), as this would be directly relevant to any repurposing access pathway
 - **[Medium]** Collect DDI data from DrugBank or a South African formulary source once the PI is available
 

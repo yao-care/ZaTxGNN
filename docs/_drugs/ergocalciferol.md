@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ERGOCALCIFEROL"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Ergocalciferol: predicted new indication Acromesomelic dysplasia, Campailla-Martinelli type (evidence level L5). Approved use: Rickets, osteomalacia, osteoporosis…"
 ---
 
@@ -48,8 +48,8 @@ Ergocalciferol (vitamin D2) has relations recorded in the knowledge graph with b
 | Predicted New Indication | Acromesomelic dysplasia, Campailla-Martinelli type |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 5 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,12 +68,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| G2667 (ACT 101/1965) | Gericomplex | Capsule | Not stated in the licence record |
-| 41/10.2.1/0849 | Spiriva Respimat inhaler 60 doses | Inhaler | Not stated in the licence record |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| T1101 | Calciferol oily | drops | Valid |
+| 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| Z/22.1/236 | Vitalipid novum adult 10ml pdv00001a | infusion | Valid |
+| H2053 | A-LENNON Calciferol | tablet | Valid |
 
-Both records are listed as valid single-ingredient registrations. The inhaler product name does not look like a typical ergocalciferol product, so the registration should be checked against the SAHPRA register before relying on it. Neither record includes approved-indication text, so no indication can be described as approved from the data compiled for this report.
+Showing 5 of 14 registrations (valid registrations first).
+
+The inhaler product name does not look like a typical ergocalciferol product, so the registration should be checked against the SAHPRA register before relying on it. Neither record includes approved-indication text, so no indication can be described as approved from the data compiled for this report.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 17
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Acyclovir: predicted new indication Common wart (evidence level L5). Approved use: Herpes simplex, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **punctate epithelial keratoconjuncti
 | Predicted New Indication | Common wart (best-supported prediction; TxGNN rank 1 is punctate epithelial keratoconjunctivitis) |
 | TxGNN Prediction Score | 0.9946 for common wart (0.9967 for punctate epithelial keratoconjunctivitis) |
 | Evidence Level | L5 (common wart) |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 14 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 14) |
 | Recommended Decision | Proceed with Guardrails (research question only; not for routine clinical use) |
 
 ### Other Predicted Indications (Summary)
@@ -120,12 +120,17 @@ For the other predictions, the literature retrieved is limited to general review
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 28/20.2.8/0369 | Adco-acyclovir | Cream (topical) | Not available in the data compiled for this report |
-| 38/20.2.8/0129 | Acitab-200 dt | Effervescent (dispersible) tablet (oral) | Not available in the data compiled for this report |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/20.2.8/0369 | Adco-acyclovir | cream | Valid |
+| 28/20.2.8/0552 | Adco-acyclovir | tablet | Valid |
+| 31/20.2.8/0298 | Cyclivex | tablet | Valid |
+| 31/20.2.8/0430 | Acyclovir Biotech 200 Mg | tablet | Valid |
+| 31/20.2.8/0549 | Beta-vira | cream | Valid |
 
-Both registrations are valid single-ingredient products. The data does not state whether acyclovir is on the Essential Medicines List (EML). No injectable formulation is registered in the data compiled for this report. The intralesional regimens studied for warts used the intravenous vial, so this is a practical gap. A topical cream and an oral dispersible tablet are available locally.
+Showing 5 of 14 registrations (valid registrations first).
+
+The data does not state whether acyclovir is on the Essential Medicines List (EML). No injectable formulation is registered in the data compiled for this report. The intralesional regimens studied for warts used the intravenous vial, so this is a practical gap. A topical cream and an oral dispersible tablet are available locally.
 
 ## Safety Considerations
 

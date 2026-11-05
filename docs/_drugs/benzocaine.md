@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 description: "Benzocaine: predicted new indication papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Benzocaine is a topical ester local anaesthetic that blocks voltage-gated sodium
 | Predicted New Indication | papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 38 of 60) |
+| Number of SAHPRA Registrations | 60 (valid: 38) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,12 +68,17 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 43/8/0830 | Soluspirin cv | Effervescent tablet | Indication text not recorded |
-| B0917 (ACT 101) | Vidol teething powders | Powder (Pwo) | Indication text not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/16.3/0057 | Orochlor 100ml | inhaler | Valid |
+| 33/16.3/0493 | Cepacol plus blackcurrant  (was cepacain | Loz | Valid |
+| 33/16.3/0495 | Medi-keel a black currant | Loz | Valid |
+| 33/16.3/0496 | Medi-keel a honey & lemon | Loz | Valid |
+| B/10.1/163 | Cepacol sore throat and cough relief dis | Loz | Valid |
 
-Both registrations are currently valid and are single-ingredient records. The Essential Medicines List (EML) status is not available in the data compiled for this report.
+Showing 5 of 60 registrations (valid registrations first).
+
+The Essential Medicines List (EML) status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

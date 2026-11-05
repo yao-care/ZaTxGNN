@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 289
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Leucine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 10 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 26 of 43) |
+| Number of SAHPRA Registrations | 43 (valid: 26) |
 
 ## Known uses recorded for this drug
 
@@ -74,17 +74,19 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | infusion | Canceled |
-| 33/10.2.1/0271 | Adco-ipratropium  (ni201) | vial | Valid |
-| 38/34/0172 | Extraneal 2L single bag | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
 | 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
-| 41/25/0757 | Nutriflex Lipid Peri | infusion | Valid |
-| 52/25/0739 | Numeta G13E | infusion | Valid |
-| 52/25/0740 | Numeta G16E | infusion | Valid |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
+| 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
+| 41/25/0758 | Nutriflex lipid plus without electrolyte | Tpn | Valid |
+| 41/25/0759 | Nutriflex lipid special 2500ml | Tpn | Valid |
 | 46/32.2/0518 | Smofkabiven | Inf | Valid |
 | 47/32.2/0036 | Smofkabiven Peripheral | infusion | Valid |
 | 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
-| 41/25/0759 | Nutriflex lipid special 625ml | Tpn | Valid |
+| 49/25/0066 | Nutriflex Omega Plus | infusion | Valid |
+
+Showing 11 of 43 registrations (valid registrations first).
 
 ## Safety Considerations
 
