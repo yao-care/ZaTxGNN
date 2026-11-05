@@ -230,5 +230,17 @@
    "sentence": "Threonine is registered in South Africa only as a component of multi-ingredient products, each listed as a single-entry licence.",
    "reason": "新資料依 SAHPRA 成分全文把這些產品記為複方，「listed as a single-entry licence」不成立"
   }
+ ],
+ "azithromycin_dihydrate": [
+  {
+   "sentence": "This is almost certainly a **data collection failure**, not the true regulatory situation.",
+   "reason": "指舊版概覽的「查無註冊」；新資料 azithromycin 有 35 張 SAHPRA 有效註冊，這句說明的對象已不存在"
+  }
+ ],
+ "amitriptyline_hydrochloride": [
+  {
+   "sentence": "A data retrieval issue cannot be excluded.",
+   "reason": "前句（「zero active SAHPRA product registrations」，與新事實 20 張有效矛盾、已刪）的延續，單獨留下會失去指涉對象"
+  }
  ]
 }

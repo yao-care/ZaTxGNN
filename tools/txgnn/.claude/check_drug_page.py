@@ -505,10 +505,11 @@ NOREG_CLAIM = re.compile(r"\bnot (currently )?registered\b|\bno (SAHPRA|local|So
                          r"\bzero (\w+ ){0,3}(registrations?|licen[cs]es?)\b|\bzero[- ](registration|licen[cs]e) (result|finding)|"
                          r"\bno (?:(?!cancel|revok|withdraw|combination)\w+ ){0,3}registrations? (on record|on file|were found|was found|were identified|were located|are recorded|"
                          r"(were |are )?recorded|found|returned)\b|\(total licen[cs]es?: 0\)|\b0[- ]registration|\bno registration (records?|data)\b|"
-                         r"\breturned zero\b|\bdata (retrieval|collection|matching) (failure|gap|issue|error)|\bretrieval or matching failure|"
+                         r"\breturned zero (\w+ ){0,2}(registrations?|licen[cs]es?|products?|records?)\b|\bdata (retrieval|collection|matching) (failure|gap|issue|error)|\bretrieval or matching failure|"
                          r"\bno (\w+ ){0,2}(registered |pharmaceutical )?products? (were|was) (found|identified|returned|listed)\b|"
                          r"\babsence of (SAHPRA |local |any )?registration|\bregistration (data|records?) (was|were) not (collected|retrieved)\b|"
                          r"\bSection 21 unregistered|\bunregistered medicine (provisions?|authori[sz]ation)", re.I)
+REG_WORD = re.compile(r"regist|licen[cs]|authori[sz]|market|products?\b|records?\b", re.I)
 REGISTRY_CTX = re.compile(r"trial|SANCTR|PACTR|ICTRP|clinicaltrials|NCT\d|\bregistry\b|\bstud(y|ies)\b", re.I)
 NONE_CANCEL = re.compile(r"\bnone (of them |of these )?(is |are |was |were )?(cancel+ed|revoked|withdrawn)\b|"
                          r"\bno (cancel+ed|revoked|withdrawn)( or [\w-]+)? (registrations?|licen[cs]es?|authori[sz]ations?|approvals?|ones)\b|"
@@ -535,7 +536,7 @@ def m3x(lang, s, fc):
     c = fc.get("cancelled") or 0
     if ms in ("Cancelled only", "Not marketed") and VALID_CLAIM.search(s) and not mv2.NEG.search(s):
         return "M3a"
-    if v > 0 and NOREG_CLAIM.search(s) and not POS_VALID.search(s):
+    if v > 0 and NOREG_CLAIM.search(s) and not POS_VALID.search(s) and REG_WORD.search(s):
         return "M3b"
     if c > 0 and not fc.get("partial"):
         if NONE_CANCEL.search(s) or (ALL_VALID.search(s) and not re.search(r"cancel", s, re.I)):
