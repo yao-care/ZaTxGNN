@@ -3,7 +3,7 @@ layout: default
 title: Drug Repurposing Reports
 nav_order: 1
 description: "AI-powered drug repurposing predictions for 395 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation."
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 permalink: /
 ---
 
@@ -32,6 +32,27 @@ This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medic
 
 Details: [Data Sources]({{ '/sources/' | relative_url }}).
 
+{% assign za = site.data.sahpra_registrations %}
+### SAHPRA registration status in these reports
+
+Registration status comes from the [SAHPRA](https://www.sahpra.org.za/) medapps export, downloaded again every Monday. The table counts the medicines on this site by the status of the SAHPRA registrations listed in each report.
+
+| Registrations listed in the report | Medicines |
+|---|---|
+| All valid | {{ za.medicines.all_valid }} |
+| Some cancelled | {{ za.medicines.some_cancelled }} |
+| All cancelled | {{ za.medicines.all_cancelled }} |
+| Only part of the list held in the data | {{ za.medicines.partial_list }} |
+
+The {{ za.complete_reports }} reports with a complete list name {{ za.registrations.listed }} SAHPRA registration numbers, {{ za.registrations.valid }} of them valid.
+
+### Medicines with the most SAHPRA registrations listed
+
+| Medicine | Registrations listed | Valid | Evidence level |
+|---|---|---|---|
+{% for d in za.most_registrations %}| [{{ d.title }}]({{ d.url }}) | {{ d.listed }} | {{ d.valid }} | {{ d.level }} |
+{% endfor %}
+
 Reports by evidence level:
 
 | Evidence level | Reports | Share |
@@ -47,30 +68,30 @@ Reports by evidence level:
 
 ### Highest evidence levels on this site
 
-| Medicine | Evidence level |
-|---|---|
-| [Clomipramine](/drugs/clomipramine/) | L1 |
-| [Potassium](/drugs/potassium/) | L1 |
-| [Tacrolimus](/drugs/tacrolimus/) | L1 |
-| [Bupropion](/drugs/bupropion/) | L2 |
-| [Mycophenolate Mofetil](/drugs/mycophenolate-mofetil/) | L2 |
-| [Candesartan](/drugs/candesartan/) | L2 |
-| [Hydrocortisone](/drugs/hydrocortisone/) | L2 |
-| [Hydrocortisone Acetate](/drugs/hydrocortisone-acetate/) | L2 |
-| [Prednisolone](/drugs/prednisolone/) | L2 |
-| [Prednisone](/drugs/prednisone/) | L2 |
+| Medicine | Evidence level | SAHPRA registrations listed |
+|---|---|---|
+| [Clomipramine](/drugs/clomipramine/) | L1 | {{ za.by_drug["clomipramine"] }} |
+| [Potassium](/drugs/potassium/) | L1 | {{ za.by_drug["potassium"] }} |
+| [Tacrolimus](/drugs/tacrolimus/) | L1 | {{ za.by_drug["tacrolimus"] }} |
+| [Bupropion](/drugs/bupropion/) | L2 | {{ za.by_drug["bupropion"] }} |
+| [Mycophenolate Mofetil](/drugs/mycophenolate-mofetil/) | L2 | {{ za.by_drug["mycophenolate-mofetil"] }} |
+| [Candesartan](/drugs/candesartan/) | L2 | {{ za.by_drug["candesartan"] }} |
+| [Hydrocortisone](/drugs/hydrocortisone/) | L2 | {{ za.by_drug["hydrocortisone"] }} |
+| [Hydrocortisone Acetate](/drugs/hydrocortisone-acetate/) | L2 | {{ za.by_drug["hydrocortisone-acetate"] }} |
+| [Prednisolone](/drugs/prednisolone/) | L2 | {{ za.by_drug["prednisolone"] }} |
+| [Prednisone](/drugs/prednisone/) | L2 | {{ za.by_drug["prednisone"] }} |
 
 ### Medicines covered only by this site among the 30 TxGNN sites
 
-| Medicine | Evidence level |
-|---|---|
-| [Omega-3 Fatty Acids](/drugs/omega-3-fatty-acids/) | L4 |
-| [Bismuth Subcarbonate](/drugs/bismuth-subcarbonate/) | L5 |
-| [Dextropropoxyphene](/drugs/dextropropoxyphene/) | L5 |
-| [Bismuth Subgallate](/drugs/bismuth-subgallate/) | N/A |
-| [Magnesium Acetate](/drugs/magnesium-acetate/) | N/A |
-| [Methylprednisolone Aceponate](/drugs/methylprednisolone-aceponate/) | N/A |
-| [Phosphoric Acid](/drugs/phosphoric-acid/) | N/A |
+| Medicine | Evidence level | SAHPRA registrations listed |
+|---|---|---|
+| [Omega-3 Fatty Acids](/drugs/omega-3-fatty-acids/) | L4 | {{ za.by_drug["omega-3-fatty-acids"] }} |
+| [Bismuth Subcarbonate](/drugs/bismuth-subcarbonate/) | L5 | {{ za.by_drug["bismuth-subcarbonate"] }} |
+| [Dextropropoxyphene](/drugs/dextropropoxyphene/) | L5 | {{ za.by_drug["dextropropoxyphene"] }} |
+| [Bismuth Subgallate](/drugs/bismuth-subgallate/) | N/A | {{ za.by_drug["bismuth-subgallate"] }} |
+| [Magnesium Acetate](/drugs/magnesium-acetate/) | N/A | {{ za.by_drug["magnesium-acetate"] }} |
+| [Methylprednisolone Aceponate](/drugs/methylprednisolone-aceponate/) | N/A | {{ za.by_drug["methylprednisolone-aceponate"] }} |
+| [Phosphoric Acid](/drugs/phosphoric-acid/) | N/A | {{ za.by_drug["phosphoric-acid"] }} |
 
 <!-- local-home:end -->
 
