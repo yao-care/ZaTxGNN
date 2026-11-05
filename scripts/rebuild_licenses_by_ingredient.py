@@ -81,6 +81,7 @@ MISMATCH = {
     ("T/2.2/207", "*midazolam"): "Dormicum 是 midazolam 產品，MPR 成分欄另列 naproxen 屬錯植",
     ("L/2.5/188", "*valproic acid"): "Epilim EC 500 是 valproate 產品，MPR 成分欄另列 promethazine、ephedrine 等屬錯植",
     ("D/26/174", "*bleomycin"): "Blenoxane 是 bleomycin 產品，MPR 成分欄另列 promethazine 屬錯植",
+    ("H1786 (ACT 101/1965)", "*acetazolamide"): "Diamox Tablets 250 mg 是 acetazolamide 產品，MPR 成分欄另列 triamterene 屬錯植（SAHPRA 匯出查無此號）",
     ("37/34/0243", "cycloserine"): "Nutrineal PD4 是腹膜透析胺基酸液，不含 cycloserine（MPR 成分欄誤植；SAHPRA 成分全文被截斷，無法自動排除）",
 }
 
