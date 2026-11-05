@@ -1,0 +1,41 @@
+# 一次性探測（2026-11-05）：下載 SAHPRA medapps 匯出原檔，列出欄位，上傳成 artifact，供依成分重建許可證時判斷可用欄位。
+# 只在 license-rebuild-probe 分支 push 時跑，不改任何檔、不 commit。
+name: License rebuild probe
+
+on:
+  push:
+    branches: [license-rebuild-probe]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Download SAHPRA export
+        run: |
+          pip install openpyxl requests
+          mkdir -p out
+          python3 - <<'PY'
+          import io, time, requests, openpyxl, json
+          end = time.strftime("%Y") + "/12/31 00:00:00"
+          r = requests.get("https://medapps.sahpra.org.za:6006/DateSearch/ExportData", params={"s1": "1900/01/01 00:00:00", "s2": end}, timeout=600)
+          r.raise_for_status()
+          open("out/sahpra_export.xlsx", "wb").write(r.content)
+          ws = openpyxl.load_workbook(io.BytesIO(r.content), read_only=True).active
+          ws.reset_dimensions()
+          rows = ws.iter_rows(values_only=True)
+          head = [str(x or "").strip() for x in next(rows)]
+          sample = [dict(zip(head, [str(v) if v is not None else "" for v in row])) for _, row in zip(range(5), rows)]
+          json.dump({"columns": head, "sample": sample}, open("out/columns.json", "w"), ensure_ascii=False, indent=1)
+          print(json.dumps({"columns": head, "sample": sample}, ensure_ascii=False, indent=1))
+          PY
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: sahpra-export-probe
+          path: out/
