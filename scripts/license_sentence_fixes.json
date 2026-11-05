@@ -1,0 +1,234 @@
+{
+ "diphenhydramine_hcl": [
+  {
+   "sentence": "Looking at this Evidence Pack, I can see it has significant issues",
+   "reason": "LLM 開場白外洩（模型對證據包的自述，不是報告內容；其中「zero SAHPRA registrations」也與新事實 75/114 有效矛盾）"
+  },
+  {
+   "sentence": "I'll generate an honest, complete report that reflects this situation.",
+   "reason": "LLM 開場白外洩（模型自述，不是報告內容）"
+  }
+ ],
+ "chlorpheniramine_maleate": [
+  {
+   "sentence": "As noted above, this is strongly suspected to be a data completeness issue.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象（指前段已刪的「查無註冊」說法）"
+  },
+  {
+   "sentence": "The following table is provided as a placeholder pending data retrieval:",
+   "reason": "表格已由程式依 SAHPRA 全量重建（111 張註冊），不再是待補的佔位表"
+  }
+ ],
+ "bupropion_hydrochloride": [
+  {
+   "sentence": "This result should be independently confirmed against the [SAHPRA online medicines register](https://www.sahpra.org.za/).",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象（「This result」指已刪的「查無 SAHPRA 註冊」）"
+  },
+  {
+   "sentence": "are known to be available in South Africa under Section 21 authorisations or full registration in other markets.",
+   "reason": "暗示南非只能經 Section 21 取得；新資料 bupropion 有 27 張 SAHPRA 有效註冊"
+  }
+ ],
+ "citalopram_hydrobromide": [
+  {
+   "sentence": "Before any procurement or regulatory decision, this result should be verified against the current",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象（「this result」指已刪的「No registered products were found」；並說資料可能尚未收錄，新資料 53 張有效）"
+  }
+ ],
+ "donepezil_hydrochloride": [
+  {
+   "sentence": "A repurposing recommendation cannot responsibly be made in the absence of these foundational inputs.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象（「these foundational inputs」指已刪的「無預測、無 SAHPRA 註冊資料…」）"
+  }
+ ],
+ "dorzolamide_hydrochloride": [
+  {
+   "sentence": "A repurposing evaluation cannot be meaningfully completed or acted upon under these conditions.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象（「these conditions」指已刪的「zero SAHPRA registrations on file…」）"
+  }
+ ],
+ "dexpanthenol": [
+  {
+   "sentence": "The available dosage form is injectable (infusion) only.",
+   "reason": "新資料的有效註冊另有軟膏、糖漿、口服液，不只注射劑"
+  },
+  {
+   "sentence": "No topical or rectal form is recorded locally, so route compatibility with an anorectal condition is unconfirmed.",
+   "reason": "新資料有 dexpanthenol 軟膏（外用）有效註冊"
+  }
+ ],
+ "fenofibrate": [
+  {
+   "sentence": "The product name suggests it may contain more than one active ingredient, so this registration should not be taken as describing how single-ingredient fenofibrate is approved.",
+   "reason": "指舊資料唯一一張；新資料 13 張有效註冊，「this registration」已不成立"
+  }
+ ],
+ "flucloxacillin": [
+  {
+   "sentence": "A sixth registration, 27/20.1.2/0107 (Macropen s, suspension), is also valid.",
+   "reason": "「第六張」以舊資料 6 張計；新資料共 23 張"
+  }
+ ],
+ "levodopa": [
+  {
+   "sentence": "A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid.",
+   "reason": "「第六張」以舊資料 6 張計；新資料共 17 張"
+  }
+ ],
+ "fusidic_acid": [
+  {
+   "sentence": "All are topical dosage forms (cream or ointment), and none is an ophthalmic preparation.",
+   "reason": "新資料的有效註冊另有滴劑、錠劑、懸液與注射劑"
+  }
+ ],
+ "ginseng": [
+  {
+   "sentence": "The second record is a branded inhaler that is not normally associated with ginseng.",
+   "reason": "該吸入劑（Spiriva Respimat）已因 SAHPRA 成分不含 ginseng 從本藥剔除"
+  },
+  {
+   "sentence": "The ingredient mapping for these two records should be verified before relying on them.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+  }
+ ],
+ "hydrocortisone": [
+  {
+   "sentence": "Available forms are topical or local (cream, ointment, drops, suppository); no oral or injectable form appears in the data.",
+   "reason": "新資料有 hydrocortisone 注射劑 5 張、錠劑 2 張有效註冊"
+  },
+  {
+   "sentence": "Intralesional use, as in the historical reports, would not be covered by these products.",
+   "reason": "依附上一句（「只有外用」已刪）；新資料有注射劑"
+  }
+ ],
+ "methylprednisolone": [
+  {
+   "sentence": "Only injectable forms are registered.",
+   "reason": "新資料另有乳膏、軟膏、錠劑有效註冊"
+  }
+ ],
+ "oxytetracycline": [
+  {
+   "sentence": "One is oral (capsule) and two are topical (ointments).",
+   "reason": "以舊資料 3 張計；新資料 20 張有效"
+  }
+ ],
+ "potassium_chloride": [
+  {
+   "sentence": "Only one oral product (a tablet) appears.",
+   "reason": "新資料有多張口服錠、緩釋錠、散劑（sachet）有效註冊"
+  },
+  {
+   "sentence": "Oral formulations are therefore scarcely represented, although oral potassium is commonly used for chronic hypokalaemia.",
+   "reason": "依附上一句；新資料口服劑型不少"
+  }
+ ],
+ "moclobemide": [
+  {
+   "sentence": "Ciprofloxacin is an antibiotic, not moclobemide.",
+   "reason": "Medpro-Ciprofloxacin 已從 moclobemide 剔除（MPR 錯植），這句說明的對象不在了"
+  },
+  {
+   "sentence": "This looks like a mismatch in the registration data.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+  }
+ ],
+ "procaine": [
+  {
+   "sentence": "The product name refers to ceftriaxone, so it should be verified against the SAHPRA register whether this registration actually contains procaine.",
+   "reason": "Aspen Ceftriaxone 已因 SAHPRA 成分不含 procaine 從本藥剔除"
+  }
+ ],
+ "tamsulosin": [
+  {
+   "sentence": "Duodart is listed in the data as a single-ingredient registration, although its strength suggests a dutasteride/tamsulosin combination.",
+   "reason": "新資料依 SAHPRA 成分全文把 Duodart 記為複方"
+  },
+  {
+   "sentence": "This should be verified against the registration record.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+  }
+ ],
+ "triprolidine": [
+  {
+   "sentence": "There is also one topical cream, Medaspor topical (28/20.2.2/0119).",
+   "reason": "Medaspor 已因 SAHPRA 成分不含 triprolidine 從本藥剔除"
+  }
+ ],
+ "tyrosine": [
+  {
+   "sentence": "The last is listed as a vial and its link to tyrosine should be verified.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象（指已刪清單裡的 Adco-ipratropium，該筆已剔除）"
+  }
+ ],
+ "vitamin_a": [
+  {
+   "sentence": "Other registrations: neonatal TPN (exclusion under Section 36 and Section 14), Gericomplex (capsule), Spiriva Respimat inhaler (listing as returned in the data) and Filibon (capsule).",
+   "reason": "ITN 新生兒 TPN（非註冊號）與 Spiriva Respimat（SAHPRA 成分不含 vitamin A）已剔除"
+  }
+ ],
+ "folic_acid": [
+  {
+   "sentence": "Several of these entries look like multivitamin or parenteral nutrition products, and some (Linctifed, Spiriva) are unlikely to contain folic acid as a relevant active ingredient.",
+   "reason": "Spiriva Respimat 已因 SAHPRA 成分不含 folic acid 剔除，「these entries」指的舊清單已刪"
+  }
+ ],
+ "ramipril": [
+  {
+   "sentence": "Note that 4 of the 7 are combination-type products",
+   "reason": "以舊資料 7 張計；新資料共 72 張"
+  }
+ ],
+ "empagliflozin": [
+  {
+   "sentence": "The Synjardy registration is listed in the records as a single-ingredient entry, but the product name suggests a fixed-dose combination.",
+   "reason": "新資料依 SAHPRA 成分全文把 Synjardy 記為複方"
+  },
+  {
+   "sentence": "It should therefore not be used to describe empagliflozin alone.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+  }
+ ],
+ "abacavir": [
+  {
+   "sentence": "Verify against the SAHPRA register before relying on them.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+  }
+ ],
+ "atenolol": [
+  {
+   "sentence": "Please verify against the registration records.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+  }
+ ],
+ "quinapril": [
+  {
+   "sentence": "Please verify against the SAHPRA Professional Information.",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+  }
+ ],
+ "tramadol": [
+  {
+   "sentence": "Please confirm the composition in the Professional Information (PI).",
+   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+  }
+ ],
+ "glimepiride": [
+  {
+   "sentence": "The third product, Amaryl Combi, is named as a combination product; its licence is not used here to describe the single-ingredient drug.",
+   "reason": "「第三個產品」指舊表格；Amaryl Combi 在新資料已註銷，也不在表內"
+  }
+ ],
+ "loperamide": [
+  {
+   "sentence": "No ophthalmic formulation is registered; the available forms are oral tablets and syrup.",
+   "reason": "新資料另有膠囊、發泡錠、口服液、滴劑等劑型"
+  }
+ ],
+ "threonine": [
+  {
+   "sentence": "Threonine is registered in South Africa only as a component of multi-ingredient products, each listed as a single-entry licence.",
+   "reason": "新資料依 SAHPRA 成分全文把這些產品記為複方，「listed as a single-entry licence」不成立"
+  }
+ ]
+}
