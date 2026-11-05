@@ -81,7 +81,7 @@ Currently no related clinical trials registered.
 
 Showing 5 of 14 registrations (valid registrations first).
 
-This registration is a single-ingredient, valid record for an injectable infusion. Its product name suggests use as a cardioplegic solution, so it should not be taken as evidence of approval for NSIAD or for other mannitol uses. Essential Medicines List status is not available in the data compiled for this report.
+Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

@@ -121,7 +121,7 @@ No literature was retrieved for orgasm-induced seizures or beta-ketothiolase def
 | E0975 (ACT 1010 | Donnatal Elixir | syrup | Valid |
 | B1163 (ACT 101) | Lethyl | tablet | Cancelled |
 
-The registration status is valid (single-ingredient product). Essential Medicines List status could not be confirmed from the data compiled for this report.
+Essential Medicines List status could not be confirmed from the data compiled for this report.
 
 ---
 

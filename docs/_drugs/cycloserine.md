@@ -50,8 +50,8 @@ Cycloserine is an antibiotic that is also an NMDA receptor partial agonist at th
 | Predicted New Indication | irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -86,7 +86,6 @@ Currently no related literature available.
 | 42/20.1.1/0542 | Medivision Cycloserine 250 | capsule | Valid |
 | 57/20.1.1/0156 | Cycloserine 250 mg Pd | capsule | Valid |
 | 58/20.1.1/0041 | Serestip | capsule | Valid |
-| 37/34/0243 | Nutrineal PD4 with 1.1% amino acids 2.5L | infusion | Cancelled |
 
 The Essential Medicines List status is not stated in the data compiled for this report.
 

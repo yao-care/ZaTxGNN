@@ -78,7 +78,7 @@ Currently no related literature available.
 
 Showing 5 of 8 registrations (valid registrations first).
 
-- The product strengths (10 mg/12.5 mg) suggest a fixed-dose combination product. This registration should not be taken as evidence of how single-ingredient benazepril is approved. Please verify the formulation against the SAHPRA-approved Professional Information (PI).
+- The product strengths (10 mg/12.5 mg) suggest a fixed-dose combination product. Please verify the formulation against the SAHPRA-approved Professional Information (PI).
 - Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations

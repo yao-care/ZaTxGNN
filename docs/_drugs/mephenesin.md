@@ -53,7 +53,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 56/2.8/0309 | Pynspas | tablet | Valid |
 | B1490 | Spasmend | tablet | Valid |
 
-The product is registered as a single-ingredient oral tablet and is currently valid. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
+Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 

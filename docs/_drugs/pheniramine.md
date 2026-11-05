@@ -90,7 +90,7 @@ No randomised trials or systematic reviews of pheniramine in allergic urticaria 
 
 Showing 5 of 9 registrations (valid registrations first).
 
-This is the only SAHPRA registration, and it is a valid single-ingredient product. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 

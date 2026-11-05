@@ -78,7 +78,7 @@ Currently no related literature available.
 
 Showing 5 of 6 registrations (valid registrations first).
 
-The product is a single-ingredient registration with valid status. Its Essential Medicines List (EML) status is not recorded in the data compiled for this report.
+Its Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 
 ## Safety Considerations
 

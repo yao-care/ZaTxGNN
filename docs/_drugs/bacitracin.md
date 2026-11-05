@@ -79,7 +79,7 @@ Currently no related literature available for this predicted indication.
 
 Showing 5 of 11 registrations (valid registrations first).
 
-The data compiled for this report do not show whether this product is on the Essential Medicines List. The registration is a single-ingredient product and is currently valid.
+The data compiled for this report do not show whether this product is on the Essential Medicines List.
 
 ## Safety Considerations
 

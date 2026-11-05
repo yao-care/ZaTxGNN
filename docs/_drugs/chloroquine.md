@@ -82,7 +82,7 @@ No publication retrieved directly studies chloroquine in rheumatoid factor-posit
 
 Showing 5 of 12 registrations (valid registrations first).
 
-The licence is valid. Essential Medicines List status is not stated in the data compiled for this report.
+Essential Medicines List status is not stated in the data compiled for this report.
 
 ## Safety Considerations
 

@@ -75,7 +75,7 @@ Currently no related literature available.
 | A38/21.1/0506 | Apidra solostar disposable pens 3ml | injection | Valid |
 | 41/21.1/0349 | Gluliwin | solution | Cancelled |
 
-The product is a single-ingredient registration with valid status. Essential Medicines List status was not available in the data compiled for this report.
+Essential Medicines List status was not available in the data compiled for this report.
 
 ## Safety Considerations
 

@@ -88,7 +88,7 @@ Currently no related literature available for allergic urticaria.
 
 Showing 5 of 36 registrations (valid registrations first).
 
-The product is a single-ingredient registration with a valid status. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
 ---
 

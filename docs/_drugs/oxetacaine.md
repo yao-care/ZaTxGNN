@@ -53,7 +53,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | E/11.4.3/1223 | Mucaine | suspension | Valid |
 | E/11.4.3/1224 | Mucaine Tablet | Not recorded | Cancelled |
 
-The registration is a valid single-ingredient product. The Essential Medicines List (EML) status of oxetacaine could not be determined from the data compiled for this report.
+The Essential Medicines List (EML) status of oxetacaine could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 
