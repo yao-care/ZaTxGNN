@@ -9,7 +9,7 @@ permalink: /
 
 # Drug Repurposing: From AI to Evidence
 
-**ZaTxGNN** uses the Harvard TxGNN model to predict drug repurposing candidates for **395** SAHPRA-approved drugs, identifying potential new therapeutic uses.
+**ZaTxGNN** uses the Harvard TxGNN model to predict drug repurposing candidates for **{{ site.data.drug_stats.total_drugs }}** SAHPRA-approved drugs, identifying potential new therapeutic uses.
 
 [Browse Drug Reports](/drugs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Learn Methodology](/methodology/){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -21,7 +21,29 @@ permalink: /
 
 This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the [Medicine Price Registry](https://medicineprices.org.za/) (South Africa); registration status comes from [SAHPRA](https://www.sahpra.org.za/) data.
 
-Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+### South Africa medicine data
+
+| Item | Detail |
+|------|--------|
+| Drug list | Medicine Price Registry, retrieved through the search API at <https://medicineprices.org.za/api/v2/search> |
+| Registration status | SAHPRA medapps export by registration date: `https://medapps.sahpra.org.za:6006/DateSearch/ExportData` |
+| Publisher | South African Health Products Regulatory Authority (SAHPRA) for registration status |
+| Update | The SAHPRA export is downloaded again every Monday by an automated workflow; registration status in drug reports (Registered / Canceled / Old Medicine) is updated from the new file |
+
+Details: [Data Sources]({{ '/sources/' | relative_url }}).
+
+Reports by evidence level:
+
+| Evidence level | Reports | Share |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+
+15 predicted drug–disease pairs on this site appear on no other of the 30 TxGNN sites.
 
 ### Highest evidence levels on this site
 
@@ -114,7 +136,7 @@ Enter a **drug name** or **disease name** to find repurposing predictions. Suppo
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #FB8C00;">
     <strong style="font-size: 1.1rem;">South African Drug Coverage</strong><br>
-    <span style="color: #666;">Focused on 395 SAHPRA-approved medicines with repurposing predictions ready for research.</span>
+    <span style="color: #666;">Focused on {{ site.data.drug_stats.total_drugs }} SAHPRA-approved medicines with repurposing predictions ready for research.</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
     <strong style="font-size: 1.1rem;">FHIR Integration</strong><br>
@@ -131,7 +153,7 @@ Enter a **drug name** or **disease name** to find repurposing predictions. Suppo
 | **High Evidence** | L1-L2, priority for clinical evaluation | [View drugs](/evidence-high/) |
 | **Medium Evidence** | L3-L4, requires additional validation | [View drugs](/evidence-medium/) |
 | **AI Predictions** | L5, research direction reference | [View drugs](/evidence-low/) |
-| **Full Drug List** | All 395 drugs (searchable) | [Drug List](/drugs/) |
+| **Full Drug List** | All {{ site.data.drug_stats.total_drugs }} drugs (searchable) | [Drug List](/drugs/) |
 | **Health News** | Automated health news monitoring | [View News](/news/) |
 | **FHIR API** | Integration endpoints | [FHIR Metadata](/fhir/metadata) |
 
@@ -148,7 +170,7 @@ ZaTxGNN uses the **TxGNN** deep learning model published by Harvard's Zitnik Lab
 
 | Item | Count |
 |------|-------|
-| Drug Reports | 395 |
+| Drug Reports | {{ site.data.drug_stats.total_drugs }} |
 | Regulatory Agency | South African Health Products Regulatory Authority (SAHPRA) |
 
 [Learn More](/about/) | [Methodology](/methodology/) | [Data Sources](/sources/)
@@ -207,15 +229,5 @@ This report is for <strong>research purposes only</strong> and does not constitu
 
 ## About the Developer
 
-This platform is developed and operated by **藥提醒科技有限公司** (yao.care, company registration
-number 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-ZaTxGNN is the South Africa site of the company's "TxGNN Drug Repurposing" product line.
-The same system is deployed across 30 countries and regions, each named `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, and so on) at `{cc}txgnn.yao.care`.
-Product overview: <https://www.yao.care/medical/txgnn/>.
-
-The TxGNN model itself was developed by the Zitnik Lab at Harvard Medical School and published
-in *Nature Medicine*. This platform is the production system 藥提醒科技有限公司 built on top of that
-model, covering national drug-registration data integration, deep-learning prediction that excludes uses already recorded in the knowledge graph, PubMed / ClinicalTrials evidence grading, and SMART on FHIR
-electronic health record integration.
+This platform is developed and operated by **藥提醒科技有限公司** (yao.care). See the
+<a href="{{ '/about/' | relative_url }}">About</a> page for the full company and methodology background.
