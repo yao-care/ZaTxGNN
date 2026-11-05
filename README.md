@@ -24,17 +24,18 @@ Drug repurposing predictions for South Africa SAHPRA-approved drugs using the Tx
 | **Unique Drugs** | 455 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 455 MK / 50,000 CUD |
+| **FHIR Resources** | 459 MK / 2,630 CUD |
 
 ### Evidence Level Distribution
 
 | Evidence Level | Report Count | Description |
 |---------|-------|------|
-| **L1** | 0 | Multiple Phase 3 RCTs |
-| **L2** | 0 | Single RCT or multiple Phase 2 |
-| **L3** | 0 | Observational studies |
-| **L4** | 0 | Preclinical / mechanistic studies |
-| **L5** | 455 | Computational prediction only |
+| **L1** | 3 | Multiple Phase 3 RCTs |
+| **L2** | 16 | Single RCT or multiple Phase 2 |
+| **L3** | 10 | Observational studies |
+| **L4** | 28 | Preclinical / mechanistic studies |
+| **L5** | 287 | Computational prediction only |
+| **N/A** | 51 | Known uses only (no new prediction) |
 
 ### By Source
 
@@ -70,7 +71,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metric | Value |
 |------|------|
-| SAHPRA Total Drugs | 4,206 |
+| SAHPRA Total Drugs | 4,209 |
 | Repurposing Candidates | 7,755,620 |
 
 ### Deep Learning Method
@@ -82,7 +83,7 @@ PYTHONPATH=src python -m zatxgnn.predict.txgnn_model
 
 | Metric | Value |
 |------|------|
-| Total DL Predictions | 741,593 |
+| Total DL Predictions | 749,154 |
 | Unique Drugs | 455 |
 | Unique Indications | 17,081 |
 
