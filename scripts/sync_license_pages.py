@@ -38,6 +38,21 @@ def _load(name, path):
     s = importlib.util.spec_from_file_location(name, path); m = importlib.util.module_from_spec(s); s.loader.exec_module(m); return m
 
 
+def deletion_only(orig, kept):
+    """kept 只能是 orig 刪掉幾段（字詞）後的結果：逐字比對 kept 的字詞依序出現在 orig 裡；允許補句末標點與首字大寫"""
+    a = re.findall(r"\S+", orig.lower())
+    b = re.findall(r"\S+", re.sub(r"[.!?]$", "", kept).lower())
+    i = 0
+    for w in b:
+        w2 = w.rstrip(".,;:")
+        while i < len(a) and a[i].rstrip(".,;:") != w2:
+            i += 1
+        if i == len(a):
+            return False
+        i += 1
+    return True
+
+
 def split_sentences(line):
     t = line
     for a, b in ABBR:
@@ -169,6 +184,77 @@ def verdict(ck, s, fc, recs, counts=True, rest=None, gone=()):
     return None
 
 
+# 2026-11-05（用戶決定）：同一句混有藥物簡介、機轉、劑型等內容時，只刪跟新事實矛盾的子句，其餘保留（只做刪除，不改寫）。
+# 子句界線：「, and」「; 」「, but」「, while」「, though」「, although」「, with」「, so」「 — 」，以及接在數字前的「with／in／under」。
+_NUMS = r"(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)\b"
+CLAUSE_SEP = re.compile(r"(,\s+and\s+|;\s+|,\s+but\s+|,\s+while\s+|,\s+even though\s+|,\s+though\s+|,\s+although\s+|,\s+with\s+|,\s+so\s+|\s+—\s+|"
+                        r",\s+(?=(?:all|both|none|each|neither)\b)|,?\s+(?:with|in|under)\s+(?=" + _NUMS + r"))", re.I)
+COUNT_REF = re.compile(r"^\W*(?:and\s+)?(all|both|none|each|neither|either)\b", re.I)
+LEAD_CONN = re.compile(r"^\s*[,;—]?\s*(?:(?:and|but|while|though|although|with|so)\s+)?", re.I)
+# 保留下來的部分要是完整的句子（有動詞）；第一個子句被刪時，接下來的子句要以名詞性主語開頭（不能是 it／this／they 這類失去先行詞的代名詞或分詞）
+HAS_VERB = re.compile(r"\b(is|are|was|were|has|have|had|be|been|exists?|shows?|lists?|contains?|includes?|suggests?|appears?|"
+                      r"remains?|lacks?|returned|reflects?|did|do|does|cannot|can|must|should|may|might|will|would|could)\b", re.I)
+BAD_START = re.compile(r"^\W*(it|its|this|these|they|their|those|listed|recorded|registered|classified|labelled|labeled)\b", re.I)
+# 只剩表格／清單呈現說明的殘段（「The list may be partial」「The five below are shown」）是張數句的附屬，不單獨保留：
+# 表格下已有程式產生的「Showing N of M」，張數也已依全量資料重算
+DISPLAY_ONLY = re.compile(r"^\W*(?:the (?:list|records|data) may be (?:partial|incomplete)|"
+                          r"(?:only )?the (?:first |remaining |other )?\w+ (?:(?:below|above) )?(?:are|is) (?:shown|listed))\W*$", re.I)
+
+
+def _clauses(s):
+    """括號裡的逗號、and 不當子句界線"""
+    keep = {}
+
+    def mask(m):
+        keep[f"\x00{len(keep)}\x00"] = m.group(0)
+        return f"\x00{len(keep) - 1}\x00"
+    ms = re.sub(r"\([^()]*\)", mask, s)
+    un = lambda x: re.sub(r"\x00\d+\x00", lambda m: keep[m.group(0)], x)  # noqa: E731
+    parts = CLAUSE_SEP.split(ms)
+    return [("", un(parts[0]))] + [(un(parts[i]), un(parts[i + 1])) for i in range(1, len(parts) - 1, 2)]
+
+
+def partial(ck, s, fc, recs, **kw):
+    """只刪矛盾子句；回傳保留下來的句子，整句都要刪（或拆不開）時回傳 None。
+    子句裡的列舉（「A, B, and C」）只在被判矛盾的項目不是該子句第一項時拆開刪除（第一項常帶 no／not，拆了會反轉語意）。"""
+    cl = _clauses(s)
+    if len(cl) < 2 and ", " not in s:
+        return None
+    kept, dropped = [], False
+    for k, (sep, c) in enumerate(cl):
+        bad = verdict(ck, c, fc, recs, **kw) or (k > 0 and COUNT_REF.search(c))
+        if bad and ", " in c and "(" not in c and len(c.split(", ")[0].split()) >= 4:
+            items = c.split(", ")
+            flags = [bool(verdict(ck, it, fc, recs, **kw)) for it in items]
+            if not flags[0] and any(flags):
+                c2 = ", ".join(it for it, f in zip(items, flags) if not f)
+                c2 = re.sub(r",\s*$", "", c2)
+                if not verdict(ck, c2, fc, recs, **kw):
+                    kept.append((sep, c2)); dropped = True
+                    continue
+        if bad:
+            dropped = True
+            continue
+        kept.append((sep, c))
+    if not dropped or not kept:
+        return None
+    text = "".join(sep + c for sep, c in kept)
+    if kept[0][0]:  # 第一個子句被刪：去掉句首連接詞、首字大寫
+        head = LEAD_CONN.sub("", kept[0][0] + kept[0][1], count=1)
+        if BAD_START.search(head):
+            return None
+        text = head + "".join(sep + c for sep, c in kept[1:])
+        text = text[:1].upper() + text[1:]
+    text = text.rstrip(" ,;—")
+    tail = re.search(r"([.!?:])(\**)\s*$", s)
+    if not re.search(r"[.!?:]\**$", text):
+        text += (tail.group(1) if tail and tail.group(1) != ":" else ".")
+    if len(re.findall(r"[A-Za-z]{2,}", text)) < 4 or not HAS_VERB.search(text) or DISPLAY_ONLY.search(text) \
+            or verdict(ck, text, fc, recs, **kw):
+        return None
+    return text
+
+
 def table_block(recs, nrows):
     seen, rows = set(), []
     for r in recs:
@@ -224,13 +310,39 @@ def process(ck, page, fc, bundle, manual):
             if prev_deleted and DEPENDENT.search(re.sub(r"^\s*([-*>]\s*)+", "", core)) \
                     and not re.search(r"Essential Medicines List|\bEML\b|This report", core):
                 why = ("DEPENDENT", "緊接在被刪句後、以指代詞開頭；前句刪除後失去指涉對象（不改寫，一併刪除）")
+            override = None
             for m in manual.get(page.stem, []):
-                if not why and m["sentence"] in core:
-                    why = ("MANUAL", m["reason"])
-            if not why and re.search(r"[A-Za-z]{3}", core):
-                why = verdict(ck, re.sub(r"^\s*[-*]\s+", "", core), fc, recs, counts=sec in (SEC, "## Quick Overview"), rest=rest, gone=gone)
+                if m["sentence"] in core:
+                    if "keep" in m:  # 人工指定保留的部分（必須是原句刪掉幾段後的結果，見 deletion_only）
+                        override = m
+                    elif not why:
+                        why = ("MANUAL", m["reason"])
+            kw = dict(counts=sec in (SEC, "## Quick Overview"), rest=rest, gone=gone)
+            body_s = re.sub(r"^\s*[-*]\s+", "", core)
+            if not why and not override and re.search(r"[A-Za-z]{3}", core):
+                why = verdict(ck, body_s, fc, recs, **kw)
+            if override:
+                if override["keep"] == "" or override["keep"] == core:
+                    if override["keep"] == "":
+                        log.append((page.stem, "MANUAL", core, override["reason"], ""))
+                        changed = True; prev_deleted = True
+                        continue
+                    prev_deleted = False
+                    keep.append((s, sp))
+                    continue
+                assert deletion_only(core, override["keep"]), f"{page.stem}：人工保留句不是原句刪段的結果：{override['keep']}"
+                log.append((page.stem, "MANUAL_PARTIAL", core, override["reason"], override["keep"]))
+                keep.append((s.replace(core, override["keep"]), sp)); changed = True; prev_deleted = False
+                continue
+            if why and why[0] not in ("MANUAL", "DEPENDENT", "STALE_ENTRY", "NAMED_STATUS"):
+                part = partial(ck, body_s, fc, recs, **kw)
+                if part:
+                    lead = core[:len(core) - len(body_s)]
+                    log.append((page.stem, why[0] + "_PARTIAL", core, why[1] + "；只刪矛盾子句", lead + part))
+                    keep.append((s.replace(core, lead + part), sp)); changed = True; prev_deleted = False
+                    continue
             if why:
-                log.append((page.stem, why[0], core, why[1]))
+                log.append((page.stem, why[0], core, why[1], ""))
                 changed = True
                 prev_deleted = True
                 continue
@@ -304,7 +416,7 @@ def main(argv):
             if not dry:
                 page.write_bytes((new.replace("\n", "\r\n") if crlf else new).encode("utf-8"))
     if logf:
-        Path(logf).write_text("頁\t規則\t原句\t依據\n" + "\n".join("\t".join(x) for x in all_log) + "\n", encoding="utf-8")
+        Path(logf).write_text("頁\t規則\t原句\t依據\t保留（只刪子句時）\n" + "\n".join("\t".join(x) for x in all_log) + "\n", encoding="utf-8")
     print(f"改頁 {n}；刪句 {len(all_log)}")
 
 

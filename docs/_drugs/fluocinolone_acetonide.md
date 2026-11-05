@@ -80,7 +80,7 @@ Currently no related literature available.
 
 Showing 5 of 18 registrations (valid registrations first).
 
-Essential Medicines List status is not available in the data compiled for this report.
+The drug is marketed in South Africa. Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

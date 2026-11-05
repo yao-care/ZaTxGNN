@@ -82,6 +82,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
+The Evidence Pack is structurally incomplete: no TxGNN-predicted indications exist, the DrugBank ID is unresolved, original indications are not recorded.
 
 **To proceed, the following is needed:**
 

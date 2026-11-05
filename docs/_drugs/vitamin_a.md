@@ -107,7 +107,7 @@ For context, the most relevant publications retrieved for the best-supported pre
 
 ## South Africa Market Information
 
-Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status was not available in the data.
+Vitamin A is marketed in South Africa. Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status was not available in the data.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

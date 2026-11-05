@@ -62,6 +62,8 @@ This report documents the current data gaps and the remediation steps required b
 
 The TxGNN knowledge graph pipeline requires a valid **DrugBank ID** to anchor a compound within the disease–drug network and generate ranked repurposing candidates. For Copper Gluconate, the DrugBank query returned one result (`result_count: 1`), yet the `drugbank_id` field remains unresolved (`null`). This indicates the compound may be catalogued under a related identifier — for example, elemental copper (DrugBank: DB09130) or under a specific salt or formulation entry — that the automated matching step did not confirm.
 
+No original approved indications are on record within the current dataset. Without these regulatory anchors, the pipeline lacks the inputs needed to generate a meaningful disease ranking.
+
 Two critical data gaps are blocking progress:
 
 | Gap ID | Missing Item | Severity | Downstream Impact |

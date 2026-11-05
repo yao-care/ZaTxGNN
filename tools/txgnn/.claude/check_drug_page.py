@@ -506,7 +506,8 @@ NOREG_CLAIM = re.compile(r"\bnot (currently )?registered\b|\bno (SAHPRA|local|So
                          r"\bno (?:(?!cancel|revok|withdraw|combination)\w+ ){0,3}registrations? (on record|on file|were found|was found|were identified|were located|are recorded|"
                          r"(were |are )?recorded|found|returned)\b|\(total licen[cs]es?: 0\)|\b0[- ]registration|\bno registration (records?|data)\b|"
                          r"\breturned zero (\w+ ){0,2}(registrations?|licen[cs]es?|products?|records?)\b|\bdata (retrieval|collection|matching) (failure|gap|issue|error)|\bretrieval or matching failure|"
-                         r"\bno (\w+ ){0,2}(registered |pharmaceutical )?products? (were|was) (found|identified|returned|listed)\b|"
+                         r"\bno (?!(?:\w+ ){0,2}?(?:oral|ophthalmic|topical|injectable|nasal|inhaled|rectal|eye|ear|dermal|vaginal|intravenous|parenteral)\b)"
+                         r"(\w+ ){0,2}(registered |pharmaceutical )?products? (were|was) (found|identified|returned|listed)\b|"
                          r"\babsence of (SAHPRA |local |any )?registration|\bregistration (data|records?) (was|were) not (collected|retrieved)\b|"
                          r"\bSection 21 unregistered|\bunregistered medicine (provisions?|authori[sz]ation)", re.I)
 REG_WORD = re.compile(r"regist|licen[cs]|authori[sz]|market|products?\b|records?\b", re.I)

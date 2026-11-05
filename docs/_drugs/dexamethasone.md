@@ -69,7 +69,7 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Approved indication text is not recorded in the local data. Essential Medicines List status is not recorded in the data compiled for this report.
+Dexamethasone-containing products are marketed in South Africa. Approved indication text is not recorded in the local data. Essential Medicines List status is not recorded in the data compiled for this report.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

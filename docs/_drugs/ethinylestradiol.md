@@ -82,7 +82,7 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-The registration records carry no approved-indication text. Inclusion on the Essential Medicines List was not assessed in the data compiled for this report.
+The drug is marketed in South Africa. The registration records carry no approved-indication text. Inclusion on the Essential Medicines List was not assessed in the data compiled for this report.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

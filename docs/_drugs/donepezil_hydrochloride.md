@@ -91,6 +91,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
+This Evidence Pack is materially incomplete — there are no TxGNN-predicted indications, and no verified safety information.
 
 **To proceed, the following is needed:**
 

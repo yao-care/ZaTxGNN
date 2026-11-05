@@ -68,7 +68,7 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Dosage forms are oral capsules. The local records contain no approved-indication text. Essential Medicines List status was not available in the data compiled for this report.
+Dutasteride is marketed in South Africa. Dosage forms are oral capsules. The local records contain no approved-indication text. Essential Medicines List status was not available in the data compiled for this report.
 
 ## Safety Considerations
 

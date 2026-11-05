@@ -90,7 +90,7 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
+Naproxen is marketed in South Africa. Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

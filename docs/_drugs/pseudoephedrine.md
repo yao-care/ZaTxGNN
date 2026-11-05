@@ -85,7 +85,7 @@ No human randomised controlled trial data are included. For the allergic urticar
 
 ## South Africa Market Information
 
-The first 5 are shown. EML inclusion status is not available.
+No approved indication text is available in the data compiled for this report. The first 5 are shown. EML inclusion status is not available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

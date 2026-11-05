@@ -96,7 +96,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but there are no trials or publications for punctate epithelial keratoconjunctivitis (Evidence Level L5).
+The TxGNN score is very high, but there are no trials or publications for punctate epithelial keratoconjunctivitis (Evidence Level L5). Many cases are viral or non-infectious, and no ophthalmic trimethoprim product was identified among the South African registrations.
 
 **To proceed, the following is needed:**
 - Clinical or literature evidence of trimethoprim (or polymyxin B/trimethoprim) in punctate epithelial keratoconjunctivitis, ideally stratified by bacterial versus viral cause

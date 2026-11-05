@@ -81,6 +81,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Decision: Hold**
 
 **Rationale:**
+The TxGNN model did not produce any repurposing predictions for Cupric Chloride Dihydrate — making a meaningful evaluation impossible at this stage.
 
 **To proceed, the following is needed:**
 

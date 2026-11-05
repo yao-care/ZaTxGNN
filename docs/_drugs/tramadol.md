@@ -71,7 +71,7 @@ Currently no related literature available for tramadol in this predicted indicat
 
 ## South Africa Market Information
 
-Approved indication text and Essential Medicines List (EML) status were not available in the data compiled for this report. Some product names (for example Tramazac co, Painogesic Co, Dytracet, Tamoltra) suggest tramadol/paracetamol combinations, although the records classify them as single entries.
+Tramadol is marketed in South Africa. Approved indication text and Essential Medicines List (EML) status were not available in the data compiled for this report. Some product names (for example Tramazac co, Painogesic Co, Dytracet, Tamoltra) suggest tramadol/paracetamol combinations. Please confirm the composition in the Professional Information (PI).
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

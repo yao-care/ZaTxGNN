@@ -71,7 +71,7 @@ Currently no related literature is available for hyperamylasemia.
 
 ## South Africa Market Information
 
-The licence records contain no approved indication text. Essential Medicines List status could not be determined from the data compiled for this report. The 5 main registrations are listed below.
+Amoxicillin is marketed in South Africa. The licence records contain no approved indication text. Essential Medicines List status could not be determined from the data compiled for this report. The 5 main registrations are listed below.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

@@ -79,7 +79,7 @@ None of the publications below tests morphine as a treatment for myofascial pain
 
 ## South Africa Market Information
 
-No approved-indication text is recorded for them.
+Morphine-containing products are marketed in South Africa. No approved-indication text is recorded for them.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

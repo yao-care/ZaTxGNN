@@ -114,7 +114,7 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (0.9963), with no clinical trials or publications for punctate epithelial keratoconjunctivitis (Evidence Level L5). The registered product is an oral tablet, and no route compatibility has been established for an eye-surface condition.
+The prediction is supported only by a model score (0.9963), with no clinical trials or publications for punctate epithelial keratoconjunctivitis (Evidence Level L5). No route compatibility has been established for an eye-surface condition.
 
 **To proceed, the following is needed:**
 - A systematic search for clinical and preclinical evidence of tetracyclines or minocycline in punctate epithelial keratoconjunctivitis and related ocular surface disease

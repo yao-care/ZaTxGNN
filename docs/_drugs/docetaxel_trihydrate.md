@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Docetaxel Trihydrate is a well-established taxane-class antineoplastic agent used globally for solid tumours including breast, lung, prostate, and gastric cancers. A **Hold** decision is warranted until critical data gaps are resolved.
+Docetaxel Trihydrate is a well-established taxane-class antineoplastic agent used globally for solid tumours including breast, lung, prostate, and gastric cancers. However, the current Evidence Pack contains **no TxGNN repurposing predictions** for this compound. A **Hold** decision is warranted until critical data gaps are resolved.
 
 ---
 
@@ -73,6 +73,8 @@ Docetaxel Trihydrate is confirmed as a taxane-class cytotoxic agent; the drug na
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+> **Note:** No SAHPRA-approved PI was found in this Evidence Pack.
 
 ---
 

@@ -91,7 +91,7 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-The approved indication text was not available for these registrations. Essential Medicines List (EML) status was not available in the data compiled for this report. Five main registrations are shown below.
+Metformin is marketed in South Africa. The approved indication text was not available for these registrations. Essential Medicines List (EML) status was not available in the data compiled for this report. Five main registrations are shown below.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

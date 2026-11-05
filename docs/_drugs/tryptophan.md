@@ -85,7 +85,7 @@ For restless legs syndrome, the supporting evidence consists of small 1986-1987 
 
 ## South Africa Market Information
 
-Tryptophan is registered only as a component of multi-ingredient infusion products. The Essential Medicines List (EML) status was not available.
+Tryptophan is registered only as a component of multi-ingredient infusion products. No approved indication text is available in the data compiled for this report. The Essential Medicines List (EML) status was not available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

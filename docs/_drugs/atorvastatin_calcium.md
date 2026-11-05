@@ -73,7 +73,7 @@ Please refer to the **SAHPRA-approved Professional Information (PI)** for full s
 **Decision: Hold**
 
 **Rationale:**
-Without at minimum a valid `predicted_indications` entry, no evidence-based repurposing evaluation can be completed.
+The Evidence Pack for atorvastatin calcium is incomplete: TxGNN returned no repurposing predictions. Without at minimum a valid `predicted_indications` entry, no evidence-based repurposing evaluation can be completed.
 
 **To proceed, the following is needed:**
 

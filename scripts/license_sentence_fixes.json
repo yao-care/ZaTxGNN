@@ -25,8 +25,9 @@
    "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象（「This result」指已刪的「查無 SAHPRA 註冊」）"
   },
   {
-   "sentence": "are known to be available in South Africa under Section 21 authorisations or full registration in other markets.",
-   "reason": "暗示南非只能經 Section 21 取得；新資料 bupropion 有 27 張 SAHPRA 有效註冊"
+   "sentence": "Bupropion-containing products such as **Wellbutrin XL** (antidepressant) and **Zyban** (smoking cessation) are known to be available in South Africa under Section 21 authorisations or full registration in other markets.",
+   "reason": "只刪「under Section 21 authorisations or full registration in other markets」（暗示南非只能經 Section 21 取得；新資料 bupropion 有 27 張 SAHPRA 有效註冊）；藥物身分（Wellbutrin XL 抗憂鬱、Zyban 戒菸）保留",
+   "keep": "Bupropion-containing products such as **Wellbutrin XL** (antidepressant) and **Zyban** (smoking cessation) are known to be available in South Africa."
   }
  ],
  "citalopram_hydrobromide": [
@@ -79,6 +80,16 @@
   {
    "sentence": "All are topical dosage forms (cream or ointment), and none is an ophthalmic preparation.",
    "reason": "新資料的有效註冊另有滴劑、錠劑、懸液與注射劑"
+  },
+  {
+   "sentence": "Because the registered products are not ophthalmic formulations, safety in the eye cannot be assumed from the existing skin products.",
+   "reason": "2026-11-05 子句層級復原複查：前提與新事實矛盾（新資料有眼用製劑 Fucithalmic），剩下的部分會暗示沒有眼用製劑，整句刪除",
+   "keep": ""
+  },
+  {
+   "sentence": "- An ophthalmic formulation and route assessment, since current South African registrations are topical skin products only",
+   "reason": "2026-11-05 子句層級復原複查：只刪「since current South African registrations are topical skin products only」（新資料有眼用製劑 Fucithalmic 與口服、注射劑型）",
+   "keep": "- An ophthalmic formulation and route assessment"
   }
  ],
  "ginseng": [
@@ -192,25 +203,34 @@
  "abacavir": [
   {
    "sentence": "Verify against the SAHPRA register before relying on them.",
-   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+   "reason": "2026-11-05 用戶決定：本身不矛盾，前句改為只刪子句後，段落讀得通，保留原句",
+   "keep": "Verify against the SAHPRA register before relying on them."
   }
  ],
  "atenolol": [
   {
    "sentence": "Please verify against the registration records.",
-   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+   "reason": "2026-11-05 用戶決定：本身不矛盾，前句改為只刪子句後，段落讀得通，保留原句",
+   "keep": "Please verify against the registration records."
   }
  ],
  "quinapril": [
   {
    "sentence": "Please verify against the SAHPRA Professional Information.",
-   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+   "reason": "2026-11-05 用戶決定：本身不矛盾，前句改為只刪子句後，段落讀得通，保留原句",
+   "keep": "Please verify against the SAHPRA Professional Information."
   }
  ],
  "tramadol": [
   {
    "sentence": "Please confirm the composition in the Professional Information (PI).",
-   "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象"
+   "reason": "2026-11-05 用戶決定：本身不矛盾，前句改為只刪子句後，段落讀得通，保留原句",
+   "keep": "Please confirm the composition in the Professional Information (PI)."
+  },
+  {
+   "sentence": "Some product names (for example Tramazac co, Painogesic Co, Dytracet, Tamoltra) suggest tramadol/paracetamol combinations, although the records classify them as single entries.",
+   "reason": "2026-11-05 子句層級復原複查：只刪「although the records classify them as single entries」（新紀錄把這些產品記為複方）；品名提示複方的部分與新事實一致，保留",
+   "keep": "Some product names (for example Tramazac co, Painogesic Co, Dytracet, Tamoltra) suggest tramadol/paracetamol combinations."
   }
  ],
  "glimepiride": [
@@ -222,7 +242,13 @@
  "loperamide": [
   {
    "sentence": "No ophthalmic formulation is registered; the available forms are oral tablets and syrup.",
-   "reason": "新資料另有膠囊、發泡錠、口服液、滴劑等劑型"
+   "reason": "只刪「the available forms are oral tablets and syrup」（新資料另有膠囊、發泡錠、口服液等劑型）；「No ophthalmic formulation is registered」新資料未見眼用劑型，保留",
+   "keep": "No ophthalmic formulation is registered."
+  },
+  {
+   "sentence": "Loperamide is registered in South Africa as a single-ingredient product under 4 valid registrations.",
+   "reason": "2026-11-05 子句層級復原複查：「single-ingredient product」也與新事實矛盾（25 張中 10 張為複方），沒有可單獨保留的部分，整句刪除",
+   "keep": ""
   }
  ],
  "threonine": [
@@ -241,6 +267,101 @@
   {
    "sentence": "A data retrieval issue cannot be excluded.",
    "reason": "前句（「zero active SAHPRA product registrations」，與新事實 20 張有效矛盾、已刪）的延續，單獨留下會失去指涉對象"
+  }
+ ],
+ "methionine": [
+  {
+   "sentence": "These products are mostly multi-component nutrition and dialysis preparations, so their licences do not describe a stand-alone methionine product.",
+   "keep": "These products are mostly multi-component nutrition and dialysis preparations, so their licences do not describe a stand-alone methionine product.",
+   "reason": "2026-11-05 用戶決定：DEPENDENT 句本身不矛盾（新資料 methionine 的註冊仍以多成分營養／透析液為主），接在許可證表後讀得通，保留原句"
+  },
+  {
+   "sentence": "In South Africa it is registered only as an ingredient of parenteral nutrition and dialysis solutions, and no approved indication text is available in the data compiled for this report.",
+   "reason": "2026-11-05 子句層級復原複查：只刪「only」（新資料另有口服膠囊 Hepavite）",
+   "keep": "In South Africa it is registered as an ingredient of parenteral nutrition and dialysis solutions, and no approved indication text is available in the data compiled for this report."
+  }
+ ],
+ "meloxicam": [
+  {
+   "sentence": "Only one valid single-ingredient registration exists, and the route of administration is oral.",
+   "reason": "2026-11-05 子句層級復原複查：兩個子句都與新事實矛盾（有效 62 張；另有栓劑、注射劑），整句刪除",
+   "keep": ""
+  }
+ ],
+ "docetaxel_trihydrate": [
+  {
+   "sentence": "Until local registration is confirmed, prescribers should refer to an internationally recognised source (e.g., EMA-approved SmPC or FDA-approved PI for Docetaxel).",
+   "reason": "2026-11-05 子句層級復原複查：前提「尚未確認在地註冊」與新事實矛盾（有效 46 張）；前句改為只刪子句後此句不再被連帶刪除，改列人工刪除"
+  }
+ ],
+ "desogestrel": [
+  {
+   "sentence": "Desogestrel is a progestin used in hormonal contraceptives and is registered in South Africa as single-ingredient tablets.",
+   "reason": "2026-11-05 子句層級復原複查：只刪「single-ingredient」（8 張中 6 張為 desogestrel/ethinylestradiol 複方）；藥物簡介與劑型保留",
+   "keep": "Desogestrel is a progestin used in hormonal contraceptives and is registered in South Africa as tablets."
+  }
+ ],
+ "dexchlorpheniramine_maleate": [
+  {
+   "sentence": "Dexchlorpheniramine maleate is a first-generation H1-antihistamine with anticholinergic activity, marketed in South Africa as single-ingredient products.",
+   "reason": "2026-11-05 子句層級復原複查：只刪「as single-ingredient products」（新紀錄多為與 betamethasone 的複方）；藥物簡介與上市說法保留",
+   "keep": "Dexchlorpheniramine maleate is a first-generation H1-antihistamine with anticholinergic activity, marketed in South Africa."
+  }
+ ],
+ "norfloxacin": [
+  {
+   "sentence": "Both are single-ingredient, valid registrations for oral use.",
+   "reason": "2026-11-05 子句層級復原複查：「Both」與新事實矛盾（共 6 張、有效 4 張），拆不出不矛盾的完整子句，整句刪除",
+   "keep": ""
+  }
+ ],
+ "calcifediol": [
+  {
+   "sentence": "Both registrations are currently valid single-ingredient records, and the available dosage form is oral capsule.",
+   "reason": "2026-11-05 子句層級復原複查：只刪「Both registrations are currently valid single-ingredient records」（兩張都是複方）；劑型「oral capsule」與新紀錄一致，保留",
+   "keep": "The available dosage form is oral capsule."
+  }
+ ],
+ "atropine": [
+  {
+   "sentence": "- Assessment of route and formulation, since the only registered product is an oral capsule",
+   "reason": "2026-11-05 子句層級復原複查：只刪「since the only registered product is an oral capsule」（新資料共 40 張，多為注射劑）",
+   "keep": "- Assessment of route and formulation"
+  }
+ ],
+ "chlorobutanol": [
+  {
+   "sentence": "The only registered product is a topical cream, and there is no known pharmacological route to an erectile dysfunction effect.",
+   "reason": "2026-11-05 子句層級復原複查：只刪「The only registered product is a topical cream」（新資料共 5 張，另有耳滴劑、鼻用劑）；機轉說明保留",
+   "keep": "There is no known pharmacological route to an erectile dysfunction effect."
+  }
+ ],
+ "l-lysine": [
+  {
+   "sentence": "In South Africa it is registered only as a component of parenteral nutrition and infusion products, and no approved indication text is available.",
+   "reason": "2026-11-05 子句層級復原複查：只刪「only」（新資料另有口服膠囊 Activex 40 Plus）",
+   "keep": "In South Africa it is registered as a component of parenteral nutrition and infusion products, and no approved indication text is available."
+  }
+ ],
+ "glutamic_acid": [
+  {
+   "sentence": "Glutamic acid is an amino acid that, in South Africa, is registered only as a component of parenteral nutrition (infusion) products.",
+   "reason": "2026-11-05 子句層級復原複查：只刪「only」（新資料另有口服膠囊 Solatran 15）；藥物簡介保留",
+   "keep": "Glutamic acid is an amino acid that, in South Africa, is registered as a component of parenteral nutrition (infusion) products."
+  }
+ ],
+ "dl-alpha-tocopherol": [
+  {
+   "sentence": "In South Africa it is registered only as a component of a multivitamin infusion product (Cernevit).",
+   "reason": "2026-11-05 子句層級復原複查：只刪「only」（新資料共 20 張，另有膠囊、錠劑）",
+   "keep": "In South Africa it is registered as a component of a multivitamin infusion product (Cernevit)."
+  }
+ ],
+ "minocycline": [
+  {
+   "sentence": "The registered product is an oral tablet, and no route compatibility has been established for an eye-surface condition.",
+   "reason": "2026-11-05 子句層級復原複查：只刪「The registered product is an oral tablet」（新資料共 17 張，多為膠囊）；途徑相容性說明保留",
+   "keep": "No route compatibility has been established for an eye-surface condition."
   }
  ]
 }

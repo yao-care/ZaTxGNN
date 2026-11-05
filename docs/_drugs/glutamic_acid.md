@@ -38,7 +38,7 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Glutamic acid is an amino acid that, in South Africa, is registered only as a component of parenteral nutrition (infusion) products. The TxGNN model predicts it may be effective for **postmenopausal osteoporosis**, but there are currently **no registered clinical trials** and the **10 publications** retrieved provide only indirect support, mostly concerning vitamin K, vitamin D and bisphosphonates rather than glutamic acid itself.
+Glutamic acid is an amino acid that, in South Africa, is registered as a component of parenteral nutrition (infusion) products. The TxGNN model predicts it may be effective for **postmenopausal osteoporosis**, but there are currently **no registered clinical trials** and the **10 publications** retrieved provide only indirect support, mostly concerning vitamin K, vitamin D and bisphosphonates rather than glutamic acid itself.
 
 ## Quick Overview
 

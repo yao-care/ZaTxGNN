@@ -78,7 +78,7 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-The records list single-ingredient products in oral (tablet, capsule), injectable, suppository, sachet and topical gel forms. Indication text is not recorded in the local data. The main registrations are:
+Diclofenac is marketed in South Africa. The records list single-ingredient products in oral (tablet, capsule), injectable, suppository, sachet and topical gel forms. Indication text is not recorded in the local data. The main registrations are:
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

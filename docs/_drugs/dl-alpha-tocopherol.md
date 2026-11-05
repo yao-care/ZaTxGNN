@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-DL-alpha-Tocopherol is a form of vitamin E, a lipid-soluble antioxidant. In South Africa it is registered only as a component of a multivitamin infusion product (Cernevit).
+DL-alpha-Tocopherol is a form of vitamin E, a lipid-soluble antioxidant. In South Africa it is registered as a component of a multivitamin infusion product (Cernevit).
 The TxGNN model predicts it may be effective for **mature cataract**, but the data compiled for this report contain **0 clinical trials** and **0 publications** that directly study this disease.
 The prediction is therefore supported by the model score alone.
 

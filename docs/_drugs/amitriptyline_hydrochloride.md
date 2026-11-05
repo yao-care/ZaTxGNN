@@ -41,6 +41,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Amitriptyline hydrochloride is a tricyclic antidepressant (TCA) with established use in depression, neuropathic pain, and migraine prophylaxis.
+**No TxGNN repurposing predictions were generated in this evaluation run**.
 A complete repurposing assessment cannot be completed until the two identified data gaps — SAHPRA label warnings (Blocking) and formal mechanism of action data (High) — are resolved.
 
 ---

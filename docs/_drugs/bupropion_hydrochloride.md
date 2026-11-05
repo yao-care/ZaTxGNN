@@ -42,6 +42,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 Bupropion hydrochloride is a norepinephrine-dopamine reuptake inhibitor (NDRI) with established use in major depressive disorder and smoking cessation.
 The current evidence pack contains **no TxGNN repurposing predictions** for this drug, meaning a formal drug repurposing evaluation cannot be completed at this stage.
+Multiple blocking data gaps — including absent mechanism of action data, missing safety information — must be resolved before this candidate can advance.
 
 ---
 
@@ -75,6 +76,8 @@ Until these gaps are resolved and the prediction pipeline is re-run with a valid
 ---
 
 ## South Africa Market Information
+
+> Bupropion-containing products such as **Wellbutrin XL** (antidepressant) and **Zyban** (smoking cessation) are known to be available in South Africa.
 
 ---
 

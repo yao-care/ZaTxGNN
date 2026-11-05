@@ -99,7 +99,7 @@ Note: summaries are based mainly on titles and partial abstracts.
 
 ## South Africa Market Information
 
-Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
+Tenofovir disoproxil is widely registered in South Africa. Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

@@ -88,7 +88,7 @@ Currently no related literature available for this disease.
 | 53/3.2/0225 | Preovidlen | tablet | Valid |
 | 57/22.2/0880 | Envitavit | vial | Valid |
 
-No registered indication relates to the predicted disease. Essential Medicines List status was not available in the compiled data.
+The market status is Marketed. No registered indication relates to the predicted disease. Essential Medicines List status was not available in the compiled data.
 
 ---
 

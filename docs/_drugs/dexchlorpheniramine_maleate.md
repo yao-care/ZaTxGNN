@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Dexchlorpheniramine maleate is a first-generation H1-antihistamine with anticholinergic activity, marketed in South Africa as single-ingredient products.
+Dexchlorpheniramine maleate is a first-generation H1-antihistamine with anticholinergic activity, marketed in South Africa.
 The TxGNN model predicts it may be relevant to **acute intermittent porphyria** (score 0.9912).
 **No clinical trials and no publications** in the compiled data support this prediction, so it is a model output only.
 

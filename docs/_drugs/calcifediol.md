@@ -83,7 +83,7 @@ Currently no related literature available.
 | H2062 (ACT 101) | Filibon | capsule | Valid |
 | H2466 | Complenatal Ff | capsule | Valid |
 
-Both registrations are currently valid single-ingredient records, and the available dosage form is oral capsule.
+The available dosage form is oral capsule.
 
 ---
 

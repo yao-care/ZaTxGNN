@@ -96,7 +96,7 @@ Blood pressure–lowering agents are already used in migraine prevention, and ca
 
 Showing 5 of 43 registrations (valid registrations first).
 
-Essential Medicines List status is not available in the data compiled for this report.
+The drug is marketed in South Africa as an oral tablet. Essential Medicines List status is not available in the data compiled for this report.
 
 ## Safety Considerations
 

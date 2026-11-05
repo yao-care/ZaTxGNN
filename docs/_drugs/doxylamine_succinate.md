@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Doxylamine succinate is a first-generation H1 antihistamine with sedative properties, widely used internationally for short-term insomnia and pregnancy-related nausea (in combination with pyridoxine). This report serves as a data gap summary; a full repurposing evaluation cannot be completed until core data items are resolved.
+Doxylamine succinate is a first-generation H1 antihistamine with sedative properties, widely used internationally for short-term insomnia and pregnancy-related nausea (in combination with pyridoxine). The current evidence pack contains **no TxGNN repurposing predictions** for this drug. This report serves as a data gap summary; a full repurposing evaluation cannot be completed until core data items are resolved.
 
 ---
 
