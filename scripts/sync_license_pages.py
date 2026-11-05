@@ -65,11 +65,14 @@ def _n(x):
 IN_TOTAL = re.compile(r"\b" + NUMW + r"\s+in total\b", re.I)
 REST = re.compile(r"\b(?:other|remaining|further|additional|more)\s+" + NUMW + r"\s+(?=are\b|include|exist|is\b|registrations?|licen|products?|entries)|"
                   r"\b" + NUMW + r"\s+(?:other|remaining|further|additional|more)\s+(?=[\w-]*\s*(registrations?|licen|products?|syrup|valid|entries))", re.I)
-ONLY = re.compile(r"\b(the|this|its) only (valid |local |registered |current )?(registration|product|licen[cs]e|entry|record)\b|"
+ONLY = re.compile(r"\b(the|this|its) only (valid |local |registered |current )?(SAHPRA |local )?(registration|product|licen[cs]e|entry|record)\b|"
                   r"\bonly (one|1|a single) (valid |registered |local )?(registration|product|licen[cs]e)\b|\b(the|this) single registration\b|"
                   r"\bthe registered product (is|was)\b|\bthe registered dosage form is\b|\bonly (one|1) registration\b", re.I)
 BOTH = re.compile(r"\b(both|neither)\s+(of the\s+)?([\w-]+\s+){0,2}?(registrations?|licen[cs]es?|records|entries|products|registered products)\b", re.I)
 KIND_SINGLE = re.compile(r"\b(recorded|classif\w+|listed|label\w*|classed)\s+(them\s+)?(in the (records|data|source data)\s+)?as\s+(a\s+)?single[- ](ingredient|entity|entry)", re.I)
+# 單數說法（「The registration is valid」「This registration should not…」）：寫的是舊資料只有一張時的情形
+SINGULAR = re.compile(r"^\W*(the|this) (sole |single |only )?(SAHPRA |local )?(registration|licen[cs]e|registered product|product|record)\b"
+                      r"(?! (table|list|data|names?|information|records))", re.I)
 ALL_SINGLE = re.compile(r"\ball\b[^.;]{0,40}\bsingle[- ](ingredient|entity|entry)", re.I)
 GONE_CTX = re.compile(r"registration|registered|licen[cs]e|record|entr(y|ies)|listed|products?\b|named", re.I)
 # 緊接在被刪句後面、以指代詞開頭的句子：前句刪掉後就斷了（「This should…」「They are…」「It should not…」）
@@ -135,6 +138,9 @@ def verdict(ck, s, fc, recs, counts=True, rest=None, gone=()):
             pool = named or [r for r in recs if r.get("license_status", "valid") == "valid"]
             if any(r.get("kind") == "combo" for r in pool):
                 return "COMPOSITION", basis + "；新紀錄（SAHPRA 成分全文）把這些產品記為複方，句中說資料把它們記成單方"
+        if n > 1 and SINGULAR.search(s) and re.search(r"\bvalid\b|single[- ]ingredient|cancel", s, re.I) \
+                and not re.search(r"Essential Medicines List|\bEML\b", s):
+            return "COUNT_TOTAL", basis + "；句中以單數描述唯一一張註冊（舊資料只有一張）"
         if n > 1 and ONLY.search(s):
             return "COUNT_TOTAL", basis + "；句中寫只有一張／一個產品"
         if ALL_SINGLE.search(s) and any(r.get("kind") == "combo" for r in recs if r.get("license_status", "valid") == "valid" and not r.get("excluded_reason")):
