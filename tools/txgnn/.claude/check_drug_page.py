@@ -329,12 +329,35 @@ SOURCE_STATUS = {
 # TH 2026-10-31 移出：原本的許可證號是程式編造的，改用 Thai FDA 查詢系統（pertento）的真實許可證，狀態列回到一般寫法
 
 
-def marketed_text(site, lang, v, n, partial):
+# 狀態未經主管機關確認、但照樣算有效的許可（Za 2026-11-06 用戶決定）：fc["unconfirmed"]＝只在 MPR 價格登錄有、SAHPRA 匯出查不到的
+# 有效註冊數（含在 valid 裡，不是另一種狀態）。狀態列與張數列加註，許可證表該列狀態格寫「Valid (status not confirmed by SAHPRA)」
+UNCONFIRMED_ST = {"ZaTxGNN": {"extra": "; {u} of the valid not confirmed by SAHPRA", "count": "{n} (valid: {v}, of which {u} not confirmed by SAHPRA)"}}
+
+
+def _with_unknown(site, text, fc):
+    cfg = UNCONFIRMED_ST.get(site)
+    if cfg and fc and (fc.get("unconfirmed") or 0) and not fc.get("partial") and text.endswith(")"):
+        return text[:-1] + cfg["extra"].format(u=fc["unconfirmed"]) + ")"
+    return text
+
+
+def marketed_text(site, lang, v, n, partial, fc=None):
     """事實是 Marketed 時的狀態列：來源不是許可證資料的站用 SOURCE_STATUS，其他站用 mv2.T"""
     if site in SOURCE_STATUS:
         return SOURCE_STATUS[site][1 if partial else 0].format(v=v, n=n)
     tl = mv2.T.get(lang) or mv2.T["en"]
-    return (tl[1] if partial else tl[0]).format(v=v, n=n)
+    return _with_unknown(site, (tl[1] if partial else tl[0]).format(v=v, n=n), fc)
+
+
+def count_text(site, lang, fc):
+    """張數列應有的值（M4 與各寫入程式共用；與母 repo 同名函式的寫法一致）"""
+    tl = mv2.T.get(lang) or mv2.T["en"]
+    n, v, partial = fc.get("total"), fc.get("valid") or 0, fc.get("partial")
+    if UNCONFIRMED_ST.get(site) and (fc.get("unconfirmed") or 0) and not partial:
+        return UNCONFIRMED_ST[site]["count"].format(n=n, v=v, u=fc["unconfirmed"])
+    if partial:
+        return tl[3].format(n=n if n is not None else len(fc.get("licenses") or {}))
+    return tl[2].format(n=n, v=v)
 
 
 # 2026-10-30（pm）：概覽表本站狀態列／張數列的標準欄位名（各站主流寫法；主流寫法不準確的修正：US 不只 NDA、
@@ -1032,7 +1055,7 @@ def check_page(site, f, cls, want_noindex):
             E("M1", "找不到本站狀態列")
         else:
             if ms == "Marketed":
-                want_s = marketed_text(site, lang, v, n, partial)
+                want_s = marketed_text(site, lang, v, n, partial, fc)
                 if st[1] != want_s:
                     E("M1", f"狀態列「{st[1][:40]}」≠「{want_s}」")
             elif ms == "Approved, not marketed":
@@ -1064,7 +1087,7 @@ def check_page(site, f, cls, want_noindex):
         # M4（2026-10-31 pm 退件 BR）：張數列要跟狀態列同一套事實、同一套寫法（部分紀錄也要檢查），不得有括號內部註記
         # （例「20 (todos cancelados)」配「pelo menos 20」的狀態列、「0 (consulta realizada com grafia incorreta…)」）。Tw 格式不同，不查。
         if cr is not None and site != "TwTxGNN" and (n is not None or partial):
-            want_c = tl[3].format(n=n if n is not None else len(fc.get("licenses") or {})) if partial else tl[2].format(n=n, v=v or 0)
+            want_c = count_text(site, lang, fc)
             if cr[1] != want_c:
                 E("M4", f"張數列「{cr[1][:50]}」≠「{want_c}」")
         lic = {mv2.norm_id(k): s for k, s in (fc.get("licenses") or {}).items()}

@@ -6,6 +6,7 @@ dump_license_facts_20261021.py（事實）與 license_table_sync 的 sync_market
 1. 許可證表：「## South Africa Market Information」段落裡原有的表，換成程式產生的表（Licence／Product／Dosage form／Status，
    有效在前、單方在前），列數＝原表列數與 min(5, 總數) 取大（最多 20）；總數多於列數時表後加一句「Showing N of M registrations」。
    段落裡沒有表的頁不新增；新資料沒有任何註冊時拿掉表，改一句「No SAHPRA registration was found in the data compiled for this report.」
+   狀態格：只在 MPR 價格登錄有、SAHPRA 匯出查不到的有效註冊寫「Valid (status not confirmed by SAHPRA)」（2026-11-06 用戶決定：照樣算有效，只加註）。
 2. 刪句：正文（表格、標題、概覽表除外）跟新事實矛盾的句子整句刪除，不改寫（前例 DE、In 的 ONLY_CANCEL 做法）：
    M3／M3a／M3b／M3c（check_drug_page 的規則，含 2026-11-05 擴充）、張數精確不符（COUNT_*）、
    點名的產品狀態與新資料相反（NAMED_STATUS）、人工清單 scripts/license_sentence_fixes.json（附理由，例：LLM 開場白外洩）。
@@ -23,8 +24,10 @@ SITE = "ZaTxGNN"
 SEC = "## South Africa Market Information"
 HEAD = "| Licence | Product | Dosage form | Status |\n|------|------|------|------|"
 LAB = {"valid": "Valid", "cancelled": "Cancelled", "not_marketed": "Approved, not marketed"}
+UNCONFIRMED_LAB = "Valid (status not confirmed by SAHPRA)"
 NONE_LINE = "No SAHPRA registration was found in the data compiled for this report."
 SHOW = "Showing {n} of {m} registrations (valid registrations first)."
+SHOW_RX = re.compile(r"^Showing \d+ of \d+ registrations \(valid registrations first\)\.$")
 ABBR = [("Reg. No.", "Reg․ No․"), ("e.g.", "e․g․"), ("i.e.", "i․e․"), ("vs.", "vs․"),
         ("No.", "No․"), ("et al.", "et al․"), ("approx.", "approx․"), ("Vit.", "Vit․"), ("St.", "St․")]
 QUAL = re.compile(r"\b(further|other|remaining|additional|more|main|following|first|listed|shown|showing|these|those|another)\b", re.I)
@@ -255,6 +258,14 @@ def partial(ck, s, fc, recs, **kw):
     return text
 
 
+def label(r):
+    """許可證表狀態格；只在 MPR 有、SAHPRA 匯出查不到的有效註冊加註（2026-11-06 用戶決定：照樣算有效，只加註、不改判）"""
+    st = r.get("license_status") or "valid"
+    if st == "valid" and r.get("status_unconfirmed"):
+        return UNCONFIRMED_LAB
+    return LAB.get(st, "Valid")
+
+
 def table_block(recs, nrows):
     seen, rows = set(), []
     for r in recs:
@@ -263,7 +274,7 @@ def table_block(recs, nrows):
             continue
         seen.add(k)
         rows.append(f"| {k} | {str(r.get('brand_name_en') or '').replace('|', '/').strip()[:70]} | "
-                    f"{str(r.get('dosage_form') or '').replace('|', '/').strip() or 'Not recorded'} | {LAB.get(r.get('license_status') or 'valid', 'Valid')} |")
+                    f"{str(r.get('dosage_form') or '').replace('|', '/').strip() or 'Not recorded'} | {label(r)} |")
     return HEAD.split("\n") + rows[:nrows], len(rows)
 
 
@@ -301,6 +312,8 @@ def process(ck, page, fc, bundle, manual):
             sec = l.strip()
         if not l.strip() or l.startswith(("|", "#", "{:", "<", "---")):
             continue
+        if SHOW_RX.match(l.strip()):
+            continue  # 表格下程式產生的「Showing N of M」：表格那一步會依新資料重寫，不當成正文刪句
         sents = split_sentences(l)
         keep, changed = [], False
         prev_deleted = False

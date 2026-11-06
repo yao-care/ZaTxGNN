@@ -91,9 +91,10 @@ def update(rec, new):
     cls = "cancelled" if new.lower().startswith("cancel") else "valid"
     if rec.get("status") == new and rec.get("license_status") == cls:
         return False
-    if not rec.get("status") and cls == "valid" and rec.get("license_status") in (None, "valid"):
+    if not rec.get("status") and cls == "valid" and rec.get("license_status") in (None, "valid") and not rec.get("status_unconfirmed"):
         return False  # 原本空白（reviewer 視為有效）、現在仍註冊：意義不變
     rec["status"], rec["license_status"] = new, cls
+    rec.pop("status_unconfirmed", None)  # SAHPRA 查得到了：不再是「狀態未經 SAHPRA 確認」
     return True
 
 

@@ -133,6 +133,8 @@ class DrugEvidencePackGenerator:
                 "approved_indication_text": r.get("indication", r.get("適應症", "")),
                 "kind": r.get("kind") or ("single" if len(ings) <= 1 else "combo"),
                 "status": status,
+                # 2026-11-06（用戶決定）：只在 MPR 有、SAHPRA 匯出查不到的註冊照樣算有效，但標記「狀態未經 SAHPRA 確認」
+                **({"status_unconfirmed": True} if status == "valid" and r.get("status_unconfirmed") else {}),
             })
         valid = [x for x in lics if x["status"] == "valid"]
         partial = int(reg.get("total_matches") or 0) > len(recs)
@@ -148,6 +150,7 @@ class DrugEvidencePackGenerator:
             "valid_combo": sum(1 for x in valid if x["kind"] == "combo"),
             "cancelled": sum(1 for x in lics if x["status"] == "cancelled"),
             "not_marketed": sum(1 for x in lics if x["status"] == "not_marketed"),
+            "unconfirmed": sum(1 for x in valid if x.get("status_unconfirmed")),
             "licenses": lics,
             "_note": "許可證表與張數由程式產生；不要自行列字號或補列。",
         }

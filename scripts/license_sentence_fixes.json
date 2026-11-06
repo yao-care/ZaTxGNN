@@ -34,6 +34,11 @@
   {
    "sentence": "Before any procurement or regulatory decision, this result should be verified against the current",
    "reason": "前一句（與新事實矛盾、已刪）的延續，單獨留下會失去指涉對象（「this result」指已刪的「No registered products were found」；並說資料可能尚未收錄，新資料 53 張有效）"
+  },
+  {
+   "sentence": "from the SAHPRA or TFDA official source",
+   "reason": "2026-11-06：只刪「or TFDA」（台灣 TFDA 模板殘留，南非站不適用；checker M5）",
+   "keep": "- **Retrieve and parse the package insert (PI)** from the SAHPRA official source for warnings, contraindications, and approved indication text — Data Gap DG001"
   }
  ],
  "donepezil_hydrochloride": [
@@ -362,6 +367,37 @@
    "sentence": "The registered product is an oral tablet, and no route compatibility has been established for an eye-surface condition.",
    "reason": "2026-11-05 子句層級復原複查：只刪「The registered product is an oral tablet」（新資料共 17 張，多為膠囊）；途徑相容性說明保留",
    "keep": "No route compatibility has been established for an eye-surface condition."
+  }
+ ],
+ "arginine": [
+  {
+   "sentence": "All products are parenteral (infusion) formulations.",
+   "reason": "2026-11-06：與事實矛盾：有效註冊 T1100 Minamino 是口服液（EACH 5 ML CONTAINS…，維生素 B 群類舊制藥品），不是全部注射劑",
+   "keep": ""
+  },
+  {
+   "sentence": "No oral arginine product was identified, so route compatibility with a gastroparesis indication has not been assessed.",
+   "reason": "2026-11-06：只刪「No oral arginine product was identified」子句（T1100 Minamino 是口服液）；「途徑相容性未評估」是方法論，保留",
+   "keep": "Route compatibility with a gastroparesis indication has not been assessed."
+  },
+  {
+   "sentence": "- Assessment of an appropriate route and formulation (current registrations are parenteral only)",
+   "reason": "2026-11-06：只刪括號「current registrations are parenteral only」（T1100 Minamino 是口服液）",
+   "keep": "- Assessment of an appropriate route and formulation"
+  }
+ ],
+ "trimethoprim": [
+  {
+   "sentence": "Many cases are viral or non-infectious, and no ophthalmic trimethoprim product was identified among the South African registrations.",
+   "reason": "2026-11-06：人工核對屬實：本藥有效註冊是錠劑、懸液、注射劑、口服液，沒有眼用製劑；母 repo checker M3b 誤判為「查無註冊」，保留原句",
+   "keep": "Many cases are viral or non-infectious, and no ophthalmic trimethoprim product was identified among the South African registrations."
+  }
+ ],
+ "betamethasone_acetate": [
+  {
+   "sentence": "Obtain the SAHPRA Professional Information (PI) or the TFDA package insert to extract approved warnings and contraindications.",
+   "reason": "2026-11-06：只刪「or the TFDA package insert」（台灣 TFDA 模板殘留，南非站不適用；checker M5）",
+   "keep": "- **[Blocking — DG001]** Obtain the SAHPRA Professional Information (PI) to extract approved warnings and contraindications."
   }
  ]
 }
