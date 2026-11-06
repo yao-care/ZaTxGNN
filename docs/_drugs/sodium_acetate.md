@@ -75,10 +75,10 @@ The registration data contain no approved indication text, and Essential Medicin
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| 38/34/0172 | Extraneal 2L single bag | infusion | Valid |
 | 29/34/0325 | Sabax Dianeal Normal Calcium With 1.5% Glucose | Dia | Valid |
 | 29/34/0326 | Dianeal norm ca/gluc 2.5% 2000ml afb9346 | infusion | Valid |
 | 36/34/0277 | Capd/dpca 2 stay safe 2l 1.5% glucose | infusion | Valid |
-| 38/34/0172 | Extraneal 2L | solution | Valid |
 | D/24/208 | Sabax ringer-lactate 500ml | solution | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
