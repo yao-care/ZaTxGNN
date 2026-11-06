@@ -107,7 +107,7 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 The high TxGNN score (0.9975) is a computational prediction with no supporting trials or publications and no plausible mechanism. The evidence level is L5. Safety review also cannot proceed because the package insert warnings and contraindications are not yet available.
 
 **To proceed, the following is needed:**
-- The SAHPRA package insert (warnings, contraindications, approved indications) for all three registrations
+- The SAHPRA package insert (warnings, contraindications, approved indications)
 - Mechanism of action data for glimepiride
 - A systematic literature search for glimepiride or sulfonylureas in stiff limb and stiff person syndromes
 - Mechanistic evidence for any effect on GABAergic or neuromuscular pathways

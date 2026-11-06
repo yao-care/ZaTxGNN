@@ -185,11 +185,13 @@ def sync_market_rows(site, dry=False):
             if ms == "Marketed":  # Kr 2026-10-31 起依 nedrug 註銷狀態，與其他站相同
                 want = ck.marketed_text(site, lang, v, n, partial, fc)
             elif ms == "Approved, not marketed":
-                want = ck.NOT_MKT.get(lang, ck.NOT_MKT["en"]).format(n=n)
+                want = ck.not_marketed_text(site, lang, fc)
             elif ms == "Cancelled only":
                 want = ck.cancelled_text(site, lang, n)
             elif ms == "Not marketed":
-                want = ck.not_reg_text(site, lang)
+                want = ck.not_reg_text(site, lang, fc)
+            elif ms == "Status unknown" and hasattr(ck, "unknown_status_text"):
+                want = ck.unknown_status_text(site, lang, fc)
             if want and st[1] != want:
                 ch.append((st[0], st[1], want))
         cr = ck.count_row(site, rows)
@@ -228,7 +230,7 @@ def drop_excluded_rows(site, dry=False):
         keep = []
         for l in lines:
             c = [x.strip() for x in l.strip().strip("|").split("|")] if l.startswith("|") else []
-            if c and norm(c[0]) in vet:
+            if c and (norm(c[0]) in vet or norm(re.sub(r"^MA\s*", "", c[0])) in vet):  # Dk 有些表寫「MA 28105835216」
                 out.append((pg.stem, f"許可證表 {c[0]}（獸用）", l.strip(), "（刪除）"))
                 continue
             keep.append(l)

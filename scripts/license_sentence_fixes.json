@@ -242,6 +242,11 @@
   {
    "sentence": "The third product, Amaryl Combi, is named as a combination product; its licence is not used here to describe the single-ingredient drug.",
    "reason": "「第三個產品」指舊表格；Amaryl Combi 在新資料已註銷，也不在表內"
+  },
+  {
+   "sentence": "The SAHPRA package insert (warnings, contraindications, approved indications) for all three registrations",
+   "cut": " for all three registrations",
+   "reason": "依成分重建後（SAHPRA 2026-11-06）本藥註冊 46 張，有效 35 張、註銷 11 張；句子的總數／張數說法與事實不符（checker 總數說法規則）；只刪張數子句，其餘保留（2026-11-06 逐句核對）"
   }
  ],
  "loperamide": [
