@@ -43,8 +43,9 @@ Registration status comes from the [SAHPRA](https://www.sahpra.org.za/) medapps 
 | Some cancelled | {{ za.medicines.some_cancelled }} |
 | All cancelled | {{ za.medicines.all_cancelled }} |
 | Only part of the list held in the data | {{ za.medicines.partial_list }} |
-
-The {{ za.complete_reports }} reports with a complete list name {{ za.registrations.listed }} SAHPRA registration numbers, {{ za.registrations.valid }} of them valid.
+{% if za.medicines.none_listed > 0 %}| No SAHPRA registration found in the data | {{ za.medicines.none_listed }} |
+{% endif %}
+The {{ za.complete_reports }} reports with a complete list name {{ za.registrations.listed }} SAHPRA registration numbers, {{ za.registrations.valid }} of them valid{% if za.registrations.valid_not_confirmed_by_sahpra > 0 %} ({{ za.registrations.valid_not_confirmed_by_sahpra }} of the valid ones appear only in the Medicine Price Registry, and their status is not confirmed by SAHPRA){% endif %}.
 
 ### Medicines with the most SAHPRA registrations listed
 
