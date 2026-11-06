@@ -24,7 +24,7 @@ for f in sorted(glob.glob("data/bundles/*/drug_bundle.json")):
     v = sum(1 for s in lic.values() if s == "valid")
     nm = sum(1 for s in lic.values() if s == "not_marketed")
     out[Path(f).parent.name] = {"market_status": lr.get("market_status"), "total": lr.get("total_licenses") if not lr.get("partial_list") else None,
-                                "valid": v, "not_marketed": nm, "cancelled": len(lic) - v - nm, **({"unconfirmed": lr["unconfirmed"]} if lr.get("unconfirmed") else {}), "partial": bool(lr.get("partial_list")), "licenses": lic}
+                                "valid": v, "not_marketed": nm, "cancelled": len(lic) - v - nm, **({"unconfirmed": lr["unconfirmed"]} if lr.get("unconfirmed") else {}), **({"unconfirmed_ids": sorted(x["license_number"] for x in lr.get("licenses", []) if x.get("status_unconfirmed"))} if lr.get("unconfirmed") else {}), "partial": bool(lr.get("partial_list")), "licenses": lic}
 json.dump(out, sys.stdout, ensure_ascii=False)
 '''
 
