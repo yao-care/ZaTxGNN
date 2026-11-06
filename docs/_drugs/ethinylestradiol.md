@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Ethinylestradiol is a synthetic estrogen widely used in hormonal products, and it is registered in South Africa in 20 single-ingredient products.
+Ethinylestradiol is a synthetic estrogen widely used in hormonal products, and it is registered in South Africa.
 The TxGNN model predicts it may be relevant to **elevated plasma zinc**, with a prediction score of **0.9963**.
 There are **no clinical trials and no publications** in the data compiled for this report that support this prediction.
 

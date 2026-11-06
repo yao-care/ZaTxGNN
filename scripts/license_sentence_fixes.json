@@ -404,5 +404,37 @@
    "reason": "2026-11-06：只刪「or the TFDA package insert」（台灣 TFDA 模板殘留，南非站不適用；checker M5）",
    "keep": "- **[Blocking — DG001]** Obtain the SAHPRA Professional Information (PI) to extract approved warnings and contraindications."
   }
+ ],
+ "ethinylestradiol": [
+  {
+   "sentence": "and it is registered in South Africa in 20 single-ingredient products.",
+   "reason": "依成分重建後（SAHPRA 2026-11-06）本藥註冊 78 張、有效 65 張，其中單方 2 張（依各註冊的有效成分數）；句子說全部（或 N 張）是單方，與事實不符；只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定：單方／複方說法跟事實不符只刪錯的詞或子句）",
+   "cut": " in 20 single-ingredient products"
+  }
+ ],
+ "icodextrin": [
+  {
+   "sentence": "Only one valid single-ingredient registration exists.",
+   "reason": "依成分重建後（SAHPRA 2026-11-06）本藥註冊 1 張、有效 1 張，其中單方 0 張（依各註冊的有效成分數）；句子說全部（或 N 張）是單方，與事實不符；只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定：單方／複方說法跟事實不符只刪錯的詞或子句）",
+   "cut": "single-ingredient "
+  }
+ ],
+ "norgestimate": [
+  {
+   "sentence": "Both registrations are valid, single-ingredient entries for oral tablets.",
+   "reason": "依成分重建後（SAHPRA 2026-11-06）本藥註冊 2 張、有效 2 張，其中單方 0 張（依各註冊的有效成分數）；句子說全部（或 N 張）是單方，與事實不符；只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定：單方／複方說法跟事實不符只刪錯的詞或子句）",
+   "cut": ", single-ingredient entries for oral tablets"
+  }
+ ],
+ "thiamine": [
+  {
+   "sentence": "Thirteen single-ingredient registrations are listed (the list may be partial).",
+   "reason": "依成分重建後（SAHPRA 2026-11-06）本藥註冊 81 張、有效 41 張，其中單方 2 張（依各註冊的有效成分數）；「13 張單方註冊、清單可能不完整」張數、單方、部分紀錄都與事實不符（註冊 81 張是完整清單，單方 2 張）；整句刪（2026-11-06 用戶決定：單方／複方說法跟事實不符只刪錯的詞或子句）"
+  },
+  {
+   "sentence": "No approved indication text is recorded for any of them.",
+   "reason": "依成分重建後（SAHPRA 2026-11-06）本藥註冊 81 張、有效 41 張，其中單方 2 張（依各註冊的有效成分數）；前一句（13 張單方註冊）刪除後，本句的 them 失去指涉；只刪「for any of them」（2026-11-06 用戶決定：單方／複方說法跟事實不符只刪錯的詞或子句）",
+   "cut": " for any of them"
+  }
  ]
 }

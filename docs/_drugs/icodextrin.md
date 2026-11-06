@@ -5,7 +5,7 @@ layout: default
 title: Icodextrin
 parent: Known Uses Only (No New Predictions)
 nav_order: 258
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Icodextrin: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Icodextrin"
 predicted_indications: []
@@ -52,7 +52,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|------|------|------|
 | 38/34/0172 | Extraneal 2L single bag | infusion | Valid |
 
-Only one valid single-ingredient registration exists. Essential Medicines List (EML) status was not available in the data compiled for this report.
+Only one valid registration exists. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
 ## Safety Considerations
 

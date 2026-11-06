@@ -83,7 +83,7 @@ For the secondary open-angle glaucoma prediction, the following publications wer
 
 ## South Africa Market Information
 
-Thirteen single-ingredient registrations are listed (the list may be partial). No approved indication text is recorded for any of them. Five main registrations are shown:
+No approved indication text is recorded. Five main registrations are shown:
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|

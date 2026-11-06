@@ -76,7 +76,7 @@ Currently no related literature available.
 | X/18.8/46 | Cilest | tablet | Valid (status not confirmed by SAHPRA) |
 | X/18.8/47 | Tricilest | tablet | Valid (status not confirmed by SAHPRA) |
 
-Both registrations are valid, single-ingredient entries for oral tablets. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
+Both registrations are valid. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
 ## Safety Considerations
 
