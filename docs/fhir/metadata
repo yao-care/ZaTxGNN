@@ -20,6 +20,17 @@
     }
   ],
   "description": "ZaTxGNN drug repurposing prediction data exposed as FHIR resources. Contains drug repurposing predictions.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "ZA",
+          "display": "South Africa"
+        }
+      ]
+    }
+  ],
   "kind": "instance",
   "software": {
     "name": "ZaTxGNN Static FHIR API",
