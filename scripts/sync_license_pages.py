@@ -266,9 +266,21 @@ def label(r):
     return LAB.get(st, "Valid")
 
 
+_RB = None
+
+
+def record_order(r):
+    """排序規則與 scripts/rebuild_licenses_by_ingredient.py 的 record_order 同一個（有效在前、MPR 有價格登錄在前、單方在前、號碼）"""
+    global _RB
+    if _RB is None:
+        _RB = _load("rebuild_licenses_by_ingredient", ROOT / "scripts/rebuild_licenses_by_ingredient.py")
+    return _RB.record_order(r)
+
+
 def table_block(recs, nrows):
+    """許可證表：依 record_order 排序（2026-11-06：每週更新改狀態後也照這個重排，表下「valid registrations first」才成立）"""
     seen, rows = set(), []
-    for r in recs:
+    for r in sorted(recs, key=record_order):
         k = r.get("license_id")
         if not k or k in seen:
             continue
@@ -303,8 +315,10 @@ def process(ck, page, fc, bundle, manual):
             nrows = min(20, max(y0 - tb0[0] - 1, min(5, total0)))
             rest = max(0, total0 - nrows)
     keep_ids = {r.get("license_id") for r in recs}
+    keep_names = {norm(re.sub(r"\(.*?\)", "", str(r.get("brand_name_en") or ""))) for r in recs}
+    # 被剔除的列裡，產品名還在本藥其他紀錄的（例：Corbar linctus 的錯號 C661 剔除、產品本身仍以 G1032 列在 ephedrine），不當成已剔除的產品
     gone = [(norm(re.sub(r"\(.*?\)", "", str(e.get("brand_name_en") or ""))), str(e.get("license_id") or "")) for e in excl
-            if e.get("license_id") not in keep_ids]
+            if e.get("license_id") not in keep_ids and norm(re.sub(r"\(.*?\)", "", str(e.get("brand_name_en") or ""))) not in keep_names]
     sec = ""
     for i in range(start, len(lines)):
         l = lines[i]
@@ -399,6 +413,70 @@ def process(ck, page, fc, bundle, manual):
     t2 = "\n".join(lines)
     t2 = re.sub(r"\n{3,}", "\n\n", t2)
     return (t2 if t2 != t else None), log, crlf
+
+
+def resync_table(page, bundle):
+    """每週許可證更新用（2026-11-06，用戶決定）：只重寫「South Africa Market Information」段的許可證表（依 record_order 重排，
+    號碼與狀態照證據包）和表下的「Showing N of M」，不刪句、不動其他行。列數規則與重建相同（原表列數與 min(5, 總數) 取大，最多 20）。
+    段落裡沒有表、或新資料沒有任何註冊時不動（那是重建才處理的情形）。回傳 (新內容或 None, crlf)。"""
+    raw = page.read_bytes().decode("utf-8")
+    crlf = "\r\n" in raw[:500]
+    t = raw.replace("\r\n", "\n")
+    if "layout: id_redirect" in t[:3000] or 'http-equiv="refresh"' in t[:3000]:
+        return None, crlf
+    lines = t.split("\n")
+    recs = (bundle.get("tfda") or {}).get("records") or []
+    total = len({r.get("license_id") for r in recs if r.get("license_id")})
+    if SEC not in lines or not total:
+        return None, crlf
+    a = lines.index(SEC) + 1
+    b = next((k for k in range(a, len(lines)) if lines[k].startswith("## ")), len(lines))
+    tb = [k for k in range(a, b) if lines[k].startswith("|")]
+    if not tb:
+        return None, crlf
+    x = y = tb[0]
+    while y + 1 < b and lines[y + 1].startswith("|"):
+        y += 1
+    nrows = min(20, max(y - x - 1, min(5, total)))
+    new_tb, total = table_block(recs, nrows)
+    after = lines[y + 1:b]
+    si = next((k for k, l in enumerate(after) if SHOW_RX.match(l.strip())), None)
+    if total > nrows:
+        want = SHOW.format(n=nrows, m=total)
+        if si is not None:
+            after[si] = want
+        else:
+            after = ["", want] + after
+    elif si is not None:  # 總數不再多於列數：拿掉「Showing」和它前面的空行
+        del after[si]
+        if si > 0 and not after[si - 1].strip():
+            del after[si - 1]
+    out = "\n".join(lines[:x] + new_tb + after + lines[b:])
+    return (out if out != t else None), crlf
+
+
+def resync_tables(bundles):
+    """給每週許可證更新（scripts/license_adapter.py 的 sync_tables）呼叫：bundles＝這輪證據包有改的藥。回傳 [(頁, 欄位, 前值, 後值)]"""
+    out = []
+    for key in sorted(set(bundles)):
+        bf = ROOT / "data/bundles" / key / "drug_bundle.json"
+        if not bf.exists():
+            continue
+        bundle = json.loads(bf.read_text(encoding="utf-8"))
+        for stem in (key, key.replace("_", "-")):
+            page = ROOT / "docs/_drugs" / f"{stem}.md"
+            if not page.exists():
+                continue
+            old = page.read_bytes().decode("utf-8").replace("\r\n", "\n").split("\n")
+            new, crlf = resync_table(page, bundle)
+            if new is None:
+                continue
+            page.write_bytes((new.replace("\n", "\r\n") if crlf else new).encode("utf-8"))
+            import difflib
+            for l in difflib.unified_diff(old, new.split("\n"), lineterm="", n=0):
+                if l[:1] in "+-" and not l.startswith(("+++", "---")) and l[1:].strip():
+                    out.append((page.stem, "許可證表（重排／號碼／Showing）", l[1:] if l[0] == "-" else "", l[1:] if l[0] == "+" else ""))
+    return out
 
 
 def main(argv):

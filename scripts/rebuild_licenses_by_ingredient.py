@@ -93,9 +93,58 @@ MISMATCH = {
                            "SAHPRA 成分全文是 oxymel of squill、camphorated opium tincture、tolu syrup，不是以 morphine 登記的製劑，不列入 morphine",
     ("T/30.3/704", "calcium"): "MPR 品名 Stabilised Human Serum-5% Protein Solution，號碼補零後是 SAHPRA T/30.3/0704 STABILISED HUMAN SERUM"
                                "（人血清蛋白，已註銷）；MPR 成分欄列的 calcium、potassium 是血清本身含的電解質，不是 calcium 製劑",
+    ("G0894", "sulfamethoxazole"): "MPR Cocc.Co.Syrup（G 894）對回 SAHPRA G0894 ADCO-COCILLANA COMPOUND SYRUP（見 MANUAL_ROWS）；SAHPRA 成分只有 "
+                                   "cocillana liquid extract、menthol、tinctura scillae，MPR 成分欄的 sulfamethoxazole（劑量寫 200 ml）是誤植，不列入 sulfamethoxazole"
+                                   "（SAHPRA 成分全文含 extract 字樣，自動判定不採用，故列人工清單）",
     ("T/30.3/704", "potassium"): "MPR 品名 Stabilised Human Serum-5% Protein Solution，號碼補零後是 SAHPRA T/30.3/0704 STABILISED HUMAN SERUM"
                                  "（人血清蛋白，已註銷）；MPR 成分欄列的 calcium、potassium 是血清本身含的電解質，不是 potassium 製劑",
 }
+
+
+# 人工核對的 MPR 列（2026-11-06，用戶看完逐筆查證後決定）：同一個 MPR 號碼依產品名分開處理（MISMATCH 只能依號碼＋本藥成分）。
+# mpr＝MPR 號碼（依 key() 比對）、name＝MPR 產品名（norm() 後相同，或以它開頭）；
+# to＝這一列其實是 SAHPRA 的哪個號碼（對回後取 SAHPRA 狀態、號碼寫法與產品名）；exclude＝剔除理由（任何藥都不收這一列）。
+# 依據：MPR https://medicineprices.org.za/api/v2/search?q=<詞>；SAHPRA medapps 匯出（data/raw/sahpra_status.json，
+# https://medapps.sahpra.org.za:6006/DateSearch/ExportData）；SAHPRA PI/PIL 公開庫（https://pi-pil-repository.sahpra.org.za/）查無這些舊制藥品的仿單。
+MANUAL_ROWS = [
+    {"mpr": "C777", "name": "colcleer paediatric",
+     "exclude": "MPR 號碼 C777 補零後是 SAHPRA C0777 ASALEN PAEDIATRIC SYRUP（Adcock Ingram，已註銷，成分只有 chlorpheniramine maleate、"
+                "phenylephrine HCl）；MPR 的 Colcleer paediatric 含 paracetamol 75 mg/5ml、caffeine，不是 C0777 登記的配方，SAHPRA 也沒有 Colcleer 糖漿"
+                "（只有 C0810 COLCLEER TABLETS）。不是 SAHPRA 可查證的註冊，剔除（就算視為同一產品，SAHPRA 也是 Canceled）。"
+                "依據 https://medicineprices.org.za/api/v2/search?q=colcleer ；SAHPRA 匯出 C0777、C0810"},
+    {"mpr": "C661", "name": "corbar linctus",
+     "exclude": "MPR 把 Corbar linctus 200 ml（NAPPI 716073013）寫成 C661，同一產品 100 ml（NAPPI 716073005）寫的是 G1032；"
+                "C661 補零後是 SAHPRA C0661 CORENZA C（發泡錠，不同產品）。Corbar linctus 的註冊是 SAHPRA G1032 CORBAR LINCTUS（已註銷，"
+                "成分與含量逐項相符），已由 G1032 那一列代表，這一列剔除、不重複計算。依據 https://medicineprices.org.za/api/v2/search?q=corbar ；"
+                "SAHPRA 匯出 G1032、C0661"},
+    {"mpr": "C661", "name": "corenza c", "to": "C0661",
+     "why": "MPR Corenza c（NAPPI 716170019／716170020）＝SAHPRA C0661 CORENZA C（Adcock Ingram，Old Medicine）：補零後號碼相同、"
+            "品名相同、aspirin 500 mg、ascorbic acid 500 mg、moroxydine 100 mg、phenylephrine、chlorpheniramine 2 mg 相符。"
+            "MPR 20 錠包裝多列的 thiamine 不在 SAHPRA 配方，依 SAHPRA 成分不算 thiamine。依據 https://medicineprices.org.za/api/v2/search?q=corenza ；SAHPRA 匯出 C0661"},
+    {"mpr": "G894", "name": "cocc co syrup", "to": "G0894",
+     "why": "MPR Cocc.Co.Syrup（Cocillana Compound Syrup，NAPPI 715007007）＝SAHPRA G0894 ADCO-COCILLANA COMPOUND SYRUP（已註銷）："
+            "補零後號碼相同，MPR 列的 cocillana、squill、menthol 正好是 G0894 的全部成分；MPR 另列的 sulfamethoxazole（劑量寫 200 ml）"
+            "不在 SAHPRA 配方，判斷是 MPR 誤植，依 SAHPRA 成分不算 sulfamethoxazole。依據 https://medicineprices.org.za/api/v2/search?q=cocillana ；SAHPRA 匯出 G0894、G0896"},
+    {"mpr": "E512", "name": "anugesic", "to": "E0512",
+     "why": "MPR Anugesic 栓劑（NAPPI 704075008）＝SAHPRA E0512 ANUSOL PAIN RELIEF SUPPOSITORIES（MDI Healthcare，Old Medicine）："
+            "MPR 自己把同品牌軟膏寫成「Anusol pain relief (was anugesic)」（T/11.8/65＝SAHPRA T/11.8/0065 ANUSOL PAIN RELIEF OINTMENT），"
+            "補零後號碼相同、劑型相同，MPR 列的 8 個成分都在 SAHPRA 配方（bismuth subiodide＝bismuth iodide oxide、pramocaine＝pramoxine）。"
+            "依據 https://medicineprices.org.za/api/v2/search?q=anugesic ；SAHPRA 匯出 E0512、T/11.8/0065"},
+]
+
+
+def manual(raw, name):
+    """MANUAL_ROWS 裡對到這一列（MPR 號碼＋產品名）的那一筆；沒有回傳 None"""
+    k, n = key(raw), norm(name)
+    for m in MANUAL_ROWS:
+        if key(m["mpr"]) == k and n and (n == m["name"] or n.startswith(m["name"] + " ")):
+            return m
+    return None
+
+
+def record_order(r):
+    """證據包紀錄與頁面許可證表的排序（重建與每週更新共用）：有效在前、MPR 有價格登錄在前、單方在前、號碼"""
+    return (r.get("license_status", "valid") != "valid", not r.get("in_mpr"), r.get("kind") != "single", str(r.get("license_id") or ""))
 
 
 def norm(x):
@@ -257,9 +306,12 @@ def variant(a, b):
     return difflib.SequenceMatcher(None, x[-1], y[-1]).ratio() >= 0.88 and abs(len(x[-1]) - len(y[-1])) <= 3
 
 
-def derive_terms(inn, recs):
+def derive_terms(inn, recs, bundle=None):
     base = base_name(inn)
     terms = {base} | set(SYN.get(base, [])) | set(SYN.get(inn, []))
+    # 上次重建用過的成分名照樣沿用（2026-11-06）：拼字變體是從「重建前」的 MPR 紀錄學來的（例 MPR 誤拼 Triprodlidine），
+    # 重建後紀錄改用 SAHPRA 成分全文，再重建一次就學不到，MPR 那幾列會掉出來（產品名、劑型、in_mpr 跟著變）
+    terms |= {norm(x) for x in ((bundle or {}).get("tfda") or {}).get("query_terms") or [] if norm(x)}
     seen = Counter(norm(x) for r in recs for x in set(re.split(r";", r.get("ingredients") or "")) if norm(x))
     for c in seen:  # 原有紀錄裡跟 INN 相近的寫法（拼字變體）
         cb = base_name(c)
@@ -341,9 +393,10 @@ def load_vocab():
         return {n for n in (norm(r.get("drug_name")) for r in csv.DictReader(fh)) if n.isalpha() and len(n) >= 6}
 
 
-def load_sahpra():
+def load_sahpra(data=None):
+    """{號碼 key: SAHPRA 一列}；data＝已讀進來的匯出（每週更新用），沒給就讀 data/raw/sahpra_status.json"""
     by = {}
-    for r in json.loads(SAHPRA.read_text(encoding="utf-8")):
+    for r in (data if data is not None else json.loads(SAHPRA.read_text(encoding="utf-8"))):
         if str(r.get("ingredients") or "").strip().lower() in ("none", "null", "n/a"):
             r = {**r, "ingredients": ""}
         k = key(r["reg"])
@@ -376,7 +429,7 @@ def main(argv):
         b = json.loads(f.read_text(encoding="utf-8"))
         old = (b.get("tfda") or {}).get("records") or []
         inn = norm(b.get("drug", {}).get("inn") or f.parent.name.replace("_", " "))
-        for term in ([] if NO_REBUILD.match(inn) and inn not in ELEMENT_TERMS else (ELEMENT_TERMS.get(inn) or derive_terms(inn, old))):
+        for term in ([] if NO_REBUILD.match(inn) and inn not in ELEMENT_TERMS else (ELEMENT_TERMS.get(inn) or derive_terms(inn, old, b))):
             mpr(term, sess)
         for r in old + ((b.get("tfda") or {}).get("excluded_records") or []):
             if r.get("in_mpr") or not r.get("status"):  # MPR 來的列（SAHPRA 來的列用不到）
@@ -386,14 +439,17 @@ def main(argv):
             mrows.append((str(x.get("regno") or ""), x.get("name") or "", [i.get("name") or "" for i in x.get("ingredients") or []]))
     ALIAS, alias_rep = build_alias(S, mrows)
 
-    def rk(raw):
-        """比對用的號碼：SAHPRA 有的用 SAHPRA 的 key（含寫法統一），沒有的用原號碼的 key"""
+    def rk(raw, name=None):
+        """比對用的號碼：SAHPRA 有的用 SAHPRA 的 key（含寫法統一、MANUAL_ROWS 人工對照），沒有的用原號碼的 key"""
+        m = manual(raw, name) if name is not None else None
+        if m and m.get("to") and key(m["to"]) in S:
+            return key(m["to"])
         k = key(raw)
         return k if k in S else ALIAS.get(k, (k,))[0]
 
-    def official(raw):
+    def official(raw, name=None):
         """頁面與證據包寫的號碼：SAHPRA 有的一律用 SAHPRA 匯出的寫法（讀者可以直接拿去 SAHPRA 查），沒有的照 MPR 原寫法"""
-        k = rk(raw)
+        k = rk(raw, name)
         return S[k]["reg"] if k in S else str(raw or "").strip()
     rows = [("bundle", "inn", "terms", "action", "old_n", "old_valid", "new_n", "new_valid", "new_cancelled", "excluded", "note")]
     exrows = [("bundle", "license_id", "product", "ingredients", "reason")]
@@ -406,17 +462,20 @@ def main(argv):
         old = t.get("records") or []
         inn = norm(b.get("drug", {}).get("inn") or pg.replace("_", " "))
         old_valid = sum(1 for r in old if (r.get("license_status") or "valid") == "valid")
-        terms = ELEMENT_TERMS.get(inn) or derive_terms(inn, old)
+        terms = ELEMENT_TERMS.get(inn) or derive_terms(inn, old, b)
         excluded = []
 
-        def check(k):
-            """回傳剔除理由或 None"""
+        def check(k, name=None):
+            """回傳剔除理由或 None（name＝MPR 產品名，給 MANUAL_ROWS 用）"""
+            m = manual(k, name) if name is not None else None
+            if m and m.get("exclude"):
+                return m["exclude"]
             if not is_reg(k):
                 return "不是註冊號（ITN 調配營養液的豁免條款、IMPORT PERMIT 等）"
             for (mk, tm), why in MISMATCH.items():  # 人工清單先判（理由較具體）
-                if (key(mk) == key(k) or rk(mk) == rk(k)) and (tm[1:] not in terms if tm.startswith("*") else tm in terms):
+                if (key(mk) == key(k) or rk(mk) == rk(k, name)) and (tm[1:] not in terms if tm.startswith("*") else tm in terms):
                     return why
-            s = S.get(rk(k))
+            s = S.get(rk(k, name))
             # SAHPRA 產品名就是本藥（COLCHICINE HOUDE 的成分全文只列 probenecid）時，成分全文不完整，不當成錯植的證據
             if s and s.get("_ing") and not s.get("_trunc") and not GROUP.search(s["_ing"]) and not any(mentions(s["_ing"], tm) for tm in terms) \
                     and not any(has(norm(s.get("name")), tm) for tm in terms):
@@ -424,7 +483,7 @@ def main(argv):
             return None
 
         def apply_status(r):
-            s = S.get(rk(r.get("license_id")))
+            s = S.get(rk(r.get("license_id"), r.get("brand_name_en") or ""))
             if s:
                 r["license_id"] = s["reg"]
                 r.pop("status_unconfirmed", None)
@@ -441,7 +500,7 @@ def main(argv):
         if NO_REBUILD.match(inn) and inn not in ELEMENT_TERMS:
             recs = []
             for r in old:
-                why = check(r.get("license_id"))
+                why = check(r.get("license_id"), r.get("brand_name_en") or "")
                 if why:
                     note_excluded(r, why)
                 else:
@@ -465,20 +524,27 @@ def main(argv):
                     ings = [i.get("name") or "" for i in x.get("ingredients") or []]
                     if not any(has(norm(i), tm) for i in ings for tm in terms):
                         continue
-                    k = rk(x.get("regno"))
                     name = (x.get("name") or "").strip()
+                    mr = manual(x.get("regno"), name)
+                    k = rk(x.get("regno"), name)
                     if k in new:
+                        if mr and mr.get("to"):  # 人工對照：產品名用 SAHPRA 的（MPR 品名是舊名或縮寫）
+                            new[k].update({"dosage_form": x.get("dosage_form") or new[k]["dosage_form"], "in_mpr": True,
+                                           "nappi_code": x.get("nappi_code") or ""})
+                            continue
                         new[k].update({"brand_name_en": name or new[k]["brand_name_en"], "brand_name_zh": name or new[k]["brand_name_zh"],
                                        "dosage_form": x.get("dosage_form") or new[k]["dosage_form"], "in_mpr": True,
                                        "nappi_code": x.get("nappi_code") or ""})
                         continue
-                    rec = {"license_id": official(x.get("regno")), "brand_name_zh": name, "brand_name_en": name,
+                    if mr and mr.get("to") and k in S:
+                        name = tidy(S[k].get("name")) or name
+                    rec = {"license_id": official(x.get("regno"), x.get("name") or ""), "brand_name_zh": name, "brand_name_en": name,
                            "ingredients": "; ".join(i.strip() for i in ings if i.strip()), "indication": "",
                            "dosage_form": x.get("dosage_form") or "", "manufacturer": "", "license_holder": "", "approval_date": "",
                            "expiry_date": "", "kind": "combo" if len([i for i in ings if i.strip()]) > 1 else "single",
                            "status": "", "license_status": "valid", "in_mpr": True, "nappi_code": x.get("nappi_code") or "",
                            "source": SOURCE}
-                    why = check(rec["license_id"])
+                    why = check(x.get("regno"), x.get("name") or "") if mr else check(rec["license_id"])
                     nm = norm(name)
                     if not why and k not in S:  # SAHPRA 匯出查無此號：只能靠 MPR，成分欄要有產品名佐證
                         # 「公司名＋藥名」型的學名藥名稱（Medpro-Ciprofloxacin）含別的藥名 → 錯植；第一個字是品牌（Dantron），不算
@@ -500,17 +566,17 @@ def main(argv):
                         rec["status_unconfirmed"] = True  # SAHPRA 匯出（含寫法統一）查不到：照用戶決定算有效，頁面加註
                     new[k] = rec
             for r in old:  # 原有紀錄被剔除的，記下原因
-                why = check(r.get("license_id"))
+                why = check(r.get("license_id"), r.get("brand_name_en") or "")
                 if why:
                     note_excluded(r, why)
-            old_ok = {rk(r.get("license_id")) for r in old if not check(r.get("license_id")) and rk(r.get("license_id")) in S}
+            old_ok = {rk(r.get("license_id"), r.get("brand_name_en") or "") for r in old
+                      if not check(r.get("license_id"), r.get("brand_name_en") or "") and rk(r.get("license_id"), r.get("brand_name_en") or "") in S}
             cover = len(old_ok & set(new)) / max(1, len(old_ok))
             if not new or (old_ok and cover < 0.5):
-                recs = [apply_status(r) for r in old if not check(r.get("license_id"))]
+                recs = [apply_status(r) for r in old if not check(r.get("license_id"), r.get("brand_name_en") or "")]
                 action, note = "kept_old", f"新結果只涵蓋原有紀錄 {cover:.0%}（新 {len(new)} 筆），疑似成分名對錯，保留原紀錄（只清理）"
             else:
-                recs = sorted(new.values(), key=lambda r: (r["license_status"] != "valid", not r.get("in_mpr"), r["kind"] != "single",
-                                                           r["license_id"]))
+                recs = sorted(new.values(), key=record_order)
                 action, note = "rebuilt", f"原有紀錄涵蓋 {cover:.0%}"
         exrows += [tuple(" ".join(str(x).split()) for x in (pg, e.get("license_id"), e.get("brand_name_en"), str(e.get("ingredients"))[:120],
                                                             e["excluded_reason"])) for e in excluded]
