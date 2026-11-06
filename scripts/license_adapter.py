@@ -13,7 +13,8 @@ Therapeutic Area、Status（Registered／Canceled／Old Medicine，原檔另有�
 對 SAHPRA；對到的號碼改成 SAHPRA 匯出的寫法、取 SAHPRA 狀態。狀態有變的藥，許可證表依重建的排序重排（sync_tables）。
 2026-11-06（用戶決定）：對回 SAHPRA 後，同一個藥的證據包裡若本來就有那個 SAHPRA 號碼，兩筆當場合併成一筆（merge_records），
 規則用依成分重建同一支程式的 merge_same_number（保留哪一筆、產品名／劑型／in_mpr／nappi 怎麼取都跟重建以號碼為鍵合併的做法相同）；
-只合併同一個藥裡、號碼正規化後相同的 SAHPRA 號碼。合併過的藥也走 sync_tables 重排許可證表，張數、狀態列照現有流程重算。
+只合併同一個藥裡、號碼正規化後相同的紀錄（2026-11-06 用戶決定：clean_only／kept_old 的證據包也合併，重建同步改）。
+合併過的藥也走 sync_tables 重排許可證表，張數、狀態列照現有流程重算。
 2026-11-05：raw 檔另存產品名、成分全文、申請者、藥理分類、註冊日期（給 scripts/rebuild_licenses_by_ingredient.py 依成分重建用）；
 舊制藥品（Registration Number 欄是「Old Medicine」）改用 Application Number（例 G2963）當號碼收進來，狀態 Old Medicine＝有效。
 """

@@ -27,7 +27,8 @@
    單方在前。頁面表格只列前 N 筆（scripts/sync_license_pages.py）。
 6. 停損：原有紀錄（剔除錯植與非註冊號後、且號碼在 SAHPRA 全量裡）一半以上不在新結果裡 → 成分名可能對錯，不改、列出來。
 7. 同號只留一筆（以 SAHPRA 號碼為鍵，MPR 同號列併進那一筆：merge_mpr_row）。2026-11-06（用戶決定）：每週許可證更新在號碼對回 SAHPRA
-   後也照這個規則當場合併（merge_same_number，scripts/license_adapter.py 的 merge_records 呼叫），證據包、頁面、張數不必等下次重建。
+   後也照這個規則當場合併（merge_same_number，scripts/license_adapter.py 的 merge_records 呼叫），證據包、頁面、張數不必等下次重建；
+   clean_only／kept_old 的證據包也用同一支合併（在更新狀態之前，跟每週更新同一個時點）。
 
 用法（repo 根目錄）：python3 scripts/rebuild_licenses_by_ingredient.py [--dry-run] [--report out.tsv] [頁 ...]
 """
@@ -474,28 +475,27 @@ def merge_mpr_row(rec, x, name, mr):
 
 
 def merge_same_number(t, S, rk):
-    """每週許可證更新用（2026-11-06，用戶決定）：證據包裡同號（rk 相同，而且是 SAHPRA 有的號碼）的紀錄合併成一筆。
-    同號紀錄的來由：只在 MPR 有的號碼（status_unconfirmed）這週經寫法統一對回 SAHPRA，而本藥本來就有那個 SAHPRA 號碼。
-    規則就是重建（main 的 rebuilt 分支）處理同號的做法——重建以號碼為鍵（new[k]），同號只會有一筆：
-      保留哪一筆：本來就對得到 SAHPRA 的那筆（不是 status_unconfirmed，等同重建步驟 1 或步驟 2 帶 SAHPRA 欄位建的那筆）；
-        都是 status_unconfirmed 時，SAHPRA 成分全文含本藥 → 依 SAHPRA 建（sahpra_record，等同步驟 1），
-        否則取重建步驟 2 順序裡最先出現的那筆，補上 SAHPRA 欄位（sahpra_fields；MANUAL_ROWS 有 to 的產品名用 SAHPRA 的）
+    """證據包裡同號（rk 相同：號碼正規化、寫法統一後相同）的紀錄合併成一筆；重建（main 每一種 action 的最後一步）與
+    每週許可證更新（scripts/license_adapter.py 的 merge_records）都呼叫這一支，兩邊結果才會一樣。
+    規則就是重建 rebuilt 分支處理同號的做法——重建以號碼為鍵（new[k]），同號只會有一筆：
+      保留哪一筆：本來就對得到 SAHPRA 的那筆（不是 status_unconfirmed；多筆時取 record_order 排第一、也就是許可證表上顯示的那筆）；
+        都是 status_unconfirmed 時：SAHPRA 有這個號碼且成分全文含本藥 → 依 SAHPRA 建（sahpra_record，等同步驟 1）；
+        否則取重建步驟 2 順序裡最先出現的那筆（快取裡找不到就取 record_order 第一筆），SAHPRA 有這個號碼時補上 SAHPRA 欄位
+        （sahpra_fields；MANUAL_ROWS 有 to 的產品名用 SAHPRA 的）
       欄位怎麼取：依重建步驟 2 的順序（query_terms 逐個、MPR 快取逐列，成分不含本藥的列跳過），對到這個號碼的 MPR 列逐列
-        用 merge_mpr_row 併進來（產品名、劑型、in_mpr、nappi_code）；快取裡找不到的 MPR 紀錄（例：快取不在）用紀錄本身當一列，排最後
-      號碼寫 SAHPRA 匯出的寫法、拿掉 status_unconfirmed；狀態照 SAHPRA（每週更新接著用 license_adapter.update() 寫新狀態）
+        用 merge_mpr_row 併進來（產品名、劑型、in_mpr、nappi_code）；快取裡找不到、但標了 in_mpr 的紀錄用紀錄本身當一列，排最後
+        （舊版下載留下、沒有 in_mpr 標記的紀錄不當成 MPR 列，不改保留那筆的欄位）
+      SAHPRA 有這個號碼：號碼寫 SAHPRA 匯出的寫法、拿掉 status_unconfirmed（狀態由呼叫端照 SAHPRA 寫）；SAHPRA 沒有：照原寫法、維持 status_unconfirmed
       合併後紀錄依 record_order 排序、total_matches＝不重複號碼數（同重建）。
-    只處理 rebuilt＝"rebuilt" 的證據包：clean_only／kept_old 重建時本來就不合併同號紀錄（原紀錄逐筆清理），這裡也不合併，結果才跟重建一致。
-    clean_only／kept_old 的證據包只照重建的公式重算 total_matches（不重複號碼數；寫法統一後同號只算一張）。
-    t＝證據包的 tfda 區塊（直接改）。回傳 [(SAHPRA 號碼, 合併前筆數)]"""
+    2026-11-06（用戶決定）：clean_only／kept_old 的證據包也合併（先前重建在這兩種只逐筆清理，留下同號多筆）。
+    沒經過重建的證據包（沒有 rebuilt 欄）不處理。t＝證據包的 tfda 區塊（直接改）。回傳 [(號碼, 合併前筆數)]"""
     recs = t.get("records") or []
-    if t.get("rebuilt") != "rebuilt":
-        if t.get("rebuilt") and recs:
-            t["total_matches"] = len({rk(r["license_id"]) for r in recs})
+    if not t.get("rebuilt") or not recs:
         return []
     groups = {}
     for i, r in enumerate(recs):
         k = rk(r.get("license_id"), r.get("brand_name_en") or "")
-        if k in S:
+        if k:
             groups.setdefault(k, []).append(i)
     groups = {k: v for k, v in groups.items() if len(v) > 1}
     if not groups:
@@ -513,28 +513,33 @@ def merge_same_number(t, S, rk):
     out, drop, put = [], set(), {}
     for k, ix in groups.items():
         grp = [recs[i] for i in ix]
+        s = S.get(k)
         mine = [(x, name, mr) for kk, x, name, mr in rows if kk == k]
         seen = {norm(name) for _, name, _ in mine}
-        known = [r for r in grp if not r.get("status_unconfirmed")]
+        known = sorted((r for r in grp if not r.get("status_unconfirmed")), key=record_order)
+        src = None
         if known:
-            base = dict(known[0])
-        elif any(has(S[k]["_ing"], tm) for tm in terms):
-            base = sahpra_record(S[k])
+            src = known[0]
+            base = dict(src)
+        elif s and any(has(s["_ing"], tm) for tm in terms):
+            base = sahpra_record(s)
         else:
-            first = next((r for _, name, _ in mine for r in grp if norm(r.get("brand_name_en")) == norm(name)), grp[0])
-            base = {**first, **sahpra_fields(S[k])}
-            if (manual(first.get("license_id"), first.get("brand_name_en") or "") or {}).get("to"):
-                base["brand_name_en"] = base["brand_name_zh"] = tidy(S[k].get("name")) or base.get("brand_name_en", "")
+            src = next((r for _, name, _ in mine for r in grp if norm(r.get("brand_name_en")) == norm(name)),
+                       sorted(grp, key=record_order)[0])
+            base = {**src, **(sahpra_fields(s) if s else {})}
+            if s and (manual(src.get("license_id"), src.get("brand_name_en") or "") or {}).get("to"):
+                base["brand_name_en"] = base["brand_name_zh"] = tidy(s.get("name")) or base.get("brand_name_en", "")
         for x, name, mr in mine:
             merge_mpr_row(base, x, name, mr)
         for r in grp:
-            if r.get("in_mpr") and r is not (known[0] if known else None) and norm(r.get("brand_name_en")) not in seen:
+            if r.get("in_mpr") and r is not src and norm(r.get("brand_name_en")) not in seen:
                 merge_mpr_row(base, r, r.get("brand_name_en") or "", manual(r.get("license_id"), r.get("brand_name_en") or ""))
-        base["license_id"] = S[k]["reg"]
-        base.pop("status_unconfirmed", None)
+        if s:
+            base["license_id"] = s["reg"]
+            base.pop("status_unconfirmed", None)
         put[ix[0]] = base
         drop |= set(ix[1:])
-        out.append((S[k]["reg"], len(ix)))
+        out.append((base["license_id"], len(ix)))
     merged = [put.get(i, r) for i, r in enumerate(recs) if i not in drop]
     t["records"] = sorted(merged, key=record_order)
     t["total_matches"] = len({rk(r["license_id"]) for r in merged})
@@ -614,6 +619,12 @@ def main(argv):
             if rk(r.get("license_id")) not in {rk(e.get("license_id")) for e in excluded}:
                 excluded.append({**r, "excluded_reason": why})
 
+        def dedup(rs, action):
+            """同號紀錄合併（merge_same_number）：在更新狀態之前做，跟每週更新同一個時點（2026-11-06 用戶決定，clean_only／kept_old 也合併）"""
+            tt = {"records": rs, "rebuilt": action, "query_terms": terms}
+            merge_same_number(tt, S, rk)
+            return tt["records"]
+
         if NO_REBUILD.match(inn) and inn not in ELEMENT_TERMS:
             recs = []
             for r in old:
@@ -621,7 +632,8 @@ def main(argv):
                 if why:
                     note_excluded(r, why)
                 else:
-                    recs.append(apply_status(r))
+                    recs.append(r)
+            recs = [apply_status(r) for r in dedup(recs, "clean_only")]
             action, note = "clean_only", "單一元素／離子頁，不依成分重建"
         else:
             new = {}
@@ -672,7 +684,7 @@ def main(argv):
                       if not check(r.get("license_id"), r.get("brand_name_en") or "") and rk(r.get("license_id"), r.get("brand_name_en") or "") in S}
             cover = len(old_ok & set(new)) / max(1, len(old_ok))
             if not new or (old_ok and cover < 0.5):
-                recs = [apply_status(r) for r in old if not check(r.get("license_id"), r.get("brand_name_en") or "")]
+                recs = [apply_status(r) for r in dedup([r for r in old if not check(r.get("license_id"), r.get("brand_name_en") or "")], "kept_old")]
                 action, note = "kept_old", f"新結果只涵蓋原有紀錄 {cover:.0%}（新 {len(new)} 筆），疑似成分名對錯，保留原紀錄（只清理）"
             else:
                 recs = sorted(new.values(), key=record_order)
