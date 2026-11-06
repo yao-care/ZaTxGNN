@@ -6,7 +6,7 @@ nav_order: 476
 evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-11-06
-description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection"
+description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 ---

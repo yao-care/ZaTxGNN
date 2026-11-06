@@ -6,7 +6,7 @@ nav_order: 255
 evidence_level: L2
 indication_count: 9
 last_modified_at: 2026-11-06
-description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L5). Approved use: Autoimmune disease (other listed indications include adrenocortical i…"
+description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease (other listed indications include adrenocortical i…"
 monitor_inn: "Hydrocortisone acetate"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 ---

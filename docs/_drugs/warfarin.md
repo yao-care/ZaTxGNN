@@ -6,7 +6,7 @@ nav_order: 475
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-11-06
-description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L4). Approved use: Pulmonary embolism, thrombotic disease, intracranial embolism"
+description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Pulmonary embolism, thrombotic disease, intracranial embolism"
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
 ---

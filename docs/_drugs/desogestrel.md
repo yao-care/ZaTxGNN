@@ -6,7 +6,7 @@ nav_order: 165
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Desogestrel: predicted new indication Amenorrhea (evidence level L3). Approved use: Not stated in the registration data compiled for this report (desoges…"
+description: "Desogestrel: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the registration data compiled for this report (desoges…"
 monitor_inn: "Desogestrel"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
 ---

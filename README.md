@@ -24,7 +24,7 @@ Drug repurposing predictions for South Africa SAHPRA-approved drugs using the Tx
 | **Unique Drugs** | 455 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 459 MK / 2,630 CUD |
+| **FHIR Resources** | 441 MK / 2,630 CUD |
 
 ### Evidence Level Distribution
 
