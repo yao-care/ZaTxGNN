@@ -48,8 +48,8 @@ Thiamine (vitamin B1) is registered in South Africa in several single-ingredient
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 42 of 82; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 82 (valid: 42, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 41 of 81; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 81 (valid: 41, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,11 +89,11 @@ Thirteen single-ingredient registrations are listed (the list may be partial). N
 |------|------|------|------|
 | A/21.8.1/743 | Menoflush | tablet | Valid |
 | B1492 | Adco-phenobarb vital | syrup | Valid |
-| C661 (OM) | Corenza c | effervescent tablet | Valid (status not confirmed by SAHPRA) |
 | G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
+| H2412 | A-lennon vitamin b co ampoule 2ml | injection | Valid |
 
-Showing 5 of 82 registrations (valid registrations first).
+Showing 5 of 81 registrations (valid registrations first).
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

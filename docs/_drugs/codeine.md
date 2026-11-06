@@ -48,8 +48,8 @@ Codeine is an opioid analgesic that is currently marketed in South Africa in sev
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 160 of 274; 13 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 274 (valid: 160, of which 13 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 159 of 273; 12 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 273 (valid: 159, of which 12 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,7 @@ The approved indication text is not recorded for these registrations. The first 
 | 27/2.8/0137 | Astrapain forte | tablet | Valid |
 | 27/2.8/0139 | Astrapain | syrup | Valid |
 
-Showing 5 of 274 registrations (valid registrations first).
+Showing 5 of 273 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

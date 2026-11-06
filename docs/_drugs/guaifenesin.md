@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 53 of 81; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 81 (valid: 53, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 52 of 80; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 80 (valid: 52, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,7 +81,7 @@ Approved indication text is not recorded in the local data for any of them.
 | 28/10.1/0433 | Flusin junior cough | syrup | Valid |
 | 30/10.1/0050 | Flusin Expectorant Syrup | solution | Valid |
 
-Showing 5 of 81 registrations (valid registrations first).
+Showing 5 of 80 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **acne (disease)**, but there are 
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 30 of 49; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 49 (valid: 30, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 30 of 49) |
+| Number of SAHPRA Registrations | 49 (valid: 30) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,7 +77,7 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| E512 | Anugesic | suppository | Valid (status not confirmed by SAHPRA) |
+| E0512 | Anusol Pain Relief Suppositories | suppository | Valid |
 | 33/34/0168 | Calamine LOTION-DAROL | lotion | Valid |
 | 83/534 | Curatex | emulsion | Valid |
 | BV0086 | Calamine Lotion | Not recorded | Valid |

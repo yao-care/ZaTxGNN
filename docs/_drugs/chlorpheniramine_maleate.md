@@ -52,8 +52,8 @@ This report documents the current data status and defines the minimum requiremen
 | Predicted New Indication | Not available — TxGNN generated no candidate predictions |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — No predictions generated; evaluation cannot be initiated |
-| South Africa Market Status | Marketed (valid licences: 66 of 100; 7 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 100 (valid: 66, of which 7 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 64 of 98; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 98 (valid: 64, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Integrity Note:** Chlorpheniramine maleate is a decades-old, widely available molecule present in numerous over-the-counter and prescription products across Africa (including well-known brands such as *Allergex* and *Piriton* in South Africa). SAHPRA records must be independently verified before this field is relied upon.
@@ -80,7 +80,7 @@ Detailed mechanism of action data was not provided in the Evidence Pack (recorde
 | 27/10.1/0553 | Flusin dm | syrup | Valid |
 | 27/5.8/0123 | Degoran Cold And Flu Hot Medicated Drink | sachet | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 100 registrations (valid registrations first).
+Showing 5 of 98 registrations (valid registrations first).
 
 **Recommended action:** Query the SAHPRA online medicines register (`https://www.sahpra.org.za`) using the search term "chlorpheniramine" to retrieve all active and historical registration records.
 

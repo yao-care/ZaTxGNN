@@ -74,9 +74,9 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
 | G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
-| 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
 
 ## Safety Considerations
 

@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** support this prediction, so 
 | Predicted New Indication | non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 72 of 120; 7 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 120 (valid: 72, of which 7 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 71 of 119; 6 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 119 (valid: 71, of which 6 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,7 +90,7 @@ Ascorbic acid is marketed in South Africa. Products include oral tablets, capsul
 | 27/5.8/0523 | Flusin c | syrup | Valid |
 | 27/A.5.8/435 | Coryx | effervescent tablet | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 120 registrations (valid registrations first).
+Showing 5 of 119 registrations (valid registrations first).
 
 ---
 

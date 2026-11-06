@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 26 of 43; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 43 (valid: 26, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 25 of 42; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 42 (valid: 25, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,9 @@ Currently no related clinical trials registered.
 | 29/5.8/0782 | Sinuend | tablet | Valid |
 | C0795 | Grippon Cold And Flu Syrup | syrup | Valid |
 | C0810 | Colcleer(cold+flu) | tablet | Valid |
-| C661 (OM) | Corbar linctus | syrup | Valid (status not confirmed by SAHPRA) |
+| G0533 | Lenazine Forte | syrup | Valid |
 
-Showing 5 of 43 registrations (valid registrations first).
+Showing 5 of 42 registrations (valid registrations first).
 
 Other products include syrups (Brunacod, Docsed, Dequa-coff, Corbar linctus, Coughcod senior and junior) and a capsule (Flusin). Essential Medicines List status is not available in the data compiled for this report.
 

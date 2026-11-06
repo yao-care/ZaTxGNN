@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the registration data (registered products are dialysis…"
 monitor_inn: "Sodium acetate"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "Ureaplasma urethritis", "gonococcal urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
@@ -75,11 +75,11 @@ The registration data contain no approved indication text, and Essential Medicin
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/34/0243 | Nutrineal Pd4 W/1.1% Amin Acid (2.5L) | solution | Cancelled |
-| D/24/208 | Sabax ringer-lactate 500ml | solution | Valid |
-| X/34/164 | Dianeal ls 4.25% glucose 2000ml afb9792 | infusion | Valid |
-| E/24/115 | Hidroliet 5% gluc 1000ml tfa2764 | infusion | Valid |
+| 29/34/0325 | Sabax Dianeal Normal Calcium With 1.5% Glucose | Dia | Valid |
+| 29/34/0326 | Dianeal norm ca/gluc 2.5% 2000ml afb9346 | infusion | Valid |
 | 36/34/0277 | Capd/dpca 2 stay safe 2l 1.5% glucose | infusion | Valid |
+| 38/34/0172 | Extraneal 2L | solution | Valid |
+| D/24/208 | Sabax ringer-lactate 500ml | solution | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
 

@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 (preclinical/mechanistic and indirect supportive literature; no registered trials) |
-| South Africa Market Status | Marketed (valid licences: 83 of 124; 14 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 124 (valid: 83, of which 14 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 81 of 122; 12 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 122 (valid: 81, of which 12 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -97,7 +97,7 @@ The data compiled for this report contain no approved indication text or Essenti
 | H0630 | Phenylephrine Hydrochloride Injection | injection | Valid |
 | H1542 | Universal nasal 15ml | Nod | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 124 registrations (valid registrations first).
+Showing 5 of 122 registrations (valid registrations first).
 
 The remaining registrations include cold and flu products in capsule, syrup, sachet and tablet forms.
 

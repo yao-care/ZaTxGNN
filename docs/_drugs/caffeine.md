@@ -50,8 +50,8 @@ This is therefore a model prediction without direct supporting evidence.
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 139 of 206; 8 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 206 (valid: 139, of which 8 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 138 of 205; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 205 (valid: 138, of which 7 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,7 +89,7 @@ The list may be partial. No approved indication text is recorded in the local da
 | 27/2.8/0137 | Astrapain forte | tablet | Valid |
 | 27/2.8/0231 | Vacudol Forte | tablet | Valid |
 
-Showing 5 of 206 registrations (valid registrations first).
+Showing 5 of 205 registrations (valid registrations first).
 
 ## Safety Considerations
 

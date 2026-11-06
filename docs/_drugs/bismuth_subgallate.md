@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bismuth Subg
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 5 of 5; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 5 (valid: 5, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 4 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 4) |
 
 ## Known uses recorded for this drug
 
@@ -74,9 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bismuth Subg
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| E512 | Anugesic | suppository | Valid (status not confirmed by SAHPRA) |
-| E/11.8/0513 | Anusol Ointment | ointment | Valid |
 | E0512 | Anusol Pain Relief Suppositories | suppository | Valid |
+| E/11.8/0513 | Anusol Ointment | ointment | Valid |
 | E0514 | Anusol H.C. Suppositories | Not recorded | Valid |
 | E1598 | Rectosan 'A' Ointment | ointment | Valid |
 

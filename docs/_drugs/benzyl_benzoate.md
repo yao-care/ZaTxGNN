@@ -50,8 +50,8 @@ Benzyl Benzoate is a well-established topical antiparasitic agent with recognise
 | Predicted New Indication | None available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not applicable — no predictions generated |
-| South Africa Market Status | Marketed (valid licences: 13 of 18; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 18 (valid: 13, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 12 of 17) |
+| Number of SAHPRA Registrations | 17 (valid: 12) |
 | Recommended Decision | **Hold** |
 
 ---

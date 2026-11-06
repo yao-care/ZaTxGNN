@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acute contagious conjunctivit
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 55 of 76; 6 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 76 (valid: 55, of which 6 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 54 of 75; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 75 (valid: 54, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,7 +83,7 @@ Approved indication text and manufacturer details were not available. Essential 
 | 28/20.2/0389 | Xerazole Suspension | suspension | Valid |
 | 28/20.2/0416 | Novatrim | tablet | Valid |
 
-Showing 5 of 76 registrations (valid registrations first).
+Showing 5 of 75 registrations (valid registrations first).
 
 No ophthalmic (eye drop or ointment) formulation is registered. The available forms are oral, injectable, suspension and syrup. Route compatibility with an ocular indication therefore has not been established.
 
