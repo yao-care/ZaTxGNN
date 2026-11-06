@@ -11,6 +11,9 @@ Therapeutic Area、Status（Registered／Canceled／Old Medicine，原檔另有�
 2026-11-06（用戶決定）：每週更新也做號碼寫法統一——證據包裡標 status_unconfirmed（只在 MPR 有）的號碼，用依成分重建的同一套規則
 （scripts/rebuild_licenses_by_ingredient.py 的 _sig／same_product／build_alias：SAHPRA 只有一個號碼化成同一序列、品名或成分吻合、一對一）
 對 SAHPRA；對到的號碼改成 SAHPRA 匯出的寫法、取 SAHPRA 狀態。狀態有變的藥，許可證表依重建的排序重排（sync_tables）。
+2026-11-06（用戶決定）：對回 SAHPRA 後，同一個藥的證據包裡若本來就有那個 SAHPRA 號碼，兩筆當場合併成一筆（merge_records），
+規則用依成分重建同一支程式的 merge_same_number（保留哪一筆、產品名／劑型／in_mpr／nappi 怎麼取都跟重建以號碼為鍵合併的做法相同）；
+只合併同一個藥裡、號碼正規化後相同的 SAHPRA 號碼。合併過的藥也走 sync_tables 重排許可證表，張數、狀態列照現有流程重算。
 2026-11-05：raw 檔另存產品名、成分全文、申請者、藥理分類、註冊日期（給 scripts/rebuild_licenses_by_ingredient.py 依成分重建用）；
 舊制藥品（Registration Number 欄是「Old Medicine」）改用 Application Number（例 G2963）當號碼收進來，狀態 Old Medicine＝有效。
 """
@@ -86,6 +89,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGE_NOTE = r"^Showing \d+ of \d+ registrations \(valid registrations first\)\.$"
 _ALIAS = {}  # {MPR 號碼 key: SAHPRA 匯出寫法}（status_index 時依新資料建）
 _KEY = None
+_RB = _S = _RK = None  # 依成分重建的程式、新資料的 SAHPRA 全量、重建的 rk（合併同號紀錄用）
 
 
 def _load(name, path):
@@ -106,6 +110,8 @@ def _build_alias(new):
         for x in json.loads(f.read_text(encoding="utf-8")):
             rows.append((str(x.get("regno") or ""), x.get("name") or "", [i.get("name") or "" for i in x.get("ingredients") or []]))
     alias, _ = rb.build_alias(S, rows)
+    global _RB, _S, _RK
+    _RB, _S, _RK = rb, S, rb.make_rk(S, alias)[0]
     return {a: S[k]["reg"] for a, (k, _) in alias.items()}, rb.key
 
 
@@ -141,6 +147,14 @@ def update(rec, new):
     rec["status"], rec["license_status"] = new, cls
     rec.pop("status_unconfirmed", None)  # SAHPRA 查得到了：不再是「狀態未經 SAHPRA 確認」
     return True
+
+
+def merge_records(b):
+    """寫法統一後同號的紀錄合併成一筆（license_refresh 在逐筆更新狀態前呼叫；合併後那一筆接著照常更新狀態）。
+    規則見 scripts/rebuild_licenses_by_ingredient.py 的 merge_same_number。回傳 ["<SAHPRA 號碼> 合併同號紀錄 N 筆成 1 筆"]"""
+    if _RB is None:
+        return []
+    return [f"{reg} 合併同號紀錄 {n} 筆成 1 筆" for reg, n in _RB.merge_same_number(b.get("tfda") or {}, _S, _RK)]
 
 
 def sync_tables(site_root, bundles):

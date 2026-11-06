@@ -26,6 +26,8 @@
 5. 張數依全量：records 收全部（不截 20 筆），total_matches＝不重複號碼數。排序：有效在前、MPR 有價格登錄（市面上買得到）在前、
    單方在前。頁面表格只列前 N 筆（scripts/sync_license_pages.py）。
 6. 停損：原有紀錄（剔除錯植與非註冊號後、且號碼在 SAHPRA 全量裡）一半以上不在新結果裡 → 成分名可能對錯，不改、列出來。
+7. 同號只留一筆（以 SAHPRA 號碼為鍵，MPR 同號列併進那一筆：merge_mpr_row）。2026-11-06（用戶決定）：每週許可證更新在號碼對回 SAHPRA
+   後也照這個規則當場合併（merge_same_number，scripts/license_adapter.py 的 merge_records 呼叫），證據包、頁面、張數不必等下次重建。
 
 用法（repo 根目錄）：python3 scripts/rebuild_licenses_by_ingredient.py [--dry-run] [--report out.tsv] [頁 ...]
 """
@@ -320,9 +322,13 @@ def derive_terms(inn, recs, bundle=None):
     return sorted(t for t in terms if len(t) >= 4)
 
 
+def cache_file(term):
+    return CACHE / (re.sub(r"[^a-z0-9]+", "_", term) + ".json")
+
+
 def mpr(term, session):
     CACHE.mkdir(parents=True, exist_ok=True)
-    f = CACHE / (re.sub(r"[^a-z0-9]+", "_", term) + ".json")
+    f = cache_file(term)
     if f.exists():
         return json.loads(f.read_text(encoding="utf-8"))
     for attempt in range(4):
@@ -413,6 +419,128 @@ def load_sahpra(data=None):
     return by
 
 
+# ---- 重建與每週更新共用的紀錄規則（2026-11-06 抽出成函式，main 的 rebuilt 分支照用；每週更新合併同號紀錄用同一套）----
+def make_rk(S, ALIAS):
+    """(rk, official)。ALIAS＝build_alias 的對照 {MPR 號碼 key: (SAHPRA 號碼 key, 依據)}"""
+    def rk(raw, name=None):
+        """比對用的號碼：SAHPRA 有的用 SAHPRA 的 key（含寫法統一、MANUAL_ROWS 人工對照），沒有的用原號碼的 key"""
+        m = manual(raw, name) if name is not None else None
+        if m and m.get("to") and key(m["to"]) in S:
+            return key(m["to"])
+        k = key(raw)
+        return k if k in S else ALIAS.get(k, (k,))[0]
+
+    def official(raw, name=None):
+        """頁面與證據包寫的號碼：SAHPRA 有的一律用 SAHPRA 匯出的寫法（讀者可以直接拿去 SAHPRA 查），沒有的照 MPR 原寫法"""
+        k = rk(raw, name)
+        return S[k]["reg"] if k in S else str(raw or "").strip()
+    return rk, official
+
+
+def sahpra_fields(s):
+    """SAHPRA 有這個號碼時以 SAHPRA 為準的欄位：狀態、申請者、註冊日期、藥理分類、舊制藥品"""
+    st = s.get("status") or ""
+    return {"status": st, "license_status": "cancelled" if st.lower().startswith("cancel") else "valid",
+            "manufacturer": s.get("applicant") or "", "license_holder": s.get("applicant") or "",
+            "approval_date": s.get("reg_date") or "", "therapeutic_area": s.get("area") or "",
+            "old_medicine": bool(s.get("old_medicine"))}
+
+
+def sahpra_record(s):
+    """重建步驟 1：SAHPRA 成分全文含本藥的註冊，依 SAHPRA 建一筆紀錄"""
+    return {"license_id": s["reg"], "brand_name_zh": tidy(s.get("name")), "brand_name_en": tidy(s.get("name")),
+            "ingredients": " ".join(str(s.get("ingredients") or "").split()), "indication": "",
+            "dosage_form": form_of(s.get("ingredients")), "manufacturer": s.get("applicant") or "",
+            "license_holder": s.get("applicant") or "", "approval_date": s.get("reg_date") or "", "expiry_date": "",
+            "kind": "combo" if n_ingredients(s.get("ingredients") or "") > 1 else "single",
+            "status": sahpra_fields(s)["status"], "license_status": sahpra_fields(s)["license_status"],
+            "therapeutic_area": s.get("area") or "", "old_medicine": bool(s.get("old_medicine")),
+            "in_mpr": False, "source": SOURCE}
+
+
+def merge_mpr_row(rec, x, name, mr):
+    """重建步驟 2 遇到同號（已有紀錄）的 MPR 列：併進那一筆，不另起一筆。
+    產品名用 MPR 的（MPR 沒寫就留原值；MANUAL_ROWS 有 to 的列保留 SAHPRA 產品名，MPR 品名是舊名或縮寫）、
+    劑型用 MPR 的（MPR 沒寫就留原值）、in_mpr＝True（MPR 有價格登錄）、nappi_code 用這一列的。
+    號碼、狀態、成分、申請者都不動（那是 SAHPRA 的）"""
+    if mr and mr.get("to"):
+        rec.update({"dosage_form": x.get("dosage_form") or rec.get("dosage_form", ""), "in_mpr": True,
+                    "nappi_code": x.get("nappi_code") or ""})
+        return rec
+    rec.update({"brand_name_en": name or rec.get("brand_name_en", ""), "brand_name_zh": name or rec.get("brand_name_zh", ""),
+                "dosage_form": x.get("dosage_form") or rec.get("dosage_form", ""), "in_mpr": True,
+                "nappi_code": x.get("nappi_code") or ""})
+    return rec
+
+
+def merge_same_number(t, S, rk):
+    """每週許可證更新用（2026-11-06，用戶決定）：證據包裡同號（rk 相同，而且是 SAHPRA 有的號碼）的紀錄合併成一筆。
+    同號紀錄的來由：只在 MPR 有的號碼（status_unconfirmed）這週經寫法統一對回 SAHPRA，而本藥本來就有那個 SAHPRA 號碼。
+    規則就是重建（main 的 rebuilt 分支）處理同號的做法——重建以號碼為鍵（new[k]），同號只會有一筆：
+      保留哪一筆：本來就對得到 SAHPRA 的那筆（不是 status_unconfirmed，等同重建步驟 1 或步驟 2 帶 SAHPRA 欄位建的那筆）；
+        都是 status_unconfirmed 時，SAHPRA 成分全文含本藥 → 依 SAHPRA 建（sahpra_record，等同步驟 1），
+        否則取重建步驟 2 順序裡最先出現的那筆，補上 SAHPRA 欄位（sahpra_fields；MANUAL_ROWS 有 to 的產品名用 SAHPRA 的）
+      欄位怎麼取：依重建步驟 2 的順序（query_terms 逐個、MPR 快取逐列，成分不含本藥的列跳過），對到這個號碼的 MPR 列逐列
+        用 merge_mpr_row 併進來（產品名、劑型、in_mpr、nappi_code）；快取裡找不到的 MPR 紀錄（例：快取不在）用紀錄本身當一列，排最後
+      號碼寫 SAHPRA 匯出的寫法、拿掉 status_unconfirmed；狀態照 SAHPRA（每週更新接著用 license_adapter.update() 寫新狀態）
+      合併後紀錄依 record_order 排序、total_matches＝不重複號碼數（同重建）。
+    只處理 rebuilt＝"rebuilt" 的證據包：clean_only／kept_old 重建時本來就不合併同號紀錄（原紀錄逐筆清理），這裡也不合併，結果才跟重建一致。
+    clean_only／kept_old 的證據包只照重建的公式重算 total_matches（不重複號碼數；寫法統一後同號只算一張）。
+    t＝證據包的 tfda 區塊（直接改）。回傳 [(SAHPRA 號碼, 合併前筆數)]"""
+    recs = t.get("records") or []
+    if t.get("rebuilt") != "rebuilt":
+        if t.get("rebuilt") and recs:
+            t["total_matches"] = len({rk(r["license_id"]) for r in recs})
+        return []
+    groups = {}
+    for i, r in enumerate(recs):
+        k = rk(r.get("license_id"), r.get("brand_name_en") or "")
+        if k in S:
+            groups.setdefault(k, []).append(i)
+    groups = {k: v for k, v in groups.items() if len(v) > 1}
+    if not groups:
+        return []
+    terms = t.get("query_terms") or []
+    rows = []  # 重建步驟 2 的順序
+    for term in terms:
+        f = cache_file(term)
+        for x in (json.loads(f.read_text(encoding="utf-8")) if f.exists() else []):
+            ings = [i.get("name") or "" for i in x.get("ingredients") or []]
+            if not any(has(norm(i), tm) for i in ings for tm in terms):
+                continue
+            name = (x.get("name") or "").strip()
+            rows.append((rk(x.get("regno"), name), x, name, manual(x.get("regno"), name)))
+    out, drop, put = [], set(), {}
+    for k, ix in groups.items():
+        grp = [recs[i] for i in ix]
+        mine = [(x, name, mr) for kk, x, name, mr in rows if kk == k]
+        seen = {norm(name) for _, name, _ in mine}
+        known = [r for r in grp if not r.get("status_unconfirmed")]
+        if known:
+            base = dict(known[0])
+        elif any(has(S[k]["_ing"], tm) for tm in terms):
+            base = sahpra_record(S[k])
+        else:
+            first = next((r for _, name, _ in mine for r in grp if norm(r.get("brand_name_en")) == norm(name)), grp[0])
+            base = {**first, **sahpra_fields(S[k])}
+            if (manual(first.get("license_id"), first.get("brand_name_en") or "") or {}).get("to"):
+                base["brand_name_en"] = base["brand_name_zh"] = tidy(S[k].get("name")) or base.get("brand_name_en", "")
+        for x, name, mr in mine:
+            merge_mpr_row(base, x, name, mr)
+        for r in grp:
+            if r.get("in_mpr") and r is not (known[0] if known else None) and norm(r.get("brand_name_en")) not in seen:
+                merge_mpr_row(base, r, r.get("brand_name_en") or "", manual(r.get("license_id"), r.get("brand_name_en") or ""))
+        base["license_id"] = S[k]["reg"]
+        base.pop("status_unconfirmed", None)
+        put[ix[0]] = base
+        drop |= set(ix[1:])
+        out.append((S[k]["reg"], len(ix)))
+    merged = [put.get(i, r) for i, r in enumerate(recs) if i not in drop]
+    t["records"] = sorted(merged, key=record_order)
+    t["total_matches"] = len({rk(r["license_id"]) for r in merged})
+    return out
+
+
 def main(argv):
     dry = "--dry-run" in argv
     rep = argv[argv.index("--report") + 1] if "--report" in argv else None
@@ -439,18 +567,7 @@ def main(argv):
             mrows.append((str(x.get("regno") or ""), x.get("name") or "", [i.get("name") or "" for i in x.get("ingredients") or []]))
     ALIAS, alias_rep = build_alias(S, mrows)
 
-    def rk(raw, name=None):
-        """比對用的號碼：SAHPRA 有的用 SAHPRA 的 key（含寫法統一、MANUAL_ROWS 人工對照），沒有的用原號碼的 key"""
-        m = manual(raw, name) if name is not None else None
-        if m and m.get("to") and key(m["to"]) in S:
-            return key(m["to"])
-        k = key(raw)
-        return k if k in S else ALIAS.get(k, (k,))[0]
-
-    def official(raw, name=None):
-        """頁面與證據包寫的號碼：SAHPRA 有的一律用 SAHPRA 匯出的寫法（讀者可以直接拿去 SAHPRA 查），沒有的照 MPR 原寫法"""
-        k = rk(raw, name)
-        return S[k]["reg"] if k in S else str(raw or "").strip()
+    rk, official = make_rk(S, ALIAS)
     rows = [("bundle", "inn", "terms", "action", "old_n", "old_valid", "new_n", "new_valid", "new_cancelled", "excluded", "note")]
     exrows = [("bundle", "license_id", "product", "ingredients", "reason")]
     for f in sorted(BUNDLES.glob("*/drug_bundle.json")):
@@ -510,15 +627,7 @@ def main(argv):
             new = {}
             for k, s in S.items():  # 1) SAHPRA 全量依成分
                 if any(has(s["_ing"], tm) for tm in terms):
-                    st = s.get("status") or ""
-                    new[k] = {"license_id": s["reg"], "brand_name_zh": tidy(s.get("name")), "brand_name_en": tidy(s.get("name")),
-                              "ingredients": " ".join(str(s.get("ingredients") or "").split()), "indication": "",
-                              "dosage_form": form_of(s.get("ingredients")), "manufacturer": s.get("applicant") or "",
-                              "license_holder": s.get("applicant") or "", "approval_date": s.get("reg_date") or "", "expiry_date": "",
-                              "kind": "combo" if n_ingredients(s.get("ingredients") or "") > 1 else "single",
-                              "status": st, "license_status": "cancelled" if st.lower().startswith("cancel") else "valid",
-                              "therapeutic_area": s.get("area") or "", "old_medicine": bool(s.get("old_medicine")),
-                              "in_mpr": False, "source": SOURCE}
+                    new[k] = sahpra_record(s)
             for term in terms:  # 2) MPR 依成分：補產品名、劑型；補 SAHPRA 匯出沒有的號碼
                 for x in mpr(term, sess):
                     ings = [i.get("name") or "" for i in x.get("ingredients") or []]
@@ -527,14 +636,8 @@ def main(argv):
                     name = (x.get("name") or "").strip()
                     mr = manual(x.get("regno"), name)
                     k = rk(x.get("regno"), name)
-                    if k in new:
-                        if mr and mr.get("to"):  # 人工對照：產品名用 SAHPRA 的（MPR 品名是舊名或縮寫）
-                            new[k].update({"dosage_form": x.get("dosage_form") or new[k]["dosage_form"], "in_mpr": True,
-                                           "nappi_code": x.get("nappi_code") or ""})
-                            continue
-                        new[k].update({"brand_name_en": name or new[k]["brand_name_en"], "brand_name_zh": name or new[k]["brand_name_zh"],
-                                       "dosage_form": x.get("dosage_form") or new[k]["dosage_form"], "in_mpr": True,
-                                       "nappi_code": x.get("nappi_code") or ""})
+                    if k in new:  # 同號已有紀錄：併進那一筆（每週更新合併同號紀錄也用同一支 merge_mpr_row）
+                        merge_mpr_row(new[k], x, name, mr)
                         continue
                     if mr and mr.get("to") and k in S:
                         name = tidy(S[k].get("name")) or name
@@ -557,11 +660,7 @@ def main(argv):
                         continue
                     s = S.get(k)
                     if s:  # SAHPRA 有這個號碼（成分全文寫法不同或被截斷）：狀態、申請者以 SAHPRA 為準
-                        st = s.get("status") or ""
-                        rec.update({"status": st, "license_status": "cancelled" if st.lower().startswith("cancel") else "valid",
-                                    "manufacturer": s.get("applicant") or "", "license_holder": s.get("applicant") or "",
-                                    "approval_date": s.get("reg_date") or "", "therapeutic_area": s.get("area") or "",
-                                    "old_medicine": bool(s.get("old_medicine"))})
+                        rec.update(sahpra_fields(s))
                     else:
                         rec["status_unconfirmed"] = True  # SAHPRA 匯出（含寫法統一）查不到：照用戶決定算有效，頁面加註
                     new[k] = rec

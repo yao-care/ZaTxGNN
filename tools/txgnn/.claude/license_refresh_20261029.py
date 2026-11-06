@@ -40,6 +40,8 @@ def load_adapter(site):
        update(rec, new) -> bool     依新狀態改這筆紀錄，有改回 True
     選用：sync_tables(站目錄, [證據包名]) -> [(頁, 欄位, 前值, 後值)]  狀態有變的藥由站自己重排／改寫許可證表（Za 2026-11-06）
           PAGE_NOTE（regex）             3b 自我檢查另外允許改的非表格行（例：表下程式產生的「Showing N of M」）與空行
+          merge_records(bundle) -> [str]  逐筆更新狀態前，把證據包裡號碼統一後同號的紀錄合併成一筆（直接改 bundle），
+                                         回傳每筆合併的說明（第一個字是許可證號）；合併過的藥算「證據包有改」，也交給 sync_tables（Za 2026-11-06）
     """
     return _load("license_adapter", BASE / site / "scripts/license_adapter.py")
 
@@ -179,6 +181,9 @@ def main(argv):
         ch = bool(getattr(ad, "preprocess", None) and ad.preprocess(b))  # 站專屬的前處理（例：EMA 獸用許可移出）
         if ch:
             changes.append(f"{f.parent.name} preprocess 前處理")
+        if hasattr(ad, "merge_records"):  # 站專屬：號碼寫法統一後同號的紀錄當場合併（Za 2026-11-06，用戶決定）
+            for note in ad.merge_records(b):
+                ch = True; changes.append(f"{f.parent.name} {note}")
         for r in lts.reg_block(b).get("records", []):
             nv = idx.get(ad.record_id(r))
             if nv is not None:
