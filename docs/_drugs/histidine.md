@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Histidine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant for **gastroparesis (disease)**, but
 | Predicted New Indication | gastroparesis (disease) |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 32 of 52) |
-| Number of SAHPRA Registrations | 52 (valid: 32) |
+| South Africa Market Status | Marketed (valid licences: 32 of 52; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 52 (valid: 32, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,9 +73,9 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
-| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 54 of 77) |
-| Number of SAHPRA Registrations | 77 (valid: 54) |
+| South Africa Market Status | Marketed (valid licences: 53 of 76; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 76 (valid: 53, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,7 +79,7 @@ Approved indication text was not available in the data compiled for this report.
 | 28/20.2/0389 | Xerazole Suspension | suspension | Valid |
 | 28/20.2/0416 | Novatrim | tablet | Valid |
 
-Showing 5 of 77 registrations (valid registrations first).
+Showing 5 of 76 registrations (valid registrations first).
 
 No ophthalmic formulation appears among the registrations listed, which matters for the predicted ocular indication.
 

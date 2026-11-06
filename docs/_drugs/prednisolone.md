@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 387
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **no 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 26 of 33) |
-| Number of SAHPRA Registrations | 33 (valid: 26) |
+| South Africa Market Status | Marketed (valid licences: 26 of 33; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 33 (valid: 26, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -84,8 +84,8 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 28/21.5/0316 | Capsoid | tablet | Valid |
-| 36/21.5.1/0191 | Prednisilone 15 strides | syrup | Valid |
+| 28/21.5/0316 | Capsoid | tablet | Valid (status not confirmed by SAHPRA) |
+| 36/21.5.1/0191 | Prednisilone 15 strides | syrup | Valid (status not confirmed by SAHPRA) |
 | G2968 | Lenisolone | tablet | Valid |
 | G3055 | Prelone | tablet | Valid |
 | 28/21.5.1/0158 | Prelone | syrup | Valid |

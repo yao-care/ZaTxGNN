@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Isotretinoin: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Isotretinoin is a retinoid, marketed in South Africa as an oral capsule and a to
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 14 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 14) |
+| South Africa Market Status | Marketed (valid licences: 14 of 14; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 14 (valid: 14, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,7 +74,7 @@ Currently no related literature available.
 | 34/13.4.2/0357 | Acnetane | capsule | Valid |
 | 35/13.4.2/0375 | Oratane | capsule | Valid |
 | 35/13.4.2/0376 | Oratane | capsule | Valid |
-| 37/13.4.2/0041 | Tretoderm | capsule | Valid |
+| 37/13.4.2/0041 | Tretoderm | capsule | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 14 registrations (valid registrations first).
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the registration data compiled for this report"
 monitor_inn: "PHENYLALANINE"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -52,8 +52,8 @@ The prediction is therefore computational only.
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 17 of 26) |
-| Number of SAHPRA Registrations | 26 (valid: 17) |
+| South Africa Market Status | Marketed (valid licences: 17 of 26; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 26 (valid: 17, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,9 @@ Approved indication text is not available in the data compiled for this report. 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
-| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 

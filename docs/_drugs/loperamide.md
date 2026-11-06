@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Diarrhoeal disease, dysentery"
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "Angelucci syndrome"]
@@ -48,8 +48,8 @@ Loperamide is an antimotility drug originally used to treat diarrhoeal disease a
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 20 of 25) |
-| Number of SAHPRA Registrations | 25 (valid: 20) |
+| South Africa Market Status | Marketed (valid licences: 17 of 22; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 22 (valid: 17, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,12 +83,12 @@ Approved indication text and manufacturer details were not available in the data
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/11.9/0140 | Dis-chem anti-diarrhoeal | tablet | Valid |
-| 29/11.9/0616 | Lopedium | effervescent tablet | Valid |
+| 29/11.9/0616 | Lopedium | effervescent tablet | Valid (status not confirmed by SAHPRA) |
 | A39/11.9/0407 | Cipla-loperamide | tablet | Valid |
 | H/11.9/152 | Imodium | tablet | Valid |
 | U/11.9/213 | Imodium | capsule | Valid |
 
-Showing 5 of 25 registrations (valid registrations first).
+Showing 5 of 22 registrations (valid registrations first).
 
 No ophthalmic formulation is registered.
 

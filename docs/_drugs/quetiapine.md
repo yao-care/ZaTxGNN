@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Bipolar disorder, major affective disorder…"
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
@@ -53,8 +53,8 @@ The highest-scoring TxGNN prediction (retinal dystrophy) has no supporting evide
 | Predicted New Indication | Trichotillomania (rank 8); the rank 1 prediction is retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9938 (trichotillomania); 0.9957 (rank 1, retinal dystrophy) |
 | Evidence Level | L5 (trichotillomania); L5 for the rank 1 prediction |
-| South Africa Market Status | Marketed (valid licences: 136 of 153) |
-| Number of SAHPRA Registrations | 153 (valid: 136) |
+| South Africa Market Status | Marketed (valid licences: 136 of 153; 10 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 153 (valid: 136, of which 10 not confirmed by SAHPRA) |
 | Recommended Decision | Hold (overall); trichotillomania is a research question only |
 
 ---

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Amlodipine maleate is a specific salt form of the dihydropyridine calcium channe
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Cannot be determined — no predictions available |
-| South Africa Market Status | Marketed (valid licences: 303 of 328) |
-| Number of SAHPRA Registrations | 328 (valid: 303) |
+| South Africa Market Status | Marketed (valid licences: 301 of 326; 28 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 326 (valid: 301, of which 28 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -80,7 +80,7 @@ Until the DrugBank ID is resolved and original indication data is populated, the
 | 37/7.1/0377 | Amlodipine 10 oethmaan | tablet | Valid |
 | 37/7.1/0378 | Amlodipine 5 Biotech | tablet | Valid |
 
-Showing 5 of 328 registrations (valid registrations first).
+Showing 5 of 326 registrations (valid registrations first).
 
 > Amlodipine besylate products are widely available in South Africa. If coverage of the active moiety is intended, a separate regulatory search using the maleate and besylate salt forms together is recommended.
 

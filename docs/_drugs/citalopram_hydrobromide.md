@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -56,8 +56,8 @@ Until the pipeline is re-run with a complete drug profile, no evidence-based rep
 | Predicted New Indication | Not available — prediction pending |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
-| South Africa Market Status | Marketed (valid licences: 53 of 60) |
-| Number of SAHPRA Registrations | 60 (valid: 53) |
+| South Africa Market Status | Marketed (valid licences: 52 of 59; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 59 (valid: 52, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -97,7 +97,7 @@ No TxGNN predicted indication is available, and the foundational data required f
 
 - **Re-run the TxGNN prediction pipeline** for citalopram hydrobromide to generate a predicted indication and confidence score
 - **Retrieve the full DrugBank drug profile** (MOA, categories, pharmacodynamics) — Data Gap DG002; investigate why the successful DrugBank query returned a null `drugbank_id`
-- **Retrieve and parse the package insert (PI)** from the SAHPRA or TFDA official source for warnings, contraindications, and approved indication text — Data Gap DG001
+- **Retrieve and parse the package insert (PI)** from the SAHPRA official source for warnings, contraindications, and approved indication text — Data Gap DG001
 - **Verify SAHPRA registration status** via the official register to confirm whether citalopram products are currently authorised in South Africa
 - **Confirm the DrugBank identifier** to enable consistent downstream queries across the evidence collection pipeline
 

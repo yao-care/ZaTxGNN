@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Abacavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and only **1 preclinical publication** (a co
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 53 of 68) |
-| Number of SAHPRA Registrations | 68 (valid: 53) |
+| South Africa Market Status | Marketed (valid licences: 52 of 67; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 67 (valid: 52, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The one cited study examined feline immunodeficiency virus (FIV) replication in vitro. FIV is the virus that causes feline AIDS, but the study tested a three-drug combination (zidovudine, lamivudine and abacavir) and does not isolate abacavir's own effect. It does not directly address the predicted disease as a treated condition, so the evidence level is capped at L5 (model prediction, no directly supporting study).
@@ -92,7 +92,7 @@ No approved-indication text is available in the licence records compiled for thi
 | 46/20.2.8/0979 | Kavimun | Fct | Valid |
 | 51/20.2.8/0304 | Hetacav 300 | Fct | Valid |
 
-Showing 5 of 68 registrations (valid registrations first).
+Showing 5 of 67 registrations (valid registrations first).
 
 Several product names (for example Auro Abacavir Lamivudine, Kivexa, Heteruam) suggest fixed-dose combinations. Verify against the SAHPRA register before relying on them.
 

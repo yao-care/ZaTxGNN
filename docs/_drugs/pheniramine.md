@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Pheniramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are currently **no registered clinical trials** and **no directly supp
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 6 of 9; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 9 (valid: 6, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,7 +82,7 @@ No randomised trials or systematic reviews of pheniramine in allergic urticaria 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 28/5.8/0696 | Degoran Fizzy Effervescent Tabtlets | effervescent tablet | Valid |
+| 28/5.8/0696 | Degoran Fizzy Effervescent Tabtlets | effervescent tablet | Valid (status not confirmed by SAHPRA) |
 | G1796 | Calasthetic | cream | Valid |
 | C0989 | Triaminic Oral Drops | solution | Valid |
 | C0991 | Degoran Bitabs | Not recorded | Valid |

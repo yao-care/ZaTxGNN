@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "immature cataract", "tetanic cataract", "mature cataract", "cortical cataract", "craniostenosis cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "diabetic cataract"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence records (the registered products are parent…"
 ---
 
@@ -52,8 +52,8 @@ This is a model prediction only (evidence level L5) and the recommendation is **
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 19 of 33) |
-| Number of SAHPRA Registrations | 33 (valid: 19) |
+| South Africa Market Status | Marketed (valid licences: 19 of 33; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 33 (valid: 19, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,9 +91,9 @@ No approved indication text is available for any of them. The data compiled for 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
-| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the registration data (products are amino acid-containi…"
 monitor_inn: "Tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -52,8 +52,8 @@ The prediction is model-only, and the evidence is weak across all ten predicted 
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 10 of 11; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 11 (valid: 10, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -109,9 +109,9 @@ No approved indication text is recorded for any of them, and Essential Medicines
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
-| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
 | 46/32.2/0518 | Smofkabiven | Inf | Valid |
 | 47/32.2/0036 | Smofkabiven Peripheral | infusion | Valid |
 

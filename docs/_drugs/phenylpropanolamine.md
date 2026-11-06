@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Phenylpropanolamine: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLPROPANOLAMINE"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
@@ -52,8 +52,8 @@ Currently there are **0 registered clinical trials** and **3 publications** (1 h
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 20 of 39) |
-| Number of SAHPRA Registrations | 39 (valid: 20) |
+| South Africa Market Status | Marketed (valid licences: 20 of 39; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 39 (valid: 20, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,7 +96,7 @@ The compiled records contain no approved indication text and no manufacturer det
 | 28/5.8/0231 | Flustat | syrup | Valid |
 | 28/5.8/0648 | Betalix decongestant | syrup | Valid |
 | M/5.8/0125 | Rinex | syrup | Valid |
-| M/5.8/67 | Rinex diffucaps | capsule | Valid |
+| M/5.8/67 | Rinex diffucaps | capsule | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 39 registrations (valid registrations first).
 

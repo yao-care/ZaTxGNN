@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Anaplastic astrocytoma, astrocytoma (excluding glioblastoma)…"
 ---
 
@@ -78,10 +78,10 @@ Only the first report is relevant to this prediction, and it concerns a related 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 32/26/0721 | Temodal 5 Mg Capsules | capsule | Valid |
 | 32/26/0722 | Temodal 20 Mg Capsule | capsule | Valid |
 | 32/26/0723 | Temodal 100 Mg Capsules | capsule | Valid |
 | 32/26/0724 | Temodal 250 Mg Capsules | capsule | Valid |
+| 32/26/721 | Temodal 5 Mg Capsules | capsule | Valid |
 | 42/26/0961 | Temodal 140 Mg | capsule | Valid |
 
 Showing 5 of 18 registrations (valid registrations first).

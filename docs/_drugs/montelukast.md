@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 331
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Montelukast is a leukotriene receptor antagonist that is already marketed in Sou
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 96 of 111) |
-| Number of SAHPRA Registrations | 111 (valid: 96) |
+| South Africa Market Status | Marketed (valid licences: 93 of 108; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 108 (valid: 93, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -107,7 +107,7 @@ Much of the registered trial activity concerns bronchiolitis, a related but dist
 | 43/10.2.2/0785 | Topraz | Chu | Valid |
 | 43/10.2.2/0786 | Topraz | Chu | Valid |
 
-Showing 5 of 111 registrations (valid registrations first).
+Showing 5 of 108 registrations (valid registrations first).
 
 ---
 

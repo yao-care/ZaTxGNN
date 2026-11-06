@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 289
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Leucine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 26 of 43) |
-| Number of SAHPRA Registrations | 43 (valid: 26) |
+| South Africa Market Status | Marketed (valid licences: 26 of 43; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 43 (valid: 26, of which 5 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -74,12 +74,12 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
-| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
-| 41/25/0758 | Nutriflex lipid plus without electrolyte | Tpn | Valid |
+| 41/25/0758 | Nutriflex lipid plus without electrolyte | Tpn | Valid (status not confirmed by SAHPRA) |
 | 41/25/0759 | Nutriflex lipid special 2500ml | Tpn | Valid |
 | 46/32.2/0518 | Smofkabiven | Inf | Valid |
 | 47/32.2/0036 | Smofkabiven Peripheral | infusion | Valid |

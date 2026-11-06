@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (preclinical or mechanistic reasoning only; no relevant clinical studies) |
-| South Africa Market Status | Marketed (valid licences: 129 of 135) |
-| Number of SAHPRA Registrations | 135 (valid: 129) |
+| South Africa Market Status | Marketed (valid licences: 129 of 135; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 135 (valid: 129, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

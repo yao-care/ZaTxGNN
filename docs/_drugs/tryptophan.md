@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 463
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not stated"
 monitor_inn: "Tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -50,8 +50,8 @@ Evidence is limited and dated, so this is a research-level opportunity, not a re
 | Predicted New Indication | Insomnia (the top-ranked TxGNN prediction is restless legs syndrome, but insomnia has the strongest supporting evidence, so it is the focus of this report) |
 | TxGNN Prediction Score | Insomnia: 0.9947 (restless legs syndrome, rank 1: 0.9972) |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 15 of 16) |
-| Number of SAHPRA Registrations | 16 (valid: 15) |
+| South Africa Market Status | Marketed (valid licences: 15 of 16; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 16 (valid: 15, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -89,9 +89,9 @@ Tryptophan is registered only as a component of multi-ingredient infusion produc
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
-| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 

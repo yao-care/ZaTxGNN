@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The more plausible predicted indications are reflex-type seizure disorders, whic
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 4 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 4 of 5; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 5 (valid: 4, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 For context, the other nine predictions are:
@@ -116,10 +116,10 @@ No literature was retrieved for orgasm-induced seizures or beta-ketothiolase def
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | E/2.3/107 | Sedabarb | tablet | Valid |
-| B 1492 (OM) | Adco-phenobarb vital | syrup | Valid |
-| B1233 (OM) | Propain forte | tablet | Valid |
-| E0975 (ACT 1010 | Donnatal Elixir | syrup | Valid |
-| B1163 (ACT 101) | Lethyl | tablet | Cancelled |
+| B1233 | Propain forte | tablet | Valid |
+| B1492 | Adco-phenobarb vital | syrup | Valid |
+| E0975 (ACT 1010 | Donnatal Elixir | syrup | Valid (status not confirmed by SAHPRA) |
+| B1163 | Lethyl | tablet | Cancelled |
 
 Essential Medicines List status could not be confirmed from the data compiled for this report.
 

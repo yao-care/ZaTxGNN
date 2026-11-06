@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Note that this is essentially the drug's existing, approved use rather than true
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 per the data compiled for this report (based on guidelines, systematic reviews and meta-analyses, plus two completed Phase 3 zolpidem MR insomnia trials; no trial is listed directly under this indication) |
-| South Africa Market Status | Marketed (valid licences: 28 of 32) |
-| Number of SAHPRA Registrations | 32 (valid: 28) |
+| South Africa Market Status | Marketed (valid licences: 28 of 32; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 32 (valid: 28, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "VALPROIC ACID"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -52,8 +52,8 @@ Among the other predictions, **visual epilepsy** has the strongest support, thou
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1) |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 20 of 20) |
-| Number of SAHPRA Registrations | 20 (valid: 20) |
+| South Africa Market Status | Marketed (valid licences: 20 of 20; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 20 (valid: 20, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 **Overview of the top 10 predictions**

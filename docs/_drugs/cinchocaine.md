@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CINCHOCAINE"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **bronchitis**, but **no clinic
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 5 of 6; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 6 (valid: 5, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -83,8 +83,8 @@ Currently no related literature available.
 |------|------|------|------|
 | E/11.8/0667 | Scheriproct (new formulary) | ointment | Valid |
 | E/11.8/0668 | Scheriproct (new formulary) | Suh | Valid |
-| E529 (ACT 101 1965) | Proctosedyl Suppositories | suppository | Valid |
-| E530 (ACT 101 1965) | Proctosedyl Ointment | ointment | Valid |
+| E529 (ACT 101 1965) | Proctosedyl Suppositories | suppository | Valid (status not confirmed by SAHPRA) |
+| E530 (ACT 101 1965) | Proctosedyl Ointment | ointment | Valid (status not confirmed by SAHPRA) |
 | H/16.3/199 | MEDI-KEEL A Throat Gargle | solution | Valid |
 
 Showing 5 of 6 registrations (valid registrations first).

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Thiamine: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not available"
 ---
 
@@ -48,8 +48,8 @@ Thiamine (vitamin B1) is registered in South Africa in several single-ingredient
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 43 of 83) |
-| Number of SAHPRA Registrations | 83 (valid: 43) |
+| South Africa Market Status | Marketed (valid licences: 42 of 82; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 82 (valid: 42, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,13 +87,13 @@ Thirteen single-ingredient registrations are listed (the list may be partial). N
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| H.2479 (ACT 101 OF 1965) | Thiamine hcl 10ml | injection | Valid |
 | A/21.8.1/743 | Menoflush | tablet | Valid |
-| B 1492 (OM) | Adco-phenobarb vital | syrup | Valid |
-| C661 (OM) | Corenza c | effervescent tablet | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| B1492 | Adco-phenobarb vital | syrup | Valid |
+| C661 (OM) | Corenza c | effervescent tablet | Valid (status not confirmed by SAHPRA) |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
+| H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 83 registrations (valid registrations first).
+Showing 5 of 82 registrations (valid registrations first).
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

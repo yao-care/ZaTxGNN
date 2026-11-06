@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "DEXTROMETHORPHAN"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Dextromethorphan: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Dextromethorphan is an antitussive used in cough and cold products in South Afri
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 26 of 42) |
-| Number of SAHPRA Registrations | 42 (valid: 26) |
+| South Africa Market Status | Marketed (valid licences: 25 of 41; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 41 (valid: 25, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -86,9 +86,9 @@ Approved indication text is not recorded in the local data for any of them. Esse
 | 27/10.1/0553 | Flusin dm | syrup | Valid |
 | 27/5.8/0286 | Sinustat flu | syrup | Valid |
 | 28/5.8/0231 | Flustat | syrup | Valid |
-| 28/5.8/0304 | Kiddyflu | syrup | Valid |
+| 28/5.8/0304 | Kiddyflu | syrup | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 42 registrations (valid registrations first).
+Showing 5 of 41 registrations (valid registrations first).
 
 ---
 

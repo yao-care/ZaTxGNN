@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Dipyridamole is an oral antiplatelet medicine that is registered and marketed in
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 5 (valid: 5, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,13 +70,11 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 27/8/0400 | Persantin 200 Retard | capsule | Valid |
-| H535 (ACT 101/1965) | Persantin | injection | Valid |
-| K/8/0297 | Plato | tablet | Valid |
-| N/8/0163 | Plato | tablet | Valid |
-| 31/8/0641 | Asasantin 200/25 Retard | capsule | Valid |
-
-Showing 5 of 8 registrations (valid registrations first).
+| 27/8/0400 | Persantin 200 Retard | capsule | Valid (status not confirmed by SAHPRA) |
+| K/8/297 | Plato | tablet | Valid |
+| N/8/163 | Plato | tablet | Valid |
+| 31/8/0641 | Asasantin 200/25 Retard | capsule | Valid (status not confirmed by SAHPRA) |
+| H0535 | Persantin | injection | Valid |
 
 No Essential Medicines List information was available in the data compiled for this report.
 

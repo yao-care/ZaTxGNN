@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Pramocaine"
 predicted_indications: ["papillary conjunctivitis"]
 description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 1 of 1; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 1 (valid: 1, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -88,7 +88,7 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| E512 | Anugesic | suppository | Valid |
+| E512 | Anugesic | suppository | Valid (status not confirmed by SAHPRA) |
 
 Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
 

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ As a result, **no new indications, clinical trials, or supporting literature** a
 | Predicted New Indication | None — TxGNN pipeline returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A (pipeline did not complete) |
-| South Africa Market Status | Marketed (valid licences: 6 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 5 of 9; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 9 (valid: 5, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 ---

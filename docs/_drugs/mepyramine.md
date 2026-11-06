@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "MEPYRAMINE"
 predicted_indications: ["nasal cavity disease"]
 description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Because urticaria and angioedema are already among its labelled uses, this predi
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 30 of 60) |
-| Number of SAHPRA Registrations | 60 (valid: 30) |
+| South Africa Market Status | Marketed (valid licences: 26 of 56) |
+| Number of SAHPRA Registrations | 56 (valid: 26) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,13 +90,13 @@ All retrieved literature is indirect. None of it tests mepyramine for allergic u
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| C 791(ACT 101) | Mepyramine Maleate Fresenius 50Mg | injection | Valid |
-| C790 (OM) | Mepyrimal | syrup | Valid |
 | 29/5.7.1/0026 | Antihist 2ml | injection | Valid |
 | 34/13.4/0471 | Mepyraderm | cream | Valid |
-| C739 | Sinu-flu (was Universal cold & flu) | tablet | Valid |
+| C0739 | Sinu-flu (was Universal cold & flu) | tablet | Valid |
+| C0791 | Mepyramine Maleate Fresenius 50Mg | injection | Valid |
+| E/5.7.1/125 | Histodor | tablet | Valid |
 
-Showing 5 of 60 registrations (valid registrations first).
+Showing 5 of 56 registrations (valid registrations first).
 
 Essential Medicines List status could not be determined from the data compiled for this report.
 

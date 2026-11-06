@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 126
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L5). Approved use: Depressive and anxiety disorders (major depressive disorder…"
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)"]
@@ -50,8 +50,8 @@ The data compiled for this report include **4 clinical trials** (none confirmed 
 | Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 (as assigned in the compiled data). This should be read cautiously, because no completed trial directly confirms citalopram in OCD; the supporting evidence is class-level (SSRI) and small open-label citalopram studies. |
-| South Africa Market Status | Marketed (valid licences: 53 of 60) |
-| Number of SAHPRA Registrations | 60 (valid: 53) |
+| South Africa Market Status | Marketed (valid licences: 52 of 59; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 59 (valid: 52, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -99,7 +99,7 @@ No randomised, double-blind citalopram trial in OCD was identified among the ret
 | 36/1.2/0469 | Citalopram 20 Oethmaan | Fct | Valid |
 | 36/1.2/0518 | Citalohexal 20 | tablet | Valid |
 
-Showing 5 of 60 registrations (valid registrations first).
+Showing 5 of 59 registrations (valid registrations first).
 
 Essential Medicines List (EML) status was not available in the compiled data.
 

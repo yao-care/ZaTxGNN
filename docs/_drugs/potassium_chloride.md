@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 381
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ There are **no registered clinical trials** and **18 publications** (mostly case
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 (see note below) |
-| South Africa Market Status | Marketed (valid licences: 126 of 182) |
-| Number of SAHPRA Registrations | 182 (valid: 126) |
+| South Africa Market Status | Marketed (valid licences: 117 of 173; 8 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 173 (valid: 117, of which 8 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* Under the standard rules, a prediction with no clinical trials and only case reports, reviews and small cohorts would be L5 (model prediction only). The L4 grade comes from the mechanistic rationale (potassium repletion for hypokalaemia in RTA), not from preclinical or mechanism studies.
@@ -106,9 +106,9 @@ No information on Essential Medicines List (EML) inclusion is available. Five ma
 | 36/24/0176 | Potassium chloride unicorn | Srt | Valid |
 | 36/24/0177 | Sandoz k-600 | Srt | Valid |
 | 52/24/0441 | Plenish-K 600 Sr | Srt | Valid |
-| E587 (ACT 101/1965) | Slow-K | tablet | Valid |
+| E587 (ACT 101/1965) | Slow-K | tablet | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 182 registrations (valid registrations first).
+Showing 5 of 173 registrations (valid registrations first).
 
 ---
 

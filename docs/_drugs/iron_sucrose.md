@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 275
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Iron Sucrose: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Iron Sucr
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 5 (valid: 5, of which 1 not confirmed by SAHPRA) |
 
 ## Known uses among the model's candidates
 
@@ -76,7 +76,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Iron Sucr
 |------|------|------|------|
 | 45/8.3/0335 | Equifer ampoule 5ml | injection | Valid |
 | 50/8.3/1051 | Fortihem | injection | Valid |
-| A  50/2.6.5/0687 | Innofer Injection | Injection | Valid |
+| A  50/2.6.5/0687 | Innofer Injection | Injection | Valid (status not confirmed by SAHPRA) |
 | 45/8.3/0550 | Zypiron 20 | injection | Valid |
 | 57/8.3/0224 | Aculefr | solution | Valid |
 

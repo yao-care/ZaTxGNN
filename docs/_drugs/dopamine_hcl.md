@@ -5,7 +5,7 @@ layout: default
 title: Dopamine Hcl
 parent: Known Uses Only (No New Predictions)
 nav_order: 198
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -45,8 +45,8 @@ The data-report skill's fidelity principle applies here: I must report only what
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 6 of 6; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 6 (valid: 6, of which 1 not confirmed by SAHPRA) |
 
 ---
 

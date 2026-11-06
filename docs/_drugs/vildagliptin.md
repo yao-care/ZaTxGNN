@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -50,8 +50,8 @@ Vildagliptin is an oral DPP-4 inhibitor used to treat type 2 diabetes mellitus. 
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 54 of 58) |
-| Number of SAHPRA Registrations | 58 (valid: 54) |
+| South Africa Market Status | Marketed (valid licences: 53 of 57) |
+| Number of SAHPRA Registrations | 57 (valid: 53) |
 | Recommended Decision | Hold |
 
 ---
@@ -110,7 +110,7 @@ Currently no related literature available for classic stiff person syndrome.
 | 53/21.2/0333 | Vileptin | tablet | Valid |
 | 55/21.2/0382 | Vildagliptin 50 Accord | tablet | Valid |
 
-Showing 5 of 58 registrations (valid registrations first).
+Showing 5 of 57 registrations (valid registrations first).
 
 The only dosage form is oral tablet. The product strengths suggest a fixed-dose pairing with a second agent, probably metformin, but this should be confirmed against the SAHPRA record. Essential Medicines List status could not be determined from the data.
 

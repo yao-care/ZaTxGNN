@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Carvedilol is an oral beta-blocker that also blocks alpha-1 adrenergic receptors
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 34 of 37) |
-| Number of SAHPRA Registrations | 37 (valid: 34) |
+| South Africa Market Status | Marketed (valid licences: 34 of 37; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 37 (valid: 34, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

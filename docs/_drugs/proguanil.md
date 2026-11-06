@@ -5,7 +5,7 @@ layout: default
 title: Proguanil
 parent: Known Uses Only (No New Predictions)
 nav_order: 392
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Proguanil: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Proguanil"
 predicted_indications: []
@@ -43,20 +43,20 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 10 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 9 of 13; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 13 (valid: 9, of which 1 not confirmed by SAHPRA) |
 
 ## South Africa Market Information
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 36/20.2.8/0434 | Trizivar | tablet | Valid |
+| 36/20.2.8/0434 | Trizivar | tablet | Valid (status not confirmed by SAHPRA) |
 | 47/20.2.6/1015 | Malateq | tablet | Valid |
 | 48/20.2.6/0526 | Hetovanil 62.5/25Mg | Fct | Valid |
 | 48/20.2.6/0659 | Malagen | Fct | Valid |
 | A40/20.2.6/0165 | Malanil paediatric 62.5mg/25mg | tablet | Valid |
 
-Showing 5 of 14 registrations (valid registrations first).
+Showing 5 of 13 registrations (valid registrations first).
 
 Trizivar is a single-ingredient oral product with a valid registration. Essential Medicines List (EML) status was not available in the data compiled for this report.
 

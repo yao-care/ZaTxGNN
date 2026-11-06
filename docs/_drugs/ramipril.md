@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ramipril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension and stroke-related conditions"
 ---
 
@@ -50,8 +50,8 @@ Ramipril is an ACE inhibitor. The TxGNN model (deep learning) predicts it may be
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 58 of 72) |
-| Number of SAHPRA Registrations | 72 (valid: 58) |
+| South Africa Market Status | Marketed (valid licences: 58 of 72; 18 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 72 (valid: 58, of which 18 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,10 +90,10 @@ The records contain no approved-indication text. Essential Medicines List status
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/7.1.3/0665 | Tritace 1.25 Mg Tablets | tablet | Valid |
-| 31/7.1.3/0667 | Tritace 5 Mg Tablets | tablet | Valid |
-| 31/7.1.3/0690 | Ramace | tablet | Valid |
-| 31/7.1.3/0691 | Ramace  5 Tablets | tablet | Valid |
+| 31/7.1.3/0665 | Tritace 1.25 Mg Tablets | tablet | Valid (status not confirmed by SAHPRA) |
+| 31/7.1.3/0667 | Tritace 5 Mg Tablets | tablet | Valid (status not confirmed by SAHPRA) |
+| 31/7.1.3/0690 | Ramace | tablet | Valid (status not confirmed by SAHPRA) |
+| 31/7.1.3/0691 | Ramace  5 Tablets | tablet | Valid (status not confirmed by SAHPRA) |
 | 37/7.1.3/0511 | Ramipril hexal | tablet | Valid |
 
 Showing 5 of 72 registrations (valid registrations first).

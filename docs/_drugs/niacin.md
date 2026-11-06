@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 339
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Niacin: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced candidates for Niacin with a score of 0.9
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 1 of 1; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 1 (valid: 1, of which 1 not confirmed by SAHPRA) |
 
 ## Known uses among the model's candidates
 
@@ -74,7 +74,7 @@ The TxGNN deep-learning model produced candidates for Niacin with a score of 0.9
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 42/7.5/1092 | Tredaptive | tablet | Valid |
+| 42/7.5/1092 | Tredaptive | tablet | Valid (status not confirmed by SAHPRA) |
 
 ## Safety Considerations
 

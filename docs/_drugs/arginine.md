@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 43
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not stated in the registration data compiled for this report (all 10…"
 monitor_inn: "ARGININE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -48,8 +48,8 @@ Arginine is an amino acid used as a component of parenteral nutrition and perito
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 35 of 54) |
-| Number of SAHPRA Registrations | 54 (valid: 35) |
+| South Africa Market Status | Marketed (valid licences: 35 of 54; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 54 (valid: 35, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,15 +92,15 @@ Approved indication text was not available in the data compiled for this report.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
-| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
 Showing 5 of 54 registrations (valid registrations first).
 
-All products are parenteral (infusion) formulations. No oral arginine product was identified, so route compatibility with a gastroparesis indication has not been assessed.
+Route compatibility with a gastroparesis indication has not been assessed.
 
 ## Safety Considerations
 
@@ -126,7 +126,7 @@ The prediction is mechanistically plausible through the nitric oxide pathway, bu
 - SAHPRA Professional Information (warnings, contraindications, approved indications) for the registered arginine-containing products
 - Mechanism of action data from DrugBank
 - A systematic literature search for human studies of arginine or NO-donor strategies in gastroparesis
-- Assessment of an appropriate route and formulation (current registrations are parenteral only)
+- Assessment of an appropriate route and formulation
 - A safety review for gastroparesis patients, particularly those with diabetes, renal impairment or cardiovascular disease
 - Preclinical or small early-phase studies before any clinical development
 ## Disclaimer

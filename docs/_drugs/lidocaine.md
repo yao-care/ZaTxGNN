@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 58 of 79) |
-| Number of SAHPRA Registrations | 79 (valid: 58) |
+| South Africa Market Status | Marketed (valid licences: 57 of 78; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 78 (valid: 57, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,13 +77,13 @@ For context, the other TxGNN predictions were also reviewed. None provides direc
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 39/4/0437 | Lignocaine ampoule 5ml | injection | Valid |
+| 39/4/0437 | Lignocaine ampoule 5ml | injection | Valid (status not confirmed by SAHPRA) |
 | 43/3.2.3/0382 | Versatis 5% | Pls | Valid |
 | G2826 | Xylocaine 475 dose 50ml | Spr | Valid |
 | G2829 | Remicaine 5ml | injection | Valid |
 | 30/4/0478 | Emla 5% | Psd | Valid |
 
-Showing 5 of 79 registrations (valid registrations first).
+Showing 5 of 78 registrations (valid registrations first).
 
 Essential Medicines List status could not be confirmed from the data compiled. No ophthalmic lidocaine product appears among the registrations listed, so route compatibility for an eye indication is unconfirmed.
 

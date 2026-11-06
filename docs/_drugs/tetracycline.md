@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections, including urinary tract infection, bronchitis…"
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and only **1 publicati
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 15) |
-| Number of SAHPRA Registrations | 15 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 7 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,13 +76,13 @@ Currently no related clinical trials registered for punctate epithelial keratoco
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| L/20.1.1/0384 | Tetracycline Hci | tablet | Valid |
+| L/20.1.1/384 | Tetracycline Hci | tablet | Valid |
 | 57/20.1.1/0164 | Lymevor 300 mg | capsule | Valid |
 | 57/20.1.1/0165 | Lymedex 300 mg | capsule | Valid |
 | B/20.1.1/201 | Capcycline Capsules | capsule | Valid |
 | E/20.1.1/67 | Tetralysal 300 mg | capsule | Valid |
 
-Showing 5 of 15 registrations (valid registrations first).
+Showing 5 of 14 registrations (valid registrations first).
 
 Essential Medicines List (EML) status was not available in the data compiled for this report.
 

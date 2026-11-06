@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 303
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Magnesium: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 3 (valid: 3, of which 2 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -74,8 +74,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
-| H2062 (ACT 101) | Filibon | capsule | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
+| H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
 | 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
 
 ## Safety Considerations

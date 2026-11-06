@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism and related thyroid conditions"
 ---
 
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Renal hypodysplasia/aplasia |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 50 of 50) |
-| Number of SAHPRA Registrations | 50 (valid: 50) |
+| South Africa Market Status | Marketed (valid licences: 49 of 49) |
+| Number of SAHPRA Registrations | 49 (valid: 49) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,7 +83,7 @@ Currently no related literature available.
 | 42/21.3/0673 | Synthroid 88 Μg | tablet | Valid |
 | 42/21.3/0674 | Synthroid 100 Μg | tablet | Valid |
 
-Showing 5 of 50 registrations (valid registrations first).
+Showing 5 of 49 registrations (valid registrations first).
 
 This is a single-ingredient oral product and is currently valid. Essential Medicines List status is not available in the data compiled for this report.
 

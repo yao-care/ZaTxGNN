@@ -5,7 +5,7 @@ layout: default
 title: Ampicillin Sodium
 parent: Known Uses Only (No New Predictions)
 nav_order: 38
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 30 of 70) |
-| Number of SAHPRA Registrations | 70 (valid: 30) |
+| South Africa Market Status | Marketed (valid licences: 24 of 64; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 64 (valid: 24, of which 4 not confirmed by SAHPRA) |
 
 ---
 

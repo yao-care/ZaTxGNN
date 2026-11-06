@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 167
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, but **no
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 41 of 54) |
-| Number of SAHPRA Registrations | 54 (valid: 41) |
+| South Africa Market Status | Marketed (valid licences: 38 of 51; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 51 (valid: 38, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,11 +75,11 @@ Dexamethasone-containing products are marketed in South Africa. Approved indicat
 |------|------|------|------|
 | 44/15.2/0045 | Ozurdex intravitreal | Imp | Valid |
 | 54/32/0323 | Neofordex | tablet | Valid |
-| H.1143 | Maxidex 5ml | drops | Valid |
-| Z/21.5.1/0285 | Decasone ampoule 1ml | injection | Valid |
+| H1143 | Maxidex 5ml | drops | Valid |
 | 33/21.5.1/0512 | Pharma-q dexamethasone phosphate ampoule | injection | Valid |
+| 41/21.5.1/0814 | Tagalon | injection | Valid |
 
-Showing 5 of 54 registrations (valid registrations first).
+Showing 5 of 51 registrations (valid registrations first).
 
 ## Safety Considerations
 

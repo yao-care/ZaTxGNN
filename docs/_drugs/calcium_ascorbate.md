@@ -5,7 +5,7 @@ layout: default
 title: Calcium Ascorbate
 parent: Known Uses Only (No New Predictions)
 nav_order: 91
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Calcium Ascorbate: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Calcium ascorbate"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 1; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 1 (valid: 1, of which 1 not confirmed by SAHPRA) |
 
 None has clinical trial or literature support.
 
@@ -55,8 +55,7 @@ None has clinical trial or literature support.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| C769 (ACT 101/1965) | Ilvico | syrup | Valid |
-| C770 (ACT 101/1965) | Ilvico | tablet | Valid |
+| C770 (ACT 101/1965) | Ilvico | tablet | Valid (status not confirmed by SAHPRA) |
 
 No Essential Medicines List (EML) status was available in the data compiled.
 

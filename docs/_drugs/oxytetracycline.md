@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **chronic rhinosinusitis**, but there
 | Predicted New Indication | Chronic rhinosinusitis |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 20 of 31) |
-| Number of SAHPRA Registrations | 31 (valid: 20) |
+| South Africa Market Status | Marketed (valid licences: 18 of 29; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 29 (valid: 18, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 **Note on other predictions:** The top 10 predictions all score between 0.9927 and 0.9961. Nine of them have no trials or literature. Otitis externa (rank 10) is the only one with literature and is discussed below as the most evidence-supported candidate.
@@ -96,13 +96,13 @@ No literature was found for chronic rhinosinusitis. The table below covers **oti
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| A/20.1.1/0167 | O-4 Cycline | capsule | Valid |
-| A/20.1.1/543 | Oxypan | capsule | Valid |
-| A/20.1.1/85 | Adco Roxy | capsule | Valid |
+| A/20.1.1/0167 | O-4 Cycline | capsule | Valid (status not confirmed by SAHPRA) |
+| A/20.1.1/85 | Adco Roxy | capsule | Valid (status not confirmed by SAHPRA) |
 | G/20.1.1/147 | Inoxtet | capsule | Valid |
 | X/20.1.1/104 | Be-Oxytet | capsule | Valid |
+| X/20.1.1/319 | Dynoxytet | capsule | Valid |
 
-Showing 5 of 31 registrations (valid registrations first).
+Showing 5 of 29 registrations (valid registrations first).
 
 No ear-drop or nasal formulation is among the registrations compiled for this report. Essential Medicines List (EML) status was not available in the data compiled.
 

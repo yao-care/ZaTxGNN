@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ibuprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Currently there are **no clinical trials and no publications** supporting this p
 | Predicted New Indication | acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 134 of 155) |
-| Number of SAHPRA Registrations | 155 (valid: 134) |
+| South Africa Market Status | Marketed (valid licences: 130 of 151; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 151 (valid: 130, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,12 +77,12 @@ Ibuprofen is marketed in South Africa. Indication text is not recorded in the lo
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/2.7/0240 | Ibu | tablet | Valid |
-| 29/3,1/0654 | Deep relief | gel | Valid |
 | 29/3.1/0727 | Ibunate | tablet | Valid |
 | 30/3.1/0440 | Unifen | tablet | Valid |
 | 34/2.7/0193 | Advil liqui-gel | capsule | Valid |
+| 34/2.7/0290 | Nurofen Express | tablet | Valid |
 
-Showing 5 of 155 registrations (valid registrations first).
+Showing 5 of 151 registrations (valid registrations first).
 
 ## Safety Considerations
 

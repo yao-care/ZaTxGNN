@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Because homozygous familial hypercholesterolaemia is already among its original 
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 90 of 109) |
-| Number of SAHPRA Registrations | 109 (valid: 90) |
+| South Africa Market Status | Marketed (valid licences: 89 of 108; 19 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 108 (valid: 89, of which 19 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -99,13 +99,13 @@ Indication text, manufacturer, and Essential Medicines List (EML) status were no
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/7.5/447 | Zocor | tablet | Valid |
 | 35/7.5/0237 | Simvacor | tablet | Valid |
 | 35/7.5/0238 | Simvacor | tablet | Valid |
 | 35/7.5/0277 | Adco-simvastatin | tablet | Valid |
 | 35/7.5/0278 | Adco-simvastatin | tablet | Valid |
+| 35/7.5/0279 | Adco-simvastatin | tablet | Valid |
 
-Showing 5 of 109 registrations (valid registrations first).
+Showing 5 of 108 registrations (valid registrations first).
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "primitive portal vein thrombosis", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Gout"
 ---
 
@@ -50,8 +50,8 @@ Allopurinol is a xanthine oxidase inhibitor whose relations recorded in the know
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 44 of 56) |
-| Number of SAHPRA Registrations | 56 (valid: 44) |
+| South Africa Market Status | Marketed (valid licences: 42 of 54; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 54 (valid: 42, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,7 +91,7 @@ Currently no related clinical trials registered.
 | 49/3.3/0020 | Lessuric 100 | tablet | Valid |
 | 49/3.3/0021 | Lessuric 300 | tablet | Valid |
 
-Showing 5 of 56 registrations (valid registrations first).
+Showing 5 of 54 registrations (valid registrations first).
 
 Essential Medicines List status could not be determined from the data compiled for this report.
 

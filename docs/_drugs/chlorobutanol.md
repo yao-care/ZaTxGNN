@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Chlorobutanol"
 predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
 description: "Chlorobutanol: predicted new indication Erectile dysfunction (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **erectile dysfunction**, but t
 | Predicted New Indication | Erectile dysfunction (disease) |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 5 (valid: 5, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,11 +73,11 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G1781 (ACT 101) | Viocort | cream | Valid |
-| G1782 (ACT 101) | Viodor | cream | Valid |
+| G1781 | Viocort | cream | Valid |
+| G1782 | Viodor | cream | Valid |
 | H1464 | Sinucon nasal 20ml | Nod | Valid |
-| H1510 | Famotic Ear Drops | drops | Valid |
-| H1545(ACT 101 OF 1965) | Otalgon (plastic bottle) 15ml | drops | Valid |
+| H1510 | Famotic Ear Drops | drops | Valid (status not confirmed by SAHPRA) |
+| H1545(ACT 101 OF 1965) | Otalgon (plastic bottle) 15ml | drops | Valid (status not confirmed by SAHPRA) |
 
 Its Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

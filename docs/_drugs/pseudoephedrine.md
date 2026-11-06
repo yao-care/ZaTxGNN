@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "PSEUDOEPHEDRINE"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Currently there are **0 registered clinical trials** and **7 publications** (one
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 79 of 133) |
-| Number of SAHPRA Registrations | 133 (valid: 79) |
+| South Africa Market Status | Marketed (valid licences: 75 of 129; 13 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 129 (valid: 75, of which 13 not confirmed by SAHPRA) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -89,13 +89,13 @@ No approved indication text is available in the data compiled for this report. T
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 27/5.8/0533 | Drilix | syrup | Valid |
+| 27/5.8/0533 | Drilix | syrup | Valid (status not confirmed by SAHPRA) |
 | 29/11.3/0316 | Relislim | tablet | Valid |
 | Y/5.8/136 | Merck-Fed Tablets | tablet | Valid |
 | 27/10.1/0002 | Benylin Dmd | syrup | Valid |
 | 27/10.1/0490 | Coryx Cough And Cold | solution | Valid |
 
-Showing 5 of 133 registrations (valid registrations first).
+Showing 5 of 129 registrations (valid registrations first).
 
 Other registered forms include syrups, capsules, sachets, a cream and a transdermal patch.
 

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 83
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -54,8 +54,8 @@ Multiple blocking data gaps — including absent mechanism of action data, missi
 | Predicted New Indication | Not available — no TxGNN prediction generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not evaluable |
-| South Africa Market Status | Marketed (valid licences: 27 of 30) |
-| Number of SAHPRA Registrations | 30 (valid: 27) |
+| South Africa Market Status | Marketed (valid licences: 27 of 30; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 30 (valid: 27, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 ---

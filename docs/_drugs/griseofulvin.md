@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Griseofulvin"
 predicted_indications: ["myiasis", "furuncular myiasis", "creeping myiasis", "wound myiasis", "echinococcus granulosus infectious disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **myiasis** (fly larvae infesta
 | Predicted New Indication | Myiasis (myiasis) |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 6 of 6; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 6 (valid: 6, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -81,8 +81,8 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| K/20.1.7/0718 | Microcidal | tablet | Valid |
-| K/20.1.7/0719 | Microcidal | tablet | Valid |
+| K/20.1.7/0718 | Microcidal | tablet | Valid (status not confirmed by SAHPRA) |
+| K/20.1.7/0719 | Microcidal | tablet | Valid (status not confirmed by SAHPRA) |
 | K/20.1.7/218 | Microcidal - 125 | tablet | Valid |
 | K/20.1.7/219 | Microcidal - 500 | tablet | Valid |
 | A0371 | Fulcin 125 mg | Not recorded | Valid |

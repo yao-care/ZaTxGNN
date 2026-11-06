@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Carbocisteine: predicted new indication gout (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be relevant to **gout**, with a score of 0.9967.
 | Predicted New Indication | gout |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 26 of 40) |
-| Number of SAHPRA Registrations | 40 (valid: 26) |
+| South Africa Market Status | Marketed (valid licences: 23 of 37; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 37 (valid: 23, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,13 +64,13 @@ The prediction therefore has no identifiable mechanistic support. The high score
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| L/10.1/0320 | Bronchette | syrup | Valid |
 | T/10.2.2/227 | Lessmusec | capsule | Valid |
 | W/10.1/57 | Mucosolv | capsule | Valid |
-| X/10.2.2/0159 | Dis-chem mucolytic | syrup | Valid |
-| X/10.2.2/0184 | Flemlite | syrup | Valid |
+| Z/10.2.2/244 | Mucopan | syrup | Valid (status not confirmed by SAHPRA) |
+| 27/10.2.2/0010 | Acuphlem | syrup | Valid |
+| 27/10.2.2/0230 | Mucoflem | syrup | Valid |
 
-Showing 5 of 40 registrations (valid registrations first).
+Showing 5 of 37 registrations (valid registrations first).
 
 Inclusion on the Essential Medicines List (EML) is not stated in the data compiled for this report.
 

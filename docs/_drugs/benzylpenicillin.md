@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Benzylpenicillin"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Benzylpenicillin: predicted new indication pericoronitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ No clinical trials or publications were found for this prediction, so it rests o
 | Predicted New Indication | pericoronitis |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 22 of 25) |
-| Number of SAHPRA Registrations | 25 (valid: 22) |
+| South Africa Market Status | Marketed (valid licences: 22 of 25; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 25 (valid: 22, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

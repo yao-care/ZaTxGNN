@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 247
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "Glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -48,8 +48,8 @@ Glutamic acid is an amino acid that, in South Africa, is registered as a compone
 | Predicted New Indication | Postmenopausal osteoporosis |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 22 of 26) |
-| Number of SAHPRA Registrations | 26 (valid: 22) |
+| South Africa Market Status | Marketed (valid licences: 22 of 26; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 26 (valid: 22, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?
@@ -87,7 +87,7 @@ No approved indication text or Essential Medicines List status is available in t
 |------|------|------|------|
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
-| 41/25/0758 | Nutriflex lipid plus without electrolyte | Tpn | Valid |
+| 41/25/0758 | Nutriflex lipid plus without electrolyte | Tpn | Valid (status not confirmed by SAHPRA) |
 | 41/25/0759 | Nutriflex lipid special 2500ml | Tpn | Valid |
 | 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
 

@@ -5,7 +5,7 @@ layout: default
 title: Doxycycline Hcl
 parent: Known Uses Only (No New Predictions)
 nav_order: 203
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 15 of 28) |
-| Number of SAHPRA Registrations | 28 (valid: 15) |
+| South Africa Market Status | Marketed (valid licences: 15 of 28; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 28 (valid: 15, of which 1 not confirmed by SAHPRA) |
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease, AIDS, and hepatitis C virus infection"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 55 of 62) |
-| Number of SAHPRA Registrations | 62 (valid: 55) |
+| South Africa Market Status | Marketed (valid licences: 54 of 61; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 61 (valid: 54, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,13 +89,13 @@ No approved-indication text is available in the data compiled for this report. E
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/20.2.8/0217 | Norvir 80 Mg/Ml | solution | Valid |
-| 34/20.2.8/0175 | Norvir Sec 100 Mg | capsule | Valid |
+| 31/20.2.8/0217 | Norvir 80 Mg/Ml | solution | Valid (status not confirmed by SAHPRA) |
+| 34/20.2.8/0175 | Norvir Sec 100 Mg | capsule | Valid (status not confirmed by SAHPRA) |
 | 44/20.2.8/0128 | Norvir | tablet | Valid |
 | 45/20.2.8/0924 | Rinavo | tablet | Valid |
 | 51/20.2.8/0154 | Norvir Oral Powder | sachet | Valid |
 
-Showing 5 of 62 registrations (valid registrations first).
+Showing 5 of 61 registrations (valid registrations first).
 
 ## Safety Considerations
 

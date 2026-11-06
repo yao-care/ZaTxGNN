@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Phenoxymethylpenicillin"
 predicted_indications: ["epiglottitis", "laryngitis"]
 description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **epiglottitis**, with a very h
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 19 of 35) |
-| Number of SAHPRA Registrations | 35 (valid: 19) |
+| South Africa Market Status | Marketed (valid licences: 18 of 34) |
+| Number of SAHPRA Registrations | 34 (valid: 18) |
 | Recommended Decision | Hold |
 
 ---
@@ -103,13 +103,13 @@ The other papers retrieved for urinary tract infection concern different drugs (
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| A/20.1.2/0315 | Len Vk | tablet | Valid |
 | G/20.1.2/145 | Incil Vk | tablet | Valid |
 | L/20.1.1/184 | Betapen | tablet | Valid |
 | B/20.1.2/90 | Betapen | suspension | Valid |
 | G/20.1.2/144 | Incil Vk  S 125 | solution | Valid |
+| 32/20.1.2/0671 | SPEC-PEN Vk 250 | tablet | Valid |
 
-Showing 5 of 35 registrations (valid registrations first).
+Showing 5 of 34 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
 

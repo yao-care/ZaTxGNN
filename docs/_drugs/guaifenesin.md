@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Guaifenesin: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 54 of 81) |
-| Number of SAHPRA Registrations | 81 (valid: 54) |
+| South Africa Market Status | Marketed (valid licences: 53 of 81; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 81 (valid: 53, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,7 +75,7 @@ Approved indication text is not recorded in the local data for any of them.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G0693(ACT101) 1965 | Dis-Chem Paediatric Expectorant | syrup | Valid |
+| G0693(ACT101) 1965 | Dis-Chem Paediatric Expectorant | syrup | Valid (status not confirmed by SAHPRA) |
 | 27/10.1/0536 | Trifen expect paediatric | syrup | Valid |
 | 27/10.1/0537 | Trifen expect adult | syrup | Valid |
 | 28/10.1/0433 | Flusin junior cough | syrup | Valid |

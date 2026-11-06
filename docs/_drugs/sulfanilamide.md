@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Sulfanilamide"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis"]
 description: "Sulfanilamide: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **postmenopausal atrophic vagin
 | Predicted New Indication | Postmenopausal atrophic vaginitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 5 of 7) |
+| Number of SAHPRA Registrations | 7 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,12 +91,12 @@ There is no literature for the top-ranked prediction, postmenopausal atrophic va
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | H1078 | Ams | ointment | Valid |
-| H990 (OM) | Achromide | ointment | Valid |
 | G1639 | Resmed A.M.S. Cream | Not recorded | Valid |
 | G1957 | K.J.K. Antiseptic Cream | Not recorded | Valid |
 | G2087 | Daromide Ointment | Not recorded | Valid |
+| H1076 | Gensulph Ointment | Not recorded | Valid |
 
-Showing 5 of 8 registrations (valid registrations first).
+Showing 5 of 7 registrations (valid registrations first).
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

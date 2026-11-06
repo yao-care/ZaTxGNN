@@ -5,7 +5,7 @@ layout: default
 title: Dimethicone
 parent: Known Uses Only (No New Predictions)
 nav_order: 183
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Dimethicone: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Dimethicone"
 predicted_indications: []
@@ -43,16 +43,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 2 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 1) |
 
 ## South Africa Market Information
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | C/11.10/59 | Pankreoflat | tablet | Valid |
-| E806 (OM) | Microgel | suspension | Valid |
-| E1691 (OM) | Propan Gel | suspension | Cancelled |
+| E1691 | Propan Gel | suspension | Cancelled |
 
 No Essential Medicines List (EML) status was available in the data compiled for this report.
 

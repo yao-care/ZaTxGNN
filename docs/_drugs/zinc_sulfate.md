@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "ZINC SULFATE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
 description: "Zinc Sulfate: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,7 +76,7 @@ The available studies concern sore throat or mucosal injury after surgery or rad
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| H1501 (OM) | Nazene Z 20ml | spray | Valid |
+| H1501 | Nazene Z 20ml | spray | Valid |
 
 ## Safety Considerations
 

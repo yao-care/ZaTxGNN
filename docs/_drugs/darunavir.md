@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 164
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Darunavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection / AIDS"
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 31 of 37) |
-| Number of SAHPRA Registrations | 37 (valid: 31) |
+| South Africa Market Status | Marketed (valid licences: 31 of 37; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 37 (valid: 31, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,7 +95,7 @@ All four studies are indirect: they test ART regimens or adjunct agents, not dar
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 41/20.2.8/0747 | Prezista | tablet | Valid |
+| 41/20.2.8/0747 | Prezista | tablet | Valid (status not confirmed by SAHPRA) |
 | 45/20.2.8/0616 | Prezista | tablet | Valid |
 | 46/20.2.8/0850 | Prezista | tablet | Valid |
 | 46/20.2.8/0851 | Prezista | tablet | Valid |

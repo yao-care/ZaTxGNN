@@ -5,7 +5,7 @@ layout: default
 title: Dapagliflozin
 parent: Known Uses Only (No New Predictions)
 nav_order: 163
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 71 of 75) |
-| Number of SAHPRA Registrations | 75 (valid: 71) |
+| South Africa Market Status | Marketed (valid licences: 71 of 75; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 75 (valid: 71, of which 2 not confirmed by SAHPRA) |
 
 ---
 

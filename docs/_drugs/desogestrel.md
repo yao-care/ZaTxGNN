@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L3). Approved use: Not stated in the registration data compiled for this report (desoges…"
 monitor_inn: "Desogestrel"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -52,8 +52,8 @@ with **1 clinical trial** (indirect relevance) and **11 publications** currently
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 7 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 7 of 8; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 8 (valid: 7, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,7 +96,7 @@ The mechanism is plausible, but in amenorrhea the benefit is mostly cycle manage
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| Q18.8/324 | Marvelon 150/30 | tablet | Valid |
+| Q18.8/324 | Marvelon 150/30 | tablet | Valid (status not confirmed by SAHPRA) |
 | 48/18.8/1041 | Desimar | tablet | Valid |
 | 49/18.8/0711 | Merdeza | tablet | Valid |
 | Y/18.8/78 | Mercilon | tablet | Valid |

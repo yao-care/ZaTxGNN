@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 88
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -48,8 +48,8 @@ Calcipotriol is a topical vitamin D3 analogue, registered in South Africa in com
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 8 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 8 of 9; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 9 (valid: 8, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +79,9 @@ Calcipotriol is registered in South Africa only in two products, both listed as 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 29/13.9.1/0270 | Dovonex Cream | cream | Valid |
-| 29/13.9.1/0762 | Dovonex Scalp Solution | solution | Valid |
-| Z/13.9.1/207 | Dovonex | ointment | Valid |
+| 29/13.9.1/0270 | Dovonex Cream | cream | Valid (status not confirmed by SAHPRA) |
+| 29/13.9.1/0762 | Dovonex Scalp Solution | solution | Valid (status not confirmed by SAHPRA) |
+| Z/13.9.1/207 | Dovonex | ointment | Valid (status not confirmed by SAHPRA) |
 | 37/13.9.1/0241 | Dovobet | ointment | Valid |
 | 46/13.9.1/0615 | Dovobet Gel | Gel | Valid |
 

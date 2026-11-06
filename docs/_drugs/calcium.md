@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 88
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Calcium: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 2 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 1 of 1; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 1 (valid: 1, of which 1 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -75,8 +75,7 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| T/30.3/704 | Stabilised Human Serum-5% Protein Solution | infusion | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

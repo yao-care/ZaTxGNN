@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 297
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Linezolid: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Linezolid, s
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 5 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 40 of 53) |
-| Number of SAHPRA Registrations | 53 (valid: 40) |
+| South Africa Market Status | Marketed (valid licences: 40 of 53; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 53 (valid: 40, of which 4 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -81,8 +81,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Linezolid, s
 | 35/20.1.1/0310 | Zyvoxid | tablet | Valid |
 | 48/20.1.1/0081 | Voxwin (was Linezolid hetero) | tablet | Valid |
 | 48/20.1.1/0949 | Aklid | tablet | Valid |
-| 48/20.1.1/1315 | Linezolid teva | tablet | Valid |
-| 49/20.1.1/0899 | Linzai Iv | infusion | Valid |
+| 48/20.1.1/1315 | Linezolid teva | tablet | Valid (status not confirmed by SAHPRA) |
+| 49/20.1.1/0899 | Linzai Iv | infusion | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 53 registrations (valid registrations first).
 

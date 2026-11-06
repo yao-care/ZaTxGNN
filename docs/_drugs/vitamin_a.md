@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -52,8 +52,8 @@ Among the other predictions, **perinatal disease** (vitamin A in very low birth 
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 18 of 35) |
-| Number of SAHPRA Registrations | 35 (valid: 18) |
+| South Africa Market Status | Marketed (valid licences: 18 of 35; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 35 (valid: 18, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -114,8 +114,8 @@ Vitamin A is marketed in South Africa. Approved indication text is not available
 | 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
 | 36/22.1/0508 | Cernevit | infusion | Valid |
 | A/21.8.1/743 | Menoflush | tablet | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
-| H2062 (ACT 101) | Filibon | capsule | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
+| H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 35 registrations (valid registrations first).
 

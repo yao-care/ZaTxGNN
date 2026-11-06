@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **0 registered clinical trials** and only **1 publication** direct
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 108 of 138) |
-| Number of SAHPRA Registrations | 138 (valid: 108) |
+| South Africa Market Status | Marketed (valid licences: 107 of 137; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 137 (valid: 107, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -104,12 +104,12 @@ Tenofovir disoproxil is widely registered in South Africa. Approved indication t
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 43/20.2.8/0181 | Aspen tenofovir | tablet | Valid |
-| 44/20.2.8/0332 | Adco tenofovir | tablet | Valid |
+| 44/20.2.8/332 | Adco tenofovir | tablet | Valid |
 | 45/20.2.8/0825 | Ricovir | tablet | Valid |
 | 46/20.2.8/0019 | Hetero tenofovir | tablet | Valid |
 | 46/20.2.8/0040 | Tenofovir Winthrop | Fct | Valid |
 
-Showing 5 of 138 registrations (valid registrations first).
+Showing 5 of 137 registrations (valid registrations first).
 
 ## Safety Considerations
 

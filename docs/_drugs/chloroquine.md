@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Chloroquine: predicted new indication rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Chloroquine is an aminoquinoline antimalarial that is also used as an immunomodu
 | Predicted New Indication | rheumatoid factor-positive polyarticular juvenile idiopathic arthritis |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 12) |
-| Number of SAHPRA Registrations | 12 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 5 of 11; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 11 (valid: 5, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,13 +74,13 @@ No publication retrieved directly studies chloroquine in rheumatoid factor-posit
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| A147 (ACT 101 1965) | Nivaquine Tablets | tablet | Valid |
+| A147 (ACT 101 1965) | Nivaquine Tablets | tablet | Valid (status not confirmed by SAHPRA) |
 | Z/20.2.6/127 | Plasmoquine | capsule | Valid |
-| Z/20.2.6/388 | Mirquin | syrup | Valid |
 | 38/20.2.6/0145 | Novaclor | tablet | Valid |
 | A0665 | Chloroquine Phosphate | Not recorded | Valid |
+| C0806 | Elestol | Not recorded | Valid |
 
-Showing 5 of 12 registrations (valid registrations first).
+Showing 5 of 11 registrations (valid registrations first).
 
 Essential Medicines List status is not stated in the data compiled for this report.
 

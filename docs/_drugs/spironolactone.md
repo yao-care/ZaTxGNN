@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials and no publications** supporting th
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 20 of 20) |
-| Number of SAHPRA Registrations | 20 (valid: 20) |
+| South Africa Market Status | Marketed (valid licences: 18 of 18) |
+| Number of SAHPRA Registrations | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,7 +82,7 @@ Currently no related literature available.
 | 57/18.1/0347.345 | Jubactone Fc 100 Mg | Fct | Valid |
 | H/18.1/2 | Aldactone | tablet | Valid |
 
-Showing 5 of 20 registrations (valid registrations first).
+Showing 5 of 18 registrations (valid registrations first).
 
 Essential Medicines List (EML) status was not available in the data compiled for this report.
 

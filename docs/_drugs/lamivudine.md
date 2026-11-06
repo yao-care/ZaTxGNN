@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Lamivudine: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ This is a veterinary prediction, not a new human-medicine use.
 | Predicted New Indication | feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 145 of 200) |
-| Number of SAHPRA Registrations | 200 (valid: 145) |
+| South Africa Market Status | Marketed (valid licences: 143 of 198; 10 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 198 (valid: 143, of which 10 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,11 +92,11 @@ Lamivudine is marketed in South Africa. The record set may be partial. Approved 
 |------|------|------|------|
 | 30/20.2.8/0366 | 3tc | tablet | Valid |
 | 41/20.2.8/0236 | Adco-lamivudine | tablet | Valid |
-| 41/20.2.8/0514 | Adco-Lamivudine Solution Alcohol And Sugar Free | solution | Valid |
+| 41/20.2.8/0514 | Adco-Lamivudine Solution Alcohol And Sugar Free | solution | Valid (status not confirmed by SAHPRA) |
 | 43/20.2.8/0831 | Hetlam | tablet | Valid |
 | 43/20.2.8/0832 | Aspen Lamivudine 300Mg | tablet | Valid |
 
-Showing 5 of 200 registrations (valid registrations first).
+Showing 5 of 198 registrations (valid registrations first).
 
 ---
 

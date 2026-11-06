@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ Fexofenadine Hydrochloride is a second-generation, non-sedating H1 antihistamine
 | Predicted New Indication | No prediction generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — no prediction or supporting studies available |
-| South Africa Market Status | Marketed (valid licences: 39 of 41) |
-| Number of SAHPRA Registrations | 41 (valid: 39) |
+| South Africa Market Status | Marketed (valid licences: 39 of 41; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 41 (valid: 39, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 ---

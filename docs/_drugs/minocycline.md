@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 326
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **punctate epithelial keratoconjun
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 17 of 17) |
-| Number of SAHPRA Registrations | 17 (valid: 17) |
+| South Africa Market Status | Marketed (valid licences: 15 of 15; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 15 (valid: 15, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,11 +91,11 @@ It is indirect and does not demonstrate efficacy:
 |------|------|------|------|
 | 28/20.1.1/0573 | Sandoz Minocycline | tablet | Valid |
 | 28/20.1.1/0574 | Sandoz Minocycline | tablet | Valid |
-| 29/20.1.1/0570 | Minotabs 50 | tablet | Valid |
-| W/20.1.1/0442 | Cyclimycin | capsule | Valid |
-| W/20.1.1/0443 | Cyclimycin | capsule | Valid |
+| 29/20.1.1/0570 | Minotabs 50 | tablet | Valid (status not confirmed by SAHPRA) |
+| W/20.1.1/442 | Cyclimycin | capsule | Valid |
+| W/20.1.1/443 | Cyclimycin | capsule | Valid |
 
-Showing 5 of 17 registrations (valid registrations first).
+Showing 5 of 15 registrations (valid registrations first).
 
 Only an oral tablet is registered. No ophthalmic or other topical formulation is registered, which would be relevant for any eye-surface use. Essential Medicines List status could not be determined from the data compiled.
 

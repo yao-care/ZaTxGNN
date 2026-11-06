@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -54,8 +54,8 @@ The data collection pipeline retrieved only DrugBank records; South African regu
 | Predicted New Indication | Not available — TxGNN returned no candidates |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | N/A |
-| South Africa Market Status | Marketed (valid licences: 58 of 65) |
-| Number of SAHPRA Registrations | 65 (valid: 58) |
+| South Africa Market Status | Marketed (valid licences: 58 of 65; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 65 (valid: 58, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Reliability Note:** The Evidence Pack was built from DrugBank data only (`inputs_received: ["drugbank"]`). Indapamide is a well-established antihypertensive on the WHO Essential Medicines List and is expected to hold SAHPRA registration. Independent SAHPRA database verification is required before any regulatory conclusions are drawn.

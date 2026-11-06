@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This is a computational prediction only: **0 clinical trials** and **0 publicati
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 118 of 149) |
-| Number of SAHPRA Registrations | 149 (valid: 118) |
+| South Africa Market Status | Marketed (valid licences: 116 of 147; 11 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 147 (valid: 116, of which 11 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,10 +77,10 @@ Risperidone is marketed in South Africa as single-ingredient products. The five 
 | 27/2.6.5/0235 | Risperdal | tablet | Valid |
 | 27/2.6.5/0236 | Risperdal | tablet | Valid |
 | 27/2.6.5/0237 | Risperdal | tablet | Valid |
-| 27/2.6.5/0238 | Risperdal  4Mg | tablet | Valid |
+| 27/2.6.5/0238 | Risperdal  4Mg | tablet | Valid (status not confirmed by SAHPRA) |
 | 33/2.6.5/0111 | Risperdal | tablet | Valid |
 
-Showing 5 of 149 registrations (valid registrations first).
+Showing 5 of 147 registrations (valid registrations first).
 
 ## Safety Considerations
 

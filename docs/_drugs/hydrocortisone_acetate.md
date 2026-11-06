@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 255
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L5). Approved use: Autoimmune disease (other listed indications include adrenocortical i…"
 monitor_inn: "Hydrocortisone acetate"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
@@ -50,8 +50,8 @@ but current support is limited to **1 clinical trial** (in which hydrocortisone 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 (indirect: hydrocortisone served as the comparator arm, not the test drug) |
-| South Africa Market Status | Marketed (valid licences: 46 of 70) |
-| Number of SAHPRA Registrations | 70 (valid: 46) |
+| South Africa Market Status | Marketed (valid licences: 43 of 67; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 67 (valid: 43, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,7 +89,7 @@ No approved indication text is available for either.
 | G/21.5/201 | Solu cortef 4ml | injection | Valid |
 | H/13.4.1/107 | Locoid | cream | Valid |
 
-Showing 5 of 70 registrations (valid registrations first).
+Showing 5 of 67 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ginseng"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "diabetes mellitus type 2 associated cataract"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ginseng: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the registration records"
 ---
 
@@ -50,8 +50,8 @@ However, there are **0 clinical trials** and **0 publications** supporting this 
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 1 of 2; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 2 (valid: 1, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,7 +72,7 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | T1165 | Activex 40 Plus Capsules | capsule | Cancelled |
 
 ## Safety Considerations

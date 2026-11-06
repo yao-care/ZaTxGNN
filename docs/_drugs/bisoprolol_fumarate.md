@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ Bisoprolol Fumarate is a well-established cardioselective beta-1 adrenergic bloc
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — prediction pipeline did not produce output |
-| South Africa Market Status | Marketed (valid licences: 86 of 93) |
-| Number of SAHPRA Registrations | 93 (valid: 86) |
+| South Africa Market Status | Marketed (valid licences: 86 of 93; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 93 (valid: 86, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Quality Notice:** Bisoprolol Fumarate is a globally available cardiovascular medicine. Independent verification against the [SAHPRA Online Medicine Register](https://www.sahpra.org.za/medicines/) is strongly recommended before drawing any regulatory conclusions.

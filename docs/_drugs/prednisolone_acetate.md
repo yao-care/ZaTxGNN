@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). Approved use: Uveitis, iridocyclitis, conjunctivitis and related eye inflammation"
 ---
 
@@ -50,8 +50,8 @@ The TxGNN model (deep learning) predicts this drug may be useful for **conjuncti
 | Predicted New Indication | Conjunctival folliculosis |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 26 of 33) |
-| Number of SAHPRA Registrations | 33 (valid: 26) |
+| South Africa Market Status | Marketed (valid licences: 26 of 33; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 33 (valid: 26, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,8 +85,8 @@ Currently no related literature available for conjunctival folliculosis.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 28/21.5/0316 | Capsoid | tablet | Valid |
-| 36/21.5.1/0191 | Prednisilone 15 strides | syrup | Valid |
+| 28/21.5/0316 | Capsoid | tablet | Valid (status not confirmed by SAHPRA) |
+| 36/21.5.1/0191 | Prednisilone 15 strides | syrup | Valid (status not confirmed by SAHPRA) |
 | G2968 | Lenisolone | tablet | Valid |
 | G3055 | Prelone | tablet | Valid |
 | 28/21.5.1/0158 | Prelone | syrup | Valid |

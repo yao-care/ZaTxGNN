@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Benzimidazoles are already used for this infection, so this is largely confirmat
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 20 of 25) |
-| Number of SAHPRA Registrations | 25 (valid: 20) |
+| South Africa Market Status | Marketed (valid licences: 20 of 25; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 25 (valid: 20, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 For comparison, the other predictions:
@@ -116,7 +116,7 @@ Note: the other retrieved items for ranks 3 and 5 are preclinical studies or con
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 27/12/0082 | Adco-wormex | tablet | Valid |
+| 27/12/0082 | Adco-wormex | tablet | Valid (status not confirmed by SAHPRA) |
 | 28/12/0281 | Wormgo | tablet | Valid |
 | 31/12/0219 | D-worm sd | tablet | Valid |
 | 31/12/0526 | Wormstop | tablet | Valid |

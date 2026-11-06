@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Two lower-ranked predictions, **agoraphobia** (6 publications) and **dysthymic d
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 84 of 92) |
-| Number of SAHPRA Registrations | 92 (valid: 84) |
+| South Africa Market Status | Marketed (valid licences: 81 of 89; 8 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 89 (valid: 81, of which 8 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -101,7 +101,7 @@ No literature was found for benign paroxysmal torticollis of infancy. The litera
 | 35/2.6.5/0307 | Zyprexa powder for injection | injection | Valid |
 | 37/2.6.5/0316 | Olexar | tablet | Valid |
 
-Showing 5 of 92 registrations (valid registrations first).
+Showing 5 of 89 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not covered in the data compiled for this report.
 

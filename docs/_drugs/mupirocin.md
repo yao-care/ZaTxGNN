@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **pleural empyema**, but **no clinica
 | Predicted New Indication | Pleural empyema (disease) |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 16 of 17) |
-| Number of SAHPRA Registrations | 17 (valid: 16) |
+| South Africa Market Status | Marketed (valid licences: 15 of 16; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 16 (valid: 15, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 **Other predictions in the data compiled for this report:**
@@ -100,12 +100,12 @@ No literature is available for pleural empyema (rank 1). Publications exist for 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 49/20.1.6/0587 | Supiroban Cream | cream | Valid |
-| 52/20.1.6/0255 | Piban | ointment | Valid |
-| T/20.1.6/75 | Bactroban topical | ointment | Valid |
+| 52/20.1.6/0255 | Piban | ointment | Valid (status not confirmed by SAHPRA) |
 | 34/20.1.6/0274 | Bactroban | cream | Valid |
 | 43/20.1.6/0680 | Supiroban | ointment | Valid |
+| 43/20.1.6/1139 | Banogon | ointment | Valid |
 
-Showing 5 of 17 registrations (valid registrations first).
+Showing 5 of 16 registrations (valid registrations first).
 
 Mupirocin is registered as a single-ingredient topical product only. No oral, injectable, intrapleural or ophthalmic formulations are registered, so the route does not match pleural empyema or the ocular predictions. The data compiled for this report do not state Essential Medicines List (EML) status.
 

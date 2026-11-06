@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 76 of 110) |
-| Number of SAHPRA Registrations | 110 (valid: 76) |
+| South Africa Market Status | Marketed (valid licences: 66 of 100; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 100 (valid: 66, of which 7 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,12 +83,12 @@ Currently no related clinical trials registered.
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/5.7.1/0166 | Rhineton | tablet | Valid |
-| C668 (OM) | Allergex | tablet | Valid |
-| C807 (OM) | Allergex | syrup | Valid |
+| C0668 | Allergex | tablet | Valid |
 | 27/10.1/0536 | Trifen expect paediatric | syrup | Valid |
 | 27/10.1/0553 | Flusin dm | syrup | Valid |
+| 27/5.8/0123 | Degoran Cold And Flu Hot Medicated Drink | sachet | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 110 registrations (valid registrations first).
+Showing 5 of 100 registrations (valid registrations first).
 
 The approved indication text is not recorded in the local data.
 

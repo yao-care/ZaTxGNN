@@ -5,7 +5,7 @@ layout: default
 title: Iodine
 parent: Known Uses Only (No New Predictions)
 nav_order: 269
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 1 of 1) |
-| Number of SAHPRA Registrations | 1 (valid: 1) |
+| South Africa Market Status | Marketed (valid licences: 1 of 1; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 1 (valid: 1, of which 1 not confirmed by SAHPRA) |
 
 ---
 

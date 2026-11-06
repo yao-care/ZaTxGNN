@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 339
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Nevirapine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 23 of 39) |
-| Number of SAHPRA Registrations | 39 (valid: 23) |
+| South Africa Market Status | Marketed (valid licences: 22 of 38; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 38 (valid: 22, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,13 +96,13 @@ The registration records contain no approved indication text, and the data compi
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/20.2.8/0640 | Viramune 200 Mg | tablet | Valid |
-| 33/20.2.8/0504 | Viramune 50 Mg/5 Ml | suspension | Valid |
+| 31/20.2.8/0640 | Viramune 200 Mg | tablet | Valid (status not confirmed by SAHPRA) |
+| 33/20.2.8/0504 | Viramune 50 Mg/5 Ml | suspension | Valid (status not confirmed by SAHPRA) |
 | 38/20.2.8/0240 | Aspen nevirapine | tablet | Valid |
 | 41/20.2.8/0235 | Adco-nevirapine | tablet | Valid |
-| 42/20.2.8/0661 | Nevir | tablet | Valid |
+| 42/20.2.8/0661 | Nevir | tablet | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 39 registrations (valid registrations first).
+Showing 5 of 38 registrations (valid registrations first).
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Fusidic Acid: predicted new indication exposure keratitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 | Predicted New Indication | exposure keratitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 11 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 10 of 10; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 10 (valid: 10, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,13 +75,13 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 27/20.1/0065 | Fucidin  Iv | infusion | Valid |
+| 27/20.1/0065 | Fucidin  Iv | infusion | Valid (status not confirmed by SAHPRA) |
 | 48/20.1.6/0946 | Stafubak Cream | cream | Valid |
 | 48/20.1.6/0947 | Stafubak Ointment | ointment | Valid |
-| E/20.1/91 | Fucidin Suspension | suspension | Valid |
-| Q/20.1.6/0128 | Fucidin | cream | Valid |
+| E/20.1/91 | Fucidin Suspension | suspension | Valid (status not confirmed by SAHPRA) |
+| Q/20.1.6/0128 | Fucidin | ointment | Valid |
 
-Showing 5 of 11 registrations (valid registrations first).
+Showing 5 of 10 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

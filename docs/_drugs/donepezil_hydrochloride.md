@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -54,8 +54,8 @@ This Evidence Pack was generated with critical data gaps — the TxGNN pipeline 
 | Predicted New Indication | None returned by TxGNN |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — Model prediction not yet completed |
-| South Africa Market Status | Marketed (valid licences: 37 of 42) |
-| Number of SAHPRA Registrations | 42 (valid: 37) |
+| South Africa Market Status | Marketed (valid licences: 37 of 42; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 42 (valid: 37, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 ---

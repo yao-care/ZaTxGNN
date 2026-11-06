@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 451
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Tocopherol: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tocopherol, 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 15 of 20) |
-| Number of SAHPRA Registrations | 20 (valid: 15) |
+| South Africa Market Status | Marketed (valid licences: 15 of 20; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 20 (valid: 15, of which 1 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -76,7 +76,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tocopherol, 
 |------|------|------|------|
 | 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
 | 36/22.1/0508 | Cernevit | infusion | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | Z/22.1/236 | Vitalipid novum adult 10ml pdv00001a | infusion | Valid |
 | T1095 | Alpha Vit E Capsules 100 iu | capsule | Valid |
 

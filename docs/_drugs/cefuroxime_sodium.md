@@ -5,7 +5,7 @@ layout: default
 title: Cefuroxime Sodium
 parent: Known Uses Only (No New Predictions)
 nav_order: 108
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 70 of 91) |
-| Number of SAHPRA Registrations | 91 (valid: 70) |
+| South Africa Market Status | Marketed (valid licences: 69 of 90; 9 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 90 (valid: 69, of which 9 not confirmed by SAHPRA) |
 
 ---
 

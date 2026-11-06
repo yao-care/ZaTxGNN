@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 141
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Cloxacillin: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cloxacillin,
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 5 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 25 of 30) |
-| Number of SAHPRA Registrations | 30 (valid: 25) |
+| South Africa Market Status | Marketed (valid licences: 21 of 26; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 26 (valid: 21, of which 4 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -80,11 +80,11 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cloxacillin,
 |------|------|------|------|
 | M/20.1.2/227 | Cloxacillin-fresenius powder for injecti | injection | Valid |
 | M/20.1.2/228 | Cloxacillin-fresenius powder for injecti | injection | Valid |
-| N/20.1.2/0090 | Cloxin | capsule | Valid |
-| N/20.1.2/0091 | Cloxin | capsule | Valid |
-| T/20.1.2/27 | Sandoz Cloxacillin | capsule | Valid |
+| N/20.1.2/90 | Cloxin | capsule | Valid |
+| N/20.1.2/91 | Cloxin | capsule | Valid |
+| T/20.1.2/27 | Sandoz Cloxacillin | capsule | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 30 registrations (valid registrations first).
+Showing 5 of 26 registrations (valid registrations first).
 
 ## Safety Considerations
 

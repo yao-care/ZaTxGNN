@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Ampicillin is a beta-lactam antibiotic that blocks bacterial cell wall synthesis
 | Predicted New Indication | Laryngitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 30 of 70) |
-| Number of SAHPRA Registrations | 70 (valid: 30) |
+| South Africa Market Status | Marketed (valid licences: 24 of 64; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 64 (valid: 24, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,10 +96,10 @@ No approved indication text is recorded in the local data. Essential Medicines L
 | 30/20.1.2/0247 | Ampicillin 250 injection unimed vial | injection | Valid |
 | 30/20.1.2/0248 | Ampicillin 500 injection unimed vial | injection | Valid |
 | 41/20.1.2/0122 | Auro ampicillin powder for injection via | injection | Valid |
-| H/20.1.2/0022 | Petercillin | capsule | Valid |
-| H/20.1.2/0023 | Petercillin | capsule | Valid |
+| H/20.1.2/26 | Ampicillin-fresenius vial | injection | Valid |
+| V/20.1.2/115 | Ampipen | capsule | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 70 registrations (valid registrations first).
+Showing 5 of 64 registrations (valid registrations first).
 
 ---
 

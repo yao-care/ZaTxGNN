@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Fluconazole: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Fluconazole is an oral azole antifungal. The TxGNN model predicts it may be effe
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 68 of 84) |
-| Number of SAHPRA Registrations | 84 (valid: 68) |
+| South Africa Market Status | Marketed (valid licences: 68 of 84; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 84 (valid: 68, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

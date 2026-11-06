@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "FLUTICASONE FUROATE"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Fluticasone Furoate: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Fluticasone furoate is a glucocorticoid that reduces inflammation and is supplie
 | Predicted New Indication | atopic eczema |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 12 of 12) |
-| Number of SAHPRA Registrations | 12 (valid: 12) |
+| South Africa Market Status | Marketed (valid licences: 11 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,9 +77,9 @@ Currently no related clinical trials registered.
 | 41/21.5.1/0968 | Avamys 120 dose | Aqs | Valid |
 | 48/21.5.1/0247 | Revinty Ellipta 92/22 Μg | inhaler | Valid |
 | 48/21.5.1/0248 | Revinty Ellipta 184/22 Μg | inhaler | Valid |
-| 48/21.5.1/0249 | Relvar ellipta 92/22ug 30 dose | inhaler | Valid |
+| 48/21.5.1/0250 | Relvar ellipta 184/22ug 30 dose | inhaler | Valid |
 
-Showing 5 of 12 registrations (valid registrations first).
+Showing 5 of 11 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

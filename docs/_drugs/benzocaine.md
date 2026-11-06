@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Benzocaine: predicted new indication papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Benzocaine is a topical ester local anaesthetic that blocks voltage-gated sodium
 | Predicted New Indication | papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 38 of 60) |
-| Number of SAHPRA Registrations | 60 (valid: 38) |
+| South Africa Market Status | Marketed (valid licences: 37 of 59; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 59 (valid: 37, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,7 +76,7 @@ Currently no related literature available.
 | 33/16.3/0496 | Medi-keel a honey & lemon | Loz | Valid |
 | B/10.1/163 | Cepacol sore throat and cough relief dis | Loz | Valid |
 
-Showing 5 of 60 registrations (valid registrations first).
+Showing 5 of 59 registrations (valid registrations first).
 
 The Essential Medicines List (EML) status is not available in the data compiled for this report.
 

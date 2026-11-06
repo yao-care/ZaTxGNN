@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "METFORMIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 214 of 229) |
-| Number of SAHPRA Registrations | 229 (valid: 214) |
+| South Africa Market Status | Marketed (valid licences: 210 of 225; 10 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 225 (valid: 210, of which 10 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -101,7 +101,7 @@ Metformin is marketed in South Africa. The approved indication text was not avai
 | 33/21.2/0205 | Mylan metformin | tablet | Valid |
 | 35/21.2/0093 | Metformin 500 Biotech | tablet | Valid |
 
-Showing 5 of 229 registrations (valid registrations first).
+Showing 5 of 225 registrations (valid registrations first).
 
 The remaining registrations include fixed-dose combinations with other antidiabetic agents (for example Janumet, Synjardy, Xigduo XR and Amaryl Combi).
 

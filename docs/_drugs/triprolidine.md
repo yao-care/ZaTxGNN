@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "TRIPROLIDINE"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Much of this is an extension of an existing indication rather than true repurpos
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 37 of 59) |
-| Number of SAHPRA Registrations | 59 (valid: 37) |
+| South Africa Market Status | Marketed (valid licences: 33 of 55; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 55 (valid: 33, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,9 +96,9 @@ Approved indication text is not available in the data compiled for this report. 
 | 27/10.1/0537 | Trifen expect adult | syrup | Valid |
 | 27/5.8/0260 | Adco-flupain | syrup | Valid |
 | 28/10.1/0433 | Flusin junior cough | syrup | Valid |
-| 30/10.1/0049 | Fludactil co linctus | syrup | Valid |
+| 30/10.1/0049 | Fludactil co linctus | syrup | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 59 registrations (valid registrations first).
+Showing 5 of 55 registrations (valid registrations first).
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "ATORVASTATIN"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -53,8 +53,8 @@ Most of this work concerns HIV-associated lipid disorders, cardiovascular risk a
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 101 of 125) |
-| Number of SAHPRA Registrations | 125 (valid: 101) |
+| South Africa Market Status | Marketed (valid licences: 98 of 122; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 122 (valid: 98, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -117,7 +117,7 @@ Several further trials in the data are pharmacokinetic interaction studies or ta
 | 37/7.5/0210 | Lipitor | tablet | Valid |
 | 42/7.5/0552 | Atolip | tablet | Valid |
 
-Showing 5 of 125 registrations (valid registrations first).
+Showing 5 of 122 registrations (valid registrations first).
 
 The data do not state Essential Medicines List status.
 

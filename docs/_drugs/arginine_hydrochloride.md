@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -54,8 +54,8 @@ A complete repurposing evaluation cannot be conducted until critical data gaps â
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 â€” no predictions or supporting studies available |
-| South Africa Market Status | Marketed (valid licences: 35 of 54) |
-| Number of SAHPRA Registrations | 54 (valid: 35) |
+| South Africa Market Status | Marketed (valid licences: 35 of 54; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 54 (valid: 35, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

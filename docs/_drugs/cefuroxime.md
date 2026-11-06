@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefuroxime"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Cefuroxime: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** that study this d
 | Predicted New Indication | polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 70 of 91) |
-| Number of SAHPRA Registrations | 91 (valid: 70) |
+| South Africa Market Status | Marketed (valid licences: 69 of 90; 9 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 90 (valid: 69, of which 9 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,7 @@ Currently no related literature available.
 | 34/20.1.1/0349 | Ceroxim | tablet | Valid |
 | 34/20.1.1/0350 | Ceroxim | tablet | Valid |
 
-Showing 5 of 91 registrations (valid registrations first).
+Showing 5 of 90 registrations (valid registrations first).
 
 Essential Medicines List status is not available in the data compiled for this report.
 

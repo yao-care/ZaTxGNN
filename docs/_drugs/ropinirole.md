@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 407
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Restless legs syndrome"
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -50,8 +50,8 @@ but there are **no registered clinical trials** in the data compiled for this re
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 13 of 18) |
-| Number of SAHPRA Registrations | 18 (valid: 13) |
+| South Africa Market Status | Marketed (valid licences: 13 of 18; 10 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 18 (valid: 13, of which 10 not confirmed by SAHPRA) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -83,9 +83,9 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/5.4.1/0303 | Requip 1.0 | tablet | Valid |
-| 31/5.4.1/0304 | Requip 2.0 | tablet | Valid |
-| 31/5.4.1/0305 | Requip 5.0 | tablet | Valid |
+| 31/5.4.1/0303 | Requip 1.0 | tablet | Valid (status not confirmed by SAHPRA) |
+| 31/5.4.1/0304 | Requip 2.0 | tablet | Valid (status not confirmed by SAHPRA) |
+| 31/5.4.1/0305 | Requip 5.0 | tablet | Valid (status not confirmed by SAHPRA) |
 | 41/5.4.1/0604 | Requip Xl 2Mg | tablet | Valid |
 | 41/5.4.1/0606 | Requip xl | Srt | Valid |
 

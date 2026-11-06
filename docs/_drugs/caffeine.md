@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Caffeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ This is therefore a model prediction without direct supporting evidence.
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 155 of 222) |
-| Number of SAHPRA Registrations | 222 (valid: 155) |
+| South Africa Market Status | Marketed (valid licences: 139 of 206; 8 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 206 (valid: 139, of which 8 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,11 +85,11 @@ The list may be partial. No approved indication text is recorded in the local da
 |------|------|------|------|
 | 29/5.8/0782 | Sinuend | tablet | Valid |
 | 34/2.8/0489 | Codoxol | tablet | Valid |
-| B675 (ACT 101/1965) | Syndol | tablet | Valid |
+| B675 (ACT 101/1965) | Syndol | tablet | Valid (status not confirmed by SAHPRA) |
 | 27/2.8/0137 | Astrapain forte | tablet | Valid |
 | 27/2.8/0231 | Vacudol Forte | tablet | Valid |
 
-Showing 5 of 222 registrations (valid registrations first).
+Showing 5 of 206 registrations (valid registrations first).
 
 ## Safety Considerations
 

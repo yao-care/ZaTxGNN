@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The prediction currently rests on the general antiseizure mechanism and literatu
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 54 of 59) |
-| Number of SAHPRA Registrations | 59 (valid: 54) |
+| South Africa Market Status | Marketed (valid licences: 54 of 59; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 59 (valid: 54, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

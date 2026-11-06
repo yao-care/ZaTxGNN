@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -50,8 +50,8 @@ The more evidence-supported direction among the ten predictions is **congenital 
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 35 of 42) |
-| Number of SAHPRA Registrations | 42 (valid: 35) |
+| South Africa Market Status | Marketed (valid licences: 35 of 42; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 42 (valid: 35, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 **Overview of all ten predictions**

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be relevant for **rosacea conjunctivitis**, with
 | Predicted New Indication | rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 75 of 114) |
-| Number of SAHPRA Registrations | 114 (valid: 75) |
+| South Africa Market Status | Marketed (valid licences: 68 of 107; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 107 (valid: 68, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,13 +74,13 @@ The list may be partial. None of the records carry approved-indication text. The
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G1077 | Diphenhydramine Expect. | liquid | Valid |
+| G1077 | Diphenhydramine Expect. | liquid | Valid (status not confirmed by SAHPRA) |
 | N/2.2/37 | Sleep-eze pm | tablet | Valid |
 | 27/10.1/0013 | Amcough | solution | Valid |
 | 28/10.1/0248 | Expectalin | syrup | Valid |
 | 28/10.1/0249 | Expectalin with cod | syrup | Valid |
 
-Showing 5 of 114 registrations (valid registrations first).
+Showing 5 of 107 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

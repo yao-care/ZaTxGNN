@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **biotin metabolic disease**, b
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 (model prediction only; the supporting literature is indirect and does not test folic acid in this condition) |
-| South Africa Market Status | Marketed (valid licences: 46 of 55) |
-| Number of SAHPRA Registrations | 55 (valid: 46) |
+| South Africa Market Status | Marketed (valid licences: 46 of 55; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 55 (valid: 46, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -97,11 +97,11 @@ No approved-indication text is recorded for any of them. The five main ones are 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| T1205 (ACT 101/1965) | Be-tabs folic acid | tablet | Valid |
+| T1205 (ACT 101/1965) | Be-tabs folic acid | tablet | Valid (status not confirmed by SAHPRA) |
 | 36/22.1/0508 | Cernevit | infusion | Valid |
 | A40/22.2/0592 | Gulf folic acid | tablet | Valid |
-| G/10.1/176 | Linctifed wet cough (was Linctifed exp p | syrup | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| G/10.1/176 | Linctifed wet cough (was Linctifed exp p | syrup | Valid (status not confirmed by SAHPRA) |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 55 registrations (valid registrations first).
 

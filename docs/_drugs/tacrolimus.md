@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 432
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **2 directly relevant clinical trials** (both completed) and **several publ
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 (see note below) |
-| South Africa Market Status | Marketed (valid licences: 51 of 54) |
-| Number of SAHPRA Registrations | 54 (valid: 51) |
+| South Africa Market Status | Marketed (valid licences: 50 of 53; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 53 (valid: 50, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The strict rule (at least two completed Phase 3 RCTs) is not fully met for seborrheic dermatitis, where there is one completed Phase 3 trial and one completed Phase 4 trial. The L1 grade follows the compiled assessment; a conservative reading would be L2.
@@ -101,7 +101,7 @@ For reference, the broader dermatitis category includes many completed Phase 3/4
 | 42/34/0787 | Advagraf | Src | Valid |
 | 42/34/0788 | Advagraf | Src | Valid |
 
-Showing 5 of 54 registrations (valid registrations first).
+Showing 5 of 53 registrations (valid registrations first).
 
 Only the ointment (Protopic) is relevant to a topical dermatological use; the capsule and infusion products are systemic formulations. Essential Medicines List status could not be confirmed from the compiled data.
 

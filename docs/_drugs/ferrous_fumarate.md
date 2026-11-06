@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FERROUS FUMARATE"
 predicted_indications: ["non-syndromic esophageal malformation"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Ferrous fumarate is an oral iron supplement used to replenish iron stores. The T
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 7 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 6 of 9; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 9 (valid: 6, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,13 +80,13 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| H822 (ACT 101/1965) | Pregamal | tablet | Valid |
 | H0689 | Autrin | capsule | Valid |
-| H2062 (ACT 101) | Filibon | capsule | Valid |
+| H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
 | H0810 | Fersamal Half Strength Tablets | tablet | Valid |
 | H0811 | Fersamal Iron Tablets | tablet | Valid |
+| H0812 | Fersamal Iron Syrup | Not recorded | Valid |
 
-Showing 5 of 10 registrations (valid registrations first).
+Showing 5 of 9 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 466
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not available. The SAHPRA registrations in the data compiled for this…"
 monitor_inn: "Valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -48,8 +48,8 @@ Valine is a branched-chain amino acid (BCAA) that is registered in South Africa 
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 17 of 18) |
-| Number of SAHPRA Registrations | 18 (valid: 17) |
+| South Africa Market Status | Marketed (valid licences: 17 of 18; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 18 (valid: 17, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +79,9 @@ The data compiled for this report contain no approved indication text or Essenti
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
-| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 

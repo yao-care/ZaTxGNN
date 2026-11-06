@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Leucovorin"
 predicted_indications: ["primary hyperoxaluria", "congenital intrinsic factor deficiency"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Leucovorin: predicted new indication primary hyperoxaluria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **primary hyperoxaluria**, but **n
 | Predicted New Indication | primary hyperoxaluria |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 6 of 6; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 6 (valid: 6, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -81,11 +81,13 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| S/22.1.4/0344 | Rescuvolin Powder For Injection 15 Mg | injection | Valid |
+| 29/8.3/0359 | Ca leucovorin faulding 5ml | injection | Valid |
+| S/22.1.4/0344 | Rescuvolin Powder For Injection 15 Mg | injection | Valid (status not confirmed by SAHPRA) |
 | 27/8.3/0151 | Abic leucovorin | injection | Valid |
 | 27/8.3/0152 | Abic Leucovorin 200Mg/20Ml | injection | Valid |
 | 27/8.3/0153 | Abic leucovorin 300mg/30ml | injection | Valid |
-| 29/8.3/0358 | Leucovorin - Faulding 3mg/ml | solution | Valid |
+
+Showing 5 of 6 registrations (valid registrations first).
 
 This is a single-ingredient product with a valid registration. Essential Medicines List (EML) status was not available in the data compiled for this report.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 459
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Alopecia Mucinosa** (follicul
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 7 of 13) |
-| Number of SAHPRA Registrations | 13 (valid: 7) |
+| South Africa Market Status | Marketed (valid licences: 6 of 12; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 12 (valid: 6, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,13 +76,13 @@ No approved indication text was available for any of them, and Essential Medicin
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 45.21.5.1/0676 | Triamist 120 dose | spray | Valid |
-| G1595 | Kenalog In Orabase | Pas | Valid |
+| 45/21.5.1/0676 | Triamist 120 dose | spray | Valid |
+| G1595 | Kenalog In Orabase | Pas | Valid (status not confirmed by SAHPRA) |
 | 29/21.5.1/0715 | Nasacor t 120dose | spray | Valid |
-| G1591 | Kenacomb | cream | Valid |
-| G1592 | Kenacomb | ointment | Valid |
+| G1591 | Kenacomb | cream | Valid (status not confirmed by SAHPRA) |
+| G1592 | Kenacomb | ointment | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 13 registrations (valid registrations first).
+Showing 5 of 12 registrations (valid registrations first).
 
 ## Safety Considerations
 

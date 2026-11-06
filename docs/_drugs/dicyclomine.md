@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "DICYCLOMINE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** were found in the data compi
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 18 of 39) |
-| Number of SAHPRA Registrations | 39 (valid: 18) |
+| South Africa Market Status | Marketed (valid licences: 16 of 37; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 37 (valid: 16, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -84,13 +84,13 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| REG NO. G/5.7/80 | Asic | tablet | Valid |
+| REG NO. G/5.7/80 | Asic | tablet | Valid (status not confirmed by SAHPRA) |
 | 27/11.4.2/0009 | Amgel | suspension | Valid |
 | 32/11.4.2/0211 | Co-gel | suspension | Valid |
-| 46/11.4.2/008 | Meddev | syrup | Valid |
-| E1246 | Medigel | suspension | Valid |
+| 46/11.4.2/008 | Meddev | syrup | Valid (status not confirmed by SAHPRA) |
+| E0746 | Spasmogel | suspension | Valid |
 
-Showing 5 of 39 registrations (valid registrations first).
+Showing 5 of 37 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not recorded in the compiled data.
 

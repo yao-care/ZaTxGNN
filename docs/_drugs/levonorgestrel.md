@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Levonorgestrel is a synthetic progestin used in hormonal contraception. The TxGN
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 36 of 37) |
-| Number of SAHPRA Registrations | 37 (valid: 36) |
+| South Africa Market Status | Marketed (valid licences: 36 of 37; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 37 (valid: 36, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

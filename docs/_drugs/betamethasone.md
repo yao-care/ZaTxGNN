@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 67
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Betamethasone is a corticosteroid with anti-inflammatory and immunosuppressive a
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 60 of 67) |
-| Number of SAHPRA Registrations | 67 (valid: 60) |
+| South Africa Market Status | Marketed (valid licences: 57 of 65; 10 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 65 (valid: 57, of which 10 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,12 +85,12 @@ Betamethasone is marketed in South Africa as a single-ingredient product in seve
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/21.5.1/0543 | Betanoid | tablet | Valid |
-| G1833 | Betnovate Skin | lotion | Valid |
-| G2935 | Celestone | tablet | Valid |
-| G2971 (ACT 101/1965) | Celestone Injection | injection | Valid |
-| L/13.4.1/0382 | Persivate | cream | Valid |
+| G1833 | Betnovate Skin | lotion | Valid (status not confirmed by SAHPRA) |
+| G2935 | Celestone | tablet | Valid (status not confirmed by SAHPRA) |
+| G2971 (ACT 101/1965) | Celestone Injection | injection | Valid (status not confirmed by SAHPRA) |
+| P/21.5.1/236 | Diprosone Injection | injection | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 67 registrations (valid registrations first).
+Showing 5 of 65 registrations (valid registrations first).
 
 Approved indication text is not recorded in the local data for these registrations.
 

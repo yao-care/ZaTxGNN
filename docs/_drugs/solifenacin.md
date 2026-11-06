@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 424
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Solifenacin: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model's candidates for Solifenacin (score ≥ 0.99) are all already kn
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 47 of 49) |
-| Number of SAHPRA Registrations | 49 (valid: 47) |
+| South Africa Market Status | Marketed (valid licences: 47 of 49; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 49 (valid: 47, of which 2 not confirmed by SAHPRA) |
 
 ## Known uses among the model's candidates
 

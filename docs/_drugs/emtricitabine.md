@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 78 of 87) |
-| Number of SAHPRA Registrations | 87 (valid: 78) |
+| South Africa Market Status | Marketed (valid licences: 78 of 87; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 87 (valid: 78, of which 2 not confirmed by SAHPRA) |
 | Number of Approvals | At least 20 SAHPRA registrations (the list may be partial) |
 | Recommended Decision | Hold |
 

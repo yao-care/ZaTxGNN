@@ -5,7 +5,7 @@ layout: default
 title: Amiloride Hydrochloride
 parent: Known Uses Only (No New Predictions)
 nav_order: 26
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 13 of 16) |
-| Number of SAHPRA Registrations | 16 (valid: 13) |
+| South Africa Market Status | Marketed (valid licences: 11 of 14; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 14 (valid: 11, of which 3 not confirmed by SAHPRA) |
 
 ---
 

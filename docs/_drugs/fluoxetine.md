@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Fluoxetine is an SSRI that is already marketed in South Africa. The TxGNN model 
 | Predicted New Indication | Paranoid personality disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 19 of 26) |
-| Number of SAHPRA Registrations | 26 (valid: 19) |
+| South Africa Market Status | Marketed (valid licences: 19 of 26; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 26 (valid: 19, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,8 +84,8 @@ Fluoxetine is marketed in South Africa.
 |------|------|------|------|
 | 30/1.2/0024 | Lorien | capsule | Valid |
 | 30/1.2/0356 | Fluoxetine Biotech 20 | capsule | Valid |
-| 30/1.2/0503 | Prozac | tablet | Valid |
-| 31/1.2/0575 | A-Lennon Fluoxetine | capsule | Valid |
+| 30/1.2/0503 | Prozac | tablet | Valid (status not confirmed by SAHPRA) |
+| 31/1.2/0575 | A-Lennon Fluoxetine | capsule | Valid (status not confirmed by SAHPRA) |
 | 31/1.2/0638 | Prohexal | capsule | Valid |
 
 Showing 5 of 26 registrations (valid registrations first).

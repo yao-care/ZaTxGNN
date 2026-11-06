@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The best-supported candidate among the top ten is **intracerebral hemorrhage**, 
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 129 of 136) |
-| Number of SAHPRA Registrations | 136 (valid: 129) |
+| South Africa Market Status | Marketed (valid licences: 129 of 136; 10 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 136 (valid: 129, of which 10 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 **Other top-ranked predictions with evidence (for context):**

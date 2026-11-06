@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Anaerobic bacterial infections, giardiasis, bacterial vaginosis…"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -50,8 +50,8 @@ The prediction is not mechanistically plausible, and the evidence supports a **H
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 60 of 79) |
-| Number of SAHPRA Registrations | 79 (valid: 60) |
+| South Africa Market Status | Marketed (valid licences: 57 of 76; 10 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 76 (valid: 57, of which 10 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -104,7 +104,7 @@ None of these papers shows that metronidazole treats pneumocystosis.
 | 32/20.2/0218 | Metagyl | tablet | Valid |
 | 32/20.2/0219 | Metagyl forte | tablet | Valid |
 
-Showing 5 of 79 registrations (valid registrations first).
+Showing 5 of 76 registrations (valid registrations first).
 
 Essential Medicines List status was not included in the data compiled for this report.
 

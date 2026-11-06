@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ERGOCALCIFEROL"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ergocalciferol: predicted new indication Acromesomelic dysplasia, Campailla-Martinelli type (evidence level L5). Approved use: Rickets, osteomalacia, osteoporosis…"
 ---
 
@@ -48,8 +48,8 @@ Ergocalciferol (vitamin D2) has relations recorded in the knowledge graph with b
 | Predicted New Indication | Acromesomelic dysplasia, Campailla-Martinelli type |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 5 of 14; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 14 (valid: 5, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,7 +72,7 @@ Currently no related literature available.
 |------|------|------|------|
 | T1101 | Calciferol oily | drops | Valid |
 | 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | Z/22.1/236 | Vitalipid novum adult 10ml pdv00001a | infusion | Valid |
 | H2053 | A-LENNON Calciferol | tablet | Valid |
 

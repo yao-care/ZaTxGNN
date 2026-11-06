@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the SAHPRA registration data (general pharmacology sour…"
 monitor_inn: "Etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -48,8 +48,8 @@ Etoricoxib is a selective COX-2 inhibitor. The SAHPRA registration data compiled
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 (mechanistic plausibility only; no clinical studies in migraine) |
-| South Africa Market Status | Marketed (valid licences: 101 of 114) |
-| Number of SAHPRA Registrations | 114 (valid: 101) |
+| South Africa Market Status | Marketed (valid licences: 98 of 111; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 111 (valid: 98, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,10 +91,10 @@ Publications linked to the top prediction (migraine disorder) and to the closest
 | 37/3.1/0399 | Arcoxia | tablet | Valid |
 | 37/3.1/0400 | Arcoxia | tablet | Valid |
 | 37/3.1/0401 | Arcoxia | tablet | Valid |
-| 44/3,1/0899 | Exinef | tablet | Valid |
-| 44/3,1/0900 | Exinef | tablet | Valid |
+| 44/3.1/0063 | Arcoxia 30 | tablet | Valid |
+| 44/3.1/0898 | Exinef 30 | tablet | Valid |
 
-Showing 5 of 114 registrations (valid registrations first).
+Showing 5 of 111 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

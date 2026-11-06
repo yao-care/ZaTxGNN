@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **thrombotic disease**, but there 
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 30 of 43) |
-| Number of SAHPRA Registrations | 43 (valid: 30) |
+| South Africa Market Status | Marketed (valid licences: 26 of 39; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 39 (valid: 26, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,11 +95,11 @@ Approved indication text is not available in the local licence records. The data
 |------|------|------|------|
 | 33/10.2/0416 | Theophylline 200 Gdc | tablet | Valid |
 | 33/10.2/0417 | Theophylline 300 Gdc | tablet | Valid |
-| K/10.2/311 | Euphyllin retard | Srt | Valid |
-| P/10.2/54 | Nuelin sa | Srt | Valid |
-| V/10.2/96 | Theoplus  200 Mg | Srt | Valid |
+| G1027 | Norstan-ted | tablet | Valid |
+| G1028 | Norstan-ted | tablet | Valid |
+| K/10.2/311 | Euphyllin retard | Srt | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 43 registrations (valid registrations first).
+Showing 5 of 39 registrations (valid registrations first).
 
 ---
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 378
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Polymyxin B is a polypeptide antibiotic active against Gram-negative bacteria. T
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 11 of 18) |
-| Number of SAHPRA Registrations | 18 (valid: 11) |
+| South Africa Market Status | Marketed (valid licences: 8 of 15; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 15 (valid: 8, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,12 +96,12 @@ Examples are [NCT07086391](https://clinicaltrials.gov/study/NCT07086391) (nebuli
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 50/20.1.1/0250 | Polygynax® | Pvc | Valid |
-| G1625 (OLD MEDICNE) | Terracortril | ointment | Valid |
 | G2375 | Polysporin | ointment | Valid |
 | G2401 | Terramycin Topical Ointment | ointment | Valid |
-| H.1145 | Maxitrol 5ml | drops | Valid |
+| H1145 | Maxitrol 5ml | drops | Valid |
+| H1158 | Maxitrol 3.5g | eye ointment | Valid |
 
-Showing 5 of 18 registrations (valid registrations first).
+Showing 5 of 15 registrations (valid registrations first).
 
 No oral, injectable or inhalation product appears among the SAHPRA entries compiled, so the inhaled or systemic routes relevant to bronchitis would be unregistered use. Essential Medicines List status could not be determined from the data compiled.
 

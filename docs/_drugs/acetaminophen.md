@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 13
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Acetaminophen: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All candidates produced by the TxGNN model for Acetaminophen (score ≥ 0.99) th
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 428 of 595) |
-| Number of SAHPRA Registrations | 595 (valid: 428) |
+| South Africa Market Status | Marketed (valid licences: 403 of 570; 28 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 570 (valid: 403, of which 28 not confirmed by SAHPRA) |
 
 ## Known uses among the model's candidates
 
@@ -77,14 +77,14 @@ All candidates produced by the TxGNN model for Acetaminophen (score ≥ 0.99) th
 | 27/2.7/0014 | Clicks paracetamol | tablet | Valid |
 | 27/2.7/0138 | Painblok | tablet | Valid |
 | 27/2.7/0352 | Dynadol | tablet | Valid |
-| 27/2.8/0022 | Antalgic | tablet | Valid |
+| 27/2.8/0022 | Antalgic | tablet | Valid (status not confirmed by SAHPRA) |
 | 27/5.8/0449 | Sinustat flu | capsule | Valid |
 | 28/2.7/0234 | Gencetamol | tablet | Valid |
 | 28/2.7/0509 | Paracetamol | tablet | Valid |
 | 28/2.7/0511 | Gulf paracetamol | tablet | Valid |
 | 28/2.7/0582 | Pyngesic t | tablet | Valid |
 | 29/2.7/0287 | Dis-chem paracetamol | tablet | Valid |
-| 29/2.7/0299 | Pacimol  * | tablet | Valid |
+| 29/2.7/0299 | Pacimol  * | tablet | Valid (status not confirmed by SAHPRA) |
 | 29/2.7/0617 | Zypol | tablet | Valid |
 | 30/2.8/0420 | Tylenol extended relief caplet | capsule | Valid |
 | 31/2.7/0193 | Actamol | tablet | Valid |
@@ -94,7 +94,7 @@ All candidates produced by the TxGNN model for Acetaminophen (score ≥ 0.99) th
 | 45/2.7/1188 | Paracetamol fresenius 100ml bottle | infusion | Valid |
 | 47/2.7/0931 | Obident 500 Tablets | tablet | Valid |
 
-Showing 19 of 595 registrations (valid registrations first).
+Showing 19 of 570 registrations (valid registrations first).
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

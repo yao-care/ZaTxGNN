@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 25 of 42) |
-| Number of SAHPRA Registrations | 42 (valid: 25) |
+| South Africa Market Status | Marketed (valid licences: 25 of 42; 9 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 42 (valid: 25, of which 9 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,8 +87,8 @@ For the third-ranked prediction (pulmonary hypertension owing to lung disease an
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 41/7.1.3/0177 | Quinace 10 Mg | tablet | Valid |
-| 41/7.1.3/0178 | Quinace 20 Mg | tablet | Valid |
+| 41/7.1.3/0177 | Quinace 10 Mg | tablet | Valid (status not confirmed by SAHPRA) |
+| 41/7.1.3/0178 | Quinace 20 Mg | tablet | Valid (status not confirmed by SAHPRA) |
 | A40/7.1.3/0601 | Quinagen 5 Mg | tablet | Valid |
 | A40/7.1.3/0602 | Quinagen 10 Mg | tablet | Valid |
 | A40/7.1.3/0603 | Quinagen 20 Mg | tablet | Valid |

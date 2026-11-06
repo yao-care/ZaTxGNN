@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Irbesartan: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ No clinical trials or publications on this disease are currently available, so t
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 43 of 76) |
-| Number of SAHPRA Registrations | 76 (valid: 43) |
+| South Africa Market Status | Marketed (valid licences: 43 of 76; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 76 (valid: 43, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,9 +87,9 @@ Currently no related literature available.
 |------|------|------|------|
 | 43/7.1.3/0720 | Dynarb | tablet | Valid |
 | 43/7.1.3/0721 | Dynarb | tablet | Valid |
-| 44/7.1.3/0907 | Irtanel 150 | tablet | Valid |
-| 44/7.1.3/0908 | Irtanel 300 | tablet | Valid |
-| 44/7.1.3/0910 | Antosart 150 | Fct | Valid |
+| 44/7.1.3/0907 | Irtanel 150 | tablet | Valid (status not confirmed by SAHPRA) |
+| 44/7.1.3/0908 | Irtanel 300 | tablet | Valid (status not confirmed by SAHPRA) |
+| 44/7.1.3/0910 | Antosart 150 | Fct | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 76 registrations (valid registrations first).
 

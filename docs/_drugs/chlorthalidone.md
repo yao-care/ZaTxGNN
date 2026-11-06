@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Chlorthalidone: predicted new indication primary hereditary glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Chlorthalidone is a thiazide-like diuretic. The TxGNN model predicts it may be e
 | Predicted New Indication | primary hereditary glaucoma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 14) |
-| Number of SAHPRA Registrations | 14 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 7 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -76,13 +76,13 @@ Currently no related literature available for primary hereditary glaucoma.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| W/7.1.3/0053 | Tenchlor 100mg/25mg | tablet | Valid |
+| W/7.1.3/53 | Tenchlor 100mg/25mg | tablet | Valid |
 | Y/7.1.3/24 | Sandoz Co-Tenidone 50/12.5 | tablet | Valid |
 | Y/7.1.3/25 | Sandoz Co-Tenidone 100/25 | tablet | Valid |
-| Z/7.1.3/0096 | Tenchlor hs 50mg/12.5mg | tablet | Valid |
+| Z/7.1.3/96 | Tenchlor hs 50mg/12.5mg | tablet | Valid |
 | 31/7.1.3/0218 | ATENOBLOK-CO | tablet | Valid |
 
-Showing 5 of 14 registrations (valid registrations first).
+Showing 5 of 12 registrations (valid registrations first).
 
 The data compiled for this report do not state Essential Medicines List (EML) status.
 

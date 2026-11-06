@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 210
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,8 +50,8 @@ Efavirenz was originally used to treat HIV infection and AIDS. The TxGNN model p
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 62 of 89) |
-| Number of SAHPRA Registrations | 89 (valid: 62) |
+| South Africa Market Status | Marketed (valid licences: 61 of 88; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 88 (valid: 61, of which 7 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -99,13 +99,13 @@ Approved indication text and Essential Medicines List status are not included in
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 33/20.2.8/0401 | Stocrin 50 | capsule | Valid |
-| 33/20.2.8/0403 | Stocrin 200 | capsule | Valid |
-| 37/20.2.8/0628 | Stocrin | tablet | Valid |
+| 33/20.2.8/0401 | Stocrin 50 | capsule | Valid (status not confirmed by SAHPRA) |
+| 33/20.2.8/0403 | Stocrin 200 | capsule | Valid (status not confirmed by SAHPRA) |
+| 37/20.2.8/0628 | Stocrin | tablet | Valid (status not confirmed by SAHPRA) |
 | 41/20.2.8/0106 | Cipla-efavirenz | tablet | Valid |
 | 41/20.2.8/0541 | Erige | capsule | Valid |
 
-Showing 5 of 89 registrations (valid registrations first).
+Showing 5 of 88 registrations (valid registrations first).
 
 ---
 

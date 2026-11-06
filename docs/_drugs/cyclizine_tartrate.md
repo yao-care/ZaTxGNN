@@ -5,7 +5,7 @@ layout: default
 title: Cyclizine Tartrate
 parent: Known Uses Only (No New Predictions)
 nav_order: 157
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 23 of 36) |
-| Number of SAHPRA Registrations | 36 (valid: 23) |
+| South Africa Market Status | Marketed (valid licences: 18 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 18) |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Morphine is an opioid analgesic that acts as a mu-opioid receptor agonist. The T
 | Predicted New Indication | Myofascial pain syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 31 of 38) |
-| Number of SAHPRA Registrations | 38 (valid: 31) |
+| South Africa Market Status | Marketed (valid licences: 25 of 32) |
+| Number of SAHPRA Registrations | 32 (valid: 25) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,13 +83,13 @@ Morphine-containing products are marketed in South Africa. No approved-indicatio
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| B 930(ACT 101/1965) | Morphine sulph fresenius ampoule 1ml | injection | Valid |
-| B 931(ACT 101/1965) | Morphine sulph fresenius | injection | Valid |
-| BV329 | Opium Camphorated Tinct | liquid | Valid |
+| B0769 | Cyclimorph 1ml | injection | Valid |
+| B0770 | Cyclimorph 1ml | injection | Valid |
 | R/2.9/294 | Mst continus | Srt | Valid |
 | R/2.9/295 | Mst continus | Srt | Valid |
+| S/2.9/278 | Mst continus | Srt | Valid |
 
-Showing 5 of 38 registrations (valid registrations first).
+Showing 5 of 32 registrations (valid registrations first).
 
 ## Safety Considerations
 

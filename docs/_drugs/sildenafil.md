@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 418
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Sildenafil: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sildenafil, 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 6 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 79 of 91) |
-| Number of SAHPRA Registrations | 91 (valid: 79) |
+| South Africa Market Status | Marketed (valid licences: 78 of 90; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 90 (valid: 78, of which 4 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -84,7 +84,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sildenafil, 
 | 42/7.1.5/1071 | Dynafil | tablet | Valid |
 | 42/7.1.5/1072 | Dynafil | tablet | Valid |
 
-Showing 5 of 91 registrations (valid registrations first).
+Showing 5 of 90 registrations (valid registrations first).
 
 ## Safety Considerations
 

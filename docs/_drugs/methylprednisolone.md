@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Methylprednisolone is a synthetic glucocorticoid with anti-inflammatory and immu
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 36 of 39) |
-| Number of SAHPRA Registrations | 39 (valid: 36) |
+| South Africa Market Status | Marketed (valid licences: 33 of 36; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 36 (valid: 33, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -67,10 +67,10 @@ No approved indication text is recorded for them in the local data.
 | 42/21.5.1/0309 | Methylprednisolone 40 viatris powder for | injection | Valid |
 | 42/21.5.1/0311 | Methylprednisolone 500 viatris powder fo | injection | Valid |
 | 42/21.5.1/0312 | Methylprednisolone 1000 viatris powder f | injection | Valid |
-| C/3.1/198 | Depo-Medrol 80Mg | injection | Valid |
-| C726 (ACT 101 OF 1965) | Depo-medrol 2ml | injection | Valid |
+| C/3.1/198 | Depo-Medrol 80Mg | injection | Valid (status not confirmed by SAHPRA) |
+| C0728 | Medrol | tablet | Valid |
 
-Showing 5 of 39 registrations (valid registrations first).
+Showing 5 of 36 registrations (valid registrations first).
 
 Whether a route suitable for alopecia mucinosa (for example intralesional or topical) is available locally has not been assessed.
 

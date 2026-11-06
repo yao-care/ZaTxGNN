@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Ferrous sulfate anhydrous is an oral iron supplement used to correct iron defici
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3) |
-| Number of SAHPRA Registrations | 3 (valid: 3) |
+| South Africa Market Status | Marketed (valid licences: 3 of 3; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 3 (valid: 3, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,8 +82,8 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid |
-| H2466 | Complenatal Ff | capsule | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
+| H2466 | Complenatal Ff | capsule | Valid (status not confirmed by SAHPRA) |
 | P/33/161 | Bidomak Fe | Not recorded | Valid |
 
 Essential Medicines List status is not recorded in the data compiled for this report.

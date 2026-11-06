@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L4). Approved use: Pulmonary embolism, thrombotic disease, intracranial embolism"
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
@@ -52,8 +52,8 @@ Of the top 10 predictions, the one with the strongest evidence is **Thrombophili
 | Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 17 of 23) |
-| Number of SAHPRA Registrations | 23 (valid: 17) |
+| South Africa Market Status | Marketed (valid licences: 17 of 23; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 23 (valid: 17, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -120,8 +120,8 @@ No SANCTR or PACTR identifiers were found in the data compiled for this report.
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 49/8.2/1056 | Warfarin 5Mg Austell | tablet | Valid |
-| 54/8.2/0676 | Segavin 5 Mg | tablet | Valid |
-| 54/8.2/0680.676 | Warfarin 5 Unicorn | tablet | Valid |
+| 54/8.2/0676 | Segavin 5 Mg | tablet | Valid (status not confirmed by SAHPRA) |
+| 54/8.2/0680.676 | Warfarin 5 Unicorn | tablet | Valid (status not confirmed by SAHPRA) |
 | 56/8.2/0658 | Warfarin 5 Biotech | tablet | Valid |
 | A38/8.2/0422 | Cipla-warfarin | tablet | Valid |
 

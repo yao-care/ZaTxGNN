@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 317
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Methylcellulose: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 4 of 11) |
-| Number of SAHPRA Registrations | 11 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 3 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 3) |
 
 ## Known uses recorded for this drug
 
@@ -74,13 +74,13 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| E806 (OM) | Microgel | suspension | Valid |
 | H1176 | Murine Clear Eyes | Not recorded | Valid |
 | J/11.4/164 | Merasyn WAFERS* | wafer | Valid |
 | J/15.4/315 | Tears Naturale Ii | Not recorded | Valid |
 | 29/15.4/0216 | Tears Naturale Preservative Free | ophthalmic solution | Cancelled |
+| E1170 | Kolantyl Gel | suspension | Cancelled |
 
-Showing 5 of 11 registrations (valid registrations first).
+Showing 5 of 10 registrations (valid registrations first).
 
 ## Safety Considerations
 

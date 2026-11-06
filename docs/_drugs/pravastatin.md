@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 385
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This direction is supported by **12 clinical trials** and **20 publications**, a
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 23 of 32) |
-| Number of SAHPRA Registrations | 32 (valid: 23) |
+| South Africa Market Status | Marketed (valid licences: 23 of 32; 9 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 32 (valid: 23, of which 9 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on other predictions:** Eight other predicted indications were reviewed. Their recommendations are summarised below.
@@ -114,10 +114,10 @@ Two further trials (NCT00017758, a Phase 1 pharmacokinetic study of efavirenz an
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/7.5/0423 | Prava | tablet | Valid |
-| 37/7.5/0638 | Pranalip | tablet | Valid |
-| 37/7.5/0639 | Pranalip 20 | tablet | Valid |
-| 37/7.5/0640 | Pranalip 40 | tablet | Valid |
+| 31/7.5/0423 | Prava | tablet | Valid (status not confirmed by SAHPRA) |
+| 37/7.5/0638 | Pranalip | tablet | Valid (status not confirmed by SAHPRA) |
+| 37/7.5/0639 | Pranalip 20 | tablet | Valid (status not confirmed by SAHPRA) |
+| 37/7.5/0640 | Pranalip 40 | tablet | Valid (status not confirmed by SAHPRA) |
 | 38/7.5/0123 | Aspen pravastatin | tablet | Valid |
 
 Showing 5 of 32 registrations (valid registrations first).

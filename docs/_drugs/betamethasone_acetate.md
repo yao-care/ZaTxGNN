@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -54,8 +54,8 @@ This report documents current findings and outlines the remediation steps requir
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — TxGNN output absent |
-| South Africa Market Status | Marketed (valid licences: 60 of 67) |
-| Number of SAHPRA Registrations | 67 (valid: 60) |
+| South Africa Market Status | Marketed (valid licences: 57 of 65; 10 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 65 (valid: 57, of which 10 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -75,7 +75,7 @@ The TxGNN pipeline returned no predicted indications for Betamethasone Acetate, 
 
 **To proceed, the following is needed:**
 
-- **[Blocking — DG001]** Obtain the SAHPRA Professional Information (PI) or the TFDA package insert to extract approved warnings and contraindications. *Suggested method: download the PI PDF from the SAHPRA website and parse relevant sections.*
+- **[Blocking — DG001]** Obtain the SAHPRA Professional Information (PI) to extract approved warnings and contraindications. *Suggested method: download the PI PDF from the SAHPRA website and parse relevant sections.*
 - **[High — DG002]** Retrieve the DrugBank entry for Betamethasone Acetate to confirm the DrugBank ID and mechanism of action. *Suggested method: query the DrugBank API using the INN.*
 - **[Required for prediction]** Re-run the TxGNN prediction pipeline once the DrugBank ID is confirmed; the current Evidence Pack shows an empty `predicted_indications` array, which indicates the drug could not be matched to a knowledge graph node.
 - **[Optional]** Confirm whether Betamethasone Acetate or a related betamethasone formulation appears on the South African Essential Medicines List (EML) to assess procurement and access feasibility.

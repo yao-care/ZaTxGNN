@@ -5,7 +5,7 @@ layout: default
 title: Diphenhydramine Hcl
 parent: Known Uses Only (No New Predictions)
 nav_order: 185
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 75 of 114) |
-| Number of SAHPRA Registrations | 114 (valid: 75) |
+| South Africa Market Status | Marketed (valid licences: 68 of 107; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 107 (valid: 68, of which 4 not confirmed by SAHPRA) |
 
 ---
 

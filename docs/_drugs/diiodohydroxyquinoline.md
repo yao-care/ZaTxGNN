@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 179
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Diiodohydroxyquinoline: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for D
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 2 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 4 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 4 of 4; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 4 (valid: 4, of which 2 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -77,8 +77,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for D
 |------|------|------|------|
 | G1781 | Viocort | cream | Valid |
 | G1782 | Viodor | cream | Valid |
-| H1555 (OM) | Otophen Forte | drops | Valid |
-| H1897 (ACT 101/1965) | Vagarsol | vaginal gel | Valid |
+| H1555 (OM) | Otophen Forte | drops | Valid (status not confirmed by SAHPRA) |
+| H1897 (ACT 101/1965) | Vagarsol | vaginal gel | Valid (status not confirmed by SAHPRA) |
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **elevated plasma zinc**, but t
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 2 (valid: 2, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,8 +73,8 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| X/18.8/46 | Cilest | tablet | Valid |
-| X/18.8/47 | Tricilest | tablet | Valid |
+| X/18.8/46 | Cilest | tablet | Valid (status not confirmed by SAHPRA) |
+| X/18.8/47 | Tricilest | tablet | Valid (status not confirmed by SAHPRA) |
 
 Both registrations are valid, single-ingredient entries for oral tablets. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

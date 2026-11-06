@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMILORIDE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Amiloride: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Amiloride is a potassium-sparing diuretic that is marketed in South Africa. The 
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 13 of 16) |
-| Number of SAHPRA Registrations | 16 (valid: 13) |
+| South Africa Market Status | Marketed (valid licences: 11 of 14; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 14 (valid: 11, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,12 +71,12 @@ Currently no related literature available.
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/18.1/0684 | Dezretic 5mg/50mg | tablet | Valid |
-| C/18.1/215 | Moduretic | tablet | Valid |
+| C/18.1/215 | Moduretic | tablet | Valid (status not confirmed by SAHPRA) |
 | L/18.1/396 | Amiloretic 50mg/5mg | tablet | Valid |
-| Q/18.1/168 | Sandoz Co-Amilozide | tablet | Valid |
-| R/18.1/200 | Moduretic Hs | tablet | Valid |
+| Q/18.1/168 | Sandoz Co-Amilozide | tablet | Valid (status not confirmed by SAHPRA) |
+| R/18.1/200 | Moduretic Hs | tablet | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 16 registrations (valid registrations first).
+Showing 5 of 14 registrations (valid registrations first).
 
 The product is available as an oral tablet. The approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
 

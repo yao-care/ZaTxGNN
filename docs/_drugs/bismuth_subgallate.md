@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 72
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Bismuth Subgallate: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bismuth Subg
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 5 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 5 (valid: 5, of which 1 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -74,7 +74,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bismuth Subg
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| E512 | Anugesic | suppository | Valid |
+| E512 | Anugesic | suppository | Valid (status not confirmed by SAHPRA) |
 | E/11.8/0513 | Anusol Ointment | ointment | Valid |
 | E0512 | Anusol Pain Relief Suppositories | suppository | Valid |
 | E0514 | Anusol H.C. Suppositories | Not recorded | Valid |

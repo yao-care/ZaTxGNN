@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ This report documents the data gaps, summarises available context, and defines t
 | Predicted New Indication | No predictions returned by TxGNN |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | Below L5 — no predictions generated; evaluation cannot be completed |
-| South Africa Market Status | Marketed (valid licences: 101 of 125) |
-| Number of SAHPRA Registrations | 125 (valid: 101) |
+| South Africa Market Status | Marketed (valid licences: 98 of 122; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 122 (valid: 98, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** — resolve data gaps before evaluation |
 
 > **Note on market status:** Atorvastatin calcium (e.g., Lipitor® and numerous generics) is registered by SAHPRA and widely dispensed in South African public and private healthcare.

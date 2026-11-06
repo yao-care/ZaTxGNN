@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are **no registered clinical trials** and only **1 general review** su
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 35 of 37) |
-| Number of SAHPRA Registrations | 37 (valid: 35) |
+| South Africa Market Status | Marketed (valid licences: 35 of 37; 8 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 37 (valid: 35, of which 8 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,7 +77,7 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/11.4.3/0034 | Lanzor 15 Mg | capsule | Valid |
+| 31/11.4.3/0034 | Lanzor 15 Mg | capsule | Valid (status not confirmed by SAHPRA) |
 | 37/11.4.3/0154 | Aspen lansoprazole | capsule | Valid |
 | 37/11.4.3/0155 | Lansoloc | capsule | Valid |
 | 37/11.4.3/0237 | Aspen lansoprazole | capsule | Valid |

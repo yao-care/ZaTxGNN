@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Cefpodoxime"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Cefpodoxime: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the SAHPRA licence records compiled for this report (ce…"
 ---
 
@@ -48,8 +48,8 @@ Cefpodoxime is an oral third-generation cephalosporin antibiotic, marketed in So
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9925 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 23 of 26) |
-| Number of SAHPRA Registrations | 26 (valid: 23) |
+| South Africa Market Status | Marketed (valid licences: 23 of 26; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 26 (valid: 23, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

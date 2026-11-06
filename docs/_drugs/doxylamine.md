@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "DOXYLAMINE"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Doxylamine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ No clinical trials or publications were found in the data compiled for this repo
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 36 of 49) |
-| Number of SAHPRA Registrations | 49 (valid: 36) |
+| South Africa Market Status | Marketed (valid licences: 31 of 44; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 44 (valid: 31, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -74,13 +74,13 @@ The records carry no approved-indication text. Essential Medicines List status i
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 54/2.2/0168 | Nomowake | tablet | Valid |
-| Q/2.2/0186 | Somnil | tablet | Valid |
+| 54/2.2/0168 | Nomowake | tablet | Valid (status not confirmed by SAHPRA) |
+| Q/2.2/186 | Somnil | tablet | Valid |
 | 28/2.8/0383 | Tensodol | tablet | Valid |
-| 28/2.8/0713 | Tensodol | tablet | Valid |
+| 28/2.8/0713 | Tensodol | tablet | Valid (status not confirmed by SAHPRA) |
 | 32/2.8/0726 | Pharmadol  quinoline (yellow) | tablet | Valid |
 
-Showing 5 of 49 registrations (valid registrations first).
+Showing 5 of 44 registrations (valid registrations first).
 
 ---
 

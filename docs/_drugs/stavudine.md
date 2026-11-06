@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "STAVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Stavudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction is a computational signal only, and the condition is a veterinary
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 19 of 35) |
-| Number of SAHPRA Registrations | 35 (valid: 19) |
+| South Africa Market Status | Marketed (valid licences: 19 of 35; 11 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 35 (valid: 19, of which 11 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,11 +85,11 @@ There is no literature for the top-ranked prediction (feline AIDS). The table be
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 32/20.2.8/0264 | Zerit | capsule | Valid |
-| 32/20.2.8/0265 | Zerit | capsule | Valid |
-| 32/20.2.8/0266 | Zerit | capsule | Valid |
-| 32/20.2.8/0267 | Zerit | capsule | Valid |
-| 32/20.2.8/0268 | Zerit Powder For Oral Solution | suspension | Valid |
+| 32/20.2.8/0264 | Zerit | capsule | Valid (status not confirmed by SAHPRA) |
+| 32/20.2.8/0265 | Zerit | capsule | Valid (status not confirmed by SAHPRA) |
+| 32/20.2.8/0266 | Zerit | capsule | Valid (status not confirmed by SAHPRA) |
+| 32/20.2.8/0267 | Zerit | capsule | Valid (status not confirmed by SAHPRA) |
+| 32/20.2.8/0268 | Zerit Powder For Oral Solution | suspension | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 35 registrations (valid registrations first).
 

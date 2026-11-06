@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ofloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ofloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections . The local licence text does not state an appro…"
 ---
 
@@ -50,8 +50,8 @@ Ofloxacin is a fluoroquinolone antibacterial. The TxGNN model (deep learning) pr
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 10 of 10; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 10 (valid: 10, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

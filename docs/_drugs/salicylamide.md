@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Salicylamide: predicted new indication Pharyngitis (evidence level L4). Approved use: Headache disorder"
 monitor_inn: "Salicylamide"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
@@ -52,8 +52,8 @@ The evidence is therefore very weak, and the prediction is not yet supported by 
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 13) |
-| Number of SAHPRA Registrations | 13 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 4 of 11; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 11 (valid: 4, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,13 +90,13 @@ For other predicted indications, the retrieved literature is mostly about safety
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| B851 (ACT 101) | Flutex junior cold & flu-alcohol free | syrup | Valid |
-| C759 (OM) | Histamed co | capsule | Valid |
-| C770 (ACT 101/1965) | Ilvico | tablet | Valid |
+| C770 (ACT 101/1965) | Ilvico | tablet | Valid (status not confirmed by SAHPRA) |
 | G1221 | Flutex | capsule | Valid |
 | G1719 | Intralgin | Not recorded | Valid |
+| J/2.9/0007 | Specific Pain Remedy Suspension | suspension | Valid |
+| C0759 | Histamed co | capsule | Cancelled |
 
-Showing 5 of 13 registrations (valid registrations first).
+Showing 5 of 11 registrations (valid registrations first).
 
 The data compiled for this report do not show whether salicylamide is on the Essential Medicines List.
 

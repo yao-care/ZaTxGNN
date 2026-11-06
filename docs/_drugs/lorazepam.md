@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Anxiety disorder and seizure conditions (status epilepticus…"
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -52,8 +52,8 @@ Among the other predicted indications, **insomnia** has the most direct supporti
 | Predicted New Indication | Trigeminal nerve neoplasm (top-ranked prediction) |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 10 of 10) |
-| Number of SAHPRA Registrations | 10 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 8 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 **Other predicted indications reviewed**
@@ -132,10 +132,10 @@ Currently no related clinical trials registered for any of the predicted indicat
 | D/2.6/126 | Ativan | tablet | Valid |
 | D/2.6/128 | Ativan | tablet | Valid |
 | R/2.6/319 | Ativan sl | Slt | Valid |
-| U/2.6/0038 | Tranqipam | tablet | Valid |
-| X/2.6/82 | Ativan | tablet | Valid |
+| U/2.6/38 | Tranqipam | tablet | Valid |
+| U/2.6/39 | Tranqipam | tablet | Valid |
 
-Showing 5 of 10 registrations (valid registrations first).
+Showing 5 of 8 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status was not available in the data compiled for this report. The approved indication text and the packaged warnings from the SAHPRA Professional Information (PI) still need to be retrieved.
 

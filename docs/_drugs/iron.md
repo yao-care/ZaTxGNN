@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Iron: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,7 +74,7 @@ Currently no related literature available.
 | 32/8.3/0166 | Venofer ampoule 5ml | injection | Valid |
 | 46/8.3/0166 | Monofer vial 1ml | injection | Valid |
 | 46/8.3/0849 | Rautevene solution for injection ampoule | injection | Valid |
-| H842 (ACT 101 OF 1965) | Ferrimed | syrup | Valid |
+| H0842 | Ferrimed | syrup | Valid |
 
 Essential Medicines List status is not available in the data compiled for this report.
 

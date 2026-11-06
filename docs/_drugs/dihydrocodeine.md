@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Dihydrocodeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **nasal cavity disease**, but **n
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 5) |
+| South Africa Market Status | Marketed (valid licences: 3 of 4) |
+| Number of SAHPRA Registrations | 4 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,13 +71,10 @@ Currently no related literature available for nasal cavity disease.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| B1041 ACT 101 OF 1965 | Paracodin | syrup | Valid |
-| B730 (ACT 101) | Df 118 1ml | injection | Valid |
 | B0726 | Df 118 | tablet | Valid |
-| B0730 | Df 118 Injection | Not recorded | Valid |
-| B1041 | Paracodin | Not recorded | Valid |
-
-Showing 5 of 6 registrations (valid registrations first).
+| B0730 | Df 118 1ml | injection | Valid |
+| B1041 | Paracodin | syrup | Valid |
+| B1040 | Paracodin | Not recorded | Cancelled |
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

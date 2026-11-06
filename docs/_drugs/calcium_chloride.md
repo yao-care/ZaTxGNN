@@ -5,7 +5,7 @@ layout: default
 title: Calcium Chloride
 parent: Known Uses Only (No New Predictions)
 nav_order: 93
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 100 of 133) |
-| Number of SAHPRA Registrations | 133 (valid: 100) |
+| South Africa Market Status | Marketed (valid licences: 94 of 127; 6 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 127 (valid: 94, of which 6 not confirmed by SAHPRA) |
 
 ---
 

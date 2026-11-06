@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 476
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -50,8 +50,8 @@ There are **no registered clinical trials**, and the predicted new indication is
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L4 (preclinical/animal studies only) |
-| South Africa Market Status | Marketed (valid licences: 45 of 74) |
-| Number of SAHPRA Registrations | 74 (valid: 45) |
+| South Africa Market Status | Marketed (valid licences: 45 of 74; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 74 (valid: 45, of which 7 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,8 +89,8 @@ The approved indication text was not available in the data compiled for this rep
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 32/20.2.8/0204 | Retrovir | tablet | Valid |
-| 37/20.2.8/0614 | Cipla Zidovudine Oral Solution | solution | Valid |
+| 32/20.2.8/0204 | Retrovir | tablet | Valid (status not confirmed by SAHPRA) |
+| 37/20.2.8/0614 | Cipla Zidovudine Oral Solution | solution | Valid (status not confirmed by SAHPRA) |
 | 38/20.2.8/0230 | Aspen-Zidovudine 300 Mg | tablet | Valid |
 | 41/20.2.8/0237 | Adco-zidovudine | tablet | Valid |
 | 45/20.2.8/0086 | Dizovin | tablet | Valid |

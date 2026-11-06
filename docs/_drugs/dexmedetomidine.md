@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Dexmedetomidine: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **nephrogenic syndrome of inappro
 | Predicted New Indication | nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 32 of 32) |
-| Number of SAHPRA Registrations | 32 (valid: 32) |
+| South Africa Market Status | Marketed (valid licences: 32 of 32; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 32 (valid: 32, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

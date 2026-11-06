@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Fentanyl: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **nephrogenic syndrome of inappro
 | Predicted New Indication | nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 24 of 33) |
-| Number of SAHPRA Registrations | 33 (valid: 24) |
+| South Africa Market Status | Marketed (valid licences: 24 of 33; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 33 (valid: 24, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

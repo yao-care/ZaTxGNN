@@ -5,7 +5,7 @@ layout: default
 title: Cetylpyridinium
 parent: Known Uses Only (No New Predictions)
 nav_order: 111
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 35 of 47) |
-| Number of SAHPRA Registrations | 47 (valid: 35) |
+| South Africa Market Status | Marketed (valid licences: 34 of 46; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 46 (valid: 34, of which 2 not confirmed by SAHPRA) |
 
 ---
 

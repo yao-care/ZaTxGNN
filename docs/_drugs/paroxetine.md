@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This prediction rests on the model score alone: **no clinical trials and no publ
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 24 of 28) |
-| Number of SAHPRA Registrations | 28 (valid: 24) |
+| South Africa Market Status | Marketed (valid licences: 24 of 28; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 28 (valid: 24, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,8 +77,8 @@ The approved indication text was not available in the data compiled for this rep
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/1.2/0096 | Adco-paroxetine | tablet | Valid |
-| 36/1.2/0158 | Parax | tablet | Valid |
-| 36/1.2/0159 | Parax | tablet | Valid |
+| 36/1.2/0158 | Parax | tablet | Valid (status not confirmed by SAHPRA) |
+| 36/1.2/0159 | Parax | tablet | Valid (status not confirmed by SAHPRA) |
 | 36/1.2/0160 | Hexal-Paroxetine | Fct | Valid |
 | 37/1.2/0665 | Sedarin | tablet | Valid |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypertrichosis** (the highest
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita (rank 1); hypertrichosis is rank 2 and is the one with literature |
 | TxGNN Prediction Score | 0.9999 (rank 1 prediction); 0.9999 (hypertrichosis) |
 | Evidence Level | L5 (Ambras type); L4 (hypertrichosis) |
-| South Africa Market Status | Marketed (valid licences: 17 of 21) |
-| Number of SAHPRA Registrations | 21 (valid: 17) |
+| South Africa Market Status | Marketed (valid licences: 17 of 21; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 21 (valid: 17, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,7 +85,7 @@ Finasteride is available in South Africa as oral tablets. No approved-indication
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/21.12/0303 | Propecia | tablet | Valid |
-| 40/21.12/0567 | Finpro | tablet | Valid |
+| 40/21.12/0567 | Finpro | tablet | Valid (status not confirmed by SAHPRA) |
 | 41/21.12/0221 | Finpecia | tablet | Valid |
 | 41/21.12/0422 | Fincar | tablet | Valid |
 | 42/21.12/0461 | Finide | tablet | Valid |

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 81
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Asthma, allergic rhinitis…"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -52,8 +52,8 @@ The high score therefore rests mostly on the known effects of corticosteroids as
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (model prediction only; no clinical studies of budesonide in this indication) |
-| South Africa Market Status | Marketed (valid licences: 52 of 64) |
-| Number of SAHPRA Registrations | 64 (valid: 52) |
+| South Africa Market Status | Marketed (valid licences: 50 of 62; 6 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 62 (valid: 50, of which 6 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -97,13 +97,13 @@ Priority is given to the most relevant items. No randomised controlled trial in 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 28/21.5.1/0051 | Inflammide 100 | inhaler | Valid |
-| 28/21.5.1/0052 | Inflammide 200 | inhaler | Valid |
+| 28/21.5.1/0051 | Inflammide 100 | inhaler | Valid (status not confirmed by SAHPRA) |
+| 28/21.5.1/0052 | Inflammide 200 | inhaler | Valid (status not confirmed by SAHPRA) |
 | 29/11.8/0638 | Entocord | Ene | Valid |
 | 31/21.5.1/0215 | Entocord | capsule | Valid |
 | 32/21.5.1/0115 | Budeflam 300Dose Hfa | inhaler | Valid |
 
-Showing 5 of 64 registrations (valid registrations first).
+Showing 5 of 62 registrations (valid registrations first).
 
 The drug is marketed in this country. No Essential Medicines List (EML) status was available in the data compiled. Symbicort and Vannair are named as budesonide/formoterol products. None of the registered forms is a dermal preparation, so a new formulation would be needed for atopic eczema.
 

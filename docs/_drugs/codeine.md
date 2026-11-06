@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CODEINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Codeine is an opioid analgesic that is currently marketed in South Africa in sev
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 178 of 292) |
-| Number of SAHPRA Registrations | 292 (valid: 178) |
+| South Africa Market Status | Marketed (valid licences: 160 of 274; 13 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 274 (valid: 160, of which 13 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,7 @@ The approved indication text is not recorded for these registrations. The first 
 | 27/2.8/0137 | Astrapain forte | tablet | Valid |
 | 27/2.8/0139 | Astrapain | syrup | Valid |
 
-Showing 5 of 292 registrations (valid registrations first).
+Showing 5 of 274 registrations (valid registrations first).
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis, staphylococcal infections, endocarditis"
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but **
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 26 of 31) |
-| Number of SAHPRA Registrations | 31 (valid: 26) |
+| South Africa Market Status | Marketed (valid licences: 25 of 30; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 30 (valid: 25, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,10 +84,10 @@ Currently no related clinical trials registered.
 | 29/20.1.1/0675 | Vancomycin- Faulding 1G | injection | Valid |
 | 42/20.1.1/0971 | Gulf vancomycin powder for injection 10m | injection | Valid |
 | 42/20.1.1/0972 | Gulf vancomycin powder for injection 20 | injection | Valid |
-| 53/20.1.1/0584 | Comavyn 125 | capsule | Valid |
+| 53/20.1.1/0584 | Comavyn 125 | capsule | Valid (status not confirmed by SAHPRA) |
 | 54/20.1.1/0295 | Cytovan 1G Iv | infusion | Valid |
 
-Showing 5 of 31 registrations (valid registrations first).
+Showing 5 of 30 registrations (valid registrations first).
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

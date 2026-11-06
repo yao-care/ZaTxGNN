@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Diazepam: predicted new indication insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Diazepam is a benzodiazepine that enhances GABA-A receptor signalling. The TxGNN
 | Predicted New Indication | insomnia (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 28 of 42) |
-| Number of SAHPRA Registrations | 42 (valid: 28) |
+| South Africa Market Status | Marketed (valid licences: 24 of 38; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 38 (valid: 24, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,13 +91,13 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| B/2.6/1002 | Valium 2 Mg | tablet | Valid |
-| J/2.6/0250 | Pax | tablet | Valid |
-| J/2.6/0267 | Pax-5 | tablet | Valid |
-| K/2.6/0220 | Pax 2ml | injection | Valid |
+| B/2.6/1002 | Valium 2 Mg | tablet | Valid (status not confirmed by SAHPRA) |
+| J/2.6/250 | Pax | tablet | Valid |
+| J/2.6/267 | Pax-5 | tablet | Valid |
 | K/2.6/116 | Doval | tablet | Valid |
+| L/2.6/0185 | Betapam | tablet | Valid |
 
-Showing 5 of 42 registrations (valid registrations first).
+Showing 5 of 38 registrations (valid registrations first).
 
 Essential Medicines List status is not available in the compiled data.
 

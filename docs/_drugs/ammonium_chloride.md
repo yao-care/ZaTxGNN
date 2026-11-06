@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ammonium chloride"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ammonium Chloride: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
 ---
 
@@ -50,8 +50,8 @@ Ammonium chloride is recorded in the knowledge graph as being used for pharyngit
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 90 of 119) |
-| Number of SAHPRA Registrations | 119 (valid: 90) |
+| South Africa Market Status | Marketed (valid licences: 83 of 112; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 112 (valid: 83, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -84,13 +84,13 @@ The records compiled for this report contain no approved indication text and no 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G115 (ACT 101/1965) | Dilinct | syrup | Valid |
+| G115 (ACT 101/1965) | Dilinct | syrup | Valid (status not confirmed by SAHPRA) |
 | 27/10.1/0013 | Amcough | solution | Valid |
 | 27/10.1/0140 | Relief-coff expect | syrup | Valid |
 | 27/10.1/0529 | Dynalex | syrup | Valid |
 | 28/10.1/0206 | Bronchoped | syrup | Valid |
 
-Showing 5 of 119 registrations (valid registrations first).
+Showing 5 of 112 registrations (valid registrations first).
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "DIGOXIN"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Digoxin is a cardiac glycoside used in cardiology. The TxGNN model predicts it m
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 9 of 9) |
-| Number of SAHPRA Registrations | 9 (valid: 9) |
+| South Africa Market Status | Marketed (valid licences: 5 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -82,13 +82,11 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G.2846 | Lanoxin | tablet | Valid |
+| G2846 | Lanoxin | tablet | Valid |
 | J/6.3/302 | Lanoxin | tablet | Valid |
-| G.2847 | Lanoxin paediatric/geriatric | syrup | Valid |
-| G.2848 | Lanoxin 2ml | injection | Valid |
-| J/6.3/0055 | Purgoxin | tablet | Valid |
-
-Showing 5 of 9 registrations (valid registrations first).
+| J/6.3/55 | Purgoxin | tablet | Valid |
+| G2847 | Lanoxin paediatric/geriatric | syrup | Valid |
+| G2848 | Lanoxin 2ml | injection | Valid |
 
 The data compiled for this report carry no Essential Medicines List (EML) information for this product.
 

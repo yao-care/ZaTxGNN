@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CALCIFEDIOL"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Calcifediol: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Calcifediol (25-hydroxyvitamin D3) is the main circulating form of vitamin D and
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2) |
-| Number of SAHPRA Registrations | 2 (valid: 2) |
+| South Africa Market Status | Marketed (valid licences: 2 of 2; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 2 (valid: 2, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -80,8 +80,8 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| H2062 (ACT 101) | Filibon | capsule | Valid |
-| H2466 | Complenatal Ff | capsule | Valid |
+| H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
+| H2466 | Complenatal Ff | capsule | Valid (status not confirmed by SAHPRA) |
 
 The available dosage form is oral capsule.
 

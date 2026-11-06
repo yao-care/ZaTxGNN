@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Ipratropium bromide is a well-established anticholinergic bronchodilator, widely
 | Predicted New Indication | **None** — TxGNN prediction was not generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — No prediction available |
-| South Africa Market Status | Marketed (valid licences: 19 of 31) |
-| Number of SAHPRA Registrations | 31 (valid: 19) |
+| South Africa Market Status | Marketed (valid licences: 19 of 31; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 31 (valid: 19, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Quality Flag:** Ipratropium bromide (e.g., Atrovent®) is a globally available bronchodilator. Manual verification against the SAHPRA online register is strongly recommended before drawing any regulatory conclusions.

@@ -5,7 +5,7 @@ layout: default
 title: Buclizine
 parent: Known Uses Only (No New Predictions)
 nav_order: 80
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 2 of 4) |
-| Number of SAHPRA Registrations | 4 (valid: 2) |
+| South Africa Market Status | Not marketed (licences cancelled: 2 of 2) |
+| Number of SAHPRA Registrations | 2 (valid: 0) |
 
 ---
 

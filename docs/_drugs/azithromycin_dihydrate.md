@@ -5,7 +5,7 @@ layout: default
 title: Azithromycin Dihydrate
 parent: Known Uses Only (No New Predictions)
 nav_order: 58
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 35 of 42) |
-| Number of SAHPRA Registrations | 42 (valid: 35) |
+| South Africa Market Status | Marketed (valid licences: 35 of 42; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 42 (valid: 35, of which 3 not confirmed by SAHPRA) |
 
 Azithromycin is a well-established antibiotic that appears on the South African Standard Treatment Guidelines and Essential Medicines List (EML). Direct SAHPRA database verification is required before this field can be relied upon.
 

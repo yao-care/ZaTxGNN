@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Cefazolin: predicted new indication infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ but **no clinical trials** and only **2 loosely related publications** (a review
 | Predicted New Indication | infectious otitis media |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 24 of 29) |
-| Number of SAHPRA Registrations | 29 (valid: 24) |
+| South Africa Market Status | Marketed (valid licences: 24 of 29; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 29 (valid: 24, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

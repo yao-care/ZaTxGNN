@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "METOCLOPRAMIDE"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence concerns procedural use during endoscopy, not ulcer treatment, so t
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 (observational and review-level evidence only; no completed Phase 3 or Phase 2/3 RCT for this indication) |
-| South Africa Market Status | Marketed (valid licences: 27 of 42) |
-| Number of SAHPRA Registrations | 42 (valid: 27) |
+| South Africa Market Status | Marketed (valid licences: 24 of 39) |
+| Number of SAHPRA Registrations | 39 (valid: 24) |
 | Recommended Decision | Hold |
 
 ---
@@ -111,11 +111,11 @@ No approved indication text or manufacturer details are available in the data co
 |------|------|------|------|
 | 28/5.7.2/0210 | Merck-Metoclopramide | tablet | Valid |
 | C/5.7.2/920 | Maxolon T | tablet | Valid |
-| C919 | Maxolon i 2ml | injection | Valid |
 | K/11.2/49 | Adco-contromet | tablet | Valid |
-| L/5.7.2/0322 | Clopamon | tablet | Valid |
+| L/5.7.2/322 | Clopamon | tablet | Valid |
+| M/5.7.2/141 | Setin | tablet | Valid |
 
-Showing 5 of 42 registrations (valid registrations first).
+Showing 5 of 39 registrations (valid registrations first).
 
 Available routes are injectable, oral (tablet) and oral liquid (syrup).
 

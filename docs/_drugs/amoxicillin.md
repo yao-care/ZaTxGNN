@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Amoxicillin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections such as urinary tract infection…"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **hyperamylasemia**, but there are
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 231 of 286) |
-| Number of SAHPRA Registrations | 286 (valid: 231) |
+| South Africa Market Status | Marketed (valid licences: 231 of 286; 38 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 286 (valid: 231, of which 38 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,11 +75,11 @@ Amoxicillin is marketed in South Africa. The licence records contain no approved
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 27/20.1.2/0325 | A-Lennon Amoxycillin | capsule | Valid |
-| 27/20.1.2/0439 | A-Lennon Amoxycillin | suspension | Valid |
-| 27/20.1.2/0440 | A-Lennon Amoxycillin | suspension | Valid |
-| 27/20.1.2/0472 | Saltermox s | suspension | Valid |
-| 27/20.1.2/0473 | Saltermox Sf 250 Mg | suspension | Valid |
+| 27/20.1.2/0325 | A-Lennon Amoxycillin | capsule | Valid (status not confirmed by SAHPRA) |
+| 27/20.1.2/0439 | A-Lennon Amoxycillin | suspension | Valid (status not confirmed by SAHPRA) |
+| 27/20.1.2/0440 | A-Lennon Amoxycillin | suspension | Valid (status not confirmed by SAHPRA) |
+| 27/20.1.2/0472 | Saltermox s | suspension | Valid (status not confirmed by SAHPRA) |
+| 27/20.1.2/0473 | Saltermox Sf 250 Mg | suspension | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 286 registrations (valid registrations first).
 

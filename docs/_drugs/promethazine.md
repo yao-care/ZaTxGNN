@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 392
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Promethazine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All candidates produced by the model for Promethazine are already known uses, so
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 3 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 36 of 62) |
-| Number of SAHPRA Registrations | 62 (valid: 36) |
+| South Africa Market Status | Marketed (valid licences: 30 of 56; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 56 (valid: 30, of which 3 not confirmed by SAHPRA) |
 
 ## Known uses among the model's candidates
 
@@ -77,24 +77,24 @@ All candidates produced by the model for Promethazine are already known uses, so
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | C0851 | Avomine | tablet | Valid |
-| C855 (ACT 101 1965) | Phenergan | tablet | Valid |
-| C857 (ACT 101 1965) | Phenergan 1 Ml | injection | Valid |
-| C858 (ACT 101 1965) | Phenergan | tablet | Valid |
-| G603 (ACT 101 1965) | Phensedyl | syrup | Valid |
+| G603 (ACT 101 1965) | Phensedyl | syrup | Valid (status not confirmed by SAHPRA) |
 | R/5.7.1/154 | Receptozine | tablet | Valid |
 | R/5.7.1/155 | Receptozine | tablet | Valid |
 | 27/2.8/0139 | Astrapain | syrup | Valid |
 | 27/2.8/0229 | Vacudol Syrup | syrup | Valid |
 | 27/2.8/0242 | Goldgesic | syrup | Valid |
-| 28/2.8/0566 | Medipyn s | syrup | Valid |
+| 28/2.8/0566 | Medipyn s | syrup | Valid (status not confirmed by SAHPRA) |
 | B/2.8/867 | Stopayne | syrup | Valid |
 | B1450 | Promethazine hcl 1ml fresenius | injection | Valid |
 | B1637 | Promethazine hcl 2ml fresenius | injection | Valid |
 | C0829 | Lenazine | syrup | Valid |
-| D/5.8/54 | Colcaps | syrup | Valid |
+| C0858 | Phenergan | tablet | Valid |
 | E/5.7.1/125 | Histodor | tablet | Valid |
+| G/5.7/22 | Prohist | syrup | Valid |
+| G0533 | Lenazine Forte | syrup | Valid |
+| G0968 | Stilpane | syrup | Valid |
 
-Showing 17 of 62 registrations (valid registrations first).
+Showing 17 of 56 registrations (valid registrations first).
 
 ## Safety Considerations
 

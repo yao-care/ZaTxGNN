@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Chloramphenicol"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Chloramphenicol is an antibacterial drug that is currently marketed in South Afr
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 22 of 37) |
-| Number of SAHPRA Registrations | 37 (valid: 22) |
+| South Africa Market Status | Marketed (valid licences: 21 of 36; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 36 (valid: 21, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,13 +77,13 @@ None of these studies evaluates chloramphenicol as a therapy.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| A557 (OM) | Chlorcol | capsule | Valid |
 | H1193 | Chloramex Opthalmic Ointment 3.5G | eye ointment | Valid |
 | H1207 | Chlornicol  3.5G | eye ointment | Valid |
 | H1217 | Chloromycetin | eye ointment | Valid |
-| V/15.1/294 | Chlorphen 3.5g | eye ointment | Valid |
+| V/15.1/294 | Chlorphen 3.5g | eye ointment | Valid (status not confirmed by SAHPRA) |
+| V/20.1.1/227 | Chlorphen 40ml | injection | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 37 registrations (valid registrations first).
+Showing 5 of 36 registrations (valid registrations first).
 
 Essential Medicines List status is not available in the data compiled for this report.
 

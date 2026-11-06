@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Better-supported directions among the other predictions are **haemangioma subtyp
 | Predicted New Indication | Distal myopathy, Tateyama type |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 19 of 29) |
-| Number of SAHPRA Registrations | 29 (valid: 19) |
+| South Africa Market Status | Marketed (valid licences: 19 of 29; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 29 (valid: 19, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

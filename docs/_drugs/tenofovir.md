@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "TENOFOVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Tenofovir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection, HIV infection, AIDS"
 ---
 
@@ -50,8 +50,8 @@ There are **no registered clinical trials** and **20 publications** (mostly non-
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 152 of 183) |
-| Number of SAHPRA Registrations | 183 (valid: 152) |
+| South Africa Market Status | Marketed (valid licences: 151 of 182; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 182 (valid: 151, of which 7 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,13 +90,13 @@ No approved-indication text is recorded for them in the data compiled for this r
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 43/20.2.8/0181 | Aspen tenofovir | tablet | Valid |
-| 44/20.2.8/0332 | Adco tenofovir | tablet | Valid |
+| 44/20.2.8/332 | Adco tenofovir | tablet | Valid |
 | 45/20.2.8/0825 | Ricovir | tablet | Valid |
 | 46/20.2.8/0019 | Hetero tenofovir | tablet | Valid |
 | 46/20.2.8/0040 | Tenofovir Winthrop | Fct | Valid |
 | 52/20.2.8/0273 | Vemlidy | Fct | Valid |
 
-Showing 6 of 183 registrations (valid registrations first).
+Showing 6 of 182 registrations (valid registrations first).
 
 ## Safety Considerations
 

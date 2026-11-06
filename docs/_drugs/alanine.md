@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Alanine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not stated in the registration data compiled for this report (all app…"
 monitor_inn: "Alanine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **gastroparesis**, but **no clinic
 | Predicted New Indication | Gastroparesis (disease) |
 | TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 36 of 55) |
-| Number of SAHPRA Registrations | 55 (valid: 36) |
+| South Africa Market Status | Marketed (valid licences: 36 of 55; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 55 (valid: 36, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,9 +80,9 @@ No approved indication text is available for any of them, and no Essential Medic
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/23/0210 | Dipeptiven 100ml | infusion | Valid |
-| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid |
-| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid |
-| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid |
+| 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0503 | Oliclinomel N6 900E 2000ml 3blog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
+| 37/25.2/0504 | Oliclinomel N7 1000E 2000ml 3bgog1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 
 Showing 5 of 55 registrations (valid registrations first).

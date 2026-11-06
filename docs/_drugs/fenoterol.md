@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Fenoterol: predicted new indication multiple system atrophy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant for **multiple system atrophy**, but
 | Predicted New Indication | multiple system atrophy |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 13) |
-| Number of SAHPRA Registrations | 13 (valid: 10) |
+| South Africa Market Status | Marketed (valid licences: 10 of 13; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 13 (valid: 10, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,10 +73,10 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| Q/10.2.1/370 | Berotec 0.1 % | nebuliser | Valid |
+| Q/10.2.1/370 | Berotec 0.1 % | nebuliser | Valid (status not confirmed by SAHPRA) |
 | 33/10.2.1/ 0194 | Adco-fenoterol | vial | Valid |
 | 33/10.2.1/0195 | Adco-fenoterol | vial | Valid |
-| 35/10.2.1/0004 | Adco-nebrafen 4ml | vial | Valid |
+| 35/10.2.1/0004 | Adco-nebrafen 4ml | vial | Valid (status not confirmed by SAHPRA) |
 | A40/10.2/0624 | Fenovent | syrup | Valid |
 
 Showing 5 of 13 registrations (valid registrations first).

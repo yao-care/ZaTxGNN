@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "NAPHAZOLINE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -52,8 +52,8 @@ but there are currently **no clinical trials and no publications** supporting th
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 16 of 18) |
-| Number of SAHPRA Registrations | 18 (valid: 16) |
+| South Africa Market Status | Marketed (valid licences: 16 of 18; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 18 (valid: 16, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

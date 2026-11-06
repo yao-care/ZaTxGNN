@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This is a model-driven hypothesis with limited supporting evidence.
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 77 of 108) |
-| Number of SAHPRA Registrations | 108 (valid: 77) |
+| South Africa Market Status | Marketed (valid licences: 76 of 107; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 107 (valid: 76, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -98,7 +98,7 @@ Approved indication text and Essential Medicines List status are not available i
 | 33/20.1.1/0366 | Cifran 500 | tablet | Valid |
 | 33/20.1.1/0371 | Simayla ciprofloxacin | tablet | Valid |
 
-Showing 5 of 108 registrations (valid registrations first).
+Showing 5 of 107 registrations (valid registrations first).
 
 Oral and injectable forms are available locally. For scleroderma, the oral route is the one studied in the available literature.
 

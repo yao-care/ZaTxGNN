@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 390
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Procaine: predicted new indication Methemoglobinemia (evidence level L4). Approved use: Not available"
 monitor_inn: "Procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa"]
@@ -52,8 +52,8 @@ No clinical trials are registered for this prediction, and only **5 publications
 | Predicted New Indication | Methemoglobinemia |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 18 of 23) |
-| Number of SAHPRA Registrations | 23 (valid: 18) |
+| South Africa Market Status | Marketed (valid licences: 17 of 22; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 22 (valid: 17, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,13 +92,13 @@ None of these publications shows a therapeutic benefit of procaine in methemoglo
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| A/20.1.2/0442 | Bio-Cillin | injection | Valid |
-| B/20.1.2/20 | Procillin 20Ml | injection | Valid |
-| A/20.1.2/442 | BIO-CILLIN | suspension | Valid |
+| A/20.1.2/442 | Bio-Cillin | injection | Valid |
+| B/20.1.2/20 | Procillin 20Ml | injection | Valid (status not confirmed by SAHPRA) |
 | 00/21.1/2 | Ultraject | suspension | Valid |
 | 20/17.1.11/01 | Shotapen La | Not recorded | Valid |
+| 83/254 | Peni La Phenix | suspension | Valid |
 
-Showing 5 of 23 registrations (valid registrations first).
+Showing 5 of 22 registrations (valid registrations first).
 
 The data compiled for this report do not show Essential Medicines List (EML) status.
 

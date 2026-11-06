@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 324
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Miconazole is an imidazole antifungal used on the skin and mucous membranes. The
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 12 of 22) |
-| Number of SAHPRA Registrations | 22 (valid: 12) |
+| South Africa Market Status | Marketed (valid licences: 12 of 22; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 22 (valid: 12, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,7 +79,7 @@ No approved indication text is recorded for any of them. Essential Medicines Lis
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/20.2.2/0630 | Micmat | tablet | Valid |
+| 37/20.2.2/0630 | Micmat | tablet | Valid (status not confirmed by SAHPRA) |
 | L/20.2.2/183 | Daktarin oral | Geo | Valid |
 | 33/13.9.2/0124 | Covarex | cream | Valid |
 | 34/13.9.2/0182 | Dermazole | cream | Valid |

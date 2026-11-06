@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 75
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Brimonidine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Brimonidine,
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 5 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 8 of 8) |
-| Number of SAHPRA Registrations | 8 (valid: 8) |
+| South Africa Market Status | Marketed (valid licences: 8 of 8; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 8 (valid: 8, of which 1 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -78,7 +78,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Brimonidine,
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 45/15.4/0688 | Brimoct 5ml | drops | Valid |
-| 47/15.4/0706 | Agobrim Eye Drops | drops | Valid |
+| 47/15.4/0706 | Agobrim Eye Drops | drops | Valid (status not confirmed by SAHPRA) |
 | 49/15.4/1079 | Brimoct Co | drops | Valid |
 | 50/15.4/0358 | Simbrinza | drops | Valid |
 | A39/15.4/0202 | Alphagan purite 5ml | drops | Valid |

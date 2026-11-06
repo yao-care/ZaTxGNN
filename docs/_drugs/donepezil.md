@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Donepezil is a cholinesterase inhibitor that is marketed in South Africa. The Tx
 | Predicted New Indication | Psychogenic movement disorders |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 37 of 42) |
-| Number of SAHPRA Registrations | 42 (valid: 37) |
+| South Africa Market Status | Marketed (valid licences: 37 of 42; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 42 (valid: 37, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

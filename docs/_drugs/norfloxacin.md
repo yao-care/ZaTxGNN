@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Norfloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Norfloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Urinary tract infection, typhoid fever and other bacterial infections"
 ---
 
@@ -48,8 +48,8 @@ Norfloxacin is a fluoroquinolone antibiotic used for infections such as urinary 
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 4 of 6; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 6 (valid: 4, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,7 @@ No label-based warnings or contraindications were available in the data compiled
 |------|------|------|------|
 | 31/20.1.1/0517 | Utin-400 | tablet | Valid |
 | 32/20.1.1/0377 | Floxin | tablet | Valid |
-| 43/20.1.1/0657 | Utifloxa | tablet | Valid |
+| 43/20.1.1/0657 | Utifloxa | tablet | Valid (status not confirmed by SAHPRA) |
 | 37/20.1.1/0130 | Norfloxacin 400 PHARMA-Q | tablet | Valid |
 | 34/20.1.1/0059 | Norfloxacin actor | tablet | Cancelled |
 

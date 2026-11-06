@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Dexchlorpheniramine maleate"
 predicted_indications: ["acute intermittent porphyria"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Dexchlorpheniramine Maleate: predicted new indication acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The TxGNN model predicts it may be relevant to **acute intermittent porphyria** 
 | Predicted New Indication | acute intermittent porphyria |
 | TxGNN Prediction Score | 0.9912 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 6) |
-| Number of SAHPRA Registrations | 6 (valid: 6) |
+| South Africa Market Status | Marketed (valid licences: 6 of 6; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 6 (valid: 6, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -84,7 +84,7 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 34/34/0461 | Pegintron 150 Microgram | injection | Valid |
+| 34/34/0461 | Pegintron 150 Microgram | injection | Valid (status not confirmed by SAHPRA) |
 | 48/21.5.4/0075 | Betadexamine Tablets | tablet | Valid |
 | A40/21.5.4/0623 | Betadexamine | syrup | Valid |
 | A39/5.7.1/0220 | Histadex | drops | Valid |

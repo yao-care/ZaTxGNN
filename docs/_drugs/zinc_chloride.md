@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "ZINC CHLORIDE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
 description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Zinc chloride is a zinc source marketed in South Africa mainly in parenteral nut
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 4 of 5) |
-| Number of SAHPRA Registrations | 5 (valid: 4) |
+| South Africa Market Status | Marketed (valid licences: 4 of 5; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 5 (valid: 4, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 Two other predictions were also generated, both at L5 and Hold: **Sjogren syndrome** (0.9918) and **dry eye syndrome** (0.9918).
@@ -80,7 +80,7 @@ Approved indication text was not available for any of them.
 |------|------|------|------|
 | 29/24/0462 | Peditrace 10ml pdp100010 | infusion | Valid |
 | 49/24/0996 | Addaven | infusion | Valid |
-| H2062 (ACT 101) | Filibon | capsule | Valid |
+| H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
 | B0035 | Synacthen 0,25 | tablet | Valid |
 | 34/16.4/0294 | Tartar Control Listerine Antiseptic | solution | Cancelled |
 

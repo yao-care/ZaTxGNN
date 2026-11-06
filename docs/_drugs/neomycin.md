@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 337
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Neomycin: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Neomycin, so
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 44 of 69) |
-| Number of SAHPRA Registrations | 69 (valid: 44) |
+| South Africa Market Status | Marketed (valid licences: 40 of 65; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 65 (valid: 40, of which 7 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -75,19 +75,19 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Neomycin, so
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 50/20.1.1/0250 | Polygynax® | Pvc | Valid |
-| E/20.1.2/119 | Amoxil D | drops | Valid |
-| G1396 (ACT 101/1965 | Synalar n cream | cream | Valid |
-| G1397(ACT 101/1965 | Synalar 'n' ointment | ointment | Valid |
-| G1591 | Kenacomb | cream | Valid |
-| G1592 | Kenacomb | ointment | Valid |
-| G1828 | Betnovate 'n' | cream | Valid |
-| G1831 | Betnovate 'n' | ointment | Valid |
+| E/20.1.2/119 | Amoxil D | drops | Valid (status not confirmed by SAHPRA) |
+| G1591 | Kenacomb | cream | Valid (status not confirmed by SAHPRA) |
+| G1592 | Kenacomb | ointment | Valid (status not confirmed by SAHPRA) |
+| G1828 | Betnovate 'n' | cream | Valid (status not confirmed by SAHPRA) |
+| G1831 | Betnovate 'n' | ointment | Valid (status not confirmed by SAHPRA) |
 | G2370 | Cicatrin Powder 15G | powder | Valid |
-| H.1145 | Maxitrol 5ml | drops | Valid |
-| H.1158 | Maxitrol 3.5g | eye ointment | Valid |
+| H1145 | Maxitrol 5ml | drops | Valid |
+| H1158 | Maxitrol 3.5g | eye ointment | Valid |
 | H1236 | Covomycin 7.5ml | Een | Valid |
+| H1237 | Covomycin D | Een | Valid |
+| H1258 | Betnesol 'n' 10ml | drops | Valid |
 
-Showing 12 of 69 registrations (valid registrations first).
+Showing 12 of 65 registrations (valid registrations first).
 
 ## Safety Considerations
 

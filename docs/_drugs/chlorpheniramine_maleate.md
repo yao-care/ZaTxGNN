@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 116
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ This report documents the current data status and defines the minimum requiremen
 | Predicted New Indication | Not available — TxGNN generated no candidate predictions |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — No predictions generated; evaluation cannot be initiated |
-| South Africa Market Status | Marketed (valid licences: 76 of 110) |
-| Number of SAHPRA Registrations | 110 (valid: 76) |
+| South Africa Market Status | Marketed (valid licences: 66 of 100; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 100 (valid: 66, of which 7 not confirmed by SAHPRA) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Integrity Note:** Chlorpheniramine maleate is a decades-old, widely available molecule present in numerous over-the-counter and prescription products across Africa (including well-known brands such as *Allergex* and *Piriton* in South Africa). SAHPRA records must be independently verified before this field is relied upon.
@@ -75,12 +75,12 @@ Detailed mechanism of action data was not provided in the Evidence Pack (recorde
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/5.7.1/0166 | Rhineton | tablet | Valid |
-| C668 (OM) | Allergex | tablet | Valid |
-| C807 (OM) | Allergex | syrup | Valid |
+| C0668 | Allergex | tablet | Valid |
 | 27/10.1/0536 | Trifen expect paediatric | syrup | Valid |
 | 27/10.1/0553 | Flusin dm | syrup | Valid |
+| 27/5.8/0123 | Degoran Cold And Flu Hot Medicated Drink | sachet | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 110 registrations (valid registrations first).
+Showing 5 of 100 registrations (valid registrations first).
 
 **Recommended action:** Query the SAHPRA online medicines register (`https://www.sahpra.org.za`) using the search term "chlorpheniramine" to retrieve all active and historical registration records.
 

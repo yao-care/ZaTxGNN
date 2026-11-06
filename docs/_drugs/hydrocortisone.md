@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Hydrocortisone: predicted new indication alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ with **1 clinical trial** (in which hydrocortisone was only the weak comparator)
 | Predicted New Indication | alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 46 of 70) |
-| Number of SAHPRA Registrations | 70 (valid: 46) |
+| South Africa Market Status | Marketed (valid licences: 43 of 67; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 67 (valid: 43, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -93,7 +93,7 @@ Hydrocortisone is marketed in South Africa. Approved indication text is not reco
 | G/21.5/201 | Solu cortef 4ml | injection | Valid |
 | H/13.4.1/107 | Locoid | cream | Valid |
 
-Showing 5 of 70 registrations (valid registrations first).
+Showing 5 of 67 registrations (valid registrations first).
 
 ## Safety Considerations
 

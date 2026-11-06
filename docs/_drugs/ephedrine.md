@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "EPHEDRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ephedrine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 29 of 46) |
-| Number of SAHPRA Registrations | 46 (valid: 29) |
+| South Africa Market Status | Marketed (valid licences: 26 of 43; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 43 (valid: 26, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,11 @@ Currently no related clinical trials registered.
 |------|------|------|------|
 | 28/5.8/0273 | Flusin | capsule | Valid |
 | 29/5.8/0782 | Sinuend | tablet | Valid |
-| C 810 (OM) | Colcleer(cold+flu) | tablet | Valid |
-| C661 (OM) | Corbar linctus | syrup | Valid |
-| C795 (OM) | Grippon Cold And Flu Syrup | syrup | Valid |
+| C0795 | Grippon Cold And Flu Syrup | syrup | Valid |
+| C0810 | Colcleer(cold+flu) | tablet | Valid |
+| C661 (OM) | Corbar linctus | syrup | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 46 registrations (valid registrations first).
+Showing 5 of 43 registrations (valid registrations first).
 
 Other products include syrups (Brunacod, Docsed, Dequa-coff, Corbar linctus, Coughcod senior and junior) and a capsule (Flusin). Essential Medicines List status is not available in the data compiled for this report.
 

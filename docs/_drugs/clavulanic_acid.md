@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 130
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "Clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **Ureaplasma urethritis**, but this p
 | Predicted New Indication | Ureaplasma urethritis (rank 1, model score only); gonococcal urethritis (rank 2) is the best-supported alternative |
 | TxGNN Prediction Score | 0.9993 (Ureaplasma urethritis); 0.9993 (gonococcal urethritis) |
 | Evidence Level | L5 or L4 for Ureaplasma urethritis (no direct evidence); L3 for gonococcal urethritis |
-| South Africa Market Status | Marketed (valid licences: 119 of 141) |
-| Number of SAHPRA Registrations | 141 (valid: 119) |
+| South Africa Market Status | Marketed (valid licences: 119 of 141; 9 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 141 (valid: 119, of which 9 not confirmed by SAHPRA) |
 | Recommended Decision | Hold (Ureaplasma urethritis); gonococcal urethritis is a research question only |
 
 ---
@@ -106,7 +106,7 @@ Clavulanic acid is registered in South Africa. No approved indication text and n
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 35/20.1.2/0232 | Amoclan | tablet | Valid |
-| 27/20.2.8/0113 | Retrovir s (azt) | syrup | Valid |
+| 27/20.2.8/0113 | Retrovir s (azt) | syrup | Valid (status not confirmed by SAHPRA) |
 | 29/20.1.2/0540 | Clamentin s | suspension | Valid |
 | 29/20.1.2/0541 | Clamentin sf | suspension | Valid |
 | 29/20.1.2/0542 | Clamentin 375 | tablet | Valid |

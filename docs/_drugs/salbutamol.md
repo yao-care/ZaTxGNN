@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ However, the data compiled for this report contain **no clinical trials and no p
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 37 of 60) |
-| Number of SAHPRA Registrations | 60 (valid: 37) |
+| South Africa Market Status | Marketed (valid licences: 34 of 57; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 57 (valid: 34, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,10 +87,10 @@ The records carry no approved-indication text. Essential Medicines List status i
 | 30/10.2.1/0032 | Airomir Autohaler | inhaler | Valid |
 | 34/10.2.1/0354 | Asthavent ecohaler cfc-free 300dose | inhaler | Valid |
 | 36/10.2.1/0393 | Ventimax cfc free 200 dose | inhaler | Valid |
-| 41/10.2.1/0618 | Salbu-Neb 5 | nebuliser | Valid |
-| 41/10.2.1/0619 | Salbu-Neb 2,5 | nebuliser | Valid |
+| 41/10.2.1/0618 | Salbu-Neb 5 | nebuliser | Valid (status not confirmed by SAHPRA) |
+| 41/10.2.1/0619 | Salbu-Neb 2,5 | nebuliser | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 60 registrations (valid registrations first).
+Showing 5 of 57 registrations (valid registrations first).
 
 All of these are oral or inhaled products. No ophthalmic formulation appears among the registrations, so route compatibility with an eye condition is unresolved.
 
