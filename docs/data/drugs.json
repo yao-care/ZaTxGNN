@@ -438,7 +438,7 @@
       "name": "Bisoprolol",
       "evidence_level": "L5",
       "indication_count": 4,
-      "original_indication": "Important caveats: beta-blockers are not first-line treatment for hypertensive emergencies, and no data compiled for this report show a renal benefit. This prediction is essentially an extension of...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/bisoprolol/"
@@ -698,7 +698,7 @@
       "name": "Chlorobutanol",
       "evidence_level": "L5",
       "indication_count": 9,
-      "original_indication": "he TxGNN model predicts it may be effective for **erectile dysfunction**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is based on...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/chlorobutanol/"
@@ -808,7 +808,7 @@
       "name": "Clarithromycin",
       "evidence_level": "L5",
       "indication_count": 5,
-      "original_indication": "Clarithromycin is known to have immunomodulatory and anti-inflammatory effects. However, nothing in the data compiled for this report connects these effects to lowering serum viscosity or to...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/clarithromycin/"
@@ -1118,7 +1118,7 @@
       "name": "Dextropropoxyphene",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/dextropropoxyphene/"
@@ -1698,7 +1698,7 @@
       "name": "Ginseng",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be useful for **drug-induced osteoporosis**, with a very high model score.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ginseng/"
@@ -1998,7 +1998,7 @@
       "name": "L-Lysine",
       "evidence_level": "L5",
       "indication_count": 3,
-      "original_indication": "he TxGNN model predicts it may be effective for **gastroparesis**, but there are **0 clinical trials** and only **1 publication**, a preclinical stem-cell study that does not evaluate L-Lysine, so...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/l-lysine/"
@@ -2328,7 +2328,7 @@
       "name": "Methionine",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **acne (disease)**, but there are **0 clinical trials** and only **2 publications**, neither of which tests methionine as a treatment.",
+      "original_indication": "",
       "predicted_indication": "Predicted Indication",
       "txgnn_score": "",
       "url": "/drugs/methionine/"
@@ -2508,7 +2508,7 @@
       "name": "Mycophenolate Mofetil",
       "evidence_level": "L2",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **HIV infectious disease**, with **4 registered clinical trials** (none showing a demonstrated benefit) and **20 publications**, including one RCT,...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/mycophenolate-mofetil/"
@@ -2798,7 +2798,7 @@
       "name": "Perindopril",
       "evidence_level": "L5",
       "indication_count": 4,
-      "original_indication": "Other predictions in the list are weaker:",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/perindopril/"
@@ -3038,7 +3038,7 @@
       "name": "Procaine",
       "evidence_level": "L4",
       "indication_count": 10,
-      "original_indication": "he TxGNN model's top prediction is **methemoglobinemia**, but the available literature describes procaine as a **cause** of this condition rather than a treatment.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/procaine/"
@@ -3188,7 +3188,7 @@
       "name": "Rivaroxaban",
       "evidence_level": "L5",
       "indication_count": 4,
-      "original_indication": "he TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **no registered clinical trials** and only **4 publications** (reviews, a cohort study and a case report), none...",
+      "original_indication": "",
       "predicted_indication": "Predicted Indication",
       "txgnn_score": "",
       "url": "/drugs/rivaroxaban/"
@@ -3228,7 +3228,7 @@
       "name": "Sacubitril",
       "evidence_level": "L5",
       "indication_count": 5,
-      "original_indication": "he TxGNN model's top-ranked prediction is **brain small vessel disease 1 with or without ocular anomalies**, supported by **0 clinical trials** and **1 publication**, and that publication does not...",
+      "original_indication": "",
       "predicted_indication": "Brain small vessel disease 1 with or without ocular anomalies",
       "txgnn_score": "",
       "url": "/drugs/sacubitril/"
@@ -3278,7 +3278,7 @@
       "name": "Selenium",
       "evidence_level": "L4",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be useful for **sclerosing cholangitis**, but there are **0 registered clinical trials** and only **5 publications**, none of which tests selenium as a treatment.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/selenium/"
@@ -3338,7 +3338,7 @@
       "name": "Sodium Acetate",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but **no clinical trials and no supporting publications** exist for this prediction, and no plausible...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/sodium-acetate/"
@@ -3598,7 +3598,7 @@
       "name": "Threonine",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be useful for **gastroparesis**, but the prediction rests on the model score alone: **0 clinical trials** and **0 publications** were found to support it.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/threonine/"
@@ -3758,7 +3758,7 @@
       "name": "Tryptophan",
       "evidence_level": "L3",
       "indication_count": 8,
-      "original_indication": "he TxGNN model predicts it may be effective for **insomnia** (the best-supported of the top 10 predictions), with **0 registered clinical trials** and **20 publications** retrieved, of which only a...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/tryptophan/"
@@ -3768,7 +3768,7 @@
       "name": "Tyrosine",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model ranks **cauda equina syndrome** as its top prediction (score 0.9977), but there are **no clinical trials and no publications** supporting this prediction.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/tyrosine/"
@@ -3808,7 +3808,7 @@
       "name": "Valsartan",
       "evidence_level": "L4",
       "indication_count": 6,
-      "original_indication": "An animal study (PMID 11560862) found that AT1 receptor blockade prevented lethal malignant hypertension, which supports the drug class mechanistically. However, ARBs can reduce renal function in...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/valsartan/"
