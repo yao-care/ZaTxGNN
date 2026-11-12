@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 134
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Clobetasol: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report"
 monitor_inn: "Clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -83,6 +83,8 @@ The most relevant publications are listed below (cohort studies first, then case
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/13.4.1/0122 | Dovate | ointment | Valid |
@@ -93,7 +95,15 @@ The most relevant publications are listed below (cohort studies first, then case
 
 Showing 5 of 19 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status was not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-clobetasol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. Essential Medicines List (EML) status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 19 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-clobetasol-1 -->
 
 ## Safety Considerations
 
@@ -125,6 +135,18 @@ Cohort-level evidence, including a roughly 200-patient experience with response 
 | Crohn's colitis | L4 | Hold | Literature concerns cutaneous manifestations and adverse effects, not luminal disease. |
 | Candidiasis | L4 | Hold | Candidiasis appears as a side effect of topical steroids, so the direction is adverse. |
 | Cystic teratoma, spinal cord dermoid cyst, disease of orbital part of eye adnexa, dermoid cyst of ovary, polyp of vocal cord | L5 | Hold | No plausible mechanism or supporting evidence. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

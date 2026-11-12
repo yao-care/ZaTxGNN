@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Cefpodoxime"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cefpodoxime: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the SAHPRA licence records compiled for this report (ce…"
 ---
 
@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/20.1.1/0225 | Cepodem | tablet | Valid |
@@ -80,7 +82,15 @@ Currently no related literature available.
 
 Showing 5 of 26 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 No Essential Medicines List (EML) information was available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-cefpodoxime-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. No Essential Medicines List (EML) information was available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 26 registrations for this drug, 23 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-cefpodoxime-1 -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The prediction for osteoarthritis comes only from the TxGNN model. There are no 
 - Any preclinical or clinical studies that directly address osteoarthritis
 - The SAHPRA Professional Information (warnings, contraindications and approved indications), which is currently missing and blocks safety screening
 - Confirmation of route and formulation suitability, which has not yet been assessed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

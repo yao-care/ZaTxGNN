@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fusidic Acid: predicted new indication exposure keratitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -73,6 +73,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/20.1/0065 | Fucidin  Iv | infusion | Valid (status not confirmed by SAHPRA) |
@@ -83,13 +85,27 @@ Currently no related clinical trials registered.
 
 Showing 5 of 10 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-fusidic_acid-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are single-ingredient products and are currently valid. All are topical dosage forms (cream or ointment), and none is an ophthalmic preparation. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 10 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-fusidic_acid-1 -->
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
 
 No drug interaction records were found in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-fusidic_acid-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No drug interaction records were found in the data compiled for this report. Because the registered products are not ophthalmic formulations, safety in the eye cannot be assumed from the existing skin products." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 10 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-fusidic_acid-2 -->
 
 ## Conclusion and Next Steps
 
@@ -103,6 +119,27 @@ No drug interaction records were found in the data compiled for this report.
 - An ophthalmic formulation and route assessment
 - SAHPRA Professional Information warnings and contraindications, and mechanism of action data
 - A safety review for ocular use, including tolerability and antimicrobial resistance considerations
+
+<!-- review:begin za-lic-20261105-fusidic_acid-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "An ophthalmic formulation and route assessment, since current South African registrations are topical skin products only" Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 10 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-fusidic_acid-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are single-ingredient products and are currently valid. All are topical dosage forms (cream or ointment), and none i" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Because the registered products are not ophthalmic formulations, safety in the eye cannot be assumed from the existing skin products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "since current South African registrations are topical skin products only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

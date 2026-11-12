@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/7.1/0398 | Capace | tablet | Valid |
@@ -92,7 +94,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 31 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status is not recorded in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-captopril-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are currently valid. Essential Medicines List (EML) status is not recorded in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 31 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-captopril-1 -->
 
 ---
 
@@ -122,6 +132,19 @@ The prediction score is high (0.9928), but there are no clinical trials and no t
 - Detailed mechanism of action data
 - Review of SAHPRA-approved Professional Information for warnings and contraindications
 - Assessment of risks in this population, particularly hypotension and worsening kidney function
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

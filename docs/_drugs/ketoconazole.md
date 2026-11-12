@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 1
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -84,6 +84,8 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/20.2.2/0309 | Ketazol | tablet | Valid |
@@ -94,7 +96,15 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 
 Showing 5 of 10 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-ketoconazole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "One of the two registrations is currently valid and both are single-ingredient products. The only valid product is a topical cream. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 10 registrations for this drug, 6 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ketoconazole-1 -->
 
 ## Safety Considerations
 
@@ -116,6 +126,18 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 - Additional randomised trials of topical ketoconazole in acne, ideally including South African patients.
 - Detailed mechanism-of-action data and the SAHPRA Professional Information warnings, which were not available.
 - Confirmation of the approved indication wording for Ketazol cream, to judge whether this would be an off-label use.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "One of the two registrations is currently valid and both are single-ingredient products. The only valid product is a topical cream" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

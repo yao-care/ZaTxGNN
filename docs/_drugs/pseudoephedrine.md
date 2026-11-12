@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PSEUDOEPHEDRINE"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -87,6 +87,14 @@ No human randomised controlled trial data are included. For the allergic urticar
 
 No approved indication text is available in the data compiled for this report. The first 5 are shown. EML inclusion status is not available.
 
+<!-- review:begin za-lic-20261105-pseudoephedrine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 19 registrations are valid single-ingredient entries, but no approved indication text is available in the data compiled for this report. The first 5 are shown." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 129 registrations for this drug, 75 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-pseudoephedrine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/5.8/0533 | Drilix | syrup | Valid (status not confirmed by SAHPRA) |
@@ -96,6 +104,8 @@ No approved indication text is available in the data compiled for this report. T
 | 27/10.1/0490 | Coryx Cough And Cold | solution | Valid |
 
 Showing 5 of 129 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Other registered forms include syrups, capsules, sachets, a cream and a transdermal patch.
 
@@ -130,6 +140,19 @@ The top prediction is largely a broader label for existing approved uses, so it 
 - Approved indication text for the 19 SAHPRA registrations
 - Human controlled trial data for any indication genuinely beyond current approved uses
 - A cardiovascular and metabolic safety review given the knowledge-graph contraindications and the antidiabetic drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 19 registrations are valid single-ingredient entries, but n" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

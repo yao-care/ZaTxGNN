@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/21.8.2/0215 | Utrogestan | capsule | Valid |
@@ -92,6 +94,8 @@ Currently no related clinical trials registered.
 | A40/21.8.2/0771 | Utrogestan | capsule | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

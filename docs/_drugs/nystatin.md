@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/20.1.7/0288 | Candacide | suspension | Valid |
@@ -82,7 +84,15 @@ Currently no related literature available.
 
 Showing 5 of 20 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status could not be determined from the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-nystatin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 4 registrations are currently valid. Essential Medicines List status could not be determined from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 20 registrations for this drug, 13 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-nystatin-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +112,18 @@ The prediction has a high model score but no supporting evidence: the single lin
 - Mechanism of action data and a defined biological rationale for the orbital region
 - Review of the SAHPRA Professional Information for warnings and contraindications
 - Confirmation of a suitable route of administration for orbital use, as the registered forms are topical and vaginal/other
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 4 registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

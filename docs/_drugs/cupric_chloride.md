@@ -76,9 +76,13 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 49/24/0996 | Addaven | infusion | Valid |
+
+<!-- licenses:end -->
 
 Addaven is a valid, single-ingredient injectable registration. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 

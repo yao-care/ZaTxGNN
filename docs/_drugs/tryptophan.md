@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 463
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not stated"
 monitor_inn: "Tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -87,6 +87,14 @@ For restless legs syndrome, the supporting evidence consists of small 1986-1987 
 
 Tryptophan is registered only as a component of multi-ingredient infusion products. No approved indication text is available in the data compiled for this report. The Essential Medicines List (EML) status was not available.
 
+<!-- review:begin za-lic-20261105-tryptophan-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 9 registrations are valid single-entity registrations, and no approved indication text is available in the data compiled for this report. The Essential Medicines List (EML) status was not available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 16 registrations for this drug, 15 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tryptophan-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -97,7 +105,15 @@ Tryptophan is registered only as a component of multi-ingredient infusion produc
 
 Showing 5 of 16 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 **Note:** all registered forms are infusions. There is no registered oral tryptophan product in the data compiled for this report, and an oral formulation would be needed for insomnia. Route compatibility has not been assessed.
+
+<!-- review:begin za-lic-20261105-tryptophan-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are not listed: Adco-ipratropium (Reg. No. 33/10.2.1/0271), Numeta G16E, Nutriflex Omega Specialized and Nutriflex lipid special 625ml." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 16 registrations for this drug, 15 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tryptophan-2 -->
 
 ## Safety Considerations
 
@@ -121,6 +137,20 @@ Insomnia has a plausible mechanism (serotonin and melatonin precursor) and a few
 - An oral pharmaceutical-grade formulation, since current registrations are infusions only
 - A DDI screening and monitoring plan, particularly for patients on SSRIs, MAOIs and other serotonergic drugs
 - Review of the knowledge-graph contraindications (e.g. anxiety, schizophrenia, autoimmune disease, phenylketonuria) for target populations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 9 registrations are valid single-entity registrations, and n" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Four further registrations are not listed: Adco-ipratropium (Reg. No. 33/10.2.1/0271), Numeta G16E, Nutriflex Omega Specialized and Nutrifle" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

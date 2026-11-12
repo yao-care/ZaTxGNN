@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -70,6 +70,12 @@ Once TxGNN predictions are generated and DrugBank data is retrieved, this sectio
 
 > **Note:** Fexofenadine-containing products (e.g., branded antihistamines) may exist in the South African market under names not yet captured in this Evidence Pack. SAHPRA registration data should be verified directly via the SAHPRA online register before drawing conclusions about market availability.
 
+<!-- review:begin za-lic-20261105-fexofenadine_hydrochloride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No SAHPRA registrations are recorded for Fexofenadine Hydrochloride in the current Evidence Pack, and market status is listed as not registered." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 41 registrations for this drug, 39 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-fexofenadine_hydrochloride-1 -->
+
 ---
 
 ## Safety Considerations
@@ -97,6 +103,19 @@ The Evidence Pack for Fexofenadine Hydrochloride is critically incomplete — no
 ---
 
 *⚠️ This report is for research purposes only and does not constitute medical advice. Any drug repurposing candidate requires clinical validation before therapeutic application.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "No SAHPRA registrations are recorded for Fexofenadine Hydrochloride in the current Evidence Pack, and market status is listed as not registe" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/5.7.1/0446 | Telfast | tablet | Valid |
@@ -88,6 +90,8 @@ Currently no related literature available.
 | 41/5.7.1/0319 | Fastway | tablet | Valid |
 
 Showing 5 of 41 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 The drug is available as an oral tablet. A single valid single-ingredient registration is recorded.
 

@@ -83,6 +83,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 52/16.4/0125 | Orothroat Plus Honey And Lemon Lozenges | Loz | Valid |
@@ -92,6 +94,8 @@ Currently no related literature available.
 | 45/16.4/0620 | Strepsils Warm Ginger | lozenge | Valid |
 
 Showing 5 of 32 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

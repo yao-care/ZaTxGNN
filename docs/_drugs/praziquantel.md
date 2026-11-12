@@ -75,6 +75,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Praziquantel
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 56/12/1162 | Quantimak 600 | Fct | Valid |
@@ -84,6 +86,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Praziquantel
 | S/12/0154 | Cysticide | tablet | Cancelled |
 
 Showing 5 of 6 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Caffeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -81,6 +81,14 @@ Currently no related clinical trials registered.
 
 The list may be partial. No approved indication text is recorded in the local data. The Essential Medicines List status is not available in the data compiled for this report. Up to five main registrations:
 
+<!-- review:begin za-lic-20261105-caffeine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Twenty valid registrations are recorded, all for single-ingredient products. The list may be partial." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 205 registrations for this drug, 138 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-caffeine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/5.8/0782 | Sinuend | tablet | Valid |
@@ -90,6 +98,8 @@ The list may be partial. No approved indication text is recorded in the local da
 | 27/2.8/0231 | Vacudol Forte | tablet | Valid |
 
 Showing 5 of 205 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -109,6 +119,19 @@ No trial or publication directly studies caffeine in a nasal cavity disease, so 
 - Studies that directly assess caffeine in a defined nasal cavity condition
 - Mechanism of action data and the approved indication text from the SAHPRA Professional Information
 - Review of the SAHPRA package insert warnings and contraindications, and a safety assessment for people with cardiovascular conditions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Twenty valid registrations are recorded, all for single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,6 +86,8 @@ Currently no related clinical trials registered for feline acquired immunodefici
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 46/20.2.8/0793 | Edurant | tablet | Valid |
@@ -96,7 +98,15 @@ Currently no related clinical trials registered for feline acquired immunodefici
 
 Showing 5 of 10 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-rilpivirine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 10 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-rilpivirine-1 -->
 
 ---
 
@@ -128,6 +138,19 @@ The only evidence for feline AIDS is a single in vitro study, with no animal or 
 - Detailed mechanism of action data (for example from DrugBank)
 - For any veterinary pursuit: in vivo efficacy and safety data in cats and a veterinary regulatory pathway
 - For human relevance: focus on the existing HIV indication, such as long-acting cabotegravir/rilpivirine, pregnancy and paediatric data, rather than on this prediction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

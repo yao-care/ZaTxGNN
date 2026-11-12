@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dextropropoxyphene: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the SAHPRA registration data"
 monitor_inn: "DEXTROPROPOXYPHENE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -74,6 +74,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | B0586 (ACT 101) | Doloxene Plain | capsule | Valid (status not confirmed by SAHPRA) |
@@ -84,7 +86,15 @@ Currently no related literature available.
 
 Showing 5 of 12 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) inclusion status is not available in the compiled data.
+
+<!-- review:begin za-lic-20261105-dextropropoxyphene-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status is not available in the compiled data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 12 registrations for this drug, 8 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-dextropropoxyphene-1 -->
 
 ## Safety Considerations
 
@@ -114,6 +124,19 @@ The prediction has no clinical, literature or mechanistic support (Evidence Leve
 - Mechanism of action data (for example from DrugBank) and a plausible mechanistic link to NSIAD
 - Preclinical or in vitro evidence of any effect on the V2 receptor or its downstream signalling
 - A cardiac safety assessment (QT/arrhythmia risk) before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

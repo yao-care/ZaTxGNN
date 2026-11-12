@@ -80,6 +80,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | G2846 | Lanoxin | tablet | Valid |
@@ -87,6 +89,8 @@ Currently no related clinical trials registered.
 | J/6.3/55 | Purgoxin | tablet | Valid |
 | G2847 | Lanoxin paediatric/geriatric | syrup | Valid |
 | G2848 | Lanoxin 2ml | injection | Valid |
+
+<!-- licenses:end -->
 
 The data compiled for this report carry no Essential Medicines List (EML) information for this product.
 

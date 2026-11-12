@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Zinc gluconate"
 predicted_indications: ["anemia of prematurity", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "radiation or chemically induced disorder", "disease by subcellular system affected", "iatrogenic disease", "regional odontodysplasia"]
 description: "Zinc Gluconate: predicted new indication Anemia of prematurity (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,12 +74,22 @@ Currently no related literature available for anemia of prematurity.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 52/24/0031 | Nutryelt | infusion | Valid |
 | G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status could not be determined from the data compiled.
+
+<!-- review:begin za-lic-20261105-zinc_gluconate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient entries. Essential Medicines List (EML) status could not be determined from the data compiled." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 2 registrations for this drug, 2 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-zinc_gluconate-1 -->
 
 Note that the listing of Spiriva Respimat (an inhaler product) under zinc gluconate looks inconsistent and should be verified against the SAHPRA register before any reliance is placed on it.
 
@@ -118,6 +128,19 @@ The prediction for anemia of prematurity rests on a model score alone, with no r
 - Verify the SAHPRA registration data, in particular the Spiriva entry
 - Define the route and formulation required for neonatal use, as route compatibility has not been assessed
 - Establish a safety monitoring plan (zinc and copper status, haemoglobin) before any clinical evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Misoprostol: predicted new indication Amenorrhea (evidence level L5). Approved use: Not available"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -83,6 +83,14 @@ None of these papers tests misoprostol as a treatment for amenorrhea. They are l
 
 The data compiled for this report do not include indication text, manufacturer details or Essential Medicines List (EML) status.
 
+<!-- review:begin za-lic-20261105-misoprostol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient entries. The data compiled for this report do not include indication text, manufacturer details or Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 7 registrations for this drug, 6 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-misoprostol-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | S/11.10/392 | Misoprostol pfizer (cytotec) | tablet | Valid |
@@ -92,6 +100,8 @@ The data compiled for this report do not include indication text, manufacturer d
 | 55/21.12/0760 | Acegyne | tablet | Valid |
 
 Showing 5 of 7 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -128,6 +138,19 @@ The 0.9964 TxGNN score has no direct clinical support. There are no registered t
 - Clarification of whether the registered Arthrotec products (which contain a second active ingredient) are appropriate for any investigation, or whether a single-ingredient misoprostol product would be needed
 
 *Note on the second prediction (atypical coarctation of aorta, score 0.9930):* there is no clinical or literature evidence (L5), and the safety signal runs in the opposite direction. The decision for this prediction is also **Hold**.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

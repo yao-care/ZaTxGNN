@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 379
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Potassium: predicted new indication Hypertensive disorder (evidence level L1). Approved use: Not stated in the available SAHPRA registration data"
 monitor_inn: "Potassium"
 predicted_indications: ["hypertensive disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension"]
@@ -97,9 +97,19 @@ No SANCTR or PACTR identifiers were found in the data compiled for this report.
 
 Essential Medicines List status could not be determined from the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-potassium-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "None of the four registrations has an approved indication text in the available data. Essential Medicines List status could not be determined from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 1 registration for this drug, 1 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-potassium-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
+
+<!-- licenses:end -->
 
 All registered forms are injectable or parenteral nutrition products. Oral potassium products, which would be the relevant route for hypertension, are not among the registrations in the compiled data.
 
@@ -131,6 +141,19 @@ Meta-analyses of randomised trials consistently show that higher potassium intak
 - A defined oral formulation and dose, since the registered products are parenteral
 - A monitoring plan for serum potassium and renal function, particularly for patients on RAAS inhibitors or potassium-sparing diuretics
 - An adequately powered randomised trial of potassium in hypertension, ideally including South African populations, with registration on SANCTR or PACTR
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "None of the four registrations has an approved indication text in the available data" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -102,6 +102,8 @@ OCD is closely related to anxiety disorders. Guideline-level and network meta-an
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 35/1.2/0253 | Clomidep | tablet | Valid |
@@ -111,6 +113,8 @@ OCD is closely related to anxiety disorders. Guideline-level and network meta-an
 | Y/1.2/268 | Equinorm | tablet | Valid |
 
 Showing 5 of 20 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 The data compiled for this report do not show whether clomipramine is on the Essential Medicines List.
 

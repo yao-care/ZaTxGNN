@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,6 +75,20 @@ Currently no related clinical trials registered for acute contagious conjunctivi
 
 Approved indication text and manufacturer details were not available. Essential Medicines List (EML) status was not confirmed from the data compiled.
 
+<!-- review:begin za-lic-20261105-sulfamethoxazole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 7 registrations are valid single-ingredient products. Approved indication text and manufacturer details were not available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 75 registrations for this drug, 54 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-sulfamethoxazole-1 -->
+
+<!-- review:begin za-lic-20261105-sulfamethoxazole-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Two further registrations are not shown: Cocc.Co.Syrup (Vern.Pp), G 894 (OM), a syrup, and Cotrizid, 52/20.2/0208, a tablet." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 75 registrations for this drug, 54 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-sulfamethoxazole-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/20.2/0077 | Xeroprim | tablet | Valid |
@@ -84,6 +98,8 @@ Approved indication text and manufacturer details were not available. Essential 
 | 28/20.2/0416 | Novatrim | tablet | Valid |
 
 Showing 5 of 75 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 No ophthalmic (eye drop or ointment) formulation is registered. The available forms are oral, injectable, suspension and syrup. Route compatibility with an ocular indication therefore has not been established.
 
@@ -117,6 +133,20 @@ The prediction score is high, but conjunctivitis is already a labeled indication
 - Clinical efficacy data for sulfamethoxazole in acute bacterial conjunctivitis, and local susceptibility data in South Africa
 - Assessment of route and formulation suitability, given that no ophthalmic product is registered
 - A comparison with existing topical ophthalmic antibiotics, and a hypersensitivity and haematological safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 7 registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Two further registrations are not shown: Cocc.Co.Syrup (Vern.Pp), G 894 (OM), a syrup, and Cotrizid, 52/20.2/0208, a tablet" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

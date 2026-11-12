@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Norfloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Norfloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Urinary tract infection, typhoid fever and other bacterial infections"
 ---
 
@@ -76,6 +76,8 @@ No label-based warnings or contraindications were available in the data compiled
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/20.1.1/0517 | Utin-400 | tablet | Valid |
@@ -86,7 +88,15 @@ No label-based warnings or contraindications were available in the data compiled
 
 Showing 5 of 6 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status was not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-norfloxacin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both are single-ingredient, valid registrations for oral use. Essential Medicines List (EML) status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 6 registrations for this drug, 4 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-norfloxacin-1 -->
 
 ## Conclusion and Next Steps
 
@@ -119,6 +129,19 @@ Nine further predictions were reviewed. None has a supported mechanism or direct
 | 10 | Septicaemic plague | 0.9937 | L5 | Hold | See below |
 
 **Septicaemic plague** is the only biologically plausible candidate, because *Yersinia pestis* is susceptible to fluoroquinolones. The two retrieved papers (PMIDs 10987101, 11057367) are animal and in vitro studies, one on plague prophylaxis combined with vaccine and one on cholera resistance. Neither studies norfloxacin as a treatment for septicaemic plague, so the evidence level is L5 and not higher. Norfloxacin's limited systemic exposure, as it is used mainly for urinary and intestinal infections, makes it a poor fit for bacteraemic disease. Better-established agents are available.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both are single-ingredient, valid registrations for oral use" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

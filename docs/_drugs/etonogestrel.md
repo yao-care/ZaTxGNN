@@ -73,10 +73,14 @@ The only publication linked to this prediction is not relevant to etonogestrel o
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 34/18.8/0448 | Implanon nxt | Imp | Valid |
 | 38/34/0171 | Nuvaring | Vri | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

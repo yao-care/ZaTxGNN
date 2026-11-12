@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,14 @@ Currently no related literature available.
 
 The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was also not available.
 
+<!-- review:begin za-lic-20261105-paroxetine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Paroxetine has 5 valid single-ingredient registrations in South Africa. The approved indication text was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 28 registrations for this drug, 24 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-paroxetine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/1.2/0096 | Adco-paroxetine | tablet | Valid |
@@ -83,6 +91,8 @@ The approved indication text was not available in the data compiled for this rep
 | 37/1.2/0665 | Sedarin | tablet | Valid |
 
 Showing 5 of 28 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -107,6 +117,19 @@ The prediction has only a model score behind it (evidence level L5). There are n
 - Preclinical or mechanistic evidence, for example in *KAT6B* disease models
 - The SAHPRA package insert (warnings, contraindications, approved indications) for safety screening
 - Review of the knowledge-graph contraindications and the major drug interactions for the intended patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Paroxetine has 5 valid single-ingredient registrations in South Africa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

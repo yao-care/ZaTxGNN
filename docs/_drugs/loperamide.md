@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Diarrhoeal disease, dysentery"
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "Angelucci syndrome"]
@@ -80,6 +80,14 @@ For context, literature found for other predicted indications consists of safety
 
 Approved indication text and manufacturer details were not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-loperamide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Loperamide is registered in South Africa as a single-ingredient product under 4 valid registrations. Approved indication text and manufacturer details were not available in the data compiled for this report." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 22 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-loperamide-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/11.9/0140 | Dis-chem anti-diarrhoeal | tablet | Valid |
@@ -90,7 +98,15 @@ Approved indication text and manufacturer details were not available in the data
 
 Showing 5 of 22 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 No ophthalmic formulation is registered.
+
+<!-- review:begin za-lic-20261105-loperamide-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No ophthalmic formulation is registered; the available forms are oral tablets and syrup." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 22 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-loperamide-2 -->
 
 ## Safety Considerations
 
@@ -112,6 +128,20 @@ The prediction is supported only by a model score, with no trials, no literature
 - SAHPRA Professional Information, including warnings, contraindications and approved indications
 - A credible biological rationale for ocular use, followed by preclinical evidence, before any clinical consideration
 - An ocular-route formulation assessment, since only oral forms are registered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Loperamide is registered in South Africa as a single-ingredient product under 4 valid registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "the available forms are oral tablets and syrup" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

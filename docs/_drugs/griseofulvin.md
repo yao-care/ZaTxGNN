@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | K/20.1.7/0718 | Microcidal | tablet | Valid (status not confirmed by SAHPRA) |
@@ -88,6 +90,8 @@ Currently no related literature available.
 | A0371 | Fulcin 125 mg | Not recorded | Valid |
 
 Showing 5 of 6 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 

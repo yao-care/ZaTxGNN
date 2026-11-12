@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "METOCLOPRAMIDE"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -107,6 +107,14 @@ Most of the literature is older review material on motility and dyspepsia. None 
 
 No approved indication text or manufacturer details are available in the data compiled for this report. Essential Medicines List (EML) status was not available in the compiled data and should be confirmed.
 
+<!-- review:begin za-lic-20261105-metoclopramide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four registrations are single-ingredient products with valid status. No approved indication text or manufacturer details are available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 39 registrations for this drug, 24 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-metoclopramide-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/5.7.2/0210 | Merck-Metoclopramide | tablet | Valid |
@@ -116,6 +124,8 @@ No approved indication text or manufacturer details are available in the data co
 | M/5.7.2/141 | Setin | tablet | Valid |
 
 Showing 5 of 39 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Available routes are injectable, oral (tablet) and oral liquid (syrup).
 
@@ -159,6 +169,19 @@ Please also refer to the SAHPRA-approved Professional Information (PI) for full 
 - Controlled clinical evidence of ulcer healing or recurrence outcomes, not only endoscopic visualisation
 - Clarification of the contraindication status in active peptic ulcer disease and suspected perforation
 - A defined safety plan for neurological adverse effects (extrapyramidal reactions, tardive dyskinesia) and for the major interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four registrations are single-ingredient products with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

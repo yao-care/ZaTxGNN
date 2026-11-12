@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Histidine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -71,6 +71,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -81,7 +83,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 52 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not recorded in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-histidine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Showing 5 of 9 valid registrations. Essential Medicines List status is not recorded in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 52 registrations for this drug, 32 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-histidine-1 -->
 
 ## Safety Considerations
 
@@ -99,6 +109,19 @@ The prediction score is high, but no trial or publication tests histidine in gas
 - Studies directly examining histidine in gastroparesis
 - SAHPRA Professional Information warnings and contraindications, particularly for patients with renal, cardiac or calcium-related conditions
 - Confirmation of the approved indications and formulation routes for the registered products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Showing 5 of 9 valid registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

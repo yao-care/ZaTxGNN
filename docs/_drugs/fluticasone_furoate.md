@@ -71,6 +71,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/21.5.1/0967 | Genemist | spray | Valid |
@@ -80,6 +82,8 @@ Currently no related clinical trials registered.
 | 48/21.5.1/0250 | Relvar ellipta 184/22ug 30 dose | inhaler | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

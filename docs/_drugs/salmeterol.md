@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/10.2.1/0350 | Serevent accuhaler 60dose | Acc | Valid |
@@ -90,7 +92,15 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 
 Showing 5 of 44 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-salmeterol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "One further licence (Med-lemon flu & congestion hot medication, sachet, Reg. No. 27/5.8/0430) is cancelled. Essential Medicines List status is not available in the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 44 registrations for this drug, 39 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-salmeterol-1 -->
 
 ## Safety Considerations
 
@@ -113,6 +123,18 @@ No study directly addresses respiratory malformation, so the evidence level is L
 - Studies directly in patients with respiratory malformation, such as case series or registry data
 - The SAHPRA Professional Information, to complete warnings, contraindications and approved-use details
 - A review of dosage-form and route suitability for the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "One further licence (Med-lemon flu & congestion hot medication, sachet, Reg. No. 27/5.8/0430) is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

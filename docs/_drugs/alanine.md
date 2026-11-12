@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Alanine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not stated in the registration data compiled for this report (all app…"
 monitor_inn: "Alanine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -77,6 +77,26 @@ Currently no related clinical trials registered.
 
 No approved indication text is available for any of them, and no Essential Medicines List (EML) status could be determined from the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-alanine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All nine registrations are valid single-ingredient registrations. No approved indication text is available for any of them, and no Essential Medicines List (EML) status could be determined from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 55 registrations for this drug, 36 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-alanine-1 -->
+
+<!-- review:begin za-lic-20261105-alanine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Four more registrations are not listed above: Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036), Nutriflex Omega Specialized (49/25/0065) and Nutriflex lipid special 625ml (41/25/0759)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 55 registrations for this drug, 36 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-alanine-2 -->
+
+<!-- review:begin za-lic-20261105-alanine-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The Adco-ipratropium entry looks inconsistent with an alanine-containing product. Its registration should be verified." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 55 registrations for this drug, 36 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-alanine-3 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/23/0210 | Dipeptiven 100ml | infusion | Valid |
@@ -86,6 +106,8 @@ No approved indication text is available for any of them, and no Essential Medic
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
 
 Showing 5 of 55 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -107,6 +129,21 @@ The prediction rests on a TxGNN model (deep learning) score alone, which may ref
 - Approved indication text for the registered products
 - Preclinical or early clinical evidence of alanine in gastroparesis
 - Confirmation of the route and formulation: all registrations are parenteral combination nutrition products, and no suitable single-agent product is evident
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All nine registrations are valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Four more registrations are not listed above: Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036), Nutriflex Omega Specialized" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The Adco-ipratropium entry looks inconsistent with an alanine-containing product. Its registration should be verified" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

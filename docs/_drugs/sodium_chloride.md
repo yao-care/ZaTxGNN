@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/24/0537 | Euromed Sodium Chloride 0.9 % Irrigation Solution | solution | Valid (status not confirmed by SAHPRA) |
@@ -91,6 +93,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 | 36/20.1.1/0259 | Sabax cefazolin powder for injection | injection | Valid |
 
 Showing 15 of 251 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

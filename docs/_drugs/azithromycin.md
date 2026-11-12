@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -107,6 +107,8 @@ No publications are available for hyperamylasemia. The most relevant publication
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/20.1.1/0045 | Zithromax | tablet | Valid |
@@ -117,7 +119,15 @@ No publications are available for hyperamylasemia. The most relevant publication
 
 Showing 5 of 42 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-azithromycin-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 42 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-azithromycin-2 -->
 
 ## Safety Considerations
 
@@ -137,12 +147,32 @@ Please refer to the SAHPRA-approved Professional Information (PI) for label warn
 **Rationale:**
 The top-ranked prediction, hyperamylasemia, has no trials, no literature and no plausible mechanism, so it is a model prediction only (L5).
 
+<!-- review:begin za-lic-20261031-azithromycin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The top-ranked prediction, hyperamylasemia, has no trials, no literature and no plausible mechanism, so it is a model prediction only (L5). The highest-evidence direction, sickle cell disease (L3), is supported only by two withdrawn trials with zero enrollment." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-10-31. The SAHPRA data list 42 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261031-azithromycin-1 -->
+
 **To proceed, the following is needed:**
 - Retrieve the SAHPRA Professional Information to confirm approved indications, warnings and contraindications (blocking gap for safety screening)
 - Obtain mechanism of action data from DrugBank
 - For sickle cell disease: a new, adequately powered trial of azithromycin for acute chest syndrome or lung function, as both existing trials were withdrawn
 - For monoclonal gammopathy: confirmatory preclinical work before any clinical consideration
 - Review QT-prolongation risk and interacting drugs before any new use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The highest-evidence direction, sickle cell disease (L3), is supported only by two withdrawn trials with zero enrollment" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

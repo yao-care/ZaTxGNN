@@ -72,10 +72,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Benserazide,
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/5.4.1/0194 | Madopar hbs 100mg/25mg | capsule | Valid |
 | P/5.4.1/150 | Madopar 200mg/50mg | tablet | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

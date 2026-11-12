@@ -86,9 +86,13 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | E0512 | Anusol Pain Relief Suppositories | suppository | Valid |
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
 

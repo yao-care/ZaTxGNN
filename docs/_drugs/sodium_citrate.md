@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,6 +92,20 @@ These items do not demonstrate efficacy of sodium citrate for any predicted indi
 
 Approved indication text and manufacturer are not available in the data compiled for this report, and Essential Medicines List status was not available either. Most products are syrups, which suggests sodium citrate is mainly marketed as an ingredient in cough and cold preparations.
 
+<!-- review:begin za-lic-20261105-sodium_citrate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 14 registrations are valid single-ingredient entries. Approved indication text and manufacturer are not available in the data compiled for this report, and Essential Medicines List status was not available either." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 101 registrations for this drug, 70 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-sodium_citrate-1 -->
+
+<!-- review:begin za-lic-20261105-sodium_citrate-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The remaining nine registrations include further cough syrups (Tussitot cough, Alcophyllex, Diatussin, Actophlem, Coughcod senior and junior, Mucosolv expectorant), Astrapain forte tablets, and Sabax balanced ophthalmic salt solution." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 101 registrations for this drug, 70 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-sodium_citrate-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/10.1/0013 | Amcough | solution | Valid |
@@ -101,6 +115,8 @@ Approved indication text and manufacturer are not available in the data compiled
 | G/10.1/1112 | Broncleer With Codeine Cough Syrup | syrup | Valid |
 
 Showing 5 of 101 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -140,6 +156,20 @@ The prediction for papillary conjunctivitis rests only on a score from the TxGNN
 - Approved indication text for each registration, to clarify which products are single-agent and which are combinations.
 - A mechanistic rationale and preclinical or clinical evidence for the ocular indication, or a review of whether a gastric or upper airway indication would be a better-supported candidate.
 - Assessment of route compatibility, since an ophthalmic indication would need an appropriate formulation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 14 registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining nine registrations include further cough syrups (Tussitot cough, Alcophyllex, Diatussin, Actophlem, Coughcod senior and junior" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

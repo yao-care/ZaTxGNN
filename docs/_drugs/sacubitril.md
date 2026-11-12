@@ -114,6 +114,8 @@ A further 5 publications on this prediction were retrieved but are not listed he
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 50/4.6/1016 | Entresto | tablet | Valid (status not confirmed by SAHPRA) |
@@ -123,6 +125,8 @@ A further 5 publications on this prediction were retrieved but are not listed he
 | 50/7.6/1020 | Vymada 100 Mg | tablet | Valid |
 
 Showing 5 of 33 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Status: valid, single-ingredient product. No information on Essential Medicines List (EML) inclusion was available in the data compiled for this report.
 

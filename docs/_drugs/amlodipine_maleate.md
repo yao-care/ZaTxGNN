@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -42,6 +42,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 Amlodipine maleate is a specific salt form of the dihydropyridine calcium channel blocker amlodipine, used in the management of hypertension and angina pectoris in other markets. No TxGNN repurposing predictions were generated for this compound in the current Evidence Pack. This report therefore functions as an initial data gap assessment rather than a full repurposing evaluation.
 
+<!-- review:begin za-lic-20261105-amlodipine_maleate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No TxGNN repurposing predictions were generated for this compound in the current Evidence Pack, and the maleate salt formulation holds no SAHPRA registrations on record. This report therefore functions as an initial data gap assessment rather than a full repurposing evaluation." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 326 registrations for this drug, 301 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-amlodipine_maleate-1 -->
+
 ---
 
 ## Quick Overview
@@ -72,6 +78,8 @@ Until the DrugBank ID is resolved and original indication data is populated, the
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/7.1/0480 | Norcard | tablet | Valid |
@@ -82,7 +90,15 @@ Until the DrugBank ID is resolved and original indication data is populated, the
 
 Showing 5 of 326 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 > Amlodipine besylate products are widely available in South Africa. If coverage of the active moiety is intended, a separate regulatory search using the maleate and besylate salt forms together is recommended.
+
+<!-- review:begin za-lic-20261105-amlodipine_maleate-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No SAHPRA registrations were found for **amlodipine maleate** specifically." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 326 registrations for this drug, 301 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-amlodipine_maleate-2 -->
 
 ---
 
@@ -107,6 +123,20 @@ No TxGNN predictions were generated, and three blocking data gaps — original i
 - **Clarify the evaluation scope** — determine whether the target is the maleate salt specifically, or the amlodipine active moiety (covering besylate and all other registered salts)
 - **Re-run the TxGNN prediction pipeline** once DrugBank ID and indication data are available
 - **Obtain SAHPRA PI** for amlodipine-containing products to address the blocking safety data gap (DG001)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "and the maleate salt formulation holds no SAHPRA registrations on record" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "No SAHPRA registrations were found for **amlodipine maleate** specifically" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Fenofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, hyperlipidaemia, familial hyperlipidaemia…"
 ---
 
@@ -87,6 +87,8 @@ None of these studies directly addresses CETP deficiency as a disease.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/7.5/0494 | Lipanthyl | capsule | Valid |
@@ -97,7 +99,15 @@ None of these studies directly addresses CETP deficiency as a disease.
 
 Showing 5 of 13 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-fenofibrate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Note: the data compiled for this report records one valid registration. The product name suggests it may contain more than one active ingredient, so this registration should not be taken as describing how single-ingredient fenofibrate is approved. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 13 registrations for this drug, 13 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-fenofibrate-1 -->
 
 ---
 
@@ -133,6 +143,19 @@ For full warnings and contraindications, refer to the SAHPRA-approved Profession
 - Human data (case series or trials) in patients with CETP deficiency
 - Mechanism of action data for fenofibrate
 - SAHPRA Professional Information warnings and contraindications for the single-ingredient product, as the only local registration appears to be for a product that may contain more than one active ingredient
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Note: the data compiled for this report records one valid registration. The product name suggests it may contain more than one active ingred" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

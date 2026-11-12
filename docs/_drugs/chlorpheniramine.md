@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,6 +80,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/5.7.1/0166 | Rhineton | tablet | Valid |
@@ -90,7 +92,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 98 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The approved indication text is not recorded in the local data.
+
+<!-- review:begin za-lic-20261105-chlorpheniramine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "These are 5 of 11 registrations, all currently valid. The approved indication text is not recorded in the local data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 98 registrations for this drug, 64 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-chlorpheniramine-1 -->
 
 ## Safety Considerations
 
@@ -111,6 +121,19 @@ The prediction score is high (0.9953), but no clinical trial or patient study di
 - Mechanism of action data
 - SAHPRA Professional Information warnings and contraindications for the registered products
 - Review of the interaction profile, especially additive anticholinergic and sedative effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "These are 5 of 11 registrations, all currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

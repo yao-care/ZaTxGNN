@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ginseng"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "diabetes mellitus type 2 associated cataract"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ginseng: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the registration records"
 ---
 
@@ -68,12 +68,22 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin za-lic-20261105-ginseng-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are currently valid and are recorded as single-ingredient products. The second record is a branded inhaler that is not normally associated with ginseng. The ingredient mapping for these two records should be verified before relying on them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 2 registrations for this drug, 1 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ginseng-1 -->
+
 ## South Africa Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | T1165 | Activex 40 Plus Capsules | capsule | Cancelled |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -98,6 +108,19 @@ The prediction for drug-induced osteoporosis has no supporting trials or publica
 - A review of interaction risk, particularly with glucose-lowering medicines and aspirin, in the likely patient population
 
 **Note on other predictions for this drug:** Among the other predicted indications, **diabetic retinopathy** has the most supporting literature (20 records). These are mostly preclinical and review studies, plus one 2026 randomised, double-blind clinical trial of Korean red ginseng (PMID 42395017). This trial is not specific to severe non-proliferative disease. It is a more promising research question than osteoporosis, though still without registered trials or confirmed clinical benefit.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are currently valid and are recorded as single-ingredient products. The second record is a branded inhaler that is not no" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -83,6 +83,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Rationale:**
 The TxGNN model did not produce any repurposing predictions for Cupric Chloride Dihydrate — making a meaningful evaluation impossible at this stage.
 
+<!-- review:begin za-lic-20261105-cupric_chloride_dihydrate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "**Rationale:** / The TxGNN model did not produce any repurposing predictions for Cupric Chloride Dihydrate, and no SAHPRA-registered products, original indications, safety warnings, or supporting evidence were found — making a meaningful evaluation impossible at this stage." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 1 registration for this drug, 1 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-cupric_chloride_dihydrate-1 -->
+
 **To proceed, the following is needed:**
 
 - Confirm the DrugBank ID for Cupric Chloride Dihydrate and retrieve full mechanism of action (MOA) data via the DrugBank API
@@ -93,6 +99,19 @@ The TxGNN model did not produce any repurposing predictions for Cupric Chloride 
 - Conduct a targeted literature search to determine whether any therapeutic or repurposing applications have been investigated
 
 > ⚠️ **Research use only.** This assessment is based solely on computational model outputs and does not constitute medical advice. Any repurposing candidate requires prospective clinical validation before use.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "and no SAHPRA-registered products, original indications, safety warnings, or supporting evidence were found" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

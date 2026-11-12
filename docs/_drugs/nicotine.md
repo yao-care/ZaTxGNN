@@ -74,6 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nicotine, so
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/34/0392 | Quit 1/2/3/4 | inhaler | Valid |
@@ -83,6 +85,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nicotine, so
 | 45/32.16/0954 | Nicorette Transdermal Patch 25Mg | patch | Valid |
 
 Showing 5 of 30 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

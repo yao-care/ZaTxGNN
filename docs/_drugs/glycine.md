@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Glycine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Glycine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -81,6 +81,14 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 
 Main registrations:
 
+<!-- review:begin za-lic-20261105-glycine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "SAHPRA records show 11 valid single-ingredient registrations; none carry approved-indication text in the local data. Main registrations:" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 59 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-glycine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -90,6 +98,8 @@ Main registrations:
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
 Showing 5 of 59 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -107,6 +117,19 @@ The prediction has a high model score but no study directly examines glycine in 
 - Retrieval of the SAHPRA Professional Information to review warnings and contraindications
 - Preclinical or clinical studies that test glycine directly in a nasal condition
 - Confirmation of a suitable route and formulation (all current registrations are for infusion, powder or vial forms, not nasal use)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "SAHPRA records show 11 valid single-ingredient registrations; none carry approved-indication text in the local data" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

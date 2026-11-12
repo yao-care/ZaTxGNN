@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
 description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,6 +88,14 @@ None of the retrieved publications tests ceftriaxone as a treatment for hyperamy
 
 Ceftriaxone is marketed in South Africa as single-ingredient injectable products. The approved indication text is not recorded in the local data. Essential Medicines List status is not available from the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-ceftriaxone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Five registrations are currently valid and one is cancelled. The approved indication text is not recorded in the local data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 98 registrations for this drug, 67 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ceftriaxone-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 34/20.1.1/0318 | Oframax  250 | injection | Valid |
@@ -97,6 +105,8 @@ Ceftriaxone is marketed in South Africa as single-ingredient injectable products
 | 34/20.1.1/0323 | Triaphin vial 15ml | injection | Valid |
 
 Showing 5 of 98 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -122,6 +132,18 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 - Mechanism of action data for ceftriaxone and a pharmacological rationale for any effect on amylase.
 - Review of the SAHPRA Professional Information for warnings and contraindications.
 - Evidence from studies that directly examine ceftriaxone in hyperamylasemia, including whether the signal reflects drug-induced biliary or pancreatic effects.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Five registrations are currently valid and one is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

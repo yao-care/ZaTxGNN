@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,6 +101,20 @@ Other indications:
 
 Approved indication text is not available in the data compiled for this report. Several products are lisinopril/hydrochlorothiazide combinations, judging by their names (for example, the "co" and "Lisoretic" products). Essential Medicines List status could not be determined from the available data.
 
+<!-- review:begin za-lic-20261105-lisinopril-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 9 registrations are valid, single-ingredient entries in tablet form (oral). Approved indication text is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 68 registrations for this drug, 42 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-lisinopril-1 -->
+
+<!-- review:begin za-lic-20261105-lisinopril-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are not listed here: Lisoretic 20/12.5, Lisoretic 10/12.5, Zestozide 20, and Lisinopril co unicorn 10mg/12.5mg." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 68 registrations for this drug, 42 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-lisinopril-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/7.1.3/0513 | Adco-zetomax | tablet | Valid |
@@ -110,6 +124,8 @@ Approved indication text is not available in the data compiled for this report. 
 | 35/7.1.3/0210 | Sinopren | tablet | Valid |
 
 Showing 5 of 68 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -146,6 +162,20 @@ Please refer to the SAHPRA-approved Professional Information (PI) for official w
 - Full-text review of PMID 17047621 and 14524095 to confirm design, sample size and outcomes
 - A controlled trial of lisinopril in chronic pulmonary heart disease, with renal function, potassium and blood pressure monitoring
 - Confirmation of Essential Medicines List status
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 9 registrations are valid, single-ingredient entries in tablet form (oral)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Four further registrations are not listed here: Lisoretic 20/12.5, Lisoretic 10/12.5, Zestozide 20, and Lisinopril co unicorn 10mg/12.5mg" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

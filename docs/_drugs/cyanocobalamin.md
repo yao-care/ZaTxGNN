@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CYANOCOBALAMIN"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,6 +82,14 @@ Currently no related clinical trials registered.
 
 No approved indication text is recorded for any of them. Dosage forms include injection, capsule, tablet, infusion, parenteral nutrition (TPN) and inhaler. Many of these products are multi-ingredient vitamin or nutrition products listed as containing cyanocobalamin.
 
+<!-- review:begin za-lic-20261105-cyanocobalamin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Eleven single-ingredient SAHPRA registrations are valid and none are cancelled. No approved indication text is recorded for any of them." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 44 registrations for this drug, 28 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-cyanocobalamin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | H2413 | A-lennon vitamin b12 1ml | injection | Valid |
@@ -92,7 +100,15 @@ No approved indication text is recorded for any of them. Dosage forms include in
 
 Showing 5 of 44 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status is not recorded in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-cyanocobalamin-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The list shows 5 of 11 registrations. Essential Medicines List (EML) status is not recorded in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 44 registrations for this drug, 28 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-cyanocobalamin-2 -->
 
 ---
 
@@ -118,6 +134,20 @@ The prediction rests only on a model score. No clinical trial or publication stu
 - Mechanism of action data for cyanocobalamin
 - SAHPRA Professional Information warnings and contraindications for the relevant products
 - A review of which registered products are single-ingredient cyanocobalamin and their approved indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Eleven single-ingredient SAHPRA registrations are valid and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The list shows 5 of 11 registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

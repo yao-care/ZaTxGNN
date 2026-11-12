@@ -81,6 +81,8 @@ The most relevant publications are listed below. None is a randomised trial of i
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 48/20.2.3/0748 | Afaris fc 150mg/75mg | tablet | Valid |
@@ -90,6 +92,8 @@ The most relevant publications are listed below. None is a randomised trial of i
 | C/20.2.3/194 | Winthrop isoniazid | tablet | Valid |
 
 Showing 5 of 70 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 The Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 

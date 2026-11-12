@@ -73,6 +73,8 @@ The TxGNN deep-learning model produced candidates for Azelastine, but every cand
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 55/21.5.1/0573 | Dymista Nasal Spray | spray | Valid |
@@ -82,6 +84,8 @@ The TxGNN deep-learning model produced candidates for Azelastine, but every cand
 | 47/15.4/0142 | Azelastine PHARMA-Q | Not recorded | Valid |
 
 Showing 5 of 9 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

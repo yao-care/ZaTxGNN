@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Atropine: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -83,6 +83,8 @@ None of the publications below tested atropine as a treatment for migraine in pa
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/5.4/0461 | Atropine 1 Mg Unimed | injection | Valid |
@@ -92,6 +94,8 @@ None of the publications below tested atropine as a treatment for migraine in pa
 | C0955 | Colstat | capsule | Valid |
 
 Showing 5 of 38 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
@@ -113,6 +117,25 @@ The prediction score is high (0.9956), but no clinical trial or publication dire
 - Mechanism of action data for atropine
 - Direct clinical evidence, such as a pilot or exploratory trial of atropine in migraine
 - Assessment of route and formulation
+
+<!-- review:begin za-lic-20261106-atropine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Assessment of route and formulation, since the only registered product is an oral capsule" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06, after registrations were matched by ingredient. The SAHPRA data list 38 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261106-atropine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "since the only registered product is an oral capsule" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

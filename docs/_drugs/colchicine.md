@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -75,6 +75,8 @@ Neither publication studies colchicine in malaria directly.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/3.3/0260 | Aspen colchicine ds | tablet | Valid |
@@ -85,7 +87,15 @@ Neither publication studies colchicine in malaria directly.
 
 Showing 5 of 21 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-colchicine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are single-ingredient products and are currently valid. Essential Medicines List (EML) status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 21 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-colchicine-1 -->
 
 ## Cytotoxicity
 
@@ -113,6 +123,19 @@ The prediction score is high (0.9960), but no clinical trial or publication test
 - Detailed mechanism of action data
 - The SAHPRA Professional Information, to review warnings and contraindications
 - A safety assessment of colchicine alongside standard antimalarials, in particular chloroquine
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are single-ingredient products and are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

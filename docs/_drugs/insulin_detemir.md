@@ -70,9 +70,13 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 38/21.1/0084 | Levemir flexpen prefilled 3ml | injection | Valid |
+
+<!-- licenses:end -->
 
 The data compiled for this report do not state whether the product is on the Essential Medicines List.
 

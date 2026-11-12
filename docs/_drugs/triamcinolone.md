@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 459
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -74,6 +74,14 @@ Currently no related clinical trials registered.
 
 No approved indication text was available for any of them, and Essential Medicines List (EML) status was not available in the data compiled for this report. Note that the registered forms are topical or local (paste, nasal spray, cream, ointment), not intralesional injection.
 
+<!-- review:begin za-lic-20261105-triamcinolone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All five registrations are single-ingredient products with valid status. No approved indication text was available for any of them, and Essential Medicines List (EML) status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 12 registrations for this drug, 6 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-triamcinolone-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 45/21.5.1/0676 | Triamist 120 dose | spray | Valid |
@@ -83,6 +91,8 @@ No approved indication text was available for any of them, and Essential Medicin
 | G1592 | Kenacomb | ointment | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 12 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -107,6 +117,19 @@ The prediction is biologically plausible, but evidence is limited to two case re
 - SAHPRA Professional Information (warnings, contraindications and approved indications) for each registered product
 - Confirmation of whether an injectable (intralesional) triamcinolone product is registered in South Africa, since current registrations are topical or local forms
 - Mechanism of action data for the formal mechanistic assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All five registrations are single-ingredient products with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

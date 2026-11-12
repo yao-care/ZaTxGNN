@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 description: "Clobetasol Propionate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -109,6 +109,8 @@ No related literature was available for the other predicted indications.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/13.4.1/0122 | Dovate | ointment | Valid |
@@ -119,7 +121,15 @@ No related literature was available for the other predicted indications.
 
 Showing 5 of 19 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) inclusion status was not available in the data compiled.
+
+<!-- review:begin za-lic-20261105-clobetasol_propionate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. Essential Medicines List (EML) inclusion status was not available in the data compiled." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 19 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-clobetasol_propionate-1 -->
 
 ---
 
@@ -153,6 +163,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 - A re-mapped disease term (lichen planus or lichen sclerosus instead of exanthem) before any evidence grade is applied
 - Full results of the acne keloidalis study, ideally with a controlled trial
 - A safety plan covering HPA axis suppression, skin atrophy, and use in diabetes, glaucoma and children, particularly neonates
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,9 +72,13 @@ The TxGNN deep-learning model produced candidates for Niacin with a score of 0.9
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 42/7.5/1092 | Tredaptive | tablet | Valid (status not confirmed by SAHPRA) |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

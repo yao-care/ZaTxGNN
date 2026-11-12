@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 390
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Procaine: predicted new indication Methemoglobinemia (evidence level L4). Approved use: Not available"
 monitor_inn: "Procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa"]
@@ -90,6 +90,8 @@ None of these publications shows a therapeutic benefit of procaine in methemoglo
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | A/20.1.2/442 | Bio-Cillin | injection | Valid |
@@ -100,7 +102,15 @@ None of these publications shows a therapeutic benefit of procaine in methemoglo
 
 Showing 5 of 22 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report do not show Essential Medicines List (EML) status.
+
+<!-- review:begin za-lic-20261105-procaine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Only one registration (single-ingredient, valid) was identified, and it is for an injectable product. The product name refers to ceftriaxone, so it should be verified against the SAHPRA register whether this registration actually contains procaine. The data compiled for this report do not show Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 22 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-procaine-1 -->
 
 ---
 
@@ -141,6 +151,19 @@ The prediction for methemoglobinemia is not supported. The evidence shows procai
 - Verification that the registered product (listed as ceftriaxone) actually contains procaine, and identification of the approved indication
 - Mechanism of action data
 - For tendinopathy or myofascial pain: a prospective, procaine-specific controlled trial with a clear safety plan covering allergy, methemoglobin and cardiac risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Only one registration (single-ingredient, valid) was identified, and it is for an injectable product. The product name refers to ceftriaxone" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

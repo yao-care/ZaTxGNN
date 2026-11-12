@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -84,6 +84,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Rationale:**
 The Evidence Pack is structurally incomplete: no TxGNN-predicted indications exist, the DrugBank ID is unresolved, original indications are not recorded.
 
+<!-- review:begin za-lic-20261105-dorzolamide_hydrochloride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "**Rationale:** / The Evidence Pack is structurally incomplete: no TxGNN-predicted indications exist, the DrugBank ID is unresolved, original indications are not recorded, and there are zero SAHPRA registrations on file. A repurposing evaluation cannot be meaningfully completed or acted upon under these conditions." Removed: it continued a sentence that was removed for contradicting the SAHPRA registration data as of 2026-11-05, and would not make sense on its own. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-dorzolamide_hydrochloride-1 -->
+
 **To proceed, the following is needed:**
 
 - **Resolve DrugBank ID** for dorzolamide hydrochloride (search term: "dorzolamide") to enable knowledge graph traversal — this is the highest-priority unblocking step
@@ -92,6 +98,19 @@ The Evidence Pack is structurally incomplete: no TxGNN-predicted indications exi
 - **Obtain SAHPRA-approved PI or equivalent prescribing information** to populate safety warnings and contraindications *(Data Gap DG001 — Blocking severity)*
 - **Retrieve mechanism of action data from DrugBank API** to support mechanistic rationale analysis *(Data Gap DG002 — High severity)*
 - **Verify South Africa regulatory pathway**: if the drug is not currently registered with SAHPRA, determine whether a Section 21 authorisation or new registration application would be required before any clinical repurposing study
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "and there are zero SAHPRA registrations on file A repurposing evaluation cannot be meaningfully completed or acted upon under these conditio" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

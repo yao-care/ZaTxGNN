@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 116
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -58,6 +58,12 @@ This report documents the current data status and defines the minimum requiremen
 
 > ⚠️ **Data Integrity Note:** Chlorpheniramine maleate is a decades-old, widely available molecule present in numerous over-the-counter and prescription products across Africa (including well-known brands such as *Allergex* and *Piriton* in South Africa). SAHPRA records must be independently verified before this field is relied upon.
 
+<!-- review:begin za-lic-20261105-chlorpheniramine_maleate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "A result of zero SAHPRA registrations almost certainly reflects an input data gap rather than a genuine absence from the South African market. SAHPRA records must be independently verified before this field is relied upon." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 98 registrations for this drug, 64 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-chlorpheniramine_maleate-1 -->
+
 ---
 
 ## Why is This Prediction Reasonable?
@@ -72,6 +78,8 @@ Detailed mechanism of action data was not provided in the Evidence Pack (recorde
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/5.7.1/0166 | Rhineton | tablet | Valid |
@@ -82,7 +90,21 @@ Detailed mechanism of action data was not provided in the Evidence Pack (recorde
 
 Showing 5 of 98 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 **Recommended action:** Query the SAHPRA online medicines register (`https://www.sahpra.org.za`) using the search term "chlorpheniramine" to retrieve all active and historical registration records.
+
+<!-- review:begin za-lic-20261105-chlorpheniramine_maleate-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No SAHPRA registration records are present in the current Evidence Pack." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 98 registrations for this drug, 64 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-chlorpheniramine_maleate-2 -->
+
+<!-- review:begin za-lic-20261105-chlorpheniramine_maleate-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "As noted above, this is strongly suspected to be a data completeness issue. The following table is provided as a placeholder pending data retrieval:" Removed: it continued a sentence that was removed for contradicting the SAHPRA registration data as of 2026-11-05, and would not make sense on its own. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-chlorpheniramine_maleate-3 -->
 
 ---
 
@@ -113,6 +135,21 @@ The Evidence Pack for chlorpheniramine maleate is critically incomplete — no T
 ---
 
 *This report is intended for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before therapeutic application. Adverse drug reactions should be reported to SAHPRA.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "A result of zero SAHPRA registrations almost certainly reflects an input data gap rather than a genuine absence from the South African marke" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "No SAHPRA registration records are present in the current Evidence Pack" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "As noted above, this is strongly suspected to be a data completeness issue. The following table is provided as a placeholder pending data re" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

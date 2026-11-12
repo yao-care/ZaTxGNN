@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -43,6 +43,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 Amitriptyline hydrochloride is a tricyclic antidepressant (TCA) with established use in depression, neuropathic pain, and migraine prophylaxis.
 **No TxGNN repurposing predictions were generated in this evaluation run**.
 A complete repurposing assessment cannot be completed until the two identified data gaps — SAHPRA label warnings (Blocking) and formal mechanism of action data (High) — are resolved.
+
+<!-- review:begin za-lic-20261105-amitriptyline_hydrochloride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "**No TxGNN repurposing predictions were generated in this evaluation run**, and the drug carries zero SAHPRA registrations on record in this Evidence Pack. / A complete repurposing assessment cannot be completed until the two identified data gaps — SAHPRA label warnings (Blocking) and formal mechanism of action data (High) — are resolved." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 28 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-amitriptyline_hydrochloride-1 -->
 
 ---
 
@@ -88,6 +94,18 @@ Currently no related literature available in this Evidence Pack.
 
 > **Verification recommended:** Amitriptyline is an established medicine included on the WHO Essential Medicines List (EML) and is widely registered globally. Healthcare professionals should confirm current SAHPRA registration status directly via the [SAHPRA online medicines register](https://www.sahpra.org.za) before drawing conclusions from this data.
 
+<!-- review:begin za-lic-20261105-amitriptyline_hydrochloride-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "According to this Evidence Pack, amitriptyline hydrochloride has **zero active SAHPRA product registrations** on record." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 28 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-amitriptyline_hydrochloride-2 -->
+
+<!-- review:begin za-lic-20261105-amitriptyline_hydrochloride-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Healthcare professionals should confirm current SAHPRA registration status directly via the [SAHPRA online medicines register](https://www.sahpra.org.za) before drawing conclusions from this data. A data retrieval issue cannot be excluded." Removed: it continued a sentence that was removed for contradicting the SAHPRA registration data as of 2026-11-05, and would not make sense on its own. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-amitriptyline_hydrochloride-3 -->
+
 ---
 
 ## Safety Considerations
@@ -113,9 +131,31 @@ The TxGNN prediction pipeline was not completed due to a blocking data gap (miss
 - **Resolve DG002 (High):** Re-query the DrugBank API to retrieve and populate formal MOA, pharmacodynamic, and toxicity data (the query returned a successful result but data was not written to the Evidence Pack — investigate the extraction step)
 - **Re-run TxGNN prediction pipeline** after the above gaps are resolved to generate repurposing candidates and a full evidence-backed report
 
+<!-- review:begin za-lic-20261105-amitriptyline_hydrochloride-4 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "**Verify SAHPRA registration status:** Manually search the SAHPRA medicines register for amitriptyline hydrochloride and all known South African brand names to confirm whether a zero-registration result reflects true absence or a data retrieval failure / **Re-run TxGNN prediction pipeline** after the above gaps are resolved to generate repurposing candidates and a full evidence-backed report" Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 28 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-amitriptyline_hydrochloride-4 -->
+
 ---
 
 *This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application. Include YMYL disclaimer on all public-facing outputs.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "and the drug carries zero SAHPRA registrations on record in this Evidence Pack" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "According to this Evidence Pack, amitriptyline hydrochloride has **zero active SAHPRA product registrations** on record" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "A data retrieval issue cannot be excluded" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "**Verify SAHPRA registration status:** Manually search the SAHPRA medicines register for amitriptyline hydrochloride and all known South Afr" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

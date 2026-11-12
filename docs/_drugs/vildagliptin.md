@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Vildagliptin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -102,6 +102,8 @@ Currently no related literature available for classic stiff person syndrome.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/21.2/0487 | Galvus | tablet | Valid |
@@ -112,7 +114,15 @@ Currently no related literature available for classic stiff person syndrome.
 
 Showing 5 of 57 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The only dosage form is oral tablet. The product strengths suggest a fixed-dose pairing with a second agent, probably metformin, but this should be confirmed against the SAHPRA record. Essential Medicines List status could not be determined from the data.
+
+<!-- review:begin za-lic-20261105-vildagliptin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are currently valid, and the only dosage form is oral tablet. The product strengths suggest a fixed-dose pairing with a second agent, probably metformin, but this should be confirmed against the SAHPRA record." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 57 registrations for this drug, 53 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-vildagliptin-1 -->
 
 ---
 
@@ -139,6 +149,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 - The SAHPRA Professional Information, to complete the warnings and contraindications review and confirm the approved indication wording.
 - Detailed mechanism of action data from DrugBank.
 - A pancreatitis risk assessment for any population being considered.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are currently valid, and t" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

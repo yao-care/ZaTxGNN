@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,6 +81,14 @@ None of the publications below tests morphine as a treatment for myofascial pain
 
 Morphine-containing products are marketed in South Africa. No approved-indication text is recorded for them.
 
+<!-- review:begin za-lic-20261105-morphine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Morphine-containing products are marketed in South Africa, and all three registrations in the data compiled for this report are valid single-ingredient records. No approved-indication text is recorded for them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 32 registrations for this drug, 25 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-morphine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | B0769 | Cyclimorph 1ml | injection | Valid |
@@ -90,6 +98,8 @@ Morphine-containing products are marketed in South Africa. No approved-indicatio
 | S/2.9/278 | Mst continus | Srt | Valid |
 
 Showing 5 of 32 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -111,6 +121,18 @@ The TxGNN score is high, but no registered trial and no publication directly tes
 - Detailed mechanism of action data
 - SAHPRA Professional Information warnings and contraindications for a formal safety review
 - A risk-benefit assessment against established non-opioid options for chronic musculoskeletal pain
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "and all three registrations in the data compiled for this report are valid single-ingredient records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

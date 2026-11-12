@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the registration data (registered products are dialysis…"
 monitor_inn: "Sodium acetate"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "Ureaplasma urethritis", "gonococcal urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
@@ -73,6 +73,14 @@ Currently no related literature available for congenital prothrombin deficiency.
 
 The registration data contain no approved indication text, and Essential Medicines List status is not stated in the data compiled for this report. The five main registrations are listed below.
 
+<!-- review:begin za-lic-20261105-sodium_acetate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 12 registrations are valid single-ingredient products. The registration data contain no approved indication text, and Essential Medicines List status is not stated in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 11 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-sodium_acetate-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 38/34/0172 | Extraneal 2L single bag | infusion | Valid |
@@ -82,6 +90,8 @@ The registration data contain no approved indication text, and Essential Medicin
 | D/24/208 | Sabax ringer-lactate 500ml | solution | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The prediction rests only on a model score. There are no clinical trials or supp
 - SAHPRA Professional Information (warnings, contraindications and approved indications) for the registered products
 - Preclinical or clinical evidence in congenital prothrombin deficiency
 - Confirmation that the registered routes and dosage forms are compatible with any proposed use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 12 registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Zinc Acetate: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Wilson disease, dermatitis, exanthem, burns…"
 monitor_inn: "Zinc acetate"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "bronchitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "urinary tract infection (disease)"]
@@ -79,6 +79,8 @@ For the other predicted indications, the data compiled for this report holds onl
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
@@ -89,7 +91,15 @@ For the other predicted indications, the data compiled for this report holds onl
 
 Showing 5 of 8 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Several of these product names (for example Prograf, which is a tacrolimus product) do not obviously correspond to zinc acetate, so the registration matching should be verified against the SAHPRA register before relying on it. The compiled data does not state Essential Medicines List status.
+
+<!-- review:begin za-lic-20261105-zinc_acetate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four registrations are valid single-ingredient entries, and all are injectable or parenteral nutrition forms. Several of these product names (for example Prograf, which is a tacrolimus product) do not obviously correspond to zinc acetate, so the registration matching should be verified against the SAHPRA register before relying on it." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 8 registrations for this drug, 8 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-zinc_acetate-1 -->
 
 ## Safety Considerations
 
@@ -118,6 +128,19 @@ The prediction rests on a model score alone (L5). No clinical trials or literatu
 - A targeted literature search on zinc and diabetic retinopathy, including zinc status in diabetic patients
 - Route and formulation assessment: the registered forms are parenteral, and an oral or other form may be needed for this use
 - Review of the porphyria contraindication signal and the interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four registrations are valid single-ingredient entries, and all are injectable or parenteral nutrition forms" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

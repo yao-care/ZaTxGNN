@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dihydrocodeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,6 +69,8 @@ Currently no related literature available for nasal cavity disease.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | B0726 | Df 118 | tablet | Valid |
@@ -76,7 +78,15 @@ Currently no related literature available for nasal cavity disease.
 | B1041 | Paracodin | syrup | Valid |
 | B1040 | Paracodin | Not recorded | Cancelled |
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-dihydrocodeine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are single-ingredient products with valid status. Essential Medicines List (EML) status could not be determined from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 4 registrations for this drug, 3 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-dihydrocodeine-1 -->
 
 ## Safety Considerations
 
@@ -98,6 +108,19 @@ The score is very high, but there are no clinical trials or publications for nas
 - SAHPRA Professional Information (warnings and contraindications), which is currently missing
 - Published or registered studies that directly address nasal cavity disease
 - Clarification of whether the prediction adds anything beyond the symptomatic use already known in upper-airway conditions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are single-ingredient products with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

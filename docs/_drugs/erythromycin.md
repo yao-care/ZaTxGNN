@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -84,6 +84,14 @@ Currently no related clinical trials registered.
 
 The approved indication text is not recorded for any of them in the local data, and Essential Medicines List status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-erythromycin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Four single-ingredient SAHPRA registrations are valid. The approved indication text is not recorded for any of them in the local data, and Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 59 registrations for this drug, 34 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-erythromycin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/20.1.1/0386 | Xeramel | capsule | Valid |
@@ -93,6 +101,8 @@ The approved indication text is not recorded for any of them in the local data, 
 | A/20.1.1/0168 | Ilosone 250P | suspension | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 59 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,6 +130,19 @@ The TxGNN score is very high (0.9989), but no clinical trials exist and the only
 - Detailed mechanism of action data
 - The SAHPRA Professional Information, to review warnings and contraindications
 - A comparison against established treatments for this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Four single-ingredient SAHPRA registrations are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

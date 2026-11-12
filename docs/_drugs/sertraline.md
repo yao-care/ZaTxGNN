@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "SERTRALINE"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sertraline: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -63,6 +63,12 @@ The link to paranoid personality disorder is indirect. The retrieved literature 
 
 Currently no related clinical trials registered.
 
+<!-- review:begin za-lic-20261105-sertraline-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four registrations are single-ingredient products and all are valid." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 37 registrations for this drug, 33 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-sertraline-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -74,6 +80,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/1.2/0381 | Zoloft | tablet | Valid |
@@ -83,6 +91,8 @@ Currently no related clinical trials registered.
 | 36/1.2/0275 | Tralidep | tablet | Valid |
 
 Showing 5 of 37 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -102,6 +112,18 @@ No clinical trial and no publication directly studies sertraline in paranoid per
 - Detailed mechanism-of-action data
 - Review of the SAHPRA Professional Information for warnings and contraindications
 - A safety review of the major drug interactions, especially with other serotonergic agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four registrations are single-ingredient products and all are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

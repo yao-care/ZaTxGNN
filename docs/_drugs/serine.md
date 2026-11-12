@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
 description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,6 +75,20 @@ Currently no related literature available for familial visceral myopathy.
 
 The data compiled contain no manufacturer or approved indication text, and EML inclusion status is not available. The 5 shown below are the main registrations.
 
+<!-- review:begin za-lic-20261105-serine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 10 registrations are single-ingredient products with valid status. The data compiled contain no manufacturer or approved indication text, and EML inclusion status is not available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 18 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-serine-1 -->
+
+<!-- review:begin za-lic-20261105-serine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The remaining registrations are Adco-ipratropium (33/10.2.1/0271, vial), Numeta G16E (52/25/0740), Smofkabiven Peripheral (47/32.2/0036), Nutriflex Omega Specialized (49/25/0065) and Nutriflex lipid special 625ml (41/25/0759)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 18 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-serine-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -84,6 +98,8 @@ The data compiled contain no manufacturer or approved indication text, and EML i
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
 Showing 5 of 18 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -111,6 +127,20 @@ The prediction is based only on the TxGNN model score. There are no clinical tri
 - Evidence of a biological link between serine and familial visceral myopathy, such as preclinical or mechanistic studies
 - A targeted literature search for L-serine in visceral myopathy and intestinal pseudo-obstruction
 - Confirmation of the original indications from labelling
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 10 registrations are single-ingredient products with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining registrations are Adco-ipratropium (33/10.2.1/0271, vial), Numeta G16E (52/25/0740), Smofkabiven Peripheral (47/32.2/0036), Nu" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

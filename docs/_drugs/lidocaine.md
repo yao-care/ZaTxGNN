@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -75,6 +75,8 @@ For context, the other TxGNN predictions were also reviewed. None provides direc
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 39/4/0437 | Lignocaine ampoule 5ml | injection | Valid (status not confirmed by SAHPRA) |
@@ -85,7 +87,15 @@ For context, the other TxGNN predictions were also reviewed. None provides direc
 
 Showing 5 of 78 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status could not be confirmed from the data compiled. No ophthalmic lidocaine product appears among the registrations listed, so route compatibility for an eye indication is unconfirmed.
+
+<!-- review:begin za-lic-20261105-lidocaine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both records are classed as single-ingredient and valid. Essential Medicines List status could not be confirmed from the data compiled." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 78 registrations for this drug, 57 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-lidocaine-1 -->
 
 ## Safety Considerations
 
@@ -114,6 +124,19 @@ The prediction rests only on a model score. No trial or publication studies lido
 - SAHPRA Professional Information warnings and contraindications (a blocking data gap)
 - Evidence from clinical studies directly in punctate epithelial keratoconjunctivitis
 - Confirmation of an ophthalmic route and formulation, and a corneal safety assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both records are classed as single-ingredient and valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

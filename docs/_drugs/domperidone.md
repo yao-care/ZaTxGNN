@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/5.7.2/0330 | Vomidon | tablet | Valid |
@@ -81,6 +83,8 @@ Currently no related literature available.
 | K/5.7.2/261 | Motilium | tablet | Valid |
 
 Showing 5 of 9 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status was not available in the data compiled for this report.
 

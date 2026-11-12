@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -102,6 +102,8 @@ No publication addresses visual epilepsy directly. The most relevant general sei
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/2.5/0088 | Keppra | tablet | Valid |
@@ -112,7 +114,15 @@ No publication addresses visual epilepsy directly. The most relevant general sei
 
 Showing 5 of 59 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status was not available in the compiled data. Please verify the approved indications in the SAHPRA Professional Information (PI).
+
+<!-- review:begin za-lic-20261105-levetiracetam-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. Essential Medicines List status was not available in the compiled data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 59 registrations for this drug, 54 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-levetiracetam-1 -->
 
 ---
 
@@ -138,6 +148,19 @@ The supporting literature concerns general seizure populations. By contrast, sta
 - SAHPRA Professional Information, to confirm approved indications, warnings and contraindications
 - Detailed mechanism-of-action data
 - A separate evaluation of status epilepticus, including confirmation against current guidelines (ESETT showed no efficacy difference among levetiracetam, fosphenytoin and valproate), age- and renal-function-based dosing, and behavioural adverse effect monitoring
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,6 +72,8 @@ All candidates produced by the TxGNN model (score ≥ 0.99) for Nicotinamide tha
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/22.1/0508 | Cernevit | infusion | Valid |
@@ -87,6 +89,8 @@ All candidates produced by the TxGNN model (score ≥ 0.99) for Nicotinamide tha
 | 57/22.2/0880 | Envitavit | vial | Valid |
 
 Showing 11 of 77 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

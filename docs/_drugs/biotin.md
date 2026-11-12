@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -89,6 +89,8 @@ The publications below were retrieved in connection with this prediction. None o
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/22.1/0508 | Cernevit | infusion | Valid |
@@ -99,7 +101,15 @@ The publications below were retrieved in connection with this prediction. None o
 
 Showing 5 of 43 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-biotin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four listed registrations are currently valid. Essential Medicines List (EML) status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 43 registrations for this drug, 39 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-biotin-1 -->
 
 ---
 
@@ -121,6 +131,19 @@ The prediction rests on a model score alone (0.9943). No trial or publication te
 - Published or registered studies that directly assess biotin in dyspepsia
 - SAHPRA Professional Information (warnings and contraindications) for the registered products
 - Route and formulation assessment, since the registered products are injectable or parenteral nutrition forms
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four listed registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

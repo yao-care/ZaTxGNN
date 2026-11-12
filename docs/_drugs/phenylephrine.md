@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 372
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -89,6 +89,14 @@ Currently no related clinical trials registered.
 
 The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information. The first five registrations are shown below.
 
+<!-- review:begin za-lic-20261105-phenylephrine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 20 registrations are valid single-ingredient entries. The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 122 registrations for this drug, 81 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-phenylephrine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 49/7.2/0153 | Tacyphen | injection | Valid |
@@ -99,7 +107,15 @@ The data compiled for this report contain no approved indication text or Essenti
 
 Showing 5 of 122 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The remaining registrations include cold and flu products in capsule, syrup, sachet and tablet forms.
+
+<!-- review:begin za-lic-20261105-phenylephrine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The remaining registrations include cold and flu products in capsule, syrup, sachet and tablet forms. Some product names in the registration list (for example Tegretol s, Amoxil D, Trandate and Nitrolingual) do not look like phenylephrine products and should be verified against SAHPRA records before use." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 122 registrations for this drug, 81 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-phenylephrine-2 -->
 
 ---
 
@@ -128,6 +144,20 @@ The TxGNN score is very high (0.9997), but there are no registered clinical tria
 - Detailed mechanism of action data
 - Controlled clinical studies of single-agent topical phenylephrine in specific nasal cavity conditions, with attention to blood pressure and systemic absorption
 - Clarification of which registered products are relevant, and their approved indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 20 registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Some product names in the registration list (for example Tegretol s, Amoxil D, Trandate and Nitrolingual) do not look like phenylephrine pro" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

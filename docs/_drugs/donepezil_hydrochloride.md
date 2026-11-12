@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -76,6 +76,18 @@ Once TxGNN predictions are available, any predicted new indication should be eva
 
 > Donepezil is registered and in active clinical use in many other jurisdictions, including the United States (FDA), European Union (EMA), and United Kingdom (MHRA), for Alzheimer's disease.
 
+<!-- review:begin za-lic-20261105-donepezil_hydrochloride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Donepezil hydrochloride is currently **not registered with SAHPRA** and holds no marketing authorisation in South Africa. No registration records are available." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 42 registrations for this drug, 37 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-donepezil_hydrochloride-1 -->
+
+<!-- review:begin za-lic-20261105-donepezil_hydrochloride-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "> Donepezil is registered and in active clinical use in many other jurisdictions, including the United States (FDA), European Union (EMA), and United Kingdom (MHRA), for Alzheimer's disease. The absence of SAHPRA registration reflects the local regulatory status only." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 42 registrations for this drug, 37 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-donepezil_hydrochloride-2 -->
+
 ---
 
 ## Safety Considerations
@@ -93,6 +105,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for safety inf
 **Rationale:**
 This Evidence Pack is materially incomplete — there are no TxGNN-predicted indications, and no verified safety information.
 
+<!-- review:begin za-lic-20261105-donepezil_hydrochloride-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "**Rationale:** / This Evidence Pack is materially incomplete — there are no TxGNN-predicted indications, no SAHPRA registration data, and no verified safety information. A repurposing recommendation cannot responsibly be made in the absence of these foundational inputs." Removed: it continued a sentence that was removed for contradicting the SAHPRA registration data as of 2026-11-05, and would not make sense on its own. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-donepezil_hydrochloride-3 -->
+
 **To proceed, the following is needed:**
 
 1. **Run TxGNN prediction pipeline** for Donepezil Hydrochloride to generate predicted new indications and evidence links
@@ -100,6 +118,21 @@ This Evidence Pack is materially incomplete — there are no TxGNN-predicted ind
 3. **Obtain SAHPRA PI or international equivalent** (e.g., FDA label, EMA SmPC) for key warnings, contraindications, and monitoring requirements (resolves DG001 — currently Blocking)
 4. **Clarify original approved indications** — populate `original_indications` field from the DrugBank or PI source
 5. **Assess SAHPRA registration pathway** — if a repurposing candidate is identified and evidence is sufficient, determine whether a new application or Section 21 authorisation is required given current zero-registration status in South Africa
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Donepezil hydrochloride is currently **not registered with SAHPRA** and holds no marketing authorisation in South Africa. No registration re" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The absence of SAHPRA registration reflects the local regulatory status only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "no SAHPRA registration data, A repurposing recommendation cannot responsibly be made in the absence of these foundational inputs" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

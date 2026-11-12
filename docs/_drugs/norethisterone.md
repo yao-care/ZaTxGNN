@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 348
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "NORETHISTERONE"
 description: "Norethisterone: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
@@ -50,6 +50,20 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 No approved indication text and no Essential Medicines List (EML) information were available. The 5 main registrations are listed below.
 
+<!-- review:begin za-lic-20261105-norethisterone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Norethisterone has 9 valid SAHPRA registrations, all single-ingredient entries as classified in the data compiled for this report. No approved indication text and no Essential Medicines List (EML) information were available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 22 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-norethisterone-1 -->
+
+<!-- review:begin za-lic-20261105-norethisterone-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Four further registrations: Trisequens Forte (tablet), Minulette (tablet), Gyno-Pevaryl Depot (vaginal cream) and Evorel Sequi (patch)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 22 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-norethisterone-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | B/18.8/135 | Micro-Novum | tablet | Valid (status not confirmed by SAHPRA) |
@@ -59,6 +73,8 @@ No approved indication text and no Essential Medicines List (EML) information we
 | 31/21.8.2/0537 | Evorel conti | patch | Valid |
 
 Showing 5 of 22 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -79,6 +95,19 @@ The knowledge graph links norethisterone to caution or contraindication in the f
 Please refer to the SAHPRA-approved Professional Information (PI) for official warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Norethisterone has 9 valid SAHPRA registrations, all single-ingredient entries as classified in the data compiled for this report" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Four further registrations: Trisequens Forte (tablet), Minulette (tablet), Gyno-Pevaryl Depot (vaginal cream) and Evorel Sequi (patch)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

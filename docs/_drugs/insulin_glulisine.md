@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Insulin Glulisine: predicted new indication thiamine-responsive dysfunction syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,12 +70,22 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | A38/21.1/0506 | Apidra solostar disposable pens 3ml | injection | Valid |
 | 41/21.1/0349 | Gluliwin | solution | Cancelled |
 
+<!-- licenses:end -->
+
 Essential Medicines List status was not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-insulin_glulisine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The product is a single-ingredient registration with valid status. Essential Medicines List status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 2 registrations for this drug, 1 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-insulin_glulisine-1 -->
 
 ## Safety Considerations
 
@@ -101,6 +111,19 @@ The only support is a model score. No trials or publications address this diseas
 - Mechanism of action data for insulin glulisine
 - Retrieval and review of the SAHPRA Professional Information for warnings and contraindications
 - Clinical input on whether any therapeutic question remains beyond routine glycaemic management in affected patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The product is a single-ingredient registration with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

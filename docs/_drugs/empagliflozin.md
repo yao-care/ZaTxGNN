@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -76,6 +76,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 48/21.2/0411 | Jardiance | tablet | Valid |
@@ -86,7 +88,15 @@ Currently no related literature available.
 
 Showing 5 of 36 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-empagliflozin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Essential Medicines List (EML) inclusion status is not available in the data compiled for this report. All three registrations are valid and oral tablets. The Synjardy registration is listed in the records as a single-ingredient entry, but the product name suggests a fixed-dose combination. It should therefore not be used to describe empagliflozin alone." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 36 registrations for this drug, 36 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-empagliflozin-1 -->
 
 ## Safety Considerations
 
@@ -112,6 +122,19 @@ The prediction is supported only by a computational score. There are no clinical
 - Run a systematic literature and trial registry search (including SANCTR and PACTR) for empagliflozin in stiff person spectrum disorders
 - Test the mechanistic hypothesis preclinically before any clinical consideration
 - For opsismodysplasia, assess paediatric bone and mineral safety separately
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid and oral tablets. The Synjardy registration is listed in the records as a single-ingredient entry, but the" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

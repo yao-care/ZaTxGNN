@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -44,6 +44,12 @@ Clindamycin phosphate is a lincosamide antibiotic prodrug, rapidly hydrolysed in
 The current Evidence Pack contains **no TxGNN repurposing predictions**, and multiple blocking data gaps.
 This evaluation **cannot advance to a full repurposing analysis** until the identified gaps are remediated.
 
+<!-- review:begin za-lic-20261105-clindamycin_phosphate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The current Evidence Pack contains **no TxGNN repurposing predictions**, no SAHPRA registration records, and multiple blocking data gaps. / This evaluation **cannot advance to a full repurposing analysis** until the identified gaps are remediated." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 25 registrations for this drug, 23 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-clindamycin_phosphate-1 -->
+
 ---
 
 ## Quick Overview
@@ -70,6 +76,12 @@ Beyond direct antibacterial activity, clindamycin has documented anti-inflammato
 
 > In practice, clindamycin-containing products (capsules, injectables, topical gels/solutions) are widely registered and used in South Africa. Direct verification against the SAHPRA Product Register is strongly recommended before drawing regulatory conclusions.
 
+<!-- review:begin za-lic-20261105-clindamycin_phosphate-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "> **Note on SAHPRA registrations:** The Evidence Pack records zero SAHPRA registrations. In practice, clindamycin-containing products (capsules, injectables, topical gels/solutions) are widely registered and used in South Africa. The zero-registration finding most likely reflects a data retrieval gap rather than a genuine absence from the South African market." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 25 registrations for this drug, 23 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-clindamycin_phosphate-2 -->
+
 ---
 
 ## Clinical Trial Evidence
@@ -81,6 +93,12 @@ Currently no related clinical trials are registered in this Evidence Pack.
 ## Literature Evidence
 
 Currently no related literature is available in this Evidence Pack.
+
+<!-- review:begin za-lic-20261105-clindamycin_phosphate-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No SAHPRA-registered products were returned for Clindamycin Phosphate in the current Evidence Pack. See the note above regarding likely data retrieval issues." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 25 registrations for this drug, 23 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-clindamycin_phosphate-3 -->
 
 ---
 
@@ -119,6 +137,21 @@ The Evidence Pack contains no TxGNN repurposing predictions, no mechanism of act
 ---
 
 *This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require prospective clinical validation before therapeutic application. All predictions and analyses must be interpreted by qualified healthcare professionals.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "no SAHPRA registration records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "**Note on SAHPRA registrations:** The Evidence Pack records zero SAHPRA registrations. The zero-registration finding most likely reflects a " | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "No SAHPRA-registered products were returned for Clindamycin Phosphate in the current Evidence Pack. See the note above regarding likely data" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

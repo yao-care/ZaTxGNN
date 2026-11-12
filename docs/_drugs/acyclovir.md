@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 17
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Acyclovir: predicted new indication Common wart (evidence level L5). Approved use: Herpes simplex, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -120,6 +120,8 @@ For the other predictions, the literature retrieved is limited to general review
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/20.2.8/0369 | Adco-acyclovir | cream | Valid |
@@ -130,7 +132,15 @@ For the other predictions, the literature retrieved is limited to general review
 
 Showing 5 of 14 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data does not state whether acyclovir is on the Essential Medicines List (EML). No injectable formulation is registered in the data compiled for this report. The intralesional regimens studied for warts used the intravenous vial, so this is a practical gap. A topical cream and an oral dispersible tablet are available locally.
+
+<!-- review:begin za-lic-20261105-acyclovir-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. The data does not state whether acyclovir is on the Essential Medicines List (EML)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 14 registrations for this drug, 14 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-acyclovir-1 -->
 
 ## Safety Considerations
 
@@ -160,6 +170,19 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 - Detailed mechanism of action data, and a review of the knowledge-graph contraindication list against the label.
 - A decision on the formulation: the trials used intravenous acyclovir vials injected intralesionally, which are not covered by the two local registrations (cream and oral tablet). Any local study would need regulatory and ethics review, including registration on SANCTR or PACTR.
 - Review of the moderate-severity interactions (mesalazine-class drugs and trospium) and of renal function monitoring where systemic use is considered.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

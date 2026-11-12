@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "FOSINOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fosinopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | A39/7.1.3/0349 | Mylan Fosinopril 20 | tablet | Valid |
@@ -78,7 +80,15 @@ Currently no related literature available.
 | X/7.1.3/285 | Monopril | tablet | Valid (status not confirmed by SAHPRA) |
 | 31/7.1.3/0416 | Monozide | tablet | Valid (status not confirmed by SAHPRA) |
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) inclusion status is not available in the data and should be checked separately.
+
+<!-- review:begin za-lic-20261105-fosinopril-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The data compiled for this report show one valid registration and no cancelled registrations. Essential Medicines List (EML) inclusion status is not available in the data and should be checked separately." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 5 registrations for this drug, 5 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-fosinopril-1 -->
 
 ## Safety Considerations
 
@@ -100,6 +110,19 @@ The prediction (score 0.9987) is supported by no trials or publications for this
 - Detailed mechanism of action data
 - The SAHPRA Professional Information (warnings, contraindications) for safety screening
 - A monitoring plan for kidney function and potassium, and a review of blood pressure-lowering strategy in hypertensive emergencies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The data compiled for this report show one valid registration and no cancelled registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

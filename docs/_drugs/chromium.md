@@ -70,9 +70,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Chromium, so
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 52/24/0031 | Nutryelt | infusion | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

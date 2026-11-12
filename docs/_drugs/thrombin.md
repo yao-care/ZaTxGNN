@@ -72,9 +72,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Thrombin, so
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 44/30.3/0263 | Tisseel | powder | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

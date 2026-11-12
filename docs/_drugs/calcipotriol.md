@@ -77,6 +77,8 @@ Currently no related clinical trials registered.
 
 Calcipotriol is registered in South Africa only in two products, both listed as valid. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/13.9.1/0270 | Dovonex Cream | cream | Valid (status not confirmed by SAHPRA) |
@@ -86,6 +88,8 @@ Calcipotriol is registered in South Africa only in two products, both listed as 
 | 46/13.9.1/0615 | Dovobet Gel | Gel | Valid |
 
 Showing 5 of 9 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

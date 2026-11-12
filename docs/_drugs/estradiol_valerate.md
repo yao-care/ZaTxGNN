@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Estradiol Valerate: predicted new indication Symptomatic form of fragile X syndrome in female carrier (evidence level L5). Approved use: Primary ovarian failure"
 monitor_inn: "Estradiol valerate"
 predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "anovulation", "ovarian remnant syndrome", "luteoma of pregnancy", "ovarian dysfunction"]
@@ -119,6 +119,8 @@ The top-ranked prediction has no publications. For the other predictions, the su
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/21.8.1/98 | Vagifem | tablet | Valid (status not confirmed by SAHPRA) |
@@ -129,7 +131,15 @@ The top-ranked prediction has no publications. For the other predictions, the su
 
 Showing 5 of 63 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status was not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-estradiol_valerate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient entries, and all dosage forms are oral. Essential Medicines List status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 63 registrations for this drug, 51 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-estradiol_valerate-1 -->
 
 ---
 
@@ -157,6 +167,19 @@ The top prediction (fragile X carriers) rests on a computational score alone, an
 - For FXPOI and BPES-related ovarian insufficiency: clinical literature on oestrogen replacement in these populations, framed as an extension of the existing primary ovarian failure indication
 - For anovulation: results or a status update for NCT02186782, and a review of whether the add-on benefit holds in human data
 - A review of the contraindication signals above against the label before any new-use evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient entries, and all dosage forms are oral" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

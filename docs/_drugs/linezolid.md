@@ -76,6 +76,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Linezolid, s
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 35/20.1.1/0310 | Zyvoxid | tablet | Valid |
@@ -85,6 +87,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Linezolid, s
 | 49/20.1.1/0899 | Linzai Iv | infusion | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 53 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

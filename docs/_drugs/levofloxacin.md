@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,6 +71,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/20.1.1/1018 | Austell levofloxacin | tablet | Valid |
@@ -81,7 +83,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 84 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-levofloxacin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Three of the four registrations are valid and one is cancelled. Essential Medicines List status is not available in the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 84 registrations for this drug, 53 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-levofloxacin-1 -->
 
 ## Safety Considerations
 
@@ -101,6 +111,18 @@ The prediction has a very high model score (0.9992) but no registered trials and
 - Mechanism of action data and a clear mechanistic rationale for this ocular condition
 - Review of ophthalmic formulation availability in South Africa, since the registered products are oral and intravenous
 - The SAHPRA-approved Professional Information (PI) for warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Three of the four registrations are valid and one is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

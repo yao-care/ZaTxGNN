@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/3.3/0229 | Adco allopurinol | tablet | Valid |
@@ -92,6 +94,8 @@ Currently no related clinical trials registered.
 | 49/3.3/0021 | Lessuric 300 | tablet | Valid |
 
 Showing 5 of 54 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List status could not be determined from the data compiled for this report.
 

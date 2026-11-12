@@ -72,9 +72,13 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/18.7/0491 | Evra | patch | Valid |
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
 

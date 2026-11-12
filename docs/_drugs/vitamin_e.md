@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Vitamin E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
 description: "Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,6 +97,8 @@ Related literature for the closely linked prediction "bilirubin metabolism disea
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
@@ -107,7 +109,15 @@ Related literature for the closely linked prediction "bilirubin metabolism disea
 
 Showing 5 of 17 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment. Essential Medicines List status could not be confirmed from the data compiled.
+
+<!-- review:begin za-lic-20261105-vitamin_e-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four registrations are valid and are parenteral (infusion or parenteral nutrition) products. No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 17 registrations for this drug, 12 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-vitamin_e-1 -->
 
 ---
 
@@ -134,6 +144,19 @@ The prediction score is very high, but there are no registered trials and the on
 - Clinical studies of vitamin E in inherited bilirubin or bile acid disorders
 - Confirmation of which formulations and routes are suitable, as the registered South African products are all parenteral
 - If pursuing a related direction, "bilirubin metabolism disease" and "drug-induced liver injury" are better framed as research questions (L4, preclinical or observational support only)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four registrations are valid and are parenteral (infusion or parenteral nutrition) products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

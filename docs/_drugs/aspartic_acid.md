@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 48
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Aspartic Acid: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "ASPARTIC ACID"
 predicted_indications: ["renal tubular acidosis"]
@@ -78,6 +78,14 @@ Currently no related clinical trials registered.
 
 All are infusion or parenteral nutrition products in which aspartic acid is a component. The data compiled for this report do not include approved indication text or manufacturer details. Essential Medicines List (EML) status was not available.
 
+<!-- review:begin za-lic-20261105-aspartic_acid-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Five single-ingredient registrations are currently valid. All are infusion or parenteral nutrition products in which aspartic acid is a component." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 25 registrations for this drug, 22 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-aspartic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
@@ -87,6 +95,8 @@ All are infusion or parenteral nutrition products in which aspartic acid is a co
 | 41/25/0760 | Nutriflex lipid special without electrol | Tpn | Valid |
 
 Showing 5 of 25 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -109,6 +119,19 @@ The recommendation rests only on a high model score (0.9947). No clinical trials
 - Review of the SAHPRA package inserts for warnings, contraindications and approved indications of the registered products
 - A safety assessment in patients with renal impairment, including potassium and acid-base monitoring
 - Comparison against standard alkali and potassium therapy to establish any added value
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Five single-ingredient registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

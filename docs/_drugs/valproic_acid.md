@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "VALPROIC ACID"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -130,6 +130,8 @@ For eating seizures, micturition-induced seizures, thinking seizures and reading
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/2.5/0322 | Epilim cr | Srt | Valid |
@@ -140,7 +142,15 @@ For eating seizures, micturition-induced seizures, thinking seizures and reading
 
 Showing 5 of 20 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report do not state Essential Medicines List (EML) status, so this should be checked separately.
+
+<!-- review:begin za-lic-20261105-valproic_acid-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient products, and none are cancelled. The data compiled for this report do not state Essential Medicines List (EML) status, so this should be checked separately." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 20 registrations for this drug, 20 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-valproic_acid-1 -->
 
 ---
 
@@ -190,6 +200,19 @@ The SAHPRA package insert warnings and contraindications have not been retrieved
 - For trigeminal nerve neoplasm: preclinical or clinical evidence of antitumour activity in this tumour type, otherwise no further work
 - For visual epilepsy: confirmation that photosensitive and reflex epilepsy are covered by the registered epilepsy indication, plus a pregnancy prevention and monitoring plan for women of childbearing potential
 - For trigeminal neuralgia: a comparison against carbamazepine and oxcarbazepine
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient products, and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

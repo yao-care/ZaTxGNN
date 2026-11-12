@@ -80,6 +80,8 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Phenylt
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | C0879 | Dequa-flu | capsule | Valid |
@@ -89,6 +91,8 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Phenylt
 | F/5.8/275 | Sinutab | tablet | Cancelled |
 
 Showing 5 of 13 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

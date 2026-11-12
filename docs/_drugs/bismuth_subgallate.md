@@ -72,12 +72,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Bismuth Subg
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | E0512 | Anusol Pain Relief Suppositories | suppository | Valid |
 | E/11.8/0513 | Anusol Ointment | ointment | Valid |
 | E0514 | Anusol H.C. Suppositories | Not recorded | Valid |
 | E1598 | Rectosan 'A' Ointment | ointment | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

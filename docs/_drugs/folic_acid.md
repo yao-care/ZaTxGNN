@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
@@ -95,6 +95,14 @@ These publications address vitamins in general. None demonstrates that folic aci
 
 No approved-indication text is recorded for any of them. The five main ones are listed below. Essential Medicines List (EML) status was not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-folic_acid-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 11 registrations are valid single-ingredient entries. No approved-indication text is recorded for any of them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 55 registrations for this drug, 46 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-folic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | T1205 (ACT 101/1965) | Be-tabs folic acid | tablet | Valid (status not confirmed by SAHPRA) |
@@ -105,7 +113,15 @@ No approved-indication text is recorded for any of them. The five main ones are 
 
 Showing 5 of 55 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The registration mapping should be verified against the SAHPRA register.
+
+<!-- review:begin za-lic-20261105-folic_acid-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The remaining six include Soluvit Novum (injection), Gericomplex (capsule), Linctifed wet cough (syrup), Dextrose 20% in water (infusion), ITN neonatal TPN, and Spiriva Respimat (inhaler). Several of these entries look like multivitamin or parenteral nutrition products, and some (Linctifed, Spiriva) are unlikely to contain folic acid as a relevant active ingredient. The registration mapping should be verified against the SAHPRA register." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 55 registrations for this drug, 46 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-folic_acid-2 -->
 
 ---
 
@@ -142,6 +158,20 @@ The prediction rests only on model score and general vitamin-group proximity. Th
 - Targeted evidence on folic acid in biotinidase or holocarboxylase synthetase deficiency, or biotin-related metabolic disease
 - Clarification of whether the prediction reflects a real therapeutic opportunity or a network artefact
 - Verification of the SAHPRA product-to-active-ingredient mapping and approved indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 11 registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining six include Soluvit Novum (injection), Gericomplex (capsule), Linctifed wet cough (syrup), Dextrose 20% in water (infusion), I" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

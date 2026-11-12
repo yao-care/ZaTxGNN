@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,6 +82,14 @@ Currently no related literature available.
 
 The records carry no approved-indication text. Essential Medicines List status is not recorded in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-salbutamol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Salbutamol has 10 SAHPRA registration records in the compiled data, of which 8 are valid and 2 are cancelled. The records carry no approved-indication text." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 57 registrations for this drug, 34 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-salbutamol-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/10.2.1/0032 | Airomir Autohaler | inhaler | Valid |
@@ -91,6 +99,8 @@ The records carry no approved-indication text. Essential Medicines List status i
 | 41/10.2.1/0619 | Salbu-Neb 2,5 | nebuliser | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 57 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 All of these are oral or inhaled products. No ophthalmic formulation appears among the registrations, so route compatibility with an eye condition is unresolved.
 
@@ -117,6 +127,18 @@ The prediction is model-only (Evidence Level L5), with no trials or publications
 - A route and formulation assessment, since only oral and inhaled products are registered locally
 - The SAHPRA Professional Information, to complete the warnings and contraindications review
 - A safety assessment for any ocular use, including systemic exposure and the interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Salbutamol has 10 SAHPRA registration records in the compiled data, of which 8 are valid and 2 are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

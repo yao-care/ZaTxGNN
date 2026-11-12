@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Iron Sucr
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 45/8.3/0335 | Equifer ampoule 5ml | injection | Valid |
@@ -79,6 +81,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Iron Sucr
 | A  50/2.6.5/0687 | Innofer Injection | Injection | Valid (status not confirmed by SAHPRA) |
 | 45/8.3/0550 | Zypiron 20 | injection | Valid |
 | 57/8.3/0224 | Aculefr | solution | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

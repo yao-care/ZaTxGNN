@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -75,6 +75,25 @@ The TxGNN model returned zero repurposing candidates for brimonidine tartrate in
 - **Retrieve MOA data** (DG002 — High severity): Once the DrugBank ID is resolved, query the DrugBank API to obtain mechanism of action, pharmacodynamics, and drug class information. This is required for the mechanistic plausibility analysis.
 - **Retrieve safety data** (DG001 — **Blocking** severity): Download and parse the SAHPRA-approved Professional Information (PI) PDF to extract warnings, contraindications, and drug interactions. This must be resolved before any safety screen can be initiated.
 - **Re-run the full evidence collection pipeline**: Once a valid repurposing candidate is generated, populate clinical trial and literature evidence via the ClinicalTrials.gov, PubMed, and ICTRP collectors before repeating this evaluation.
+
+<!-- review:begin za-lic-20261105-brimonidine_tartrate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "**Verify SAHPRA registration status**: Zero licences are currently recorded. Confirm whether registered products containing brimonidine tartrate (e.g., Alphagan®, Mirvaso®) hold current SAHPRA registrations or were withdrawn — zero entries may reflect a data retrieval gap rather than true non-registration. / **Re-run the full evidence collection pipeline**: Once a valid repurposing candidate is generated, populate clinical trial and literature evidence via the ClinicalTrials.gov, PubMed, and ICTRP collectors before repeating this evaluation." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 8 registrations for this drug, 8 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-brimonidine_tartrate-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "**Verify SAHPRA registration status**: Zero licences are currently recorded. Confirm whether registered products containing brimonidine tart" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

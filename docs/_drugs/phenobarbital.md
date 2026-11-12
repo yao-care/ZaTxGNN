@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -113,6 +113,8 @@ No literature was retrieved for orgasm-induced seizures or beta-ketothiolase def
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | E/2.3/107 | Sedabarb | tablet | Valid |
@@ -121,7 +123,15 @@ No literature was retrieved for orgasm-induced seizures or beta-ketothiolase def
 | E0975 (ACT 1010 | Donnatal Elixir | syrup | Valid (status not confirmed by SAHPRA) |
 | B1163 | Lethyl | tablet | Cancelled |
 
+<!-- licenses:end -->
+
 Essential Medicines List status could not be confirmed from the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-phenobarbital-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The registration status is valid (single-ingredient product). Essential Medicines List status could not be confirmed from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 5 registrations for this drug, 4 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-phenobarbital-1 -->
 
 ---
 
@@ -165,6 +175,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for official w
 - Confirm the approved indications for the registered product (Propain forte) and its EML status, noting it may be a combination-type brand despite being listed as single-ingredient
 - For the reflex epilepsies, targeted literature review and case series or registry data on phenobarbital use in these conditions
 - Deprioritise trigeminal nerve neoplasm and beta-ketothiolase deficiency unless new mechanistic evidence emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The registration status is valid (single-ingredient product)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -79,6 +79,8 @@ The publications below describe CPVT itself or treatments other than amiodarone.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/6.2/0513 | Arycor | tablet | Valid |
@@ -89,7 +91,15 @@ The publications below describe CPVT itself or treatments other than amiodarone.
 
 Showing 5 of 28 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not stated in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-amiodarone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient oral products. Essential Medicines List status is not stated in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 28 registrations for this drug, 25 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-amiodarone-1 -->
 
 ## Safety Considerations
 
@@ -111,6 +121,18 @@ Safety information is limited. Label warnings and contraindications from the SAH
 - Professional Information warnings and contraindications from SAHPRA
 - Mechanism of action data from DrugBank
 - A safety plan covering QT, conduction, thyroid, liver, lung and drug-interaction risks
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -91,6 +91,8 @@ None of these is a randomised trial of oxymetazoline in nasal cavity disease, so
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 34/16.1/0366 | Iliadin baby 5ml | Nod | Valid |
@@ -100,6 +102,8 @@ None of these is a randomised trial of oxymetazoline in nasal cavity disease, so
 | 47/16.1/0792 | Oxymist 0,025 | spray | Valid |
 
 Showing 5 of 42 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

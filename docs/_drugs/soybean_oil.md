@@ -90,10 +90,14 @@ The n-6-rich profile of soybean oil may be pro-inflammatory, so the direction of
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
 | 49/25/0066 | Nutriflex Omega Plus | infusion | Valid |
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status could not be confirmed from the data compiled for this report.
 

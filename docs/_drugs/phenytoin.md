@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PHENYTOIN"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,6 +86,8 @@ Currently no related clinical trials registered. No ClinicalTrials.gov, SANCTR o
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | B0554 | Epanutin | capsule | Valid |
@@ -96,7 +98,15 @@ Currently no related clinical trials registered. No ClinicalTrials.gov, SANCTR o
 
 Showing 5 of 14 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Oral (tablet) and injectable forms are both available.
+
+<!-- review:begin za-lic-20261105-phenytoin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products, and none are cancelled. Oral (tablet) and injectable forms are both available." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 14 registrations for this drug, 12 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-phenytoin-1 -->
 
 ---
 
@@ -135,6 +145,19 @@ SAHPRA package insert warnings and contraindications were not available for this
 - Preclinical evidence of anti-tumour activity in trigeminal nerve tumour models
 - Review of the SAHPRA-approved PI, since label warnings and contraindications were not available for this report
 - A clearer clinical question. Redirecting the work towards trigeminal neuralgia or symptom control in patients with trigeminal lesions would be better supported than a neoplasm indication, and would need its own evidence review.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products, and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

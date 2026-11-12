@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clopidogrel: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Acute coronary syndrome"
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
@@ -99,6 +99,14 @@ The abstracts available in the data compiled for this report are truncated and d
 
 Approved indication text and manufacturer details are not available in the data compiled for this report. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-clopidogrel-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Three valid single-ingredient registrations are on record. Approved indication text and manufacturer details are not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 36 registrations for this drug, 32 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-clopidogrel-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/8.2/0408 | Plavix 75 Mg | tablet | Valid (status not confirmed by SAHPRA) |
@@ -108,6 +116,8 @@ Approved indication text and manufacturer details are not available in the data 
 | 42/8.2/0128 | Clopidogrel 75 mg pd | tablet | Valid |
 
 Showing 5 of 36 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -140,6 +150,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 - Defined patient selection criteria (for example, migraine with aura and confirmed PFO) and a bleeding-risk assessment.
 - A check of local relevance, including the prevalence of PFO-related migraine in South Africa, and review of any relevant SANCTR or PACTR registrations.
 - Guidance on avoiding interacting drugs, especially proton pump inhibitors.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Three valid single-ingredient registrations are on record" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 480
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Zinc oxide"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
 description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -75,6 +75,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | E0512 | Anusol Pain Relief Suppositories | suppository | Valid |
@@ -85,7 +87,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 49 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status was not available in the data compiled for this report. The dosage forms (syrup, suppository, vial) do not match a typical topical zinc oxide product, so the product-to-ingredient mapping should be verified against the SAHPRA register before relying on it.
+
+<!-- review:begin za-lic-20261105-zinc_oxide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four registrations are valid single-ingredient entries. Essential Medicines List (EML) status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 49 registrations for this drug, 30 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-zinc_oxide-1 -->
 
 ## Safety Considerations
 
@@ -111,6 +121,19 @@ The prediction is biologically plausible and zinc is already used in dermatology
 - Confirmation of which registered products contain zinc oxide and their approved indications
 - Controlled clinical studies of topical zinc oxide in acne, including formulation and route compatibility
 - Review of other lower-ranked predictions (anorectal stricture, anal polyp, papillary conjunctivitis and others), which have no supporting evidence and no plausible mechanism, and of otitis externa, where only in vitro veterinary data exist
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

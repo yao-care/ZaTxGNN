@@ -95,6 +95,8 @@ None of these publications studies coenurosis. They concern neurocysticercosis o
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/12/0354 | Zentel | tablet | Valid |
@@ -104,6 +106,8 @@ None of these publications studies coenurosis. They concern neurocysticercosis o
 | 29/12/0552 | Paranthil Tablets | tablet | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 This is a single-ingredient product with a valid registration. Essential Medicines List status is not available in the data compiled for this report.
 

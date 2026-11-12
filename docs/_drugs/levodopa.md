@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -98,6 +98,20 @@ No publications were found for Rasmussen subacute encephalitis. The most relevan
 
 Levodopa is marketed in South Africa. Approved indication text and Essential Medicines List status were not available.
 
+<!-- review:begin za-lic-20261105-levodopa-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Levodopa is marketed in South Africa, with six valid single-ingredient registrations in the data compiled for this report. Approved indication text and Essential Medicines List status were not available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 17 registrations for this drug, 16 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-levodopa-1 -->
+
+<!-- review:begin za-lic-20261105-levodopa-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 17 registrations for this drug, 16 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-levodopa-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/5.4.1/0271 | Carbilev 25/100 | tablet | Valid |
@@ -107,6 +121,8 @@ Levodopa is marketed in South Africa. Approved indication text and Essential Med
 | 38/5.4.1/0137 | Stalevo 150/37.5 | tablet | Valid |
 
 Showing 5 of 17 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -139,6 +155,20 @@ The top-ranked prediction, Rasmussen subacute encephalitis, has no trials, no li
 - For Rasmussen subacute encephalitis, a clear mechanistic rationale before any further investigation
 - Confirmation of the intervention and relevance of NCT06831500
 - Evaluation of route and formulation compatibility for any candidate indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with six valid single-ingredient registrations in the data compiled for this report" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

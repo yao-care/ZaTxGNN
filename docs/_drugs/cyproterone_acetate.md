@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 159
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the SAHPRA registration data compiled for this report.…"
 monitor_inn: "Cyproterone acetate"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -77,6 +77,14 @@ Currently no related clinical trials registered.
 
 The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the available data.
 
+<!-- review:begin za-lic-20261105-cyproterone_acetate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 4 registrations are valid, single-ingredient oral tablets. The approved indication text was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 16 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-cyproterone_acetate-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/21.12/0515 | Androcur | tablet | Valid |
@@ -86,6 +94,8 @@ The approved indication text was not available in the data compiled for this rep
 | 29/21.8.2/0685 | Minerva | tablet | Valid |
 
 Showing 5 of 16 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The migraine prediction rests on network association and indirect hormonal plaus
 - Targeted literature review or preclinical and clinical evidence of benefit in migraine
 - A thrombosis and cardiovascular risk assessment for women with migraine, particularly with aura
 - Consideration of better-supported predictions, such as hyperandrogenic menstrual irregularity, where a Phase IV trial (NCT01103518, n=100, status unknown) and related literature exist
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 4 registrations are valid, single-ingredient oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

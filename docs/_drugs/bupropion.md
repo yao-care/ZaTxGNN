@@ -96,6 +96,8 @@ No SANCTR or PACTR identifiers were available in the data compiled for this repo
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 34/1.2/0266 | Wellbutrin Sr | Srt | Valid (status not confirmed by SAHPRA) |
@@ -105,6 +107,8 @@ No SANCTR or PACTR identifiers were available in the data compiled for this repo
 | 41/1.2/0373 | Voxra Xl 150 | tablet | Valid |
 
 Showing 5 of 30 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 The route of administration is oral. Essential Medicines List status is not available in the data compiled for this report.
 

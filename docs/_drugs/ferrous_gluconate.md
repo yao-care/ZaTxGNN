@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "FERROUS GLUCONATE"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
 description: "Ferrous Gluconate: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 52/24/0031 | Nutryelt | infusion | Valid |
@@ -78,7 +80,15 @@ Currently no related literature available.
 
 Showing 5 of 13 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not recorded in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-ferrous_gluconate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The one registration is a valid single-ingredient product. Essential Medicines List status is not recorded in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 13 registrations for this drug, 7 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ferrous_gluconate-1 -->
 
 ## Safety Considerations
 
@@ -108,6 +118,18 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 - Mechanism of action data for ferrous gluconate
 - The SAHPRA Professional Information, including warnings and contraindications
 - Expert haematology review of whether the prediction is biologically plausible
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The one registration is a valid single-ingredient product" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

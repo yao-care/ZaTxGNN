@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Glimepiride: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -72,6 +72,8 @@ Currently no related literature available for focal stiff limb syndrome. The onl
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/21.2/0060 | Amaryl 1 | tablet | Valid (status not confirmed by SAHPRA) |
@@ -82,7 +84,15 @@ Currently no related literature available for focal stiff limb syndrome. The onl
 
 Showing 5 of 46 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the compiled data.
+
+<!-- review:begin za-lic-20261105-glimepiride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid. Essential Medicines List status is not available in the compiled data. The third product, Amaryl Combi, is named as a combination product; its licence is not used here to describe the single-ingredient drug." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 46 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-glimepiride-1 -->
 
 ## Safety Considerations
 
@@ -112,6 +122,26 @@ The high TxGNN score (0.9975) is a computational prediction with no supporting t
 - A systematic literature search for glimepiride or sulfonylureas in stiff limb and stiff person syndromes
 - Mechanistic evidence for any effect on GABAergic or neuromuscular pathways
 - A hypoglycaemia risk assessment for the target population
+
+<!-- review:begin za-lic-20261106-glimepiride-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The SAHPRA package insert (warnings, contraindications, approved indications) for all three registrations" Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 46 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261106-glimepiride-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid. The third product, Amaryl Combi, is named as a combination product; its licence is not used here to descr" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-06 | Removed: "for all three registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

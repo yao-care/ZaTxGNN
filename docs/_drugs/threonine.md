@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Threonine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not available"
 monitor_inn: "THREONINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -73,6 +73,14 @@ Currently no related literature available.
 
 No approved indication text is recorded for any of them. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-threonine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Threonine is registered in South Africa only as a component of multi-ingredient products, each listed as a single-entry licence. No approved indication text is recorded for any of them." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 19 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-threonine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -83,7 +91,15 @@ No approved indication text is recorded for any of them. Essential Medicines Lis
 
 Showing 5 of 19 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 All are infusion or parenteral nutrition products.
+
+<!-- review:begin za-lic-20261105-threonine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Peripheral, Nutriflex Omega Specialized, and Nutriflex Lipid Special 625ml. All are infusion or parenteral nutrition products. No registrations are cancelled." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 19 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-threonine-2 -->
 
 ## Safety Considerations
 
@@ -106,6 +122,20 @@ The only support is a high model score (evidence level L5). There are no registe
 - Preclinical or early clinical evidence in gastroparesis
 - Assessment of route and formulation compatibility, since no required or available routes have been established
 - Review of the knowledge-graph contraindications (phenylketonuria and phenylalanine metabolism disorders) against the PI
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Threonine is registered in South Africa only as a component of multi-ingredient products, each listed as a single-entry licence" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Per" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

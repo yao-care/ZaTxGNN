@@ -87,6 +87,8 @@ Related indirect evidence exists for other predicted conditions, such as gastroj
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/11.4.1/0519 | * Gastrogel | suspension | Valid |
@@ -96,6 +98,8 @@ Related indirect evidence exists for other predicted conditions, such as gastroj
 | 41/11.4.1/0772 | Digestif Rennie Orange Tablets | tablet | Valid |
 
 Showing 5 of 45 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

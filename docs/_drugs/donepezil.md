@@ -78,6 +78,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/5.3/0315 | Aricept | tablet | Valid |
@@ -87,6 +89,8 @@ Currently no related literature available.
 | 41/5.3/0838 | Ran Donepezil 10 | tablet | Valid |
 
 Showing 5 of 42 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 This is a single-ingredient product with a valid registration. Essential Medicines List status is not available in the data compiled for this report.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 247
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "Glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -39,6 +39,12 @@ Evidence Level: **L4** | Predicted Indications: **4**
 ## One-Sentence Summary
 
 Glutamic acid is an amino acid that, in South Africa, is registered as a component of parenteral nutrition (infusion) products. The TxGNN model predicts it may be effective for **postmenopausal osteoporosis**, but there are currently **no registered clinical trials** and the **10 publications** retrieved provide only indirect support, mostly concerning vitamin K, vitamin D and bisphosphonates rather than glutamic acid itself.
+
+<!-- review:begin za-lic-20261105-glutamic_acid-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Glutamic acid is an amino acid that, in South Africa, is registered only as a component of parenteral nutrition (infusion) products." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 26 registrations for this drug, 22 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-glutamic_acid-2 -->
 
 ## Quick Overview
 
@@ -83,6 +89,14 @@ The table lists the most relevant publications. None tests glutamic acid as a tr
 
 No approved indication text or Essential Medicines List status is available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-glutamic_acid-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All five registrations are single-ingredient, valid, and listed as infusion or total parenteral nutrition (TPN) products. No approved indication text or Essential Medicines List status is available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 26 registrations for this drug, 22 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-glutamic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
@@ -92,6 +106,8 @@ No approved indication text or Essential Medicines List status is available in t
 | 49/25/0065 | Nutriflex Omega Specialized | infusion | Valid |
 
 Showing 5 of 26 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -131,6 +147,20 @@ The prediction is a research question. The TxGNN score is high, but no clinical 
 - Safety review of the SAHPRA Professional Information, including warnings and contraindications, given the renal, cardiac and calcium-related signals from the knowledge graph
 - Assessment of whether a suitable oral formulation and route exist, since current local products are infusions only
 - A registered clinical trial, once preclinical support is established
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All five registrations are single-ingredient, valid, and listed as infusion or total parenteral nutrition (TPN) products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

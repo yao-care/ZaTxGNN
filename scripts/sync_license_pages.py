@@ -11,7 +11,10 @@ dump_license_facts_20261021.py（事實）與 license_table_sync 的 sync_market
    M3／M3a／M3b／M3c（check_drug_page 的規則，含 2026-11-05 擴充）、張數精確不符（COUNT_*）、
    點名的產品狀態與新資料相反（NAMED_STATUS）、人工清單 scripts/license_sentence_fixes.json（附理由，例：LLM 開場白外洩）。
    刪完整行空掉的行拿掉，連續空行併成一行。刪掉的句子逐句寫進 --log（頁、規則、原句、依據）。
+程式區塊標記（2026-11-12 起）：程式產生的表連同 SHOW 句（或 NONE_LINE）前後各有「<!-- licenses:begin -->」「<!-- licenses:end -->」；
+--mark-existing 只替現有程式區塊補標記、不改內容；carry_block 給 sync_notes_to_docs.py 重寫頁面時移植程式區塊；rows_of 給快照用。
 用法（repo 根目錄）：python3 scripts/sync_license_pages.py --ws <工作目錄> [--dry-run] [--log out.tsv] [頁 ...]
+             python3 scripts/sync_license_pages.py --mark-existing [--dry-run]
 """
 import importlib.util
 import json
@@ -28,6 +31,11 @@ UNCONFIRMED_LAB = "Valid (status not confirmed by SAHPRA)"
 NONE_LINE = "No SAHPRA registration was found in the data compiled for this report."
 SHOW = "Showing {n} of {m} registrations (valid registrations first)."
 SHOW_RX = re.compile(r"^Showing \d+ of \d+ registrations \(valid registrations first\)\.$")
+# 程式區塊標記（2026-11-12 起，本站查核機制）：程式產生的許可證表（連同 SHOW 句，或 NONE_LINE）前後各一行，
+# 讓查核紀錄、刪句工具與 gate 分得出哪些字是程式寫的。process／resync_table 只換段落裡的表格列與 SHOW 句，
+# 標記行在表格外另起一行，不會被動到；gate 依 snapshots/za_licenses.json.gz 檢查程式區塊＝快照重算的結果。
+BEGIN = "<!-- licenses:begin -->"
+END = "<!-- licenses:end -->"
 ABBR = [("Reg. No.", "Reg․ No․"), ("e.g.", "e․g․"), ("i.e.", "i․e․"), ("vs.", "vs․"),
         ("No.", "No․"), ("et al.", "et al․"), ("approx.", "approx․"), ("Vit.", "Vit․"), ("St.", "St․")]
 QUAL = re.compile(r"\b(further|other|remaining|additional|more|main|following|first|listed|shown|showing|these|those|another)\b", re.I)
@@ -290,6 +298,75 @@ def table_block(recs, nrows):
     return HEAD.split("\n") + rows[:nrows], len(rows)
 
 
+def rows_of(tf, fc=None):
+    """快照用：(表格列（不含表頭，最多 20）, 總數)，跟 table_block 同一套排序與狀態寫法"""
+    tb, total = table_block(tf.get("records") or [], 20)
+    return tb[2:], total
+
+
+def _section(lines):
+    if SEC not in lines:
+        return None, None
+    a = lines.index(SEC) + 1
+    return a, next((k for k in range(a, len(lines)) if lines[k].startswith("## ")), len(lines))
+
+
+def mark_existing(text):
+    """現有程式區塊（表頭＝HEAD 的表＋緊接的 SHOW 句，或 NONE_LINE）補上標記，內容一字不改；已有標記或不是程式表就原樣"""
+    lines = text.split("\n")
+    if BEGIN in lines:
+        return text
+    a, b = _section(lines)
+    if a is None:
+        return text
+    hd = HEAD.split("\n")
+    x = next((k for k in range(a, b - 1) if lines[k].strip() == hd[0] and lines[k + 1].strip() == hd[1]), None)
+    if x is None:
+        k = next((k for k in range(a, b) if lines[k].strip() == NONE_LINE), None)
+        if k is None:
+            return text
+        x = y = k
+    else:
+        y = x + 1
+        while y + 1 < b and lines[y + 1].startswith("|"):
+            y += 1
+        j = y + 1
+        while j < b and not lines[j].strip():
+            j += 1
+        if j < b and SHOW_RX.match(lines[j].strip()):
+            y = j
+    head = lines[:x]
+    while head and not head[-1].strip():
+        head.pop()
+    rest = lines[y + 1:]
+    while rest and not rest[0].strip():
+        rest.pop(0)
+    return "\n".join(head + ["", BEGIN, ""] + lines[x:y + 1] + ["", END, ""] + rest)
+
+
+def carry_block(old_text, new_text):
+    """sync_notes_to_docs.py 重寫整頁時用：舊頁的程式區塊（BEGIN…END）移植到新頁的市場段落，取代新頁段落裡的第一張表
+    （連同緊接的 SHOW 句）；新頁段落沒有表時接在段落開頭。舊頁沒有程式區塊就原樣回傳新頁。"""
+    old = old_text.replace("\r\n", "\n").split("\n")
+    if BEGIN not in old or END not in old:
+        return new_text
+    blk = old[old.index(BEGIN):old.index(END) + 1]
+    lines = [l for l in new_text.split("\n") if l.strip() not in (BEGIN, END)]
+    a, b = _section(lines)
+    if a is None:
+        return new_text
+    tb = [k for k in range(a, b) if lines[k].startswith("|")]
+    if not tb:
+        out = lines[:a] + [""] + blk + [""] + lines[a:]
+    else:
+        x = y = tb[0]
+        while y + 1 < b and lines[y + 1].startswith("|"):
+            y += 1
+        rest = [l for l in lines[y + 1:b] if not SHOW_RX.match(l.strip())]
+        out = lines[:x] + blk + [""] + rest + lines[b:]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(out))
+
+
 def process(ck, page, fc, bundle, manual):
     raw = page.read_bytes().decode("utf-8")
     crlf = "\r\n" in raw[:500]
@@ -480,6 +557,21 @@ def resync_tables(bundles):
 
 
 def main(argv):
+    if "--mark-existing" in argv:
+        n = 0
+        for page in sorted((ROOT / "docs/_drugs").glob("*.md")):
+            raw = page.read_bytes().decode("utf-8")
+            if "layout: id_redirect" in raw[:3000] or 'http-equiv="refresh"' in raw[:3000]:
+                continue
+            crlf = "\r\n" in raw[:500]
+            t0 = raw.replace("\r\n", "\n")
+            new = mark_existing(t0)
+            if BEGIN in new and BEGIN not in t0:
+                n += 1
+                if "--dry-run" not in argv:
+                    page.write_bytes((new.replace("\n", "\r\n") if crlf else new).encode("utf-8"))
+        print(f"程式區塊標記：補上 {n} 頁")
+        return
     ws = Path(argv[argv.index("--ws") + 1])
     dry = "--dry-run" in argv
     logf = argv[argv.index("--log") + 1] if "--log" in argv else None

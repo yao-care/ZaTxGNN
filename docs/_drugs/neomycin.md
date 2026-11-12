@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Neomycin, so
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 50/20.1.1/0250 | Polygynax® | Pvc | Valid |
@@ -88,6 +90,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Neomycin, so
 | H1258 | Betnesol 'n' 10ml | drops | Valid |
 
 Showing 12 of 65 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

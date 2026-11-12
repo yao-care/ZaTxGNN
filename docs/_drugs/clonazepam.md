@@ -91,6 +91,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 45/2.5/0820 | Clonam 0,5 | tablet | Valid |
@@ -100,6 +102,8 @@ Currently no related clinical trials registered.
 | F/2.5/187 | Rivotril | injection | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

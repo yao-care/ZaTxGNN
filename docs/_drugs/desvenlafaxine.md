@@ -76,6 +76,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/1.2/0427 | Exsira | Srt | Valid |
@@ -85,6 +87,8 @@ Currently no related clinical trials registered.
 | 52/1.2/0505 | Deslafore Xr 50 | tablet | Valid |
 
 Showing 5 of 24 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

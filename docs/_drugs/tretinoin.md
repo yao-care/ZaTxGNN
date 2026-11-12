@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tretinoin"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
 description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,6 +83,8 @@ Currently no related literature available for rheumatoid nodulosis.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | F/13.12/106 | Retin A | cream | Valid |
@@ -93,7 +95,15 @@ Currently no related literature available for rheumatoid nodulosis.
 
 Showing 5 of 11 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status could not be determined from the data compiled.
+
+<!-- review:begin za-lic-20261105-tretinoin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid, single-ingredient entries and all are topical formulations. This matters because the predicted systemic or joint-related indications would likely require a different route than the topical products currently registered. Essential Medicines List (EML) status could not be determined from the data compiled." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 11 registrations for this drug, 11 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tretinoin-1 -->
 
 ---
 
@@ -137,6 +147,19 @@ The prediction rests solely on a computational score, with no clinical trials, n
 - A route-of-administration assessment, since the registered products are topical only
 - Review of the dermatological prediction (folliculitis decalvans) as a possibly more plausible alternative candidate
 - Paediatric and reproductive safety review before considering any juvenile arthritis indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid, single-ingredient entries and all are topical formulations. This matters because the predicted systemic o" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

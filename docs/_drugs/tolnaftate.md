@@ -74,6 +74,8 @@ The TxGNN model's candidates for Tolnaftate are all already known uses, so there
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | G2331 | Quadriderm | cream | Valid |
@@ -81,6 +83,8 @@ The TxGNN model's candidates for Tolnaftate are all already known uses, so there
 | P/13.9.2/199 | Scholl ATHLETE'S Foot Powder | powder | Valid |
 | P/13.9.2/202 | Scholl ATHLETE'S Foot Treatment | solution | Valid |
 | G2330 | Tinaderm Cream | Not recorded | Cancelled |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

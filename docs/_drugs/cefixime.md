@@ -81,6 +81,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefixime, so
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 51/20.1.1/0073 | Exsef | tablet | Valid |
@@ -88,6 +90,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefixime, so
 | 53/20.1.1/0172 | Cefixime 400 Tablets Resmed | tablet | Valid |
 | W/20.1.1/255 | Fixime 200 mg | tablet | Cancelled |
 | W/20.1.1/257 | Fixime Paediatric 100 mg/5 ml* | suspension | Cancelled |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

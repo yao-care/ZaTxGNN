@@ -84,6 +84,8 @@ None of the publications below tests itraconazole against pneumocystosis. They a
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/20.2.2/0559 | Adco-sporozole | capsule | Valid |
@@ -93,6 +95,8 @@ None of the publications below tests itraconazole against pneumocystosis. They a
 | A39/20.1.7/0383 | Mylan Itraconazole 100 Mg | capsule | Valid |
 
 Showing 5 of 9 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

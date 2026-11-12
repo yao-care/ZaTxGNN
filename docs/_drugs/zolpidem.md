@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,6 +101,8 @@ No SANCTR or PACTR identifiers are available in the data compiled for this repor
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/2.2/0651 | Stilnox | tablet | Valid |
@@ -111,7 +113,15 @@ No SANCTR or PACTR identifiers are available in the data compiled for this repor
 
 Showing 5 of 32 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report does not state Essential Medicines List (EML) status.
+
+<!-- review:begin za-lic-20261105-zolpidem-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient products. The data compiled for this report does not state Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 32 registrations for this drug, 28 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-zolpidem-1 -->
 
 ---
 
@@ -144,6 +154,19 @@ The top-ranked prediction coincides with zolpidem's established insomnia use. It
 - The SAHPRA-approved package insert, to obtain warnings, contraindications, approved indications and complex-sleep-behaviour precautions.
 - Mechanism of action data from DrugBank.
 - Prescribing guardrails: short-term use, lowest effective dose, caution in older adults, hepatic impairment, sleep apnoea and substance-use history, and screening for interacting CNS depressants (especially opioids).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

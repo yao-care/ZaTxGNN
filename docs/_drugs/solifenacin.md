@@ -72,6 +72,8 @@ The TxGNN model's candidates for Solifenacin (score ≥ 0.99) are all already kn
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 48/5.4/0139 | Solifenacin 5 Teva | Fct | Valid |
@@ -81,6 +83,8 @@ The TxGNN model's candidates for Solifenacin (score ≥ 0.99) are all already kn
 | 49/5.4/0130 | Furlin 5 | Fct | Valid |
 
 Showing 5 of 49 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

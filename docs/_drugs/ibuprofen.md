@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ibuprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,6 +74,14 @@ Currently no related literature available.
 
 Ibuprofen is marketed in South Africa. Indication text is not recorded in the local data. The table below lists five of the registrations.
 
+<!-- review:begin za-lic-20261105-ibuprofen-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Ibuprofen is marketed in South Africa, and all 19 registrations are valid. Indication text is not recorded in the local data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 151 registrations for this drug, 130 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ibuprofen-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/2.7/0240 | Ibu | tablet | Valid |
@@ -83,6 +91,8 @@ Ibuprofen is marketed in South Africa. Indication text is not recorded in the lo
 | 34/2.7/0290 | Nurofen Express | tablet | Valid |
 
 Showing 5 of 151 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,6 +115,19 @@ The prediction has no supporting trials or literature and no plausible mechanist
 - Preclinical or clinical evidence that directly studies this disease
 - SAHPRA Professional Information, including warnings and contraindications
 - A safety assessment for the target population, which would likely include children and pregnancy-related exposure
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "and all 19 registrations are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

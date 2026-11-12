@@ -48,10 +48,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | C/11.10/59 | Pankreoflat | tablet | Valid |
 | E1691 | Propan Gel | suspension | Cancelled |
+
+<!-- licenses:end -->
 
 No Essential Medicines List (EML) status was available in the data compiled for this report.
 

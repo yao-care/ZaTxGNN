@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lamivudine: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -88,6 +88,14 @@ Currently no related clinical trials registered. No SANCTR or PACTR entries were
 
 Lamivudine is marketed in South Africa. The record set may be partial. Approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-lamivudine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The local data show 20 valid registrations and no cancelled ones. The record set may be partial." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 198 registrations for this drug, 143 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-lamivudine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/20.2.8/0366 | 3tc | tablet | Valid |
@@ -97,6 +105,8 @@ Lamivudine is marketed in South Africa. The record set may be partial. Approved 
 | 43/20.2.8/0832 | Aspen Lamivudine 300Mg | tablet | Valid |
 
 Showing 5 of 198 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,6 +137,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings, 
 - Confirmation of whether any veterinary development is intended, since veterinary medicines fall under separate regulation from human medicines
 - Studies that isolate lamivudine's own contribution in FIV-infected cats
 - Mechanism-of-action data and SAHPRA Professional Information safety data (warnings and contraindications)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The local data show 20 valid registrations and no cancelled ones" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

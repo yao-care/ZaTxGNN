@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "METOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and myocardial infarction"
 ---
 
@@ -81,11 +81,21 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | H/5.2/72 | Lopresor | tablet | Cancelled |
 
+<!-- licenses:end -->
+
 This is a single-ingredient product. Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-metoprolol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "This is a single-ingredient product, currently valid. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 1 registration for this drug, 0 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-metoprolol-1 -->
 
 ---
 
@@ -131,6 +141,19 @@ The top prediction has no supporting trials or publications, and its score comes
 - Mechanism of action data from DrugBank
 - A literature and trial search specific to malignant hypertensive renal disease
 - Clinical expert review of whether oral beta-blockade has any role beyond conventional management of malignant hypertension
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

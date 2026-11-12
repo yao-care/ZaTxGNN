@@ -74,9 +74,13 @@ The available studies concern sore throat or mucosal injury after surgery or rad
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | H1501 | Nazene Z 20ml | spray | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

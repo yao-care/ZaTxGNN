@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the SAHPRA registration data (general pharmacology sour…"
 monitor_inn: "Etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -86,6 +86,8 @@ Publications linked to the top prediction (migraine disorder) and to the closest
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/3.1/0399 | Arcoxia | tablet | Valid |
@@ -96,7 +98,15 @@ Publications linked to the top prediction (migraine disorder) and to the closest
 
 Showing 5 of 111 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-etoricoxib-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Etoricoxib has 1 valid single-ingredient registration. Essential Medicines List (EML) status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 111 registrations for this drug, 98 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-etoricoxib-1 -->
 
 ## Safety Considerations
 
@@ -118,6 +128,19 @@ The migraine prediction rests on a high model score and biological plausibility,
 - A structured literature search for controlled studies of etoricoxib or other COX-2 inhibitors in migraine and in indomethacin-responsive headaches
 - A defined target population and a cardiovascular and renal risk assessment before any study design
 - Confirmation of EML status and of the approved indication in the South African context
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Etoricoxib has 1 valid single-ingredient registration" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

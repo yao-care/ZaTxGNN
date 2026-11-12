@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diazepam: predicted new indication insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -89,6 +89,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | B/2.6/1002 | Valium 2 Mg | tablet | Valid (status not confirmed by SAHPRA) |
@@ -99,7 +101,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 38 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the compiled data.
+
+<!-- review:begin za-lic-20261105-diazepam-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "One single-ingredient registration is currently valid. Essential Medicines List status is not available in the compiled data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 38 registrations for this drug, 24 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-diazepam-1 -->
 
 ---
 
@@ -128,6 +138,19 @@ The mechanism is plausible and the benzodiazepine class is established as a hypn
 - Detailed mechanism of action data
 - SAHPRA Professional Information warnings and contraindications for review
 - A risk-benefit assessment of dependence, falls and cognitive effects, particularly in older patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "One single-ingredient registration is currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

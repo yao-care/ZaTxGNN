@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,6 +101,20 @@ Note: summaries are based mainly on titles and partial abstracts.
 
 Tenofovir disoproxil is widely registered in South Africa. Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-tenofovir_disoproxil-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Tenofovir disoproxil is widely registered in South Africa, with 18 valid registrations (all single-ingredient entries, none cancelled). Approved indication text is not available in the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 137 registrations for this drug, 107 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tenofovir_disoproxil-1 -->
+
+<!-- review:begin za-lic-20261105-tenofovir_disoproxil-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The remaining 13 registrations include Imavec (capsule), Tenemine, Tencitab, Adco emtevir, Tenofovir Winthrop, Ranega, Luvigen, Hetripco, Delstrigo, Milutin, Teevir and Triovir, plus one topical gel entry (Xamiol). These registrations should be verified against the SAHPRA register, because the topical gel entry appears unusual for tenofovir." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 137 registrations for this drug, 107 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tenofovir_disoproxil-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 43/20.2.8/0181 | Aspen tenofovir | tablet | Valid |
@@ -110,6 +124,8 @@ Tenofovir disoproxil is widely registered in South Africa. Approved indication t
 | 46/20.2.8/0040 | Tenofovir Winthrop | Fct | Valid |
 
 Showing 5 of 137 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -135,6 +151,20 @@ The top predicted indication is a veterinary disease supported by one combinatio
 - Detailed mechanism of action data, for example from DrugBank
 - A clear decision on whether veterinary indications are in scope for this programme; if not, re-screen for human indications
 - Review of the lower-ranked predictions for plausible human indications, since ranks 3 and 4 currently have no supporting evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 18 valid registrations (all single-ingredient entries, none cancelled)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining 13 registrations include Imavec (capsule), Tenemine, Tencitab, Adco emtevir, Tenofovir Winthrop, Ranega, Luvigen, Hetripco, De" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

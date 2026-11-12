@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -114,6 +114,8 @@ Note: the other retrieved items for ranks 3 and 5 are preclinical studies or con
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/12/0082 | Adco-wormex | tablet | Valid (status not confirmed by SAHPRA) |
@@ -124,7 +126,15 @@ Note: the other retrieved items for ranks 3 and 5 are preclinical studies or con
 
 Showing 5 of 25 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status could not be confirmed from the data compiled for this report. Neither registration is for acne or echinococcosis based on available information, so any such use would be off-label.
+
+<!-- review:begin za-lic-20261105-mebendazole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 25 registrations for this drug, 20 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-mebendazole-1 -->
 
 ---
 
@@ -154,6 +164,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 - For acne or other L5 predictions: preclinical or case-level evidence of a plausible mechanism before any further consideration
 - For echinococcosis: confirmation of the design and size of the key studies, comparison against current guidance (albendazole generally preferred), and a hepatic monitoring plan
 - Confirmation of EML status and the registered indications for Cipex and Adco-wormex
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 339
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nevirapine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -94,6 +94,14 @@ The literature below was retrieved for this prediction. Most of it is in vitro o
 
 The registration records contain no approved indication text, and the data compiled for this report do not show Essential Medicines List (EML) status.
 
+<!-- review:begin za-lic-20261105-nevirapine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four registrations are valid, single-ingredient oral tablets. The registration records contain no approved indication text, and the data compiled for this report do not show Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 38 registrations for this drug, 22 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-nevirapine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/20.2.8/0640 | Viramune 200 Mg | tablet | Valid (status not confirmed by SAHPRA) |
@@ -103,6 +111,8 @@ The registration records contain no approved indication text, and the data compi
 | 42/20.2.8/0661 | Nevir | tablet | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 38 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,6 +141,19 @@ Nevirapine's label warnings and contraindications were not available in the data
 - SAHPRA Professional Information (warnings and contraindications), since the lack of safety data blocks safety screening
 - Direct evidence of nevirapine activity against the target virus or condition, which is unlikely for SIV given its natural resistance
 - Prioritising other candidate indications that are relevant to human disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four registrations are valid, single-ingredient oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

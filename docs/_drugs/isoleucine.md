@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Isoleucine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "ISOLEUCINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -74,6 +74,20 @@ Currently no related literature available.
 
 The data compiled for this report does not include approved indication text or Essential Medicines List (EML) status. The five main registrations are listed below.
 
+<!-- review:begin za-lic-20261105-isoleucine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 10 registrations are valid single-ingredient-category licences. The data compiled for this report does not include approved indication text or Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 45 registrations for this drug, 27 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-isoleucine-1 -->
+
+<!-- review:begin za-lic-20261105-isoleucine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Five further registrations exist: Numeta G16E, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml, and Adco-ipratropium (ni201), the last of which is listed as a vial. Its link to isoleucine is unclear and should be verified against the SAHPRA record." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 45 registrations for this drug, 27 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-isoleucine-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -83,6 +97,8 @@ The data compiled for this report does not include approved indication text or E
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
 Showing 5 of 45 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +124,20 @@ The prediction is supported only by a model score (Evidence Level L5). There are
 - A literature search for amino acid or isoleucine effects on gastric emptying and nutritional outcomes in gastroparesis
 - Assessment of route compatibility, since current registrations are infusion-based and the route needed for gastroparesis is undetermined
 - If preclinical or mechanistic support emerges, a safety review for patients with renal or cardiac disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 10 registrations are valid single-ingredient-category licences" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Five further registrations exist: Numeta G16E, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml, and Adco-" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

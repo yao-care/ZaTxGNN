@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,6 +71,14 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 Approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status could not be confirmed from the data provided.
 
+<!-- review:begin za-lic-20261105-trimethoprim-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All nine registrations are valid single-ingredient products. Approved indication text was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 76 registrations for this drug, 53 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-trimethoprim-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/20.2/0077 | Xeroprim | tablet | Valid |
@@ -81,7 +89,15 @@ Approved indication text was not available in the data compiled for this report.
 
 Showing 5 of 76 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 No ophthalmic formulation appears among the registrations listed, which matters for the predicted ocular indication.
+
+<!-- review:begin za-lic-20261105-trimethoprim-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The remaining four registrations are Purbac injection 5ml (L/20.2/336), Xerazole Suspension (28/20.2/0389), Co-Trimoxazole 960 Biotech (W/20.2.1/88) and Cotrizid (52/20.2/0208). No ophthalmic formulation appears among the registrations listed, which matters for the predicted ocular indication." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 76 registrations for this drug, 53 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-trimethoprim-2 -->
 
 ## Safety Considerations
 
@@ -103,6 +119,20 @@ The TxGNN score is very high, but there are no trials or publications for puncta
 - Confirmation of whether an ophthalmic formulation is registered or obtainable in South Africa
 - SAHPRA Professional Information warnings and contraindications
 - Mechanism of action data to support the mechanistic link
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All nine registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining four registrations are Purbac injection 5ml (L/20.2/336), Xerazole Suspension (28/20.2/0389), Co-Trimoxazole 960 Biotech (W/20" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Phenylpropanolamine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLPROPANOLAMINE"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder"]
@@ -90,6 +90,20 @@ Currently no related clinical trials registered.
 
 The compiled records contain no approved indication text and no manufacturer details. Essential Medicines List (EML) inclusion status is not available in the compiled data.
 
+<!-- review:begin za-lic-20261105-phenylpropanolamine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 6 registrations are valid single-ingredient products. The compiled records contain no approved indication text and no manufacturer details." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 39 registrations for this drug, 20 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-phenylpropanolamine-1 -->
+
+<!-- review:begin za-lic-20261105-phenylpropanolamine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "One further registration is held for Sinutab With Codeine (Reg. No. F/5.8/279, tablet)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 39 registrations for this drug, 20 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-phenylpropanolamine-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/5.8/0101 | Sinuclear | capsule | Valid |
@@ -99,6 +113,8 @@ The compiled records contain no approved indication text and no manufacturer det
 | M/5.8/67 | Rinex diffucaps | capsule | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 39 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,6 +143,20 @@ The predicted indication "nasal cavity disease" largely overlaps with the existi
 - Approved indication text for each South African registration
 - A clear definition of what is genuinely new compared with the current label, and a benefit-risk assessment that addresses the haemorrhagic stroke concern
 - Evaluation of alternative routes or formulations (for example topical) and of safer comparators such as pseudoephedrine
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 6 registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "One further registration is held for Sinutab With Codeine (Reg. No. F/5.8/279, tablet)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 ---
 
@@ -80,6 +80,14 @@ Currently no related clinical trials registered.
 
 Listed below are 5 of the at least 20 registrations found; the list may be partial. The records compiled for this report contain no approved indication text and no Essential Medicines List (EML) information.
 
+<!-- review:begin za-lic-20261105-emtricitabine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All are single-ingredient records with valid status. The records compiled for this report contain no approved indication text and no Essential Medicines List (EML) information." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 87 registrations for this drug, 78 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-emtricitabine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 43/20.2.8/0130 | Tencitab | tablet | Valid |
@@ -89,6 +97,8 @@ Listed below are 5 of the at least 20 registrations found; the list may be parti
 | 44/20.2.8/0780 | Trenvir | tablet | Valid |
 
 Showing 5 of 87 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +124,19 @@ The predicted indication is a veterinary disease. It has no registered clinical 
 - Approved indication text for the SAHPRA registrations
 - Review of the full text of the FIV study and, if the veterinary direction is pursued, studies that isolate emtricitabine's effect in cats
 - Veterinary regulatory and clinical expertise, as this prediction is outside the scope of human medicine regulation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All are single-ingredient records with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

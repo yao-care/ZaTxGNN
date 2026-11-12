@@ -75,6 +75,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Brimonidine,
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 45/15.4/0688 | Brimoct 5ml | drops | Valid |
@@ -84,6 +86,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Brimonidine,
 | A39/15.4/0202 | Alphagan purite 5ml | drops | Valid |
 
 Showing 5 of 8 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -88,6 +88,8 @@ No publication tests citric acid as a treatment for stomach disease. The most re
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | A39/11.5/0058 | Picolax 16.1g | sachet | Valid |
@@ -97,6 +99,8 @@ No publication tests citric acid as a treatment for stomach disease. The most re
 | 27/18.3/0542 | CITROSOL* | talbet | Valid |
 
 Showing 5 of 67 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 

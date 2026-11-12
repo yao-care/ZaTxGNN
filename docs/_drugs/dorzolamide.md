@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,6 +74,12 @@ Currently no related literature available.
 
 Approved-indication text and manufacturer details are not recorded in the local data, so inclusion on the Essential Medicines List could not be assessed from the data compiled for this report. The registration table is generated separately from the licence records.
 
+<!-- review:begin za-lic-20261105-dorzolamide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Two SAHPRA registrations are recorded as valid, both single-ingredient products supplied as drops. No registration is cancelled. Approved-indication text and manufacturer details are not recorded in the local data, so inclusion on the Essential Medicines List could not be assessed from the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 34 registrations for this drug, 30 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-dorzolamide-1 -->
+
 ## Safety Considerations
 
 Package-insert warnings and contraindications are not available in the data compiled for this report. This is a blocking data gap. Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
@@ -98,6 +104,19 @@ The prediction has no supporting trials or publications, no plausible mechanism,
 - Preclinical or clinical evidence that directly studies this condition
 - Assessment of route and formulation feasibility, since the local products are eye drops only
 - The SAHPRA package insert, so that warnings and contraindications can be reviewed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Two SAHPRA registrations are recorded as valid, both single-ingredient products supplied as drops. No registration is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

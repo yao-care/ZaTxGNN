@@ -89,6 +89,8 @@ None of the retrieved publications directly studies respiratory malformation. Th
 
 Formoterol is marketed in South Africa. Two single-ingredient registrations are listed, both valid. No approved indication text is recorded in the local data.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/10.2.1/0624 | Foradil dry powder inhalation | capsule | Valid (status not confirmed by SAHPRA) |
@@ -98,6 +100,8 @@ Formoterol is marketed in South Africa. Two single-ingredient registrations are 
 | 42/21.5.1/0895 | Innuvair 100mcg/6mcg 120 dose | inhaler | Valid |
 
 Showing 5 of 31 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 

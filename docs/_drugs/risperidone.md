@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,6 +72,20 @@ Currently no related literature available.
 
 Risperidone is marketed in South Africa as single-ingredient products. The five main ones are listed below. The approved indication text was not available in the data compiled.
 
+<!-- review:begin za-lic-20261105-risperidone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Seven valid registrations were found, and none are cancelled. The five main ones are listed below." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 147 registrations for this drug, 116 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-risperidone-1 -->
+
+<!-- review:begin za-lic-20261105-risperidone-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Two further registrations are not listed above: Rispevon (tablet) and Mylan Risperidone 0,5 (tablet)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 147 registrations for this drug, 116 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-risperidone-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/2.6.5/0235 | Risperdal | tablet | Valid |
@@ -81,6 +95,8 @@ Risperidone is marketed in South Africa as single-ingredient products. The five 
 | 33/2.6.5/0111 | Risperdal | tablet | Valid |
 
 Showing 5 of 147 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -112,6 +128,20 @@ The prediction rests on a model score alone, with no clinical trials, no publica
 - Mechanism of action data and the SAHPRA Professional Information for a full safety review
 
 It has two completed Phase 3 trials of adjunctive risperidone in treatment-resistant depression (NCT00095134, n=630; NCT00044681, n=258) and supportive meta-analyses. It would merit its own evaluation. Several other predictions (trichotillomania, Phelan-McDermid syndrome) rest only on case reports or preclinical work, and Asperger syndrome overlaps with the already approved autism indication.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Seven valid registrations were found, and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Two further registrations are not listed above: Rispevon (tablet) and Mylan Risperidone 0,5 (tablet)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

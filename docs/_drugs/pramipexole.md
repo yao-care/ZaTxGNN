@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 383
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -89,6 +89,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/5.4.1/0298 | Pexola | tablet | Valid |
@@ -98,6 +100,8 @@ Currently no related clinical trials registered.
 | 42/5.4.1/1023 | Pexasp | tablet | Valid |
 
 Showing 5 of 63 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -110,6 +114,12 @@ Showing 5 of 63 registrations (valid registrations first).
   - Metoclopramide
   - Dronabinol and nabilone
 - Ranitidine interactions are rated minor, and many others have an unknown severity rating.
+
+<!-- review:begin za-lic-20261105-pramipexole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient oral tablets." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 63 registrations for this drug, 58 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-pramipexole-1 -->
 
 Please refer to the SAHPRA-approved PI for warnings and precautions. Report adverse drug reactions to SAHPRA.
 
@@ -129,6 +139,19 @@ The very high TxGNN score is a computational prediction. No ADHD-specific clinic
 - A safety assessment for neuropsychiatric populations, including impulse-control and psychotic risk
 
 **Note on other predictions:** In the same prediction list, **schizophrenia** (rank 9) has stronger evidence than ADHD. It has a Phase 3 add-on trial (NCT01320982, status unknown) and a 2022 randomised controlled trial (PMID 35921506). However, psychotic disorders also appear among the knowledge-graph contraindications, so this signal needs careful review. It would be better assessed in a separate report.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CALCIFEDIOL"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Calcifediol: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -78,12 +78,22 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
 | H2466 | Complenatal Ff | capsule | Valid (status not confirmed by SAHPRA) |
 
+<!-- licenses:end -->
+
 The available dosage form is oral capsule.
+
+<!-- review:begin za-lic-20261105-calcifediol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are currently valid single-ingredient records, and the available dosage form is oral capsule." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 2 registrations for this drug, 2 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-calcifediol-1 -->
 
 ---
 
@@ -111,6 +121,19 @@ The prediction is supported only by the model score, with no trials or publicati
 - SAHPRA Professional Information (warnings, contraindications, approved indications) for the registered products
 - Detailed mechanism of action data
 - Review of the major interactions and the calcium and renal risk profile before considering any new-use plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are currently valid single-ingredient records, and t" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

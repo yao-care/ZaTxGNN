@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Travoprost"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
@@ -98,6 +98,8 @@ Selected publications retrieved under the broader "vascular disease" and hemangi
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/15.4/0333 | Travatan 2.5ml | drops | Valid |
@@ -108,7 +110,15 @@ Selected publications retrieved under the broader "vascular disease" and hemangi
 
 Showing 5 of 11 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status could not be confirmed from the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-travoprost-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are currently valid. Essential Medicines List status could not be confirmed from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 11 registrations for this drug, 11 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-travoprost-1 -->
 
 ## Safety Considerations
 
@@ -132,6 +142,19 @@ The prediction for visceral calciphylaxis rests on a model score alone, with no 
 - Mechanism of action data, which is currently missing
 - SAHPRA Professional Information warnings and contraindications (not yet reviewed)
 - A route and formulation assessment, since the only registered forms are eye drops with negligible systemic exposure
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

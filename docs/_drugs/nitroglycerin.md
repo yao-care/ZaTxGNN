@@ -85,12 +85,16 @@ No SANCTR or PACTR identifiers were found in the data compiled for this report.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | H0513 | Angised | tablet | Valid |
 | W/7.1/392 | Nitrocine 10ml | injection | Valid |
 | P/7.1.4/281 | Nitrolingual | inhaler | Valid (status not confirmed by SAHPRA) |
 | K/7.1.4/292 | NITRO-BID* | ointment | Cancelled |
+
+<!-- licenses:end -->
 
 The Essential Medicines List (EML) status of this product could not be determined from the data compiled for this report.
 

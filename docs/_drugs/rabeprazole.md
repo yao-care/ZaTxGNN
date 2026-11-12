@@ -73,6 +73,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazo
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/11.4.3/0614 | Pariet | tablet | Valid |
@@ -82,6 +84,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Rabeprazo
 | 48/11.4.3/1095 | Baprez 10 Ec | tablet | Valid |
 
 Showing 5 of 18 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

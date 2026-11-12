@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 255
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease (other listed indications include adrenocortical i…"
 monitor_inn: "Hydrocortisone acetate"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
@@ -81,6 +81,14 @@ Other predicted indications in the list (telogen effluvium, alopecia mucinosa, f
 
 No approved indication text is available for either.
 
+<!-- review:begin za-lic-20261105-hydrocortisone_acetate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products in cream (topical) form. No approved indication text is available for either." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 67 registrations for this drug, 43 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-hydrocortisone_acetate-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/21.5/0016 | Cortaject 100 Mg | injection | Valid |
@@ -90,6 +98,8 @@ No approved indication text is available for either.
 | H/13.4.1/107 | Locoid | cream | Valid |
 
 Showing 5 of 67 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 
@@ -119,6 +129,19 @@ The only supporting trial used hydrocortisone as a low-potency comparator, and t
 - SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
 - Approved indication text for the registered products, and confirmation of route compatibility (the registered products are creams only, while the older literature describes intralesional injection)
 - Any direct comparative or placebo-controlled evidence of hydrocortisone in alopecia areata
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products in cream (topical) form" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

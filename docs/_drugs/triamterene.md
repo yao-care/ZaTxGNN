@@ -96,12 +96,16 @@ No literature was retrieved for the top predicted indication. Two publications w
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/10.1/0295 | Loretic | tablet | Valid |
 | U/18.1/72 | Renezide | tablet | Cancelled |
 | G/18.1/71 | Dyazide Tablets | tablet | Cancelled |
 | W/18.1/114 | Sandoz CO-TRIAMTERZIDE 50/25 | tablet | Cancelled |
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
 

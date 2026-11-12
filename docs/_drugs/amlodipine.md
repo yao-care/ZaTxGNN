@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -87,6 +87,12 @@ Currently no related literature available for brain stem infarction.
 - The detailed registration table is added by the site programme from the licence records.
 - Essential Medicines List status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-amlodipine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The local data show 20 valid SAHPRA registrations and no cancelled ones. All are single-ingredient records, but the records may be partial. / Approved indication text is not recorded in the local data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 326 registrations for this drug, 301 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-amlodipine-1 -->
+
 ---
 
 ## Safety Considerations
@@ -113,6 +119,19 @@ The prediction score is very high, but no trial or publication directly studies 
 - Detailed mechanism of action data
 - Review of the SAHPRA Professional Information for warnings and contraindications
 - A safety assessment for hypotension in acute ischaemic settings, plus a review of interactions with commonly co-prescribed medicines
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The local data show 20 valid SAHPRA registrations and no cancelled ones. All are single-ingredient records, but the records may be partial" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

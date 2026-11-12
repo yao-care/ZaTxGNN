@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the registration data compiled for this report"
 monitor_inn: "PHENYLALANINE"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -90,6 +90,20 @@ Currently no related clinical trials registered.
 
 Approved indication text is not available in the data compiled for this report. Essential Medicines List (EML) status was not available. The five main registrations are shown below.
 
+<!-- review:begin za-lic-20261105-phenylalanine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 11 registrations are currently valid single-entity registrations. Approved indication text is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 26 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-phenylalanine-1 -->
+
+<!-- review:begin za-lic-20261105-phenylalanine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Other registrations include Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml and Adco-Ipratropium (ni201). The Adco-Ipratropium entry is listed as a vial and looks unusual for a phenylalanine-containing product, so its link to this drug should be verified." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 26 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-phenylalanine-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -99,6 +113,8 @@ Approved indication text is not available in the data compiled for this report. 
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
 Showing 5 of 26 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -128,6 +144,20 @@ The prediction is supported only by a model score. There are no clinical trials,
 - Targeted literature search for a biological rationale linking phenylalanine to sclerosing cholangitis
 - Preclinical evidence of benefit and safety in cholestatic liver disease
 - Verification of the Adco-Ipratropium registration link
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 11 registrations are currently valid single-entity registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Other registrations include Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml and" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -74,6 +74,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oseltamivir,
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/20.2.8/0798 | Oselflu | capsule | Valid (status not confirmed by SAHPRA) |
@@ -83,6 +85,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oseltamivir,
 | 48/20.2.8/0963 | Tamygen | capsule | Valid |
 
 Showing 5 of 35 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

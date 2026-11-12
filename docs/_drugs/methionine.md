@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "immature cataract", "tetanic cataract", "mature cataract", "cortical cataract", "craniostenosis cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "diabetic cataract"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence records (the registered products are parent…"
 ---
 
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 Methionine is an essential sulphur-containing amino acid. In South Africa it is registered as an ingredient of parenteral nutrition and dialysis solutions, and no approved indication text is available in the data compiled for this report.
 The TxGNN model predicts it may be effective for **acne (disease)**, but there are **0 clinical trials** and only **2 publications**, neither of which tests methionine as a treatment.
 This is a model prediction only (evidence level L5) and the recommendation is **Hold**.
+
+<!-- review:begin za-lic-20261105-methionine-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "In South Africa it is registered only as an ingredient of parenteral nutrition and dialysis solutions, and no approved indication text is available in the data compiled for this report." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 33 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-methionine-3 -->
 
 ---
 
@@ -89,6 +95,14 @@ Neither paper studies methionine as an acne therapy.
 
 No approved indication text is available for any of them. The data compiled for this report do not show Essential Medicines List (EML) status.
 
+<!-- review:begin za-lic-20261105-methionine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 10 registrations are valid single-entry records. No approved indication text is available for any of them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 33 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-methionine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -99,7 +113,15 @@ No approved indication text is available for any of them. The data compiled for 
 
 Showing 5 of 33 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 These products are mostly multi-component nutrition and dialysis preparations, so their licences do not describe a stand-alone methionine product.
+
+<!-- review:begin za-lic-20261105-methionine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Five further registrations are on file: Numeta G13E, Numeta G16E, Smofkabiven, Nutriflex Omega Specialized and Nutriflex lipid special 625ml. These products are mostly multi-component nutrition and dialysis preparations, so their licences do not describe a stand-alone methionine product." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 33 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-methionine-2 -->
 
 ---
 
@@ -148,6 +170,21 @@ All other predictions are also at evidence level L5 or lower in practical value,
 | Diabetic cataract | 1.0000 | L5 | See below |
 
 For diabetic cataract, the supporting literature is the most relevant of all the predictions. Two studies show that methionine sulfoxide reductase B1 protects human lens epithelial cells from high-glucose and peroxynitrite damage, and a review links homocysteine to eye disease. However, all of it is preclinical or observational and none tests methionine itself, so the evidence level stays at L5. It is the most reasonable research question among these predictions, but not a basis for a treatment decision.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 10 registrations are valid single-entry records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Five further registrations are on file: Numeta G13E, Numeta G16E, Smofkabiven, Nutriflex Omega Specialized and Nutriflex lipid special 625ml" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

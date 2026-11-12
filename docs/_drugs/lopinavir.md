@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 301
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lopinavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection / AIDS"
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -82,6 +82,14 @@ No literature is available for the top-ranked indication. The three publications
 
 No approved indication text or manufacturer details were available in the data compiled for this report. Essential Medicines List (EML) status was not available in the data.
 
+<!-- review:begin za-lic-20261105-lopinavir-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Lopinavir has 3 valid single-ingredient registrations with SAHPRA. No approved indication text or manufacturer details were available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 30 registrations for this drug, 25 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-lopinavir-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 35/20.2.28/0255 | Kaletra | syrup | Valid (status not confirmed by SAHPRA) |
@@ -91,6 +99,8 @@ No approved indication text or manufacturer details were available in the data c
 | 45/20.2.8/0111 | Rilovia 200mg/50mg | tablet | Valid |
 
 Showing 5 of 30 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -123,6 +133,19 @@ The predictions rest on model scores alone. The top-ranked indication is a veter
 - Preclinical evidence of lopinavir activity against the relevant target, such as FIV protease, if the veterinary direction is pursued
 - A target-level hypothesis and preclinical validation for the neurodevelopmental disorder prediction, if it is to be considered
 - Review of other TxGNN predictions beyond the top three for human diseases with a stronger mechanistic basis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Lopinavir has 3 valid single-ingredient registrations with SAHPRA" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

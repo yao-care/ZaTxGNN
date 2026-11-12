@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "STAVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Stavudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,6 +83,8 @@ There is no literature for the top-ranked prediction (feline AIDS). The table be
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/20.2.8/0264 | Zerit | capsule | Valid (status not confirmed by SAHPRA) |
@@ -93,7 +95,15 @@ There is no literature for the top-ranked prediction (feline AIDS). The table be
 
 Showing 5 of 35 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report do not state Essential Medicines List (EML) status.
+
+<!-- review:begin za-lic-20261105-stavudine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are currently valid, and both are oral tablets. The data compiled for this report do not state Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 35 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-stavudine-1 -->
 
 ## Safety Considerations
 
@@ -129,6 +139,19 @@ The prediction rests on a model score alone (evidence level L5). No clinical tri
 - The SAHPRA Professional Information (PI) warnings and contraindications, which are currently missing and block safety screening
 - Direct evidence for the predicted indication, such as veterinary studies of FIV antiviral activity
 - A decision on whether a veterinary indication is within the scope of this programme
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are currently valid, and both are oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

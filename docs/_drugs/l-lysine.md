@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "L-Lysine"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
 description: "L-Lysine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 L-Lysine is an essential amino acid. In South Africa it is registered as a component of parenteral nutrition and infusion products, and no approved indication text is available.
 The TxGNN model predicts it may be effective for **gastroparesis**, but there are **0 clinical trials** and only **1 publication**, a preclinical stem-cell study that does not evaluate L-Lysine, so this prediction is based on the model alone.
+
+<!-- review:begin za-lic-20261105-l-lysine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "In South Africa it is registered only as a component of parenteral nutrition and infusion products, and no approved indication text is available." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 40 registrations for this drug, 23 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-l-lysine-2 -->
 
 ---
 
@@ -89,6 +95,14 @@ Currently no related clinical trials registered.
 
 No approved indication text is available for any of them. The Essential Medicines List (EML) status of these products could not be determined from the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-l-lysine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All five registrations are valid single-ingredient licences. No approved indication text is available for any of them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 40 registrations for this drug, 23 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-l-lysine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -98,6 +112,8 @@ No approved indication text is available for any of them. The Essential Medicine
 | 41/25/0757 | Nutriflex lipid peri 2500ml | Tpn | Valid |
 
 Showing 5 of 40 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -129,6 +145,20 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full safet
 - The original approved indication and mechanism of action from SAHPRA and DrugBank
 - Any preclinical or clinical evidence that L-Lysine affects gastric motility or gastroparesis
 - A review of whether the registered products (which are combination parenteral nutrition or infusion products) could even be used for this purpose
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All five registrations are valid single-ingredient licences" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

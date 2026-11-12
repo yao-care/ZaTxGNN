@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 382
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Potassium Iodide"
 predicted_indications: ["nasal cavity disease"]
 description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -91,6 +91,8 @@ All four are single case reports of fungal or oomycete infections; none is a con
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/24/0462 | Peditrace 10ml pdp100010 | infusion | Valid |
@@ -101,7 +103,15 @@ All four are single case reports of fungal or oomycete infections; none is a con
 
 Showing 5 of 15 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status could not be confirmed from the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-potassium_iodide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient entries and all are infusion products. These are injectable (parenteral) formulations, so they are not directly suited to nasal or upper respiratory use. Essential Medicines List status could not be confirmed from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 15 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-potassium_iodide-1 -->
 
 ---
 
@@ -143,6 +153,19 @@ The TxGNN score is very high (0.9995), but the supporting evidence is limited to
 - SAHPRA package insert warnings and contraindications, which are currently a blocking data gap
 - Assessment of a suitable oral or other formulation, since only infusion products are registered in South Africa
 - Safety monitoring plan covering thyroid function, potassium levels and hypersensitivity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient entries and all are infusion products. These are injectable (parenteral) formulations, s" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,6 +94,8 @@ No literature was found for chronic rhinosinusitis. The table below covers **oti
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | A/20.1.1/0167 | O-4 Cycline | capsule | Valid (status not confirmed by SAHPRA) |
@@ -104,7 +106,15 @@ No literature was found for chronic rhinosinusitis. The table below covers **oti
 
 Showing 5 of 29 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 No ear-drop or nasal formulation is among the registrations compiled for this report. Essential Medicines List (EML) status was not available in the data compiled.
+
+<!-- review:begin za-lic-20261105-oxytetracycline-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient products. One is oral (capsule) and two are topical (ointments). No ear-drop or nasal formulation is among the registrations compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 29 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-oxytetracycline-1 -->
 
 ## Safety Considerations
 
@@ -133,6 +143,19 @@ The top-ranked prediction, chronic rhinosinusitis, rests only on a model score (
 - For otitis externa, a review separating oxytetracycline's contribution from polymyxin B and hydrocortisone, and a check of whether a topical ear formulation is registered in South Africa
 - Review of South African antimicrobial resistance and current guidelines before any repurposing
 - Verification of study types, since they were inferred from titles only
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient products. One is oral (capsule) and two are topical (ointments)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

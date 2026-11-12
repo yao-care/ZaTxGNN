@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pheniramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ No randomised trials or systematic reviews of pheniramine in allergic urticaria 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/5.8/0696 | Degoran Fizzy Effervescent Tabtlets | effervescent tablet | Valid (status not confirmed by SAHPRA) |
@@ -90,7 +92,15 @@ No randomised trials or systematic reviews of pheniramine in allergic urticaria 
 
 Showing 5 of 9 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status was not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-pheniramine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "This is the only SAHPRA registration, and it is a valid single-ingredient product. Essential Medicines List (EML) status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 9 registrations for this drug, 6 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-pheniramine-1 -->
 
 ## Safety Considerations
 
@@ -119,6 +129,19 @@ The prediction is mechanistically plausible, but it largely duplicates an existi
 - Clinical evidence in allergic urticaria, such as comparative trials against other antihistamines
 - For the nasal cavity disease and laryngopharyngitis predictions, narrowing to specific conditions and gathering supporting studies
 - Route compatibility assessment (only an oral effervescent tablet is currently registered)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "This is the only SAHPRA registration, and it is a valid single-ingredient product" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

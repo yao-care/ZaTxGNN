@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the SAHPRA registration data"
 monitor_inn: "NAPHAZOLINE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -88,6 +88,8 @@ For the lower-ranked prediction of open-angle glaucoma, one publication was link
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | H1124 | Antistin privin 10ml | drops | Valid |
@@ -98,7 +100,15 @@ For the lower-ranked prediction of open-angle glaucoma, one publication was link
 
 Showing 5 of 18 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status was not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-naphazoline-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. Essential Medicines List (EML) status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 18 registrations for this drug, 16 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-naphazoline-1 -->
 
 ---
 
@@ -125,6 +135,19 @@ All predictions are model-based only (L5), with no supporting trials or publicat
 - A systematic literature search for naphazoline in hair disorders (and glaucoma) to look for any direct evidence
 - Preclinical or mechanistic evidence showing a plausible biological link before any clinical consideration
 - Confirmation of formulation and route suitability for any new indication (currently only ophthalmic drops are registered)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

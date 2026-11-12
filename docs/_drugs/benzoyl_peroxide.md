@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Benzoyl Peroxide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acne"
 monitor_inn: "Benzoyl peroxide"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
@@ -82,6 +82,8 @@ No literature was retrieved for the lead prediction (vulvar inverted follicular 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 44/13.12/0109 | Epiduo 0.1% /2.5% 30g | gel | Valid |
@@ -92,7 +94,15 @@ No literature was retrieved for the lead prediction (vulvar inverted follicular 
 
 Showing 5 of 22 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status was not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-benzoyl_peroxide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. Essential Medicines List (EML) status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 22 registrations for this drug, 14 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-benzoyl_peroxide-1 -->
 
 ## Cytotoxicity
 
@@ -126,6 +136,19 @@ The prediction for vulvar inverted follicular keratosis is supported only by the
 - Dermatologist review of the plausibility of topical use on vulvar skin, including irritation and sensitisation risk
 - Confirmation of the approved indications and EML status of the two registered products (Deriva Co and Acneclear)
 - If any prediction is pursued, acne keloid (rank 4) is the most mechanistically plausible candidate for a focused research question, though direct evidence is currently lacking
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

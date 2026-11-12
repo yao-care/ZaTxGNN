@@ -79,6 +79,8 @@ Currently no related literature available for nephrogenic syndrome of inappropri
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 34/2.9/0239 | Precedex concentrated solution vial 2ml | injection | Valid |
@@ -88,6 +90,8 @@ Currently no related literature available for nephrogenic syndrome of inappropri
 | 54/2.9/0696 | Sedmedex 100 Μg/Ml | injection | Valid |
 
 Showing 5 of 32 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 At least one valid single-ingredient registration exists, and the data compiled for this report show no cancelled registrations.
 

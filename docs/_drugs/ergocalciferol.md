@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ERGOCALCIFEROL"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ergocalciferol: predicted new indication Acromesomelic dysplasia, Campailla-Martinelli type (evidence level L5). Approved use: Rickets, osteomalacia, osteoporosis…"
 ---
 
@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | T1101 | Calciferol oily | drops | Valid |
@@ -78,7 +80,15 @@ Currently no related literature available.
 
 Showing 5 of 14 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The inhaler product name does not look like a typical ergocalciferol product, so the registration should be checked against the SAHPRA register before relying on it. Neither record includes approved-indication text, so no indication can be described as approved from the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-ergocalciferol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both records are listed as valid single-ingredient registrations. The inhaler product name does not look like a typical ergocalciferol product, so the registration should be checked against the SAHPRA register before relying on it." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 14 registrations for this drug, 5 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ergocalciferol-1 -->
 
 ## Safety Considerations
 
@@ -109,6 +119,19 @@ SAHPRA package insert warnings and contraindications were not available. Please 
 - SAHPRA Professional Information, covering warnings and contraindications, for the registered products
 - Verification of the two registration records and of any Essential Medicines List status
 - A separate evaluation of higher-evidence candidates such as renal osteodystrophy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both records are listed as valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,10 +72,14 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Umeclidinium
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 52/21.5.1/0177 | Trelegy Ellipta | inhaler | Valid |
 | 52/21.5.1/0178 | Elebrato Ellipta | delivered dose | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

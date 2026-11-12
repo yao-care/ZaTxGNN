@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Taurine, so 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 46/32.2/0518 | Smofkabiven | Inf | Valid |
@@ -81,6 +83,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Taurine, so 
 | 52/25/0741 | Numeta G19E | Not recorded | Valid |
 
 Showing 5 of 12 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

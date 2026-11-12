@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "POTASSIUM ACETATE"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,14 @@ Currently no related literature available.
 
 Approved indication text was not available for any of them. Potassium acetate in these products is a component of parenteral nutrition or infusion preparations, not a standalone potassium product. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-potassium_acetate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All five registrations are valid single-ingredient products. Approved indication text was not available for any of them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 11 registrations for this drug, 11 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-potassium_acetate-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
@@ -83,6 +91,8 @@ Approved indication text was not available for any of them. Potassium acetate in
 | 49/25/0066 | Nutriflex Omega Plus | infusion | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -107,6 +117,19 @@ The prediction is supported only by the model score (L5). There are no clinical 
 - A literature and trial search for potassium acetate, or related alkali-potassium salts, in RTA subtypes
 - An assessment of whether an appropriate oral or other suitable formulation is available in South Africa, since current registrations are parenteral
 - A safety review of the hyperkalaemia-related interactions (potassium-sparing diuretics, ACE inhibitors, ARBs) and of RTA subtype selection
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All five registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

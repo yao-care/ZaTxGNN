@@ -72,6 +72,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -87,6 +89,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | 49/25/0066 | Nutriflex Omega Plus | infusion | Valid |
 
 Showing 11 of 43 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

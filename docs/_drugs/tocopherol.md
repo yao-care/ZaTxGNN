@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tocopherol, 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
@@ -81,6 +83,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Tocopherol, 
 | T1095 | Alpha Vit E Capsules 100 iu | capsule | Valid |
 
 Showing 5 of 20 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

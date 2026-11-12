@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -70,6 +70,12 @@ Currently no related clinical trials registered (no predicted indication to eval
 
 Currently no related literature available (no predicted indication to evaluate).
 
+<!-- review:begin za-lic-20261105-d-biotin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "D-Biotin has no SAHPRA registrations on record. It may be available as an over-the-counter dietary supplement or as a component of multivitamin formulations, but no scheduled pharmaceutical products were identified in the regulatory dataset." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 43 registrations for this drug, 39 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-d-biotin-1 -->
+
 ## South Africa Market Information
 
 ## Safety Considerations
@@ -94,6 +100,19 @@ The TxGNN model did not produce any repurposing predictions for D-Biotin. The co
 ---
 
 *This report was generated on 2026-04-05 based on Evidence Pack v4 (candidate ID: TW-UNKNOWN-multi). Results are for research reference only and do not constitute medical advice. Any drug repurposing candidates require clinical validation before application.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "D-Biotin has no SAHPRA registrations on record. It may be available as an over-the-counter dietary supplement or as a component of multivita" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

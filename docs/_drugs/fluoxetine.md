@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,6 +80,14 @@ None of these publications tests fluoxetine in paranoid personality disorder.
 
 Fluoxetine is marketed in South Africa.
 
+<!-- review:begin za-lic-20261105-fluoxetine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Fluoxetine is marketed in South Africa. Of the 3 single-ingredient registrations, 1 is valid and 2 are cancelled. The registered dosage form is oral capsule." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 26 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-fluoxetine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/1.2/0024 | Lorien | capsule | Valid |
@@ -89,6 +97,8 @@ Fluoxetine is marketed in South Africa.
 | 31/1.2/0638 | Prohexal | capsule | Valid |
 
 Showing 5 of 26 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -118,6 +128,18 @@ Many other interactions are classed as Moderate, for example aspirin, morphine, 
 - Controlled studies of fluoxetine in paranoid personality disorder, or at least well-designed studies of its use for comorbid symptoms in cluster A personality disorders
 - The SAHPRA Professional Information (warnings, contraindications and approved indication text) for the valid registration
 - An interaction-management plan, particularly for the Major interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Of the 3 single-ingredient registrations, 1 is valid and 2 are cancelled. The registered dosage form is oral capsule" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

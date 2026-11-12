@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/7.1/0298 | Sandoz Diltiazem Hci 60 | tablet | Valid (status not confirmed by SAHPRA) |
@@ -81,6 +83,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 | 30/7.1/0184 | Adco-zildem sr | Src | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

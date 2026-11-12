@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 210
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -97,6 +97,14 @@ Currently no related clinical trials registered.
 
 Approved indication text and Essential Medicines List status are not included in the data compiled for this report. The five main registrations are shown below.
 
+<!-- review:begin za-lic-20261105-efavirenz-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "SAHPRA lists 14 valid single-ingredient registrations. Approved indication text and Essential Medicines List status are not included in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 88 registrations for this drug, 61 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-efavirenz-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/20.2.8/0401 | Stocrin 50 | capsule | Valid (status not confirmed by SAHPRA) |
@@ -106,6 +114,8 @@ Approved indication text and Essential Medicines List status are not included in
 | 41/20.2.8/0541 | Erige | capsule | Valid |
 
 Showing 5 of 88 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,6 +141,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 - Mechanism of action data
 - SAHPRA package insert warnings and contraindications, which have not been obtained and block safety screening
 - For the neurodevelopmental disorder prediction, a plausible mechanism and a CNS safety assessment before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "SAHPRA lists 14 valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

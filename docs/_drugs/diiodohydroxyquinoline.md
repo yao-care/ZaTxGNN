@@ -73,12 +73,16 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for D
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | G1781 | Viocort | cream | Valid |
 | G1782 | Viodor | cream | Valid |
 | H1555 (OM) | Otophen Forte | drops | Valid (status not confirmed by SAHPRA) |
 | H1897 (ACT 101/1965) | Vagarsol | vaginal gel | Valid (status not confirmed by SAHPRA) |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

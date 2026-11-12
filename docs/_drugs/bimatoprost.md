@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bimatoprost"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Bimatoprost: predicted new indication malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,6 +72,8 @@ Currently no related literature available for this predicted indication.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/15.4/0157 | Lumigan 3ml | drops | Valid |
@@ -82,7 +84,15 @@ Currently no related literature available for this predicted indication.
 
 Showing 5 of 22 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The only dosage form on record is drops (ophthalmic-type liquid), so no formulation suited to the predicted indication is registered locally.
+
+<!-- review:begin za-lic-20261105-bimatoprost-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are single-ingredient products and both are currently valid. The only dosage form on record is drops (ophthalmic-type liquid), so no formulation suited to the predicted indication is registered locally." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 22 registrations for this drug, 22 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-bimatoprost-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +112,19 @@ The prediction rests only on a model score. There are no trials or publications,
 - A clear biological rationale for how a topical prostamide analogue would act on a developmental tooth or periodontal malformation syndrome
 - Review of the SAHPRA Professional Information for warnings and contraindications
 - Assessment of route and formulation feasibility, since only drops are registered locally
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are single-ingredient products and both are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

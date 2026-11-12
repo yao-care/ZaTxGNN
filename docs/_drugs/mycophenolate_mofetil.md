@@ -101,6 +101,8 @@ Note: no trial directly demonstrates efficacy of MMF in HIV. The one Phase 3 stu
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/34/0107 | Cellcept vial 20ml | infusion | Valid (status not confirmed by SAHPRA) |
@@ -110,6 +112,8 @@ Note: no trial directly demonstrates efficacy of MMF in HIV. The one Phase 3 stu
 | 44/32.2/0631 | Mycokem | tablet | Valid |
 
 Showing 5 of 32 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status is not available in the compiled data.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ramipril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension and stroke-related conditions"
 ---
 
@@ -88,6 +88,20 @@ Currently no related clinical trials registered.
 
 The records contain no approved-indication text. Essential Medicines List status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-ramipril-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 7 registrations are valid. The records contain no approved-indication text." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 72 registrations for this drug, 58 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ramipril-1 -->
+
+<!-- review:begin za-lic-20261105-ramipril-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Note that 4 of the 7 are combination-type products (ramipril with hydrochlorothiazide or other agents, judging by product names); their licences do not describe how single-ingredient ramipril is approved. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 72 registrations for this drug, 58 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ramipril-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/7.1.3/0665 | Tritace 1.25 Mg Tablets | tablet | Valid (status not confirmed by SAHPRA) |
@@ -97,6 +111,8 @@ The records contain no approved-indication text. Essential Medicines List status
 | 37/7.1.3/0511 | Ramipril hexal | tablet | Valid |
 
 Showing 5 of 72 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,6 +140,20 @@ The only direct support is a single dated rat study, with no registered clinical
 - Mechanism of action data from DrugBank
 - Contemporary preclinical confirmation, followed by a registered clinical study in pulmonary hypertension due to lung disease or hypoxia
 - Safety assessment in this population, given that low blood pressure and kidney disease are recorded as contraindication relations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 7 registrations are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Note that 4 of the 7 are combination-type products (ramipril with hydrochlorothiazide or other agents, judging by product names); their lice" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "VERAPAMIL"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,6 +84,14 @@ Currently no related literature available for the top-ranked prediction.
 
 Verapamil is marketed in South Africa. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
 
+<!-- review:begin za-lic-20261105-verapamil-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Verapamil is marketed in South Africa with 4 valid single-ingredient registrations. The approved indication text was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 22 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-verapamil-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/7.1/0637 | Verahexal 240 sr | Srt | Valid |
@@ -93,6 +101,8 @@ Verapamil is marketed in South Africa. The approved indication text was not avai
 | Q/7.1.4/161 | Verapamil 40 oethmaan | tablet | Valid |
 
 Showing 5 of 22 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -116,6 +126,19 @@ The 0.9962 TxGNN score is not backed by any clinical trial or publication. Verap
 - Detailed mechanism of action data from DrugBank
 - Re-mapping the obsolete disease term to a current diagnosis, or selecting a better-supported candidate (the pulmonary hypertension prediction has some preclinical rationale, but calcium channel blockers are not recommended in that setting)
 - A clinical safety review of conduction effects before any further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 4 valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

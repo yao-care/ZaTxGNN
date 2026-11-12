@@ -73,6 +73,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/21.5.1/0157 | Nasonex aqueous 140dose | Aqs | Valid |
@@ -82,6 +84,8 @@ Currently no related clinical trials registered.
 | 46/21.5.1/0490 | Mometasone Clicks Nasal Spray | spray | Valid |
 
 Showing 5 of 51 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Only the cream is a topical formulation relevant to skin-directed therapy. Essential Medicines List (EML) status is not covered in the compiled data.
 

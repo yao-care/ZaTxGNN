@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "ATORVASTATIN"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -109,6 +109,8 @@ Several further trials in the data are pharmacokinetic interaction studies or ta
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/7.5/0357 | Lipitor | tablet | Valid |
@@ -119,7 +121,15 @@ Several further trials in the data are pharmacokinetic interaction studies or ta
 
 Showing 5 of 122 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data do not state Essential Medicines List status.
+
+<!-- review:begin za-lic-20261105-atorvastatin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The data list 9 valid registrations in total (none cancelled); only the first five are shown. The data do not state Essential Medicines List status." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 122 registrations for this drug, 98 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-atorvastatin-1 -->
 
 ---
 
@@ -148,6 +158,19 @@ Several small Phase 2–4 studies, including a completed Phase 3 trial in an Afr
 - SAHPRA Professional Information warnings and contraindications, and mechanism of action data
 - A protocol for dose limits and monitoring with protease inhibitors and boosters (CYP3A4 interactions)
 - Clear definition of the target outcome (lipids, cardiovascular events or immune activation) rather than viral control
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The data list 9 valid registrations in total (none cancelled); only the first five are shown" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -58,6 +58,12 @@ Ipratropium bromide is a well-established anticholinergic bronchodilator, widely
 
 > ⚠️ **Data Quality Flag:** Ipratropium bromide (e.g., Atrovent®) is a globally available bronchodilator. Manual verification against the SAHPRA online register is strongly recommended before drawing any regulatory conclusions.
 
+<!-- review:begin za-lic-20261105-ipratropium_bromide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Zero SAHPRA registrations is unexpected and likely reflects a **data query mismatch** (e.g., spelling variant or salt-form mismatch) rather than true market absence. Manual verification against the SAHPRA online register is strongly recommended before drawing any regulatory conclusions." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 31 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ipratropium_bromide-1 -->
+
 ---
 
 ## Why is This Prediction Reasonable?
@@ -88,6 +94,12 @@ No TxGNN-predicted indication is available in this Evidence Pack. Literature evi
 
 > ⚠️ **Verification Required:** Ipratropium bromide preparations (e.g., Atrovent® by Boehringer Ingelheim) are known to be registered and routinely dispensed in South Africa, including in public sector formularies. A **manual search of the SAHPRA online register** using the INN "ipratropium" is strongly recommended to retrieve confirmed registration numbers, approved dosage forms, and the current Professional Information (PI) document.
 
+<!-- review:begin za-lic-20261105-ipratropium_bromide-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No SAHPRA registration records were found for Ipratropium Bromide in the current data pull." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 31 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ipratropium_bromide-2 -->
+
 ---
 
 ## Safety Considerations
@@ -115,6 +127,20 @@ This Evidence Pack is incomplete — no TxGNN repurposing predictions were gener
 ---
 
 *This report is intended for research reference only and does not constitute medical advice. All repurposing candidates require clinical validation before any therapeutic application.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Zero SAHPRA registrations is unexpected and likely reflects a **data query mismatch** (e.g., spelling variant or salt-form mismatch) rather " | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "No SAHPRA registration records were found for Ipratropium Bromide in the current data pull" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

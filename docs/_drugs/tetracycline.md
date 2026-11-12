@@ -74,6 +74,8 @@ Currently no related clinical trials registered for punctate epithelial keratoco
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | L/20.1.1/384 | Tetracycline Hci | tablet | Valid |
@@ -83,6 +85,8 @@ Currently no related clinical trials registered for punctate epithelial keratoco
 | E/20.1.1/67 | Tetralysal 300 mg | capsule | Valid |
 
 Showing 5 of 14 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status was not available in the data compiled for this report.
 

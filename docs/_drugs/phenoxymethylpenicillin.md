@@ -101,6 +101,8 @@ The other papers retrieved for urinary tract infection concern different drugs (
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | G/20.1.2/145 | Incil Vk | tablet | Valid |
@@ -110,6 +112,8 @@ The other papers retrieved for urinary tract infection concern different drugs (
 | 32/20.1.2/0671 | SPEC-PEN Vk 250 | tablet | Valid |
 
 Showing 5 of 34 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
 

@@ -93,6 +93,8 @@ All four studies are indirect: they test ART regimens or adjunct agents, not dar
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/20.2.8/0747 | Prezista | tablet | Valid (status not confirmed by SAHPRA) |
@@ -102,6 +104,8 @@ All four studies are indirect: they test ART regimens or adjunct agents, not dar
 | 47/20.2.8/1173 | Prezista 400Mg | Fct | Valid |
 
 Showing 5 of 37 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

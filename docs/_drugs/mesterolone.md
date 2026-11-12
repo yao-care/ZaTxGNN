@@ -70,9 +70,13 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Mesterolone,
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | B/21.7/137 | Proviron | tablet | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "TENOFOVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tenofovir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection, HIV infection, AIDS"
 ---
 
@@ -87,6 +87,14 @@ The data compiled for this report contain 20 publications. All studies of the pr
 
 No approved-indication text is recorded for them in the data compiled for this report, and Essential Medicines List status is not available there.
 
+<!-- review:begin za-lic-20261105-tenofovir-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All six registrations are valid single-ingredient tablet products. No approved-indication text is recorded for them in the data compiled for this report, and Essential Medicines List status is not available there." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 182 registrations for this drug, 151 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tenofovir-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 43/20.2.8/0181 | Aspen tenofovir | tablet | Valid |
@@ -97,6 +105,8 @@ No approved-indication text is recorded for them in the data compiled for this r
 | 52/20.2.8/0273 | Vemlidy | Fct | Valid |
 
 Showing 6 of 182 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -125,6 +135,19 @@ SIV infection is a non-human primate model of HIV, so the macaque data support t
 - Review of the knowledge-graph contraindication relations (especially renal, hepatic and bone-related) against the label
 
 The other two predictions do not support repurposing. Feline acquired immunodeficiency syndrome has only two veterinary studies and no human data (L4, Hold). The rare neurodevelopmental disorder has a high model score but no trials, no literature and no plausible mechanism (L5, Hold).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All six registrations are valid single-ingredient tablet products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -76,6 +76,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sildenafil, 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/7.1.5/0621 | Viagra | tablet | Valid |
@@ -85,6 +87,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sildenafil, 
 | 42/7.1.5/1072 | Dynafil | tablet | Valid |
 
 Showing 5 of 90 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

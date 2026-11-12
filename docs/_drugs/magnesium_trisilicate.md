@@ -96,6 +96,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | E/11.4.1/1195 | Bisma-Rex Powder | powder | Valid (status not confirmed by SAHPRA) |
@@ -105,6 +107,8 @@ Currently no related clinical trials registered.
 | BV0349 | Magnesium Trisilicate | Not recorded | Valid |
 
 Showing 5 of 32 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 The Essential Medicines List (EML) inclusion status could not be confirmed from the data compiled for this report.
 

@@ -74,6 +74,8 @@ All candidates produced by the model for Promethazine are already known uses, so
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | C0851 | Avomine | tablet | Valid |
@@ -95,6 +97,8 @@ All candidates produced by the model for Promethazine are already known uses, so
 | G0968 | Stilpane | syrup | Valid |
 
 Showing 17 of 56 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). Approved use: Uveitis, iridocyclitis, conjunctivitis and related eye inflammation"
 ---
 
@@ -83,6 +83,8 @@ Currently no related literature available for conjunctival folliculosis.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/21.5/0316 | Capsoid | tablet | Valid (status not confirmed by SAHPRA) |
@@ -93,7 +95,15 @@ Currently no related literature available for conjunctival folliculosis.
 
 Showing 5 of 33 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status was not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-prednisolone_acetate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Prednisolone acetate has one valid single-ingredient registration, with no cancelled or non-marketed registrations. Essential Medicines List status was not available in the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 33 registrations for this drug, 26 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-prednisolone_acetate-1 -->
 
 ---
 
@@ -119,6 +129,19 @@ The prediction is based only on a model score. No trial or publication studies p
 - The SAHPRA Professional Information, including approved indications, warnings and contraindications
 - Mechanism of action data
 - If a conjunctival indication is pursued, consider vernal or papillary conjunctivitis, which have indirect evidence, and plan intraocular pressure monitoring and short treatment courses
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Prednisolone acetate has one valid single-ingredient registration, with no cancelled or non-marketed registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

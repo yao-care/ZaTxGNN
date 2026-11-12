@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "METFORMIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
@@ -93,6 +93,14 @@ Currently no related literature available.
 
 Metformin is marketed in South Africa. The approved indication text was not available for these registrations. Essential Medicines List (EML) status was not available in the data compiled for this report. Five main registrations are shown below.
 
+<!-- review:begin za-lic-20261105-metformin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Metformin is marketed in South Africa with 16 valid SAHPRA registrations (all single-entity records, none cancelled). The approved indication text was not available for these registrations." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 225 registrations for this drug, 210 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-metformin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/21.2/0046 | Metformin hcl 500 fc kiara (was sandoz m | tablet | Valid |
@@ -102,6 +110,8 @@ Metformin is marketed in South Africa. The approved indication text was not avai
 | 35/21.2/0093 | Metformin 500 Biotech | tablet | Valid |
 
 Showing 5 of 225 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 The remaining registrations include fixed-dose combinations with other antidiabetic agents (for example Janumet, Synjardy, Xigduo XR and Amaryl Combi).
 
@@ -132,6 +142,19 @@ The prediction rests only on a TxGNN model (deep learning) score, with no clinic
 - A systematic literature search for metformin in stiff-person spectrum disorders
 - Preclinical or mechanistic evidence linking metformin to GABAergic or autoimmune pathways in this condition
 - Review of the major interactions (acetazolamide, ethanol) and the listed contraindications for the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 16 valid SAHPRA registrations (all single-entity records, none cancelled)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

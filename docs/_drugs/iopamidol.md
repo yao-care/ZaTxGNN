@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Iopamidol, s
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | Q/28/200 | Jopamiron 200 10Ml | injection | Valid (status not confirmed by SAHPRA) |
@@ -81,6 +83,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Iopamidol, s
 | Q/28/203 | Jopamiron 300 100 Ml | injection | Valid |
 
 Showing 5 of 12 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

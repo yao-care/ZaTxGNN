@@ -85,6 +85,8 @@ For context, the lower-ranked predictions have only indirect evidence:
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/15.4/0189 | Patanol 5ml | drops | Valid |
@@ -94,6 +96,8 @@ For context, the lower-ranked predictions have only indirect evidence:
 | 53/21.5.1/0457 | Ryaltris | spray | Valid |
 
 Showing 5 of 14 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

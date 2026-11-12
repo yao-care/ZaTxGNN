@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/8.3/0359 | Ca leucovorin faulding 5ml | injection | Valid |
@@ -88,6 +90,8 @@ Currently no related literature available.
 | 27/8.3/0153 | Abic leucovorin 300mg/30ml | injection | Valid |
 
 Showing 5 of 6 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 This is a single-ingredient product with a valid registration. Essential Medicines List (EML) status was not available in the data compiled for this report.
 

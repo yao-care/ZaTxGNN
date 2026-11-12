@@ -76,6 +76,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cloxacillin,
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | M/20.1.2/227 | Cloxacillin-fresenius powder for injecti | injection | Valid |
@@ -85,6 +87,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cloxacillin,
 | T/20.1.2/27 | Sandoz Cloxacillin | capsule | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 26 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -73,9 +73,13 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 45/18.8/0064 | Zoely 2.5mg/1.5mg | tablet | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

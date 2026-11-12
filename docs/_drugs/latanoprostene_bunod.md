@@ -88,9 +88,13 @@ Publications found for other top-10 predictions:
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 53/15.4/0226 | Vyzulta | drops | Valid |
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status was not available in the data compiled for this report.
 

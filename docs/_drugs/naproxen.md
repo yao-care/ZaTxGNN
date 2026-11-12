@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,6 +92,20 @@ Currently no related literature available.
 
 Naproxen is marketed in South Africa. Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
 
+<!-- review:begin za-lic-20261105-naproxen-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Naproxen is marketed in South Africa with 6 valid single-ingredient registrations. Approved indication text and manufacturer details were not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 40 registrations for this drug, 26 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-naproxen-1 -->
+
+<!-- review:begin za-lic-20261105-naproxen-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Note: Dormicum is listed under naproxen in the compiled registration data, but it is a brand name usually associated with midazolam and is an injection. This entry should be verified against the SAHPRA register before being relied upon." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 40 registrations for this drug, 26 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-naproxen-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/3.1/0437 | Nafasol ec-250 | tablet | Valid |
@@ -102,6 +116,8 @@ Naproxen is marketed in South Africa. Approved indication text and manufacturer 
 | 30/3.1/0374 | Synflex | tablet | Valid |
 
 Showing 6 of 40 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Available routes: oral (tablet) and injectable (injection).
 
@@ -139,6 +155,20 @@ The prediction rests solely on a model score. There are no clinical trials or pu
 - A biological rationale linking COX inhibition to the pathology of brachydactyly-syndactyly syndrome
 - Any preclinical or clinical evidence in the predicted condition
 - Verification of the Dormicum registration entry against the SAHPRA register
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 6 valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Note: Dormicum is listed under naproxen in the compiled registration data, but it is a brand name usually associated with midazolam and is a" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

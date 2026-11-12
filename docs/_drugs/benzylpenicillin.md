@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Benzylpenicillin"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Benzylpenicillin: predicted new indication pericoronitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,6 +82,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 56/20.1.2/0384 | Benzathine Benzylpenicillin 1.2Mu Ando | injection | Valid |
@@ -92,7 +94,15 @@ Currently no related literature available.
 
 Showing 5 of 25 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-benzylpenicillin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are single-ingredient products and both are currently valid. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 25 registrations for this drug, 22 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-benzylpenicillin-1 -->
 
 ---
 
@@ -121,6 +131,19 @@ The prediction is plausible because the drug is active against the bacteria invo
 - A literature and trial search specific to pericoronitis, including how it compares with existing odontogenic infection treatment
 - Confirmation of whether the use is already covered by existing labelling
 - A review of the methotrexate interaction (major) and the anticoagulant interactions (warfarin, dicoumarol) before any use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are single-ingredient products and both are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

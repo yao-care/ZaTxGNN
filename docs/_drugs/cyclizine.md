@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclizine"
 predicted_indications: ["allergic urticaria", "nasal cavity disease", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cyclizine: predicted new indication allergic urticaria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -78,6 +78,8 @@ Currently no related literature available for allergic urticaria.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/5.7.2/0203 | Medazine nausea | tablet | Valid |
@@ -88,7 +90,15 @@ Currently no related literature available for allergic urticaria.
 
 Showing 5 of 31 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-cyclizine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The product is a single-ingredient registration with a valid status. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 31 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-cyclizine-1 -->
 
 ---
 
@@ -114,6 +124,19 @@ The prediction score is high, but no trials or publications directly study cycli
 - Mechanism of action data
 - SAHPRA Professional Information, including warnings and contraindications, for safety screening
 - Comparison against second-generation antihistamines, given sedation and anticholinergic burden
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The product is a single-ingredient registration with a valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

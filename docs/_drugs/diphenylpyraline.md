@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenylpyraline"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diphenylpyraline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
@@ -70,6 +70,14 @@ Currently no related literature available.
 
 The licence records contain no approved-indication text. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-diphenylpyraline-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are single-ingredient products and are currently valid. The licence records contain no approved-indication text." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 9 registrations for this drug, 5 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-diphenylpyraline-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/10.1/0529 | Dynalex | syrup | Valid |
@@ -79,6 +87,8 @@ The licence records contain no approved-indication text. Essential Medicines Lis
 | W/10.1/0194 | Actophlem | syrup | Valid |
 
 Showing 5 of 9 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The prediction score is very high, but no clinical trial or publication directly
 - A more specific target condition (for example a defined nasal disease) in place of the broad "nasal cavity disease" category
 - A literature and trial search for specific nasal conditions
 - A safety review of the anticholinergic-related contraindications in the intended population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are single-ingredient products and are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

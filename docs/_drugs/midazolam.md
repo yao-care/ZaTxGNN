@@ -104,6 +104,8 @@ Four further retrieved publications were judged indirect or not relevant: a lemb
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/2.2/0078 | Dormicum | tablet | Valid |
@@ -113,6 +115,8 @@ Four further retrieved publications were judged indirect or not relevant: a lemb
 | 38/2.2/0565 | Pharma-q midazolam ampoule 3ml | injection | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 56 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status was not available in the data compiled for this report.
 

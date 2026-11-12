@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 331
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -99,6 +99,8 @@ Much of the registered trial activity concerns bronchiolitis, a related but dist
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/10.2.2/0321 | Singulair | Chu | Valid |
@@ -109,12 +111,20 @@ Much of the registered trial activity concerns bronchiolitis, a related but dist
 
 Showing 5 of 108 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
 
 - **Drug Interactions**: The interaction screen returned 100 records. Those graded Moderate are with dexamethasone, metronidazole, miconazole, nateglinide, nitisinone and troglitazone. Further interactions with unknown severity grade were also listed, including pantoprazole, omeprazole, lansoprazole, metformin, glimepiride, rosiglitazone, acarbose, morphine, doxycycline, clotrimazole and mesalazine.
 - **Paediatric use**: Several relevant trials enrolled infants and young children. Dosing and safety in these age groups need specific attention.
+
+<!-- review:begin za-lic-20261105-montelukast-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 4 registrations are single-ingredient products and all are valid." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 108 registrations for this drug, 93 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-montelukast-1 -->
 
 Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
@@ -133,6 +143,18 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 - A larger adequately powered randomised trial in a clearly defined bronchitis population, such as eosinophilic bronchitis.
 - Mechanism of action data and the SAHPRA Professional Information warnings and contraindications.
 - A paediatric safety and dosing plan, plus a review of the moderate-severity drug interactions listed above.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 4 registrations are single-ingredient products and all are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

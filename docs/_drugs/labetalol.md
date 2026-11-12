@@ -75,6 +75,8 @@ This is a single case report and does not establish efficacy.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | J/7.1.3/52 | Trandate | tablet | Valid |
@@ -82,6 +84,8 @@ This is a single case report and does not establish efficacy.
 | J/7.1.3/54 | Trandate 20ml | injection | Valid |
 | 42/7.1.3/0519 | Aspen Labetalol | solution | Valid |
 | 57/7.1.3/0906 | Labetalol 5 mg/ml Rbc | solution | Valid |
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

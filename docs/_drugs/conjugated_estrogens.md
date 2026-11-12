@@ -86,9 +86,13 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/21.8.2/0021 | Estracombi Tts | Pad | Valid (status not confirmed by SAHPRA) |
+
+<!-- licenses:end -->
 
 ---
 

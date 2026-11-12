@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gestodene, s
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/18.8/0462 | Melodene | tablet | Valid |
@@ -81,6 +83,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Gestodene, s
 | 48/18.8/1353 | Carmadene | tablet | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

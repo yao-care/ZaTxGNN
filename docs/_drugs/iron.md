@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Iron: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,6 +69,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/8.3/0166 | Venofer ampoule 5ml | injection | Valid |
@@ -76,7 +78,15 @@ Currently no related literature available.
 | 46/8.3/0849 | Rautevene solution for injection ampoule | injection | Valid |
 | H0842 | Ferrimed | syrup | Valid |
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-iron-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All six registrations on file are valid and single-ingredient (a sixth, ITN neonatal TPN, is registered under an exclusion under Sections 36 and 14 and is not shown above). Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 4 registrations for this drug, 4 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-iron-1 -->
 
 ## Safety Considerations
 
@@ -96,6 +106,19 @@ The prediction has a very high model score but no supporting trials or publicati
 - Any direct clinical or mechanistic evidence that iron affects this specific disease
 - Mechanism of action data for iron
 - SAHPRA Professional Information warnings and contraindications for the relevant products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All six registrations on file are valid and single-ingredient (a sixth, ITN neonatal TPN, is registered under an exclusion under Sections 36" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

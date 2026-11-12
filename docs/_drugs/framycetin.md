@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Framycetin: predicted new indication sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | E529 (ACT 101 1965) | Proctosedyl Suppositories | suppository | Valid (status not confirmed by SAHPRA) |
@@ -78,7 +80,15 @@ Currently no related literature available.
 
 Showing 5 of 6 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report do not show Essential Medicines List (EML) inclusion status.
+
+<!-- review:begin za-lic-20261105-framycetin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid. The data compiled for this report do not show Essential Medicines List (EML) inclusion status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 6 registrations for this drug, 4 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-framycetin-1 -->
 
 ## Safety Considerations
 
@@ -98,6 +108,19 @@ The prediction rests only on a model score, with no clinical trials or publicati
 - Obtain mechanism of action data (for example from DrugBank)
 - Preclinical or clinical studies that directly examine framycetin or related non-absorbable antibiotics in sclerosing cholangitis
 - An assessment of whether an oral, non-absorbed route could deliver a meaningful effect while limiting systemic toxicity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

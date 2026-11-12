@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sibutramine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity disorder"
 monitor_inn: "SIBUTRAMINE"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
@@ -87,6 +87,8 @@ Currently no related literature available for hypervitaminosis.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/11.3/0025 | Reductil 10 | capsule | Valid (status not confirmed by SAHPRA) |
@@ -97,7 +99,15 @@ Currently no related literature available for hypervitaminosis.
 
 Showing 5 of 8 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report do not show Essential Medicines List (EML) inclusion status.
+
+<!-- review:begin za-lic-20261105-sibutramine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The registration is a valid single-ingredient product. The data compiled for this report do not show Essential Medicines List (EML) inclusion status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 8 registrations for this drug, 8 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-sibutramine-1 -->
 
 ---
 
@@ -131,6 +141,19 @@ The prediction for hypervitaminosis rests only on a score from the TxGNN model (
 - Any preclinical or clinical evidence for the predicted indication
 - If a new indication is pursued, 16p11.2 microdeletion syndrome is the most biologically plausible candidate. It would need a dedicated cardiovascular and neurodevelopmental risk assessment before any further consideration.
 - Confirmation of the registered indication and current regulatory status of Ciplatrim 15 in South Africa
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The registration is a valid single-ingredient product" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

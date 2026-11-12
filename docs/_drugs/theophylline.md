@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -91,6 +91,20 @@ None of the retrieved publications directly studies theophylline for thrombotic 
 
 Approved indication text is not available in the local licence records. The data compiled for this report does not state Essential Medicines List (EML) status.
 
+<!-- review:begin za-lic-20261105-theophylline-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 8 registrations are single-ingredient products with valid status. The data compiled for this report does not state Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 39 registrations for this drug, 26 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-theophylline-1 -->
+
+<!-- review:begin za-lic-20261105-theophylline-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Three further valid registrations are not shown: Alcophyllex (G720 (OM)), Diatussin (biotussin) (G1276 (OM)) and Actophlem (W/10.1/0194)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 39 registrations for this drug, 26 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-theophylline-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/10.2/0416 | Theophylline 200 Gdc | tablet | Valid |
@@ -100,6 +114,8 @@ Approved indication text is not available in the local licence records. The data
 | K/10.2/311 | Euphyllin retard | Srt | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 39 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -137,6 +153,20 @@ For context, the other predictions in the data compiled for this report are:
 - **Nasal cavity disease** (score 0.9953): one small clinical study of slow-release theophylline on nasal allergen challenge in allergic rhinitis (PMID 9648963). The design could not be confirmed, so this is a research question only.
 - **Tracheal disease** (0.9949): in vitro tracheal relaxation data, a retrospective veterinary series in dogs, and reviews of methylxanthines for preterm extubation. No human trials in tracheal disease.
 - **Laryngotracheitis, pharyngitis and acute laryngopharyngitis** (0.9951, 0.9946 and 0.9935): computational predictions only, with no supporting clinical evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 8 registrations are single-ingredient products with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Three further valid registrations are not shown: Alcophyllex (G720 (OM)), Diatussin (biotussin) (G1276 (OM)) and Actophlem (W/10.1/0194)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

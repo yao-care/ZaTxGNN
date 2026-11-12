@@ -89,6 +89,8 @@ Neither publication below studies CETP deficiency with ezetimibe. They are liste
 
 Six single-ingredient registrations are recorded. The approved indication text is not available in the records compiled for this report. Essential Medicines List status is not available.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/7.5/0413 | Ezetrol | tablet | Valid |
@@ -98,6 +100,8 @@ Six single-ingredient registrations are recorded. The approved indication text i
 | 49/7.5/0797 | Trezecol 10Mg | Tabs | Valid |
 
 Showing 5 of 96 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 A sixth registration, Liptruzet 10/40 (50/7.5/1173, film-coated tablet), is also recorded.
 

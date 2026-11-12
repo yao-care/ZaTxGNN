@@ -76,10 +76,14 @@ Two further retrieved items (a 1990 familial hypercholesterolaemia animal-model 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 49/25/0065 | Nutriflex Omega Specialized | Not recorded | Valid |
 | 49/25/0066 | Nutriflex Omega Plus | Not recorded | Valid |
+
+<!-- licenses:end -->
 
 The compiled data do not show whether this product is on the Essential Medicines List. It is an intravenous infusion product, so oral supplements and other formulations are not covered by this registration.
 

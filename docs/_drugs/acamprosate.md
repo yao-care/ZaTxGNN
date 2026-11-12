@@ -72,9 +72,13 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/9/0097 | Besobrial | tablet | Valid (status not confirmed by SAHPRA) |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

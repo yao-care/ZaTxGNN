@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,6 +70,14 @@ Currently no related literature available.
 
 Adapalene is marketed in South Africa. The approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the compiled data.
 
+<!-- review:begin za-lic-20261105-adapalene-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Adapalene is marketed in South Africa, with 2 valid single-ingredient registrations, both topical. The approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the compiled data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 9 registrations for this drug, 7 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-adapalene-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/13.12/0606 | Differin gel | gel | Valid |
@@ -79,6 +87,8 @@ Adapalene is marketed in South Africa. The approved indication text is not recor
 | 50/13.12/9031 | Epiduo Forte | Gel | Valid |
 
 Showing 5 of 9 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -99,6 +109,19 @@ The prediction rests on a model score alone. There are no trials, no publication
 - A plausible mechanism, and confirmation that a topical product could reach relevant systemic exposure
 - Review of the SAHPRA Professional Information for warnings and contraindications
 - Detailed mechanism-of-action data from DrugBank
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 2 valid single-ingredient registrations, both topical" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

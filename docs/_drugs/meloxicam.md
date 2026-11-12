@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Meloxicam"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,6 +89,8 @@ For the rank 8 prediction (rheumatoid factor-positive polyarticular JIA), one pa
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/3.1/0425 | Mobic 15 Mg Suppositories | suppository | Valid (status not confirmed by SAHPRA) |
@@ -99,7 +101,15 @@ For the rank 8 prediction (rheumatoid factor-positive polyarticular JIA), one pa
 
 Showing 5 of 68 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-meloxicam-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Only one valid single-ingredient registration exists, and the route of administration is oral. Essential Medicines List (EML) status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 68 registrations for this drug, 62 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-meloxicam-1 -->
 
 ## Safety Considerations
 
@@ -123,6 +133,19 @@ The top prediction has no clinical trials and no literature, and no mechanistic 
 - The SAHPRA package insert, including approved indications, warnings and contraindications
 - For the JIA subtype, meloxicam-specific paediatric efficacy and safety data, and confirmation of whether the South African label covers JIA
 - Independent expert review of why the model ranks skeletal dysplasias highly, before any further investment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Only one valid single-ingredient registration exists, and the route of administration is oral" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

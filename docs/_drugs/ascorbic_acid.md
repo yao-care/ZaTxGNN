@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,6 +82,14 @@ Currently no related literature available for non-syndromic esophageal malformat
 
 Ascorbic acid is marketed in South Africa. Products include oral tablets, capsules, effervescent tablets, sachets and syrups, as well as infusion and parenteral nutrition products. No approved-indication text is recorded for these registrations in the local data.
 
+<!-- review:begin za-lic-20261105-ascorbic_acid-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The data compiled for this report show 18 valid single-ingredient registrations, and the list may be partial. Products include oral tablets, capsules, effervescent tablets, sachets and syrups, as well as infusion and parenteral nutrition products." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 119 registrations for this drug, 71 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ascorbic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/5.8/0449 | Sinustat flu | capsule | Valid |
@@ -91,6 +99,8 @@ Ascorbic acid is marketed in South Africa. Products include oral tablets, capsul
 | 27/A.5.8/435 | Coryx | effervescent tablet | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 119 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,6 +127,19 @@ The score is very high, but there are no trials or publications for non-syndromi
 - Any preclinical or clinical evidence that directly studies ascorbic acid in this condition
 - A plausible mechanistic rationale for a developmental malformation
 - Mechanism of action data and SAHPRA Professional Information warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The data compiled for this report show 18 valid single-ingredient registrations, and the list may be partial" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

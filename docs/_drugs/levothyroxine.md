@@ -75,6 +75,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 42/21.3/0670 | Synthroid 25 Μg | tablet | Valid |
@@ -84,6 +86,8 @@ Currently no related literature available.
 | 42/21.3/0674 | Synthroid 100 Μg | tablet | Valid |
 
 Showing 5 of 49 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 This is a single-ingredient oral product and is currently valid. Essential Medicines List status is not available in the data compiled for this report.
 

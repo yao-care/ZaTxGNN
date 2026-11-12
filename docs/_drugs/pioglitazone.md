@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ For context, the seventh-ranked or lower-ranked prediction (pancreatic agenesis)
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 34/21.2/0498 | Actos | tablet | Valid (status not confirmed by SAHPRA) |
@@ -90,7 +92,15 @@ For context, the seventh-ranked or lower-ranked prediction (pancreatic agenesis)
 
 Showing 5 of 14 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status could not be determined from the data compiled.
+
+<!-- review:begin za-lic-20261105-pioglitazone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient oral products. Essential Medicines List (EML) status could not be determined from the data compiled." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 14 registrations for this drug, 12 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-pioglitazone-1 -->
 
 ## Safety Considerations
 
@@ -112,6 +122,19 @@ The prediction rests on a model score alone (L5). There are no trials or literat
 - Preclinical evidence on whether pioglitazone affects SHIP2/INPPL1-related signalling or skeletal development
 - A literature search specific to opsismodysplasia and other candidate indications
 - Consideration of lipodystrophy-related predictions as a more biologically plausible area for further review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

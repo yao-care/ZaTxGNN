@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ferrous sulfate anhydrous"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "biotin metabolic disease", "non-syndromic esophageal malformation"]
 description: "Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,13 +80,23 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | H2466 | Complenatal Ff | capsule | Valid (status not confirmed by SAHPRA) |
 | P/33/161 | Bidomak Fe | Not recorded | Valid |
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not recorded in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-ferrous_sulfate_anhydrous-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Of the 3 registrations on record, 2 are valid and 1 is cancelled. Essential Medicines List status is not recorded in the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 3 registrations for this drug, 3 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ferrous_sulfate_anhydrous-1 -->
 
 ---
 
@@ -114,6 +124,18 @@ The prediction has no supporting trials or publications (evidence level L5), and
 - Clinical confirmation that the target condition is linked to iron status
 - The SAHPRA Professional Information (warnings and contraindications) for the registered products
 - A safety review for patients with the conditions listed above and for the interacting medicines
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Of the 3 registrations on record, 2 are valid and 1 is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -42,6 +42,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 Doxylamine succinate is a first-generation H1 antihistamine with sedative properties, widely used internationally for short-term insomnia and pregnancy-related nausea (in combination with pyridoxine). The current evidence pack contains **no TxGNN repurposing predictions** for this drug. This report serves as a data gap summary; a full repurposing evaluation cannot be completed until core data items are resolved.
 
+<!-- review:begin za-lic-20261105-doxylamine_succinate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The current evidence pack contains **no TxGNN repurposing predictions** for this drug, and it carries **zero SAHPRA registrations** in South Africa. This report serves as a data gap summary; a full repurposing evaluation cannot be completed until core data items are resolved." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 44 registrations for this drug, 31 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-doxylamine_succinate-1 -->
+
 ---
 
 ## Quick Overview
@@ -74,6 +80,12 @@ Until both gaps are resolved, any repurposing inference would be speculative and
 
 It is not listed on the South African Essential Medicines List (EML).
 
+<!-- review:begin za-lic-20261105-doxylamine_succinate-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Doxylamine succinate currently has **no SAHPRA registrations**. It is not listed on the South African Essential Medicines List (EML). Healthcare professionals seeking to use this drug in South Africa would need to access it through Section 21 unregistered medicine provisions, or await a formal registration application." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 44 registrations for this drug, 31 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-doxylamine_succinate-2 -->
+
 > Note: Doxylamine-containing products (e.g., combined with pyridoxine for pregnancy nausea) are available in other markets such as the United States (Diclegis®/Bonjesta®) and Canada. A targeted SAHPRA registration pathway for the pregnancy nausea indication may be worth exploring separately.
 
 ---
@@ -100,6 +112,20 @@ There is no TxGNN-generated repurposing hypothesis to evaluate, and critical dru
 - [ ] **Obtain SAHPRA/international PI** — Download and parse the approved Professional Information for key warnings and contraindications (marked as Blocking, DG001)
 - [ ] **Confirm intended repurposing hypothesis** — If a specific new indication is already under consideration by the requesting clinician or researcher, provide this as a manual input to bypass the empty `predicted_indications` and proceed with a targeted evidence review
 - [ ] **Assess SAHPRA registration feasibility** — If the pregnancy nausea (with pyridoxine) or insomnia indication is the intended use case, initiate a Section 21 or full registration pathway assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "and it carries **zero SAHPRA registrations** in South Africa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Doxylamine succinate currently has **no SAHPRA registrations**. Healthcare professionals seeking to use this drug in South Africa would need" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

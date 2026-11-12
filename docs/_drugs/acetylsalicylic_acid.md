@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,6 +80,14 @@ Currently no related literature available.
 
 The local records do not include approved-indication text. Essential Medicines List status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-acetylsalicylic_acid-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Four SAHPRA registrations are recorded as valid. The local records do not include approved-indication text." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 160 registrations for this drug, 108 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-acetylsalicylic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/2.7/0767 | Ecotrin | tablet | Valid |
@@ -89,6 +97,8 @@ The local records do not include approved-indication text. Essential Medicines L
 | 51/8/2010 | Coprin 100 Mg | tablet | Valid |
 
 Showing 5 of 160 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,6 +130,19 @@ The prediction is supported only by a model score of 0.9959. There are no trials
 - Any case series, preclinical work or clinical studies in this condition
 - Dermatology expert review of the clinical plausibility and a comparison with current management options
 - Full mechanism-of-action data and the SAHPRA Professional Information warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Four SAHPRA registrations are recorded as valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

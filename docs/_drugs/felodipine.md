@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension / hypertensive disorder"
 ---
 
@@ -90,6 +90,8 @@ No literature directly addresses the top predicted indication. The nearest publi
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 35/7.1/0231 | Felodipine 10 kiara (was felodipine-hexa | Srt | Valid |
@@ -100,7 +102,15 @@ No literature directly addresses the top predicted indication. The nearest publi
 
 Showing 5 of 11 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not stated in the data compiled.
+
+<!-- review:begin za-lic-20261105-felodipine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "This single registration is valid, but it is a combination-type product name (2.5 mg/2.5 mg) listed as a single-ingredient record. It should not be used to describe how felodipine alone is approved. Essential Medicines List status is not stated in the data compiled." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 11 registrations for this drug, 2 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-felodipine-1 -->
 
 ## Safety Considerations
 
@@ -124,6 +134,19 @@ The prediction is supported only by the model score. No clinical trial or public
 - Mechanism of action data
 - A clearer definition of the target pulmonary hypertension subgroup, such as vasoreactive pulmonary arterial hypertension
 - Controlled clinical evidence in pulmonary hypertension, including haemodynamic safety in patients with hypoxic lung disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "This single registration is valid, but it is a combination-type product name (2.5 mg/2.5 mg) listed as a single-ingredient record. It should" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 67
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -82,6 +82,14 @@ Currently no related clinical trials registered.
 
 Betamethasone is marketed in South Africa as a single-ingredient product in several forms (cream, ointment, lotion, syrup, tablet and injection). Examples of valid registrations:
 
+<!-- review:begin za-lic-20261105-betamethasone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Of the 18 registrations on record, 17 are valid and 1 is cancelled. Examples of valid registrations:" Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 65 registrations for this drug, 57 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-betamethasone-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/21.5.1/0543 | Betanoid | tablet | Valid |
@@ -91,6 +99,8 @@ Betamethasone is marketed in South Africa as a single-ingredient product in seve
 | P/21.5.1/236 | Diprosone Injection | injection | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 65 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Approved indication text is not recorded in the local data for these registrations.
 
@@ -119,6 +129,18 @@ No warning or contraindication text was available from the product labels. Pleas
 - Mechanism of action data and a clearer account of the mechanistic link.
 - Route and formulation compatibility assessment (topical and intralesional use against registered products).
 - Review of the SAHPRA Professional Information for warnings, contraindications and dermatological safety with prolonged corticosteroid use.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Of the 18 registrations on record, 17 are valid and 1 is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 457
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TRAZODONE"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -96,6 +96,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/1.2/0491 | Aspen trazodone | capsule | Valid |
@@ -106,7 +108,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 23 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report does not show Essential Medicines List (EML) status.
+
+<!-- review:begin za-lic-20261105-trazodone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient oral products. The data compiled for this report does not show Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 23 registrations for this drug, 21 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-trazodone-1 -->
 
 ---
 
@@ -142,6 +152,19 @@ The supporting evidence is limited to small, dated (1980s–1990s) studies and c
 - Obtain detailed mechanism-of-action data from DrugBank
 - Review the cardiovascular and QT risk and serotonergic interaction profile for the OCD population, who are often already on SSRIs or clomipramine
 - Consider a modern, adequately powered adjunct trial in SSRI-resistant OCD, with registration in a clinical trials registry such as SANCTR or PACTR
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

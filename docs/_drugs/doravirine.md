@@ -74,10 +74,14 @@ Currently no related literature available for feline acquired immunodeficiency s
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 53/20.2.8/0232 | Pifeltro | Fct | Valid |
 | 53/20.2.8/0233 | Delstrigo | Fct | Valid |
+
+<!-- licenses:end -->
 
 Delstrigo is a registered product, and the data compiled for this report do not describe how doravirine is licensed or marketed as a single ingredient. Essential Medicines List inclusion status was not available.
 

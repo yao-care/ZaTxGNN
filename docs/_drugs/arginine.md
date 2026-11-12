@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 43
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not stated in the registration data compiled for this report (all 10…"
 monitor_inn: "ARGININE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -90,6 +90,20 @@ Two further retrieved publications (PMID 33867519, a case report on lactate norm
 
 Approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available.
 
+<!-- review:begin za-lic-20261105-arginine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 10 registrations are valid, single-ingredient registrations. Approved indication text was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 54 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-arginine-1 -->
+
+<!-- review:begin za-lic-20261105-arginine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Other registrations include Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036), Nutriflex Omega Specialized (49/25/0065), Nutriflex Lipid Special 625ml (41/25/0759) and Adco-ipratropium (33/10.2.1/0271, listed as a vial). The last entry looks like a data-matching anomaly, since ipratropium is not an arginine product, and should be verified." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 54 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-arginine-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -100,7 +114,15 @@ Approved indication text was not available in the data compiled for this report.
 
 Showing 5 of 54 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Route compatibility with a gastroparesis indication has not been assessed.
+
+<!-- review:begin za-lic-20261105-arginine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All products are parenteral (infusion) formulations. No oral arginine product was identified, so route compatibility with a gastroparesis indication has not been assessed." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06, after registrations were matched by ingredient. The SAHPRA data list 54 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-arginine-3 -->
 
 ## Safety Considerations
 
@@ -129,6 +151,28 @@ The prediction is mechanistically plausible through the nitric oxide pathway, bu
 - Assessment of an appropriate route and formulation
 - A safety review for gastroparesis patients, particularly those with diabetes, renal impairment or cardiovascular disease
 - Preclinical or small early-phase studies before any clinical development
+
+<!-- review:begin za-lic-20261106-arginine-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Assessment of an appropriate route and formulation (current registrations are parenteral only)" Removed: it conflicted with the SAHPRA registration data as of 2026-11-06, after registrations were matched by ingredient. The SAHPRA data list 54 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261106-arginine-4 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 10 registrations are valid, single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Other registrations include Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036), Nutriflex Omega Specialized (49/25/0065), Nut" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-06 | Removed: "All products are parenteral (infusion) formulations. No oral arginine product was identified, so r" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-06 | Removed: "(current registrations are parenteral only)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

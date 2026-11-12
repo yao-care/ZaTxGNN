@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -78,6 +78,14 @@ Currently no related clinical trials registered.
 
 The approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-levonorgestrel-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 11 SAHPRA registrations are single-ingredient oral tablets and all are valid. The approved indication text is not recorded in the local data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 37 registrations for this drug, 36 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-levonorgestrel-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/34/0332 | Mirena | Iud | Valid |
@@ -87,6 +95,8 @@ The approved indication text is not recorded in the local data. Essential Medici
 | 44/21.8.2/0808 | Medilevo 1,5 Mg | tablet | Valid |
 
 Showing 5 of 37 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -109,6 +119,18 @@ The evidence level is L2, based on one randomized placebo-controlled trial of a 
 - Detailed mechanism of action data
 - Review of SAHPRA Professional Information for warnings and contraindications
 - A comparison with anti-androgenic progestin options for acne
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 11 SAHPRA registrations are single-ingredient oral tablets and all are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -73,6 +73,8 @@ The deep-learning model's candidates for Brompheniramine that can be traced to a
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | C770 (ACT 101/1965) | Ilvico | tablet | Valid (status not confirmed by SAHPRA) |
@@ -82,6 +84,8 @@ The deep-learning model's candidates for Brompheniramine that can be traced to a
 | C0769 | Ilvico | syrup | Cancelled |
 
 Showing 5 of 7 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 381
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
@@ -100,6 +100,20 @@ Other retrieved items are less relevant: a veterinary hyperkalaemia review, a li
 
 No information on Essential Medicines List (EML) inclusion is available. Five main registrations are shown below.
 
+<!-- review:begin za-lic-20261105-potassium_chloride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All are single-ingredient products, and no information on Essential Medicines List (EML) inclusion is available. Five main registrations are shown below." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 173 registrations for this drug, 117 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-potassium_chloride-1 -->
+
+<!-- review:begin za-lic-20261105-potassium_chloride-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The other nine registrations are mostly infusion or solution products (for example Ringer-lactate, cardioplegic solutions, a dialysis concentrate and a veterinary plasma product). Only one oral product (a tablet) appears. Oral formulations are therefore scarcely represented, although oral potassium is commonly used for chronic hypokalaemia." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 173 registrations for this drug, 117 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-potassium_chloride-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 35/24/0370 | Ultipot | Srt | Valid |
@@ -109,6 +123,8 @@ No information on Essential Medicines List (EML) inclusion is available. Five ma
 | E587 (ACT 101/1965) | Slow-K | tablet | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 173 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -139,6 +155,20 @@ The prediction is biologically plausible, but only as adjunctive correction of h
 - Clinical guideline review to confirm the adjunct role of potassium alongside alkali therapy
 - Serum potassium, renal function and ECG monitoring plans, including checks of interacting drugs such as ACE inhibitors, ARBs and potassium-sparing diuretics
 - A review of oral potassium formulations available on the South African market
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All are single-ingredient products, and n" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The other nine registrations are mostly infusion or solution products (for example Ringer-lactate, cardioplegic solutions, a dialysis concen" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

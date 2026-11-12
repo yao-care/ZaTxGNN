@@ -75,6 +75,8 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 42/8.2/1046 | Xarelto | tablet | Valid |
@@ -84,6 +86,8 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 | 50/8.2/9017 | Ixarola 10 | Fct | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 119 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

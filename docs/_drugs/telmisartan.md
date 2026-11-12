@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -136,6 +136,20 @@ For cerebral artery occlusion, all retrieved studies are animal studies. For pul
 
 Telmisartan is marketed in South Africa. Approved indication text and manufacturer details were not available in the data compiled for this report. Essential Medicines List (EML) status could not be determined from the available data.
 
+<!-- review:begin za-lic-20261105-telmisartan-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Telmisartan is marketed in South Africa with 17 valid registrations (all valid, none cancelled). Approved indication text and manufacturer details were not available in the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 136 registrations for this drug, 129 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-telmisartan-1 -->
+
+<!-- review:begin za-lic-20261105-telmisartan-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The remaining 12 registrations include fixed-dose combinations with hydrochlorothiazide or amlodipine (e.g. Telpres Plus, Stytem, Co-pritor, Co-Telza, Amtelip, Ticarda Plus)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 136 registrations for this drug, 129 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-telmisartan-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/7.1.3/0020 | Micardis | tablet | Valid |
@@ -145,6 +159,8 @@ Telmisartan is marketed in South Africa. Approved indication text and manufactur
 | 45/7.1.3/0606 | Mizart | tablet | Valid |
 
 Showing 5 of 136 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -180,6 +196,20 @@ Refer to the SAHPRA-approved PI for full safety information. Report adverse drug
 - Verification of the TRIDENT results (NCT02699645, PMID 42019018) and whether they support telmisartan-containing therapy
 - For Prinzmetal angina, any clinical or mechanistic evidence
 - Approved indication text and EML status for the South African registrations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 17 valid registrations (all valid, none cancelled)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining 12 registrations include fixed-dose combinations with hydrochlorothiazide or amlodipine (e.g. Telpres Plus, Stytem, Co-pritor," | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,14 @@ For the pulmonary hypertension prediction (rank 3), the most relevant item is pr
 
 Perindopril is marketed in South Africa. Approved indication text is not available for any of the registrations. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-perindopril-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are valid: Cosyrel 5/5 (film-coated tablet), Pearinda, Preterax 2mg/0.625mg, and Spec-perindopril plus 4mg/1.25mg (all tablets)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 135 registrations for this drug, 129 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-perindopril-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 34/7.1.3/0480 | Vectoryl | tablet | Valid |
@@ -94,6 +102,8 @@ Perindopril is marketed in South Africa. Approved indication text is not availab
 | 38/7.1.3/0116 | Vectoryl | tablet | Valid |
 
 Showing 5 of 135 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -122,6 +132,19 @@ The high TxGNN score reflects proximity to the existing hypertension indication,
 - Clinical studies or guideline evidence on ACE inhibitors in malignant hypertensive nephropathy
 - A renal safety monitoring plan (renal function, potassium) for patients with severe hypertension and renal impairment
 - Clarification of whether this is a distinct new indication or already covered within the approved hypertension indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Four further registrations are valid: Cosyrel 5/5 (film-coated tablet), Pearinda, Preterax 2mg/0.625mg, and Spec-perindopril plus 4mg/1.25mg" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the registration data (products are amino acid-containi…"
 monitor_inn: "Tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -107,6 +107,20 @@ Many of the thyroid-related papers retrieved concern tyrosine kinase inhibitors,
 
 No approved indication text is recorded for any of them, and Essential Medicines List status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-tyrosine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All eight registrations are valid single-ingredient entries. No approved indication text is recorded for any of them, and Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 11 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tyrosine-1 -->
+
+<!-- review:begin za-lic-20261105-tyrosine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Three further registrations exist: Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036) and Adco-ipratropium (33/10.2.1/0271). The last is listed as a vial and its link to tyrosine should be verified." Removed: it continued a sentence that was removed for contradicting the SAHPRA registration data as of 2026-11-05, and would not make sense on its own. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tyrosine-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/25.2/0501 | Oliclinomel N4-550E 2500ml 3bfoh1r79sa | infusion | Valid (status not confirmed by SAHPRA) |
@@ -116,6 +130,8 @@ No approved indication text is recorded for any of them, and Essential Medicines
 | 47/32.2/0036 | Smofkabiven Peripheral | infusion | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -142,6 +158,20 @@ The prediction for cauda equina syndrome rests on the model score alone (evidenc
 - Clarification of approved indications for each registered product
 - Any preclinical or clinical evidence linking tyrosine to nerve-root injury before further consideration
 - If any indication is pursued, POTS is the only one rated as a research question, and it would need a purpose-designed study with safety review, particularly regarding thyroid effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All eight registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Three further registrations exist: Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036) and Adco-ipratropium (33/10.2.1/0271). " | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

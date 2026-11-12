@@ -83,10 +83,14 @@ Currently no related literature available for gout.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | K/20.2.6/68 | Fansidar | tablet | Valid (status not confirmed by SAHPRA) |
 | K/20.3.6/68 | FANSIDAR* | tablet | Valid |
+
+<!-- licenses:end -->
 
 The Essential Medicines List (EML) status of this product could not be determined from the data compiled for this report.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 378
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -93,6 +93,8 @@ Examples are [NCT07086391](https://clinicaltrials.gov/study/NCT07086391) (nebuli
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 50/20.1.1/0250 | Polygynax® | Pvc | Valid |
@@ -103,7 +105,15 @@ Examples are [NCT07086391](https://clinicaltrials.gov/study/NCT07086391) (nebuli
 
 Showing 5 of 15 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 No oral, injectable or inhalation product appears among the SAHPRA entries compiled, so the inhaled or systemic routes relevant to bronchitis would be unregistered use. Essential Medicines List status could not be determined from the data compiled.
+
+<!-- review:begin za-lic-20261105-polymyxin_b-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid and are topical (skin or eye) products. No oral, injectable or inhalation product appears among the SAHPRA entries compiled, so the inhaled or systemic routes relevant to bronchitis would be unregistered use." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 15 registrations for this drug, 8 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-polymyxin_b-1 -->
 
 ---
 
@@ -145,6 +155,19 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 - Antimicrobial stewardship review, since polymyxin B is a last-line agent
 
 *For context:* The predicted indication **conjunctivitis** has randomised trial support for topical polymyxin B/trimethoprim combinations (for example PMIDs 19043943, 19043945, 23092529). This is largely an established use of the topical products rather than true repurposing, and it fits the registered topical and eye formulations better than bronchitis does.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are valid and are topical (skin or eye) products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

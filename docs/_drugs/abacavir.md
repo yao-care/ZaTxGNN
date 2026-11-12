@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Abacavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -84,6 +84,14 @@ For the related SIV prediction, one in vitro study ([15040537](https://pubmed.nc
 
 No approved-indication text is available in the licence records compiled for this report. Essential Medicines List (EML) status was not available in the data compiled.
 
+<!-- review:begin za-lic-20261105-abacavir-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 11 registrations are valid single-ingredient records. No approved-indication text is available in the licence records compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 67 registrations for this drug, 52 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-abacavir-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 43/20.2.8/0386 | Adco-abacavir | tablet | Valid |
@@ -94,7 +102,15 @@ No approved-indication text is available in the licence records compiled for thi
 
 Showing 5 of 67 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Several product names (for example Auro Abacavir Lamivudine, Kivexa, Heteruam) suggest fixed-dose combinations. Verify against the SAHPRA register before relying on them.
+
+<!-- review:begin za-lic-20261105-abacavir-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Showing 5 of 11 registrations. Several product names (for example Auro Abacavir Lamivudine, Kivexa, Heteruam) suggest fixed-dose combinations, even though the records label them as single-ingredient. Verify against the SAHPRA register before relying on them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 67 registrations for this drug, 52 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-abacavir-2 -->
 
 ## Safety Considerations
 
@@ -123,6 +139,20 @@ The only supporting evidence is one in vitro combination study in a feline virus
 - Mechanism of action data from DrugBank
 - SAHPRA Professional Information (PI) warnings and contraindications, which are currently a blocking gap for safety screening
 - Approved-indication text and EML status for the local registrations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 11 registrations are valid single-ingredient records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Showing 5 of 11 registrations. , even though the records label them as single-ingredient" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

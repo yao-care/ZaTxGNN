@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease and related parkinsonian syndromes"
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -102,6 +102,8 @@ For Lewy body dementia (rank 7), two preclinical publications were identified:
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/5.4.1/0684 | Comtan | tablet | Valid (status not confirmed by SAHPRA) |
@@ -112,7 +114,15 @@ For Lewy body dementia (rank 7), two preclinical publications were identified:
 
 Showing 5 of 7 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report do not state Essential Medicines List (EML) status.
+
+<!-- review:begin za-lic-20261105-entacapone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid and none are cancelled. The data compiled for this report do not state Essential Medicines List (EML) status." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 7 registrations for this drug, 7 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-entacapone-1 -->
 
 ## Safety Considerations
 
@@ -145,6 +155,19 @@ The top prediction, PLA2G6-associated neurodegeneration, rests on model score al
 - Disease-specific clinical evidence (case series or trials) of entacapone with levodopa in PLA2G6-related dystonia-parkinsonism
 - Review of whether the high score for juvenile parkinsonism reflects real signal or ontology overlap with the original indications
 - If a follow-up is wanted, Lewy body dementia and PSP-corticobasal syndrome could be framed as research questions (L4). This would require direct clinical data and an assessment of psychosis risk in Lewy body dementia.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

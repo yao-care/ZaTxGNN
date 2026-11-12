@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fenoterol: predicted new indication multiple system atrophy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | Q/10.2.1/370 | Berotec 0.1 % | nebuliser | Valid (status not confirmed by SAHPRA) |
@@ -81,7 +83,15 @@ Currently no related literature available.
 
 Showing 5 of 13 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not recorded in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-fenoterol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four registrations are currently valid. Essential Medicines List status is not recorded in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 13 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-fenoterol-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +112,19 @@ The prediction for multiple system atrophy has no supporting clinical trials or 
 - Preclinical or clinical studies that directly address this disease
 - SAHPRA Professional Information review for warnings and contraindications
 - A cardiovascular and autonomic safety assessment in patients with autonomic failure
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

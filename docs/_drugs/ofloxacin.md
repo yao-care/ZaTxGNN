@@ -78,6 +78,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 34/20.1.1/0209 | Zanocin 200 Tablets | tablet | Valid |
@@ -87,6 +89,8 @@ Currently no related literature available.
 | A39/20.1.1/0149 | Ofloxacin 200 mg austell | tablet | Valid |
 
 Showing 5 of 10 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 This is a single-ingredient product with valid status. Its Essential Medicines List status is not covered by the data compiled for this report.
 

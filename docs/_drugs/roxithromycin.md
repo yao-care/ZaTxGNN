@@ -76,6 +76,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 35/20.1.1/0222 | Roxithromycin-hexal | tablet | Valid |
@@ -85,6 +87,8 @@ Currently no related clinical trials registered.
 | 36/20.1.1/0424 | Throsyn | tablet | Cancelled |
 
 Showing 5 of 8 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status could not be confirmed from the data compiled for this report.
 

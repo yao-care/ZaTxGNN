@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,12 +71,22 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | X/18.8/46 | Cilest | tablet | Valid (status not confirmed by SAHPRA) |
 | X/18.8/47 | Tricilest | tablet | Valid (status not confirmed by SAHPRA) |
 
+<!-- licenses:end -->
+
 Both registrations are valid. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
+
+<!-- review:begin za-lic-20261106-norgestimate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both registrations are valid, single-ingredient entries for oral tablets." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 2 registrations for this drug, 2 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261106-norgestimate-1 -->
 
 ## Safety Considerations
 
@@ -111,6 +121,19 @@ The prediction rests on a model score alone, with no clinical trials, no literat
 - Mechanism of action data for norgestimate and its active metabolites
 - A clinical justification for treating elevated plasma zinc, and a literature search for any link between progestins and zinc homeostasis
 - Confirmation of the knowledge-graph contraindications against the PI
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient entries for oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

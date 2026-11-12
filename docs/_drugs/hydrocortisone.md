@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Hydrocortisone: predicted new indication alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -85,6 +85,20 @@ No SANCTR or PACTR registrations were found in the data compiled for this report
 
 Hydrocortisone is marketed in South Africa. Approved indication text is not recorded in the local data. Essential Medicines List status is not available in the data.
 
+<!-- review:begin za-lic-20261105-hydrocortisone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Hydrocortisone is marketed in South Africa, with 12 valid single-ingredient registrations in the data compiled for this report (none cancelled). Approved indication text is not recorded in the local data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 67 registrations for this drug, 43 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-hydrocortisone-1 -->
+
+<!-- review:begin za-lic-20261105-hydrocortisone-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Available forms are topical or local (cream, ointment, drops, suppository); no oral or injectable form appears in the data. Intralesional use, as in the historical reports, would not be covered by these products." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 67 registrations for this drug, 43 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-hydrocortisone-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/21.5/0016 | Cortaject 100 Mg | injection | Valid |
@@ -94,6 +108,8 @@ Hydrocortisone is marketed in South Africa. Approved indication text is not reco
 | H/13.4.1/107 | Locoid | cream | Valid |
 
 Showing 5 of 67 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +130,20 @@ A completed Phase 3 randomised trial directly studies alopecia areata, but hydro
 - Mechanism of action data and the SAHPRA Professional Information warnings and contraindications
 - Clarification of the intended route (topical vs intralesional) and whether a locally registered product fits it
 - A safety plan covering skin atrophy and systemic absorption, especially in children
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 12 valid single-ingredient registrations in the data compiled for this report (none cancelled)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Available forms are topical or local (cream, ointment, drops, suppository); no oral or injectable form appears in the data. Intralesional us" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

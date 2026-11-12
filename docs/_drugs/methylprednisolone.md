@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -62,6 +62,14 @@ The prediction likely reflects the closeness of alopecia mucinosa to other infla
 
 No approved indication text is recorded for them in the local data.
 
+<!-- review:begin za-lic-20261105-methylprednisolone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Three SAHPRA registrations are recorded; two are valid and one is cancelled. All are single-ingredient injectable products. No approved indication text is recorded for them in the local data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 36 registrations for this drug, 33 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-methylprednisolone-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 42/21.5.1/0309 | Methylprednisolone 40 viatris powder for | injection | Valid |
@@ -72,7 +80,15 @@ No approved indication text is recorded for them in the local data.
 
 Showing 5 of 36 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Whether a route suitable for alopecia mucinosa (for example intralesional or topical) is available locally has not been assessed.
+
+<!-- review:begin za-lic-20261105-methylprednisolone-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Only injectable forms are registered. Whether a route suitable for alopecia mucinosa (for example intralesional or topical) is available locally has not been assessed." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 36 registrations for this drug, 33 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-methylprednisolone-2 -->
 
 ## Safety Considerations
 
@@ -99,6 +115,19 @@ The prediction score is very high, but there are no trials or publications on al
 - The SAHPRA Professional Information, to complete warnings and contraindications
 - Mechanism of action data
 - Assessment of which route of administration would be needed and whether it is available locally
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Three SAHPRA registrations are recorded; two are valid and one is cancelled. All are single-ingredient injectable products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Only injectable forms are registered" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

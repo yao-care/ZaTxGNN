@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Dexpanthenol: predicted new indication anorectal stricture (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,6 +68,8 @@ Currently no related literature available for anorectal stricture.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/22.1/0508 | Cernevit | infusion | Valid |
@@ -78,7 +80,15 @@ Currently no related literature available for anorectal stricture.
 
 Showing 5 of 19 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-dexpanthenol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "This is the only registration, and it is valid. The available dosage form is injectable (infusion) only. No topical or rectal form is recorded locally, so route compatibility with an anorectal condition is unconfirmed. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 19 registrations for this drug, 15 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-dexpanthenol-1 -->
 
 ## Safety Considerations
 
@@ -98,6 +108,19 @@ The prediction score is high, but no study addresses anorectal stricture directl
 - Mechanism of action data
 - Package insert warnings and contraindications from SAHPRA
 - Confirmation of a suitable route and formulation (e.g., topical or rectal) available in South Africa
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "This is the only registration, and it is valid. The available dosage form is injectable (infusion) only. No topical or rectal form is record" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

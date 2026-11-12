@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 81
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Asthma, allergic rhinitis…"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -95,6 +95,8 @@ Priority is given to the most relevant items. No randomised controlled trial in 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/21.5.1/0051 | Inflammide 100 | inhaler | Valid (status not confirmed by SAHPRA) |
@@ -105,7 +107,21 @@ Priority is given to the most relevant items. No randomised controlled trial in 
 
 Showing 5 of 62 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The drug is marketed in this country. No Essential Medicines List (EML) status was available in the data compiled. Symbicort and Vannair are named as budesonide/formoterol products. None of the registered forms is a dermal preparation, so a new formulation would be needed for atopic eczema.
+
+<!-- review:begin za-lic-20261105-budesonide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The drug is marketed in this country, with 5 of 5 licences valid. No Essential Medicines List (EML) status was available in the data compiled." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 62 registrations for this drug, 50 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-budesonide-1 -->
+
+<!-- review:begin za-lic-20261105-budesonide-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Symbicort and Vannair are named as budesonide/formoterol products, although they are recorded as single-ingredient registrations. None of the registered forms is a dermal preparation, so a new formulation would be needed for atopic eczema." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 62 registrations for this drug, 50 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-budesonide-2 -->
 
 ---
 
@@ -139,6 +155,20 @@ The prediction is computational only (L5). There are no clinical trials for atop
 - A hypersensitivity risk assessment, given the documented contact allergy to budesonide.
 
 **Note on other predictions:** The second-ranked prediction, **bronchitis** (score 0.9981), has stronger support. It has Phase 2 trials of inhaled budesonide/formoterol in bronchiolitis obliterans (NCT00624754 and NCT01560689, each n=32) and supportive publications, giving an evidence level of L2. It is better suited to a focused follow-up review, since the registered inhaled products already match its route of administration.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 5 of 5 licences valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "s, although they are recorded as single-ingredient registration" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

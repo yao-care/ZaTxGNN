@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Irbesartan: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -83,6 +83,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 43/7.1.3/0720 | Dynarb | tablet | Valid |
@@ -93,7 +95,15 @@ Currently no related literature available.
 
 Showing 5 of 76 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The product names "Co Irbewin" and "Isart Co" may indicate combination products, so the composition should be checked against the registered Professional Information (PI) before it is relied on.
+
+<!-- review:begin za-lic-20261105-irbesartan-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are currently valid, and all are recorded as single-ingredient oral tablets. The product names "Co Irbewin" and "Isart Co" may indicate combination products, so the composition should be checked against the registered Professional Information (PI) before it is relied on." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 76 registrations for this drug, 43 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-irbesartan-1 -->
 
 ---
 
@@ -120,6 +130,19 @@ The prediction score is high, but no trial or publication addresses malignant hy
 - Mechanism-of-action data and the SAHPRA PI safety information (warnings and contraindications)
 - Clarification of the clinical role, such as long-term renal protection after blood pressure control, as opposed to acute treatment
 - Safety assessment for use in severe hypertension with impaired renal function, including potassium and renal monitoring
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are currently valid, and all are recorded as single-ingredient oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

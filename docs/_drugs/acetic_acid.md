@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,6 +82,14 @@ Currently no related literature available.
 
 The licence records carry no approved-indication text. Essential Medicines List (EML) status is not recorded in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-acetic_acid-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 4 registrations are valid and single-ingredient. The licence records carry no approved-indication text." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 26 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-acetic_acid-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/34/0328 | Haemocarb acid concentrate 5l afm7204 | infusion | Valid |
@@ -91,6 +99,8 @@ The licence records carry no approved-indication text. Essential Medicines List 
 | A39/34/0163 | Sabax Low Magnesium Acid Diasol (1000Ml) | solution | Valid |
 
 Showing 5 of 26 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -115,6 +125,19 @@ The prediction has a very high model score (0.9998) but no clinical trials, no p
 - SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
 - A literature and trial search that targets the defined condition
 - Confirmation that an appropriate route and formulation exist, since the registered products are dialysis-related solutions and infusions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 4 registrations are valid and single-ingredient" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

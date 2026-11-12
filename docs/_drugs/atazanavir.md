@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Atazanavir: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection and AIDS"
 ---
 
@@ -90,6 +90,14 @@ Currently no related clinical trials registered.
 
 Essential Medicines List status is not available in the data compiled for this report. Approved indication text is not available for either registration.
 
+<!-- review:begin za-lic-20261105-atazanavir-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are single-ingredient products. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 35 registrations for this drug, 16 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-atazanavir-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 42/20.2.8/0838 | Aspen Atazanavir 150Mg | capsule | Valid |
@@ -99,6 +107,8 @@ Essential Medicines List status is not available in the data compiled for this r
 | 45/20.2.8/0925 | Zatonav | Fct | Valid |
 
 Showing 5 of 35 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -129,6 +139,19 @@ SAHPRA package insert warnings and contraindications are not available in the da
 - Detailed mechanism of action data from DrugBank
 - Evidence that tests atazanavir alone against the predicted disease, if any is pursued
 - Human-relevant candidate indications beyond HIV, as the other predictions (feline AIDS, rare neurodevelopmental disorder, obsolete hyperlipidaemia term) have no supporting evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

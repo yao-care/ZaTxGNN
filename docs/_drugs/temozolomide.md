@@ -76,6 +76,8 @@ Only the first report is relevant to this prediction, and it concerns a related 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/26/0722 | Temodal 20 Mg Capsule | capsule | Valid |
@@ -85,6 +87,8 @@ Only the first report is relevant to this prediction, and it concerns a related 
 | 42/26/0961 | Temodal 140 Mg | capsule | Valid |
 
 Showing 5 of 18 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

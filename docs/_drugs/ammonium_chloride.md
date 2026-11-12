@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ammonium chloride"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ammonium Chloride: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
 ---
 
@@ -82,6 +82,20 @@ Currently no related literature available.
 
 The records compiled for this report contain no approved indication text and no manufacturer information, and Essential Medicines List (EML) status is not available.
 
+<!-- review:begin za-lic-20261105-ammonium_chloride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 16 registrations are single-ingredient records and are valid. The records compiled for this report contain no approved indication text and no manufacturer information, and Essential Medicines List (EML) status is not available. The 5 registrations below are a selection of the 16." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 112 registrations for this drug, 83 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ammonium_chloride-1 -->
+
+<!-- review:begin za-lic-20261105-ammonium_chloride-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The other 11 registrations are mostly syrups (for example Tussilinct cough, Phenorant with codeine, Flutex cough linct, Mucosolv expectorant and Coughcod senior/junior)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 112 registrations for this drug, 83 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ammonium_chloride-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | G115 (ACT 101/1965) | Dilinct | syrup | Valid (status not confirmed by SAHPRA) |
@@ -91,6 +105,8 @@ The records compiled for this report contain no approved indication text and no 
 | 28/10.1/0206 | Bronchoped | syrup | Valid |
 
 Showing 5 of 112 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,6 +143,20 @@ The prediction is supported only by a model score (Evidence Level L5). No clinic
 - A narrower definition of the target condition (for example allergic rhinitis, rhinosinusitis, nasal congestion) and a search for studies on it
 - Route and formulation compatibility assessment: the current products are mostly oral syrups, and the route for a nasal indication has not been assessed
 - Review of the knowledge-graph contraindication relations, especially renal, hepatic and cardiovascular, against the PI
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 16 registrations are single-ingredient records and are valid. The 5 registrations below are a selection of the 16" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The other 11 registrations are mostly syrups (for example Tussilinct cough, Phenorant with codeine, Flutex cough linct, Mucosolv expectorant" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

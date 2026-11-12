@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
 description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,20 @@ For the related prediction of general alopecia (rank 9), two publications were r
 
 The approved indication text, and the Essential Medicines List (EML) status, were not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-tamsulosin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Eight valid single-ingredient registrations were found. The approved indication text, and the Essential Medicines List (EML) status, were not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 29 registrations for this drug, 26 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tamsulosin-1 -->
+
+<!-- review:begin za-lic-20261105-tamsulosin-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The remaining three registrations are Swifsul (55/21.12/0032), Beniprosin SR (A40/34/0211) and Duodart 0.5 mg/0.4 mg (44/21.12/0850). Duodart is listed in the data as a single-ingredient registration, although its strength suggests a dutasteride/tamsulosin combination. This should be verified against the registration record." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 29 registrations for this drug, 26 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tamsulosin-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/34/0428 | Flomax sr | Src | Valid |
@@ -89,6 +103,8 @@ The approved indication text, and the Essential Medicines List (EML) status, wer
 | 56/34/0989 | Urilosin 0,4 | capsule | Valid |
 
 Showing 5 of 29 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -113,6 +129,20 @@ The prediction has no clinical trials, no supporting literature and no plausible
 - Mechanism of action data for tamsulosin from DrugBank
 - SAHPRA Professional Information (warnings, contraindications and approved indications) to complete the safety screen
 - Preclinical or early clinical data in the predicted indication, which is the only route that could raise the evidence level above L5
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Eight valid single-ingredient registrations were found" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining three registrations are Swifsul (55/21.12/0032), Beniprosin SR (A40/34/0211) and Duodart 0.5 mg/0.4 mg (44/21.12/0850). Duodar" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

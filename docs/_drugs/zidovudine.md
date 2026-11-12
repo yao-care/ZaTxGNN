@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 476
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -87,6 +87,14 @@ The 20 publications are almost all animal or in vitro studies. No human trials o
 
 The approved indication text was not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-zidovudine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Nine valid SAHPRA registrations were found, all in tablet or kit form. The approved indication text was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 74 registrations for this drug, 45 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-zidovudine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/20.2.8/0204 | Retrovir | tablet | Valid (status not confirmed by SAHPRA) |
@@ -97,7 +105,15 @@ The approved indication text was not available in the data compiled for this rep
 
 Showing 5 of 74 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The simvastatin entry looks like a data-matching error, because simvastatin is not a zidovudine product. It should be checked against the SAHPRA register.
+
+<!-- review:begin za-lic-20261105-zidovudine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named "Simayla Simvastatin 40" (Reg. No. 36/7.5/0372). The simvastatin entry looks like a data-matching error, because simvastatin is not a zidovudine product." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 74 registrations for this drug, 45 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-zidovudine-2 -->
 
 ## Safety Considerations
 
@@ -129,6 +145,20 @@ Support for SIV infection is limited to animal and in vitro work (Evidence Level
 - A clear research or veterinary purpose, if this prediction is to be pursued at all
 
 Two other predictions in the same analysis, congenital HIV and AIDS-related complex, have much stronger clinical evidence. Both overlap with the existing HIV label, so they are not true repurposing.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Nine valid SAHPRA registrations were found, all in tablet or kit form" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named "Simayla Simvastatin 40" (Reg. No. 36/7.5/0" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -75,11 +75,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Testosterone
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 57/21.7/0452 | Testosterone Pd | injection | Valid |
 | A38/21.7/0641 | Nebido 4ml vial | injection | Valid |
 | 57/21.7/0491 | Testosterone Cipla | solution | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

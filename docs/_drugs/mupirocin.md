@@ -97,6 +97,8 @@ No literature is available for pleural empyema (rank 1). Publications exist for 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 49/20.1.6/0587 | Supiroban Cream | cream | Valid |
@@ -106,6 +108,8 @@ No literature is available for pleural empyema (rank 1). Publications exist for 
 | 43/20.1.6/1139 | Banogon | ointment | Valid |
 
 Showing 5 of 16 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Mupirocin is registered as a single-ingredient topical product only. No oral, injectable, intrapleural or ophthalmic formulations are registered, so the route does not match pleural empyema or the ocular predictions. The data compiled for this report do not state Essential Medicines List (EML) status.
 

@@ -72,11 +72,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Copper, so t
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/24/0462 | Peditrace 10ml pdp100010 | infusion | Valid |
 | 52/24/0031 | Nutryelt | infusion | Valid |
 | G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
+
+<!-- licenses:end -->
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

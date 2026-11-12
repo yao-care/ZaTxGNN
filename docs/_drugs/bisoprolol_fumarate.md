@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -56,9 +56,29 @@ Bisoprolol Fumarate is a well-established cardioselective beta-1 adrenergic bloc
 
 > ⚠️ **Data Quality Notice:** Bisoprolol Fumarate is a globally available cardiovascular medicine. Independent verification against the [SAHPRA Online Medicine Register](https://www.sahpra.org.za/medicines/) is strongly recommended before drawing any regulatory conclusions.
 
+<!-- review:begin za-lic-20261105-bisoprolol_fumarate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The absence of SAHPRA registrations and a null DrugBank ID are likely indicators of upstream data mapping failures rather than true absence from the South African market. Independent verification against the [SAHPRA Online Medicine Register](https://www.sahpra.org.za/medicines/) is strongly recommended before drawing any regulatory conclusions." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 93 registrations for this drug, 86 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-bisoprolol_fumarate-1 -->
+
+<!-- review:begin za-lic-20261105-bisoprolol_fumarate-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No SAHPRA-registered products were identified for Bisoprolol Fumarate in the current evidence pack." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 93 registrations for this drug, 86 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-bisoprolol_fumarate-2 -->
+
+<!-- review:begin za-lic-20261105-bisoprolol_fumarate-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No products are listed because the SAHPRA data query returned zero registrations. This should be treated as a data gap pending manual verification, not as confirmation that the drug is unregistered in South Africa." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 93 registrations for this drug, 86 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-bisoprolol_fumarate-3 -->
+
 ---
 
 ## South Africa Market Information
+
+<!-- licenses:begin -->
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
@@ -69,6 +89,8 @@ Bisoprolol Fumarate is a well-established cardioselective beta-1 adrenergic bloc
 | 37/5.2/0011 | Adco-bisocor | tablet | Valid |
 
 Showing 5 of 93 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -97,6 +119,21 @@ The TxGNN prediction pipeline produced no output for this drug because the DrugB
 ---
 
 *This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application. This report was prepared under the TxGNN Drug Repurposing Research Programme. Data cut-off: 4 April 2026.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The absence of SAHPRA registrations and a null DrugBank ID are likely indicators of upstream data mapping failures rather than true absence " | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "No SAHPRA-registered products were identified for Bisoprolol Fumarate in the current evidence pack" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "No products are listed because the SAHPRA data query returned zero registrations. This should be treated as a data gap pending manual verifi" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

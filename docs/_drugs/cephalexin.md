@@ -72,6 +72,8 @@ The TxGNN model produced candidates for Cephalexin, but every candidate that can
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/20.1.1/0124 | Cephalexin pharma-q | capsule | Valid |
@@ -81,6 +83,8 @@ The TxGNN model produced candidates for Cephalexin, but every candidate that can
 | 37/20.1.1/0617 | Belex | tablet | Valid |
 
 Showing 5 of 43 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

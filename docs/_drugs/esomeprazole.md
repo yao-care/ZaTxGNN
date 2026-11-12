@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 35/11.4.3/0263 | Nexiam | tablet | Valid |
@@ -88,6 +90,8 @@ Currently no related literature available.
 | 44/11.4.3/0209 | Nexiam | sachet | Valid |
 
 Showing 5 of 89 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Available routes are injectable (infusion) and oral (tablet). Essential Medicines List status is not available in the data compiled for this report.
 

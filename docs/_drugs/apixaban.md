@@ -74,6 +74,8 @@ The link to migraine is indirect and speculative. Migraine with aura, particular
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 47/8.2/0463 | Eliquis | tablet | Valid |
@@ -83,6 +85,8 @@ The link to migraine is indirect and speculative. Migraine with aura, particular
 | 55/8.2/0055.053 | Clotixar 2,5 | Fct | Valid |
 
 Showing 5 of 44 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

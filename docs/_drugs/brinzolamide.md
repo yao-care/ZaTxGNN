@@ -72,6 +72,8 @@ The TxGNN model produced candidates for Brinzolamide, but every candidate that c
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 34/15.4/0382 | Azoptic 5ml eye suspension | drops | Valid |
@@ -79,6 +81,8 @@ The TxGNN model produced candidates for Brinzolamide, but every candidate that c
 | 50/15.4/0358 | Simbrinza | drops | Valid |
 | 51/15.4/0920 | Ocurinz | Not recorded | Valid |
 | 53/15.4/0249 | Azibrin 1 % | suspension | Valid |
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -72,6 +72,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/25/0756 | Nutriflex lipid plus 2500ml | Tpn | Valid |
@@ -81,6 +83,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | 49/25/0066 | Nutriflex Omega Plus | infusion | Valid |
 
 Showing 5 of 10 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

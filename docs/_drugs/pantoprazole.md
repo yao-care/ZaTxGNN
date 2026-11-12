@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -103,6 +103,8 @@ Two further trials (NCT00881413, NCT00839488) were withdrawn or terminated with 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/11.4.3/0407 | Pantoloc | tablet | Valid |
@@ -113,7 +115,15 @@ Two further trials (NCT00881413, NCT00839488) were withdrawn or terminated with 
 
 Showing 5 of 84 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Both oral (tablet) and injectable forms are available. Essential Medicines List (EML) status is not covered in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-pantoprazole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four registrations are valid single-ingredient products. Both oral (tablet) and injectable forms are available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 84 registrations for this drug, 66 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-pantoprazole-1 -->
 
 ## Safety Considerations
 
@@ -134,6 +144,19 @@ Multiple Phase 3 trials and several RCTs support pantoprazole in peptic and duod
 - Confirmation of the mechanism of action from a primary source such as DrugBank
 - Review of the full interaction list against local co-medications, especially atazanavir and acalabrutinib
 - Confirmation of the exact design and comparator of the key trials, since some titles and designs are truncated or unconfirmed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

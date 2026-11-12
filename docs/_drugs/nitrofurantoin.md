@@ -84,6 +84,8 @@ Four further retrieved papers (on bacteriuria screening, sialadenitis, autoimmun
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 52/18.5/0756.754 | Urimso 50 | capsule | Valid |
@@ -93,6 +95,8 @@ Four further retrieved papers (on bacteriuria screening, sialadenitis, autoimmun
 | 53/18.5/0109.107 | Cipladantin 50 | capsule | Valid |
 
 Showing 5 of 28 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 The Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

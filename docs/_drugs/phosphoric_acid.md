@@ -72,6 +72,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | N/24/83 | Sabax neonatalyte 10% gluc 200ml afb2718 | infusion | Valid |
@@ -81,6 +83,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | R/24/243 | Neolyte | solution | Valid |
 
 Showing 5 of 7 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

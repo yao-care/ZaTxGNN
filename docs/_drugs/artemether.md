@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Artemether"
 predicted_indications: ["acquired angioedema", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Artemether: predicted new indication acquired angioedema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -79,13 +79,23 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 34/20.2.6/0161 | Coartem | tablet | Valid |
 | 61/20.2.6/1375 | Lumiter 20/120 mg | tablet | Valid |
 | 43/20.2.6/0225 | Coartem 20 mg/120 mg Dispersible Tablets | tablet | Cancelled |
 
+<!-- licenses:end -->
+
 Its Essential Medicines List status is not recorded in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-artemether-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Coartem is the only registered product in the data. Its Essential Medicines List status is not recorded in the data compiled for this report." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 3 registrations for this drug, 2 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-artemether-1 -->
 
 ---
 
@@ -110,6 +120,19 @@ The prediction has no supporting trials or literature and no identifiable mechan
 - Safety information from the SAHPRA package insert (warnings and contraindications)
 - Mechanism of action data for artemether
 - A systematic literature search for any case reports or studies in angioedema
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Coartem is the only registered product in the data" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

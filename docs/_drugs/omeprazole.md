@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -105,6 +105,14 @@ These are not true repurposing candidates. Others are weakly supported, such as 
 
 Approved indication text and manufacturer details are not available. Essential Medicines List status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-omeprazole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Omeprazole has 3 valid SAHPRA registrations, all single-ingredient oral products. Approved indication text and manufacturer details are not available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 49 registrations for this drug, 41 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-omeprazole-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/11.4.3/0087 | Altosec | capsule | Valid |
@@ -114,6 +122,8 @@ Approved indication text and manufacturer details are not available. Essential M
 | 34/11.4.3/0081 | Omiloc | capsule | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 49 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -152,6 +162,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full safet
 - For duodenogastric reflux, a controlled human study with bile-reflux endpoints and a long-term safety assessment (gastric mucosal and carcinogenesis risk).
 - A review of the knowledge-graph contraindications (hepatic disease, osteoporosis and fracture risk, atrophic gastritis) and key interactions (atazanavir, acalabrutinib) against the label.
 - Confirmation of Essential Medicines List status and of formulations suitable for post-bariatric patients (for example, capsule opening).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Omeprazole has 3 valid SAHPRA registrations, all single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

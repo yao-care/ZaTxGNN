@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,6 +80,14 @@ Currently no related literature available.
 
 Diclofenac is marketed in South Africa. The records list single-ingredient products in oral (tablet, capsule), injectable, suppository, sachet and topical gel forms. Indication text is not recorded in the local data. The main registrations are:
 
+<!-- review:begin za-lic-20261105-diclofenac-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Diclofenac is marketed in South Africa, with 14 valid SAHPRA registrations and none cancelled. The records list single-ingredient products in oral (tablet, capsule), injectable, suppository, sachet and topical gel forms." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 107 registrations for this drug, 90 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-diclofenac-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/3.1/0121 | Panamor supp | suppository | Valid |
@@ -89,6 +97,8 @@ Diclofenac is marketed in South Africa. The records list single-ingredient produ
 | 28/3.1/0306 | Cataflam d dispersible | effervescent tablet | Valid |
 
 Showing 5 of 107 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
@@ -115,6 +125,19 @@ The prediction is supported only by the model score. There are no trials or publ
 - A credible mechanistic rationale linking diclofenac to the pathology of hypotrichosis simplex
 - Preclinical or clinical evidence that directly studies this disease
 - SAHPRA Professional Information, to complete the safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 14 valid SAHPRA registrations and none cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

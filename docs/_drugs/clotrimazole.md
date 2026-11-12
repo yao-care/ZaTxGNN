@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clotrimazole: predicted new indication acne (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,6 +74,12 @@ No related publications are available for this prediction. No SANCTR or PACTR re
 
 Clotrimazole is marketed in South Africa. They are mainly topical creams, plus a kit and vaginal-cream presentations. No registered product text in the data compiled for this report supports use in acne.
 
+<!-- review:begin za-lic-20261105-clotrimazole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Clotrimazole is marketed in South Africa, and all of its registered single-ingredient products are currently valid. They are mainly topical creams, plus a kit and vaginal-cream presentations. No registered product text in the data compiled for this report supports use in acne." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 65 registrations for this drug, 51 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-clotrimazole-1 -->
+
 ## Safety Considerations
 
 - **Drug Interactions:** Interaction screening returned a large number of entries. The following are rated **Major**:
@@ -110,6 +116,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 - A controlled study of clotrimazole alone in a defined acne population, for example fungal (*Malassezia*) folliculitis versus acne vulgaris
 - Results or a status update for NCT01244256
 - Mechanism-of-action data and a topical safety review from the SAHPRA-approved PI
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "and all of its registered single-ingredient products are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

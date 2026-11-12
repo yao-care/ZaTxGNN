@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,6 +101,8 @@ The data compiled for this report also include other completed Phase 3 vilantero
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 48/21.5.1/0247 | Revinty Ellipta 92/22 Μg | inhaler | Valid |
@@ -111,7 +113,15 @@ The data compiled for this report also include other completed Phase 3 vilantero
 
 Showing 5 of 6 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report did not include Essential Medicines List (EML) status.
+
+<!-- review:begin za-lic-20261105-vilanterol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are currently valid. The data compiled for this report did not include Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 6 registrations for this drug, 6 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-vilanterol-1 -->
 
 ## Safety Considerations
 
@@ -138,6 +148,19 @@ Multiple completed Phase 3 randomised trials and large RCT publications support 
 - Monitoring of cardiovascular risk and pneumonia risk associated with LABA/ICS combinations
 - Glycaemic monitoring in patients on antidiabetic medicines
 - Mechanism of action data from DrugBank to complete the mechanistic analysis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

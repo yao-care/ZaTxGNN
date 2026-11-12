@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Flucloxacillin"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,6 +95,8 @@ For context, the literature on the second-ranked prediction (rheumatoid arthriti
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 44/20.1.2/0816 | Flucloxacillin 250 oethmaan | capsule | Valid |
@@ -105,7 +107,15 @@ For context, the literature on the second-ranked prediction (rheumatoid arthriti
 
 Showing 5 of 21 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status was not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-flucloxacillin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "A sixth registration, 27/20.1.2/0107 (Macropen s, suspension), is also valid. All six registrations are single-ingredient products. Essential Medicines List status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 21 registrations for this drug, 16 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-flucloxacillin-1 -->
 
 ---
 
@@ -130,6 +140,19 @@ The predicted conjunctivitis indication rests on a model score alone. There are 
 - Evidence specific to flucloxacillin in bacterial conjunctivitis, such as susceptibility data for common ocular pathogens and any trials
 - Assessment of route suitability, since the registered products are oral (tablet, capsule, suspension) and the predicted indication would typically require topical ocular delivery
 - Consolidation of the duplicate conjunctivitis entries in the prediction list
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "A sixth registration, 27/20.1.2/0107 (Macropen s, suspension), is also valid. All six registrations are single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

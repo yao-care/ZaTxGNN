@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Chlorobutanol"
 predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
 description: "Chlorobutanol: predicted new indication Erectile dysfunction (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | G1781 | Viocort | cream | Valid |
@@ -79,7 +81,15 @@ Currently no related literature available.
 | H1510 | Famotic Ear Drops | drops | Valid (status not confirmed by SAHPRA) |
 | H1545(ACT 101 OF 1965) | Otalgon (plastic bottle) 15ml | drops | Valid (status not confirmed by SAHPRA) |
 
+<!-- licenses:end -->
+
 Its Essential Medicines List (EML) status could not be determined from the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-chlorobutanol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Chlorobutanol is registered as a single-ingredient product in this one valid registration. Its Essential Medicines List (EML) status could not be determined from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 5 registrations for this drug, 5 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-chlorobutanol-1 -->
 
 ## Safety Considerations
 
@@ -94,12 +104,32 @@ No drug-drug interactions were found in the interaction query.
 **Rationale:**
 The prediction is supported only by the TxGNN model score, with no clinical trials, no publications and no established mechanism. There is no known pharmacological route to an erectile dysfunction effect. Safety data are also missing, which blocks progression to safety screening.
 
+<!-- review:begin za-lic-20261105-chlorobutanol-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The only registered product is a topical cream, and there is no known pharmacological route to an erectile dysfunction effect." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 5 registrations for this drug, 5 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-chlorobutanol-2 -->
+
 **To proceed, the following is needed:**
 - The SAHPRA package insert (warnings, contraindications and approved indication), to complete safety screening
 - Mechanism of action data for chlorobutanol, to assess any link to erectile dysfunction
 - A systematic search of PubMed, ClinicalTrials.gov, SANCTR and PACTR for any existing studies
 - Assessment of route compatibility, since only a topical cream is registered in South Africa
 - Review of the other predicted indications for any with better mechanistic plausibility
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Chlorobutanol is registered as a single-ingredient product in this one valid registration" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "he only registered product is a topical cream, and t" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

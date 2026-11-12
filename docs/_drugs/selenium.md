@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 415
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Selenium: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not stated in the SAHPRA registration data (the registered products a…"
 monitor_inn: "Selenium"
 predicted_indications: ["sclerosing cholangitis"]
@@ -65,6 +65,12 @@ The very high TxGNN score is therefore a computational signal only. It is not ba
 
 Currently no related clinical trials registered.
 
+<!-- review:begin za-lic-20261105-selenium-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both entries are listed as valid single-ingredient products. Their registration identifiers are exclusion or authorisation references rather than standard registration numbers." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 10 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-selenium-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -77,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 38/24/0441 | Selesyn 100 Peroral | solution | Valid |
@@ -86,6 +94,8 @@ Currently no related clinical trials registered.
 | G1679 | Selenium Sulfide 2.5% suspension | suspension | Valid |
 
 Showing 5 of 10 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The prediction rests on a high model score and indirect observational and precli
 - Interventional evidence, ideally a controlled trial, of selenium in sclerosing cholangitis.
 - A dosing and safety plan that respects selenium's narrow therapeutic window.
 - A review of the interaction with dimercaprol.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both entries are listed as valid single-ingredient products. Their registration identifiers are exclusion or authorisation references rather" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 324
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -77,6 +77,14 @@ Currently no related clinical trials registered.
 
 No approved indication text is recorded for any of them. Essential Medicines List (EML) status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-miconazole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Six of the nine SAHPRA registrations are currently valid and three are cancelled. All are single-ingredient records. No approved indication text is recorded for any of them." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 22 registrations for this drug, 12 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-miconazole-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/20.2.2/0630 | Micmat | tablet | Valid (status not confirmed by SAHPRA) |
@@ -86,6 +94,8 @@ No approved indication text is recorded for any of them. Essential Medicines Lis
 | 35/13.4.1/0392 | Elozart | cream | Valid |
 
 Showing 5 of 22 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,6 +115,18 @@ The evidence level is L4. The only support is a review of miconazole's effects o
 - Detailed mechanism of action data
 - SAHPRA Professional Information review for warnings and contraindications
 - Comparison with current standard acne treatments, and an assessment of whether a suitable topical formulation is available for this use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Six of the nine SAHPRA registrations are currently valid and three are cancelled. All are single-ingredient records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

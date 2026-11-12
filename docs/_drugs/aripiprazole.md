@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/2.6.5/0493 | Abilify | tablet | Valid |
@@ -79,6 +81,8 @@ Currently no related literature available.
 | 46/2.6.5/0876 | Arizofy | tablet | Valid |
 
 Showing 5 of 90 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Aripiprazole is marketed in South Africa as a single-ingredient injectable. Essential Medicines List status is not available in the compiled data.
 

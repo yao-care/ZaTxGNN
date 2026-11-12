@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sulfanilamide"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis"]
 description: "Sulfanilamide: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,6 +88,8 @@ There is no literature for the top-ranked prediction, postmenopausal atrophic va
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | H1078 | Ams | ointment | Valid |
@@ -98,7 +100,15 @@ There is no literature for the top-ranked prediction, postmenopausal atrophic va
 
 Showing 5 of 7 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-sulfanilamide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient entries. The Adco-ipratropium entry is named for a different drug (ipratropium), so the registration match should be checked against the SAHPRA register before it is relied upon. Essential Medicines List (EML) status could not be determined from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 7 registrations for this drug, 5 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-sulfanilamide-1 -->
 
 ## Safety Considerations
 
@@ -119,6 +129,19 @@ For label-based warnings, contraindications and dosing, please refer to the SAHP
 - Mechanism of action data from DrugBank.
 - Confirmation of the two SAHPRA registrations, including the product-to-drug match and EML status.
 - A reassessment of whether the non-infective predictions (atrophic vaginitis, vulvar neoplasm, leukoplakia, breast adenosis) merit any further work. On current evidence they do not.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient entries. The Adco-ipratropium entry is named for a different drug (ipratropium), so the regis" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

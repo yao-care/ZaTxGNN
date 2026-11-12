@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dolutegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -92,6 +92,20 @@ Additional literature relates to the SIV prediction (for example [PMID 30381490]
 
 Approved indication text and Essential Medicines List status are not available in the data compiled for this report; please verify against the Professional Information (PI) and the current EML.
 
+<!-- review:begin za-lic-20261105-dolutegravir-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Dolutegravir has 20 valid single-ingredient SAHPRA registrations and no cancelled registrations. Approved indication text and Essential Medicines List status are not available in the data compiled for this report; please verify against the Professional Information (PI) and the current EML." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 107 registrations for this drug, 103 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-dolutegravir-1 -->
+
+<!-- review:begin za-lic-20261105-dolutegravir-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "*Showing 5 of 20 registrations. Others include a paediatric effervescent tablet (Damicava Paed).*" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 107 registrations for this drug, 103 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-dolutegravir-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 48/20.2.8/0403 | Tivicay | tablet | Valid (status not confirmed by SAHPRA) |
@@ -101,6 +115,8 @@ Approved indication text and Essential Medicines List status are not available i
 | 52/20.2.8/0002.001 | Hetvir 50 | Fct | Valid |
 
 Showing 5 of 107 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -130,6 +146,20 @@ The top predicted indication is a veterinary disease supported by a single precl
 - SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
 - Approved indication text for the registered products
 - If a veterinary application is considered, dolutegravir-specific efficacy and safety data in target species, and a veterinary regulatory pathway (outside the scope of SAHPRA human medicine registration)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Dolutegravir has 20 valid single-ingredient SAHPRA registrations and no cancelled registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "*Showing 5 of 20 registrations. Others include a paediatric effervescent tablet (Damicava Paed).*" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

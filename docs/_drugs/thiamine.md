@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Thiamine: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not available"
 ---
 
@@ -85,6 +85,14 @@ For the secondary open-angle glaucoma prediction, the following publications wer
 
 No approved indication text is recorded. Five main registrations are shown:
 
+<!-- review:begin za-lic-20261106-thiamine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Thirteen single-ingredient registrations are listed (the list may be partial). No approved indication text is recorded for any of them." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 81 registrations for this drug, 41 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261106-thiamine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | A/21.8.1/743 | Menoflush | tablet | Valid |
@@ -94,6 +102,8 @@ No approved indication text is recorded. Five main registrations are shown:
 | H2412 | A-lennon vitamin b co ampoule 2ml | injection | Valid |
 
 Showing 5 of 81 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
@@ -114,6 +124,19 @@ The top-ranked prediction rests only on a TxGNN model (deep learning) score, wit
 - Any direct preclinical or clinical evidence for the predicted disease; for glaucoma, interventional or mechanistic studies of thiamine itself
 - Review of whether the associations in the glaucoma literature are causal (e.g. reduced blood thiamine levels as a consequence rather than a cause)
 - Confirmation of route and formulation compatibility with the predicted use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Thirteen single-ingredient registrations are listed (the list may be partial). for any of them" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

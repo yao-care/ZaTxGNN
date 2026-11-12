@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Tenofovir Alafenamide: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
 ---
 
@@ -93,6 +93,14 @@ Currently no related clinical trials registered.
 
 The licence records compiled for this report contain no approved indication text, and Essential Medicines List status is not available.
 
+<!-- review:begin za-lic-20261105-tenofovir_alafenamide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four registrations are valid, single-ingredient products. The licence records compiled for this report contain no approved indication text, and Essential Medicines List status is not available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 37 registrations for this drug, 36 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tenofovir_alafenamide-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 52/20.2.8/0273 | Vemlidy | Fct | Valid |
@@ -102,6 +110,8 @@ The licence records compiled for this report contain no approved indication text
 | 56/20.2.8/0020 | Tavirant | Fct | Valid |
 
 Showing 5 of 37 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -123,6 +133,19 @@ The only support for this prediction is preclinical macaque and mouse work in SI
 - Detailed mechanism of action data
 - SAHPRA Professional Information (warnings, contraindications and approved indications) for the four registered products
 - Review of the other predicted indications (feline acquired immunodeficiency syndrome, which is a veterinary condition outside human repurposing, and a genetic neurodevelopmental disorder with no plausible mechanistic link and likely a false positive), neither of which has any supporting trial or publication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four registrations are valid, single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

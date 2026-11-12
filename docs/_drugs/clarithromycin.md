@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clarithromycin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Relations recorded in the knowledge graph: infectious otitis media…"
 ---
 
@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/20.1.1/0264 | Klacid i.v. | injection | Valid |
@@ -78,7 +80,15 @@ Currently no related literature available.
 
 Showing 5 of 58 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not included in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-clarithromycin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are single-ingredient, valid oral tablet products. Essential Medicines List status is not included in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 58 registrations for this drug, 53 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-clarithromycin-1 -->
 
 ## Safety Considerations
 
@@ -103,6 +113,19 @@ The prediction is supported only by a model score. No trials or publications add
 - Any preclinical or clinical evidence that studies this condition directly
 - The SAHPRA Professional Information, to complete the safety review (warnings and contraindications)
 - Review of the other predicted indications. Hyperamylasemia has only one indirect case report. Punctate epithelial keratoconjunctivitis has one 2024 observational study (PMID 38472959) and may be a research question, but no listed study directly assesses clarithromycin for that condition.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are single-ingredient, valid oral tablet products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

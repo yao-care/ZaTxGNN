@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Methylpredni
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/13.4.1/0362 | Advantan Milk | Mlk | Valid |
@@ -81,6 +83,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Methylpredni
 | 56/13.4.1/0423 | Macepatan Cream | cream | Valid |
 
 Showing 5 of 16 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

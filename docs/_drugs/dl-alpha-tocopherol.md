@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DL-alpha-Tocopherol"
 predicted_indications: ["mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "immature cataract", "diabetic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "antithrombin deficiency type 2"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dl-Alpha-Tocopherol: predicted new indication Mature cataract (evidence level L5). Approved use: Not stated in the SAHPRA licence data compiled for this report"
 ---
 
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 DL-alpha-Tocopherol is a form of vitamin E, a lipid-soluble antioxidant. In South Africa it is registered as a component of a multivitamin infusion product (Cernevit).
 The TxGNN model predicts it may be effective for **mature cataract**, but the data compiled for this report contain **0 clinical trials** and **0 publications** that directly study this disease.
 The prediction is therefore supported by the model score alone.
+
+<!-- review:begin za-lic-20261105-dl-alpha-tocopherol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "In South Africa it is registered only as a component of a multivitamin infusion product (Cernevit)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 20 registrations for this drug, 15 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-dl-alpha-tocopherol-1 -->
 
 ## Quick Overview
 
@@ -76,6 +82,8 @@ No publication directly studies mature cataract. The only publication linked to 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
@@ -85,6 +93,8 @@ No publication directly studies mature cataract. The only publication linked to 
 | T1095 | Alpha Vit E Capsules 100 iu | capsule | Valid |
 
 Showing 5 of 20 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Cernevit is a multi-ingredient vitamin product. Its licence does not describe how tocopherol alone is approved or marketed. Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 
@@ -107,6 +117,19 @@ The prediction is supported only by a model score. No clinical trial or publicat
 - Mechanism of action data (for example from DrugBank)
 - Assessment of route compatibility, since the only local product is an intravenous infusion and no ocular or oral single-ingredient route has been evaluated
 - Re-evaluation of the prediction for earlier-stage cataract types, as these are better candidates than mature cataract
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

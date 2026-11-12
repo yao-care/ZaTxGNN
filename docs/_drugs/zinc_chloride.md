@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ZINC CHLORIDE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
 description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,6 +76,14 @@ Currently no related literature available.
 
 Approved indication text was not available for any of them.
 
+<!-- review:begin za-lic-20261105-zinc_chloride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Six registrations are on record. Approved indication text was not available for any of them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 5 registrations for this drug, 4 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-zinc_chloride-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/24/0462 | Peditrace 10ml pdp100010 | infusion | Valid |
@@ -83,6 +91,8 @@ Approved indication text was not available for any of them.
 | H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
 | B0035 | Synacthen 0,25 | tablet | Valid |
 | 34/16.4/0294 | Tartar Control Listerine Antiseptic | solution | Cancelled |
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report. Available dosage forms span injectable, infusion, TPN and oral routes; none is an ophthalmic formulation.
 
@@ -109,6 +119,19 @@ The predictions rest solely on a computational score, with no clinical trials or
 - Literature review and trial registry searches, including SANCTR and PACTR, for zinc in diabetic retinopathy, Sjogren syndrome and dry eye
 - Preclinical ocular safety and tolerability data before any consideration of ophthalmic or intravitreal use
 - Confirmation of the approved indications and EML status of the registered products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Six registrations are on record" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

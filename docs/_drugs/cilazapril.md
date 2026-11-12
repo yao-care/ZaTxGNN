@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -77,13 +77,23 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | Y/7.1.3/65 | Inhibace | tablet | Valid (status not confirmed by SAHPRA) |
 | 29/7.1.3/0022 | Inhibace plus 5mg/12.5mg | tablet | Valid (status not confirmed by SAHPRA) |
 | Y/7.1.3/66 | Inhibace | tablet | Valid (status not confirmed by SAHPRA) |
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-cilazapril-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "This is the only registration, and it is a combination product (the "plus" presentation). It should not be used to describe how single-ingredient cilazapril is approved or marketed in South Africa. Essential Medicines List status is not available in the data compiled for this report." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 3 registrations for this drug, 3 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-cilazapril-1 -->
 
 ## Safety Considerations
 
@@ -107,6 +117,19 @@ The TxGNN score is high (0.9920), but the support is limited to rat and cell-cul
 - Licence and indication details for any single-ingredient cilazapril product in South Africa
 
 **Other predictions (not supported by any study):** Two further predictions, pulmonary hypertension with unclear multifactorial mechanism (0.9920) and malignant hypertensive renal disease (0.9912), have no trials or literature and are at evidence level L5, so both are on Hold. The malignant hypertensive renal disease prediction largely overlaps with the existing hypertension use and may not be true repurposing.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "This is the only registration, and it is a combination product (the "plus" presentation). It should not be used to describe how single-ingre" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

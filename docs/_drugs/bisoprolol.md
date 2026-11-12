@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "BISOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -107,6 +107,14 @@ None addresses pulmonary vascular pressure or outcomes in pulmonary hypertension
 
 Most listed products appear to be bisoprolol combination tablets (e.g. with hydrochlorothiazide or amlodipine, judging by the product names). Approved-indication text and Essential Medicines List status are not available in the data compiled for this report. The first five registrations are shown:
 
+<!-- review:begin za-lic-20261105-bisoprolol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Nine valid SAHPRA registrations exist, all listed as single-ingredient records (no cancelled registrations). Most listed products appear to be bisoprolol combination tablets (e.g. with hydrochlorothiazide or amlodipine, judging by the product names)." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 93 registrations for this drug, 86 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-bisoprolol-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/6.1/0457 | Cardicor | tablet | Valid |
@@ -116,6 +124,8 @@ Most listed products appear to be bisoprolol combination tablets (e.g. with hydr
 | 37/5.2/0011 | Adco-bisocor | tablet | Valid |
 
 Showing 5 of 93 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -143,6 +153,19 @@ The prediction rests on model score alone (L5), with no clinical trials or liter
 - Clarification of whether the intended use differs meaningfully from the existing hypertension indication
 - Review of the high-volume DDI list for clinically relevant interactions in the target population
 - For pulmonary hypertension, specific assessment of right ventricular and haemodynamic safety before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Nine valid SAHPRA registrations exist, all listed as single-ingredient records (no cancelled registrations)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

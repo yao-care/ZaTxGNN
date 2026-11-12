@@ -72,6 +72,8 @@ All candidates produced by the TxGNN model for Acetaminophen (score ≥ 0.99) th
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/2.7/0014 | Clicks paracetamol | tablet | Valid |
@@ -95,6 +97,8 @@ All candidates produced by the TxGNN model for Acetaminophen (score ≥ 0.99) th
 | 47/2.7/0931 | Obident 500 Tablets | tablet | Valid |
 
 Showing 19 of 569 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

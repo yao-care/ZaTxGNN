@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,6 +86,14 @@ None of these publications addresses respiratory malformation treated with tiotr
 
 Tiotropium is marketed in South Africa. The indication text is not recorded in the local data for any of them.
 
+<!-- review:begin za-lic-20261105-tiotropium-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Two registrations are valid and two are cancelled. The indication text is not recorded in the local data for any of them." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 9 registrations for this drug, 6 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tiotropium-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/10.2.1/0044 | Spiriva inh.caps 30 with handihaler | Kit | Valid |
@@ -95,6 +103,8 @@ Tiotropium is marketed in South Africa. The indication text is not recorded in t
 | 57/10.2.1/0007 | Fibrotiem | capsule | Valid |
 
 Showing 5 of 9 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List status is not available in the data compiled for this report.
 
@@ -137,6 +147,18 @@ SAHPRA package insert warnings and contraindications were not available in the d
 - Definition of which malformation types and patient subgroups could plausibly benefit
 - Mechanism of action data and the SAHPRA Professional Information (warnings, contraindications, approved indication text)
 - A safety review for paediatric use, since many malformations present in children
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Two registrations are valid and two are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

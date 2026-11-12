@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/21.5/0316 | Capsoid | tablet | Valid (status not confirmed by SAHPRA) |
@@ -91,6 +93,8 @@ Currently no related clinical trials registered.
 | 28/21.5.1/0158 | Prelone | syrup | Valid |
 
 Showing 5 of 33 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -100,6 +100,8 @@ One general review was supplied for the rank 7 prediction (pancreatic agenesis).
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 33/21.1/0073 | Humalog Mix 25 | penset | Valid |
@@ -109,6 +111,8 @@ One general review was supplied for the rank 7 prediction (pancreatic agenesis).
 | 56/21.1/0047 | Lyumjev U100 | solution | Cancelled |
 
 Showing 5 of 12 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Insulin lispro is available only as an injectable product in South Africa. The data compiled for this report do not show its Essential Medicines List (EML) status.
 

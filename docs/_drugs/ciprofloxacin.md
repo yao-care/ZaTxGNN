@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,6 +90,14 @@ Currently no related clinical trials registered.
 
 Approved indication text and Essential Medicines List status are not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-ciprofloxacin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Ciprofloxacin has 8 valid single-ingredient SAHPRA registrations and no cancelled ones. The five below are shown; the other three are Biofloxx 500, Ciploxx 250 and Xindex. Approved indication text and Essential Medicines List status are not available in the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 107 registrations for this drug, 76 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ciprofloxacin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/20.1.1/0118 | Ciprofloxacin 250 pharma-q | tablet | Valid |
@@ -99,6 +107,8 @@ Approved indication text and Essential Medicines List status are not available i
 | 33/20.1.1/0371 | Simayla ciprofloxacin | tablet | Valid |
 
 Showing 5 of 107 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Oral and injectable forms are available locally. For scleroderma, the oral route is the one studied in the available literature.
 
@@ -139,6 +149,19 @@ Corticosteroids are commonly used in scleroderma care, so this matters for the p
 - A review of interactions with corticosteroids and other drugs commonly used in scleroderma
 
 It includes randomized non-inferiority trial publications for bubonic plague and animal model data, and is rated L2. It may merit its own evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Ciprofloxacin has 8 valid single-ingredient SAHPRA registrations and no cancelled ones. The five below are shown; the other three are Bioflo" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

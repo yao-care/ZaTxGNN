@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 303
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LOSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -93,6 +93,20 @@ Currently no related clinical trials registered.
 
 Losartan is registered in South Africa as single-ingredient and fixed-dose combination tablets (many combined with hydrochlorothiazide, e.g. 50/12.5 mg and 100/25 mg). The records compiled for this report do not include approved indication text, and Essential Medicines List (EML) status is not available in the data.
 
+<!-- review:begin za-lic-20261105-losartan-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 18 registrations are currently valid. The records compiled for this report do not include approved indication text, and Essential Medicines List (EML) status is not available in the data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 108 registrations for this drug, 79 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-losartan-1 -->
+
+<!-- review:begin za-lic-20261105-losartan-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Showing 5 of 18 registrations." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 108 registrations for this drug, 79 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-losartan-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/7.1.3/0268 | Cozaar | tablet | Valid |
@@ -102,6 +116,8 @@ Losartan is registered in South Africa as single-ingredient and fixed-dose combi
 | 41/7.1.3/0497 | Austell losartan | tablet | Valid |
 
 Showing 5 of 108 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -145,6 +161,19 @@ The prediction score is high and the mechanism is plausible, but evidence is lim
 | 6 | Prinzmetal angina | 0.9945 | L5 | Hold |
 | 7 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 0.9939 | L5 | Hold |
 | 8 | Brain small vessel disease 1 with or without ocular anomalies | 0.9937 | L5 (preclinical and indirect studies) | Research question |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 18 registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Showing 5 of 18 registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

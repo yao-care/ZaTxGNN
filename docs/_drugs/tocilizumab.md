@@ -100,12 +100,16 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 43/30.1/0944 | Actemra 80 vial 4ml | infusion | Valid |
 | 43/30.1/0945 | Actemra 200 vial 10ml | infusion | Valid |
 | 43/30.1/0946 | Actemra 400 vial 20ml | infusion | Valid |
 | 49/30.1/0398 | Actemra Sc | vial | Valid |
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status was not available in the data compiled for this report.
 

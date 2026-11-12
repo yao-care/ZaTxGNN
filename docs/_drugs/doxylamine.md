@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "DOXYLAMINE"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Doxylamine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,6 +72,20 @@ No clinical trials or publications were provided that directly study nasal cavit
 
 The records carry no approved-indication text. Essential Medicines List status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-doxylamine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Eleven single-ingredient SAHPRA registrations are currently valid and none are cancelled. The records carry no approved-indication text." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 44 registrations for this drug, 31 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-doxylamine-1 -->
+
+<!-- review:begin za-lic-20261105-doxylamine-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The list shows 5 of the 11 registrations." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 44 registrations for this drug, 31 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-doxylamine-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 54/2.2/0168 | Nomowake | tablet | Valid (status not confirmed by SAHPRA) |
@@ -81,6 +95,8 @@ The records carry no approved-indication text. Essential Medicines List status i
 | 32/2.8/0726 | Pharmadol  quinoline (yellow) | tablet | Valid |
 
 Showing 5 of 44 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,6 +143,20 @@ The prediction score is high (0.9936), but the predicted indication is very broa
 - Obtain detailed mechanism of action data
 - Search for clinical trials and publications that directly study the chosen condition
 - Review the interaction and contraindication profile for the intended patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Eleven single-ingredient SAHPRA registrations are currently valid and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The list shows 5 of the 11 registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

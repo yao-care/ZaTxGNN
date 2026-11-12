@@ -48,6 +48,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/20.2.8/0434 | Trizivar | tablet | Valid (status not confirmed by SAHPRA) |
@@ -57,6 +59,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | A40/20.2.6/0165 | Malanil paediatric 62.5mg/25mg | tablet | Valid |
 
 Showing 5 of 13 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Trizivar is a single-ingredient oral product with a valid registration. Essential Medicines List (EML) status was not available in the data compiled for this report.
 

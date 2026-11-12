@@ -102,7 +102,11 @@ For context, the most relevant item among the other predicted indications is an 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 No SAHPRA registration was found in the data compiled for this report.
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status could not be determined from the data compiled for this report.
 

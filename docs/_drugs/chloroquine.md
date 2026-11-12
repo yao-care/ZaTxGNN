@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Chloroquine: predicted new indication rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,6 +72,8 @@ No publication retrieved directly studies chloroquine in rheumatoid factor-posit
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | A147 (ACT 101 1965) | Nivaquine Tablets | tablet | Valid (status not confirmed by SAHPRA) |
@@ -82,7 +84,15 @@ No publication retrieved directly studies chloroquine in rheumatoid factor-posit
 
 Showing 5 of 11 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status is not stated in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-chloroquine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The licence is valid. Essential Medicines List status is not stated in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 11 registrations for this drug, 5 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-chloroquine-1 -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The prediction score is high, but there are no clinical trials and no publicatio
 - Mechanism of action data confirmed from a primary source
 - Chloroquine-specific clinical data in paediatric polyarticular juvenile idiopathic arthritis
 - A comparison against current standard therapy, and a paediatric ophthalmological and cardiac monitoring plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The licence is valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

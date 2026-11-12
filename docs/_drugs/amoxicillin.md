@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amoxicillin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections such as urinary tract infection…"
 ---
 
@@ -73,6 +73,14 @@ Currently no related literature is available for hyperamylasemia.
 
 Amoxicillin is marketed in South Africa. The licence records contain no approved indication text. Essential Medicines List status could not be determined from the data compiled for this report. The 5 main registrations are listed below.
 
+<!-- review:begin za-lic-20261105-amoxicillin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Amoxicillin is marketed in South Africa, with 14 valid SAHPRA registrations, all single-ingredient records. The licence records contain no approved indication text." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 286 registrations for this drug, 231 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-amoxicillin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/20.1.2/0325 | A-Lennon Amoxycillin | capsule | Valid (status not confirmed by SAHPRA) |
@@ -82,6 +90,8 @@ Amoxicillin is marketed in South Africa. The licence records contain no approved
 | 27/20.1.2/0473 | Saltermox Sf 250 Mg | suspension | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 286 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Other available forms in the records include drops (Amoxil D) and further injection, tablet and suspension products.
 
@@ -107,6 +117,19 @@ The prediction for hyperamylasemia is computational only, with no trials, no pub
 - Any clinical or observational data on amoxicillin and serum amylase
 - Mechanism of action data and SAHPRA Professional Information warnings and contraindications
 - If a different indication is of interest, septicaemic plague could be considered as a research question only. It would need direct comparative efficacy data, given that beta-lactams are not first-line for plague.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 14 valid SAHPRA registrations, all single-ingredient records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

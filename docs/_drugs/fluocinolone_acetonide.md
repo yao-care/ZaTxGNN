@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 56/16.2/0942 | Otixal | drops | Valid |
@@ -80,7 +82,15 @@ Currently no related literature available.
 
 Showing 5 of 16 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The drug is marketed in South Africa. Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-fluocinolone_acetonide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The drug is marketed in South Africa under one valid single-ingredient registration. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 16 registrations for this drug, 11 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-fluocinolone_acetonide-1 -->
 
 ## Safety Considerations
 
@@ -101,6 +111,18 @@ The prediction has a high model score and a plausible corticosteroid mechanism, 
 - Confirmation of whether a topical formulation is available locally, since the registered product is a drop
 - Clarification of the role of topical versus systemic therapy in this rare disease
 - Detailed mechanism-of-action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "under one valid single-ingredient registration" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

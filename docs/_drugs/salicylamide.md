@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Salicylamide: predicted new indication Pharyngitis (evidence level L5). Approved use: Headache disorder"
 monitor_inn: "Salicylamide"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "lung disease", "massive neonatal aspiration syndrome", "respiratory syncytial virus bronchiolitis", "hantavirus infectious disease"]
@@ -88,6 +88,8 @@ For other predicted indications, the retrieved literature is mostly about safety
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | C770 (ACT 101/1965) | Ilvico | tablet | Valid (status not confirmed by SAHPRA) |
@@ -98,7 +100,15 @@ For other predicted indications, the retrieved literature is mostly about safety
 
 Showing 5 of 11 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report do not show whether salicylamide is on the Essential Medicines List.
+
+<!-- review:begin za-lic-20261105-salicylamide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 4 registrations are valid single-ingredient entries. The data compiled for this report do not show whether salicylamide is on the Essential Medicines List." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 11 registrations for this drug, 4 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-salicylamide-1 -->
 
 ---
 
@@ -129,6 +139,19 @@ The prediction score is high, but the only evidence for pharyngitis is a 1953 un
 - Controlled clinical evidence of salicylamide alone, compared with existing standard analgesics (such as paracetamol or NSAIDs) for sore throat
 - A review of the haematological safety signal and paediatric safety
 - Confirmation of the approved indication text for the 4 SAHPRA registrations, and of any Essential Medicines List status
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 4 registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

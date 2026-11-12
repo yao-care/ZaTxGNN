@@ -80,6 +80,8 @@ Currently no related literature available.
 
 Fluconazole is currently marketed in South Africa, with valid single-ingredient registrations in oral capsule form. Approved indication text is not recorded in the local data. Essential Medicines List status was not provided in the data.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/20.2.2/0151 | Diflucan | capsule | Valid |
@@ -89,6 +91,8 @@ Fluconazole is currently marketed in South Africa, with valid single-ingredient 
 | 36/20.2.2/0265 | Fluconazole unicorn | capsule | Valid |
 
 Showing 5 of 84 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 

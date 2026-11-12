@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -81,6 +81,8 @@ The most relevant publications are listed below. All are preclinical, reviews or
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 52/25/0739 | Numeta G13E | infusion | Valid |
@@ -91,7 +93,15 @@ The most relevant publications are listed below. All are preclinical, reviews or
 
 Showing 5 of 14 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report do not show Essential Medicines List status.
+
+<!-- review:begin za-lic-20261105-cysteine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are currently valid. The data compiled for this report do not show Essential Medicines List status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 14 registrations for this drug, 9 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-cysteine-1 -->
 
 ## Safety Considerations
 
@@ -111,6 +121,19 @@ The prediction score is high, and there is a plausible antioxidant and mucoadhes
 - Preclinical studies testing cysteine (not cysteine-conjugated carriers) on the ocular surface
 - An ophthalmic formulation and route assessment, since the locally registered products are a powder and parenteral infusions
 - SAHPRA package insert warnings and contraindications for safety screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All three registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

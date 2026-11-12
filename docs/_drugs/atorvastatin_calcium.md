@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -58,6 +58,12 @@ This report documents the data gaps, summarises available context, and defines t
 
 > **Note on market status:** Atorvastatin calcium (e.g., Lipitor® and numerous generics) is registered by SAHPRA and widely dispensed in South African public and private healthcare.
 
+<!-- review:begin za-lic-20261105-atorvastatin_calcium-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "> **Note on market status:** Atorvastatin calcium (e.g., Lipitor® and numerous generics) is registered by SAHPRA and widely dispensed in South African public and private healthcare. A result of zero registrations strongly indicates a data retrieval or matching failure rather than true absence from the South African market." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 122 registrations for this drug, 98 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-atorvastatin_calcium-1 -->
+
 ---
 
 ## Safety Considerations
@@ -75,6 +81,12 @@ Please refer to the **SAHPRA-approved Professional Information (PI)** for full s
 **Rationale:**
 The Evidence Pack for atorvastatin calcium is incomplete: TxGNN returned no repurposing predictions. Without at minimum a valid `predicted_indications` entry, no evidence-based repurposing evaluation can be completed.
 
+<!-- review:begin za-lic-20261105-atorvastatin_calcium-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The Evidence Pack for atorvastatin calcium is incomplete: TxGNN returned no repurposing predictions, SAHPRA registration data was not retrieved, and both the MOA and PI safety data are missing. Without at minimum a valid `predicted_indications` entry, no evidence-based repurposing evaluation can be completed." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 122 registrations for this drug, 98 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-atorvastatin_calcium-2 -->
+
 **To proceed, the following is needed:**
 
 - **[DG001 — Blocking]** Retrieve the SAHPRA-approved Professional Information (PI) for atorvastatin calcium. Download PI PDFs from the SAHPRA website or the relevant manufacturer's package insert and parse warnings, contraindications, and approved indications. This must be resolved before safety screening (Stage 1) can proceed.
@@ -90,6 +102,20 @@ The Evidence Pack for atorvastatin calcium is incomplete: TxGNN returned no repu
 ---
 
 *This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any change in prescribing practice. YMYL disclaimer: this content is intended for qualified healthcare professionals and researchers.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "A result of zero registrations strongly indicates a data retrieval or matching failure rather than true absence from the South African marke" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "SAHPRA registration data was not retrieved, and both the MOA and PI safety data are missing" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

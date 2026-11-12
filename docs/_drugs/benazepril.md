@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "BENAZEPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Benazepril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | X/7.1.3/335 | Cibace | tablet | Valid (status not confirmed by SAHPRA) |
@@ -78,8 +80,16 @@ Currently no related literature available.
 
 Showing 5 of 8 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 - The product strengths (10 mg/12.5 mg) suggest a fixed-dose combination product. Please verify the formulation against the SAHPRA-approved Professional Information (PI).
 - Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-benazepril-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "This registration should not be taken as evidence of how single-ingredient benazepril is approved. Please verify the formulation against the SAHPRA-approved Professional Information (PI)." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 8 registrations for this drug, 6 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-benazepril-1 -->
 
 ## Safety Considerations
 
@@ -103,6 +113,19 @@ The prediction score is high (0.9965), but there are no clinical trials or publi
 - SAHPRA Professional Information (PI) warnings and contraindications, especially for kidney-related risks
 - Confirmation of the formulation behind the local registration (single-ingredient or combination)
 - Safety and blood pressure monitoring plan for acutely unwell patients with kidney involvement
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "This registration should not be taken as evidence of how single-ingredient benazepril is approved" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

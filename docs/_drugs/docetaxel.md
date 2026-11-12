@@ -90,6 +90,8 @@ In Ewing sarcoma, docetaxel has been used mainly in combination with gemcitabine
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/26/0479 | Taxotere  20 Mg | injection | Valid (status not confirmed by SAHPRA) |
@@ -99,6 +101,8 @@ In Ewing sarcoma, docetaxel has been used mainly in combination with gemcitabine
 | 43/26/0793 | Docefrez 20 | infusion | Valid |
 
 Showing 5 of 61 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

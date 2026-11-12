@@ -70,6 +70,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Carbidopa
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/5.4.1/0269 | Carbilev25/250 | tablet | Valid |
@@ -79,6 +81,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Carbidopa
 | 38/5.4.1/0137 | Stalevo 150/37.5 | tablet | Valid |
 
 Showing 5 of 15 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

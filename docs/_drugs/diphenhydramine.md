@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,6 +72,14 @@ Currently no related literature available.
 
 The list may be partial. None of the records carry approved-indication text. The table shows 5 of them.
 
+<!-- review:begin za-lic-20261105-diphenhydramine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The data compiled for this report lists 19 valid single-ingredient registrations and none cancelled. The list may be partial." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 107 registrations for this drug, 68 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-diphenhydramine-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | G1077 | Diphenhydramine Expect. | liquid | Valid (status not confirmed by SAHPRA) |
@@ -81,6 +89,8 @@ The list may be partial. None of the records carry approved-indication text. The
 | 28/10.1/0249 | Expectalin with cod | syrup | Valid |
 
 Showing 5 of 107 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 
@@ -104,6 +114,19 @@ The prediction rests on a model score alone. There are no trials or publications
 - Mechanism of action data and a clear rationale for ocular rosacea
 - Safety information from the SAHPRA PI (warnings and contraindications)
 - Assessment of route and formulation, since the registered products are oral or syrup forms and no ocular formulation is recorded
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The data compiled for this report lists 19 valid single-ingredient registrations and none cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

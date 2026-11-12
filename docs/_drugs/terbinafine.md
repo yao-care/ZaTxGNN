@@ -72,6 +72,8 @@ The TxGNN model's candidates for Terbinafine are all known uses, so there is cur
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 38/20.2.2/0395 | Terbinafine unicorn | tablet | Valid (status not confirmed by SAHPRA) |
@@ -81,6 +83,8 @@ The TxGNN model's candidates for Terbinafine are all known uses, so there is cur
 | A38/20.2.2/0484 | Terbicil | tablet | Valid |
 
 Showing 5 of 34 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

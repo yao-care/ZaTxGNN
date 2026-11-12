@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 83
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -44,6 +44,12 @@ Bupropion hydrochloride is a norepinephrine-dopamine reuptake inhibitor (NDRI) w
 The current evidence pack contains **no TxGNN repurposing predictions** for this drug, meaning a formal drug repurposing evaluation cannot be completed at this stage.
 Multiple blocking data gaps — including absent mechanism of action data, missing safety information — must be resolved before this candidate can advance.
 
+<!-- review:begin za-lic-20261105-bupropion_hydrochloride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The current evidence pack contains **no TxGNN repurposing predictions** for this drug, meaning a formal drug repurposing evaluation cannot be completed at this stage. / Multiple blocking data gaps — including absent mechanism of action data, missing safety information, and no SAHPRA registration records — must be resolved before this candidate can advance." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 30 registrations for this drug, 27 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-bupropion_hydrochloride-1 -->
+
 ---
 
 ## Quick Overview
@@ -73,11 +79,23 @@ Two blocking data gaps are formally recorded in the evidence pack:
 
 Until these gaps are resolved and the prediction pipeline is re-run with a valid DrugBank ID, this report cannot progress beyond the hold decision.
 
+<!-- review:begin za-lic-20261105-bupropion_hydrochloride-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No SAHPRA registrations were found for bupropion hydrochloride in the current evidence pack (total licences: 0)." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 30 registrations for this drug, 27 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-bupropion_hydrochloride-2 -->
+
 ---
 
 ## South Africa Market Information
 
 > Bupropion-containing products such as **Wellbutrin XL** (antidepressant) and **Zyban** (smoking cessation) are known to be available in South Africa.
+
+<!-- review:begin za-lic-20261105-bupropion_hydrochloride-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "> **Important verification note:** This result should be independently confirmed against the [SAHPRA online medicines register](https://www.sahpra.org.za/). Bupropion-containing products such as **Wellbutrin XL** (antidepressant) and **Zyban** (smoking cessation) are known to be available in South Africa under Section 21 authorisations or full registration in other markets. The absence of records in this pack most likely reflects a data retrieval failure rather than a definitive absence from the South African market." Removed: it continued a sentence that was removed for contradicting the SAHPRA registration data as of 2026-11-05, and would not make sense on its own. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-bupropion_hydrochloride-3 -->
 
 ---
 
@@ -113,6 +131,21 @@ No TxGNN repurposing predictions were generated for bupropion hydrochloride in t
 ---
 
 *This report is generated for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any clinical application. Report adverse drug reactions to SAHPRA.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "and no SAHPRA registration records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "No SAHPRA registrations were found for bupropion hydrochloride in the current evidence pack (total licences: 0)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "**Important verification note:** This result should be independently confirmed against the [SAHPRA online medicines register](https://www.sa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

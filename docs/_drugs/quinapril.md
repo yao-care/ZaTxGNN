@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,8 @@ For the third-ranked prediction (pulmonary hypertension owing to lung disease an
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 41/7.1.3/0177 | Quinace 10 Mg | tablet | Valid (status not confirmed by SAHPRA) |
@@ -95,7 +97,15 @@ For the third-ranked prediction (pulmonary hypertension owing to lung disease an
 
 Showing 5 of 42 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The product names with "10/12,5" suggest quinapril/hydrochlorothiazide combinations. Please verify against the SAHPRA Professional Information. The Essential Medicines List (EML) status could not be determined from the available data.
+
+<!-- review:begin za-lic-20261105-quinapril-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All five registrations are valid and oral tablets. The product names with "10/12,5" suggest quinapril/hydrochlorothiazide combinations, but the data compiled for this report classify them as single-ingredient products. Please verify against the SAHPRA Professional Information. The Essential Medicines List (EML) status could not be determined from the available data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 42 registrations for this drug, 25 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-quinapril-1 -->
 
 ## Safety Considerations
 
@@ -122,6 +132,19 @@ The renal risks of ACE inhibitors in renovascular disease add further reason for
 - A renal safety plan for patients with bilateral renal artery stenosis or a solitary kidney (monitoring of creatinine, eGFR and potassium)
 - Approved indication text for the SAHPRA registrations, and confirmation of whether the combination products contain quinapril
 - Separate review of the pulmonary hypertension prediction, which currently has animal data only and is a research question rather than a candidate for clinical use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All five registrations are valid and oral tablets. s, but the data compiled for this report classify them as single-ingredient product" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

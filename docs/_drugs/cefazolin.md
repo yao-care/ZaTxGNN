@@ -77,6 +77,8 @@ Neither publication tests cefazolin for infectious otitis media itself, so this 
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/20.1.1/0332 | Ranzol 500 Injection | injection | Valid |
@@ -86,6 +88,8 @@ Neither publication tests cefazolin for infectious otitis media itself, so this 
 | 36/20.1.1/0260 | Sabax Cefazolin 1G Injection | powder | Valid |
 
 Showing 5 of 29 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

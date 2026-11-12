@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -44,6 +44,12 @@ Arginine hydrochloride is an amino acid salt with established clinical roles in 
 No TxGNN repurposing predictions were generated for this drug in the current analysis cycle.
 A complete repurposing evaluation cannot be conducted until critical data gaps — including DrugBank mapping, mechanism of action, and safety documentation — are resolved.
 
+<!-- review:begin za-lic-20261105-arginine_hydrochloride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No TxGNN repurposing predictions were generated for this drug in the current analysis cycle, and the drug holds no SAHPRA registration in South Africa. / A complete repurposing evaluation cannot be conducted until critical data gaps — including DrugBank mapping, mechanism of action, and safety documentation — are resolved." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 54 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-arginine_hydrochloride-1 -->
+
 ---
 
 ## Quick Overview
@@ -74,6 +80,12 @@ The absence of predictions most likely reflects a failure to map the drug name "
 
 It does not appear on the South African Essential Medicines List (EML).
 
+<!-- review:begin za-lic-20261105-arginine_hydrochloride-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Arginine hydrochloride is **not currently registered with SAHPRA** and carries no approved South African product licences on record. It does not appear on the South African Essential Medicines List (EML). Any clinical use in South Africa would require a **Section 21 Unregistered Medicine Authorisation** from SAHPRA before procurement or administration." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 54 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-arginine_hydrochloride-2 -->
+
 ---
 
 ## Safety Considerations
@@ -98,6 +110,20 @@ The TxGNN pipeline did not generate repurposing predictions for this drug, and b
 - **Assess regulatory pathway**: If clinical repurposing use is being considered, initiate a Section 21 application with SAHPRA and identify any South African or regional clinical trial activity via the Pan African Clinical Trials Registry (PACTR) at [www.pactr.org](https://www.pactr.org)
 
 > ⚠️ **Disclaimer**: This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All content must be interpreted in conjunction with SAHPRA-approved prescribing information.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "and the drug holds no SAHPRA registration in South Africa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Arginine hydrochloride is **not currently registered with SAHPRA** and carries no approved South African product licences on record. Any cli" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

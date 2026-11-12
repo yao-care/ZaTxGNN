@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -97,6 +97,20 @@ No SANCTR or PACTR identifiers were available in the data compiled for this repo
 
 Indication text, manufacturer, and Essential Medicines List (EML) status were not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-simvastatin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All seven registrations are valid single-ingredient products. Indication text, manufacturer, and Essential Medicines List (EML) status were not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 108 registrations for this drug, 89 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-simvastatin-1 -->
+
+<!-- review:begin za-lic-20261105-simvastatin-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Two further registrations (Simayla Simvastatin 40 and Tryzetor Plus 10/20 mg) are also valid." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 108 registrations for this drug, 89 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-simvastatin-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 35/7.5/0237 | Simvacor | tablet | Valid |
@@ -106,6 +120,8 @@ Indication text, manufacturer, and Essential Medicines List (EML) status were no
 | 35/7.5/0279 | Adco-simvastatin | tablet | Valid |
 
 Showing 5 of 108 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -155,6 +171,20 @@ Multiple completed Phase 3 trials (including ENHANCE, with 720 participants) and
 - Specific guidance for patients on antiretroviral therapy
 - Paediatric dosing guidance, if use in children and adolescents is planned
 - Confirmation of EML status and local clinical guideline alignment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All seven registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Two further registrations (Simayla Simvastatin 40 and Tryzetor Plus 10/20 mg) are also valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

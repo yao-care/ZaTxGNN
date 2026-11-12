@@ -73,9 +73,13 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
+
+<!-- licenses:end -->
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

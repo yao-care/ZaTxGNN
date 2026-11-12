@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -90,6 +90,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/2.6/0096 | Xanor | tablet | Valid |
@@ -100,6 +102,8 @@ Currently no related clinical trials registered.
 
 Showing 5 of 40 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
@@ -109,6 +113,12 @@ Showing 5 of 40 registrations (valid registrations first).
   - **Moderate:** aprepitant, bupropion, cimetidine, clarithromycin, clotrimazole, dronabinol, eliglustat, metoclopramide, miconazole.
   - **Minor:** antacids containing aluminium, calcium or magnesium, and corticosteroids such as dexamethasone and betamethasone.
 - **Literature-noted risks:** dependence, tolerance, falls, memory impairment and cognitive effects with long-term use, especially in elderly patients.
+
+<!-- review:begin za-lic-20261105-alprazolam-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Four of the five registrations are valid and one is cancelled. All are single-ingredient oral tablets." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 40 registrations for this drug, 29 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-alprazolam-1 -->
 
 Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
 
@@ -126,6 +136,18 @@ The only study that directly addresses insomnia is a retrospective observational
 - Mechanism of action data
 - Review of the SAHPRA Professional Information for warnings and contraindications
 - A safety plan for dependence, tolerance and falls, especially in elderly patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Four of the five registrations are valid and one is cancelled. All are single-ingredient oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

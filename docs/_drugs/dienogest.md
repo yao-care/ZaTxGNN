@@ -80,6 +80,8 @@ None of these publications tests dienogest as a treatment for amenorrhoea.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 44/21.8.2/0159 | Visanne | tablet | Valid |
@@ -89,6 +91,8 @@ None of these publications tests dienogest as a treatment for amenorrhoea.
 | 55/21.8.2/0035.034 | Dienogest Adco | tablet | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 14 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 

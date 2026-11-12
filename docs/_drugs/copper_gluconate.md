@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -64,6 +64,12 @@ The TxGNN knowledge graph pipeline requires a valid **DrugBank ID** to anchor a 
 
 No original approved indications are on record within the current dataset. Without these regulatory anchors, the pipeline lacks the inputs needed to generate a meaningful disease ranking.
 
+<!-- review:begin za-lic-20261105-copper_gluconate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Additionally, no SAHPRA-registered product was found (0 licences), and no original approved indications are on record within the current dataset. Without these regulatory anchors, the pipeline lacks the inputs needed to generate a meaningful disease ranking." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 1 registration for this drug, 1 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-copper_gluconate-1 -->
+
 Two critical data gaps are blocking progress:
 
 | Gap ID | Missing Item | Severity | Downstream Impact |
@@ -97,6 +103,19 @@ No TxGNN repurposing prediction was generated for Copper Gluconate because the D
 ---
 
 > ⚠️ **Disclaimer**: This report is for research reference purposes only and does not constitute medical advice. Any drug repurposing candidate identified by TxGNN requires clinical validation before application. All findings should be interpreted in conjunction with SAHPRA-approved product information and relevant clinical guidelines.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Additionally, no SAHPRA-registered product was found (0 licences), and n" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

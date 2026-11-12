@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 96
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 description: "Candesartan: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -86,6 +86,8 @@ Blood pressure–lowering agents are already used in migraine prevention, and ca
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/7.1.3/0099 | Atacand | tablet | Valid |
@@ -96,7 +98,15 @@ Blood pressure–lowering agents are already used in migraine prevention, and ca
 
 Showing 5 of 43 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The drug is marketed in South Africa as an oral tablet. Essential Medicines List status is not available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-candesartan-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are currently valid, and the drug is marketed in South Africa as an oral tablet. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 43 registrations for this drug, 26 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-candesartan-1 -->
 
 ## Safety Considerations
 
@@ -118,6 +128,18 @@ Two randomised placebo-controlled trials (NCT00884663 and NCT04574713, the latte
 - Detailed mechanism of action data
 - A monitoring plan covering blood pressure, renal function and potassium, and pregnancy-avoidance counselling
 - A Phase 3 trial or additional confirmatory evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are currently valid, and t" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

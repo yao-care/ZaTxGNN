@@ -82,6 +82,8 @@ The four publications retrieved for hypertrichosis are narrative reviews or a me
 
 Finasteride is available in South Africa as oral tablets. No approved-indication text or manufacturer information is available in the data compiled for this report. Essential Medicines List (EML) status is not available in the compiled data.
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 32/21.12/0303 | Propecia | tablet | Valid |
@@ -91,6 +93,8 @@ Finasteride is available in South Africa as oral tablets. No approved-indication
 | 42/21.12/0461 | Finide | tablet | Valid |
 
 Showing 5 of 21 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

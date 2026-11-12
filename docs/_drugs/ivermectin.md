@@ -78,10 +78,14 @@ No publications directly support ivermectin for vulvovaginal candidiasis. The on
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 49/13.12/0906 | Soolantra | Crm | Valid |
 | 56/12/0418 | Iladek 3 | tablet | Valid |
+
+<!-- licenses:end -->
 
 Soolantra is a topical cream registered as a single-ingredient product. No oral ivermectin registration appears in the data compiled for this report. This matters because the original indications (strongyloidiasis, onchocerciasis) are conventionally treated with oral ivermectin. Essential Medicines List status was not available in the data.
 

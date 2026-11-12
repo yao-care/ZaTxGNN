@@ -73,6 +73,8 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/7.1.3/0198 | Dilatrend | tablet | Valid |
@@ -82,6 +84,8 @@ Currently no related literature available.
 | 37/7.1.3/0276 | Carvetrend | tablet | Valid |
 
 Showing 5 of 37 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) status is not available in the data compiled for this report.
 

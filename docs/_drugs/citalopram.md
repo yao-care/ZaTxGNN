@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 126
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Depressive and anxiety disorders (major depressive disorder…"
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)"]
@@ -91,6 +91,8 @@ No randomised, double-blind citalopram trial in OCD was identified among the ret
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/1.2/0232 | Cipramil | tablet | Valid |
@@ -101,7 +103,15 @@ No randomised, double-blind citalopram trial in OCD was identified among the ret
 
 Showing 5 of 59 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status was not available in the compiled data.
+
+<!-- review:begin za-lic-20261105-citalopram-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 4 registrations are valid single-ingredient products; none are cancelled. Essential Medicines List (EML) status was not available in the compiled data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 59 registrations for this drug, 52 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-citalopram-1 -->
 
 ## Safety Considerations
 
@@ -136,6 +146,19 @@ OCD is a recognised serotonergic-responsive condition, and there are several cit
 - Mechanism of action data
 - A cardiac safety plan (QT risk, ECG monitoring) and interaction screening, particularly for QT-prolonging drugs and CYP2C19 inhibitors (such as omeprazole and cimetidine)
 - A safety review for paediatric use and for patients with bipolar disorder or epilepsy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 4 registrations are valid single-ingredient products; none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -62,6 +62,8 @@ The prediction therefore has no identifiable mechanistic support. The high score
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | T/10.2.2/227 | Lessmusec | capsule | Valid |
@@ -71,6 +73,8 @@ The prediction therefore has no identifiable mechanistic support. The high score
 | 27/10.2.2/0230 | Mucoflem | syrup | Valid |
 
 Showing 5 of 37 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Inclusion on the Essential Medicines List (EML) is not stated in the data compiled for this report.
 

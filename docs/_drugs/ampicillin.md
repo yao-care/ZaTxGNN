@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,6 +91,14 @@ None of these publications studies ampicillin in laryngitis. They concern relate
 
 No approved indication text is recorded in the local data. Essential Medicines List status is not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-ampicillin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Seven of the eight SAHPRA registrations are valid and one is cancelled. All are single-ingredient products. No approved indication text is recorded in the local data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 64 registrations for this drug, 24 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-ampicillin-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 30/20.1.2/0247 | Ampicillin 250 injection unimed vial | injection | Valid |
@@ -100,6 +108,8 @@ No approved indication text is recorded in the local data. Essential Medicines L
 | V/20.1.2/115 | Ampipen | capsule | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 64 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ---
 
@@ -129,6 +139,18 @@ Clarithromycin is rated Minor.
 - Clinical studies that directly test ampicillin in bacterial laryngitis, defining the target population
 - Mechanism of action data and the SAHPRA Professional Information warnings and contraindications
 - A review of local *H. influenzae* resistance patterns and antibiotic stewardship considerations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Seven of the eight SAHPRA registrations are valid and one is cancelled. All are single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

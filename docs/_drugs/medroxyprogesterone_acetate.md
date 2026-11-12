@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 311
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -78,6 +78,8 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 38/21.8.2/0188 | Mensera | tablet | Valid |
@@ -88,7 +90,15 @@ Currently no related clinical trials registered.
 
 Showing 5 of 21 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 The data compiled for this report do not show Essential Medicines List status.
+
+<!-- review:begin za-lic-20261105-medroxyprogesterone_acetate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Two of the four registrations are valid and two are cancelled. The data compiled for this report do not show Essential Medicines List status." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 21 registrations for this drug, 16 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-medroxyprogesterone_acetate-1 -->
 
 ## Safety Considerations
 
@@ -109,6 +119,18 @@ The TxGNN score is high, and two small older clinical reports of MPA in fibrocys
 - Mechanism of action data for MPA
 - SAHPRA Professional Information warnings and contraindications
 - A well-designed controlled study, with a breast safety assessment, before any clinical use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Two of the four registrations are valid and two are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

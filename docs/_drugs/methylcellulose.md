@@ -72,6 +72,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | H1176 | Murine Clear Eyes | Not recorded | Valid |
@@ -81,6 +83,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | E1170 | Kolantyl Gel | suspension | Cancelled |
 
 Showing 5 of 10 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

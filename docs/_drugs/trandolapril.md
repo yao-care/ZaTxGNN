@@ -103,6 +103,8 @@ For "chronic pulmonary heart disease", one animal study is available: [8989645](
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 28/7.1.3/0261 | Mavik (was Gopten) | capsule | Valid |
@@ -112,6 +114,8 @@ For "chronic pulmonary heart disease", one animal study is available: [8989645](
 | A39/7.1.3/0508 | Tarka 180mg/2mg | Srt | Valid |
 
 Showing 5 of 25 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Essential Medicines List (EML) inclusion status is not available in the data compiled for this report.
 

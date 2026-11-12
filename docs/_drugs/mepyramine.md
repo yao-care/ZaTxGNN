@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MEPYRAMINE"
 predicted_indications: ["nasal cavity disease"]
 description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,6 +88,8 @@ All retrieved literature is indirect. None of it tests mepyramine for allergic u
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/5.7.1/0026 | Antihist 2ml | injection | Valid |
@@ -98,7 +100,15 @@ All retrieved literature is indirect. None of it tests mepyramine for allergic u
 
 Showing 5 of 56 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List status could not be determined from the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-mepyramine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Eight valid single-ingredient registrations exist in total; the five above are shown. The remaining three are Docsed (G0616), Coughcod senior (G1071) and Coughcod junior (G1027), all syrups. No registrations are cancelled. Essential Medicines List status could not be determined from the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 56 registrations for this drug, 26 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-mepyramine-1 -->
 
 ---
 
@@ -134,6 +144,19 @@ The prediction is mechanistically plausible but largely overlaps with existing l
 - Mechanism of action data from DrugBank
 - Human clinical data for mepyramine in urticaria subtypes, and a comparison against second-generation antihistamines
 - Confirmation of Essential Medicines List status and a review of whether the ingredient combinations in the registered products suit the proposed use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Eight valid single-ingredient registrations exist in total; the five above are shown. The remaining three are Docsed (G0616), Coughcod senio" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

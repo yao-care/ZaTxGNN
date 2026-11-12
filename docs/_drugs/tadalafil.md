@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,6 +76,14 @@ For context, the lower-ranked prediction of migraine has only a case report ([17
 
 Tadalafil is marketed in South Africa. Approved-indication text and Essential Medicines List status are not available in the data compiled for this report.
 
+<!-- review:begin za-lic-20261105-tadalafil-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Tadalafil is marketed in South Africa with 3 valid single-ingredient registrations. Approved-indication text and Essential Medicines List status are not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 73 registrations for this drug, 66 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tadalafil-1 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 36/7.1.5/0384 | Cialis | tablet | Valid |
@@ -85,6 +93,8 @@ Tadalafil is marketed in South Africa. Approved-indication text and Essential Me
 | 49/7.1.5/0285 | Tadalafil 5 Mg Dyna | Fct | Valid |
 
 Showing 5 of 73 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +124,19 @@ The prediction rests on model output alone. There are no trials or publications,
 - Detailed mechanism of action data for tadalafil
 - SAHPRA Professional Information, including warnings, contraindications and approved indications, for a formal safety review
 - Review of the knowledge-graph contraindications against the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 3 valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

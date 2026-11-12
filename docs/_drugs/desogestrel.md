@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the registration data compiled for this report (desoges…"
 monitor_inn: "Desogestrel"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 Desogestrel is a progestin used in hormonal contraceptives and is registered in South Africa as tablets.
 The TxGNN model predicts it may be useful for **amenorrhea**,
 with **1 clinical trial** (indirect relevance) and **11 publications** currently supporting this direction.
+
+<!-- review:begin za-lic-20261105-desogestrel-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Desogestrel is a progestin used in hormonal contraceptives and is registered in South Africa as single-ingredient tablets." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 8 registrations for this drug, 7 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-desogestrel-2 -->
 
 ---
 
@@ -94,6 +100,8 @@ The mechanism is plausible, but in amenorrhea the benefit is mostly cycle manage
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | Q18.8/324 | Marvelon 150/30 | tablet | Valid (status not confirmed by SAHPRA) |
@@ -104,7 +112,15 @@ The mechanism is plausible, but in amenorrhea the benefit is mostly cycle manage
 
 Showing 5 of 8 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 Essential Medicines List (EML) status could not be confirmed from the data compiled for this report.
+
+<!-- review:begin za-lic-20261105-desogestrel-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are valid single-ingredient products. Essential Medicines List (EML) status could not be confirmed from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 8 registrations for this drug, 7 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-desogestrel-1 -->
 
 ---
 
@@ -146,6 +162,20 @@ The TxGNN score is very high, but the only trial is not desogestrel-specific, an
 ---
 
 *Other predictions (ranks 2-10)*: Acne has indirect evidence at L3, with desogestrel/EE comparisons in the literature (PMIDs 8894800, 8689881). It is a class effect of low-androgen combined pills, and the one trial involved a different progestin. The remaining predictions (benign breast conditions, breast abscess, lactation disease, primary ovarian failure, fragile X carrier symptoms) are model predictions with little or no supporting evidence. All of these are on Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "single-ingredient" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

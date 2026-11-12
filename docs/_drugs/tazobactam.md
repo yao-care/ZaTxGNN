@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tazobacta
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 37/20.1.1/0454 | Tazobax powder for reconstitution vial | injection | Valid |
@@ -81,6 +83,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tazobacta
 | 45/20.1.1/1173 | Piperacillin/tazobactam fresenius powder | infusion | Valid |
 
 Showing 5 of 33 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

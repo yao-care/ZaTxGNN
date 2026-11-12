@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -72,6 +72,18 @@ Because no TxGNN predicted indication has been generated, it is not possible at 
 
 > **Pipeline anomaly noted:** The query log records a successful DrugBank query (`result_status: success`, `result_count: 1`) for citalopram hydrobromide, yet the `drugbank_id` field remains null. This inconsistency should be investigated — the DrugBank record may have been retrieved but not parsed correctly into the Evidence Pack.
 
+<!-- review:begin za-lic-20261105-citalopram_hydrobromide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Citalopram hydrobromide currently has **no SAHPRA registrations** recorded in this Evidence Pack." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 59 registrations for this drug, 52 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-citalopram_hydrobromide-1 -->
+
+<!-- review:begin za-lic-20261105-citalopram_hydrobromide-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "> No registered products were found to tabulate. Before any procurement or regulatory decision, this result should be verified against the current [SAHPRA online register](https://www.sahpra.org.za/), as citalopram preparations are widely available internationally and registration data in this dataset may be incomplete or not yet ingested." Removed: it continued a sentence that was removed for contradicting the SAHPRA registration data as of 2026-11-05, and would not make sense on its own. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-citalopram_hydrobromide-2 -->
+
 ---
 
 ## South Africa Market Information
@@ -101,9 +113,30 @@ No TxGNN predicted indication is available, and the foundational data required f
 - **Verify SAHPRA registration status** via the official register to confirm whether citalopram products are currently authorised in South Africa
 - **Confirm the DrugBank identifier** to enable consistent downstream queries across the evidence collection pipeline
 
+<!-- review:begin za-lic-20261106-citalopram_hydrobromide-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Retrieve and parse the package insert (PI)** from the SAHPRA or TFDA official source for warnings, contraindications, and approved indication text — Data Gap DG001" Removed: leftover template text about Taiwan's TFDA, which does not apply to this South African page. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261106-citalopram_hydrobromide-3 -->
+
 ---
 
 *This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application. For patient-specific decisions, consult the SAHPRA-approved Professional Information.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Citalopram hydrobromide currently has **no SAHPRA registrations** recorded in this Evidence Pack" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "> No registered products were found to tabulate. Before any procurement or regulatory decision, this result should be verified against the c" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-06 | Removed: "A or TFD" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

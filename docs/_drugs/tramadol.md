@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -73,6 +73,20 @@ Currently no related literature available for tramadol in this predicted indicat
 
 Tramadol is marketed in South Africa. Approved indication text and Essential Medicines List (EML) status were not available in the data compiled for this report. Some product names (for example Tramazac co, Painogesic Co, Dytracet, Tamoltra) suggest tramadol/paracetamol combinations. Please confirm the composition in the Professional Information (PI).
 
+<!-- review:begin za-lic-20261105-tramadol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Tramadol is marketed in South Africa under 9 valid SAHPRA registrations, all single-ingredient entries. Approved indication text and Essential Medicines List (EML) status were not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 83 registrations for this drug, 77 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tramadol-1 -->
+
+<!-- review:begin za-lic-20261105-tramadol-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Some product names (for example Tramazac co, Painogesic Co, Dytracet, Tamoltra) suggest tramadol/paracetamol combinations, although the records classify them as single entries. Please confirm the composition in the Professional Information (PI)." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 83 registrations for this drug, 77 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tramadol-2 -->
+
+<!-- licenses:begin -->
+
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 31/2.9/0646 | Tramal sr | Srt | Valid |
@@ -83,9 +97,17 @@ Tramadol is marketed in South Africa. Approved indication text and Essential Med
 
 Showing 5 of 83 registrations (valid registrations first).
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 SAHPRA package insert warnings and contraindications could not be retrieved, so the PI must be reviewed before any further evaluation. Report adverse drug reactions to SAHPRA.
+
+<!-- review:begin za-lic-20261105-tramadol-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are valid: Tramazac co 37.5mg/325mg (45/2.9/0303), Painogesic Co (A 48/2.9/0774), Dytracet (45/2.9/0747) and Tamoltra 37.5mg/325mg (46/2.9/0976)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 83 registrations for this drug, 77 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261105-tramadol-3 -->
 
 - **Knowledge-graph contraindications** (from the PrimeKG graph, not label text): hypertensive disorder, liver failure, liver disease, cirrhosis, epilepsy, anxiety and neurotic disorders, dysthymic disorder, diabetes mellitus and diabetic ketoacidosis, substance abuse/dependence and withdrawal (including alcohol withdrawal), respiratory failure, paracetamol poisoning, serotonin syndrome, intracranial hypertension, central nervous system infections and others.
 - **Drug interactions**: 100 interactions were identified, and the first 20 are listed in the data compiled for this report.
@@ -105,6 +127,21 @@ The prediction rests only on a TxGNN score, with no clinical trials or publicati
 - The SAHPRA Professional Information (warnings, contraindications and approved indications)
 - Any clinical or observational evidence for tramadol in the predicted condition
 - If the aim is symptomatic pain relief in skeletal or joint disorders, a separate evaluation of that use against existing analgesic guidance, including paediatric safety
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "under 9 valid SAHPRA registrations, all single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "although the records classify them as single entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Four further registrations are valid: Tramazac co 37.5mg/325mg (45/2.9/0303), Painogesic Co (A 48/2.9/0774), Dytracet (45/2.9/0747) and Tamo" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
