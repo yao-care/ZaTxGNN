@@ -49,7 +49,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"Showing 5 of 11 registrations. , even though the records label them as single-ingredient\"",
+   "summary": "Removed: \"Showing 5 of 11 registrations. even though the records label them as single-ingredient\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -302,7 +302,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"All four registrations are currently valid, and t\"",
+   "summary": "Removed: \"All four registrations are currently valid, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -706,7 +706,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"All products are parenteral (infusion) formulations. No oral arginine product was identified, so r\"",
+   "summary": "Removed: \"All products are parenteral (infusion) formulations. No oral arginine product was identified, so\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）、d5c6364b6（2026-11-05）、c920fe120（2026-11-06）"
   },
   {
@@ -1683,7 +1683,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"s, although they are recorded as single-ingredient registration\"",
+   "summary": "Removed: \"although they are recorded as single-ingredient registrations\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -1809,7 +1809,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"Both registrations are currently valid single-ingredient records, and t\"",
+   "summary": "Removed: \"Both registrations are currently valid single-ingredient records, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d5c6364b6（2026-11-05）"
   },
   {
@@ -1884,7 +1884,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"Both registrations are currently valid, and t\"",
+   "summary": "Removed: \"Both registrations are currently valid, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -2134,7 +2134,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"he only registered product is a topical cream, and t\"",
+   "summary": "Removed: \"The only registered product is a topical cream, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d5c6364b6（2026-11-05）"
   },
   {
@@ -2311,7 +2311,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"One valid SAHPRA registration was identified, and t\"",
+   "summary": "Removed: \"One valid SAHPRA registration was identified, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -2488,7 +2488,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"A or TFD\"",
+   "summary": "Removed: \"or TFDA\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：c920fe120（2026-11-06）"
   },
   {
@@ -2840,7 +2840,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"Additionally, no SAHPRA-registered product was found (0 licences), and n\"",
+   "summary": "Removed: \"Additionally, no SAHPRA-registered product was found (0 licences), and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -3644,7 +3644,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"as the drug is not currently registered in South Africa under this name Until local registration is confirmed, prescribers should refer to a\"",
+   "summary": "Removed: \"as the drug is not currently registered in South Africa under this name. Until local registration is confirmed, prescribers should refer to \"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -3821,7 +3821,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"and there are zero SAHPRA registrations on file A repurposing evaluation cannot be meaningfully completed or acted upon under these conditio\"",
+   "summary": "Removed: \"and there are zero SAHPRA registrations on file. A repurposing evaluation cannot be meaningfully completed or acted upon under these conditi\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -6530,7 +6530,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"The registered product is an oral tablet, and n\"",
+   "summary": "Removed: \"The registered product is an oral tablet, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d5c6364b6（2026-11-05）"
   },
   {
@@ -7561,7 +7561,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"All are single-ingredient products, and n\"",
+   "summary": "Removed: \"All are single-ingredient products, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -7788,7 +7788,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"All 19 registrations are valid single-ingredient entries, but n\"",
+   "summary": "Removed: \"All 19 registrations are valid single-ingredient entries, but\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -7838,7 +7838,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"All five registrations are valid and oral tablets. s, but the data compiled for this report classify them as single-ingredient product\"",
+   "summary": "Removed: \"All five registrations are valid and oral tablets. but the data compiled for this report classify them as single-ingredient products\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -9378,7 +9378,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"All 9 registrations are valid single-entity registrations, and n\"",
+   "summary": "Removed: \"All 9 registrations are valid single-entity registrations, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
@@ -9656,7 +9656,7 @@
     }
    ],
    "checked": "2026-11-05",
-   "summary": "Removed: \"Both registrations are currently valid, and t\"",
+   "summary": "Removed: \"Both registrations are currently valid, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
   },
   {
