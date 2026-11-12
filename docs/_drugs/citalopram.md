@@ -142,10 +142,16 @@ OCD is a recognised serotonergic-responsive condition, and there are several cit
 **To proceed, the following is needed:**
 - Review of controlled trials or meta-analyses of citalopram specifically in OCD
 - Confirmation of the SSRI used in NCT02022709 and NCT00074815
-- SAHPRA Professional Information (warnings, contraindications, approved indications) for the 4 registered products
+- SAHPRA Professional Information (warnings, contraindications, approved indications) for the registered products
 - Mechanism of action data
 - A cardiac safety plan (QT risk, ECG monitoring) and interaction screening, particularly for QT-prolonging drugs and CYP2C19 inhibitors (such as omeprazole and cimetidine)
 - A safety review for paediatric use and for patients with bipolar disorder or epilepsy
+
+<!-- review:begin za-lic-20261112-citalopram-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "for the 4 registered products" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 59 registrations for this drug, 52 valid (59 single-ingredient); the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261112-citalopram-1 -->
 
 <!-- review:begin log -->
 
@@ -156,6 +162,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 4 registrations are valid single-ingredient products; none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-12 | Removed: "for the 4 registered products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -117,7 +117,13 @@ This Evidence Pack is materially incomplete — there are no TxGNN-predicted ind
 2. **Incorporate the DrugBank record** already retrieved (1 result confirmed) — extract MOA, drug categories, toxicity, and DDI data (resolves DG002)
 3. **Obtain SAHPRA PI or international equivalent** (e.g., FDA label, EMA SmPC) for key warnings, contraindications, and monitoring requirements (resolves DG001 — currently Blocking)
 4. **Clarify original approved indications** — populate `original_indications` field from the DrugBank or PI source
-5. **Assess SAHPRA registration pathway** — if a repurposing candidate is identified and evidence is sufficient, determine whether a new application or Section 21 authorisation is required given current zero-registration status in South Africa
+5. **Assess SAHPRA registration pathway** — if a repurposing candidate is identified and evidence is sufficient, determine whether a new application or Section 21 authorisation is required
+
+<!-- review:begin za-lic-20261112-donepezil_hydrochloride-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "is required given current zero-registration status in South Africa" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 42 registrations for this drug, 37 valid (40 single-ingredient); the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261112-donepezil_hydrochloride-1 -->
 
 <!-- review:begin log -->
 
@@ -130,6 +136,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | 2026-11-05 | Removed: "Donepezil hydrochloride is currently **not registered with SAHPRA** and holds no marketing authorisation in South Africa. No registration re" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The absence of SAHPRA registration reflects the local regulatory status only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "no SAHPRA registration data, A repurposing recommendation cannot responsibly be made in the absence of these foundational inputs" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-12 | Removed: "is required given current zero-registration status in South Africa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

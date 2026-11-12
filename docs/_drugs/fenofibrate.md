@@ -142,7 +142,13 @@ For full warnings and contraindications, refer to the SAHPRA-approved Profession
 - Clear clinical justification that CETP deficiency requires treatment, and a defined therapeutic goal
 - Human data (case series or trials) in patients with CETP deficiency
 - Mechanism of action data for fenofibrate
-- SAHPRA Professional Information warnings and contraindications for the single-ingredient product, as the only local registration appears to be for a product that may contain more than one active ingredient
+- SAHPRA Professional Information warnings and contraindications for the single-ingredient product
+
+<!-- review:begin za-lic-20261112-fenofibrate-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: ", as the only local registration appears to be for a product that may contain more than one active ingredient" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 13 registrations for this drug, 13 valid (7 single-ingredient); the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261112-fenofibrate-1 -->
 
 <!-- review:begin log -->
 
@@ -153,6 +159,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Note: the data compiled for this report records one valid registration. The product name suggests it may contain more than one active ingred" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-12 | Removed: "as the only local registration appears to be for a product that may contain more than one active ingredient" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

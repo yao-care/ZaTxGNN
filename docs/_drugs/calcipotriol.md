@@ -75,7 +75,13 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Calcipotriol is registered in South Africa only in two products, both listed as valid. The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
+The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either.
+
+<!-- review:begin za-lic-20261112-calcipotriol-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "Calcipotriol is registered in South Africa only in two products, both listed as valid." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 9 registrations for this drug, 8 valid (3 single-ingredient); the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261112-calcipotriol-1 -->
 
 <!-- licenses:begin -->
 
@@ -116,6 +122,19 @@ The prediction is biologically plausible and supported by a small case series an
 - Mechanism of action data from DrugBank to support the mechanistic link
 - A controlled study (ideally randomised, versus standard treatments such as cryotherapy) in seborrheic keratosis
 - A safety plan covering facial skin irritation, calcium monitoring with extensive use, and relevant drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Removed: "Calcipotriol is registered in South Africa only in two products, both listed as valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

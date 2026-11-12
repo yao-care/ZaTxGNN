@@ -516,3 +516,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 
 2026-10-31～11-06 依成分重建後直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 395 筆紀錄（304 頁；其中 0 筆因報告在 11 月經 AI 重產、原句已不在頁面，標 resolved_by_regeneration）。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時，會重套紀錄（有程式許可證表的站也保留舊頁的程式區塊），notes 裡的舊錯句會被紀錄再更正一次。
+2026-11-12 正文張數對事實層再掃一次：calcipotriol（只有 2 個產品）、fenofibrate（唯一註冊可能是複方）、citalopram（4 個產品）、pseudoephedrine（19 張）、donepezil_hydrochloride（目前零註冊）跟 SAHPRA 事實層相反，以 `za-lic-20261112-*` 刪掉矛盾子句。

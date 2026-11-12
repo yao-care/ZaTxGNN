@@ -137,9 +137,15 @@ The top prediction is largely a broader label for existing approved uses, so it 
 **To proceed, the following is needed:**
 - SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data
-- Approved indication text for the 19 SAHPRA registrations
+- Approved indication text for the SAHPRA registrations
 - Human controlled trial data for any indication genuinely beyond current approved uses
 - A cardiovascular and metabolic safety review given the knowledge-graph contraindications and the antidiabetic drug interactions
+
+<!-- review:begin za-lic-20261112-pseudoephedrine-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "for the 19 SAHPRA registrations" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 129 registrations for this drug, 75 valid (11 single-ingredient); the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261112-pseudoephedrine-1 -->
 
 <!-- review:begin log -->
 
@@ -150,6 +156,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 19 registrations are valid single-ingredient entries, but" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-12 | Removed: "for the 19 SAHPRA registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 
