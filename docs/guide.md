@@ -12,6 +12,13 @@ description: "ZaTxGNN user guide: how to look up drugs, read evidence levels and
 Check the evidence level first, then the recommendation, then read the source literature.
 </div>
 
+<p class="key-answer" data-question="Which medicines approved by SAHPRA have clinical trial evidence for a new indication?">
+This platform lists SAHPRA-registered medicines together with their predicted new indications. Each
+indication is tagged with an evidence level, and L1&ndash;L4 entries are backed by clinical trial or
+published literature records that you can open directly from the drug report. Browse the full set on
+<a href="{{ '/drugs/' | relative_url }}">All Drugs</a> or jump straight to <a href="{{ '/evidence-high/' | relative_url }}">high-evidence</a> and <a href="{{ '/evidence-medium/' | relative_url }}">moderate-evidence</a> candidates.
+</p>
+
 ---
 
 ## Looking up a drug
