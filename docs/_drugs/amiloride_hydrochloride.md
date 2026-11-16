@@ -1,55 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/amiloride-hydrochloride/
 sitemap: false
-layout: default
-title: Amiloride Hydrochloride
-parent: Known Uses Only (No New Predictions)
-nav_order: 26
-last_modified_at: 2026-11-06
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# Amiloride Hydrochloride
-{: .fs-9 }
-
-Evidence Level: **N/A** | Predicted Indications: **0** 
-{: .fs-6 .fw-300 }
-
----
-
-## Table of Contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-<div id="pharmacist" markdown="1">
-
-## Pharmacist Assessment Report
-
-</div>
-
-## Amiloride Hydrochloride
-{: .text-alpha }
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 11 of 14; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 14 (valid: 11, of which 3 not confirmed by SAHPRA) |
-
----
-
-## Disclaimer
-
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
-
----
-
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/amiloride/">
+<meta http-equiv="refresh" content="0; url=/drugs/amiloride/">
+<script>location="/drugs/amiloride/"</script>
+<a href="/drugs/amiloride/">/drugs/amiloride/</a>
+</html>
