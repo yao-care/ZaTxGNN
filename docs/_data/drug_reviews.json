@@ -757,7 +757,10 @@
    ],
    "checked": "2026-11-05",
    "summary": "Removed: \"and the drug holds no SAHPRA registration in South Africa\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "za-lic-20261105-arginine_hydrochloride-2",
@@ -782,7 +785,10 @@
    ],
    "checked": "2026-11-05",
    "summary": "Removed: \"Arginine hydrochloride is **not currently registered with SAHPRA** and carries no approved South African product licences on record. Any cli\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、a65297c2e（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、a65297c2e（2026-11-05）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "za-lic-20261105-artemether-1",
@@ -2891,7 +2897,10 @@
    ],
    "checked": "2026-11-05",
    "summary": "Removed: \"and no SAHPRA-registered products, original indications, safety warnings, or supporting evidence were found\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）、d5c6364b6（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）、d5c6364b6（2026-11-05）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "za-lic-20261105-cyanocobalamin-1",
@@ -3067,7 +3076,10 @@
    "checked": "2026-11-05",
    "summary": "Removed: \"D-Biotin has no SAHPRA registrations on record. It may be available as an over-the-counter dietary supplement or as a component of multivita\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）",
-   "anchor": "Currently no related literature available (no predicted indication to evaluate)."
+   "anchor": "Currently no related literature available (no predicted indication to evaluate).",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page"
   },
   {
    "id": "za-lic-20261105-dabigatran_etexilate-1",
