@@ -1,6 +1,6 @@
 {
-  "total": 344,
-  "generated_at": "2026-11-16T04:54:59.505659",
+  "total": 348,
+  "generated_at": "2026-11-16T21:39:38.849810",
   "drugs": [
     {
       "name": "Abacavir",
@@ -313,6 +313,18 @@
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "ARGININE",
+      "predicted_indications": [
+        "gastroparesis (disease)"
+      ],
+      "approved_indication": ""
+    },
+    {
+      "name": "Arginine Hydrochloride",
+      "file": "arginine_hydrochloride.md",
+      "evidence_level": "L4",
+      "indication_count": 1,
+      "predicted_indication": "",
+      "inn": "Arginine",
       "predicted_indications": [
         "gastroparesis (disease)"
       ],
@@ -1360,6 +1372,20 @@
       "approved_indication": ""
     },
     {
+      "name": "Cupric Chloride Dihydrate",
+      "file": "cupric_chloride_dihydrate.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": "",
+      "inn": "Cupric Chloride",
+      "predicted_indications": [
+        "primary release disorder of platelets",
+        "pseudo-von Willebrand disease",
+        "thrombocytopenia due to immune destruction"
+      ],
+      "approved_indication": ""
+    },
+    {
       "name": "Cyanocobalamin",
       "file": "cyanocobalamin.md",
       "evidence_level": "L5",
@@ -1444,6 +1470,19 @@
         "angle-closure glaucoma"
       ],
       "approved_indication": "bronchitis; paracetamol poisoning; cystic fibrosis; bronchiectasis; idiopathic bronchiectasis; amyloidosis (disease); AH amyloidosis; AL amyloidosis"
+    },
+    {
+      "name": "D-Biotin",
+      "file": "d-biotin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": "",
+      "inn": "Biotin",
+      "predicted_indications": [
+        "dyspepsia",
+        "gastroparesis (disease)"
+      ],
+      "approved_indication": ""
     },
     {
       "name": "Dabigatran Etexilate",
@@ -1780,6 +1819,18 @@
         "cortical cataract",
         "senile cataract",
         "antithrombin deficiency type 2"
+      ],
+      "approved_indication": ""
+    },
+    {
+      "name": "Dl-Threonine",
+      "file": "dl-threonine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": "",
+      "inn": "Threonine",
+      "predicted_indications": [
+        "gastroparesis (disease)"
       ],
       "approved_indication": ""
     },
