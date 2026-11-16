@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06",
-  "total_count": 395,
+  "generated": "2026-11-16",
+  "total_count": 399,
   "source": "ZaTxGNN",
   "drugs": [
     {
@@ -212,6 +212,16 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/arginine/"
+    },
+    {
+      "slug": "arginine-hydrochloride",
+      "name": "Arginine Hydrochloride",
+      "evidence_level": "L4",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "",
+      "txgnn_score": "",
+      "url": "/drugs/arginine-hydrochloride/"
     },
     {
       "slug": "aripiprazole",
@@ -974,6 +984,16 @@
       "url": "/drugs/cupric-chloride/"
     },
     {
+      "slug": "cupric-chloride-dihydrate",
+      "name": "Cupric Chloride Dihydrate",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "",
+      "txgnn_score": "",
+      "url": "/drugs/cupric-chloride-dihydrate/"
+    },
+    {
       "slug": "cyanocobalamin",
       "name": "Cyanocobalamin",
       "evidence_level": "L5",
@@ -1022,6 +1042,16 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/cysteine/"
+    },
+    {
+      "slug": "d-biotin",
+      "name": "D-Biotin",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "",
+      "txgnn_score": "",
+      "url": "/drugs/d-biotin/"
     },
     {
       "slug": "dabigatran-etexilate",
@@ -1242,6 +1272,16 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/dl-alpha-tocopherol/"
+    },
+    {
+      "slug": "dl-threonine",
+      "name": "Dl-Threonine",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "",
+      "txgnn_score": "",
+      "url": "/drugs/dl-threonine/"
     },
     {
       "slug": "docetaxel",

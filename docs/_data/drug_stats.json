@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-04",
-  "total_drugs": 395,
+  "generated": "2026-11-16",
+  "total_drugs": 399,
   "level_counts": {
     "L1": 3,
     "L2": 16,
     "L3": 10,
-    "L4": 28,
-    "L5": 287
+    "L4": 29,
+    "L5": 290
   },
   "all_drugs": [
     {
@@ -132,6 +132,12 @@
     {
       "name": "Arginine",
       "slug": "arginine",
+      "level": "L4",
+      "indication_count": 1
+    },
+    {
+      "name": "Arginine Hydrochloride",
+      "slug": "arginine_hydrochloride",
       "level": "L4",
       "indication_count": 1
     },
@@ -592,6 +598,12 @@
       "indication_count": 3
     },
     {
+      "name": "Cupric Chloride Dihydrate",
+      "slug": "cupric_chloride_dihydrate",
+      "level": "L5",
+      "indication_count": 3
+    },
+    {
       "name": "Cyanocobalamin",
       "slug": "cyanocobalamin",
       "level": "L5",
@@ -620,6 +632,12 @@
       "slug": "cysteine",
       "level": "L5",
       "indication_count": 7
+    },
+    {
+      "name": "D-Biotin",
+      "slug": "d-biotin",
+      "level": "L5",
+      "indication_count": 2
     },
     {
       "name": "Dabigatran Etexilate",
@@ -752,6 +770,12 @@
       "slug": "dl-alpha-tocopherol",
       "level": "L5",
       "indication_count": 10
+    },
+    {
+      "name": "Dl-Threonine",
+      "slug": "dl-threonine",
+      "level": "L5",
+      "indication_count": 1
     },
     {
       "name": "Docetaxel",

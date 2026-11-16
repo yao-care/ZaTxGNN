@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Arginine Hydrochloride
-parent: Model Prediction Only (L5)
-nav_order: 44
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+parent: Moderate Evidence (L3-L4)
+nav_order: 43
+evidence_level: L4
+indication_count: 1
+drugbank_id: DB00125
+monitor_inn: "Arginine"
+predicted_indications: ["gastroparesis (disease)"]
+last_modified_at: 2026-11-16
+description: "Arginine Hydrochloride: predicted new indication Gastroparesis (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Arginine Hydrochloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **0** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,83 +34,78 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-## Arginine Hydrochloride: Insufficient Data for Drug Repurposing Assessment
+## Arginine Hydrochloride: Gastroparesis (disease)
 {: .text-alpha }
-
----
 
 ## One-Sentence Summary
 
-Arginine hydrochloride is an amino acid salt with established clinical roles in treating metabolic alkalosis and as a diagnostic provocative agent in growth hormone stimulation testing.
-No TxGNN repurposing predictions were generated for this drug in the current analysis cycle.
-A complete repurposing evaluation cannot be conducted until critical data gaps — including DrugBank mapping, mechanism of action, and safety documentation — are resolved.
-
-<!-- review:begin za-lic-20261105-arginine_hydrochloride-1 -->
-
-> **Review correction (2026-11-05)**: Originally stated: "No TxGNN repurposing predictions were generated for this drug in the current analysis cycle, and the drug holds no SAHPRA registration in South Africa. / A complete repurposing evaluation cannot be conducted until critical data gaps — including DrugBank mapping, mechanism of action, and safety documentation — are resolved." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 54 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
-
-<!-- review:end za-lic-20261105-arginine_hydrochloride-1 -->
-
----
+Arginine hydrochloride is an amino acid salt, and in South Africa it is registered only as a component of combination products. The TxGNN model predicts it may be useful for **gastroparesis**. The supporting evidence is **9 publications**, all indirect or preclinical (mostly animal studies), and **no registered clinical trials**.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not recorded in current dataset |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — no predictions or supporting studies available |
+|------|------|
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroparesis (disease) |
+| TxGNN Prediction Score | 0.9942 |
+| Evidence Level | L4 |
 | South Africa Market Status | Marketed (valid licences: 35 of 54; 5 of the valid not confirmed by SAHPRA) |
 | Number of SAHPRA Registrations | 54 (valid: 35, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-No TxGNN repurposing predictions were generated for Arginine Hydrochloride in this analysis cycle, so a mechanism-based rationale for a specific new indication cannot currently be provided.
+Detailed mechanism of action data are not available in the data compiled for this report. Biologically, L-arginine is the substrate for nitric oxide synthase (NOS). Nitrergic signalling drives gastric accommodation and relaxation of the pyloric sphincter, both of which are impaired in gastroparesis.
 
-Arginine hydrochloride is the ionised salt form of L-arginine, a conditionally essential amino acid with well-characterised roles in protein biosynthesis, the urea cycle, nitric oxide (NO) production via nitric oxide synthase (NOS), and immune regulation. Its established clinical applications include correction of hypochloraemic metabolic alkalosis and pharmacological provocation of pituitary growth hormone secretion. These broad physiological roles — particularly the NO pathway — have generated investigational interest across cardiovascular disease, wound healing, immune dysfunction, and male sexual health, though no formal TxGNN prediction has been computed for this candidate.
+Some preclinical findings are consistent with this:
+- A mouse study reported that glucocorticoids induce gastroparesis by depleting L-arginine. This suggests arginine supplementation could be protective.
+- A Parkinson's disease rat model showed impaired nitrergic relaxation in the pyloric sphincter.
+- A diabetic rat model showed myenteric neuropathy, with reduced nNOS expression proposed as a mechanism in diabetic gastroparesis.
 
-The absence of predictions most likely reflects a failure to map the drug name "ARGININE HYDROCHLORIDE" to a confirmed DrugBank identifier in the current pipeline run. Resolving this mapping is the critical first step before any repurposing evaluation can proceed.
+The remaining publications concern gastric motility models, hyperglycaemia, ghrelin, or electrical and nerve stimulation. They did not test arginine and add little to the mechanistic link. The TxGNN score is a model output, not clinical evidence, and no human study of arginine hydrochloride in gastroparesis was identified.
 
----
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+## Literature Evidence
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [25057793](https://pubmed.ncbi.nlm.nih.gov/25057793/) | 2014 | Animal study (mouse) | Endocrinology | Glucocorticoids induced gastroparesis through depletion of L-arginine. This is the most directly relevant paper. |
+| [35380456](https://pubmed.ncbi.nlm.nih.gov/35380456/) | 2022 | Animal study (rat) | Am J Physiol Gastrointest Liver Physiol | Impaired nitrergic relaxation of the pyloric sphincter in a Parkinson's disease rat model with gastroparesis. |
+| [18312542](https://pubmed.ncbi.nlm.nih.gov/18312542/) | 2008 | Animal study (rat) | Neurogastroenterol Motil | Myenteric neuropathy and nNOS changes in diabetic BB-rats. Reduced gastric nNOS has been proposed as a mechanism of diabetic gastroparesis. |
+| [21193530](https://pubmed.ncbi.nlm.nih.gov/21193530/) | 2011 | Animal study (rat) | Am J Physiol Gastrointest Liver Physiol | Hyperglycaemia inhibits gastric motility via nodose ganglia KATP channels. Arginine was not tested. |
+| [18322959](https://pubmed.ncbi.nlm.nih.gov/18322959/) | 2008 | Animal study (mouse) | World J Gastroenterol | Gastric motor effects of ghrelin and GHRP-6 in diabetic mice with gastroparesis. |
+| [19023028](https://pubmed.ncbi.nlm.nih.gov/19023028/) | 2009 | Animal study (dog, device) | Am J Physiol Gastrointest Liver Physiol | Synchronized gastric electrical stimulation improved vagotomy-induced impairment of gastric accommodation via the nitrergic pathway. |
+| [31984783](https://pubmed.ncbi.nlm.nih.gov/31984783/) | 2020 | Animal study (rat, device) | Am J Physiol Gastrointest Liver Physiol | Sacral nerve stimulation increased gastric accommodation. Arginine was not tested. |
+| [8194696](https://pubmed.ncbi.nlm.nih.gov/8194696/) | 1994 | Animal study (rat) | Gastroenterology | Food protein-induced anaphylaxis delayed gastric emptying. Arginine was not tested. |
+| [33867519](https://pubmed.ncbi.nlm.nih.gov/33867519/) | 2021 | Case report | Am J Case Rep | Lifestyle changes normalised serum lactate in an m.3243A>G mitochondrial variant carrier. Little relevance to gastroparesis. |
 
 ## South Africa Market Information
 
-It does not appear on the South African Essential Medicines List (EML).
-
-<!-- review:begin za-lic-20261105-arginine_hydrochloride-2 -->
-
-> **Review correction (2026-11-05)**: Originally stated: "Arginine hydrochloride is **not currently registered with SAHPRA** and carries no approved South African product licences on record. It does not appear on the South African Essential Medicines List (EML). Any clinical use in South Africa would require a **Section 21 Unregistered Medicine Authorisation** from SAHPRA before procurement or administration." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 54 registrations for this drug, 35 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
-
-<!-- review:end za-lic-20261105-arginine_hydrochloride-2 -->
-
----
+The SAHPRA records compiled for this report list 54 registrations, and none of them has indication text. The valid registrations are all combination products (mainly parenteral nutrition and amino acid solutions). Of the registrations listed, 19 are cancelled, and the status of 5 could not be confirmed. Because these are combination products, they do not show how arginine hydrochloride alone is approved or marketed in South Africa.
 
 ## Safety Considerations
 
-No SAHPRA-sourced safety data, contraindications, or drug-drug interaction records are available in the current dataset. Please refer to the manufacturer's Professional Information (PI) and any relevant international regulatory documents (EMA, FDA) for safety guidance. Report all suspected adverse drug reactions to SAHPRA via the MedSafety online portal.
+- **Drug Interactions**: No interaction data were found.
 
----
+Please refer to the SAHPRA-approved Professional Information (PI) for warnings and contraindications. Report adverse drug reactions to SAHPRA.
+
+Before any pilot study, the risks of arginine hydrochloride that should be weighed include hyperchloraemic acidosis, hyperkalaemia, and vasodilation or hypotension.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN pipeline did not generate repurposing predictions for this drug, and both the DrugBank identifier and safety documentation are absent — making a meaningful evidence-based evaluation impossible at this stage.
+The TxGNN score is high (0.9942), but the supporting evidence is indirect and preclinical. No human study of arginine hydrochloride in gastroparesis was found, no clinical trials are registered, and the mechanism of action and PI safety data are missing.
 
 **To proceed, the following is needed:**
-
-- **Resolve DrugBank mapping**: Confirm whether Arginine Hydrochloride maps to DrugBank DB00148 (L-Arginine) or a distinct salt entry, and rerun the TxGNN prediction pipeline with the correct identifier
-- **Obtain safety documentation**: Download and parse the manufacturer's PI or SPC to extract warnings, contraindications, and drug interactions (identified as a blocking data gap in the current pack)
-- **Retrieve MOA data**: Query the DrugBank API or PharmGKB for mechanism of action details to support future mechanism-relatedness analysis
-- **Establish original registered indications**: Confirm approved indications from SAHPRA, EMA, or FDA sources to populate the repurposing baseline
-- **Assess regulatory pathway**: If clinical repurposing use is being considered, initiate a Section 21 application with SAHPRA and identify any South African or regional clinical trial activity via the Pan African Clinical Trials Registry (PACTR) at [www.pactr.org](https://www.pactr.org)
-
-> ⚠️ **Disclaimer**: This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All content must be interpreted in conjunction with SAHPRA-approved prescribing information.
+- Mechanism of action data, for example from DrugBank
+- The SAHPRA package insert warnings and contraindications, downloaded and reviewed
+- An in-depth review of preclinical arginine and nitric oxide data, including whether arginine reverses delayed gastric emptying in animal models
+- A feasibility and safety assessment (acid-base and potassium effects, haemodynamic effects) before any pilot study is considered
 
 <!-- review:begin log -->
 
@@ -119,8 +115,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "and the drug holds no SAHPRA registration in South Africa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "Arginine hydrochloride is **not currently registered with SAHPRA** and carries no approved South African product licences on record. Any cli" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "and the drug holds no SAHPRA registration in South Africa" | No longer present after the report was regenerated (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; was: Corrected) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Arginine hydrochloride is **not currently registered with SAHPRA** and carries no approved South African product licences on record. Any cli" | No longer present after the report was regenerated (2026-11-16: The report was regenerated on 2026-11-16 with new predictions; this sentence is no longer on the page; was: Corrected) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 
