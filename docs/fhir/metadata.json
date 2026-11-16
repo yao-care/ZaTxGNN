@@ -7,7 +7,7 @@
   "title": "ZaTxGNN FHIR Server",
   "status": "active",
   "experimental": true,
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "publisher": "ZaTxGNN",
   "contact": [
     {
@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "ZaTxGNN drug repurposing prediction data exposed as FHIR resources. Contains 395 drugs and 1845 predicted indications.",
+  "description": "ZaTxGNN drug repurposing prediction data exposed as FHIR resources. Contains 399 drugs and 1852 predicted indications.",
   "jurisdiction": [
     {
       "coding": [
@@ -76,15 +76,15 @@
       "extension": [
         {
           "url": "MedicationKnowledge",
-          "valueInteger": 395
+          "valueInteger": 399
         },
         {
           "url": "ClinicalUseDefinition",
-          "valueInteger": 1845
+          "valueInteger": 1852
         },
         {
           "url": "countedAt",
-          "valueDate": "2026-11-15"
+          "valueDate": "2026-11-16"
         }
       ]
     }
