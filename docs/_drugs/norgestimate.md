@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **elevated plasma zinc**, but t
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 2 of 2; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 2 (valid: 2, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Not marketed (no current registration: 2 of 2 cancelled by SAHPRA, or not on the SAHPRA register and discontinued in or absent from the current Medicine Price Registry) |
+| Number of SAHPRA Registrations | 2 (valid: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,16 +75,16 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| X/18.8/46 | Cilest | tablet | Valid (status not confirmed by SAHPRA) |
-| X/18.8/47 | Tricilest | tablet | Valid (status not confirmed by SAHPRA) |
+| X/18.8/46 | Cilest | tablet | Not on SAHPRA register; discontinued in MPR |
+| X/18.8/47 | Tricilest | tablet | Not on SAHPRA register; discontinued in MPR |
 
 <!-- licenses:end -->
 
-Both registrations are valid. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
+Neither registration is current: both (Cilest X/18.8/46, Tricilest X/18.8/47) are absent from the SAHPRA medicine register and are listed as discontinued in the current Medicine Price Registry. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
 <!-- review:begin za-lic-20261106-norgestimate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Both registrations are valid, single-ingredient entries for oral tablets." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 2 registrations for this drug, 2 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-17)**: Originally stated: "Both registrations are valid, single-ingredient entries for oral tablets." Corrected: the earlier wording said both registrations are valid and single-ingredient. Neither registration number appears in the SAHPRA medicine register (product table, 21,439 entries, retrieved 2026-11-17), and the current Medicine Price Registry (Database of Medicine Prices, 1 October 2026) lists both products as Discontinued. This is not a SAHPRA cancellation notice; the SAHPRA register simply has no record of these numbers. Source: [SAHPRA medicine register (medapps product table)](https://medapps.sahpra.org.za:6006/); [Database of Medicine Prices, 1 October 2026 (National Department of Health, Medicine Price Registry)](https://www.health.gov.za/wp-content/uploads/2026/10/Database_Of_Medicine_Prices_1_October_2026.xlsx).
 
 <!-- review:end za-lic-20261106-norgestimate-1 -->
 
@@ -130,7 +130,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient entries for oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-17 | Corrected: neither registration is current (not on SAHPRA register; discontinued in MPR) | Corrected (revised 2026-11-17; earlier version kept in the record) | [SAHPRA medicine register (medapps product table)](https://medapps.sahpra.org.za:6006/); [Database of Medicine Prices, 1 October 2026 (National Department of Health, Medicine Price Registry)](https://www.health.gov.za/wp-content/uploads/2026/10/Database_Of_Medicine_Prices_1_October_2026.xlsx) |
 
 <!-- review:end log -->
 

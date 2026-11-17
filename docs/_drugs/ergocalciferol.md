@@ -48,8 +48,8 @@ Ergocalciferol (vitamin D2) has relations recorded in the knowledge graph with b
 | Predicted New Indication | Acromesomelic dysplasia, Campailla-Martinelli type |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 14; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 14 (valid: 5, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 4 of 14) |
+| Number of SAHPRA Registrations | 14 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,9 @@ Currently no related literature available.
 |------|------|------|------|
 | T1101 | Calciferol oily | drops | Valid |
 | 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | Z/22.1/236 | Vitalipid novum adult 10ml pdv00001a | infusion | Valid |
 | H2053 | A-LENNON Calciferol | tablet | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Not on SAHPRA register; discontinued in MPR |
 
 Showing 5 of 14 registrations (valid registrations first).
 

@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Oseltamivir,
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 35 of 35; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 35 (valid: 35, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 34 of 35; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 35 (valid: 34, of which 2 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 

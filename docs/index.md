@@ -40,8 +40,8 @@ Registration status comes from the [SAHPRA](https://www.sahpra.org.za/) medapps 
 | Registrations listed in the report | Medicines |
 |---|---|
 | All valid | {{ za.medicines.all_valid }} |
-| Some cancelled | {{ za.medicines.some_cancelled }} |
-| All cancelled | {{ za.medicines.all_cancelled }} |
+| Some cancelled or no longer current | {{ za.medicines.some_cancelled }} |
+| All cancelled or no longer current | {{ za.medicines.all_cancelled }} |
 | Only part of the list held in the data | {{ za.medicines.partial_list }} |
 {% if za.medicines.none_listed > 0 %}| No SAHPRA registration found in the data | {{ za.medicines.none_listed }} |
 {% endif %}

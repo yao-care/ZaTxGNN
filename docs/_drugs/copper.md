@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Copper, so t
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 3 of 3; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 3 (valid: 3, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 2) |
 
 ## Known uses recorded for this drug
 
@@ -78,7 +78,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Copper, so t
 |------|------|------|------|
 | 29/24/0462 | Peditrace 10ml pdp100010 | infusion | Valid |
 | 52/24/0031 | Nutryelt | infusion | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Not on SAHPRA register; discontinued in MPR |
 
 <!-- licenses:end -->
 

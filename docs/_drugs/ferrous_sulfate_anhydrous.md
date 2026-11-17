@@ -50,8 +50,8 @@ Ferrous sulfate anhydrous is an oral iron supplement used to correct iron defici
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 3 (valid: 3, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 3 (valid: 2, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -84,9 +84,9 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | H2466 | Complenatal Ff | capsule | Valid (status not confirmed by SAHPRA) |
 | P/33/161 | Bidomak Fe | Not recorded | Valid |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Not on SAHPRA register; discontinued in MPR |
 
 <!-- licenses:end -->
 

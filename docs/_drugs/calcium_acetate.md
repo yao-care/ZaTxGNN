@@ -50,8 +50,8 @@ Calcium acetate is a calcium salt used to manage calcium and phosphate balance. 
 | Predicted New Indication | calcium-alkali syndrome |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 2; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 2 (valid: 1, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Not marketed (no current registration: 2 of 2 cancelled by SAHPRA, or not on the SAHPRA register and discontinued in or absent from the current Medicine Price Registry) |
+| Number of SAHPRA Registrations | 2 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---
@@ -84,7 +84,7 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 44/24/0102 | Phosphosorb 660 | tablet | Valid (status not confirmed by SAHPRA) |
+| 44/24/0102 | Phosphosorb 660 | tablet | Not on SAHPRA register; discontinued in MPR |
 | 45/24/0919 | Osvaren | Fct | Cancelled |
 
 <!-- licenses:end -->

@@ -50,8 +50,8 @@ but currently there are **no registered clinical trials** and only **1 indirect 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 224 of 257; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 257 (valid: 224, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 223 of 256; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 256 (valid: 223, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -98,7 +98,7 @@ Approved indication text and Essential Medicines List (EML) status are not avail
 | 36/7.1.3/0068 | Tareg | tablet | Valid |
 | 36/7.1.3/0382 | Diovan | tablet | Valid |
 
-Showing 5 of 257 registrations (valid registrations first).
+Showing 5 of 256 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 76 of 82; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 82 (valid: 76, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 75 of 82; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 82 (valid: 75, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -48,8 +48,8 @@ Methylprednisolone is a synthetic glucocorticoid with anti-inflammatory and immu
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 33 of 36; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 36 (valid: 33, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 32 of 36; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 36 (valid: 32, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,8 +75,8 @@ No approved indication text is recorded for them in the local data.
 | 42/21.5.1/0309 | Methylprednisolone 40 viatris powder for | injection | Valid |
 | 42/21.5.1/0311 | Methylprednisolone 500 viatris powder fo | injection | Valid |
 | 42/21.5.1/0312 | Methylprednisolone 1000 viatris powder f | injection | Valid |
-| C/3.1/198 | Depo-Medrol 80Mg | injection | Valid (status not confirmed by SAHPRA) |
 | C0728 | Medrol | tablet | Valid |
+| C0729 | Medrol | tablet | Valid |
 
 Showing 5 of 36 registrations (valid registrations first).
 

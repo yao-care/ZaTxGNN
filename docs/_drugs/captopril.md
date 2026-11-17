@@ -52,8 +52,8 @@ There are currently **no clinical trials** and only **1 publication** (a diagnos
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 19 of 31; 6 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 31 (valid: 19, of which 6 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 16 of 31; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 31 (valid: 16, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

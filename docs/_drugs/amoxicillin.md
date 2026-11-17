@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **hyperamylasemia**, but there are
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 231 of 286; 38 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 286 (valid: 231, of which 38 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 219 of 286; 26 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 286 (valid: 219, of which 26 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,11 +83,11 @@ Amoxicillin is marketed in South Africa. The licence records contain no approved
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 27/20.1.2/0325 | A-Lennon Amoxycillin | capsule | Valid (status not confirmed by SAHPRA) |
-| 27/20.1.2/0439 | A-Lennon Amoxycillin | suspension | Valid (status not confirmed by SAHPRA) |
-| 27/20.1.2/0440 | A-Lennon Amoxycillin | suspension | Valid (status not confirmed by SAHPRA) |
 | 27/20.1.2/0472 | Saltermox s | suspension | Valid (status not confirmed by SAHPRA) |
 | 27/20.1.2/0473 | Saltermox Sf 250 Mg | suspension | Valid (status not confirmed by SAHPRA) |
+| 27/20.1.2/0577 | Amoxycillin 250 Oethmaan | capsule | Valid |
+| 28/20.1.2/0124 | Zoxil 250 | capsule | Valid |
+| 28/20.1.2/0125 | Zoxil 500 | capsule | Valid |
 
 Showing 5 of 286 registrations (valid registrations first).
 

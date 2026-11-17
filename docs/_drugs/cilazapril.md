@@ -50,8 +50,8 @@ but the support comes only from **4 preclinical or in vitro publications** and *
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 3 of 3; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 3 (valid: 3, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 2 of 3; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 3 (valid: 2, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,9 +81,9 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| Y/7.1.3/65 | Inhibace | tablet | Valid (status not confirmed by SAHPRA) |
 | 29/7.1.3/0022 | Inhibace plus 5mg/12.5mg | tablet | Valid (status not confirmed by SAHPRA) |
 | Y/7.1.3/66 | Inhibace | tablet | Valid (status not confirmed by SAHPRA) |
+| Y/7.1.3/65 | Inhibace | tablet | Not on SAHPRA register; discontinued in MPR |
 
 <!-- licenses:end -->
 

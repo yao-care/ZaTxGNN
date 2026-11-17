@@ -50,8 +50,8 @@ but current support is limited to **1 clinical trial** (in which hydrocortisone 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 (indirect: hydrocortisone served as the comparator arm, not the test drug) |
-| South Africa Market Status | Marketed (valid licences: 43 of 67; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 67 (valid: 43, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 42 of 67; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 67 (valid: 42, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

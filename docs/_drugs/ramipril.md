@@ -50,8 +50,8 @@ Ramipril is an ACE inhibitor. The TxGNN model (deep learning) predicts it may be
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 58 of 72; 18 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 72 (valid: 58, of which 18 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 43 of 72; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 72 (valid: 43, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -104,11 +104,11 @@ The records contain no approved-indication text. Essential Medicines List status
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/7.1.3/0665 | Tritace 1.25 Mg Tablets | tablet | Valid (status not confirmed by SAHPRA) |
-| 31/7.1.3/0667 | Tritace 5 Mg Tablets | tablet | Valid (status not confirmed by SAHPRA) |
 | 31/7.1.3/0690 | Ramace | tablet | Valid (status not confirmed by SAHPRA) |
-| 31/7.1.3/0691 | Ramace  5 Tablets | tablet | Valid (status not confirmed by SAHPRA) |
 | 37/7.1.3/0511 | Ramipril hexal | tablet | Valid |
+| 37/7.1.3/0512 | Ramipril hexal | tablet | Valid |
+| 37/7.1.3/0513 | Retace | tablet | Valid |
+| 37/7.1.3/0514 | Retace 2.5 | tablet | Valid |
 
 Showing 5 of 72 registrations (valid registrations first).
 

@@ -52,8 +52,8 @@ Among the other predictions, **perinatal disease** (vitamin A in very low birth 
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 18 of 35; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 35 (valid: 18, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 17 of 35; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 35 (valid: 17, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -128,8 +128,8 @@ Vitamin A is marketed in South Africa. Approved indication text is not available
 | 30/22.1/0201 | Vitalipid novum infant 10ml pdv00001l | infusion | Valid |
 | 36/22.1/0508 | Cernevit | infusion | Valid |
 | A/21.8.1/743 | Menoflush | tablet | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
+| H2466 | Complenatal Ff | capsule | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 35 registrations (valid registrations first).
 

@@ -48,8 +48,8 @@ Nystatin is a polyene antifungal medicine marketed in South Africa. The TxGNN mo
 | Predicted New Indication | Disease of orbital region |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 13 of 20; 6 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 20 (valid: 13, of which 6 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 7 of 20) |
+| Number of SAHPRA Registrations | 20 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,9 @@ Currently no related literature available.
 |------|------|------|------|
 | 31/20.1.7/0288 | Candacide | suspension | Valid |
 | D/20.1.7/170 | Canstat | vaginal cream | Valid |
-| D/20.1.7/269 | Mycostatin | suspension | Valid (status not confirmed by SAHPRA) |
-| E/18.6/126 | Mycostatin | Vcr | Valid (status not confirmed by SAHPRA) |
-| G2397 | Mycostatin | cream | Valid (status not confirmed by SAHPRA) |
+| 50/20.1.1/0250 | Polygynax® | Pvc | Valid |
+| D/20.1.7/171 | Canstat oral | suspension | Valid |
+| F/13.9.2/158 | Canstat | cream | Valid |
 
 Showing 5 of 20 registrations (valid registrations first).
 

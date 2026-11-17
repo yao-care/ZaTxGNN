@@ -50,8 +50,8 @@ Because homozygous familial hypercholesterolaemia is already among its original 
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 88 of 107; 15 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 107 (valid: 88, of which 15 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 82 of 107; 9 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 107 (valid: 82, of which 9 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

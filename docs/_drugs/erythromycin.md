@@ -52,8 +52,8 @@ but currently there are **no registered clinical trials** and only **1 publicati
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 33 of 58; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 58 (valid: 33, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 32 of 58) |
+| Number of SAHPRA Registrations | 58 (valid: 32) |
 | Recommended Decision | Hold |
 
 ---

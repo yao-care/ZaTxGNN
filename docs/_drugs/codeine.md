@@ -48,8 +48,8 @@ Codeine is an opioid analgesic that is currently marketed in South Africa in sev
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 158 of 272; 11 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 272 (valid: 158, of which 11 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 155 of 272; 8 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 272 (valid: 155, of which 8 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

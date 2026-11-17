@@ -50,8 +50,8 @@ Polymyxin B is a polypeptide antibiotic active against Gram-negative bacteria. T
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 8 of 15; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 15 (valid: 8, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 7 of 15) |
+| Number of SAHPRA Registrations | 15 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---

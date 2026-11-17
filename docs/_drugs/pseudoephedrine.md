@@ -50,8 +50,8 @@ Currently there are **0 registered clinical trials** and **7 publications** (one
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 73 of 127; 11 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 127 (valid: 73, of which 11 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 67 of 127; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 127 (valid: 67, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?

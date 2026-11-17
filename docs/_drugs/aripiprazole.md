@@ -50,8 +50,8 @@ The TxGNN model predicts it may be effective for **gaze palsy, familial horizont
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 73 of 90; 11 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 90 (valid: 73, of which 11 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 72 of 90; 10 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 90 (valid: 72, of which 10 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

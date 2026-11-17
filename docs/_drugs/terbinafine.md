@@ -47,8 +47,8 @@ The TxGNN model's candidates for Terbinafine are all known uses, so there is cur
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 28 of 33; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 33 (valid: 28, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 26 of 33; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 33 (valid: 26, of which 2 not confirmed by SAHPRA) |
 
 ## Known uses among the model's candidates
 

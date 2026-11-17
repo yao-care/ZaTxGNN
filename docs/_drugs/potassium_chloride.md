@@ -52,8 +52,8 @@ There are **no registered clinical trials** and **18 publications** (mostly case
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 (see note below) |
-| South Africa Market Status | Marketed (valid licences: 117 of 173; 8 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 173 (valid: 117, of which 8 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 114 of 173; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 173 (valid: 114, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* Under the standard rules, a prediction with no clinical trials and only case reports, reviews and small cohorts would be L5 (model prediction only). The L4 grade comes from the mechanistic rationale (potassium repletion for hypokalaemia in RTA), not from preclinical or mechanism studies.

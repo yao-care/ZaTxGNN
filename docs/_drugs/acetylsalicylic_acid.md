@@ -50,8 +50,8 @@ Acetylsalicylic acid (aspirin) is a cyclooxygenase (COX) inhibitor with antiplat
 | Predicted New Indication | atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 108 of 160; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 160 (valid: 108, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 107 of 160; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 160 (valid: 107, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

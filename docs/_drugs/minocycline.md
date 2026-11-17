@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **punctate epithelial keratoconjun
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 15 of 15; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 15 (valid: 15, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 14 of 15) |
+| Number of SAHPRA Registrations | 15 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -93,9 +93,9 @@ It is indirect and does not demonstrate efficacy:
 |------|------|------|------|
 | 28/20.1.1/0573 | Sandoz Minocycline | tablet | Valid |
 | 28/20.1.1/0574 | Sandoz Minocycline | tablet | Valid |
-| 29/20.1.1/0570 | Minotabs 50 | tablet | Valid (status not confirmed by SAHPRA) |
 | W/20.1.1/442 | Cyclimycin | capsule | Valid |
 | W/20.1.1/443 | Cyclimycin | capsule | Valid |
+| 30/20.1.1/0413 | Triomin 50 | capsule | Valid |
 
 Showing 5 of 15 registrations (valid registrations first).
 

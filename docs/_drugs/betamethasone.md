@@ -50,8 +50,8 @@ Betamethasone is a corticosteroid with anti-inflammatory and immunosuppressive a
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 57 of 65; 10 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 65 (valid: 57, of which 10 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 51 of 65; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 65 (valid: 51, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,10 +93,10 @@ Betamethasone is marketed in South Africa as a single-ingredient product in seve
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 27/21.5.1/0543 | Betanoid | tablet | Valid |
-| G1833 | Betnovate Skin | lotion | Valid (status not confirmed by SAHPRA) |
 | G2935 | Celestone | tablet | Valid (status not confirmed by SAHPRA) |
 | G2971 (ACT 101/1965) | Celestone Injection | injection | Valid (status not confirmed by SAHPRA) |
-| P/21.5.1/236 | Diprosone Injection | injection | Valid (status not confirmed by SAHPRA) |
+| 27/13.4.1/0308 | Lenovate | ointment | Valid |
+| 27/13.4.1/0493 | Lenovate | cream | Valid |
 
 Showing 5 of 65 registrations (valid registrations first).
 

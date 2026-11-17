@@ -51,8 +51,8 @@ The prediction currently rests on the general antiseizure mechanism and literatu
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 54 of 59; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 59 (valid: 54, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 53 of 59) |
+| Number of SAHPRA Registrations | 59 (valid: 53) |
 | Recommended Decision | Hold |
 
 ---

@@ -50,8 +50,8 @@ However, there are **0 clinical trials** and **0 publications** supporting this 
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 1 of 2; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 2 (valid: 1, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Not marketed (no current registration: 2 of 2 cancelled by SAHPRA, or not on the SAHPRA register and discontinued in or absent from the current Medicine Price Registry) |
+| Number of SAHPRA Registrations | 2 (valid: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,7 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
+| G2667 (ACT 101/1965) | Gericomplex | capsule | Not on SAHPRA register; discontinued in MPR |
 | T1165 | Activex 40 Plus Capsules | capsule | Cancelled |
 
 <!-- licenses:end -->

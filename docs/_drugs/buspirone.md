@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 2 of 3; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 3 (valid: 2, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 1 of 3) |
+| Number of SAHPRA Registrations | 3 (valid: 1) |
 
 ---
 

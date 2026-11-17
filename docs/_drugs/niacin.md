@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced candidates for Niacin with a score of 0.9
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 1 of 1; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 1 (valid: 1, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Not marketed (no current registration: 1 of 1 cancelled by SAHPRA, or not on the SAHPRA register and discontinued in or absent from the current Medicine Price Registry) |
+| Number of SAHPRA Registrations | 1 (valid: 0) |
 
 ## Known uses among the model's candidates
 
@@ -76,7 +76,7 @@ The TxGNN deep-learning model produced candidates for Niacin with a score of 0.9
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 42/7.5/1092 | Tredaptive | tablet | Valid (status not confirmed by SAHPRA) |
+| 42/7.5/1092 | Tredaptive | tablet | Not on SAHPRA register; discontinued in MPR |
 
 <!-- licenses:end -->
 

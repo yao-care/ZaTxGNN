@@ -50,8 +50,8 @@ There are **no registered clinical trials**, and the predicted new indication is
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L4 (preclinical/animal studies only) |
-| South Africa Market Status | Marketed (valid licences: 45 of 74; 7 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 74 (valid: 45, of which 7 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 39 of 74; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 74 (valid: 39, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -97,11 +97,11 @@ The approved indication text was not available in the data compiled for this rep
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 32/20.2.8/0204 | Retrovir | tablet | Valid (status not confirmed by SAHPRA) |
 | 37/20.2.8/0614 | Cipla Zidovudine Oral Solution | solution | Valid (status not confirmed by SAHPRA) |
 | 38/20.2.8/0230 | Aspen-Zidovudine 300 Mg | tablet | Valid |
 | 41/20.2.8/0237 | Adco-zidovudine | tablet | Valid |
 | 45/20.2.8/0086 | Dizovin | tablet | Valid |
+| 46/20.2.8/0008 | Zidomat | tablet | Valid |
 
 Showing 5 of 74 registrations (valid registrations first).
 

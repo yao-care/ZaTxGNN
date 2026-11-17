@@ -50,8 +50,8 @@ This is a computational prediction only: **0 clinical trials** and **0 publicati
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 116 of 147; 11 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 147 (valid: 116, of which 11 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 105 of 147) |
+| Number of SAHPRA Registrations | 147 (valid: 105) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,8 +91,8 @@ Risperidone is marketed in South Africa as single-ingredient products. The five 
 | 27/2.6.5/0235 | Risperdal | tablet | Valid |
 | 27/2.6.5/0236 | Risperdal | tablet | Valid |
 | 27/2.6.5/0237 | Risperdal | tablet | Valid |
-| 27/2.6.5/0238 | Risperdal  4Mg | tablet | Valid (status not confirmed by SAHPRA) |
 | 33/2.6.5/0111 | Risperdal | tablet | Valid |
+| 37/2.6.5/0142 | Risperdal consta | injection | Valid |
 
 Showing 5 of 147 registrations (valid registrations first).
 

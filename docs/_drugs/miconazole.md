@@ -48,8 +48,8 @@ Miconazole is an imidazole antifungal used on the skin and mucous membranes. The
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 12 of 22; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 22 (valid: 12, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 9 of 22) |
+| Number of SAHPRA Registrations | 22 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,11 +87,11 @@ No approved indication text is recorded for any of them. Essential Medicines Lis
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 37/20.2.2/0630 | Micmat | tablet | Valid (status not confirmed by SAHPRA) |
 | L/20.2.2/183 | Daktarin oral | Geo | Valid |
 | 33/13.9.2/0124 | Covarex | cream | Valid |
 | 34/13.9.2/0182 | Dermazole | cream | Valid |
 | 35/13.4.1/0392 | Elozart | cream | Valid |
+| 36/13.9.2/0509 | Sutharex Cream | cream | Valid |
 
 Showing 5 of 22 registrations (valid registrations first).
 

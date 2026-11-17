@@ -52,8 +52,8 @@ The best-supported candidate among the top ten is **intracerebral hemorrhage**, 
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 129 of 136; 10 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 136 (valid: 129, of which 10 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 127 of 135; 8 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 135 (valid: 127, of which 8 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 **Other top-ranked predictions with evidence (for context):**
@@ -158,7 +158,7 @@ Telmisartan is marketed in South Africa. Approved indication text and manufactur
 | 33/7.1.3/0023 | Pritor | tablet | Valid |
 | 45/7.1.3/0606 | Mizart | tablet | Valid |
 
-Showing 5 of 136 registrations (valid registrations first).
+Showing 5 of 135 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

@@ -48,8 +48,8 @@ Roxithromycin is a macrolide antibiotic, marketed in South Africa as an oral tab
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 (preclinical and review literature only; no human trials) |
-| South Africa Market Status | Marketed (valid licences: 4 of 8; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 8 (valid: 4, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 2 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 2) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,9 @@ Currently no related clinical trials registered.
 |------|------|------|------|
 | 35/20.1.1/0222 | Roxithromycin-hexal | tablet | Valid |
 | 35/20.1.1/0223 | Roxithromycin-hexal | tablet | Valid |
-| 35/20.1.1/0267 | Roxulide | tablet | Valid (status not confirmed by SAHPRA) |
-| V/20.1.1/205 | Rulide | tablet | Valid (status not confirmed by SAHPRA) |
+| 35/20.1.1/0267 | Roxulide | tablet | Not on SAHPRA register; discontinued in MPR |
 | 36/20.1.1/0424 | Throsyn | tablet | Cancelled |
+| 37/20.1.1/0367 | Roxxibid | tablet | Cancelled |
 
 Showing 5 of 8 registrations (valid registrations first).
 

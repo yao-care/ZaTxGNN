@@ -50,8 +50,8 @@ This prediction is not supported by the evidence compiled for this report.
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 (no trials; literature is limited to adverse-effect reports and observational data) |
-| South Africa Market Status | Marketed (valid licences: 26 of 28; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 28 (valid: 26, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 25 of 27) |
+| Number of SAHPRA Registrations | 27 (valid: 25) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -94,7 +94,7 @@ Four further retrieved papers (on bacteriuria screening, sialadenitis, autoimmun
 | 52/18.5/0759.755 | Turanto 100 | capsule | Valid |
 | 53/18.5/0109.107 | Cipladantin 50 | capsule | Valid |
 
-Showing 5 of 28 registrations (valid registrations first).
+Showing 5 of 27 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

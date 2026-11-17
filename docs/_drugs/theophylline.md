@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **thrombotic disease**, but there 
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 26 of 39; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 39 (valid: 26, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 23 of 39; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 39 (valid: 23, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

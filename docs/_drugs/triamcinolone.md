@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Alopecia Mucinosa** (follicul
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 6 of 12; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 12 (valid: 6, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 3 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,10 +85,10 @@ No approved indication text was available for any of them, and Essential Medicin
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 45/21.5.1/0676 | Triamist 120 dose | spray | Valid |
-| G1595 | Kenalog In Orabase | Pas | Valid (status not confirmed by SAHPRA) |
 | 29/21.5.1/0715 | Nasacor t 120dose | spray | Valid |
-| G1591 | Kenacomb | cream | Valid (status not confirmed by SAHPRA) |
-| G1592 | Kenacomb | ointment | Valid (status not confirmed by SAHPRA) |
+| Q/13.4.1/0220 | Pevisone | cream | Valid |
+| G1595 | Kenalog In Orabase | Pas | Not on SAHPRA register; discontinued in MPR |
+| G1591 | Kenacomb | cream | Not on SAHPRA register; discontinued in MPR |
 
 Showing 5 of 12 registrations (valid registrations first).
 

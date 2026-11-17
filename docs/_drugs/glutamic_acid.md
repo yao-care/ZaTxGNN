@@ -54,8 +54,8 @@ Glutamic acid is an amino acid that, in South Africa, is registered as a compone
 | Predicted New Indication | Postmenopausal osteoporosis |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 22 of 26; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 26 (valid: 22, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 21 of 26; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 26 (valid: 21, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?

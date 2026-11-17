@@ -6980,24 +6980,53 @@
    "file": "norgestimate.md",
    "action": "correct",
    "claim": "Both registrations are valid, single-ingredient entries for oral tablets.",
-   "replacement": "Both registrations are valid.",
-   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 2 registrations for this drug, 2 valid; the Quick Overview and the table under South Africa Market Information show the current figures.",
-   "finding": "依成分重建後（SAHPRA 2026-11-06）本藥註冊 2 張、有效 2 張，其中單方 0 張（依各註冊的有效成分數）；句子說全部（或 N 張）是單方，與事實不符；只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定：單方／複方說法跟事實不符只刪錯的詞或子句）",
+   "replacement": "Neither registration is current: both (Cilest X/18.8/46, Tricilest X/18.8/47) are absent from the SAHPRA medicine register and are listed as discontinued in the current Medicine Price Registry.",
+   "note": "Corrected: the earlier wording said both registrations are valid and single-ingredient. Neither registration number appears in the SAHPRA medicine register (product table, 21,439 entries, retrieved 2026-11-17), and the current Medicine Price Registry (Database of Medicine Prices, 1 October 2026) lists both products as Discontinued. This is not a SAHPRA cancellation notice; the SAHPRA register simply has no record of these numbers.",
+   "finding": "2026-11-17 查證人工清單 791 張只在 MPR 有的號碼：X/18.8/46 Cilest、X/18.8/47 Tricilest 在 SAHPRA medapps 產品總表（getData，21,439 筆，2026-11-17）依 R1–R10 寫法都對不到；衛生部 MPR 2026-10-01 那期兩號每一列 Status 都是 Discontinued（2026-04-30 那期也在）。照 license_adapter 新規則標 cancelled（mpr_not_current）；原句（及 11-06 的更正文字）說兩張都有效，與事實不符。",
    "sources": [
     {
-     "title": "SAHPRA medicine register (medapps export)",
-     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
-     "accessed": "2026-11-06"
+     "title": "SAHPRA medicine register (medapps product table)",
+     "url": "https://medapps.sahpra.org.za:6006/",
+     "accessed": "2026-11-17"
     },
     {
-     "title": "SAHPRA",
-     "url": "https://www.sahpra.org.za/",
-     "accessed": "2026-11-06"
+     "title": "Database of Medicine Prices, 1 October 2026 (National Department of Health, Medicine Price Registry)",
+     "url": "https://www.health.gov.za/wp-content/uploads/2026/10/Database_Of_Medicine_Prices_1_October_2026.xlsx",
+     "accessed": "2026-11-17"
     }
    ],
-   "checked": "2026-11-06",
-   "summary": "Removed: \"single-ingredient entries for oral tablets\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：3f897ce6f（2026-11-06）"
+   "checked": "2026-11-17",
+   "summary": "Corrected: neither registration is current (not on SAHPRA register; discontinued in MPR)",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：3f897ce6f（2026-11-06）",
+   "history": [
+    {
+     "id": "za-lic-20261106-norgestimate-1",
+     "drug": "norgestimate",
+     "file": "norgestimate.md",
+     "action": "correct",
+     "claim": "Both registrations are valid, single-ingredient entries for oral tablets.",
+     "replacement": "Both registrations are valid.",
+     "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 2 registrations for this drug, 2 valid; the Quick Overview and the table under South Africa Market Information show the current figures.",
+     "finding": "依成分重建後（SAHPRA 2026-11-06）本藥註冊 2 張、有效 2 張，其中單方 0 張（依各註冊的有效成分數）；句子說全部（或 N 張）是單方，與事實不符；只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定：單方／複方說法跟事實不符只刪錯的詞或子句）",
+     "sources": [
+      {
+       "title": "SAHPRA medicine register (medapps export)",
+       "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+       "accessed": "2026-11-06"
+      },
+      {
+       "title": "SAHPRA",
+       "url": "https://www.sahpra.org.za/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Removed: \"single-ingredient entries for oral tablets\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：3f897ce6f（2026-11-06）",
+     "retired": "2026-11-17",
+     "reason": "更正文字「Both registrations are valid.」跟 2026-11-17 查證結果不符：兩張都不在 SAHPRA 註冊資料、現行 MPR（2026-10-01）兩列都是 Discontinued"
+    }
+   ]
   },
   {
    "id": "za-lic-20261105-nystatin-1",

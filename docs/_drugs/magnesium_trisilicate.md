@@ -51,8 +51,8 @@ There are currently **no registered clinical trials** and only **2 publications*
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 15 of 32; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 32 (valid: 15, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 14 of 32) |
+| Number of SAHPRA Registrations | 32 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -100,11 +100,11 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| E/11.4.1/1195 | Bisma-Rex Powder | powder | Valid (status not confirmed by SAHPRA) |
 | BV0720 | Magnesium Trisilicate | Not recorded | Valid |
 | 32/11.4.1/0519 | * Gastrogel | suspension | Valid |
 | 37/11.4.1/0074 | Neutracid | tablet | Valid |
 | BV0349 | Magnesium Trisilicate | Not recorded | Valid |
+| C/11.4/37 | Gaviscon * | tablet | Valid |
 
 Showing 5 of 32 registrations (valid registrations first).
 

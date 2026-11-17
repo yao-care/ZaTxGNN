@@ -49,8 +49,8 @@ but there are currently **no registered clinical trials** and **no directly supp
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 6 of 9; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 9 (valid: 6, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 5 of 9) |
+| Number of SAHPRA Registrations | 9 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,11 +84,11 @@ No randomised trials or systematic reviews of pheniramine in allergic urticaria 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 28/5.8/0696 | Degoran Fizzy Effervescent Tabtlets | effervescent tablet | Valid (status not confirmed by SAHPRA) |
 | G1796 | Calasthetic | cream | Valid |
 | C0989 | Triaminic Oral Drops | solution | Valid |
 | C0991 | Degoran Bitabs | Not recorded | Valid |
 | G1244 | COFF-UP | Not recorded | Valid |
+| H1495 | Dristan Nasal Mist | Not recorded | Valid |
 
 Showing 5 of 9 registrations (valid registrations first).
 

@@ -52,8 +52,8 @@ The TxGNN model predicts it may be useful for **brain stem infarction**, with a 
 | Predicted New Indication | brain stem infarction |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 299 of 324; 26 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 324 (valid: 299, of which 26 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 290 of 321; 17 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 321 (valid: 290, of which 17 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

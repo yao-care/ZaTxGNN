@@ -52,8 +52,8 @@ This is a model-driven hypothesis with limited supporting evidence.
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 76 of 107; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 107 (valid: 76, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 75 of 107; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 107 (valid: 75, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

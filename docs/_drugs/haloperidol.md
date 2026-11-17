@@ -52,8 +52,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 16; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 16 (valid: 8, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 4 of 16) |
+| Number of SAHPRA Registrations | 16 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,10 +85,10 @@ Currently no related literature available.
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 42/2.6.5/0065 | Gulf haloperidol | tablet | Valid |
-| B/2.6.5/10 | Serenace 0.5Mg Capsules | capsule | Valid (status not confirmed by SAHPRA) |
-| B1541(ACT101/1965) | Serenace Injection 5Mg/Ml | injection | Valid (status not confirmed by SAHPRA) |
-| G/2.6.5/96 | Serenace 5Mg Tablets | tablet | Valid (status not confirmed by SAHPRA) |
-| K/2.6.5/72 | Serenace Injection 20Mg/2Ml | injection | Valid (status not confirmed by SAHPRA) |
+| Q/2.6.5/169 | Haloperidol 1.5 oethmaan | tablet | Valid |
+| Q/2.6.5/170 | Sandoz Haloperidol 5 | tablet | Valid |
+| 56/2.6.5/0059 | Amperi 5Mg/Ml | injection | Valid |
+| B/2.6.5/10 | Serenace 0.5Mg Capsules | capsule | Not on SAHPRA register; discontinued in MPR |
 
 Showing 5 of 16 registrations (valid registrations first).
 

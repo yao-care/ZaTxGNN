@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **respiratory malformation**, but 
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 39 of 44; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 44 (valid: 39, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 38 of 44; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 44 (valid: 38, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

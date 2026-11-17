@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 52 of 80; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 80 (valid: 52, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 48 of 80) |
+| Number of SAHPRA Registrations | 80 (valid: 48) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,11 +83,11 @@ Approved indication text is not recorded in the local data for any of them.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| G0693(ACT101) 1965 | Dis-Chem Paediatric Expectorant | syrup | Valid (status not confirmed by SAHPRA) |
 | 27/10.1/0536 | Trifen expect paediatric | syrup | Valid |
 | 27/10.1/0537 | Trifen expect adult | syrup | Valid |
 | 28/10.1/0433 | Flusin junior cough | syrup | Valid |
 | 30/10.1/0050 | Flusin Expectorant Syrup | solution | Valid |
+| G1220 | Colphen | syrup | Valid |
 
 Showing 5 of 80 registrations (valid registrations first).
 

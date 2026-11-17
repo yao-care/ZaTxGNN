@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but **
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 25 of 30; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 30 (valid: 25, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 24 of 30; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 30 (valid: 24, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

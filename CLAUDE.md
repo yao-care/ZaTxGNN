@@ -532,7 +532,38 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   同一個證據包本來就有 SAHPRA 號碼的，merge_records 合併（60 筆）。`scripts/license_adapter.py` 的 record_id 改成對所有 SAHPRA 匯出沒有的號碼套寫法統一（原本只對 status_unconfirmed）。
 - ESTALIS SEQUI PLUS 50/140 在 MPR 成分欄錯植 paracetamol、pseudoephedrine，對回 SAHPRA（成分 estradiol＋norethisterone）後從 acetaminophen、paracetamol、
   pseudoephedrine（含 _hcl、_hydrochloride）5 個證據包移到 excluded_records（重建時「SAHPRA 成分全文不含本藥」會自動剔除）。
-- 其餘 791 張判斷不了，維持原狀態（Valid, status not confirmed by SAHPRA）：匯出依註冊日期篩選，沒有註冊日期的品項不在檔內（2026-10-30 起就知道，所以 COVER_MIN＝70%），
-  不是完整現行登錄；SAHPRA 網站沒有其他可下載的現行或撤銷清單（只連到 medapps）。所以不做「兩份都不列＝註銷」的判定，adapter 不加 confirmed_absent。
+- 其餘 791 張當時判斷不了，維持原狀態（Valid, status not confirmed by SAHPRA）；同日人工查證結果見下一節（「匯出依註冊日期篩選漏收」的假設後來證明不成立）。
 - 頁面：34 頁概覽狀態列／張數列與許可證表由排程程式同步（張數多半因合併與 Estalis 剔除而減少）；正文沒有跟新事實矛盾的句子，沒有新查核紀錄。
   celecoxib、pseudoephedrine 的 11-05 查核框寫「as of 2026-11-05」的張數，是當時的數字，不改。
+
+## 只在 MPR 有的 791 張查證（2026-11-17）
+
+用戶要求自己查證上節 791 列（788 個號碼，人工查核清單 txgnn/.claude/manual_license_lookup_20261117/）。來源：
+- SAHPRA medapps 首頁的伺服器端產品表（POST https://medapps.sahpra.org.za:6006/Home/getData，`.github/workflows/medapps-lookup.yml` 取得，2026-11-17）全部 21,439 筆
+  （Registered 14,386、Canceled 5,162、Old Medicine 1,817、Registrered 74），跟每週排程用的匯出是同一批；全部列都有 reg_date，所以「匯出依註冊日期篩選漏收」不成立。
+  Canceled 列的到期日幾乎都在 2020 年以後：medapps 只收新系統時期（約 2020 年起）的撤銷，更早撤銷的註冊整筆不在。
+- 衛生部 MPR（Database of Medicine Prices）現行一期 2026-10-01（https://www.health.gov.za/nhi-pee/ 上的 Database_Of_Medicine_Prices_1_October_2026.xlsx，
+  13,734 個產品列、10,731 個註冊號；另比對 2026-04-30 那期）。本站 MPR 紀錄原本取自 medicineprices.org.za API（data/raw/mpr_medicines.json 2026-03、
+  mpr_by_ingredient 快取 2026-11-05），788 個號碼全部仍在 2026-10-01 那期（號碼與 NAPPI 都對得上）。MPR 有 Status 欄（Discontinued 1,228 列等）。
+結果：
+- (c) SAHPRA 有同一品項、只差號碼寫法 7 張（全部 Registered）：`scripts/rebuild_licenses_by_ingredient.py` 加 R9（藥理分類段點號位置：43/7.13/0939＝43/7.1.3/0939 MIXANVAL 10/5、
+  51/20.1.1/0109＝51/20.11/0109 FUROCSEM 500、55/7.1.3/0356＝55/7.13/0356 ENPRESIL 20、56/10.2.2/0911＝56/10.22/0911 MONTEFLO 4 mg）與 R10（SAHPRA 自己寫六碼：
+  56/7.1.3/0003＝560003 DIPTATRIS、55/7.1.3/0670＝550670 TESDYN 80/5、55/18.5/0863＝550863 NITROFURANTOIN 100 PHARMC）；條件同 R7、R8（品牌字整字出現、SAHPRA 只有一個號碼相符）。
+  同證據包本來就有 SAHPRA 號碼的合併（19 筆）。
+- (a) SAHPRA 沒有、現行 MPR 該號每一列都是 Discontinued 270 張（例 Zerit 5 張、Serenace 4 張、Aurorix／Clorix、Requip 0.5–5.0、Berotec、Monopril、Inhibace Y/7.1.3/65、
+  Cilest／Tricilest、Tredaptive、Besobrial、Phosphosorb 660、Estracombi TTS）：兩個官方來源都不列為現行，判為非有效。SAHPRA 與 MPR 都完全不列的號碼 0 張。
+  `scripts/license_adapter.py`：fetch() 另下載 nhi-pee 頁上日期最新的一期 MPR（少於 MPR_MIN＝8,000 個號碼或下載失敗不判定）；preprocess 對 SAHPRA（含寫法統一）沒有、
+  MPR 不列或全部 Discontinued 的號碼標 `license_status: cancelled`＋`mpr_not_current`（第一次發現日）＋`mpr_status`＋`mpr_edition`，status 改
+  「Not on SAHPRA register; discontinued in MPR (Database of Medicine Prices, <日期>)」（原值存 `status_before_mpr_not_current`），拿掉 status_unconfirmed；
+  MPR 又列為現行或 SAHPRA 查得到就還原。`confirmed_absent()` 讓排程把這些列成「主管機關現行清單確認已不列」。許可證表狀態格寫「Not on SAHPRA register; discontinued in MPR」
+  （`scripts/sync_license_pages.py` 的 MPR_LAB），不寫 SAHPRA 撤銷；sync_tables 對有這種紀錄的藥一律重排。全部非有效的頁狀態列＝母目錄 check_drug_page.py 的
+  SCOPE_CANCELLED["ZaTxGNN"]「Not marketed (no current registration: N of N cancelled by SAHPRA, or not on the SAHPRA register and discontinued in or absent from the current
+  Medicine Price Registry)」（本站 tools/txgnn 同步同一份；母目錄 gen_local_home 首頁表的字樣跟著改）。本機試跑讀已下載的 SAHPRA 匯出：環境變數 ZA_SAHPRA_RAW。
+  依成分重建（rebuild_licenses_by_ingredient.py）會把這些號碼重設成 status_unconfirmed，下一次每週排程的 preprocess 會再標回（第一次發現日會變成那天）。
+- (b) SAHPRA 沒有、現行 MPR 仍列（沒有 Discontinued）511 張，維持 Valid（status not confirmed by SAHPRA）：MPR 是價格登錄、不是註冊登錄，2026-10-01 那期仍列 2010 年就撤市的
+  sibutramine（Reductil 10／15 33/11.3/0025–0026、Ectiva 10／15 0027–0028、Leantil 41/11.3/0180、0153、Ciplatrim 10／15 0312–0313，價格照年度 SEP 調整、生效日 2026-10-01）
+  與 dextropropoxyphene（Doloxene、Distalgesic），不能當成仍註冊的證據；但 SAHPRA 只收約 2020 年起的撤銷，「不在 SAHPRA」也不能推定撤銷。sibutramine 8 張照這條規則維持 not confirmed
+  （2010-10 政府新聞稿說 Abbott 與 MCC 協商後撤下 Reductil／Ectiva、MCC 要對學名藥採取行動；雲端連不到 sanews.gov.za，沒有取得 MCC／SAHPRA 撤銷註冊的官方文件）。
+- 頁面：140 頁概覽狀態列／張數列與許可證表由程式同步（8 頁變成全部非有效：acamprosate、acamprosate_calcium、calcium、calcium_acetate、conjugated_estrogens、ginseng、niacin、norgestimate；
+  另 buclizine、metoprolol 原本就全部 SAHPRA 註銷，狀態列跟著換成 SCOPE_CANCELLED 寫法）；正文矛盾 1 句：norgestimate「Both registrations are valid」以 `za-lic-20261106-norgestimate-1` 同 id 重發更正（前版存 history）。
+

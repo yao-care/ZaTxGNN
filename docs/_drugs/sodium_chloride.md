@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 177 of 251; 10 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 251 (valid: 177, of which 10 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 168 of 251; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 251 (valid: 168, of which 1 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -76,8 +76,6 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 33/24/0537 | Euromed Sodium Chloride 0.9 % Irrigation Solution | solution | Valid (status not confirmed by SAHPRA) |
-| 33/24/0539 | Euromed 0.9% Sodium Chloride 1000 Ml | solution | Valid (status not confirmed by SAHPRA) |
 | 28/24/0553 | Intrapour Sodium Chloride 500Ml | solution | Valid |
 | 28/34/0577 | Adco saline 30ml | infusion | Valid |
 | 29/34/0325 | Dianeal norm ca/gluc 1.5% 1000ml afb9333 | infusion | Valid |
@@ -89,8 +87,10 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 | 32/24/0128 | Autosterile sodium chloride bp 1000ml | infusion | Valid |
 | 32/24/0130 | Autosterile ringer-lactate bp 1000ml | infusion | Valid |
 | 32/24/0563 | Autosterile sodium chloride for irrigati | solution | Valid |
-| 34/24/0371 | Euromed Lactated Ringer'S Solution | solution | Valid (status not confirmed by SAHPRA) |
 | 36/20.1.1/0259 | Sabax cefazolin powder for injection | injection | Valid |
+| 36/34/0143 | Capd/dpca 17 stay safe 2l 1.5% glucose | infusion | Valid |
+| 36/34/0144 | Capd/dpca 18 stay safe 2l 4.25% glucose | infusion | Valid |
+| 36/34/0145 | Capd/dpca 19 stay safe 2l 2.3% glucose | infusion | Valid |
 
 Showing 15 of 251 registrations (valid registrations first).
 

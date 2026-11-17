@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and only **1 publicati
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 16 of 21; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 21 (valid: 16, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 13 of 21; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 21 (valid: 13, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -102,8 +102,8 @@ For context, the literature on the second-ranked prediction (rheumatoid arthriti
 | 44/20.1.2/0816 | Flucloxacillin 250 oethmaan | capsule | Valid |
 | A40/20.1.2/0285 | Flupen | capsule | Valid |
 | A50/2.6.5/0687 | Septapen | tablet | Valid (status not confirmed by SAHPRA) |
-| E/2.1.2/0089 | Floxapen | capsule | Valid (status not confirmed by SAHPRA) |
-| E/2.1.2/0095 | Floxapen | suspension | Valid (status not confirmed by SAHPRA) |
+| T/20.1.2/33 | Sandoz flucloxacillin | capsule | Valid |
+| 27/20.1.2/0106 | Macropen | capsule | Valid |
 
 Showing 5 of 21 registrations (valid registrations first).
 

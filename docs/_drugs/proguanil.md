@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 9 of 13; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 13 (valid: 9, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 8 of 13) |
+| Number of SAHPRA Registrations | 13 (valid: 8) |
 
 ## South Africa Market Information
 
@@ -52,11 +52,11 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 36/20.2.8/0434 | Trizivar | tablet | Valid (status not confirmed by SAHPRA) |
 | 47/20.2.6/1015 | Malateq | tablet | Valid |
 | 48/20.2.6/0526 | Hetovanil 62.5/25Mg | Fct | Valid |
 | 48/20.2.6/0659 | Malagen | Fct | Valid |
 | A40/20.2.6/0165 | Malanil paediatric 62.5mg/25mg | tablet | Valid |
+| 37/20.2.6/0075 | Malanil | tablet | Valid |
 
 Showing 5 of 13 registrations (valid registrations first).
 

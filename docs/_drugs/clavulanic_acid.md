@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **Ureaplasma urethritis**, but this p
 | Predicted New Indication | Ureaplasma urethritis (rank 1, model score only); gonococcal urethritis (rank 2) is the best-supported alternative |
 | TxGNN Prediction Score | 0.9993 (Ureaplasma urethritis); 0.9993 (gonococcal urethritis) |
 | Evidence Level | L5 or L4 for Ureaplasma urethritis (no direct evidence); L3 for gonococcal urethritis |
-| South Africa Market Status | Marketed (valid licences: 119 of 141; 9 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 141 (valid: 119, of which 9 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 116 of 141; 6 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 141 (valid: 116, of which 6 not confirmed by SAHPRA) |
 | Recommended Decision | Hold (Ureaplasma urethritis); gonococcal urethritis is a research question only |
 
 ---
@@ -114,10 +114,10 @@ Clavulanic acid is registered in South Africa. No approved indication text and n
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 35/20.1.2/0232 | Amoclan | tablet | Valid |
-| 27/20.2.8/0113 | Retrovir s (azt) | syrup | Valid (status not confirmed by SAHPRA) |
 | 29/20.1.2/0540 | Clamentin s | suspension | Valid |
 | 29/20.1.2/0541 | Clamentin sf | suspension | Valid |
 | 29/20.1.2/0542 | Clamentin 375 | tablet | Valid |
+| 30/20.1.2/0317 | Clavumox S | suspension | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 141 registrations (valid registrations first).
 

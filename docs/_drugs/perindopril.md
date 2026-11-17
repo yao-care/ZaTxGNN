@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (preclinical or mechanistic reasoning only; no relevant clinical studies) |
-| South Africa Market Status | Marketed (valid licences: 129 of 135; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 135 (valid: 129, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 128 of 134; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 134 (valid: 128, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -101,7 +101,7 @@ Perindopril is marketed in South Africa. Approved indication text is not availab
 | 37/7.1.3/0021 | Perindopril unicorn | tablet | Valid |
 | 38/7.1.3/0116 | Vectoryl | tablet | Valid |
 
-Showing 5 of 135 registrations (valid registrations first).
+Showing 5 of 134 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

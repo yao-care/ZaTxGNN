@@ -50,8 +50,8 @@ Cyanocobalamin is a synthetic form of vitamin B12, used to correct B12 and relat
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 28 of 44; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 44 (valid: 28, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 27 of 44; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 44 (valid: 27, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,7 +96,7 @@ No approved indication text is recorded for any of them. Dosage forms include in
 | V/22.1.3/226 | Cobalatec 20ml | injection | Valid (status not confirmed by SAHPRA) |
 | 36/22.1/0508 | Cernevit | infusion | Valid |
 | A/21.8.1/743 | Menoflush | tablet | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
+| H0689 | Autrin | capsule | Valid |
 
 Showing 5 of 44 registrations (valid registrations first).
 

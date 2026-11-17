@@ -48,8 +48,8 @@ Clioquinol is a topical anti-infective that is currently marketed in South Afric
 | Predicted New Indication | ectothrix infectious disease |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 16; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 16 (valid: 10, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 8 of 16) |
+| Number of SAHPRA Registrations | 16 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **migraine disorder** (the top-
 | Predicted New Indication | Migraine with brainstem aura (rank 1, TxGNN); migraine disorder (rank 2) is evaluated in detail below because it has the strongest evidence |
 | TxGNN Prediction Score | 0.9944 (migraine with brainstem aura); 0.9944 (migraine disorder) |
 | Evidence Level | L5 (migraine disorder); L3 (migraine with brainstem aura) |
-| South Africa Market Status | Marketed (valid licences: 32 of 36; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 36 (valid: 32, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 30 of 36) |
+| Number of SAHPRA Registrations | 36 (valid: 30) |
 | Recommended Decision | Proceed with Guardrails (migraine disorder in PFO-related migraine, research setting only) |
 
 **Other predictions in the top 10.** Osteoarthritis, tendinitis, idiopathic granulomatous myositis, myositis fibrosa, rheumatoid arthritis, osteoarthritis susceptibility, pseudoachondroplasia and fibromyalgia have little or no supporting evidence (L4–L5). All are rated **Hold**. For rheumatoid arthritis, the literature includes reports of clopidogrel-associated inflammatory arthritis, which is a safety signal against use. For osteoarthritis, a propensity-matched study suggests ticagrelor, not clopidogrel, is associated with lower risk.
@@ -109,11 +109,11 @@ Approved indication text and manufacturer details are not available in the data 
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 36/8.2/0408 | Plavix 75 Mg | tablet | Valid (status not confirmed by SAHPRA) |
 | 41/8.2/0051 | Clopiwin | tablet | Valid |
 | 41/8.2/0146 | Mistro | tablet | Valid |
-| 41/8.2/0611 | Arrow Clopidogrel | tablet | Valid (status not confirmed by SAHPRA) |
 | 42/8.2/0128 | Clopidogrel 75 mg pd | tablet | Valid |
+| 42/8.2/0250 | Clopidogrel unicorn | tablet | Valid |
+| 42/8.2/1085 | Closolve | tablet | Valid |
 
 Showing 5 of 36 registrations (valid registrations first).
 

@@ -58,8 +58,8 @@ There are **no clinical trials and no publications** in the data compiled for th
 | Predicted New Indication | Elevated plasma zinc (zinc, elevated plasma) |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 64 of 77; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 77 (valid: 64, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 62 of 77; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 77 (valid: 62, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

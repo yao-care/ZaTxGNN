@@ -50,8 +50,8 @@ The prediction is a computational signal only, and the condition is a veterinary
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 19 of 35; 11 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 35 (valid: 19, of which 11 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 12 of 35; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 35 (valid: 12, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,11 +87,11 @@ There is no literature for the top-ranked prediction (feline AIDS). The table be
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 32/20.2.8/0264 | Zerit | capsule | Valid (status not confirmed by SAHPRA) |
-| 32/20.2.8/0265 | Zerit | capsule | Valid (status not confirmed by SAHPRA) |
-| 32/20.2.8/0266 | Zerit | capsule | Valid (status not confirmed by SAHPRA) |
-| 32/20.2.8/0267 | Zerit | capsule | Valid (status not confirmed by SAHPRA) |
-| 32/20.2.8/0268 | Zerit Powder For Oral Solution | suspension | Valid (status not confirmed by SAHPRA) |
+| 36/20.2.8/0300 | Stavir-30 | capsule | Valid (status not confirmed by SAHPRA) |
+| 36/20.2.8/0301 | Stavir-40 | capsule | Valid (status not confirmed by SAHPRA) |
+| 37/20.2.8/0110 | Aspen Stavudine | capsule | Valid |
+| 37/20.2.8/0111 | Aspen stavudine | capsule | Valid |
+| 37/20.2.8/0112 | Aspen Stavudine 30 Mg | capsule | Valid |
 
 Showing 5 of 35 registrations (valid registrations first).
 

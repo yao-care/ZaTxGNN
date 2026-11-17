@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 (preclinical/mechanistic and indirect supportive literature; no registered trials) |
-| South Africa Market Status | Marketed (valid licences: 80 of 121; 11 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 121 (valid: 80, of which 11 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 77 of 121; 8 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 121 (valid: 77, of which 8 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

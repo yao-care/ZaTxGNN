@@ -50,8 +50,8 @@ This prediction rests on the model score alone: **no clinical trials and no publ
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 24 of 28; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 28 (valid: 24, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 21 of 28; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 28 (valid: 21, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

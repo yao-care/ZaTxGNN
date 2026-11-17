@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **no 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 12 of 12; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 12 (valid: 12, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 10 of 12; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 12 (valid: 10, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -96,11 +96,11 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/21.5.1/0521 | Pulmison 20 Mg | tablet | Valid (status not confirmed by SAHPRA) |
-| 35/21.5.1/0364 | Pulmison 5 Mg/Ml Paediatric | solution | Valid (status not confirmed by SAHPRA) |
 | G2962 | Meticorten | tablet | Valid |
 | G3004 | Be-tabs prednisone | tablet | Valid |
 | G3054 | Panafcort | tablet | Valid |
+| G3093 | Trolic | tablet | Valid |
+| LX/25.5.1/269 | Meticorten | tablet | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 12 registrations (valid registrations first).
 

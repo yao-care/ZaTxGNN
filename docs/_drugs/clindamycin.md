@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 23 of 25; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 25 (valid: 23, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 22 of 25) |
+| Number of SAHPRA Registrations | 25 (valid: 22) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** support this prediction, so 
 | Predicted New Indication | non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 71 of 119; 6 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 119 (valid: 71, of which 6 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 70 of 119; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 119 (valid: 70, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

@@ -41,7 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Not marketed (licences cancelled: 2 of 2) |
+| South Africa Market Status | Not marketed (no current registration: 2 of 2 cancelled by SAHPRA, or not on the SAHPRA register and discontinued in or absent from the current Medicine Price Registry) |
 | Number of SAHPRA Registrations | 2 (valid: 0) |
 
 ---

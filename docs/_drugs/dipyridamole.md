@@ -48,8 +48,8 @@ Dipyridamole is an oral antiplatelet medicine that is registered and marketed in
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 5 (valid: 5, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 3 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,11 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 27/8/0400 | Persantin 200 Retard | capsule | Valid (status not confirmed by SAHPRA) |
 | K/8/297 | Plato | tablet | Valid |
 | N/8/163 | Plato | tablet | Valid |
-| 31/8/0641 | Asasantin 200/25 Retard | capsule | Valid (status not confirmed by SAHPRA) |
 | H0535 | Persantin | injection | Valid |
+| 27/8/0400 | Persantin 200 Retard | capsule | Not on SAHPRA register; discontinued in MPR |
+| 31/8/0641 | Asasantin 200/25 Retard | capsule | Not on SAHPRA register; discontinued in MPR |
 
 <!-- licenses:end -->
 

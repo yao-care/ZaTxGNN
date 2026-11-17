@@ -52,8 +52,8 @@ However, the data compiled for this report contain **no clinical trials and no p
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 34 of 57; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 57 (valid: 34, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 33 of 57; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 57 (valid: 33, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

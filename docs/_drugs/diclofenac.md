@@ -50,8 +50,8 @@ Diclofenac is a non-steroidal anti-inflammatory drug (NSAID) that inhibits cyclo
 | Predicted New Indication | hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 90 of 107; 11 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 107 (valid: 90, of which 11 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 86 of 107; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 107 (valid: 86, of which 7 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

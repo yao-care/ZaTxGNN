@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 17 of 22; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 22 (valid: 17, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 14 of 22; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 22 (valid: 14, of which 1 not confirmed by SAHPRA) |
 
 ---
 
@@ -66,11 +66,11 @@ No approved indication text and no Essential Medicines List (EML) information we
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| B/18.8/135 | Micro-Novum | tablet | Valid (status not confirmed by SAHPRA) |
-| 27/21.8.2/0021 | Estracombi Tts | Pad | Valid (status not confirmed by SAHPRA) |
 | 29/21.8.2/0763 | Estro-Pause N | tablet | Valid |
 | 29/21.8.2/0764 | Estro-Pause N Forte | tablet | Valid |
 | 31/21.8.2/0537 | Evorel conti | patch | Valid |
+| 31/21.8.2/0538 | Evorel sequi | patch | Valid |
+| 33/21.8.2/0532 | Activelle | tablet | Valid |
 
 Showing 5 of 22 registrations (valid registrations first).
 

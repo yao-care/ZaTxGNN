@@ -48,8 +48,8 @@ Isotretinoin is a retinoid, marketed in South Africa as an oral capsule and a to
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 14 of 14; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 14 (valid: 14, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 13 of 14; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 14 (valid: 13, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,7 +76,7 @@ Currently no related literature available.
 | 34/13.4.2/0357 | Acnetane | capsule | Valid |
 | 35/13.4.2/0375 | Oratane | capsule | Valid |
 | 35/13.4.2/0376 | Oratane | capsule | Valid |
-| 37/13.4.2/0041 | Tretoderm | capsule | Valid (status not confirmed by SAHPRA) |
+| 38/13.4.2/0265 | Acnetret | capsule | Valid |
 
 Showing 5 of 14 registrations (valid registrations first).
 

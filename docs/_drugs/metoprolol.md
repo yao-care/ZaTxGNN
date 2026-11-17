@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Not marketed (licences cancelled: 1 of 1) |
+| South Africa Market Status | Not marketed (no current registration: 1 of 1 cancelled by SAHPRA, or not on the SAHPRA register and discontinued in or absent from the current Medicine Price Registry) |
 | Number of SAHPRA Registrations | 1 (valid: 0) |
 | Recommended Decision | Hold |
 

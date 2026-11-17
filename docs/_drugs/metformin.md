@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 210 of 225; 10 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 225 (valid: 210, of which 10 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 208 of 225; 8 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 225 (valid: 208, of which 8 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

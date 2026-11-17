@@ -48,8 +48,8 @@ Moclobemide is a reversible inhibitor of monoamine oxidase A, originally used fo
 | Predicted New Indication | Agoraphobia |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 6 of 8; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 8 (valid: 6, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 2 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on the evidence level:** The L2 level comes from the scoring in the data compiled for this report. It rests on published randomised trials in panic disorder with agoraphobia, not on a registered trial in the predicted indication. The published trials are small and old (1999), so the level should be read cautiously.
@@ -87,11 +87,11 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 29/1.2/0112 | Aurorix | tablet | Valid (status not confirmed by SAHPRA) |
-| 34/1.2/0169 | Clorix 150 | tablet | Valid (status not confirmed by SAHPRA) |
-| 34/1.2/0170 | Clorix 300 | tablet | Valid (status not confirmed by SAHPRA) |
 | 36/1.2/0049 | Depnil | tablet | Valid |
-| X/1.2/308 | Aurorix | tablet | Valid (status not confirmed by SAHPRA) |
+| 36/1.2/0051 | Moclobix 300 | tablet | Valid |
+| 29/1.2/0112 | Aurorix | tablet | Not on SAHPRA register; discontinued in MPR |
+| 34/1.2/0169 | Clorix 150 | tablet | Not on SAHPRA register; discontinued in MPR |
+| 34/1.2/0170 | Clorix 300 | tablet | Not on SAHPRA register; discontinued in MPR |
 
 Showing 5 of 8 registrations (valid registrations first).
 

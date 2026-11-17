@@ -52,8 +52,8 @@ Better-supported directions among the other predictions are **haemangioma subtyp
 | Predicted New Indication | Distal myopathy, Tateyama type |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 19 of 29; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 29 (valid: 19, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 15 of 29) |
+| Number of SAHPRA Registrations | 29 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---

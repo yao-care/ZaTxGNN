@@ -54,8 +54,8 @@ The TxGNN model's top-ranked prediction is trigeminal nerve neoplasm, but the ev
 | Predicted New Indication (best-supported) | Trigeminal neuralgia |
 | TxGNN Prediction Score | Trigeminal nerve neoplasm: 0.9997; trigeminal neuralgia: 0.9989 |
 | Evidence Level | Trigeminal nerve neoplasm: L5; trigeminal neuralgia: L2 |
-| South Africa Market Status | Marketed (valid licences: 100 of 116; 15 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 116 (valid: 100, of which 15 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 91 of 116; 6 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 116 (valid: 91, of which 6 not confirmed by SAHPRA) |
 | Recommended Decision | Trigeminal nerve neoplasm: Hold; trigeminal neuralgia: Proceed with Guardrails |
 
 ---

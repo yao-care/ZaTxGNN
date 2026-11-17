@@ -47,8 +47,8 @@ All candidates produced by the TxGNN model for Acetaminophen (score ≥ 0.99) th
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 397 of 564; 22 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 564 (valid: 397, of which 22 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 394 of 564; 19 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 564 (valid: 394, of which 19 not confirmed by SAHPRA) |
 
 ## Known uses among the model's candidates
 

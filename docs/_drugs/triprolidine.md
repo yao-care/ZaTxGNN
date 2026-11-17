@@ -51,8 +51,8 @@ Much of this is an extension of an existing indication rather than true repurpos
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 33 of 55; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 55 (valid: 33, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 29 of 55; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 55 (valid: 29, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

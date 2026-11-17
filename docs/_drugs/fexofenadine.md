@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant for **rosacea conjunctivitis**, but 
 | Predicted New Indication | rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 38 of 40; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 40 (valid: 38, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 36 of 40) |
+| Number of SAHPRA Registrations | 40 (valid: 36) |
 | Recommended Decision | Hold |
 
 ---

@@ -50,8 +50,8 @@ This is a computational prediction only.
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 35 of 46; 10 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 46 (valid: 35, of which 10 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 31 of 46; 6 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 46 (valid: 31, of which 6 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,11 @@ Currently no related literature available for focal stiff limb syndrome. The onl
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 30/21.2/0060 | Amaryl 1 | tablet | Valid (status not confirmed by SAHPRA) |
-| 30/21.2/0061 | Amaryl 2 | tablet | Valid (status not confirmed by SAHPRA) |
-| 30/21.2/0062 | Amaryl 3 | tablet | Valid (status not confirmed by SAHPRA) |
-| 30/21.2/0063 | Amaryl 4 | tablet | Valid (status not confirmed by SAHPRA) |
 | 38/21.2/0315 | Sandoz Glimepiride 1 | tablet | Valid (status not confirmed by SAHPRA) |
+| 38/21.2/0316 | Sandoz Glimepiride 2 | tablet | Valid (status not confirmed by SAHPRA) |
+| 38/21.2/0318 | Sandoz Glimepiride 4 | tablet | Valid (status not confirmed by SAHPRA) |
+| 41/21.2/0022 | Glimepiride Zydus 1 | tablet | Valid |
+| 41/21.2/0023 | Glimepiride Zydus 2 | tablet | Valid |
 
 Showing 5 of 46 registrations (valid registrations first).
 

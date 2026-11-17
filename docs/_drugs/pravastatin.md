@@ -52,8 +52,8 @@ This direction is supported by **12 clinical trials** and **20 publications**, a
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 23 of 32; 9 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 32 (valid: 23, of which 9 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 17 of 32; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 32 (valid: 17, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on other predictions:** Eight other predicted indications were reviewed. Their recommendations are summarised below.
@@ -116,11 +116,11 @@ Two further trials (NCT00017758, a Phase 1 pharmacokinetic study of efavirenz an
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/7.5/0423 | Prava | tablet | Valid (status not confirmed by SAHPRA) |
 | 37/7.5/0638 | Pranalip | tablet | Valid (status not confirmed by SAHPRA) |
 | 37/7.5/0639 | Pranalip 20 | tablet | Valid (status not confirmed by SAHPRA) |
 | 37/7.5/0640 | Pranalip 40 | tablet | Valid (status not confirmed by SAHPRA) |
 | 38/7.5/0123 | Aspen pravastatin | tablet | Valid |
+| 38/7.5/0139 | Aspen pravastatin | tablet | Valid |
 
 Showing 5 of 32 registrations (valid registrations first).
 

@@ -50,8 +50,8 @@ The prediction is not mechanistically plausible, and the evidence supports a **H
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 57 of 76; 10 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 76 (valid: 57, of which 10 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 51 of 76; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 76 (valid: 51, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

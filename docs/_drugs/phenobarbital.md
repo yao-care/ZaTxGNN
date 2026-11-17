@@ -52,8 +52,8 @@ The more plausible predicted indications are reflex-type seizure disorders, whic
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 4 of 5; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 5 (valid: 4, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 3 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 3) |
 | Recommended Decision | Hold |
 
 For context, the other nine predictions are:
@@ -120,8 +120,8 @@ No literature was retrieved for orgasm-induced seizures or beta-ketothiolase def
 | E/2.3/107 | Sedabarb | tablet | Valid |
 | B1233 | Propain forte | tablet | Valid |
 | B1492 | Adco-phenobarb vital | syrup | Valid |
-| E0975 (ACT 1010 | Donnatal Elixir | syrup | Valid (status not confirmed by SAHPRA) |
 | B1163 | Lethyl | tablet | Cancelled |
+| E0975 (ACT 1010 | Donnatal Elixir | syrup | Not on SAHPRA register; discontinued in MPR |
 
 <!-- licenses:end -->
 

@@ -50,8 +50,8 @@ Montelukast is a leukotriene receptor antagonist that is already marketed in Sou
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 93 of 108; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 108 (valid: 93, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 92 of 107) |
+| Number of SAHPRA Registrations | 107 (valid: 92) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -109,7 +109,7 @@ Much of the registered trial activity concerns bronchiolitis, a related but dist
 | 43/10.2.2/0785 | Topraz | Chu | Valid |
 | 43/10.2.2/0786 | Topraz | Chu | Valid |
 
-Showing 5 of 108 registrations (valid registrations first).
+Showing 5 of 107 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

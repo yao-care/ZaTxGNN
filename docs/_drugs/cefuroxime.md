@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** that study this d
 | Predicted New Indication | polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 68 of 89; 8 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 89 (valid: 68, of which 8 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 64 of 88; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 88 (valid: 64, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,7 +82,7 @@ Currently no related literature available.
 | 34/20.1.1/0349 | Ceroxim | tablet | Valid |
 | 34/20.1.1/0350 | Ceroxim | tablet | Valid |
 
-Showing 5 of 89 registrations (valid registrations first).
+Showing 5 of 88 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

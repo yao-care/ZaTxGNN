@@ -50,8 +50,8 @@ This is therefore a model prediction without direct supporting evidence.
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 138 of 205; 7 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 205 (valid: 138, of which 7 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 137 of 205; 6 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 205 (valid: 137, of which 6 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

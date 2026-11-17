@@ -51,8 +51,8 @@ but **no clinical trials** and **no publications** specific to this indication w
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 13 of 25; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 25 (valid: 13, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 12 of 25) |
+| Number of SAHPRA Registrations | 25 (valid: 12) |
 | Recommended Decision | Hold |
 
 ---
@@ -110,8 +110,8 @@ For "chronic pulmonary heart disease", one animal study is available: [8989645](
 | 28/7.1.3/0261 | Mavik (was Gopten) | capsule | Valid |
 | 28/7.1.3/0263 | Mavik (was Gopten) | capsule | Valid |
 | A39/7.1.3/0531 | Mavik (Was Gopten) | capsule | Valid |
-| 34/30.2/0241 | Synagis 100 Mg | injection | Valid (status not confirmed by SAHPRA) |
 | A39/7.1.3/0508 | Tarka 180mg/2mg | Srt | Valid |
+| A39/7.1.3/0547 | Tarka 240mg/4mg | Srt | Valid |
 
 Showing 5 of 25 registrations (valid registrations first).
 

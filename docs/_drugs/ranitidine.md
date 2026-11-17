@@ -50,8 +50,8 @@ Ranitidine is a histamine H2-receptor antagonist that reduces gastric acid secre
 | Predicted New Indication | Peptic ulcer perforation |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 30 of 68; 14 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 68 (valid: 30, of which 14 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 25 of 68; 9 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 68 (valid: 25, of which 9 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -91,11 +91,11 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 30/11.4.3/0040 | Zantac 75 | tablet | Valid (status not confirmed by SAHPRA) |
-| 30/11.4.3/0041 | Zantac 75 | tablet | Valid (status not confirmed by SAHPRA) |
-| 31/11.4.3/0529 | Ranihexal | tablet | Valid (status not confirmed by SAHPRA) |
-| 31/11.4.3/0530 | Ranihexal 300 | tablet | Valid (status not confirmed by SAHPRA) |
 | 31/11.4.3/0673 | Ranitidine Biotech 150 | tablet | Valid |
+| 31/11.4.3/0674 | Ranitidine Biotech 300 | tablet | Valid |
+| 32/11.4.3/0142 | Histak 150 Tables | tablet | Valid (status not confirmed by SAHPRA) |
+| 32/11.4.3/0143 | Histak 300 Tablets | tablet | Valid (status not confirmed by SAHPRA) |
+| 32/11.4.3/0375 | Ranitidine 150 pharma-q | tablet | Valid |
 
 Showing 5 of 68 registrations (valid registrations first).
 

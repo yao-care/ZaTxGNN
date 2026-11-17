@@ -50,8 +50,8 @@ The data compiled for this report include **4 clinical trials** (none confirmed 
 | Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 (as assigned in the compiled data). This should be read cautiously, because no completed trial directly confirms citalopram in OCD; the supporting evidence is class-level (SSRI) and small open-label citalopram studies. |
-| South Africa Market Status | Marketed (valid licences: 52 of 59; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 59 (valid: 52, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 50 of 59; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 59 (valid: 50, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

@@ -50,8 +50,8 @@ Fluconazole is an oral azole antifungal. The TxGNN model predicts it may be effe
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 68 of 84; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 84 (valid: 68, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 66 of 84; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 84 (valid: 66, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

@@ -47,8 +47,8 @@ All candidates produced by the TxGNN model (score ≥ 0.99) for Nicotinamide tha
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 43 of 77; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 77 (valid: 43, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 42 of 77) |
+| Number of SAHPRA Registrations | 77 (valid: 42) |
 
 ## Known uses among the model's candidates
 
@@ -78,7 +78,6 @@ All candidates produced by the TxGNN model (score ≥ 0.99) for Nicotinamide tha
 |------|------|------|------|
 | 36/22.1/0508 | Cernevit | infusion | Valid |
 | B1492 | Adco-phenobarb vital | syrup | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | H2412 | A-lennon vitamin b co ampoule 2ml | injection | Valid |
 | H2611 | Becoplex ido vial 10ml | injection | Valid |
 | H2975 | Vitamin b co 10ml | injection | Valid |
@@ -87,6 +86,7 @@ All candidates produced by the TxGNN model (score ≥ 0.99) for Nicotinamide tha
 | 28/22.1/0238 | Vitamag Forte | tablet | Valid |
 | 28/33/0592 | Taxi Tonic | syrup | Valid |
 | 57/22.2/0880 | Envitavit | vial | Valid |
+| 83/303 | Oxyvital | powder | Valid |
 
 Showing 11 of 77 registrations (valid registrations first).
 

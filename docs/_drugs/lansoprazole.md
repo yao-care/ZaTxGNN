@@ -49,8 +49,8 @@ but there are **no registered clinical trials** and only **1 general review** su
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 34 of 36; 7 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 36 (valid: 34, of which 7 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 33 of 36; 6 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 36 (valid: 33, of which 6 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

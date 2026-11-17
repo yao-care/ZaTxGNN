@@ -50,8 +50,8 @@ The linked studies are mostly combination regimens (gemcitabine plus docetaxel, 
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 46 of 61; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 61 (valid: 46, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 44 of 61; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 61 (valid: 44, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

@@ -50,8 +50,8 @@ At present there are **no clinical trials and no publications** directly support
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 5; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 5 (valid: 5, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 2 of 5) |
+| Number of SAHPRA Registrations | 5 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,9 @@ Currently no related literature available.
 |------|------|------|------|
 | A39/7.1.3/0349 | Mylan Fosinopril 20 | tablet | Valid |
 | A39/7.1.3/0441 | Mylan Fosinopril 10 | tablet | Valid |
-| X/7.1.3/284 | Monopril | tablet | Valid (status not confirmed by SAHPRA) |
-| X/7.1.3/285 | Monopril | tablet | Valid (status not confirmed by SAHPRA) |
-| 31/7.1.3/0416 | Monozide | tablet | Valid (status not confirmed by SAHPRA) |
+| X/7.1.3/284 | Monopril | tablet | Not on SAHPRA register; discontinued in MPR |
+| X/7.1.3/285 | Monopril | tablet | Not on SAHPRA register; discontinued in MPR |
+| 31/7.1.3/0416 | Monozide | tablet | Not on SAHPRA register; discontinued in MPR |
 
 <!-- licenses:end -->
 

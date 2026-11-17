@@ -52,8 +52,8 @@ This is a veterinary prediction, not a new human-medicine use.
 | Predicted New Indication | feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 143 of 198; 10 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 198 (valid: 143, of which 10 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 141 of 198; 8 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 198 (valid: 141, of which 8 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

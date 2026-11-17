@@ -183,6 +183,16 @@ def key(k):
 #      SAHPRA 全量裡只有一個號碼的數字段序列相同才比對
 #   R8 六碼數字：證據包裡「590209」這種把年份與序號連寫、漏掉藥理分類的號碼（＝59/8.2/0209 PIXULANT 5）：年份兩碼＋序號四碼，
 #      SAHPRA 只有一個號碼是「59/…/0209」才比對
+# 2026-11-17（人工查核清單 791 張，用 medapps 產品總表 21,439 筆逐號比對）再加兩種，條件同 R7、R8（產品名品牌字相符、SAHPRA 只有一個號碼相符）：
+#   R9 藥理分類段的點號：分類段數字相同、只差點的位置（43/7.13/0939＝43/7.1.3/0939 MIXANVAL、51/20.1.1/0109＝51/20.11/0109 FUROCSEM、
+#      56/10.2.2/0911＝56/10.22/0911 MONTEFLO）；比對「字首字母、年份、分類段去掉點的數字字串、序號」
+#   R10 R8 反過來：SAHPRA 自己的號碼是六碼連寫（560003 DIPTATRIS、550670 TESDYN、550863 NITROFURANTOIN 100 PHARMC），MPR 寫完整的 56/7.1.3/0003
+def _flat(k):
+    """R9：(字首字母, 年份, 分類段數字字串, 序號)；只認「年份/分類/序號」三段的寫法"""
+    m = re.fullmatch(r"([A-Z]{0,2})/?(\d+)/([\d.,]+)/(\d+)", key(k))
+    return (m.group(1), int(m.group(2)), re.sub(r"\D", "", m.group(3)), int(m.group(4))) if m else None
+
+
 def _digits(k):
     """R7：去掉字首字母與「REG NO.」後的數字段數值序列（至少三段才用，免得 G524 這類舊制申請號亂配）"""
     k = re.sub(r"^REG\s*NO\.?\s*", "", key(k), flags=re.I)
@@ -270,7 +280,8 @@ def resolve(raw, name, ings, S, SIG):
             k = next(iter(cands))
             why = same_product(name, ings, S[k])
             return (k, why) if why else (None, f"產品不符：MPR {name}／SAHPRA {S[k].get('name')}")
-    for tag, f, idx in (("prefix", _digits, "_DIG"), ("six", _six, "_SIX")):  # R7、R8（2026-11-17）
+    for tag, f, idx in (("prefix", _digits, "_DIG"), ("six", _six, "_SIX"),  # R7、R8（2026-11-17）
+                        ("class_dots", _flat, "_FLAT"), ("six_sahpra", _six_of, "_SIXS")):  # R9、R10（2026-11-17）
         g = f(raw)
         cands = (SIG.get(idx) or {}).get(g) or set() if g else set()
         if len(cands) == 1:
@@ -294,12 +305,16 @@ def build_alias(S, rows):
         g = _sig(k)
         if g:
             SIG[g].add(k)
-    SIG["_DIG"], SIG["_SIX"] = defaultdict(set), defaultdict(set)  # R7、R8 用的索引（2026-11-17）
+    SIG["_DIG"], SIG["_SIX"], SIG["_FLAT"], SIG["_SIXS"] = defaultdict(set), defaultdict(set), defaultdict(set), defaultdict(set)  # R7–R10 用的索引（2026-11-17）
     for k in S:
         if _digits(k):
             SIG["_DIG"][_digits(k)].add(k)
         if _six_of(k):
             SIG["_SIX"][_six_of(k)].add(k)
+        if _flat(k):
+            SIG["_FLAT"][_flat(k)].add(k)
+        if _six(k):
+            SIG["_SIXS"][_six(k)].add(k)
     by = defaultdict(list)
     for raw, name, ings in rows:
         if is_reg(raw):

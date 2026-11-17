@@ -52,8 +52,8 @@ The only prediction in the top 10 with a registered clinical trial is **anovulat
 | Predicted New Indication | Symptomatic form of fragile X syndrome in female carrier (rank 1 of 10 predictions reviewed) |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 49 of 61; 11 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 61 (valid: 49, of which 11 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 44 of 61; 6 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 61 (valid: 44, of which 6 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 **Other predictions reviewed (all scores 0.9991 or higher):**

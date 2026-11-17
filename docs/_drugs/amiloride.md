@@ -48,8 +48,8 @@ Amiloride is a potassium-sparing diuretic that is marketed in South Africa. The 
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 11 of 14; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 14 (valid: 11, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 10 of 14; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 14 (valid: 10, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,7 +76,7 @@ Currently no related literature available.
 | C/18.1/215 | Moduretic | tablet | Valid (status not confirmed by SAHPRA) |
 | L/18.1/396 | Amiloretic 50mg/5mg | tablet | Valid |
 | Q/18.1/168 | Sandoz Co-Amilozide | tablet | Valid (status not confirmed by SAHPRA) |
-| R/18.1/200 | Moduretic Hs | tablet | Valid (status not confirmed by SAHPRA) |
+| U/18.1/40 | Amiloretic hs 25mg/2.5mg | tablet | Valid |
 
 Showing 5 of 14 registrations (valid registrations first).
 

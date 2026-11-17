@@ -50,8 +50,8 @@ Diazepam is a benzodiazepine that enhances GABA-A receptor signalling. The TxGNN
 | Predicted New Indication | insomnia (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 24 of 38; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 38 (valid: 24, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 23 of 38) |
+| Number of SAHPRA Registrations | 38 (valid: 23) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,11 +93,11 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| B/2.6/1002 | Valium 2 Mg | tablet | Valid (status not confirmed by SAHPRA) |
 | J/2.6/250 | Pax | tablet | Valid |
 | J/2.6/267 | Pax-5 | tablet | Valid |
 | K/2.6/116 | Doval | tablet | Valid |
 | L/2.6/0185 | Betapam | tablet | Valid |
+| P/2.6.5/213 | Sandoz Diazepam 2 | tablet | Valid |
 
 Showing 5 of 38 registrations (valid registrations first).
 

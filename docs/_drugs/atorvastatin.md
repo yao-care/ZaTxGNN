@@ -53,8 +53,8 @@ Most of this work concerns HIV-associated lipid disorders, cardiovascular risk a
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 98 of 122; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 122 (valid: 98, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 97 of 122; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 122 (valid: 97, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

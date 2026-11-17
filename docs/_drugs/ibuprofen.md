@@ -50,8 +50,8 @@ Currently there are **no clinical trials and no publications** supporting this p
 | Predicted New Indication | acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 129 of 150; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 150 (valid: 129, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 128 of 150; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 150 (valid: 128, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

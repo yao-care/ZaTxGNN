@@ -50,8 +50,8 @@ but there are **0 clinical trials** and only **1 preclinical publication** (a co
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 52 of 67; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 67 (valid: 52, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 51 of 67; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 67 (valid: 51, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The one cited study examined feline immunodeficiency virus (FIV) replication in vitro. FIV is the virus that causes feline AIDS, but the study tested a three-drug combination (zidovudine, lamivudine and abacavir) and does not isolate abacavir's own effect. It does not directly address the predicted disease as a treated condition, so the evidence level is capped at L5 (model prediction, no directly supporting study).

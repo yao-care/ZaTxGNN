@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 34 of 59; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 59 (valid: 34, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 33 of 59; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 59 (valid: 33, of which 3 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -81,7 +81,6 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | 52/20.2/0208 | Cotrizid | tablet | Valid |
 | A/21.8.1/743 | Menoflush | tablet | Valid |
 | B1492 | Adco-phenobarb vital | syrup | Valid |
-| G2667 (ACT 101/1965) | Gericomplex | capsule | Valid (status not confirmed by SAHPRA) |
 | H2062 (ACT 101) | Filibon | capsule | Valid (status not confirmed by SAHPRA) |
 | H2412 | A-lennon vitamin b co ampoule 2ml | injection | Valid |
 | H2466 | Complenatal Ff | capsule | Valid (status not confirmed by SAHPRA) |
@@ -90,6 +89,7 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | H2975 | Vitamin b co 10ml | injection | Valid |
 | T1012 | Beespan | capsule | Valid |
 | T1100 | Minamino | syrup | Valid |
+| U/22.1.4/200 | Soluvit novum 10ml vials pds000010 | injection | Valid |
 
 Showing 13 of 59 registrations (valid registrations first).
 

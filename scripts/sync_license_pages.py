@@ -28,6 +28,7 @@ SEC = "## South Africa Market Information"
 HEAD = "| Licence | Product | Dosage form | Status |\n|------|------|------|------|"
 LAB = {"valid": "Valid", "cancelled": "Cancelled", "not_marketed": "Approved, not marketed"}
 UNCONFIRMED_LAB = "Valid (status not confirmed by SAHPRA)"
+MPR_LAB = {"discontinued": "Not on SAHPRA register; discontinued in MPR", "not listed": "Not on SAHPRA register or current MPR"}
 NONE_LINE = "No SAHPRA registration was found in the data compiled for this report."
 SHOW = "Showing {n} of {m} registrations (valid registrations first)."
 SHOW_RX = re.compile(r"^Showing \d+ of \d+ registrations \(valid registrations first\)\.$")
@@ -271,6 +272,8 @@ def label(r):
     st = r.get("license_status") or "valid"
     if st == "valid" and r.get("status_unconfirmed"):
         return UNCONFIRMED_LAB
+    if st == "cancelled" and r.get("mpr_not_current"):  # 2026-11-17：SAHPRA 與現行 MPR 都不列為現行（不是 SAHPRA 撤銷）
+        return MPR_LAB.get(r.get("mpr_status"), LAB["cancelled"])
     return LAB.get(st, "Valid")
 
 

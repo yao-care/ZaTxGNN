@@ -50,8 +50,8 @@ Two lower-ranked predictions, **agoraphobia** (6 publications) and **dysthymic d
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 81 of 89; 8 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 89 (valid: 81, of which 8 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 80 of 89; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 89 (valid: 80, of which 7 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

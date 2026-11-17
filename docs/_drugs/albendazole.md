@@ -48,8 +48,8 @@ Albendazole is a benzimidazole anthelmintic that acts against tapeworm larvae an
 | Predicted New Indication | Coenurosis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 11; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 11 (valid: 8, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 7 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -102,8 +102,8 @@ None of these publications studies coenurosis. They concern neurocysticercosis o
 | 30/12/0354 | Zentel | tablet | Valid |
 | 31/12/0472 | Bendex-400 | tablet | Valid |
 | A38/12/0426 | Wormadole | Chu | Valid |
-| Q/12/74 | Zentel | tablet | Valid (status not confirmed by SAHPRA) |
 | 29/12/0552 | Paranthil Tablets | tablet | Valid |
+| 61/12/0846 | Albendazole 400 Cospharm | tablet | Valid |
 
 Showing 5 of 11 registrations (valid registrations first).
 

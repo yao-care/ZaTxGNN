@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 63 of 97; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 97 (valid: 63, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 62 of 97; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 97 (valid: 62, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,7 +88,7 @@ Currently no related clinical trials registered.
 | C0668 | Allergex | tablet | Valid |
 | 27/10.1/0536 | Trifen expect paediatric | syrup | Valid |
 | 27/10.1/0553 | Flusin dm | syrup | Valid |
-| 27/5.8/0123 | Degoran Cold And Flu Hot Medicated Drink | sachet | Valid (status not confirmed by SAHPRA) |
+| 27/5.8/0435 | Coryx | effervescent tablet | Valid |
 
 Showing 5 of 97 registrations (valid registrations first).
 

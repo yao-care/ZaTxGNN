@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 22 of 38; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 38 (valid: 22, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 20 of 38; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 38 (valid: 20, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -104,11 +104,11 @@ The registration records contain no approved indication text, and the data compi
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/20.2.8/0640 | Viramune 200 Mg | tablet | Valid (status not confirmed by SAHPRA) |
-| 33/20.2.8/0504 | Viramune 50 Mg/5 Ml | suspension | Valid (status not confirmed by SAHPRA) |
 | 38/20.2.8/0240 | Aspen nevirapine | tablet | Valid |
 | 41/20.2.8/0235 | Adco-nevirapine | tablet | Valid |
 | 42/20.2.8/0661 | Nevir | tablet | Valid (status not confirmed by SAHPRA) |
+| 43/20.2.8/0230 | Nevivir | tablet | Valid |
+| 45/20.2.8/0886 | Macleods Nevirapine 200 Mg | tablet | Valid |
 
 Showing 5 of 38 registrations (valid registrations first).
 

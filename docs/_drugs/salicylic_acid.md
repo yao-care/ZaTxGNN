@@ -50,8 +50,8 @@ The prediction is computational only.
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 31 of 38; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 38 (valid: 31, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 30 of 38) |
+| Number of SAHPRA Registrations | 38 (valid: 30) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,9 +91,9 @@ Currently no related literature available.
 |------|------|------|------|
 | 48/2.7/0609 | Cancard | tablet | Valid |
 | G1995 | Wart magic liquid (stx) | lotion | Valid |
-| G2311 (ACT 101/1965) | Posalfilin | ointment | Valid (status not confirmed by SAHPRA) |
 | H/13.4.1/32 | Diprosalic | ointment | Valid |
 | H1494 | Pyralvex | Not recorded | Valid |
+| U0024 | Carnation Corn Caps | Not recorded | Valid |
 
 Showing 5 of 38 registrations (valid registrations first).
 

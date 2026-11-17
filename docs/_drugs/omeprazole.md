@@ -49,8 +49,8 @@ Of the ten predictions, the best-supported is **gastrojejunal (marginal) ulcer**
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 (small human studies in Barrett's oesophagus; no controlled efficacy trial) |
-| South Africa Market Status | Marketed (valid licences: 41 of 49; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 49 (valid: 41, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 40 of 49; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 49 (valid: 40, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold for duodenogastric reflux (Research Question); Proceed with Guardrails for gastrojejunal ulcer |
 
 ## Why is This Prediction Reasonable?

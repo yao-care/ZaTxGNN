@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 12 of 21; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 21 (valid: 12, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 11 of 21; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 21 (valid: 11, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

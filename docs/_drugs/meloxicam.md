@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 60 of 66; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 66 (valid: 60, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 57 of 66; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 66 (valid: 57, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -93,11 +93,11 @@ For the rank 8 prediction (rheumatoid factor-positive polyarticular JIA), one pa
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 29/3.1/0425 | Mobic 15 Mg Suppositories | suppository | Valid (status not confirmed by SAHPRA) |
 | 35/3.1/0055 | Coxflam | tablet | Valid |
 | 35/3.1/0328 | Coxflam | tablet | Valid |
 | 36/3.1/0101 | Loxiflam | tablet | Valid |
 | 36/3.1/0102 | Loxiflam | tablet | Valid |
+| 37/3.1/0234 | Adco-meloxicam | tablet | Valid |
 
 Showing 5 of 66 registrations (valid registrations first).
 

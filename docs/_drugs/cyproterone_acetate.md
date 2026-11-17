@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **migraine disorder**, but this pr
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 10 of 16; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 16 (valid: 10, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 9 of 16) |
+| Number of SAHPRA Registrations | 16 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,9 +89,9 @@ The approved indication text was not available in the data compiled for this rep
 |------|------|------|------|
 | 29/21.12/0515 | Androcur | tablet | Valid |
 | 35/21.12/0293 | Cipla-cyproterone acetate | tablet | Valid |
-| A39/21.8.2/0161 | Claro 35 | tablet | Valid (status not confirmed by SAHPRA) |
 | R/21.12/160 | Androcur | tablet | Valid |
 | 29/21.8.2/0685 | Minerva | tablet | Valid |
+| 33/21.8.2/0185 | Ginette | tablet | Valid |
 
 Showing 5 of 16 registrations (valid registrations first).
 

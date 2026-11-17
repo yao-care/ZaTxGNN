@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sildenafil, 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 6 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 78 of 90; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 90 (valid: 78, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 76 of 90; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 90 (valid: 76, of which 2 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 

@@ -50,8 +50,8 @@ but there are **no registered clinical trials** in the data compiled for this re
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| South Africa Market Status | Marketed (valid licences: 13 of 18; 10 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 18 (valid: 13, of which 10 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 9 of 18; 6 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 18 (valid: 9, of which 6 not confirmed by SAHPRA) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -85,11 +85,11 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 31/5.4.1/0303 | Requip 1.0 | tablet | Valid (status not confirmed by SAHPRA) |
-| 31/5.4.1/0304 | Requip 2.0 | tablet | Valid (status not confirmed by SAHPRA) |
-| 31/5.4.1/0305 | Requip 5.0 | tablet | Valid (status not confirmed by SAHPRA) |
 | 41/5.4.1/0604 | Requip Xl 2Mg | tablet | Valid |
 | 41/5.4.1/0606 | Requip xl | Srt | Valid |
+| 41/5.4.1/0607 | Requip xl | Srt | Valid |
+| 43/5.4.1/0505 | Accord Ropinirole 0.5 Mg | tablet | Valid (status not confirmed by SAHPRA) |
+| 43/5.4.1/0506 | Accord Ropinirole 0.25 Mg | tablet | Valid (status not confirmed by SAHPRA) |
 
 Showing 5 of 18 registrations (valid registrations first).
 
