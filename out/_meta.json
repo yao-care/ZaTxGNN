@@ -1,0 +1,37 @@
+[
+ {
+  "name": "getdata_0.json",
+  "url": "https://medapps.sahpra.org.za:6006/Home/getData",
+  "status": 200,
+  "ctype": "application/json; charset=utf-8",
+  "bytes": 3111663
+ },
+ {
+  "name": "getdata_5000.json",
+  "url": "https://medapps.sahpra.org.za:6006/Home/getData",
+  "status": 200,
+  "ctype": "application/json; charset=utf-8",
+  "bytes": 3108986
+ },
+ {
+  "name": "getdata_10000.json",
+  "url": "https://medapps.sahpra.org.za:6006/Home/getData",
+  "status": 200,
+  "ctype": "application/json; charset=utf-8",
+  "bytes": 3107195
+ },
+ {
+  "name": "getdata_15000.json",
+  "url": "https://medapps.sahpra.org.za:6006/Home/getData",
+  "status": 200,
+  "ctype": "application/json; charset=utf-8",
+  "bytes": 3103716
+ },
+ {
+  "name": "getdata_20000.json",
+  "url": "https://medapps.sahpra.org.za:6006/Home/getData",
+  "status": 200,
+  "ctype": "application/json; charset=utf-8",
+  "bytes": 952770
+ }
+]
