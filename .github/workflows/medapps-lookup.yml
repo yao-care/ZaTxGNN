@@ -1,0 +1,64 @@
+# medapps 查詢請求（2026-11-17，用戶同意）：雲端 session 的代理不支援 medapps 的 6006 埠，
+# 改成 push .github/medapps-request.json 到 main 觸發，由 runner 依清單逐筆 GET（每筆間隔 delay 秒，至少 1 秒），
+# 回應存進 claude/medapps-lookup-<run_id> 分支的 out/，給人工查核清單比對（只讀，不改頁面）。
+# 請求格式：{"delay": 2, "get": [{"name": "root.html", "url": "https://medapps.sahpra.org.za:6006/"}, ...]}；只允許 medapps.sahpra.org.za。
+name: Medapps lookup
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/medapps-request.json']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: medapps-lookup
+  cancel-in-progress: false
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Fetch requested medapps pages
+        run: |
+          mkdir -p out
+          python3 - <<'PY'
+          import json, time, urllib.request, urllib.parse, hashlib
+          req = json.load(open(".github/medapps-request.json"))
+          delay = max(float(req.get("delay", 2)), 1.0)
+          meta = []
+          for g in req.get("get", []):
+              url = g["url"]
+              if urllib.parse.urlsplit(url).hostname != "medapps.sahpra.org.za":
+                  meta.append({"name": g.get("name"), "url": url, "error": "host not allowed"}); continue
+              name = g.get("name") or hashlib.sha1(url.encode()).hexdigest()[:12]
+              rec = {"name": name, "url": url}
+              for attempt in range(3):
+                  try:
+                      with urllib.request.urlopen(url, timeout=120) as r:
+                          body = r.read()
+                          rec.update(status=r.status, ctype=r.headers.get("Content-Type"), bytes=len(body))
+                      open(f"out/{name}", "wb").write(body)
+                      rec.pop("error", None)
+                      break
+                  except Exception as e:
+                      rec["error"] = repr(e)[:300]
+                      time.sleep(10 * (attempt + 1))
+              meta.append(rec)
+              time.sleep(delay)
+          json.dump(meta, open("out/_meta.json", "w"), indent=1)
+          print(sum(1 for m in meta if "status" in m), "of", len(meta), "ok")
+          PY
+      - name: Push results branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          b="claude/medapps-lookup-${GITHUB_RUN_ID}"
+          git checkout -q --orphan "$b"
+          git rm -rq --cached .
+          git add -f out
+          git commit -qm "medapps lookup results ${GITHUB_RUN_ID}"
+          git push -q origin "$b"

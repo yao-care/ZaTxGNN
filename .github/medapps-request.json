@@ -1,0 +1,5 @@
+{"delay": 2, "get": [
+ {"name": "root.html", "url": "https://medapps.sahpra.org.za:6006/"},
+ {"name": "datesearch.html", "url": "https://medapps.sahpra.org.za:6006/DateSearch"},
+ {"name": "home.html", "url": "https://medapps.sahpra.org.za:6006/Home/Index"}
+]}
