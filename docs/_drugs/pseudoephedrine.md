@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 monitor_inn: "PSEUDOEPHEDRINE"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Currently there are **0 registered clinical trials** and **7 publications** (one
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 75 of 129; 13 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 129 (valid: 75, of which 13 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 73 of 127; 11 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 127 (valid: 73, of which 11 not confirmed by SAHPRA) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -103,7 +103,7 @@ No approved indication text is available in the data compiled for this report. T
 | 27/10.1/0002 | Benylin Dmd | syrup | Valid |
 | 27/10.1/0490 | Coryx Cough And Cold | solution | Valid |
 
-Showing 5 of 129 registrations (valid registrations first).
+Showing 5 of 127 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

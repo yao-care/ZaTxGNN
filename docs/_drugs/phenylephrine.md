@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 372
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 (preclinical/mechanistic and indirect supportive literature; no registered trials) |
-| South Africa Market Status | Marketed (valid licences: 81 of 122; 12 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 122 (valid: 81, of which 12 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 80 of 121; 11 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 121 (valid: 80, of which 11 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,7 +105,7 @@ The data compiled for this report contain no approved indication text or Essenti
 | H0630 | Phenylephrine Hydrochloride Injection | injection | Valid |
 | H1542 | Universal nasal 15ml | Nod | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 122 registrations (valid registrations first).
+Showing 5 of 121 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

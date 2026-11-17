@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 468
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but currently there are **no registered clinical trials** and only **1 indirect 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 225 of 258; 6 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 258 (valid: 225, of which 6 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 224 of 257; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 257 (valid: 224, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -98,7 +98,7 @@ Approved indication text and Essential Medicines List (EML) status are not avail
 | 36/7.1.3/0068 | Tareg | tablet | Valid |
 | 36/7.1.3/0382 | Diovan | tablet | Valid |
 
-Showing 5 of 258 registrations (valid registrations first).
+Showing 5 of 257 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DESVENLAFAXINE"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Desvenlafaxine: predicted new indication obsessive-compulsive disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but **no clinical trials** and **3 publications** (none testing desvenlafaxine i
 | Predicted New Indication | obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 24 of 24; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 24 (valid: 24, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 24 of 24) |
+| Number of SAHPRA Registrations | 24 (valid: 24) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

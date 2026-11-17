@@ -105,7 +105,8 @@ def _build_alias(new):
     for f in sorted((ROOT / "data/bundles").glob("*/drug_bundle.json")):
         t = json.loads(f.read_text(encoding="utf-8")).get("tfda") or {}
         for r in (t.get("records") or []) + (t.get("excluded_records") or []):
-            if r.get("in_mpr") or not r.get("status"):
+            # 2026-11-17：SAHPRA 自己以前匯出的號碼、現在匯出改了寫法的（例 590209＝59/8.2/0209）也收進來比對（R8）
+            if r.get("in_mpr") or not r.get("status") or rb.key(r.get("license_id")) not in S:
                 rows.append((str(r.get("license_id") or ""), r.get("brand_name_en") or "", str(r.get("ingredients") or "").split(";")))
     for f in sorted((ROOT / "data/raw/mpr_by_ingredient").glob("*.json")):
         for x in json.loads(f.read_text(encoding="utf-8")):
@@ -128,9 +129,9 @@ def status_index(new):
 
 
 def record_id(rec):
-    """證據包一筆的號碼；只在 MPR 有（status_unconfirmed）的，照寫法統一規則換成 SAHPRA 匯出的寫法"""
+    """證據包一筆的號碼；SAHPRA 匯出沒有的號碼（多是只在 MPR 有、status_unconfirmed 的），照寫法統一規則換成 SAHPRA 匯出的寫法"""
     k = str(rec.get("license_id") or "").strip()
-    if rec.get("status_unconfirmed") and _ALIAS:
+    if _ALIAS:  # _ALIAS 只收 SAHPRA 匯出沒有的號碼，SAHPRA 原有的號碼不受影響
         return _ALIAS.get(_KEY(k), k)
     return k
 

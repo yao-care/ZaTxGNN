@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 64 of 98; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 98 (valid: 64, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 63 of 97; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 97 (valid: 63, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,7 +90,7 @@ Currently no related clinical trials registered.
 | 27/10.1/0553 | Flusin dm | syrup | Valid |
 | 27/5.8/0123 | Degoran Cold And Flu Hot Medicated Drink | sachet | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 98 registrations (valid registrations first).
+Showing 5 of 97 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

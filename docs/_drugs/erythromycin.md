@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 description: "Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ but currently there are **no registered clinical trials** and only **1 publicati
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 34 of 59; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 59 (valid: 34, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 33 of 58; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 58 (valid: 33, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -98,9 +98,9 @@ The approved indication text is not recorded for any of them in the local data, 
 | 36/20.1.1/0221 | Etocin | tablet | Valid |
 | 36/20.1.1/0222 | Eryko | tablet | Valid |
 | 41/20.1.1/0976 | Racemin | tablet | Valid |
-| A/20.1.1/0168 | Ilosone 250P | suspension | Valid (status not confirmed by SAHPRA) |
+| L/20.1.1/145 | Purmycin | capsule | Valid |
 
-Showing 5 of 59 registrations (valid registrations first).
+Showing 5 of 58 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

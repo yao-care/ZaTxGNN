@@ -177,6 +177,40 @@ def key(k):
 #   (2) 產品相符：MPR 產品名第一個字（去掉 Adco 等廠牌字、劑型字）出現在 SAHPRA 產品名，或 MPR 列的成分全部出現在 SAHPRA 成分全文；
 #   (3) 一對一：全部 MPR 資料裡化成同一個 SAHPRA 號碼的寫法，產品都相符（rebuild 時逐筆檢查 (2)）。
 # 不符合的不改，照原號碼留在「只有 MPR」那一類。
+# 2026-11-17（每週排程 847 張「新資料查不到」逐號查證）另加兩種寫法差異，只在上面的規則都對不到時才試，而且只認產品名相符（不用成分相符，
+# 舊制字首字母不同的號碼常是同分類同序號的別的產品，例 Sandoz Propranolol Q/5.2/159 與 REXIGEN L/5.2/159 成分相同但不是同一張註冊）：
+#   R7 字首字母：MPR 漏打或打錯字首字母（38/2.2/0565＝A38/2.2/0565、AA38/…＝A38/…、Z/3.1/0153＝W/3.1/153 NAPFLAM、REG NO. G/5.7/80＝G/5.7/80）；
+#      SAHPRA 全量裡只有一個號碼的數字段序列相同才比對
+#   R8 六碼數字：證據包裡「590209」這種把年份與序號連寫、漏掉藥理分類的號碼（＝59/8.2/0209 PIXULANT 5）：年份兩碼＋序號四碼，
+#      SAHPRA 只有一個號碼是「59/…/0209」才比對
+def _digits(k):
+    """R7：去掉字首字母與「REG NO.」後的數字段數值序列（至少三段才用，免得 G524 這類舊制申請號亂配）"""
+    k = re.sub(r"^REG\s*NO\.?\s*", "", key(k), flags=re.I)
+    m = re.fullmatch(r"[A-Z]{0,2}[./]?(\d[\d.,/]*)", k)
+    nums = [int(x) for x in re.split(r"[./,]+", m.group(1)) if x] if m else []
+    return tuple(nums) if len(nums) >= 3 else None
+
+
+def _six(k):
+    """R8：「590209」→ (59, 209)"""
+    m = re.fullmatch(r"(\d{2})(\d{4})", key(k))
+    return (int(m.group(1)), int(m.group(2))) if m else None
+
+
+def _six_of(k):
+    m = re.fullmatch(r"(\d{2})/[\d.]+/(\d{4})", key(k))
+    return (int(m.group(1)), int(m.group(2))) if m else None
+
+
+def _brand_word(name, ings, s):
+    """R7、R8 的產品名相符要更嚴：品牌字要整字出現在 SAHPRA 產品名（不認連寫或拼字相近；
+    否則 Benzathine Penicillin 的「penicillin」會配到 PHENOXYMETHYLPENICILLIN）"""
+    sn = " " + norm(s.get("name")) + " "
+    ing_words = {w for i in ings for w in norm(i).split()}
+    brand = [w for w in norm(name).split() if len(w) >= 3 and not w.isdigit() and w not in GENERIC_W and w not in ing_words]
+    return bool(brand) and f" {brand[0]} " in sn
+
+
 def _sig(k, drop_sub=False):
     k = key(k)
     if drop_sub:
@@ -228,7 +262,7 @@ def resolve(raw, name, ings, S, SIG):
     for drop in (False, True):
         g = _sig(raw, drop)
         if not g:
-            return None, "not a registration number"
+            break  # 不是標準寫法（例「REG NO. G/5.7/80」）：只試 R7、R8
         cands = SIG.get(g) or set()
         if len(cands) > 1:
             return None, "SAHPRA 有多個號碼化成同一序列：" + "、".join(sorted(cands))
@@ -236,6 +270,16 @@ def resolve(raw, name, ings, S, SIG):
             k = next(iter(cands))
             why = same_product(name, ings, S[k])
             return (k, why) if why else (None, f"產品不符：MPR {name}／SAHPRA {S[k].get('name')}")
+    for tag, f, idx in (("prefix", _digits, "_DIG"), ("six", _six, "_SIX")):  # R7、R8（2026-11-17）
+        g = f(raw)
+        cands = (SIG.get(idx) or {}).get(g) or set() if g else set()
+        if len(cands) == 1:
+            k = next(iter(cands))
+            if same_product(name, ings, S[k]) == "name" and _brand_word(name, ings, S[k]):
+                return k, tag
+            return None, f"產品不符：MPR {name}／SAHPRA {S[k].get('name')}"
+        if len(cands) > 1:
+            return None, "SAHPRA 有多個號碼化成同一序列：" + "、".join(sorted(cands))
     return None, "SAHPRA 沒有"
 
 
@@ -250,6 +294,12 @@ def build_alias(S, rows):
         g = _sig(k)
         if g:
             SIG[g].add(k)
+    SIG["_DIG"], SIG["_SIX"] = defaultdict(set), defaultdict(set)  # R7、R8 用的索引（2026-11-17）
+    for k in S:
+        if _digits(k):
+            SIG["_DIG"][_digits(k)].add(k)
+        if _six_of(k):
+            SIG["_SIX"][_six_of(k)].add(k)
     by = defaultdict(list)
     for raw, name, ings in rows:
         if is_reg(raw):

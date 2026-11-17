@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 13
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Acetaminophen: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All candidates produced by the TxGNN model for Acetaminophen (score ≥ 0.99) th
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 402 of 569; 27 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 569 (valid: 402, of which 27 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 397 of 564; 22 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 564 (valid: 397, of which 22 not confirmed by SAHPRA) |
 
 ## Known uses among the model's candidates
 
@@ -96,7 +96,7 @@ All candidates produced by the TxGNN model for Acetaminophen (score ≥ 0.99) th
 | 45/2.7/1188 | Paracetamol fresenius 100ml bottle | infusion | Valid |
 | 47/2.7/0931 | Obident 500 Tablets | tablet | Valid |
 
-Showing 19 of 569 registrations (valid registrations first).
+Showing 19 of 564 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

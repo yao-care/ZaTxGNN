@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Fexofenadine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant for **rosacea conjunctivitis**, but 
 | Predicted New Indication | rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 39 of 41; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 41 (valid: 39, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 38 of 40; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 40 (valid: 38, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,7 +89,7 @@ Currently no related literature available.
 | 41/5.7.1/0134 | Fexaway | tablet | Valid |
 | 41/5.7.1/0319 | Fastway | tablet | Valid |
 
-Showing 5 of 41 registrations (valid registrations first).
+Showing 5 of 40 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

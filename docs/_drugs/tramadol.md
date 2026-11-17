@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 77 of 83; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 83 (valid: 77, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 76 of 82; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 82 (valid: 76, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -95,7 +95,7 @@ Tramadol is marketed in South Africa. Approved indication text and Essential Med
 | 37/2.9/0532 | Dolotram | capsule | Valid |
 | 37/2.9/0596 | Domadol | capsule | Valid |
 
-Showing 5 of 83 registrations (valid registrations first).
+Showing 5 of 82 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

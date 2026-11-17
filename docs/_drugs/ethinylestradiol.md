@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ETHINYLESTRADIOL"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 description: "Ethinylestradiol: predicted new indication Elevated plasma zinc (zinc, elevated plasma) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -58,8 +58,8 @@ There are **no clinical trials and no publications** in the data compiled for th
 | Predicted New Indication | Elevated plasma zinc (zinc, elevated plasma) |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 65 of 78; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 78 (valid: 65, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 64 of 77; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 77 (valid: 64, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -106,7 +106,7 @@ The drug is marketed in South Africa. The registration records carry no approved
 | 31/18.8/0462 | Melodene | tablet | Valid |
 | 33/18.8/0054 | Loette 28 | tablet | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 78 registrations (valid registrations first).
+Showing 5 of 77 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

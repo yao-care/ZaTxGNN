@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 description: "Estradiol Valerate: predicted new indication Symptomatic form of fragile X syndrome in female carrier (evidence level L5). Approved use: Primary ovarian failure"
 monitor_inn: "Estradiol valerate"
 predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "anovulation", "ovarian remnant syndrome", "luteoma of pregnancy", "ovarian dysfunction"]
@@ -52,8 +52,8 @@ The only prediction in the top 10 with a registered clinical trial is **anovulat
 | Predicted New Indication | Symptomatic form of fragile X syndrome in female carrier (rank 1 of 10 predictions reviewed) |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 51 of 63; 13 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 63 (valid: 51, of which 13 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 49 of 61; 11 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 61 (valid: 49, of which 11 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 **Other predictions reviewed (all scores 0.9991 or higher):**
@@ -129,7 +129,7 @@ The top-ranked prediction has no publications. For the other predictions, the su
 | 30/21.8.1/0209 | Evorel 100 tts | patch | Valid |
 | 34/21.8.1/0159 | Estrofem | tablet | Valid |
 
-Showing 5 of 63 registrations (valid registrations first).
+Showing 5 of 61 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

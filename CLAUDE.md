@@ -517,3 +517,22 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-10-31～11-06 依成分重建後直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 395 筆紀錄（304 頁；其中 0 筆因報告在 11 月經 AI 重產、原句已不在頁面，標 resolved_by_regeneration）。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時，會重套紀錄（有程式許可證表的站也保留舊頁的程式區塊），notes 裡的舊錯句會被紀錄再更正一次。
 2026-11-12 正文張數對事實層再掃一次：calcipotriol（只有 2 個產品）、fenofibrate（唯一註冊可能是複方）、citalopram（4 個產品）、pseudoephedrine（19 張）、donepezil_hydrochloride（目前零註冊）跟 SAHPRA 事實層相反，以 `za-lic-20261112-*` 刪掉矛盾子句。
+
+## 新資料查不到的註冊號（2026-11-17）
+
+2026-11-17 每週排程：證據包 12,918 張註冊號，SAHPRA medapps 匯出（21,435 筆）只涵蓋 93.4%，「新資料查不到」847 張（摘要只列前 300；本站 COVER_MIN 較寬，沒開 issue）。
+用戶要求確認實際狀態，逐號比對 Release data-20261116-101839 裡 GitHub Actions 下載的匯出（data/raw/sahpra_status.json；medapps 在 6006 埠，雲端代理不支援，雲端 session 無法重新下載）：
+- 847 張裡 844 張是只在 MPR 價格登錄有、頁面本來就標「status not confirmed by SAHPRA」的號碼，3 張是 SAHPRA 以前匯出的六碼寫法（590209 等）。
+- 56 張其實是 SAHPRA 匯出上的註冊、只差號碼寫法（`scripts/rebuild_licenses_by_ingredient.py` 新增 R7、R8，每週更新與依成分重建共用；只在原有 R1–R6 對不到時才試，
+  只認品牌字整字出現在 SAHPRA 產品名、SAHPRA 只有一個號碼的數字段相同）：
+  R7 字首字母漏打或打錯 53 張（例 38/2.2/0565＝A38/2.2/0565 PHARMA-Q MIDAZOLAM、A48/1.2/0910＝48/1.2/0910 ILLOVEX XR、Z/3.1/0153＝W/3.1/153 NAPFLAM、
+  REG NO. G/5.7/80＝G/5.7/80 ASIC）；R8 六碼連寫 3 張（590209＝59/8.2/0209 PIXULANT 5、590463＝59/21.1/0463 BLASILIN、590984＝59/2.9/0984 SEDMEDEX RTU 100 ml）。
+  其中 49 張 Registered（狀態不變，拿掉「not confirmed」、號碼改 SAHPRA 寫法）、7 張 SAHPRA 是 Canceled，頁面原本寫成有效：VOMIZ INJECTION A39/5.10/0581、
+  ESTALIS SEQUI PLUS 50/140、50/250（A40/21.8.2/0112、0113）、ILOSONE 250 P（B/20.1.1/168）、COXEP 100／200 mg（47/3.1/0690、0691）、MEGAPYN TABLETS（X/2.8/240）。
+  同一個證據包本來就有 SAHPRA 號碼的，merge_records 合併（60 筆）。`scripts/license_adapter.py` 的 record_id 改成對所有 SAHPRA 匯出沒有的號碼套寫法統一（原本只對 status_unconfirmed）。
+- ESTALIS SEQUI PLUS 50/140 在 MPR 成分欄錯植 paracetamol、pseudoephedrine，對回 SAHPRA（成分 estradiol＋norethisterone）後從 acetaminophen、paracetamol、
+  pseudoephedrine（含 _hcl、_hydrochloride）5 個證據包移到 excluded_records（重建時「SAHPRA 成分全文不含本藥」會自動剔除）。
+- 其餘 791 張判斷不了，維持原狀態（Valid, status not confirmed by SAHPRA）：匯出依註冊日期篩選，沒有註冊日期的品項不在檔內（2026-10-30 起就知道，所以 COVER_MIN＝70%），
+  不是完整現行登錄；SAHPRA 網站沒有其他可下載的現行或撤銷清單（只連到 medapps）。所以不做「兩份都不列＝註銷」的判定，adapter 不加 confirmed_absent。
+- 頁面：34 頁概覽狀態列／張數列與許可證表由排程程式同步（張數多半因合併與 Estalis 剔除而減少）；正文沒有跟新事實矛盾的句子，沒有新查核紀錄。
+  celecoxib、pseudoephedrine 的 11-05 查核框寫「as of 2026-11-05」的張數，是當時的數字，不改。

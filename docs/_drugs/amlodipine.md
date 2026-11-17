@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 description: "Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The TxGNN model predicts it may be useful for **brain stem infarction**, with a 
 | Predicted New Indication | brain stem infarction |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 301 of 326; 28 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 326 (valid: 301, of which 28 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 299 of 324; 26 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 324 (valid: 299, of which 26 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

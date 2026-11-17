@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Celecoxib"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 description: "Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The TxGNN model predicts it may be relevant for **acromesomelic dysplasia, Hunte
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 60 of 63; 8 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 63 (valid: 60, of which 8 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 58 of 63; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 63 (valid: 58, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---

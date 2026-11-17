@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Esomeprazole: predicted new indication duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **duodenal obstruction**, but **n
 | Predicted New Indication | duodenal obstruction |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 82 of 89; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 89 (valid: 82, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 82 of 89) |
+| Number of SAHPRA Registrations | 89 (valid: 82) |
 | Recommended Decision | Hold |
 
 ---

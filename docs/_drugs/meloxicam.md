@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 monitor_inn: "Meloxicam"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 62 of 68; 7 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 68 (valid: 62, of which 7 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 60 of 66; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 66 (valid: 60, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -99,7 +99,7 @@ For the rank 8 prediction (rheumatoid factor-positive polyarticular JIA), one pa
 | 36/3.1/0101 | Loxiflam | tablet | Valid |
 | 36/3.1/0102 | Loxiflam | tablet | Valid |
 
-Showing 5 of 68 registrations (valid registrations first).
+Showing 5 of 66 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

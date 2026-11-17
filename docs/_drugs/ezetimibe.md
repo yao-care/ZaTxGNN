@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia"
 ---
 
@@ -52,8 +52,8 @@ There are **no clinical trials** and **no publications that directly study this 
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 83 of 96; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 96 (valid: 83, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 83 of 96) |
+| Number of SAHPRA Registrations | 96 (valid: 83) |
 | Recommended Decision | Hold |
 
 ---
