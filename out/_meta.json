@@ -1,0 +1,23 @@
+[
+ {
+  "name": "export.html",
+  "url": "https://medapps.sahpra.org.za:6006/Export",
+  "status": 200,
+  "ctype": "text/html; charset=utf-8",
+  "bytes": 16855
+ },
+ {
+  "name": "getdata_10.json",
+  "url": "https://medapps.sahpra.org.za:6006/Home/getData",
+  "status": 200,
+  "ctype": "application/json; charset=utf-8",
+  "bytes": 6373
+ },
+ {
+  "name": "getdata_5000.json",
+  "url": "https://medapps.sahpra.org.za:6006/Home/getData",
+  "status": 200,
+  "ctype": "application/json; charset=utf-8",
+  "bytes": 3111663
+ }
+]
