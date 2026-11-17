@@ -1,7 +1,7 @@
 # medapps 查詢請求（2026-11-17，用戶同意）：雲端 session 的代理不支援 medapps 的 6006 埠，
 # 改成 push .github/medapps-request.json 到 main 觸發，由 runner 依清單逐筆 GET（每筆間隔 delay 秒，至少 1 秒），
 # 回應存進 claude/medapps-lookup-<run_id> 分支的 out/，給人工查核清單比對（只讀，不改頁面）。
-# 請求格式：{"delay": 2, "get": [{"name": "root.html", "url": "https://medapps.sahpra.org.za:6006/"}, ...]}；只允許 medapps.sahpra.org.za。
+# 請求格式：{"delay": 2, "get": [{"name": "root.html", "url": "https://medapps.sahpra.org.za:6006/"}, ...]}；有 "form"（dict）就送 POST 表單；只允許 medapps.sahpra.org.za。
 name: Medapps lookup
 
 on:
@@ -38,7 +38,11 @@ jobs:
               rec = {"name": name, "url": url}
               for attempt in range(3):
                   try:
-                      with urllib.request.urlopen(url, timeout=120) as r:
+                      data = urllib.parse.urlencode(g["form"]).encode() if g.get("form") is not None else None
+                      rq = urllib.request.Request(url, data=data, method="POST" if data is not None else "GET")
+                      if data is not None:
+                          rq.add_header("X-Requested-With", "XMLHttpRequest")
+                      with urllib.request.urlopen(rq, timeout=300) as r:
                           body = r.read()
                           rec.update(status=r.status, ctype=r.headers.get("Content-Type"), bytes=len(body))
                       open(f"out/{name}", "wb").write(body)
