@@ -567,3 +567,21 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 頁面：140 頁概覽狀態列／張數列與許可證表由程式同步（8 頁變成全部非有效：acamprosate、acamprosate_calcium、calcium、calcium_acetate、conjugated_estrogens、ginseng、niacin、norgestimate；
   另 buclizine、metoprolol 原本就全部 SAHPRA 註銷，狀態列跟著換成 SCOPE_CANCELLED 寫法）；正文矛盾 1 句：norgestimate「Both registrations are valid」以 `za-lic-20261106-norgestimate-1` 同 id 重發更正（前版存 history）。
 
+## 官方撤市的人工確認表（2026-11-18）
+
+用戶 2026-11-18 決定：上節 (b) 裡 MPR 仍列、SAHPRA 不列的 sibutramine 與 dextropropoxyphene 產品「加人工確認表、寫成已撤市」。只收找得到官方撤市依據、能對到號碼的：
+- sibutramine 4 張：Reductil 10／15（33/11.3/0025、0026）、Ectiva 10／15 mg（33/11.3/0027、0028）。依據 SAnews（GCIS）2010-10-13「Ectiva, Reductil off SA shelves」
+  （https://www.sanews.gov.za/south-africa/ectiva-reductil-sa-shelves：Abbott 與 MCC 協商後同意撤出南非市場）；Abbott 公告（bizcommunity 轉載）。
+- dextropropoxyphene 4 張：Distalgesic E/2.8/0090、Doloxene Plain B0586 (ACT 101)、Doloxene Co-65 B0584 (ACT 101)、Lentogesic B1334(ACT 101/1965) OM*（證據包在 acetaminophen、paracetamol、
+  acetylsalicylic_acid、caffeine、caffeine_anhydrous、dextropropoxyphene）。依據 MCC 2011-05-03 媒體聲明（gov.za「Withdrawal of dextropropoxyphene containing medicines from the South African market」：
+  MCC 2011-04-14～15 決議所有含 DPP 藥品撤出南非市場，點名 Distalgesic、Doloxene、Doloxene CO-65、Doxyfene、Lentogesic、Synap Forte，3 個月過渡期）。
+- 沒收：Ciplatrim 10／15（41/11.3/0312–0313）、Leantil 10／15 mg（41/11.3/0180、0153）——MCC 2010 只說對學名藥會「take appropriate action」，媒體（news24／Health24 2012–2013，雲端連不到）
+  提到 Ciplatrim 暫停上市，但沒找到 MCC／SAHPRA 官方文件，維持 Valid（not confirmed）。SAHPRA 註冊表仍列 Registered 的 Doxyfene E/2.9/97、Synap Forte J/2.8/252 與 Old Medicine 的
+  Lentogesic B1334、Zomax B0882 跟 MCC 2011 決議有出入，照 SAHPRA 不改，dextropropoxyphene 頁以 `za-lic-20261118-dextropropoxyphene-1`（annotate）加註 MCC 決議。
+- `scripts/license_adapter.py` 的 ZA_WITHDRAWN（每筆附依據網址、日期、摘要）：preprocess 對表內、SAHPRA 匯出（含寫法統一）查不到的號碼標 `license_status: cancelled`＋`za_withdrawn`（第一次標記日）
+  ＋`za_withdrawn_basis`，status 改「Withdrawn from the South African market (<年>; MCC, <依據網址>); not on SAHPRA register」（原值存 `status_before_za_withdrawn`），拿掉 status_unconfirmed；
+  表不依賴下載，依成分重建重設成 status_unconfirmed 後下一次 preprocess 會再標回；移出表或 SAHPRA 查得到就還原。`confirmed_absent()` 回真。許可證表狀態格寫
+  「Withdrawn from the South African market (<年>); not on SAHPRA register」（`scripts/sync_license_pages.py` 的 WD_LAB），不寫 SAHPRA 撤銷；sync_tables 對有 za_withdrawn 的藥一律重排。
+- 頁面：5 頁概覽狀態列／張數列與 2 頁許可證表由排程同步（sibutramine 8 張中有效 8→4、dextropropoxyphene 12 張中有效 8→4；acetaminophen、acetylsalicylic_acid、caffeine 各少 1～2 張）；
+  正文沒有說這些產品有效或在售的句子，沒有 correct 紀錄。沒有頁變成全部非有效。
+

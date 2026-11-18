@@ -26,6 +26,12 @@ https://www.health.gov.za/nhi-pee/ 上日期最新的 xlsx）。SAHPRA 匯出（
 或 MPR 又列為現行就還原。MPR 下載失敗、少於 MPR_MIN 個號碼、或 SAHPRA 匯出不是這次下載的，都不做新判定。
 confirmed_absent() 讓排程把這些列成「主管機關現行清單確認已不列」。現行 MPR 仍列（沒有 Discontinued）的號碼照舊算有效、標 not confirmed：
 MPR 是價格登錄，不是註冊登錄（2026-10-01 那期仍列 2010 年就撤市的 sibutramine 產品、價格照年度調整），不能當成仍註冊的證據，也不能推定撤銷。
+2026-11-18（用戶決定）：MPR 仍列、SAHPRA 不列的號碼裡，有官方撤市依據的收在 ZA_WITHDRAWN（人工確認表，每筆附依據網址、日期、摘要）：
+preprocess 對表內號碼（SAHPRA 匯出含寫法統一查不到時）標 license_status＝cancelled＋za_withdrawn（第一次標記日）＋za_withdrawn_basis，
+status 改「Withdrawn from the South African market (<年>; <依據>); not on SAHPRA register」（原值存 status_before_za_withdrawn），拿掉
+status_unconfirmed；頁面許可證表寫「Withdrawn from the South African market (<年>); not on SAHPRA register」，不寫 SAHPRA 撤銷
+（依據是撤市，沒有取得 SAHPRA／MCC 撤銷註冊的官方文件）。表不依賴下載，依成分重建把號碼重設成 status_unconfirmed 後，下一次 preprocess 會再標回；
+SAHPRA 匯出查得到就不套（照 SAHPRA 狀態）。confirmed_absent() 對表內號碼回真。
 本機（雲端連不到 medapps 6006 埠）試跑：環境變數 ZA_SAHPRA_RAW=<sahpra_status.json> 讀已下載的 SAHPRA 匯出，MPR 照常下載。
 """
 import importlib.util
@@ -196,6 +202,48 @@ def status_index(new):
     return idx
 
 
+# 2026-11-18 人工確認表：MPR 仍列、SAHPRA 不列、有官方撤市依據的號碼（號碼照證據包寫法）。找不到官方依據的（Ciplatrim 10／15
+# 41/11.3/0312–0313、Leantil 10／15 41/11.3/0180、0153：MCC 只說會對學名藥「take appropriate action」，沒有找到後續官方文件）不收。
+_SIB = {"year": 2010, "date": "2010-10-13", "authority": "MCC",
+        "url": "https://www.sanews.gov.za/south-africa/ectiva-reductil-sa-shelves",
+        "summary": "SAnews (GCIS), 13 Oct 2010: Abbott Laboratories agreed with the Medicines Control Council to withdraw Ectiva and "
+                   "Reductil (sibutramine) from the South African market after the SCOUT cardiovascular outcome results.",
+        "also": "https://www.bizcommunity.com/Article/196/398/53194.html (Abbott notice: voluntary withdrawal of Reductil after discussions with the MCC)"}
+_DPP = {"year": 2011, "date": "2011-05-03", "authority": "MCC",
+        "url": "https://www.gov.za/news/media-statements/withdrawal-dextropropoxyphene-containing-medicines-south-african-market-03",
+        "summary": "MCC media statement, 3 May 2011: the MCC resolved at its 14-15 April 2011 meeting to withdraw all dextropropoxyphene-"
+                   "containing medicines (named: Distalgesic, Doloxene, Doloxene Co-65, Doxyfene, Lentogesic, Synap Forte) from the "
+                   "South African market due to cardiac safety risks, with a three-month transition period."}
+ZA_WITHDRAWN = {
+    "33/11.3/0025": dict(_SIB, product="Reductil 10"),
+    "33/11.3/0026": dict(_SIB, product="Reductil 15"),
+    "33/11.3/0027": dict(_SIB, product="Ectiva 10 mg"),
+    "33/11.3/0028": dict(_SIB, product="Ectiva 15 mg"),
+    "E/2.8/0090": dict(_DPP, product="Distalgesic"),
+    "B0586 (ACT 101)": dict(_DPP, product="Doloxene Plain"),
+    "B0584 (ACT 101)": dict(_DPP, product="Doloxene Co-65"),
+    "B1334(ACT 101/1965) OM*": dict(_DPP, product="Lentogesic (paracetamol + dextropropoxyphene)"),
+}
+
+
+def _wd(lid):
+    """人工確認表的那一筆（SAHPRA 匯出含寫法統一查得到的不套）；不在表內回 None"""
+    lid = str(lid or "").strip()
+    hit = ZA_WITHDRAWN.get(lid)
+    if hit is None and _KEY:
+        k = _KEY(lid)
+        hit = next((v for x, v in ZA_WITHDRAWN.items() if _KEY(x) == k), None)
+    if hit is None:
+        return None
+    if _S is not None and _KEY and (_KEY(lid) in _S or _KEY(lid) in _ALIAS):
+        return None
+    return hit
+
+
+def _wd_status_text(w):
+    return f"Withdrawn from the South African market ({w['year']}; {w['authority']}, {w['url']}); not on SAHPRA register"
+
+
 def mpr_state(lid):
     """SAHPRA 匯出（含寫法統一）沒有的號碼在現行 MPR 的情形："discontinued"（每一列都是 Discontinued）、"not listed"（不在檔內）、
     "listed"（仍列為現行）；SAHPRA 有、或資料不齊（MPR／SAHPRA 沒下載成功）回 None"""
@@ -212,7 +260,7 @@ def mpr_state(lid):
 
 def confirmed_absent(lid):
     """給 license_refresh：SAHPRA 匯出沒有、現行 MPR 也不列為現行（不在檔內或已 Discontinued）＝確認不是現行註冊"""
-    return mpr_state(lid) in ("discontinued", "not listed")
+    return _wd(lid) is not None or mpr_state(lid) in ("discontinued", "not listed")
 
 
 def _mpr_status_text(state):
@@ -223,12 +271,33 @@ def _mpr_status_text(state):
 
 def preprocess(bundle):
     """SAHPRA 匯出與現行 MPR 都不列為現行的號碼標 cancelled（mpr_not_current＝第一次發現日）；又列為現行（或 SAHPRA 查得到）就還原。有改回 True"""
-    if not (_FRESH and MPR_ROWS and _S is not None):
-        return False
     today = time.strftime("%Y-%m-%d")
     ch = False
+    for r in (bundle.get("tfda") or {}).get("records") or []:  # 人工確認表（不依賴下載）
+        w = _wd(r.get("license_id"))
+        if w is None:
+            if r.get("za_withdrawn"):  # 移出人工確認表或 SAHPRA 查得到了：回到只在 MPR 有（SAHPRA 有的由 update() 接著改成 SAHPRA 狀態）
+                r["status"] = r.pop("status_before_za_withdrawn", "")
+                for x in ("za_withdrawn", "za_withdrawn_basis"):
+                    r.pop(x, None)
+                r["license_status"] = "valid"
+                r["status_unconfirmed"] = True
+                ch = True
+            continue
+        txt = _wd_status_text(w)
+        if not r.get("za_withdrawn"):
+            r["za_withdrawn"] = today
+            r["status_before_za_withdrawn"] = r.get("status") or ""
+        if r.get("status") != txt or r.get("license_status") != "cancelled" or r.get("za_withdrawn_basis") != w or "status_unconfirmed" in r:
+            r.update(status=txt, license_status="cancelled", za_withdrawn_basis=w)
+            r.pop("status_unconfirmed", None)
+            ch = True
+    if not (_FRESH and MPR_ROWS and _S is not None):
+        return ch
     for r in (bundle.get("tfda") or {}).get("records") or []:
         lid = str(r.get("license_id") or "").strip()
+        if r.get("za_withdrawn") and _wd(lid) is not None:
+            continue
         if not (r.get("status_unconfirmed") or r.get("mpr_not_current")):
             continue  # 只看只在 MPR 有的號碼（SAHPRA 有的照 SAHPRA 狀態）
         state = mpr_state(lid)
@@ -289,7 +358,7 @@ def sync_tables(site_root, bundles):
     # 2026-11-17：preprocess 標的「SAHPRA 與現行 MPR 都不列為現行」不在 license_refresh 傳來的清單裡（它只傳狀態更新與合併的藥），
     # 而概覽同步把表格狀態格寫成通用的 Cancelled；有這種紀錄的藥一律重排，狀態格照 sync_license_pages.label 寫 MPR 的情形
     extra = [f.parent.name for f in sorted((Path(site_root) / "data/bundles").glob("*/drug_bundle.json"))
-             if '"mpr_not_current"' in f.read_text(encoding="utf-8")]
+             if '"mpr_not_current"' in (t := f.read_text(encoding="utf-8")) or '"za_withdrawn"' in t]
     return slp.resync_tables(sorted(set(bundles) | set(extra)))
 
 

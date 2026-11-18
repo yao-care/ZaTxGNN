@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-18
 description: "Caffeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ This is therefore a model prediction without direct supporting evidence.
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 137 of 205; 6 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 205 (valid: 137, of which 6 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 136 of 205; 5 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 205 (valid: 136, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

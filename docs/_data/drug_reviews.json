@@ -10102,6 +10102,30 @@
    "summary": "Removed: \"Calcipotriol is registered in South Africa only in two products, both listed as valid\"",
    "method": "2026-11-12 人工查核（正文張數對事實層）",
    "anchor": "The approved indication text was not available in the data compiled for this report. Essential Medicines List (EML) status was not available either."
+  },
+  {
+   "id": "za-lic-20261118-dextropropoxyphene-1",
+   "drug": "dextropropoxyphene",
+   "file": "dextropropoxyphene.md",
+   "action": "annotate",
+   "claim": "The \"Marketed\" status for South Africa should therefore be verified.",
+   "note": "The Medicines Control Council resolved at its meeting of 14–15 April 2011 to withdraw all dextropropoxyphene-containing medicines from the South African market because of cardiac safety risks (named products: Distalgesic, Doloxene, Doloxene Co-65, Doxyfene, Lentogesic and Synap Forte), with a three-month transition period (MCC media statement, 3 May 2011). The four registrations in this data that appear only in the Medicine Price Registry and not on the SAHPRA register (Distalgesic E/2.8/0090, Doloxene Plain B0586, Doloxene Co-65 B0584, Lentogesic B1334 (Act 101/1965)) are therefore shown as withdrawn. The SAHPRA medicine register (product table retrieved 2026-11-17) still lists Doxyfene E/2.9/97 and Synap Forte J/2.8/252 as Registered and Lentogesic B1334 and Zomax B0882 as Old Medicine; the overview counts follow the SAHPRA register for those, and no SAHPRA cancellation notice was found for them.",
+   "finding": "2026-11-18 用戶決定：MPR 仍列、SAHPRA 不列的 dextropropoxyphene 產品加人工確認表（license_adapter.ZA_WITHDRAWN）寫成已撤市；依據 gov.za MCC 2011-05-03 媒體聲明（全部 DPP 藥品撤出南非市場）。原句說南非「Marketed」狀態待確認，不是錯句，加註 MCC 決議；SAHPRA 註冊表仍列 Registered／Old Medicine 的 4 張照 SAHPRA 不改（跟 MCC 2011 決議有出入，沒有取得 SAHPRA 撤銷文件）。",
+   "sources": [
+    {
+     "title": "Withdrawal of dextropropoxyphene containing medicines from the South African market (Medicines Control Council media statement, 3 May 2011)",
+     "url": "https://www.gov.za/news/media-statements/withdrawal-dextropropoxyphene-containing-medicines-south-african-market-03",
+     "accessed": "2026-11-18"
+    },
+    {
+     "title": "SAHPRA medicine register (medapps product table)",
+     "url": "https://medapps.sahpra.org.za:6006/",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "checked": "2026-11-18",
+   "summary": "Annotated: MCC 2011 resolution withdrawing all dextropropoxyphene medicines from the South African market",
+   "method": "2026-11-18 人工查證（官方撤市依據）"
   }
  ]
 }

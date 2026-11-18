@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-18
 description: "Dextropropoxyphene: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the SAHPRA registration data"
 monitor_inn: "DEXTROPROPOXYPHENE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 8 of 12; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 12 (valid: 8, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 4 of 12) |
+| Number of SAHPRA Registrations | 12 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,6 +63,12 @@ NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AV
 **No established mechanistic link was identified.** The high TxGNN score (0.9946; model rank 3015) is a model-derived prediction, probably from network proximity or shared-gene relationships. No mechanistic or clinical data support it. It should be treated as a hypothesis only.
 
 Dextropropoxyphene has also been withdrawn from several major markets (including the EU and US in 2010) because of cardiotoxicity (QT prolongation, arrhythmia) and overdose risk. The "Marketed" status for South Africa should therefore be verified.
+
+<!-- review:begin za-lic-20261118-dextropropoxyphene-1 -->
+
+> **Review note (2026-11-18)**: The Medicines Control Council resolved at its meeting of 14–15 April 2011 to withdraw all dextropropoxyphene-containing medicines from the South African market because of cardiac safety risks (named products: Distalgesic, Doloxene, Doloxene Co-65, Doxyfene, Lentogesic and Synap Forte), with a three-month transition period (MCC media statement, 3 May 2011). The four registrations in this data that appear only in the Medicine Price Registry and not on the SAHPRA register (Distalgesic E/2.8/0090, Doloxene Plain B0586, Doloxene Co-65 B0584, Lentogesic B1334 (Act 101/1965)) are therefore shown as withdrawn. The SAHPRA medicine register (product table retrieved 2026-11-17) still lists Doxyfene E/2.9/97 and Synap Forte J/2.8/252 as Registered and Lentogesic B1334 and Zomax B0882 as Old Medicine; the overview counts follow the SAHPRA register for those, and no SAHPRA cancellation notice was found for them. Source: [Withdrawal of dextropropoxyphene containing medicines from the South African market (Medicines Control Council media statement, 3 May 2011)](https://www.gov.za/news/media-statements/withdrawal-dextropropoxyphene-containing-medicines-south-african-market-03); [SAHPRA medicine register (medapps product table)](https://medapps.sahpra.org.za:6006/).
+
+<!-- review:end za-lic-20261118-dextropropoxyphene-1 -->
 
 ## Clinical Trial Evidence
 
@@ -78,11 +84,11 @@ Currently no related literature available.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| B0586 (ACT 101) | Doloxene Plain | capsule | Valid (status not confirmed by SAHPRA) |
-| B0584 (ACT 101) | Doloxene Co-65 | capsule | Valid (status not confirmed by SAHPRA) |
 | B1334 | Lentogesic | capsule | Valid |
-| B1334(ACT 101/1965) OM* | Lentogesic | capsule | Valid (status not confirmed by SAHPRA) |
-| E/2.8/0090 | Distalgesic | tablet | Valid (status not confirmed by SAHPRA) |
+| E/2.9/97 | Doxyfene | capsule | Valid |
+| J/2.8/252 | Synap Forte | tablet | Valid |
+| B0882 | Zomax | capsule | Valid |
+| B0586 (ACT 101) | Doloxene Plain | capsule | Withdrawn from the South African market (2011); not on SAHPRA register |
 
 Showing 5 of 12 registrations (valid registrations first).
 
@@ -134,6 +140,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-18 | Annotated: MCC 2011 resolution withdrawing all dextropropoxyphene medicines from the South African market | Annotated | [Withdrawal of dextropropoxyphene containing medicines from the South African market (Medicines Control Council media statement, 3 May 2011)](https://www.gov.za/news/media-statements/withdrawal-dextropropoxyphene-containing-medicines-south-african-market-03); [SAHPRA medicine register (medapps product table)](https://medapps.sahpra.org.za:6006/) |
 
 <!-- review:end log -->
 
