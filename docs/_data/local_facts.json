@@ -1,0 +1,497 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 395,
+ "level_counts": {
+  "L1": 3,
+  "L2": 16,
+  "L3": 10,
+  "L4": 28,
+  "L5": 287
+ },
+ "level_na": 51,
+ "public_pages": 395,
+ "licence_snapshot": "za_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 394,
+  "drugs_with_current": 386,
+  "drugs_none_current": 8,
+  "drugs_without_data": 1,
+  "drugs_partial": 0,
+  "items_total": 16095,
+  "items_current": 11978
+ },
+ "reviews": {
+  "records": 401,
+  "pages": 305,
+  "public_pages_with_records": 274,
+  "by_action": {
+   "annotate": 1,
+   "correct": 400
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 395,
+  "clinical_use_definition": 1845
+ },
+ "top_licensed": [
+  {
+   "t": "Acetaminophen",
+   "u": "/drugs/acetaminophen/",
+   "l": "N/A",
+   "lt": 563,
+   "lv": 391,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Amlodipine",
+   "u": "/drugs/amlodipine/",
+   "l": "L5",
+   "lt": 321,
+   "lv": 290,
+   "r": 1,
+   "i": "brain stem infarction"
+  },
+  {
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "l": "L4",
+   "lt": 256,
+   "lv": 223,
+   "r": 1,
+   "i": "malignant hypertensive renal disease"
+  },
+  {
+   "t": "Amoxicillin",
+   "u": "/drugs/amoxicillin/",
+   "l": "L5",
+   "lt": 286,
+   "lv": 219,
+   "r": 1,
+   "i": "hyperamylasemia"
+  },
+  {
+   "t": "Metformin",
+   "u": "/drugs/metformin/",
+   "l": "L5",
+   "lt": 225,
+   "lv": 208,
+   "r": 1,
+   "i": "focal stiff limb syndrome"
+  },
+  {
+   "t": "Sodium Chloride",
+   "u": "/drugs/sodium-chloride/",
+   "l": "N/A",
+   "lt": 251,
+   "lv": 168,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Codeine",
+   "u": "/drugs/codeine/",
+   "l": "L5",
+   "lt": 271,
+   "lv": 154,
+   "r": 1,
+   "i": "nasal cavity disease"
+  },
+  {
+   "t": "Tenofovir",
+   "u": "/drugs/tenofovir/",
+   "l": "L4",
+   "lt": 182,
+   "lv": 151,
+   "r": 1,
+   "i": "simian immunodeficiency virus infection"
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Acamprosate",
+   "u": "/drugs/acamprosate/",
+   "l": "N/A",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Calcium",
+   "u": "/drugs/calcium/",
+   "l": "N/A",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Calcium Acetate",
+   "u": "/drugs/calcium-acetate/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 1,
+   "i": "calcium-alkali syndrome"
+  },
+  {
+   "t": "Conjugated Estrogens",
+   "u": "/drugs/conjugated-estrogens/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "migraine disorder"
+  },
+  {
+   "t": "Ginseng",
+   "u": "/drugs/ginseng/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 1,
+   "i": "drug-induced osteoporosis"
+  },
+  {
+   "t": "Metoprolol",
+   "u": "/drugs/metoprolol/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "malignant hypertensive renal disease"
+  },
+  {
+   "t": "Niacin",
+   "u": "/drugs/niacin/",
+   "l": "N/A",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Norgestimate",
+   "u": "/drugs/norgestimate/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 1,
+   "i": "zinc, elevated plasma"
+  }
+ ],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Arginine",
+   "u": "/drugs/arginine/",
+   "l": "L4",
+   "lt": 54,
+   "lv": 35,
+   "r": 4,
+   "i": "gastroparesis (disease)"
+  },
+  {
+   "t": "Alanine",
+   "u": "/drugs/alanine/",
+   "l": "L5",
+   "lt": 55,
+   "lv": 36,
+   "r": 3,
+   "i": "gastroparesis (disease)"
+  },
+  {
+   "t": "Fusidic Acid",
+   "u": "/drugs/fusidic-acid/",
+   "l": "L5",
+   "lt": 10,
+   "lv": 10,
+   "r": 3,
+   "i": "exposure keratitis"
+  },
+  {
+   "t": "Methionine",
+   "u": "/drugs/methionine/",
+   "l": "L5",
+   "lt": 33,
+   "lv": 19,
+   "r": 3,
+   "i": "acne (disease)"
+  },
+  {
+   "t": "Tramadol",
+   "u": "/drugs/tramadol/",
+   "l": "L5",
+   "lt": 82,
+   "lv": 75,
+   "r": 3,
+   "i": "acromesomelic dysplasia, Hunter-Thompson type"
+  },
+  {
+   "t": "Abacavir",
+   "u": "/drugs/abacavir/",
+   "l": "L5",
+   "lt": 67,
+   "lv": 51,
+   "r": 2,
+   "i": "feline acquired immunodeficiency syndrome"
+  }
+ ],
+ "example": {
+  "t": "Tacrolimus",
+  "u": "/drugs/tacrolimus/",
+  "l": "L1",
+  "lt": 53,
+  "lv": 50,
+  "r": 1,
+  "i": "seborrheic dermatitis"
+ },
+ "recent_reviews": [
+  {
+   "t": "Dextropropoxyphene",
+   "u": "/drugs/dextropropoxyphene/",
+   "s": "Annotated: MCC 2011 resolution withdrawing all dextropropoxyphene medicines from the South African market",
+   "d": "2026-11-18"
+  },
+  {
+   "t": "Norgestimate",
+   "u": "/drugs/norgestimate/",
+   "s": "Corrected: neither registration is current (not on SAHPRA register; discontinued in MPR)",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Pseudoephedrine",
+   "u": "/drugs/pseudoephedrine/",
+   "s": "Removed: \"for the 19 SAHPRA registrations\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Fenofibrate",
+   "u": "/drugs/fenofibrate/",
+   "s": "Removed: \"as the only local registration appears to be for a product that may contain more than one active…",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Citalopram",
+   "u": "/drugs/citalopram/",
+   "s": "Removed: \"for the 4 registered products\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Calcipotriol",
+   "u": "/drugs/calcipotriol/",
+   "s": "Removed: \"Calcipotriol is registered in South Africa only in two products, both listed as valid\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Thiamine",
+   "u": "/drugs/thiamine/",
+   "s": "Removed: \"Thirteen single-ingredient registrations are listed (the list may be partial). for any of them\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Glimepiride",
+   "u": "/drugs/glimepiride/",
+   "s": "Removed: \"for all three registrations\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Ethinylestradiol",
+   "u": "/drugs/ethinylestradiol/",
+   "s": "Removed: \"in 20 single-ingredient products\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Atropine",
+   "u": "/drugs/atropine/",
+   "s": "Removed: \"since the only registered product is an oral capsule\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Arginine",
+   "u": "/drugs/arginine/",
+   "s": "Removed: \"(current registrations are parenteral only)\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "Removed: \"All three registrations are valid single-ingredient products\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Zinc Oxide",
+   "u": "/drugs/zinc-oxide/",
+   "s": "Removed: \"All four registrations are valid single-ingredient entries\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Zinc Gluconate",
+   "u": "/drugs/zinc-gluconate/",
+   "s": "Removed: \"All three registrations are valid single-ingredient entries\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Zinc Chloride",
+   "u": "/drugs/zinc-chloride/",
+   "s": "Removed: \"Six registrations are on record\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Zinc Acetate",
+   "u": "/drugs/zinc-acetate/",
+   "s": "Removed: \"All four registrations are valid single-ingredient entries, and all are injectable or parenteral…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "s": "Removed: \"Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Warfarin",
+   "u": "/drugs/warfarin/",
+   "s": "Removed: \"Warfarin has 1 valid single-ingredient registration in South Africa\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Vitamin E",
+   "u": "/drugs/vitamin-e/",
+   "s": "Removed: \"All four registrations are valid and are parenteral (infusion or parenteral nutrition) products\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Vitamin A",
+   "u": "/drugs/vitamin-a/",
+   "s": "Removed: \"Other registrations: neonatal TPN (exclusion under Section 36 and Section 14), Gericomplex…",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "Removed: \"Both registrations are currently valid, and\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "s": "Removed: \"Both registrations are currently valid\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Verapamil",
+   "u": "/drugs/verapamil/",
+   "s": "Removed: \"with 4 valid single-ingredient registrations\"",
+   "d": "2026-11-05"
+  },
+  {
+   "t": "Vancomycin",
+   "u": "/drugs/vancomycin/",
+   "s": "Removed: \"All 3 registrations are valid single-ingredient products\"",
+   "d": "2026-11-05"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Dextropropoxyphene",
+   "u": "/drugs/dextropropoxyphene/",
+   "s": "Annotated: MCC 2011 resolution withdrawing all dextropropoxyphene medicines from the South African market",
+   "d": "2026-11-18"
+  },
+  {
+   "t": "Norgestimate",
+   "u": "/drugs/norgestimate/",
+   "s": "Corrected: neither registration is current (not on SAHPRA register; discontinued in MPR)",
+   "d": "2026-11-17"
+  },
+  {
+   "t": "Pseudoephedrine",
+   "u": "/drugs/pseudoephedrine/",
+   "s": "Removed: \"for the 19 SAHPRA registrations\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Fenofibrate",
+   "u": "/drugs/fenofibrate/",
+   "s": "Removed: \"as the only local registration appears to be for a product that may contain more than one active…",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Citalopram",
+   "u": "/drugs/citalopram/",
+   "s": "Removed: \"for the 4 registered products\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Calcipotriol",
+   "u": "/drugs/calcipotriol/",
+   "s": "Removed: \"Calcipotriol is registered in South Africa only in two products, both listed as valid\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Thiamine",
+   "u": "/drugs/thiamine/",
+   "s": "Removed: \"Thirteen single-ingredient registrations are listed (the list may be partial). for any of them\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Glimepiride",
+   "u": "/drugs/glimepiride/",
+   "s": "Removed: \"for all three registrations\"",
+   "d": "2026-11-06"
+  }
+ ],
+ "files": {
+  "search_index": 395,
+  "drugs_json": 395
+ },
+ "by_level": {
+  "L1": {
+   "n": 3,
+   "current": 3
+  },
+  "L2": {
+   "n": 16,
+   "current": 16
+  },
+  "L3": {
+   "n": 10,
+   "current": 10
+  },
+  "L4": {
+   "n": 28,
+   "current": 28
+  },
+  "L5": {
+   "n": 287,
+   "current": 281
+  }
+ },
+ "cross": {
+  "unique_pairs": 15,
+  "unique_examples": [
+   {
+    "t": "Omega-3 Fatty Acids",
+    "u": "/drugs/omega-3-fatty-acids/",
+    "i": "tendinitis"
+   },
+   {
+    "t": "Bismuth Subcarbonate",
+    "u": "/drugs/bismuth-subcarbonate/",
+    "i": "insomnia (disease)"
+   },
+   {
+    "t": "Dextropropoxyphene",
+    "u": "/drugs/dextropropoxyphene/",
+    "i": "nephrogenic syndrome of inappropriate antidiuresis"
+   },
+   {
+    "t": "Dl-Alpha-Tocopherol",
+    "u": "/drugs/dl-alpha-tocopherol/",
+    "i": "mature cataract"
+   }
+  ]
+ }
+}

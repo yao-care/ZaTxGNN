@@ -47,11 +47,32 @@ patient identifiers. When you ask for clinical trials, the drug and indication n
 
 ---
 
-## Data subject rights
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Applicable law
 
-This site has no accounts and keeps no personal records on servers of its own (it has none). Usage statistics
-are collected by Google Analytics 4; you can block or delete its cookies in your browser settings.
-For questions about this policy, contact service@yao.care.
+For visitors in South Africa the relevant law is the [Protection of Personal Information Act 4 of 2013 (POPIA)](https://www.gov.za/documents/protection-personal-information-act), supervised by the [Information Regulator](https://inforegulator.org.za/). The personal information involved is the usage data Google Analytics 4 collects through cookies; it is transferred to Google outside South Africa, which section 72 of POPIA regulates.
+
+## Your rights and how to use them
+
+- Ask whether personal information about you is held and request access to it (section 23).
+- Ask for correction or deletion (section 24).
+- Object to the processing (section 11(3)).
+- Lodge a complaint with the Information Regulator (section 74).
+
+Requests: service@yao.care (there are no accounts, so tell us the date and pages of your visit). Analytics cookies can be blocked or deleted in your browser.
+
+## Copyright and data sources
+
+Site texts are protected under the [Copyright Act 98 of 1978](https://www.gov.za/documents/copyright-act-16-apr-2015-0942). The site's code is published under the MIT License in the [GitHub repository](https://github.com/yao-care/ZaTxGNN); report texts are © 藥提醒科技有限公司 (yao.care).
+
+Data sources used on this site and their terms:
+
+- **TxGNN** data (Harvard Dataverse): CC0 1.0; cite Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov**, **PubMed**: [ClinicalTrials.gov terms](https://clinicaltrials.gov/about-site/terms-conditions), [NCBI policies](https://www.ncbi.nlm.nih.gov/home/about/policies/).
+- **DrugBank**: [DrugBank](https://go.drugbank.com/) licence terms, non-commercial use.
+- **Local dataset** – [Medicine Price Registry and SAHPRA medapps](https://medicineprices.org.za/), published by SAHPRA and the National Department of Health (Medicine Price Registry); reuse is governed by the publisher's terms, and this site does not grant any further rights.
+
+<!-- privacy-law:end -->
 
 ---
 

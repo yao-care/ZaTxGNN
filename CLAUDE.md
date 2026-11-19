@@ -600,3 +600,8 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 4 組，各組預測、等級、SAHPRA 註冊號完全相同；保留順序：查核紀錄數→字數：d-biotin→biotin、arginine_hydrochloride→arginine、dl-threonine→threonine、cupric_chloride→cupric_chloride_dihydrate（db09131 轉址頁改成直接指保留頁）。
 被轉址頁的查核紀錄（d-biotin 1 筆、arginine_hydrochloride 2 筆，全是 resolved_by_regeneration）留在 drug_reviews.json 當歷史（apply_drug_reviews 跳過轉址頁）。
 公開藥物頁 399→395；FHIR：cupric_chloride 的 DB09131 由 sync_fhir_levels 當重複刪；d-biotin、arginine_hydrochloride、dl-threonine 以頁名命名的 MK 跟保留頁的 DB00121／DB00125／DB00156（經 dbXXXXX 轉址頁對到）重複、預測相同，連同 CUD 手動刪掉（MK 399→395、CUD 1852→1845）；衍生檔、hreflang 照重產。
+
+## 說明頁與證據等級頁的在地資料（2026-11-19）
+
+用戶 2026-11-19 決定的第一批改版（母目錄 `.claude/gen_local_pages_20261119.py` 產生，不逐站手改）：說明頁（about／guide／sources／downloads／methodology，自有結構站只有證據等級頁與隱私頁）加本站資料區塊（`<!-- local-facts -->`）、證據等級頁的事實段與藥名表（`<!-- tier-facts -->`、`<!-- tier-table -->`）、隱私頁的適用法律／權利／著作權與資料來源段（`<!-- privacy-law -->`）；en／es／de 樣板站的共用長段落縮成一段（`<!-- local-condensed -->`）。
+資料檔 `docs/_data/local_facts.json`、`docs/_data/evidence_tier_facts.json` 由 `scripts/local_facts.py`（＝母目錄 `.claude/local_facts_lib.py`）依藥物頁、許可證快照、查核紀錄、FHIR 算；`apply_drug_reviews.py`、許可證快照程式結尾會自動 `--write`，`check_seo_docs.py` 跑 `--check` 擋過期。跨站欄位（cross：本站獨有預測、30 站中位數）與頁面區塊只由母目錄產生器更新；藥物頁改等級、noindex 或預測後要在母目錄重跑。
