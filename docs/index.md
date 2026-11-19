@@ -2,7 +2,7 @@
 layout: default
 title: Drug Repurposing Reports
 nav_order: 1
-description: "AI-powered drug repurposing predictions for 399 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation."
+description: "AI-powered drug repurposing predictions for 395 South African Health Products Regulatory Authority (SAHPRA) approved drugs. TxGNN model identifies potential new therapeutic uses with evidence-based validation."
 last_modified_at: 2026-11-05
 permalink: /
 ---
@@ -65,7 +65,7 @@ Reports by evidence level:
 | L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
 {% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
 
-22 predicted drug–disease pairs on this site appear on no other of the 30 TxGNN sites.
+18 predicted drug–disease pairs on this site appear on no other of the 30 TxGNN sites.
 
 ### Highest evidence levels on this site
 
@@ -87,12 +87,9 @@ Reports by evidence level:
 | Medicine | Evidence level | SAHPRA registrations listed |
 |---|---|---|
 | [Omega-3 Fatty Acids](/drugs/omega-3-fatty-acids/) | L4 | {{ za.by_drug["omega-3-fatty-acids"] }} |
-| [Arginine Hydrochloride](/drugs/arginine-hydrochloride/) | L4 | {{ za.by_drug["arginine-hydrochloride"] }} |
 | [Cupric Chloride Dihydrate](/drugs/cupric-chloride-dihydrate/) | L5 | {{ za.by_drug["cupric-chloride-dihydrate"] }} |
-| [D-Biotin](/drugs/d-biotin/) | L5 | {{ za.by_drug["d-biotin"] }} |
 | [Bismuth Subcarbonate](/drugs/bismuth-subcarbonate/) | L5 | {{ za.by_drug["bismuth-subcarbonate"] }} |
 | [Dextropropoxyphene](/drugs/dextropropoxyphene/) | L5 | {{ za.by_drug["dextropropoxyphene"] }} |
-| [Dl-Threonine](/drugs/dl-threonine/) | L5 | {{ za.by_drug["dl-threonine"] }} |
 | [Bismuth Subgallate](/drugs/bismuth-subgallate/) | N/A | {{ za.by_drug["bismuth-subgallate"] }} |
 | [Magnesium Acetate](/drugs/magnesium-acetate/) | N/A | {{ za.by_drug["magnesium-acetate"] }} |
 | [Methylprednisolone Aceponate](/drugs/methylprednisolone-aceponate/) | N/A | {{ za.by_drug["methylprednisolone-aceponate"] }} |

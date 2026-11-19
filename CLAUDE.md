@@ -593,3 +593,10 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   原被收進 salmeterol 證據包，移到 excluded_records（("43/11.3/0192", "*orlistat")；本站沒有 orlistat 證據包，所以哪裡都不收），salmeterol 頁狀態列／張數列與許可證表由排程同步（44→43 張，有效 38 不變）；
   Ciplatrim 15（41/11.3/0313，sibutramine 15 mg；同品牌 Ciplatrim 10 41/11.3/0312 的 MPR 成分只有 sibutramine，成分欄另列 Isophane Insulin 70%）沒有被收進任何 insulin 類證據包，只加 ("41/11.3/0313", "*sibutramine") 防止以後重建收進，
   sibutramine 證據包照舊收。兩個號碼 SAHPRA 匯出與產品總表都沒有。重建 dry-run 確認 Alli 從 salmeterol 剔除、Ciplatrim 15 留在 sibutramine、insulin 類證據包不變；正文沒有矛盾句。
+
+## 同一 DrugBank ID 的重複公開頁改轉址（2026-11-19）
+
+用戶 2026-11-19 決定（照 ARTxGNN 同日做法）：公開藥物頁同一 DrugBank ID（front matter drugbank_id，沒有的用證據包與 dbXXXXX 轉址頁推斷）、預測相同的，留一頁、另一頁改轉址（layout: id_redirect、permalink 不變、sitemap: false、search_exclude、nav_exclude）。
+4 組，各組預測、等級、SAHPRA 註冊號完全相同；保留順序：查核紀錄數→字數：d-biotin→biotin、arginine_hydrochloride→arginine、dl-threonine→threonine、cupric_chloride→cupric_chloride_dihydrate（db09131 轉址頁改成直接指保留頁）。
+被轉址頁的查核紀錄（d-biotin 1 筆、arginine_hydrochloride 2 筆，全是 resolved_by_regeneration）留在 drug_reviews.json 當歷史（apply_drug_reviews 跳過轉址頁）。
+公開藥物頁 399→395；FHIR：cupric_chloride 的 DB09131 由 sync_fhir_levels 當重複刪；d-biotin、arginine_hydrochloride、dl-threonine 以頁名命名的 MK 跟保留頁的 DB00121／DB00125／DB00156（經 dbXXXXX 轉址頁對到）重複、預測相同，連同 CUD 手動刪掉（MK 399→395、CUD 1852→1845）；衍生檔、hreflang 照重產。

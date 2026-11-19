@@ -19,12 +19,12 @@ Drug repurposing predictions for South Africa SAHPRA-approved drugs using the Tx
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 399 |
+| **Drug Reports** | 395 |
 | **Total Predictions** | 7,786,582 |
 | **Unique Drugs** | 455 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 399 MK / 1,852 CUD |
+| **FHIR Resources** | 395 MK / 1,845 CUD |
 
 ### Evidence Level Distribution
 
@@ -33,8 +33,8 @@ Drug repurposing predictions for South Africa SAHPRA-approved drugs using the Tx
 | **L1** | 3 | Multiple Phase 3 RCTs |
 | **L2** | 16 | Single RCT or multiple Phase 2 |
 | **L3** | 10 | Observational studies |
-| **L4** | 29 | Preclinical / mechanistic studies |
-| **L5** | 290 | Computational prediction only |
+| **L4** | 28 | Preclinical / mechanistic studies |
+| **L5** | 287 | Computational prediction only |
 | **N/A** | 51 | Known uses only (no new prediction) |
 
 ### By Source
