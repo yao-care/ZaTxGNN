@@ -104,6 +104,15 @@ MISMATCH = {
                                       "sibutramine hydrochloride monohydrate；藥理分類 11.3 與 Reductil、Ectiva、Ciplatrim 等 sibutramine 產品相同；MPR 列 S5）。"
                                       "MPR 成分欄另列 paracetamol 400 mg、codeine phosphate 8 mg 屬錯植（依據 https://medicineprices.org.za/api/v2/search?q=sibutramine ，"
                                       "NAPPI 715125001、715124001；SAHPRA medapps 匯出查無此號）",
+    # 2026-11-19（用戶決定，比照 Leantil 15 mg）：兩個號碼 SAHPRA 匯出與產品總表都沒有，只在 MPR
+    ("43/11.3/0192", "*orlistat"): "Alli 是 orlistat 60 mg 減重膠囊（MPR S2、藥理分類 11.3，跟 SAHPRA 32/11.3.1/0475 XENICAL「EACH CAPSULE CONTAINS ORLISTAT 120,0 mg」"
+                                   "同類）。MPR 成分欄另列 salmeterol 25 mcg、tetanus toxoid、pertussis toxoid、filamentous haemagglutinin、pertactin、"
+                                   "inactivated polio virus type 1–3 屬錯植（吸入劑與疫苗成分，不可能在減重膠囊裡；依據 https://medicineprices.org.za/api/v2/search?q=salmeterol ，"
+                                   "NAPPI 715024002；SAHPRA medapps 匯出查無此號）",
+    ("41/11.3/0313", "*sibutramine"): "Ciplatrim 15 是 sibutramine 15 mg 減重膠囊（同品牌 Ciplatrim 10 41/11.3/0312 的 MPR 成分只有 sibutramine 10 mg；"
+                                      "藥理分類 11.3、MPR 列 S5，與 Reductil、Ectiva、Leantil 等 sibutramine 產品相同）。MPR 成分欄另列 Isophane Insulin 70% 屬錯植"
+                                      "（口服膠囊不含胰島素；依據 https://medicineprices.org.za/api/v2/search?q=sibutramine ，NAPPI 712491001、712490001；"
+                                      "SAHPRA medapps 匯出查無此號）",
     ("T/30.3/704", "potassium"):"MPR 品名 Stabilised Human Serum-5% Protein Solution，號碼補零後是 SAHPRA T/30.3/0704 STABILISED HUMAN SERUM"
                                  "（人血清蛋白，已註銷）；MPR 成分欄列的 calcium、potassium 是血清本身含的電解質，不是 potassium 製劑",
 }

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-19
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **respiratory malformation**, but 
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 38 of 44; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 44 (valid: 38, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 38 of 43; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 43 (valid: 38, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,7 +90,7 @@ No SANCTR or PACTR registrations were identified in the data compiled for this r
 | 55/21.5.4/0280 | Spirodisc 50/500 | inhaler | Valid |
 | 42/21.5.4/0218 | Sereflo 25/50 hfa synchrobreathe 120 dos | inhaler | Valid |
 
-Showing 5 of 44 registrations (valid registrations first).
+Showing 5 of 43 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

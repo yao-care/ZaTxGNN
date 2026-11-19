@@ -589,3 +589,7 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   被收進 acetaminophen、paracetamol、codeine、codeine_hcl、codeine_phosphate 5 個證據包。同品牌 Leantil 10 Mg（41/11.3/0180）的 MPR 成分只有 sibutramine、藥理分類 11.3 與其他 sibutramine 產品相同，
   判為錯植：`scripts/rebuild_licenses_by_ingredient.py` 的 MISMATCH 加 ("41/11.3/0153", "*sibutramine")（SAHPRA 沒有這號，「成分全文不含本藥」自動判定用不上），5 個證據包的這一列移到 excluded_records（附理由）；
   sibutramine 證據包照舊收。acetaminophen（564→563）、codeine（272→271）2 頁狀態列／張數列與許可證表由排程同步，正文沒有矛盾句。
+- 2026-11-19（同日，用戶決定照 Leantil 做法）：另兩筆 MPR 成分欄錯植列進 MISMATCH——Alli（43/11.3/0192，orlistat 60 mg 減重膠囊，MPR S2；成分欄另列 salmeterol、tetanus toxoid、pertussis toxoid、polio 等吸入劑與疫苗成分）
+  原被收進 salmeterol 證據包，移到 excluded_records（("43/11.3/0192", "*orlistat")；本站沒有 orlistat 證據包，所以哪裡都不收），salmeterol 頁狀態列／張數列與許可證表由排程同步（44→43 張，有效 38 不變）；
+  Ciplatrim 15（41/11.3/0313，sibutramine 15 mg；同品牌 Ciplatrim 10 41/11.3/0312 的 MPR 成分只有 sibutramine，成分欄另列 Isophane Insulin 70%）沒有被收進任何 insulin 類證據包，只加 ("41/11.3/0313", "*sibutramine") 防止以後重建收進，
+  sibutramine 證據包照舊收。兩個號碼 SAHPRA 匯出與產品總表都沒有。重建 dry-run 確認 Alli 從 salmeterol 剔除、Ciplatrim 15 留在 sibutramine、insulin 類證據包不變；正文沒有矛盾句。
