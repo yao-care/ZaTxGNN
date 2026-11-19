@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). In South Africa: 9 SAHPRA registrations (8 valid)"

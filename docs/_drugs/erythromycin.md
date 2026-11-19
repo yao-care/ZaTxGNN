@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 58 SAHPRA registrations (32 valid)"
 ---
 

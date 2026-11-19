@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-20
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). In South Africa: 43 SAHPRA registrations (38 valid)"

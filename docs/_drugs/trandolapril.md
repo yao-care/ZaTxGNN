@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 25 SAHPRA registrations (12 valid)"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)"

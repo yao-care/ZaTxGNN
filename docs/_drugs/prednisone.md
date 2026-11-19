@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 389
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). In South Africa: 12 SAHPRA registrations (10 valid)"

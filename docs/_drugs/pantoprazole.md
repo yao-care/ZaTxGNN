@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). In South Africa: 84 SAHPRA registrations (66 valid)"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Sulfanilamide"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis"]
 description: "Sulfanilamide: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). In South Africa: 7 SAHPRA registrations (5 valid)"

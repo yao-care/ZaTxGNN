@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). In South Africa: 25 SAHPRA registrations (20 valid)"

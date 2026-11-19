@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: predicted new indication Stomach disease (evidence level L5). In South Africa: 67 SAHPRA registrations (48 valid)"

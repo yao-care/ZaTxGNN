@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Insulin Aspart: predicted new indication autoimmune oophoritis (evidence level L5). In South Africa: 5 SAHPRA registrations (4 valid)"
 ---
 

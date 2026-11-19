@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). In South Africa: 26 SAHPRA registrations (18 valid)"
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "ZINC CHLORIDE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "Sjogren syndrome", "dry eye syndrome"]
 description: "Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). In South Africa: 5 SAHPRA registrations (4 valid)"

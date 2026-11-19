@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 31 SAHPRA registrations (17 valid)"
 ---
 

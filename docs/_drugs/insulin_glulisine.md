@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Insulin Glulisine: predicted new indication thiamine-responsive dysfunction syndrome (evidence level L5). In South Africa: 2 SAHPRA registrations (1 valid)"
 ---
 

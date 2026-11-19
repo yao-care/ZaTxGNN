@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In South Africa: 147 SAHPRA registrations (105 valid)"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Isotretinoin: predicted new indication malignant hypertensive renal disease (evidence level L5). In South Africa: 14 SAHPRA registrations (13 valid)"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CYANOCOBALAMIN"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). In South Africa: 44 SAHPRA registrations (27 valid)"
 ---
 

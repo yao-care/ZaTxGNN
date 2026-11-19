@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "INSULIN DETEMIR"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Insulin Detemir: predicted new indication autoimmune oophoritis (evidence level L5). In South Africa: 1 SAHPRA registration (1 valid)"
 ---
 

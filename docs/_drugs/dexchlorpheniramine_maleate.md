@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Dexchlorpheniramine maleate"
 predicted_indications: ["acute intermittent porphyria"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Dexchlorpheniramine Maleate: predicted new indication acute intermittent porphyria (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)"
 ---
 

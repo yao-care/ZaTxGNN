@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "BISOPROLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 93 SAHPRA registrations (86 valid)"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-20
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). In South Africa: 49 SAHPRA registrations (40 valid)"

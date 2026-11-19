@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L5). In South Africa: 14 SAHPRA registrations (9 valid)"
 ---
 

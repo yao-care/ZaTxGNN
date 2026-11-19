@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 432
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). In South Africa: 53 SAHPRA registrations (50 valid)"

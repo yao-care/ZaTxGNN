@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ALFUZOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In South Africa: 4 SAHPRA registrations (2 valid)"
 ---
 

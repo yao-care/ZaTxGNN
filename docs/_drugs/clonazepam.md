@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 3
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clonazepam: predicted new indication restless legs syndrome (evidence level L2). In South Africa: 11 SAHPRA registrations (11 valid)"
 ---
 
