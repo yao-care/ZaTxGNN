@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
+description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In South Africa: 59 SAHPRA registrations (53 valid)"
 ---
 
 # Levetiracetam

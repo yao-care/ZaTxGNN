@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "METOCLOPRAMIDE"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
-description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). In South Africa: 39 SAHPRA registrations (24 valid)"
 ---
 
 # Metoclopramide

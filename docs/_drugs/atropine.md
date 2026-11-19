@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 last_modified_at: 2026-11-12
-description: "Atropine: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Atropine: predicted new indication migraine disorder (evidence level L5). In South Africa: 38 SAHPRA registrations (18 valid)"
 ---
 
 # Atropine

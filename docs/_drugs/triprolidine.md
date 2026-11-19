@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-17
 monitor_inn: "TRIPROLIDINE"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
-description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 55 SAHPRA registrations (29 valid)"
 ---
 
 # Triprolidine

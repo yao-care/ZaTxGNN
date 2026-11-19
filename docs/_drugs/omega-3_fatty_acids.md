@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Omega-3 fatty acids"
 predicted_indications: ["tendinitis", "Glanzmann thrombasthenia", "amenorrhea (disease)"]
-description: "Omega-3 Fatty Acids: predicted new indication Tendinitis (evidence level L4). Approved use: Not recorded in the local data"
+description: "Omega-3 Fatty Acids: predicted new indication Tendinitis (evidence level L4). In South Africa: 2 SAHPRA registrations (2 valid)"
 ---
 
 # Omega-3 Fatty Acids

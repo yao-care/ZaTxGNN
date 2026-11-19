@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "Resorcinol"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
-description: "Resorcinol: predicted new indication Acne keloid (evidence level L5). Approved use: Not recorded in the local data"
+description: "Resorcinol: predicted new indication Acne keloid (evidence level L5). In South Africa: 9 SAHPRA registrations (6 valid)"
 ---
 
 # Resorcinol

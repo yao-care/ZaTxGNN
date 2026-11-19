@@ -1,0 +1,2815 @@
+{
+  "_note": "藥物頁 front matter description 句尾「原適應症：本地資料未記載」換成本站許可證快照事實層品項數的紀錄（母目錄 .claude/drug_meta_description.py --apply，2026-11-19 起）。pages＝目前產生的句尾（tail）與被換掉的原字樣（original）；entries＝每次改動的前後整行（from／to，可還原：把第一筆的 from 寫回該頁 description）。",
+  "pages": {
+    "acetic_acid": {
+      "tail": "In South Africa: 26 SAHPRA registrations (18 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "acetylsalicylic_acid": {
+      "tail": "In South Africa: 160 SAHPRA registrations (106 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "adapalene": {
+      "tail": "In South Africa: 9 SAHPRA registrations (7 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "albendazole": {
+      "tail": "In South Africa: 11 SAHPRA registrations (7 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "alfuzosin": {
+      "tail": "In South Africa: 4 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "alprazolam": {
+      "tail": "In South Africa: 40 SAHPRA registrations (29 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amiloride": {
+      "tail": "In South Africa: 14 SAHPRA registrations (10 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amiodarone": {
+      "tail": "In South Africa: 28 SAHPRA registrations (24 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amlodipine": {
+      "tail": "In South Africa: 321 SAHPRA registrations (290 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ampicillin": {
+      "tail": "In South Africa: 64 SAHPRA registrations (24 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "apixaban": {
+      "tail": "In South Africa: 44 SAHPRA registrations (44 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "aripiprazole": {
+      "tail": "In South Africa: 90 SAHPRA registrations (72 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "artemether": {
+      "tail": "In South Africa: 3 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ascorbic_acid": {
+      "tail": "In South Africa: 119 SAHPRA registrations (70 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "atorvastatin": {
+      "tail": "In South Africa: 122 SAHPRA registrations (97 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "atropine": {
+      "tail": "In South Africa: 38 SAHPRA registrations (18 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "azathioprine": {
+      "tail": "In South Africa: 8 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bacitracin": {
+      "tail": "In South Africa: 11 SAHPRA registrations (4 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "benazepril": {
+      "tail": "In South Africa: 8 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "benzocaine": {
+      "tail": "In South Africa: 59 SAHPRA registrations (37 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "benzylpenicillin": {
+      "tail": "In South Africa: 25 SAHPRA registrations (22 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "betamethasone": {
+      "tail": "In South Africa: 65 SAHPRA registrations (51 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bimatoprost": {
+      "tail": "In South Africa: 22 SAHPRA registrations (22 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "biotin": {
+      "tail": "In South Africa: 43 SAHPRA registrations (39 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bismuth_subcarbonate": {
+      "tail": "In South Africa: 6 SAHPRA registrations (4 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bisoprolol": {
+      "tail": "In South Africa: 93 SAHPRA registrations (86 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bupropion": {
+      "tail": "In South Africa: 30 SAHPRA registrations (25 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "caffeine": {
+      "tail": "In South Africa: 205 SAHPRA registrations (136 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "calcifediol": {
+      "tail": "In South Africa: 2 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "calcium_acetate": {
+      "tail": "In South Africa: 2 SAHPRA registrations (0 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "candesartan": {
+      "tail": "In South Africa: 43 SAHPRA registrations (26 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "candesartan_cilexetil": {
+      "tail": "In South Africa: 43 SAHPRA registrations (26 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "captopril": {
+      "tail": "In South Africa: 31 SAHPRA registrations (16 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "carbocisteine": {
+      "tail": "In South Africa: 37 SAHPRA registrations (23 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "carvedilol": {
+      "tail": "In South Africa: 37 SAHPRA registrations (34 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cefazolin": {
+      "tail": "In South Africa: 29 SAHPRA registrations (24 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ceftriaxone": {
+      "tail": "In South Africa: 98 SAHPRA registrations (67 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cefuroxime": {
+      "tail": "In South Africa: 88 SAHPRA registrations (64 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "celecoxib": {
+      "tail": "In South Africa: 63 SAHPRA registrations (58 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chloramphenicol": {
+      "tail": "In South Africa: 36 SAHPRA registrations (21 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chlorobutanol": {
+      "tail": "In South Africa: 5 SAHPRA registrations (5 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chloroquine": {
+      "tail": "In South Africa: 11 SAHPRA registrations (5 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chlorpheniramine": {
+      "tail": "In South Africa: 97 SAHPRA registrations (62 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chlorthalidone": {
+      "tail": "In South Africa: 12 SAHPRA registrations (7 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cholecalciferol": {
+      "tail": "In South Africa: 5 SAHPRA registrations (5 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cilazapril": {
+      "tail": "In South Africa: 3 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cinchocaine": {
+      "tail": "In South Africa: 6 SAHPRA registrations (5 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ciprofloxacin": {
+      "tail": "In South Africa: 107 SAHPRA registrations (75 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "citric_acid": {
+      "tail": "In South Africa: 67 SAHPRA registrations (48 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clindamycin": {
+      "tail": "In South Africa: 25 SAHPRA registrations (22 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clioquinol": {
+      "tail": "In South Africa: 16 SAHPRA registrations (8 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clobetasol_propionate": {
+      "tail": "In South Africa: 19 SAHPRA registrations (18 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clonazepam": {
+      "tail": "In South Africa: 11 SAHPRA registrations (11 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clotrimazole": {
+      "tail": "In South Africa: 65 SAHPRA registrations (51 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "codeine": {
+      "tail": "In South Africa: 271 SAHPRA registrations (154 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "colchicine": {
+      "tail": "In South Africa: 21 SAHPRA registrations (19 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "conjugated_estrogens": {
+      "tail": "In South Africa: 1 SAHPRA registration (0 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cupric_chloride_dihydrate": {
+      "tail": "In South Africa: 1 SAHPRA registration (1 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cyanocobalamin": {
+      "tail": "In South Africa: 44 SAHPRA registrations (27 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cyclizine": {
+      "tail": "In South Africa: 31 SAHPRA registrations (18 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cycloserine": {
+      "tail": "In South Africa: 4 SAHPRA registrations (4 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cysteine": {
+      "tail": "In South Africa: 14 SAHPRA registrations (9 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "desvenlafaxine": {
+      "tail": "In South Africa: 24 SAHPRA registrations (24 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dexamethasone": {
+      "tail": "In South Africa: 51 SAHPRA registrations (38 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dexchlorpheniramine_maleate": {
+      "tail": "In South Africa: 6 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dexmedetomidine": {
+      "tail": "In South Africa: 32 SAHPRA registrations (32 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dexpanthenol": {
+      "tail": "In South Africa: 19 SAHPRA registrations (15 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dextromethorphan": {
+      "tail": "In South Africa: 41 SAHPRA registrations (25 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "diazepam": {
+      "tail": "In South Africa: 38 SAHPRA registrations (23 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "diclofenac": {
+      "tail": "In South Africa: 107 SAHPRA registrations (86 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dicyclomine": {
+      "tail": "In South Africa: 36 SAHPRA registrations (15 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "digoxin": {
+      "tail": "In South Africa: 5 SAHPRA registrations (5 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dihydrocodeine": {
+      "tail": "In South Africa: 4 SAHPRA registrations (3 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "diphenhydramine": {
+      "tail": "In South Africa: 107 SAHPRA registrations (68 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dipyridamole": {
+      "tail": "In South Africa: 5 SAHPRA registrations (3 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "docetaxel": {
+      "tail": "In South Africa: 61 SAHPRA registrations (44 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "donepezil": {
+      "tail": "In South Africa: 42 SAHPRA registrations (37 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dorzolamide": {
+      "tail": "In South Africa: 34 SAHPRA registrations (30 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "doxycycline": {
+      "tail": "In South Africa: 28 SAHPRA registrations (15 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "doxylamine": {
+      "tail": "In South Africa: 44 SAHPRA registrations (30 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dutasteride": {
+      "tail": "In South Africa: 11 SAHPRA registrations (10 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "econazole": {
+      "tail": "In South Africa: 8 SAHPRA registrations (4 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ephedrine": {
+      "tail": "In South Africa: 42 SAHPRA registrations (25 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "erythromycin": {
+      "tail": "In South Africa: 58 SAHPRA registrations (32 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "esomeprazole": {
+      "tail": "In South Africa: 89 SAHPRA registrations (82 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ethinylestradiol": {
+      "tail": "In South Africa: 77 SAHPRA registrations (62 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "etonogestrel": {
+      "tail": "In South Africa: 2 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "famciclovir": {
+      "tail": "In South Africa: 6 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fenoterol": {
+      "tail": "In South Africa: 13 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fentanyl": {
+      "tail": "In South Africa: 33 SAHPRA registrations (24 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ferrous_fumarate": {
+      "tail": "In South Africa: 9 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ferrous_gluconate": {
+      "tail": "In South Africa: 13 SAHPRA registrations (7 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ferrous_sulfate_anhydrous": {
+      "tail": "In South Africa: 3 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fexofenadine": {
+      "tail": "In South Africa: 40 SAHPRA registrations (36 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "flucloxacillin": {
+      "tail": "In South Africa: 21 SAHPRA registrations (13 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fluconazole": {
+      "tail": "In South Africa: 84 SAHPRA registrations (66 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fluocinolone_acetonide": {
+      "tail": "In South Africa: 16 SAHPRA registrations (11 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fluoxetine": {
+      "tail": "In South Africa: 26 SAHPRA registrations (19 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fluticasone_furoate": {
+      "tail": "In South Africa: 11 SAHPRA registrations (11 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "formoterol": {
+      "tail": "In South Africa: 31 SAHPRA registrations (27 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fosinopril": {
+      "tail": "In South Africa: 5 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "framycetin": {
+      "tail": "In South Africa: 6 SAHPRA registrations (4 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fusidic_acid": {
+      "tail": "In South Africa: 10 SAHPRA registrations (10 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "glycine": {
+      "tail": "In South Africa: 59 SAHPRA registrations (35 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "griseofulvin": {
+      "tail": "In South Africa: 6 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "guaifenesin": {
+      "tail": "In South Africa: 80 SAHPRA registrations (48 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "haloperidol": {
+      "tail": "In South Africa: 16 SAHPRA registrations (4 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "histidine": {
+      "tail": "In South Africa: 52 SAHPRA registrations (32 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "hydrocortisone": {
+      "tail": "In South Africa: 67 SAHPRA registrations (42 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ibuprofen": {
+      "tail": "In South Africa: 150 SAHPRA registrations (128 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "imatinib": {
+      "tail": "In South Africa: 26 SAHPRA registrations (23 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "insulin_aspart": {
+      "tail": "In South Africa: 5 SAHPRA registrations (4 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "insulin_degludec": {
+      "tail": "In South Africa: 4 SAHPRA registrations (3 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "insulin_detemir": {
+      "tail": "In South Africa: 1 SAHPRA registration (1 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "insulin_glargine": {
+      "tail": "In South Africa: 15 SAHPRA registrations (7 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "insulin_glulisine": {
+      "tail": "In South Africa: 2 SAHPRA registrations (1 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ipratropium": {
+      "tail": "In South Africa: 31 SAHPRA registrations (17 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "irbesartan": {
+      "tail": "In South Africa: 76 SAHPRA registrations (43 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "iron": {
+      "tail": "In South Africa: 4 SAHPRA registrations (4 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "isoniazid": {
+      "tail": "In South Africa: 70 SAHPRA registrations (46 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "isotretinoin": {
+      "tail": "In South Africa: 14 SAHPRA registrations (13 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "itraconazole": {
+      "tail": "In South Africa: 9 SAHPRA registrations (8 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ivermectin": {
+      "tail": "In South Africa: 2 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ketoconazole": {
+      "tail": "In South Africa: 10 SAHPRA registrations (3 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "l-lysine": {
+      "tail": "In South Africa: 40 SAHPRA registrations (23 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "labetalol": {
+      "tail": "In South Africa: 5 SAHPRA registrations (5 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lamivudine": {
+      "tail": "In South Africa: 198 SAHPRA registrations (141 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lansoprazole": {
+      "tail": "In South Africa: 36 SAHPRA registrations (33 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "latanoprost": {
+      "tail": "In South Africa: 28 SAHPRA registrations (22 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "leucovorin": {
+      "tail": "In South Africa: 6 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levetiracetam": {
+      "tail": "In South Africa: 59 SAHPRA registrations (53 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levodopa": {
+      "tail": "In South Africa: 17 SAHPRA registrations (16 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levofloxacin": {
+      "tail": "In South Africa: 84 SAHPRA registrations (53 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levonorgestrel": {
+      "tail": "In South Africa: 37 SAHPRA registrations (36 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lidocaine": {
+      "tail": "In South Africa: 78 SAHPRA registrations (57 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lisinopril": {
+      "tail": "In South Africa: 68 SAHPRA registrations (42 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "losartan": {
+      "tail": "In South Africa: 108 SAHPRA registrations (79 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "magnesium_carbonate": {
+      "tail": "In South Africa: 45 SAHPRA registrations (25 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "magnesium_trisilicate": {
+      "tail": "In South Africa: 32 SAHPRA registrations (14 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mebendazole": {
+      "tail": "In South Africa: 25 SAHPRA registrations (20 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "medroxyprogesterone_acetate": {
+      "tail": "In South Africa: 21 SAHPRA registrations (16 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "meloxicam": {
+      "tail": "In South Africa: 66 SAHPRA registrations (57 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mepyramine": {
+      "tail": "In South Africa: 56 SAHPRA registrations (26 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "methylprednisolone": {
+      "tail": "In South Africa: 36 SAHPRA registrations (32 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "metoclopramide": {
+      "tail": "In South Africa: 39 SAHPRA registrations (24 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "miconazole": {
+      "tail": "In South Africa: 22 SAHPRA registrations (9 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "midazolam": {
+      "tail": "In South Africa: 55 SAHPRA registrations (40 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "minocycline": {
+      "tail": "In South Africa: 15 SAHPRA registrations (14 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mirtazapine": {
+      "tail": "In South Africa: 26 SAHPRA registrations (24 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "moclobemide": {
+      "tail": "In South Africa: 8 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "montelukast": {
+      "tail": "In South Africa: 107 SAHPRA registrations (92 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "morphine": {
+      "tail": "In South Africa: 32 SAHPRA registrations (25 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "moxifloxacin": {
+      "tail": "In South Africa: 30 SAHPRA registrations (27 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mupirocin": {
+      "tail": "In South Africa: 16 SAHPRA registrations (15 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "naproxen": {
+      "tail": "In South Africa: 39 SAHPRA registrations (25 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nitrogen": {
+      "tail": "In South Africa: 4 SAHPRA registrations (3 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "norgestimate": {
+      "tail": "In South Africa: 2 SAHPRA registrations (0 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nystatin": {
+      "tail": "In South Africa: 20 SAHPRA registrations (7 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "olanzapine": {
+      "tail": "In South Africa: 89 SAHPRA registrations (80 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "olopatadine": {
+      "tail": "In South Africa: 14 SAHPRA registrations (14 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "omega-3_fatty_acids": {
+      "tail": "In South Africa: 2 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "omeprazole": {
+      "tail": "In South Africa: 49 SAHPRA registrations (40 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "orphenadrine": {
+      "tail": "In South Africa: 9 SAHPRA registrations (7 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "oxymetazoline": {
+      "tail": "In South Africa: 42 SAHPRA registrations (24 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "oxytetracycline": {
+      "tail": "In South Africa: 29 SAHPRA registrations (18 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pantoprazole": {
+      "tail": "In South Africa: 84 SAHPRA registrations (66 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pantothenic_acid": {
+      "tail": "In South Africa: 2 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "paroxetine": {
+      "tail": "In South Africa: 28 SAHPRA registrations (21 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "perindopril": {
+      "tail": "In South Africa: 134 SAHPRA registrations (128 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pheniramine": {
+      "tail": "In South Africa: 9 SAHPRA registrations (5 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phenobarbital": {
+      "tail": "In South Africa: 5 SAHPRA registrations (3 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phenol": {
+      "tail": "In South Africa: 39 SAHPRA registrations (23 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phenoxymethylpenicillin": {
+      "tail": "In South Africa: 34 SAHPRA registrations (18 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phenylephrine": {
+      "tail": "In South Africa: 121 SAHPRA registrations (77 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phenytoin": {
+      "tail": "In South Africa: 14 SAHPRA registrations (12 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pioglitazone": {
+      "tail": "In South Africa: 14 SAHPRA registrations (12 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "polymyxin_b": {
+      "tail": "In South Africa: 15 SAHPRA registrations (7 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "potassium_acetate": {
+      "tail": "In South Africa: 11 SAHPRA registrations (11 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "potassium_chloride": {
+      "tail": "In South Africa: 173 SAHPRA registrations (114 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "potassium_iodide": {
+      "tail": "In South Africa: 15 SAHPRA registrations (10 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pramipexole": {
+      "tail": "In South Africa: 63 SAHPRA registrations (58 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pramocaine": {
+      "tail": "In South Africa: 1 SAHPRA registration (1 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pravastatin": {
+      "tail": "In South Africa: 32 SAHPRA registrations (17 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "prednisolone": {
+      "tail": "In South Africa: 33 SAHPRA registrations (26 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "prednisone": {
+      "tail": "In South Africa: 12 SAHPRA registrations (10 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "progesterone": {
+      "tail": "In South Africa: 11 SAHPRA registrations (10 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "propranolol": {
+      "tail": "In South Africa: 29 SAHPRA registrations (15 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pseudoephedrine": {
+      "tail": "In South Africa: 127 SAHPRA registrations (67 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "quinapril": {
+      "tail": "In South Africa: 42 SAHPRA registrations (19 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ranitidine": {
+      "tail": "In South Africa: 68 SAHPRA registrations (25 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "resorcinol": {
+      "tail": "In South Africa: 9 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rilpivirine": {
+      "tail": "In South Africa: 10 SAHPRA registrations (10 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "risperidone": {
+      "tail": "In South Africa: 147 SAHPRA registrations (105 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rosuvastatin": {
+      "tail": "In South Africa: 139 SAHPRA registrations (129 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "roxithromycin": {
+      "tail": "In South Africa: 8 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "salbutamol": {
+      "tail": "In South Africa: 57 SAHPRA registrations (33 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "salicylic_acid": {
+      "tail": "In South Africa: 38 SAHPRA registrations (30 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "salmeterol": {
+      "tail": "In South Africa: 43 SAHPRA registrations (38 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "serine": {
+      "tail": "In South Africa: 18 SAHPRA registrations (17 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sertraline": {
+      "tail": "In South Africa: 37 SAHPRA registrations (33 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "simvastatin": {
+      "tail": "In South Africa: 107 SAHPRA registrations (82 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sodium_citrate": {
+      "tail": "In South Africa: 101 SAHPRA registrations (70 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sodium_fluoride": {
+      "tail": "In South Africa: 21 SAHPRA registrations (11 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "spironolactone": {
+      "tail": "In South Africa: 18 SAHPRA registrations (18 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "stavudine": {
+      "tail": "In South Africa: 35 SAHPRA registrations (12 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sulfadoxine": {
+      "tail": "In South Africa: 2 SAHPRA registrations (2 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sulfamethoxazole": {
+      "tail": "In South Africa: 75 SAHPRA registrations (54 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sulfanilamide": {
+      "tail": "In South Africa: 7 SAHPRA registrations (5 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tacrolimus": {
+      "tail": "In South Africa: 53 SAHPRA registrations (50 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tadalafil": {
+      "tail": "In South Africa: 73 SAHPRA registrations (66 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tamsulosin": {
+      "tail": "In South Africa: 29 SAHPRA registrations (26 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "telmisartan": {
+      "tail": "In South Africa: 135 SAHPRA registrations (127 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tenofovir_disoproxil": {
+      "tail": "In South Africa: 137 SAHPRA registrations (107 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "theophylline": {
+      "tail": "In South Africa: 39 SAHPRA registrations (23 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tiotropium": {
+      "tail": "In South Africa: 9 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tobramycin": {
+      "tail": "In South Africa: 22 SAHPRA registrations (19 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tocilizumab": {
+      "tail": "In South Africa: 4 SAHPRA registrations (4 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tramadol": {
+      "tail": "In South Africa: 82 SAHPRA registrations (75 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "trandolapril": {
+      "tail": "In South Africa: 25 SAHPRA registrations (12 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "trazodone": {
+      "tail": "In South Africa: 23 SAHPRA registrations (21 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tretinoin": {
+      "tail": "In South Africa: 11 SAHPRA registrations (11 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "triamcinolone": {
+      "tail": "In South Africa: 12 SAHPRA registrations (3 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "triamterene": {
+      "tail": "In South Africa: 4 SAHPRA registrations (1 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "trimethoprim": {
+      "tail": "In South Africa: 76 SAHPRA registrations (53 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "triprolidine": {
+      "tail": "In South Africa: 55 SAHPRA registrations (29 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "valsartan": {
+      "tail": "In South Africa: 256 SAHPRA registrations (223 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "verapamil": {
+      "tail": "In South Africa: 22 SAHPRA registrations (18 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "vilanterol": {
+      "tail": "In South Africa: 6 SAHPRA registrations (6 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "vitamin_e": {
+      "tail": "In South Africa: 17 SAHPRA registrations (12 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zinc_chloride": {
+      "tail": "In South Africa: 5 SAHPRA registrations (4 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zinc_gluconate": {
+      "tail": "In South Africa: 2 SAHPRA registrations (1 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zinc_oxide": {
+      "tail": "In South Africa: 49 SAHPRA registrations (30 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zinc_sulfate": {
+      "tail": "In South Africa: 1 SAHPRA registration (1 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zolpidem": {
+      "tail": "In South Africa: 32 SAHPRA registrations (28 valid)",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    }
+  },
+  "entries": [
+    {
+      "page": "docs/_drugs/acetic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). In South Africa: 26 SAHPRA registrations (18 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/acetylsalicylic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). In South Africa: 160 SAHPRA registrations (106 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/adapalene.md",
+      "date": "2026-11-19",
+      "from": "\"Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). In South Africa: 9 SAHPRA registrations (7 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/albendazole.md",
+      "date": "2026-11-19",
+      "from": "\"Albendazole: predicted new indication Coenurosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Albendazole: predicted new indication Coenurosis (evidence level L5). In South Africa: 11 SAHPRA registrations (7 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/alfuzosin.md",
+      "date": "2026-11-19",
+      "from": "\"Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In South Africa: 4 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/alprazolam.md",
+      "date": "2026-11-19",
+      "from": "\"Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). In South Africa: 40 SAHPRA registrations (29 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amiloride.md",
+      "date": "2026-11-19",
+      "from": "\"Amiloride: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amiloride: predicted new indication malignant hypertensive renal disease (evidence level L5). In South Africa: 14 SAHPRA registrations (10 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amiodarone.md",
+      "date": "2026-11-19",
+      "from": "\"Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). In South Africa: 28 SAHPRA registrations (24 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amlodipine.md",
+      "date": "2026-11-19",
+      "from": "\"Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amlodipine: predicted new indication brain stem infarction (evidence level L5). In South Africa: 321 SAHPRA registrations (290 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ampicillin.md",
+      "date": "2026-11-19",
+      "from": "\"Ampicillin: predicted new indication Laryngitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ampicillin: predicted new indication Laryngitis (evidence level L5). In South Africa: 64 SAHPRA registrations (24 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/apixaban.md",
+      "date": "2026-11-19",
+      "from": "\"Apixaban: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Apixaban: predicted new indication migraine disorder (evidence level L5). In South Africa: 44 SAHPRA registrations (44 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/aripiprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In South Africa: 90 SAHPRA registrations (72 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/artemether.md",
+      "date": "2026-11-19",
+      "from": "\"Artemether: predicted new indication acquired angioedema (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Artemether: predicted new indication acquired angioedema (evidence level L5). In South Africa: 3 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ascorbic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). In South Africa: 119 SAHPRA registrations (70 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/atorvastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). In South Africa: 122 SAHPRA registrations (97 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/atropine.md",
+      "date": "2026-11-19",
+      "from": "\"Atropine: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Atropine: predicted new indication migraine disorder (evidence level L5). In South Africa: 38 SAHPRA registrations (18 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/azathioprine.md",
+      "date": "2026-11-19",
+      "from": "\"Azathioprine: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Azathioprine: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). In South Africa: 8 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bacitracin.md",
+      "date": "2026-11-19",
+      "from": "\"Bacitracin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bacitracin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 11 SAHPRA registrations (4 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/benazepril.md",
+      "date": "2026-11-19",
+      "from": "\"Benazepril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Benazepril: predicted new indication malignant hypertensive renal disease (evidence level L5). In South Africa: 8 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/benzocaine.md",
+      "date": "2026-11-19",
+      "from": "\"Benzocaine: predicted new indication papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Benzocaine: predicted new indication papillary conjunctivitis (evidence level L5). In South Africa: 59 SAHPRA registrations (37 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/benzylpenicillin.md",
+      "date": "2026-11-19",
+      "from": "\"Benzylpenicillin: predicted new indication pericoronitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Benzylpenicillin: predicted new indication pericoronitis (evidence level L5). In South Africa: 25 SAHPRA registrations (22 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/betamethasone.md",
+      "date": "2026-11-19",
+      "from": "\"Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). In South Africa: 65 SAHPRA registrations (51 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bimatoprost.md",
+      "date": "2026-11-19",
+      "from": "\"Bimatoprost: predicted new indication malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bimatoprost: predicted new indication malformation syndrome with odontal and/or periodontal component (evidence level L5). In South Africa: 22 SAHPRA registrations (22 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/biotin.md",
+      "date": "2026-11-19",
+      "from": "\"Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Biotin: predicted new indication Dyspepsia (evidence level L5). In South Africa: 43 SAHPRA registrations (39 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bismuth_subcarbonate.md",
+      "date": "2026-11-19",
+      "from": "\"Bismuth Subcarbonate: predicted new indication insomnia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bismuth Subcarbonate: predicted new indication insomnia (evidence level L5). In South Africa: 6 SAHPRA registrations (4 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bisoprolol.md",
+      "date": "2026-11-19",
+      "from": "\"Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 93 SAHPRA registrations (86 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bupropion.md",
+      "date": "2026-11-19",
+      "from": "\"Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). In South Africa: 30 SAHPRA registrations (25 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/caffeine.md",
+      "date": "2026-11-19",
+      "from": "\"Caffeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Caffeine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 205 SAHPRA registrations (136 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/calcifediol.md",
+      "date": "2026-11-19",
+      "from": "\"Calcifediol: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Calcifediol: predicted new indication Renal tubular acidosis (evidence level L5). In South Africa: 2 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/calcium_acetate.md",
+      "date": "2026-11-19",
+      "from": "\"Calcium Acetate: predicted new indication calcium-alkali syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Calcium Acetate: predicted new indication calcium-alkali syndrome (evidence level L5). In South Africa: 2 SAHPRA registrations (0 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/candesartan.md",
+      "date": "2026-11-19",
+      "from": "\"Candesartan: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Candesartan: predicted new indication Migraine disorder (evidence level L2). In South Africa: 43 SAHPRA registrations (26 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/candesartan_cilexetil.md",
+      "date": "2026-11-19",
+      "from": "\"Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). In South Africa: 43 SAHPRA registrations (26 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/captopril.md",
+      "date": "2026-11-19",
+      "from": "\"Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). In South Africa: 31 SAHPRA registrations (16 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carbocisteine.md",
+      "date": "2026-11-19",
+      "from": "\"Carbocisteine: predicted new indication gout (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Carbocisteine: predicted new indication gout (evidence level L5). In South Africa: 37 SAHPRA registrations (23 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carvedilol.md",
+      "date": "2026-11-19",
+      "from": "\"Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). In South Africa: 37 SAHPRA registrations (34 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cefazolin.md",
+      "date": "2026-11-19",
+      "from": "\"Cefazolin: predicted new indication infectious otitis media (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cefazolin: predicted new indication infectious otitis media (evidence level L5). In South Africa: 29 SAHPRA registrations (24 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ceftriaxone.md",
+      "date": "2026-11-19",
+      "from": "\"Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). In South Africa: 98 SAHPRA registrations (67 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cefuroxime.md",
+      "date": "2026-11-19",
+      "from": "\"Cefuroxime: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cefuroxime: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In South Africa: 88 SAHPRA registrations (64 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/celecoxib.md",
+      "date": "2026-11-19",
+      "from": "\"Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In South Africa: 63 SAHPRA registrations (58 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chloramphenicol.md",
+      "date": "2026-11-19",
+      "from": "\"Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). In South Africa: 36 SAHPRA registrations (21 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chlorobutanol.md",
+      "date": "2026-11-19",
+      "from": "\"Chlorobutanol: predicted new indication Erectile dysfunction (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chlorobutanol: predicted new indication Erectile dysfunction (disease) (evidence level L5). In South Africa: 5 SAHPRA registrations (5 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chloroquine.md",
+      "date": "2026-11-19",
+      "from": "\"Chloroquine: predicted new indication rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chloroquine: predicted new indication rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L5). In South Africa: 11 SAHPRA registrations (5 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chlorpheniramine.md",
+      "date": "2026-11-19",
+      "from": "\"Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 97 SAHPRA registrations (62 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chlorthalidone.md",
+      "date": "2026-11-19",
+      "from": "\"Chlorthalidone: predicted new indication primary hereditary glaucoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chlorthalidone: predicted new indication primary hereditary glaucoma (evidence level L5). In South Africa: 12 SAHPRA registrations (7 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cholecalciferol.md",
+      "date": "2026-11-19",
+      "from": "\"Cholecalciferol: predicted new indication acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cholecalciferol: predicted new indication acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). In South Africa: 5 SAHPRA registrations (5 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cilazapril.md",
+      "date": "2026-11-19",
+      "from": "\"Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). In South Africa: 3 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cinchocaine.md",
+      "date": "2026-11-19",
+      "from": "\"Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cinchocaine: predicted new indication Bronchitis (evidence level L5). In South Africa: 6 SAHPRA registrations (5 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ciprofloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). In South Africa: 107 SAHPRA registrations (75 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/citric_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Citric Acid: predicted new indication Stomach disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Citric Acid: predicted new indication Stomach disease (evidence level L5). In South Africa: 67 SAHPRA registrations (48 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clindamycin.md",
+      "date": "2026-11-19",
+      "from": "\"Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 25 SAHPRA registrations (22 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clioquinol.md",
+      "date": "2026-11-19",
+      "from": "\"Clioquinol: predicted new indication ectothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clioquinol: predicted new indication ectothrix infectious disease (evidence level L5). In South Africa: 16 SAHPRA registrations (8 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clobetasol_propionate.md",
+      "date": "2026-11-19",
+      "from": "\"Clobetasol Propionate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clobetasol Propionate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). In South Africa: 19 SAHPRA registrations (18 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clonazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Clonazepam: predicted new indication restless legs syndrome (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Clonazepam: predicted new indication restless legs syndrome (evidence level L2). In South Africa: 11 SAHPRA registrations (11 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clotrimazole.md",
+      "date": "2026-11-19",
+      "from": "\"Clotrimazole: predicted new indication acne (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clotrimazole: predicted new indication acne (evidence level L5). In South Africa: 65 SAHPRA registrations (51 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/codeine.md",
+      "date": "2026-11-19",
+      "from": "\"Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Codeine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 271 SAHPRA registrations (154 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/colchicine.md",
+      "date": "2026-11-19",
+      "from": "\"Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). In South Africa: 21 SAHPRA registrations (19 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/conjugated_estrogens.md",
+      "date": "2026-11-19",
+      "from": "\"Conjugated Estrogens: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Conjugated Estrogens: predicted new indication migraine disorder (evidence level L5). In South Africa: 1 SAHPRA registration (0 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cupric_chloride_dihydrate.md",
+      "date": "2026-11-19",
+      "from": "\"Cupric Chloride Dihydrate: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cupric Chloride Dihydrate: predicted new indication Primary release disorder of platelets (evidence level L5). In South Africa: 1 SAHPRA registration (1 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cyanocobalamin.md",
+      "date": "2026-11-19",
+      "from": "\"Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). In South Africa: 44 SAHPRA registrations (27 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cyclizine.md",
+      "date": "2026-11-19",
+      "from": "\"Cyclizine: predicted new indication allergic urticaria (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cyclizine: predicted new indication allergic urticaria (evidence level L5). In South Africa: 31 SAHPRA registrations (18 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cycloserine.md",
+      "date": "2026-11-19",
+      "from": "\"Cycloserine: predicted new indication irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cycloserine: predicted new indication irritable bowel syndrome (evidence level L5). In South Africa: 4 SAHPRA registrations (4 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cysteine.md",
+      "date": "2026-11-19",
+      "from": "\"Cysteine: predicted new indication Dry eye syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cysteine: predicted new indication Dry eye syndrome (evidence level L5). In South Africa: 14 SAHPRA registrations (9 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/desvenlafaxine.md",
+      "date": "2026-11-19",
+      "from": "\"Desvenlafaxine: predicted new indication obsessive-compulsive disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Desvenlafaxine: predicted new indication obsessive-compulsive disorder (evidence level L5). In South Africa: 24 SAHPRA registrations (24 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dexamethasone.md",
+      "date": "2026-11-19",
+      "from": "\"Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). In South Africa: 51 SAHPRA registrations (38 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dexchlorpheniramine_maleate.md",
+      "date": "2026-11-19",
+      "from": "\"Dexchlorpheniramine Maleate: predicted new indication acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dexchlorpheniramine Maleate: predicted new indication acute intermittent porphyria (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dexmedetomidine.md",
+      "date": "2026-11-19",
+      "from": "\"Dexmedetomidine: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dexmedetomidine: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In South Africa: 32 SAHPRA registrations (32 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dexpanthenol.md",
+      "date": "2026-11-19",
+      "from": "\"Dexpanthenol: predicted new indication anorectal stricture (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dexpanthenol: predicted new indication anorectal stricture (evidence level L5). In South Africa: 19 SAHPRA registrations (15 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dextromethorphan.md",
+      "date": "2026-11-19",
+      "from": "\"Dextromethorphan: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dextromethorphan: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 41 SAHPRA registrations (25 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Diazepam: predicted new indication insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Diazepam: predicted new indication insomnia (disease) (evidence level L3). In South Africa: 38 SAHPRA registrations (23 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diclofenac.md",
+      "date": "2026-11-19",
+      "from": "\"Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In South Africa: 107 SAHPRA registrations (86 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dicyclomine.md",
+      "date": "2026-11-19",
+      "from": "\"Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). In South Africa: 36 SAHPRA registrations (15 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/digoxin.md",
+      "date": "2026-11-19",
+      "from": "\"Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Digoxin: predicted new indication Prinzmetal angina (evidence level L5). In South Africa: 5 SAHPRA registrations (5 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dihydrocodeine.md",
+      "date": "2026-11-19",
+      "from": "\"Dihydrocodeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dihydrocodeine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 4 SAHPRA registrations (3 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diphenhydramine.md",
+      "date": "2026-11-19",
+      "from": "\"Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). In South Africa: 107 SAHPRA registrations (68 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dipyridamole.md",
+      "date": "2026-11-19",
+      "from": "\"Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). In South Africa: 5 SAHPRA registrations (3 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/docetaxel.md",
+      "date": "2026-11-19",
+      "from": "\"Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). In South Africa: 61 SAHPRA registrations (44 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/donepezil.md",
+      "date": "2026-11-19",
+      "from": "\"Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). In South Africa: 42 SAHPRA registrations (37 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dorzolamide.md",
+      "date": "2026-11-19",
+      "from": "\"Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In South Africa: 34 SAHPRA registrations (30 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/doxycycline.md",
+      "date": "2026-11-19",
+      "from": "\"Doxycycline: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Doxycycline: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 28 SAHPRA registrations (15 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/doxylamine.md",
+      "date": "2026-11-19",
+      "from": "\"Doxylamine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Doxylamine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 44 SAHPRA registrations (30 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dutasteride.md",
+      "date": "2026-11-19",
+      "from": "\"Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In South Africa: 11 SAHPRA registrations (10 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/econazole.md",
+      "date": "2026-11-19",
+      "from": "\"Econazole: predicted new indication ectothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Econazole: predicted new indication ectothrix infectious disease (evidence level L5). In South Africa: 8 SAHPRA registrations (4 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ephedrine.md",
+      "date": "2026-11-19",
+      "from": "\"Ephedrine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ephedrine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 42 SAHPRA registrations (25 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/erythromycin.md",
+      "date": "2026-11-19",
+      "from": "\"Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 58 SAHPRA registrations (32 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/esomeprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Esomeprazole: predicted new indication duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Esomeprazole: predicted new indication duodenal obstruction (evidence level L5). In South Africa: 89 SAHPRA registrations (82 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ethinylestradiol.md",
+      "date": "2026-11-19",
+      "from": "\"Ethinylestradiol: predicted new indication Elevated plasma zinc (zinc, elevated plasma) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ethinylestradiol: predicted new indication Elevated plasma zinc (zinc, elevated plasma) (evidence level L5). In South Africa: 77 SAHPRA registrations (62 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/etonogestrel.md",
+      "date": "2026-11-19",
+      "from": "\"Etonogestrel: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Etonogestrel: predicted new indication amenorrhea (disease) (evidence level L5). In South Africa: 2 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/famciclovir.md",
+      "date": "2026-11-19",
+      "from": "\"Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fenoterol.md",
+      "date": "2026-11-19",
+      "from": "\"Fenoterol: predicted new indication multiple system atrophy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fenoterol: predicted new indication multiple system atrophy (evidence level L5). In South Africa: 13 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fentanyl.md",
+      "date": "2026-11-19",
+      "from": "\"Fentanyl: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fentanyl: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In South Africa: 33 SAHPRA registrations (24 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ferrous_fumarate.md",
+      "date": "2026-11-19",
+      "from": "\"Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ferrous Fumarate: predicted new indication Non-syndromic esophageal malformation (evidence level L5). In South Africa: 9 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ferrous_gluconate.md",
+      "date": "2026-11-19",
+      "from": "\"Ferrous Gluconate: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ferrous Gluconate: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). In South Africa: 13 SAHPRA registrations (7 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ferrous_sulfate_anhydrous.md",
+      "date": "2026-11-19",
+      "from": "\"Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ferrous Sulfate Anhydrous: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). In South Africa: 3 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fexofenadine.md",
+      "date": "2026-11-19",
+      "from": "\"Fexofenadine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fexofenadine: predicted new indication rosacea conjunctivitis (evidence level L5). In South Africa: 40 SAHPRA registrations (36 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/flucloxacillin.md",
+      "date": "2026-11-19",
+      "from": "\"Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). In South Africa: 21 SAHPRA registrations (13 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Fluconazole: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fluconazole: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 84 SAHPRA registrations (66 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluocinolone_acetonide.md",
+      "date": "2026-11-19",
+      "from": "\"Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). In South Africa: 16 SAHPRA registrations (11 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluoxetine.md",
+      "date": "2026-11-19",
+      "from": "\"Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). In South Africa: 26 SAHPRA registrations (19 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluticasone_furoate.md",
+      "date": "2026-11-19",
+      "from": "\"Fluticasone Furoate: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fluticasone Furoate: predicted new indication atopic eczema (evidence level L5). In South Africa: 11 SAHPRA registrations (11 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/formoterol.md",
+      "date": "2026-11-19",
+      "from": "\"Formoterol: predicted new indication respiratory malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Formoterol: predicted new indication respiratory malformation (evidence level L5). In South Africa: 31 SAHPRA registrations (27 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fosinopril.md",
+      "date": "2026-11-19",
+      "from": "\"Fosinopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fosinopril: predicted new indication malignant hypertensive renal disease (evidence level L5). In South Africa: 5 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/framycetin.md",
+      "date": "2026-11-19",
+      "from": "\"Framycetin: predicted new indication sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Framycetin: predicted new indication sclerosing cholangitis (evidence level L5). In South Africa: 6 SAHPRA registrations (4 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fusidic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Fusidic Acid: predicted new indication exposure keratitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fusidic Acid: predicted new indication exposure keratitis (evidence level L5). In South Africa: 10 SAHPRA registrations (10 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/glycine.md",
+      "date": "2026-11-19",
+      "from": "\"Glycine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Glycine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 59 SAHPRA registrations (35 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/griseofulvin.md",
+      "date": "2026-11-19",
+      "from": "\"Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Griseofulvin: predicted new indication Myiasis (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/guaifenesin.md",
+      "date": "2026-11-19",
+      "from": "\"Guaifenesin: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Guaifenesin: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 80 SAHPRA registrations (48 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/haloperidol.md",
+      "date": "2026-11-19",
+      "from": "\"Haloperidol: predicted new indication congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Haloperidol: predicted new indication congenital disorder of glycosylation with defective fucosylation (evidence level L5). In South Africa: 16 SAHPRA registrations (4 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/histidine.md",
+      "date": "2026-11-19",
+      "from": "\"Histidine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Histidine: predicted new indication gastroparesis (disease) (evidence level L5). In South Africa: 52 SAHPRA registrations (32 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydrocortisone.md",
+      "date": "2026-11-19",
+      "from": "\"Hydrocortisone: predicted new indication alopecia areata (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Hydrocortisone: predicted new indication alopecia areata (evidence level L2). In South Africa: 67 SAHPRA registrations (42 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ibuprofen.md",
+      "date": "2026-11-19",
+      "from": "\"Ibuprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ibuprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In South Africa: 150 SAHPRA registrations (128 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/imatinib.md",
+      "date": "2026-11-19",
+      "from": "\"Imatinib: predicted new indication heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Imatinib: predicted new indication heart fibrosarcoma (evidence level L5). In South Africa: 26 SAHPRA registrations (23 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/insulin_aspart.md",
+      "date": "2026-11-19",
+      "from": "\"Insulin Aspart: predicted new indication autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Insulin Aspart: predicted new indication autoimmune oophoritis (evidence level L5). In South Africa: 5 SAHPRA registrations (4 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/insulin_degludec.md",
+      "date": "2026-11-19",
+      "from": "\"Insulin Degludec: predicted new indication autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Insulin Degludec: predicted new indication autoimmune oophoritis (evidence level L5). In South Africa: 4 SAHPRA registrations (3 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/insulin_detemir.md",
+      "date": "2026-11-19",
+      "from": "\"Insulin Detemir: predicted new indication autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Insulin Detemir: predicted new indication autoimmune oophoritis (evidence level L5). In South Africa: 1 SAHPRA registration (1 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/insulin_glargine.md",
+      "date": "2026-11-19",
+      "from": "\"Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). In South Africa: 15 SAHPRA registrations (7 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/insulin_glulisine.md",
+      "date": "2026-11-19",
+      "from": "\"Insulin Glulisine: predicted new indication thiamine-responsive dysfunction syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Insulin Glulisine: predicted new indication thiamine-responsive dysfunction syndrome (evidence level L5). In South Africa: 2 SAHPRA registrations (1 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ipratropium.md",
+      "date": "2026-11-19",
+      "from": "\"Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 31 SAHPRA registrations (17 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/irbesartan.md",
+      "date": "2026-11-19",
+      "from": "\"Irbesartan: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Irbesartan: predicted new indication malignant hypertensive renal disease (evidence level L5). In South Africa: 76 SAHPRA registrations (43 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/iron.md",
+      "date": "2026-11-19",
+      "from": "\"Iron: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Iron: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). In South Africa: 4 SAHPRA registrations (4 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/isoniazid.md",
+      "date": "2026-11-19",
+      "from": "\"Isoniazid: predicted new indication conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Isoniazid: predicted new indication conjunctivitis (evidence level L5). In South Africa: 70 SAHPRA registrations (46 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/isotretinoin.md",
+      "date": "2026-11-19",
+      "from": "\"Isotretinoin: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Isotretinoin: predicted new indication malignant hypertensive renal disease (evidence level L5). In South Africa: 14 SAHPRA registrations (13 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/itraconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Itraconazole: predicted new indication Pneumocystosis (evidence level L5). In South Africa: 9 SAHPRA registrations (8 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ivermectin.md",
+      "date": "2026-11-19",
+      "from": "\"Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). In South Africa: 2 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ketoconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Ketoconazole: predicted new indication Acne (disease) (evidence level L4). In South Africa: 10 SAHPRA registrations (3 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/l-lysine.md",
+      "date": "2026-11-19",
+      "from": "\"L-Lysine: predicted new indication Gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"L-Lysine: predicted new indication Gastroparesis (disease) (evidence level L5). In South Africa: 40 SAHPRA registrations (23 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/labetalol.md",
+      "date": "2026-11-19",
+      "from": "\"Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 5 SAHPRA registrations (5 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lamivudine.md",
+      "date": "2026-11-19",
+      "from": "\"Lamivudine: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lamivudine: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). In South Africa: 198 SAHPRA registrations (141 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lansoprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). In South Africa: 36 SAHPRA registrations (33 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/latanoprost.md",
+      "date": "2026-11-19",
+      "from": "\"Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). In South Africa: 28 SAHPRA registrations (22 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/leucovorin.md",
+      "date": "2026-11-19",
+      "from": "\"Leucovorin: predicted new indication primary hyperoxaluria (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Leucovorin: predicted new indication primary hyperoxaluria (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levetiracetam.md",
+      "date": "2026-11-19",
+      "from": "\"Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In South Africa: 59 SAHPRA registrations (53 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levodopa.md",
+      "date": "2026-11-19",
+      "from": "\"Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In South Africa: 17 SAHPRA registrations (16 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levofloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 84 SAHPRA registrations (53 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levonorgestrel.md",
+      "date": "2026-11-19",
+      "from": "\"Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). In South Africa: 37 SAHPRA registrations (36 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lidocaine.md",
+      "date": "2026-11-19",
+      "from": "\"Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 78 SAHPRA registrations (57 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lisinopril.md",
+      "date": "2026-11-19",
+      "from": "\"Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lisinopril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). In South Africa: 68 SAHPRA registrations (42 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/losartan.md",
+      "date": "2026-11-19",
+      "from": "\"Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). In South Africa: 108 SAHPRA registrations (79 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/magnesium_carbonate.md",
+      "date": "2026-11-19",
+      "from": "\"Magnesium Carbonate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Magnesium Carbonate: predicted new indication Gastroduodenitis (evidence level L5). In South Africa: 45 SAHPRA registrations (25 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/magnesium_trisilicate.md",
+      "date": "2026-11-19",
+      "from": "\"Magnesium Trisilicate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Magnesium Trisilicate: predicted new indication Gastroduodenitis (evidence level L5). In South Africa: 32 SAHPRA registrations (14 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mebendazole.md",
+      "date": "2026-11-19",
+      "from": "\"Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mebendazole: predicted new indication Acne (disease) (evidence level L5). In South Africa: 25 SAHPRA registrations (20 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/medroxyprogesterone_acetate.md",
+      "date": "2026-11-19",
+      "from": "\"Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). In South Africa: 21 SAHPRA registrations (16 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/meloxicam.md",
+      "date": "2026-11-19",
+      "from": "\"Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In South Africa: 66 SAHPRA registrations (57 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mepyramine.md",
+      "date": "2026-11-19",
+      "from": "\"Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 56 SAHPRA registrations (26 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/methylprednisolone.md",
+      "date": "2026-11-19",
+      "from": "\"Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). In South Africa: 36 SAHPRA registrations (32 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metoclopramide.md",
+      "date": "2026-11-19",
+      "from": "\"Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). In South Africa: 39 SAHPRA registrations (24 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/miconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Miconazole: predicted new indication Acne (disease) (evidence level L4). In South Africa: 22 SAHPRA registrations (9 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/midazolam.md",
+      "date": "2026-11-19",
+      "from": "\"Midazolam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Midazolam: predicted new indication Insomnia (disease) (evidence level L2). In South Africa: 55 SAHPRA registrations (40 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/minocycline.md",
+      "date": "2026-11-19",
+      "from": "\"Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 15 SAHPRA registrations (14 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mirtazapine.md",
+      "date": "2026-11-19",
+      "from": "\"Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). In South Africa: 26 SAHPRA registrations (24 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/moclobemide.md",
+      "date": "2026-11-19",
+      "from": "\"Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Moclobemide: predicted new indication Agoraphobia (evidence level L2). In South Africa: 8 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/montelukast.md",
+      "date": "2026-11-19",
+      "from": "\"Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Montelukast: predicted new indication Bronchitis (evidence level L2). In South Africa: 107 SAHPRA registrations (92 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/morphine.md",
+      "date": "2026-11-19",
+      "from": "\"Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). In South Africa: 32 SAHPRA registrations (25 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/moxifloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). In South Africa: 30 SAHPRA registrations (27 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mupirocin.md",
+      "date": "2026-11-19",
+      "from": "\"Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). In South Africa: 16 SAHPRA registrations (15 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/naproxen.md",
+      "date": "2026-11-19",
+      "from": "\"Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In South Africa: 39 SAHPRA registrations (25 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nitrogen.md",
+      "date": "2026-11-19",
+      "from": "\"Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). In South Africa: 4 SAHPRA registrations (3 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/norgestimate.md",
+      "date": "2026-11-19",
+      "from": "\"Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). In South Africa: 2 SAHPRA registrations (0 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nystatin.md",
+      "date": "2026-11-19",
+      "from": "\"Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Nystatin: predicted new indication Disease of orbital region (evidence level L5). In South Africa: 20 SAHPRA registrations (7 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/olanzapine.md",
+      "date": "2026-11-19",
+      "from": "\"Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In South Africa: 89 SAHPRA registrations (80 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/olopatadine.md",
+      "date": "2026-11-19",
+      "from": "\"Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). In South Africa: 14 SAHPRA registrations (14 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/omega-3_fatty_acids.md",
+      "date": "2026-11-19",
+      "from": "\"Omega-3 Fatty Acids: predicted new indication Tendinitis (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Omega-3 Fatty Acids: predicted new indication Tendinitis (evidence level L4). In South Africa: 2 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/omeprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). In South Africa: 49 SAHPRA registrations (40 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/orphenadrine.md",
+      "date": "2026-11-19",
+      "from": "\"Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In South Africa: 9 SAHPRA registrations (7 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxymetazoline.md",
+      "date": "2026-11-19",
+      "from": "\"Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 42 SAHPRA registrations (24 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxytetracycline.md",
+      "date": "2026-11-19",
+      "from": "\"Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). In South Africa: 29 SAHPRA registrations (18 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pantoprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). In South Africa: 84 SAHPRA registrations (66 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pantothenic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). In South Africa: 2 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/paroxetine.md",
+      "date": "2026-11-19",
+      "from": "\"Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). In South Africa: 28 SAHPRA registrations (21 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/perindopril.md",
+      "date": "2026-11-19",
+      "from": "\"Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 134 SAHPRA registrations (128 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pheniramine.md",
+      "date": "2026-11-19",
+      "from": "\"Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 9 SAHPRA registrations (5 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phenobarbital.md",
+      "date": "2026-11-19",
+      "from": "\"Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In South Africa: 5 SAHPRA registrations (3 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phenol.md",
+      "date": "2026-11-19",
+      "from": "\"Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). In South Africa: 39 SAHPRA registrations (23 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phenoxymethylpenicillin.md",
+      "date": "2026-11-19",
+      "from": "\"Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). In South Africa: 34 SAHPRA registrations (18 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phenylephrine.md",
+      "date": "2026-11-19",
+      "from": "\"Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). In South Africa: 121 SAHPRA registrations (77 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phenytoin.md",
+      "date": "2026-11-19",
+      "from": "\"Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In South Africa: 14 SAHPRA registrations (12 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pioglitazone.md",
+      "date": "2026-11-19",
+      "from": "\"Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). In South Africa: 14 SAHPRA registrations (12 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/polymyxin_b.md",
+      "date": "2026-11-19",
+      "from": "\"Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Polymyxin B: predicted new indication Bronchitis (evidence level L4). In South Africa: 15 SAHPRA registrations (7 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/potassium_acetate.md",
+      "date": "2026-11-19",
+      "from": "\"Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L5). In South Africa: 11 SAHPRA registrations (11 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/potassium_chloride.md",
+      "date": "2026-11-19",
+      "from": "\"Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). In South Africa: 173 SAHPRA registrations (114 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/potassium_iodide.md",
+      "date": "2026-11-19",
+      "from": "\"Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). In South Africa: 15 SAHPRA registrations (10 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pramipexole.md",
+      "date": "2026-11-19",
+      "from": "\"Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). In South Africa: 63 SAHPRA registrations (58 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pramocaine.md",
+      "date": "2026-11-19",
+      "from": "\"Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). In South Africa: 1 SAHPRA registration (1 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pravastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Pravastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Pravastatin: predicted new indication HIV infectious disease (evidence level L2). In South Africa: 32 SAHPRA registrations (17 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prednisolone.md",
+      "date": "2026-11-19",
+      "from": "\"Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Prednisolone: predicted new indication Alopecia areata (evidence level L2). In South Africa: 33 SAHPRA registrations (26 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prednisone.md",
+      "date": "2026-11-19",
+      "from": "\"Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Prednisone: predicted new indication Alopecia areata (evidence level L2). In South Africa: 12 SAHPRA registrations (10 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/progesterone.md",
+      "date": "2026-11-19",
+      "from": "\"Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). In South Africa: 11 SAHPRA registrations (10 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/propranolol.md",
+      "date": "2026-11-19",
+      "from": "\"Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In South Africa: 29 SAHPRA registrations (15 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pseudoephedrine.md",
+      "date": "2026-11-19",
+      "from": "\"Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 127 SAHPRA registrations (67 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/quinapril.md",
+      "date": "2026-11-19",
+      "from": "\"Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 42 SAHPRA registrations (19 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ranitidine.md",
+      "date": "2026-11-19",
+      "from": "\"Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). In South Africa: 68 SAHPRA registrations (25 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/resorcinol.md",
+      "date": "2026-11-19",
+      "from": "\"Resorcinol: predicted new indication Acne keloid (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Resorcinol: predicted new indication Acne keloid (evidence level L5). In South Africa: 9 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rilpivirine.md",
+      "date": "2026-11-19",
+      "from": "\"Rilpivirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rilpivirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In South Africa: 10 SAHPRA registrations (10 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/risperidone.md",
+      "date": "2026-11-19",
+      "from": "\"Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In South Africa: 147 SAHPRA registrations (105 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rosuvastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). In South Africa: 139 SAHPRA registrations (129 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/roxithromycin.md",
+      "date": "2026-11-19",
+      "from": "\"Roxithromycin: predicted new indication Leprosy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Roxithromycin: predicted new indication Leprosy (evidence level L5). In South Africa: 8 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salbutamol.md",
+      "date": "2026-11-19",
+      "from": "\"Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). In South Africa: 57 SAHPRA registrations (33 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salicylic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). In South Africa: 38 SAHPRA registrations (30 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salmeterol.md",
+      "date": "2026-11-19",
+      "from": "\"Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Salmeterol: predicted new indication Respiratory malformation (evidence level L5). In South Africa: 43 SAHPRA registrations (38 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/serine.md",
+      "date": "2026-11-19",
+      "from": "\"Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Serine: predicted new indication Familial visceral myopathy (evidence level L5). In South Africa: 18 SAHPRA registrations (17 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sertraline.md",
+      "date": "2026-11-19",
+      "from": "\"Sertraline: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sertraline: predicted new indication Paranoid personality disorder (evidence level L5). In South Africa: 37 SAHPRA registrations (33 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/simvastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Simvastatin: predicted new indication Brain stem infarction (evidence level L5). In South Africa: 107 SAHPRA registrations (82 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sodium_citrate.md",
+      "date": "2026-11-19",
+      "from": "\"Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). In South Africa: 101 SAHPRA registrations (70 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sodium_fluoride.md",
+      "date": "2026-11-19",
+      "from": "\"Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). In South Africa: 21 SAHPRA registrations (11 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/spironolactone.md",
+      "date": "2026-11-19",
+      "from": "\"Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In South Africa: 18 SAHPRA registrations (18 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/stavudine.md",
+      "date": "2026-11-19",
+      "from": "\"Stavudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Stavudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In South Africa: 35 SAHPRA registrations (12 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sulfadoxine.md",
+      "date": "2026-11-19",
+      "from": "\"Sulfadoxine: predicted new indication Gout (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sulfadoxine: predicted new indication Gout (evidence level L5). In South Africa: 2 SAHPRA registrations (2 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sulfamethoxazole.md",
+      "date": "2026-11-19",
+      "from": "\"Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). In South Africa: 75 SAHPRA registrations (54 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sulfanilamide.md",
+      "date": "2026-11-19",
+      "from": "\"Sulfanilamide: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sulfanilamide: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). In South Africa: 7 SAHPRA registrations (5 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tacrolimus.md",
+      "date": "2026-11-19",
+      "from": "\"Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data\"",
+      "to": "\"Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). In South Africa: 53 SAHPRA registrations (50 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tadalafil.md",
+      "date": "2026-11-19",
+      "from": "\"Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In South Africa: 73 SAHPRA registrations (66 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tamsulosin.md",
+      "date": "2026-11-19",
+      "from": "\"Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In South Africa: 29 SAHPRA registrations (26 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/telmisartan.md",
+      "date": "2026-11-19",
+      "from": "\"Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). In South Africa: 135 SAHPRA registrations (127 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tenofovir_disoproxil.md",
+      "date": "2026-11-19",
+      "from": "\"Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In South Africa: 137 SAHPRA registrations (107 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/theophylline.md",
+      "date": "2026-11-19",
+      "from": "\"Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Theophylline: predicted new indication Thrombotic disease (evidence level L5). In South Africa: 39 SAHPRA registrations (23 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tiotropium.md",
+      "date": "2026-11-19",
+      "from": "\"Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tiotropium: predicted new indication Respiratory malformation (evidence level L5). In South Africa: 9 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tobramycin.md",
+      "date": "2026-11-19",
+      "from": "\"Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Tobramycin: predicted new indication Exposure keratitis (evidence level L4). In South Africa: 22 SAHPRA registrations (19 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tocilizumab.md",
+      "date": "2026-11-19",
+      "from": "\"Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). In South Africa: 4 SAHPRA registrations (4 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tramadol.md",
+      "date": "2026-11-19",
+      "from": "\"Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In South Africa: 82 SAHPRA registrations (75 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trandolapril.md",
+      "date": "2026-11-19",
+      "from": "\"Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 25 SAHPRA registrations (12 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trazodone.md",
+      "date": "2026-11-19",
+      "from": "\"Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L3). In South Africa: 23 SAHPRA registrations (21 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tretinoin.md",
+      "date": "2026-11-19",
+      "from": "\"Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). In South Africa: 11 SAHPRA registrations (11 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/triamcinolone.md",
+      "date": "2026-11-19",
+      "from": "\"Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). In South Africa: 12 SAHPRA registrations (3 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/triamterene.md",
+      "date": "2026-11-19",
+      "from": "\"Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 4 SAHPRA registrations (1 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trimethoprim.md",
+      "date": "2026-11-19",
+      "from": "\"Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 76 SAHPRA registrations (53 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/triprolidine.md",
+      "date": "2026-11-19",
+      "from": "\"Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 55 SAHPRA registrations (29 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/valsartan.md",
+      "date": "2026-11-19",
+      "from": "\"Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). In South Africa: 256 SAHPRA registrations (223 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/verapamil.md",
+      "date": "2026-11-19",
+      "from": "\"Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). In South Africa: 22 SAHPRA registrations (18 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/vilanterol.md",
+      "date": "2026-11-19",
+      "from": "\"Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/vitamin_e.md",
+      "date": "2026-11-19",
+      "from": "\"Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L5). In South Africa: 17 SAHPRA registrations (12 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zinc_chloride.md",
+      "date": "2026-11-19",
+      "from": "\"Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Zinc Chloride: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). In South Africa: 5 SAHPRA registrations (4 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zinc_gluconate.md",
+      "date": "2026-11-19",
+      "from": "\"Zinc Gluconate: predicted new indication Anemia of prematurity (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Zinc Gluconate: predicted new indication Anemia of prematurity (evidence level L5). In South Africa: 2 SAHPRA registrations (1 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zinc_oxide.md",
+      "date": "2026-11-19",
+      "from": "\"Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). In South Africa: 49 SAHPRA registrations (30 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zinc_sulfate.md",
+      "date": "2026-11-19",
+      "from": "\"Zinc Sulfate: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Zinc Sulfate: predicted new indication Pharyngitis (evidence level L5). In South Africa: 1 SAHPRA registration (1 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zolpidem.md",
+      "date": "2026-11-19",
+      "from": "\"Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In South Africa: 32 SAHPRA registrations (28 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    }
+  ]
+}

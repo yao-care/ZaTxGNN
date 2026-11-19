@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Leucovorin"
 predicted_indications: ["primary hyperoxaluria", "congenital intrinsic factor deficiency"]
 last_modified_at: 2026-11-12
-description: "Leucovorin: predicted new indication primary hyperoxaluria (evidence level L5). Approved use: Not recorded in the local data"
+description: "Leucovorin: predicted new indication primary hyperoxaluria (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)"
 ---
 
 # Leucovorin

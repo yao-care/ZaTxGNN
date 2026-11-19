@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "FORMOTEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 last_modified_at: 2026-11-12
-description: "Formoterol: predicted new indication respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
+description: "Formoterol: predicted new indication respiratory malformation (evidence level L5). In South Africa: 31 SAHPRA registrations (27 valid)"
 ---
 
 # Formoterol

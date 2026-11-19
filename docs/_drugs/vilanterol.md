@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
-description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
+description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)"
 ---
 
 # Vilanterol

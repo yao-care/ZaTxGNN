@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "TRAZODONE"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
-description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L3). Approved use: Not recorded in the local data"
+description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L3). In South Africa: 23 SAHPRA registrations (21 valid)"
 ---
 
 # Trazodone

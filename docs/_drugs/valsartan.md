@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-17
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
-description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
+description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). In South Africa: 256 SAHPRA registrations (223 valid)"
 ---
 
 # Valsartan

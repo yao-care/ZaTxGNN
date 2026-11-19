@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Isoniazid"
 predicted_indications: ["conjunctivitis"]
 last_modified_at: 2026-11-12
-description: "Isoniazid: predicted new indication conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Isoniazid: predicted new indication conjunctivitis (evidence level L5). In South Africa: 70 SAHPRA registrations (46 valid)"
 ---
 
 # Isoniazid

@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-17
 monitor_inn: "SODIUM FLUORIDE"
 predicted_indications: ["epiglottitis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis"]
-description: "Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sodium Fluoride: predicted new indication Epiglottitis (evidence level L5). In South Africa: 21 SAHPRA registrations (11 valid)"
 ---
 
 # Sodium Fluoride

@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
 last_modified_at: 2026-11-17
-description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). In South Africa: 39 SAHPRA registrations (23 valid)"
 ---
 
 # Theophylline

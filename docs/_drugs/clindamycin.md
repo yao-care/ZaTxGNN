@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
 last_modified_at: 2026-11-17
-description: "Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 25 SAHPRA registrations (22 valid)"
 ---
 
 # Clindamycin

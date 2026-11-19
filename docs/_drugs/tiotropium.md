@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
+description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). In South Africa: 9 SAHPRA registrations (6 valid)"
 ---
 
 # Tiotropium

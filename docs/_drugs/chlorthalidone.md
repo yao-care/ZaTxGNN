@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
 last_modified_at: 2026-11-12
-description: "Chlorthalidone: predicted new indication primary hereditary glaucoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Chlorthalidone: predicted new indication primary hereditary glaucoma (evidence level L5). In South Africa: 12 SAHPRA registrations (7 valid)"
 ---
 
 # Chlorthalidone

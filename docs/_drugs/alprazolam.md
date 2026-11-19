@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
 last_modified_at: 2026-11-12
-description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
+description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). In South Africa: 40 SAHPRA registrations (29 valid)"
 ---
 
 # Alprazolam

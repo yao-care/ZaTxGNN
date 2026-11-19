@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
-description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In South Africa: 17 SAHPRA registrations (16 valid)"
 ---
 
 # Levodopa

@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "Sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
-description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). In South Africa: 101 SAHPRA registrations (70 valid)"
 ---
 
 # Sodium Citrate

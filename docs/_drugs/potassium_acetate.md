@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "POTASSIUM ACETATE"
 predicted_indications: ["renal tubular acidosis"]
-description: "Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L5). In South Africa: 11 SAHPRA registrations (11 valid)"
 ---
 
 # Potassium Acetate

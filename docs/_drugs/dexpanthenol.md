@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
 last_modified_at: 2026-11-12
-description: "Dexpanthenol: predicted new indication anorectal stricture (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dexpanthenol: predicted new indication anorectal stricture (evidence level L5). In South Africa: 19 SAHPRA registrations (15 valid)"
 ---
 
 # Dexpanthenol

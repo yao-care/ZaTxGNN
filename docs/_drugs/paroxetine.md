@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
-description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
+description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). In South Africa: 28 SAHPRA registrations (21 valid)"
 ---
 
 # Paroxetine

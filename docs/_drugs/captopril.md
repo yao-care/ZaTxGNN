@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 last_modified_at: 2026-11-17
-description: "Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). In South Africa: 31 SAHPRA registrations (16 valid)"
 ---
 
 # Captopril

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "Zinc oxide"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
-description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). In South Africa: 49 SAHPRA registrations (30 valid)"
 ---
 
 # Zinc Oxide

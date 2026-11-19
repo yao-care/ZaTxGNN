@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "Nitrogen"
 predicted_indications: ["16q24.1 microdeletion syndrome", "primary interstitial lung disease specific to childhood", "isolated pulmonary capillaritis", "congenital pulmonary lymphangiectasia"]
-description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). In South Africa: 4 SAHPRA registrations (3 valid)"
 ---
 
 # Nitrogen

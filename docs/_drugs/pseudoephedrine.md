@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "PSEUDOEPHEDRINE"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
-description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 127 SAHPRA registrations (67 valid)"
 ---
 
 # Pseudoephedrine

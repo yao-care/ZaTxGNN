@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Chlorobutanol"
 predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
-description: "Chlorobutanol: predicted new indication Erectile dysfunction (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Chlorobutanol: predicted new indication Erectile dysfunction (disease) (evidence level L5). In South Africa: 5 SAHPRA registrations (5 valid)"
 ---
 
 # Chlorobutanol

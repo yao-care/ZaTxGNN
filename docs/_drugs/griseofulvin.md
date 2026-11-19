@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "Griseofulvin"
 predicted_indications: ["myiasis", "furuncular myiasis", "creeping myiasis", "wound myiasis", "echinococcus granulosus infectious disease"]
 last_modified_at: 2026-11-12
-description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)"
 ---
 
 # Griseofulvin

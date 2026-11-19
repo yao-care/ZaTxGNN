@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "MEPYRAMINE"
 predicted_indications: ["nasal cavity disease"]
-description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 56 SAHPRA registrations (26 valid)"
 ---
 
 # Mepyramine

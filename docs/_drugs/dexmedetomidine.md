@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "Dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
 last_modified_at: 2026-11-12
-description: "Dexmedetomidine: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dexmedetomidine: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In South Africa: 32 SAHPRA registrations (32 valid)"
 ---
 
 # Dexmedetomidine

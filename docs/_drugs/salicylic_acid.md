@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-17
 monitor_inn: "Salicylic acid"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
-description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). In South Africa: 38 SAHPRA registrations (30 valid)"
 ---
 
 # Salicylic Acid

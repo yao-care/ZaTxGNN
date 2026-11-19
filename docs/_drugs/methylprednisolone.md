@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-17
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
+description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). In South Africa: 36 SAHPRA registrations (32 valid)"
 ---
 
 # Methylprednisolone

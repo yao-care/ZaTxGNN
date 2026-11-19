@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Cycloserine"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
 last_modified_at: 2026-11-12
-description: "Cycloserine: predicted new indication irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cycloserine: predicted new indication irritable bowel syndrome (evidence level L5). In South Africa: 4 SAHPRA registrations (4 valid)"
 ---
 
 # Cycloserine

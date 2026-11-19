@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
-description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). In South Africa: 26 SAHPRA registrations (24 valid)"
 ---
 
 # Mirtazapine

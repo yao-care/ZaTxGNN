@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Bismuth subcarbonate"
 predicted_indications: ["insomnia (disease)"]
 last_modified_at: 2026-11-12
-description: "Bismuth Subcarbonate: predicted new indication insomnia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Bismuth Subcarbonate: predicted new indication insomnia (evidence level L5). In South Africa: 6 SAHPRA registrations (4 valid)"
 ---
 
 # Bismuth Subcarbonate

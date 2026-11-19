@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Cyclizine"
 predicted_indications: ["allergic urticaria", "nasal cavity disease", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "recalcitrant atopic dermatitis"]
 last_modified_at: 2026-11-12
-description: "Cyclizine: predicted new indication allergic urticaria (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cyclizine: predicted new indication allergic urticaria (evidence level L5). In South Africa: 31 SAHPRA registrations (18 valid)"
 ---
 
 # Cyclizine

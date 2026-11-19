@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
 last_modified_at: 2026-11-12
-description: "Dihydrocodeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dihydrocodeine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 4 SAHPRA registrations (3 valid)"
 ---
 
 # Dihydrocodeine

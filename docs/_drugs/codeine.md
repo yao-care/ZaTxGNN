@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "CODEINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 last_modified_at: 2026-11-19
-description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 271 SAHPRA registrations (154 valid)"
 ---
 
 # Codeine

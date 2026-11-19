@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
-description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
+description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). In South Africa: 53 SAHPRA registrations (50 valid)"
 ---
 
 # Tacrolimus

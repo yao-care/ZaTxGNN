@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
-description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
+description: "Montelukast: predicted new indication Bronchitis (evidence level L2). In South Africa: 107 SAHPRA registrations (92 valid)"
 ---
 
 # Montelukast

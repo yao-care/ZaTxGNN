@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
-description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data"
+description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L2). In South Africa: 55 SAHPRA registrations (40 valid)"
 ---
 
 # Midazolam

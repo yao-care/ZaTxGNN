@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
 last_modified_at: 2026-11-12
-description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). In South Africa: 16 SAHPRA registrations (11 valid)"
 ---
 
 # Fluocinolone Acetonide

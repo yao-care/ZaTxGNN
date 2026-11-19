@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "MAGNESIUM CARBONATE"
 predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "stomach disease", "duodenal obstruction"]
-description: "Magnesium Carbonate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Magnesium Carbonate: predicted new indication Gastroduodenitis (evidence level L5). In South Africa: 45 SAHPRA registrations (25 valid)"
 ---
 
 # Magnesium Carbonate

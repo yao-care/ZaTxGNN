@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
 last_modified_at: 2026-11-12
-description: "Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Biotin: predicted new indication Dyspepsia (evidence level L5). In South Africa: 43 SAHPRA registrations (39 valid)"
 ---
 
 # Biotin

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "TRIAMTERENE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-description: "Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 4 SAHPRA registrations (1 valid)"
 ---
 
 # Triamterene

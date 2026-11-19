@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
 last_modified_at: 2026-11-17
-description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
+description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). In South Africa: 30 SAHPRA registrations (25 valid)"
 ---
 
 # Bupropion

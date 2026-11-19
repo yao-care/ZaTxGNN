@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
-description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not recorded in the local data"
+description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). In South Africa: 15 SAHPRA registrations (7 valid)"
 ---
 
 # Polymyxin B

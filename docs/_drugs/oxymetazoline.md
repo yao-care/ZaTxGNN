@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "OXYMETAZOLINE"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
-description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 42 SAHPRA registrations (24 valid)"
 ---
 
 # Oxymetazoline

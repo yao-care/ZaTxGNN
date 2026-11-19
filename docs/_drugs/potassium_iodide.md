@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Potassium Iodide"
 predicted_indications: ["nasal cavity disease"]
-description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
+description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). In South Africa: 15 SAHPRA registrations (10 valid)"
 ---
 
 # Potassium Iodide

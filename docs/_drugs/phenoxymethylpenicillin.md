@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Phenoxymethylpenicillin"
 predicted_indications: ["epiglottitis", "laryngitis"]
-description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). In South Africa: 34 SAHPRA registrations (18 valid)"
 ---
 
 # Phenoxymethylpenicillin

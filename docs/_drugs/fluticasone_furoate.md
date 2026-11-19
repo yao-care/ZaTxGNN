@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "FLUTICASONE FUROATE"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]
 last_modified_at: 2026-11-12
-description: "Fluticasone Furoate: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fluticasone Furoate: predicted new indication atopic eczema (evidence level L5). In South Africa: 11 SAHPRA registrations (11 valid)"
 ---
 
 # Fluticasone Furoate

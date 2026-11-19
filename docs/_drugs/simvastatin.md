@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-17
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
+description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). In South Africa: 107 SAHPRA registrations (82 valid)"
 ---
 
 # Simvastatin

@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Histidine"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 last_modified_at: 2026-11-12
-description: "Histidine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Histidine: predicted new indication gastroparesis (disease) (evidence level L5). In South Africa: 52 SAHPRA registrations (32 valid)"
 ---
 
 # Histidine

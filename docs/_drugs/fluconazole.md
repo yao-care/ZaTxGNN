@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 last_modified_at: 2026-11-17
-description: "Fluconazole: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fluconazole: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 84 SAHPRA registrations (66 valid)"
 ---
 
 # Fluconazole

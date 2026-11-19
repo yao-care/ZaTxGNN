@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
 last_modified_at: 2026-11-12
-description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 78 SAHPRA registrations (57 valid)"
 ---
 
 # Lidocaine

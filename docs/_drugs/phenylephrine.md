@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
-description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
+description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). In South Africa: 121 SAHPRA registrations (77 valid)"
 ---
 
 # Phenylephrine

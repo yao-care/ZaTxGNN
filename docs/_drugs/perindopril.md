@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-17
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 134 SAHPRA registrations (128 valid)"
 ---
 
 # Perindopril

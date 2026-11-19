@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
 last_modified_at: 2026-11-12
-description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). In South Africa: 107 SAHPRA registrations (68 valid)"
 ---
 
 # Diphenhydramine

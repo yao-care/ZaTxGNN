@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease"]
 last_modified_at: 2026-11-17
-description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). In South Africa: 3 SAHPRA registrations (2 valid)"
 ---
 
 # Cilazapril

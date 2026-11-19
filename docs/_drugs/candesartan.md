@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
-description: "Candesartan: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the local data"
+description: "Candesartan: predicted new indication Migraine disorder (evidence level L2). In South Africa: 43 SAHPRA registrations (26 valid)"
 ---
 
 # Candesartan

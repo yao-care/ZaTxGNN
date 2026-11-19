@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
 last_modified_at: 2026-11-12
-description: "Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In South Africa: 11 SAHPRA registrations (10 valid)"
 ---
 
 # Dutasteride

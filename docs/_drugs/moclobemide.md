@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-17
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
-description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Not recorded in the local data"
+description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). In South Africa: 8 SAHPRA registrations (2 valid)"
 ---
 
 # Moclobemide

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-17
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). In South Africa: 107 SAHPRA registrations (75 valid)"
 ---
 
 # Ciprofloxacin

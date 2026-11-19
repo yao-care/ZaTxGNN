@@ -9,7 +9,7 @@ drugbank_id: DB09131
 monitor_inn: "Cupric Chloride"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "thrombocytopenia due to immune destruction"]
 last_modified_at: 2026-11-16
-description: "Cupric Chloride Dihydrate: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cupric Chloride Dihydrate: predicted new indication Primary release disorder of platelets (evidence level L5). In South Africa: 1 SAHPRA registration (1 valid)"
 ---
 
 # Cupric Chloride Dihydrate

@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 last_modified_at: 2026-11-17
-description: "Haloperidol: predicted new indication congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
+description: "Haloperidol: predicted new indication congenital disorder of glycosylation with defective fucosylation (evidence level L5). In South Africa: 16 SAHPRA registrations (4 valid)"
 ---
 
 # Haloperidol

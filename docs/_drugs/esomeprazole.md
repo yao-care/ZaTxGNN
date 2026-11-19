@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 last_modified_at: 2026-11-17
-description: "Esomeprazole: predicted new indication duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
+description: "Esomeprazole: predicted new indication duodenal obstruction (evidence level L5). In South Africa: 89 SAHPRA registrations (82 valid)"
 ---
 
 # Esomeprazole

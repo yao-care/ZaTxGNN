@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-17
 monitor_inn: "Roxithromycin"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
-description: "Roxithromycin: predicted new indication Leprosy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Roxithromycin: predicted new indication Leprosy (evidence level L5). In South Africa: 8 SAHPRA registrations (2 valid)"
 ---
 
 # Roxithromycin

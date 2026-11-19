@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-17
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
-description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Not recorded in the local data"
+description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). In South Africa: 173 SAHPRA registrations (114 valid)"
 ---
 
 # Potassium Chloride

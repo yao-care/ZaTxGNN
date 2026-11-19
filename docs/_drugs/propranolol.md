@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-17
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
-description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
+description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In South Africa: 29 SAHPRA registrations (15 valid)"
 ---
 
 # Propranolol

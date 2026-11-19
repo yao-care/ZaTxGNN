@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
-description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). In South Africa: 18 SAHPRA registrations (17 valid)"
 ---
 
 # Serine

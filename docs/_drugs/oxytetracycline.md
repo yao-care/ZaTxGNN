@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
-description: "Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). In South Africa: 29 SAHPRA registrations (18 valid)"
 ---
 
 # Oxytetracycline
