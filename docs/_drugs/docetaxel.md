@@ -56,7 +56,7 @@ The linked studies are mostly combination regimens (gemcitabine plus docetaxel, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. In general, docetaxel stabilises microtubules and causes mitotic arrest in rapidly dividing tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for docetaxel: "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly." ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b), label version 2025-12-17; accessed 2026-11-19.) In general, docetaxel stabilises microtubules and causes mitotic arrest in rapidly dividing tumour cells.
 
 In Ewing sarcoma, docetaxel has been used mainly in combination with gemcitabine (sequential or GEMDOX) or with irinotecan, in relapsed or refractory disease. Laboratory and clinical work reports that gemcitabine sensitises cells to docetaxel (PMID 15117993). Single-agent activity appears limited, so the rationale rests largely on combination use.
 
@@ -135,6 +135,19 @@ Completed Phase 2 trials and publications study docetaxel-containing regimens di
 - The SAHPRA Professional Information (PI) warnings and contraindications for the registered product
 - Specialist paediatric and sarcoma oncology input on place in therapy, dosing and haematological monitoring
 - Mechanism of action data to complete the mechanistic assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

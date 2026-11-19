@@ -55,7 +55,7 @@ but there are **no registered clinical trials** and only **1 general review** su
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, lansoprazole is a proton pump inhibitor that suppresses gastric acid by inhibiting the H+/K+ ATPase of gastric parietal cells. Its efficacy in acid-related disorders is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lansoprazole: "Lansoprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the parietal cell, lansoprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84), label version 2025-07-08; accessed 2026-11-19.) Based on known pharmacology, lansoprazole is a proton pump inhibitor that suppresses gastric acid by inhibiting the H+/K+ ATPase of gastric parietal cells. Its efficacy in acid-related disorders is well established.
 
 Duodenogastric (bile) reflux is the backflow of duodenal contents into the stomach. Acid suppression may relieve symptoms of associated gastritis or oesophagitis, but it does not address the underlying bile reflux. The only supporting publication is a general review of PPIs, with no disease-specific data.
 
@@ -126,11 +126,12 @@ The prediction rests on model output and one general PPI review. Acid suppressio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84) |
 
 <!-- review:end log -->
 

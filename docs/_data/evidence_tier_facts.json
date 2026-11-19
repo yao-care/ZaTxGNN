@@ -9,7 +9,7 @@
   "with_current": 19,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 12,
+  "with_reviews": 19,
   "rows": [
    {
     "t": "Clomipramine",
@@ -18,8 +18,8 @@
     "i": "anxiety disorder",
     "lt": 20,
     "lv": 15,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -40,7 +40,7 @@
     "i": "seborrheic dermatitis",
     "lt": 53,
     "lv": 50,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All five registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -51,7 +51,7 @@
     "i": "HIV infectious disease",
     "lt": 122,
     "lv": 97,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data list 9 valid registrations in total (none cancelled); only the first five are shown\"",
     "x": 0
    },
@@ -62,8 +62,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 30,
     "lv": 25,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -73,7 +73,7 @@
     "i": "migraine disorder",
     "lt": 43,
     "lv": 26,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are currently valid, and\"",
     "x": 0
    },
@@ -84,7 +84,7 @@
     "i": "obsessive-compulsive disorder",
     "lt": 59,
     "lv": 50,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"for the 4 registered products\"",
     "x": 0
    },
@@ -95,8 +95,8 @@
     "i": "restless legs syndrome",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -106,8 +106,8 @@
     "i": "Ewing sarcoma",
     "lt": 61,
     "lv": 44,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -117,7 +117,7 @@
     "i": "alopecia areata",
     "lt": 67,
     "lv": 42,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Available forms are topical or local (cream, ointment, drops, suppository); no oral or injectable…",
     "x": 0
    },
@@ -128,7 +128,7 @@
     "i": "alopecia areata",
     "lt": 67,
     "lv": 42,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products in cream (topical) form\"",
     "x": 0
    },
@@ -139,7 +139,7 @@
     "i": "acne (disease)",
     "lt": 37,
     "lv": 36,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All 11 SAHPRA registrations are single-ingredient oral tablets and all are valid\"",
     "x": 0
    },
@@ -150,8 +150,8 @@
     "i": "insomnia (disease)",
     "lt": 55,
     "lv": 40,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data for midazolam is not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -161,7 +161,7 @@
     "i": "agoraphobia",
     "lt": 8,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Important data discrepancy: The only registration listed is for a product named…",
     "x": 0
    },
@@ -172,7 +172,7 @@
     "i": "bronchitis",
     "lt": 107,
     "lv": 92,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All 4 registrations are single-ingredient products and all are valid\"",
     "x": 0
    },
@@ -183,8 +183,8 @@
     "i": "HIV infectious disease",
     "lt": 32,
     "lv": 26,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -194,7 +194,7 @@
     "i": "HIV infectious disease",
     "lt": 32,
     "lv": 17,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are currently valid and are for single-ingredient products, as the data…",
     "x": 0
    },
@@ -205,8 +205,8 @@
     "i": "alopecia areata",
     "lt": 33,
     "lv": 26,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -216,7 +216,7 @@
     "i": "alopecia areata",
     "lt": 12,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient oral products\"",
     "x": 0
    }
@@ -240,7 +240,7 @@
   "with_current": 38,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 32,
+  "with_reviews": 37,
   "rows": [
    {
     "t": "Alprazolam",
@@ -249,7 +249,7 @@
     "i": "insomnia (disease)",
     "lt": 40,
     "lv": 29,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Four of the five registrations are valid and one is cancelled. All are single-ingredient oral…",
     "x": 0
    },
@@ -271,7 +271,7 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 19,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -282,7 +282,7 @@
     "i": "insomnia (disease)",
     "lt": 38,
     "lv": 23,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient registration is currently valid\"",
     "x": 0
    },
@@ -293,7 +293,7 @@
     "i": "breast fibrocystic disease",
     "lt": 21,
     "lv": 16,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Two of the four registrations are valid and two are cancelled\"",
     "x": 0
    },
@@ -304,8 +304,8 @@
     "i": "pulmonary hypertension",
     "lt": 4,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -315,7 +315,7 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 18,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -326,8 +326,8 @@
     "i": "ankylosing spondylitis",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data were not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -337,7 +337,7 @@
     "i": "obsessive-compulsive disorder",
     "lt": 23,
     "lv": 21,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient oral products\"",
     "x": 0
    },
@@ -370,7 +370,7 @@
     "i": "alopecia mucinosa",
     "lt": 65,
     "lv": 51,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Of the 18 registrations on record, 17 are valid and 1 is cancelled\"",
     "x": 0
    },
@@ -381,7 +381,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 30,
     "lv": 22,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -403,8 +403,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 37,
     "lv": 31,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -414,7 +414,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 88,
     "lv": 61,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"SAHPRA lists 14 valid single-ingredient registrations\"",
     "x": 0
    },
@@ -436,7 +436,7 @@
     "i": "acne (disease)",
     "lt": 10,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One of the two registrations is currently valid and both are single-ingredient products. The only…",
     "x": 0
    },
@@ -447,7 +447,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 108,
     "lv": 79,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Showing 5 of 18 registrations\"",
     "x": 0
    },
@@ -458,7 +458,7 @@
     "i": "acne (disease)",
     "lt": 22,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Six of the nine SAHPRA registrations are currently valid and three are cancelled. All are…",
     "x": 0
    },
@@ -469,7 +469,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 38,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are valid, single-ingredient oral tablets\"",
     "x": 0
    },
@@ -480,8 +480,8 @@
     "i": "rheumatoid arthritis",
     "lt": 27,
     "lv": 25,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -502,7 +502,7 @@
     "i": "nasal cavity disease",
     "lt": 121,
     "lv": 77,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Some product names in the registration list (for example Tegretol s, Amoxil D, Trandate and…",
     "x": 0
    },
@@ -513,7 +513,7 @@
     "i": "bronchitis",
     "lt": 15,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid and are topical (skin or eye) products\"",
     "x": 0
    },
@@ -535,7 +535,7 @@
     "i": "nasal cavity disease",
     "lt": 15,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient entries and all are infusion products. These…",
     "x": 0
    },
@@ -546,7 +546,7 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 63,
     "lv": 58,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient oral tablets\"",
     "x": 0
    },
@@ -568,8 +568,8 @@
     "i": "breast fibrocystic disease",
     "lt": 11,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -601,7 +601,7 @@
     "i": "exposure keratitis",
     "lt": 22,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -612,7 +612,7 @@
     "i": "alopecia mucinosa",
     "lt": 12,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All five registrations are single-ingredient products with valid status\"",
     "x": 0
    },
@@ -634,7 +634,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 256,
     "lv": 223,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All 20 registrations are valid single-ingredient registrations according to the data compiled\"",
     "x": 0
    },
@@ -645,7 +645,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 74,
     "lv": 39,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named…",
     "x": 0
    },
@@ -656,7 +656,7 @@
     "i": "acne (disease)",
     "lt": 49,
     "lv": 30,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are valid single-ingredient entries\"",
     "x": 0
    }
@@ -679,7 +679,7 @@
   "with_current": 281,
   "none_current": 5,
   "without_data": 1,
-  "with_reviews": 229,
+  "with_reviews": 280,
   "rows": [
    {
     "t": "Amlodipine",
@@ -688,7 +688,7 @@
     "i": "brain stem infarction",
     "lt": 321,
     "lv": 290,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data show 20 valid SAHPRA registrations and no cancelled ones. All are single-ingredient…",
     "x": 0
    },
@@ -699,7 +699,7 @@
     "i": "hyperamylasemia",
     "lt": 286,
     "lv": 219,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"with 14 valid SAHPRA registrations, all single-ingredient records\"",
     "x": 0
    },
@@ -710,7 +710,7 @@
     "i": "focal stiff limb syndrome",
     "lt": 225,
     "lv": 208,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"with 16 valid SAHPRA registrations (all single-entity records, none cancelled)\"",
     "x": 0
    },
@@ -721,7 +721,7 @@
     "i": "nasal cavity disease",
     "lt": 271,
     "lv": 154,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list 20 valid single-ingredient registrations, and the list may…",
     "x": 0
    },
@@ -732,7 +732,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 198,
     "lv": 141,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data show 20 valid registrations and no cancelled ones\"",
     "x": 0
    },
@@ -743,7 +743,7 @@
     "i": "nasal cavity disease",
     "lt": 205,
     "lv": 136,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Twenty valid registrations are recorded, all for single-ingredient products\"",
     "x": 0
    },
@@ -754,7 +754,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 153,
     "lv": 136,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All five registrations are valid single-ingredient products, and none is cancelled\"",
     "x": 0
    },
@@ -765,7 +765,7 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 139,
     "lv": 129,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All five SAHPRA registrations are valid single-ingredient products, and none are cancelled\"",
     "x": 0
    },
@@ -776,7 +776,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 150,
     "lv": 128,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and all 19 registrations are valid\"",
     "x": 0
    },
@@ -798,7 +798,7 @@
     "i": "Prinzmetal angina",
     "lt": 135,
     "lv": 127,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The remaining 12 registrations include fixed-dose combinations with hydrochlorothiazide or…",
     "x": 0
    },
@@ -820,8 +820,8 @@
     "i": "rheumatoid arthritis",
     "lt": 119,
     "lv": 109,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"The data compiled for this report contain no detailed mechanism-of-action entry, so t\" replaced with a…",
     "x": 0
    },
    {
@@ -831,7 +831,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 137,
     "lv": 107,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The remaining 13 registrations include Imavec (capsule), Tenemine, Tencitab, Adco emtevir…",
     "x": 0
    },
@@ -842,7 +842,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 160,
     "lv": 106,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Four SAHPRA registrations are recorded as valid\"",
     "x": 0
    },
@@ -853,7 +853,7 @@
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
     "lt": 147,
     "lv": 105,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Two further registrations are not listed above: Rispevon (tablet) and Mylan Risperidone 0,5…",
     "x": 0
    },
@@ -864,7 +864,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 107,
     "lv": 103,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Showing 5 of 20 registrations. Others include a paediatric effervescent tablet (Damicava Paed).\"",
     "x": 0
    },
@@ -875,7 +875,7 @@
     "i": "migraine disorder",
     "lt": 111,
     "lv": 98,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Etoricoxib has 1 valid single-ingredient registration\"",
     "x": 0
    },
@@ -886,7 +886,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 116,
     "lv": 91,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient oral products\"",
     "x": 0
    },
@@ -897,7 +897,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 93,
     "lv": 86,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Nine valid SAHPRA registrations exist, all listed as single-ingredient records (no cancelled…",
     "x": 0
    },
@@ -908,7 +908,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 107,
     "lv": 86,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"with 14 valid SAHPRA registrations and none cancelled\"",
     "x": 0
    },
@@ -930,8 +930,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 96,
     "lv": 83,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -941,8 +941,8 @@
     "i": "duodenal obstruction",
     "lt": 89,
     "lv": 82,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -952,7 +952,7 @@
     "i": "brain stem infarction",
     "lt": 107,
     "lv": 82,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Two further registrations (Simayla Simvastatin 40 and Tryzetor Plus 10/20 mg) are also valid\"",
     "x": 0
    },
@@ -963,7 +963,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 89,
     "lv": 80,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All 4 registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -974,7 +974,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 87,
     "lv": 78,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All are single-ingredient records with valid status\"",
     "x": 0
    },
@@ -985,7 +985,7 @@
     "i": "diffuse scleroderma",
     "lt": 107,
     "lv": 75,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Ciprofloxacin has 8 valid single-ingredient SAHPRA registrations and no cancelled ones. The five…",
     "x": 0
    },
@@ -996,7 +996,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 82,
     "lv": 75,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Four further registrations are valid: Tramazac co 37.5mg/325mg (45/2.9/0303), Painogesic Co (A…",
     "x": 0
    },
@@ -1007,8 +1007,8 @@
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
     "lt": 90,
     "lv": 72,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data for aripiprazole are not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -1018,7 +1018,7 @@
     "i": "non-syndromic esophageal malformation",
     "lt": 119,
     "lv": 70,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show 18 valid single-ingredient registrations, and the list may…",
     "x": 0
    },
@@ -1040,7 +1040,7 @@
     "i": "rosacea conjunctivitis",
     "lt": 107,
     "lv": 68,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report lists 19 valid single-ingredient registrations and none cancelled\"",
     "x": 0
    },
@@ -1051,7 +1051,7 @@
     "i": "hyperamylasemia",
     "lt": 98,
     "lv": 67,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Five registrations are currently valid and one is cancelled\"",
     "x": 0
    },
@@ -1073,8 +1073,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 84,
     "lv": 66,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1084,7 +1084,7 @@
     "i": "duodenal obstruction",
     "lt": 84,
     "lv": 66,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -1095,7 +1095,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 73,
     "lv": 66,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"with 3 valid single-ingredient registrations\"",
     "x": 0
    },
@@ -1106,7 +1106,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 88,
     "lv": 64,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are single-ingredient products and are currently valid\"",
     "x": 0
    },
@@ -1117,7 +1117,7 @@
     "i": "nasal cavity disease",
     "lt": 97,
     "lv": 62,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"These are 5 of 11 registrations, all currently valid\"",
     "x": 0
    },
@@ -1139,7 +1139,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 63,
     "lv": 58,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient registration is on record\"",
     "x": 0
    },
@@ -1150,7 +1150,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 78,
     "lv": 57,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both records are classed as single-ingredient and valid\"",
     "x": 0
    },
@@ -1161,7 +1161,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 66,
     "lv": 57,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient registration exists, and the route of administration is oral\"",
     "x": 0
    },
@@ -1172,7 +1172,7 @@
     "i": "acute contagious conjunctivitis",
     "lt": 75,
     "lv": 54,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Two further registrations are not shown: Cocc.Co.Syrup (Vern.Pp), G 894 (OM), a syrup, and…",
     "x": 0
    },
@@ -1183,7 +1183,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 58,
     "lv": 53,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are single-ingredient, valid oral tablet products\"",
     "x": 0
    },
@@ -1194,7 +1194,7 @@
     "i": "beta-ketothiolase deficiency",
     "lt": 59,
     "lv": 53,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -1205,7 +1205,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 84,
     "lv": 53,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Three of the four registrations are valid and one is cancelled\"",
     "x": 0
    },
@@ -1216,7 +1216,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 76,
     "lv": 53,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The remaining four registrations are Purbac injection 5ml (L/20.2/336), Xerazole Suspension…",
     "x": 0
    },
@@ -1227,7 +1227,7 @@
     "i": "classic stiff person syndrome",
     "lt": 57,
     "lv": 53,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are currently valid, and\"",
     "x": 0
    },
@@ -1238,7 +1238,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 61,
     "lv": 52,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Four further registrations (Emcovir, Paxlovid, Quadrimune, Lopimune 40/10 Oral Pellets) are also…",
     "x": 0
    },
@@ -1249,7 +1249,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 67,
     "lv": 51,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Showing 5 of 11 registrations. even though the records label them as single-ingredient\"",
     "x": 0
    },
@@ -1260,7 +1260,7 @@
     "i": "acne (disease)",
     "lt": 65,
     "lv": 51,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and all of its registered single-ingredient products are currently valid\"",
     "x": 0
    },
@@ -1271,7 +1271,7 @@
     "i": "pneumocystosis",
     "lt": 76,
     "lv": 51,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -1282,8 +1282,8 @@
     "i": "renal hypodysplasia/aplasia",
     "lt": 49,
     "lv": 49,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available for levothyroxine\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -1293,8 +1293,8 @@
     "i": "stomach disease",
     "lt": 67,
     "lv": 48,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available for citric acid, so t\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -1304,7 +1304,7 @@
     "i": "nasal cavity disease",
     "lt": 80,
     "lv": 48,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All 8 registered products are single-ingredient syrups and currently valid\"",
     "x": 0
    },
@@ -1315,8 +1315,8 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 51,
     "lv": 47,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1326,7 +1326,7 @@
     "i": "atopic eczema",
     "lt": 62,
     "lv": 46,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"although they are recorded as single-ingredient registrations\"",
     "x": 0
    },
@@ -1337,8 +1337,8 @@
     "i": "conjunctivitis",
     "lt": 70,
     "lv": 46,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1348,8 +1348,8 @@
     "i": "migraine disorder",
     "lt": 44,
     "lv": 44,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1359,7 +1359,7 @@
     "i": "symptomatic form of fragile X syndrome in female carrier",
     "lt": 61,
     "lv": 44,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient entries, and all dosage forms are oral\"",
     "x": 0
    },
@@ -1370,7 +1370,7 @@
     "i": "biotin metabolic disease",
     "lt": 55,
     "lv": 44,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The remaining six include Soluvit Novum (injection), Gericomplex (capsule), Linctifed wet cough…",
     "x": 0
    },
@@ -1381,7 +1381,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 76,
     "lv": 43,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are currently valid, and all are recorded as single-ingredient oral tablets\"",
     "x": 0
    },
@@ -1392,7 +1392,7 @@
     "i": "pulmonary hypertension owing to lung disease and/or hypoxia",
     "lt": 72,
     "lv": 43,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Note that 4 of the 7 are combination-type products (ramipril with hydrochlorothiazide or other…",
     "x": 0
    },
@@ -1403,7 +1403,7 @@
     "i": "pulmonary hypertension owing to lung disease and/or hypoxia",
     "lt": 68,
     "lv": 42,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Four further registrations are not listed here: Lisoretic 20/12.5, Lisoretic 10/12.5, Zestozide 20…",
     "x": 0
    },
@@ -1414,8 +1414,8 @@
     "i": "hepatic porphyria",
     "lt": 53,
     "lv": 41,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1425,7 +1425,7 @@
     "i": "duodenal obstruction",
     "lt": 49,
     "lv": 40,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Omeprazole has 3 valid SAHPRA registrations, all single-ingredient oral products\"",
     "x": 0
    },
@@ -1458,7 +1458,7 @@
     "i": "alopecia mucinosa",
     "lt": 51,
     "lv": 38,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The remaining four registrations are Spersadex comp 5ml (drops), Maxitrol 3.5g (eye ointment)…",
     "x": 0
    },
@@ -1469,7 +1469,7 @@
     "i": "respiratory malformation",
     "lt": 43,
     "lv": 38,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One further licence (Med-lemon flu & congestion hot medication, sachet, Reg. No. 27/5.8/0430) is…",
     "x": 0
    },
@@ -1491,8 +1491,8 @@
     "i": "psychogenic movement disorders",
     "lt": 42,
     "lv": 37,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -1513,7 +1513,7 @@
     "i": "classic stiff person syndrome",
     "lt": 36,
     "lv": 36,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid and oral tablets. The Synjardy registration is listed in the…",
     "x": 0
    },
@@ -1535,7 +1535,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 37,
     "lv": 36,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are valid, single-ingredient products\"",
     "x": 0
    },
@@ -1546,7 +1546,7 @@
     "i": "hyperamylasemia",
     "lt": 42,
     "lv": 35,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -1568,8 +1568,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 37,
     "lv": 34,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -1579,7 +1579,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 41,
     "lv": 33,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"although they are recorded as single-ingredient\"",
     "x": 0
    },
@@ -1590,7 +1590,7 @@
     "i": "duodenal obstruction",
     "lt": 36,
     "lv": 33,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient oral products\"",
     "x": 0
    },
@@ -1601,8 +1601,8 @@
     "i": "brain small vessel disease 1 with or without ocular anomalies",
     "lt": 33,
     "lv": 33,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available for sacubitril in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -1612,7 +1612,7 @@
     "i": "papillary conjunctivitis",
     "lt": 57,
     "lv": 33,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Salbutamol has 10 SAHPRA registration records in the compiled data, of which 8 are valid and 2 are…",
     "x": 0
    },
@@ -1623,7 +1623,7 @@
     "i": "paranoid personality disorder",
     "lt": 37,
     "lv": 33,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are single-ingredient products and all are valid\"",
     "x": 0
    },
@@ -1645,8 +1645,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 32,
     "lv": 32,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1656,7 +1656,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 58,
     "lv": 32,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Four single-ingredient SAHPRA registrations are valid\"",
     "x": 0
    },
@@ -1678,7 +1678,7 @@
     "i": "alopecia mucinosa",
     "lt": 36,
     "lv": 32,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Only injectable forms are registered\"",
     "x": 0
    },
@@ -1689,7 +1689,7 @@
     "i": "focal stiff limb syndrome",
     "lt": 46,
     "lv": 31,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"for all three registrations\"",
     "x": 0
    },
@@ -1700,7 +1700,7 @@
     "i": "migraine with brainstem aura",
     "lt": 36,
     "lv": 30,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Three valid single-ingredient registrations are on record\"",
     "x": 0
    },
@@ -1711,7 +1711,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 34,
     "lv": 30,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Two SAHPRA registrations are recorded as valid, both single-ingredient products supplied as drops.…",
     "x": 0
    },
@@ -1722,7 +1722,7 @@
     "i": "nasal cavity disease",
     "lt": 44,
     "lv": 30,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The list shows 5 of the 11 registrations\"",
     "x": 0
    },
@@ -1733,7 +1733,7 @@
     "i": "papillary conjunctivitis",
     "lt": 38,
     "lv": 30,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid and are topical products\"",
     "x": 0
    },
@@ -1744,7 +1744,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 36,
     "lv": 29,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products, and none are cancelled\"",
     "x": 0
    },
@@ -1766,7 +1766,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 32,
     "lv": 28,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -1777,7 +1777,7 @@
     "i": "biotin metabolic disease",
     "lt": 44,
     "lv": 27,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The list shows 5 of 11 registrations\"",
     "x": 0
    },
@@ -1788,8 +1788,8 @@
     "i": "respiratory malformation",
     "lt": 31,
     "lv": 27,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1810,7 +1810,7 @@
     "i": "hyperamylasemia",
     "lt": 30,
     "lv": 27,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products. No combination products and no cancelled…",
     "x": 0
    },
@@ -1821,7 +1821,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 43,
     "lv": 26,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are currently valid\"",
     "x": 0
    },
@@ -1843,7 +1843,7 @@
     "i": "conjunctival folliculosis",
     "lt": 33,
     "lv": 26,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Prednisolone acetate has one valid single-ingredient registration, with no cancelled or…",
     "x": 0
    },
@@ -1854,7 +1854,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 29,
     "lv": 26,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The remaining three registrations are Swifsul (55/21.12/0032), Beniprosin SR (A40/34/0211) and…",
     "x": 0
    },
@@ -1865,7 +1865,7 @@
     "i": "nasal cavity disease",
     "lt": 41,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All 5 SAHPRA registrations found are valid single-ingredient products\"",
     "x": 0
    },
@@ -1876,7 +1876,7 @@
     "i": "nasal cavity disease",
     "lt": 42,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Showing 5 of the 12 valid single-ingredient registrations\"",
     "x": 0
    },
@@ -1887,7 +1887,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 30,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Lopinavir has 3 valid single-ingredient registrations with SAHPRA\"",
     "x": 0
    },
@@ -1909,7 +1909,7 @@
     "i": "myofascial pain syndrome",
     "lt": 32,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and all three registrations in the data compiled for this report are valid single-ingredient…",
     "x": 0
    },
@@ -1920,7 +1920,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 39,
     "lv": 25,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Note: Dormicum is listed under naproxen in the compiled registration data, but it is a brand name…",
     "x": 0
    },
@@ -1931,7 +1931,7 @@
     "i": "peptic ulcer perforation",
     "lt": 68,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Of the two single-ingredient registrations, one is valid and one is cancelled\"",
     "x": 0
    },
@@ -1942,7 +1942,7 @@
     "i": "catecholaminergic polymorphic ventricular tachycardia",
     "lt": 28,
     "lv": 24,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient oral products\"",
     "x": 0
    },
@@ -1953,7 +1953,7 @@
     "i": "laryngitis",
     "lt": 64,
     "lv": 24,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Seven of the eight SAHPRA registrations are valid and one is cancelled. All are single-ingredient…",
     "x": 0
    },
@@ -1964,8 +1964,8 @@
     "i": "infectious otitis media",
     "lt": 29,
     "lv": 24,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1975,8 +1975,8 @@
     "i": "obsessive-compulsive disorder",
     "lt": 24,
     "lv": 24,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1986,7 +1986,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 33,
     "lv": 24,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are single-ingredient products and both are currently valid\"",
     "x": 0
    },
@@ -1997,7 +1997,7 @@
     "i": "gastroduodenitis",
     "lt": 39,
     "lv": 24,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are single-ingredient products with valid status\"",
     "x": 0
    },
@@ -2008,7 +2008,7 @@
     "i": "Ohdo syndrome and variants",
     "lt": 26,
     "lv": 24,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient oral tablets\"",
     "x": 0
    },
@@ -2019,8 +2019,8 @@
     "i": "nasal cavity disease",
     "lt": 42,
     "lv": 24,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2030,7 +2030,7 @@
     "i": "diffuse scleroderma",
     "lt": 30,
     "lv": 24,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All 3 registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -2052,7 +2052,7 @@
     "i": "osteoarthritis",
     "lt": 26,
     "lv": 23,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -2063,7 +2063,7 @@
     "i": "heart fibrosarcoma",
     "lt": 26,
     "lv": 23,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient registration is listed\"",
     "x": 0
    },
@@ -2096,7 +2096,7 @@
     "i": "thrombotic disease",
     "lt": 39,
     "lv": 23,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Three further valid registrations are not shown: Alcophyllex (G720 (OM)), Diatussin (biotussin)…",
     "x": 0
    },
@@ -2118,7 +2118,7 @@
     "i": "pericoronitis",
     "lt": 25,
     "lv": 22,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are single-ingredient products and both are currently valid\"",
     "x": 0
    },
@@ -2129,7 +2129,7 @@
     "i": "malformation syndrome with odontal and/or periodontal component",
     "lt": 22,
     "lv": 22,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are single-ingredient products and both are currently valid\"",
     "x": 0
    },
@@ -2140,7 +2140,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 25,
     "lv": 22,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All five registrations are currently valid\"",
     "x": 0
    },
@@ -2151,7 +2151,7 @@
     "i": "visceral calciphylaxis",
     "lt": 28,
     "lv": 22,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient products in drop form\"",
     "x": 0
    },
@@ -2162,7 +2162,7 @@
     "i": "diffuse scleroderma",
     "lt": 36,
     "lv": 21,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are single-ingredient products and currently valid\"",
     "x": 0
    },
@@ -2173,7 +2173,7 @@
     "i": "Ohdo syndrome and variants",
     "lt": 28,
     "lv": 21,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Paroxetine has 5 valid single-ingredient registrations in South Africa\"",
     "x": 0
    },
@@ -2184,7 +2184,7 @@
     "i": "acne (disease)",
     "lt": 25,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -2195,7 +2195,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 20,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient products, and none are cancelled\"",
     "x": 0
    },
@@ -2206,7 +2206,7 @@
     "i": "Plasmodium falciparum malaria",
     "lt": 21,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are single-ingredient products and are currently valid\"",
     "x": 0
    },
@@ -2217,7 +2217,7 @@
     "i": "paranoid personality disorder",
     "lt": 26,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Of the 3 single-ingredient registrations, 1 is valid and 2 are cancelled. The registered dosage…",
     "x": 0
    },
@@ -2250,7 +2250,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 42,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All five registrations are valid and oral tablets. but the data compiled for this report classify…",
     "x": 0
    },
@@ -2261,7 +2261,7 @@
     "i": "post-bacterial disorder",
     "lt": 26,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All 4 registrations are valid and single-ingredient\"",
     "x": 0
    },
@@ -2272,7 +2272,7 @@
     "i": "migraine disorder",
     "lt": 38,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"since the only registered product is an oral capsule\"",
     "x": 0
    },
@@ -2283,7 +2283,7 @@
     "i": "vulvar inverted follicular keratosis",
     "lt": 19,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -2305,7 +2305,7 @@
     "i": "sclerosing cholangitis",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient oral products\"",
     "x": 0
    },
@@ -2316,7 +2316,7 @@
     "i": "chronic rhinosinusitis",
     "lt": 29,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient products. One is oral (capsule) and two are…",
     "x": 0
    },
@@ -2327,8 +2327,8 @@
     "i": "epiglottitis",
     "lt": 34,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action statement",
     "x": 0
    },
    {
@@ -2338,7 +2338,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid, single-ingredient entries for oral tablets\"",
     "x": 0
    },
@@ -2349,8 +2349,8 @@
     "i": "cauda equina neoplasm",
     "lt": 18,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2371,7 +2371,7 @@
     "i": "obsolete bundle branch block",
     "lt": 22,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"with 4 valid single-ingredient registrations\"",
     "x": 0
    },
@@ -2382,7 +2382,7 @@
     "i": "nasal cavity disease",
     "lt": 31,
     "lv": 17,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local records show 14 valid single-ingredient licences and no cancelled ones\"",
     "x": 0
    },
@@ -2426,7 +2426,7 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 23,
     "lv": 17,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Warfarin has 1 valid single-ingredient registration in South Africa\"",
     "x": 0
    },
@@ -2437,7 +2437,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 35,
     "lv": 16,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are single-ingredient products\"",
     "x": 0
    },
@@ -2448,7 +2448,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 31,
     "lv": 16,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are currently valid\"",
     "x": 0
    },
@@ -2459,8 +2459,8 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 21,
     "lv": 16,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2470,7 +2470,7 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 17,
     "lv": 16,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid\"",
     "x": 0
    },
@@ -2481,7 +2481,7 @@
     "i": "acute contagious conjunctivitis",
     "lt": 22,
     "lv": 16,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"the available forms are oral tablets and syrup\"",
     "x": 0
    },
@@ -2525,7 +2525,7 @@
     "i": "cauda equina syndrome",
     "lt": 36,
     "lv": 15,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are single-ingredient products and currently valid\"",
     "x": 0
    },
@@ -2536,7 +2536,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 28,
     "lv": 15,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are single-ingredient products and are currently valid\"",
     "x": 0
    },
@@ -2547,8 +2547,8 @@
     "i": "pleural empyema (disease)",
     "lt": 16,
     "lv": 15,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -2558,7 +2558,7 @@
     "i": "distal myopathy, Tateyama type",
     "lt": 29,
     "lv": 15,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient oral tablets\"",
     "x": 0
    },
@@ -2569,7 +2569,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 14,
     "lv": 14,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -2602,7 +2602,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 15,
     "lv": 14,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The registered product is an oral tablet, and\"",
     "x": 0
    },
@@ -2613,8 +2613,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -2624,7 +2624,7 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 13,
     "lv": 13,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"as the only local registration appears to be for a product that may contain more than one active…",
     "x": 0
    },
@@ -2646,7 +2646,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 14,
     "lv": 13,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are single-ingredient products and currently valid\"",
     "x": 0
    },
@@ -2657,7 +2657,7 @@
     "i": "vulvar inverted follicular keratosis",
     "lt": 22,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -2668,8 +2668,8 @@
     "i": "amenorrhea (disease)",
     "lt": 14,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -2690,7 +2690,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 14,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products, and none are cancelled\"",
     "x": 0
    },
@@ -2701,7 +2701,7 @@
     "i": "opsismodysplasia",
     "lt": 14,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient oral products\"",
     "x": 0
    },
@@ -2712,7 +2712,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 35,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are currently valid, and both are oral tablets\"",
     "x": 0
    },
@@ -2723,8 +2723,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 25,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2756,8 +2756,8 @@
     "i": "atopic eczema",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2767,7 +2767,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 13,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This registration is a single-ingredient, valid record for an injectable infusion. Its product name…",
     "x": 0
    },
@@ -2789,7 +2789,7 @@
     "i": "epiglottitis",
     "lt": 21,
     "lv": 11,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Four further registrations are not listed above: ITN 1606n 150ml and ITN 55a 600ml (TPN)…",
     "x": 0
    },
@@ -2800,7 +2800,7 @@
     "i": "visceral calciphylaxis",
     "lt": 11,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are currently valid\"",
     "x": 0
    },
@@ -2811,7 +2811,7 @@
     "i": "rheumatoid nodulosis",
     "lt": 11,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid, single-ingredient entries and all are topical formulations. This…",
     "x": 0
    },
@@ -2822,7 +2822,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 14,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are currently valid, and\"",
     "x": 0
    },
@@ -2833,7 +2833,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 11,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"with 2 valid single-ingredient SAHPRA registrations and none cancelled\"",
     "x": 0
    },
@@ -2844,7 +2844,7 @@
     "i": "exposure keratitis",
     "lt": 10,
     "lv": 10,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"since current South African registrations are topical skin products only\"",
     "x": 0
    },
@@ -2855,8 +2855,8 @@
     "i": "hyperamylasemia",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available for this drug\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -2866,7 +2866,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -2899,7 +2899,7 @@
     "i": "dry eye syndrome",
     "lt": 14,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are currently valid\"",
     "x": 0
    },
@@ -2910,8 +2910,8 @@
     "i": "ectothrix infectious disease",
     "lt": 16,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data for clioquinol is not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -2921,8 +2921,8 @@
     "i": "pneumocystosis",
     "lt": 9,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with…",
     "x": 0
    },
    {
@@ -2932,7 +2932,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -2943,7 +2943,7 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are valid single-ingredient entries, and all are injectable or parenteral…",
     "x": 0
    },
@@ -2954,7 +2954,7 @@
     "i": "zinc, elevated plasma",
     "lt": 9,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"with 2 valid single-ingredient registrations, both topical\"",
     "x": 0
    },
@@ -2965,8 +2965,8 @@
     "i": "coenurosis",
     "lt": 11,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2976,7 +2976,7 @@
     "i": "primary hereditary glaucoma",
     "lt": 12,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are currently valid\"",
     "x": 0
    },
@@ -2987,7 +2987,7 @@
     "i": "amenorrhea (disease)",
     "lt": 8,
     "lv": 7,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"single-ingredient\"",
     "x": 0
    },
@@ -2998,8 +2998,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 9,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data for domperidone is not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -3009,7 +3009,7 @@
     "i": "PLA2G6-associated neurodegeneration",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid and none are cancelled\"",
     "x": 0
    },
@@ -3031,7 +3031,7 @@
     "i": "autoimmune oophoritis",
     "lt": 15,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -3042,7 +3042,7 @@
     "i": "disease of orbital region",
     "lt": 20,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All 4 registrations are currently valid\"",
     "x": 0
    },
@@ -3053,7 +3053,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 9,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The registration is a valid single-ingredient product\"",
     "x": 0
    },
@@ -3064,8 +3064,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 14,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action statement",
     "x": 0
    },
    {
@@ -3075,7 +3075,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 8,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products for oral use\"",
     "x": 0
    },
@@ -3086,7 +3086,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 8,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This registration should not be taken as evidence of how single-ingredient benazepril is approved\"",
     "x": 0
    },
@@ -3097,7 +3097,7 @@
     "i": "acute intermittent porphyria",
     "lt": 6,
     "lv": 6,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"as single-ingredient products\"",
     "x": 0
    },
@@ -3108,8 +3108,8 @@
     "i": "post-infectious neuralgia",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3119,7 +3119,7 @@
     "i": "multiple system atrophy",
     "lt": 13,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All four registrations are currently valid\"",
     "x": 0
    },
@@ -3141,8 +3141,8 @@
     "i": "myiasis",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -3152,8 +3152,8 @@
     "i": "primary hyperoxaluria",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3163,7 +3163,7 @@
     "i": "amenorrhea (disease)",
     "lt": 7,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient entries\"",
     "x": 0
    },
@@ -3185,7 +3185,7 @@
     "i": "respiratory malformation",
     "lt": 9,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Two registrations are valid and two are cancelled\"",
     "x": 0
    },
@@ -3196,7 +3196,7 @@
     "i": "hyperlucent lung",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are currently valid\"",
     "x": 0
    },
@@ -3218,7 +3218,7 @@
     "i": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
     "lt": 11,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence is valid\"",
     "x": 0
    },
@@ -3229,7 +3229,7 @@
     "i": "acromesomelic dysplasia, Campailla Martinelli type",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid SAHPRA registration was identified, and\"",
     "x": 0
    },
@@ -3251,8 +3251,8 @@
     "i": "Prinzmetal angina",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3273,8 +3273,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3295,7 +3295,7 @@
     "i": "postmenopausal atrophic vaginitis",
     "lt": 7,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient entries. The Adco-ipratropium entry is named for a…",
     "x": 0
    },
@@ -3306,7 +3306,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 11,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The registration is a single-ingredient product and is currently valid\"",
     "x": 0
    },
@@ -3328,7 +3328,7 @@
     "i": "irritable bowel syndrome",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Cycloserine is listed with one valid single-ingredient registration\"",
     "x": 0
    },
@@ -3350,7 +3350,7 @@
     "i": "ectothrix infectious disease",
     "lt": 8,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are currently valid\"",
     "x": 0
    },
@@ -3361,7 +3361,7 @@
     "i": "acromesomelic dysplasia, Campailla Martinelli type",
     "lt": 14,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both records are listed as valid single-ingredient registrations\"",
     "x": 0
    },
@@ -3383,7 +3383,7 @@
     "i": "congenital disorder of glycosylation with defective fucosylation",
     "lt": 16,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient oral tablet products\"",
     "x": 0
    },
@@ -3394,7 +3394,7 @@
     "i": "autoimmune oophoritis",
     "lt": 5,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
    },
@@ -3416,7 +3416,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 6,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both are single-ingredient, valid registrations for oral use\"",
     "x": 0
    },
@@ -3449,7 +3449,7 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 5,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Six registrations are on record\"",
     "x": 0
    },
@@ -3471,7 +3471,7 @@
     "i": "sick sinus syndrome 2, autosomal dominant",
     "lt": 5,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is one registration, status valid, for an oral capsule\"",
     "x": 0
    },
@@ -3482,7 +3482,7 @@
     "i": "autoimmune oophoritis",
     "lt": 4,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are currently valid\"",
     "x": 0
    },
@@ -3493,8 +3493,8 @@
     "i": "autoimmune oophoritis",
     "lt": 12,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3515,7 +3515,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 5,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The registration status is valid (single-ingredient product)\"",
     "x": 0
    },
@@ -3526,7 +3526,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 4,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are single-ingredient products and currently valid\"",
     "x": 0
    },
@@ -3537,7 +3537,7 @@
     "i": "acquired angioedema",
     "lt": 3,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Coartem is the only registered product in the data\"",
     "x": 0
    },
@@ -3548,7 +3548,7 @@
     "i": "renal tubular acidosis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both registrations are currently valid single-ingredient records, and\"",
     "x": 0
    },
@@ -3559,7 +3559,7 @@
     "i": "pulmonary hypertension owing to lung disease and/or hypoxia",
     "lt": 3,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is the only registration, and it is a combination product (the \"plus\" presentation). It should…",
     "x": 0
    },
@@ -3570,8 +3570,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3581,8 +3581,8 @@
     "i": "amenorrhea (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3592,7 +3592,7 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 11,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This single registration is valid, but it is a combination-type product name (2.5 mg/2.5 mg) listed…",
     "x": 0
    },
@@ -3614,7 +3614,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 5,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid registration and no cancelled registrations\"",
     "x": 0
    },
@@ -3625,8 +3625,8 @@
     "i": "vulvovaginal candidiasis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -3658,8 +3658,8 @@
     "i": "amenorrhea (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3669,8 +3669,8 @@
     "i": "gout",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -3691,8 +3691,8 @@
     "i": "autoimmune oophoritis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3702,7 +3702,7 @@
     "i": "thiamine-responsive dysfunction syndrome",
     "lt": 2,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The product is a single-ingredient registration with valid status\"",
     "x": 0
    },
@@ -3713,8 +3713,8 @@
     "i": "visceral calciphylaxis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3724,8 +3724,8 @@
     "i": "amenorrhea (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3746,8 +3746,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 4,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -3757,7 +3757,7 @@
     "i": "anemia of prematurity",
     "lt": 2,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient entries\"",
     "x": 0
    },
@@ -3768,8 +3768,8 @@
     "i": "pharyngitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3790,8 +3790,8 @@
     "i": "cauda equina syndrome",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3801,8 +3801,8 @@
     "i": "migraine disorder",
     "lt": 1,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3823,7 +3823,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 1,
     "lv": 0,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"currently valid\"",
     "x": 0
    },
@@ -3834,7 +3834,7 @@
     "i": "zinc, elevated plasma",
     "lt": 2,
     "lv": 0,
-    "r": 1,
+    "r": 2,
     "rs": "Corrected: neither registration is current (not on SAHPRA register; discontinued in MPR)",
     "x": 0
    }

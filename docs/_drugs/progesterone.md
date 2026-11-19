@@ -56,7 +56,7 @@ No clinical trials are registered for this use, and the **18 publications** retr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Progesterone is the main natural progestogen and acts on progesterone receptors in the female reproductive tract and breast tissue.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for progesterone: "Progesterone is a naturally occurring steroid that is secreted by the ovary, placenta, and adrenal gland. In the presence of adequate estrogen, progesterone transforms a proliferative endometrium into a secretory endometrium." ([DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1), label version 2026-10-05; accessed 2026-11-19.) Progesterone is the main natural progestogen and acts on progesterone receptors in the female reproductive tract and breast tissue.
 
 The rationale rests on one hypothesis in the literature. Fibrocystic breast changes and breast pain are thought to be driven partly by relative oestrogen predominance and progesterone deficiency (luteal insufficiency). Cell proliferation in the breast responds to monthly oestrogen and progesterone shifts. One older review (Vorherr, 1986) describes fibrocystic disease as arising from this imbalance. A more recent comparison of 50 affected women with 40 controls (2018) examined the oestradiol-to-progesterone ratio in the late luteal phase. This makes progesterone supplementation a plausible but untested approach.
 
@@ -115,6 +115,18 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 - Mechanism of action data
 - The SAHPRA Professional Information for warnings and contraindications
 - A safety review for women with relevant comorbidities, including diabetes and breast cancer risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

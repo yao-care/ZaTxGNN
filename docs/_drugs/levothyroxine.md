@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for levothyroxine. It is a synthetic thyroid hormone, and the relations recorded in the knowledge graph centre on hypothyroidism, other thyroid diseases (including thyroid cancer) and hyperlipidaemia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levothyroxine: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174), label version 2026-11-06; accessed 2026-11-19.) It is a synthetic thyroid hormone, and the relations recorded in the knowledge graph centre on hypothyroidism, other thyroid diseases (including thyroid cancer) and hyperlipidaemia.
 
 The link to renal hypodysplasia/aplasia is weak. Thyroid hormone contributes to general kidney development and maturation, but these structural malformations are mainly driven by genetic variants that affect nephrogenesis (for example PAX2, HNF1B, RET, GDNF). The defect is established in utero, so postnatal hormone replacement is biologically implausible as a treatment. The high score (0.9967) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the co-occurrence of congenital anomalies with congenital hypothyroidism, not biological evidence or a therapeutic mechanism.
 
@@ -117,6 +117,19 @@ No clinical trial or publication studies levothyroxine in renal hypodysplasia/ap
 - SAHPRA Professional Information (warnings, contraindications and approved indications) for Roidace 25
 - Mechanism of action data
 - If any pathway is pursued, Carney complex (thyroid management in a co-occurring condition) is the most plausible direction, but it still needs supporting studies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for levothyroxine" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

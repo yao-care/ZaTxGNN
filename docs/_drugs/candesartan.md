@@ -56,7 +56,7 @@ with **4 registered clinical trials** (3 directly on migraine) and **20 publicat
 
 ## Why is This Prediction Reasonable?
 
-Candesartan blocks the angiotensin II type 1 receptor. Detailed mechanism of action data are not available in the data compiled for this report, but the pharmacology is well established. Angiotensin II signalling is thought to influence migraine through cerebrovascular tone, neurogenic inflammation, oxidative stress and sympathetic activity.
+Candesartan blocks the angiotensin II type 1 receptor. According to the Mechanism of Action section of the US FDA-approved prescribing information for candesartan: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: candesartan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7eb297cb-ef1b-44e0-a49d-03727100579e), label version 2026-02-05; accessed 2026-11-19.) The pharmacology is well established. Angiotensin II signalling is thought to influence migraine through cerebrovascular tone, neurogenic inflammation, oxidative stress and sympathetic activity.
 
 Blood pressure–lowering agents are already used in migraine prevention, and candesartan appears in guideline-style reviews as a preventive option. The placebo-controlled randomised trials listed below directly test candesartan in migraine prevention, which supports the model's prediction.
 
@@ -133,11 +133,12 @@ Two randomised placebo-controlled trials (NCT00884663 and NCT04574713, the latte
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid, and" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: candesartan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7eb297cb-ef1b-44e0-a49d-03727100579e) |
 
 <!-- review:end log -->
 

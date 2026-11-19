@@ -59,7 +59,7 @@ but **no clinical trials** and **no publications** specific to this indication w
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trandolapril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and mechanistically it may be applicable to renovascular hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trandolapril: "Trandolapril is deesterified to the diacid metabolite, trandolaprilat, which is approximately eight times more active as an inhibitor of ACE activity. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor, angiotensin II." ([DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34), label version 2025-10-31; accessed 2026-11-19.) Based on known information, trandolapril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and mechanistically it may be applicable to renovascular hypertension.
 
 Renovascular hypertension is strongly driven by activation of the renin-angiotensin-aldosterone system (RAAS), so RAAS blockade is biologically plausible. However, this is close to the original hypertension indication rather than a distinct new use.
 
@@ -150,6 +150,19 @@ It also overlaps with the approved hypertension use, and ACE inhibitors carry a 
 - Detailed mechanism of action data
 - Clinical or observational evidence of trandolapril in renovascular hypertension, with specific attention to renal safety
 - A clear determination of whether this is a genuinely new indication or falls within the existing hypertension use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

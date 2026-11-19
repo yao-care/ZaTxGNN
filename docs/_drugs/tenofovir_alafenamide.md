@@ -60,7 +60,7 @@ There are **no registered clinical trials** and **8 publications** (all preclini
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known drug class information, TAF is a prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. It delivers the active form of tenofovir efficiently into lymphoid cells after oral dosing.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tenofovir alafenamide: "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2), label version 2025-07-14; accessed 2026-11-19.) Based on known drug class information, TAF is a prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. It delivers the active form of tenofovir efficiently into lymphoid cells after oral dosing.
 
 SIV and the chimeric SHIV used in macaque studies are lentiviruses closely related to HIV-1 and depend on the same reverse transcriptase-driven replication cycle. It is therefore mechanistically plausible that TAF inhibits their replication. The literature compiled for this report shows macaque studies of pre-exposure prophylaxis, post-exposure prophylaxis and treatment, plus a humanised mouse model.
 
@@ -138,11 +138,12 @@ The only support for this prediction is preclinical macaque and mouse work in SI
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are valid, single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->
 

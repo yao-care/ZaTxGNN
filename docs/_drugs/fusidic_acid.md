@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, fusidic acid inhibits bacterial elongation factor G (EF-G), which blocks bacterial protein synthesis. It is active mainly against Gram-positive organisms such as *Staphylococcus aureus*, with limited activity against Gram-negative bacteria.
+ChEMBL (EMBL-EBI) records the mechanism of action of fusidic acid as: Elongation factor G inhibitor ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, fusidic acid inhibits bacterial elongation factor G (EF-G), which blocks bacterial protein synthesis. It is active mainly against Gram-positive organisms such as *Staphylococcus aureus*, with limited activity against Gram-negative bacteria.
 
 Exposure keratitis is mainly a mechanical or desiccation disorder of the cornea, caused by incomplete eyelid closure or poor tear film protection. An antibacterial would be relevant only if the damaged cornea develops a secondary bacterial infection. The mechanistic link is therefore indirect.
 
@@ -130,13 +130,14 @@ No drug interaction records were found in the data compiled for this report.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are single-ingredient products and are currently valid. All are topical dosage forms (cream or ointment), and none i" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Because the registered products are not ophthalmic formulations, safety in the eye cannot be assumed from the existing skin products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "since current South African registrations are topical skin products only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
 
 <!-- review:end log -->
 

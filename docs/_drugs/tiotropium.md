@@ -54,7 +54,7 @@ Tiotropium is an inhaled long-acting muscarinic antagonist (anticholinergic bron
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Tiotropium belongs to the class of long-acting muscarinic antagonists. These drugs block muscarinic receptors in the airways, relax airway smooth muscle and reduce cholinergic bronchoconstriction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tiotropium: "Tiotropium is a long-acting, antimuscarinic agent, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors, M 1 to M 5. In the airways, it exhibits pharmacological effects through inhibition of M 3 -receptors at the smooth muscle leading to bronchodilation." ([DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9), label version 2025-11-10; accessed 2026-11-19.) Tiotropium belongs to the class of long-acting muscarinic antagonists. These drugs block muscarinic receptors in the airways, relax airway smooth muscle and reduce cholinergic bronchoconstriction.
 
 Respiratory malformations are structural abnormalities of the airways or lungs. Some patients have secondary airflow obstruction or excess cholinergic tone, and bronchodilation might ease these. This is a theoretical link only. Structural defects themselves would not respond to a bronchodilator, and no evidence in the supplied data shows benefit in patients with these malformations.
 
@@ -152,11 +152,12 @@ SAHPRA package insert warnings and contraindications were not available in the d
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Two registrations are valid and two are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9) |
 
 <!-- review:end log -->
 

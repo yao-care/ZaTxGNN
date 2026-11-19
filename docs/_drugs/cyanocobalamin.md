@@ -58,7 +58,7 @@ Cyanocobalamin is a synthetic form of vitamin B12, used to correct B12 and relat
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this report. Based on general knowledge, cyanocobalamin (vitamin B12) is a cofactor in one-carbon metabolism and in propionate/methylmalonate metabolism. These pathways overlap with those of biotin-dependent enzymes such as propionyl-CoA carboxylase, so disorders of biotin metabolism may affect B12-dependent pathways.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyanocobalamin: "CLINICAL PHAMRACOLOGY Vitamin B12 is essential to growth, cell reproduction, hematopoiesis, and nucleoprotein and myelin synthesis." ([DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d), label version 2025-12-08; accessed 2026-11-19.) Based on general knowledge, cyanocobalamin (vitamin B12) is a cofactor in one-carbon metabolism and in propionate/methylmalonate metabolism. These pathways overlap with those of biotin-dependent enzymes such as propionyl-CoA carboxylase, so disorders of biotin metabolism may affect B12-dependent pathways.
 
 This is a plausible biological link, not demonstrated benefit. The high TxGNN score (0.9960) reflects computational proximity in the model, not clinical effect. No study shows that cyanocobalamin treats biotin metabolic disease, such as biotinidase or holocarboxylase synthetase deficiency, for which the standard therapy is biotin supplementation.
 
@@ -139,12 +139,13 @@ The prediction rests only on a model score. No clinical trial or publication stu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Eleven single-ingredient SAHPRA registrations are valid and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The list shows 5 of 11 registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
 
 <!-- review:end log -->
 

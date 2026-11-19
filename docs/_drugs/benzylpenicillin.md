@@ -60,7 +60,7 @@ No clinical trials or publications were found for this prediction, so it rests o
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Benzylpenicillin belongs to the penicillin class of antibiotics, which act against susceptible bacteria, particularly streptococci and many oral anaerobes.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for benzylpenicillin: "Penicillins bind to serum proteins, mainly albumin. Therapeutic levels of the penicillins are easily achieved under normal circumstances in extracellular fluid and most other body tissues. Penicillins are distributed in varying degrees into pleural, pericardial, peritoneal, ascitic, synovial, and interstitial fluids." ([DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2), label version 2026-11-04; accessed 2026-11-19.) Benzylpenicillin belongs to the penicillin class of antibiotics, which act against susceptible bacteria, particularly streptococci and many oral anaerobes.
 
 Pericoronitis is a polymicrobial infection (streptococci and anaerobes) of the soft tissue around a partially erupted tooth. Activity against streptococci and oral anaerobes makes the prediction biologically plausible.
 
@@ -136,11 +136,12 @@ The prediction is plausible because the drug is active against the bacteria invo
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are single-ingredient products and both are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2) |
 
 <!-- review:end log -->
 

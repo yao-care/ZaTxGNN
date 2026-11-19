@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **gout**, but **no clinical tri
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, sulfadoxine is a long-acting sulfonamide that inhibits dihydropteroate synthase in the microbial folate pathway.
+ChEMBL (EMBL-EBI) records the mechanism of action of sulfadoxine as: Dihydropteroate synthetase inhibitor ([ChEMBL CHEMBL1539 (sulfadoxine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1539), CC BY-SA 3.0; accessed 2026-11-19.) From general pharmacology, sulfadoxine is a long-acting sulfonamide that inhibits dihydropteroate synthase in the microbial folate pathway.
 
 For gout, no plausible mechanism has been identified. Sulfadoxine has no known uricosuric or xanthine oxidase inhibitory activity.
 
@@ -130,6 +130,19 @@ The gout prediction rests only on a TxGNN model (deep learning) score, with no t
 - Retrieve the SAHPRA package insert to confirm the registered indication, warnings and contraindications
 - Obtain mechanism of action data (for example from DrugBank) and test whether any urate-related mechanism exists
 - Consider reprioritising to candidates with actual supporting evidence, since the other nine predictions are equally unsupported
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1539 (sulfadoxine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1539) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

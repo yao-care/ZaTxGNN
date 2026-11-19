@@ -56,7 +56,7 @@ No registered clinical trials were found for this indication, but **16 publicati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Clobetasol is a super-potent topical glucocorticoid. Glucocorticoid receptor activation is known to induce apoptosis of malignant T cells and to suppress local inflammatory and cytokine signalling in skin lesions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clobetasol: "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear." ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), label version 2026-11-10; accessed 2026-11-19.) Clobetasol is a super-potent topical glucocorticoid. Glucocorticoid receptor activation is known to induce apoptosis of malignant T cells and to suppress local inflammatory and cytokine signalling in skin lesions.
 
 This is a plausible mechanism for early-stage (patch or plaque) mycosis fungoides, the most common form of cutaneous T-cell lymphoma. Topical corticosteroids are already used in clinical practice for this setting.
 
@@ -140,11 +140,12 @@ Cohort-level evidence, including a roughly 200-patient experience with response 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
 
 <!-- review:end log -->
 

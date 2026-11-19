@@ -54,7 +54,7 @@ Dienogest is a selective progestin. The data compiled for this report do not sta
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, dienogest is a selective progestin with strong antiproliferative activity on the endometrium and partial suppression of ovulation. It is widely used for endometriosis.
+ChEMBL (EMBL-EBI) records the mechanism of action of dienogest as: Unknown ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, dienogest is a selective progestin with strong antiproliferative activity on the endometrium and partial suppression of ovulation. It is widely used for endometriosis.
 
 The literature links dienogest to amenorrhoea mainly as an on-treatment effect or adverse effect. This includes a systematic review of dienogest adverse effects and reviews of hormonal endometriosis treatment, where inducing amenorrhoea is a treatment goal. There is no evidence that dienogest treats amenorrhoea as a condition. Progestin therapy can be used in secondary amenorrhoea when oestrogen levels are adequate, but this is a class effect and not specific to dienogest.
 
@@ -127,6 +127,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for the full w
 - Review of the major drug interactions and the knowledge-graph contraindication signals
 
 **Note on other predictions:** The remaining nine predicted indications, including primary ovarian failure, breast fibrocystic disease and hypogonadotropic hypogonadism, have no clinical trials. Most have no literature either, and several are mechanistically opposed to dienogest's action. They are not recommended for further evaluation at this stage.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

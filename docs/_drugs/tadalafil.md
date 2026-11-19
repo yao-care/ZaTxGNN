@@ -56,7 +56,7 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Tadalafil is known to be a PDE5 inhibitor, which raises cGMP and promotes vasodilation. This is the basis of its use in erectile dysfunction and pulmonary hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tadalafil: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895), label version 2026-06-03; accessed 2026-11-19.) Tadalafil is known to be a PDE5 inhibitor, which raises cGMP and promotes vasodilation. This is the basis of its use in erectile dysfunction and pulmonary hypertension.
 
 A possible but unverified link is that raised cGMP could alter vasodilation and hair follicle signalling. Ambras syndrome, however, is a rare congenital disorder caused by genomic rearrangements affecting TRPS1 regulation. A PDE5 inhibitor is not expected to correct this genetic defect.
 
@@ -129,11 +129,12 @@ The prediction rests on model output alone. There are no trials or publications,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 3 valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
 
 <!-- review:end log -->
 

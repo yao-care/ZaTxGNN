@@ -66,7 +66,7 @@ The TxGNN model predicts it may be relevant to **acute intermittent porphyria** 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Dexchlorpheniramine is known as a first-generation H1-antihistamine that also has anticholinergic activity.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for dexchlorpheniramine maleate: "Dexchlorpheniramine maleate is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells." ([DailyMed: Corphena (dexchlorpheniramine maleate) prescribing information, BluCrest Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4694616b-4ef4-28a4-e063-6394a90ac5f6), label version 2026-10-15; accessed 2026-11-19.) Dexchlorpheniramine is known as a first-generation H1-antihistamine that also has anticholinergic activity.
 
 The predicted condition arises from a deficiency of the enzyme porphobilinogen deaminase (HMBS), which disrupts haem biosynthesis. Nothing in the compiled data links H1-receptor blockade or anticholinergic activity to this enzymatic pathway. No mechanistic link has been established.
 
@@ -136,12 +136,13 @@ The prediction rests on a model score alone (Evidence Level L5). No trials or pu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "as single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Corphena (dexchlorpheniramine maleate) prescribing information, BluCrest Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4694616b-4ef4-28a4-e063-6394a90ac5f6) |
 
 <!-- review:end log -->
 

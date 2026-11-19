@@ -56,7 +56,7 @@ This is a computational prediction only: **0 clinical trials** and **0 publicati
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Risperidone is a well-established atypical antipsychotic, generally understood to act through dopamine D2 and serotonin 5-HT2A receptor antagonism. Its efficacy in schizophrenia and bipolar disorder is well proven.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for risperidone: "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), label version 2026-10-23; accessed 2026-11-19.) Risperidone is a well-established atypical antipsychotic, generally understood to act through dopamine D2 and serotonin 5-HT2A receptor antagonism. Its efficacy in schizophrenia and bipolar disorder is well proven.
 
 For this prediction, no plausible mechanistic link could be identified. Familial horizontal gaze palsy with progressive scoliosis is a rare genetic neurodevelopmental disorder, related to the ROBO3 gene, caused by a defect in axon guidance. Blocking D2/5-HT2A receptors has no apparent connection to this defect. The high model score therefore reflects a computational pattern rather than biological or clinical reasoning, and it should be treated with caution.
 
@@ -133,12 +133,13 @@ It has two completed Phase 3 trials of adjunctive risperidone in treatment-resis
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Seven valid registrations were found, and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Two further registrations are not listed above: Rispevon (tablet) and Mylan Risperidone 0,5 (tablet)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
 
 <!-- review:end log -->
 

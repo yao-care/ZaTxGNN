@@ -60,7 +60,7 @@ The TxGNN model predicts it may be relevant to **acromesomelic dysplasia, Campai
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for cholecalciferol are not available in the data compiled for this report. In general, cholecalciferol is a pro-hormone. It is converted in the liver and kidney to active metabolites that promote intestinal calcium and phosphorus absorption and bone mineralisation.
+ChEMBL (EMBL-EBI) records the mechanism of action of cholecalciferol as: Vitamin D receptor agonist ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; accessed 2026-11-19.) In general, cholecalciferol is a pro-hormone. It is converted in the liver and kidney to active metabolites that promote intestinal calcium and phosphorus absorption and bone mineralisation.
 
 Acromesomelic dysplasias are rare inherited skeletal disorders that affect limb growth. A link to vitamin D-mediated bone and mineral metabolism is plausible only in a broad sense. Vitamin D supplementation is unlikely to correct an underlying genetic defect, so the connection is speculative. No mechanistic or clinical data support it.
 
@@ -131,11 +131,12 @@ The prediction is supported only by a high model score (0.9978). No trials or pu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "One valid SAHPRA registration was identified, and" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for cholecalciferol are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, olopatadine is an H1 receptor antagonist with mast cell stabilising activity. Its efficacy in allergic and atopic conjunctivitis is established, and mechanistically it may relieve itching and ocular surface inflammation in other conjunctival conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olopatadine: "Olopatadine is a histamine H 1 receptor antagonist. The antihistaminic activity of olopatadine has been documented in isolated tissues, animal models, and humans." ([DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85), label version 2026-09-15; accessed 2026-11-19.) Based on known information, olopatadine is an H1 receptor antagonist with mast cell stabilising activity. Its efficacy in allergic and atopic conjunctivitis is established, and mechanistically it may relieve itching and ocular surface inflammation in other conjunctival conditions.
 
 The link to rosacea conjunctivitis is uncertain. Ocular rosacea is driven mainly by meibomian gland dysfunction, innate immune activation and *Demodex* infestation. Mast cell or histamine involvement is not well established, so any benefit would probably be limited to symptomatic relief of itch or allergic overlap, not treatment of the underlying disease.
 
@@ -126,6 +126,19 @@ The prediction is supported only by the model score (L5). There are no clinical 
 - Route compatibility assessment: Ryaltris is a spray, and an ophthalmic formulation would be needed for conjunctival indications
 - A focused literature search and, if justified, a small pilot study in ocular rosacea with itch or allergic overlap
 - Clinical review of the unclassified interaction records
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

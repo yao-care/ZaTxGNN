@@ -58,7 +58,7 @@ Two other predictions have identical evidence status (no trials, no literature, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Empagliflozin is generally known as an SGLT2 inhibitor that lowers blood glucose by increasing urinary glucose excretion. This is background knowledge, not something verified in the data compiled here.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for empagliflozin: "Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion." ([DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565), label version 2026-11-10; accessed 2026-11-19.) Empagliflozin is generally known as an SGLT2 inhibitor that lowers blood glucose by increasing urinary glucose excretion. This is background knowledge, not something verified in the data compiled here.
 
 Stiff person syndrome is an autoimmune neurological disorder, typically linked to anti-GAD65 antibodies and impaired GABAergic signalling. SGLT2 inhibition does not target these pathways. The only conceivable link is indirect, through the overlap of diabetes and autoimmunity, and this is speculative. No mechanistic link is supported by the data.
 
@@ -127,11 +127,12 @@ The prediction is supported only by a computational score. There are no clinical
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid and oral tablets. The Synjardy registration is listed in the records as a single-ingredient entry, but the" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
 
 <!-- review:end log -->
 

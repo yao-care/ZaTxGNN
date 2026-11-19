@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, lidocaine is a sodium channel blocker that gives local anaesthesia, and it could plausibly relieve pain or discomfort on the ocular surface.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lidocaine: "Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period." ([DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0), label version 2026-02-20; accessed 2026-11-19.) Based on general pharmacology, lidocaine is a sodium channel blocker that gives local anaesthesia, and it could plausibly relieve pain or discomfort on the ocular surface.
 
 Lidocaine's uses (neuralgia, dermatitis, haemorrhoids and others) are mostly about symptom relief, such as pain and itch. Any link to punctate epithelial keratoconjunctivitis would be symptomatic only. Nothing in the data suggests lidocaine changes the underlying disease. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is a computational prediction and has not been confirmed by any study.
 
@@ -129,11 +129,12 @@ The prediction rests only on a model score. No trial or publication studies lido
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both records are classed as single-ingredient and valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
 
 <!-- review:end log -->
 

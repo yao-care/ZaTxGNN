@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, metoprolol blocks beta-1 adrenergic receptors. This lowers heart rate, cardiac output and renin release. The association of the drug with hypertension in the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metoprolol: "Metoprolol is a beta 1 -selective (cardioselective) adrenergic receptor blocking agent. This preferential effect is not absolute, however, and at higher plasma concentrations, metoprolol also inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a), label version 2026-03-03; accessed 2026-11-19.) Based on general pharmacology, metoprolol blocks beta-1 adrenergic receptors. This lowers heart rate, cardiac output and renin release. The association of the drug with hypertension in the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence.
 
 Malignant hypertensive renal disease is kidney injury caused by severely uncontrolled blood pressure. Its score of 0.9991 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A high score of this kind is not independent clinical evidence.
 
@@ -146,11 +146,12 @@ The top prediction has no supporting trials or publications, and its score comes
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a) |
 
 <!-- review:end log -->
 

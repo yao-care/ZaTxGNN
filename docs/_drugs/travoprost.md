@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, travoprost is a topical prostaglandin FP-receptor agonist. Its efficacy in lowering intraocular pressure is established, and it has vasodilatory properties.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for travoprost: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), label version 2026-09-28; accessed 2026-11-19.) Based on known information, travoprost is a topical prostaglandin FP-receptor agonist. Its efficacy in lowering intraocular pressure is established, and it has vasodilatory properties.
 
 No plausible link to calcific uremic arteriolopathy (calciphylaxis) is documented. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The original indication (an eye pressure disorder) and the predicted indication (a calcifying small-vessel disease, usually in kidney failure) share no known pathway.
 
@@ -147,11 +147,12 @@ The prediction for visceral calciphylaxis rests on a model score alone, with no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

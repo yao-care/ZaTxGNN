@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **thrombotic disease**, but there 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Theophylline is generally known as a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for theophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)." ([DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410), label version 2024-07-08; accessed 2026-11-19.) Theophylline is generally known as a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist.
 
 In theory, PDE inhibition raises cyclic AMP (cAMP) in platelets, which could reduce platelet aggregation. This gives a weak mechanistic rationale for thrombosis. However, adenosine antagonism may work against the antiplatelet effect of adenosine, so the net effect is uncertain.
 
@@ -158,12 +158,13 @@ For context, the other predictions in the data compiled for this report are:
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 8 registrations are single-ingredient products with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Three further valid registrations are not shown: Alcophyllex (G720 (OM)), Diatussin (biotussin) (G1276 (OM)) and Actophlem (W/10.1/0194)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
 
 <!-- review:end log -->
 

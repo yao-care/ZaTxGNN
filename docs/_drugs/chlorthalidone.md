@@ -56,7 +56,7 @@ Chlorthalidone is a thiazide-like diuretic. The TxGNN model predicts it may be e
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Chlorthalidone is a thiazide-like diuretic, a class used to lower blood pressure and reduce fluid retention.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for chlorthalidone: "Chlorthalidone is a long-acting oral diuretic with antihypertensive activity. The diuretic effects of chlorthalidone and the benzothiadiazine (thiazide) diuretics appear to arise from similar mechanisms and the maximal effect of chlorthalidone and the thiazides appear to be similar." ([DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15), label version 2026-06-25; accessed 2026-11-19.) Chlorthalidone is a thiazide-like diuretic, a class used to lower blood pressure and reduce fluid retention.
 
 Thiazide-like diuretics are not an established glaucoma therapy. Any link to intraocular pressure regulation is speculative, and no mechanistic reasoning can be anchored to the drug's known pharmacology from the data compiled for this report. The high score is a model output and not evidence of efficacy. Because no study directly addresses this disease, the evidence level is L5.
 
@@ -137,11 +137,12 @@ The prediction is supported only by a high model score. There are no clinical tr
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and only **1 publication** (a 19
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Doxycycline is a tetracycline-class antibiotic with broad antibacterial activity, including activity against Chlamydia trachomatis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxycycline: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8), label version 2026-07-09; accessed 2026-11-19.) Doxycycline is a tetracycline-class antibiotic with broad antibacterial activity, including activity against Chlamydia trachomatis.
 
 The one publication retrieved describes two patients who developed persistent punctate epithelial keratitis after chlamydial follicular conjunctivitis had been treated with oral tetracycline or doxycycline. In these cases the keratitis appeared after the infection had resolved. It therefore does not show that doxycycline treats the keratitis. Tetracyclines are also known to have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects on the ocular surface, which could theoretically be relevant. However, no study in the data compiled for this report tests doxycycline for this condition.
 
@@ -122,11 +122,12 @@ The model score is high (0.9994), but the only supporting study is a 1992 case r
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are single-ingredient products and are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but there are *
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacological knowledge, misoprostol is a prostaglandin E1 analogue that causes uterine contraction and cervical ripening.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diclofenac sodium and misoprostol (a combination product containing misoprostol): "Misoprostol Misoprostol is a synthetic PGE1 analog with gastric antisecretory and mucosal protective properties. Misoprostol can increase bicarbonate and mucus production, but it has been shown at doses 200 mcg and above that are also antisecretory." ([DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3), label version 2026-08-31; accessed 2026-11-19.) Based on general pharmacological knowledge, misoprostol is a prostaglandin E1 analogue that causes uterine contraction and cervical ripening.
 
 The retrieved literature concerns medical abortion, missed abortion and abnormal uterine bleeding. Amenorrhea appears in these papers mainly as clinical context (for example, "amenorrhea ≤35 days" describing early pregnancy), not as a condition being treated. The link between misoprostol and amenorrhea is therefore **indirect**.
 
@@ -143,11 +143,12 @@ The 0.9964 TxGNN score has no direct clinical support. There are no registered t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
 
 <!-- review:end log -->
 

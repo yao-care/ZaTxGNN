@@ -60,7 +60,7 @@ The data compiled for this report include **4 clinical trials** (2 of them termi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data were not available in the data compiled for this report. Published reviews describe tocilizumab as a humanised monoclonal antibody that blocks IL-6 receptor signalling. Its efficacy in rheumatoid arthritis and juvenile idiopathic arthritis is established, and mechanistically it may be applicable to ankylosing spondylitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tocilizumab: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), label version 2026-10-20; accessed 2026-11-19.) Published reviews describe tocilizumab as a humanised monoclonal antibody that blocks IL-6 receptor signalling. Its efficacy in rheumatoid arthritis and juvenile idiopathic arthritis is established, and mechanistically it may be applicable to ankylosing spondylitis.
 
 IL-6 is one of several cytokines implicated in the inflammation and bone effects of axial spondyloarthritis, alongside TNF-α. Blocking the IL-6 receptor is therefore biologically plausible. Both diseases are chronic inflammatory rheumatic conditions, and the literature has discussed IL-6 blockade as an option for patients who do not respond to TNF inhibitors.
 
@@ -141,6 +141,18 @@ The biological rationale is plausible, but the two Phase 3 RCTs in ankylosing sp
 - SAHPRA Professional Information (warnings, contraindications and approved indications) for Actemra 48/30.1/0370
 - A TB screening and infection monitoring plan appropriate for South African patients
 - Review of other tocilizumab-containing registrations, if any, and EML status
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

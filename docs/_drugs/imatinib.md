@@ -56,7 +56,7 @@ For this specific disease there are **no registered clinical trials** and only *
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the data compiled for this report. Imatinib is known to inhibit the PDGFR, KIT and ABL kinases.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imatinib: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), label version 2026-07-13; accessed 2026-11-19.) Imatinib is known to inhibit the PDGFR, KIT and ABL kinases.
 
 Some fibroblast-derived tumours, particularly dermatofibrosarcoma protuberans (DFSP) with the COL1A1-PDGFB fusion, depend on PDGFR signalling and respond to imatinib. The reasoning for heart fibrosarcoma is an extrapolation from this biology. There is no direct data on primary cardiac fibrosarcoma, and fibrosarcomas in general do not carry this fusion, so the mechanistic link is uncertain.
 
@@ -129,11 +129,12 @@ The prediction score is very high (0.9994), but no clinical trial or publication
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "One valid single-ingredient registration is listed" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ but **no clinical trials and no publications** directly support this prediction,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Felodipine belongs to the dihydropyridine class of L-type calcium channel blockers, which relax vascular smooth muscle and lower vascular resistance. This is the basis of its use in hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for felodipine: "Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein." ([DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115), label version 2024-08-07; accessed 2026-11-19.) Felodipine belongs to the dihydropyridine class of L-type calcium channel blockers, which relax vascular smooth muscle and lower vascular resistance. This is the basis of its use in hypertension.
 
 In theory, the same vasodilation could extend to the pulmonary circulation. However, calcium channel blockers help only a small vasoreactive subset of patients with pulmonary arterial hypertension, and the predicted condition here is poorly defined. The high score (0.9991) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -139,11 +139,12 @@ The prediction is supported only by the model score. No clinical trial or public
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "This single registration is valid, but it is a combination-type product name (2.5 mg/2.5 mg) listed as a single-ingredient record. It should" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
 
 <!-- review:end log -->
 

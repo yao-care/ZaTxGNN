@@ -54,7 +54,7 @@ Chloramphenicol is an antibacterial drug that is currently marketed in South Afr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this drug. Chloramphenicol is a well-known antibacterial agent, and its established use is against bacterial and rickettsial infections. Nothing in the data compiled for this report links this activity to the biology of scleroderma, which is an autoimmune, fibrosing disease.
+According to the Clinical Pharmacology and Microbiology sections of the US FDA-approved prescribing information for chloramphenicol: "Chloramphenicol is a broad-spectrum antibiotic originally isolated from Streptomyces venezuelae. It inhibits bacterial protein synthesis by interfering with the transfer of activated amino acids from soluble RNA to ribosomes." ([DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3), label version 2024-10-10; accessed 2026-11-19.) Chloramphenicol is a well-known antibacterial agent, and its established use is against bacterial and rickettsial infections. Nothing in the data compiled for this report links this activity to the biology of scleroderma, which is an autoimmune, fibrosing disease.
 
 The four linked publications are laboratory studies of collagen gene regulation in scleroderma fibroblasts (COL1A1 promoter activity, Smad3/Sp1/p300 interactions, TGF-beta signalling). None of them tests chloramphenicol as a treatment. The association most likely arises because chloramphenicol acetyltransferase (CAT) reporter-gene assays are widely used in this type of laboratory work. This looks like a technical artefact rather than a pharmacological link. The high model score is therefore not supported by the available evidence.
 
@@ -120,11 +120,12 @@ The prediction rests only on laboratory studies of scleroderma fibroblasts that 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are single-ingredient products and currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3) |
 
 <!-- review:end log -->
 

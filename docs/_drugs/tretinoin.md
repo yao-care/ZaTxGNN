@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **rheumatoid nodulosis**, but t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tretinoin is a retinoid (a vitamin A derivative) whose efficacy in acne and acute promyelocytic leukaemia is established, and mechanistically it may be applicable to inflammatory conditions through retinoic acid receptor (RAR) signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tretinoin: "Tretinoin induces cytodifferentiation and decreased proliferation of APL cells in culture and in vivo. In APL patients, tretinoin treatment produces an initial maturation of the primitive promyelocytes derived from the leukemic clone, followed by a repopulation of the bone marrow and peripheral blood by normal, polyclonal hematopoietic cells in patients achieving complete remission (CR)." ([DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9), label version 2026-08-20; accessed 2026-11-19.) Based on known information, tretinoin is a retinoid (a vitamin A derivative) whose efficacy in acne and acute promyelocytic leukaemia is established, and mechanistically it may be applicable to inflammatory conditions through retinoic acid receptor (RAR) signalling.
 
 One general hypothesis is that retinoid signalling influences immune balance (Th17/Treg regulation). This is not supported by any trial or publication for rheumatoid nodulosis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -152,11 +152,12 @@ The prediction rests solely on a computational score, with no clinical trials, n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid, single-ingredient entries and all are topical formulations. This matters because the predicted systemic o" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9) |
 
 <!-- review:end log -->
 

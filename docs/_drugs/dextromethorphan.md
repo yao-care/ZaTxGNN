@@ -58,7 +58,7 @@ Dextromethorphan is an antitussive used in cough and cold products in South Afri
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Dextromethorphan is generally described as an antitussive acting as an NMDA receptor antagonist and sigma-1 receptor agonist. These actions relieve cough, but they do not directly address disease of the nasal cavity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dextromethorphan hydrobromide, bupropion hydrochloride (a combination product containing dextromethorphan): "Dextromethorphan is an uncompetitive antagonist of the NMDA receptor (an ionotropic glutamate receptor) and a sigma-1 receptor agonist. The mechanism of dextromethorphan in the treatment of MDD and agitation associated with dementia due to Alzheimer’s disease is unclear." ([DailyMed: Auvelity (dextromethorphan hydrobromide, bupropion hydrochloride) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79), label version 2026-08-17; accessed 2026-11-19.) Dextromethorphan is generally described as an antitussive acting as an NMDA receptor antagonist and sigma-1 receptor agonist. These actions relieve cough, but they do not directly address disease of the nasal cavity.
 
 The high prediction score most likely reflects overlap with upper-respiratory symptom uses (such as rhinitis and common cold products) rather than a new mechanism. Combination cold and flu products in which dextromethorphan sits alongside other ingredients may also play a role, because the other components, not dextromethorphan, provide nasal symptom relief. No trial or publication was supplied that studies nasal cavity disease directly. The mechanistic reasoning is therefore limited and hypothetical.
 
@@ -129,11 +129,12 @@ Label warnings and contraindications from the SAHPRA Professional Information (P
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 5 SAHPRA registrations found are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Auvelity (dextromethorphan hydrobromide, bupropion hydrochloride) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79) |
 
 <!-- review:end log -->
 

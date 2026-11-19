@@ -58,7 +58,7 @@ Diazepam is a benzodiazepine that enhances GABA-A receptor signalling. The TxGNN
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, diazepam is a positive allosteric modulator of GABA-A receptors. It enhances inhibitory neurotransmission and produces sedative-hypnotic effects. Benzodiazepines as a class are used as hypnotics, so the prediction is biologically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diazepam: "The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6), label version 2026-10-06; accessed 2026-11-19.) Based on general pharmacology, diazepam is a positive allosteric modulator of GABA-A receptors. It enhances inhibitory neurotransmission and produces sedative-hypnotic effects. Benzodiazepines as a class are used as hypnotics, so the prediction is biologically plausible.
 
 A 2024 review of GABA-A modulators lists insomnia among the conditions treated by this drug class, with diazepam named as a prototypical example. A 1981 double-blind study compared diazepam 5 mg with lormetazepam 1 mg in 100 outpatients with sleep disorders, which is the only study retrieved that places diazepam directly in an insomnia population.
 
@@ -143,11 +143,12 @@ The mechanism is plausible and the benzodiazepine class is established as a hypn
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "One single-ingredient registration is currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, but **no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dexamethasone is a glucocorticoid with strong anti-inflammatory and immunosuppressive effects, and it is used in many inflammatory conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dexamethasone: "Dexamethasone is a corticosteroid with anti-inflammatory effects and low mineralocorticoid activity. The precise mechanism of action in multiple myeloma is unknown. Dexamethasone induces apoptosis of multiple myeloma cells." ([DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129), label version 2026-01-09; accessed 2026-11-19.) Based on general pharmacology, dexamethasone is a glucocorticoid with strong anti-inflammatory and immunosuppressive effects, and it is used in many inflammatory conditions.
 
 Alopecia mucinosa is an inflammatory follicular skin disorder, so an anti-inflammatory corticosteroid is conceptually plausible. This link is a hypothesis only. The very high TxGNN score (0.9999) is a computational output and does not replace clinical evidence. Topical and injectable corticosteroid products are already registered in South Africa, so formulation routes exist, but route suitability for this skin condition has not been assessed.
 
@@ -125,12 +125,13 @@ The only support for alopecia mucinosa is the model prediction. There are no tri
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 9 valid single-ingredient registrations and no cancelled registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The remaining four registrations are Spersadex comp 5ml (drops), Maxitrol 3.5g (eye ointment), Covomycin D and Tobradex 3.5g (eye ointment)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
 
 <!-- review:end log -->
 

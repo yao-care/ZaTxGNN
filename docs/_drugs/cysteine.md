@@ -54,7 +54,7 @@ Cysteine is a sulfur-containing amino acid with a thiol group that acts as a pre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on general chemistry, the thiol group of cysteine can form disulfide bonds with mucus glycoproteins, which is the basis of "thiomer" (thiolated polymer) mucoadhesion. Cysteine is also a building block for glutathione and for hydrogen sulfide/persulfide species, which may counter oxidative stress.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cysteine: "Endogenous cysteine is synthesized from methionine by the enzyme, cystathionase, via the trans-sulfuration pathway, and serves as a precursor substrate for both glutathione and taurine. ELCYS ® provides cysteine to the systemic circulation of patients who require PN and cannot synthesize adequate quantities of cysteine due to insufficient or deficient cystathionase activity." ([DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e), label version 2026-04-09; accessed 2026-11-19.) Based on general chemistry, the thiol group of cysteine can form disulfide bonds with mucus glycoproteins, which is the basis of "thiomer" (thiolated polymer) mucoadhesion. Cysteine is also a building block for glutathione and for hydrogen sulfide/persulfide species, which may counter oxidative stress.
 
 Excess reactive oxygen species (ROS) and ROS-driven NLRP3 inflammasome activation are described in the literature as important drivers of dry eye disease. This offers a plausible mechanistic link between cysteine chemistry and the ocular surface.
 
@@ -126,11 +126,12 @@ The prediction score is high, and there is a plausible antioxidant and mucoadhes
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e) |
 
 <!-- review:end log -->
 

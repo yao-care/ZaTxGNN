@@ -56,7 +56,7 @@ but at present there are **0 clinical trials** and **0 publications** supporting
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for domperidone is not available in the data compiled for this report. Domperidone is generally known as a peripheral D2/D3 dopamine receptor antagonist and prokinetic agent, and the pharmacology data confirm binding to the D2 (DRD2) and D3 (DRD3) receptors.
+ChEMBL (EMBL-EBI) records the mechanism of action of domperidone as: Dopamine D2 receptor antagonist ([ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916), CC BY-SA 3.0; accessed 2026-11-19.) Domperidone is generally known as a peripheral D2/D3 dopamine receptor antagonist and prokinetic agent, and the pharmacology data confirm binding to the D2 (DRD2) and D3 (DRD3) receptors.
 
 NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2) or, in some cases, in GNAS. These mutations cause water retention and low blood sodium (hyponatraemia) even though vasopressin is undetectable. No established mechanism links dopamine D2/D3 antagonism to V2 receptor signalling or to renal water handling. One speculative link is that domperidone raises prolactin and may influence the hypothalamic-pituitary axis. This is unlikely to affect constitutively active V2 receptors in the kidney.
 
@@ -109,6 +109,19 @@ The prediction rests on model output alone (L5). No clinical trials or publicati
 - A systematic literature search for case reports or studies in NSIAD or related hyponatraemia
 - Assessment of QT-prolongation risk in the target population, which is likely to include children, since NSIAD often presents in infancy
 - Route compatibility assessment, which is still pending
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for domperidone is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

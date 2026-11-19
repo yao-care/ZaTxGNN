@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **epiglottitis**, with a very h
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, penicillin V is a beta-lactam antibiotic with activity against streptococci. Its efficacy in streptococcal throat and respiratory infections is established, and mechanistically it may be applicable to epiglottitis, which is often caused by bacteria.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phenoxymethylpenicillin: "Penicillin V exerts a bactericidal action against penicillin-sensitive microorganisms during the stage of active multiplication. It acts through the inhibition of biosynthesis of cell-wall mucopeptide. It is not active against the penicillinase-producing bacteria, which include many strains of staphylococci." ([DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea), label version 2026-11-12; accessed 2026-11-19.) Based on known information, penicillin V is a beta-lactam antibiotic with activity against streptococci. Its efficacy in streptococcal throat and respiratory infections is established, and mechanistically it may be applicable to epiglottitis, which is often caused by bacteria.
 
 Epiglottitis is caused by *Haemophilus influenzae* type b, *Streptococcus pneumoniae* and group A streptococci. The streptococcal link gives the prediction some biological basis, and it overlaps with the drug's original upper-airway infection indications.
 
@@ -145,6 +145,19 @@ The epiglottitis prediction has a high model score but no trials or publications
 - Clinical evidence specific to penicillin V in epiglottitis, and an assessment of whether any role exists beyond parenteral therapy (e.g. step-down oral treatment).
 - Local resistance data in South Africa for *H. influenzae* and streptococci.
 - Confirmation of EML status and an analysis of route compatibility.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

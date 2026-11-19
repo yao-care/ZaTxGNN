@@ -60,7 +60,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Metformin is a biguanide whose efficacy in type 2 diabetes is well established. It is generally understood to act by reducing hepatic glucose production and improving insulin sensitivity, but this comes from general knowledge, not from the data compiled here.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metformin: "Metformin is an antihyperglycemic agent which improves glucose tolerance in patients with type 2 diabetes mellitus, lowering both basal and postprandial plasma glucose. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization." ([DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574), label version 2026-09-21; accessed 2026-11-19.) Metformin is a biguanide whose efficacy in type 2 diabetes is well established. It is generally understood to act by reducing hepatic glucose production and improving insulin sensitivity, but this comes from general knowledge, not from the data compiled here.
 
 Focal stiff limb syndrome is a rare condition within the stiff-person spectrum, thought to involve impaired GABAergic inhibition and, in many cases, autoimmune or neurological mechanisms. No plausible pathway from metformin's metabolic effects to this pathology can be established from the available evidence.
 
@@ -147,11 +147,12 @@ The prediction rests only on a TxGNN model (deep learning) score, with no clinic
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 16 valid SAHPRA registrations (all single-entity records, none cancelled)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
 
 <!-- review:end log -->
 

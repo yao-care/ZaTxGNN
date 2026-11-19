@@ -58,7 +58,7 @@ but **no clinical trials** and only **2 loosely related publications** (a review
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Cefazolin is a first-generation cephalosporin. Drugs of this class bind penicillin-binding proteins and block bacterial cell wall synthesis. They are active against gram-positive cocci such as streptococci and methicillin-susceptible *Staphylococcus aureus* (MSSA), which are plausible pathogens in otitis media.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for cefazolin: "Cefazolin is an antibacterial drug. […] Cefazolin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis." ([DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4), label version 2026-08-31; accessed 2026-11-19.) Cefazolin is a first-generation cephalosporin. Drugs of this class bind penicillin-binding proteins and block bacterial cell wall synthesis. They are active against gram-positive cocci such as streptococci and methicillin-susceptible *Staphylococcus aureus* (MSSA), which are plausible pathogens in otitis media.
 
 The prediction is best read as a class-level extension of cefazolin's antibacterial activity. It has important limits. Cefazolin has poor activity against *Haemophilus influenzae* and *Moraxella catarrhalis*, two of the most common otitis media pathogens. It is also available only as an injection, with no oral form, which makes it a poor fit as a standard otitis media agent.
 
@@ -108,6 +108,19 @@ The TxGNN score is high (0.9944), but no clinical trial or publication directly 
 - Direct clinical or microbiological data on cefazolin in infectious otitis media, including local susceptibility data from South Africa
 - Mechanism-of-action data and a review of the SAHPRA Professional Information for warnings and contraindications
 - A clear clinical niche (for example, severe or complicated infection needing intravenous therapy) where cefazolin would add value over current standard agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

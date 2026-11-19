@@ -58,7 +58,7 @@ Vildagliptin is an oral DPP-4 inhibitor used to treat type 2 diabetes mellitus. 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that vildagliptin binds dipeptidyl peptidase-4 (DPP-4), as well as DPP-8, DPP-9 and TRPV4. DPP-4 inhibition raises active GLP-1 and GIP levels, which improves insulin secretion and suppresses glucagon in type 2 diabetes.
+ChEMBL (EMBL-EBI) records the mechanism of action of vildagliptin as: Dipeptidyl peptidase IV inhibitor ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; accessed 2026-11-19.) Pharmacology records show that vildagliptin binds dipeptidyl peptidase-4 (DPP-4), as well as DPP-8, DPP-9 and TRPV4. DPP-4 inhibition raises active GLP-1 and GIP levels, which improves insulin secretion and suppresses glucagon in type 2 diabetes.
 
 For classic stiff person syndrome, no plausible mechanistic link is established. The disease is an autoimmune disorder of GABAergic signalling, and nothing in the data connects it to DPP-4 inhibition. The score of 0.9988 is identical to that of focal stiff limb syndrome, the second-ranked prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The model's other top-ranked predictions also lack any supporting evidence. These are thiamine-responsive dysfunction syndrome, opsismodysplasia, several localised lipodystrophies and pancreatic agenesis.
 
@@ -154,11 +154,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid, and" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
 

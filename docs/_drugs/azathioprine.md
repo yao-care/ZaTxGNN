@@ -60,7 +60,7 @@ No clinical trials or publications were found for this prediction, so it rests o
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for azathioprine is not available in the data compiled for this report. Azathioprine is generally known as a purine-antimetabolite immunosuppressant that suppresses lymphocyte proliferation.
+ChEMBL (EMBL-EBI) records the mechanism of action of azathioprine as: Amidophosphoribosyltransferase inhibitor; DNA inhibitor ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; accessed 2026-11-19.) Azathioprine is generally known as a purine-antimetabolite immunosuppressant that suppresses lymphocyte proliferation.
 
 The predicted condition is a rare developmental syndrome affecting the eyes and skeleton. No mechanistic link between azathioprine and this condition is established. Immunosuppression is not expected to alter a developmental genetic disorder. The very high model score reflects a pattern in the model's training data, not biological or clinical support. On the available information, the prediction is not mechanistically plausible.
 
@@ -131,11 +131,12 @@ The prediction has no supporting clinical trials or publications (Evidence Level
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products for oral use" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for azathioprine is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant for **amenorrhea (disease)**, but **
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Etonogestrel is a progestin, and progestins act on the endometrium and suppress its growth. This gives a theoretical hormonal rationale for effects on menstrual bleeding patterns.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etonogestrel: "The contraceptive effect of NEXPLANON is achieved by suppression of ovulation, increased viscosity of the cervical mucus, and alterations in the endometrium." ([DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594), label version 2026-05-28; accessed 2026-11-19.) Etonogestrel is a progestin, and progestins act on the endometrium and suppress its growth. This gives a theoretical hormonal rationale for effects on menstrual bleeding patterns.
 
 However, amenorrhea is a well-known effect of etonogestrel-containing products, seen as a change in bleeding pattern. It is an effect of the drug rather than a condition the drug treats. The prediction is therefore not supported by evidence as a therapeutic use, and the model score should not be read as evidence of benefit.
 
@@ -100,6 +100,19 @@ The prediction is supported by a model score only. No trial or publication studi
 - A clear clinical rationale showing amenorrhea as a treatment goal rather than a side effect
 - Mechanism of action data
 - Review of the SAHPRA Professional Information for warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

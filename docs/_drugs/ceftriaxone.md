@@ -60,7 +60,7 @@ Because of this, the prediction is not supported by biological rationale, and th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ceftriaxone is an antibacterial beta-lactam, and it is not known to lower serum amylase.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ceftriaxone: "Ceftriaxone is an antibacterial drug. […] Ceftriaxone is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftriaxone has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467), label version 2022-01-13; accessed 2026-11-19.) Ceftriaxone is an antibacterial beta-lactam, and it is not known to lower serum amylase.
 
 The direction of association appears more likely to be an adverse effect than a therapeutic benefit. Ceftriaxone is known to cause biliary sludge and pseudolithiasis, which can occasionally be associated with pancreatitis and raised amylase. A high model score alone is therefore not backed by a plausible biological explanation, and the prediction should be treated as a model signal rather than a treatment hypothesis.
 
@@ -137,11 +137,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Five registrations are currently valid and one is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467) |
 
 <!-- review:end log -->
 

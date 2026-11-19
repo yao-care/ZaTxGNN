@@ -56,7 +56,7 @@ There are **no registered clinical trials**, and the predicted new indication is
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Zidovudine is known to be an NRTI. It is phosphorylated inside cells and blocks the reverse transcriptase step of retroviral replication, and its efficacy in HIV infection and AIDS is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for zidovudine: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), label version 2024-11-13; accessed 2026-11-19.) Zidovudine is known to be an NRTI. It is phosphorylated inside cells and blocks the reverse transcriptase step of retroviral replication, and its efficacy in HIV infection and AIDS is established.
 
 SIV is a lentivirus closely related to HIV. It relies on the same reverse transcriptase-dependent replication cycle, so a link between zidovudine and SIV is mechanistically plausible. Macaque studies show zidovudine can lower viral load, protect newborn animals, and lower virus burden in the central nervous system.
 
@@ -150,12 +150,13 @@ Two other predictions in the same analysis, congenital HIV and AIDS-related comp
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Nine valid SAHPRA registrations were found, all in tablet or kit form" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named "Simayla Simvastatin 40" (Reg. No. 36/7.5/0" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->
 

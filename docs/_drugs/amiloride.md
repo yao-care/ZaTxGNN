@@ -54,7 +54,7 @@ Amiloride is a potassium-sparing diuretic that is marketed in South Africa. The 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Amiloride is generally known as a potassium-sparing diuretic that blocks epithelial sodium channels, and it has a blood-pressure-lowering effect. This makes a link to hypertension-related kidney disease plausible in theory.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for amiloride: "Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies." ([DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68), label version 2026-11-11; accessed 2026-11-19.) Amiloride is generally known as a potassium-sparing diuretic that blocks epithelial sodium channels, and it has a blood-pressure-lowering effect. This makes a link to hypertension-related kidney disease plausible in theory.
 
 The prediction looks like a neighbour of the hypertension-related uses of the drug. Malignant hypertensive renal disease is a severe, acute form of kidney damage from very high blood pressure. No study in the compiled data tests amiloride in this condition. Its potassium-retaining effect is also a concern when kidney function is impaired, because of the risk of hyperkalaemia.
 
@@ -114,11 +114,12 @@ The prediction has a very high model score (0.9982), but there are no trials or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are currently valid, and" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
 
 <!-- review:end log -->
 

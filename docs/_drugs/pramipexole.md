@@ -60,7 +60,7 @@ Currently there are **no registered clinical trials** and **7 retrieved publicat
 
 ## Why is This Prediction Reasonable?
 
-Pramipexole is a D2/D3 dopamine receptor agonist with preferential D3 selectivity. Detailed structured mechanism-of-action data were not available in the data compiled for this report, but its dopaminergic activity is well established. It is used in Parkinson disease and restless legs syndrome, both conditions in which dopamine signalling plays a central role.
+Pramipexole is a D2/D3 dopamine receptor agonist with preferential D3 selectivity. According to the Mechanism of Action section of the US FDA-approved prescribing information for pramipexole: "Pramipexole is a non-ergot dopamine agonist with high relative in vitro specificity and full intrinsic activity at the D 2 subfamily of dopamine receptors, binding with higher affinity to D 3 than to D 2 or D 4 receptor subtypes. Parkinson’s Disease The precise mechanism of action of pramipexole as a treatment for Parkinson's disease is unknown, although it is believed to be related to its ability to stimulate dopamine receptors in the striatum." ([DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c), label version 2026-09-09; accessed 2026-11-19.) Its dopaminergic activity is well established. It is used in Parkinson disease and restless legs syndrome, both conditions in which dopamine signalling plays a central role.
 
 Dopaminergic dysregulation is also implicated in ADHD. Variants of the dopamine D4 receptor gene have been linked to ADHD, and one preclinical study explored how these variants interact with α2A adrenoceptors, a target of ADHD drugs such as guanfacine. This gives a plausible but **indirect** biological rationale.
 
@@ -144,11 +144,12 @@ The very high TxGNN score is a computational prediction. No ADHD-specific clinic
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed structured mechanism-of-action data were not available in the data compiled for this report, but i" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
 
 <!-- review:end log -->
 

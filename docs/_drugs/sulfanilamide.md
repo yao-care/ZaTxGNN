@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **postmenopausal atrophic vagin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sulfanilamide is a bacteriostatic sulfonamide. It blocks bacterial folate synthesis by competing with para-aminobenzoic acid (PABA) and inhibiting dihydropteroate synthase.
+ChEMBL (EMBL-EBI) records the mechanism of action of sulfanilamide as: Bacterial dihydropteroate synthase inhibitor ([ChEMBL CHEMBL21 (sulfanilamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL21), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, sulfanilamide is a bacteriostatic sulfonamide. It blocks bacterial folate synthesis by competing with para-aminobenzoic acid (PABA) and inhibiting dihydropteroate synthase.
 
 Postmenopausal atrophic vaginitis is a different problem. It is driven by oestrogen deficiency and thinning of the vaginal epithelium, not by infection. Sulfanilamide has no known oestrogenic or tissue-restorative action. Treat this prediction with caution.
 
@@ -134,11 +134,12 @@ For label-based warnings, contraindications and dosing, please refer to the SAHP
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient entries. The Adco-ipratropium entry is named for a different drug (ipratropium), so the regis" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL21 (sulfanilamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL21) |
 
 <!-- review:end log -->
 

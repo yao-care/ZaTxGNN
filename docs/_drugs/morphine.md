@@ -54,7 +54,7 @@ Morphine is an opioid analgesic that acts as a mu-opioid receptor agonist. The T
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on general pharmacology, morphine is a mu-opioid receptor agonist that provides analgesia through central and peripheral pain modulation. This makes a role in muscle-related pain plausible in principle.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for morphine: "Morphine is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of morphine is analgesia. Like all full opioid agonists, there is no ceiling effect for analgesia with morphine." ([DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698), label version 2026-08-14; accessed 2026-11-19.) Based on general pharmacology, morphine is a mu-opioid receptor agonist that provides analgesia through central and peripheral pain modulation. This makes a role in muscle-related pain plausible in principle.
 
 However, the retrieved literature concerns opioid use in related pain conditions (temporomandibular dysfunction, failed back surgery pain, myofascial pelvic pain) or peri-procedural analgesia. None tests morphine as a treatment for myofascial pain syndrome. Long-term opioid use for chronic musculoskeletal pain also carries risks of tolerance, opioid-induced hyperalgesia and dependence. The mechanistic link is therefore plausible but unproven.
 
@@ -126,11 +126,12 @@ The TxGNN score is high, but no registered trial and no publication directly tes
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "and all three registrations in the data compiled for this report are valid single-ingredient records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698) |
 
 <!-- review:end log -->
 

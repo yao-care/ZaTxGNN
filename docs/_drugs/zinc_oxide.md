@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **acne (disease)**, but there are 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, zinc oxide is a widely used topical dermatological agent. It has an established role in skin inflammation, skin infections and anorectal conditions, and mechanistically it may be applicable to acne.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for miconazole nitrate, zinc oxide, white petrolatum (a combination product containing zinc oxide): "The mechanism of action of white petrolatum and zinc oxide for the adjunctive treatment of diaper dermatitis is unknown." ([DailyMed: Vusion (miconazole nitrate, zinc oxide, white petrolatum) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b44b452d-3630-4cb5-8ed1-1f8edac4690c), label version 2018-08-15; accessed 2026-11-19.) Based on known information, zinc oxide is a widely used topical dermatological agent. It has an established role in skin inflammation, skin infections and anorectal conditions, and mechanistically it may be applicable to acne.
 
 Zinc compounds have plausible anti-inflammatory and antibacterial properties, including possible activity against *Cutibacterium acnes*, the bacterium implicated in acne. This fits with zinc oxide's existing uses in dermatitis and fungal and bacterial skin conditions. Acne is an inflammatory skin disease with a bacterial component, so the link is biologically sensible.
 
@@ -126,11 +126,12 @@ The prediction is biologically plausible and zinc is already used in dermatology
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vusion (miconazole nitrate, zinc oxide, white petrolatum) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b44b452d-3630-4cb5-8ed1-1f8edac4690c) |
 
 <!-- review:end log -->
 

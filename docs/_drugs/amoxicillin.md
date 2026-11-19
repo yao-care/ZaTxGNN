@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **hyperamylasemia**, but there are
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Amoxicillin is known as a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, so its activity is directed at bacteria.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for amoxicillin: "Amoxicillin is an antibacterial drug. […] Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77), label version 2026-11-13; accessed 2026-11-19.) Amoxicillin is known as a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, so its activity is directed at bacteria.
 
 No mechanistic link to hyperamylasemia was identified. Amoxicillin has no known action on amylase metabolism or on pancreatic or salivary enzyme regulation. The high TxGNN score (0.9963) appears to be a network-based prediction without supporting clinical or literature data, and it should not be read as evidence of benefit.
 
@@ -122,11 +122,12 @@ The prediction for hyperamylasemia is computational only, with no trials, no pub
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 14 valid SAHPRA registrations, all single-ingredient records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77) |
 
 <!-- review:end log -->
 

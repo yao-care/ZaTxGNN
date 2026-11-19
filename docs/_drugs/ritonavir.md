@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ritonavir is known as an HIV protease inhibitor, and HIV infection and AIDS are among its listed uses.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ritonavir: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), label version 2026-07-23; accessed 2026-11-19.) Ritonavir is known as an HIV protease inhibitor, and HIV infection and AIDS are among its listed uses.
 
 Feline immunodeficiency virus (FIV) is a lentivirus whose aspartyl protease is related to HIV-1 protease, so a mechanistic rationale exists. However, FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity, so activity cannot be assumed. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is a prediction only.
 
@@ -138,12 +138,13 @@ The prediction for feline acquired immunodeficiency syndrome rests on model scor
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 9 registrations are valid single-ingredient licences" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Four further registrations (Emcovir, Paxlovid, Quadrimune, Lopimune 40/10 Oral Pellets) are also valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **Rasmussen subacute encephalitis** (
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Levodopa is known to be converted to dopamine in the brain, replacing the dopamine lost in the nigrostriatal pathway in Parkinson disease. Its efficacy in Parkinson disease is well established, and it may be applicable to other conditions that involve a similar dopamine deficiency.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levodopa: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), label version 2026-07-20; accessed 2026-11-19.) Levodopa is known to be converted to dopamine in the brain, replacing the dopamine lost in the nigrostriatal pathway in Parkinson disease. Its efficacy in Parkinson disease is well established, and it may be applicable to other conditions that involve a similar dopamine deficiency.
 
 For the top-ranked prediction, **Rasmussen subacute encephalitis**, no plausible direct mechanism is supported. It is an autoimmune, inflammatory epilepsy syndrome with progressive unilateral hemispheric atrophy.
 
@@ -160,12 +160,13 @@ The top-ranked prediction, Rasmussen subacute encephalitis, has no trials, no li
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with six valid single-ingredient registrations in the data compiled for this report" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->
 

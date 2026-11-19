@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Itraconazole inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane. Detailed mechanism of action data is not available in the data compiled for this report, so this description reflects the generally known class mechanism.
+Itraconazole inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane. According to the Mechanism of Action section of the US FDA-approved prescribing information for itraconazole: "In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes." ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), label version 2026-07-13; accessed 2026-11-19.) This description reflects the generally known class mechanism.
 
 The prediction is **mechanistically weak**. *Pneumocystis jirovecii* is classified as a fungus, but its cell membrane contains mainly cholesterol rather than ergosterol, so the azole target is only weakly relevant. Azoles are not established as effective anti-Pneumocystis agents. Standard prophylaxis and treatment rely on other agents, such as trimethoprim-sulfamethoxazole, as the retrieved reviews also mention.
 
@@ -129,6 +129,19 @@ The prediction rests on model scoring alone. There are no registered clinical tr
 - The SAHPRA package insert (warnings, contraindications, approved indications) for safety screening
 - A comparison with standard therapy (trimethoprim-sulfamethoxazole) to define any clinical niche, for example in patients who cannot tolerate it
 - A review of cardiac, hepatic and interaction risks in the immunocompromised target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

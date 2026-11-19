@@ -60,7 +60,7 @@ Support is thin: **no registered clinical trials** and only **2 publications** w
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Ipratropium belongs to the anticholinergic class. It blocks muscarinic receptors, which reduces cholinergic stimulation of glands and airway smooth muscle.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ipratropium: "Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle." ([DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884), label version 2025-11-05; accessed 2026-11-19.) Ipratropium belongs to the anticholinergic class. It blocks muscarinic receptors, which reduces cholinergic stimulation of glands and airway smooth muscle.
 
 In the nose, this mechanism could reduce glandular secretion and runny nose. That makes a benefit in nasal conditions biologically plausible. A systematic review and meta-analysis of intranasal anticholinergics in chronic rhinitis ([PMID 35838014](https://pubmed.ncbi.nlm.nih.gov/35838014/), *The Laryngoscope*, 2023) supports this general idea. However, it concerns chronic rhinitis, a related condition, and not the predicted disease as a whole.
 
@@ -129,11 +129,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full safet
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The local records show 14 valid single-ingredient licences and no cancelled ones" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
 
 <!-- review:end log -->
 

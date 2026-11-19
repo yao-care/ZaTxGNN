@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, levofloxacin belongs to the fluoroquinolone class, which kills bacteria by inhibiting bacterial DNA gyrase and topoisomerase IV. Because the drug is already used against bacterial eye-surface infections such as conjunctivitis, extending it to a related ocular surface condition looks plausible at first glance.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for levofloxacin: "Levofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] Levofloxacin is the L-isomer of the racemate, ofloxacin, a quinolone antimicrobial agent. The antibacterial activity of ofloxacin resides primarily in the L-isomer. The mechanism of action of levofloxacin and other fluoroquinolone antimicrobials involves inhibition of bacterial topoisomerase IV and DNA gyrase (both of which are type II topoisomerases), enzymes required for DNA replication, transcription, repair and recombination." ([DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5), label version 2026-11-05; accessed 2026-11-19.) Based on general knowledge, levofloxacin belongs to the fluoroquinolone class, which kills bacteria by inhibiting bacterial DNA gyrase and topoisomerase IV. Because the drug is already used against bacterial eye-surface infections such as conjunctivitis, extending it to a related ocular surface condition looks plausible at first glance.
 
 However, the one publication retrieved describes an outbreak of microsporidial keratoconjunctivitis linked to contaminated swimming-pool water in Taiwan. Microsporidia are not susceptible to fluoroquinolones, and the report gives no evidence that levofloxacin works. The high score most likely reflects the drug's known ocular uses rather than a true mechanistic link. The prediction should be treated as a hypothesis only.
 
@@ -116,11 +116,12 @@ The prediction has a very high model score (0.9992) but no registered trials and
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Three of the four registrations are valid and one is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5) |
 
 <!-- review:end log -->
 

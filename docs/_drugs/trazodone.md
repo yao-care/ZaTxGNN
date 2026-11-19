@@ -60,7 +60,7 @@ with **no registered clinical trials** but **20 publications** (mostly small, da
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. The literature does describe trazodone as acting on serotonergic pathways: 5-HT2A receptor antagonism, weak serotonin reuptake inhibition, and activity of its metabolite m-CPP. These pathways overlap with the serotonergic mechanisms implicated in OCD.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trazodone: "The mechanism of trazodone’s antidepressant action is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS. Trazodone is both a selective serotonin reuptake inhibitor (SSRI) and a 5HT2 receptor antagonist and the net result of this action on serotonergic transmission and its role in trazodone’s antidepressant effect is unknown." ([DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768), label version 2026-11-13; accessed 2026-11-19.) The literature does describe trazodone as acting on serotonergic pathways: 5-HT2A receptor antagonism, weak serotonin reuptake inhibition, and activity of its metabolite m-CPP. These pathways overlap with the serotonergic mechanisms implicated in OCD.
 
 Trazodone is already used for depression and anxiety disorders, which are closely related to OCD clinically. Small studies report benefit as an adjunct in clomipramine-resistant OCD. One early report links treatment response to shifts in caudate glucose metabolism on PET imaging.
 
@@ -157,11 +157,12 @@ The supporting evidence is limited to small, dated (1980s–1990s) studies and c
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768) |
 
 <!-- review:end log -->
 

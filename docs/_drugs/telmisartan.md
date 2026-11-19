@@ -70,7 +70,7 @@ The remaining predictions (brain stem infarction, ABri amyloidosis, pulmonary hy
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, telmisartan blocks the angiotensin II type 1 (AT1) receptor, and preclinical studies also describe partial PPARγ agonism. Its efficacy in hypertension and cardiovascular risk reduction is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for telmisartan: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the reninangiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Telmisartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10), label version 2026-11-02; accessed 2026-11-19.) Based on known pharmacology, telmisartan blocks the angiotensin II type 1 (AT1) receptor, and preclinical studies also describe partial PPARγ agonism. Its efficacy in hypertension and cardiovascular risk reduction is established.
 
 For **Prinzmetal angina** (coronary vasospasm), a plausible link exists through ARB-mediated vasodilation and endothelial effects. However, nothing in the data compiled for this report supports it, so it should be regarded as a hypothesis only.
 
@@ -201,12 +201,13 @@ Refer to the SAHPRA-approved PI for full safety information. Report adverse drug
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 17 valid registrations (all valid, none cancelled)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The remaining 12 registrations include fixed-dose combinations with hydrochlorothiazide or amlodipine (e.g. Telpres Plus, Stytem, Co-pritor," | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
 
 <!-- review:end log -->
 

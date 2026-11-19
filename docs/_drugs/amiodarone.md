@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **catecholaminergic polymorphic ve
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, amiodarone blocks potassium channels (prolonging repolarisation), and also blocks sodium and calcium channels and has beta-adrenergic antagonist activity. These actions suppress ventricular arrhythmias.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amiodarone: "Amiodarone is considered a class III antiarrhythmic drug, but it possesses electrophysiologic characteristics of all four Vaughan Williams classes. Like class I drugs, amiodarone blocks sodium channels at rapid pacing frequencies, and like class II drugs, amiodarone exerts a noncompetitive antisympathetic action." ([DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3), label version 2025-11-05; accessed 2026-11-19.) From general pharmacology, amiodarone blocks potassium channels (prolonging repolarisation), and also blocks sodium and calcium channels and has beta-adrenergic antagonist activity. These actions suppress ventricular arrhythmias.
 
 CPVT is an inherited arrhythmia caused by catecholamine-triggered diastolic calcium leak (RYR2 or CASQ2 variants). The beta-blocking and partial calcium-channel effects of amiodarone make a benefit plausible, but the link is indirect. Beta-blockers and flecainide are the established therapies, and the publications supplied do not show amiodarone-specific efficacy in CPVT.
 
@@ -126,11 +126,12 @@ Safety information is limited. Label warnings and contraindications from the SAH
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
 
 <!-- review:end log -->
 

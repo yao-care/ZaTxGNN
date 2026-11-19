@@ -56,7 +56,7 @@ Obstructive lung disease overlaps almost completely with vilanterol's existing i
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From established pharmacology, vilanterol is a long-acting beta2-adrenoceptor agonist. It relaxes airway smooth muscle and produces bronchodilation with once-daily dosing. It is used in fixed-dose inhalers combined with an inhaled corticosteroid (fluticasone furoate) and/or a long-acting muscarinic antagonist (umeclidinium).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone furoate and vilanterol (a combination product containing vilanterol): "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)." ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), label version 2024-11-21; accessed 2026-11-19.) From established pharmacology, vilanterol is a long-acting beta2-adrenoceptor agonist. It relaxes airway smooth muscle and produces bronchodilation with once-daily dosing. It is used in fixed-dose inhalers combined with an inhaled corticosteroid (fluticasone furoate) and/or a long-acting muscarinic antagonist (umeclidinium).
 
 Obstructive lung disease is essentially the same disease space as vilanterol's existing indications (COPD, asthma). The high TxGNN score therefore mainly confirms current use. Large Phase 3 randomised trials (IMPACT, FULFIL, HZA106829) show improvements in lung function and reductions in exacerbations. A post hoc analysis of IMPACT also reported a reduction in all-cause mortality with triple therapy (fluticasone furoate/umeclidinium/vilanterol) compared with dual therapy.
 
@@ -153,11 +153,12 @@ Multiple completed Phase 3 randomised trials and large RCT publications support 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
 
 <!-- review:end log -->
 

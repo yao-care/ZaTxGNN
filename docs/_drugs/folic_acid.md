@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **biotin metabolic disease**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Folic acid is a water-soluble B vitamin that serves as a cofactor in one-carbon metabolism (including DNA synthesis and homocysteine-to-methionine conversion). Its efficacy in folate-deficiency anaemia is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for folic acid: "Folic acid acts on megaloblastic bone marrow to produce a normoblastic marrow. In man, an exogenous source of folate is required for nucleoprotein synthesis and the maintenance of normal erythropoiesis. Folic acid is the precursor of tetrahydrofolic acid, which is involved as a cofactor for transformylation reactions in the biosynthesis of purines and thymidylates of nucleic acids." ([DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1), label version 2026-10-05; accessed 2026-11-19.) Folic acid is a water-soluble B vitamin that serves as a cofactor in one-carbon metabolism (including DNA synthesis and homocysteine-to-methionine conversion). Its efficacy in folate-deficiency anaemia is well established.
 
 Folic acid and biotin (vitamin B7) are both water-soluble B vitamins, and vitamin-responsive disorders are often discussed together in the literature (for example, a review covering cobalamin, folate, biotin, B1 and E). This shared grouping is likely what drives the high prediction score.
 
@@ -163,12 +163,13 @@ The prediction rests only on model score and general vitamin-group proximity. Th
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 11 registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The remaining six include Soluvit Novum (injection), Gericomplex (capsule), Linctifed wet cough (syrup), Dextrose 20% in water (infusion), I" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1) |
 
 <!-- review:end log -->
 

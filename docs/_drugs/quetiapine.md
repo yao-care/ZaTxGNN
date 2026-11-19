@@ -61,7 +61,7 @@ The highest-scoring TxGNN prediction (retinal dystrophy) has no supporting evide
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, quetiapine is an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors, with additional histamine H1 and alpha-1 adrenergic blockade.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for quetiapine: "The mechanism of action of quetiapine in the listed indications is unclear. However, the efficacy of quetiapine in these indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2A (5HT 2A ) antagonism." ([DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933), label version 2026-10-08; accessed 2026-11-19.) From general pharmacology, quetiapine is an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors, with additional histamine H1 and alpha-1 adrenergic blockade.
 
 Trichotillomania (hair-pulling disorder) belongs to the obsessive-compulsive spectrum. Atypical antipsychotics with 5-HT2A and D2 antagonism are used as augmentation in OCD and related conditions, so a symptom-level link is plausible. The quetiapine-specific publications are small case reports or series, and one report describes quetiapine *worsening* obsessive-compulsive symptoms in a patient with trichotillomania, so the direction of effect is not consistent.
 
@@ -157,11 +157,12 @@ The rest are rated Moderate, including:
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All five registrations are valid single-ingredient products, and none is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->
 

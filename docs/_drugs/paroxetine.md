@@ -56,7 +56,7 @@ This prediction rests on the model score alone: **no clinical trials and no publ
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Paroxetine is generally known as a selective serotonin reuptake inhibitor (SSRI), and its efficacy in depression and anxiety-related disorders is established. However, the data compiled for this report do not describe a mechanism that would connect it to Ohdo syndrome.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for paroxetine: "The mechanism of action of PAXIL CR in the treatment of major depressive disorder (MDD), panic disorder (PD), social anxiety disorder (SAD), and premenstrual dysphoric disorder (PMDD) is unknown, but is presumed to be linked to potentiation of serotonergic activity in the central nervous system resulting from inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c), label version 2026-09-30; accessed 2026-11-19.) Paroxetine is generally known as a selective serotonin reuptake inhibitor (SSRI), and its efficacy in depression and anxiety-related disorders is established. However, the data compiled for this report do not describe a mechanism that would connect it to Ohdo syndrome.
 
 Ohdo syndrome and its variants (for example, Say-Barber-Biesecker-Young-Simpson syndrome) are rare genetic conditions. They are usually linked to variants in the *KAT6B* gene and involve intellectual disability, low muscle tone and blepharophimosis (narrowed eye openings). The underlying problem lies in chromatin and epigenetic regulation. No plausible pathway links serotonin reuptake inhibition to this biology.
 
@@ -122,11 +122,12 @@ The prediction has only a model score behind it (evidence level L5). There are n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Paroxetine has 5 valid single-ingredient registrations in South Africa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
 
 <!-- review:end log -->
 

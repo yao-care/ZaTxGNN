@@ -58,7 +58,7 @@ Soybean oil is a lipid emulsion used in parenteral nutrition, supplying energy a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, soybean oil is a parenteral nutrition lipid emulsion and a dietary source of linoleic acid and phytosterols. Its established role is nutritional support, not treatment of a specific disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for soybean oil: "Nutrilipid 20% administered intravenously provides biologically utilizable source of calories and essential fatty acids. Fatty acids serve as an important substrate for energy production. The most common mechanism of action for energy production derived from fatty acid metabolism is beta oxidation." ([DailyMed: Nutrilipid I.V. Fat Emulsion (soybean oil) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=193290b1-a0a1-4054-a22a-de5c9e7a8b73), label version 2026-07-10; accessed 2026-11-19.) Based on known information, soybean oil is a parenteral nutrition lipid emulsion and a dietary source of linoleic acid and phytosterols. Its established role is nutritional support, not treatment of a specific disease.
 
 No plausible, evidence-supported link to the hypothalamic-pituitary-ovarian axis, which governs menstruation, was identified in the data compiled for this report. The high TxGNN score (0.9961) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -124,6 +124,19 @@ The prediction is supported only by a score from the TxGNN model (deep learning)
 - A mechanistic rationale linking soybean oil or its fatty acids to menstrual function, with supporting preclinical or clinical studies
 - Confirmation of route compatibility, since the only registered product is an intravenous infusion
 - Reassessment of other predictions only if a credible mechanism emerges. Oesophageal disease (L4, indirect evidence only) would need human trials showing a therapeutic benefit.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nutrilipid I.V. Fat Emulsion (soybean oil) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=193290b1-a0a1-4054-a22a-de5c9e7a8b73) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

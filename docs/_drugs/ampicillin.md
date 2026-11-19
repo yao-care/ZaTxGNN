@@ -58,7 +58,7 @@ Ampicillin is a beta-lactam antibiotic that blocks bacterial cell wall synthesis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, ampicillin is a beta-lactam that inhibits bacterial cell wall synthesis, so it can act against susceptible bacteria.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ampicillin: "Ampicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1), label version 2026-07-27; accessed 2026-11-19.) Based on general pharmacology, ampicillin is a beta-lactam that inhibits bacterial cell wall synthesis, so it can act against susceptible bacteria.
 
 The reasoning for laryngitis is indirect. Bacterial infections of the larynx and surrounding structures, such as epiglottitis caused by *Haemophilus influenzae* or deep neck abscess, are plausibly susceptible to ampicillin. However, laryngitis itself is mostly viral and self-limiting, so antibiotics would rarely be indicated. Beta-lactamase production in *H. influenzae* also limits ampicillin as monotherapy. The high model score therefore should not be read as proof of benefit.
 
@@ -144,11 +144,12 @@ Clarithromycin is rated Minor.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Seven of the eight SAHPRA registrations are valid and one is cancelled. All are single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1) |
 
 <!-- review:end log -->
 

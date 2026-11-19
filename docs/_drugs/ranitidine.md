@@ -58,7 +58,7 @@ Ranitidine is a histamine H2-receptor antagonist that reduces gastric acid secre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for ranitidine are not available in the data compiled for this report. Ranitidine is known as an H2-receptor antagonist, and acid suppression is the pharmacological basis for its use in acid-related upper gastrointestinal disease.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ranitidine: "Ranitidine Tablets are a competitive, reversible inhibitor of the action of histamine at the histamine H 2 -receptors, including receptors on the gastric cells. Ranitidine Tablets do not lower serum Ca ++ in hypercalcemic states." ([DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9), label version 2026-09-24; accessed 2026-11-19.) Ranitidine is known as an H2-receptor antagonist, and acid suppression is the pharmacological basis for its use in acid-related upper gastrointestinal disease.
 
 Acid suppression may be plausible as adjunctive or maintenance therapy to reduce ulcer recurrence and complications. It is not a treatment for perforation itself, which is a surgical or non-operative emergency. The literature is indirect: reviews of long-term H2-antagonist maintenance therapy, and studies of ulcer healing and prevention. No study tests ranitidine as a treatment for peptic ulcer perforation, so the model score alone is not clinical evidence.
 
@@ -140,11 +140,12 @@ No study tests ranitidine as a treatment for peptic ulcer perforation. The only 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Of the two single-ingredient registrations, one is valid and one is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for ranitidine are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9) |
 
 <!-- review:end log -->
 

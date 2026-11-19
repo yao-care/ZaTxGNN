@@ -60,7 +60,7 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Econazole belongs to the imidazole antifungal class. Drugs in this class generally inhibit fungal ergosterol synthesis by blocking the enzyme CYP51 (lanosterol 14-alpha-demethylase), which damages the fungal cell membrane.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for econazole: "Ecoza topical foam is an azole antifungal. […] Econazole nitrate, an azole antifungal agent, inhibits fungal cytochrome P-450-mediated 14 alpha-lanosterol demethylase enzyme. This enzyme functions to convert lanosterol to ergosterol. The accumulation of 14 alpha-methyl sterols correlates with the subsequent loss of ergosterol in the fungal cell wall and may be responsible for the fungistatic activity of econazole." ([DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577), label version 2023-12-04; accessed 2026-11-19.) Econazole belongs to the imidazole antifungal class. Drugs in this class generally inhibit fungal ergosterol synthesis by blocking the enzyme CYP51 (lanosterol 14-alpha-demethylase), which damages the fungal cell membrane.
 
 Ectothrix infections are caused by dermatophytes such as *Microsporum* and *Trichophyton* species, which form spores on the outside of the hair shaft. These organisms fall within the general antifungal spectrum of imidazoles, which is the likely reason the model gave a high score.
 
@@ -132,11 +132,12 @@ The prediction has a high model score but no trials or publications for ectothri
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577) |
 
 <!-- review:end log -->
 

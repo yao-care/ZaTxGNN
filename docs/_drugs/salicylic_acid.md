@@ -56,7 +56,7 @@ The prediction is computational only.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Salicylic acid is proposed to act through inhibition of cyclooxygenase (COX) enzymes, which reduces prostaglandin synthesis and inflammation. However, no publicly available bioactivity data confirming this at a specific molecular target were found. Pharmacology data list ASIC3 as an associated target, but this is not confirmed as a primary mechanism.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for salicylic acid: "Although the exact mode of action for salicylic acid in the treatment of warts is unknown, its activity appears to be associated with its keratolytic action, which results in mechanical removal of epidermal cells infected with wart viruses." ([DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b), label version 2025-10-15; accessed 2026-11-19.) Salicylic acid is proposed to act through inhibition of cyclooxygenase (COX) enzymes, which reduces prostaglandin synthesis and inflammation. However, no publicly available bioactivity data confirming this at a specific molecular target were found. Pharmacology data list ASIC3 as an associated target, but this is not confirmed as a primary mechanism.
 
 The link to papillary conjunctivitis is plausible but indirect. Salicylic acid is already listed for allergic rhinitis, another allergic mucosal condition, and papillary conjunctivitis involves allergic or inflammatory irritation of the conjunctiva. Salicylic acid is also keratolytic and irritating to mucous membranes, so tolerability in the eye is a real concern. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -132,11 +132,12 @@ The prediction for papillary conjunctivitis rests only on a computational score,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid and are topical products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
 
 <!-- review:end log -->
 

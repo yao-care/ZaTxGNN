@@ -71,7 +71,7 @@ The more evidence-supported direction among the ten predictions is **congenital 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory, genital and ocular infections is established, and its anti-inflammatory and immunomodulatory properties are the likely basis for any non-infectious applications.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for azithromycin: "Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit." ([DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a), label version 2026-09-09; accessed 2026-11-19.) Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory, genital and ocular infections is established, and its anti-inflammatory and immunomodulatory properties are the likely basis for any non-infectious applications.
 
 For the top-ranked prediction, **hyperamylasemia**, no mechanistic link can be identified. It is a laboratory finding rather than a disease with an antimicrobial or immunomodulatory target. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by trials or publications. The same applies to polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility and the other L5 predictions.
 
@@ -164,12 +164,13 @@ The top-ranked prediction, hyperamylasemia, has no trials, no literature and no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The highest-evidence direction, sickle cell disease (L3), is supported only by two withdrawn trials with zero enrollment" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a) |
 
 <!-- review:end log -->
 

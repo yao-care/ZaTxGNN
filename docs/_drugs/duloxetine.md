@@ -57,7 +57,7 @@ The original indications are not taken from the SAHPRA records compiled for this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Duloxetine belongs to the SNRI class, and its efficacy in depression and anxiety is established. However, no mechanistic route to benign paroxysmal torticollis of infancy is evident.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for duloxetine: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), label version 2026-08-20; accessed 2026-11-19.) Duloxetine belongs to the SNRI class, and its efficacy in depression and anxiety is established. However, no mechanistic route to benign paroxysmal torticollis of infancy is evident.
 
 This condition is an episodic disorder of infancy, often linked to variants in the *CACNA1A* calcium channel gene. It is unrelated to depression or pain in any established way, and no plausible duloxetine mechanism has been identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -152,11 +152,12 @@ The prediction rests on a model score alone, with no trials, no literature and n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products, and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
 
 <!-- review:end log -->
 

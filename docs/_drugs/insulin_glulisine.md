@@ -56,7 +56,7 @@ The TxGNN model predicts it may be relevant to **thiamine-responsive dysfunction
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. In general, insulin glulisine acts as an insulin receptor agonist that lowers blood glucose quickly.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin glulisine: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), label version 2025-11-25; accessed 2026-11-19.) In general, insulin glulisine acts as an insulin receptor agonist that lowers blood glucose quickly.
 
 The high score probably reflects a diabetes-like feature of the predicted condition. Thiamine-responsive megaloblastic anaemia syndrome includes diabetes mellitus as one component. Insulin could in principle help manage that glycaemic component. This is a plausible explanation only. It is not evidence that insulin glulisine treats the underlying syndrome, and no study of this drug in this disease was identified. The relationship to the drug's existing use has not yet been assessed in detail.
 
@@ -116,11 +116,12 @@ The only support is a model score. No trials or publications address this diseas
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The product is a single-ingredient registration with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
 
 <!-- review:end log -->
 

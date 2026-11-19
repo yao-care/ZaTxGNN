@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **vulvar inverted follicular ke
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on known information, benzoyl peroxide is a topical agent with antibacterial, comedolytic and anti-inflammatory activity in acne, and mechanistically it may be applicable to some follicular and keratinising skin conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for benzoyl peroxide: "Benzoyl peroxide is an oxidizing agent with bactericidal and keratolytic effects but the precise mechanism of action in the treatment of rosacea is unknown." ([DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c), label version 2025-08-11; accessed 2026-11-19.) Based on known information, benzoyl peroxide is a topical agent with antibacterial, comedolytic and anti-inflammatory activity in acne, and mechanistically it may be applicable to some follicular and keratinising skin conditions.
 
 Inverted follicular keratosis is a benign lesion related to seborrheic keratosis, which is one of benzoyl peroxide's original indications. A keratolytic or anti-proliferative effect is conceivable. However, no trials or literature support this, and the drug's mechanism is not documented in the data compiled for this report, so the link is speculative. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -141,11 +141,12 @@ The prediction for vulvar inverted follicular keratosis is supported only by the
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c) |
 
 <!-- review:end log -->
 

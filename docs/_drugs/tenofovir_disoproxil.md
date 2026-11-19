@@ -56,7 +56,7 @@ but there are **0 registered clinical trials** and only **1 publication** direct
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, tenofovir is a nucleotide reverse transcriptase inhibitor, and its efficacy in HIV and hepatitis B is established. Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase is related to that of HIV, so an antiviral effect is mechanistically plausible.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tenofovir disoproxil: "Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator." ([DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418), label version 2025-02-18; accessed 2026-11-19.) Based on known information, tenofovir is a nucleotide reverse transcriptase inhibitor, and its efficacy in HIV and hepatitis B is established. Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase is related to that of HIV, so an antiviral effect is mechanistically plausible.
 
 The single supporting paper (PMID 37112803, 2023) tested a combination of dolutegravir, tenofovir and emtricitabine in FIV-infected cats. It is a veterinary study of a combination regimen, so it does not isolate the effect of tenofovir alone.
 
@@ -156,12 +156,13 @@ The top predicted indication is a veterinary disease supported by one combinatio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 18 valid registrations (all single-ingredient entries, none cancelled)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The remaining 13 registrations include Imavec (capsule), Tenemine, Tencitab, Adco emtevir, Tenofovir Winthrop, Ranega, Luvigen, Hetripco, De" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
 
 <!-- review:end log -->
 

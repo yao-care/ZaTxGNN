@@ -58,7 +58,7 @@ The TxGNN model (deep learning) predicts this drug may be useful for **conjuncti
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Prednisolone acetate is a corticosteroid applied to the eye as drops. Topical corticosteroids generally reduce inflammation on the ocular surface and in the eye.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisolone acetate: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), label version 2025-06-03; accessed 2026-11-19.) Prednisolone acetate is a corticosteroid applied to the eye as drops. Topical corticosteroids generally reduce inflammation on the ocular surface and in the eye.
 
 The score of 0.9974 for conjunctival folliculosis comes from the TxGNN model (deep learning). It may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -134,11 +134,12 @@ The prediction is based only on a model score. No trial or publication studies p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Prednisolone acetate has one valid single-ingredient registration, with no cancelled or non-marketed registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ However, the data compiled for this report contain **no clinical trials and no p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Salbutamol belongs to the beta-2 agonist class. Beta-2 agonists relax smooth muscle and may reduce the release of inflammatory mediators from mast cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for salbutamol: "Albuterol sulfate is a beta 2 -adrenergic agonist. The pharmacologic effects of albuterol sulfate are attributable to activation of beta 2 -adrenergic receptors on airway smooth muscle. Activation of beta 2 -adrenergic receptors leads to the activation of adenylcyclase and to an increase in the intracellular concentration of cyclic-3', 5’-adenosine monophosphate (cyclic AMP)." ([DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d), label version 2024-12-20; accessed 2026-11-19.) Salbutamol belongs to the beta-2 agonist class. Beta-2 agonists relax smooth muscle and may reduce the release of inflammatory mediators from mast cells.
 
 Papillary conjunctivitis is an allergic or inflammatory eye condition in which mast cell activity may play a role. A beta-2 agonist could therefore plausibly dampen that response in ocular tissue. This link is speculative. No study retrieved for this report tests salbutamol in papillary conjunctivitis, and the model score reflects a statistical association, not demonstrated efficacy.
 
@@ -132,11 +132,12 @@ The prediction is model-only (Evidence Level L5), with no trials or publications
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Salbutamol has 10 SAHPRA registration records in the compiled data, of which 8 are valid and 2 are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
 
 <!-- review:end log -->
 

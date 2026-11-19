@@ -60,7 +60,7 @@ No clinical trials are registered, and the only study that directly addresses in
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general benzodiazepine pharmacology, alprazolam enhances GABA-A receptor signalling, which produces sedative and anxiolytic effects. This gives a plausible mechanistic basis for sleep-promoting activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alprazolam: "Alprazolam is a 1,4 benzodiazepine. Alprazolam exerts its effect for the treatment of panic disorder through binding to the benzodiazepine site of gamma‑aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3), label version 2025-02-11; accessed 2026-11-19.) Based on general benzodiazepine pharmacology, alprazolam enhances GABA-A receptor signalling, which produces sedative and anxiolytic effects. This gives a plausible mechanistic basis for sleep-promoting activity.
 
 Insomnia is also commonly comorbid with anxiety and panic, so symptom overlap is likely.
 
@@ -141,11 +141,12 @@ The only study that directly addresses insomnia is a retrospective observational
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Four of the five registrations are valid and one is cancelled. All are single-ingredient oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3) |
 
 <!-- review:end log -->
 

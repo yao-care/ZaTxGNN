@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, phenylephrine is a direct-acting alpha-1 adrenergic agonist. It constricts the blood vessels of the nasal mucosa, which reduces congestion, swelling and mucosal bleeding.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for phenylephrine: "Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist." ([DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be), label version 2026-03-31; accessed 2026-11-19.) Based on known pharmacology, phenylephrine is a direct-acting alpha-1 adrenergic agonist. It constricts the blood vessels of the nasal mucosa, which reduces congestion, swelling and mucosal bleeding.
 
 Nasal cavity disease is broadly an extension of the existing label. Phenylephrine is already associated with rhinitis, nasopharyngitis and the common cold, which are all conditions of the nasal cavity. The prediction is therefore mechanistically coherent, but it is closer to a broader description of the existing use than to a truly new indication.
 
@@ -149,12 +149,13 @@ The TxGNN score is very high (0.9997), but there are no registered clinical tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 20 registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Some product names in the registration list (for example Tegretol s, Amoxil D, Trandate and Nitrolingual) do not look like phenylephrine pro" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
 
 <!-- review:end log -->
 

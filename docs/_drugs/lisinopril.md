@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **posterolateral myocardial infarctio
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lisinopril is an ACE inhibitor, and its efficacy in hypertension and myocardial infarction is established. By blocking the renin-angiotensin system (RAS), it reduces afterload and limits adverse cardiac remodelling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lisinopril: "Lisinopril inhibits angiotensin-converting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c), label version 2025-12-16; accessed 2026-11-19.) Lisinopril is an ACE inhibitor, and its efficacy in hypertension and myocardial infarction is established. By blocking the renin-angiotensin system (RAS), it reduces afterload and limits adverse cardiac remodelling.
 
 **Top-ranked predictions (MI subtypes).** Posterolateral, posteroinferior and septal myocardial infarction are anatomical subtypes of myocardial infarction, which lisinopril already treats. The high scores reflect the known parent indication, not a new repurposing opportunity. The same applies to malignant renovascular hypertension and malignant hypertensive renal disease, which fall within the approved hypertension indication.
 
@@ -167,12 +167,13 @@ Please refer to the SAHPRA-approved Professional Information (PI) for official w
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 9 registrations are valid, single-ingredient entries in tablet form (oral)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Four further registrations are not listed here: Lisoretic 20/12.5, Lisoretic 10/12.5, Zestozide 20, and Lisinopril co unicorn 10mg/12.5mg" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c) |
 
 <!-- review:end log -->
 

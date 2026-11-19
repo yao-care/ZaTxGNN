@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **migraine disorder** (the top-
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Clopidogrel is known to be a P2Y12 platelet inhibitor. Its efficacy in preventing thrombotic events in acute coronary syndrome and ischaemic cerebrovascular disease is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clopidogrel: "Clopidogrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227), label version 2025-05-30; accessed 2026-11-19.) Clopidogrel is known to be a P2Y12 platelet inhibitor. Its efficacy in preventing thrombotic events in acute coronary syndrome and ischaemic cerebrovascular disease is established.
 
 The migraine link is based on a platelet and right-to-left shunt hypothesis. In people with PFO or a septal device, paradoxical microemboli or platelet-derived vasoactive substances (such as serotonin) may trigger cortical spreading depression. P2Y12 inhibition may reduce platelet activation and so reduce migraine attacks. Preclinical papers also describe P2Y12 receptor involvement in migraine models in mice.
 
@@ -155,11 +155,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Three valid single-ingredient registrations are on record" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
 
 <!-- review:end log -->
 

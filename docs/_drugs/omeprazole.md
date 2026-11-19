@@ -55,7 +55,7 @@ Of the ten predictions, the best-supported is **gastrojejunal (marginal) ulcer**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Omeprazole is a proton pump inhibitor. The literature describes it as irreversibly blocking the H+/K+ ATPase of the gastric parietal cell, which markedly reduces gastric acid secretion. Its efficacy in acid-related disease is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for omeprazole: "Omeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H + /K + ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the gastric mucosa, omeprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179), label version 2024-03-19; accessed 2026-11-19.) Omeprazole is a proton pump inhibitor. The literature describes it as irreversibly blocking the H+/K+ ATPase of the gastric parietal cell, which markedly reduces gastric acid secretion. Its efficacy in acid-related disease is well established.
 
 For duodenogastric reflux, the rationale is only partial. Acid suppression may reduce mucosal injury from refluxed duodenal contents, but omeprazole does not stop bile reflux itself. Small human studies in Barrett's oesophagus (1998, 2000) examined its effect on duodenogastric and bile reflux, and a paediatric study (2006) looked at oesophageal bile reflux. Animal studies raise a safety concern: acid blockade under duodenogastric reflux promoted foregut growth stimulation and gastric carcinogenesis in rats (1996, 1999). The link is therefore plausible but unproven, and potentially harmful.
 
@@ -167,11 +167,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full safet
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Omeprazole has 3 valid SAHPRA registrations, all single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ There are currently **no clinical trials and no publications** that study this d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cefuroxime is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, and it is used against common bacterial pathogens.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cefuroxime: "Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c), label version 2025-03-27; accessed 2026-11-19.) Cefuroxime is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, and it is used against common bacterial pathogens.
 
 Polyclonal hyperviscosity syndrome is a haematological, protein-driven condition in which blood viscosity is raised. No mechanistic link can be identified between a cell wall-targeting antibiotic and this condition. The high score looks like a model artefact without clinical support, and it should not be read as evidence of benefit.
 
@@ -120,11 +120,12 @@ The prediction has no supporting trials or publications and no identifiable mech
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are single-ingredient products and are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
 
 <!-- review:end log -->
 

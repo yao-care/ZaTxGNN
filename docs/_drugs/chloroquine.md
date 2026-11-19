@@ -54,7 +54,7 @@ Chloroquine is an aminoquinoline antimalarial that is also used as an immunomodu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Chloroquine is generally described as an immunomodulator that acts through lysosomal and autophagy inhibition, reduced antigen presentation and inhibition of Toll-like receptor signalling. These are mechanisms shared with the antimalarial hydroxychloroquine, and they are relevant to autoimmune joint disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for chloroquine: "Chloroquine, a 4-aminoquinoline, is an anti-protozoal agent. The precise mechanism by which chloroquine exhibits activity is not known. Chloroquine, may exert its effect against Plasmodium species by concentrating in the acid vesicles of the parasite and by inhibiting polymerization of heme." ([DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570), label version 2026-10-21; accessed 2026-11-19.) Chloroquine is generally described as an immunomodulator that acts through lysosomal and autophagy inhibition, reduced antigen presentation and inhibition of Toll-like receptor signalling. These are mechanisms shared with the antimalarial hydroxychloroquine, and they are relevant to autoimmune joint disease.
 
 Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis closely resembles adult rheumatoid arthritis, a disease in which chloroquine has long been used. The high TxGNN score likely reflects this disease similarity. This is a mechanistic and network-based argument only. No study in the data directly tests chloroquine in this condition.
 
@@ -119,11 +119,12 @@ The prediction score is high, but there are no clinical trials and no publicatio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The licence is valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
 
 <!-- review:end log -->
 

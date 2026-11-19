@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Chlorpheniramine belongs to the H1-antihistamine class. Blocking H1 receptors reduces histamine-driven nasal vascular permeability, runny nose and itching, which is the pharmacological rationale for a benefit in nasal conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for codeine phosphate and chlorpheniramine maleate (a combination product containing chlorpheniramine): "Chlorpheniramine Chlorpheniramine is a propylamine derivative antihistamine (H 1 -receptor antagonist) of the alkylamine class that also possesses anticholinergic and sedative activity." ([DailyMed: Tuxarin (codeine phosphate and chlorpheniramine maleate) prescribing information, Mainpointe Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7cfab67-6087-4ab4-b7cd-4f9295413180), label version 2024-01-10; accessed 2026-11-19.) Chlorpheniramine belongs to the H1-antihistamine class. Blocking H1 receptors reduces histamine-driven nasal vascular permeability, runny nose and itching, which is the pharmacological rationale for a benefit in nasal conditions.
 
 "Nasal cavity disease" is a broad category that overlaps heavily with rhinitis-type conditions already treated by antihistamines. It is therefore not a clearly distinct new use, and the prediction mostly restates a mechanism-consistent use in the nose.
 
@@ -126,11 +126,12 @@ The prediction score is high (0.9953), but no clinical trial or patient study di
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "These are 5 of 11 registrations, all currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tuxarin (codeine phosphate and chlorpheniramine maleate) prescribing information, Mainpointe Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7cfab67-6087-4ab4-b7cd-4f9295413180) |
 
 <!-- review:end log -->
 

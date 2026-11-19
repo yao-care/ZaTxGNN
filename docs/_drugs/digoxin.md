@@ -58,7 +58,7 @@ Digoxin is a cardiac glycoside used in cardiology. The TxGNN model predicts it m
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Digoxin is generally known to inhibit Na+/K+-ATPase, which raises intracellular calcium and increases cardiac contractility.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for digoxin: "All of digoxin’s actions are mediated through its effects on Na-K ATPase. This enzyme, the “sodium pump,” is responsible for maintaining the intracellular milieu throughout the body by moving sodium ions out of and potassium ions into cells." ([DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707), label version 2025-10-17; accessed 2026-11-19.) Digoxin is generally known to inhibit Na+/K+-ATPase, which raises intracellular calcium and increases cardiac contractility.
 
 No credible mechanistic link to Prinzmetal angina has been established. The same calcium-raising effect could in theory increase vasospasm risk, which points against benefit. The score of 0.9981 reflects a model output only and is not supported by clinical data.
 
@@ -116,6 +116,19 @@ The prediction rests only on a high model score, with no trials and no publicati
 - Preclinical or clinical studies that directly address Prinzmetal angina
 - Review of the SAHPRA Professional Information for warnings and contraindications
 - Safety assessment in patients with coronary disease, including the interaction profile
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

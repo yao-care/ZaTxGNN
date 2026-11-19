@@ -58,7 +58,7 @@ Diclofenac is a non-steroidal anti-inflammatory drug (NSAID) that inhibits cyclo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for diclofenac are not available in the data compiled for this report. Diclofenac belongs to the NSAID class, which acts by inhibiting COX-1 and COX-2 and thereby reducing prostaglandin-mediated inflammation, pain and swelling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diclofenac: "Diclofenac has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of diclofenac, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970), label version 2026-09-24; accessed 2026-11-19.) Diclofenac belongs to the NSAID class, which acts by inhibiting COX-1 and COX-2 and thereby reducing prostaglandin-mediated inflammation, pain and swelling.
 
 Hypotrichosis simplex of the scalp is a genetic hair-loss disorder (for example, variants in CDSN, APCDD1 or RPL21). No mechanistic link to prostaglandin inhibition has been established. The high TxGNN score is a model-based prediction only and is not supported by any trial or publication. This prediction should be regarded as a hypothesis, not as a reasoned therapeutic proposal.
 
@@ -130,11 +130,12 @@ The prediction is supported only by the model score. There are no trials or publ
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 14 valid SAHPRA registrations and none cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for diclofenac are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970) |
 
 <!-- review:end log -->
 

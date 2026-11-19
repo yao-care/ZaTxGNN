@@ -58,7 +58,7 @@ Montelukast is a leukotriene receptor antagonist that is already marketed in Sou
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Montelukast is known as a cysteinyl leukotriene receptor antagonist. These leukotrienes are inflammatory mediators that drive airway inflammation, mucus production and cough. A trial of montelukast in RSV bronchiolitis cites raised cysteinyl-leukotriene levels in the airways of infected infants as its rationale.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for montelukast: "The cysteinyl leukotrienes (LTC 4, LTD 4, LTE 4 ) are products of arachidonic acid metabolism and are released from various cells, including mast cells and eosinophils. These eicosanoids bind to cysteinyl leukotriene (CysLT) receptors. […] Montelukast is an orally active compound that binds with high affinity and selectivity to the CysLT 1 receptor (in preference to other pharmacologically important airway receptors, such as the prostanoid, cholinergic, or β-adrenergic receptor)." ([DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842), label version 2025-04-30; accessed 2026-11-19.) Montelukast is known as a cysteinyl leukotriene receptor antagonist. These leukotrienes are inflammatory mediators that drive airway inflammation, mucus production and cough. A trial of montelukast in RSV bronchiolitis cites raised cysteinyl-leukotriene levels in the airways of infected infants as its rationale.
 
 Mechanistically, blocking this pathway may help in bronchitis, particularly eosinophilic forms. One publication proposes that mast cells and eosinophils contribute to cough hypersensitivity in eosinophilic bronchitis. This gives a plausible link, but it is a hypothesis and not proof of benefit.
 
@@ -148,11 +148,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 4 registrations are single-ingredient products and all are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
 
 <!-- review:end log -->
 

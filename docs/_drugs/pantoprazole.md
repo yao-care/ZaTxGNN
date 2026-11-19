@@ -61,7 +61,7 @@ Other predictions in the data compiled for this report:
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature retrieved, pantoprazole is a substituted benzimidazole PPI. It accumulates in the acidic compartment of the parietal cell, is acid-activated, and irreversibly inhibits the gastric H+/K+ ATPase (proton pump). This blocks the final step of acid secretion.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pantoprazole: "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), label version 2026-11-06; accessed 2026-11-19.) Based on the literature retrieved, pantoprazole is a substituted benzimidazole PPI. It accumulates in the acidic compartment of the parietal cell, is acid-activated, and irreversibly inhibits the gastric H+/K+ ATPase (proton pump). This blocks the final step of acid secretion.
 
 Peptic ulcers are acid-dependent, so suppressing acid allows healing and reduces recurrence. Because this is the same mechanism behind the drug's established peptic ulcer indication, the top prediction is on-label or closely related rather than a new therapeutic area.
 
@@ -149,11 +149,12 @@ Multiple Phase 3 trials and several RCTs support pantoprazole in peptic and duod
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Fluoxetine is an SSRI that is already marketed in South Africa. The TxGNN model 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Fluoxetine belongs to the SSRI class, which increases serotonergic signalling. Mechanistically, this could help with anxiety, low mood or irritability that sometimes accompany cluster A personality disorders (paranoid, schizoid and schizotypal).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluoxetine: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299), label version 2026-01-08; accessed 2026-11-19.) Fluoxetine belongs to the SSRI class, which increases serotonergic signalling. Mechanistically, this could help with anxiety, low mood or irritability that sometimes accompany cluster A personality disorders (paranoid, schizoid and schizotypal).
 
 There is no evidence that fluoxetine acts on the core paranoid features, such as pervasive distrust and suspiciousness. The very high TxGNN score most likely reflects the disease's closeness to other psychiatric conditions in the model's network, not disease-specific data. The prediction should therefore be treated as a hypothesis only.
 
@@ -133,11 +133,12 @@ Many other interactions are classed as Moderate, for example aspirin, morphine, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Of the 3 single-ingredient registrations, 1 is valid and 2 are cancelled. The registered dosage form is oral capsule" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
 
 <!-- review:end log -->
 

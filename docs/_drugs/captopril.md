@@ -60,7 +60,7 @@ There are currently **no clinical trials** and only **1 publication** (a diagnos
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Captopril belongs to the ACE inhibitor class, which lowers angiotensin II production and so reduces activity of the renin-angiotensin system (RAS).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for captopril: "The mechanism of action of captopril tablets have not yet been fully elucidated. Its beneficial effects in hypertension and heart failure appear to result primarily from suppression of the renin-angiotensin-aldosterone system." ([DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017), label version 2026-11-11; accessed 2026-11-19.) Captopril belongs to the ACE inhibitor class, which lowers angiotensin II production and so reduces activity of the renin-angiotensin system (RAS).
 
 Malignant hypertension involves strong RAS activation and acute kidney injury. Blocking ACE is therefore biologically plausible. However, this is a theoretical link only. The single linked publication describes captopril used as a diagnostic test (renography), not as a treatment. The high score is not backed by clinical data. In severe, rapidly progressing hypertensive renal disease, a sudden fall in blood pressure or a decline in kidney function with ACE inhibition would also be a practical concern.
 
@@ -137,11 +137,12 @@ The prediction score is high (0.9928), but there are no clinical trials and no t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017) |
 
 <!-- review:end log -->
 

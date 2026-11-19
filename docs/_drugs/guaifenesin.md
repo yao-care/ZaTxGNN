@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Guaifenesin is generally understood to be an expectorant that thins and loosens airway mucus, so a mucus-clearance effect is the most plausible way it could relate to nasal cavity disease.
+ChEMBL (EMBL-EBI) records the mechanism of action of guaifenesin as: Unknown ([ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980), CC BY-SA 3.0; accessed 2026-11-19.) Guaifenesin is generally understood to be an expectorant that thins and loosens airway mucus, so a mucus-clearance effect is the most plausible way it could relate to nasal cavity disease.
 
 The only retrieved publication is a 2002 review on hidden respiratory allergies in voice users. It mentions that decongestants containing guaifenesin may be useful in allergic voice patients. This is treatment-strategy-level commentary, not a study of guaifenesin in nasal cavity disease. The high TxGNN score likely reflects overlap with related upper-airway conditions and should not be treated as independent evidence.
 
@@ -116,11 +116,12 @@ No study directly addresses guaifenesin in nasal cavity disease, so the evidence
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 8 registered products are single-ingredient syrups and currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
 
 <!-- review:end log -->
 

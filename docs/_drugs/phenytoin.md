@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Phenytoin is generally understood to work by blocking voltage-gated sodium channels, which stabilises overactive neurons. That explains its efficacy in epilepsy.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for phenytoin: "The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges." ([DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353), label version 2026-06-25; accessed 2026-11-19.) Phenytoin is generally understood to work by blocking voltage-gated sodium channels, which stabilises overactive neurons. That explains its efficacy in epilepsy.
 
 The link to a trigeminal nerve tumour is weak. Phenytoin has **no recognised anti-tumour mechanism**. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as *trigeminal neuralgia* and related neurological terms, not biological evidence that the drug shrinks or controls a tumour. At most, sodium channel blockade could ease nerve pain or seizures associated with a trigeminal lesion. That would be symptom control, not treatment of the neoplasm.
 
@@ -150,11 +150,12 @@ SAHPRA package insert warnings and contraindications were not available for this
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products, and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
 
 <!-- review:end log -->
 

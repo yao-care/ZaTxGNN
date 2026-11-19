@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Nevirapine is known to be an HIV-1 NNRTI: it binds the HIV-1 reverse transcriptase (RT) enzyme and blocks viral DNA synthesis. SIV is a closely related lentivirus, which probably explains the high model score through disease similarity to HIV.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for nevirapine: "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15), label version 2026-10-08; accessed 2026-11-19.) Nevirapine is known to be an HIV-1 NNRTI: it binds the HIV-1 reverse transcriptase (RT) enzyme and blocks viral DNA synthesis. SIV is a closely related lentivirus, which probably explains the high model score through disease similarity to HIV.
 
 However, the mechanistic link is weak. SIV reverse transcriptase is naturally resistant to most HIV-1-specific NNRTIs, including nevirapine. Published work shows that HIV-2 and SIV are generally insensitive to these agents. Chimeric SIV/SHIV constructs carrying the HIV-1 RT gene are sensitive, which makes them useful as animal models for studying NNRTI activity and resistance. This does not show that nevirapine treats native SIV infection.
 
@@ -146,11 +146,12 @@ Nevirapine's label warnings and contraindications were not available in the data
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are valid, single-ingredient oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
 
 <!-- review:end log -->
 

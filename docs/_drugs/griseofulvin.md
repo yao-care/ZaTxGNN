@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **myiasis** (fly larvae infesta
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Griseofulvin is generally understood to be an antifungal that interferes with microtubule function and mitosis in fungi.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for griseofulvin: "The mechanism of griseofulvin consists of binding microtubular proteins, which are required for mitosis. […] The mechanism of griseofulvin consists of binding microtubular proteins, which are required for mitosis. Activity In Vivo Griseofulvin may be active against most strains of the following dermatophytes as described in the INDICATIONS AND USAGE section: Epidermophyton floccosum, Microsporum audouinii, Microsporum canis, Microsporum gypseum, Trichophyton crateriformis, Trichophyton gallinae, Trichophyton interdigitalis, Trichophyton megnini, Trichophyton mentagrophytes, Trichophyton rubrum, Trichophyton sulphureum, Trichophyton schoenleini, Trichophyton tonsurans and Trichophyton verrucosum." ([DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d), label version 2025-05-14; accessed 2026-11-19.) Griseofulvin is generally understood to be an antifungal that interferes with microtubule function and mitosis in fungi.
 
 Myiasis is a parasitic infestation of tissue by fly larvae, which is a different kind of organism from fungi. No shared drug target or plausible mechanistic link is described in the data. The high TxGNN score (0.9941) is a model output only and has no clinical or published support. Related predictions of similar subtypes (furuncular, wound and creeping myiasis) carry identical scores, which suggests a shared model signal rather than disease-specific biology. Standard management of myiasis relies on wound care or removal of larvae and antiparasitic agents, and there is no rationale in the data for griseofulvin.
 
@@ -115,6 +115,19 @@ The prediction rests solely on a model score, with no clinical trials, no litera
 - Preclinical (in vitro or in vivo) evidence of activity against myiasis-causing larvae
 - Retrieval and review of the SAHPRA Professional Information for warnings and contraindications
 - Comparison against established myiasis management (wound care, larval removal, antiparasitic agents) to define any added value
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

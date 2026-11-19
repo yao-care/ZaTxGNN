@@ -70,7 +70,7 @@ Note: the L1 level shown for micturition-induced seizures is based on a neonatal
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Phenobarbital is generally understood to enhance GABA-A receptor-mediated inhibition, which underlies its established use in focal and generalised epilepsy.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phenobarbital: "The precise mechanism of action for phenobarbital for the treatment of neonatal seizures is not fully understood, but it is thought to involve potentiation of synaptic inhibition through an action on the GABA A receptor." ([DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a), label version 2026-10-23; accessed 2026-11-19.) Phenobarbital is generally understood to enhance GABA-A receptor-mediated inhibition, which underlies its established use in focal and generalised epilepsy.
 
 **Trigeminal nerve neoplasm (rank 1):** There is no clear mechanistic link. The only retrieved paper is a case series on Sturge-Weber syndrome, a neurocutaneous disorder in which phenobarbital is used to control seizures, not to treat tumours. The high score probably reflects network proximity to epilepsy and neurological terms rather than anti-tumour activity. This prediction should not be pursued as a cancer treatment.
 
@@ -180,11 +180,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for official w
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The registration status is valid (single-ingredient product)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
 
 <!-- review:end log -->
 

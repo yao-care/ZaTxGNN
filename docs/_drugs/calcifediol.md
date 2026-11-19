@@ -58,7 +58,7 @@ Calcifediol (25-hydroxyvitamin D3) is the main circulating form of vitamin D and
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, calcifediol is the direct circulating precursor of calcitriol, the active hormone, and is the main marker of vitamin D status. Repletion in vitamin D deficiency is therefore mechanistically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for calcifediol: "Calcifediol (25-hydroxyvitamin D 3 ) is a prohormone of the active form of vitamin D 3, calcitriol (1,25‑dihydroxyvitamin D 3 ). Calcifediol is converted to calcitriol by cytochrome P450 27B1 (CYP27B1), also called 1-alpha hydroxylase, primarily in the kidney." ([DailyMed: Rayaldee (calcifediol) prescribing information, OPKO Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a95effd-32a5-46b6-a30e-7f4f9bf8cc77), label version 2024-01-19; accessed 2026-11-19.) From known pharmacology, calcifediol is the direct circulating precursor of calcitriol, the active hormone, and is the main marker of vitamin D status. Repletion in vitamin D deficiency is therefore mechanistically plausible.
 
 The disease term, however, is flagged as obsolete in the ontology. No trials or literature were supplied, so the prediction should be treated as a hypothesis only.
 
@@ -126,11 +126,12 @@ The prediction is supported only by the model score, with no trials or publicati
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid single-ingredient records, and" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Rayaldee (calcifediol) prescribing information, OPKO Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a95effd-32a5-46b6-a30e-7f4f9bf8cc77) |
 
 <!-- review:end log -->
 

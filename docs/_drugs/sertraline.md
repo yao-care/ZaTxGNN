@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **paranoid personality disorder
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Sertraline is an SSRI, a class that increases serotonergic signalling. Serotonergic modulation may influence impulsivity, affective instability, irritability and comorbid depression or anxiety.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sertraline: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7), label version 2023-08-08; accessed 2026-11-19.) Sertraline is an SSRI, a class that increases serotonergic signalling. Serotonergic modulation may influence impulsivity, affective instability, irritability and comorbid depression or anxiety.
 
 The link to paranoid personality disorder is indirect. The retrieved literature concerns borderline personality disorder and personality-disorder comorbidity in major depression, not paranoid personality disorder. Serotonergic effects on comorbid mood or anxiety symptoms do not establish efficacy for paranoid traits. The very high score (0.9993) is shared by several other personality disorders. This pattern suggests a class-level computational signal rather than disease-specific biology.
 
@@ -117,11 +117,12 @@ No clinical trial and no publication directly studies sertraline in paranoid per
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are single-ingredient products and all are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
 
 <!-- review:end log -->
 

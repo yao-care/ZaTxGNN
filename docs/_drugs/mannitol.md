@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **nephrogenic syndrome of inapprop
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Mannitol is generally known as an osmotic diuretic, so a theoretical link to water-handling disorders exists.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mannitol: "Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate." ([DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc), label version 2025-08-26; accessed 2026-11-19.) Mannitol is generally known as an osmotic diuretic, so a theoretical link to water-handling disorders exists.
 
 NSIAD, however, is caused by gain-of-function variants in the vasopressin V2 receptor. Its usual management is fluid restriction and urea or solute loading. Mannitol would add osmotic load, but it is not a recognised treatment for this condition. The only literature item is a general review of pitfalls in evaluating hyponatraemia, which does not assess mannitol. The high model score is therefore not backed by mechanistic or clinical evidence.
 
@@ -121,11 +121,12 @@ No trials exist, the only cited paper is a general hyponatraemia review that doe
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "This registration is a single-ingredient, valid record for an injectable infusion. Its product name suggests use as a cardioplegic solution," | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
 
 <!-- review:end log -->
 

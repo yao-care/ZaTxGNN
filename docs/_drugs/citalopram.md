@@ -56,7 +56,7 @@ The data compiled for this report include **4 clinical trials** (none confirmed 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. The rationale therefore rests on the known SSRI class mechanism: citalopram selectively blocks serotonin reuptake, and OCD is well recognised as responsive to serotonergic medication (see the review by Zohar et al., PMID 12607204).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for citalopram: "The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT)." ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177), label version 2023-10-09; accessed 2026-11-19.) The rationale therefore rests on the known SSRI class mechanism: citalopram selectively blocks serotonin reuptake, and OCD is well recognised as responsive to serotonergic medication (see the review by Zohar et al., PMID 12607204).
 
 The original indications (depression and anxiety disorders) share serotonergic pathophysiology with OCD, which is often treated with SSRIs. Citalopram-specific OCD reports include treatment-resistant adult OCD (PMID 10572334), a concentration-response study (PMID 15089116), a single-blind comparison with fluvoxamine and paroxetine (PMID 9241005), and open-label studies in children and adolescents (PMID 9466233, 12839522).
 
@@ -157,12 +157,13 @@ OCD is a recognised serotonergic-responsive condition, and there are several cit
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 4 registrations are valid single-ingredient products; none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-12 | Removed: "for the 4 registered products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
 
 <!-- review:end log -->
 

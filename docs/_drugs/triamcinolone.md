@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Alopecia Mucinosa** (follicul
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, triamcinolone is a corticosteroid with anti-inflammatory and immunosuppressive activity. Its efficacy in inflammatory and autoimmune conditions is established, and mechanistically it may be applicable to alopecia mucinosa.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for triamcinolone: "Studies indicate that following a single intramuscular dose of 60 mg to 100 mg of triamcinolone acetonide, adrenal suppression occurs within 24 to 48 hours and then gradually returns to normal, usually in 30 to 40 days. This finding correlates closely with the extended duration of therapeutic action achieved with the drug." ([DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad), label version 2026-01-05; accessed 2026-11-19.) Based on known information, triamcinolone is a corticosteroid with anti-inflammatory and immunosuppressive activity. Its efficacy in inflammatory and autoimmune conditions is established, and mechanistically it may be applicable to alopecia mucinosa.
 
 Follicular mucinosis involves perifollicular inflammatory infiltrate and mucin deposition. Intralesional corticosteroids are therefore a plausible approach for localised disease. However, support is limited to case-level reports. The only recent case (2014) describes a different agent, bexarotene gel, not triamcinolone. The very high TxGNN score is not backed by clinical data.
 
@@ -122,11 +122,12 @@ The prediction is biologically plausible, but evidence is limited to two case re
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All five registrations are single-ingredient products with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
 
 <!-- review:end log -->
 

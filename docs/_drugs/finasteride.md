@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hypertrichosis** (the highest
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on established pharmacology, finasteride is a type II 5-alpha-reductase inhibitor that lowers dihydrotestosterone (DHT). This is how it works in BPH and in male pattern hair loss.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for finasteride: "The development and enlargement of the prostate gland is dependent on the potent androgen, 5α-dihydrotestosterone (DHT). Type II 5α-reductase metabolizes testosterone to DHT in the prostate gland, liver and skin. […] Finasteride is a competitive and specific inhibitor of Type II 5α-reductase with which it slowly forms a stable enzyme complex." ([DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b), label version 2026-03-18; accessed 2026-11-19.) Based on established pharmacology, finasteride is a type II 5-alpha-reductase inhibitor that lowers dihydrotestosterone (DHT). This is how it works in BPH and in male pattern hair loss.
 
 **Ambras type hypertrichosis universalis congenita (rank 1):** This is a congenital condition linked to chromosome 8q rearrangements affecting TRPS1 regulation. It is not primarily androgen-driven. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature support it.
 
@@ -117,6 +117,19 @@ SAHPRA package insert warnings and contraindications have not been obtained. Ple
 - Controlled clinical or case-series evidence of finasteride efficacy in hypertrichosis
 - Clarification of whether an androgen-dependent condition such as hirsutism is a more appropriate target than hypertrichosis
 - Review of the DDI findings with severity grading
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Clarithromycin is a macrolide antibiotic. The TxGNN model (deep learning) predic
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Clarithromycin is a macrolide antibacterial. This report does not treat any such relations as approved indications, because the licence records compiled for this report contain no indication text.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for clarithromycin: "Clarithromycin is a macrolide antimicrobial drug. […] Clarithromycin exerts its antibacterial action by binding to the 50S ribosomal subunit of susceptible bacteria resulting in inhibition of protein synthesis." ([DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460), label version 2026-11-12; accessed 2026-11-19.) Clarithromycin is a macrolide antibacterial. This report does not treat any such relations as approved indications, because the licence records compiled for this report contain no indication text.
 
 Clarithromycin is known to have immunomodulatory and anti-inflammatory effects. However, nothing in the data compiled for this report connects these effects to lowering serum viscosity or to polyclonal gammopathy, which drives polyclonal hyperviscosity syndrome. The high score (0.9935) is a computational prediction only. A mechanistic link cannot be assessed without mechanism data, and the original indications (infection) are biologically distant from the predicted one (a haematological and protein disorder).
 
@@ -118,11 +118,12 @@ The prediction is supported only by a model score. No trials or publications add
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are single-ingredient, valid oral tablet products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460) |
 
 <!-- review:end log -->
 

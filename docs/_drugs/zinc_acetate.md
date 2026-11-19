@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Zinc acetate is a zinc salt, and zinc is an essential trace element. Its recorded uses in Wilson disease and metal-metabolism disorders are well recognised.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zinc acetate: "Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids." ([DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757), label version 2026-03-04; accessed 2026-11-19.) Zinc acetate is a zinc salt, and zinc is an essential trace element. Its recorded uses in Wilson disease and metal-metabolism disorders are well recognised.
 
 One plausible link is that zinc is a cofactor of Cu/Zn superoxide dismutase, an antioxidant enzyme. Oxidative stress is thought to contribute to microvascular injury in the diabetic retina, so zinc could be relevant. This reasoning is speculative. None of the data compiled for this report tests it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or demonstrated efficacy.
 
@@ -133,11 +133,12 @@ The prediction rests on a model score alone (L5). No clinical trials or literatu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are valid single-ingredient entries, and all are injectable or parenteral nutrition forms" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
 
 <!-- review:end log -->
 

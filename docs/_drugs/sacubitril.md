@@ -66,7 +66,7 @@ The best-supported prediction in the data is **diabetic nephropathy** (rank 3), 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for sacubitril in the data compiled for this report. Sacubitril is a prodrug that inhibits neprilysin, an enzyme that breaks down natriuretic peptides, and it is used together with the angiotensin receptor blocker valsartan. The data compiled for this report do not describe its original approved indication.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sacubitril and valsartan (a combination product containing sacubitril): "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c), label version 2026-10-30; accessed 2026-11-19.) Sacubitril is a prodrug that inhibits neprilysin, an enzyme that breaks down natriuretic peptides, and it is used together with the angiotensin receptor blocker valsartan. The data compiled for this report do not describe its original approved indication.
 
 **Rank 1 (brain small vessel disease 1):** No direct mechanistic link has been established. The only retrieved paper concerns sacubitril/valsartan in systemic right ventricular failure, not cerebral small vessel disease or COL4A1-related disease. The high score is a computational prediction only. Neprilysin inhibition and angiotensin receptor blockade could theoretically influence cerebrovascular function, but this is speculative.
 
@@ -158,6 +158,19 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 - Results from NCT06501651, and ideally a Phase 3 RCT of sacubitril/valsartan in diabetic kidney disease with renal outcomes.
 - Renal and potassium safety monitoring plans for patients with diabetes and chronic kidney disease.
 - A review of the interactions with statins and other co-medications.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available for sacubitril in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

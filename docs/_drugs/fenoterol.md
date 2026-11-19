@@ -57,7 +57,7 @@ The TxGNN model predicts it may be relevant for **multiple system atrophy**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Fenoterol is known as a beta-2 adrenergic agonist, and pharmacology records show activity at beta-1, beta-2 and beta-3 adrenoceptors. It has been described as a bronchodilator and as an agent used to suppress premature labour.
+ChEMBL (EMBL-EBI) records the mechanism of action of fenoterol as: Beta-2 adrenergic receptor agonist ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0; accessed 2026-11-19.) Fenoterol is known as a beta-2 adrenergic agonist, and pharmacology records show activity at beta-1, beta-2 and beta-3 adrenoceptors. It has been described as a bronchodilator and as an agent used to suppress premature labour.
 
 A theoretical link to multiple system atrophy (MSA), which involves autonomic failure and orthostatic hypotension, is conceivable through cardiovascular effects. However, beta-2 mediated vasodilation would more likely worsen orthostatic hypotension than relieve it. The prediction therefore rests on the model score alone and is mechanistically questionable.
 
@@ -117,11 +117,12 @@ The prediction for multiple system atrophy has no supporting clinical trials or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
 
 <!-- review:end log -->
 

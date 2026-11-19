@@ -60,7 +60,7 @@ The evidence concerns procedural use during endoscopy, not ulcer treatment, so t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. From general pharmacology, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist that enhances gastric emptying and upper gastrointestinal motility. This is the basis for its use in reflux disease and nausea.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metoclopramide: "Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established." ([DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397), label version 2026-02-09; accessed 2026-11-19.) From general pharmacology, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist that enhances gastric emptying and upper gastrointestinal motility. This is the basis for its use in reflux disease and nausea.
 
 Gastric ulcer and reflux disease are both upper gastrointestinal acid-peptic conditions, and the TxGNN score likely reflects this network proximity. Metoclopramide, however, has no direct ulcer-healing mechanism: it neither suppresses acid nor protects the mucosa. Its plausible role is limited to symptom control, such as delayed gastric emptying or bile reflux accompanying ulcer disease.
 
@@ -174,11 +174,12 @@ Please also refer to the SAHPRA-approved Professional Information (PI) for full 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are single-ingredient products with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
 
 <!-- review:end log -->
 

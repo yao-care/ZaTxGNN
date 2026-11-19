@@ -54,7 +54,7 @@ Norfloxacin is a fluoroquinolone antibiotic used for infections such as urinary 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Norfloxacin belongs to the fluoroquinolone class, which is generally known to act by inhibiting bacterial DNA gyrase and topoisomerase IV.
+ChEMBL (EMBL-EBI) records the mechanism of action of norfloxacin as: Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; accessed 2026-11-19.) Norfloxacin belongs to the fluoroquinolone class, which is generally known to act by inhibiting bacterial DNA gyrase and topoisomerase IV.
 
 Polyclonal hyperviscosity syndrome is driven by elevated serum immunoglobulins, not by a bacterial process. No plausible mechanistic link between norfloxacin and this condition was identified. The high score (0.9970) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by trials or literature.
 
@@ -134,11 +134,12 @@ Nine further predictions were reviewed. None has a supported mechanism or direct
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both are single-ingredient, valid registrations for oral use" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials** and only **1 publicati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, tetracycline is a tetracycline-class antibiotic. Its efficacy in bacterial infections, including chlamydial conjunctivitis, is established, and mechanistically it may be applicable to punctate epithelial keratoconjunctivitis.
+ChEMBL (EMBL-EBI) records the mechanism of action of tetracycline as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, tetracycline is a tetracycline-class antibiotic. Its efficacy in bacterial infections, including chlamydial conjunctivitis, is established, and mechanistically it may be applicable to punctate epithelial keratoconjunctivitis.
 
 Persistent superficial punctate keratitis can follow chlamydial follicular conjunctivitis, which tetracycline already treats. Tetracyclines are also reported to have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects on the ocular surface, which could add a second plausible mechanism.
 
@@ -123,6 +123,19 @@ The prediction score is high, but the evidence is limited to one two-patient cas
 | 4, 6 | Paranasal sinus neoplasm | 0.9910 | L5 | Model prediction only |
 
 Of these alternatives, only the post-treatment Lyme disease pilot (NCT05219929) offers direct tetracycline clinical data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

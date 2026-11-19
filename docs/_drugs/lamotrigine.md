@@ -62,7 +62,7 @@ The TxGNN model's top-ranked prediction is trigeminal nerve neoplasm, but the ev
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in the data compiled for this report. In the literature, lamotrigine is described as blocking voltage-gated sodium channels and reducing glutamate release. This is the same broad mechanism class as carbamazepine and oxcarbazepine, the first-line drugs for trigeminal neuralgia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lamotrigine: "The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity." ([DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4), label version 2026-10-12; accessed 2026-11-19.) In the literature, lamotrigine is described as blocking voltage-gated sodium channels and reducing glutamate release. This is the same broad mechanism class as carbamazepine and oxcarbazepine, the first-line drugs for trigeminal neuralgia.
 
 **Trigeminal neuralgia (best-supported):** Trigeminal neuralgia involves ectopic, hyperexcitable nerve discharges, so a sodium-channel-blocking anti-seizure drug is mechanistically plausible. The EAN 2019 guideline positions lamotrigine as an add-on or alternative option, not a first-line agent.
 
@@ -172,11 +172,12 @@ Please refer to the SAHPRA-approved PI for warnings and contraindications, and r
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
 
 <!-- review:end log -->
 

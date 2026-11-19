@@ -54,7 +54,7 @@ Temozolomide is an oral alkylating chemotherapy agent. The knowledge graph recor
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, temozolomide is an oral alkylating agent that methylates DNA (notably at O6-guanine). This causes cytotoxic lesions and cell death, particularly in tumour cells with low MGMT expression. It crosses the blood-brain barrier.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for temozolomide: "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death." ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), label version 2026-02-20; accessed 2026-11-19.) Based on general pharmacology, temozolomide is an oral alkylating agent that methylates DNA (notably at O6-guanine). This causes cytotoxic lesions and cell death, particularly in tumour cells with low MGMT expression. It crosses the blood-brain barrier.
 
 Cauda equina tumours are mostly neuroepithelial tumours of the spinal canal, most commonly myxopapillary ependymoma. They are therefore biologically related to the CNS gliomas for which temozolomide is recorded in the knowledge graph. This gives the prediction some biological plausibility.
 
@@ -119,6 +119,19 @@ The prediction score is high, but there are no registered trials and no study th
 - Gather studies that directly address cauda equina tumours (for example myxopapillary ependymoma series or trials) and assess MGMT status data.
 - Confirm the mechanism of action data from DrugBank.
 - Design a haematological monitoring plan, given the myelosuppression-related contraindication relations.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

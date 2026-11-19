@@ -60,7 +60,7 @@ This is a model-driven hypothesis with limited supporting evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ciprofloxacin is a well-established antibacterial agent, and its efficacy in bacterial infections is proven. Its link to scleroderma is indirect.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ciprofloxacin: "Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07), label version 2025-11-04; accessed 2026-11-19.) Ciprofloxacin is a well-established antibacterial agent, and its efficacy in bacterial infections is proven. Its link to scleroderma is indirect.
 
 Two lines of reasoning are available in the literature:
 
@@ -154,11 +154,12 @@ It includes randomized non-inferiority trial publications for bubonic plague and
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Ciprofloxacin has 8 valid single-ingredient SAHPRA registrations and no cancelled ones. The five below are shown; the other three are Bioflo" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
 
 <!-- review:end log -->
 

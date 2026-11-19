@@ -56,7 +56,7 @@ No clinical trials or publications in the data compiled for this report directly
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on its known drug class, candesartan is an angiotensin II type 1 receptor blocker. Malignant hypertensive renal disease involves severe blood pressure elevation with activation of the renin-angiotensin-aldosterone system (RAAS), so blocking this pathway is mechanistically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for candesartan cilexetil: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10), label version 2025-12-22; accessed 2026-11-19.) Based on its known drug class, candesartan is an angiotensin II type 1 receptor blocker. Malignant hypertensive renal disease involves severe blood pressure elevation with activation of the renin-angiotensin-aldosterone system (RAAS), so blocking this pathway is mechanistically plausible.
 
 There are important caveats. The predicted condition is closely related to ordinary hypertension, so it is not a clearly distinct repurposing target. Acute malignant hypertension is usually managed with intravenous agents. ARBs also carry renal risks, including hyperkalaemia and acute kidney injury, particularly in volume-depleted patients or those with renovascular disease. The high score is a model prediction only and is not clinical evidence.
 
@@ -115,11 +115,12 @@ The prediction rests on the model score alone. No trial or publication studies c
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10) |
 
 <!-- review:end log -->
 

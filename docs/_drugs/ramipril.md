@@ -58,7 +58,7 @@ Ramipril is an ACE inhibitor. The TxGNN model (deep learning) predicts it may be
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ramipril is known as an ACE inhibitor. By reducing angiotensin II, it may lessen vasoconstriction and vascular remodelling, which are processes thought to contribute to hypoxic pulmonary vasoconstriction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ramipril: "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59), label version 2026-11-11; accessed 2026-11-19.) Ramipril is known as an ACE inhibitor. By reducing angiotensin II, it may lessen vasoconstriction and vascular remodelling, which are processes thought to contribute to hypoxic pulmonary vasoconstriction.
 
 The strongest supporting study is a 1996 rat experiment (PMID 9200213). In it, ramipril given during three weeks of chronic hypoxia was associated with lower baseline perfusion pressure in the pulmonary vessels. This directly studies hypoxic pulmonary hypertension, but only in animals and it is now dated. The other retrieved papers concern myocardial infarction, kidney capillaries, radiation-induced brain necrosis and similar topics, so they support the prediction only indirectly.
 
@@ -145,12 +145,13 @@ The only direct support is a single dated rat study, with no registered clinical
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 7 registrations are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Note that 4 of the 7 are combination-type products (ramipril with hydrochlorothiazide or other agents, judging by product names); their lice" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
 
 <!-- review:end log -->
 

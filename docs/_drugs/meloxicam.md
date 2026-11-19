@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, meloxicam is a COX-2-preferential NSAID. It reduces prostaglandin-mediated inflammation and pain in arthritic conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for meloxicam: "Meloxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Zybic™, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec), label version 2026-09-25; accessed 2026-11-19.) Based on known information, meloxicam is a COX-2-preferential NSAID. It reduces prostaglandin-mediated inflammation and pain in arthritic conditions.
 
 The predicted disease is a genetic skeletal dysplasia caused by loss-of-function variants in the CDMP1/GDF5 gene, resulting in a structural growth defect. Meloxicam might ease pain or inflammation, but it does not address the underlying pathology. We found **no clear mechanistic link**. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -138,11 +138,12 @@ The top prediction has no clinical trials and no literature, and no mechanistic 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Only one valid single-ingredient registration exists, and the route of administration is oral" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
 
 <!-- review:end log -->
 

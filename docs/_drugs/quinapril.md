@@ -55,7 +55,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, quinapril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant renovascular hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for quinapril: "Quinapril is deesterified to the principal metabolite, quinaprilat, which is an inhibitor of ACE activity in human subjects and animals. ACE is apeptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor, angiotensin II." ([DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206), label version 2021-01-01; accessed 2026-11-19.) Based on known information, quinapril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant renovascular hypertension.
 
 Malignant renovascular hypertension is strongly dependent on the renin-angiotensin-aldosterone system (RAAS), so RAAS blockade is plausible. The high TxGNN score most likely reflects similarity to the already approved hypertension indication rather than any new evidence.
 
@@ -137,11 +137,12 @@ The renal risks of ACE inhibitors in renovascular disease add further reason for
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All five registrations are valid and oral tablets. but the data compiled for this report classify them as single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Orphenadrine was originally used to treat parkinsonian disorders (Parkinson dise
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, orphenadrine is an anticholinergic agent that also has NMDA-receptor-blocking and antihistamine properties. Its efficacy in parkinsonian disorders and in drug-induced extrapyramidal symptoms is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for orphenadrine: "The mode of action has not been clearly identified but may be related to analgesic properties. Orphenadrine citrate possesses anticholinergic actions." ([DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a), label version 2016-07-20; accessed 2026-11-19.) Based on general pharmacology, orphenadrine is an anticholinergic agent that also has NMDA-receptor-blocking and antihistamine properties. Its efficacy in parkinsonian disorders and in drug-induced extrapyramidal symptoms is established.
 
 No plausible mechanistic link to inherited retinal degeneration was identified. The predicted condition is a genetic retinal disorder, and nothing in the data compiled for this report connects cholinergic or NMDA blockade to its disease process. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -127,11 +127,12 @@ The prediction is supported only by the model score, with no clinical trials, no
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The registration is a valid single-ingredient product" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: orphenadrine citrate prescribing information, Actavis Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aec8ad3a-f717-4e74-b7b9-19debdaad79a) |
 
 <!-- review:end log -->
 

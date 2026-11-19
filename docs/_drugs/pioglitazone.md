@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pioglitazone is generally known as a PPAR-gamma agonist (a thiazolidinedione) that improves insulin sensitivity. Its efficacy in type 2 diabetes is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pioglitazone: "ACTOS is a thiazolidinedione that depends on the presence of insulin for its mechanism of action. ACTOS decreases insulin resistance in the periphery and in the liver resulting in increased insulin-dependent glucose disposal and decreased hepatic glucose output. […] Pioglitazone is not an insulin secretagogue." ([DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c), label version 2025-03-28; accessed 2026-11-19.) Pioglitazone is generally known as a PPAR-gamma agonist (a thiazolidinedione) that improves insulin sensitivity. Its efficacy in type 2 diabetes is established.
 
 Opsismodysplasia is a rare skeletal dysplasia caused by mutations in *INPPL1* (SHIP2), a phosphoinositide phosphatase that modulates PI3K/insulin signalling. A theoretical link to insulin signalling therefore exists. However, there is no demonstrated effect of pioglitazone on this pathway in skeletal development. The high score (0.9959) reflects model output only and is not backed by trials or literature. At present the link should be regarded as speculative.
 
@@ -127,11 +127,12 @@ The prediction rests on a model score alone (L5). There are no trials or literat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Actos (pioglitazone) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2ddc491-88a9-4063-9150-443b4fa4330c) |
 
 <!-- review:end log -->
 

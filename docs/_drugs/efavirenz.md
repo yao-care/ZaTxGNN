@@ -58,7 +58,7 @@ Efavirenz was originally used to treat HIV infection and AIDS. The TxGNN model p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Efavirenz is known to be a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1, and its efficacy in HIV infection is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for efavirenz: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), label version 2024-06-28; accessed 2026-11-19.) Efavirenz is known to be a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1, and its efficacy in HIV infection is established.
 
 Wild-type SIV is intrinsically resistant to NNRTIs. However, the RT-SHIV chimera (SIV carrying the HIV-1 reverse transcriptase gene) is susceptible to efavirenz. The supporting studies use this chimera in macaques as a preclinical model of HIV-1 therapy.
 
@@ -146,11 +146,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "SAHPRA lists 14 valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
 
 <!-- review:end log -->
 

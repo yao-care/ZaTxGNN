@@ -56,7 +56,7 @@ This prediction has **no registered clinical trials and no publications** behind
 
 ## Why is This Prediction Reasonable?
 
-Bimatoprost acts on FP and prostamide receptors. In the hair follicle this pathway prolongs the growth (anagen) phase and stimulates follicle activity. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description rests on general knowledge of the drug class.
+Bimatoprost acts on FP and prostamide receptors. In the hair follicle this pathway prolongs the growth (anagen) phase and stimulates follicle activity. According to the Mechanism of Action section of the US FDA-approved prescribing information for bimatoprost: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), label version 2024-10-16; accessed 2026-11-19.) This description rests on general knowledge of the drug class.
 
 No mechanistic link could be identified between this pathway and the predicted condition. The condition is a developmental malformation syndrome with a tooth and/or periodontal component. Nothing in the compiled data connects a topical prostamide analogue to the biology of such a developmental disorder.
 
@@ -117,11 +117,12 @@ The prediction rests only on a model score. There are no trials or publications,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are single-ingredient products and both are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Alfuzosin is a uroselective alpha-1 adrenergic antagonist. The TxGNN model predi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Alfuzosin is generally known as a uroselective alpha-1 adrenergic antagonist, and its relaxing effect on smooth muscle underlies its use in urological practice.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alfuzosin: "Alfuzosin is a selective antagonist of post-synaptic alpha 1 -adrenoreceptors, which are located in the prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra." ([DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3), label version 2024-12-05; accessed 2026-11-19.) Alfuzosin is generally known as a uroselective alpha-1 adrenergic antagonist, and its relaxing effect on smooth muscle underlies its use in urological practice.
 
 The predicted disease, Ambras syndrome, is a rare genetic disorder linked to chromosome 8q rearrangements that affect regulation of TRPS1. No plausible pathway connects alpha-1 blockade to this condition. The very high TxGNN score (0.9999943) most likely reflects model-based proximity to hair-related disease nodes, not demonstrated therapeutic potential. The prediction should be regarded as hypothesis-generating only.
 
@@ -117,11 +117,12 @@ The prediction rests on a model score alone, with no trials or publications and 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are single-ingredient products and currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3) |
 
 <!-- review:end log -->
 

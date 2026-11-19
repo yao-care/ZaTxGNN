@@ -65,7 +65,7 @@ For comparison, the other predictions:
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, mebendazole is a benzimidazole anthelmintic that binds parasite beta-tubulin, disrupting microtubule formation and glucose uptake in worms. Its efficacy in intestinal nematode infections is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for mebendazole: "Mebendazole, a benzimidazole, is an anthelmintic. […] Mebendazole interferes with cellular tubulin formation in the helminth and causes ultrastructural degenerative changes in its intestine. As a result, its glucose uptake and the digestive and reproductive functions are disrupted, leading to immobilization, inhibition of egg production and death of the helminth." ([DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f), label version 2021-10-05; accessed 2026-11-19.) Based on general pharmacology, mebendazole is a benzimidazole anthelmintic that binds parasite beta-tubulin, disrupting microtubule formation and glucose uptake in worms. Its efficacy in intestinal nematode infections is established.
 
 **Acne (rank 1):** No credible mechanistic link was identified. The only publication retrieved is a 1982 case report of proliferative sparganosis (a parasitic infection) in Venezuela, in which the patient had acne-like skin lesions. It is unrelated to acne treatment. The high model score is not backed by clinical or mechanistic evidence, and this should be read as a likely artefact of the TxGNN model (deep learning) prediction.
 
@@ -169,11 +169,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
 
 <!-- review:end log -->
 

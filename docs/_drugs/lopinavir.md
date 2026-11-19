@@ -56,7 +56,7 @@ The top-ranked prediction is also an animal disease, so its relevance to human p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lopinavir is a known HIV-1 protease inhibitor. Its efficacy in HIV infection is established, and the reasoning below draws on general pharmacological knowledge rather than the supplied data.
+ChEMBL (EMBL-EBI) records the mechanism of action of lopinavir as: Human immunodeficiency virus type 1 protease inhibitor ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; accessed 2026-11-19.) Lopinavir is a known HIV-1 protease inhibitor. Its efficacy in HIV infection is established, and the reasoning below draws on general pharmacological knowledge rather than the supplied data.
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1, so a protease inhibitor is plausible as an antiviral. However, FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity. Published work suggests HIV-1 protease inhibitors are not reliably active against it. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -138,11 +138,12 @@ The predictions rest on model scores alone. The top-ranked indication is a veter
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Lopinavir has 3 valid single-ingredient registrations with SAHPRA" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

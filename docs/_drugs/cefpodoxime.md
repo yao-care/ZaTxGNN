@@ -54,7 +54,7 @@ Cefpodoxime is an oral third-generation cephalosporin antibiotic, marketed in So
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. In general, cefpodoxime is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. This is an antibacterial mechanism.
+ChEMBL (EMBL-EBI) records the mechanism of action of cefpodoxime as: Bacterial penicillin-binding protein inhibitor ([ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672), CC BY-SA 3.0; accessed 2026-11-19.) In general, cefpodoxime is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. This is an antibacterial mechanism.
 
 No mechanistic link between this action and osteoarthritis is supported by the data. No anti-inflammatory, chondroprotective or analgesic mechanism is established for cefpodoxime. The same applies to rheumatoid arthritis, where no immunomodulatory activity relevant to the autoimmune pathology is known.
 
@@ -119,11 +119,12 @@ The prediction for osteoarthritis comes only from the TxGNN model. There are no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672) |
 
 <!-- review:end log -->
 

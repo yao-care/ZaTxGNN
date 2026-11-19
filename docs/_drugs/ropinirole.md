@@ -56,7 +56,7 @@ but there are **no registered clinical trials** in the data compiled for this re
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on the information compiled, ropinirole is a dopamine D2/D3 agonist (with some D4 activity). Its efficacy in Parkinson disease and RLS is established, and mechanistically it may be applicable to ADHD, which is associated with dopaminergic dysregulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ropinirole: "Ropinirole is a non-ergoline dopamine agonist. The precise mechanism of action of ropinirole as a treatment for Parkinson’s disease is unknown, although it is thought to be related to its ability to stimulate dopamine D 2 receptors within the caudate-putamen in the brain." ([DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da), label version 2026-11-06; accessed 2026-11-19.) Based on the information compiled, ropinirole is a dopamine D2/D3 agonist (with some D4 activity). Its efficacy in Parkinson disease and RLS is established, and mechanistically it may be applicable to ADHD, which is associated with dopaminergic dysregulation.
 
 RLS and ADHD frequently occur together and may share dopaminergic and iron-related pathways. This is the most plausible link, particularly for children or adults with both conditions. Preclinical models (A11-lesion/iron-deprivation) and work on D4/α2A-adrenoceptor heteromers support the underlying biology.
 
@@ -128,11 +128,12 @@ The TxGNN score is very high, and there is a plausible dopaminergic link, especi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
 
 <!-- review:end log -->
 

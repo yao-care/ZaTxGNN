@@ -54,7 +54,7 @@ Colchicine is a microtubule polymerization inhibitor that is marketed in South A
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Colchicine is generally known as an inhibitor of microtubule polymerization, and this is the only mechanistic basis for the prediction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for colchicine: "Colchicine’s effectiveness as a treatment for gout has been postulated to be due to its ability to block neutrophil-mediated inflammatory responses induced by monosodium urate crystals in synovial fluid. Colchicine disrupts the polymerization of β-tubulin into microtubules, thereby preventing the activation, degranulation, and migration of neutrophils to sites of inflammation." ([DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2), label version 2026-10-16; accessed 2026-11-19.) Colchicine is generally known as an inhibitor of microtubule polymerization, and this is the only mechanistic basis for the prediction.
 
 Microtubules are also essential structures in the malaria parasite. One of the retrieved laboratory studies showed that a different compound (curcumin) disrupts microtubules in *P. falciparum*. This suggests that microtubules can be disturbed in the parasite, but the study did not test colchicine.
 
@@ -128,11 +128,12 @@ The prediction score is high (0.9960), but no clinical trial or publication test
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are single-ingredient products and are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
 
 <!-- review:end log -->
 

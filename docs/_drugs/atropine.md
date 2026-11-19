@@ -54,7 +54,7 @@ Atropine is a non-selective antimuscarinic (cholinergic antagonist) drug. The Tx
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for atropine are not available in the data compiled for this report. Atropine is generally known as a muscarinic receptor antagonist, so its pharmacological effect is to block cholinergic signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atropine: "Atropine competitively blocks the effects of acetylcholine, including excess acetylcholine due to organophosphorus poisoning, at muscarinic cholinergic receptors on smooth muscle, cardiac muscle, secretory gland cells, and in peripheral autonomic ganglia and the central nervous system." ([DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7), label version 2022-09-15; accessed 2026-11-19.) Atropine is generally known as a muscarinic receptor antagonist, so its pharmacological effect is to block cholinergic signalling.
 
 Preclinical literature suggests that cholinergic pathways play a role in meningeal pain signalling and neurogenic inflammation. Examples are the involvement of meningeal mast cells and cholinergic modulation in a rat migraine model, and plasma protein extravasation in rat dura mater after parasympathetic ganglion stimulation. From this, blocking muscarinic receptors is biologically plausible as a way to influence migraine mechanisms.
 
@@ -128,11 +128,12 @@ The prediction score is high (0.9956), but no clinical trial or publication dire
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "since the only registered product is an oral capsule" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data for atropine are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7) |
 
 <!-- review:end log -->
 

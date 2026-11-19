@@ -54,7 +54,7 @@ Dutasteride is a 5-alpha-reductase inhibitor that lowers dihydrotestosterone (DH
 
 ## Why is This Prediction Reasonable?
 
-Dutasteride inhibits type 1 and type 2 5-alpha-reductase, the enzymes that convert testosterone to DHT. Detailed mechanism-of-action data were not available in the data compiled for this report. The mechanism above is the drug's established pharmacology.
+Dutasteride inhibits type 1 and type 2 5-alpha-reductase, the enzymes that convert testosterone to DHT. According to the Mechanism of Action section of the US FDA-approved prescribing information for dutasteride: "Dutasteride inhibits the conversion of testosterone to DHT. DHT is the androgen primarily responsible for the initial development and subsequent enlargement of the prostate gland. Testosterone is converted to DHT by the enzyme 5 alpha-reductase, which exists as 2 isoforms, type 1 and type 2." ([DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3), label version 2026-08-27; accessed 2026-11-19.) The mechanism above is the drug's established pharmacology.
 
 Ambras syndrome is a congenital condition with excessive hair growth. It is caused by a genetic change (a TRPS1-related position effect) rather than by excess androgen activity. Lowering DHT therefore has no clear mechanistic rationale for this disease. The high score is a network-based prediction, probably driven by a general hair-related association, and no trial or publication supports it. On the current evidence the prediction is speculative.
 
@@ -99,11 +99,12 @@ The prediction has no supporting trials or publications, and the biology points 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 2 valid single-ingredient SAHPRA registrations and none cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
 
 <!-- review:end log -->
 

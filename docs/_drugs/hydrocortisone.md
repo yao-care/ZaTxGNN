@@ -56,7 +56,7 @@ with **1 clinical trial** (in which hydrocortisone was only the weak comparator)
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, hydrocortisone is a glucocorticoid that suppresses local immune activity and inflammatory cytokines.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydrocortisone: "Hydrocortisone is a glucocorticoid. Glucocorticoids, adrenocortical steroids, cause varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli.." ([DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682), label version 2026-04-21; accessed 2026-11-19.) Based on general pharmacology, hydrocortisone is a glucocorticoid that suppresses local immune activity and inflammatory cytokines.
 
 Alopecia areata is an autoimmune, T-cell-mediated attack on hair follicles, so an immunosuppressive anti-inflammatory agent is mechanistically plausible. Corticosteroids are already used in this condition in clinical practice, mostly more potent agents than hydrocortisone.
 
@@ -135,12 +135,13 @@ A completed Phase 3 randomised trial directly studies alopecia areata, but hydro
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 12 valid single-ingredient registrations in the data compiled for this report (none cancelled)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Available forms are topical or local (cream, ointment, drops, suppository); no oral or injectable form appears in the data. Intralesional us" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
 
 <!-- review:end log -->
 

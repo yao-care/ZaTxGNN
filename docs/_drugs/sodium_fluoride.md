@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sodium fluoride is used as a trace-element and mineral supplement ingredient, and its original indication is vitamin deficiency disorder. No mechanistic link to epiglottitis has been established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for sodium fluoride: "Fluoride delivered from Clinpro 5000 inhibits the demineralization of sound teeth and enhances the remineralization (i.e., repair) of demineralized teeth. During tooth brushing, fluoride is taken up by teeth and dental plaque." ([DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580), label version 2024-08-01; accessed 2026-11-19.) Based on known information, sodium fluoride is used as a trace-element and mineral supplement ingredient, and its original indication is vitamin deficiency disorder. No mechanistic link to epiglottitis has been established.
 
 Epiglottitis is an acute, potentially life-threatening bacterial infection of the epiglottis. It is treated with antibiotics and airway management. There is no documented antimicrobial or anti-inflammatory role for fluoride at safe doses in this condition.
 
@@ -130,12 +130,13 @@ The prediction is computational only (L5), with no clinical trials and no suppor
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All nine registrations are single-ingredient entries with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Four further registrations are not listed above: ITN 1606n 150ml and ITN 55a 600ml (TPN), Gericomplex (capsule) and Filibon (capsule)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clinpro 5000 (sodium fluoride) prescribing information, Solventum US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a20d3cf0-2e1f-4191-971e-9e47936b4580) |
 
 <!-- review:end log -->
 

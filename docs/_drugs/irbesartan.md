@@ -60,7 +60,7 @@ No clinical trials or publications on this disease are currently available, so t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Irbesartan is an ARB, and blocking the renin-angiotensin-aldosterone system (RAAS) is biologically plausible for hypertensive kidney injury. The model's prediction is likely driven by the closeness of this disease to other blood-pressure and kidney conditions that ARBs are known to affect.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for irbesartan: "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98), label version 2026-08-24; accessed 2026-11-19.) Irbesartan is an ARB, and blocking the renin-angiotensin-aldosterone system (RAAS) is biologically plausible for hypertensive kidney injury. The model's prediction is likely driven by the closeness of this disease to other blood-pressure and kidney conditions that ARBs are known to affect.
 
 There are important caveats:
 
@@ -135,11 +135,12 @@ The prediction score is high, but no trial or publication addresses malignant hy
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are currently valid, and all are recorded as single-ingredient oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
 
 <!-- review:end log -->
 

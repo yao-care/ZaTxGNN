@@ -66,7 +66,7 @@ with **1 clinical trial** (indirect relevance) and **11 publications** currently
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, desogestrel is a progestin that suppresses gonadotropin secretion and helps with cycle control. Combined with ethinylestradiol, it can supply hormone replacement and protect the endometrium and bone in women with hypothalamic oligo-amenorrhoea.
+ChEMBL (EMBL-EBI) records the mechanism of action of desogestrel as: Progesterone receptor agonist ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, desogestrel is a progestin that suppresses gonadotropin secretion and helps with cycle control. Combined with ethinylestradiol, it can supply hormone replacement and protect the endometrium and bone in women with hypothalamic oligo-amenorrhoea.
 
 The link between contraception and amenorrhea is hormonal regulation of the menstrual cycle. Supporting evidence includes a cohort study of bone mineral density in young women with hypothalamic oligoamenorrhoea treated with oral contraceptives (PMID 11725730) and general pharmacodynamic data.
 
@@ -167,12 +167,13 @@ The TxGNN score is very high, but the only trial is not desogestrel-specific, an
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "single-ingredient" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Ergocalciferol (vitamin D2) has relations recorded in the knowledge graph with b
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ergocalciferol is a form of vitamin D that is part of calcium and phosphate regulation and bone mineralisation. Its link to rickets, osteomalacia and similar disorders is recorded in the knowledge graph.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ergocalciferol: "The in vivo synthesis of the major biologically active metabolites of vitamin D occurs in two steps. The first hydroxylation of ergocalciferol takes place in the liver (to 25-hydroxyvitamin D) and the second in the kidneys (to 1, 25-dihydroxyvitamin D)." ([DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210), label version 2026-11-02; accessed 2026-11-19.) Ergocalciferol is a form of vitamin D that is part of calcium and phosphate regulation and bone mineralisation. Its link to rickets, osteomalacia and similar disorders is recorded in the knowledge graph.
 
 Acromesomelic dysplasia is a rare, inherited skeletal growth disorder. The data compiled for this report show no plausible link between vitamin D2 signalling or calcium/phosphate balance and this condition. The high score reflects the model's network-based similarity only. It is not supported by any mechanistic or clinical evidence, and it should be treated as a hypothesis rather than a finding.
 
@@ -124,11 +124,12 @@ SAHPRA package insert warnings and contraindications were not available. Please 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both records are listed as valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210) |
 
 <!-- review:end log -->
 

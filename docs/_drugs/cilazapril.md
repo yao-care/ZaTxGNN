@@ -56,7 +56,7 @@ but the support comes only from **4 preclinical or in vitro publications** and *
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cilazapril belongs to the ACE inhibitor class. These drugs reduce the production of angiotensin II, a molecule that narrows blood vessels and promotes vascular remodelling.
+ChEMBL (EMBL-EBI) records the mechanism of action of cilazapril as: Angiotensin-converting enzyme inhibitor ([ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, cilazapril belongs to the ACE inhibitor class. These drugs reduce the production of angiotensin II, a molecule that narrows blood vessels and promotes vascular remodelling.
 
 In chronic hypoxia, the renin-angiotensin system in the lung blood vessels becomes more active, and the pulmonary arteries thicken and narrow. Blocking ACE could, in theory, reduce this vasoconstriction and remodelling. Rat studies from 1991 to 1997 suggest cilazapril reduced the thickening of pulmonary arteries and the rise in pulmonary arterial pressure under chronic hypoxia.
 
@@ -122,11 +122,12 @@ The TxGNN score is high (0.9920), but the support is limited to rat and cell-cul
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "This is the only registration, and it is a combination product (the "plus" presentation). It should not be used to describe how single-ingre" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606) |
 
 <!-- review:end log -->
 

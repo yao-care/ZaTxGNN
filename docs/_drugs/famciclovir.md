@@ -56,7 +56,7 @@ The only linked trial (**1 trial**) tests oxycodone rather than famciclovir, so 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, famciclovir is converted in the body to penciclovir, which inhibits herpesvirus DNA polymerase after activation by viral thymidine kinase.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for famciclovir: "Famciclovir is an orally administered prodrug of the anti-alpha herpes viral agent penciclovir." ([DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761), label version 2026-11-13; accessed 2026-11-19.) From general pharmacology, famciclovir is converted in the body to penciclovir, which inhibits herpesvirus DNA polymerase after activation by viral thymidine kinase.
 
 Post-infectious neuralgia, in practice most often postherpetic neuralgia, is a complication that follows herpes zoster. The plausible link is that early antiviral treatment of acute zoster may reduce the risk or severity of the pain that follows. This is an indirect link through treating the preceding infection, not a demonstrated direct effect on nerve pain. The prediction should therefore be treated as a research question, not an established use.
 
@@ -108,6 +108,19 @@ No study directly examines famciclovir for post-infectious neuralgia, and the on
 - SAHPRA Professional Information review for warnings, contraindications and renal dose adjustment
 - Detailed mechanism of action data
 - Assessment of the clinical significance of the recorded drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

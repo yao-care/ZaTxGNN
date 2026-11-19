@@ -60,7 +60,7 @@ with **8 clinical trials** and **20 publications** in the data compiled for this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Clomipramine is a potent serotonin reuptake inhibitor. Its metabolite, desmethylclomipramine, adds noradrenergic activity. Modulating serotonin and noradrenaline is the established basis for treating anxiety, panic and OCD-spectrum disorders.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clomipramine: "Clomipramine (CMI) is presumed to influence obsessive and compulsive behaviors through its effects on serotonergic neuronal transmission. The actual neurochemical mechanism is unknown, but CMI's capacity to inhibit the reuptake of serotonin (5-HT) is thought to be important." ([DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059), label version 2024-11-26; accessed 2026-11-19.) Clomipramine is a potent serotonin reuptake inhibitor. Its metabolite, desmethylclomipramine, adds noradrenergic activity. Modulating serotonin and noradrenaline is the established basis for treating anxiety, panic and OCD-spectrum disorders.
 
 OCD is closely related to anxiety disorders. Guideline-level and network meta-analytic literature supports this drug class in anxiety. Clomipramine has also been studied directly in panic disorder and agoraphobia, which are anxiety disorders.
 
@@ -178,6 +178,18 @@ Clomipramine has plausible serotonergic and noradrenergic mechanisms for anxiety
 | Endogenous depression | L1 | Proceed with Guardrails | Evidence is inherited from the major depressive disorder literature |
 | Attention deficit-hyperactivity disorder | L3 | Research Question | Limited evidence. Cardiac and anticholinergic concerns in children, and better first-line options exist |
 | Schizotypal, schizoid, paranoid and histrionic personality disorders; benign paroxysmal torticollis of infancy | L5–L5 | Hold | No direct efficacy evidence |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

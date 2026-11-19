@@ -54,7 +54,7 @@ Insulin degludec is a long-acting basal insulin analogue. The TxGNN model predic
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Insulin degludec is an insulin analogue that acts on the insulin receptor to lower blood glucose.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin degludec: "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17), label version 2024-02-22; accessed 2026-11-19.) Insulin degludec is an insulin analogue that acts on the insulin receptor to lower blood glucose.
 
 The data compiled for this report shows no clear mechanistic link between insulin and autoimmune oophoritis. Autoimmune oophoritis is an immune-mediated ovarian disorder, and insulin signalling is not an established therapeutic target for it. The high score looks like a network-based pattern in the model, not a result backed by clinical or published evidence. The prediction should be treated as a hypothesis only.
 
@@ -113,11 +113,12 @@ The prediction has a high model score but no trials, no publications and no plau
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
 
 <!-- review:end log -->
 

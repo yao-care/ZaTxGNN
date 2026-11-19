@@ -56,7 +56,7 @@ This is a computational prediction only.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Glimepiride is a sulfonylurea. Sulfonylureas are generally known to close the ATP-sensitive potassium channels of pancreatic beta cells and so stimulate insulin release. Its recorded use in the knowledge graph is type 2 diabetes mellitus.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for glimepiride: "Glimepiride primarily lowers blood glucose by stimulating the release of insulin from pancreatic beta cells. Sulfonylureas bind to the sulfonylurea receptor in the pancreatic beta-cell plasma membrane, leading to closure of the ATP-sensitive potassium channel, thereby stimulating the release of insulin." ([DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa), label version 2024-08-20; accessed 2026-11-19.) Glimepiride is a sulfonylurea. Sulfonylureas are generally known to close the ATP-sensitive potassium channels of pancreatic beta cells and so stimulate insulin release. Its recorded use in the knowledge graph is type 2 diabetes mellitus.
 
 The link to focal stiff limb syndrome is unverified. Stiff limb syndrome is an autoimmune disorder usually associated with GAD65 antibodies and impaired GABAergic signalling. It often occurs together with diabetes. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Glimepiride has no known direct effect on GABAergic or neuromuscular pathways, so the score is most likely a disease-comorbidity artefact and not a therapeutic mechanism.
 
@@ -133,12 +133,13 @@ The high TxGNN score (0.9975) is a computational prediction with no supporting t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid. The third product, Amaryl Combi, is named as a combination product; its licence is not used here to descr" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-06 | Removed: "for all three registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa) |
 
 <!-- review:end log -->
 

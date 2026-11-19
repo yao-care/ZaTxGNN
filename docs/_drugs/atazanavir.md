@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 
 ## Why is This Prediction Reasonable?
 
-Atazanavir is an HIV-1 protease inhibitor. Detailed mechanism of action data is not available in the data compiled for this report, but the drug class is well known. Protease inhibitors block cleavage of viral polyproteins, which prevents the production of mature, infectious virus particles.
+Atazanavir is an HIV-1 protease inhibitor. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for atazanavir: "Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions." ([DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8), label version 2024-12-05; accessed 2026-11-19.) The drug class is well known. Protease inhibitors block cleavage of viral polyproteins, which prevents the production of mature, infectious virus particles.
 
 SIV is a lentivirus closely related to HIV and has a homologous protease, so antiretroviral activity is biologically plausible. SIV infection in macaques is a standard animal model of HIV. The prediction therefore largely reflects the drug's existing HIV use rather than a genuinely new human indication.
 
@@ -144,11 +144,12 @@ SAHPRA package insert warnings and contraindications are not available in the da
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
 
 <!-- review:end log -->
 

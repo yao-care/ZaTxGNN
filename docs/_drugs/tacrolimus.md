@@ -58,7 +58,7 @@ with **2 directly relevant clinical trials** (both completed) and **several publ
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature, tacrolimus is a calcineurin inhibitor. It blocks T-cell activation and the release of inflammatory cytokines (such as IL-2, IL-4 and interferon-gamma). Its efficacy in atopic dermatitis is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tacrolimus: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), label version 2025-02-26; accessed 2026-11-19.) Based on the literature, tacrolimus is a calcineurin inhibitor. It blocks T-cell activation and the release of inflammatory cytokines (such as IL-2, IL-4 and interferon-gamma). Its efficacy in atopic dermatitis is well established.
 
 Seborrheic dermatitis is a chronic, relapsing inflammatory skin disease affecting mainly the face and scalp. It involves an inflammatory response to *Malassezia* yeast and a disrupted skin barrier. The same anti-inflammatory pathway that works in atopic dermatitis is therefore plausible here. Topical tacrolimus also avoids the skin thinning (atrophy) associated with repeated topical corticosteroid use on the face, which makes it attractive for maintenance therapy.
 
@@ -145,11 +145,12 @@ Tacrolimus ointment is already registered in South Africa (Protopic) and has a p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All five registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
 
 <!-- review:end log -->
 

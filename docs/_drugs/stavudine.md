@@ -56,7 +56,7 @@ The prediction is a computational signal only, and the condition is a veterinary
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on known pharmacology, stavudine is a thymidine analogue NRTI. After phosphorylation inside cells to stavudine triphosphate, it terminates viral DNA chain elongation. Its efficacy in HIV-1 is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of stavudine as: Human immunodeficiency virus type 1 reverse transcriptase inhibitor ([ChEMBL CHEMBL991 (stavudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL991), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, stavudine is a thymidine analogue NRTI. After phosphorylation inside cells to stavudine triphosphate, it terminates viral DNA chain elongation. Its efficacy in HIV-1 is established.
 
 Feline immunodeficiency virus (FIV) is a lentivirus, and its reverse transcriptase is related to that of HIV. A mechanistic rationale therefore exists. However, the high score reflects a network-based prediction only, and no direct evidence was found for this condition.
 
@@ -144,11 +144,12 @@ The prediction rests on a model score alone (evidence level L5). No clinical tri
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid, and both are oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL991 (stavudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL991) |
 
 <!-- review:end log -->
 

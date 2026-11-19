@@ -67,7 +67,7 @@ Among the other predictions, **visual epilepsy** has the strongest support, thou
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Published literature describes valproic acid as acting through several mechanisms: enhancing GABAergic over glutamatergic transmission, blocking sodium channels and modulating T-type calcium channels. It is also a histone deacetylase inhibitor, which is a theoretical antitumour mechanism.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for valproic acid: "Valproic acid dissociates to the valproate ion in the gastrointestinal tract. The mechanisms by which valproate exerts its antiepileptic effects have not been established. It has been suggested that its activity in epilepsy is related to increased brain concentrations of gamma-aminobutyric acid (GABA)." ([DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f), label version 2025-05-23; accessed 2026-11-19.) Published literature describes valproic acid as acting through several mechanisms: enhancing GABAergic over glutamatergic transmission, blocking sodium channels and modulating T-type calcium channels. It is also a histone deacetylase inhibitor, which is a theoretical antitumour mechanism.
 
 **Trigeminal nerve neoplasm (rank 1).** The high score is not backed by evidence. The only linked paper concerns Sturge-Weber syndrome, a neurocutaneous vascular disorder rather than a nerve tumour. Valproic acid may help control seizures in that syndrome, but this does not support antitumour activity. The histone deacetylase mechanism has no supporting data for this condition. The prediction is best treated as a model artefact until proven otherwise.
 
@@ -205,11 +205,12 @@ The SAHPRA package insert warnings and contraindications have not been retrieved
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient products, and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f) |
 
 <!-- review:end log -->
 

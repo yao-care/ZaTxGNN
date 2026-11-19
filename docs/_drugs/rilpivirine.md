@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rilpivirine is an NNRTI that inhibits HIV-1 reverse transcriptase, and its efficacy in HIV has been established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for rilpivirine: "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), label version 2025-08-28; accessed 2026-11-19.) Based on known information, rilpivirine is an NNRTI that inhibits HIV-1 reverse transcriptase, and its efficacy in HIV has been established.
 
 Feline immunodeficiency virus (FIV) is a lentivirus with a related reverse transcriptase, so there is a plausible mechanistic basis for the prediction. However, the only available study (2023) compared NNRTIs against FIV and HIV reverse transcriptase in biochemical and structural experiments. This is indirect, in vitro evidence, and NNRTIs are generally only weakly active against FIV. There is no in vivo or clinical evidence in cats.
 
@@ -143,11 +143,12 @@ The only evidence for feline AIDS is a single in vitro study, with no animal or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
 
 <!-- review:end log -->
 

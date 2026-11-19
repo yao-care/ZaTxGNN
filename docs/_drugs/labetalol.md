@@ -55,7 +55,7 @@ but there are **no registered clinical trials** and only **1 publication** (a 19
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, labetalol blocks both alpha-1 and beta-adrenergic receptors. Alpha-1 blockade causes vasodilation, and beta-blockade reduces heart rate and renin release.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for labetalol: "Labetalol has both competitive alpha1-adrenergic blocking and competitive beta-adrenergic blocking activity. In man, the ratio of alpha- to beta-blockade has been estimated to be approximately 1:7 following intravenous administration." ([DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55), label version 2025-12-19; accessed 2026-11-19.) Based on known pharmacology, labetalol blocks both alpha-1 and beta-adrenergic receptors. Alpha-1 blockade causes vasodilation, and beta-blockade reduces heart rate and renin release.
 
 Malignant renovascular hypertension is a severe form of hypertension in which the renin-angiotensin system plays a major role. Reduced renin release and vasodilation are therefore mechanistically plausible. However, this is largely an extension of the existing hypertension indication rather than true repurposing.
 
@@ -113,6 +113,19 @@ The prediction rests mainly on the model score and the overlap with labetalol's 
 - Clinical evidence in malignant or renovascular hypertension (trials, guidelines or systematic reviews)
 - Confirmation that the benefit exceeds what is already covered by labetalol's approved hypertension indication
 - Deprioritising the pulmonary hypertension predictions unless supportive clinical evidence emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

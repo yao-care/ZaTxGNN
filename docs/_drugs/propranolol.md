@@ -60,7 +60,7 @@ Better-supported directions among the other predictions are **haemangioma subtyp
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, propranolol is a non-selective beta-adrenergic blocker. It is established in cardiovascular conditions (hypertension, arrhythmias, hypertrophic cardiomyopathy) and in infantile haemangioma. Its relevance to distal myopathy, Tateyama type, has not been demonstrated.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for propranolol: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), label version 2026-08-27; accessed 2026-11-19.) Based on known information, propranolol is a non-selective beta-adrenergic blocker. It is established in cardiovascular conditions (hypertension, arrhythmias, hypertrophic cardiomyopathy) and in infantile haemangioma. Its relevance to distal myopathy, Tateyama type, has not been demonstrated.
 
 For the top-ranked prediction, no mechanistic link is established. Beta-adrenergic blockade has no known relevance to this rare distal myopathy. The high score (0.9940) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The second-ranked prediction (congenital myopathy with excess of thin filaments) is likewise unsupported.
 
@@ -163,11 +163,12 @@ The top-ranked prediction, distal myopathy, Tateyama type, rests on a model scor
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
 
 <!-- review:end log -->
 

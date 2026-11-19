@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, potassium iodide has long been used as an expectorant and as a treatment for certain fungal infections such as sporotrichosis. Its effect in infectious nasal disease is plausibly antimicrobial or immunomodulatory, but this is not established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for potassium iodide: "Potassium iodide is thought to act as an expectorant by increasing respiratory tract secretions and thereby decreasing the viscosity of mucus." ([DailyMed: Potassium Iodide (Saturated) (potassium iodide) prescribing information, Emerald Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bdf305f-ed4a-49d1-8901-edaed8d67850), label version 2026-08-25; accessed 2026-11-19.) Based on known information, potassium iodide has long been used as an expectorant and as a treatment for certain fungal infections such as sporotrichosis. Its effect in infectious nasal disease is plausibly antimicrobial or immunomodulatory, but this is not established.
 
 The available reports describe fungal or oomycete infections of the nose and face: rhinofacial pythiosis in sheep, mycotic rhinitis and a *Pseudallescheria boydii* infection in horses, and one human case of nasofacial zygomycosis. These are specific infectious diseases, not nasal cavity disease in general. The very high TxGNN score therefore overstates what the evidence supports. The link to the original indications (rhinitis, pharyngitis, common cold) is a network-based association and has not been shown clinically.
 
@@ -158,11 +158,12 @@ The TxGNN score is very high (0.9995), but the supporting evidence is limited to
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient entries and all are infusion products. These are injectable (parenteral) formulations, s" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Potassium Iodide (Saturated) (potassium iodide) prescribing information, Emerald Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bdf305f-ed4a-49d1-8901-edaed8d67850) |
 
 <!-- review:end log -->
 

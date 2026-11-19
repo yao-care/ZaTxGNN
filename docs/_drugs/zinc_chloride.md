@@ -56,7 +56,7 @@ Two other predictions were also generated, both at L5 and Hold: **Sjogren syndro
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on known biology, zinc is a cofactor for many enzymes, including copper/zinc superoxide dismutase, and may influence oxidative stress and inflammation, both of which are implicated in diabetic retinopathy. This link is plausible but unverified.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zinc chloride: "Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids." ([DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757), label version 2026-03-04; accessed 2026-11-19.) Based on known biology, zinc is a cofactor for many enzymes, including copper/zinc superoxide dismutase, and may influence oxidative stress and inflammation, both of which are implicated in diabetic retinopathy. This link is plausible but unverified.
 
 There are important caveats. Zinc chloride's usual exposure profile (systemic nutritional use, or topical use as an astringent) differs from ocular delivery. No evidence in the data compiled for this report supports retinal efficacy or safety. Any intravitreal or systemic use for this purpose would require extensive safety assessment.
 
@@ -124,11 +124,12 @@ The predictions rest solely on a computational score, with no clinical trials or
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Six registrations are on record" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
 
 <!-- review:end log -->
 

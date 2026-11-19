@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, wit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. The following is based on general pharmacology of MMF. It inhibits inosine monophosphate dehydrogenase (IMPDH) and depletes guanosine nucleotide pools. This suppresses lymphocyte proliferation, which may reduce the pool of activated CD4+ target cells for HIV.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mycophenolate mofetil: "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis." ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9), label version 2026-07-31; accessed 2026-11-19.) The following is based on general pharmacology of MMF. It inhibits inosine monophosphate dehydrogenase (IMPDH) and depletes guanosine nucleotide pools. This suppresses lymphocyte proliferation, which may reduce the pool of activated CD4+ target cells for HIV.
 
 Depleting guanosine nucleotides may also lower intracellular dGTP and enhance the activity of nucleoside analogue reverse transcriptase inhibitors such as abacavir and didanosine. Small studies suggest the combination with antiretroviral therapy is tolerated. However, there is no convincing evidence of a durable virological benefit, and the immunosuppressive effect could in theory compromise immune reconstitution.
 
@@ -159,6 +159,19 @@ The mechanistic rationale (IMPDH inhibition and potentiation of nucleoside analo
 - A risk-benefit analysis of immunosuppression in HIV, with particular attention to opportunistic infections (including tuberculosis) and cytopenias
 
 **Other predictions in the data:** Multiple sclerosis (score 0.9954, L2) has the strongest supporting evidence of the other candidates, with small Phase 2 trials, a Cochrane review of MMF, and a retrospective study of 344 patients. It may merit its own evaluation. Hemosiderosis (L4) rests on case-level literature only. All remaining predictions are model output only (L5) and should be held.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

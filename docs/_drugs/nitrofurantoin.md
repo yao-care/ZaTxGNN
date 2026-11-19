@@ -56,7 +56,7 @@ This prediction is not supported by the evidence compiled for this report.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. In general, nitrofurantoin is an antibacterial whose nitroreductase-activated metabolites damage bacterial DNA and ribosomes. This activity is directed at bacteria, not at the immune-mediated joint inflammation of rheumatoid arthritis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for nitrofurantoin: "Nitrofurantoin is an antibacterial drug. […] Nitrofurantoin is reduced by a wide range of enzymes including bacterial flavoproteins to reactive intermediates which are damaging to macromolecules such as DNA and proteins." ([DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5), label version 2026-01-22; accessed 2026-11-19.) In general, nitrofurantoin is an antibacterial whose nitroreductase-activated metabolites damage bacterial DNA and ribosomes. This activity is directed at bacteria, not at the immune-mediated joint inflammation of rheumatoid arthritis.
 
 **The prediction is not mechanistically plausible.** The literature retrieved concerns harm, not therapeutic benefit:
 
@@ -139,6 +139,19 @@ There are no clinical trials, no plausible therapeutic mechanism, and the availa
 - **Sclerosing cholangitis** (L4): nitrofurantoin is itself a cause of drug-induced liver injury.
 - **Methemoglobinemia** (L4): nitrofurantoin is a cause, not a treatment, particularly in G6PD deficiency.
 - **Brain small vessel disease, hereditary hematuria syndrome, brachydactyly-syndactyly, colobomatous microphthalmia, alpha-type methemoglobinemia and gout** (L5): prediction only, with no supporting data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Dabigatran is known to be a direct thrombin (factor IIa) inhibitor.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dabigatran etexilate: "Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus." ([DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901), label version 2026-11-02; accessed 2026-11-19.) Dabigatran is known to be a direct thrombin (factor IIa) inhibitor.
 
 The link to sclerosing cholangitis is speculative. Thrombin and PAR signalling may contribute to liver fibrosis and inflammation, but this has not been established for diseases of the bile ducts. The single linked publication (PMID 36906733) is a drug-interaction study of cilofexor, a different compound. It does not test dabigatran in this disease. The very high TxGNN score is a computational prediction only.
 
@@ -120,11 +120,12 @@ The prediction rests on a model score alone (L5). There are no clinical trials, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the data compiled for this report. Based on general pharmacology, tramadol is a mu-opioid agonist with serotonin and noradrenaline reuptake inhibition. It provides symptomatic pain relief and does not change the course of disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tramadol: "Tramadol Hydrochloride Extended-Release Capsules contain tramadol, an opioid agonist, and an inhibitor of reuptake of norepinephrine and serotonin. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to mu-opioid receptors and weak inhibition of reuptake of norepinephrine and serotonin." ([DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9), label version 2026-01-23; accessed 2026-11-19.) Based on general pharmacology, tramadol is a mu-opioid agonist with serotonin and noradrenaline reuptake inhibition. It provides symptomatic pain relief and does not change the course of disease.
 
 Acromesomelic dysplasia, Hunter-Thompson type is a rare genetic skeletal disorder caused by loss of function of the *GDF5* (CDMP1) gene. Tramadol does not act on this pathway. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -132,13 +132,14 @@ The prediction rests only on a TxGNN score, with no clinical trials or publicati
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "under 9 valid SAHPRA registrations, all single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "although the records classify them as single entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Four further registrations are valid: Tramazac co 37.5mg/325mg (45/2.9/0303), Painogesic Co (A 48/2.9/0774), Dytracet (45/2.9/0747) and Tamo" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9) |
 
 <!-- review:end log -->
 

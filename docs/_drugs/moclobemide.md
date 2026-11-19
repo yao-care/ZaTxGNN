@@ -56,7 +56,7 @@ Moclobemide is a reversible inhibitor of monoamine oxidase A, originally used fo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. From general pharmacological knowledge, moclobemide is a reversible inhibitor of monoamine oxidase A (RIMA). It raises synaptic serotonin, noradrenaline and dopamine. This description comes from general knowledge, not from the supplied data.
+ChEMBL (EMBL-EBI) records the mechanism of action of moclobemide as: Monoamine oxidase A inhibitor ([ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304), CC BY-SA 3.0; accessed 2026-11-19.) From general pharmacological knowledge, moclobemide is a reversible inhibitor of monoamine oxidase A (RIMA). It raises synaptic serotonin, noradrenaline and dopamine. This description comes from general knowledge, not from the supplied data.
 
 Agoraphobia is usually seen as part of panic disorder with agoraphobia. That condition is closely related to the drug's original indications of anxiety and neurotic disorders. The same monoaminergic mechanism is shared with agents used in panic disorder and social anxiety, which makes the prediction mechanistically plausible.
 
@@ -133,11 +133,12 @@ Two randomised trials in panic disorder with agoraphobia, plus supporting review
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "**Important data discrepancy:** The only registration listed is for a product named "Medpro-Ciprofloxacin 750". Ciprofloxacin is an antibiot" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304) |
 
 <!-- review:end log -->
 

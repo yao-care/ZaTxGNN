@@ -60,7 +60,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Haloperidol is generally known as a dopamine D2 receptor antagonist.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for haloperidol: "The mechanism of action of haloperidol decanoate for the treatment of schizophrenia in adults is unclear. However, its effect in schizophrenia could be mediated through its activity as an antagonist at central dopamine type 2 receptors." ([DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c), label version 2026-11-03; accessed 2026-11-19.) Haloperidol is generally known as a dopamine D2 receptor antagonist.
 
 For this prediction, no plausible mechanistic link could be identified. Congenital disorders of glycosylation with defective fucosylation involve fucose metabolism or transport (for example, GDP-fucose transport), and nothing in the compiled data connects dopamine D2 blockade to these pathways. The high TxGNN score is a purely computational output and has not been corroborated by any trial, publication or preclinical study. It should be treated as a hypothesis only.
 
@@ -130,11 +130,12 @@ The prediction has a high model score but no supporting trials, literature or pl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient oral tablet products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **elevated plasma zinc**, but t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, norgestimate is a progestin (a prodrug whose active metabolites include levonorgestrel and norgestrel) used mainly in combined oral contraceptives. Its role in the original indications is hormonal, but a mechanistic link to elevated plasma zinc has not been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for norgestimate and ethinyl estradiol (a combination product containing norgestimate): "While the combination of ethinyl estradiol and norgestimate increases sex hormone-binding globulin (SHBG) and decreases free testosterone, the relationship between these changes and a decrease in the severity of facial acne in otherwise healthy women with this skin condition has not been established." ([DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923), label version 2026-10-12; accessed 2026-11-19.) Based on known information, norgestimate is a progestin (a prodrug whose active metabolites include levonorgestrel and norgestrel) used mainly in combined oral contraceptives. Its role in the original indications is hormonal, but a mechanistic link to elevated plasma zinc has not been established.
 
 Hormonal contraceptives have been reported to alter circulating trace-element levels (for example, higher copper and lower zinc). This is general class-level background and not evidence from the data compiled for this report. It also points in the opposite direction to what the prediction would need, since it suggests lowering rather than raising zinc.
 
@@ -126,11 +126,12 @@ The prediction rests on a model score alone, with no clinical trials, no literat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-17 | Corrected: neither registration is current (not on SAHPRA register; discontinued in MPR) | Corrected (revised 2026-11-17; earlier version kept in the record) | [SAHPRA medicine register (medapps product table)](https://medapps.sahpra.org.za:6006/); [Database of Medicine Prices, 1 October 2026 (National Department of Health, Medicine Price Registry)](https://www.health.gov.za/wp-content/uploads/2026/10/Database_Of_Medicine_Prices_1_October_2026.xlsx) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923) |
 
 <!-- review:end log -->
 

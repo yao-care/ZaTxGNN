@@ -62,7 +62,7 @@ This is a veterinary prediction, not a new human-medicine use.
 
 Lamivudine inhibits the reverse transcriptase of retroviruses. Feline immunodeficiency virus (FIV) is a lentivirus that causes an AIDS-like disease in cats. Its reverse transcriptase is related to that of the human virus, so a drug that blocks one may also block the other. The model's prediction therefore has a plausible mechanistic basis.
 
-The supporting studies were done in cats and in cell culture. Lamivudine was used as part of antiretroviral combinations, not on its own. Detailed mechanism-of-action data for lamivudine are not available in the data compiled for this report.
+The supporting studies were done in cats and in cell culture. Lamivudine was used as part of antiretroviral combinations, not on its own. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for lamivudine: "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8), label version 2024-08-15; accessed 2026-11-19.)
 
 Because the indication is veterinary, it does not open a new treatment option for human patients in South Africa.
 
@@ -142,11 +142,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The local data show 20 valid registrations and no cancelled ones" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for lamivudine are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->
 

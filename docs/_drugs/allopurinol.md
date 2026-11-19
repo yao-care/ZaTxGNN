@@ -58,7 +58,7 @@ Allopurinol is a xanthine oxidase inhibitor whose relations recorded in the know
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Allopurinol is generally known as a xanthine oxidase inhibitor that lowers uric acid, and its relation to gout, hyperuricaemia and acute urate nephropathy is recorded in the knowledge graph.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for allopurinol: "Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans." ([DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449), label version 2022-02-18; accessed 2026-11-19.) Allopurinol is generally known as a xanthine oxidase inhibitor that lowers uric acid, and its relation to gout, hyperuricaemia and acute urate nephropathy is recorded in the knowledge graph.
 
 The link to hepatic porphyria is weak and may point in the wrong direction. Older literature reports that allopurinol can affect haem biosynthesis (destroying cytochrome P450 haem and inducing hepatic 5-aminolevulinate synthase in animal models). This suggests it may be porphyrinogenic rather than therapeutic. The two retrieved papers do not study allopurinol: one is a hypothesis paper on targeting 5-aminolevulinate synthase with tryptophan and haem-utilisation inhibitors, and the other is a rat study of carbamazepine. The high model score is therefore not backed by direct evidence.
 
@@ -125,6 +125,19 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 - Review of allopurinol's effects on haem synthesis and its porphyrinogenic potential, with a clear safety assessment in porphyria.
 - Mechanism of action data and the SAHPRA Professional Information (warnings and contraindications).
 - Any direct preclinical or clinical study of allopurinol in hepatic porphyria. Without such a study, the other nine predictions also remain on Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

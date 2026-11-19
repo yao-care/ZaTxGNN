@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acute contagious conjunctivit
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known pharmacology, sulfamethoxazole is a sulfonamide antibacterial that inhibits bacterial folate synthesis (dihydropteroate synthase). It is commonly used together with trimethoprim (co-trimoxazole), and its efficacy in several bacterial and protozoal infections is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of sulfamethoxazole as: Bacterial dihydropteroate synthase inhibitor ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, sulfamethoxazole is a sulfonamide antibacterial that inhibits bacterial folate synthesis (dihydropteroate synthase). It is commonly used together with trimethoprim (co-trimoxazole), and its efficacy in several bacterial and protozoal infections is established.
 
 Conjunctivitis is already among sulfamethoxazole's original indications. This prediction, made by the TxGNN model (deep learning), is therefore not true repurposing, but an extension of existing use to the acute contagious (bacterial) form of the disease. It may reflect similarities the model learned between related diseases, not biological evidence. Antibacterial activity against the causative bacteria is plausible.
 
@@ -138,12 +138,13 @@ The prediction score is high, but conjunctivitis is already a labeled indication
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 7 registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Two further registrations are not shown: Cocc.Co.Syrup (Vern.Pp), G 894 (OM), a syrup, and Cotrizid, 52/20.2/0208, a tablet" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
 
 <!-- review:end log -->
 

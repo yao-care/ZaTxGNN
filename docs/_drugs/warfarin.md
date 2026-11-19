@@ -60,7 +60,7 @@ Of the top 10 predictions, the one with the strongest evidence is **Thrombophili
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Warfarin is a vitamin K antagonist and is well known to reduce the synthesis of clotting factors II, VII, IX and X. Its efficacy in venous thromboembolism has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for warfarin: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), label version 2026-10-28; accessed 2026-11-19.) Warfarin is a vitamin K antagonist and is well known to reduce the synthesis of clotting factors II, VII, IX and X. Its efficacy in venous thromboembolism has been established.
 
 Heparin cofactor II deficiency is an inherited thrombophilia, meaning a tendency to form clots. Long-term anticoagulation is a plausible approach for patients with recurrent thrombosis. This is effectively an extension of warfarin's existing thrombotic indication rather than true repurposing. The TxGNN score most likely reflects the shared thrombosis phenotype.
 
@@ -182,11 +182,12 @@ The top prediction, heparin cofactor II deficiency, is supported only by case re
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Warfarin has 1 valid single-ingredient registration in South Africa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
 
 <!-- review:end log -->
 

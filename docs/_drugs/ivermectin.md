@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **vulvovaginal candidiasis**, b
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ivermectin is generally understood to act on glutamate-gated chloride channels in invertebrates, which is why it works against parasites such as *Strongyloides* and *Onchocerca*.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ivermectin: "In vitro studies using human liver microsomes and recombinant CYP450 enzymes have shown that ivermectin is primarily metabolized by CYP3A4." ([DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd), label version 2024-09-20; accessed 2026-11-19.) Ivermectin is generally understood to act on glutamate-gated chloride channels in invertebrates, which is why it works against parasites such as *Strongyloides* and *Onchocerca*.
 
 Fungi such as *Candida* lack these targets, so a plausible antifungal mechanism is **not established**. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis only.
 
@@ -122,6 +122,19 @@ The prediction rests on a model score alone (Evidence Level L5). There are no cl
 - An assessment of whether topical ivermectin can reach the intended site of infection (route compatibility has not yet been evaluated)
 - Preclinical and early-phase clinical evidence before any further evaluation
 - Drug-interaction review, especially for patients on anticoagulants
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

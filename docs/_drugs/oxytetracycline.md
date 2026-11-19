@@ -57,7 +57,7 @@ The TxGNN model's top-ranked prediction is **chronic rhinosinusitis**, but there
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, oxytetracycline is a broad-spectrum tetracycline antibiotic. Its efficacy in respiratory, urinary, ocular and other bacterial infections is established. Mechanistically, it may be applicable to chronic sinus inflammation through antibacterial activity and the reported anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting properties of the tetracycline class.
+ChEMBL (EMBL-EBI) records the mechanism of action of oxytetracycline as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, oxytetracycline is a broad-spectrum tetracycline antibiotic. Its efficacy in respiratory, urinary, ocular and other bacterial infections is established. Mechanistically, it may be applicable to chronic sinus inflammation through antibacterial activity and the reported anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting properties of the tetracycline class.
 
 This is a plausible but unsupported link. No trials or publications were compiled for chronic rhinosinusitis, and the closely related prediction, chronic ethmoidal sinusitis, is likely a subtype of the same condition.
 
@@ -148,11 +148,12 @@ The top-ranked prediction, chronic rhinosinusitis, rests only on a model score (
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient products. One is oral (capsule) and two are topical (ointments)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
 
 <!-- review:end log -->
 

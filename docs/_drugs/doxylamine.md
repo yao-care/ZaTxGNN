@@ -60,7 +60,7 @@ No clinical trials or publications were found in the data compiled for this repo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Doxylamine is known as a first-generation H1-receptor antagonist with anticholinergic properties. Blocking histamine H1 receptors and muscarinic receptors can reduce sneezing, rhinorrhoea and nasal secretions, which is a plausible route to symptomatic relief of nasal conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg (a combination product containing doxylamine): "The mechanism of action of doxylamine succinate and pyridoxine hydrochloride is unknown." ([DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b), label version 2026-08-24; accessed 2026-11-19.) Doxylamine is known as a first-generation H1-receptor antagonist with anticholinergic properties. Blocking histamine H1 receptors and muscarinic receptors can reduce sneezing, rhinorrhoea and nasal secretions, which is a plausible route to symptomatic relief of nasal conditions.
 
 "Nasal cavity disease" is a very broad category. It covers many different conditions, such as allergic, vasomotor and infective rhinitis, and the term is too non-specific to support a defined repurposing hypothesis. The mechanistic argument is therefore indirect and rests on general pharmacology, not on any study of this disease.
 
@@ -148,12 +148,13 @@ The prediction score is high (0.9936), but the predicted indication is very broa
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Eleven single-ingredient SAHPRA registrations are currently valid and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The list shows 5 of the 11 registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ At present there are **no clinical trials and no publications** directly support
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for fosinopril is not available in the data compiled for this report. Based on its drug class, fosinopril blocks the renin-angiotensin system (RAS), which can lower pressure inside the kidney's filtering units and reduce protein loss in the urine. ACE inhibitors as a class are widely used in kidney damage caused by high blood pressure, so a link to hypertensive kidney disease is biologically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fosinopril: "In animals and humans, fosinopril sodium is hydrolyzed by esterases to the pharmacologically active form, fosinoprilat, a specific competitive inhibitor of angiotensin-converting enzyme (ACE). ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35), label version 2023-11-27; accessed 2026-11-19.) Based on its drug class, fosinopril blocks the renin-angiotensin system (RAS), which can lower pressure inside the kidney's filtering units and reduce protein loss in the urine. ACE inhibitors as a class are widely used in kidney damage caused by high blood pressure, so a link to hypertensive kidney disease is biologically plausible.
 
 Malignant hypertensive renal disease, however, is an acute emergency. In this setting the choice of agent and the pace of blood pressure reduction matter a great deal, and close monitoring of kidney function and potassium is essential. The model score reflects a pattern-based prediction and is not a substitute for clinical evidence.
 
@@ -115,11 +115,12 @@ The prediction (score 0.9987) is supported by no trials or publications for this
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The data compiled for this report show one valid registration and no cancelled registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data for fosinopril is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35) |
 
 <!-- review:end log -->
 

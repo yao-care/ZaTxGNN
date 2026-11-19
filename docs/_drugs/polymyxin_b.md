@@ -58,7 +58,7 @@ Polymyxin B is a polypeptide antibiotic active against Gram-negative bacteria. T
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Polymyxin B is a bactericidal antibiotic that binds lipid A and disrupts the outer membrane of Gram-negative bacteria. It could therefore plausibly act against bacterial bronchitis or tracheobronchitis caused by multidrug-resistant Gram-negative organisms such as *Pseudomonas aeruginosa* and *Acinetobacter baumannii*.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for polymyxin b: "Polymyxin B sulfate has a bactericidal action against almost all gram-negative bacilli except the Proteus group. Polymyxins increase the permeability of bacterial cell membrane leading to death of the cell. All gram positive bacteria, fungi, and gram-negative cocci are resistant to polymyxin B. For specific information regarding susceptibility test criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: www.fda.gov/STIC." ([DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6), label version 2026-06-22; accessed 2026-11-19.) Polymyxin B is a bactericidal antibiotic that binds lipid A and disrupts the outer membrane of Gram-negative bacteria. It could therefore plausibly act against bacterial bronchitis or tracheobronchitis caused by multidrug-resistant Gram-negative organisms such as *Pseudomonas aeruginosa* and *Acinetobacter baumannii*.
 
 Two small observational studies support this idea. One is a comparison with other antimicrobials in ventilator-associated pneumonia and tracheobronchitis (2013). The other is a series of 19 patients treated with inhaled polymyxin B for multidrug-resistant Gram-negative respiratory infections (2007). Both concern hospital-acquired, resistant infections, not common bronchitis, which is mostly viral.
 
@@ -160,11 +160,12 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid and are topical (skin or eye) products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
 
 <!-- review:end log -->
 

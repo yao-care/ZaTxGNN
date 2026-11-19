@@ -58,7 +58,7 @@ Cycloserine is an antibiotic that is also an NMDA receptor partial agonist at th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for cycloserine are not available in the data compiled for this report. Cycloserine is known as a D-alanine analogue that interferes with bacterial cell wall synthesis, and it also acts as a partial agonist at the glycine site of the NMDA receptor.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cycloserine: "The antibacterial activity of Cycloserine results from inhibition of cell-wall synthesis in susceptible strains of gram-positive and gram-negative bacteria." ([DailyMed: cycloserine prescribing information, Dr. Reddys Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8e7e2665-7a3d-3f54-9f92-5fe845f02ef9), label version 2024-07-30; accessed 2026-11-19.) Cycloserine is known as a D-alanine analogue that interferes with bacterial cell wall synthesis, and it also acts as a partial agonist at the glycine site of the NMDA receptor.
 
 A link between NMDA glycine-site modulation and irritable bowel syndrome could be imagined through the gut-brain axis or visceral hypersensitivity. However, this is speculative. No study in the data compiled for this report examines cycloserine in this condition, and the similarity between the original use and the predicted use has not been assessed.
 
@@ -128,11 +128,12 @@ Label warnings and contraindications are not available in the data compiled for 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Cycloserine is listed with one valid single-ingredient registration" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for cycloserine are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cycloserine prescribing information, Dr. Reddys Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8e7e2665-7a3d-3f54-9f92-5fe845f02ef9) |
 
 <!-- review:end log -->
 

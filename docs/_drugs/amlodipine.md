@@ -60,7 +60,7 @@ The TxGNN model predicts it may be useful for **brain stem infarction**, with a 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Amlodipine is a dihydropyridine calcium channel blocker. It reduces calcium entry into vascular smooth muscle, which lowers vascular resistance and blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amlodipine: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487), label version 2026-09-28; accessed 2026-11-19.) Amlodipine is a dihydropyridine calcium channel blocker. It reduces calcium entry into vascular smooth muscle, which lowers vascular resistance and blood pressure.
 
 The proposed link to brain stem infarction is indirect. Blood pressure control and cerebrovascular protection are plausible mechanisms in ischaemic cerebrovascular disease. The high score probably reflects the model's closeness to other cerebrovascular conditions rather than disease-specific evidence.
 
@@ -124,11 +124,12 @@ The prediction score is very high, but no trial or publication directly studies 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The local data show 20 valid SAHPRA registrations and no cancelled ones. All are single-ingredient records, but the records may be partial" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->
 

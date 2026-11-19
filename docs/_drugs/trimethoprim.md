@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trimethoprim is an antibacterial whose efficacy in bacterial infections is established, and it has been used in ophthalmic combinations (with polymyxin B) for bacterial conjunctivitis and blepharoconjunctivitis. These are already listed among its original indications.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trimethoprim: "Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. This binding is very much stronger for the bacterial enzyme than for the corresponding mammalian enzyme." ([DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597), label version 2026-11-15; accessed 2026-11-19.) Based on known information, trimethoprim is an antibacterial whose efficacy in bacterial infections is established, and it has been used in ophthalmic combinations (with polymyxin B) for bacterial conjunctivitis and blepharoconjunctivitis. These are already listed among its original indications.
 
 The prediction therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The main limitation is that punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious, and an antibacterial would be unlikely to help in those cases. The prediction is plausible only for a bacterial subset, and this has not been tested.
 
@@ -124,12 +124,13 @@ The TxGNN score is very high, but there are no trials or publications for puncta
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All nine registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The remaining four registrations are Purbac injection 5ml (L/20.2/336), Xerazole Suspension (28/20.2/0389), Co-Trimoxazole 960 Biotech (W/20" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->
 

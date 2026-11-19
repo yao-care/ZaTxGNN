@@ -70,7 +70,7 @@ The TxGNN model's top-ranked prediction is **punctate epithelial keratoconjuncti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. In general, acyclovir is a nucleoside analogue. Herpesvirus thymidine kinase activates it selectively, and it then inhibits viral DNA polymerase. Its efficacy in herpes simplex and herpes zoster is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for acyclovir: "Acyclovir is a synthetic purine nucleoside analogue with in vitro and in vivo inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV." ([DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4), label version 2026-06-26; accessed 2026-11-19.) In general, acyclovir is a nucleoside analogue. Herpesvirus thymidine kinase activates it selectively, and it then inhibits viral DNA polymerase. Its efficacy in herpes simplex and herpes zoster is well established.
 
 Common warts are caused by human papillomavirus (HPV), a DNA virus that has no thymidine kinase of its own. Acyclovir's usual selective activation therefore does not apply, and the pharmacological plausibility is limited. Proposed mechanisms include weak inhibition of HPV DNA replication at the high local concentrations reached with intralesional injection, and an immunomodulatory effect. Several small randomised trials, mostly from Egypt, compare intralesional acyclovir with cryotherapy, vitamin D3, Candida antigen, 5-fluorouracil and HPV vaccine. The findings are described as promising, but they come from small, single-region, often open-label studies with different comparators. No Phase 3 confirmation exists.
 
@@ -175,11 +175,12 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
 
 <!-- review:end log -->
 

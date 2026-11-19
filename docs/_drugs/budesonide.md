@@ -60,7 +60,7 @@ The high score therefore rests mostly on the known effects of corticosteroids as
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, budesonide is a glucocorticoid with broad anti-inflammatory and immunosuppressive activity. Its efficacy in asthma, allergic rhinitis and inflammatory bowel disease is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for budesonide: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), label version 2026-06-10; accessed 2026-11-19.) Based on known information, budesonide is a glucocorticoid with broad anti-inflammatory and immunosuppressive activity. Its efficacy in asthma, allergic rhinitis and inflammatory bowel disease is established.
 
 Atopic eczema is driven by Th2-type inflammation and eosinophil involvement. Glucocorticoids suppress Th2 cytokines and eosinophil recruitment, so the mechanism is biologically plausible. Topical corticosteroids are already a standard treatment class for atopic eczema.
 
@@ -160,12 +160,13 @@ The prediction is computational only (L5). There are no clinical trials for atop
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 5 of 5 licences valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "although they are recorded as single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
 
 <!-- review:end log -->
 

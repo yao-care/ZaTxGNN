@@ -21,12 +21,13 @@
   "items_current": 11978
  },
  "reviews": {
-  "records": 401,
-  "pages": 305,
-  "public_pages_with_records": 274,
+  "records": 670,
+  "pages": 368,
+  "public_pages_with_records": 337,
   "by_action": {
    "annotate": 1,
-   "correct": 400
+   "correct": 400,
+   "mechanism": 269
   }
  },
  "fhir": {
@@ -49,7 +50,7 @@
    "l": "L5",
    "lt": 321,
    "lv": 290,
-   "r": 1,
+   "r": 2,
    "i": "brain stem infarction"
   },
   {
@@ -58,7 +59,7 @@
    "l": "L4",
    "lt": 256,
    "lv": 223,
-   "r": 1,
+   "r": 2,
    "i": "malignant hypertensive renal disease"
   },
   {
@@ -67,7 +68,7 @@
    "l": "L5",
    "lt": 286,
    "lv": 219,
-   "r": 1,
+   "r": 2,
    "i": "hyperamylasemia"
   },
   {
@@ -76,7 +77,7 @@
    "l": "L5",
    "lt": 225,
    "lv": 208,
-   "r": 1,
+   "r": 2,
    "i": "focal stiff limb syndrome"
   },
   {
@@ -94,7 +95,7 @@
    "l": "L5",
    "lt": 271,
    "lv": 154,
-   "r": 1,
+   "r": 2,
    "i": "nasal cavity disease"
   },
   {
@@ -141,7 +142,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "migraine disorder"
   },
   {
@@ -159,7 +160,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "malignant hypertensive renal disease"
   },
   {
@@ -177,7 +178,7 @@
    "l": "L5",
    "lt": 2,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "zinc, elevated plasma"
   }
  ],
@@ -193,6 +194,33 @@
    "i": "gastroparesis (disease)"
   },
   {
+   "t": "Fusidic Acid",
+   "u": "/drugs/fusidic-acid/",
+   "l": "L5",
+   "lt": 10,
+   "lv": 10,
+   "r": 4,
+   "i": "exposure keratitis"
+  },
+  {
+   "t": "Tramadol",
+   "u": "/drugs/tramadol/",
+   "l": "L5",
+   "lt": 82,
+   "lv": 75,
+   "r": 4,
+   "i": "acromesomelic dysplasia, Hunter-Thompson type"
+  },
+  {
+   "t": "Abacavir",
+   "u": "/drugs/abacavir/",
+   "l": "L5",
+   "lt": 67,
+   "lv": 51,
+   "r": 3,
+   "i": "feline acquired immunodeficiency syndrome"
+  },
+  {
    "t": "Alanine",
    "u": "/drugs/alanine/",
    "l": "L5",
@@ -202,40 +230,13 @@
    "i": "gastroparesis (disease)"
   },
   {
-   "t": "Fusidic Acid",
-   "u": "/drugs/fusidic-acid/",
+   "t": "Atenolol",
+   "u": "/drugs/atenolol/",
    "l": "L5",
-   "lt": 10,
-   "lv": 10,
+   "lt": 41,
+   "lv": 33,
    "r": 3,
-   "i": "exposure keratitis"
-  },
-  {
-   "t": "Methionine",
-   "u": "/drugs/methionine/",
-   "l": "L5",
-   "lt": 33,
-   "lv": 19,
-   "r": 3,
-   "i": "acne (disease)"
-  },
-  {
-   "t": "Tramadol",
-   "u": "/drugs/tramadol/",
-   "l": "L5",
-   "lt": 82,
-   "lv": 75,
-   "r": 3,
-   "i": "acromesomelic dysplasia, Hunter-Thompson type"
-  },
-  {
-   "t": "Abacavir",
-   "u": "/drugs/abacavir/",
-   "l": "L5",
-   "lt": 67,
-   "lv": 51,
-   "r": 2,
-   "i": "feline acquired immunodeficiency syndrome"
+   "i": "malignant hypertensive renal disease"
   }
  ],
  "example": {
@@ -244,7 +245,7 @@
   "l": "L1",
   "lt": 53,
   "lv": 50,
-  "r": 1,
+  "r": 2,
   "i": "seborrheic dermatitis"
  },
  "recent_reviews": [

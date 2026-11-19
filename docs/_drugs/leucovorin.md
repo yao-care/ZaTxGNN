@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **primary hyperoxaluria**, but **n
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Leucovorin is a reduced folate that bypasses the dihydrofolate reductase step and supports one-carbon metabolism.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for leucovorin: "High-Dose Methotrexate Therapy Leucovorin is a mixture of the diastereoisomers of the 5-formyl derivative of tetrahydrofolic acid (THF). The biologically active compound of the mixture is the (-)- l isomer, known as Citrovorum factor or (-)-folinic acid." ([DailyMed: Vykoura (leucovorin calcium) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d122b875-435e-4e00-b945-7a0546df95c2), label version 2026-03-12; accessed 2026-11-19.) Leucovorin is a reduced folate that bypasses the dihydrofolate reductase step and supports one-carbon metabolism.
 
 No established link between this pathway and oxalate production or glyoxylate handling, which underlie primary hyperoxaluria, is supported by the data compiled. The high TxGNN score is a model-based prediction only and should not be read as evidence of efficacy. Any mechanistic rationale would need to be developed and tested from scratch.
 
@@ -124,6 +124,19 @@ The prediction rests on a model score alone. No trials or publications address p
 - Mechanism of action data for leucovorin
 - The SAHPRA Professional Information, to complete the safety review (warnings and contraindications)
 - Review of the interaction list, with severity assessed for pairs currently marked "Unknown"
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vykoura (leucovorin calcium) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d122b875-435e-4e00-b945-7a0546df95c2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

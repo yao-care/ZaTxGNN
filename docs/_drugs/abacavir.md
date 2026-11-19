@@ -58,7 +58,7 @@ but there are **0 clinical trials** and only **1 preclinical publication** (a co
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, abacavir is a carbocyclic guanosine nucleoside analogue. It is phosphorylated inside cells to carbovir triphosphate, which blocks viral reverse transcriptase and terminates proviral DNA chain elongation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for abacavir and lamivudine (a combination product containing abacavir): "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c), label version 2026-09-18; accessed 2026-11-19.) Based on general knowledge, abacavir is a carbocyclic guanosine nucleoside analogue. It is phosphorylated inside cells to carbovir triphosphate, which blocks viral reverse transcriptase and terminates proviral DNA chain elongation.
 
 Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase is related to that of HIV-1. This is why the cat is used as an animal model for HIV, and several HIV reverse transcriptase inhibitors also act against FIV. A mechanistic rationale therefore exists.
 
@@ -144,12 +144,13 @@ The only supporting evidence is one in vitro combination study in a feline virus
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 11 registrations are valid single-ingredient records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Showing 5 of 11 registrations. even though the records label them as single-ingredient" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
 
 <!-- review:end log -->
 

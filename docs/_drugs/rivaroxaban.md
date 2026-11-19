@@ -56,7 +56,7 @@ This prediction is a computational signal only.
 
 ## Why is This Prediction Reasonable?
 
-Rivaroxaban is a direct Factor Xa inhibitor. It blocks a key step in the coagulation cascade and thereby reduces thrombin generation. The data compiled for this report contain no detailed mechanism-of-action entry, so this description is based on the drug's known class.
+Rivaroxaban is a direct Factor Xa inhibitor. It blocks a key step in the coagulation cascade and thereby reduces thrombin generation. According to the Mechanism of Action section of the US FDA-approved prescribing information for rivaroxaban: "XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), label version 2026-09-10; accessed 2026-11-19.) This description is based on the drug's known class.
 
 Rheumatoid arthritis involves chronic inflammation and a prothrombotic state, with increased thrombin generation and a higher risk of venous thromboembolism (VTE). This gives a plausible but **indirect** link to anticoagulation. Rivaroxaban might address the thrombotic comorbidity, but there is no evidence it would treat the underlying autoimmune disease. The very high TxGNN score is a computational prediction and is not supported by clinical data.
 
@@ -127,6 +127,18 @@ Other predictions for this drug were also reviewed and all are recommended as **
 | Gout | 0.9951 | L5 | No credible mechanistic link. The retrieved literature is unrelated. |
 | HIV infectious disease | 0.9917 | L4 | Literature covers rivaroxaban as an anticoagulant in people with HIV and its interactions with ritonavir- or cobicistat-boosted antiretrovirals. There is no evidence of antiviral activity. The one registered trial (NCT00786422) is a VTE study, not an HIV study. This is highly relevant to South Africa because of HIV prevalence, and it is a safety concern, not a repurposing signal. |
 | Brachydactyly-syndactyly syndrome | 0.9910 | L5 | No data. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "The data compiled for this report contain no detailed mechanism-of-action entry, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

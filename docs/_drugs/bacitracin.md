@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **punctate epithelial keratoconjun
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Bacitracin is a polypeptide antibiotic generally understood to act against Gram-positive bacteria, and it is used topically for superficial bacterial infections. Mechanistically it could be relevant to this condition only where a bacterial component is present.
+ChEMBL (EMBL-EBI) records the mechanism of action of bacitracin as: C55-isoprenyl pyrophosphate inhibitor ([ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558), CC BY-SA 3.0; accessed 2026-11-19.) Bacitracin is a polypeptide antibiotic generally understood to act against Gram-positive bacteria, and it is used topically for superficial bacterial infections. Mechanistically it could be relevant to this condition only where a bacterial component is present.
 
 Punctate epithelial keratoconjunctivitis is frequently viral or non-infectious in origin. An antibacterial agent would not be expected to treat those causes. The very high TxGNN score most likely reflects the closeness of this disease to other eye-surface conditions linked to the drug in the model's training data, rather than any demonstrated benefit. No trials or publications were compiled to test the prediction.
 
@@ -119,11 +119,12 @@ The prediction has a very high model score but no supporting trials or publicati
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The registration is a single-ingredient product and is currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
 
 <!-- review:end log -->
 

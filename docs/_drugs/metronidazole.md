@@ -56,7 +56,7 @@ The prediction is not mechanistically plausible, and the evidence supports a **H
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, metronidazole is a nitroimidazole antimicrobial with established efficacy against anaerobic bacteria and protozoa.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metronidazole: "Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical." ([DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255), label version 2026-11-02; accessed 2026-11-19.) Based on known information, metronidazole is a nitroimidazole antimicrobial with established efficacy against anaerobic bacteria and protozoa.
 
 For pneumocystosis, the mechanistic link is weak. Pneumocystis is a fungus that lacks the nitroreductase activation pathway that metronidazole depends on. The high TxGNN score most likely reflects network proximity to antiparasitic drugs rather than a true biological rationale. Standard therapy is trimethoprim-sulfamethoxazole.
 
@@ -148,11 +148,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
 
 <!-- review:end log -->
 

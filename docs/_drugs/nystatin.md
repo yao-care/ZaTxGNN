@@ -54,7 +54,7 @@ Nystatin is a polyene antifungal medicine marketed in South Africa. The TxGNN mo
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Nystatin is a polyene antifungal that is generally understood to bind ergosterol in fungal cell membranes, so any effect would be expected only where a fungal infection is involved.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nystatin: "Nystatin acts by binding to sterols in the cell membrane of susceptible Candida species with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses." ([DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6), label version 2026-02-06; accessed 2026-11-19.) Nystatin is a polyene antifungal that is generally understood to bind ergosterol in fungal cell membranes, so any effect would be expected only where a fungal infection is involved.
 
 No plausible mechanistic link between nystatin and disease of orbital region was identified. The only linked trial studies a different compound for a retinal condition, and fungal orbital infection, while possible in principle, is not an established indication for nystatin. The high score is therefore most likely a computational artefact rather than a signal of real benefit.
 
@@ -117,11 +117,12 @@ The prediction has a high model score but no supporting evidence: the single lin
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 4 registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6) |
 
 <!-- review:end log -->
 

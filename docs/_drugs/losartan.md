@@ -61,7 +61,7 @@ The SAHPRA registration records compiled for this report do not include approved
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, losartan is an AT1 (angiotensin II type 1) receptor blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to renin-angiotensin system (RAS)-driven renovascular hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for losartan: "Angiotensin II [formed from angiotensin I in a reaction catalyzed by angiotensin converting enzyme (ACE, kininase II)] is a potent vasoconstrictor, the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. It also stimulates aldosterone secretion by the adrenal cortex. […] Losartan and its principal active metabolite block the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues, (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41), label version 2026-09-15; accessed 2026-11-19.) Based on known information, losartan is an AT1 (angiotensin II type 1) receptor blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to renin-angiotensin system (RAS)-driven renovascular hypertension.
 
 Renovascular hypertension is typically driven by reduced renal perfusion, which activates the RAS. Blocking the AT1 receptor is therefore a plausible approach. This is consistent with losartan's approved role in hypertension.
 
@@ -166,12 +166,13 @@ The prediction score is high and the mechanism is plausible, but evidence is lim
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 18 registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Showing 5 of 18 registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41) |
 
 <!-- review:end log -->
 

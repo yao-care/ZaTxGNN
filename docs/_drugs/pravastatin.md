@@ -66,7 +66,7 @@ This direction is supported by **12 clinical trials** and **20 publications**, a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Pravastatin belongs to the statin class, which inhibits HMG-CoA reductase and upregulates hepatic LDL receptors. Its efficacy in lipid disorders and atherosclerosis is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pravastatin: "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d), label version 2026-10-23; accessed 2026-11-19.) Pravastatin belongs to the statin class, which inhibits HMG-CoA reductase and upregulates hepatic LDL receptors. Its efficacy in lipid disorders and atherosclerosis is well established.
 
 HIV infection and antiretroviral therapy, particularly protease inhibitors, commonly cause dyslipidaemia and endothelial dysfunction. This raises the risk of premature coronary artery disease. Pravastatin's lipid-lowering and endothelial effects address these problems, so the predicted indication is a close extension of its existing use rather than an antiviral effect.
 
@@ -178,11 +178,12 @@ Several randomised trials, including a Phase 3 trial and double-blind pravastati
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are currently valid and are for single-ingredient products, as the data records them" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Dipyridamole is an oral antiplatelet medicine that is registered and marketed in
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this drug. Dipyridamole is generally known to inhibit platelet aggregation and to have adenosine-related effects. However, no clear mechanistic link to this inherited rhythm disorder of the sinus node was identified.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dipyridamole: "Dipyridamole inhibits the uptake of adenosine into platelets, endothelial cells and erythrocytes in vitro and in vivo; the inhibition occurs in a dose-dependent manner at therapeutic concentrations (0.5 to 1.9 mcg/mL). This inhibition results in an increase in local concentrations of adenosine which acts on the platelet A 2 -receptor thereby stimulating platelet adenylate cyclase and increasing platelet cyclic-3',5'-adenosine monophosphate (cAMP) levels." ([DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5), label version 2026-04-29; accessed 2026-11-19.) Dipyridamole is generally known to inhibit platelet aggregation and to have adenosine-related effects. However, no clear mechanistic link to this inherited rhythm disorder of the sinus node was identified.
 
 The adenosine-related effects of dipyridamole could even worsen slow heart rhythms (bradyarrhythmia) in people with sinus node dysfunction. This raises a safety concern rather than supporting benefit. The high TxGNN score therefore reflects a pattern found by the model, not a demonstrated pharmacological rationale.
 
@@ -116,11 +116,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full safet
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "This is one registration, status valid, for an oral capsule" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5) |
 
 <!-- review:end log -->
 

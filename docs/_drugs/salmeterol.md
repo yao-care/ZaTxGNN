@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **respiratory malformation**, but 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Salmeterol is a long-acting beta2-adrenergic agonist. Drugs of this class relax airway smooth muscle and may also raise ciliary beat frequency and support mucociliary clearance.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for salmeterol: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), label version 2022-10-10; accessed 2026-11-19.) Salmeterol is a long-acting beta2-adrenergic agonist. Drugs of this class relax airway smooth muscle and may also raise ciliary beat frequency and support mucociliary clearance.
 
 This gives a possible link to ciliary disorders such as primary ciliary dyskinesia. "Respiratory malformation" is a broad, structurally defined category, though. Bronchodilation or ciliary stimulation is not an established treatment mechanism for it.
 
@@ -128,11 +128,12 @@ No study directly addresses respiratory malformation, so the evidence level is L
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "One further licence (Med-lemon flu & congestion hot medication, sachet, Reg. No. 27/5.8/0430) is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
 
 <!-- review:end log -->
 

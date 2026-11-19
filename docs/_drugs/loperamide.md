@@ -54,7 +54,7 @@ Loperamide is an antimotility drug originally used to treat diarrhoeal disease a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Loperamide is generally understood as a peripheral mu-opioid receptor agonist acting on gut myenteric neurons to reduce motility. Its efficacy in symptomatic diarrhoea is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for loperamide: "In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall." ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), label version 2026-07-09; accessed 2026-11-19.) Loperamide is generally understood as a peripheral mu-opioid receptor agonist acting on gut myenteric neurons to reduce motility. Its efficacy in symptomatic diarrhoea is established.
 
 For acute contagious conjunctivitis, no credible mechanistic link was identified. Loperamide has no known anti-infective or anti-inflammatory action in the eye. The high TxGNN score (ranked 366th overall) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top-ranked predictions are also mostly conjunctivitis variants (conjunctivitis, pseudomembranous, chronic follicular, parasitic, serous, conjunctival folliculosis), plus Angelucci syndrome, which also lack supporting evidence.
 
@@ -133,12 +133,13 @@ The prediction is supported only by a model score, with no trials, no literature
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Loperamide is registered in South Africa as a single-ingredient product under 4 valid registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "the available forms are oral tablets and syrup" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
 
 <!-- review:end log -->
 

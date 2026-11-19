@@ -54,7 +54,7 @@ Etoricoxib is a selective COX-2 inhibitor. The SAHPRA registration data compiled
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Etoricoxib is, however, a well-known selective COX-2 inhibitor (target gene PTGS2), and it is used for inflammatory and pain conditions.
+ChEMBL (EMBL-EBI) records the mechanism of action of etoricoxib as: Cyclooxygenase-2 inhibitor ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; accessed 2026-11-19.) Etoricoxib is, however, a well-known selective COX-2 inhibitor (target gene PTGS2), and it is used for inflammatory and pain conditions.
 
 Prostaglandins produced via COX-2, such as PGE2, are thought to contribute to neurogenic inflammation and sensitisation of the trigeminovascular system in migraine. This makes a role for COX-2 inhibition biologically plausible. A preclinical study in rat trigeminal ganglia examined NSAIDs, including etoricoxib, and their effect on CGRP and PGE2 release, which gives indirect mechanistic support.
 
@@ -133,11 +133,12 @@ The migraine prediction rests on a high model score and biological plausibility,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Etoricoxib has 1 valid single-ingredient registration" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
 
 <!-- review:end log -->
 

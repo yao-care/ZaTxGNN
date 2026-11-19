@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Clindamycin belongs to the lincosamide class of antibiotics, which inhibit bacterial protein synthesis by binding to the 50S ribosomal subunit. In principle, this could act on bacterial infections of the ocular surface.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clindamycin: "Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic." ([DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a), label version 2026-09-16; accessed 2026-11-19.) Clindamycin belongs to the lincosamide class of antibiotics, which inhibit bacterial protein synthesis by binding to the 50S ribosomal subunit. In principle, this could act on bacterial infections of the ocular surface.
 
 The link is weak, however. Punctate epithelial keratoconjunctivitis is often viral or non-infectious, so an antibacterial rationale does not clearly apply. Neither systemic nor topical ocular use of clindamycin is an established practice. The very high score of 0.9997 is a model-based prediction and is not backed by any study of this disease.
 
@@ -114,11 +114,12 @@ The prediction has no supporting trials or publications, so it stays at evidence
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All five registrations are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a) |
 
 <!-- review:end log -->
 

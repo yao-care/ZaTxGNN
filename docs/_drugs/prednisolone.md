@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **no 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, prednisolone is a glucocorticoid. Its efficacy in autoimmune and inflammatory diseases is established, and mechanistically it may be applicable to alopecia areata.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisolone: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), label version 2025-06-03; accessed 2026-11-19.) Based on known information, prednisolone is a glucocorticoid. Its efficacy in autoimmune and inflammatory diseases is established, and mechanistically it may be applicable to alopecia areata.
 
 Alopecia areata is a T-cell-mediated autoimmune attack on the hair follicle, with collapse of the follicle's immune privilege. Glucocorticoids suppress T-cell activation and inflammatory cytokine production, which matches this disease mechanism and the drug's existing autoimmune indications. One published study also suggests that oral pulse steroids lower serum and tissue TNF-α levels in alopecia areata.
 
@@ -140,6 +140,19 @@ Prednisolone is already marketed in South Africa. Alopecia areata has a strong i
 - A review of the relevant RCT and comparison with newer therapies, such as JAK inhibitors, where these are available or accessible
 - A pulse-dosing protocol with a relapse-management plan and monitoring for steroid adverse effects (blood pressure, glucose, growth in children, bone density, infection risk, adrenal suppression)
 - Confirmation that the registered syrup formulation suits the intended dosing, since route and formulation compatibility has not been assessed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

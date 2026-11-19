@@ -54,7 +54,7 @@ Fluticasone furoate is a glucocorticoid that reduces inflammation and is supplie
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fluticasone furoate belongs to the glucocorticoid class. These drugs act on the glucocorticoid receptor to reduce inflammation, and topical corticosteroids are standard therapy for atopic eczema. This gives a class-level reason why the prediction is plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone furoate: "Fluticasone furoate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone furoate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is approximately 29.9 times that of dexamethasone and 1.7 times that of fluticasone propionate." ([DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440), label version 2025-03-06; accessed 2026-11-19.) Fluticasone furoate belongs to the glucocorticoid class. These drugs act on the glucocorticoid receptor to reduce inflammation, and topical corticosteroids are standard therapy for atopic eczema. This gives a class-level reason why the prediction is plausible.
 
 There are important limits. The retrieved literature does not evaluate fluticasone furoate for this condition. The two papers found are a safety review of intranasal corticosteroids and a case report on allergen immunotherapy, and both only mention atopic dermatitis in passing. The marketed products are nasal sprays and inhalers, which are not designed for skin use. The high TxGNN score is a model output only and does not show that the drug works for this condition.
 
@@ -106,6 +106,19 @@ The prediction is plausible at class level, but there are no trials or direct pu
 - The SAHPRA Professional Information (warnings and contraindications), which is currently missing
 - Detailed mechanism of action data
 - A safety plan covering systemic corticosteroid exposure and adrenal suppression
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

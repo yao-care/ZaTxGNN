@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **cholesterol-ester transfer prot
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data are not available in the data compiled for this report. Rosuvastatin is a statin (HMG-CoA reductase inhibitor). It lowers LDL-cholesterol by reducing hepatic cholesterol synthesis and increasing LDL clearance, and this is established in its existing lipid indications.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rosuvastatin: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), label version 2026-09-23; accessed 2026-11-19.) Rosuvastatin is a statin (HMG-CoA reductase inhibitor). It lowers LDL-cholesterol by reducing hepatic cholesterol synthesis and increasing LDL clearance, and this is established in its existing lipid indications.
 
 CETP deficiency raises HDL-cholesterol and lowers LDL-cholesterol, so it sits in the same lipid pathway. That is why the model links the two conditions.
 
@@ -134,11 +134,12 @@ The top-ranked prediction (CETP deficiency) rests on a model score alone, with n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All five SAHPRA registrations are valid single-ingredient products, and none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Codeine is an opioid analgesic that is currently marketed in South Africa in sev
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug, so no mechanism can be proposed for nasal cavity disease. Codeine is an opioid analgesic and cough suppressant, and the SAHPRA records compiled for this report include syrups, tablets, capsules, a suspension and an injection.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for codeine: "Codeine sulfate is an opioid agonist relatively selective for the mu-opioid receptor, but with a much weaker affinity than morphine. The analgesic properties of codeine have been speculated to come from its conversion to morphine, although the exact mechanism of analgesic action remains unknown." ([DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293), label version 2026-01-16; accessed 2026-11-19.) No mechanism can be proposed for nasal cavity disease. Codeine is an opioid analgesic and cough suppressant, and the SAHPRA records compiled for this report include syrups, tablets, capsules, a suspension and an injection.
 
 The single publication linked to this prediction (PMID 17315836) is a case report of a rhinolith that formed around a foreign body made of codeine and opium wrapped in nylon. It describes an unusual incidental event and does not show any therapeutic effect of codeine on nasal disease. The high score is therefore best read as a statistical association from the model, not as evidence of benefit. Because no cited study directly examines codeine as a treatment for nasal cavity disease, the evidence level is L5.
 
@@ -126,11 +126,12 @@ The prediction score is very high, but the only linked publication is a case rep
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The data compiled for this report list 20 valid single-ingredient registrations, and the list may be partial" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug, so n" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
 
 <!-- review:end log -->
 

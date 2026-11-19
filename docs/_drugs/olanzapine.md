@@ -56,7 +56,7 @@ Two lower-ranked predictions, **agoraphobia** (6 publications) and **dysthymic d
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Olanzapine is an antipsychotic whose efficacy in schizophrenia and bipolar disorder is established. It is generally understood to act through dopamine (D2) and serotonin (5-HT2A/5-HT2C) receptor antagonism.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olanzapine: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), label version 2026-10-26; accessed 2026-11-19.) Olanzapine is an antipsychotic whose efficacy in schizophrenia and bipolar disorder is established. It is generally understood to act through dopamine (D2) and serotonin (5-HT2A/5-HT2C) receptor antagonism.
 
 For the top-ranked prediction, the rationale is weak. Benign paroxysmal torticollis of infancy is an episodic paediatric disorder related to the migraine spectrum and possibly to channelopathies (e.g., CACNA1A). Olanzapine's receptor profile has no established link to this condition. The condition is usually self-limiting, and giving an antipsychotic to infants would raise major safety concerns (sedation, metabolic effects, extrapyramidal symptoms). The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -147,11 +147,12 @@ The top-ranked prediction, benign paroxysmal torticollis of infancy, has no tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 4 registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
 
 <!-- review:end log -->
 

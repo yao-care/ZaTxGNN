@@ -54,7 +54,7 @@ Levonorgestrel is a synthetic progestin used in hormonal contraception. The TxGN
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Levonorgestrel is a 19-carbon progestin with some residual androgenic activity, a property that makes it a less favourable choice than anti-androgenic progestins for acne.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levonorgestrel: "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), label version 2026-03-04; accessed 2026-11-19.) Levonorgestrel is a 19-carbon progestin with some residual androgenic activity, a property that makes it a less favourable choice than anti-androgenic progestins for acne.
 
 Acne is driven in part by androgen action on the pilosebaceous unit. Combined hormonal contraceptives can improve acne by raising sex hormone-binding globulin (SHBG) and lowering free testosterone. This benefit is mainly attributed to the oestrogen component and to anti-androgenic progestins such as chlormadinone acetate. Progestin-only levonorgestrel systems (intrauterine systems and implants) have been associated with acne as a side effect rather than a treatment effect.
 
@@ -124,11 +124,12 @@ The evidence level is L2, based on one randomized placebo-controlled trial of a 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 11 SAHPRA registrations are single-ingredient oral tablets and all are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
 
 <!-- review:end log -->
 

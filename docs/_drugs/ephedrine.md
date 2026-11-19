@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general pharmacology, ephedrine is an indirect-acting sympathomimetic that promotes norepinephrine release and acts on alpha- and beta-adrenergic receptors. Alpha-1 mediated vasoconstriction of nasal mucosal vessels reduces mucosal swelling and congestion, which is mechanistically consistent with a role in nasal cavity disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ephedrine: "Ephedrine sulfate is a sympathomimetic amine that directly acts as an agonist at α- and β-adrenergic receptors and indirectly causes the release of norepinephrine from sympathetic neurons. Pressor effects by direct alpha- and beta-adrenergic receptor activation are mediated by increases in arterial pressures, cardiac output, and peripheral resistance." ([DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f), label version 2024-09-16; accessed 2026-11-19.) Based on general pharmacology, ephedrine is an indirect-acting sympathomimetic that promotes norepinephrine release and acts on alpha- and beta-adrenergic receptors. Alpha-1 mediated vasoconstriction of nasal mucosal vessels reduces mucosal swelling and congestion, which is mechanistically consistent with a role in nasal cavity disorders.
 
 Because nasal congestion is a feature of many upper-airway conditions, the prediction is largely a broad restatement of familiar decongestant pharmacology rather than a truly novel repurposing idea. This link is inferred from general pharmacology and has not been confirmed by the data compiled for this report.
 
@@ -118,11 +118,12 @@ No registered trials and only two low-tier publications involving combination pr
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Showing 5 of the 12 valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f) |
 
 <!-- review:end log -->
 

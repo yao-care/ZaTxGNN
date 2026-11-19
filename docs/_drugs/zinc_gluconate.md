@@ -56,7 +56,7 @@ The evidence is therefore model prediction only.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, zinc gluconate is a zinc salt, and zinc is an essential trace element involved in many enzymatic pathways, including haem synthesis and erythropoiesis. This offers a plausible, but unproven, link to anaemia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zinc gluconate: "Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids." ([DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757), label version 2026-03-04; accessed 2026-11-19.) Based on known information, zinc gluconate is a zinc salt, and zinc is an essential trace element involved in many enzymatic pathways, including haem synthesis and erythropoiesis. This offers a plausible, but unproven, link to anaemia.
 
 The relationship between the original indications (nutrient deficiency states) and anemia of prematurity is a loose nutritional one. Both involve micronutrient shortfalls, but the data compiled for this report do not show a direct mechanistic bridge.
 
@@ -133,11 +133,12 @@ The prediction for anemia of prematurity rests on a model score alone, with no r
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
 
 <!-- review:end log -->
 

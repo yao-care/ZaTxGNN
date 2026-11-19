@@ -58,7 +58,7 @@ Betamethasone is a corticosteroid with anti-inflammatory and immunosuppressive a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Betamethasone is a glucocorticoid. Drugs of this class suppress inflammatory cell activity and cytokine production, which can reduce inflammatory infiltrates in the skin.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for betamethasone: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of SERNIVO Spray in psoriasis is unknown." ([DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66), label version 2026-04-22; accessed 2026-11-19.) Betamethasone is a glucocorticoid. Drugs of this class suppress inflammatory cell activity and cytokine production, which can reduce inflammatory infiltrates in the skin.
 
 Alopecia mucinosa is characterised by mucin deposition in hair follicles, often with an inflammatory infiltrate. The proposed link is that a corticosteroid could reduce this infiltrate. The only supporting literature is a 1964 report of three cases with a review of therapy. This link is therefore a plausible hypothesis, not a demonstrated effect. The score reflects a model prediction, not clinical proof.
 
@@ -134,11 +134,12 @@ No warning or contraindication text was available from the product labels. Pleas
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Of the 18 registrations on record, 17 are valid and 1 is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
 
 <!-- review:end log -->
 

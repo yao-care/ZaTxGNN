@@ -60,7 +60,7 @@ The TxGNN model predicts it may be relevant for **acromesomelic dysplasia, Hunte
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Celecoxib is known as a selective COX-2 inhibitor that reduces prostaglandin-mediated inflammation and pain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for celecoxib: "Celecoxib has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of celecoxib is believed to be due to inhibition of prostaglandin synthesis, primarily via inhibition of COX-2. Celecoxib is a potent inhibitor of prostaglandin synthesis in vitro." ([DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d), label version 2025-07-31; accessed 2026-11-19.) Celecoxib is known as a selective COX-2 inhibitor that reduces prostaglandin-mediated inflammation and pain.
 
 Acromesomelic dysplasia, Hunter-Thompson type is a rare inherited skeletal dysplasia caused by loss-of-function changes in the CDMP1/GDF5 gene. Its basis is developmental and non-inflammatory. COX-2 inhibition would not be expected to correct this underlying defect, and no credible mechanistic link has been identified.
 
@@ -143,11 +143,12 @@ The prediction is supported only by a model score. There are no trials or public
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "One valid single-ingredient registration is on record" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d) |
 
 <!-- review:end log -->
 

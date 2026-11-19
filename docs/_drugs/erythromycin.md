@@ -60,7 +60,7 @@ but currently there are **no registered clinical trials** and only **1 publicati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general pharmacological knowledge, erythromycin is a macrolide that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit, and it is also reported to have anti-inflammatory effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for erythromycin: "Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis." ([DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd), label version 2018-12-04; accessed 2026-11-19.) Based on general pharmacological knowledge, erythromycin is a macrolide that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit, and it is also reported to have anti-inflammatory effects.
 
 In ocular surface disease, a macrolide could plausibly act by lowering the bacterial load on the lid margin and by dampening inflammation. This is a mechanistic rationale only. The single publication retrieved concerns chronic blepharokeratoconjunctivitis in children, which is a related but different condition from punctate epithelial keratoconjunctivitis, and it does not study erythromycin for the predicted disease itself. For this reason the evidence level is L5, even though the model score is very high.
 
@@ -135,11 +135,12 @@ The TxGNN score is very high (0.9989), but no clinical trials exist and the only
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Four single-ingredient SAHPRA registrations are valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
 
 <!-- review:end log -->
 

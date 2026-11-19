@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **nephrogenic syndrome of inappro
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fentanyl is a strong opioid analgesic, and opioids are generally understood to act on mu-opioid receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fentanyl: "Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation." ([DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11), label version 2026-10-23; accessed 2026-11-19.) Fentanyl is a strong opioid analgesic, and opioids are generally understood to act on mu-opioid receptors.
 
 Nephrogenic syndrome of inappropriate antidiuresis (NSIAD) is caused by gain-of-function mutations in the vasopressin V2 receptor gene (AVPR2), which leads to water retention despite low antidiuretic hormone levels. Fentanyl has no established mechanistic link to this pathway. Opioids can modulate antidiuretic hormone release in general, but this would not address a defect located in the kidney receptor itself. The high score should therefore be treated as a computational signal only, not as a biologically supported rationale.
 
@@ -128,11 +128,12 @@ The prediction rests on a model score alone, with no clinical trials or publicat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are single-ingredient products and both are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 
 <!-- review:end log -->
 

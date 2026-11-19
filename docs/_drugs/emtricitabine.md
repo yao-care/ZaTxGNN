@@ -58,7 +58,7 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Emtricitabine is generally known as a nucleoside reverse transcriptase inhibitor (NRTI) that terminates the viral DNA chain once it has been phosphorylated inside cells. This general pharmacology is not drawn from the compiled data.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for emtricitabine: "Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ." ([DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f), label version 2026-11-06; accessed 2026-11-19.) Emtricitabine is generally known as a nucleoside reverse transcriptase inhibitor (NRTI) that terminates the viral DNA chain once it has been phosphorylated inside cells. This general pharmacology is not drawn from the compiled data.
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, and it causes progressive immune dysfunction in cats. A plausible mechanistic link therefore exists, because lentiviral reverse transcriptases share features. The very high score (0.9992) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is a model prediction, not clinical evidence.
 
@@ -129,11 +129,12 @@ The predicted indication is a veterinary disease. It has no registered clinical 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All are single-ingredient records with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
 
 <!-- review:end log -->
 

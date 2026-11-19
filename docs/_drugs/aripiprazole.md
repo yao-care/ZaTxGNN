@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **gaze palsy, familial horizont
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for aripiprazole are not available in the data compiled for this report. Aripiprazole is generally classed as an atypical antipsychotic, and its receptor pharmacology is usually described as dopamine D2 partial agonism with serotonin receptor modulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aripiprazole: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), label version 2025-04-04; accessed 2026-11-19.) Aripiprazole is generally classed as an atypical antipsychotic, and its receptor pharmacology is usually described as dopamine D2 partial agonism with serotonin receptor modulation.
 
 Familial horizontal gaze palsy with progressive scoliosis is a rare inherited neurological disorder. It involves impaired horizontal eye movements together with a progressive spinal curvature. No plausible mechanistic link between aripiprazole's receptor pharmacology and this condition is evident. The high score is not backed by any clinical or preclinical evidence, so it should be treated as a computational signal only.
 
@@ -105,6 +105,18 @@ The prediction has a high model score but no supporting trials, publications or 
 - Any preclinical or clinical evidence that directly studies aripiprazole in this condition
 - A defined mechanistic hypothesis linking aripiprazole's pharmacology to the disease biology
 - Mechanism-of-action data and the SAHPRA Professional Information (warnings and contraindications) for a full safety review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for aripiprazole are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

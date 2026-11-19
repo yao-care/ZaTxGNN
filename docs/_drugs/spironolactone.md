@@ -56,7 +56,7 @@ but there are currently **no clinical trials and no publications** supporting th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Spironolactone is generally known as a mineralocorticoid receptor antagonist with anti-androgen activity. Its efficacy in hypertension, heart failure and hyperaldosteronism is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for spironolactone: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), label version 2025-11-28; accessed 2026-11-19.) Spironolactone is generally known as a mineralocorticoid receptor antagonist with anti-androgen activity. Its efficacy in hypertension, heart failure and hyperaldosteronism is established.
 
 A plausible but unverified rationale is that blocking androgen receptor signalling in hair follicles could help androgen-driven hair loss. Spironolactone is used off-label in female pattern hair loss.
 
@@ -126,11 +126,12 @@ The prediction is supported only by the TxGNN model score (L5), with no clinical
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid, single-ingredient entries for oral tablets" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
 
 <!-- review:end log -->
 

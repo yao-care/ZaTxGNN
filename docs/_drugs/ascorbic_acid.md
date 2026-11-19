@@ -60,7 +60,7 @@ However, **no clinical trials and no publications** support this prediction, so 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, ascorbic acid scavenges reactive oxygen species and is a cofactor for hydroxylase enzymes involved in collagen synthesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ascorbic acid: "The exact mechanism of action of ascorbic acid for the treatment of symptoms and signs of scurvy (a disorder caused by severe deficiency in vitamin C) is unknown; however, administration of ascorbic acid in patients with scurvy is thought to restore the body pool of ascorbic acid." ([DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6), label version 2026-09-03; accessed 2026-11-19.) Based on general pharmacology, ascorbic acid scavenges reactive oxygen species and is a cofactor for hydroxylase enzymes involved in collagen synthesis.
 
 No mechanistic link to non-syndromic esophageal malformation was identified. This is a structural congenital malformation of the oesophagus, arising during embryonic development. An antioxidant or cofactor vitamin is unlikely to correct such a defect. The very high score, combined with a complete absence of supporting trials or literature, suggests the prediction is probably a model artefact and should not be acted on clinically.
 
@@ -132,11 +132,12 @@ The score is very high, but there are no trials or publications for non-syndromi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The data compiled for this report show 18 valid single-ingredient registrations, and the list may be partial" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6) |
 
 <!-- review:end log -->
 

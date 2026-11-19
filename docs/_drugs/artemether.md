@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **acquired angioedema**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for artemether. Artemisinin-class drugs are generally used against malaria parasites, which is a very different biology from angioedema.
+ChEMBL (EMBL-EBI) records the mechanism of action of artemether as: Ferriprotoporphyrin IX inhibitor ([ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534), CC BY-SA 3.0; accessed 2026-11-19.) Artemisinin-class drugs are generally used against malaria parasites, which is a very different biology from angioedema.
 
 Acquired angioedema is driven by pathways involving the kallikrein-kinin system, bradykinin and complement C1-inhibitor. Artemether has no known action on these pathways. The high model score (0.9990) is a computational output only. No trial or publication in the data compiled for this report supports a link, so the prediction should be regarded as hypothesis-generating at best.
 
@@ -125,11 +125,12 @@ The prediction has no supporting trials or literature and no identifiable mechan
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Coartem is the only registered product in the data" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for artemether" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534) |
 
 <!-- review:end log -->
 

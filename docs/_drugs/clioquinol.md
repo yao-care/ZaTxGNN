@@ -54,7 +54,7 @@ Clioquinol is a topical anti-infective that is currently marketed in South Afric
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for clioquinol is not available in the data compiled for this report. The mechanistic reasoning below is therefore general and has not been confirmed for this drug.
+ChEMBL (EMBL-EBI) records the mechanism of action of clioquinol as: Zinc chelating agent; Copper chelating agent; Iron chelating agent ([ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497), CC BY-SA 3.0; accessed 2026-11-19.) The mechanistic reasoning below is therefore general and has not been confirmed for this drug.
 
 Ectothrix infections are caused by dermatophyte fungi that grow on the outer surface of the hair shaft. Clioquinol is an anti-infective, and an antifungal effect against dermatophytes is plausibly shared. This is a reasoned hypothesis only. No study in the compiled data tests clioquinol in this specific infection, and the similarity analysis to the drug's existing uses is still pending.
 
@@ -91,6 +91,19 @@ The prediction score is high (0.9926), but it is the only support. No trials or 
 - Search for in vitro or clinical data on clioquinol activity against ectothrix dermatophytes
 - Assess whether topical delivery is adequate for this infection
 - Conduct a safety screen for the intended population before any further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for clioquinol is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

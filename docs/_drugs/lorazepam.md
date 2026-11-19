@@ -66,7 +66,7 @@ Among the other predicted indications, **insomnia** has the most direct supporti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lorazepam is known to be a benzodiazepine that enhances GABA-A receptor-mediated inhibition, which produces sedative, anxiolytic and anticonvulsant effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lorazepam: "Lorazepam exerts its effect for the treatment of anxiety disorders through binding to the benzodiazepine site of the gamma-aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9), label version 2025-10-08; accessed 2026-11-19.) Lorazepam is known to be a benzodiazepine that enhances GABA-A receptor-mediated inhibition, which produces sedative, anxiolytic and anticonvulsant effects.
 
 **Trigeminal nerve neoplasm (top prediction):** No mechanistic rationale supports this prediction. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and there is no plausible anti-tumour link. At most, lorazepam could treat symptoms such as anxiety or seizures in a patient with a tumour, and these uses are already covered by existing indications.
 
@@ -189,11 +189,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
 
 <!-- review:end log -->
 

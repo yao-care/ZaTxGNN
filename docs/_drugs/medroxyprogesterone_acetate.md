@@ -54,7 +54,7 @@ Medroxyprogesterone acetate (MPA) is a synthetic progestin marketed in South Afr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. MPA is a progestin, and fibrocystic breast changes are considered hormone-responsive. One review in the literature describes the condition as driven by estrogen predominance and progesterone deficiency, so a progestin could in theory oppose estrogen-driven epithelial proliferation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for medroxyprogesterone acetate: "Depo-Provera CI (medroxyprogesterone acetate [MPA]) inhibits the secretion of gonadotropins which primarily prevents follicular maturation and ovulation and causes thickening of cervical mucus. These actions contribute to its contraceptive effect." ([DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049), label version 2026-08-25; accessed 2026-11-19.) MPA is a progestin, and fibrocystic breast changes are considered hormone-responsive. One review in the literature describes the condition as driven by estrogen predominance and progesterone deficiency, so a progestin could in theory oppose estrogen-driven epithelial proliferation.
 
 Two older clinical reports describe MPA used directly in fibrocystic breast disease: a 1983 therapeutic trial in severe disease and a 1988 study in adolescents. Both are small and of unclear design, and no randomized trial is available. Other publications concern breast changes during hormone replacement therapy (mammographic density, epithelial proliferation). In those settings progestins may worsen rather than improve breast findings, so the direction of effect is uncertain.
 
@@ -124,11 +124,12 @@ The TxGNN score is high, and two small older clinical reports of MPA in fibrocys
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Two of the four registrations are valid and two are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049) |
 
 <!-- review:end log -->
 

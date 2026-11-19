@@ -58,7 +58,7 @@ Fluconazole is an oral azole antifungal. The TxGNN model predicts it may be effe
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Fluconazole is a member of the azole antifungal class, which generally acts by inhibiting fungal CYP51 (lanosterol 14-alpha-demethylase), a step in fungal ergosterol synthesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluconazole: "Fluconazole is a highly selective inhibitor of fungal cytochrome P450 dependent enzyme lanosterol 14-α-demethylase. This enzyme functions to convert lanosterol to ergosterol. The subsequent loss of normal sterols correlates with the accumulation of 14-α-methyl sterols in fungi and may be responsible for the fungistatic activity of fluconazole." ([DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204), label version 2026-04-02; accessed 2026-11-19.) Fluconazole is a member of the azole antifungal class, which generally acts by inhibiting fungal CYP51 (lanosterol 14-alpha-demethylase), a step in fungal ergosterol synthesis.
 
 Punctate epithelial keratoconjunctivitis is most often viral (for example adenoviral) or inflammatory in origin. Fluconazole's antifungal action therefore has no clear relevance to it, and the data provide no supporting mechanism. The high TxGNN score is a model output only. No similarity analysis between the original and predicted indications has been completed, and route compatibility (oral capsules in South Africa versus the likely need for ocular exposure) has not been assessed.
 
@@ -122,6 +122,19 @@ The prediction score is high, but no clinical trial or publication addresses pun
 - Retrieval of the SAHPRA package insert warnings and contraindications
 - Confirmed mechanism of action data
 - A review of QT-prolongation and interaction risks for any intended population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

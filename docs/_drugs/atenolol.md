@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, atenolol blocks beta-1 adrenergic receptors. This lowers heart rate and cardiac output and reduces renin release from the kidney, which is why it lowers blood pressure.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for atenolol: "TENORMIN is a beta 1 -selective (cardioselective) beta-adrenergic receptor blocking agent without membrane stabilizing or intrinsic sympathomimetic (partial agonist) activities. This preferential effect is not absolute, however, and at higher doses, TENORMIN inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a), label version 2025-09-18; accessed 2026-11-19.) Based on general pharmacology, atenolol blocks beta-1 adrenergic receptors. This lowers heart rate and cardiac output and reduces renin release from the kidney, which is why it lowers blood pressure.
 
 Malignant hypertension with renal involvement is an extreme form of hypertension, so a plausible link to atenolol's blood-pressure-lowering effect exists. However, the high model score (0.9985) probably reflects atenolol's known association with hypertension rather than independent evidence for this condition. Beta-blockers are not first-line therapy for hypertensive emergencies. Management generally centres on controlled blood pressure reduction, often parenteral, and blockade of the renin-angiotensin system.
 
@@ -149,12 +149,13 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full warni
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 6 SAHPRA registrations are valid and listed as single-ingredient records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "although they are recorded as single-ingredient" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a) |
 
 <!-- review:end log -->
 

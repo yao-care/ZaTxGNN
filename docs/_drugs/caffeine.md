@@ -56,7 +56,7 @@ This is therefore a model prediction without direct supporting evidence.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, caffeine blocks adenosine receptors and inhibits phosphodiesterase. Bitter taste receptors are also expressed in the airways, including the nasal cavity, and a review describes their pharmacology. Whether caffeine acts on them in a way that matters clinically is not shown.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for caffeine: "Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized." ([DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a), label version 2026-07-29; accessed 2026-11-19.) From general pharmacology, caffeine blocks adenosine receptors and inhibits phosphodiesterase. Bitter taste receptors are also expressed in the airways, including the nasal cavity, and a review describes their pharmacology. Whether caffeine acts on them in a way that matters clinically is not shown.
 
 Caffeine is registered in South Africa within cold, flu and sinus products, which suggests a plausible link to nasal conditions. The high score is probably driven by this proximity to existing nasal and cold-related uses rather than by independent evidence.
 
@@ -124,11 +124,12 @@ No trial or publication directly studies caffeine in a nasal cavity disease, so 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Twenty valid registrations are recorded, all for single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
 
 <!-- review:end log -->
 

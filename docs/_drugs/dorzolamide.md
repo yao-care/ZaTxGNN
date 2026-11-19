@@ -56,7 +56,7 @@ There are **no clinical trials and no publications** supporting this prediction,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records list human carbonic anhydrase isoforms (CA1, CA7, CA12 and CA14) as dorzolamide's targets. This is consistent with its known class as a carbonic anhydrase inhibitor.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dorzolamide: "Carbonic anhydrase (CA) is an enzyme found in many tissues of the body including the eye. It catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. […] Dorzolamide hydrochloride ophthalmic solution contains dorzolamide hydrochloride, an inhibitor of human carbonic anhydrase II." ([DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea), label version 2026-11-14; accessed 2026-11-19.) Pharmacology records list human carbonic anhydrase isoforms (CA1, CA7, CA12 and CA14) as dorzolamide's targets. This is consistent with its known class as a carbonic anhydrase inhibitor.
 
 No plausible mechanistic link has been identified between carbonic anhydrase inhibition and a hereditary hair follicle disorder. Hypotrichosis simplex of the scalp is a genetic condition of hair growth, and nothing in the available data connects the drug's pharmacology to the hair follicle. The high TxGNN score is therefore most likely a network-based artefact rather than a signal of real efficacy.
 
@@ -109,11 +109,12 @@ The prediction has no supporting trials or publications, no plausible mechanism,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Two SAHPRA registrations are recorded as valid, both single-ingredient products supplied as drops. No registration is cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
 
 <!-- review:end log -->
 

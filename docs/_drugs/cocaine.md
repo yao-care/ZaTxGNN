@@ -58,7 +58,7 @@ Cocaine is a natural-product local anaesthetic and monoamine reuptake inhibitor.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, cocaine blocks sodium channels (local anaesthetic effect) and inhibits monoamine reuptake. The pharmacology data also lists activity at the 5-HT3 receptor and the dopamine transporter (DAT, rat data).
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cocaine: "Cocaine hydrochloride is a local anesthetic of the ester type. Cocaine hydrochloride prevents conduction in nerve fibers by reversibly blocking sodium channels and preventing the transient rise in sodium conductance necessary for generation of an action potential." ([DailyMed: Goprelto (cocaine hydrochloride) prescribing information, LXO US Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f897764-fe30-090a-e063-6294a90af106), label version 2024-11-06; accessed 2026-11-19.) From general pharmacology, cocaine blocks sodium channels (local anaesthetic effect) and inhibits monoamine reuptake. The pharmacology data also lists activity at the 5-HT3 receptor and the dopamine transporter (DAT, rat data).
 
 **The prediction is not mechanistically credible.** Cauda equina syndrome is a compressive neurological emergency that needs urgent surgical decompression. A local anaesthetic or stimulant would not treat the compression. The only publication retrieved is a case report on lumbosacral disc pathology that does not involve cocaine. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -134,6 +134,19 @@ All predicted indications rest on model output alone or on indirect and harm-rel
 - Mechanism of action data (for example from DrugBank)
 - Any direct clinical evidence of benefit for the predicted indication, none of which currently exists
 - A clear regulatory and scheduling review, since cocaine is a controlled substance
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Goprelto (cocaine hydrochloride) prescribing information, LXO US Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f897764-fe30-090a-e063-6294a90af106) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

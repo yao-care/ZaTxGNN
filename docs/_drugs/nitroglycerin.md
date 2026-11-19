@@ -54,7 +54,7 @@ Nitroglycerin is a nitric oxide (NO)-donating vasodilator, registered in South A
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Nitroglycerin is a well-known organic nitrate. Its metabolism releases nitric oxide, which activates soluble guanylate cyclase, raises cGMP and relaxes vascular smooth muscle. This is the same pathway that underlies its long-established use in angina.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nitroglycerin: "Nitroglycerin forms free radical nitric oxide (NO), which activates guanylate cyclase, resulting in an increase of guanosine 3',5'-monophosphate (cyclic GMP) in smooth muscle and other tissues. This eventually leads to dephosphorylation of myosin light chains, which regulates the contractile state in smooth muscle and results in vasodilatation." ([DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300), label version 2025-12-17; accessed 2026-11-19.) Nitroglycerin is a well-known organic nitrate. Its metabolism releases nitric oxide, which activates soluble guanylate cyclase, raises cGMP and relaxes vascular smooth muscle. This is the same pathway that underlies its long-established use in angina.
 
 In pulmonary hypertension, persistent pulmonary vasoconstriction is a core problem. A vasodilator acting through the NO–cGMP pathway is therefore biologically plausible. It is consistent with inhaled nitric oxide and PDE5 inhibitors, which already target this pathway. Delivering nitroglycerin by inhalation or nebulization could produce relatively selective pulmonary vasodilation with less systemic hypotension. This is a hypothesis, not an established benefit. Older literature also notes that non-selective vasodilators can cause systemic hypotension or worsen ventilation-perfusion matching.
 
@@ -129,6 +129,19 @@ The mechanism is plausible and there is a body of small studies and reviews on n
 - Confirmation that an inhaled or nebulized formulation suitable for pulmonary hypertension is available and registered locally; the registered inhaler's route and use must be reconciled with the trial routes
 - Results from NCT07214129 and NCT04594629, and ideally a well-powered Phase 2 RCT in pulmonary arterial hypertension
 - A haemodynamic safety plan covering systemic hypotension, oxygenation and ventilation-perfusion matching
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

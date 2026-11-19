@@ -56,7 +56,7 @@ Evidence is very thin: **1 clinical trial** (a suspended combination-product stu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Clotrimazole belongs to the azole antifungal class, which generally works by interfering with fungal ergosterol synthesis. Some anti-inflammatory activity has also been described.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clotrimazole: "Clotrimazole is a broad-spectrum antifungal agent that inhibits the growth of pathogenic yeasts by altering the permeability of cell membranes. The action of clotrimazole is fungistatic at concentrations of drug up to 20 mcg/mL and may be fungicidal in vitro against Candida albicans and other species of the genus Candida at higher concentrations." ([DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f), label version 2025-03-27; accessed 2026-11-19.) Clotrimazole belongs to the azole antifungal class, which generally works by interfering with fungal ergosterol synthesis. Some anti-inflammatory activity has also been described.
 
 The proposed link is indirect. Yeasts such as *Malassezia* or *Candida* may contribute to acne-like folliculitis, so an antifungal could help in a subset of patients. This is a hypothesis, not an established mechanism for acne vulgaris.
 
@@ -121,11 +121,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "and all of its registered single-ingredient products are currently valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
 
 <!-- review:end log -->
 
