@@ -99,7 +99,12 @@ MISMATCH = {
     ("G0894", "sulfamethoxazole"): "MPR Cocc.Co.Syrup（G 894）對回 SAHPRA G0894 ADCO-COCILLANA COMPOUND SYRUP（見 MANUAL_ROWS）；SAHPRA 成分只有 "
                                    "cocillana liquid extract、menthol、tinctura scillae，MPR 成分欄的 sulfamethoxazole（劑量寫 200 ml）是誤植，不列入 sulfamethoxazole"
                                    "（SAHPRA 成分全文含 extract 字樣，自動判定不採用，故列人工清單）",
-    ("T/30.3/704", "potassium"): "MPR 品名 Stabilised Human Serum-5% Protein Solution，號碼補零後是 SAHPRA T/30.3/0704 STABILISED HUMAN SERUM"
+    # 2026-11-19：SAHPRA 匯出與產品總表都沒有這個號碼（只在 MPR），「SAHPRA 成分全文不含本藥」自動判定用不上，列人工清單
+    ("41/11.3/0153", "*sibutramine"): "Leantil Capsules 15 Mg 是 sibutramine 減重藥（同品牌 Leantil Capsules 10 Mg 41/11.3/0180 的 MPR 成分只有 "
+                                      "sibutramine hydrochloride monohydrate；藥理分類 11.3 與 Reductil、Ectiva、Ciplatrim 等 sibutramine 產品相同；MPR 列 S5）。"
+                                      "MPR 成分欄另列 paracetamol 400 mg、codeine phosphate 8 mg 屬錯植（依據 https://medicineprices.org.za/api/v2/search?q=sibutramine ，"
+                                      "NAPPI 715125001、715124001；SAHPRA medapps 匯出查無此號）",
+    ("T/30.3/704", "potassium"):"MPR 品名 Stabilised Human Serum-5% Protein Solution，號碼補零後是 SAHPRA T/30.3/0704 STABILISED HUMAN SERUM"
                                  "（人血清蛋白，已註銷）；MPR 成分欄列的 calcium、potassium 是血清本身含的電解質，不是 potassium 製劑",
 }
 

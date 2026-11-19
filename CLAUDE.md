@@ -585,3 +585,7 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 頁面：5 頁概覽狀態列／張數列與 2 頁許可證表由排程同步（sibutramine 8 張中有效 8→4、dextropropoxyphene 12 張中有效 8→4；acetaminophen、acetylsalicylic_acid、caffeine 各少 1～2 張）；
   正文沒有說這些產品有效或在售的句子，沒有 correct 紀錄。沒有頁變成全部非有效。
 
+- 2026-11-19：MPR 把 Leantil Capsules 15 Mg（41/11.3/0153，sibutramine；SAHPRA 匯出與產品總表都沒有這個號碼）的成分欄錯寫成 sibutramine＋paracetamol 400 mg＋codeine phosphate 8 mg，
+  被收進 acetaminophen、paracetamol、codeine、codeine_hcl、codeine_phosphate 5 個證據包。同品牌 Leantil 10 Mg（41/11.3/0180）的 MPR 成分只有 sibutramine、藥理分類 11.3 與其他 sibutramine 產品相同，
+  判為錯植：`scripts/rebuild_licenses_by_ingredient.py` 的 MISMATCH 加 ("41/11.3/0153", "*sibutramine")（SAHPRA 沒有這號，「成分全文不含本藥」自動判定用不上），5 個證據包的這一列移到 excluded_records（附理由）；
+  sibutramine 證據包照舊收。acetaminophen（564→563）、codeine（272→271）2 頁狀態列／張數列與許可證表由排程同步，正文沒有矛盾句。

@@ -9,16 +9,16 @@
   },
   "complete_reports": 390,
   "registrations": {
-    "listed": 16204,
-    "valid": 12073,
-    "valid_not_confirmed_by_sahpra": 691
+    "listed": 16202,
+    "valid": 12071,
+    "valid_not_confirmed_by_sahpra": 689
   },
   "most_registrations": [
     {
       "title": "Acetaminophen",
       "url": "/drugs/acetaminophen/",
-      "listed": 564,
-      "valid": 392,
+      "listed": 563,
+      "valid": 391,
       "level": "N/A"
     },
     {
@@ -38,8 +38,8 @@
     {
       "title": "Codeine",
       "url": "/drugs/codeine/",
-      "listed": 272,
-      "valid": 155,
+      "listed": 271,
+      "valid": 154,
       "level": "L5"
     },
     {
@@ -88,7 +88,7 @@
   "by_drug": {
     "abacavir": "67 (51 valid)",
     "acamprosate": "1 (none current)",
-    "acetaminophen": "564 (392 valid)",
+    "acetaminophen": "563 (391 valid)",
     "acetic-acid": "26 (18 valid)",
     "acetylsalicylic-acid": "160 (106 valid)",
     "acyclovir": "14 (14 valid)",
@@ -179,7 +179,7 @@
     "clotrimazole": "65 (51 valid)",
     "cloxacillin": "26 (21 valid)",
     "cocaine": "0",
-    "codeine": "272 (155 valid)",
+    "codeine": "271 (154 valid)",
     "colchicine": "21 (19 valid)",
     "conjugated-estrogens": "1 (none current)",
     "copper": "3 (2 valid)",
