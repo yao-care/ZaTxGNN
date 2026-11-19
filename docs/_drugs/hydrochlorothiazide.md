@@ -5,7 +5,7 @@ layout: default
 title: Hydrochlorothiazide
 parent: Known Uses Only (No New Predictions)
 nav_order: 253
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A

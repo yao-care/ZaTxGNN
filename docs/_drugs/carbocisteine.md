@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Carbocisteine: predicted new indication gout (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

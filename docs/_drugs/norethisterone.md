@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 348
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 monitor_inn: "NORETHISTERONE"
 description: "Norethisterone: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 1
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-17
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 

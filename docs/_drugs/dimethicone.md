@@ -5,7 +5,7 @@ layout: default
 title: Dimethicone
 parent: Known Uses Only (No New Predictions)
 nav_order: 183
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dimethicone: known uses and market status in South Africa; currently no new candidate indication"
 monitor_inn: "Dimethicone"
 predicted_indications: []

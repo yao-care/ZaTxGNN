@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 303
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Magnesium: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---

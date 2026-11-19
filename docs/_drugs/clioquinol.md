@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clioquinol"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-17
 description: "Clioquinol: predicted new indication ectothrix infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
