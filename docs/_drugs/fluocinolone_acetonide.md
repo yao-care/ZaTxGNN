@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). In South Africa: 16 SAHPRA registrations (11 valid)"
 ---
 
@@ -54,7 +54,7 @@ Fluocinolone acetonide is a synthetic corticosteroid used for inflammatory and i
 
 ## Why is This Prediction Reasonable?
 
-Fluocinolone acetonide acts on the glucocorticoid receptor (NR3C1). Corticosteroids dampen T-cell activity and reduce the inflammation that follows. Detailed mechanism-of-action data are not otherwise available in the data compiled for this report.
+Fluocinolone acetonide acts on the glucocorticoid receptor (NR3C1). Corticosteroids dampen T-cell activity and reduce the inflammation that follows. According to the Mechanism of Action section of the US FDA-approved prescribing information for fluocinolone acetonide: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action in psoriasis of the scalp is unknown." ([DailyMed: Derma-Smoothe/Fs (fluocinolone acetonide) prescribing information, Royal Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=113e167a-a9fe-440e-9446-d6d87963ef46), label version 2026-10-27; accessed 2026-11-20.)
 
 Lichen planus pemphigoides combines features of lichen planus with subepidermal blistering driven by autoantibodies (for example against BP180). Because corticosteroids suppress both T-cell and autoantibody-mediated inflammation, a mechanistic rationale exists.
 
@@ -116,11 +116,12 @@ The prediction has a high model score and a plausible corticosteroid mechanism, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "under one valid single-ingredient registration" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-20 | "Detailed mechanism-of-action data are not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Derma-Smoothe/Fs (fluocinolone acetonide) prescribing information, Royal Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=113e167a-a9fe-440e-9446-d6d87963ef46) |
 
 <!-- review:end log -->
 

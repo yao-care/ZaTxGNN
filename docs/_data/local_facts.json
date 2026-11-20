@@ -21,13 +21,13 @@
   "items_current": 11978
  },
  "reviews": {
-  "records": 670,
+  "records": 671,
   "pages": 368,
   "public_pages_with_records": 337,
   "by_action": {
    "annotate": 1,
    "correct": 400,
-   "mechanism": 269
+   "mechanism": 270
   }
  },
  "fhir": {

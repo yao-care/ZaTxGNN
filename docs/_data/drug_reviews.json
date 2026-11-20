@@ -10822,9 +10822,9 @@
    "drug": "bimatoprost",
    "file": "bimatoprost.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for bimatoprost: \"Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional).\" ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), label version 2024-10-16; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description rests on general knowledge of the drug class.",
+   "replacement": "This description rests on general knowledge of the drug class. According to the Mechanism of Action section of the US FDA-approved prescribing information for bimatoprost: \"Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional).\" ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), label version 2024-10-16; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description rests on general knowledge of the drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -10838,8 +10838,36 @@
      "set_id": "3f59da84-0bcc-4c84-b3e2-e215681ef341"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "za-moa-20261119-bimatoprost-1",
+     "drug": "bimatoprost",
+     "file": "bimatoprost.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for bimatoprost: \"Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional).\" ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), label version 2024-10-16; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341",
+       "accessed": "2026-11-19",
+       "excerpt": "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional).",
+       "label_version": "2024-10-16",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "3f59da84-0bcc-4c84-b3e2-e215681ef341"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "za-moa-20261119-bisoprolol-1",
@@ -11368,9 +11396,9 @@
    "drug": "citalopram",
    "file": "citalopram.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data are not available in the data compiled for this report.",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for citalopram: \"The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT).\" ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177), label version 2023-10-09; accessed 2026-11-19.)",
-   "summary": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data are not available in the data compiled for this report. The rationale therefore rests on the known SSRI class mechanism: citalopram selectively blocks serotonin reuptake, and OCD is well recognised as responsive to serotonergic medication (see the review by Zohar et al., PMID 12607204).",
+   "replacement": "The rationale therefore rests on the known SSRI class mechanism: citalopram selectively blocks serotonin reuptake, and OCD is well recognised as responsive to serotonergic medication (see the review by Zohar et al., PMID 12607204). According to the Mechanism of Action section of the US FDA-approved prescribing information for citalopram: \"The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT).\" ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177), label version 2023-10-09; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data are not available in the data compiled for this report. The rationale therefore rests on the known SSRI class mechanism: citalopram selectively blocks serotonin reuptake, and OCD is well recognised as responsive to serotonergic medication (see the review by Zohar et al., PMID 12607204)\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -11384,8 +11412,36 @@
      "set_id": "4259d9b1-de34-43a4-85a8-41dd214e9177"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "za-moa-20261119-citalopram-1",
+     "drug": "citalopram",
+     "file": "citalopram.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data are not available in the data compiled for this report.",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for citalopram: \"The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT).\" ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177), label version 2023-10-09; accessed 2026-11-19.)",
+     "summary": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177",
+       "accessed": "2026-11-19",
+       "excerpt": "The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT).",
+       "label_version": "2023-10-09",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "4259d9b1-de34-43a4-85a8-41dd214e9177"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "za-moa-20261119-citric_acid-1",
@@ -13440,9 +13496,9 @@
    "drug": "itraconazole",
    "file": "itraconazole.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for itraconazole: \"In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes.\" ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), label version 2026-07-13; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so this description reflects the generally known class mechanism.",
+   "replacement": "This description reflects the generally known class mechanism. According to the Mechanism of Action section of the US FDA-approved prescribing information for itraconazole: \"In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes.\" ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), label version 2026-07-13; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so this description reflects the generally known class mechanism\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -13456,8 +13512,36 @@
      "set_id": "a4d555fa-787c-40fb-bb7d-b0d4f7318fd0"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "za-moa-20261119-itraconazole-1",
+     "drug": "itraconazole",
+     "file": "itraconazole.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for itraconazole: \"In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes.\" ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), label version 2026-07-13; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0",
+       "accessed": "2026-11-19",
+       "excerpt": "In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes.",
+       "label_version": "2026-07-13",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "a4d555fa-787c-40fb-bb7d-b0d4f7318fd0"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "za-moa-20261119-ivermectin-1",
@@ -13488,9 +13572,9 @@
    "drug": "ketoconazole",
    "file": "ketoconazole.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report.",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for ketoconazole: \"Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane.\" ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), label version 2025-11-18; accessed 2026-11-19.)",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report. The reasoning below rests on the general pharmacology of ketoconazole.",
+   "replacement": "The reasoning below rests on the general pharmacology of ketoconazole. According to the Mechanism of Action section of the US FDA-approved prescribing information for ketoconazole: \"Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane.\" ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), label version 2025-11-18; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report. The reasoning below rests on the general pharmacology of ketoconazole\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -13504,8 +13588,36 @@
      "set_id": "4baebcab-a237-42c0-9183-6f447a44e371"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "za-moa-20261119-ketoconazole-1",
+     "drug": "ketoconazole",
+     "file": "ketoconazole.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report.",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for ketoconazole: \"Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane.\" ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), label version 2025-11-18; accessed 2026-11-19.)",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371",
+       "accessed": "2026-11-19",
+       "excerpt": "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane.",
+       "label_version": "2025-11-18",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "4baebcab-a237-42c0-9183-6f447a44e371"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "za-moa-20261119-labetalol-1",
@@ -15352,9 +15464,9 @@
    "drug": "rivaroxaban",
    "file": "rivaroxaban.md",
    "action": "mechanism",
-   "claim": "The data compiled for this report contain no detailed mechanism-of-action entry, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for rivaroxaban: \"XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin.\" ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), label version 2026-09-10; accessed 2026-11-19.) T",
-   "summary": "\"The data compiled for this report contain no detailed mechanism-of-action entry, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "The data compiled for this report contain no detailed mechanism-of-action entry, so this description is based on the drug's known class.",
+   "replacement": "This description is based on the drug's known class. According to the Mechanism of Action section of the US FDA-approved prescribing information for rivaroxaban: \"XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin.\" ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), label version 2026-09-10; accessed 2026-11-19.)",
+   "summary": "\"The data compiled for this report contain no detailed mechanism-of-action entry, so this description is based on the drug's known class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -15368,8 +15480,36 @@
      "set_id": "10db92f9-2300-4a80-836b-673e1ae91610"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "za-moa-20261119-rivaroxaban-1",
+     "drug": "rivaroxaban",
+     "file": "rivaroxaban.md",
+     "action": "mechanism",
+     "claim": "The data compiled for this report contain no detailed mechanism-of-action entry, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for rivaroxaban: \"XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin.\" ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), label version 2026-09-10; accessed 2026-11-19.) T",
+     "summary": "\"The data compiled for this report contain no detailed mechanism-of-action entry, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610",
+       "accessed": "2026-11-19",
+       "excerpt": "XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin.",
+       "label_version": "2026-09-10",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "10db92f9-2300-4a80-836b-673e1ae91610"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "za-moa-20261119-ropinirole-1",
@@ -15544,9 +15684,9 @@
    "drug": "simvastatin",
    "file": "simvastatin.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data was not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for simvastatin: \"Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.\" ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), label version 2025-03-28; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data was not available in the data compiled for this report, so this explanation draws on established pharmacology.",
+   "replacement": "This explanation draws on established pharmacology. According to the Mechanism of Action section of the US FDA-approved prescribing information for simvastatin: \"Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.\" ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), label version 2025-03-28; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data was not available in the data compiled for this report, so this explanation draws on established pharmacology\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -15560,8 +15700,36 @@
      "set_id": "8f55d5de-5a4f-4a39-8c84-c53976dd6af9"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "za-moa-20261119-simvastatin-1",
+     "drug": "simvastatin",
+     "file": "simvastatin.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data was not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for simvastatin: \"Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.\" ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), label version 2025-03-28; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Zocor (simvastatin) prescribing information, Organon LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9",
+       "accessed": "2026-11-19",
+       "excerpt": "Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.",
+       "label_version": "2025-03-28",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "8f55d5de-5a4f-4a39-8c84-c53976dd6af9"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "za-moa-20261119-sodium_fluoride-1",
@@ -16531,6 +16699,30 @@
     }
    ],
    "checked": "2026-11-19",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "za-moa-20261120-fluocinolone_acetonide-1",
+   "drug": "fluocinolone_acetonide",
+   "file": "fluocinolone_acetonide.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism-of-action data are not otherwise available in the data compiled for this report.",
+   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for fluocinolone acetonide: \"Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action in psoriasis of the scalp is unknown.\" ([DailyMed: Derma-Smoothe/Fs (fluocinolone acetonide) prescribing information, Royal Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=113e167a-a9fe-440e-9446-d6d87963ef46), label version 2026-10-27; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism-of-action data are not otherwise available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Derma-Smoothe/Fs (fluocinolone acetonide) prescribing information, Royal Pharmaceuticals",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=113e167a-a9fe-440e-9446-d6d87963ef46",
+     "accessed": "2026-11-20",
+     "excerpt": "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action in psoriasis of the scalp is unknown.",
+     "label_version": "2026-10-27",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "113e167a-a9fe-440e-9446-d6d87963ef46"
+    }
+   ],
+   "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
   }
  ]

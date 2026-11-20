@@ -821,7 +821,7 @@
     "lt": 119,
     "lv": 109,
     "r": 1,
-    "rs": "\"The data compiled for this report contain no detailed mechanism-of-action entry, so t\" replaced with a…",
+    "rs": "\"The data compiled for this report contain no detailed mechanism-of-action entry, so this description is…",
     "x": 0
    },
    {
@@ -2745,7 +2745,7 @@
     "i": "lichen planus pemphigoides",
     "lt": 16,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"under one valid single-ingredient registration\"",
     "x": 0
    },
@@ -2922,7 +2922,7 @@
     "lt": 9,
     "lv": 8,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with…",
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report, so this description…",
     "x": 0
    },
    {
