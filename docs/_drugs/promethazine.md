@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 392
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-21
 description: "Promethazine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All candidates produced by the model for Promethazine are already known uses, so
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 3 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 30 of 56; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 56 (valid: 30, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 29 of 55; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 55 (valid: 29, of which 2 not confirmed by SAHPRA) |
 
 ## Known uses among the model's candidates
 
@@ -96,7 +96,7 @@ All candidates produced by the model for Promethazine are already known uses, so
 | G0533 | Lenazine Forte | syrup | Valid |
 | G0968 | Stilpane | syrup | Valid |
 
-Showing 17 of 56 registrations (valid registrations first).
+Showing 17 of 55 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

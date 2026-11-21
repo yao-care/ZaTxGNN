@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-20
-description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). In South Africa: 160 SAHPRA registrations (106 valid)"
+last_modified_at: 2026-11-21
+description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). In South Africa: 159 SAHPRA registrations (105 valid)"
 ---
 
 # Acetylsalicylic Acid
@@ -50,8 +50,8 @@ Acetylsalicylic acid (aspirin) is a cyclooxygenase (COX) inhibitor with antiplat
 | Predicted New Indication | atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 106 of 160; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 160 (valid: 106, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 105 of 159) |
+| Number of SAHPRA Registrations | 159 (valid: 105) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,7 +96,7 @@ The local records do not include approved-indication text. Essential Medicines L
 | 43/8/0830 | Soluspirin cv | effervescent tablet | Valid |
 | 51/8/2010 | Coprin 100 Mg | tablet | Valid |
 
-Showing 5 of 160 registrations (valid registrations first).
+Showing 5 of 159 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

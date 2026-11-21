@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 description: "Clarithromycin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Relations recorded in the knowledge graph: infectious otitis media…"
 ---
 
@@ -48,8 +48,8 @@ Clarithromycin is a macrolide antibiotic. The TxGNN model (deep learning) predic
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 53 of 58; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 58 (valid: 53, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 51 of 56) |
+| Number of SAHPRA Registrations | 56 (valid: 51) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,11 @@ Currently no related literature available.
 |------|------|------|------|
 | 28/20.1.1/0264 | Klacid i.v. | injection | Valid |
 | 29/20.1.1/0163 | Clacee | tablet | Valid |
-| 31/20.2.2/0379 | Klacid xl | Srt | Valid (status not confirmed by SAHPRA) |
+| 31/20.1.1/0379 | Klacid xl | Srt | Valid |
 | 37/20.1.1/0437 | Klarithran | tablet | Valid |
 | 37/20.1.1/0439 | Simayla Clarithromycin 500 | tablet | Valid |
 
-Showing 5 of 58 registrations (valid registrations first).
+Showing 5 of 56 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

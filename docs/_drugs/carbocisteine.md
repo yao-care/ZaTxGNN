@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
-last_modified_at: 2026-11-12
-description: "Carbocisteine: predicted new indication gout (evidence level L5). In South Africa: 37 SAHPRA registrations (23 valid)"
+last_modified_at: 2026-11-21
+description: "Carbocisteine: predicted new indication gout (evidence level L5). In South Africa: 36 SAHPRA registrations (22 valid)"
 ---
 
 # Carbocisteine
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be relevant to **gout**, with a score of 0.9967.
 | Predicted New Indication | gout |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 23 of 37; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 37 (valid: 23, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 22 of 36) |
+| Number of SAHPRA Registrations | 36 (valid: 22) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,11 +68,11 @@ The prediction therefore has no identifiable mechanistic support. The high score
 |------|------|------|------|
 | T/10.2.2/227 | Lessmusec | capsule | Valid |
 | W/10.1/57 | Mucosolv | capsule | Valid |
-| Z/10.2.2/244 | Mucopan | syrup | Valid (status not confirmed by SAHPRA) |
 | 27/10.2.2/0010 | Acuphlem | syrup | Valid |
 | 27/10.2.2/0230 | Mucoflem | syrup | Valid |
+| 29/10.2.2/0156 | Flutex Mucous Cough | syrup | Valid |
 
-Showing 5 of 37 registrations (valid registrations first).
+Showing 5 of 36 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

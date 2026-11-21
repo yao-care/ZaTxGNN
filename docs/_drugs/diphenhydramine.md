@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-11-20
-description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). In South Africa: 107 SAHPRA registrations (68 valid)"
+last_modified_at: 2026-11-21
+description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). In South Africa: 106 SAHPRA registrations (67 valid)"
 ---
 
 # Diphenhydramine
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be relevant for **rosacea conjunctivitis**, with
 | Predicted New Indication | rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 68 of 107; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 107 (valid: 68, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 67 of 106; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 106 (valid: 67, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,7 +88,7 @@ The list may be partial. None of the records carry approved-indication text. The
 | 28/10.1/0248 | Expectalin | syrup | Valid |
 | 28/10.1/0249 | Expectalin with cod | syrup | Valid |
 
-Showing 5 of 107 registrations (valid registrations first).
+Showing 5 of 106 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

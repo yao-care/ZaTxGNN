@@ -5,10 +5,10 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 67
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). In South Africa: 65 SAHPRA registrations (51 valid)"
+description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). In South Africa: 63 SAHPRA registrations (49 valid)"
 ---
 
 # Betamethasone
@@ -50,8 +50,8 @@ Betamethasone is a corticosteroid with anti-inflammatory and immunosuppressive a
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 51 of 65; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 65 (valid: 51, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 49 of 63; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 63 (valid: 49, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -98,7 +98,7 @@ Betamethasone is marketed in South Africa as a single-ingredient product in seve
 | 27/13.4.1/0308 | Lenovate | ointment | Valid |
 | 27/13.4.1/0493 | Lenovate | cream | Valid |
 
-Showing 5 of 65 registrations (valid registrations first).
+Showing 5 of 63 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

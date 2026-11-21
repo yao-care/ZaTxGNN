@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
-description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). In South Africa: 49 SAHPRA registrations (40 valid)"
+description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). In South Africa: 48 SAHPRA registrations (39 valid)"
 ---
 
 # Omeprazole
@@ -49,8 +49,8 @@ Of the ten predictions, the best-supported is **gastrojejunal (marginal) ulcer**
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 (small human studies in Barrett's oesophagus; no controlled efficacy trial) |
-| South Africa Market Status | Marketed (valid licences: 40 of 49; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 49 (valid: 40, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 39 of 48; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 48 (valid: 39, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold for duodenogastric reflux (Research Question); Proceed with Guardrails for gastrojejunal ulcer |
 
 ## Why is This Prediction Reasonable?
@@ -121,7 +121,7 @@ Approved indication text and manufacturer details are not available. Essential M
 | 32/11.4.3/0224 | Losec Mups 40 | tablet | Valid |
 | 34/11.4.3/0081 | Omiloc | capsule | Valid (status not confirmed by SAHPRA) |
 
-Showing 5 of 49 registrations (valid registrations first).
+Showing 5 of 48 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 341
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-21
 description: "Nicotine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nicotine, so
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 20 of 30; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 30 (valid: 20, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 19 of 29; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 29 (valid: 19, of which 1 not confirmed by SAHPRA) |
 
 ## Known uses recorded for this drug
 
@@ -79,12 +79,12 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Nicotine, so
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
 | 29/34/0392 | Quit 1/2/3/4 | inhaler | Valid |
-| 30/24/0273 | Nicorette | tablet | Valid (status not confirmed by SAHPRA) |
 | 45/32.16/0952 | Nicorette Transdermal Patch 10Mg | patch | Valid |
 | 45/32.16/0953 | Nicorette Transdermal Patch 15Mg | patch | Valid |
 | 45/32.16/0954 | Nicorette Transdermal Patch 25Mg | patch | Valid |
+| 50/32.16/0547 | Nicorette* Quickmist Spray | inhaler | Valid |
 
-Showing 5 of 30 registrations (valid registrations first).
+Showing 5 of 29 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

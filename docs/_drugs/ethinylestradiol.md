@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ETHINYLESTRADIOL"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-17
-description: "Ethinylestradiol: predicted new indication Elevated plasma zinc (zinc, elevated plasma) (evidence level L5). In South Africa: 77 SAHPRA registrations (62 valid)"
+last_modified_at: 2026-11-21
+description: "Ethinylestradiol: predicted new indication Elevated plasma zinc (zinc, elevated plasma) (evidence level L5). In South Africa: 75 SAHPRA registrations (60 valid)"
 ---
 
 # Ethinylestradiol
@@ -58,8 +58,8 @@ There are **no clinical trials and no publications** in the data compiled for th
 | Predicted New Indication | Elevated plasma zinc (zinc, elevated plasma) |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 62 of 77; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 77 (valid: 62, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 60 of 75) |
+| Number of SAHPRA Registrations | 75 (valid: 60) |
 | Recommended Decision | Hold |
 
 ---
@@ -104,9 +104,9 @@ The drug is marketed in South Africa. The registration records carry no approved
 | N/18.8/0040 | Triphasil | tablet | Valid |
 | 29/21.8.2/0685 | Minerva | tablet | Valid |
 | 31/18.8/0462 | Melodene | tablet | Valid |
-| 33/18.8/0054 | Loette 28 | tablet | Valid (status not confirmed by SAHPRA) |
+| 33/18.8/0364 | Mirelle | tablet | Valid |
 
-Showing 5 of 77 registrations (valid registrations first).
+Showing 5 of 75 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

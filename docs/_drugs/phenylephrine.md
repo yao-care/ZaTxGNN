@@ -5,10 +5,10 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 372
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
-description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). In South Africa: 121 SAHPRA registrations (77 valid)"
+description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). In South Africa: 120 SAHPRA registrations (76 valid)"
 ---
 
 # Phenylephrine
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 (preclinical/mechanistic and indirect supportive literature; no registered trials) |
-| South Africa Market Status | Marketed (valid licences: 77 of 121; 8 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 121 (valid: 77, of which 8 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 76 of 120; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 120 (valid: 76, of which 7 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -101,11 +101,11 @@ The data compiled for this report contain no approved indication text or Essenti
 |------|------|------|------|
 | 49/7.2/0153 | Tacyphen | injection | Valid |
 | 59/7.2/0062 | Phenylcord 10 Mg/Ml | injection | Valid |
-| D/15.2/22 | Minims Phenylephrine Hydrochloride 10 % | drops | Valid (status not confirmed by SAHPRA) |
 | H0630 | Phenylephrine Hydrochloride Injection | injection | Valid |
 | H1542 | Universal nasal 15ml | Nod | Valid (status not confirmed by SAHPRA) |
+| 28/5.8/0230 | Flustat | capsule | Valid |
 
-Showing 5 of 121 registrations (valid registrations first).
+Showing 5 of 120 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-11-20
-description: "Lamivudine: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). In South Africa: 198 SAHPRA registrations (141 valid)"
+last_modified_at: 2026-11-21
+description: "Lamivudine: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). In South Africa: 195 SAHPRA registrations (138 valid)"
 ---
 
 # Lamivudine
@@ -52,8 +52,8 @@ This is a veterinary prediction, not a new human-medicine use.
 | Predicted New Indication | feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 141 of 198; 8 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 198 (valid: 141, of which 8 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 138 of 195; 4 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 195 (valid: 138, of which 4 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -104,7 +104,7 @@ Lamivudine is marketed in South Africa. The record set may be partial. Approved 
 | 43/20.2.8/0831 | Hetlam | tablet | Valid |
 | 43/20.2.8/0832 | Aspen Lamivudine 300Mg | tablet | Valid |
 
-Showing 5 of 198 registrations (valid registrations first).
+Showing 5 of 195 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

@@ -7,8 +7,8 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-last_modified_at: 2026-11-20
-description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). In South Africa: 37 SAHPRA registrations (36 valid)"
+last_modified_at: 2026-11-21
+description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). In South Africa: 34 SAHPRA registrations (33 valid)"
 ---
 
 # Levonorgestrel
@@ -48,8 +48,8 @@ Levonorgestrel is a synthetic progestin used in hormonal contraception. The TxGN
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 36 of 37; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 37 (valid: 36, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 33 of 34) |
+| Number of SAHPRA Registrations | 34 (valid: 33) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -94,7 +94,7 @@ The approved indication text is not recorded in the local data. Essential Medici
 | 41/21.8.2/0021 | Escapelle | tablet | Valid |
 | 44/21.8.2/0808 | Medilevo 1,5 Mg | tablet | Valid |
 
-Showing 5 of 37 registrations (valid registrations first).
+Showing 5 of 34 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

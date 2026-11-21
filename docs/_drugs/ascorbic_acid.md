@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected"]
-last_modified_at: 2026-11-20
-description: "Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). In South Africa: 119 SAHPRA registrations (70 valid)"
+last_modified_at: 2026-11-21
+description: "Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). In South Africa: 117 SAHPRA registrations (68 valid)"
 ---
 
 # Ascorbic Acid
@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** support this prediction, so 
 | Predicted New Indication | non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 70 of 119; 5 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 119 (valid: 70, of which 5 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 68 of 117; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 117 (valid: 68, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,9 +96,9 @@ Ascorbic acid is marketed in South Africa. Products include oral tablets, capsul
 | 27/10.1/0553 | Flusin dm | syrup | Valid |
 | 27/5.8/0435 | Coryx | effervescent tablet | Valid |
 | 27/5.8/0523 | Flusin c | syrup | Valid |
-| 27/A.5.8/435 | Coryx | effervescent tablet | Valid (status not confirmed by SAHPRA) |
+| 28/5.8/0230 | Flustat | capsule | Valid |
 
-Showing 5 of 119 registrations (valid registrations first).
+Showing 5 of 117 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

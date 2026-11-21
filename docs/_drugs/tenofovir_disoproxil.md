@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In South Africa: 137 SAHPRA registrations (107 valid)"
@@ -50,8 +50,8 @@ but there are **0 registered clinical trials** and only **1 publication** direct
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 107 of 137; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 137 (valid: 107, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 107 of 137; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 137 (valid: 107, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

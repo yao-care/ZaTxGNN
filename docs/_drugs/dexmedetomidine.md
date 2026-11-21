@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-20
-description: "Dexmedetomidine: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In South Africa: 32 SAHPRA registrations (32 valid)"
+last_modified_at: 2026-11-21
+description: "Dexmedetomidine: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In South Africa: 31 SAHPRA registrations (31 valid)"
 ---
 
 # Dexmedetomidine
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **nephrogenic syndrome of inappro
 | Predicted New Indication | nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 32 of 32; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 32 (valid: 32, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 31 of 31) |
+| Number of SAHPRA Registrations | 31 (valid: 31) |
 | Recommended Decision | Hold |
 
 ---
@@ -89,7 +89,7 @@ Currently no related literature available for nephrogenic syndrome of inappropri
 | 54/2.9/0218 | Dexisun | infusion | Valid |
 | 54/2.9/0696 | Sedmedex 100 Μg/Ml | injection | Valid |
 
-Showing 5 of 32 registrations (valid registrations first).
+Showing 5 of 31 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

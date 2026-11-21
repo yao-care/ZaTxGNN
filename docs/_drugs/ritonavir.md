@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease, AIDS, and hepatitis C virus infection"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 52 of 61; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 61 (valid: 52, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 51 of 60; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 60 (valid: 51, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -109,7 +109,7 @@ No approved-indication text is available in the data compiled for this report. E
 | 51/20.2.8/0687.686 | Hetrovir 100 | tablet | Valid |
 | 57/20.2.8/0360 | Paxlovid | Fct | Valid |
 
-Showing 5 of 61 registrations (valid registrations first).
+Showing 5 of 60 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

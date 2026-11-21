@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 description: "Dienogest: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not available in the data compiled for this report (the approved indi…"
 monitor_inn: "Dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -48,8 +48,8 @@ Dienogest is a selective progestin. The data compiled for this report do not sta
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 12 of 14; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 14 (valid: 12, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 11 of 13) |
+| Number of SAHPRA Registrations | 13 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,9 +88,9 @@ None of these publications tests dienogest as a treatment for amenorrhoea.
 | 50/21.8.2/0082 | Endoact | tablet | Valid |
 | 51/21.8.2/0194 | Metrinelle | tablet | Valid |
 | 52/21.8.2/0336 | Rovulum | Fct | Valid |
-| 55/21.8.2/0035.034 | Dienogest Adco | tablet | Valid (status not confirmed by SAHPRA) |
+| 55/18.8/0035.034 | Dienogest Adco | tablet | Valid |
 
-Showing 5 of 14 registrations (valid registrations first).
+Showing 5 of 13 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

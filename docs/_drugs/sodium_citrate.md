@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-21
 monitor_inn: "Sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
-description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). In South Africa: 101 SAHPRA registrations (70 valid)"
+description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). In South Africa: 100 SAHPRA registrations (69 valid)"
 ---
 
 # Sodium Citrate
@@ -50,8 +50,8 @@ There are **no clinical trials and no publications** for this prediction, so the
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 70 of 101; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 101 (valid: 70, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 69 of 100; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 100 (valid: 69, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -114,7 +114,7 @@ Approved indication text and manufacturer are not available in the data compiled
 | G/10.1/1110 | Broncleer for children | syrup | Valid |
 | G/10.1/1112 | Broncleer With Codeine Cough Syrup | syrup | Valid |
 
-Showing 5 of 101 registrations (valid registrations first).
+Showing 5 of 100 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

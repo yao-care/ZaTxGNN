@@ -71,8 +71,8 @@
     "u": "/drugs/candesartan/",
     "l": "L2",
     "i": "migraine disorder",
-    "lt": 43,
-    "lv": 26,
+    "lt": 41,
+    "lv": 24,
     "r": 2,
     "rs": "Removed: \"Both registrations are currently valid, and\"",
     "x": 0
@@ -82,8 +82,8 @@
     "u": "/drugs/citalopram/",
     "l": "L2",
     "i": "obsessive-compulsive disorder",
-    "lt": 59,
-    "lv": 50,
+    "lt": 58,
+    "lv": 49,
     "r": 3,
     "rs": "Removed: \"for the 4 registered products\"",
     "x": 0
@@ -137,8 +137,8 @@
     "u": "/drugs/levonorgestrel/",
     "l": "L2",
     "i": "acne (disease)",
-    "lt": 37,
-    "lv": 36,
+    "lt": 34,
+    "lv": 33,
     "r": 2,
     "rs": "Removed: \"All 11 SAHPRA registrations are single-ingredient oral tablets and all are valid\"",
     "x": 0
@@ -181,8 +181,8 @@
     "u": "/drugs/mycophenolate-mofetil/",
     "l": "L2",
     "i": "HIV infectious disease",
-    "lt": 32,
-    "lv": 26,
+    "lt": 29,
+    "lv": 23,
     "r": 1,
     "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
@@ -214,8 +214,8 @@
     "u": "/drugs/prednisone/",
     "l": "L2",
     "i": "alopecia areata",
-    "lt": 12,
-    "lv": 10,
+    "lt": 11,
+    "lv": 9,
     "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient oral products\"",
     "x": 0
@@ -368,8 +368,8 @@
     "u": "/drugs/betamethasone/",
     "l": "L4",
     "i": "alopecia mucinosa",
-    "lt": 65,
-    "lv": 51,
+    "lt": 63,
+    "lv": 49,
     "r": 2,
     "rs": "Removed: \"Of the 18 registrations on record, 17 are valid and 1 is cancelled\"",
     "x": 0
@@ -500,8 +500,8 @@
     "u": "/drugs/phenylephrine/",
     "l": "L4",
     "i": "nasal cavity disease",
-    "lt": 121,
-    "lv": 77,
+    "lt": 120,
+    "lv": 76,
     "r": 3,
     "rs": "Removed: \"Some product names in the registration list (for example Tegretol s, Amoxil D, Trandate and…",
     "x": 0
@@ -588,8 +588,8 @@
     "u": "/drugs/tenofovir/",
     "l": "L4",
     "i": "simian immunodeficiency virus infection",
-    "lt": 182,
-    "lv": 151,
+    "lt": 179,
+    "lv": 148,
     "r": 1,
     "rs": "Removed: \"All six registrations are valid single-ingredient tablet products\"",
     "x": 0
@@ -599,8 +599,8 @@
     "u": "/drugs/tobramycin/",
     "l": "L4",
     "i": "exposure keratitis",
-    "lt": 22,
-    "lv": 19,
+    "lt": 21,
+    "lv": 18,
     "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
     "x": 0
@@ -632,8 +632,8 @@
     "u": "/drugs/valsartan/",
     "l": "L4",
     "i": "malignant hypertensive renal disease",
-    "lt": 256,
-    "lv": 223,
+    "lt": 255,
+    "lv": 222,
     "r": 2,
     "rs": "Removed: \"All 20 registrations are valid single-ingredient registrations according to the data compiled\"",
     "x": 0
@@ -686,8 +686,8 @@
     "u": "/drugs/amlodipine/",
     "l": "L5",
     "i": "brain stem infarction",
-    "lt": 321,
-    "lv": 290,
+    "lt": 318,
+    "lv": 287,
     "r": 2,
     "rs": "Removed: \"The local data show 20 valid SAHPRA registrations and no cancelled ones. All are single-ingredient…",
     "x": 0
@@ -697,8 +697,8 @@
     "u": "/drugs/amoxicillin/",
     "l": "L5",
     "i": "hyperamylasemia",
-    "lt": 286,
-    "lv": 219,
+    "lt": 284,
+    "lv": 217,
     "r": 2,
     "rs": "Removed: \"with 14 valid SAHPRA registrations, all single-ingredient records\"",
     "x": 0
@@ -708,8 +708,8 @@
     "u": "/drugs/metformin/",
     "l": "L5",
     "i": "focal stiff limb syndrome",
-    "lt": 225,
-    "lv": 208,
+    "lt": 224,
+    "lv": 207,
     "r": 2,
     "rs": "Removed: \"with 16 valid SAHPRA registrations (all single-entity records, none cancelled)\"",
     "x": 0
@@ -719,8 +719,8 @@
     "u": "/drugs/codeine/",
     "l": "L5",
     "i": "nasal cavity disease",
-    "lt": 271,
-    "lv": 154,
+    "lt": 269,
+    "lv": 152,
     "r": 2,
     "rs": "Removed: \"The data compiled for this report list 20 valid single-ingredient registrations, and the list may…",
     "x": 0
@@ -730,8 +730,8 @@
     "u": "/drugs/lamivudine/",
     "l": "L5",
     "i": "feline acquired immunodeficiency syndrome",
-    "lt": 198,
-    "lv": 141,
+    "lt": 195,
+    "lv": 138,
     "r": 2,
     "rs": "Removed: \"The local data show 20 valid registrations and no cancelled ones\"",
     "x": 0
@@ -752,8 +752,8 @@
     "u": "/drugs/quetiapine/",
     "l": "L5",
     "i": "retinal dystrophy with or without extraocular anomalies",
-    "lt": 153,
-    "lv": 136,
+    "lt": 152,
+    "lv": 135,
     "r": 2,
     "rs": "Removed: \"All five registrations are valid single-ingredient products, and none is cancelled\"",
     "x": 0
@@ -770,17 +770,6 @@
     "x": 0
    },
    {
-    "t": "Ibuprofen",
-    "u": "/drugs/ibuprofen/",
-    "l": "L5",
-    "i": "acromesomelic dysplasia, Hunter-Thompson type",
-    "lt": 150,
-    "lv": 128,
-    "r": 2,
-    "rs": "Removed: \"and all 19 registrations are valid\"",
-    "x": 0
-   },
-   {
     "t": "Perindopril",
     "u": "/drugs/perindopril/",
     "l": "L5",
@@ -789,6 +778,17 @@
     "lv": 128,
     "r": 1,
     "rs": "Removed: \"Four further registrations are valid: Cosyrel 5/5 (film-coated tablet), Pearinda, Preterax…",
+    "x": 0
+   },
+   {
+    "t": "Ibuprofen",
+    "u": "/drugs/ibuprofen/",
+    "l": "L5",
+    "i": "acromesomelic dysplasia, Hunter-Thompson type",
+    "lt": 149,
+    "lv": 127,
+    "r": 2,
+    "rs": "Removed: \"and all 19 registrations are valid\"",
     "x": 0
    },
    {
@@ -807,8 +807,8 @@
     "u": "/drugs/clavulanic-acid/",
     "l": "L5",
     "i": "Ureaplasma urethritis",
-    "lt": 141,
-    "lv": 116,
+    "lt": 140,
+    "lv": 115,
     "r": 2,
     "rs": "Removed: \"Note: several other licences in the source records (for example Ventolin inhaler, Trandate, Kivexa…",
     "x": 0
@@ -840,8 +840,8 @@
     "u": "/drugs/acetylsalicylic-acid/",
     "l": "L5",
     "i": "atrophoderma vermiculata",
-    "lt": 160,
-    "lv": 106,
+    "lt": 159,
+    "lv": 105,
     "r": 2,
     "rs": "Removed: \"Four SAHPRA registrations are recorded as valid\"",
     "x": 0
@@ -862,8 +862,8 @@
     "u": "/drugs/dolutegravir/",
     "l": "L5",
     "i": "feline acquired immunodeficiency syndrome",
-    "lt": 107,
-    "lv": 103,
+    "lt": 103,
+    "lv": 99,
     "r": 3,
     "rs": "Removed: \"Showing 5 of 20 registrations. Others include a paediatric effervescent tablet (Damicava Paed).\"",
     "x": 0
@@ -873,8 +873,8 @@
     "u": "/drugs/etoricoxib/",
     "l": "L5",
     "i": "migraine disorder",
-    "lt": 111,
-    "lv": 98,
+    "lt": 110,
+    "lv": 97,
     "r": 2,
     "rs": "Removed: \"Etoricoxib has 1 valid single-ingredient registration\"",
     "x": 0
@@ -913,17 +913,6 @@
     "x": 0
    },
    {
-    "t": "Ammonium Chloride",
-    "u": "/drugs/ammonium-chloride/",
-    "l": "L5",
-    "i": "nasal cavity disease",
-    "lt": 112,
-    "lv": 83,
-    "r": 2,
-    "rs": "Removed: \"The other 11 registrations are mostly syrups (for example Tussilinct cough, Phenorant with codeine…",
-    "x": 0
-   },
-   {
     "t": "Ezetimibe",
     "u": "/drugs/ezetimibe/",
     "l": "L5",
@@ -932,6 +921,17 @@
     "lv": 83,
     "r": 1,
     "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
+    "x": 0
+   },
+   {
+    "t": "Ammonium Chloride",
+    "u": "/drugs/ammonium-chloride/",
+    "l": "L5",
+    "i": "nasal cavity disease",
+    "lt": 111,
+    "lv": 82,
+    "r": 2,
+    "rs": "Removed: \"The other 11 registrations are mostly syrups (for example Tussilinct cough, Phenorant with codeine…",
     "x": 0
    },
    {
@@ -972,8 +972,8 @@
     "u": "/drugs/emtricitabine/",
     "l": "L5",
     "i": "feline acquired immunodeficiency syndrome",
-    "lt": 87,
-    "lv": 78,
+    "lt": 86,
+    "lv": 77,
     "r": 2,
     "rs": "Removed: \"All are single-ingredient records with valid status\"",
     "x": 0
@@ -1005,21 +1005,10 @@
     "u": "/drugs/aripiprazole/",
     "l": "L5",
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
-    "lt": 90,
-    "lv": 72,
+    "lt": 87,
+    "lv": 69,
     "r": 1,
     "rs": "\"Detailed mechanism-of-action data for aripiprazole are not available in the data compiled for this report\"…",
-    "x": 0
-   },
-   {
-    "t": "Ascorbic Acid",
-    "u": "/drugs/ascorbic-acid/",
-    "l": "L5",
-    "i": "non-syndromic esophageal malformation",
-    "lt": 119,
-    "lv": 70,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report show 18 valid single-ingredient registrations, and the list may…",
     "x": 0
    },
    {
@@ -1027,21 +1016,21 @@
     "u": "/drugs/sodium-citrate/",
     "l": "L5",
     "i": "papillary conjunctivitis",
-    "lt": 101,
-    "lv": 70,
+    "lt": 100,
+    "lv": 69,
     "r": 2,
     "rs": "Removed: \"The remaining nine registrations include further cough syrups (Tussitot cough, Alcophyllex…",
     "x": 0
    },
    {
-    "t": "Diphenhydramine",
-    "u": "/drugs/diphenhydramine/",
+    "t": "Ascorbic Acid",
+    "u": "/drugs/ascorbic-acid/",
     "l": "L5",
-    "i": "rosacea conjunctivitis",
-    "lt": 107,
+    "i": "non-syndromic esophageal malformation",
+    "lt": 117,
     "lv": 68,
     "r": 2,
-    "rs": "Removed: \"The data compiled for this report lists 19 valid single-ingredient registrations and none cancelled\"",
+    "rs": "Removed: \"The data compiled for this report show 18 valid single-ingredient registrations, and the list may…",
     "x": 0
    },
    {
@@ -1056,25 +1045,14 @@
     "x": 0
    },
    {
-    "t": "Pseudoephedrine",
-    "u": "/drugs/pseudoephedrine/",
+    "t": "Diphenhydramine",
+    "u": "/drugs/diphenhydramine/",
     "l": "L5",
-    "i": "nasal cavity disease",
-    "lt": 127,
+    "i": "rosacea conjunctivitis",
+    "lt": 106,
     "lv": 67,
     "r": 2,
-    "rs": "Removed: \"for the 19 SAHPRA registrations\"",
-    "x": 0
-   },
-   {
-    "t": "Fluconazole",
-    "u": "/drugs/fluconazole/",
-    "l": "L5",
-    "i": "punctate epithelial keratoconjunctivitis",
-    "lt": 84,
-    "lv": 66,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "rs": "Removed: \"The data compiled for this report lists 19 valid single-ingredient registrations and none cancelled\"",
     "x": 0
    },
    {
@@ -1100,6 +1078,17 @@
     "x": 0
    },
    {
+    "t": "Fluconazole",
+    "u": "/drugs/fluconazole/",
+    "l": "L5",
+    "i": "punctate epithelial keratoconjunctivitis",
+    "lt": 83,
+    "lv": 65,
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "x": 0
+   },
+   {
     "t": "Cefuroxime",
     "u": "/drugs/cefuroxime/",
     "l": "L5",
@@ -1111,12 +1100,23 @@
     "x": 0
    },
    {
+    "t": "Pseudoephedrine",
+    "u": "/drugs/pseudoephedrine/",
+    "l": "L5",
+    "i": "nasal cavity disease",
+    "lt": 124,
+    "lv": 64,
+    "r": 2,
+    "rs": "Removed: \"for the 19 SAHPRA registrations\"",
+    "x": 0
+   },
+   {
     "t": "Chlorpheniramine",
     "u": "/drugs/chlorpheniramine/",
     "l": "L5",
     "i": "nasal cavity disease",
-    "lt": 97,
-    "lv": 62,
+    "lt": 96,
+    "lv": 61,
     "r": 2,
     "rs": "Removed: \"These are 5 of 11 registrations, all currently valid\"",
     "x": 0
@@ -1126,21 +1126,10 @@
     "u": "/drugs/ethinylestradiol/",
     "l": "L5",
     "i": "Elevated plasma zinc",
-    "lt": 77,
-    "lv": 62,
+    "lt": 75,
+    "lv": 60,
     "r": 2,
     "rs": "Removed: \"in 20 single-ingredient products\"",
-    "x": 0
-   },
-   {
-    "t": "Celecoxib",
-    "u": "/drugs/celecoxib/",
-    "l": "L5",
-    "i": "acromesomelic dysplasia, Hunter-Thompson type",
-    "lt": 63,
-    "lv": 58,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient registration is on record\"",
     "x": 0
    },
    {
@@ -1166,6 +1155,17 @@
     "x": 0
    },
    {
+    "t": "Celecoxib",
+    "u": "/drugs/celecoxib/",
+    "l": "L5",
+    "i": "acromesomelic dysplasia, Hunter-Thompson type",
+    "lt": 60,
+    "lv": 55,
+    "r": 2,
+    "rs": "Removed: \"One valid single-ingredient registration is on record\"",
+    "x": 0
+   },
+   {
     "t": "Sulfamethoxazole",
     "u": "/drugs/sulfamethoxazole/",
     "l": "L5",
@@ -1177,17 +1177,6 @@
     "x": 0
    },
    {
-    "t": "Clarithromycin",
-    "u": "/drugs/clarithromycin/",
-    "l": "L5",
-    "i": "polyclonal hyperviscosity syndrome",
-    "lt": 58,
-    "lv": 53,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are single-ingredient, valid oral tablet products\"",
-    "x": 0
-   },
-   {
     "t": "Levetiracetam",
     "u": "/drugs/levetiracetam/",
     "l": "L5",
@@ -1196,17 +1185,6 @@
     "lv": 53,
     "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
-    "x": 0
-   },
-   {
-    "t": "Levofloxacin",
-    "u": "/drugs/levofloxacin/",
-    "l": "L5",
-    "i": "punctate epithelial keratoconjunctivitis",
-    "lt": 84,
-    "lv": 53,
-    "r": 2,
-    "rs": "Removed: \"Three of the four registrations are valid and one is cancelled\"",
     "x": 0
    },
    {
@@ -1232,36 +1210,25 @@
     "x": 0
    },
    {
-    "t": "Ritonavir",
-    "u": "/drugs/ritonavir/",
+    "t": "Clarithromycin",
+    "u": "/drugs/clarithromycin/",
     "l": "L5",
-    "i": "feline acquired immunodeficiency syndrome",
-    "lt": 61,
-    "lv": 52,
-    "r": 3,
-    "rs": "Removed: \"Four further registrations (Emcovir, Paxlovid, Quadrimune, Lopimune 40/10 Oral Pellets) are also…",
-    "x": 0
-   },
-   {
-    "t": "Abacavir",
-    "u": "/drugs/abacavir/",
-    "l": "L5",
-    "i": "feline acquired immunodeficiency syndrome",
-    "lt": 67,
-    "lv": 51,
-    "r": 3,
-    "rs": "Removed: \"Showing 5 of 11 registrations. even though the records label them as single-ingredient\"",
-    "x": 0
-   },
-   {
-    "t": "Clotrimazole",
-    "u": "/drugs/clotrimazole/",
-    "l": "L5",
-    "i": "acne (disease)",
-    "lt": 65,
+    "i": "polyclonal hyperviscosity syndrome",
+    "lt": 56,
     "lv": 51,
     "r": 2,
-    "rs": "Removed: \"and all of its registered single-ingredient products are currently valid\"",
+    "rs": "Removed: \"Both registrations are single-ingredient, valid oral tablet products\"",
+    "x": 0
+   },
+   {
+    "t": "Levofloxacin",
+    "u": "/drugs/levofloxacin/",
+    "l": "L5",
+    "i": "punctate epithelial keratoconjunctivitis",
+    "lt": 82,
+    "lv": 51,
+    "r": 2,
+    "rs": "Removed: \"Three of the four registrations are valid and one is cancelled\"",
     "x": 0
    },
    {
@@ -1273,6 +1240,39 @@
     "lv": 51,
     "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient products\"",
+    "x": 0
+   },
+   {
+    "t": "Ritonavir",
+    "u": "/drugs/ritonavir/",
+    "l": "L5",
+    "i": "feline acquired immunodeficiency syndrome",
+    "lt": 60,
+    "lv": 51,
+    "r": 3,
+    "rs": "Removed: \"Four further registrations (Emcovir, Paxlovid, Quadrimune, Lopimune 40/10 Oral Pellets) are also…",
+    "x": 0
+   },
+   {
+    "t": "Abacavir",
+    "u": "/drugs/abacavir/",
+    "l": "L5",
+    "i": "feline acquired immunodeficiency syndrome",
+    "lt": 66,
+    "lv": 50,
+    "r": 3,
+    "rs": "Removed: \"Showing 5 of 11 registrations. even though the records label them as single-ingredient\"",
+    "x": 0
+   },
+   {
+    "t": "Clotrimazole",
+    "u": "/drugs/clotrimazole/",
+    "l": "L5",
+    "i": "acne (disease)",
+    "lt": 63,
+    "lv": 49,
+    "r": 2,
+    "rs": "Removed: \"and all of its registered single-ingredient products are currently valid\"",
     "x": 0
    },
    {
@@ -1309,17 +1309,6 @@
     "x": 0
    },
    {
-    "t": "Mometasone",
-    "u": "/drugs/mometasone/",
-    "l": "L5",
-    "i": "primary cutaneous T-cell lymphoma",
-    "lt": 51,
-    "lv": 47,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
     "t": "Budesonide",
     "u": "/drugs/budesonide/",
     "l": "L5",
@@ -1339,6 +1328,17 @@
     "lv": 46,
     "r": 1,
     "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "x": 0
+   },
+   {
+    "t": "Mometasone",
+    "u": "/drugs/mometasone/",
+    "l": "L5",
+    "i": "primary cutaneous T-cell lymphoma",
+    "lt": 50,
+    "lv": 46,
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1419,17 +1419,6 @@
     "x": 0
    },
    {
-    "t": "Omeprazole",
-    "u": "/drugs/omeprazole/",
-    "l": "L5",
-    "i": "duodenal obstruction",
-    "lt": 49,
-    "lv": 40,
-    "r": 2,
-    "rs": "Removed: \"Omeprazole has 3 valid SAHPRA registrations, all single-ingredient oral products\"",
-    "x": 0
-   },
-   {
     "t": "Thiamine",
     "u": "/drugs/thiamine/",
     "l": "L5",
@@ -1452,14 +1441,14 @@
     "x": 0
    },
    {
-    "t": "Dexamethasone",
-    "u": "/drugs/dexamethasone/",
+    "t": "Omeprazole",
+    "u": "/drugs/omeprazole/",
     "l": "L5",
-    "i": "alopecia mucinosa",
-    "lt": 51,
-    "lv": 38,
-    "r": 3,
-    "rs": "Removed: \"The remaining four registrations are Spersadex comp 5ml (drops), Maxitrol 3.5g (eye ointment)…",
+    "i": "duodenal obstruction",
+    "lt": 48,
+    "lv": 39,
+    "r": 2,
+    "rs": "Removed: \"Omeprazole has 3 valid SAHPRA registrations, all single-ingredient oral products\"",
     "x": 0
    },
    {
@@ -1482,6 +1471,17 @@
     "lv": 37,
     "r": 1,
     "rs": "Removed: \"Both registrations are currently valid and are single-ingredient records\"",
+    "x": 0
+   },
+   {
+    "t": "Dexamethasone",
+    "u": "/drugs/dexamethasone/",
+    "l": "L5",
+    "i": "alopecia mucinosa",
+    "lt": 50,
+    "lv": 37,
+    "r": 3,
+    "rs": "Removed: \"The remaining four registrations are Spersadex comp 5ml (drops), Maxitrol 3.5g (eye ointment)…",
     "x": 0
    },
    {
@@ -1595,17 +1595,6 @@
     "x": 0
    },
    {
-    "t": "Sacubitril",
-    "u": "/drugs/sacubitril/",
-    "l": "L5",
-    "i": "brain small vessel disease 1 with or without ocular anomalies",
-    "lt": 33,
-    "lv": 33,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available for sacubitril in the data compiled for this report\"…",
-    "x": 0
-   },
-   {
     "t": "Salbutamol",
     "u": "/drugs/salbutamol/",
     "l": "L5",
@@ -1617,17 +1606,6 @@
     "x": 0
    },
    {
-    "t": "Sertraline",
-    "u": "/drugs/sertraline/",
-    "l": "L5",
-    "i": "paranoid personality disorder",
-    "lt": 37,
-    "lv": 33,
-    "r": 2,
-    "rs": "Removed: \"All four registrations are single-ingredient products and all are valid\"",
-    "x": 0
-   },
-   {
     "t": "Amylmetacresol",
     "u": "/drugs/amylmetacresol/",
     "l": "L5",
@@ -1636,17 +1614,6 @@
     "lv": 32,
     "r": 0,
     "rs": "",
-    "x": 0
-   },
-   {
-    "t": "Dexmedetomidine",
-    "u": "/drugs/dexmedetomidine/",
-    "l": "L5",
-    "i": "nephrogenic syndrome of inappropriate antidiuresis",
-    "lt": 32,
-    "lv": 32,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1683,6 +1650,39 @@
     "x": 0
    },
    {
+    "t": "Sacubitril",
+    "u": "/drugs/sacubitril/",
+    "l": "L5",
+    "i": "brain small vessel disease 1 with or without ocular anomalies",
+    "lt": 32,
+    "lv": 32,
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available for sacubitril in the data compiled for this report\"…",
+    "x": 0
+   },
+   {
+    "t": "Sertraline",
+    "u": "/drugs/sertraline/",
+    "l": "L5",
+    "i": "paranoid personality disorder",
+    "lt": 36,
+    "lv": 32,
+    "r": 2,
+    "rs": "Removed: \"All four registrations are single-ingredient products and all are valid\"",
+    "x": 0
+   },
+   {
+    "t": "Dexmedetomidine",
+    "u": "/drugs/dexmedetomidine/",
+    "l": "L5",
+    "i": "nephrogenic syndrome of inappropriate antidiuresis",
+    "lt": 31,
+    "lv": 31,
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "x": 0
+   },
+   {
     "t": "Glimepiride",
     "u": "/drugs/glimepiride/",
     "l": "L5",
@@ -1716,17 +1716,6 @@
     "x": 0
    },
    {
-    "t": "Doxylamine",
-    "u": "/drugs/doxylamine/",
-    "l": "L5",
-    "i": "nasal cavity disease",
-    "lt": 44,
-    "lv": 30,
-    "r": 3,
-    "rs": "Removed: \"The list shows 5 of the 11 registrations\"",
-    "x": 0
-   },
-   {
     "t": "Salicylic Acid",
     "u": "/drugs/salicylic-acid/",
     "l": "L5",
@@ -1735,6 +1724,17 @@
     "lv": 30,
     "r": 2,
     "rs": "Removed: \"Both registrations are valid and are topical products\"",
+    "x": 0
+   },
+   {
+    "t": "Doxylamine",
+    "u": "/drugs/doxylamine/",
+    "l": "L5",
+    "i": "nasal cavity disease",
+    "lt": 43,
+    "lv": 29,
+    "r": 3,
+    "rs": "Removed: \"The list shows 5 of the 11 registrations\"",
     "x": 0
    },
    {
@@ -1753,8 +1753,8 @@
     "u": "/drugs/triprolidine/",
     "l": "L5",
     "i": "nasal cavity disease",
-    "lt": 55,
-    "lv": 29,
+    "lt": 54,
+    "lv": 28,
     "r": 2,
     "rs": "Removed: \"Eight further syrup registrations exist. There is also one topical cream, Medaspor topical…",
     "x": 0
@@ -1815,17 +1815,6 @@
     "x": 0
    },
    {
-    "t": "Candesartan Cilexetil",
-    "u": "/drugs/candesartan-cilexetil/",
-    "l": "L5",
-    "i": "malignant hypertensive renal disease",
-    "lt": 43,
-    "lv": 26,
-    "r": 2,
-    "rs": "Removed: \"All four registrations are currently valid\"",
-    "x": 0
-   },
-   {
     "t": "Mepyramine",
     "u": "/drugs/mepyramine/",
     "l": "L5",
@@ -1848,28 +1837,6 @@
     "x": 0
    },
    {
-    "t": "Tamsulosin",
-    "u": "/drugs/tamsulosin/",
-    "l": "L5",
-    "i": "Ambras type hypertrichosis universalis congenita",
-    "lt": 29,
-    "lv": 26,
-    "r": 3,
-    "rs": "Removed: \"The remaining three registrations are Swifsul (55/21.12/0032), Beniprosin SR (A40/34/0211) and…",
-    "x": 0
-   },
-   {
-    "t": "Dextromethorphan",
-    "u": "/drugs/dextromethorphan/",
-    "l": "L5",
-    "i": "nasal cavity disease",
-    "lt": 41,
-    "lv": 25,
-    "r": 2,
-    "rs": "Removed: \"All 5 SAHPRA registrations found are valid single-ingredient products\"",
-    "x": 0
-   },
-   {
     "t": "Ephedrine",
     "u": "/drugs/ephedrine/",
     "l": "L5",
@@ -1878,17 +1845,6 @@
     "lv": 25,
     "r": 2,
     "rs": "Removed: \"Showing 5 of the 12 valid single-ingredient registrations\"",
-    "x": 0
-   },
-   {
-    "t": "Lopinavir",
-    "u": "/drugs/lopinavir/",
-    "l": "L5",
-    "i": "feline acquired immunodeficiency syndrome",
-    "lt": 30,
-    "lv": 25,
-    "r": 2,
-    "rs": "Removed: \"Lopinavir has 3 valid single-ingredient registrations with SAHPRA\"",
     "x": 0
    },
    {
@@ -1936,6 +1892,17 @@
     "x": 0
    },
    {
+    "t": "Tamsulosin",
+    "u": "/drugs/tamsulosin/",
+    "l": "L5",
+    "i": "Ambras type hypertrichosis universalis congenita",
+    "lt": 28,
+    "lv": 25,
+    "r": 3,
+    "rs": "Removed: \"The remaining three registrations are Swifsul (55/21.12/0032), Beniprosin SR (A40/34/0211) and…",
+    "x": 0
+   },
+   {
     "t": "Amiodarone",
     "u": "/drugs/amiodarone/",
     "l": "L5",
@@ -1955,6 +1922,17 @@
     "lv": 24,
     "r": 2,
     "rs": "Removed: \"Seven of the eight SAHPRA registrations are valid and one is cancelled. All are single-ingredient…",
+    "x": 0
+   },
+   {
+    "t": "Candesartan Cilexetil",
+    "u": "/drugs/candesartan-cilexetil/",
+    "l": "L5",
+    "i": "malignant hypertensive renal disease",
+    "lt": 41,
+    "lv": 24,
+    "r": 2,
+    "rs": "Removed: \"All four registrations are currently valid\"",
     "x": 0
    },
    {
@@ -1980,6 +1958,17 @@
     "x": 0
    },
    {
+    "t": "Dextromethorphan",
+    "u": "/drugs/dextromethorphan/",
+    "l": "L5",
+    "i": "nasal cavity disease",
+    "lt": 40,
+    "lv": 24,
+    "r": 2,
+    "rs": "Removed: \"All 5 SAHPRA registrations found are valid single-ingredient products\"",
+    "x": 0
+   },
+   {
     "t": "Fentanyl",
     "u": "/drugs/fentanyl/",
     "l": "L5",
@@ -1988,6 +1977,17 @@
     "lv": 24,
     "r": 2,
     "rs": "Removed: \"Both registrations are single-ingredient products and both are currently valid\"",
+    "x": 0
+   },
+   {
+    "t": "Lopinavir",
+    "u": "/drugs/lopinavir/",
+    "l": "L5",
+    "i": "feline acquired immunodeficiency syndrome",
+    "lt": 29,
+    "lv": 24,
+    "r": 2,
+    "rs": "Removed: \"Lopinavir has 3 valid single-ingredient registrations with SAHPRA\"",
     "x": 0
    },
    {
@@ -2035,17 +2035,6 @@
     "x": 0
    },
    {
-    "t": "Carbocisteine",
-    "u": "/drugs/carbocisteine/",
-    "l": "L5",
-    "i": "gout",
-    "lt": 37,
-    "lv": 23,
-    "r": 0,
-    "rs": "",
-    "x": 0
-   },
-   {
     "t": "Cefpodoxime",
     "u": "/drugs/cefpodoxime/",
     "l": "L5",
@@ -2090,17 +2079,6 @@
     "x": 0
    },
    {
-    "t": "Theophylline",
-    "u": "/drugs/theophylline/",
-    "l": "L5",
-    "i": "thrombotic disease",
-    "lt": 39,
-    "lv": 23,
-    "r": 3,
-    "rs": "Removed: \"Three further valid registrations are not shown: Alcophyllex (G720 (OM)), Diatussin (biotussin)…",
-    "x": 0
-   },
-   {
     "t": "Aspartic Acid",
     "u": "/drugs/aspartic-acid/",
     "l": "L5",
@@ -2134,6 +2112,17 @@
     "x": 0
    },
    {
+    "t": "Carbocisteine",
+    "u": "/drugs/carbocisteine/",
+    "l": "L5",
+    "i": "gout",
+    "lt": 36,
+    "lv": 22,
+    "r": 0,
+    "rs": "",
+    "x": 0
+   },
+   {
     "t": "Clindamycin",
     "u": "/drugs/clindamycin/",
     "l": "L5",
@@ -2153,6 +2142,17 @@
     "lv": 22,
     "r": 2,
     "rs": "Removed: \"All three registrations are valid single-ingredient products in drop form\"",
+    "x": 0
+   },
+   {
+    "t": "Theophylline",
+    "u": "/drugs/theophylline/",
+    "l": "L5",
+    "i": "thrombotic disease",
+    "lt": 38,
+    "lv": 22,
+    "r": 3,
+    "rs": "Removed: \"Three further valid registrations are not shown: Alcophyllex (G720 (OM)), Diatussin (biotussin)…",
     "x": 0
    },
    {
@@ -2464,17 +2464,6 @@
     "x": 0
    },
    {
-    "t": "Levodopa",
-    "u": "/drugs/levodopa/",
-    "l": "L5",
-    "i": "Rasmussen subacute encephalitis",
-    "lt": 17,
-    "lv": 16,
-    "r": 3,
-    "rs": "Removed: \"A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid\"",
-    "x": 0
-   },
-   {
     "t": "Loperamide",
     "u": "/drugs/loperamide/",
     "l": "L5",
@@ -2541,14 +2530,14 @@
     "x": 0
    },
    {
-    "t": "Mupirocin",
-    "u": "/drugs/mupirocin/",
+    "t": "Levodopa",
+    "u": "/drugs/levodopa/",
     "l": "L5",
-    "i": "pleural empyema (disease)",
+    "i": "Rasmussen subacute encephalitis",
     "lt": 16,
     "lv": 15,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 3,
+    "rs": "Removed: \"A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid\"",
     "x": 0
    },
    {
@@ -2607,6 +2596,17 @@
     "x": 0
    },
    {
+    "t": "Mupirocin",
+    "u": "/drugs/mupirocin/",
+    "l": "L5",
+    "i": "pleural empyema (disease)",
+    "lt": 15,
+    "lv": 14,
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "x": 0
+   },
+   {
     "t": "Olopatadine",
     "u": "/drugs/olopatadine/",
     "l": "L5",
@@ -2659,17 +2659,6 @@
     "lv": 12,
     "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
-    "x": 0
-   },
-   {
-    "t": "Dienogest",
-    "u": "/drugs/dienogest/",
-    "l": "L5",
-    "i": "amenorrhea (disease)",
-    "lt": 14,
-    "lv": 12,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -2739,6 +2728,17 @@
     "x": 0
    },
    {
+    "t": "Dienogest",
+    "u": "/drugs/dienogest/",
+    "l": "L5",
+    "i": "amenorrhea (disease)",
+    "lt": 13,
+    "lv": 11,
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "x": 0
+   },
+   {
     "t": "Fluocinolone Acetonide",
     "u": "/drugs/fluocinolone-acetonide/",
     "l": "L5",
@@ -2805,17 +2805,6 @@
     "x": 0
    },
    {
-    "t": "Tretinoin",
-    "u": "/drugs/tretinoin/",
-    "l": "L5",
-    "i": "rheumatoid nodulosis",
-    "lt": 11,
-    "lv": 11,
-    "r": 2,
-    "rs": "Removed: \"All three registrations are valid, single-ingredient entries and all are topical formulations. This…",
-    "x": 0
-   },
-   {
     "t": "Amiloride",
     "u": "/drugs/amiloride/",
     "l": "L5",
@@ -2824,17 +2813,6 @@
     "lv": 10,
     "r": 2,
     "rs": "Removed: \"All four registrations are currently valid, and\"",
-    "x": 0
-   },
-   {
-    "t": "Dutasteride",
-    "u": "/drugs/dutasteride/",
-    "l": "L5",
-    "i": "Ambras type hypertrichosis universalis congenita",
-    "lt": 11,
-    "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"with 2 valid single-ingredient SAHPRA registrations and none cancelled\"",
     "x": 0
    },
    {
@@ -2882,6 +2860,17 @@
     "x": 0
    },
    {
+    "t": "Tretinoin",
+    "u": "/drugs/tretinoin/",
+    "l": "L5",
+    "i": "rheumatoid nodulosis",
+    "lt": 10,
+    "lv": 10,
+    "r": 2,
+    "rs": "Removed: \"All three registrations are valid, single-ingredient entries and all are topical formulations. This…",
+    "x": 0
+   },
+   {
     "t": "Tyrosine",
     "u": "/drugs/tyrosine/",
     "l": "L5",
@@ -2901,6 +2890,17 @@
     "lv": 9,
     "r": 2,
     "rs": "Removed: \"All three registrations are currently valid\"",
+    "x": 0
+   },
+   {
+    "t": "Dutasteride",
+    "u": "/drugs/dutasteride/",
+    "l": "L5",
+    "i": "Ambras type hypertrichosis universalis congenita",
+    "lt": 10,
+    "lv": 9,
+    "r": 2,
+    "rs": "Removed: \"with 2 valid single-ingredient SAHPRA registrations and none cancelled\"",
     "x": 0
    },
    {
@@ -3003,17 +3003,6 @@
     "x": 0
    },
    {
-    "t": "Entacapone",
-    "u": "/drugs/entacapone/",
-    "l": "L5",
-    "i": "PLA2G6-associated neurodegeneration",
-    "lt": 7,
-    "lv": 7,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are valid and none are cancelled\"",
-    "x": 0
-   },
-   {
     "t": "Ferrous Gluconate",
     "u": "/drugs/ferrous-gluconate/",
     "l": "L5",
@@ -3099,6 +3088,17 @@
     "lv": 6,
     "r": 3,
     "rs": "Removed: \"as single-ingredient products\"",
+    "x": 0
+   },
+   {
+    "t": "Entacapone",
+    "u": "/drugs/entacapone/",
+    "l": "L5",
+    "i": "PLA2G6-associated neurodegeneration",
+    "lt": 6,
+    "lv": 6,
+    "r": 2,
+    "rs": "Removed: \"Both registrations are valid and none are cancelled\"",
     "x": 0
    },
    {
@@ -3256,17 +3256,6 @@
     "x": 0
    },
    {
-    "t": "Diphenylpyraline",
-    "u": "/drugs/diphenylpyraline/",
-    "l": "L5",
-    "i": "nasal cavity disease",
-    "lt": 9,
-    "lv": 5,
-    "r": 1,
-    "rs": "Removed: \"All three registrations are single-ingredient products and are currently valid\"",
-    "x": 0
-   },
-   {
     "t": "Labetalol",
     "u": "/drugs/labetalol/",
     "l": "L5",
@@ -3342,6 +3331,17 @@
     "r": 2,
     "rs": "Annotated: MCC 2011 resolution withdrawing all dextropropoxyphene medicines from the South African market",
     "x": 1
+   },
+   {
+    "t": "Diphenylpyraline",
+    "u": "/drugs/diphenylpyraline/",
+    "l": "L5",
+    "i": "nasal cavity disease",
+    "lt": 8,
+    "lv": 4,
+    "r": 1,
+    "rs": "Removed: \"All three registrations are single-ingredient products and are currently valid\"",
+    "x": 0
    },
    {
     "t": "Econazole",
@@ -3663,17 +3663,6 @@
     "x": 0
    },
    {
-    "t": "Sulfadoxine",
-    "u": "/drugs/sulfadoxine/",
-    "l": "L5",
-    "i": "gout",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
-    "x": 0
-   },
-   {
     "t": "Cupric Chloride Dihydrate",
     "u": "/drugs/cupric-chloride-dihydrate/",
     "l": "L5",
@@ -3737,6 +3726,17 @@
     "lv": 1,
     "r": 0,
     "rs": "",
+    "x": 0
+   },
+   {
+    "t": "Sulfadoxine",
+    "u": "/drugs/sulfadoxine/",
+    "l": "L5",
+    "i": "gout",
+    "lt": 1,
+    "lv": 1,
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {

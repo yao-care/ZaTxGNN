@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "SERTRALINE"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-20
-description: "Sertraline: predicted new indication Paranoid personality disorder (evidence level L5). In South Africa: 37 SAHPRA registrations (33 valid)"
+last_modified_at: 2026-11-21
+description: "Sertraline: predicted new indication Paranoid personality disorder (evidence level L5). In South Africa: 36 SAHPRA registrations (32 valid)"
 ---
 
 # Sertraline
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **paranoid personality disorder
 | Predicted New Indication | Paranoid personality disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 33 of 37; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 37 (valid: 33, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 32 of 36; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 36 (valid: 32, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,7 +90,7 @@ Currently no related clinical trials registered.
 | 36/1.2/0274 | Tralidep | tablet | Valid |
 | 36/1.2/0275 | Tralidep | tablet | Valid |
 
-Showing 5 of 37 registrations (valid registrations first).
+Showing 5 of 36 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

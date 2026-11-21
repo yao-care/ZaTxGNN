@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 441
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-21
 description: "Terbinafine: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model's candidates for Terbinafine are all known uses, so there is cur
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| South Africa Market Status | Marketed (valid licences: 26 of 33; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 33 (valid: 26, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 25 of 32; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 32 (valid: 25, of which 1 not confirmed by SAHPRA) |
 
 ## Known uses among the model's candidates
 
@@ -80,9 +80,9 @@ The TxGNN model's candidates for Terbinafine are all known uses, so there is cur
 | 42/20.2.2/0472 | Binacil | tablet | Valid |
 | 51/20.2.2/0105 | Terbi-Clear Cream | cream | Valid |
 | A38/20.2.2/0395 | Terbinafine unicorn | tablet | Valid |
-| A38/20.2.2/0484 | Terbicil | tablet | Valid |
+| A38/20.2.2/0397 | Terbane | tablet | Valid |
 
-Showing 5 of 33 registrations (valid registrations first).
+Showing 5 of 32 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

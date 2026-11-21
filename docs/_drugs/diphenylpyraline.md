@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenylpyraline"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-21
 description: "Diphenylpyraline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
@@ -48,8 +48,8 @@ Diphenylpyraline is a first-generation antihistamine. The relations recorded in 
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 5 of 9; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 9 (valid: 5, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 4 of 8) |
+| Number of SAHPRA Registrations | 8 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,10 +83,10 @@ The licence records contain no approved-indication text. Essential Medicines Lis
 | 27/10.1/0529 | Dynalex | syrup | Valid |
 | G0703 | Solphyllex | syrup | Valid |
 | N/10.1/98 | Theophen Compound Elixir | syrup | Valid |
-| W/10.0/194 | Actophlem | syrup | Valid (status not confirmed by SAHPRA) |
 | W/10.1/0194 | Actophlem | syrup | Valid |
+| 29/10.1/0431 | Equabron Co Elixer | elixir | Cancelled |
 
-Showing 5 of 9 registrations (valid registrations first).
+Showing 5 of 8 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

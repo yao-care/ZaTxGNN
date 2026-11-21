@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 description: "Amoxicillin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections such as urinary tract infection…"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **hyperamylasemia**, but there are
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 219 of 286; 26 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 286 (valid: 219, of which 26 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 217 of 284; 24 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 284 (valid: 217, of which 24 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,7 +89,7 @@ Amoxicillin is marketed in South Africa. The licence records contain no approved
 | 28/20.1.2/0124 | Zoxil 250 | capsule | Valid |
 | 28/20.1.2/0125 | Zoxil 500 | capsule | Valid |
 
-Showing 5 of 286 registrations (valid registrations first).
+Showing 5 of 284 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

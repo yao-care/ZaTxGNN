@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
-description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 84 SAHPRA registrations (53 valid)"
+description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 82 SAHPRA registrations (51 valid)"
 ---
 
 # Levofloxacin
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 53 of 84; 11 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 84 (valid: 53, of which 11 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 51 of 82; 9 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 82 (valid: 51, of which 9 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,13 +75,13 @@ Currently no related clinical trials registered.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
+| 41/20.1.1/0008 | Tavaloxx 500 | tablet | Valid |
+| 41/20.1.1/0009 | Tavaloxx | tablet | Valid |
 | 41/20.1.1/1018 | Austell levofloxacin | tablet | Valid |
 | 41/20.1.1/1019 | Austell levofloxacin | tablet | Valid |
-| 41/20.14.1/008 | Tavaloxx 500 | tablet | Valid (status not confirmed by SAHPRA) |
-| 41/20.14.1/009 | Tavaloxx | tablet | Valid (status not confirmed by SAHPRA) |
 | 42/20.1.1/0632 | Lintrip 250 | tablet | Valid |
 
-Showing 5 of 84 registrations (valid registrations first).
+Showing 5 of 82 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

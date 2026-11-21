@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-20
-description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 97 SAHPRA registrations (62 valid)"
+last_modified_at: 2026-11-21
+description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 96 SAHPRA registrations (61 valid)"
 ---
 
 # Chlorpheniramine
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but the 
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 62 of 97; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 97 (valid: 62, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 61 of 96; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 96 (valid: 61, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,7 +90,7 @@ Currently no related clinical trials registered.
 | 27/10.1/0553 | Flusin dm | syrup | Valid |
 | 27/5.8/0435 | Coryx | effervescent tablet | Valid |
 
-Showing 5 of 97 registrations (valid registrations first).
+Showing 5 of 96 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

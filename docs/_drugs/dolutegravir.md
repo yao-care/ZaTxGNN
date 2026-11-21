@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 description: "Dolutegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -52,8 +52,8 @@ but there are **no registered clinical trials**, and only **1 preclinical/veteri
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 103 of 107; 6 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 107 (valid: 103, of which 6 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 99 of 103; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 103 (valid: 99, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -114,7 +114,7 @@ Approved indication text and Essential Medicines List status are not available i
 | 51/20.2.8/1032.1031 | Dalimune | tablet | Valid |
 | 52/20.2.8/0002.001 | Hetvir 50 | Fct | Valid |
 
-Showing 5 of 107 registrations (valid registrations first).
+Showing 5 of 103 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
-description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In South Africa: 90 SAHPRA registrations (72 valid)"
+last_modified_at: 2026-11-21
+description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In South Africa: 87 SAHPRA registrations (69 valid)"
 ---
 
 # Aripiprazole
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be effective for **gaze palsy, familial horizont
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 72 of 90; 10 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 90 (valid: 72, of which 10 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 69 of 87; 7 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 87 (valid: 69, of which 7 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,7 @@ Currently no related literature available.
 | 46/2.6.5/0875 | Arizofy | tablet | Valid |
 | 46/2.6.5/0876 | Arizofy | tablet | Valid |
 
-Showing 5 of 90 registrations (valid registrations first).
+Showing 5 of 87 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

@@ -5,10 +5,10 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 450
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
-description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). In South Africa: 22 SAHPRA registrations (19 valid)"
+description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). In South Africa: 21 SAHPRA registrations (18 valid)"
 ---
 
 # Tobramycin
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 19 of 22; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 22 (valid: 19, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 18 of 21; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 21 (valid: 18, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -100,9 +100,9 @@ None of these publications tests tobramycin in exposure keratitis.
 | F/20.1.1/130 | Nebcin | injection | Valid (status not confirmed by SAHPRA) |
 | 31/20.1.1/0155 | Micro-Tobramicin | injection | Valid |
 | 31/20.1.1/0156 | Micro-Tobramicin | injection | Valid |
-| 48/20.1.1/0502 | Bramitob Nebuliser Solution 300Mg/4Ml | nebuliser | Valid |
+| 46/15.3/0196 | Mydex | drops | Valid |
 
-Showing 5 of 22 registrations (valid registrations first).
+Showing 5 of 21 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

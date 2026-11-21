@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "TENOFOVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-21
 description: "Tenofovir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection, HIV infection, AIDS"
 ---
 
@@ -50,8 +50,8 @@ There are **no registered clinical trials** and **20 publications** (mostly non-
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 151 of 182; 7 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 182 (valid: 151, of which 7 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 148 of 179; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 179 (valid: 148, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -104,7 +104,7 @@ No approved-indication text is recorded for them in the data compiled for this r
 | 46/20.2.8/0040 | Tenofovir Winthrop | Fct | Valid |
 | 52/20.2.8/0273 | Vemlidy | Fct | Valid |
 
-Showing 6 of 182 registrations (valid registrations first).
+Showing 6 of 179 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

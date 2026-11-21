@@ -308,6 +308,19 @@ def resolve(raw, name, ings, S, SIG):
     return None, "SAHPRA 沒有"
 
 
+# 2026-11-21（用戶請 pm 用瀏覽器查 506 個只在 MPR 有的號碼）：MPR 號碼寫法跟 SAHPRA 差太多（年份、藥理分類段、序號後綴 .650 等），
+# 自動規則 R1–R10 不認、但 SAHPRA medapps 品名搜尋確認是同一品項的，收在 config/sahpra_manual_alias.json（每筆附依據）。
+# build_alias 只在自動規則對不到時才用，仍要通過 same_product 與一對一檢查；狀態一律取 SAHPRA 匯出。
+def _manual_alias():
+    p = ROOT / "config/sahpra_manual_alias.json"
+    if not p.exists():
+        return {}
+    return {key(e["mpr"]): key(e["sahpra"]) for e in json.loads(p.read_text(encoding="utf-8"))["entries"]}
+
+
+MANUAL_ALIAS = _manual_alias()
+
+
 def build_alias(S, rows):
     """{MPR 號碼 key: (SAHPRA 號碼 key, 依據)}；rows＝[(原號碼, 產品名, [成分])]，全部 MPR 列（快取＋證據包原有紀錄）。
     一對一：同一個 MPR 號碼的每一列都要對到同一個 SAHPRA 號碼（MPR 自己把一個號碼給了兩個產品的，例 C661 Corbar／Corenza，不比對）；
@@ -343,6 +356,12 @@ def build_alias(S, rows):
             alias[k] = (ks.pop(), sorted({g[1] for g in got}))
         elif any(g[0] for g in got):
             rep.append((rs[0][0], "", "不比對：同一號碼的 MPR 列結果不一致（" + "；".join(sorted({f'{n}→{g[0] or g[1]}' for (_, n, _), g in zip(rs, got)})) + "）"))
+        elif k in MANUAL_ALIAS:  # 2026-11-21：自動規則對不到、人工確認表有的（config/sahpra_manual_alias.json）
+            t = MANUAL_ALIAS[k]
+            if t in S and all(same_product(n, i, S[t]) for _, n, i in rs):
+                alias[k] = (t, ["manual"])
+            else:
+                rep.append((rs[0][0], S[t]["reg"] if t in S else "", "不比對：人工確認表的號碼" + ("產品不符" if t in S else "不在 SAHPRA 匯出")))
     for k in {v[0] for v in alias.values()}:
         exact = by.get(k) or []
         if exact and not all(same_product(n, i, S[k]) for _, n, i in exact):

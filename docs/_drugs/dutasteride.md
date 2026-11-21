@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
-last_modified_at: 2026-11-20
-description: "Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In South Africa: 11 SAHPRA registrations (10 valid)"
+last_modified_at: 2026-11-21
+description: "Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In South Africa: 10 SAHPRA registrations (9 valid)"
 ---
 
 # Dutasteride
@@ -48,8 +48,8 @@ Dutasteride is a 5-alpha-reductase inhibitor that lowers dihydrotestosterone (DH
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 1.0000 (rounded to 4 decimals; a model ranking score, not a measure of clinical likelihood) |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 10 of 11; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 11 (valid: 10, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 9 of 10) |
+| Number of SAHPRA Registrations | 10 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

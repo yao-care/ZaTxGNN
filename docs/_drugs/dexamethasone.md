@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 167
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). In South Africa: 51 SAHPRA registrations (38 valid)"
+description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). In South Africa: 50 SAHPRA registrations (37 valid)"
 ---
 
 # Dexamethasone
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, but **no
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 38 of 51; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 51 (valid: 38, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 37 of 50; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 50 (valid: 37, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -93,7 +93,7 @@ Dexamethasone-containing products are marketed in South Africa. Approved indicat
 | 33/21.5.1/0512 | Pharma-q dexamethasone phosphate ampoule | injection | Valid |
 | 41/21.5.1/0814 | Tagalon | injection | Valid |
 
-Showing 5 of 51 registrations (valid registrations first).
+Showing 5 of 50 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

@@ -5,10 +5,10 @@ parent: High Evidence (L1-L2)
 nav_order: 96
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "Candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
-description: "Candesartan: predicted new indication Migraine disorder (evidence level L2). In South Africa: 43 SAHPRA registrations (26 valid)"
+description: "Candesartan: predicted new indication Migraine disorder (evidence level L2). In South Africa: 41 SAHPRA registrations (24 valid)"
 ---
 
 # Candesartan
@@ -50,8 +50,8 @@ with **4 registered clinical trials** (3 directly on migraine) and **20 publicat
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 26 of 43; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 43 (valid: 26, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 24 of 41; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 41 (valid: 24, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -92,11 +92,11 @@ Blood pressure–lowering agents are already used in migraine prevention, and ca
 |------|------|------|------|
 | 32/7.1.3/0099 | Atacand | tablet | Valid |
 | 32/7.1.3/0100 | Atacand 16Mg | tablet | Valid |
-| 45/7.1.3/0301 | Mylacand | tablet | Valid (status not confirmed by SAHPRA) |
-| 45/7.1.3/0302 | Mylacand | tablet | Valid (status not confirmed by SAHPRA) |
+| 45/7.1/0301 | Mylacand | tablet | Valid |
+| 45/7.1/0302 | Mylacand | tablet | Valid |
 | 46/7.1.3/0231 | Abecard 8 | tablet | Valid |
 
-Showing 5 of 43 registrations (valid registrations first).
+Showing 5 of 41 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

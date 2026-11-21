@@ -5,10 +5,10 @@ parent: High Evidence (L1-L2)
 nav_order: 389
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). In South Africa: 12 SAHPRA registrations (10 valid)"
+description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). In South Africa: 11 SAHPRA registrations (9 valid)"
 ---
 
 # Prednisone
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **no 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| South Africa Market Status | Marketed (valid licences: 10 of 12; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 12 (valid: 10, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 9 of 11) |
+| Number of SAHPRA Registrations | 11 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -100,9 +100,9 @@ Currently no related clinical trials registered.
 | G3004 | Be-tabs prednisone | tablet | Valid |
 | G3054 | Panafcort | tablet | Valid |
 | G3093 | Trolic | tablet | Valid |
-| LX/25.5.1/269 | Meticorten | tablet | Valid (status not confirmed by SAHPRA) |
+| LX/21.5.1/269 | Meticorten | tablet | Valid |
 
-Showing 5 of 12 registrations (valid registrations first).
+Showing 5 of 11 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

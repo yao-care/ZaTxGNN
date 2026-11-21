@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-20
-description: "Fluconazole: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 84 SAHPRA registrations (66 valid)"
+last_modified_at: 2026-11-21
+description: "Fluconazole: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 83 SAHPRA registrations (65 valid)"
 ---
 
 # Fluconazole
@@ -50,8 +50,8 @@ Fluconazole is an oral azole antifungal. The TxGNN model predicts it may be effe
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 66 of 84; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 84 (valid: 66, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 65 of 83; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 83 (valid: 65, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,7 +90,7 @@ Fluconazole is currently marketed in South Africa, with valid single-ingredient 
 | 36/20.2.2/0263 | Fluzol | capsule | Valid |
 | 36/20.2.2/0265 | Fluconazole unicorn | capsule | Valid |
 
-Showing 5 of 84 registrations (valid registrations first).
+Showing 5 of 83 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

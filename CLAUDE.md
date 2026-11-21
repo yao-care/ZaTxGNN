@@ -594,6 +594,16 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   Ciplatrim 15（41/11.3/0313，sibutramine 15 mg；同品牌 Ciplatrim 10 41/11.3/0312 的 MPR 成分只有 sibutramine，成分欄另列 Isophane Insulin 70%）沒有被收進任何 insulin 類證據包，只加 ("41/11.3/0313", "*sibutramine") 防止以後重建收進，
   sibutramine 證據包照舊收。兩個號碼 SAHPRA 匯出與產品總表都沒有。重建 dry-run 確認 Alli 從 salmeterol 剔除、Ciplatrim 15 留在 sibutramine、insulin 類證據包不變；正文沒有矛盾句。
 
+## 只在 MPR 有的 506 張：pm 瀏覽器查證（2026-11-21）
+
+用戶 2026-11-21 請 pm session 用瀏覽器在 SAHPRA medapps 逐筆查上節 (b) 仍標「status not confirmed by SAHPRA」的 506 個號碼（清單與結果在母目錄 `.claude/manual_license_lookup_20261117/` 的 `za_sahpra_unconfirmed_20261119.csv`、`za_sahpra_result_20261121.csv`；只看、不登入、不送表單）。
+這 506 個號碼在 medapps 產品總表（21,439 筆）都對不到，所以改用品名搜尋：62 筆確認是同一品項、只差號碼寫法（年份、藥理分類段、序號後綴 .650 等，自動規則 R1–R10 認不到；例 51/20.2.8/1035＝50/20.2.8/1035 DIVUDINE 120/60、45/7.1.3/0301＝45/7.1/0301 MYLACAND 8 mg、51/2.6.5/0654＝51/2.6.5/0654.650 APRIZON 5），98 筆只有疑似候選（不收），346 筆查不到。
+- `config/sahpra_manual_alias.json`（62 筆，每筆附 pm 的品名搜尋結果）：`scripts/rebuild_licenses_by_ingredient.py` 的 build_alias 在自動規則對不到時才用，仍要通過 same_product（品名或成分）與一對一檢查（62 筆另以程式逐筆比對，全部通過）；狀態一律取 SAHPRA 匯出（Entresto 50 mg 50/7.6/1016 pm 當天網頁看到 Canceled、11-16 匯出是 Registered，照匯出，下次每週排程會跟上）。每週更新與依成分重建共用。
+- 套用（2026-11-21，SAHPRA 匯出用 11-16 版）：142 筆跟證據包裡原有的 SAHPRA 號碼重複，合併成一筆；13 筆（3 張：Meticorten LX/21.5.1/269、Fansidar K/20.3.6/68、Lavem 52/20.2.8/0090.089）改成 SAHPRA 狀態 Registered。
+  Fansidar（SAHPRA 成分只有 pyrimethamine＋sulfadoxine）原被 MPR 成分欄錯植收進 codeine、diphenhydramine 共 6 個證據包，Meticorten（只有 prednisone）收進 betamethasone 3 個證據包；對回 SAHPRA 後照重建的「SAHPRA 成分全文不含本藥」規則移到 excluded_records（附原因）。
+  66 頁概覽狀態列／張數列與許可證表由程式同步（多數張數減少，例 codeine 271→269、amlodipine 321→318），description 句尾照快照重算；正文沒有跟新事實矛盾的句子，沒有新查核紀錄。這次改到的頁超過排程停損門檻 43 頁，手動補跑設 LICENSE_REFRESH_MAX_PAGES=80。
+- 同日修母目錄 check_drug_page.py：M3 不再比對 description 的在地化句尾（description_local_log.json 的 tail，數字由 gate 的 drug_meta_description --check 對快照把關）。原本每週排程在 checker 之後才重算句尾，張數一變 checker 就會整批擋下（30 站都會遇到）。
+
 ## 同一 DrugBank ID 的重複公開頁改轉址（2026-11-19）
 
 用戶 2026-11-19 決定（照 ARTxGNN 同日做法）：公開藥物頁同一 DrugBank ID（front matter drugbank_id，沒有的用證據包與 dbXXXXX 轉址頁推斷）、預測相同的，留一頁、另一頁改轉址（layout: id_redirect、permalink 不變、sitemap: false、search_exclude、nav_exclude）。

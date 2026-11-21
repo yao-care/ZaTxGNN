@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "Sulfadoxine"
 predicted_indications: ["gout"]
-description: "Sulfadoxine: predicted new indication Gout (evidence level L5). In South Africa: 2 SAHPRA registrations (2 valid)"
+description: "Sulfadoxine: predicted new indication Gout (evidence level L5). In South Africa: 1 SAHPRA registration (1 valid)"
 ---
 
 # Sulfadoxine
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **gout**, but **no clinical tri
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 0.9910 |
 | Evidence Level | L5 (model prediction only) |
-| South Africa Market Status | Marketed (valid licences: 2 of 2; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 2 (valid: 2, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 1 of 1) |
+| Number of SAHPRA Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -87,8 +87,7 @@ Currently no related literature available for gout.
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| K/20.2.6/68 | Fansidar | tablet | Valid (status not confirmed by SAHPRA) |
-| K/20.3.6/68 | FANSIDAR* | tablet | Valid |
+| K/20.3.6/68 | Fansidar | tablet | Valid |
 
 <!-- licenses:end -->
 

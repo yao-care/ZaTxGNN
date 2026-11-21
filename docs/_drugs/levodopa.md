@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
-description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In South Africa: 17 SAHPRA registrations (16 valid)"
+description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In South Africa: 16 SAHPRA registrations (15 valid)"
 ---
 
 # Levodopa
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **Rasmussen subacute encephalitis** (
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 16 of 17; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 17 (valid: 16, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 15 of 16; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 16 (valid: 15, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -120,7 +120,7 @@ Levodopa is marketed in South Africa. Approved indication text and Essential Med
 | 32/5.4.1/0081 | Teva carbi-levo 25/100 | tablet | Valid |
 | 38/5.4.1/0137 | Stalevo 150/37.5 | tablet | Valid |
 
-Showing 5 of 17 registrations (valid registrations first).
+Showing 5 of 16 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

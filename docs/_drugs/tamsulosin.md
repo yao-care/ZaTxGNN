@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
-description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In South Africa: 29 SAHPRA registrations (26 valid)"
+description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In South Africa: 28 SAHPRA registrations (25 valid)"
 ---
 
 # Tamsulosin
@@ -49,8 +49,8 @@ The TxGNN model (deep learning) predicts it may be effective for **Ambras type h
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 26 of 29; 1 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 29 (valid: 26, of which 1 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 25 of 28) |
+| Number of SAHPRA Registrations | 28 (valid: 25) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -102,7 +102,7 @@ The approved indication text, and the Essential Medicines List (EML) status, wer
 | 53/34/0057 | Uriwel | capsule | Valid |
 | 56/34/0989 | Urilosin 0,4 | capsule | Valid |
 
-Showing 5 of 29 registrations (valid registrations first).
+Showing 5 of 28 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

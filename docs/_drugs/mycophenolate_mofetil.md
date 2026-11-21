@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 335
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-21
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not stated in the registration data compiled for this report"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, wit
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note under Clinical Trial Evidence) |
-| South Africa Market Status | Marketed (valid licences: 26 of 32; 4 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 32 (valid: 26, of which 4 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 23 of 29; 1 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 29 (valid: 23, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ---
@@ -107,11 +107,11 @@ Note: no trial directly demonstrates efficacy of MMF in HIV. The one Phase 3 stu
 |------|------|------|------|
 | 33/34/0107 | Cellcept vial 20ml | infusion | Valid (status not confirmed by SAHPRA) |
 | 41/34/0815 | Mycocept | capsule | Valid |
-| 43/24.1/0215 | Immunolate 500 | tablet | Valid (status not confirmed by SAHPRA) |
 | 43/32.2/0241 | Mycocept | tablet | Valid |
+| 43/34/0215 | Immunolate 500 | tablet | Valid |
 | 44/32.2/0631 | Mycokem | tablet | Valid |
 
-Showing 5 of 32 registrations (valid registrations first).
+Showing 5 of 29 registrations (valid registrations first).
 
 <!-- licenses:end -->
 

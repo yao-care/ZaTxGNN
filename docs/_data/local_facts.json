@@ -17,8 +17,8 @@
   "drugs_none_current": 8,
   "drugs_without_data": 1,
   "drugs_partial": 0,
-  "items_total": 16095,
-  "items_current": 11978
+  "items_total": 15999,
+  "items_current": 11882
  },
  "reviews": {
   "records": 671,
@@ -39,8 +39,8 @@
    "t": "Acetaminophen",
    "u": "/drugs/acetaminophen/",
    "l": "N/A",
-   "lt": 563,
-   "lv": 391,
+   "lt": 560,
+   "lv": 388,
    "r": 0,
    "i": ""
   },
@@ -48,8 +48,8 @@
    "t": "Amlodipine",
    "u": "/drugs/amlodipine/",
    "l": "L5",
-   "lt": 321,
-   "lv": 290,
+   "lt": 318,
+   "lv": 287,
    "r": 2,
    "i": "brain stem infarction"
   },
@@ -57,8 +57,8 @@
    "t": "Valsartan",
    "u": "/drugs/valsartan/",
    "l": "L4",
-   "lt": 256,
-   "lv": 223,
+   "lt": 255,
+   "lv": 222,
    "r": 2,
    "i": "malignant hypertensive renal disease"
   },
@@ -66,8 +66,8 @@
    "t": "Amoxicillin",
    "u": "/drugs/amoxicillin/",
    "l": "L5",
-   "lt": 286,
-   "lv": 219,
+   "lt": 284,
+   "lv": 217,
    "r": 2,
    "i": "hyperamylasemia"
   },
@@ -75,8 +75,8 @@
    "t": "Metformin",
    "u": "/drugs/metformin/",
    "l": "L5",
-   "lt": 225,
-   "lv": 208,
+   "lt": 224,
+   "lv": 207,
    "r": 2,
    "i": "focal stiff limb syndrome"
   },
@@ -93,8 +93,8 @@
    "t": "Codeine",
    "u": "/drugs/codeine/",
    "l": "L5",
-   "lt": 271,
-   "lv": 154,
+   "lt": 269,
+   "lv": 152,
    "r": 2,
    "i": "nasal cavity disease"
   },
@@ -102,8 +102,8 @@
    "t": "Tenofovir",
    "u": "/drugs/tenofovir/",
    "l": "L4",
-   "lt": 182,
-   "lv": 151,
+   "lt": 179,
+   "lv": 148,
    "r": 1,
    "i": "simian immunodeficiency virus infection"
   }
@@ -215,8 +215,8 @@
    "t": "Abacavir",
    "u": "/drugs/abacavir/",
    "l": "L5",
-   "lt": 67,
-   "lv": 51,
+   "lt": 66,
+   "lv": 50,
    "r": 3,
    "i": "feline acquired immunodeficiency syndrome"
   },

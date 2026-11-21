@@ -1,0 +1,439 @@
+{
+ "_note": "MPR 號碼→SAHPRA 號碼的人工確認對照（2026-11-21）。MPR 號碼寫法跟 SAHPRA 不同（年份、藥理分類段、序號後綴），自動規則 R1–R10 不認；pm 在 SAHPRA medapps 用品名搜尋，品名、成分、序號都對得上的才收。scripts/rebuild_licenses_by_ingredient.py 的 build_alias 在自動規則對不到時才用，仍要通過 same_product（品名或成分）與一對一檢查；狀態一律取 SAHPRA 匯出，不取 sahpra_status_seen（那是查詢當天網頁上看到的，僅供參考）。來源清單：txgnn/.claude/manual_license_lookup_20261117/za_sahpra_result_20261121.csv。",
+ "entries": [
+  {
+   "mpr": "51/20.2.8/1035",
+   "sahpra": "50/20.2.8/1035",
+   "sahpra_status_seen": "Canceled",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：DIVUDINE 120/60（網站號碼 50/20.2.8/1035，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "A34/2.8/0527",
+   "sahpra": "A38/2.8/0527",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MYBULEN CAPSULES（網站號碼 A38/2.8/0527，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：30/2.8/0138 MYBULEN、A39/2.8/0237 MYBULEN SUSPENSION、50/2.8/0490 MYBULEN FORTE"
+  },
+  {
+   "mpr": "Y/5.8/308",
+   "sahpra": "Y/10.2.2/308",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：DEMAZIN FLU（網站號碼 Y/10.2.2/308，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：37/5.8/0423 DEMAZIN COLD AND FLU"
+  },
+  {
+   "mpr": "Z/2.8/0241",
+   "sahpra": "X/2.8/241",
+   "sahpra_status_seen": "Canceled",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MEGAPYN SYRUP（網站號碼 X/2.8/241，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：X/2.8/240 MEGAPYN TABLETS"
+  },
+  {
+   "mpr": "27/A.5.8/435",
+   "sahpra": "27/5.8/0435",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：CORYX COLD AND FLU（網站號碼 27/5.8/0435，品名與成分相符）；同品牌其他品項：27/10.1/0490 CORYX COUGH AND COLD、31/5.8/0056 CORYX PAEDIATRIC"
+  },
+  {
+   "mpr": "38/7.1/0272",
+   "sahpra": "38/7.2/0272",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：LOMANOR 10 mg（網站號碼 38/7.2/0272，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：38/7.1/0271 LOMANOR 5 mg"
+  },
+  {
+   "mpr": "A40/70.1/0057",
+   "sahpra": "A40/7.1/0057",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：PENDINE 5（網站號碼 A40/7.1/0057，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：A40/7.1/0058 PENDINE 10"
+  },
+  {
+   "mpr": "A40/70.1/0058",
+   "sahpra": "A40/7.1/0058",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：PENDINE 10（網站號碼 A40/7.1/0058，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：A40/7.1/0057 PENDINE 5"
+  },
+  {
+   "mpr": "W/10.0/194",
+   "sahpra": "W/10.1/0194",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：ACTOPHLEM COUGH SYRUP（網站號碼 W/10.1/0194，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "28/21.1.2/0412",
+   "sahpra": "28/20.1.2/0412",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MOXYMAX 250（網站號碼 28/20.1.2/0412，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：28/20.1.2/0415 MOXYMAX SF、28/20.1.2/0413 MOXYMAX 500、28/20.1.2/0414 MOXYMAX S"
+  },
+  {
+   "mpr": "33/20.1.2/0224",
+   "sahpra": "34/20.1.2/0224",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：ADCO AMOCLAV 625（網站號碼 34/20.1.2/0224，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "51/2.6.5/0654",
+   "sahpra": "51/2.6.5/0654.650",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：APRIZON 5（網站號碼 51/2.6.5/0654.650，品名與成分相符）"
+  },
+  {
+   "mpr": "51/2.6.5/0655",
+   "sahpra": "51/2.6.5/0655.651",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：APRIZON 10（網站號碼 51/2.6.5/0655.651，品名與成分相符）"
+  },
+  {
+   "mpr": "51/2.6.5/0656",
+   "sahpra": "51/2.6.5/0656.652",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：APRIZON 15（網站號碼 51/2.6.5/0656.652，品名與成分相符）"
+  },
+  {
+   "mpr": "35/13.4.1/0430",
+   "sahpra": "34/13.4.1/0430",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：VARI-BETAMETHASONE CREAM（網站號碼 34/13.4.1/0430，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "LX/25.5.1/269",
+   "sahpra": "LX/21.5.1/269",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：METICORTEN（網站號碼 LX/21.5.1/269，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：Old Medicine METICORTEN 5 mg、36/21.5.1/0105 METICORTEN 20 mg TABLETS"
+  },
+  {
+   "mpr": "45/7.1.3/0301",
+   "sahpra": "45/7.1/0301",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MYLACAND 8 mg（網站號碼 45/7.1/0301，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：45/7.1/0302 MYLACAND 16 mg、45/7.1/0394 MYLACAND PLUS 16/12,5"
+  },
+  {
+   "mpr": "45/7.1.3/0302",
+   "sahpra": "45/7.1/0302",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MYLACAND 16 mg（網站號碼 45/7.1/0302，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：45/7.1/0301 MYLACAND 8 mg、45/7.1/0394 MYLACAND PLUS 16/12,5"
+  },
+  {
+   "mpr": "8/5.4.1/0138",
+   "sahpra": "38/5.4.1/0138",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：STALEVO 100/25（網站號碼 38/5.4.1/0138，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "Z/10.2.2/244",
+   "sahpra": "Z/10.1.1/244",
+   "sahpra_status_seen": "Canceled",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MUCOPAN*（網站號碼 Z/10.1.1/244，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "46/3.1/0704",
+   "sahpra": "46/3.1/0704.702",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：COXLEON 100（網站號碼 46/3.1/0704.702，品名與成分相符）；同品牌其他品項：46/3.1/705.703 COXLEON 200"
+  },
+  {
+   "mpr": "46/3.1/0705",
+   "sahpra": "46/3.1/705.703",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：COXLEON 200（網站號碼 46/3.1/705.703，品名與成分相符）；同品牌其他品項：46/3.1/0704.702 COXLEON 100"
+  },
+  {
+   "mpr": "51/3.1/0724",
+   "sahpra": "51/3.1/0724.722",
+   "sahpra_status_seen": "Canceled",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：ALBREX 100（網站號碼 51/3.1/0724.722，品名與成分相符）"
+  },
+  {
+   "mpr": "42/11.4.3/0718",
+   "sahpra": "42/1.2/0718",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：ARROW CITALOPRAM 40（網站號碼 42/1.2/0718，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：42/1.2/0719 ARROW CITALOPRAM 20"
+  },
+  {
+   "mpr": "31/20.2.2/0379",
+   "sahpra": "31/20.1.1/0379",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：KLACID XL（網站號碼 31/20.1.1/0379，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "4/20.1.1/0860",
+   "sahpra": "43/20.1.1/0860",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：CLARITHROMYCIN UNICORN 500 XL（網站號碼 43/20.1.1/0860，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "27/20.2.2/0150",
+   "sahpra": "27/20.1.2/0150",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：CANDIZOLE V（網站號碼 27/20.1.2/0150，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "33/20.2.2/0073",
+   "sahpra": "31/20.2.2/0073",
+   "sahpra_status_seen": "Canceled",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：GYNO-TRIMAZE VAGINAL CREAM（網站號碼 31/20.2.2/0073，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "K/20.2.6/68",
+   "sahpra": "K/20.3.6/68",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：FANSIDAR*（網站號碼 K/20.3.6/68，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "49/15.3/0196",
+   "sahpra": "46/15.3/0196",
+   "sahpra_status_seen": "Registrered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MYDEX（網站號碼 46/15.3/0196，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "56/2.9/0233",
+   "sahpra": "56/2.2/0233",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：TOMEXA 200 µg/2 ml（網站號碼 56/2.2/0233，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "55/21.8.2/0035.034",
+   "sahpra": "55/18.8/0035.034",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：DIENOGEST ADCO（網站號碼 55/18.8/0035.034，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "51/20.2.8/0212.210",
+   "sahpra": "52/20.2.8/0212.210",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：VOLUTRIP（網站號碼 52/20.2.8/0212.210，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "53/20.2.8/0090",
+   "sahpra": "52/20.2.8/0090.089",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：LAVEM（網站號碼 52/20.2.8/0090.089，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "53/20.2.8/0485",
+   "sahpra": "53/20.2.8/0485.484",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MYLATAF（網站號碼 53/20.2.8/0485.484，品名與成分相符）"
+  },
+  {
+   "mpr": "54/20.2.8/0707",
+   "sahpra": "54/20.2.8/0707.705",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：TOLEVTRI（網站號碼 54/20.2.8/0707.705，品名與成分相符）"
+  },
+  {
+   "mpr": "54/2.2/0168",
+   "sahpra": "55/2.2/0168",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：NOMOWAKE （網站號碼 55/2.2/0168，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "54/21.12/0097",
+   "sahpra": "54/18.10/0097",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：UROMAX CO（網站號碼 54/18.10/0097，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "33/18.8/0054",
+   "sahpra": "33/21.8.2/0054",
+   "sahpra_status_seen": "Canceled",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：LOETTE 28（網站號碼 33/21.8.2/0054，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "F/18.1/229",
+   "sahpra": "F/18.8/229",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：NORDETTE*（網站號碼 F/18.8/229，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "50/3.1/0053.051",
+   "sahpra": "50/3.1/0053.050",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：ETOFLAM 60（網站號碼 50/3.1/0053.050，品名與成分相符）；同品牌其他品項：50/3.1/0054.051 ETOFLAM 90、50/3.1/0055.052 ETOFLAM 120"
+  },
+  {
+   "mpr": "A39/20.2.2/0534",
+   "sahpra": "A39/20.1.1/0534",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MYCOREST 150（網站號碼 A39/20.1.1/0534，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：A40/20.2.2/0438 MYCOREST 200"
+  },
+  {
+   "mpr": "41/20.14.1/008",
+   "sahpra": "41/20.1.1/0008",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：TAVALOXX 500（網站號碼 41/20.1.1/0008，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：50/20.1.1/0322 TAVALOXX IV 500"
+  },
+  {
+   "mpr": "41/20.14.1/009",
+   "sahpra": "41/20.1.1/0009",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：TAVALOXX 750（網站號碼 41/20.1.1/0009，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：41/20.1.1/0007 TAVALOXX 250、41/20.1.1/0008 TAVALOXX 500、50/20.1.1/0321 TAVALOXX IV 250"
+  },
+  {
+   "mpr": "53/21.8.2/0608",
+   "sahpra": "53/18.7/0608",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：LEVONORGESTREL 1,5 UNICORN（網站號碼 53/18.7/0608，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "56/20.1.1/0638",
+   "sahpra": "56/20.1.1/0638.637",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：ELTURIN IV（網站號碼 56/20.1.1/0638.637，品名與成分相符）"
+  },
+  {
+   "mpr": "35/20.2.28/0255",
+   "sahpra": "35/20.2.8/0255",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：KALETRA SOLUTION（網站號碼 35/20.2.8/0255，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "56/21.2/0994",
+   "sahpra": "65/21.2/0994",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：METPLITIN CO 50/850（網站號碼 65/21.2/0994，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "44/13.4.1/0095",
+   "sahpra": "44/21.5.1/0095",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MOMATE OINTMENT（網站號碼 44/21.5.1/0095，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：43/13.4.1/0250 MOMATE 0,1 % CREAM"
+  },
+  {
+   "mpr": "52/20.1.6/0255",
+   "sahpra": "52/20.1.6/0255.254",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：PIBAN（網站號碼 52/20.1.6/0255.254，品名與成分相符）"
+  },
+  {
+   "mpr": "43/24.1/0215",
+   "sahpra": "43/34/0215",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：IMMUNOLATE 500（網站號碼 43/34/0215，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "45/32.2/0219",
+   "sahpra": "45/34/0219",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MYCOPHENOLATE ALKEM 250（網站號碼 45/34/0219，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "45/32.2/0220",
+   "sahpra": "45/34/0220",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MYCOPHENOLATE ALKEM 500（網站號碼 45/34/0220，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "30/24/0273",
+   "sahpra": "30/34/0273",
+   "sahpra_status_seen": "Canceled",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：NICORETTE MINT 4 mg（網站號碼 30/34/0273，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：46/34/0164 NICORETTE ICY WHITE 2 mg、46/34/0165 NICORETTE ICY WHITE 4 mg、50/32.16/0547 NICORETTE QUICKMIST"
+  },
+  {
+   "mpr": "45/11.4.3/0515",
+   "sahpra": "42/11.4.3/0515",
+   "sahpra_status_seen": "Canceled",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：OMEPRAZOLE-SAFELINE INJECTION 40 mg（網站號碼 42/11.4.3/0515，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "D/15.2/22",
+   "sahpra": "D/15.4/22",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：MINIMS PHENYLEPHRINE HYDROCHLORIDE 10 %（網站號碼 D/15.4/22，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "30/10.1/0049",
+   "sahpra": "30/5.8/0049",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：FLUDACTIL CO LINCTUS（網站號碼 30/5.8/0049，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "45/2.6.5/0648",
+   "sahpra": "450/2.6.5/0648",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：QUETZ 200 mg（網站號碼 450/2.6.5/0648，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）"
+  },
+  {
+   "mpr": "50/4.6/1016",
+   "sahpra": "50/7.6/1016",
+   "sahpra_status_seen": "Canceled",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：ENTRESTO 50 mg（網站號碼 50/7.6/1016，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：50/7.6/1017 ENTRESTO 100 mg、50/7.6/1018 ENTRESTO 200 mg"
+  },
+  {
+   "mpr": "A38/12.2/0617",
+   "sahpra": "A38/1.2/0617",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：SERDEP 100（網站號碼 A38/1.2/0617，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：38/1.2/0020 SERDEP-50"
+  },
+  {
+   "mpr": "A39/20.2.2/0397",
+   "sahpra": "A38/20.2.2/0397",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：TERBANE 250（網站號碼 A38/20.2.2/0397，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：A39/20.2.2/0009 TERBANE 10 mg、56/20.2.2/1092 TERBANE NAIL"
+  },
+  {
+   "mpr": "J/13.12/350",
+   "sahpra": "J/12/350",
+   "sahpra_status_seen": "Registered",
+   "checked": "2026-11-21",
+   "basis": "SAHPRA medapps 品名搜尋（pm 2026-11-21 瀏覽器人工查詢）：品名搜尋找到：RETIN-A 0,025%（網站號碼 J/12/350，品名與成分相符；號碼僅序號相同，字首/年份/類別寫法不同）；同品牌其他品項：F/13.12/106 RETIN-A 0,05%*"
+  }
+ ]
+}
