@@ -602,6 +602,8 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 套用（2026-11-21，SAHPRA 匯出用 11-16 版）：142 筆跟證據包裡原有的 SAHPRA 號碼重複，合併成一筆；13 筆（3 張：Meticorten LX/21.5.1/269、Fansidar K/20.3.6/68、Lavem 52/20.2.8/0090.089）改成 SAHPRA 狀態 Registered。
   Fansidar（SAHPRA 成分只有 pyrimethamine＋sulfadoxine）原被 MPR 成分欄錯植收進 codeine、diphenhydramine 共 6 個證據包，Meticorten（只有 prednisone）收進 betamethasone 3 個證據包；對回 SAHPRA 後照重建的「SAHPRA 成分全文不含本藥」規則移到 excluded_records（附原因）。
   66 頁概覽狀態列／張數列與許可證表由程式同步（多數張數減少，例 codeine 271→269、amlodipine 321→318），description 句尾照快照重算；正文沒有跟新事實矛盾的句子，沒有新查核紀錄。這次改到的頁超過排程停損門檻 43 頁，手動補跑設 LICENSE_REFRESH_MAX_PAGES=80。
+- 2026-11-22：pm 標「疑似」的 98 筆以 SAHPRA 匯出逐筆比對，9 筆跟 pm 確認的同類（號碼本體相同、SAHPRA 只多序號後綴，產品名含劑量相同、只有一個候選；pm 沒收是因為網頁沒有成分）補進對照表（Amlodipine 5／10 mg Alkem、Aripiprazole 5／10／15 Kiara、Abipip 10／15 ODT、Albrex 200、Zercap 20），共 71 筆；其餘 89 筆號碼本體不同（另一張註冊）不收。
+  狀態更新 14 筆（Albrex 200 51/3.1/0725.723 SAHPRA 為 Canceled，celecoxib 有效 55→54）；amlodipine、aripiprazole、celecoxib 3 頁概覽列同步，正文沒有矛盾句。同類問題另修：母目錄 license_refresh 的「正文仍寫全部有效」提醒也跳過 description 在地化句尾。
 - 同日修母目錄 check_drug_page.py：M3 不再比對 description 的在地化句尾（description_local_log.json 的 tail，數字由 gate 的 drug_meta_description --check 對快照把關）。原本每週排程在 checker 之後才重算句尾，張數一變 checker 就會整批擋下（30 站都會遇到）。
 
 ## 同一 DrugBank ID 的重複公開頁改轉址（2026-11-19）
