@@ -127,9 +127,9 @@
       "date": "2026-11-19"
     },
     "bisoprolol": {
-      "tail": "In South Africa: 93 SAHPRA registrations (86 valid)",
+      "tail": "In South Africa: 93 SAHPRA registrations (84 valid)",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-23"
     },
     "bupropion": {
       "tail": "In South Africa: 30 SAHPRA registrations (25 valid)",
@@ -187,9 +187,9 @@
       "date": "2026-11-19"
     },
     "cefuroxime": {
-      "tail": "In South Africa: 88 SAHPRA registrations (64 valid)",
+      "tail": "In South Africa: 88 SAHPRA registrations (63 valid)",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-23"
     },
     "celecoxib": {
       "tail": "In South Africa: 60 SAHPRA registrations (54 valid)",
@@ -387,9 +387,9 @@
       "date": "2026-11-19"
     },
     "dorzolamide": {
-      "tail": "In South Africa: 34 SAHPRA registrations (30 valid)",
+      "tail": "In South Africa: 34 SAHPRA registrations (29 valid)",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-23"
     },
     "doxycycline": {
       "tail": "In South Africa: 28 SAHPRA registrations (15 valid)",
@@ -642,9 +642,9 @@
       "date": "2026-11-19"
     },
     "latanoprost": {
-      "tail": "In South Africa: 28 SAHPRA registrations (22 valid)",
+      "tail": "In South Africa: 28 SAHPRA registrations (21 valid)",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-23"
     },
     "leucovorin": {
       "tail": "In South Africa: 6 SAHPRA registrations (6 valid)",
@@ -757,9 +757,9 @@
       "date": "2026-11-19"
     },
     "morphine": {
-      "tail": "In South Africa: 32 SAHPRA registrations (25 valid)",
+      "tail": "In South Africa: 32 SAHPRA registrations (24 valid)",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-23"
     },
     "moxifloxacin": {
       "tail": "In South Africa: 30 SAHPRA registrations (27 valid)",
@@ -942,9 +942,9 @@
       "date": "2026-11-21"
     },
     "quinapril": {
-      "tail": "In South Africa: 42 SAHPRA registrations (19 valid)",
+      "tail": "In South Africa: 42 SAHPRA registrations (17 valid)",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-23"
     },
     "ranitidine": {
       "tail": "In South Africa: 68 SAHPRA registrations (25 valid)",
@@ -1092,9 +1092,9 @@
       "date": "2026-11-19"
     },
     "trandolapril": {
-      "tail": "In South Africa: 25 SAHPRA registrations (12 valid)",
+      "tail": "In South Africa: 25 SAHPRA registrations (11 valid)",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-19"
+      "date": "2026-11-23"
     },
     "trazodone": {
       "tail": "In South Africa: 23 SAHPRA registrations (21 valid)",
@@ -1127,9 +1127,9 @@
       "date": "2026-11-21"
     },
     "valsartan": {
-      "tail": "In South Africa: 255 SAHPRA registrations (222 valid)",
+      "tail": "In South Africa: 255 SAHPRA registrations (216 valid)",
       "original": "Approved use: Not recorded in the local data",
-      "date": "2026-11-21"
+      "date": "2026-11-23"
     },
     "verapamil": {
       "tail": "In South Africa: 22 SAHPRA registrations (18 valid)",
@@ -3103,6 +3103,62 @@
       "date": "2026-11-22",
       "from": "\"Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In South Africa: 60 SAHPRA registrations (55 valid)\"",
       "to": "\"Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In South Africa: 60 SAHPRA registrations (54 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bisoprolol.md",
+      "date": "2026-11-23",
+      "from": "\"Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 93 SAHPRA registrations (86 valid)\"",
+      "to": "\"Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 93 SAHPRA registrations (84 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cefuroxime.md",
+      "date": "2026-11-23",
+      "from": "\"Cefuroxime: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In South Africa: 88 SAHPRA registrations (64 valid)\"",
+      "to": "\"Cefuroxime: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In South Africa: 88 SAHPRA registrations (63 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dorzolamide.md",
+      "date": "2026-11-23",
+      "from": "\"Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In South Africa: 34 SAHPRA registrations (30 valid)\"",
+      "to": "\"Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In South Africa: 34 SAHPRA registrations (29 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/latanoprost.md",
+      "date": "2026-11-23",
+      "from": "\"Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). In South Africa: 28 SAHPRA registrations (22 valid)\"",
+      "to": "\"Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). In South Africa: 28 SAHPRA registrations (21 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/morphine.md",
+      "date": "2026-11-23",
+      "from": "\"Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). In South Africa: 32 SAHPRA registrations (25 valid)\"",
+      "to": "\"Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). In South Africa: 32 SAHPRA registrations (24 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/quinapril.md",
+      "date": "2026-11-23",
+      "from": "\"Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 42 SAHPRA registrations (19 valid)\"",
+      "to": "\"Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 42 SAHPRA registrations (17 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trandolapril.md",
+      "date": "2026-11-23",
+      "from": "\"Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 25 SAHPRA registrations (12 valid)\"",
+      "to": "\"Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 25 SAHPRA registrations (11 valid)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/valsartan.md",
+      "date": "2026-11-23",
+      "from": "\"Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). In South Africa: 255 SAHPRA registrations (222 valid)\"",
+      "to": "\"Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). In South Africa: 255 SAHPRA registrations (216 valid)\"",
       "tool": ".claude/drug_meta_description.py --apply"
     }
   ]

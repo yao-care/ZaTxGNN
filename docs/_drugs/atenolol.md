@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ATENOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and myocardial infarction"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 33 of 41) |
-| Number of SAHPRA Registrations | 41 (valid: 33) |
+| South Africa Market Status | Marketed (valid licences: 31 of 41) |
+| Number of SAHPRA Registrations | 41 (valid: 31) |
 | Recommended Decision | Hold |
 
 ---

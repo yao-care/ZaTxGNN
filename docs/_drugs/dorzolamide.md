@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-11-20
-description: "Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In South Africa: 34 SAHPRA registrations (30 valid)"
+last_modified_at: 2026-11-24
+description: "Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In South Africa: 34 SAHPRA registrations (29 valid)"
 ---
 
 # Dorzolamide
@@ -50,8 +50,8 @@ There are **no clinical trials and no publications** supporting this prediction,
 | Predicted New Indication | hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 30 of 34) |
-| Number of SAHPRA Registrations | 34 (valid: 30) |
+| South Africa Market Status | Marketed (valid licences: 29 of 34) |
+| Number of SAHPRA Registrations | 34 (valid: 29) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

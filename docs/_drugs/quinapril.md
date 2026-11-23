@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 42 SAHPRA registrations (19 valid)"
+description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 42 SAHPRA registrations (17 valid)"
 ---
 
 # Quinapril
@@ -49,8 +49,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| South Africa Market Status | Marketed (valid licences: 19 of 42; 3 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 42 (valid: 19, of which 3 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 17 of 42; 3 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 42 (valid: 17, of which 3 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

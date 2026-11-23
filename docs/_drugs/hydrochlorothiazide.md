@@ -5,7 +5,7 @@ layout: default
 title: Hydrochlorothiazide
 parent: Known Uses Only (No New Predictions)
 nav_order: 253
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| South Africa Market Status | Marketed (valid licences: 254 of 350; 12 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 350 (valid: 254, of which 12 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 252 of 350; 12 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 350 (valid: 252, of which 12 not confirmed by SAHPRA) |
 
 > **⚠️ Data Quality Note:** Hydrochlorothiazide is a well-established generic listed on South Africa's Essential Medicines List (EML) for primary care and present in numerous combination antihypertensive products. **Direct verification via the [SAHPRA online register](https://www.sahpra.org.za/find-a-medicine/) is required before this figure is acted upon.**
 

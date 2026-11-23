@@ -18,7 +18,7 @@
   "drugs_without_data": 1,
   "drugs_partial": 0,
   "items_total": 15999,
-  "items_current": 11881
+  "items_current": 11859
  },
  "reviews": {
   "records": 671,
@@ -54,15 +54,6 @@
    "i": "brain stem infarction"
   },
   {
-   "t": "Valsartan",
-   "u": "/drugs/valsartan/",
-   "l": "L4",
-   "lt": 255,
-   "lv": 222,
-   "r": 2,
-   "i": "malignant hypertensive renal disease"
-  },
-  {
    "t": "Amoxicillin",
    "u": "/drugs/amoxicillin/",
    "l": "L5",
@@ -70,6 +61,15 @@
    "lv": 217,
    "r": 2,
    "i": "hyperamylasemia"
+  },
+  {
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "l": "L4",
+   "lt": 255,
+   "lv": 216,
+   "r": 2,
+   "i": "malignant hypertensive renal disease"
   },
   {
    "t": "Metformin",
@@ -234,7 +234,7 @@
    "u": "/drugs/atenolol/",
    "l": "L5",
    "lt": 41,
-   "lv": 33,
+   "lv": 31,
    "r": 3,
    "i": "malignant hypertensive renal disease"
   }

@@ -5,10 +5,10 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 468
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
-description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). In South Africa: 255 SAHPRA registrations (222 valid)"
+description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). In South Africa: 255 SAHPRA registrations (216 valid)"
 ---
 
 # Valsartan
@@ -50,8 +50,8 @@ but currently there are **no registered clinical trials** and only **1 indirect 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| South Africa Market Status | Marketed (valid licences: 222 of 255; 2 of the valid not confirmed by SAHPRA) |
-| Number of SAHPRA Registrations | 255 (valid: 222, of which 2 not confirmed by SAHPRA) |
+| South Africa Market Status | Marketed (valid licences: 216 of 255; 2 of the valid not confirmed by SAHPRA) |
+| Number of SAHPRA Registrations | 255 (valid: 216, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

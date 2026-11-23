@@ -633,7 +633,7 @@
     "l": "L4",
     "i": "malignant hypertensive renal disease",
     "lt": 255,
-    "lv": 222,
+    "lv": 216,
     "r": 2,
     "rs": "Removed: \"All 20 registrations are valid single-ingredient registrations according to the data compiled\"",
     "x": 0
@@ -891,17 +891,6 @@
     "x": 0
    },
    {
-    "t": "Bisoprolol",
-    "u": "/drugs/bisoprolol/",
-    "l": "L5",
-    "i": "malignant hypertensive renal disease",
-    "lt": 93,
-    "lv": 86,
-    "r": 2,
-    "rs": "Removed: \"Nine valid SAHPRA registrations exist, all listed as single-ingredient records (no cancelled…",
-    "x": 0
-   },
-   {
     "t": "Diclofenac",
     "u": "/drugs/diclofenac/",
     "l": "L5",
@@ -910,6 +899,17 @@
     "lv": 86,
     "r": 2,
     "rs": "Removed: \"with 14 valid SAHPRA registrations and none cancelled\"",
+    "x": 0
+   },
+   {
+    "t": "Bisoprolol",
+    "u": "/drugs/bisoprolol/",
+    "l": "L5",
+    "i": "malignant hypertensive renal disease",
+    "lt": 93,
+    "lv": 84,
+    "r": 2,
+    "rs": "Removed: \"Nine valid SAHPRA registrations exist, all listed as single-ingredient records (no cancelled…",
     "x": 0
    },
    {
@@ -1089,17 +1089,6 @@
     "x": 0
    },
    {
-    "t": "Cefuroxime",
-    "u": "/drugs/cefuroxime/",
-    "l": "L5",
-    "i": "polyclonal hyperviscosity syndrome",
-    "lt": 88,
-    "lv": 64,
-    "r": 2,
-    "rs": "Removed: \"All four registrations are single-ingredient products and are currently valid\"",
-    "x": 0
-   },
-   {
     "t": "Pseudoephedrine",
     "u": "/drugs/pseudoephedrine/",
     "l": "L5",
@@ -1108,6 +1097,17 @@
     "lv": 64,
     "r": 2,
     "rs": "Removed: \"for the 19 SAHPRA registrations\"",
+    "x": 0
+   },
+   {
+    "t": "Cefuroxime",
+    "u": "/drugs/cefuroxime/",
+    "l": "L5",
+    "i": "polyclonal hyperviscosity syndrome",
+    "lt": 88,
+    "lv": 63,
+    "r": 2,
+    "rs": "Removed: \"All four registrations are single-ingredient products and are currently valid\"",
     "x": 0
    },
    {
@@ -1573,17 +1573,6 @@
     "x": 0
    },
    {
-    "t": "Atenolol",
-    "u": "/drugs/atenolol/",
-    "l": "L5",
-    "i": "malignant hypertensive renal disease",
-    "lt": 41,
-    "lv": 33,
-    "r": 3,
-    "rs": "Removed: \"although they are recorded as single-ingredient\"",
-    "x": 0
-   },
-   {
     "t": "Lansoprazole",
     "u": "/drugs/lansoprazole/",
     "l": "L5",
@@ -1650,17 +1639,6 @@
     "x": 0
    },
    {
-    "t": "Sacubitril",
-    "u": "/drugs/sacubitril/",
-    "l": "L5",
-    "i": "brain small vessel disease 1 with or without ocular anomalies",
-    "lt": 32,
-    "lv": 32,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available for sacubitril in the data compiled for this report\"…",
-    "x": 0
-   },
-   {
     "t": "Sertraline",
     "u": "/drugs/sertraline/",
     "l": "L5",
@@ -1669,6 +1647,17 @@
     "lv": 32,
     "r": 2,
     "rs": "Removed: \"All four registrations are single-ingredient products and all are valid\"",
+    "x": 0
+   },
+   {
+    "t": "Atenolol",
+    "u": "/drugs/atenolol/",
+    "l": "L5",
+    "i": "malignant hypertensive renal disease",
+    "lt": 41,
+    "lv": 31,
+    "r": 3,
+    "rs": "Removed: \"although they are recorded as single-ingredient\"",
     "x": 0
    },
    {
@@ -1705,17 +1694,6 @@
     "x": 0
    },
    {
-    "t": "Dorzolamide",
-    "u": "/drugs/dorzolamide/",
-    "l": "L5",
-    "i": "hypotrichosis simplex of the scalp",
-    "lt": 34,
-    "lv": 30,
-    "r": 2,
-    "rs": "Removed: \"Two SAHPRA registrations are recorded as valid, both single-ingredient products supplied as drops.…",
-    "x": 0
-   },
-   {
     "t": "Salicylic Acid",
     "u": "/drugs/salicylic-acid/",
     "l": "L5",
@@ -1724,6 +1702,17 @@
     "lv": 30,
     "r": 2,
     "rs": "Removed: \"Both registrations are valid and are topical products\"",
+    "x": 0
+   },
+   {
+    "t": "Dorzolamide",
+    "u": "/drugs/dorzolamide/",
+    "l": "L5",
+    "i": "hypotrichosis simplex of the scalp",
+    "lt": 34,
+    "lv": 29,
+    "r": 2,
+    "rs": "Removed: \"Two SAHPRA registrations are recorded as valid, both single-ingredient products supplied as drops.…",
     "x": 0
    },
    {
@@ -1746,6 +1735,17 @@
     "lv": 29,
     "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products, and none are cancelled\"",
+    "x": 0
+   },
+   {
+    "t": "Sacubitril",
+    "u": "/drugs/sacubitril/",
+    "l": "L5",
+    "i": "brain small vessel disease 1 with or without ocular anomalies",
+    "lt": 32,
+    "lv": 29,
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available for sacubitril in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -1856,17 +1856,6 @@
     "lv": 25,
     "r": 0,
     "rs": "",
-    "x": 0
-   },
-   {
-    "t": "Morphine",
-    "u": "/drugs/morphine/",
-    "l": "L5",
-    "i": "myofascial pain syndrome",
-    "lt": 32,
-    "lv": 25,
-    "r": 2,
-    "rs": "Removed: \"and all three registrations in the data compiled for this report are valid single-ingredient…",
     "x": 0
    },
    {
@@ -2013,6 +2002,17 @@
     "x": 0
    },
    {
+    "t": "Morphine",
+    "u": "/drugs/morphine/",
+    "l": "L5",
+    "i": "myofascial pain syndrome",
+    "lt": 32,
+    "lv": 24,
+    "r": 2,
+    "rs": "Removed: \"and all three registrations in the data compiled for this report are valid single-ingredient…",
+    "x": 0
+   },
+   {
     "t": "Oxymetazoline",
     "u": "/drugs/oxymetazoline/",
     "l": "L5",
@@ -2134,17 +2134,6 @@
     "x": 0
    },
    {
-    "t": "Latanoprost",
-    "u": "/drugs/latanoprost/",
-    "l": "L5",
-    "i": "visceral calciphylaxis",
-    "lt": 28,
-    "lv": 22,
-    "r": 2,
-    "rs": "Removed: \"All three registrations are valid single-ingredient products in drop form\"",
-    "x": 0
-   },
-   {
     "t": "Theophylline",
     "u": "/drugs/theophylline/",
     "l": "L5",
@@ -2164,6 +2153,17 @@
     "lv": 21,
     "r": 2,
     "rs": "Removed: \"All four registrations are single-ingredient products and currently valid\"",
+    "x": 0
+   },
+   {
+    "t": "Latanoprost",
+    "u": "/drugs/latanoprost/",
+    "l": "L5",
+    "i": "visceral calciphylaxis",
+    "lt": 28,
+    "lv": 21,
+    "r": 2,
+    "rs": "Removed: \"All three registrations are valid single-ingredient products in drop form\"",
     "x": 0
    },
    {
@@ -2241,17 +2241,6 @@
     "lv": 19,
     "r": 2,
     "rs": "Removed: \"One further registration is held for Sinutab With Codeine (Reg. No. F/5.8/279, tablet)\"",
-    "x": 0
-   },
-   {
-    "t": "Quinapril",
-    "u": "/drugs/quinapril/",
-    "l": "L5",
-    "i": "malignant hypertensive renal disease",
-    "lt": 42,
-    "lv": 19,
-    "r": 2,
-    "rs": "Removed: \"All five registrations are valid and oral tablets. but the data compiled for this report classify…",
     "x": 0
    },
    {
@@ -2398,6 +2387,17 @@
     "x": 0
    },
    {
+    "t": "Quinapril",
+    "u": "/drugs/quinapril/",
+    "l": "L5",
+    "i": "malignant hypertensive renal disease",
+    "lt": 42,
+    "lv": 17,
+    "r": 2,
+    "rs": "Removed: \"All five registrations are valid and oral tablets. but the data compiled for this report classify…",
+    "x": 0
+   },
+   {
     "t": "Serine",
     "u": "/drugs/serine/",
     "l": "L5",
@@ -2428,17 +2428,6 @@
     "lv": 17,
     "r": 2,
     "rs": "Removed: \"Warfarin has 1 valid single-ingredient registration in South Africa\"",
-    "x": 0
-   },
-   {
-    "t": "Atazanavir",
-    "u": "/drugs/atazanavir/",
-    "l": "L5",
-    "i": "simian immunodeficiency virus infection",
-    "lt": 35,
-    "lv": 16,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are single-ingredient products\"",
     "x": 0
    },
    {
@@ -2560,6 +2549,17 @@
     "lv": 14,
     "r": 2,
     "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
+    "x": 0
+   },
+   {
+    "t": "Atazanavir",
+    "u": "/drugs/atazanavir/",
+    "l": "L5",
+    "i": "simian immunodeficiency virus infection",
+    "lt": 35,
+    "lv": 14,
+    "r": 2,
+    "rs": "Removed: \"Both registrations are single-ingredient products\"",
     "x": 0
    },
    {
@@ -2706,17 +2706,6 @@
     "x": 0
    },
    {
-    "t": "Trandolapril",
-    "u": "/drugs/trandolapril/",
-    "l": "L5",
-    "i": "malignant hypertensive renal disease",
-    "lt": 25,
-    "lv": 12,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
     "t": "Vitamin E",
     "u": "/drugs/vitamin-e/",
     "l": "L5",
@@ -2791,6 +2780,17 @@
     "lv": 11,
     "r": 3,
     "rs": "Removed: \"Four further registrations are not listed above: ITN 1606n 150ml and ITN 55a 600ml (TPN)…",
+    "x": 0
+   },
+   {
+    "t": "Trandolapril",
+    "u": "/drugs/trandolapril/",
+    "l": "L5",
+    "i": "malignant hypertensive renal disease",
+    "lt": 25,
+    "lv": 11,
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
