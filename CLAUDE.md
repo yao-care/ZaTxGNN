@@ -672,3 +672,10 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 
 用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落（## South Africa Market Information）、證據包卻有許可證紀錄的，要補段落與程式表。
 2026-11-24 全量量測本站 0 頁，所以只加 gate：`src/zatxgnn/regulatory/licenses.py` 的 page_problems 擋「公開頁快照有程式表列卻沒有市場段落」（之後若出現，再比照 Jp 在本站的 `scripts/sync_license_pages.py` 加 add_section）。gate exit 0。
+2026-11-24 第四輪（用戶決定）：補上自動補段落的程式。`scripts/sync_license_pages.py` 的 `add_section`：公開頁整頁沒有「## South Africa Market Information」、證據包有紀錄的，
+在「## Cytotoxicity」之前（沒有就 Safety Considerations、Conclusion and Next Steps、Review Log、Disclaimer 之前；查核紀錄段標題在 `<!-- review:begin log -->` 區塊裡時放在區塊之前）
+補段落與程式區塊（min(5, 總數) 列，總數較多時加 Showing 句，同 add_missing）；noindex 頁、沒有紀錄的頁不補。接在 resync_table（每週排程 license_adapter.sync_tables、build_license_snapshot.py 結尾）
+與 `--add-missing`；license_adapter 的 PAGE_NOTE 放行新標題行與程式區塊標記。apply_drug_reviews.py 本站照舊不動程式表。全量量測 0 頁要補。
+驗證：拿掉 abacavir（後接 Safety Considerations）、benzoyl_peroxide（後接 Cytotoxicity）兩個公開頁與 noindex 的 amitriptyline_hydrochloride 的市場段落：gate 擋 abacavir（noindex 不擋），
+adapter sync_tables 補回的程式表與原頁一字不差（AI 寫的段落說明句與錨在上面的查核框不會補回，預期內）、noindex 不補、再跑 0 頁；`--add-missing` 同樣補得回；
+另以拿掉市場／安全性／結論段的 abacavir 確認段落放在 log 區塊之前、可重複執行；之後還原原頁。checker 全量 0、gate exit 0。

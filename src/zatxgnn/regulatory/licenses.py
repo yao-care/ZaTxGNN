@@ -112,7 +112,7 @@ def page_problems(stem, text):
     # 2026-11-24 第三輪（用戶決定）：公開頁快照有程式表列、整頁卻沒有市場段落 → 擋
     _fm = text.split("---", 2)[1] if text.startswith("---") else ""
     if a is None and e.get("rows") and not re.search(r"^noindex:\s*true", _fm, re.M):
-        errs.append("公開頁有 SAHPRA 註冊紀錄卻沒有「## South Africa Market Information」段落（要補段落與程式表，比照 JpTxGNN 的 sync_license_tables.add_section）")
+        errs.append("公開頁有 SAHPRA 註冊紀錄卻沒有「## South Africa Market Information」段落（跑 python3 scripts/sync_license_pages.py --add-missing：add_section 會補段落與程式表）")
     fc = e.get("facts")
     if fc:
         all_rows = [r for t in tables(lines) for r in rows(t)]

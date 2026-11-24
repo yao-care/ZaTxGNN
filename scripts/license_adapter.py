@@ -161,7 +161,8 @@ def validate(new, old):
 
 ROOT = Path(__file__).resolve().parents[1]
 # 每週更新允許改的非表格行：許可證表下程式產生的「Showing N of M」（重排後總數變了要跟著改）與它前後的空行
-PAGE_NOTE = r"^Showing \d+ of \d+ registrations \(valid registrations first\)\.$"
+# 2026-11-24 第四輪：整頁沒有市場段落的公開頁由 sync_license_pages.add_section 補段落，放行補的標題行與程式區塊標記
+PAGE_NOTE = r"^(Showing \d+ of \d+ registrations \(valid registrations first\)\.|## South Africa Market Information|<!-- licenses:(begin|end) -->)$"
 _ALIAS = {}  # {MPR 號碼 key: SAHPRA 匯出寫法}（status_index 時依新資料建）
 _KEY = None
 _RB = _S = _RK = None  # 依成分重建的程式、新資料的 SAHPRA 全量、重建的 rk（合併同號紀錄用）

@@ -15,7 +15,7 @@ dump_license_facts_20261021.py（事實）與 license_table_sync 的 sync_market
 --mark-existing 只替現有程式區塊補標記、不改內容；carry_block 給 sync_notes_to_docs.py 重寫頁面時移植程式區塊；rows_of 給快照用。
 用法（repo 根目錄）：python3 scripts/sync_license_pages.py --ws <工作目錄> [--dry-run] [--log out.tsv] [頁 ...]
              python3 scripts/sync_license_pages.py --mark-existing [--dry-run]
-             python3 scripts/sync_license_pages.py --add-missing [--dry-run]（市場段落沒有表、證據包有紀錄的頁補程式區塊，2026-11-24）
+             python3 scripts/sync_license_pages.py --add-missing [--dry-run]（市場段落沒有表、證據包有紀錄的頁補程式區塊，2026-11-24；整頁沒有市場段落的公開頁另補段落，add_section）
 """
 import importlib.util
 import json
@@ -394,6 +394,47 @@ def add_missing(text, bundle):
     return re.sub(r"\n{3,}", "\n\n", "\n".join(out))
 
 
+# add_section（2026-11-24 第四輪，用戶決定；比照 JpTxGNN 第二輪）：插入位置依序找這些二級標題，段落放在第一個找到的之前
+ADD_BEFORE = ("Cytotoxicity", "Safety Considerations", "Conclusion and Next Steps", "Review Log", "Disclaimer")
+
+
+def add_section(text, bundle):
+    """公開頁（非 noindex）整頁沒有「## South Africa Market Information」、證據包有紀錄：補段落與程式區塊
+    （列數 min(5, 總數)，總數多於列數時加 SHOW 句；同 add_missing），之後由 resync_table 照常每週重排。
+    位置在細胞毒性／安全性段之前（沒有就結論、查核紀錄、免責聲明段之前；查核紀錄段標題在 <!-- review:begin log -->
+    區塊裡時放在區塊之前）。已有段落或不補時原樣回傳。"""
+    lines = text.split("\n")
+    if SEC in lines:
+        return text
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    if re.search(r"^noindex:\s*true", fm, re.M):
+        return text
+    recs = (bundle.get("tfda") or {}).get("records") or []
+    total = len({r.get("license_id") for r in recs if r.get("license_id")})
+    if not total:
+        return text
+    heads = {}
+    for i, l in enumerate(lines):
+        m = re.match(r"^## (.+?)\s*$", l)
+        if m and m.group(1) not in heads:
+            heads[m.group(1)] = i
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return text
+    k = at - 1
+    while k > 0 and not lines[k].strip():
+        k -= 1
+    if lines[k].strip() == "<!-- review:begin log -->":
+        at = k
+    nrows = min(5, total)
+    tb, total = table_block(recs, nrows)
+    sec = [SEC, "", BEGIN, ""] + tb + (["", SHOW.format(n=nrows, m=total)] if total > nrows else []) + ["", END, ""]
+    head = lines[:at]
+    while head and not head[-1].strip():
+        head.pop()
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(head + [""] + sec + lines[at:]))
+
+
 def process(ck, page, fc, bundle, manual):
     raw = page.read_bytes().decode("utf-8")
     crlf = "\r\n" in raw[:500]
@@ -531,8 +572,11 @@ def resync_table(page, bundle):
     lines = t.split("\n")
     recs = (bundle.get("tfda") or {}).get("records") or []
     total = len({r.get("license_id") for r in recs if r.get("license_id")})
-    if SEC not in lines or not total:
+    if not total:
         return None, crlf
+    if SEC not in lines:  # 整頁沒有市場段落的公開頁：補段落（add_section；noindex 不補）
+        out = add_section(t, bundle)
+        return (out if out != t else None), crlf
     a = lines.index(SEC) + 1
     b = next((k for k in range(a, len(lines)) if lines[k].startswith("## ")), len(lines))
     tb = [k for k in range(a, b) if lines[k].startswith("|")]
@@ -595,7 +639,8 @@ def main(argv):
                 continue
             crlf = "\r\n" in raw[:500]
             t0 = raw.replace("\r\n", "\n")
-            new = add_missing(t0, json.loads(bf.read_text(encoding="utf-8")))
+            _b = json.loads(bf.read_text(encoding="utf-8"))
+            new = add_section(add_missing(t0, _b), _b)
             if new != t0:
                 n += 1
                 print("補程式表：", page.stem)
