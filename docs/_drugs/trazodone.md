@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 457
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRAZODONE"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L3). In South Africa: 23 SAHPRA registrations (21 valid)"
@@ -114,7 +114,7 @@ The data compiled for this report does not show Essential Medicines List (EML) s
 
 <!-- review:begin za-lic-20261105-trazodone-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient oral products. The data compiled for this report does not show Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 23 registrations for this drug, 21 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient oral products. The data compiled for this report does not show Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-trazodone-1 -->
 
@@ -161,7 +161,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All three registrations are valid single-ingredient oral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient oral products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768) |
 
 <!-- review:end log -->

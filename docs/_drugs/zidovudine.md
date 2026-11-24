@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 476
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -89,7 +89,7 @@ The approved indication text was not available in the data compiled for this rep
 
 <!-- review:begin za-lic-20261105-zidovudine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Nine valid SAHPRA registrations were found, all in tablet or kit form. The approved indication text was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 74 registrations for this drug, 45 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Nine valid SAHPRA registrations were found, all in tablet or kit form. The approved indication text was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-zidovudine-1 -->
 
@@ -111,7 +111,7 @@ The simvastatin entry looks like a data-matching error, because simvastatin is n
 
 <!-- review:begin za-lic-20261105-zidovudine-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named "Simayla Simvastatin 40" (Reg. No. 36/7.5/0372). The simvastatin entry looks like a data-matching error, because simvastatin is not a zidovudine product." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 74 registrations for this drug, 45 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named "Simayla Simvastatin 40" (Reg. No. 36/7.5/0372). The simvastatin entry looks like a data-matching error, because simvastatin is not a zidovudine product." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-zidovudine-2 -->
 
@@ -154,8 +154,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Nine valid SAHPRA registrations were found, all in tablet or kit form" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named "Simayla Simvastatin 40" (Reg. No. 36/7.5/0" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Nine valid SAHPRA registrations were found, all in tablet or kit form" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named "Simayla Simvastatin 40" (Reg. No. 36/7.5/0" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->

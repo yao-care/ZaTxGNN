@@ -109,7 +109,7 @@ Most listed products appear to be bisoprolol combination tablets (e.g. with hydr
 
 <!-- review:begin za-lic-20261105-bisoprolol-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Nine valid SAHPRA registrations exist, all listed as single-ingredient records (no cancelled registrations). Most listed products appear to be bisoprolol combination tablets (e.g. with hydrochlorothiazide or amlodipine, judging by the product names)." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 93 registrations for this drug, 86 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Nine valid SAHPRA registrations exist, all listed as single-ingredient records (no cancelled registrations). Most listed products appear to be bisoprolol combination tablets (e.g. with hydrochlorothiazide or amlodipine, judging by the product names)." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-bisoprolol-1 -->
 
@@ -162,7 +162,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Nine valid SAHPRA registrations exist, all listed as single-ingredient records (no cancelled registrations)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Nine valid SAHPRA registrations exist, all listed as single-ingredient records (no cancelled registrations)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e) |
 
 <!-- review:end log -->

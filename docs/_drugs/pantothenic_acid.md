@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Pantothenic acid"
 predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). In South Africa: 2 SAHPRA registrations (2 valid)"
@@ -114,7 +114,7 @@ The data compiled for this report do not include Essential Medicines List (EML) 
 
 <!-- review:begin za-lic-20261105-pantothenic_acid-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient entries, and all are injectable or parenteral products. The data compiled for this report do not include Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 2 registrations for this drug, 2 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient entries, and all are injectable or parenteral products. The data compiled for this report do not include Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-pantothenic_acid-1 -->
 
@@ -157,7 +157,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All three registrations are valid single-ingredient entries, and all are injectable or parenteral products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient entries, and all are injectable or parenteral products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

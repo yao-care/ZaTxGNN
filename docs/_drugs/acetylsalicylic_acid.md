@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). In South Africa: 159 SAHPRA registrations (105 valid)"
 ---
 
@@ -82,7 +82,7 @@ The local records do not include approved-indication text. Essential Medicines L
 
 <!-- review:begin za-lic-20261105-acetylsalicylic_acid-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Four SAHPRA registrations are recorded as valid. The local records do not include approved-indication text." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 160 registrations for this drug, 108 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Four SAHPRA registrations are recorded as valid. The local records do not include approved-indication text." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-acetylsalicylic_acid-1 -->
 
@@ -139,7 +139,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Four SAHPRA registrations are recorded as valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Four SAHPRA registrations are recorded as valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data for this drug are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1) |
 
 <!-- review:end log -->

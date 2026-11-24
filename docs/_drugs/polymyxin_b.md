@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 378
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). In South Africa: 15 SAHPRA registrations (7 valid)"
@@ -111,7 +111,7 @@ No oral, injectable or inhalation product appears among the SAHPRA entries compi
 
 <!-- review:begin za-lic-20261105-polymyxin_b-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid and are topical (skin or eye) products. No oral, injectable or inhalation product appears among the SAHPRA entries compiled, so the inhaled or systemic routes relevant to bronchitis would be unregistered use." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 15 registrations for this drug, 8 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid and are topical (skin or eye) products. No oral, injectable or inhalation product appears among the SAHPRA entries compiled, so the inhaled or systemic routes relevant to bronchitis would be unregistered use." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-polymyxin_b-1 -->
 
@@ -164,7 +164,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All three registrations are valid and are topical (skin or eye) products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All three registrations are valid and are topical (skin or eye) products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
 
 <!-- review:end log -->

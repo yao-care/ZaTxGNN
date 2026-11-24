@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -94,7 +94,7 @@ Essential Medicines List (EML) inclusion status is not available in the data com
 
 <!-- review:begin za-lic-20261105-empagliflozin-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Essential Medicines List (EML) inclusion status is not available in the data compiled for this report. All three registrations are valid and oral tablets. The Synjardy registration is listed in the records as a single-ingredient entry, but the product name suggests a fixed-dose combination. It should therefore not be used to describe empagliflozin alone." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 36 registrations for this drug, 36 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Essential Medicines List (EML) inclusion status is not available in the data compiled for this report. All three registrations are valid and oral tablets. The Synjardy registration is listed in the records as a single-ingredient entry, but the product name suggests a fixed-dose combination. It should therefore not be used to describe empagliflozin alone." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-empagliflozin-1 -->
 
@@ -131,7 +131,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All three registrations are valid and oral tablets. The Synjardy registration is listed in the records as a single-ingredient entry, but the" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All three registrations are valid and oral tablets. The Synjardy registration is listed in the records as a single-ingredient entry, but the" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
 
 <!-- review:end log -->

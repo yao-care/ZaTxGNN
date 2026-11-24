@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). In South Africa: 75 SAHPRA registrations (54 valid)"
@@ -77,13 +77,13 @@ Approved indication text and manufacturer details were not available. Essential 
 
 <!-- review:begin za-lic-20261105-sulfamethoxazole-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All 7 registrations are valid single-ingredient products. Approved indication text and manufacturer details were not available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 75 registrations for this drug, 54 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All 7 registrations are valid single-ingredient products. Approved indication text and manufacturer details were not available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-sulfamethoxazole-1 -->
 
 <!-- review:begin za-lic-20261105-sulfamethoxazole-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Two further registrations are not shown: Cocc.Co.Syrup (Vern.Pp), G 894 (OM), a syrup, and Cotrizid, 52/20.2/0208, a tablet." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 75 registrations for this drug, 54 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Two further registrations are not shown: Cocc.Co.Syrup (Vern.Pp), G 894 (OM), a syrup, and Cotrizid, 52/20.2/0208, a tablet." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-sulfamethoxazole-2 -->
 
@@ -142,8 +142,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All 7 registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "Two further registrations are not shown: Cocc.Co.Syrup (Vern.Pp), G 894 (OM), a syrup, and Cotrizid, 52/20.2/0208, a tablet" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All 7 registrations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Two further registrations are not shown: Cocc.Co.Syrup (Vern.Pp), G 894 (OM), a syrup, and Cotrizid, 52/20.2/0208, a tablet" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
 
 <!-- review:end log -->

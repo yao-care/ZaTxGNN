@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 126
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Depressive and anxiety disorders (major depressive disorder…"
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)"]
@@ -109,7 +109,7 @@ Essential Medicines List (EML) status was not available in the compiled data.
 
 <!-- review:begin za-lic-20261105-citalopram-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All 4 registrations are valid single-ingredient products; none are cancelled. Essential Medicines List (EML) status was not available in the compiled data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 59 registrations for this drug, 52 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All 4 registrations are valid single-ingredient products; none are cancelled. Essential Medicines List (EML) status was not available in the compiled data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-citalopram-1 -->
 
@@ -149,7 +149,7 @@ OCD is a recognised serotonergic-responsive condition, and there are several cit
 
 <!-- review:begin za-lic-20261112-citalopram-1 -->
 
-> **Review correction (2026-11-12)**: Originally stated: "for the 4 registered products" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 59 registrations for this drug, 52 valid (59 single-ingredient); the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-12)**: Originally stated: "for the 4 registered products" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261112-citalopram-1 -->
 
@@ -161,8 +161,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All 4 registrations are valid single-ingredient products; none are cancelled" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-12 | Removed: "for the 4 registered products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All 4 registrations are valid single-ingredient products; none are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-12 | Removed: "for the 4 registered products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-20 | "Detailed mechanism of action data are not available in the data compiled for this report. The rationale therefore rests on the known SSRI class mechanism: citalopram selectively blocks serotonin reuptake, and OCD is well recognised as responsive to serotonergic medication (see the review by Zohar et al., PMID 12607204)" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
 
 <!-- review:end log -->

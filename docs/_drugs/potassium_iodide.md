@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 382
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Potassium Iodide"
 predicted_indications: ["nasal cavity disease"]
 description: "Potassium Iodide: predicted new indication Nasal cavity disease (evidence level L4). In South Africa: 15 SAHPRA registrations (10 valid)"
@@ -109,7 +109,7 @@ Essential Medicines List status could not be confirmed from the data compiled fo
 
 <!-- review:begin za-lic-20261105-potassium_iodide-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient entries and all are infusion products. These are injectable (parenteral) formulations, so they are not directly suited to nasal or upper respiratory use. Essential Medicines List status could not be confirmed from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 15 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All three registrations are valid single-ingredient entries and all are infusion products. These are injectable (parenteral) formulations, so they are not directly suited to nasal or upper respiratory use. Essential Medicines List status could not be confirmed from the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-potassium_iodide-1 -->
 
@@ -162,7 +162,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All three registrations are valid single-ingredient entries and all are infusion products. These are injectable (parenteral) formulations, s" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All three registrations are valid single-ingredient entries and all are infusion products. These are injectable (parenteral) formulations, s" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Potassium Iodide (Saturated) (potassium iodide) prescribing information, Emerald Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bdf305f-ed4a-49d1-8901-edaed8d67850) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "MEPYRAMINE"
 predicted_indications: ["nasal cavity disease"]
 description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 56 SAHPRA registrations (26 valid)"
@@ -106,7 +106,7 @@ Essential Medicines List status could not be determined from the data compiled f
 
 <!-- review:begin za-lic-20261105-mepyramine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Eight valid single-ingredient registrations exist in total; the five above are shown. The remaining three are Docsed (G0616), Coughcod senior (G1071) and Coughcod junior (G1027), all syrups. No registrations are cancelled. Essential Medicines List status could not be determined from the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 56 registrations for this drug, 26 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Eight valid single-ingredient registrations exist in total; the five above are shown. The remaining three are Docsed (G0616), Coughcod senior (G1071) and Coughcod junior (G1027), all syrups. No registrations are cancelled. Essential Medicines List status could not be determined from the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-mepyramine-1 -->
 
@@ -153,7 +153,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Eight valid single-ingredient registrations exist in total; the five above are shown. The remaining three are Docsed (G0616), Coughcod senio" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Eight valid single-ingredient registrations exist in total; the five above are shown. The remaining three are Docsed (G0616), Coughcod senio" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -8,7 +8,7 @@ indication_count: 3
 drugbank_id: DB09131
 monitor_inn: "Cupric Chloride"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "thrombocytopenia due to immune destruction"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Cupric Chloride Dihydrate: predicted new indication Primary release disorder of platelets (evidence level L5). In South Africa: 1 SAHPRA registration (1 valid)"
 ---
 
@@ -72,9 +72,13 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-| Registration Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| Reg. No. 49/24/0996 | Addaven (combination product, Fresenius Kabi South Africa) | Infusion | Not recorded in the local data |
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 49/24/0996 | Addaven | infusion | Valid |
+
+<!-- licenses:end -->
 
 This is a combination trace-element product, so its registration does not describe how cupric chloride alone is approved or marketed. The status is marketed, with 1 valid combination licence and no single-ingredient licence.
 

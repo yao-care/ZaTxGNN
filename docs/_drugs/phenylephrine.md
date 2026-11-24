@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 372
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). In South Africa: 120 SAHPRA registrations (76 valid)"
@@ -91,7 +91,7 @@ The data compiled for this report contain no approved indication text or Essenti
 
 <!-- review:begin za-lic-20261105-phenylephrine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All 20 registrations are valid single-ingredient entries. The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 122 registrations for this drug, 81 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All 20 registrations are valid single-ingredient entries. The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-phenylephrine-1 -->
 
@@ -113,7 +113,7 @@ The remaining registrations include cold and flu products in capsule, syrup, sac
 
 <!-- review:begin za-lic-20261105-phenylephrine-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The remaining registrations include cold and flu products in capsule, syrup, sachet and tablet forms. Some product names in the registration list (for example Tegretol s, Amoxil D, Trandate and Nitrolingual) do not look like phenylephrine products and should be verified against SAHPRA records before use." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 122 registrations for this drug, 81 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "The remaining registrations include cold and flu products in capsule, syrup, sachet and tablet forms. Some product names in the registration list (for example Tegretol s, Amoxil D, Trandate and Nitrolingual) do not look like phenylephrine products and should be verified against SAHPRA records before use." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-phenylephrine-2 -->
 
@@ -153,8 +153,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All 20 registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "Some product names in the registration list (for example Tegretol s, Amoxil D, Trandate and Nitrolingual) do not look like phenylephrine pro" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All 20 registrations are valid single-ingredient entries" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Some product names in the registration list (for example Tegretol s, Amoxil D, Trandate and Nitrolingual) do not look like phenylephrine pro" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
 
 <!-- review:end log -->

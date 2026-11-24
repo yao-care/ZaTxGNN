@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia"
 ---
 
@@ -87,7 +87,13 @@ Neither publication below studies CETP deficiency with ezetimibe. They are liste
 
 ## South Africa Market Information
 
-Six single-ingredient registrations are recorded. The approved indication text is not available in the records compiled for this report. Essential Medicines List status is not available.
+The approved indication text is not available in the records compiled for this report. Essential Medicines List status is not available.
+
+<!-- review:begin za-lic-20261124-ezetimibe-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Six single-ingredient registrations are recorded. The approved indication text is not available in the records compiled for this report." Removed: it described the number of single-ingredient registrations in a way that did not match the SAHPRA registration data as of 2026-11-23 (checked against the active-ingredient field of each registration). The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124-ezetimibe-1 -->
 
 <!-- licenses:begin -->
 
@@ -136,11 +142,12 @@ The prediction rests only on a model score and a shared lipid-metabolism link. N
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
+| 2026-11-24 | Removed: "Six single-ingredient registrations are recorded." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -679,7 +679,7 @@
   "with_current": 281,
   "none_current": 5,
   "without_data": 1,
-  "with_reviews": 280,
+  "with_reviews": 281,
   "rows": [
    {
     "t": "Amlodipine",
@@ -919,8 +919,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 96,
     "lv": 83,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Removed: \"Six single-ingredient registrations are recorded.\"",
     "x": 0
    },
    {
@@ -974,8 +974,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 86,
     "lv": 77,
-    "r": 2,
-    "rs": "Removed: \"All are single-ingredient records with valid status\"",
+    "r": 4,
+    "rs": "Corrected: \"At least 20 SAHPRA registrations (the list may be partial)\"",
     "x": 0
    },
    {
@@ -1524,8 +1524,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 40,
     "lv": 36,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Removed: \"A single valid single-ingredient registration is recorded.\"",
     "x": 0
    },
    {
@@ -1744,8 +1744,8 @@
     "i": "brain small vessel disease 1 with or without ocular anomalies",
     "lt": 32,
     "lv": 29,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available for sacubitril in the data compiled for this report\"…",
+    "r": 2,
+    "rs": "Removed: \"Status: valid, single-ingredient product.\"",
     "x": 0
    },
    {
@@ -1788,8 +1788,8 @@
     "i": "respiratory malformation",
     "lt": 31,
     "lv": 27,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Removed: \"Two single-ingredient registrations are listed, both valid.\"",
     "x": 0
    },
    {
@@ -2635,8 +2635,8 @@
     "i": "conjunctivitis",
     "lt": 21,
     "lv": 13,
-    "r": 1,
-    "rs": "Removed: \"A sixth registration, 27/20.1.2/0107 (Macropen s, suspension), is also valid. All six registrations…",
+    "r": 2,
+    "rs": "Removed: \"under six SAHPRA registrations\"",
     "x": 0
    },
    {

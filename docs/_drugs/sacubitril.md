@@ -128,7 +128,13 @@ Showing 5 of 32 registrations (valid registrations first).
 
 <!-- licenses:end -->
 
-Status: valid, single-ingredient product. No information on Essential Medicines List (EML) inclusion was available in the data compiled for this report.
+No information on Essential Medicines List (EML) inclusion was available in the data compiled for this report.
+
+<!-- review:begin za-lic-20261124-sacubitril-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Status: valid, single-ingredient product. No information on Essential Medicines List (EML) inclusion was available in the data compiled for this report." Removed: it described the product as single-ingredient; every SAHPRA registration for this drug is a sacubitril–valsartan combination (checked against the active-ingredient field of each registration, data as of 2026-11-23). The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124-sacubitril-1 -->
 
 ## Safety Considerations
 
@@ -163,11 +169,12 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available for sacubitril in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
+| 2026-11-24 | Removed: "Status: valid, single-ingredient product." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

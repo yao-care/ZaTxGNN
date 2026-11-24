@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In South Africa: 76 SAHPRA registrations (53 valid)"
@@ -73,7 +73,7 @@ Approved indication text was not available in the data compiled for this report.
 
 <!-- review:begin za-lic-20261105-trimethoprim-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All nine registrations are valid single-ingredient products. Approved indication text was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 76 registrations for this drug, 53 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All nine registrations are valid single-ingredient products. Approved indication text was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-trimethoprim-1 -->
 
@@ -95,7 +95,7 @@ No ophthalmic formulation appears among the registrations listed, which matters 
 
 <!-- review:begin za-lic-20261105-trimethoprim-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The remaining four registrations are Purbac injection 5ml (L/20.2/336), Xerazole Suspension (28/20.2/0389), Co-Trimoxazole 960 Biotech (W/20.2.1/88) and Cotrizid (52/20.2/0208). No ophthalmic formulation appears among the registrations listed, which matters for the predicted ocular indication." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 76 registrations for this drug, 53 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "The remaining four registrations are Purbac injection 5ml (L/20.2/336), Xerazole Suspension (28/20.2/0389), Co-Trimoxazole 960 Biotech (W/20.2.1/88) and Cotrizid (52/20.2/0208). No ophthalmic formulation appears among the registrations listed, which matters for the predicted ocular indication." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-trimethoprim-2 -->
 
@@ -128,8 +128,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All nine registrations are valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "The remaining four registrations are Purbac injection 5ml (L/20.2/336), Xerazole Suspension (28/20.2/0389), Co-Trimoxazole 960 Biotech (W/20" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All nine registrations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining four registrations are Purbac injection 5ml (L/20.2/336), Xerazole Suspension (28/20.2/0389), Co-Trimoxazole 960 Biotech (W/20" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->

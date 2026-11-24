@@ -103,7 +103,7 @@ The product names with "10/12,5" suggest quinapril/hydrochlorothiazide combinati
 
 <!-- review:begin za-lic-20261105-quinapril-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All five registrations are valid and oral tablets. The product names with "10/12,5" suggest quinapril/hydrochlorothiazide combinations, but the data compiled for this report classify them as single-ingredient products. Please verify against the SAHPRA Professional Information. The Essential Medicines List (EML) status could not be determined from the available data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 42 registrations for this drug, 25 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All five registrations are valid and oral tablets. The product names with "10/12,5" suggest quinapril/hydrochlorothiazide combinations, but the data compiled for this report classify them as single-ingredient products. Please verify against the SAHPRA Professional Information. The Essential Medicines List (EML) status could not be determined from the available data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-quinapril-1 -->
 
@@ -141,7 +141,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All five registrations are valid and oral tablets. but the data compiled for this report classify them as single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All five registrations are valid and oral tablets. but the data compiled for this report classify them as single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206) |
 
 <!-- review:end log -->

@@ -48,7 +48,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 <!-- review:begin za-lic-20261105-hydrochlorothiazide-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "A result of zero SAHPRA registrations almost certainly reflects a data retrieval failure rather than true market absence. **Direct verification via the [SAHPRA online register](https://www.sahpra.org.za/find-a-medicine/) is required before this figure is acted upon.**" Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 350 registrations for this drug, 269 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "A result of zero SAHPRA registrations almost certainly reflects a data retrieval failure rather than true market absence. **Direct verification via the [SAHPRA online register](https://www.sahpra.org.za/find-a-medicine/) is required before this figure is acted upon.**" Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-hydrochlorothiazide-1 -->
 
@@ -62,7 +62,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "A result of zero SAHPRA registrations almost certainly reflects a data retrieval failure rather than true market absence" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "A result of zero SAHPRA registrations almost certainly reflects a data retrieval failure rather than true market absence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

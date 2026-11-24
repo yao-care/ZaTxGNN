@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Fexofenadine: predicted new indication rosacea conjunctivitis (evidence level L5). In South Africa: 40 SAHPRA registrations (36 valid)"
 ---
 
@@ -93,7 +93,13 @@ Showing 5 of 40 registrations (valid registrations first).
 
 <!-- licenses:end -->
 
-The drug is available as an oral tablet. A single valid single-ingredient registration is recorded.
+The drug is available as an oral tablet.
+
+<!-- review:begin za-lic-20261124-fexofenadine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The drug is available as an oral tablet. A single valid single-ingredient registration is recorded." Removed: it said there is a single valid single-ingredient registration, which did not match the SAHPRA registration data as of 2026-11-23. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124-fexofenadine-1 -->
 
 ---
 
@@ -123,6 +129,19 @@ The prediction rests only on model output (Evidence Level L5). No trial or publi
 - The SAHPRA Professional Information (warnings and contraindications) for safety screening
 - Assessment of route compatibility (oral tablet versus a possible ocular formulation)
 - Specialist ophthalmology and dermatology input on the plausibility of use as an adjunct
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Removed: "A single valid single-ingredient registration is recorded." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 466
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Valine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not available. The SAHPRA registrations in the data compiled for this…"
 monitor_inn: "Valine"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -79,13 +79,13 @@ The data compiled for this report contain no approved indication text or Essenti
 
 <!-- review:begin za-lic-20261105-valine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All 11 registrations are valid single-ingredient-category entries. The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information for them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 18 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All 11 registrations are valid single-ingredient-category entries. The data compiled for this report contain no approved indication text or Essential Medicines List (EML) information for them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-valine-1 -->
 
 <!-- review:begin za-lic-20261105-valine-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Six further registrations exist, including Numeta G13E, Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized and Nutriflex Lipid Special 625ml. Note that the product name "Adco-ipratropium" does not obviously match an amino acid product and should be verified against the SAHPRA register." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 18 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Six further registrations exist, including Numeta G13E, Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized and Nutriflex Lipid Special 625ml. Note that the product name "Adco-ipratropium" does not obviously match an amino acid product and should be verified against the SAHPRA register." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-valine-2 -->
 
@@ -145,8 +145,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All 11 registrations are valid single-ingredient-category entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "Six further registrations exist, including Numeta G13E, Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized and Nu" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All 11 registrations are valid single-ingredient-category entries" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Six further registrations exist, including Numeta G13E, Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized and Nu" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 415
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Selenium: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not stated in the SAHPRA registration data (the registered products a…"
 monitor_inn: "Selenium"
 predicted_indications: ["sclerosing cholangitis"]
@@ -67,7 +67,7 @@ Currently no related clinical trials registered.
 
 <!-- review:begin za-lic-20261105-selenium-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Both entries are listed as valid single-ingredient products. Their registration identifiers are exclusion or authorisation references rather than standard registration numbers." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 10 registrations for this drug, 10 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Both entries are listed as valid single-ingredient products. Their registration identifiers are exclusion or authorisation references rather than standard registration numbers." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-selenium-1 -->
 
@@ -127,7 +127,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Both entries are listed as valid single-ingredient products. Their registration identifiers are exclusion or authorisation references rather" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Both entries are listed as valid single-ingredient products. Their registration identifiers are exclusion or authorisation references rather" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

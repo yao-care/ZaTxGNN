@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "FORMOTEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Formoterol: predicted new indication respiratory malformation (evidence level L5). In South Africa: 31 SAHPRA registrations (27 valid)"
 ---
 
@@ -87,7 +87,13 @@ None of the retrieved publications directly studies respiratory malformation. Th
 
 ## South Africa Market Information
 
-Formoterol is marketed in South Africa. Two single-ingredient registrations are listed, both valid. No approved indication text is recorded in the local data.
+Formoterol is marketed in South Africa. No approved indication text is recorded in the local data.
+
+<!-- review:begin za-lic-20261124-formoterol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Formoterol is marketed in South Africa. Two single-ingredient registrations are listed, both valid." Removed: it described the number of single-ingredient registrations in a way that did not match the SAHPRA registration data as of 2026-11-23 (checked against the active-ingredient field of each registration). The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124-formoterol-1 -->
 
 <!-- licenses:begin -->
 
@@ -130,11 +136,12 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
+| 2026-11-24 | Removed: "Two single-ingredient registrations are listed, both valid." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Threonine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not available"
 monitor_inn: "THREONINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -75,7 +75,7 @@ No approved indication text is recorded for any of them. Essential Medicines Lis
 
 <!-- review:begin za-lic-20261105-threonine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Threonine is registered in South Africa only as a component of multi-ingredient products, each listed as a single-entry licence. No approved indication text is recorded for any of them." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 19 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Threonine is registered in South Africa only as a component of multi-ingredient products, each listed as a single-entry licence. No approved indication text is recorded for any of them." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-threonine-1 -->
 
@@ -97,7 +97,7 @@ All are infusion or parenteral nutrition products.
 
 <!-- review:begin za-lic-20261105-threonine-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Peripheral, Nutriflex Omega Specialized, and Nutriflex Lipid Special 625ml. All are infusion or parenteral nutrition products. No registrations are cancelled." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 19 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Peripheral, Nutriflex Omega Specialized, and Nutriflex Lipid Special 625ml. All are infusion or parenteral nutrition products. No registrations are cancelled." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-threonine-2 -->
 
@@ -131,8 +131,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Threonine is registered in South Africa only as a component of multi-ingredient products, each listed as a single-entry licence" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Per" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Threonine is registered in South Africa only as a component of multi-ingredient products, each listed as a single-entry licence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Per" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

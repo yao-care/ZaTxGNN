@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Thiamine: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not available"
 ---
 
@@ -87,7 +87,7 @@ No approved indication text is recorded. Five main registrations are shown:
 
 <!-- review:begin za-lic-20261106-thiamine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Thirteen single-ingredient registrations are listed (the list may be partial). No approved indication text is recorded for any of them." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 81 registrations for this drug, 41 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-06)**: Originally stated: "Thirteen single-ingredient registrations are listed (the list may be partial). No approved indication text is recorded for any of them." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-06. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261106-thiamine-1 -->
 
@@ -133,7 +133,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Thirteen single-ingredient registrations are listed (the list may be partial). for any of them" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-06 | Removed: "Thirteen single-ingredient registrations are listed (the list may be partial). for any of them" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

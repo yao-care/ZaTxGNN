@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "TENOFOVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 description: "Tenofovir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection, HIV infection, AIDS"
 ---
 
@@ -89,7 +89,7 @@ No approved-indication text is recorded for them in the data compiled for this r
 
 <!-- review:begin za-lic-20261105-tenofovir-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All six registrations are valid single-ingredient tablet products. No approved-indication text is recorded for them in the data compiled for this report, and Essential Medicines List status is not available there." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 182 registrations for this drug, 151 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All six registrations are valid single-ingredient tablet products. No approved-indication text is recorded for them in the data compiled for this report, and Essential Medicines List status is not available there." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-tenofovir-1 -->
 
@@ -144,7 +144,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All six registrations are valid single-ingredient tablet products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All six registrations are valid single-ingredient tablet products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

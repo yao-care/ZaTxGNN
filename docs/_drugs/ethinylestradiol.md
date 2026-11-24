@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ETHINYLESTRADIOL"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 description: "Ethinylestradiol: predicted new indication Elevated plasma zinc (zinc, elevated plasma) (evidence level L5). In South Africa: 75 SAHPRA registrations (60 valid)"
 ---
 
@@ -44,7 +44,7 @@ There are **no clinical trials and no publications** in the data compiled for th
 
 <!-- review:begin za-lic-20261106-ethinylestradiol-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Ethinylestradiol is a synthetic estrogen widely used in hormonal products, and it is registered in South Africa in 20 single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 78 registrations for this drug, 65 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-06)**: Originally stated: "Ethinylestradiol is a synthetic estrogen widely used in hormonal products, and it is registered in South Africa in 20 single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-06. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261106-ethinylestradiol-2 -->
 
@@ -92,7 +92,7 @@ The drug is marketed in South Africa. The registration records carry no approved
 
 <!-- review:begin za-lic-20261105-ethinylestradiol-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The drug is marketed in South Africa, with 20 valid single-ingredient registrations and no cancelled ones. The registration records carry no approved-indication text." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 78 registrations for this drug, 65 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "The drug is marketed in South Africa, with 20 valid single-ingredient registrations and no cancelled ones. The registration records carry no approved-indication text." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-ethinylestradiol-1 -->
 
@@ -149,8 +149,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "with 20 valid single-ingredient registrations and no cancelled ones" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-06 | Removed: "in 20 single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "with 20 valid single-ingredient registrations and no cancelled ones" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-06 | Removed: "in 20 single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -962,6 +962,196 @@
     "ChEMBL drug mechanism"
    ],
    "reason": "no single-ingredient US prescription label for 'vitamin e' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL3989727 has no mechanism entry"
+  },
+  {
+   "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
+   "drug": "mepyramine",
+   "file": "mepyramine.md",
+   "status": "open",
+   "claim": "All eight South African products are multi-purpose cough, cold and teething preparations, not dedicated urticaria treatments, and second-generation antihistamines are generally preferred for urticaria.",
+   "reason": "ambiguous",
+   "added": "2026-11-24",
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「all／both … valid」「none … cancelled」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "acyclovir",
+   "file": "acyclovir.md",
+   "status": "open",
+   "claim": "The SAHPRA Professional Information (warnings, contraindications, renal precautions) and confirmation of the approved indications for both local registrations.",
+   "reason": "num 2∉[0, 5, 10, 14]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "arginine",
+   "file": "arginine.md",
+   "status": "open",
+   "claim": "| Original Indication | Not stated in the registration data compiled for this report (all 10 registered products are amino acid-containing nutrition or dialysis preparations) |",
+   "reason": "num 10∉[0, 1, 5, 19, 30, 35, 54]",
+   "added": "2026-11-24",
+   "note": "快速總覽「Original Indication」格括號裡寫死的註冊張數／產品類型跟快照事實層不符；表格格子程式不改，要改請逐張對照證據包後寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "benzoyl_peroxide",
+   "file": "benzoyl_peroxide.md",
+   "status": "open",
+   "claim": "Confirmation of the approved indications and EML status of the two registered products (Deriva Co and Acneclear)",
+   "reason": "num 2∉[0, 5, 10, 12, 22]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "fenofibrate",
+   "file": "fenofibrate.md",
+   "status": "open",
+   "claim": "SAHPRA Professional Information warnings and contraindications for the single-ingredient product",
+   "reason": "num 1∉[0, 5, 7, 13]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "formoterol",
+   "file": "formoterol.md",
+   "status": "open",
+   "claim": "Review of the product records, since one listed registration (Seroquel, a tablet) should be verified as a formoterol product",
+   "reason": "num 1∉[4, 5, 9, 13, 24, 27, 31]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "glycine",
+   "file": "glycine.md",
+   "status": "open",
+   "claim": "Confirmation of a suitable route and formulation (all current registrations are for infusion, powder or vial forms, not nasal use)",
+   "reason": "says-all-valid",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "latanoprost",
+   "file": "latanoprost.md",
+   "status": "open",
+   "claim": "The SAHPRA Professional Information (warnings, contraindications, approved indications) for the three registered products",
+   "reason": "num 3∉[4, 5, 7, 21, 28]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "metoclopramide",
+   "file": "metoclopramide.md",
+   "status": "open",
+   "claim": "Download and review the SAHPRA package insert (warnings, contraindications, approved indications) for the four registered products",
+   "reason": "num 4∉[5, 14, 15, 23, 24, 39]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "mometasone",
+   "file": "mometasone.md",
+   "status": "open",
+   "claim": "Approved indication text for the three SAHPRA registrations",
+   "reason": "num 3∉[4, 5, 15, 18, 46, 50]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "oxytetracycline",
+   "file": "oxytetracycline.md",
+   "status": "open",
+   "claim": "SAHPRA Professional Information (warnings, contraindications and approved indications) for all three registered products",
+   "reason": "num 3∉[5, 10, 11, 16, 18, 19, 29]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "phenylalanine",
+   "file": "phenylalanine.md",
+   "status": "open",
+   "claim": "| Original Indication | Not stated in the registration data compiled for this report (all 11 SAHPRA registrations are amino acid-containing infusion products) |",
+   "reason": "num 11∉[0, 1, 5, 9, 12, 17, 26]",
+   "added": "2026-11-24",
+   "note": "快速總覽「Original Indication」格括號裡寫死的註冊張數／產品類型跟快照事實層不符；表格格子程式不改，要改請逐張對照證據包後寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "procaine",
+   "file": "procaine.md",
+   "status": "open",
+   "claim": "| Original Indication | Not available (the single SAHPRA registration lists no approved indication text) |",
+   "reason": "num 1∉[2, 5, 16, 17, 22]",
+   "added": "2026-11-24",
+   "note": "快速總覽「Original Indication」格括號裡寫死的註冊張數／產品類型跟快照事實層不符；表格格子程式不改，要改請逐張對照證據包後寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "rivaroxaban",
+   "file": "rivaroxaban.md",
+   "status": "open",
+   "claim": "| Original Indication | Not available (the approved indication text in both SAHPRA registrations is empty) |",
+   "reason": "num 2∉[5, 10, 107, 109, 119]",
+   "added": "2026-11-24",
+   "note": "快速總覽「Original Indication」格括號裡寫死的註冊張數／產品類型跟快照事實層不符；表格格子程式不改，要改請逐張對照證據包後寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "tenofovir_alafenamide",
+   "file": "tenofovir_alafenamide.md",
+   "status": "open",
+   "claim": "SAHPRA Professional Information (warnings, contraindications and approved indications) for the four registered products",
+   "reason": "num 4∉[1, 5, 36, 37]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "valproic_acid",
+   "file": "valproic_acid.md",
+   "status": "open",
+   "claim": "Indication text for the three SAHPRA registrations, and EML status",
+   "reason": "num 3∉[0, 5, 12, 18, 20]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "valsartan",
+   "file": "valsartan.md",
+   "status": "open",
+   "claim": "Review of the product-specific approved indications for the 20 registrations",
+   "reason": "num 20∉[5, 39, 66, 81, 214, 216, 255]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "vilanterol",
+   "file": "vilanterol.md",
+   "status": "open",
+   "claim": "The SAHPRA Professional Information (indications, warnings, contraindications) for both registered products, which was not available in the data compiled for this report",
+   "reason": "num 2∉[0, 5, 6]",
+   "added": "2026-11-24",
+   "note": "「下一步」待辦條目裡寫死的註冊張數跟快照事實層不符；待辦條目照規則程式不改，要改請寫查核紀錄"
+  },
+  {
+   "source": "正文許可證張數改由程式維護後（2026-11-24），寬偵測抓到、照規則不改的張數句（待辦條目、總覽表原適應症格、劑型／產品類型說法）",
+   "drug": "potassium_acetate",
+   "file": "potassium_acetate.md",
+   "status": "open",
+   "claim": "The five local registrations are infusion or parenteral nutrition products, whose compatibility with RTA treatment has not been assessed.",
+   "reason": "num 5 vs total 11",
+   "added": "2026-11-24",
+   "note": "講劑型或產品類型的句子裡寫死的張數跟快照事實層不符；劑型沒有逐張確認（證據包部分紀錄沒有劑型），程式不改，要改請寫查核紀錄"
   }
  ]
 }

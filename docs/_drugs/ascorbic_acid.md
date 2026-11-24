@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected"]
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 description: "Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). In South Africa: 117 SAHPRA registrations (68 valid)"
 ---
 
@@ -84,7 +84,7 @@ Ascorbic acid is marketed in South Africa. Products include oral tablets, capsul
 
 <!-- review:begin za-lic-20261105-ascorbic_acid-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The data compiled for this report show 18 valid single-ingredient registrations, and the list may be partial. Products include oral tablets, capsules, effervescent tablets, sachets and syrups, as well as infusion and parenteral nutrition products." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 119 registrations for this drug, 71 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "The data compiled for this report show 18 valid single-ingredient registrations, and the list may be partial. Products include oral tablets, capsules, effervescent tablets, sachets and syrups, as well as infusion and parenteral nutrition products." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-ascorbic_acid-1 -->
 
@@ -136,7 +136,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "The data compiled for this report show 18 valid single-ingredient registrations, and the list may be partial" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The data compiled for this report show 18 valid single-ingredient registrations, and the list may be partial" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6) |
 
 <!-- review:end log -->

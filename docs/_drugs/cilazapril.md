@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). In South Africa: 3 SAHPRA registrations (2 valid)"
 ---
 
@@ -91,7 +91,7 @@ Essential Medicines List status is not available in the data compiled for this r
 
 <!-- review:begin za-lic-20261105-cilazapril-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "This is the only registration, and it is a combination product (the "plus" presentation). It should not be used to describe how single-ingredient cilazapril is approved or marketed in South Africa. Essential Medicines List status is not available in the data compiled for this report." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 3 registrations for this drug, 3 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "This is the only registration, and it is a combination product (the "plus" presentation). It should not be used to describe how single-ingredient cilazapril is approved or marketed in South Africa. Essential Medicines List status is not available in the data compiled for this report." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-cilazapril-1 -->
 
@@ -126,7 +126,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "This is the only registration, and it is a combination product (the "plus" presentation). It should not be used to describe how single-ingre" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "This is the only registration, and it is a combination product (the "plus" presentation). It should not be used to describe how single-ingre" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606) |
 
 <!-- review:end log -->

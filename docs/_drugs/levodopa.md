@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 293
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In South Africa: 16 SAHPRA registrations (15 valid)"
@@ -100,13 +100,13 @@ Levodopa is marketed in South Africa. Approved indication text and Essential Med
 
 <!-- review:begin za-lic-20261105-levodopa-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Levodopa is marketed in South Africa, with six valid single-ingredient registrations in the data compiled for this report. Approved indication text and Essential Medicines List status were not available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 17 registrations for this drug, 16 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Levodopa is marketed in South Africa, with six valid single-ingredient registrations in the data compiled for this report. Approved indication text and Essential Medicines List status were not available." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-levodopa-1 -->
 
 <!-- review:begin za-lic-20261105-levodopa-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 17 registrations for this drug, 16 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-levodopa-2 -->
 
@@ -164,8 +164,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "with six valid single-ingredient registrations in the data compiled for this report" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "with six valid single-ingredient registrations in the data compiled for this report" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "A sixth registration, Stalevo 150/37.5 (Reg. No. 38/5.4.1/0137, tablet), is also valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->

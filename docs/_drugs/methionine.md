@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "immature cataract", "tetanic cataract", "mature cataract", "cortical cataract", "craniostenosis cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "diabetic cataract"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not stated in the licence records (the registered products are parent…"
 ---
 
@@ -44,7 +44,7 @@ This is a model prediction only (evidence level L5) and the recommendation is **
 
 <!-- review:begin za-lic-20261105-methionine-3 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "In South Africa it is registered only as an ingredient of parenteral nutrition and dialysis solutions, and no approved indication text is available in the data compiled for this report." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 33 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "In South Africa it is registered only as an ingredient of parenteral nutrition and dialysis solutions, and no approved indication text is available in the data compiled for this report." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-methionine-3 -->
 
@@ -97,7 +97,7 @@ No approved indication text is available for any of them. The data compiled for 
 
 <!-- review:begin za-lic-20261105-methionine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All 10 registrations are valid single-entry records. No approved indication text is available for any of them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 33 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All 10 registrations are valid single-entry records. No approved indication text is available for any of them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-methionine-1 -->
 
@@ -119,7 +119,7 @@ These products are mostly multi-component nutrition and dialysis preparations, s
 
 <!-- review:begin za-lic-20261105-methionine-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Five further registrations are on file: Numeta G13E, Numeta G16E, Smofkabiven, Nutriflex Omega Specialized and Nutriflex lipid special 625ml. These products are mostly multi-component nutrition and dialysis preparations, so their licences do not describe a stand-alone methionine product." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 33 registrations for this drug, 19 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Five further registrations are on file: Numeta G13E, Numeta G16E, Smofkabiven, Nutriflex Omega Specialized and Nutriflex lipid special 625ml. These products are mostly multi-component nutrition and dialysis preparations, so their licences do not describe a stand-alone methionine product." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-methionine-2 -->
 
@@ -179,9 +179,9 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All 10 registrations are valid single-entry records" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "Five further registrations are on file: Numeta G13E, Numeta G16E, Smofkabiven, Nutriflex Omega Specialized and Nutriflex lipid special 625ml" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All 10 registrations are valid single-entry records" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Five further registrations are on file: Numeta G13E, Numeta G16E, Smofkabiven, Nutriflex Omega Specialized and Nutriflex lipid special 625ml" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "only" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

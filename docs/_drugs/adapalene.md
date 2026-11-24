@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). In South Africa: 9 SAHPRA registrations (7 valid)"
 ---
 
@@ -72,7 +72,7 @@ Adapalene is marketed in South Africa. The approved indication text is not recor
 
 <!-- review:begin za-lic-20261105-adapalene-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Adapalene is marketed in South Africa, with 2 valid single-ingredient registrations, both topical. The approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the compiled data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 9 registrations for this drug, 7 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Adapalene is marketed in South Africa, with 2 valid single-ingredient registrations, both topical. The approved indication text is not recorded in the local data, and Essential Medicines List status is not available in the compiled data." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-adapalene-1 -->
 
@@ -118,7 +118,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "with 2 valid single-ingredient registrations, both topical" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "with 2 valid single-ingredient registrations, both topical" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec) |
 
 <!-- review:end log -->

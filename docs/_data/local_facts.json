@@ -21,12 +21,12 @@
   "items_current": 11859
  },
  "reviews": {
-  "records": 671,
-  "pages": 368,
-  "public_pages_with_records": 337,
+  "records": 678,
+  "pages": 369,
+  "public_pages_with_records": 338,
   "by_action": {
    "annotate": 1,
-   "correct": 400,
+   "correct": 407,
    "mechanism": 270
   }
  },
@@ -194,6 +194,15 @@
    "i": "gastroparesis (disease)"
   },
   {
+   "t": "Emtricitabine",
+   "u": "/drugs/emtricitabine/",
+   "l": "L5",
+   "lt": 86,
+   "lv": 77,
+   "r": 4,
+   "i": "feline acquired immunodeficiency syndrome"
+  },
+  {
    "t": "Fusidic Acid",
    "u": "/drugs/fusidic-acid/",
    "l": "L5",
@@ -228,15 +237,6 @@
    "lv": 36,
    "r": 3,
    "i": "gastroparesis (disease)"
-  },
-  {
-   "t": "Atenolol",
-   "u": "/drugs/atenolol/",
-   "l": "L5",
-   "lt": 41,
-   "lv": 31,
-   "r": 3,
-   "i": "malignant hypertensive renal disease"
   }
  ],
  "example": {
@@ -249,6 +249,42 @@
   "i": "seborrheic dermatitis"
  },
  "recent_reviews": [
+  {
+   "t": "Sacubitril",
+   "u": "/drugs/sacubitril/",
+   "s": "Removed: \"Status: valid, single-ingredient product.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Formoterol",
+   "u": "/drugs/formoterol/",
+   "s": "Removed: \"Two single-ingredient registrations are listed, both valid.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Flucloxacillin",
+   "u": "/drugs/flucloxacillin/",
+   "s": "Removed: \"under six SAHPRA registrations\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Fexofenadine",
+   "u": "/drugs/fexofenadine/",
+   "s": "Removed: \"A single valid single-ingredient registration is recorded.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Ezetimibe",
+   "u": "/drugs/ezetimibe/",
+   "s": "Removed: \"Six single-ingredient registrations are recorded.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Emtricitabine",
+   "u": "/drugs/emtricitabine/",
+   "s": "Corrected: \"At least 20 SAHPRA registrations (the list may be partial)\"",
+   "d": "2026-11-24"
+  },
   {
    "t": "Dextropropoxyphene",
    "u": "/drugs/dextropropoxyphene/",
@@ -356,45 +392,45 @@
    "u": "/drugs/warfarin/",
    "s": "Removed: \"Warfarin has 1 valid single-ingredient registration in South Africa\"",
    "d": "2026-11-05"
-  },
-  {
-   "t": "Vitamin E",
-   "u": "/drugs/vitamin-e/",
-   "s": "Removed: \"All four registrations are valid and are parenteral (infusion or parenteral nutrition) products\"",
-   "d": "2026-11-05"
-  },
-  {
-   "t": "Vitamin A",
-   "u": "/drugs/vitamin-a/",
-   "s": "Removed: \"Other registrations: neonatal TPN (exclusion under Section 36 and Section 14), Gericomplex…",
-   "d": "2026-11-05"
-  },
-  {
-   "t": "Vildagliptin",
-   "u": "/drugs/vildagliptin/",
-   "s": "Removed: \"Both registrations are currently valid, and\"",
-   "d": "2026-11-05"
-  },
-  {
-   "t": "Vilanterol",
-   "u": "/drugs/vilanterol/",
-   "s": "Removed: \"Both registrations are currently valid\"",
-   "d": "2026-11-05"
-  },
-  {
-   "t": "Verapamil",
-   "u": "/drugs/verapamil/",
-   "s": "Removed: \"with 4 valid single-ingredient registrations\"",
-   "d": "2026-11-05"
-  },
-  {
-   "t": "Vancomycin",
-   "u": "/drugs/vancomycin/",
-   "s": "Removed: \"All 3 registrations are valid single-ingredient products\"",
-   "d": "2026-11-05"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Sacubitril",
+   "u": "/drugs/sacubitril/",
+   "s": "Removed: \"Status: valid, single-ingredient product.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Formoterol",
+   "u": "/drugs/formoterol/",
+   "s": "Removed: \"Two single-ingredient registrations are listed, both valid.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Flucloxacillin",
+   "u": "/drugs/flucloxacillin/",
+   "s": "Removed: \"under six SAHPRA registrations\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Fexofenadine",
+   "u": "/drugs/fexofenadine/",
+   "s": "Removed: \"A single valid single-ingredient registration is recorded.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Ezetimibe",
+   "u": "/drugs/ezetimibe/",
+   "s": "Removed: \"Six single-ingredient registrations are recorded.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Emtricitabine",
+   "u": "/drugs/emtricitabine/",
+   "s": "Corrected: \"At least 20 SAHPRA registrations (the list may be partial)\"",
+   "d": "2026-11-24"
+  },
   {
    "t": "Dextropropoxyphene",
    "u": "/drugs/dextropropoxyphene/",
@@ -406,42 +442,6 @@
    "u": "/drugs/norgestimate/",
    "s": "Corrected: neither registration is current (not on SAHPRA register; discontinued in MPR)",
    "d": "2026-11-17"
-  },
-  {
-   "t": "Pseudoephedrine",
-   "u": "/drugs/pseudoephedrine/",
-   "s": "Removed: \"for the 19 SAHPRA registrations\"",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Fenofibrate",
-   "u": "/drugs/fenofibrate/",
-   "s": "Removed: \"as the only local registration appears to be for a product that may contain more than one active…",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Citalopram",
-   "u": "/drugs/citalopram/",
-   "s": "Removed: \"for the 4 registered products\"",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Calcipotriol",
-   "u": "/drugs/calcipotriol/",
-   "s": "Removed: \"Calcipotriol is registered in South Africa only in two products, both listed as valid\"",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Thiamine",
-   "u": "/drugs/thiamine/",
-   "s": "Removed: \"Thirteen single-ingredient registrations are listed (the list may be partial). for any of them\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Glimepiride",
-   "u": "/drugs/glimepiride/",
-   "s": "Removed: \"for all three registrations\"",
-   "d": "2026-11-06"
   }
  ],
  "files": {

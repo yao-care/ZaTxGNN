@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 monitor_inn: "PSEUDOEPHEDRINE"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). In South Africa: 124 SAHPRA registrations (64 valid)"
@@ -89,7 +89,7 @@ No approved indication text is available in the data compiled for this report. T
 
 <!-- review:begin za-lic-20261105-pseudoephedrine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All 19 registrations are valid single-ingredient entries, but no approved indication text is available in the data compiled for this report. The first 5 are shown." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 129 registrations for this drug, 75 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All 19 registrations are valid single-ingredient entries, but no approved indication text is available in the data compiled for this report. The first 5 are shown." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-pseudoephedrine-1 -->
 
@@ -143,7 +143,7 @@ The top prediction is largely a broader label for existing approved uses, so it 
 
 <!-- review:begin za-lic-20261112-pseudoephedrine-1 -->
 
-> **Review correction (2026-11-12)**: Originally stated: "for the 19 SAHPRA registrations" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The SAHPRA data list 129 registrations for this drug, 75 valid (11 single-ingredient); the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-12)**: Originally stated: "for the 19 SAHPRA registrations" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261112-pseudoephedrine-1 -->
 
@@ -155,8 +155,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All 19 registrations are valid single-ingredient entries, but" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-12 | Removed: "for the 19 SAHPRA registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All 19 registrations are valid single-ingredient entries, but" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-12 | Removed: "for the 19 SAHPRA registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

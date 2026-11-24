@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). In South Africa: 16 SAHPRA registrations (11 valid)"
 ---
 
@@ -88,7 +88,7 @@ The drug is marketed in South Africa. Essential Medicines List status is not ava
 
 <!-- review:begin za-lic-20261105-fluocinolone_acetonide-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The drug is marketed in South Africa under one valid single-ingredient registration. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 16 registrations for this drug, 11 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "The drug is marketed in South Africa under one valid single-ingredient registration. Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-fluocinolone_acetonide-1 -->
 
@@ -120,7 +120,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "under one valid single-ingredient registration" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "under one valid single-ingredient registration" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-20 | "Detailed mechanism-of-action data are not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Derma-Smoothe/Fs (fluocinolone acetonide) prescribing information, Royal Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=113e167a-a9fe-440e-9446-d6d87963ef46) |
 
 <!-- review:end log -->

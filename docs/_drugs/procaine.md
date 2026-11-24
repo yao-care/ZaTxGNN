@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 390
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Procaine: predicted new indication Methemoglobinemia (evidence level L4). Approved use: Not available"
 monitor_inn: "Procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa"]
@@ -108,7 +108,7 @@ The data compiled for this report do not show Essential Medicines List (EML) sta
 
 <!-- review:begin za-lic-20261105-procaine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Only one registration (single-ingredient, valid) was identified, and it is for an injectable product. The product name refers to ceftriaxone, so it should be verified against the SAHPRA register whether this registration actually contains procaine. The data compiled for this report do not show Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 22 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Only one registration (single-ingredient, valid) was identified, and it is for an injectable product. The product name refers to ceftriaxone, so it should be verified against the SAHPRA register whether this registration actually contains procaine. The data compiled for this report do not show Essential Medicines List (EML) status." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-procaine-1 -->
 
@@ -160,7 +160,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Only one registration (single-ingredient, valid) was identified, and it is for an injectable product. The product name refers to ceftriaxone" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Only one registration (single-ingredient, valid) was identified, and it is for an injectable product. The product name refers to ceftriaxone" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

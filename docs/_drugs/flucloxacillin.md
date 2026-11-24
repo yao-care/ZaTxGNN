@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "Flucloxacillin"
 predicted_indications: ["conjunctivitis", "rheumatoid arthritis", "leprosy", "Prinzmetal angina", "conjunctivitis (disease)", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombotic disease", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Flucloxacillin: predicted new indication Conjunctivitis (evidence level L5). In South Africa: 21 SAHPRA registrations (13 valid)"
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Flucloxacillin is an anti-staphylococcal penicillin antibiotic that is marketed in South Africa under six SAHPRA registrations.
+Flucloxacillin is an anti-staphylococcal penicillin antibiotic that is marketed in South Africa.
 The TxGNN model predicts it may be effective for **conjunctivitis**,
 but there are currently **no registered clinical trials** and only **1 publication** (a case report on a different pathogen), so this remains a model prediction with very limited support.
+
+<!-- review:begin za-lic-20261124-flucloxacillin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in South Africa under six SAHPRA registrations." Removed: the number of registrations stated here did not match the SAHPRA registration data as of 2026-11-23. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124-flucloxacillin-1 -->
 
 ---
 
@@ -113,7 +119,7 @@ Essential Medicines List status was not available in the data compiled for this 
 
 <!-- review:begin za-lic-20261105-flucloxacillin-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "A sixth registration, 27/20.1.2/0107 (Macropen s, suspension), is also valid. All six registrations are single-ingredient products. Essential Medicines List status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 21 registrations for this drug, 16 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "A sixth registration, 27/20.1.2/0107 (Macropen s, suspension), is also valid. All six registrations are single-ingredient products. Essential Medicines List status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-flucloxacillin-1 -->
 
@@ -149,7 +155,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "A sixth registration, 27/20.1.2/0107 (Macropen s, suspension), is also valid. All six registrations are single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "A sixth registration, 27/20.1.2/0107 (Macropen s, suspension), is also valid. All six registrations are single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Removed: "under six SAHPRA registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

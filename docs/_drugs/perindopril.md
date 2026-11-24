@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In South Africa: 134 SAHPRA registrations (128 valid)"
@@ -87,7 +87,7 @@ Perindopril is marketed in South Africa. Approved indication text is not availab
 
 <!-- review:begin za-lic-20261105-perindopril-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are valid: Cosyrel 5/5 (film-coated tablet), Pearinda, Preterax 2mg/0.625mg, and Spec-perindopril plus 4mg/1.25mg (all tablets)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 135 registrations for this drug, 129 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are valid: Cosyrel 5/5 (film-coated tablet), Pearinda, Preterax 2mg/0.625mg, and Spec-perindopril plus 4mg/1.25mg (all tablets)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-perindopril-1 -->
 
@@ -141,7 +141,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Four further registrations are valid: Cosyrel 5/5 (film-coated tablet), Pearinda, Preterax 2mg/0.625mg, and Spec-perindopril plus 4mg/1.25mg" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Four further registrations are valid: Cosyrel 5/5 (film-coated tablet), Pearinda, Preterax 2mg/0.625mg, and Spec-perindopril plus 4mg/1.25mg" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

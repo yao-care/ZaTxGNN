@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 ---
 
@@ -51,8 +51,14 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 77 of 86; 1 of the valid not confirmed by SAHPRA) |
 | Number of SAHPRA Registrations | 86 (valid: 77, of which 1 not confirmed by SAHPRA) |
-| Number of Approvals | At least 20 SAHPRA registrations (the list may be partial) |
+| Number of Approvals | See Number of SAHPRA Registrations above |
 | Recommended Decision | Hold |
+
+<!-- review:begin za-lic-20261124-emtricitabine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Number of Approvals / At least 20 SAHPRA registrations (the list may be partial)" Corrected: this row said at least 20 registrations and that the list may be partial; the SAHPRA registration data as of 2026-11-23 are complete for this drug, and the row above (maintained by the site programme) shows the current count. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124-emtricitabine-2 -->
 
 **Note on the evidence level:** The one publication for this disease (PMID 37112803) studies a three-drug combination (dolutegravir, tenofovir, emtricitabine) in FIV-infected cats. Its full text was not reviewed, and it does not isolate emtricitabine's effect. The pre-assigned level was L4, but no cited study directly establishes emtricitabine's effect on this disease, so this report treats the evidence as L5 (model prediction with only indirect support).
 
@@ -78,13 +84,19 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-Listed below are 5 of the at least 20 registrations found; the list may be partial. The records compiled for this report contain no approved indication text and no Essential Medicines List (EML) information.
+The records compiled for this report contain no approved indication text and no Essential Medicines List (EML) information.
 
 <!-- review:begin za-lic-20261105-emtricitabine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All are single-ingredient records with valid status. The records compiled for this report contain no approved indication text and no Essential Medicines List (EML) information." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 87 registrations for this drug, 78 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All are single-ingredient records with valid status. The records compiled for this report contain no approved indication text and no Essential Medicines List (EML) information." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-emtricitabine-1 -->
+
+<!-- review:begin za-lic-20261124-emtricitabine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Listed below are 5 of the at least 20 registrations found; the list may be partial. The records compiled for this report contain no approved indication text and no Essential Medicines List (EML) information." Removed: it described the table below as a partial list of at least 20 registrations, which no longer matches the programmatically generated table and the SAHPRA registration data as of 2026-11-23. The table under South Africa Market Information shows the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124-emtricitabine-1 -->
 
 <!-- licenses:begin -->
 
@@ -133,8 +145,10 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All are single-ingredient records with valid status" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All are single-ingredient records with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+| 2026-11-24 | Removed: "Listed below are 5 of the at least 20 registrations found; the list may be partial." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "At least 20 SAHPRA registrations (the list may be partial)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

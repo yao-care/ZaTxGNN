@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 130
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "Clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -105,7 +105,7 @@ Clavulanic acid is registered in South Africa. No approved indication text and n
 
 <!-- review:begin za-lic-20261105-clavulanic_acid-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Clavulanic acid is registered in South Africa in 14 valid single-ingredient licences. No approved indication text and no Essential Medicines List (EML) status are available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 141 registrations for this drug, 119 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Clavulanic acid is registered in South Africa in 14 valid single-ingredient licences. No approved indication text and no Essential Medicines List (EML) status are available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-clavulanic_acid-1 -->
 
@@ -127,7 +127,7 @@ Available dosage forms include suspension, injection and tablet.
 
 <!-- review:begin za-lic-20261105-clavulanic_acid-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Note: several other licences in the source records (for example Ventolin inhaler, Trandate, Kivexa, Trizivar, Stiemycin lotion, and Simayla Lisinopril) do not appear to be amoxicillin-clavulanate products. These entries should be verified against SAHPRA records." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 141 registrations for this drug, 119 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Note: several other licences in the source records (for example Ventolin inhaler, Trandate, Kivexa, Trizivar, Stiemycin lotion, and Simayla Lisinopril) do not appear to be amoxicillin-clavulanate products. These entries should be verified against SAHPRA records." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-clavulanic_acid-2 -->
 
@@ -168,8 +168,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "in 14 valid single-ingredient licences" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "Note: several other licences in the source records (for example Ventolin inhaler, Trandate, Kivexa, Trizivar, Stiemycin lotion, and Simayla " | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "in 14 valid single-ingredient licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Note: several other licences in the source records (for example Ventolin inhaler, Trandate, Kivexa, Trizivar, Stiemycin lotion, and Simayla " | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

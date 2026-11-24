@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -42,7 +42,7 @@ Benzyl Benzoate is a well-established topical antiparasitic agent with recognise
 
 <!-- review:begin za-lic-20261105-benzyl_benzoate-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The current Evidence Pack contains **no TxGNN-generated repurposing predictions** for this drug, and Benzyl Benzoate holds **no SAHPRA registrations** in South Africa. A complete repurposing evaluation cannot proceed until two blocking data gaps — regulatory safety information and mechanism of action — are resolved and the prediction pipeline is re-run." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 17 registrations for this drug, 12 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "The current Evidence Pack contains **no TxGNN-generated repurposing predictions** for this drug, and Benzyl Benzoate holds **no SAHPRA registrations** in South Africa. A complete repurposing evaluation cannot proceed until two blocking data gaps — regulatory safety information and mechanism of action — are resolved and the prediction pipeline is re-run." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-benzyl_benzoate-1 -->
 
@@ -68,7 +68,7 @@ No safety data — including key warnings, contraindications, or drug interactio
 
 <!-- review:begin za-lic-20261105-benzyl_benzoate-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "As Benzyl Benzoate holds no current SAHPRA registration, there is no locally approved Professional Information (PI) to reference. For interim safety guidance, consult the WHO Model Formulary, international product labelling, or DrugBank entry DB00676." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 17 registrations for this drug, 12 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "As Benzyl Benzoate holds no current SAHPRA registration, there is no locally approved Professional Information (PI) to reference. For interim safety guidance, consult the WHO Model Formulary, international product labelling, or DrugBank entry DB00676." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-benzyl_benzoate-2 -->
 
@@ -83,7 +83,7 @@ The Evidence Pack for Benzyl Benzoate is incomplete at a foundational level: the
 
 <!-- review:begin za-lic-20261105-benzyl_benzoate-3 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "**Rationale:** / The Evidence Pack for Benzyl Benzoate is incomplete at a foundational level: the TxGNN pipeline returned no repurposing candidates, no mechanism of action is available to support biological plausibility analysis, and the drug carries no SAHPRA registration history. There is no evidence base on which to build a repurposing recommendation at this stage." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 17 registrations for this drug, 12 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "**Rationale:** / The Evidence Pack for Benzyl Benzoate is incomplete at a foundational level: the TxGNN pipeline returned no repurposing candidates, no mechanism of action is available to support biological plausibility analysis, and the drug carries no SAHPRA registration history. There is no evidence base on which to build a repurposing recommendation at this stage." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-benzyl_benzoate-3 -->
 
@@ -107,9 +107,9 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "and Benzyl Benzoate holds **no SAHPRA registrations** in South Africa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "As Benzyl Benzoate holds no current SAHPRA registration, there is no locally approved Professional Information (PI) to reference" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "and the drug carries no SAHPRA registration history" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "and Benzyl Benzoate holds **no SAHPRA registrations** in South Africa" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "As Benzyl Benzoate holds no current SAHPRA registration, there is no locally approved Professional Information (PI) to reference" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "and the drug carries no SAHPRA registration history" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

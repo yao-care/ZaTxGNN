@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
@@ -97,7 +97,7 @@ No approved-indication text is recorded for any of them. The five main ones are 
 
 <!-- review:begin za-lic-20261105-folic_acid-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All 11 registrations are valid single-ingredient entries. No approved-indication text is recorded for any of them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 55 registrations for this drug, 46 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All 11 registrations are valid single-ingredient entries. No approved-indication text is recorded for any of them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-folic_acid-1 -->
 
@@ -119,7 +119,7 @@ The registration mapping should be verified against the SAHPRA register.
 
 <!-- review:begin za-lic-20261105-folic_acid-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The remaining six include Soluvit Novum (injection), Gericomplex (capsule), Linctifed wet cough (syrup), Dextrose 20% in water (infusion), ITN neonatal TPN, and Spiriva Respimat (inhaler). Several of these entries look like multivitamin or parenteral nutrition products, and some (Linctifed, Spiriva) are unlikely to contain folic acid as a relevant active ingredient. The registration mapping should be verified against the SAHPRA register." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 55 registrations for this drug, 46 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "The remaining six include Soluvit Novum (injection), Gericomplex (capsule), Linctifed wet cough (syrup), Dextrose 20% in water (infusion), ITN neonatal TPN, and Spiriva Respimat (inhaler). Several of these entries look like multivitamin or parenteral nutrition products, and some (Linctifed, Spiriva) are unlikely to contain folic acid as a relevant active ingredient. The registration mapping should be verified against the SAHPRA register." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-folic_acid-2 -->
 
@@ -167,8 +167,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All 11 registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "The remaining six include Soluvit Novum (injection), Gericomplex (capsule), Linctifed wet cough (syrup), Dextrose 20% in water (infusion), I" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All 11 registrations are valid single-ingredient entries" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining six include Soluvit Novum (injection), Gericomplex (capsule), Linctifed wet cough (syrup), Dextrose 20% in water (infusion), I" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1) |
 
 <!-- review:end log -->

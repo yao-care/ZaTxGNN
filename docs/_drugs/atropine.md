@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atropine: predicted new indication migraine disorder (evidence level L5). In South Africa: 38 SAHPRA registrations (18 valid)"
 ---
 
@@ -120,7 +120,7 @@ The prediction score is high (0.9956), but no clinical trial or publication dire
 
 <!-- review:begin za-lic-20261106-atropine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Assessment of route and formulation, since the only registered product is an oral capsule" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06, after registrations were matched by ingredient. The SAHPRA data list 38 registrations for this drug, 18 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-06)**: Originally stated: "Assessment of route and formulation, since the only registered product is an oral capsule" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261106-atropine-1 -->
 
@@ -132,7 +132,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "since the only registered product is an oral capsule" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-06 | Removed: "since the only registered product is an oral capsule" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data for atropine are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7) |
 
 <!-- review:end log -->

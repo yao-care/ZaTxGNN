@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 167
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). In South Africa: 50 SAHPRA registrations (37 valid)"
@@ -73,13 +73,13 @@ Dexamethasone-containing products are marketed in South Africa. Approved indicat
 
 <!-- review:begin za-lic-20261105-dexamethasone-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Dexamethasone-containing products are marketed in South Africa, with 9 valid single-ingredient registrations and no cancelled registrations. Approved indication text is not recorded in the local data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 51 registrations for this drug, 38 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Dexamethasone-containing products are marketed in South Africa, with 9 valid single-ingredient registrations and no cancelled registrations. Approved indication text is not recorded in the local data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-dexamethasone-1 -->
 
 <!-- review:begin za-lic-20261105-dexamethasone-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The remaining four registrations are Spersadex comp 5ml (drops), Maxitrol 3.5g (eye ointment), Covomycin D and Tobradex 3.5g (eye ointment)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 51 registrations for this drug, 38 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "The remaining four registrations are Spersadex comp 5ml (drops), Maxitrol 3.5g (eye ointment), Covomycin D and Tobradex 3.5g (eye ointment)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-dexamethasone-2 -->
 
@@ -129,8 +129,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "with 9 valid single-ingredient registrations and no cancelled registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "The remaining four registrations are Spersadex comp 5ml (drops), Maxitrol 3.5g (eye ointment), Covomycin D and Tobradex 3.5g (eye ointment)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "with 9 valid single-ingredient registrations and no cancelled registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining four registrations are Spersadex comp 5ml (drops), Maxitrol 3.5g (eye ointment), Covomycin D and Tobradex 3.5g (eye ointment)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
 
 <!-- review:end log -->

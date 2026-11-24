@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "EPHEDRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ephedrine: predicted new indication nasal cavity disease (evidence level L5). In South Africa: 42 SAHPRA registrations (25 valid)"
 ---
 
@@ -90,7 +90,7 @@ Other products include syrups (Brunacod, Docsed, Dequa-coff, Corbar linctus, Cou
 
 <!-- review:begin za-lic-20261105-ephedrine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Showing 5 of the 12 valid single-ingredient registrations. Other products include syrups (Brunacod, Docsed, Dequa-coff, Corbar linctus, Coughcod senior and junior) and a capsule (Flusin)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 42 registrations for this drug, 25 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Showing 5 of the 12 valid single-ingredient registrations. Other products include syrups (Brunacod, Docsed, Dequa-coff, Corbar linctus, Coughcod senior and junior) and a capsule (Flusin)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-ephedrine-1 -->
 
@@ -122,7 +122,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Showing 5 of the 12 valid single-ingredient registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Showing 5 of the 12 valid single-ingredient registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f) |
 
 <!-- review:end log -->

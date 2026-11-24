@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the registration data compiled for this report"
 monitor_inn: "PHENYLALANINE"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -92,13 +92,13 @@ Approved indication text is not available in the data compiled for this report. 
 
 <!-- review:begin za-lic-20261105-phenylalanine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All 11 registrations are currently valid single-entity registrations. Approved indication text is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 26 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All 11 registrations are currently valid single-entity registrations. Approved indication text is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-phenylalanine-1 -->
 
 <!-- review:begin za-lic-20261105-phenylalanine-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Other registrations include Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml and Adco-Ipratropium (ni201). The Adco-Ipratropium entry is listed as a vial and looks unusual for a phenylalanine-containing product, so its link to this drug should be verified." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 26 registrations for this drug, 17 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Other registrations include Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml and Adco-Ipratropium (ni201). The Adco-Ipratropium entry is listed as a vial and looks unusual for a phenylalanine-containing product, so its link to this drug should be verified." Removed: it conflicted with the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-phenylalanine-2 -->
 
@@ -153,8 +153,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All 11 registrations are currently valid single-entity registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "Other registrations include Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml and" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All 11 registrations are currently valid single-entity registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Other registrations include Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

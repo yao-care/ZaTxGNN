@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DL-alpha-Tocopherol"
 predicted_indications: ["mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "immature cataract", "diabetic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "antithrombin deficiency type 2"]
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Dl-Alpha-Tocopherol: predicted new indication Mature cataract (evidence level L5). Approved use: Not stated in the SAHPRA licence data compiled for this report"
 ---
 
@@ -44,7 +44,7 @@ The prediction is therefore supported by the model score alone.
 
 <!-- review:begin za-lic-20261105-dl-alpha-tocopherol-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "In South Africa it is registered only as a component of a multivitamin infusion product (Cernevit)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 20 registrations for this drug, 15 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "In South Africa it is registered only as a component of a multivitamin infusion product (Cernevit)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-dl-alpha-tocopherol-1 -->
 
@@ -126,7 +126,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "only" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

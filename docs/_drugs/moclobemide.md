@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 329
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). In South Africa: 8 SAHPRA registrations (2 valid)"
@@ -101,7 +101,7 @@ The Essential Medicines List status is not available in the data compiled for th
 
 <!-- review:begin za-lic-20261105-moclobemide-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "**Important data discrepancy:** The only registration listed is for a product named "Medpro-Ciprofloxacin 750". Ciprofloxacin is an antibiotic, not moclobemide. This looks like a mismatch in the registration data. The "Marketed" status and the count of 1 registration for moclobemide therefore **cannot be relied on** until checked against the SAHPRA register. The Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 8 registrations for this drug, 6 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "**Important data discrepancy:** The only registration listed is for a product named "Medpro-Ciprofloxacin 750". Ciprofloxacin is an antibiotic, not moclobemide. This looks like a mismatch in the registration data. The "Marketed" status and the count of 1 registration for moclobemide therefore **cannot be relied on** until checked against the SAHPRA register. The Essential Medicines List status is not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-moclobemide-1 -->
 
@@ -137,7 +137,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "**Important data discrepancy:** The only registration listed is for a product named "Medpro-Ciprofloxacin 750". Ciprofloxacin is an antibiot" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "**Important data discrepancy:** The only registration listed is for a product named "Medpro-Ciprofloxacin 750". Ciprofloxacin is an antibiot" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304) |
 
 <!-- review:end log -->

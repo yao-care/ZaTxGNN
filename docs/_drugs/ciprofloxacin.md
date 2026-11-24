@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). In South Africa: 107 SAHPRA registrations (75 valid)"
@@ -92,7 +92,7 @@ Approved indication text and Essential Medicines List status are not available i
 
 <!-- review:begin za-lic-20261105-ciprofloxacin-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Ciprofloxacin has 8 valid single-ingredient SAHPRA registrations and no cancelled ones. The five below are shown; the other three are Biofloxx 500, Ciploxx 250 and Xindex. Approved indication text and Essential Medicines List status are not available in the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 107 registrations for this drug, 76 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Ciprofloxacin has 8 valid single-ingredient SAHPRA registrations and no cancelled ones. The five below are shown; the other three are Biofloxx 500, Ciploxx 250 and Xindex. Approved indication text and Essential Medicines List status are not available in the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-ciprofloxacin-1 -->
 
@@ -158,7 +158,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Ciprofloxacin has 8 valid single-ingredient SAHPRA registrations and no cancelled ones. The five below are shown; the other three are Bioflo" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Ciprofloxacin has 8 valid single-ingredient SAHPRA registrations and no cancelled ones. The five below are shown; the other three are Bioflo" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
 
 <!-- review:end log -->

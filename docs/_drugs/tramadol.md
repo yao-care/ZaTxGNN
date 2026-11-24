@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In South Africa: 82 SAHPRA registrations (75 valid)"
@@ -75,13 +75,13 @@ Tramadol is marketed in South Africa. Approved indication text and Essential Med
 
 <!-- review:begin za-lic-20261105-tramadol-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Tramadol is marketed in South Africa under 9 valid SAHPRA registrations, all single-ingredient entries. Approved indication text and Essential Medicines List (EML) status were not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 83 registrations for this drug, 77 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Tramadol is marketed in South Africa under 9 valid SAHPRA registrations, all single-ingredient entries. Approved indication text and Essential Medicines List (EML) status were not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-tramadol-1 -->
 
 <!-- review:begin za-lic-20261105-tramadol-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Some product names (for example Tramazac co, Painogesic Co, Dytracet, Tamoltra) suggest tramadol/paracetamol combinations, although the records classify them as single entries. Please confirm the composition in the Professional Information (PI)." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 83 registrations for this drug, 77 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Some product names (for example Tramazac co, Painogesic Co, Dytracet, Tamoltra) suggest tramadol/paracetamol combinations, although the records classify them as single entries. Please confirm the composition in the Professional Information (PI)." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-tramadol-2 -->
 
@@ -105,7 +105,7 @@ SAHPRA package insert warnings and contraindications could not be retrieved, so 
 
 <!-- review:begin za-lic-20261105-tramadol-3 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are valid: Tramazac co 37.5mg/325mg (45/2.9/0303), Painogesic Co (A 48/2.9/0774), Dytracet (45/2.9/0747) and Tamoltra 37.5mg/325mg (46/2.9/0976)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 83 registrations for this drug, 77 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Four further registrations are valid: Tramazac co 37.5mg/325mg (45/2.9/0303), Painogesic Co (A 48/2.9/0774), Dytracet (45/2.9/0747) and Tamoltra 37.5mg/325mg (46/2.9/0976)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-tramadol-3 -->
 
@@ -136,9 +136,9 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "under 9 valid SAHPRA registrations, all single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "although the records classify them as single entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "Four further registrations are valid: Tramazac co 37.5mg/325mg (45/2.9/0303), Painogesic Co (A 48/2.9/0774), Dytracet (45/2.9/0747) and Tamo" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "under 9 valid SAHPRA registrations, all single-ingredient entries" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "although the records classify them as single entries" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Four further registrations are valid: Tramazac co 37.5mg/325mg (45/2.9/0303), Painogesic Co (A 48/2.9/0774), Dytracet (45/2.9/0747) and Tamo" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9) |
 
 <!-- review:end log -->

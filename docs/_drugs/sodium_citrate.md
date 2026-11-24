@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 monitor_inn: "Sodium citrate"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). In South Africa: 100 SAHPRA registrations (69 valid)"
@@ -94,13 +94,13 @@ Approved indication text and manufacturer are not available in the data compiled
 
 <!-- review:begin za-lic-20261105-sodium_citrate-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All 14 registrations are valid single-ingredient entries. Approved indication text and manufacturer are not available in the data compiled for this report, and Essential Medicines List status was not available either." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 101 registrations for this drug, 70 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "All 14 registrations are valid single-ingredient entries. Approved indication text and manufacturer are not available in the data compiled for this report, and Essential Medicines List status was not available either." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-sodium_citrate-1 -->
 
 <!-- review:begin za-lic-20261105-sodium_citrate-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The remaining nine registrations include further cough syrups (Tussitot cough, Alcophyllex, Diatussin, Actophlem, Coughcod senior and junior, Mucosolv expectorant), Astrapain forte tablets, and Sabax balanced ophthalmic salt solution." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 101 registrations for this drug, 70 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "The remaining nine registrations include further cough syrups (Tussitot cough, Alcophyllex, Diatussin, Actophlem, Coughcod senior and junior, Mucosolv expectorant), Astrapain forte tablets, and Sabax balanced ophthalmic salt solution." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-sodium_citrate-2 -->
 
@@ -165,8 +165,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All 14 registrations are valid single-ingredient entries" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "The remaining nine registrations include further cough syrups (Tussitot cough, Alcophyllex, Diatussin, Actophlem, Coughcod senior and junior" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "All 14 registrations are valid single-ingredient entries" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "The remaining nine registrations include further cough syrups (Tussitot cough, Alcophyllex, Diatussin, Actophlem, Coughcod senior and junior" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Dexchlorpheniramine maleate"
 predicted_indications: ["acute intermittent porphyria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexchlorpheniramine Maleate: predicted new indication acute intermittent porphyria (evidence level L5). In South Africa: 6 SAHPRA registrations (6 valid)"
 ---
 
@@ -44,7 +44,7 @@ The TxGNN model predicts it may be relevant to **acute intermittent porphyria** 
 
 <!-- review:begin za-lic-20261105-dexchlorpheniramine_maleate-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Dexchlorpheniramine maleate is a first-generation H1-antihistamine with anticholinergic activity, marketed in South Africa as single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The SAHPRA data list 6 registrations for this drug, 6 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Dexchlorpheniramine maleate is a first-generation H1-antihistamine with anticholinergic activity, marketed in South Africa as single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-dexchlorpheniramine_maleate-2 -->
 
@@ -106,7 +106,7 @@ The available forms are oral tablet and syrup.
 
 <!-- review:begin za-lic-20261105-dexchlorpheniramine_maleate-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Both registrations are currently valid single-ingredient products. The available forms are oral tablet and syrup." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The SAHPRA data list 6 registrations for this drug, 6 valid; the Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-05)**: Originally stated: "Both registrations are currently valid single-ingredient products. The available forms are oral tablet and syrup." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-dexchlorpheniramine_maleate-1 -->
 
@@ -140,8 +140,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Both registrations are currently valid single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
-| 2026-11-05 | Removed: "as single-ingredient products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "Both registrations are currently valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-05 | Removed: "as single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Corphena (dexchlorpheniramine maleate) prescribing information, BluCrest Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4694616b-4ef4-28a4-e063-6394a90ac5f6) |
 
 <!-- review:end log -->
