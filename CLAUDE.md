@@ -641,3 +641,17 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 例：acetic_acid「Approved use: Not recorded in the local data」→「In South Africa: 26 SAHPRA registrations (18 valid)」；2026-11-19 改了 234 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site ZaTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 正文許可證張數由程式改寫（2026-11-24）
+
+用戶 2026-11-24 決定（各站同日，「許可證張數與狀態不再每週過期」）：本站市場段落早在 2026-11-05 就是程式許可證表（`scripts/sync_license_pages.py`，A 不重做），這次只做 B——AI 正文裡寫死的 SAHPRA 註冊張數由程式依快照事實層改寫。
+- `scripts/rewrite_license_counts.py`＋`src/zatxgnn/regulatory/count_prose.py`（照 CaTxGNN／Kr／My／DE 移植，英文句型：「N valid (SAHPRA) registrations」「Of the M registrations, N are valid」「N registrations are cancelled」等）。本站口徑：total 含只在 MPR 有的「status not confirmed by SAHPRA」號碼，valid 含 not confirmed；
+  有效數也接受「只算 SAHPRA 確認的」讀法（valid−unconfirmed）；cancelled 含 SAHPRA 撤銷、mpr_not_current、ZA_WITHDRAWN。有保留、講證據包或查詢、相對數、劑型／產品類型（含 infusion、parenteral nutrition）或廠商子集、顯示筆數（main registrations、shown below）、待辦條目、partial 頁不動；
+  同一行有判斷不了的整行不動；0／1 張與單複數（grammar）、單方張數（single，本站證據包的單方切法不一定可靠，數字只驗不改）、說 all／both … valid 而事實不符（premise）不改、`--uncertain` 列待查。不寫查核框（同 Tw／Kr／My）；查核紀錄 replacement／anchor 所在的句子不改。
+- 接上：`scripts/apply_drug_reviews.py`（非 --check）結尾；`scripts/build_license_snapshot.py` 寫完快照後先用 `sync_license_pages.resync_tables` 重排全部有證據包的程式表、再跑改寫（不給 --ws 時不重建快照、只做這兩步；`--no-rewrite` 都不跑，`license_rebuild_run.py` 轉紀錄前那次用）；
+  母目錄每週排程 3a' 在 checker 前跑 build_license_snapshot.py。gate 第 22 項擋「再跑一次會變」。
+- 查核紀錄更正文字裡的張數（用戶追加決定）：`site.py` 的 `_fig()`（reviews_from_edits 寫紀錄說明用）不再寫「The SAHPRA data list N registrations…, V valid」，只指向概覽表與程式表；現有 385 筆 active 紀錄的 note 同 id 重發拿掉這段數字（前版存 history，reason 註明 2026-11-24 用戶決定），281 頁的查核框與查核紀錄表跟著換。
+- 2026-11-24 第一次套用（資料 data-20261123-184252）：公開藥物頁 395 頁，程式改寫 0 句（10-31～11-06 刪句後，句型明確的張數句已不剩）；表格重排 1 頁（cupric_chloride_dihydrate 原本是 AI 表、11-19 轉址合併後留下，重排成程式表並以 `--mark-existing` 補標記）。
+  另寫一支更寬的獨立偵測全量掃（正文、快速總覽格裡寫死張數／狀態跟事實層不符）：改前 34 句（扣掉 single-ingredient 泛稱等誤中 8 句後實為 26 句），以 7 筆 `za-lic-20261124-*` 更正（ezetimibe、formoterol 的單方張數、fexofenadine「A single valid single-ingredient registration」、sacubitril「single-ingredient」實為 sacubitril–valsartan 複方、flucloxacillin「under six SAHPRA registrations」、emtricitabine 舊表說明句與快速總覽「Number of Approvals」列），
+  19 句列待查（待辦條目寫死張數 13 句、快速總覽 Original Indication 格括號張數 4 句、potassium_acetate 劑型句、mepyramine「All eight South African products」）。checker 全量前後都是 0；gate exit 0。
+- 已知、沒處理（A 的範圍）：公開頁有 6 頁市場段落沒有許可證表（amlodipine、clioquinol、clotrimazole、dorzolamide、dutasteride、ipratropium；amlodipine 正文還寫「The detailed registration table is added by the site programme」），程式照舊不新增表。

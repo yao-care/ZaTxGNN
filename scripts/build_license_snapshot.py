@@ -7,7 +7,9 @@ gate（scripts/check_seo_docs.py）要在沒有 data/ 的環境也能驗證頁�
 meta：產生日、Release tag、規則所在檔案。
 什麼時候跑：證據包或事實層變了之後（每週許可證排程、依成分重建都會自動跑，並把 snapshots/ 跟 docs/ 一起 commit）。
 用法（repo 根目錄，先還原 data/ 並在工作目錄跑 dump_license_facts）：
-  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS]
+  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS] [--no-rewrite]
+  寫完快照會重排程式許可證表（scripts/sync_license_pages.py resync_tables）、依新快照改寫正文張數（scripts/rewrite_license_counts.py）；
+  不給 --ws 時不重建快照，只跑這兩步（2026-11-24）。
 """
 import datetime as dt
 import gzip
@@ -89,8 +91,29 @@ if __name__ == "__main__":
     _dl_p = _lf_os.path.join(_dl_root, "tools", "txgnn", ".claude", "drug_meta_description.py")
     _lf_ax.register(lambda: "--check" in _lf_sys.argv or not _lf_os.path.exists(_dl_p) or _lf_chk(_lf_sp.run([_lf_sys.executable, _dl_p, "--apply", "--root", _dl_root]), "drug_meta_description.py --apply"))
     a = sys.argv[1:]
-    ws = a[a.index("--ws") + 1]
     tag = a[a.index("--release-tag") + 1] if "--release-tag" in a else ""
     if not re.fullmatch(r"(data-[\w-]+)?", tag):
         sys.exit("--release-tag 要是 data-… 的 tag")
-    build(ws, tag)
+    if "--ws" in a:
+        build(a[a.index("--ws") + 1], tag)
+    else:  # 2026-11-24：不給 --ws（沒有事實層）時不重建快照，只依現有證據包重排程式表、依現有快照改寫正文張數
+        print("沒有 --ws：不重建快照，只重排程式許可證表、改寫正文張數")
+    # 2026-11-24（用戶決定「正文張數自動改寫」）：快照換了事實之後，先重排程式許可證表（scripts/sync_license_pages.py 的
+    # resync_tables，全部有證據包的頁；證據包有補收、狀態沒變的藥，每週排程的 sync_tables 碰不到），再依新快照改寫正文張數
+    # （scripts/rewrite_license_counts.py）。母目錄每週排程在 checker 前就會跑這支（3a'），所以這裡只改表格列、Showing 句與張數句。
+    # --no-rewrite：都不跑（license_rebuild_run 轉紀錄前建快照時用，免得改寫被當成刪改）。任一失敗 exit 非 0。
+    if "--no-rewrite" not in a:
+        if (ROOT / "data/bundles").is_dir():
+            _slp = importlib.util.spec_from_file_location("sync_license_pages", SLT)
+            _sm = importlib.util.module_from_spec(_slp)
+            _slp.loader.exec_module(_sm)
+            _keys = [f.parent.name for f in sorted((ROOT / "data/bundles").glob("*/drug_bundle.json"))]
+            _ch = _sm.resync_tables(_keys)
+            print(f"程式許可證表重排：改 {len({x[0] for x in _ch})} 頁")
+        else:
+            print("沒有 data/bundles：不重排程式許可證表")
+        import subprocess
+        _r = subprocess.run([sys.executable, str(ROOT / "scripts" / "rewrite_license_counts.py")])
+        if _r.returncode:
+            print(f"  ✗ scripts/rewrite_license_counts.py 失敗（exit {_r.returncode}）", file=sys.stderr)
+            sys.exit(1)

@@ -161,9 +161,9 @@ def reason_kind(reason):
 def _fig(fc):
     if not fc or fc.get("total") is None:
         return ""
-    n, v = fc["total"], fc.get("valid") or 0
-    return (f" The SAHPRA data list {n} registration{'s' if n != 1 else ''} for this drug, {v} valid; the Quick Overview and the table "
-            "under South Africa Market Information show the current figures.")
+    # 2026-11-24（用戶決定「查核紀錄更正文字裡的張數改成不寫數字」）：以前寫「The SAHPRA data list N registrations…, V valid」，
+    # 每週資料一變就跟頁面對不上；現在只指向程式維護的概覽表與許可證表
+    return " The Quick Overview and the table under South Africa Market Information show the current figures."
 
 
 def note_for(kind, date, fc):
