@@ -38,8 +38,14 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Selenium is an essential trace element. In South Africa it is registered only in parenteral nutrition (TPN) products, and the data compiled for this report give no approved indication text for it.
+Selenium is an essential trace element. In South Africa it is registered in parenteral nutrition (TPN) and other products, and the data compiled for this report give no approved indication text for it.
 The TxGNN model predicts it may be useful for **sclerosing cholangitis**, but there are **0 registered clinical trials** and only **5 publications**, none of which tests selenium as a treatment.
+
+<!-- review:begin za-lic-20261124b-selenium-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "In South Africa it is registered only in parenteral nutrition (TPN) products," Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-selenium-1 -->
 
 ## Quick Overview
 
@@ -128,6 +134,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both entries are listed as valid single-ingredient products. Their registration identifiers are exclusion or authorisation references rather" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "In South Africa it is registered only in parenteral nutrition (TPN) products," | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -48,13 +48,19 @@ No clinical trials are registered for this prediction, and only **5 publications
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the single SAHPRA registration lists no approved indication text) |
+| Original Indication | Not available (the SAHPRA registrations list no approved indication text) |
 | Predicted New Indication | Methemoglobinemia |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L4 |
 | South Africa Market Status | Marketed (valid licences: 17 of 22; 1 of the valid not confirmed by SAHPRA) |
 | Number of SAHPRA Registrations | 22 (valid: 17, of which 1 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
+
+<!-- review:begin za-lic-20261124b-procaine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(the single SAHPRA registration lists no approved indication text)" Corrected: the number of registrations stated in this cell did not match the SAHPRA registration data as of 2026-11-23; the number was removed (the product description was checked against every registration). The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-procaine-1 -->
 
 ---
 
@@ -161,6 +167,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Only one registration (single-ingredient, valid) was identified, and it is for an injectable product. The product name refers to ceftriaxone" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "(the single SAHPRA registration lists no approved indication text)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

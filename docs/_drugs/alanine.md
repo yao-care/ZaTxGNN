@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Alanine is a non-essential amino acid. In South Africa it is registered only as a component of parenteral nutrition and infusion products.
+Alanine is a non-essential amino acid. In South Africa it is registered as a component of parenteral nutrition and infusion products, and of one oral amino acid syrup (Minamino).
 The TxGNN model predicts it may be useful for **gastroparesis**, but **no clinical trials** and only **3 publications** were retrieved. None of these publications evaluates alanine as a treatment.
+
+<!-- review:begin za-lic-20261124b-alanine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "In South Africa it is registered only as a component of parenteral nutrition and infusion products." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-alanine-1 -->
 
 ## Quick Overview
 
@@ -128,7 +134,13 @@ The prediction rests on a TxGNN model (deep learning) score alone, which may ref
 - SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
 - Approved indication text for the registered products
 - Preclinical or early clinical evidence of alanine in gastroparesis
-- Confirmation of the route and formulation: all registrations are parenteral combination nutrition products, and no suitable single-agent product is evident
+- Confirmation of the route and formulation: the registrations are combination nutrition products (mostly parenteral), and no suitable single-agent product is evident
+
+<!-- review:begin za-lic-20261124b-alanine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "all registrations are parenteral combination nutrition products," Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-alanine-2 -->
 
 <!-- review:begin log -->
 
@@ -141,6 +153,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | 2026-11-05 | Removed: "All nine registrations are valid single-ingredient registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Four more registrations are not listed above: Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036), Nutriflex Omega Specialized" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The Adco-ipratropium entry looks inconsistent with an alanine-containing product. Its registration should be verified" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "In South Africa it is registered only as a component of parenteral nutrition and infusion products." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "all registrations are parenteral combination nutrition products," | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -144,15 +144,27 @@ Please refer to the SAHPRA-approved Professional Information (PI) for full safet
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (0.9995), but the supporting evidence is limited to veterinary case reports and a single human case of fungal infection. There are no registered trials and no controlled human data. The locally registered products are infusion formulations, not suited to nasal use. Safety data from the product label are also missing.
+The TxGNN score is very high (0.9995), but the supporting evidence is limited to veterinary case reports and a single human case of fungal infection. There are no registered trials and no controlled human data. The locally registered products (infusions, an iodine tincture and an oral mixture) are not suited to nasal use. Safety data from the product label are also missing.
+
+<!-- review:begin za-lic-20261124b-potassium_iodide-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The locally registered products are infusion formulations, not suited to nasal use." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-potassium_iodide-2 -->
 
 **To proceed, the following is needed:**
 - Clarify the target population: specific fungal infections of the nose and face (for example, zygomycosis or sporotrichosis) rather than "nasal cavity disease" in general
 - Systematic review of human evidence for potassium iodide in fungal rhinosinusitis and rhinofacial mycoses
 - Detailed mechanism of action data (MOA)
 - SAHPRA package insert warnings and contraindications, which are currently a blocking data gap
-- Assessment of a suitable oral or other formulation, since only infusion products are registered in South Africa
+- Assessment of a suitable oral or other formulation
 - Safety monitoring plan covering thyroid function, potassium levels and hypersensitivity
+
+<!-- review:begin za-lic-20261124b-potassium_iodide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Assessment of a suitable oral or other formulation, since only infusion products are registered in South Africa" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-potassium_iodide-1 -->
 
 <!-- review:begin log -->
 
@@ -164,6 +176,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient entries and all are infusion products. These are injectable (parenteral) formulations, s" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Potassium Iodide (Saturated) (potassium iodide) prescribing information, Emerald Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bdf305f-ed4a-49d1-8901-edaed8d67850) |
+| 2026-11-24 | Corrected: "Assessment of a suitable oral or other formulation, since only infusion products are registered in South Africa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "The locally registered products are infusion formulations, not suited to nasal use." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

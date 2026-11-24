@@ -138,15 +138,27 @@ The SAHPRA package insert warnings and contraindications were not available for 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a computational score, with no clinical trials, no relevant publications and no established mechanistic link to rheumatoid nodulosis. The registered South African products are topical only, and the package insert safety data are missing, so the evidence is insufficient to proceed.
+The prediction rests solely on a computational score, with no clinical trials, no relevant publications and no established mechanistic link to rheumatoid nodulosis. The registered South African products are mainly topical (one oral capsule, Vesanoid, is also registered), and the package insert safety data are missing, so the evidence is insufficient to proceed.
+
+<!-- review:begin za-lic-20261124b-tretinoin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The registered South African products are topical only," Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-tretinoin-1 -->
 
 **To proceed, the following is needed:**
 - Download and review the SAHPRA package insert (warnings, contraindications and approved indications), which is a blocking gap
 - Mechanism of action data (e.g. from DrugBank)
 - A systematic literature search for retinoids in rheumatoid nodulosis and related inflammatory arthritis
-- A route-of-administration assessment, since the registered products are topical only
+- A route-of-administration assessment, since the registered products are mainly topical
 - Review of the dermatological prediction (folliculitis decalvans) as a possibly more plausible alternative candidate
 - Paediatric and reproductive safety review before considering any juvenile arthritis indication
+
+<!-- review:begin za-lic-20261124b-tretinoin-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the registered products are topical only" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-tretinoin-2 -->
 
 <!-- review:begin log -->
 
@@ -158,6 +170,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid, single-ingredient entries and all are topical formulations. This matters because the predicted systemic o" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9) |
+| 2026-11-24 | Corrected: "The registered South African products are topical only," | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "since the registered products are topical only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

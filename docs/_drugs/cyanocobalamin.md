@@ -80,13 +80,19 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-No approved indication text is recorded for any of them. Dosage forms include injection, capsule, tablet, infusion, parenteral nutrition (TPN) and inhaler. Many of these products are multi-ingredient vitamin or nutrition products listed as containing cyanocobalamin.
+No approved indication text is recorded for any of them. Dosage forms include injection, capsule, tablet, syrup, infusion and parenteral nutrition (TPN). Many of these products are multi-ingredient vitamin or nutrition products listed as containing cyanocobalamin.
 
 <!-- review:begin za-lic-20261105-cyanocobalamin-1 -->
 
 > **Review correction (2026-11-05)**: Originally stated: "Eleven single-ingredient SAHPRA registrations are valid and none are cancelled. No approved indication text is recorded for any of them." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-cyanocobalamin-1 -->
+
+<!-- review:begin za-lic-20261124b-cyanocobalamin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Dosage forms include injection, capsule, tablet, infusion, parenteral nutrition (TPN) and inhaler." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-cyanocobalamin-1 -->
 
 <!-- licenses:begin -->
 
@@ -146,6 +152,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | 2026-11-05 | Removed: "Eleven single-ingredient SAHPRA registrations are valid and none are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The list shows 5 of 11 registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
+| 2026-11-24 | Corrected: "Dosage forms include injection, capsule, tablet, infusion, parenteral nutrition (TPN) and inhaler." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

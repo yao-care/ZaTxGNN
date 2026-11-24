@@ -72,13 +72,19 @@ Currently no related clinical trials registered.
 
 ## South Africa Market Information
 
-No approved indication text was available for any of them, and Essential Medicines List (EML) status was not available in the data compiled for this report. Note that the registered forms are topical or local (paste, nasal spray, cream, ointment), not intralesional injection.
+No approved indication text was available for any of them, and Essential Medicines List (EML) status was not available in the data compiled for this report. Note that the registered forms are topical or local (nasal sprays and a cream), not intralesional injection.
 
 <!-- review:begin za-lic-20261105-triamcinolone-1 -->
 
 > **Review correction (2026-11-05)**: Originally stated: "All five registrations are single-ingredient products with valid status. No approved indication text was available for any of them, and Essential Medicines List (EML) status was not available in the data compiled for this report." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-triamcinolone-1 -->
+
+<!-- review:begin za-lic-20261124b-triamcinolone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(paste, nasal spray, cream, ointment)" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-triamcinolone-1 -->
 
 <!-- licenses:begin -->
 
@@ -128,6 +134,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All five registrations are single-ingredient products with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
+| 2026-11-24 | Corrected: "(paste, nasal spray, cream, ointment)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

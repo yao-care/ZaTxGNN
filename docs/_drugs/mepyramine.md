@@ -137,7 +137,13 @@ Please refer to the SAHPRA-approved Professional Information (PI) for official w
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible but largely overlaps with existing labelled uses. All eight South African products are multi-purpose cough, cold and teething preparations, not dedicated urticaria treatments, and second-generation antihistamines are generally preferred for urticaria.
+The prediction is mechanistically plausible but largely overlaps with existing labelled uses. Many South African products are multi-purpose cough, cold and teething preparations rather than dedicated urticaria treatments, and second-generation antihistamines are generally preferred for urticaria.
+
+<!-- review:begin za-lic-20261124b-mepyramine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "All eight South African products are multi-purpose cough, cold and teething preparations, not dedicated urticaria treatments," Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-mepyramine-1 -->
 
 **To proceed, the following is needed:**
 - The SAHPRA package inserts (warnings, contraindications and approved indications), as this is a blocking gap for safety screening
@@ -154,6 +160,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Eight valid single-ingredient registrations exist in total; the five above are shown. The remaining three are Docsed (G0616), Coughcod senio" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "All eight South African products are multi-purpose cough, cold and teething preparations, not dedicated urticaria treatments," | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

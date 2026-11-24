@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Tenofovir alafenamide (TAF) is an antiviral originally recorded for HIV infection and AIDS, and in South Africa it is registered as a single-ingredient product.
+Tenofovir alafenamide (TAF) is an antiviral originally recorded for HIV infection and AIDS, and in South Africa it is registered as single-ingredient tablets (for example Vemlidy) and in fixed-dose combinations.
 The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, a research-model disease in animals.
 There are **no registered clinical trials** and **8 publications** (all preclinical animal or model studies) behind this prediction, so it is indirect evidence for human clinical use.
+
+<!-- review:begin za-lic-20261124b-tenofovir_alafenamide-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "in South Africa it is registered as a single-ingredient product." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-tenofovir_alafenamide-2 -->
 
 ---
 
@@ -131,8 +137,14 @@ The only support for this prediction is preclinical macaque and mouse work in SI
 **To proceed, the following is needed:**
 - Clarification of whether a research-model disease like SIV infection is relevant to the repurposing question at all, since it does not represent a distinct human indication
 - Detailed mechanism of action data
-- SAHPRA Professional Information (warnings, contraindications and approved indications) for the four registered products
+- SAHPRA Professional Information (warnings, contraindications and approved indications) for the registered products
 - Review of the other predicted indications (feline acquired immunodeficiency syndrome, which is a veterinary condition outside human repurposing, and a genetic neurodevelopmental disorder with no plausible mechanistic link and likely a false positive), neither of which has any supporting trial or publication
+
+<!-- review:begin za-lic-20261124b-tenofovir_alafenamide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "approved indications) for the four registered products" Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-tenofovir_alafenamide-1 -->
 
 <!-- review:begin log -->
 
@@ -144,6 +156,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are valid, single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
+| 2026-11-24 | Corrected: "approved indications) for the four registered products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "in South Africa it is registered as a single-ingredient product." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

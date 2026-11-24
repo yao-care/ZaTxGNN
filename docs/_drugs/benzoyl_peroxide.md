@@ -134,8 +134,14 @@ The prediction for vulvar inverted follicular keratosis is supported only by the
 - Detailed mechanism of action data (for example from DrugBank)
 - Targeted literature search on benzoyl peroxide for inverted follicular keratosis and other keratinising lesions
 - Dermatologist review of the plausibility of topical use on vulvar skin, including irritation and sensitisation risk
-- Confirmation of the approved indications and EML status of the two registered products (Deriva Co and Acneclear)
+- Confirmation of the approved indications and EML status of the registered products (for example Deriva Co and Acneclear)
 - If any prediction is pursued, acne keloid (rank 4) is the most mechanistically plausible candidate for a focused research question, though direct evidence is currently lacking
+
+<!-- review:begin za-lic-20261124b-benzoyl_peroxide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "EML status of the two registered products (Deriva Co and Acneclear)" Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-benzoyl_peroxide-1 -->
 
 <!-- review:begin log -->
 
@@ -147,6 +153,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c) |
+| 2026-11-24 | Corrected: "EML status of the two registered products (Deriva Co and Acneclear)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

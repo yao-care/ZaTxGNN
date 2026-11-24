@@ -108,10 +108,16 @@ The mechanism is plausible for an IOP-driven disease, but there are no trials or
 
 **To proceed, the following is needed:**
 - A literature and trial search specific to latanoprost in primary hereditary and congenital glaucoma, including paediatric data
-- The SAHPRA Professional Information (warnings, contraindications, approved indications) for the three registered products
+- The SAHPRA Professional Information (warnings, contraindications, approved indications) for the registered products
 - Detailed mechanism of action data
 - Review of the unclassified drug interactions and of the knowledge-graph contraindication signals, especially for inflammatory eye conditions
 - A paediatric safety and dosing assessment, plus expert ophthalmology input on whether outflow-targeted therapy can work in trabecular dysgenesis
+
+<!-- review:begin za-lic-20261124b-latanoprost-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "approved indications) for the three registered products" Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-latanoprost-1 -->
 
 ---
 
@@ -142,6 +148,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient products in drop form" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded) |
+| 2026-11-24 | Corrected: "approved indications) for the three registered products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -130,7 +130,13 @@ The prediction rests on a model score alone (0.9943). No trial or publication te
 - Mechanism of action data for biotin and a plausible pathway to dyspepsia
 - Published or registered studies that directly assess biotin in dyspepsia
 - SAHPRA Professional Information (warnings and contraindications) for the registered products
-- Route and formulation assessment, since the registered products are injectable or parenteral nutrition forms
+- Route and formulation assessment
+
+<!-- review:begin za-lic-20261124b-biotin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Route and formulation assessment, since the registered products are injectable or parenteral nutrition forms" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-biotin-1 -->
 
 <!-- review:begin log -->
 
@@ -141,6 +147,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four listed registrations are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "Route and formulation assessment, since the registered products are injectable or parenteral nutrition forms" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

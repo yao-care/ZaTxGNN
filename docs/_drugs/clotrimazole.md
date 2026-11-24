@@ -72,11 +72,25 @@ No related publications are available for this prediction. No SANCTR or PACTR re
 
 ## South Africa Market Information
 
-Clotrimazole is marketed in South Africa. They are mainly topical creams, plus a kit and vaginal-cream presentations. No registered product text in the data compiled for this report supports use in acne.
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 28/20.2.2/0626 | Canex topical | cream | Valid (status not confirmed by SAHPRA) |
+| 30/20.2.2/0416 | Fungispor | cream | Valid (status not confirmed by SAHPRA) |
+| 30/20.2.2/0417 | Fungispor (1 applicator) | Vcr | Valid (status not confirmed by SAHPRA) |
+| 32/20.2.2/0041 | Glenmark clotrimazole | vaginal cream | Valid |
+| 32/20.2.2/0042 | Glenmark clotrimazole 1 | vaginal cream | Valid |
+
+Showing 5 of 63 registrations (valid registrations first).
+
+<!-- licenses:end -->
+
+Clotrimazole is marketed in South Africa. The registered products are mainly topical creams, plus vaginal-cream presentations, a kit and a few other forms. No registered product text in the data compiled for this report supports use in acne.
 
 <!-- review:begin za-lic-20261105-clotrimazole-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Clotrimazole is marketed in South Africa, and all of its registered single-ingredient products are currently valid. They are mainly topical creams, plus a kit and vaginal-cream presentations. No registered product text in the data compiled for this report supports use in acne." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-24)**: Originally stated: "Clotrimazole is marketed in South Africa, and all of its registered single-ingredient products are currently valid. They are mainly topical creams, plus a kit and vaginal-cream presentations. No registered product text in the data compiled for this report supports use in acne." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-clotrimazole-1 -->
 
@@ -125,7 +139,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "and all of its registered single-ingredient products are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Removed: "and all of its registered single-ingredient products are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clioquinol"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clioquinol: predicted new indication ectothrix infectious disease (evidence level L5). In South Africa: 16 SAHPRA registrations (8 valid)"
 ---
 
@@ -69,6 +69,20 @@ Currently no related clinical trials registered (ClinicalTrials.gov, ICTRP, SANC
 Currently no related literature available for the predicted disease.
 
 ## South Africa Market Information
+
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| G1398 | Synalar c | cream | Valid |
+| G1399 | Synalar c | ointment | Valid |
+| G2006 | Bioform | cream | Valid |
+| G2331 | Quadriderm | cream | Valid |
+| 83/767 | Metrijet | Not recorded | Valid |
+
+Showing 5 of 16 registrations (valid registrations first).
+
+<!-- licenses:end -->
 
 Clioquinol is marketed in South Africa, with valid SAHPRA registrations on record. The records show topical dosage forms (cream and ointment). The registration records compiled for this report contain no approved-indication text, so the approved uses cannot be described here. Essential Medicines List status is not recorded in the compiled data.
 

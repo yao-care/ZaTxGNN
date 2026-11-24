@@ -116,7 +116,13 @@ The prediction has a high model score but no study directly examines glycine in 
 - Mechanism of action data for glycine and a plausible biological link to nasal cavity disease
 - Retrieval of the SAHPRA Professional Information to review warnings and contraindications
 - Preclinical or clinical studies that test glycine directly in a nasal condition
-- Confirmation of a suitable route and formulation (all current registrations are for infusion, powder or vial forms, not nasal use)
+- Confirmation of a suitable route and formulation (no current registration is a nasal formulation)
+
+<!-- review:begin za-lic-20261124b-glycine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(all current registrations are for infusion, powder or vial forms, not nasal use)" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-glycine-1 -->
 
 <!-- review:begin log -->
 
@@ -127,6 +133,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "SAHPRA records show 11 valid single-ingredient registrations; none carry approved-indication text in the local data" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "(all current registrations are for infusion, powder or vial forms, not nasal use)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -46,13 +46,19 @@ This prediction is a computational signal only.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the approved indication text in both SAHPRA registrations is empty) |
+| Original Indication | Not available (the approved indication text in the SAHPRA registrations is empty) |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 109 of 119; 2 of the valid not confirmed by SAHPRA) |
 | Number of SAHPRA Registrations | 119 (valid: 109, of which 2 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
+
+<!-- review:begin za-lic-20261124b-rivaroxaban-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(the approved indication text in both SAHPRA registrations is empty)" Corrected: the number of registrations stated in this cell did not match the SAHPRA registration data as of 2026-11-23; the number was removed (the product description was checked against every registration). The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-rivaroxaban-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -132,11 +138,12 @@ Other predictions for this drug were also reviewed and all are recommended as **
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-20 | "The data compiled for this report contain no detailed mechanism-of-action entry, so this description is based on the drug's known class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
+| 2026-11-24 | Corrected: "(the approved indication text in both SAHPRA registrations is empty)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

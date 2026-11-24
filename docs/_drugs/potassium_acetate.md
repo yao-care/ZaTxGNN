@@ -72,13 +72,19 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Approved indication text was not available for any of them. Potassium acetate in these products is a component of parenteral nutrition or infusion preparations, not a standalone potassium product. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
+Approved indication text was not available for any of them. Potassium acetate in most of these products is a component of parenteral nutrition or infusion preparations; one product (Bruindulsies) is an oral potassium acetate preparation. Essential Medicines List (EML) status could not be determined from the data compiled for this report.
 
 <!-- review:begin za-lic-20261105-potassium_acetate-1 -->
 
 > **Review correction (2026-11-05)**: Originally stated: "All five registrations are valid single-ingredient products. Approved indication text was not available for any of them." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-potassium_acetate-1 -->
+
+<!-- review:begin za-lic-20261124b-potassium_acetate-3 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Potassium acetate in these products is a component of parenteral nutrition or infusion preparations, not a standalone potassium product." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-potassium_acetate-3 -->
 
 <!-- licenses:begin -->
 
@@ -109,14 +115,26 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (L5). There are no clinical trials or publications for renal tubular acidosis, and the mechanism data and PI safety information are missing. The five local registrations are infusion or parenteral nutrition products, whose compatibility with RTA treatment has not been assessed. Potassium supplementation may be harmful in type 4 RTA.
+The prediction is supported only by the model score (L5). There are no clinical trials or publications for renal tubular acidosis, and the mechanism data and PI safety information are missing. The local registrations are infusion or parenteral nutrition products, apart from one oral preparation (Bruindulsies), and their compatibility with RTA treatment has not been assessed. Potassium supplementation may be harmful in type 4 RTA.
+
+<!-- review:begin za-lic-20261124b-potassium_acetate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The five local registrations are infusion or parenteral nutrition products, whose compatibility with RTA treatment has not been assessed." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-potassium_acetate-1 -->
 
 **To proceed, the following is needed:**
 - The SAHPRA package insert (PI) warnings and contraindications, which are a blocking gap for safety screening
 - Mechanism of action data (for example from DrugBank)
 - A literature and trial search for potassium acetate, or related alkali-potassium salts, in RTA subtypes
-- An assessment of whether an appropriate oral or other suitable formulation is available in South Africa, since current registrations are parenteral
+- An assessment of whether an appropriate oral or other suitable formulation is available in South Africa, since current registrations are mainly parenteral
 - A safety review of the hyperkalaemia-related interactions (potassium-sparing diuretics, ACE inhibitors, ARBs) and of RTA subtype selection
+
+<!-- review:begin za-lic-20261124b-potassium_acetate-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "is available in South Africa, since current registrations are parenteral" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-potassium_acetate-2 -->
 
 <!-- review:begin log -->
 
@@ -127,6 +145,9 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All five registrations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "The five local registrations are infusion or parenteral nutrition products, whose compatibility with RTA treatment has not been assessed." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "is available in South Africa, since current registrations are parenteral" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "Potassium acetate in these products is a component of parenteral nutrition or infusion preparations, not a standalone potassium product." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

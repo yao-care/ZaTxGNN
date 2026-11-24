@@ -38,13 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-DL-alpha-Tocopherol is a form of vitamin E, a lipid-soluble antioxidant. In South Africa it is registered as a component of a multivitamin infusion product (Cernevit).
+DL-alpha-Tocopherol is a form of vitamin E, a lipid-soluble antioxidant. In South Africa it is registered in multivitamin infusion products (for example Cernevit) and in oral vitamin E capsules.
 The TxGNN model predicts it may be effective for **mature cataract**, but the data compiled for this report contain **0 clinical trials** and **0 publications** that directly study this disease.
 The prediction is therefore supported by the model score alone.
 
 <!-- review:begin za-lic-20261105-dl-alpha-tocopherol-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "In South Africa it is registered only as a component of a multivitamin infusion product (Cernevit)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-24)**: Originally stated: "In South Africa it is registered only as a component of a multivitamin infusion product (Cernevit)." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-dl-alpha-tocopherol-1 -->
 
@@ -115,8 +115,14 @@ The prediction is supported only by a model score. No clinical trial or publicat
 - A literature review of published observational and randomised antioxidant (vitamin E) supplementation studies in cataract, particularly age-related and early-stage forms, which are more biologically plausible targets than mature cataract
 - The SAHPRA Professional Information (warnings and contraindications), and confirmation of the approved indication for Cernevit
 - Mechanism of action data (for example from DrugBank)
-- Assessment of route compatibility, since the only local product is an intravenous infusion and no ocular or oral single-ingredient route has been evaluated
+- Assessment of route compatibility, since no ocular or oral single-ingredient route has been evaluated
 - Re-evaluation of the prediction for earlier-stage cataract types, as these are better candidates than mature cataract
+
+<!-- review:begin za-lic-20261124b-dl-alpha-tocopherol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the only local product is an intravenous infusion and no ocular or oral single-ingredient route has been evaluated" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-dl-alpha-tocopherol-1 -->
 
 <!-- review:begin log -->
 
@@ -126,7 +132,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "only" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Removed: "only" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "since the only local product is an intravenous infusion and no ocular or oral single-ingredient route has been evaluated" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

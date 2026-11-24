@@ -164,11 +164,17 @@ Please also refer to the SAHPRA-approved Professional Information (PI) for full 
 - The SAHPRA package insert safety data, which blocks safety screening, are also missing.
 
 **To proceed, the following is needed:**
-- Download and review the SAHPRA package insert (warnings, contraindications, approved indications) for the four registered products
+- Download and review the SAHPRA package insert (warnings, contraindications, approved indications) for the registered products
 - Detailed mechanism of action data (e.g. from DrugBank)
 - Controlled clinical evidence of ulcer healing or recurrence outcomes, not only endoscopic visualisation
 - Clarification of the contraindication status in active peptic ulcer disease and suspected perforation
 - A defined safety plan for neurological adverse effects (extrapyramidal reactions, tardive dyskinesia) and for the major interactions listed above
+
+<!-- review:begin za-lic-20261124b-metoclopramide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "approved indications) for the four registered products" Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-metoclopramide-1 -->
 
 <!-- review:begin log -->
 
@@ -180,6 +186,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are single-ingredient products with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
+| 2026-11-24 | Corrected: "approved indications) for the four registered products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

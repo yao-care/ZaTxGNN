@@ -1723,22 +1723,22 @@
    "file": "aspartic_acid.md",
    "action": "correct",
    "claim": "Five single-ingredient registrations are currently valid. All are infusion or parenteral nutrition products in which aspartic acid is a component.",
-   "replacement": "All are infusion or parenteral nutrition products in which aspartic acid is a component.",
-   "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "The registrations are infusion or parenteral nutrition products in which aspartic acid is a component, apart from one oral amino acid syrup (Minamino).",
+   "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）；2026-11-24 第二輪：正文寫全部是輸注／靜脈營養；另有口服的 Minamino（有效）",
    "sources": [
     {
      "title": "SAHPRA medicine register (medapps export)",
      "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-23"
     },
     {
      "title": "SAHPRA",
      "url": "https://www.sahpra.org.za/",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-23"
     }
    ],
-   "checked": "2026-11-05",
+   "checked": "2026-11-24",
    "summary": "Removed: \"Five single-ingredient registrations are currently valid\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）",
    "history": [
@@ -1768,6 +1768,33 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明文字裡寫死的註冊總數／有效數拿掉，張數見本頁概覽表與程式許可證表"
+    },
+    {
+     "id": "za-lic-20261105-aspartic_acid-1",
+     "drug": "aspartic_acid",
+     "file": "aspartic_acid.md",
+     "action": "correct",
+     "claim": "Five single-ingredient registrations are currently valid. All are infusion or parenteral nutrition products in which aspartic acid is a component.",
+     "replacement": "All are infusion or parenteral nutrition products in which aspartic acid is a component.",
+     "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "SAHPRA medicine register (medapps export)",
+       "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+       "accessed": "2026-11-05"
+      },
+      {
+       "title": "SAHPRA",
+       "url": "https://www.sahpra.org.za/",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Removed: \"Five single-ingredient registrations are currently valid\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪：劑型／張數說法照證據包全部紀錄更正（用戶決定），舊更正文字裡的句子跟著改"
     }
    ]
   },
@@ -5752,22 +5779,22 @@
    "file": "clotrimazole.md",
    "action": "correct",
    "claim": "Clotrimazole is marketed in South Africa, and all of its registered single-ingredient products are currently valid. They are mainly topical creams, plus a kit and vaginal-cream presentations. No registered product text in the data compiled for this report supports use in acne.",
-   "replacement": "Clotrimazole is marketed in South Africa. They are mainly topical creams, plus a kit and vaginal-cream presentations. No registered product text in the data compiled for this report supports use in acne.",
-   "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Clotrimazole is marketed in South Africa. The registered products are mainly topical creams, plus vaginal-cream presentations, a kit and a few other forms. No registered product text in the data compiled for this report supports use in acne.",
+   "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）；2026-11-24 第二輪：11-05 刪句後留下的「They」沒有指涉對象；證據包 63 張以乳膏、陰道乳膏為主，另有套組、含錠、錠劑、懸液等；主語改成註冊產品，劑型說法照證據包",
    "sources": [
     {
      "title": "SAHPRA medicine register (medapps export)",
      "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-23"
     },
     {
      "title": "SAHPRA",
      "url": "https://www.sahpra.org.za/",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-23"
     }
    ],
-   "checked": "2026-11-05",
+   "checked": "2026-11-24",
    "summary": "Removed: \"and all of its registered single-ingredient products are currently valid\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）",
    "history": [
@@ -5797,6 +5824,33 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明文字裡寫死的註冊總數／有效數拿掉，張數見本頁概覽表與程式許可證表"
+    },
+    {
+     "id": "za-lic-20261105-clotrimazole-1",
+     "drug": "clotrimazole",
+     "file": "clotrimazole.md",
+     "action": "correct",
+     "claim": "Clotrimazole is marketed in South Africa, and all of its registered single-ingredient products are currently valid. They are mainly topical creams, plus a kit and vaginal-cream presentations. No registered product text in the data compiled for this report supports use in acne.",
+     "replacement": "Clotrimazole is marketed in South Africa. They are mainly topical creams, plus a kit and vaginal-cream presentations. No registered product text in the data compiled for this report supports use in acne.",
+     "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "SAHPRA medicine register (medapps export)",
+       "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+       "accessed": "2026-11-05"
+      },
+      {
+       "title": "SAHPRA",
+       "url": "https://www.sahpra.org.za/",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Removed: \"and all of its registered single-ingredient products are currently valid\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、d5c6364b6（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪：劑型／張數說法照證據包全部紀錄更正（用戶決定），舊更正文字裡的句子跟著改"
     }
    ]
   },
@@ -7459,22 +7513,22 @@
    "file": "dl-alpha-tocopherol.md",
    "action": "correct",
    "claim": "In South Africa it is registered only as a component of a multivitamin infusion product (Cernevit).",
-   "replacement": "In South Africa it is registered as a component of a multivitamin infusion product (Cernevit).",
-   "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures.",
-   "finding": "2026-11-05 子句層級復原複查：只刪「only」（新資料共 20 張，另有膠囊、錠劑）",
+   "replacement": "In South Africa it is registered in multivitamin infusion products (for example Cernevit) and in oral vitamin E capsules.",
+   "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report).",
+   "finding": "2026-11-05 子句層級復原複查：只刪「only」（新資料共 20 張，另有膠囊、錠劑）；2026-11-24 第二輪：正文寫只有 Cernevit 一個輸注產品；證據包有效 13 張另有 Vitalipid、Alpha Vit E Capsules 等口服膠囊",
    "sources": [
     {
      "title": "SAHPRA medicine register (medapps export)",
      "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-23"
     },
     {
      "title": "SAHPRA",
      "url": "https://www.sahpra.org.za/",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-23"
     }
    ],
-   "checked": "2026-11-05",
+   "checked": "2026-11-24",
    "summary": "Removed: \"only\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d5c6364b6（2026-11-05）",
    "history": [
@@ -7504,6 +7558,33 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d5c6364b6（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明文字裡寫死的註冊總數／有效數拿掉，張數見本頁概覽表與程式許可證表"
+    },
+    {
+     "id": "za-lic-20261105-dl-alpha-tocopherol-1",
+     "drug": "dl-alpha-tocopherol",
+     "file": "dl-alpha-tocopherol.md",
+     "action": "correct",
+     "claim": "In South Africa it is registered only as a component of a multivitamin infusion product (Cernevit).",
+     "replacement": "In South Africa it is registered as a component of a multivitamin infusion product (Cernevit).",
+     "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures.",
+     "finding": "2026-11-05 子句層級復原複查：只刪「only」（新資料共 20 張，另有膠囊、錠劑）",
+     "sources": [
+      {
+       "title": "SAHPRA medicine register (medapps export)",
+       "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+       "accessed": "2026-11-05"
+      },
+      {
+       "title": "SAHPRA",
+       "url": "https://www.sahpra.org.za/",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Removed: \"only\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d5c6364b6（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪：劑型／張數說法照證據包全部紀錄更正（用戶決定），舊更正文字裡的句子跟著改"
     }
    ]
   },
@@ -9153,7 +9234,7 @@
    "checked": "2026-11-12",
    "summary": "Removed: \"as the only local registration appears to be for a product that may contain more than one active ingredient\"",
    "method": "2026-11-12 人工查核（正文張數對事實層）",
-   "anchor": "- SAHPRA Professional Information warnings and contraindications for the single-ingredient product",
+   "anchor": "- SAHPRA Professional Information warnings and contraindications for the single-ingredient products",
    "history": [
     {
      "id": "za-lic-20261112-fenofibrate-1",
@@ -9182,6 +9263,35 @@
      "anchor": "- SAHPRA Professional Information warnings and contraindications for the single-ingredient product",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明文字裡寫死的註冊總數／有效數拿掉，張數見本頁概覽表與程式許可證表"
+    },
+    {
+     "id": "za-lic-20261112-fenofibrate-1",
+     "drug": "fenofibrate",
+     "file": "fenofibrate.md",
+     "action": "correct",
+     "claim": ", as the only local registration appears to be for a product that may contain more than one active ingredient",
+     "replacement": "",
+     "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The Quick Overview and the table under South Africa Market Information show the current figures.",
+     "finding": "AI 依舊證據包寫「本地唯一的註冊可能是複方」；事實層（data-20261106-042736）註冊 13 張、有效 13、單方 7，照本站 11-05 慣例刪掉矛盾的子句",
+     "sources": [
+      {
+       "title": "SAHPRA medicine register (medapps export)",
+       "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+       "accessed": "2026-11-06"
+      },
+      {
+       "title": "SAHPRA",
+       "url": "https://www.sahpra.org.za/",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-12",
+     "summary": "Removed: \"as the only local registration appears to be for a product that may contain more than one active ingredient\"",
+     "method": "2026-11-12 人工查核（正文張數對事實層）",
+     "anchor": "- SAHPRA Professional Information warnings and contraindications for the single-ingredient product",
+     "retired": "2026-11-24",
+     "reanchored": true,
+     "reason": "2026-11-24 第二輪：錨點所在的句子被另一筆紀錄更正，改錨到更正後的句子"
     }
    ]
   },
@@ -19293,22 +19403,22 @@
    "file": "threonine.md",
    "action": "correct",
    "claim": "Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Peripheral, Nutriflex Omega Specialized, and Nutriflex Lipid Special 625ml. All are infusion or parenteral nutrition products. No registrations are cancelled.",
-   "replacement": "All are infusion or parenteral nutrition products.",
-   "note": "Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "The registrations are infusion or parenteral nutrition products, apart from one topical wound powder (Cicatrin Powder).",
+   "note": "Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-24 第二輪：正文寫全部是輸注／靜脈營養；證據包另有有效的 Cicatrin Powder（外用粉劑，含 threonine）",
    "sources": [
     {
      "title": "SAHPRA medicine register (medapps export)",
      "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-23"
     },
     {
      "title": "SAHPRA",
      "url": "https://www.sahpra.org.za/",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-23"
     }
    ],
-   "checked": "2026-11-05",
+   "checked": "2026-11-24",
    "summary": "Removed: \"Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Per\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、a65297c2e（2026-11-05）",
    "history": [
@@ -19338,6 +19448,33 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、a65297c2e（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明文字裡寫死的註冊總數／有效數拿掉，張數見本頁概覽表與程式許可證表"
+    },
+    {
+     "id": "za-lic-20261105-threonine-2",
+     "drug": "threonine",
+     "file": "threonine.md",
+     "action": "correct",
+     "claim": "Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Peripheral, Nutriflex Omega Specialized, and Nutriflex Lipid Special 625ml. All are infusion or parenteral nutrition products. No registrations are cancelled.",
+     "replacement": "All are infusion or parenteral nutrition products.",
+     "note": "Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "SAHPRA medicine register (medapps export)",
+       "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+       "accessed": "2026-11-05"
+      },
+      {
+       "title": "SAHPRA",
+       "url": "https://www.sahpra.org.za/",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Removed: \"Seven further valid registrations exist (12 in total), including Nutriflex Lipid Peri, Numeta G13E and G16E, Smofkabiven and Smofkabiven Per\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）、a65297c2e（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪：劑型／張數說法照證據包全部紀錄更正（用戶決定），舊更正文字裡的句子跟著改"
     }
    ]
   },
@@ -20787,22 +20924,22 @@
    "file": "vitamin_e.md",
    "action": "correct",
    "claim": "All four registrations are valid and are parenteral (infusion or parenteral nutrition) products. No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment.",
-   "replacement": "No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment.",
-   "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "replacement": "Oral vitamin E products (for example Alpha Vit E Capsules) are also registered in the data compiled.",
+   "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）；2026-11-24 第二輪：正文寫沒有口服 vitamin E；證據包有效註冊有 Alpha Vit E 膠囊、Gnld Wheatgerm Oil、Natrodale Vitamin E 500 iu、Salusa 45 錠劑，不成立；後半以此為前提，一併改寫",
    "sources": [
     {
      "title": "SAHPRA medicine register (medapps export)",
      "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-23"
     },
     {
      "title": "SAHPRA",
      "url": "https://www.sahpra.org.za/",
-     "accessed": "2026-11-05"
+     "accessed": "2026-11-23"
     }
    ],
-   "checked": "2026-11-05",
+   "checked": "2026-11-24",
    "summary": "Removed: \"All four registrations are valid and are parenteral (infusion or parenteral nutrition) products\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）",
    "history": [
@@ -20832,6 +20969,33 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：說明文字裡寫死的註冊總數／有效數拿掉，張數見本頁概覽表與程式許可證表"
+    },
+    {
+     "id": "za-lic-20261105-vitamin_e-1",
+     "drug": "vitamin_e",
+     "file": "vitamin_e.md",
+     "action": "correct",
+     "claim": "All four registrations are valid and are parenteral (infusion or parenteral nutrition) products. No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment.",
+     "replacement": "No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment.",
+     "note": "Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+     "sources": [
+      {
+       "title": "SAHPRA medicine register (medapps export)",
+       "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+       "accessed": "2026-11-05"
+      },
+      {
+       "title": "SAHPRA",
+       "url": "https://www.sahpra.org.za/",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Removed: \"All four registrations are valid and are parenteral (infusion or parenteral nutrition) products\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a65297c2e（2026-11-05）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪：劑型／張數說法照證據包全部紀錄更正（用戶決定），舊更正文字裡的句子跟著改"
     }
    ]
   },
@@ -28051,9 +28215,9 @@
    "file": "fexofenadine.md",
    "action": "correct",
    "claim": "The drug is available as an oral tablet. A single valid single-ingredient registration is recorded.",
-   "replacement": "The drug is available as an oral tablet.",
-   "note": "Removed: it said there is a single valid single-ingredient registration, which did not match the SAHPRA registration data as of 2026-11-23. The Quick Overview and the table under South Africa Market Information show the current figures.",
-   "finding": "正文寫只有 1 張有效單方註冊；事實層 40 張、有效 36（事實層單方 39、有效單方 35），句子是舊證據包只收 1 筆時寫的；刪句。「oral tablet」劑型句未逐張確認、不動",
+   "replacement": "The drug is available as oral tablets and an oral suspension.",
+   "note": "Removed: it said there is a single valid single-ingredient registration, which did not match the SAHPRA registration data as of 2026-11-23. The Quick Overview and the table under South Africa Market Information show the current figures. Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report).",
+   "finding": "正文寫只有 1 張有效單方註冊；事實層 40 張、有效 36（事實層單方 39、有效單方 35），句子是舊證據包只收 1 筆時寫的；刪句。「oral tablet」劑型句未逐張確認、不動；2026-11-24 第二輪：同上（Telfast Suspension 有效）",
    "sources": [
     {
      "title": "SAHPRA medicine register (medapps export)",
@@ -28068,7 +28232,36 @@
    ],
    "checked": "2026-11-24",
    "summary": "Removed: \"A single valid single-ingredient registration is recorded.\"",
-   "method": "2026-11-24 人工查核（正文張數改由程式維護時，寬偵測抓到、程式判斷不了的句子逐句對照證據包與事實層）"
+   "method": "2026-11-24 人工查核（正文張數改由程式維護時，寬偵測抓到、程式判斷不了的句子逐句對照證據包與事實層）",
+   "history": [
+    {
+     "id": "za-lic-20261124-fexofenadine-1",
+     "drug": "fexofenadine",
+     "file": "fexofenadine.md",
+     "action": "correct",
+     "claim": "The drug is available as an oral tablet. A single valid single-ingredient registration is recorded.",
+     "replacement": "The drug is available as an oral tablet.",
+     "note": "Removed: it said there is a single valid single-ingredient registration, which did not match the SAHPRA registration data as of 2026-11-23. The Quick Overview and the table under South Africa Market Information show the current figures.",
+     "finding": "正文寫只有 1 張有效單方註冊；事實層 40 張、有效 36（事實層單方 39、有效單方 35），句子是舊證據包只收 1 筆時寫的；刪句。「oral tablet」劑型句未逐張確認、不動",
+     "sources": [
+      {
+       "title": "SAHPRA medicine register (medapps export)",
+       "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+       "accessed": "2026-11-23"
+      },
+      {
+       "title": "SAHPRA",
+       "url": "https://www.sahpra.org.za/",
+       "accessed": "2026-11-23"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Removed: \"A single valid single-ingredient registration is recorded.\"",
+     "method": "2026-11-24 人工查核（正文張數改由程式維護時，寬偵測抓到、程式判斷不了的句子逐句對照證據包與事實層）",
+     "retired": "2026-11-24",
+     "reason": "2026-11-24 第二輪：劑型／張數說法照證據包全部紀錄更正（用戶決定），舊更正文字裡的句子跟著改"
+    }
+   ]
   },
   {
    "id": "za-lic-20261124-sacubitril-1",
@@ -28119,6 +28312,2490 @@
    "checked": "2026-11-24",
    "summary": "Corrected: \"At least 20 SAHPRA registrations (the list may be partial)\"",
    "method": "2026-11-24 人工查核（正文張數改由程式維護時，寬偵測抓到、程式判斷不了的句子逐句對照證據包與事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-acyclovir-1",
+   "drug": "acyclovir",
+   "file": "acyclovir.md",
+   "action": "correct",
+   "claim": "confirmation of the approved indications for both local registrations.",
+   "replacement": "confirmation of the approved indications for the local registrations.",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫「both local registrations」；證據包 14 張（有效 14），張數不符；只拿掉張數，建議內容不動",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"confirmation of the approved indications for both local registrations.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-arginine-1",
+   "drug": "arginine",
+   "file": "arginine.md",
+   "action": "correct",
+   "claim": "(all 10 registered products are amino acid-containing nutrition or dialysis preparations)",
+   "replacement": "(the registered products are amino acid-containing nutrition or dialysis preparations)",
+   "note": "Corrected: the number of registrations stated in this cell did not match the SAHPRA registration data as of 2026-11-23; the number was removed (the product description was checked against every registration). The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "原適應症格寫 10 個產品；證據包 54 張，逐張看品名與成分都是含胺基酸的靜脈營養、腹膜透析或口服胺基酸營養品（Minamino），類型說法成立，只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"(all 10 registered products are amino acid-containing nutrition or dialysis preparations)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-benzoyl_peroxide-1",
+   "drug": "benzoyl_peroxide",
+   "file": "benzoyl_peroxide.md",
+   "action": "correct",
+   "claim": "EML status of the two registered products (Deriva Co and Acneclear)",
+   "replacement": "EML status of the registered products (for example Deriva Co and Acneclear)",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫兩個產品；證據包 22 張（含 Deriva Co、Acneclear、Metinox Acne Lotion、Cuticura Acne Cream 等），張數不符；改成不寫數字，點名的兩個產品仍在",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"EML status of the two registered products (Deriva Co and Acneclear)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-fenofibrate-1",
+   "drug": "fenofibrate",
+   "file": "fenofibrate.md",
+   "action": "correct",
+   "claim": "- SAHPRA Professional Information warnings and contraindications for the single-ingredient product\n",
+   "replacement": "- SAHPRA Professional Information warnings and contraindications for the single-ingredient products\n",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫單一個單方產品；證據包 13 張中依成分欄只含 fenofibrate 的有 7 張（Lipanthyl、Lipfeno、Tricor、Fenoglo、Fenotivo 等），單數不成立；改複數，不寫數字",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"SAHPRA Professional Information warnings and contraindications for the single-ingredient product\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-formoterol-1",
+   "drug": "formoterol",
+   "file": "formoterol.md",
+   "action": "correct",
+   "claim": "Review of the product records, since one listed registration (Seroquel, a tablet) should be verified as a formoterol product",
+   "replacement": "Review of the product records",
+   "note": "Corrected: the product named here is no longer among the registrations matched to this medicine in the SAHPRA registration data as of 2026-11-23, so that reason was removed; the suggested step is unchanged.",
+   "finding": "待辦條目的前提是表上有 Seroquel；證據包（data-20261123-184252）31 張已沒有 Seroquel（依成分重建時剔除），前提不成立；只拿掉前提，建議內容不動",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Review of the product records, since one listed registration (Seroquel, a tablet) should be verified as a formoterol product\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-glycine-1",
+   "drug": "glycine",
+   "file": "glycine.md",
+   "action": "correct",
+   "claim": "(all current registrations are for infusion, powder or vial forms, not nasal use)",
+   "replacement": "(no current registration is a nasal formulation)",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目寫現行註冊都是輸注、粉劑或小瓶；證據包有效註冊另有口服胺基酸糖漿 Minamino，全稱不成立；逐張確認沒有鼻用製劑，改成成立的寫法",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"(all current registrations are for infusion, powder or vial forms, not nasal use)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-latanoprost-1",
+   "drug": "latanoprost",
+   "file": "latanoprost.md",
+   "action": "correct",
+   "claim": "approved indications) for the three registered products",
+   "replacement": "approved indications) for the registered products",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫 3 個產品；證據包 28 張（有效 21），張數不符；只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"approved indications) for the three registered products\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-metoclopramide-1",
+   "drug": "metoclopramide",
+   "file": "metoclopramide.md",
+   "action": "correct",
+   "claim": "approved indications) for the four registered products",
+   "replacement": "approved indications) for the registered products",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫 4 個產品；證據包 39 張（有效 24），張數不符；只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"approved indications) for the four registered products\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-mometasone-1",
+   "drug": "mometasone",
+   "file": "mometasone.md",
+   "action": "correct",
+   "claim": "Approved indication text for the three SAHPRA registrations",
+   "replacement": "Approved indication text for the SAHPRA registrations",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫 3 張；證據包 50 張（有效 46），張數不符；只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Approved indication text for the three SAHPRA registrations\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-oxytetracycline-1",
+   "drug": "oxytetracycline",
+   "file": "oxytetracycline.md",
+   "action": "correct",
+   "claim": "approved indications) for all three registered products",
+   "replacement": "approved indications) for all registered products",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫 3 個產品；證據包 29 張（有效 18），張數不符；只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"approved indications) for all three registered products\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-phenylalanine-1",
+   "drug": "phenylalanine",
+   "file": "phenylalanine.md",
+   "action": "correct",
+   "claim": "(all 11 SAHPRA registrations are amino acid-containing infusion products)",
+   "replacement": "(the SAHPRA registrations are amino acid-containing infusion products)",
+   "note": "Corrected: the number of registrations stated in this cell did not match the SAHPRA registration data as of 2026-11-23; the number was removed (the product description was checked against every registration). The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "原適應症格寫 11 張；證據包 26 張，逐張看都是含胺基酸的輸注／靜脈營養產品（含已註銷的 Synthamin 注射液），類型說法成立，只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"(all 11 SAHPRA registrations are amino acid-containing infusion products)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-procaine-1",
+   "drug": "procaine",
+   "file": "procaine.md",
+   "action": "correct",
+   "claim": "(the single SAHPRA registration lists no approved indication text)",
+   "replacement": "(the SAHPRA registrations list no approved indication text)",
+   "note": "Corrected: the number of registrations stated in this cell did not match the SAHPRA registration data as of 2026-11-23; the number was removed (the product description was checked against every registration). The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "原適應症格寫單一張註冊；證據包 22 張，indication 欄全部空白，類型說法成立，只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"(the single SAHPRA registration lists no approved indication text)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-rivaroxaban-1",
+   "drug": "rivaroxaban",
+   "file": "rivaroxaban.md",
+   "action": "correct",
+   "claim": "(the approved indication text in both SAHPRA registrations is empty)",
+   "replacement": "(the approved indication text in the SAHPRA registrations is empty)",
+   "note": "Corrected: the number of registrations stated in this cell did not match the SAHPRA registration data as of 2026-11-23; the number was removed (the product description was checked against every registration). The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "原適應症格寫兩張；證據包 119 張，indication 欄全部空白，只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"(the approved indication text in both SAHPRA registrations is empty)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-tenofovir_alafenamide-1",
+   "drug": "tenofovir_alafenamide",
+   "file": "tenofovir_alafenamide.md",
+   "action": "correct",
+   "claim": "approved indications) for the four registered products",
+   "replacement": "approved indications) for the registered products",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫 4 個產品；證據包 37 張（有效 36），張數不符；只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"approved indications) for the four registered products\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-valproic_acid-1",
+   "drug": "valproic_acid",
+   "file": "valproic_acid.md",
+   "action": "correct",
+   "claim": "Indication text for the three SAHPRA registrations",
+   "replacement": "Indication text for the SAHPRA registrations",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫 3 張；證據包 20 張（有效 18），張數不符；只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Indication text for the three SAHPRA registrations\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-valsartan-1",
+   "drug": "valsartan",
+   "file": "valsartan.md",
+   "action": "correct",
+   "claim": "approved indications for the 20 registrations",
+   "replacement": "approved indications for the registrations",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫 20 張；證據包 255 張（有效 216），張數不符（20 是舊證據包上限）；只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"approved indications for the 20 registrations\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-vilanterol-1",
+   "drug": "vilanterol",
+   "file": "vilanterol.md",
+   "action": "correct",
+   "claim": "contraindications) for both registered products,",
+   "replacement": "contraindications) for the registered products,",
+   "note": "Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures.",
+   "finding": "待辦條目寫兩個產品；證據包 6 張，張數不符；只拿掉張數",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"contraindications) for both registered products,\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-potassium_acetate-1",
+   "drug": "potassium_acetate",
+   "file": "potassium_acetate.md",
+   "action": "correct",
+   "claim": "The five local registrations are infusion or parenteral nutrition products, whose compatibility with RTA treatment has not been assessed.",
+   "replacement": "The local registrations are infusion or parenteral nutrition products, apart from one oral preparation (Bruindulsies), and their compatibility with RTA treatment has not been assessed.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫 5 張、都是輸注／靜脈營養；證據包 11 張（全部有效），10 張是 Nutriflex／Numeta／Lipoflex 等靜脈營養，1 張 Bruindulsies 是口服製劑（每 5 ml 含 potassium acetate 100 mg）；張數與全稱都不成立",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The five local registrations are infusion or parenteral nutrition products, whose compatibility with RTA treatment has not been assessed.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-potassium_acetate-2",
+   "drug": "potassium_acetate",
+   "file": "potassium_acetate.md",
+   "action": "correct",
+   "claim": "is available in South Africa, since current registrations are parenteral",
+   "replacement": "is available in South Africa, since current registrations are mainly parenteral",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫現行註冊都是注射劑；另有口服的 Bruindulsies（有效），改成「mainly」；建議內容不動",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"is available in South Africa, since current registrations are parenteral\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-mepyramine-1",
+   "drug": "mepyramine",
+   "file": "mepyramine.md",
+   "action": "correct",
+   "claim": "All eight South African products are multi-purpose cough, cold and teething preparations, not dedicated urticaria treatments,",
+   "replacement": "Many South African products are multi-purpose cough, cold and teething preparations rather than dedicated urticaria treatments,",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫 8 個產品全是多用途咳嗽感冒長牙製劑；證據包 56 張（有效 26），另有單方的 Anthisan 錠劑、乳膏、注射劑與眼藥水等抗組織胺產品，張數與全稱都不成立；改成「Many」",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"All eight South African products are multi-purpose cough, cold and teething preparations, not dedicated urticaria treatments,\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-amlodipine-1",
+   "drug": "amlodipine",
+   "file": "amlodipine.md",
+   "action": "correct",
+   "claim": "\n- The detailed registration table is added by the site programme from the licence records.",
+   "replacement": "",
+   "note": "Removed: it said the registration table is provided separately; the programme-generated registration table is now shown at the start of South Africa Market Information.",
+   "finding": "市場段落寫「表由站上程式另行補上」但頁面沒有表；2026-11-24 第二輪已在段落開頭補程式許可證表，這句說明多餘，刪掉",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"The detailed registration table is added by the site programme from the licence records.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）",
+   "anchor": "- Approved indication text is not recorded in the local data."
+  },
+  {
+   "id": "za-lic-20261124b-dorzolamide-1",
+   "drug": "dorzolamide",
+   "file": "dorzolamide.md",
+   "action": "correct",
+   "claim": " The registration table is generated separately from the licence records.",
+   "replacement": "",
+   "note": "Removed: it said the registration table is provided separately; the programme-generated registration table is now shown at the start of South Africa Market Information.",
+   "finding": "市場段落寫「表另行產生」但頁面沒有表；2026-11-24 第二輪已在段落開頭補程式許可證表，這句說明多餘，刪掉",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"The registration table is generated separately from the licence records.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）",
+   "anchor": "Approved-indication text and manufacturer details are not recorded in the local data, so inclusion on the Essential Medicines List could not be assessed from the data compiled for this report."
+  },
+  {
+   "id": "za-lic-20261124b-ipratropium-1",
+   "drug": "ipratropium",
+   "file": "ipratropium.md",
+   "action": "correct",
+   "claim": "- Registered dosage forms are inhaler, nebuliser solution, vial (inhalation solution), tablet and capsule.",
+   "replacement": "- Registered dosage forms are mainly inhalers, nebuliser solutions and inhalation vials, plus nasal sprays.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "證據包 31 張：吸入器、噴霧劑量器、霧化液、吸入用小瓶，另有 Otrivin Plus、Tazomist Duo、Sinustat Duo Nasal Spray 等 xylometazoline 複方鼻噴劑（有效）；沒有錠劑；唯一的膠囊 Gericomplex（維生素複方）已註銷",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Registered dosage forms are inhaler, nebuliser solution, vial (inhalation solution), tablet and capsule.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-ipratropium-2",
+   "drug": "ipratropium",
+   "file": "ipratropium.md",
+   "action": "correct",
+   "claim": "- No nasal spray is among the registered dosage forms, so a nasal use would need a suitable formulation or route to be confirmed.",
+   "replacement": "- The registered nasal sprays (for example Otrivin Plus and Sinustat Duo Nasal Spray) combine ipratropium with xylometazoline, so a single-ingredient nasal use would need a suitable formulation or route to be confirmed.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫沒有鼻噴劑；證據包有 3 張有效的 ipratropium＋xylometazoline 鼻噴劑（46/16.1/0819 Otrivin Plus、57/21.5.1/0555 Tazomist Duo、59/16.1/0366 Sinustat Duo Nasal Spray），不成立",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"No nasal spray is among the registered dosage forms, so a nasal use would need a suitable formulation or route to be confirmed.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-ipratropium-3",
+   "drug": "ipratropium",
+   "file": "ipratropium.md",
+   "action": "correct",
+   "claim": "(for example, those with tablet or capsule forms)",
+   "replacement": "(for example, the one with a capsule form)",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "證據包沒有錠劑紀錄，只有一張膠囊（Gericomplex，已註銷）；拿掉錠劑",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"(for example, those with tablet or capsule forms)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-acyclovir-2",
+   "drug": "acyclovir",
+   "file": "acyclovir.md",
+   "action": "correct",
+   "claim": "No injectable formulation is registered in the data compiled for this report. The intralesional regimens studied for warts used the intravenous vial, so this is a practical gap.",
+   "replacement": "The intralesional regimens studied for warts used the intravenous vial; an injectable acyclovir solution (Acyclovir 25 mg/ml vials, Accord) is registered in the data compiled for this report.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫沒有注射劑；證據包有 3 張有效的 Acyclovir 25 mg/ml Vial Accord（10／20／40 ml）注射液，不成立；「this is a practical gap」以此為前提，一併改寫",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"No injectable formulation is registered in the data compiled for this report. The intralesional regimens studied for warts used the intravenous vial, so this is a practical gap.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-alanine-1",
+   "drug": "alanine",
+   "file": "alanine.md",
+   "action": "correct",
+   "claim": "In South Africa it is registered only as a component of parenteral nutrition and infusion products.",
+   "replacement": "In South Africa it is registered as a component of parenteral nutrition and infusion products, and of one oral amino acid syrup (Minamino).",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫只在靜脈營養／輸注產品；證據包另有有效的口服糖漿 Minamino，「only」不成立",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"In South Africa it is registered only as a component of parenteral nutrition and infusion products.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-alanine-2",
+   "drug": "alanine",
+   "file": "alanine.md",
+   "action": "correct",
+   "claim": "all registrations are parenteral combination nutrition products,",
+   "replacement": "the registrations are combination nutrition products (mostly parenteral),",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫全部是注射營養；另有口服 Minamino，改成 mostly；建議內容不動",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"all registrations are parenteral combination nutrition products,\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-amylmetacresol-1",
+   "drug": "amylmetacresol",
+   "file": "amylmetacresol.md",
+   "action": "correct",
+   "claim": "In South Africa it is registered as a single-ingredient oral tablet product.",
+   "replacement": "In South Africa it is registered in combination lozenges with dichlorobenzyl alcohol.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫單方口服錠；證據包 32 張全是含 dichlorobenzyl alcohol 的複方含錠（Strepsils、Andolex、Orothroat 等），劑型與單方都不成立",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"In South Africa it is registered as a single-ingredient oral tablet product.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-aripiprazole-1",
+   "drug": "aripiprazole",
+   "file": "aripiprazole.md",
+   "action": "correct",
+   "claim": "Aripiprazole is marketed in South Africa as a single-ingredient injectable.",
+   "replacement": "Aripiprazole is marketed in South Africa as single-ingredient tablets (including orally disintegrating tablets) and injections.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫單方注射劑；證據包 87 張以錠劑為主（含口溶錠），注射劑只有 Abilify IM、Abilify Maintena 兩張",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Aripiprazole is marketed in South Africa as a single-ingredient injectable.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-bacitracin-1",
+   "drug": "bacitracin",
+   "file": "bacitracin.md",
+   "action": "correct",
+   "claim": "and is registered in South Africa as a powder.",
+   "replacement": "and is registered in South Africa in combination topical products (a powder, ointments and a tulle).",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫粉劑；證據包有效 4 張：Cicatrin Powder、Polysporin Ointment、Neobacrin Antibiotic Ointment、Neobacrin Tulle，都是複方外用",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"and is registered in South Africa as a powder.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-benzocaine-1",
+   "drug": "benzocaine",
+   "file": "benzocaine.md",
+   "action": "correct",
+   "claim": "the registered products are oral or \"other\" forms, and no topical ocular formulation is recorded.",
+   "replacement": "the registered products are mainly lozenges and throat, skin or ear preparations, and no topical ocular formulation is recorded.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫註冊產品是口服或「其他」劑型；證據包另有乳膏、凝膠、軟膏、洗劑與耳滴劑等外用製劑；逐張查沒有眼用製劑，後半句成立",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"the registered products are oral or \"other\" forms, and no topical ocular formulation is recorded.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-carbocisteine-1",
+   "drug": "carbocisteine",
+   "file": "carbocisteine.md",
+   "action": "correct",
+   "claim": "marketed in South Africa as a single-ingredient syrup.",
+   "replacement": "marketed in South Africa as single-ingredient syrups and capsules.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫單方糖漿；證據包有效註冊另有 Lessmusec、Mucosolv、Mucoflem Capsules 等膠囊",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"marketed in South Africa as a single-ingredient syrup.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-chlorobutanol-1",
+   "drug": "chlorobutanol",
+   "file": "chlorobutanol.md",
+   "action": "correct",
+   "claim": "- Assessment of route compatibility, since only a topical cream is registered in South Africa",
+   "replacement": "- Assessment of route compatibility",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫只有外用乳膏；證據包 5 張另有 Sinucon 鼻滴劑、Famotic 與 Otalgon 耳滴劑，前提不成立；只拿掉前提",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Assessment of route compatibility, since only a topical cream is registered in South Africa\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-cyanocobalamin-1",
+   "drug": "cyanocobalamin",
+   "file": "cyanocobalamin.md",
+   "action": "correct",
+   "claim": "Dosage forms include injection, capsule, tablet, infusion, parenteral nutrition (TPN) and inhaler.",
+   "replacement": "Dosage forms include injection, capsule, tablet, syrup, infusion and parenteral nutrition (TPN).",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文列吸入劑；證據包 44 張沒有吸入劑，另有糖漿；照證據包改",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Dosage forms include injection, capsule, tablet, infusion, parenteral nutrition (TPN) and inhaler.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-dexpanthenol-1",
+   "drug": "dexpanthenol",
+   "file": "dexpanthenol.md",
+   "action": "correct",
+   "claim": "The only local registration is an infusion product, which does not match the likely route of use for this condition.",
+   "replacement": "The local registrations are dexpanthenol ointments, multi-ingredient syrups and oral liquids, and injection or infusion products.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫唯一的註冊是輸注產品；證據包 19 張（有效 15）含 Barridex、Pandexan、Napitrin 軟膏、糖漿、口服液與注射劑，不成立；「不符合給藥途徑」以此為前提，一併拿掉",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The only local registration is an infusion product, which does not match the likely route of use for this condition.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-diphenhydramine-1",
+   "drug": "diphenhydramine",
+   "file": "diphenhydramine.md",
+   "action": "correct",
+   "claim": "since the registered products are oral or syrup forms and no ocular formulation is recorded",
+   "replacement": "since no ocular formulation is recorded",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫都是口服或糖漿；證據包另有洗劑、乳膏；逐張查沒有眼用製劑，保留這部分",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"since the registered products are oral or syrup forms and no ocular formulation is recorded\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-dl-alpha-tocopherol-1",
+   "drug": "dl-alpha-tocopherol",
+   "file": "dl-alpha-tocopherol.md",
+   "action": "correct",
+   "claim": "since the only local product is an intravenous infusion and no ocular or oral single-ingredient route has been evaluated",
+   "replacement": "since no ocular or oral single-ingredient route has been evaluated",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫唯一產品是靜脈輸注；另有口服單方膠囊（Alpha Vit E），拿掉這個前提",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"since the only local product is an intravenous infusion and no ocular or oral single-ingredient route has been evaluated\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-econazole-1",
+   "drug": "econazole",
+   "file": "econazole.md",
+   "action": "correct",
+   "claim": "Econazole is a topical imidazole antifungal that is marketed in South Africa as cream products.",
+   "replacement": "Econazole is a topical imidazole antifungal that is marketed in South Africa as creams, a spray solution and vaginal suppositories.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫乳膏；證據包有效註冊另有 Pevaryl 噴霧液與 Gyno-Pevaryl 陰道栓劑",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Econazole is a topical imidazole antifungal that is marketed in South Africa as cream products.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-econazole-2",
+   "drug": "econazole",
+   "file": "econazole.md",
+   "action": "correct",
+   "claim": "A cream-only product may therefore be a poor fit for this indication.",
+   "replacement": "A product range limited to topical and vaginal forms may therefore be a poor fit for this indication.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文以「只有乳膏」為前提；註冊產品另有噴霧液與陰道栓劑，但都是外用或陰道用，改成成立的寫法，論點不變",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"A cream-only product may therefore be a poor fit for this indication.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-entacapone-1",
+   "drug": "entacapone",
+   "file": "entacapone.md",
+   "action": "correct",
+   "claim": "Both registered South African products are Stalevo tablets (see the market table below).",
+   "replacement": "The registered South African products are entacapone tablets (Comtan, Enkobist 200) and Stalevo combination tablets (see the market table below).",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫兩個產品都是 Stalevo；證據包 6 張：Comtan、Enkobist 200 單方與 4 張 Stalevo 複方",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Both registered South African products are Stalevo tablets (see the market table below).\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-fexofenadine-1",
+   "drug": "fexofenadine",
+   "file": "fexofenadine.md",
+   "action": "correct",
+   "claim": "that is marketed in South Africa as an oral tablet.",
+   "replacement": "that is marketed in South Africa as oral tablets and an oral suspension.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫口服錠；證據包另有有效的 Telfast Suspension",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"that is marketed in South Africa as an oral tablet.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-fexofenadine-2",
+   "drug": "fexofenadine",
+   "file": "fexofenadine.md",
+   "action": "correct",
+   "claim": "(oral tablet versus a possible ocular formulation)",
+   "replacement": "(oral tablets and suspension versus a possible ocular formulation)",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目括號同上；建議內容不動",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"(oral tablet versus a possible ocular formulation)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-fluconazole-1",
+   "drug": "fluconazole",
+   "file": "fluconazole.md",
+   "action": "correct",
+   "claim": "route compatibility (oral capsules in South Africa versus the likely need for ocular exposure)",
+   "replacement": "route compatibility (oral and intravenous products in South Africa versus the likely need for ocular exposure)",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫在南非是口服膠囊；證據包另有錠劑、口服懸液（Diflucan）與 Difuject、Diflucan IV 等靜脈輸注",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"route compatibility (oral capsules in South Africa versus the likely need for ocular exposure)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-fluconazole-2",
+   "drug": "fluconazole",
+   "file": "fluconazole.md",
+   "action": "correct",
+   "claim": "since only oral capsules are registered",
+   "replacement": "since only oral and intravenous products are registered",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提同上；逐張查沒有眼用或外用製劑，改成成立的寫法",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"since only oral capsules are registered\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-fluocinolone_acetonide-1",
+   "drug": "fluocinolone_acetonide",
+   "file": "fluocinolone_acetonide.md",
+   "action": "correct",
+   "claim": "is available locally, since the registered product is a drop",
+   "replacement": "is available locally",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫註冊產品是滴劑；證據包 16 張以 Synalar、Cortoderm 乳膏與軟膏為主，另有凝膠、頭皮油，只有 Otixal 是耳滴劑，前提不成立；只拿掉前提",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"is available locally, since the registered product is a drop\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-fusidic_acid-1",
+   "drug": "fusidic_acid",
+   "file": "fusidic_acid.md",
+   "action": "correct",
+   "claim": "and is marketed in South Africa as topical products.",
+   "replacement": "and is marketed in South Africa mainly as topical products (creams, ointments and eye drops), with oral and intravenous forms also registered.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫外用產品；證據包另有 Fucidin IV 輸注、Fucidin 懸液與錠劑（都有效）",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"and is marketed in South Africa as topical products.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-glutamic_acid-1",
+   "drug": "glutamic_acid",
+   "file": "glutamic_acid.md",
+   "action": "correct",
+   "claim": "The only local products are parenteral nutrition formulations, which are not designed for osteoporosis treatment.",
+   "replacement": "The local products are mainly parenteral nutrition formulations, which are not designed for osteoporosis treatment.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫只有靜脈營養；另有口服胺基酸糖漿 Minamino（有效），改成 mainly",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The only local products are parenteral nutrition formulations, which are not designed for osteoporosis treatment.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-glutamic_acid-2",
+   "drug": "glutamic_acid",
+   "file": "glutamic_acid.md",
+   "action": "correct",
+   "claim": "since current local products are infusions only",
+   "replacement": "since current local products are mainly infusions",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提同上，改成 mainly；建議內容不動",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"since current local products are infusions only\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-haloperidol-1",
+   "drug": "haloperidol",
+   "file": "haloperidol.md",
+   "action": "correct",
+   "claim": "and is marketed in South Africa as oral tablets.",
+   "replacement": "and is marketed in South Africa as oral tablets and an injection.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫口服錠；有效註冊另有 Amperi 5 mg/ml 注射液",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"and is marketed in South Africa as oral tablets.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-hydrocortisone_acetate-1",
+   "drug": "hydrocortisone_acetate",
+   "file": "hydrocortisone_acetate.md",
+   "action": "correct",
+   "claim": "(the registered products are creams only, while the older literature describes intralesional injection)",
+   "replacement": "(the registered products include creams, ointments and injections, while the older literature describes intralesional injection)",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫只有乳膏；證據包另有軟膏、洗劑、栓劑與 Cortaject、Solu-Cortef 等注射劑",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"(the registered products are creams only, while the older literature describes intralesional injection)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-imatinib-1",
+   "drug": "imatinib",
+   "file": "imatinib.md",
+   "action": "correct",
+   "claim": "and is registered in South Africa as a single-ingredient capsule.",
+   "replacement": "and is registered in South Africa as single-ingredient capsules and tablets.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫單方膠囊；證據包 26 張以錠劑為主，另有 Imavec、Gleetib 膠囊",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"and is registered in South Africa as a single-ingredient capsule.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-ivermectin-1",
+   "drug": "ivermectin",
+   "file": "ivermectin.md",
+   "action": "correct",
+   "claim": "No oral ivermectin registration appears in the data compiled for this report. This matters because the original indications (strongyloidiasis, onchocerciasis) are conventionally treated with oral ivermectin.",
+   "replacement": "An oral ivermectin tablet (Iladek 3) is also registered in the data compiled for this report; oral ivermectin is the conventional treatment for the original indications (strongyloidiasis, onchocerciasis).",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫沒有口服 ivermectin；證據包有有效的 Iladek 3 錠劑（每錠 3 mg），不成立；後一句以此為前提，一併改寫",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"No oral ivermectin registration appears in the data compiled for this report. This matters because the original indications (strongyloidiasis, onchocerciasis) are conventionally treated wi",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-ketoconazole-1",
+   "drug": "ketoconazole",
+   "file": "ketoconazole.md",
+   "action": "correct",
+   "claim": "Ketoconazole is an azole antifungal that is marketed in South Africa as a topical cream.",
+   "replacement": "Ketoconazole is an azole antifungal that is marketed in South Africa as a topical cream, a shampoo and an oral tablet.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫外用乳膏；有效註冊另有 Kez 洗髮液與 Ketazol 錠劑",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Ketoconazole is an azole antifungal that is marketed in South Africa as a topical cream.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-midazolam-1",
+   "drug": "midazolam",
+   "file": "midazolam.md",
+   "action": "correct",
+   "claim": "The only SAHPRA registration found is an injectable product, so the oral routes studied in the older insomnia literature are not matched locally.",
+   "replacement": "The SAHPRA registrations found are mainly injectable products; oral tablets (Dormicum) and nasal sprays are also registered.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫唯一的註冊是注射劑；證據包 55 張另有 Dormicum 錠劑 2 張、Miranost 等鼻噴劑（都有效），不成立；「口服途徑在本地沒有對應」以此為前提，一併改寫",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The only SAHPRA registration found is an injectable product, so the oral routes studied in the older insomnia literature are not matched locally.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-midazolam-2",
+   "drug": "midazolam",
+   "file": "midazolam.md",
+   "action": "correct",
+   "claim": "the only local registration is an injectable,",
+   "replacement": "most local registrations are injectables,",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "同上，改成多數是注射劑",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"the only local registration is an injectable,\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-minocycline-1",
+   "drug": "minocycline",
+   "file": "minocycline.md",
+   "action": "correct",
+   "claim": "Only an oral tablet is registered.",
+   "replacement": "Only oral forms (capsules and tablets) are registered.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫只有口服錠；證據包以膠囊為主（Cyclimycin、Triomin 等），另有錠劑",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Only an oral tablet is registered.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-mometasone-2",
+   "drug": "mometasone",
+   "file": "mometasone.md",
+   "action": "correct",
+   "claim": "Only the cream is a topical formulation relevant to skin-directed therapy.",
+   "replacement": "The cream, ointment and lotion are the topical formulations relevant to skin-directed therapy.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫只有乳膏；證據包另有 Elocon、Momate 軟膏與 Elocon 洗劑",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Only the cream is a topical formulation relevant to skin-directed therapy.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-mycophenolate_mofetil-1",
+   "drug": "mycophenolate_mofetil",
+   "file": "mycophenolate_mofetil.md",
+   "action": "correct",
+   "claim": "that is registered in South Africa as an oral capsule (Mycocept).",
+   "replacement": "that is registered in South Africa mainly as oral capsules (for example Mycocept), with tablets, an oral suspension and an intravenous infusion also registered.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫只有 Mycocept 膠囊；證據包 29 張另有錠劑、CellCept 懸液與 CellCept 靜脈輸注",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"that is registered in South Africa as an oral capsule (Mycocept).\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-naphazoline-1",
+   "drug": "naphazoline",
+   "file": "naphazoline.md",
+   "action": "correct",
+   "claim": "(currently only ophthalmic drops are registered)",
+   "replacement": "(currently eye drops and nasal drops or sprays are registered)",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫只有眼藥水；證據包另有 Sinucon、Ent、Terine、Nasdro、Rinol 等鼻滴劑與鼻噴劑",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"(currently only ophthalmic drops are registered)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-nitroglycerin-1",
+   "drug": "nitroglycerin",
+   "file": "nitroglycerin.md",
+   "action": "correct",
+   "claim": "registered in South Africa as the Nitrolingual inhaler.",
+   "replacement": "registered in South Africa as tablets (Angised), an injection (Nitrocine) and the Nitrolingual inhaler.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫只有 Nitrolingual；證據包有效註冊另有 Angised 錠劑與 Nitrocine 注射液",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"registered in South Africa as the Nitrolingual inhaler.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-olopatadine-1",
+   "drug": "olopatadine",
+   "file": "olopatadine.md",
+   "action": "correct",
+   "claim": "The only local registration is Ryaltris, a spray whose approved indication text is not available.",
+   "replacement": "The local registrations are mainly eye drops, plus Ryaltris (a nasal spray combined with mometasone); their approved indication text is not available.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫唯一的註冊是 Ryaltris；證據包 14 張以 Patanol、Olopagen 等眼藥水為主",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The only local registration is Ryaltris, a spray whose approved indication text is not available.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-pheniramine-1",
+   "drug": "pheniramine",
+   "file": "pheniramine.md",
+   "action": "correct",
+   "claim": "- Route compatibility assessment (only an oral effervescent tablet is currently registered)",
+   "replacement": "- Route compatibility assessment",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫目前只有口服發泡錠；該發泡錠（Degoran Fizzy）已註銷，有效註冊是 Calasthetic 乳膏、Triaminic 口服滴劑、Degoran Bitabs、COFF-UP、Dristan Nasal Mist，前提不成立；只拿掉前提",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Route compatibility assessment (only an oral effervescent tablet is currently registered)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-phenol-1",
+   "drug": "phenol",
+   "file": "phenol.md",
+   "action": "correct",
+   "claim": "The only registered South African product is an oral syrup, and the label safety review is incomplete.",
+   "replacement": "The registered South African products are mainly topical skin, throat and ear preparations, and the label safety review is incomplete.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫唯一註冊是口服糖漿；證據包 39 張是 calamine 洗劑、軟膏、含錠、喉噴劑與耳滴劑等，沒有糖漿",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The only registered South African product is an oral syrup, and the label safety review is incomplete.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-potassium_iodide-1",
+   "drug": "potassium_iodide",
+   "file": "potassium_iodide.md",
+   "action": "correct",
+   "claim": "- Assessment of a suitable oral or other formulation, since only infusion products are registered in South Africa",
+   "replacement": "- Assessment of a suitable oral or other formulation",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫只有輸注產品；有效註冊另有 Iodine Tincture 與口服的 CLARKE'S Blood Mixture，前提不成立；只拿掉前提",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Assessment of a suitable oral or other formulation, since only infusion products are registered in South Africa\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-progesterone-1",
+   "drug": "progesterone",
+   "file": "progesterone.md",
+   "action": "correct",
+   "claim": "that is marketed in South Africa as an oral capsule.",
+   "replacement": "that is marketed in South Africa as oral and vaginal capsules and other vaginal preparations.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫口服膠囊；證據包另有 Tanilive 陰道膠囊、Lutiges、Cyclogest 陰道製劑與 Crinone 陰道凝膠",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"that is marketed in South Africa as an oral capsule.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-resorcinol-1",
+   "drug": "resorcinol",
+   "file": "resorcinol.md",
+   "action": "correct",
+   "claim": "The only local product is a suppository, which does not match a topical dermatological use.",
+   "replacement": "The local products include suppositories as well as topical skin preparations (for example Eskamel Acne And Pimple Ointment and PIMPIL-GO Medicated Cream).",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫唯一本地產品是栓劑；證據包有效註冊另有 Eskamel 痤瘡軟膏、PIMPIL-GO 乳膏、Rectosan 軟膏、Magenta Paint，不成立；「不符合外用」以此為前提，一併改寫",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The only local product is a suppository, which does not match a topical dermatological use.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-sacubitril-1",
+   "drug": "sacubitril",
+   "file": "sacubitril.md",
+   "action": "correct",
+   "claim": "that is registered in South Africa as a single-ingredient tablet,",
+   "replacement": "that is registered in South Africa as fixed-dose combination tablets with valsartan,",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫單方錠；證據包 32 張成分欄全部含 valsartan（Entresto 類複方），單方不成立",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"that is registered in South Africa as a single-ingredient tablet,\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-salbutamol-1",
+   "drug": "salbutamol",
+   "file": "salbutamol.md",
+   "action": "correct",
+   "claim": "All of these are oral or inhaled products.",
+   "replacement": "The registered products are mainly oral or inhaled; a salbutamol injection and an intravenous infusion (Ventolin) are also registered.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫全部是口服或吸入；證據包另有有效的 Ventolin 1 ml 注射液與 Ventolin 5 ml IV 輸注",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"All of these are oral or inhaled products.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-salicylic_acid-1",
+   "drug": "salicylic_acid",
+   "file": "salicylic_acid.md",
+   "action": "correct",
+   "claim": "since the registered products are topical skin preparations (lotion and ointment) only",
+   "replacement": "since the registered products are mainly topical skin preparations",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫只有洗劑與軟膏；證據包另有雞眼／疣貼片、藥用貼盤、乳膏、液劑等，改成成立的寫法；建議內容不動",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"since the registered products are topical skin preparations (lotion and ointment) only\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-selenium-1",
+   "drug": "selenium",
+   "file": "selenium.md",
+   "action": "correct",
+   "claim": "In South Africa it is registered only in parenteral nutrition (TPN) products,",
+   "replacement": "In South Africa it is registered in parenteral nutrition (TPN) and other products,",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫只在靜脈營養；證據包另有 Selsun 等 selenium sulfide 懸液、Jevity Plus、Biosolamine，「only」不成立",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"In South Africa it is registered only in parenteral nutrition (TPN) products,\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-tetracycline-1",
+   "drug": "tetracycline",
+   "file": "tetracycline.md",
+   "action": "correct",
+   "claim": "since the only registered product is an oral tablet",
+   "replacement": "since the registered products are oral forms",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫唯一產品是口服錠；證據包以膠囊為主，另有錠劑與 Capcycline 懸液，都是口服；改成成立的寫法",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"since the only registered product is an oral tablet\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-tretinoin-1",
+   "drug": "tretinoin",
+   "file": "tretinoin.md",
+   "action": "correct",
+   "claim": "The registered South African products are topical only,",
+   "replacement": "The registered South African products are mainly topical (one oral capsule, Vesanoid, is also registered),",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫只有外用；證據包另有有效的 Vesanoid 口服膠囊",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The registered South African products are topical only,\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-tretinoin-2",
+   "drug": "tretinoin",
+   "file": "tretinoin.md",
+   "action": "correct",
+   "claim": "since the registered products are topical only",
+   "replacement": "since the registered products are mainly topical",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提同上，改成 mainly",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"since the registered products are topical only\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-vitamin_e-1",
+   "drug": "vitamin_e",
+   "file": "vitamin_e.md",
+   "action": "correct",
+   "claim": "as the registered South African products are all parenteral",
+   "replacement": "as the registered South African products include both parenteral and oral forms",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫全部是注射劑；同上",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"as the registered South African products are all parenteral\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-acetic_acid-1",
+   "drug": "acetic_acid",
+   "file": "acetic_acid.md",
+   "action": "correct",
+   "claim": "registered in South Africa in several single-ingredient products, mainly haemodialysis concentrates.",
+   "replacement": "registered in South Africa in several products, mainly haemodialysis concentrates.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫單方產品；透析濃縮液等多數是複方（成分欄另含氯化鈉、氯化鉀等），拿掉「single-ingredient」",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"registered in South Africa in several single-ingredient products, mainly haemodialysis concentrates.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-acetaminophen-1",
+   "drug": "acetaminophen",
+   "file": "acetaminophen.md",
+   "action": "correct",
+   "claim": "Only part of the licence list is held in the data; the list may be incomplete.\n\n",
+   "replacement": "",
+   "note": "Removed: it said only part of the registration list was held in the data; the SAHPRA registration data as of 2026-11-23 compiled for this report cover all registrations matched to this medicine, and the line under the table shows how many are listed.",
+   "finding": "許可證表下的「只收了部分許可證、清單可能不完整」說明句（10-22 known_use_pages 程式句）；快照事實層 partial＝False（證據包已收齊本藥全部註冊，表下另有程式產生的 Showing N of M），說法不成立，刪掉",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Only part of the licence list is held in the data; the list may be incomplete.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "za-lic-20261124b-calcium-1",
+   "drug": "calcium",
+   "file": "calcium.md",
+   "action": "correct",
+   "claim": "Only part of the licence list is held in the data; the list may be incomplete.\n\n",
+   "replacement": "",
+   "note": "Removed: it said only part of the registration list was held in the data; the SAHPRA registration data as of 2026-11-23 compiled for this report cover all registrations matched to this medicine, and the line under the table shows how many are listed.",
+   "finding": "許可證表下的「只收了部分許可證、清單可能不完整」說明句（10-22 known_use_pages 程式句）；快照事實層 partial＝False（證據包已收齊本藥全部註冊，表下另有程式產生的 Showing N of M），說法不成立，刪掉",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Only part of the licence list is held in the data; the list may be incomplete.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "za-lic-20261124b-copper-1",
+   "drug": "copper",
+   "file": "copper.md",
+   "action": "correct",
+   "claim": "Only part of the licence list is held in the data; the list may be incomplete.\n\n",
+   "replacement": "",
+   "note": "Removed: it said only part of the registration list was held in the data; the SAHPRA registration data as of 2026-11-23 compiled for this report cover all registrations matched to this medicine, and the line under the table shows how many are listed.",
+   "finding": "許可證表下的「只收了部分許可證、清單可能不完整」說明句（10-22 known_use_pages 程式句）；快照事實層 partial＝False（證據包已收齊本藥全部註冊，表下另有程式產生的 Showing N of M），說法不成立，刪掉",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Only part of the licence list is held in the data; the list may be incomplete.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "za-lic-20261124b-nicotinamide-1",
+   "drug": "nicotinamide",
+   "file": "nicotinamide.md",
+   "action": "correct",
+   "claim": "Only part of the licence list is held in the data; the list may be incomplete.\n\n",
+   "replacement": "",
+   "note": "Removed: it said only part of the registration list was held in the data; the SAHPRA registration data as of 2026-11-23 compiled for this report cover all registrations matched to this medicine, and the line under the table shows how many are listed.",
+   "finding": "許可證表下的「只收了部分許可證、清單可能不完整」說明句（10-22 known_use_pages 程式句）；快照事實層 partial＝False（證據包已收齊本藥全部註冊，表下另有程式產生的 Showing N of M），說法不成立，刪掉",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Only part of the licence list is held in the data; the list may be incomplete.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "za-lic-20261124b-pyridoxine-1",
+   "drug": "pyridoxine",
+   "file": "pyridoxine.md",
+   "action": "correct",
+   "claim": "Only part of the licence list is held in the data; the list may be incomplete.\n\n",
+   "replacement": "",
+   "note": "Removed: it said only part of the registration list was held in the data; the SAHPRA registration data as of 2026-11-23 compiled for this report cover all registrations matched to this medicine, and the line under the table shows how many are listed.",
+   "finding": "許可證表下的「只收了部分許可證、清單可能不完整」說明句（10-22 known_use_pages 程式句）；快照事實層 partial＝False（證據包已收齊本藥全部註冊，表下另有程式產生的 Showing N of M），說法不成立，刪掉",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Only part of the licence list is held in the data; the list may be incomplete.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "za-lic-20261124b-sodium_chloride-1",
+   "drug": "sodium_chloride",
+   "file": "sodium_chloride.md",
+   "action": "correct",
+   "claim": "Only part of the licence list is held in the data; the list may be incomplete.\n\n",
+   "replacement": "",
+   "note": "Removed: it said only part of the registration list was held in the data; the SAHPRA registration data as of 2026-11-23 compiled for this report cover all registrations matched to this medicine, and the line under the table shows how many are listed.",
+   "finding": "許可證表下的「只收了部分許可證、清單可能不完整」說明句（10-22 known_use_pages 程式句）；快照事實層 partial＝False（證據包已收齊本藥全部註冊，表下另有程式產生的 Showing N of M），說法不成立，刪掉",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Only part of the licence list is held in the data; the list may be incomplete.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "za-lic-20261124b-zidovudine-1",
+   "drug": "zidovudine",
+   "file": "zidovudine.md",
+   "action": "correct",
+   "claim": "\n- Verification of the \"Simayla Simvastatin 40\" entry in the registration list",
+   "replacement": "",
+   "note": "Corrected: the product named here is no longer among the registrations matched to this medicine in the SAHPRA registration data as of 2026-11-23, so that reason was removed; the suggested step is unchanged.",
+   "finding": "待辦條目要查證表上的「Simayla Simvastatin 40」；證據包（data-20261123-184252）已沒有這筆（依成分重建時剔除），整條建立在已不存在的前提上，刪掉",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"Verification of the \"Simayla Simvastatin 40\" entry in the registration list\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）",
+   "anchor": "- Detailed mechanism of action data"
+  },
+  {
+   "id": "za-lic-20261124b-clavulanic_acid-1",
+   "drug": "clavulanic_acid",
+   "file": "clavulanic_acid.md",
+   "action": "correct",
+   "claim": "- Verification of the SAHPRA licence list, since several entries appear to be unrelated products.",
+   "replacement": "- Verification of the SAHPRA licence list.",
+   "note": "Corrected: the product named here is no longer among the registrations matched to this medicine in the SAHPRA registration data as of 2026-11-23, so that reason was removed; the suggested step is unchanged.",
+   "finding": "待辦條目前提寫有幾筆看起來是無關產品；證據包 140 張成分欄都含 clavulanic acid（依成分重建後），前提不成立；只拿掉前提，建議內容不動",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Verification of the SAHPRA licence list, since several entries appear to be unrelated products.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-aripiprazole-2",
+   "drug": "aripiprazole",
+   "file": "aripiprazole.md",
+   "action": "correct",
+   "claim": "that is currently marketed in South Africa as an injectable product.",
+   "replacement": "that is currently marketed in South Africa mainly as tablets, with injectable products also registered.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫注射劑產品；證據包有效 69 張以錠劑（含口溶錠）為主，注射劑只有 Abilify IM、Abilify Maintena",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"that is currently marketed in South Africa as an injectable product.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-artemether-1",
+   "drug": "artemether",
+   "file": "artemether.md",
+   "action": "correct",
+   "claim": "that is registered in South Africa as a single-ingredient product.",
+   "replacement": "that is registered in South Africa in combination tablets with lumefantrine (Coartem, Lumiter 20/120 mg).",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫單方產品；證據包有效 2 張 Coartem、Lumiter 都是 artemether＋lumefantrine 複方錠，單方不成立",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"that is registered in South Africa as a single-ingredient product.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-biotin-1",
+   "drug": "biotin",
+   "file": "biotin.md",
+   "action": "correct",
+   "claim": "- Route and formulation assessment, since the registered products are injectable or parenteral nutrition forms",
+   "replacement": "- Route and formulation assessment",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫都是注射或靜脈營養；證據包有效 39 張多為 Nutrison、Fresubin、Enlive 等口服營養液，另有錠劑、膠囊，前提不成立；只拿掉前提",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Route and formulation assessment, since the registered products are injectable or parenteral nutrition forms\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-calcipotriol-1",
+   "drug": "calcipotriol",
+   "file": "calcipotriol.md",
+   "action": "correct",
+   "claim": "registered in South Africa in combination dermatological products (Dovobet ointment and Xamiol gel).",
+   "replacement": "registered in South Africa as single-ingredient products (Dovonex) and in combinations with betamethasone (for example Dovobet).",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫只有複方（Dovobet、Xamiol）；證據包有效註冊另有 Dovonex 乳膏、軟膏、頭皮液與 Psozerol 等單方，Xamiol 不在證據包",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"registered in South Africa in combination dermatological products (Dovobet ointment and Xamiol gel).\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-cefuroxime-1",
+   "drug": "cefuroxime",
+   "file": "cefuroxime.md",
+   "action": "correct",
+   "claim": "marketed in South Africa as injectable products.",
+   "replacement": "marketed in South Africa as tablets, an oral suspension and injectable products.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫注射劑產品；證據包有效 63 張以錠劑為主（Ceroxim、Zinuroz 等），另有懸液與注射劑",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"marketed in South Africa as injectable products.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-clobetasol-1",
+   "drug": "clobetasol",
+   "file": "clobetasol.md",
+   "action": "correct",
+   "claim": "that is currently registered in South Africa as a cream and an ointment.",
+   "replacement": "that is currently registered in South Africa as creams, ointments, scalp lotions, foams, a shampoo and spray solutions.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫乳膏與軟膏；證據包有效 18 張另有 Dermovate Scalp 洗劑、Clobex 洗髮液、泡沫劑與噴霧液",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"that is currently registered in South Africa as a cream and an ointment.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-dexmedetomidine-1",
+   "drug": "dexmedetomidine",
+   "file": "dexmedetomidine.md",
+   "action": "correct",
+   "claim": "injection registered in South Africa as Precedex.",
+   "replacement": "injection registered in South Africa as Precedex and several generic products.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫註冊品是 Precedex；證據包有效 31 張另有 Demodinex、Sedmedex、Tomexa 等學名藥注射液",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"injection registered in South Africa as Precedex.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-misoprostol-1",
+   "drug": "misoprostol",
+   "file": "misoprostol.md",
+   "action": "correct",
+   "claim": "registered in South Africa in combination tablets (Arthrotec and Arthrotec 50).",
+   "replacement": "registered in South Africa as single-ingredient tablets (for example Cytotec) and in combination products (for example Arthrotec).",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫只有 Arthrotec 複方錠；證據包有效 6 張另有 Cytotec、Acemiso、Acegyne、Acemife 單方錠與 Medabon Co 組合包",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"registered in South Africa in combination tablets (Arthrotec and Arthrotec 50).\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-mometasone-3",
+   "drug": "mometasone",
+   "file": "mometasone.md",
+   "action": "correct",
+   "claim": "marketed in South Africa as a topical cream and as nasal sprays.",
+   "replacement": "marketed in South Africa as topical products (cream, ointment and lotion), nasal sprays and inhalers.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫乳膏與鼻噴劑；證據包另有軟膏、洗劑、Asmanex、Dulera 吸入劑",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"marketed in South Africa as a topical cream and as nasal sprays.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-tenofovir_alafenamide-2",
+   "drug": "tenofovir_alafenamide",
+   "file": "tenofovir_alafenamide.md",
+   "action": "correct",
+   "claim": "in South Africa it is registered as a single-ingredient product.",
+   "replacement": "in South Africa it is registered as single-ingredient tablets (for example Vemlidy) and in fixed-dose combinations.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫單方產品；證據包 37 張多為 Descovy、Biktarvy、Tafbin 等複方，另有 Vemlidy、Venlamid 等單方",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"in South Africa it is registered as a single-ingredient product.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-triamcinolone-1",
+   "drug": "triamcinolone",
+   "file": "triamcinolone.md",
+   "action": "correct",
+   "claim": "(paste, nasal spray, cream, ointment)",
+   "replacement": "(nasal sprays and a cream)",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "括號列的劑型含已註銷的品項（Kenalog in Orabase 糊劑、Kenacomb 軟膏）；有效 3 張是 Triamist、Nasacort 鼻噴劑與 Pevisone 乳膏；注射劑（Ledercort）已註銷，句子其餘成立",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"(paste, nasal spray, cream, ointment)\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-zinc_acetate-1",
+   "drug": "zinc_acetate",
+   "file": "zinc_acetate.md",
+   "action": "correct",
+   "claim": "the registered forms are parenteral, and an oral",
+   "replacement": "the registered forms are mainly parenteral (plus a topical lotion, Zineryt), and an oral",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫都是注射劑；有效註冊另有 Zineryt 外用洗劑，改成 mainly；建議內容不動",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"the registered forms are parenteral, and an oral\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-levofloxacin-1",
+   "drug": "levofloxacin",
+   "file": "levofloxacin.md",
+   "action": "correct",
+   "claim": "since the registered products are oral and intravenous\n",
+   "replacement": "since the registered products are oral and intravenous, apart from one combination eye drop with dexamethasone (Voxidex)\n",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "待辦條目前提寫只有口服與靜脈；證據包另有有效的 Voxidex（levofloxacin＋dexamethasone 眼藥水）",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"since the registered products are oral and intravenous\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-potassium_acetate-3",
+   "drug": "potassium_acetate",
+   "file": "potassium_acetate.md",
+   "action": "correct",
+   "claim": "Potassium acetate in these products is a component of parenteral nutrition or infusion preparations, not a standalone potassium product.",
+   "replacement": "Potassium acetate in most of these products is a component of parenteral nutrition or infusion preparations; one product (Bruindulsies) is an oral potassium acetate preparation.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫都是靜脈營養成分、沒有單獨的鉀製劑；證據包另有有效的 Bruindulsies（口服，每 5 ml 含 potassium acetate 100 mg，單一成分）",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Potassium acetate in these products is a component of parenteral nutrition or infusion preparations, not a standalone potassium product.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
+  },
+  {
+   "id": "za-lic-20261124b-potassium_iodide-2",
+   "drug": "potassium_iodide",
+   "file": "potassium_iodide.md",
+   "action": "correct",
+   "claim": "The locally registered products are infusion formulations, not suited to nasal use.",
+   "replacement": "The locally registered products (infusions, an iodine tincture and an oral mixture) are not suited to nasal use.",
+   "note": "Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations.",
+   "finding": "正文寫都是輸注製劑；有效註冊另有 Iodine Tincture 與口服的 CLARKE'S Blood Mixture；逐張查沒有鼻用製劑，後半成立",
+   "sources": [
+    {
+     "title": "SAHPRA medicine register (medapps export)",
+     "url": "https://medapps.sahpra.org.za:6006/DateSearch/ExportData",
+     "accessed": "2026-11-23"
+    },
+    {
+     "title": "SAHPRA",
+     "url": "https://www.sahpra.org.za/",
+     "accessed": "2026-11-23"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The locally registered products are infusion formulations, not suited to nasal use.\"",
+   "method": "2026-11-24 第二輪人工查核（用戶決定：待查清單逐句、劑型說法全站掃、缺表頁補程式表；逐句對照證據包 data-20261123-184252 全部紀錄與快照事實層）"
   }
  ]
 }

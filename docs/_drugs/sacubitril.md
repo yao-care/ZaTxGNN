@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Sacubitril is a neprilysin inhibitor that is registered in South Africa as a single-ingredient tablet, but the data compiled for this report contain no approved indication text for it.
+Sacubitril is a neprilysin inhibitor that is registered in South Africa as fixed-dose combination tablets with valsartan, but the data compiled for this report contain no approved indication text for it.
 The TxGNN model's top-ranked prediction is **brain small vessel disease 1 with or without ocular anomalies**, supported by **0 clinical trials** and **1 publication**, and that publication does not address this disease.
 The best-supported prediction in the data is **diabetic nephropathy** (rank 3), with **1 clinical trial** and **15 publications**. It is covered in detail below as a more informative alternative.
+
+<!-- review:begin za-lic-20261124b-sacubitril-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "that is registered in South Africa as a single-ingredient tablet," Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-sacubitril-1 -->
 
 ## Quick Overview
 
@@ -175,6 +181,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available for sacubitril in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
 | 2026-11-24 | Removed: "Status: valid, single-ingredient product." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "that is registered in South Africa as a single-ingredient tablet," | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Cefuroxime is a second-generation cephalosporin antibiotic marketed in South Africa as injectable products.
+Cefuroxime is a second-generation cephalosporin antibiotic marketed in South Africa as tablets, an oral suspension and injectable products.
 The TxGNN model predicts it may be relevant to **polyclonal hyperviscosity syndrome**, with a prediction score of **0.9976**.
 There are currently **no clinical trials and no publications** that study this disease, so the prediction rests on the model alone.
+
+<!-- review:begin za-lic-20261124b-cefuroxime-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in South Africa as injectable products." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-cefuroxime-1 -->
 
 ## Quick Overview
 
@@ -126,6 +132,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are single-ingredient products and are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
+| 2026-11-24 | Corrected: "marketed in South Africa as injectable products." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

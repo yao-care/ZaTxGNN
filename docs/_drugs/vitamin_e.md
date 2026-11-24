@@ -111,11 +111,11 @@ Showing 5 of 17 registrations (valid registrations first).
 
 <!-- licenses:end -->
 
-No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment. Essential Medicines List status could not be confirmed from the data compiled.
+Oral vitamin E products (for example Alpha Vit E Capsules) are also registered in the data compiled. Essential Medicines List status could not be confirmed from the data compiled.
 
 <!-- review:begin za-lic-20261105-vitamin_e-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All four registrations are valid and are parenteral (infusion or parenteral nutrition) products. No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-24)**: Originally stated: "All four registrations are valid and are parenteral (infusion or parenteral nutrition) products. No oral vitamin E registration appears in the data compiled, so any oral use would need a separate product assessment." Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-05, after registrations were matched by ingredient. The Quick Overview and the table under South Africa Market Information show the current figures. Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-vitamin_e-1 -->
 
@@ -142,8 +142,14 @@ The prediction score is very high, but there are no registered trials and the on
 - Mechanism of action data to support a mechanistic link
 - SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
 - Clinical studies of vitamin E in inherited bilirubin or bile acid disorders
-- Confirmation of which formulations and routes are suitable, as the registered South African products are all parenteral
+- Confirmation of which formulations and routes are suitable, as the registered South African products include both parenteral and oral forms
 - If pursuing a related direction, "bilirubin metabolism disease" and "drug-induced liver injury" are better framed as research questions (L4, preclinical or observational support only)
+
+<!-- review:begin za-lic-20261124b-vitamin_e-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "as the registered South African products are all parenteral" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-vitamin_e-1 -->
 
 <!-- review:begin log -->
 
@@ -153,7 +159,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All four registrations are valid and are parenteral (infusion or parenteral nutrition) products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Removed: "All four registrations are valid and are parenteral (infusion or parenteral nutrition) products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "as the registered South African products are all parenteral" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

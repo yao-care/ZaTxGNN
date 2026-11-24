@@ -21,12 +21,12 @@
   "items_current": 11859
  },
  "reviews": {
-  "records": 678,
-  "pages": 369,
-  "public_pages_with_records": 338,
+  "records": 777,
+  "pages": 377,
+  "public_pages_with_records": 346,
   "by_action": {
    "annotate": 1,
-   "correct": 407,
+   "correct": 506,
    "mechanism": 270
   }
  },
@@ -41,7 +41,7 @@
    "l": "N/A",
    "lt": 560,
    "lv": 388,
-   "r": 0,
+   "r": 1,
    "i": ""
   },
   {
@@ -50,7 +50,7 @@
    "l": "L5",
    "lt": 318,
    "lv": 287,
-   "r": 2,
+   "r": 3,
    "i": "brain stem infarction"
   },
   {
@@ -68,7 +68,7 @@
    "l": "L4",
    "lt": 255,
    "lv": 216,
-   "r": 2,
+   "r": 3,
    "i": "malignant hypertensive renal disease"
   },
   {
@@ -86,7 +86,7 @@
    "l": "N/A",
    "lt": 251,
    "lv": 168,
-   "r": 0,
+   "r": 1,
    "i": ""
   },
   {
@@ -124,7 +124,7 @@
    "l": "N/A",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": ""
   },
   {
@@ -185,22 +185,22 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
+   "t": "Alanine",
+   "u": "/drugs/alanine/",
+   "l": "L5",
+   "lt": 55,
+   "lv": 36,
+   "r": 5,
+   "i": "gastroparesis (disease)"
+  },
+  {
    "t": "Arginine",
    "u": "/drugs/arginine/",
    "l": "L4",
    "lt": 54,
    "lv": 35,
-   "r": 4,
+   "r": 5,
    "i": "gastroparesis (disease)"
-  },
-  {
-   "t": "Emtricitabine",
-   "u": "/drugs/emtricitabine/",
-   "l": "L5",
-   "lt": 86,
-   "lv": 77,
-   "r": 4,
-   "i": "feline acquired immunodeficiency syndrome"
   },
   {
    "t": "Fusidic Acid",
@@ -208,35 +208,35 @@
    "l": "L5",
    "lt": 10,
    "lv": 10,
-   "r": 4,
+   "r": 5,
    "i": "exposure keratitis"
   },
   {
-   "t": "Tramadol",
-   "u": "/drugs/tramadol/",
+   "t": "Ipratropium",
+   "u": "/drugs/ipratropium/",
    "l": "L5",
-   "lt": 82,
-   "lv": 75,
+   "lt": 31,
+   "lv": 17,
+   "r": 5,
+   "i": "nasal cavity disease"
+  },
+  {
+   "t": "Acyclovir",
+   "u": "/drugs/acyclovir/",
+   "l": "L5",
+   "lt": 14,
+   "lv": 14,
    "r": 4,
-   "i": "acromesomelic dysplasia, Hunter-Thompson type"
+   "i": "punctate epithelial keratoconjunctivitis"
   },
   {
-   "t": "Abacavir",
-   "u": "/drugs/abacavir/",
+   "t": "Cyanocobalamin",
+   "u": "/drugs/cyanocobalamin/",
    "l": "L5",
-   "lt": 66,
-   "lv": 50,
-   "r": 3,
-   "i": "feline acquired immunodeficiency syndrome"
-  },
-  {
-   "t": "Alanine",
-   "u": "/drugs/alanine/",
-   "l": "L5",
-   "lt": 55,
-   "lv": 36,
-   "r": 3,
-   "i": "gastroparesis (disease)"
+   "lt": 44,
+   "lv": 27,
+   "r": 4,
+   "i": "biotin metabolic disease"
   }
  ],
  "example": {
@@ -250,198 +250,198 @@
  },
  "recent_reviews": [
   {
-   "t": "Sacubitril",
-   "u": "/drugs/sacubitril/",
-   "s": "Removed: \"Status: valid, single-ingredient product.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Formoterol",
-   "u": "/drugs/formoterol/",
-   "s": "Removed: \"Two single-ingredient registrations are listed, both valid.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Flucloxacillin",
-   "u": "/drugs/flucloxacillin/",
-   "s": "Removed: \"under six SAHPRA registrations\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Fexofenadine",
-   "u": "/drugs/fexofenadine/",
-   "s": "Removed: \"A single valid single-ingredient registration is recorded.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Ezetimibe",
-   "u": "/drugs/ezetimibe/",
-   "s": "Removed: \"Six single-ingredient registrations are recorded.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Emtricitabine",
-   "u": "/drugs/emtricitabine/",
-   "s": "Corrected: \"At least 20 SAHPRA registrations (the list may be partial)\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Dextropropoxyphene",
-   "u": "/drugs/dextropropoxyphene/",
-   "s": "Annotated: MCC 2011 resolution withdrawing all dextropropoxyphene medicines from the South African market",
-   "d": "2026-11-18"
-  },
-  {
-   "t": "Norgestimate",
-   "u": "/drugs/norgestimate/",
-   "s": "Corrected: neither registration is current (not on SAHPRA register; discontinued in MPR)",
-   "d": "2026-11-17"
-  },
-  {
-   "t": "Pseudoephedrine",
-   "u": "/drugs/pseudoephedrine/",
-   "s": "Removed: \"for the 19 SAHPRA registrations\"",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Fenofibrate",
-   "u": "/drugs/fenofibrate/",
-   "s": "Removed: \"as the only local registration appears to be for a product that may contain more than one active…",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Citalopram",
-   "u": "/drugs/citalopram/",
-   "s": "Removed: \"for the 4 registered products\"",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Calcipotriol",
-   "u": "/drugs/calcipotriol/",
-   "s": "Removed: \"Calcipotriol is registered in South Africa only in two products, both listed as valid\"",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Thiamine",
-   "u": "/drugs/thiamine/",
-   "s": "Removed: \"Thirteen single-ingredient registrations are listed (the list may be partial). for any of them\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Glimepiride",
-   "u": "/drugs/glimepiride/",
-   "s": "Removed: \"for all three registrations\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Ethinylestradiol",
-   "u": "/drugs/ethinylestradiol/",
-   "s": "Removed: \"in 20 single-ingredient products\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Atropine",
-   "u": "/drugs/atropine/",
-   "s": "Removed: \"since the only registered product is an oral capsule\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Arginine",
-   "u": "/drugs/arginine/",
-   "s": "Removed: \"(current registrations are parenteral only)\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Zolpidem",
-   "u": "/drugs/zolpidem/",
-   "s": "Removed: \"All three registrations are valid single-ingredient products\"",
-   "d": "2026-11-05"
-  },
-  {
-   "t": "Zinc Oxide",
-   "u": "/drugs/zinc-oxide/",
-   "s": "Removed: \"All four registrations are valid single-ingredient entries\"",
-   "d": "2026-11-05"
-  },
-  {
-   "t": "Zinc Gluconate",
-   "u": "/drugs/zinc-gluconate/",
-   "s": "Removed: \"All three registrations are valid single-ingredient entries\"",
-   "d": "2026-11-05"
-  },
-  {
-   "t": "Zinc Chloride",
-   "u": "/drugs/zinc-chloride/",
-   "s": "Removed: \"Six registrations are on record\"",
-   "d": "2026-11-05"
-  },
-  {
    "t": "Zinc Acetate",
    "u": "/drugs/zinc-acetate/",
-   "s": "Removed: \"All four registrations are valid single-ingredient entries, and all are injectable or parenteral…",
-   "d": "2026-11-05"
+   "s": "Corrected: \"the registered forms are parenteral, and an oral\"",
+   "d": "2026-11-24"
   },
   {
    "t": "Zidovudine",
    "u": "/drugs/zidovudine/",
-   "s": "Removed: \"Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named…",
-   "d": "2026-11-05"
+   "s": "Removed: \"Verification of the \"Simayla Simvastatin 40\" entry in the registration list\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Warfarin",
-   "u": "/drugs/warfarin/",
-   "s": "Removed: \"Warfarin has 1 valid single-ingredient registration in South Africa\"",
-   "d": "2026-11-05"
+   "t": "Vitamin E",
+   "u": "/drugs/vitamin-e/",
+   "s": "Corrected: \"as the registered South African products are all parenteral\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "s": "Corrected: \"contraindications) for both registered products,\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "Corrected: \"approved indications for the 20 registrations\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "Corrected: \"Indication text for the three SAHPRA registrations\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Triamcinolone",
+   "u": "/drugs/triamcinolone/",
+   "s": "Corrected: \"(paste, nasal spray, cream, ointment)\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tretinoin",
+   "u": "/drugs/tretinoin/",
+   "s": "Corrected: \"since the registered products are topical only\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tetracycline",
+   "u": "/drugs/tetracycline/",
+   "s": "Corrected: \"since the only registered product is an oral tablet\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tenofovir Alafenamide",
+   "u": "/drugs/tenofovir-alafenamide/",
+   "s": "Corrected: \"in South Africa it is registered as a single-ingredient product.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Sodium Chloride",
+   "u": "/drugs/sodium-chloride/",
+   "s": "Removed: \"Only part of the licence list is held in the data; the list may be incomplete.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Selenium",
+   "u": "/drugs/selenium/",
+   "s": "Corrected: \"In South Africa it is registered only in parenteral nutrition (TPN) products,\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Salicylic Acid",
+   "u": "/drugs/salicylic-acid/",
+   "s": "Corrected: \"since the registered products are topical skin preparations (lotion and ointment) only\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Salbutamol",
+   "u": "/drugs/salbutamol/",
+   "s": "Corrected: \"All of these are oral or inhaled products.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Sacubitril",
+   "u": "/drugs/sacubitril/",
+   "s": "Corrected: \"that is registered in South Africa as a single-ingredient tablet,\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Rivaroxaban",
+   "u": "/drugs/rivaroxaban/",
+   "s": "Corrected: \"(the approved indication text in both SAHPRA registrations is empty)\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Resorcinol",
+   "u": "/drugs/resorcinol/",
+   "s": "Corrected: \"The only local product is a suppository, which does not match a topical dermatological use.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Pyridoxine",
+   "u": "/drugs/pyridoxine/",
+   "s": "Removed: \"Only part of the licence list is held in the data; the list may be incomplete.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Progesterone",
+   "u": "/drugs/progesterone/",
+   "s": "Corrected: \"that is marketed in South Africa as an oral capsule.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Procaine",
+   "u": "/drugs/procaine/",
+   "s": "Corrected: \"(the single SAHPRA registration lists no approved indication text)\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Potassium Iodide",
+   "u": "/drugs/potassium-iodide/",
+   "s": "Corrected: \"The locally registered products are infusion formulations, not suited to nasal use.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Potassium Acetate",
+   "u": "/drugs/potassium-acetate/",
+   "s": "Corrected: \"Potassium acetate in these products is a component of parenteral nutrition or infusion…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Phenylalanine",
+   "u": "/drugs/phenylalanine/",
+   "s": "Corrected: \"(all 11 SAHPRA registrations are amino acid-containing infusion products)\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Phenol",
+   "u": "/drugs/phenol/",
+   "s": "Corrected: \"The only registered South African product is an oral syrup, and the label safety review is…",
+   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Sacubitril",
-   "u": "/drugs/sacubitril/",
-   "s": "Removed: \"Status: valid, single-ingredient product.\"",
+   "t": "Zinc Acetate",
+   "u": "/drugs/zinc-acetate/",
+   "s": "Corrected: \"the registered forms are parenteral, and an oral\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Formoterol",
-   "u": "/drugs/formoterol/",
-   "s": "Removed: \"Two single-ingredient registrations are listed, both valid.\"",
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "s": "Removed: \"Verification of the \"Simayla Simvastatin 40\" entry in the registration list\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Flucloxacillin",
-   "u": "/drugs/flucloxacillin/",
-   "s": "Removed: \"under six SAHPRA registrations\"",
+   "t": "Vitamin E",
+   "u": "/drugs/vitamin-e/",
+   "s": "Corrected: \"as the registered South African products are all parenteral\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Fexofenadine",
-   "u": "/drugs/fexofenadine/",
-   "s": "Removed: \"A single valid single-ingredient registration is recorded.\"",
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "s": "Corrected: \"contraindications) for both registered products,\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Ezetimibe",
-   "u": "/drugs/ezetimibe/",
-   "s": "Removed: \"Six single-ingredient registrations are recorded.\"",
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "Corrected: \"approved indications for the 20 registrations\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Emtricitabine",
-   "u": "/drugs/emtricitabine/",
-   "s": "Corrected: \"At least 20 SAHPRA registrations (the list may be partial)\"",
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "Corrected: \"Indication text for the three SAHPRA registrations\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Dextropropoxyphene",
-   "u": "/drugs/dextropropoxyphene/",
-   "s": "Annotated: MCC 2011 resolution withdrawing all dextropropoxyphene medicines from the South African market",
-   "d": "2026-11-18"
+   "t": "Triamcinolone",
+   "u": "/drugs/triamcinolone/",
+   "s": "Corrected: \"(paste, nasal spray, cream, ointment)\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Norgestimate",
-   "u": "/drugs/norgestimate/",
-   "s": "Corrected: neither registration is current (not on SAHPRA register; discontinued in MPR)",
-   "d": "2026-11-17"
+   "t": "Tretinoin",
+   "u": "/drugs/tretinoin/",
+   "s": "Corrected: \"since the registered products are topical only\"",
+   "d": "2026-11-24"
   }
  ],
  "files": {

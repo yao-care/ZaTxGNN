@@ -38,7 +38,13 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Ketoconazole is an azole antifungal that is marketed in South Africa as a topical cream. The TxGNN model predicts it may be useful for **acne (disease)**, with a prediction score of 0.9980. Evidence is limited to **1 registered clinical trial** (still without results) and **in vitro and background literature**, so the evidence level is **L4**.
+Ketoconazole is an azole antifungal that is marketed in South Africa as a topical cream, a shampoo and an oral tablet. The TxGNN model predicts it may be useful for **acne (disease)**, with a prediction score of 0.9980. Evidence is limited to **1 registered clinical trial** (still without results) and **in vitro and background literature**, so the evidence level is **L4**.
+
+<!-- review:begin za-lic-20261124b-ketoconazole-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Ketoconazole is an azole antifungal that is marketed in South Africa as a topical cream." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-ketoconazole-1 -->
 
 ## Quick Overview
 
@@ -137,6 +143,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "One of the two registrations is currently valid and both are single-ingredient products. The only valid product is a topical cream" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report. The reasoning below rests on the general pharmacology of ketoconazole" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
+| 2026-11-24 | Corrected: "Ketoconazole is an azole antifungal that is marketed in South Africa as a topical cream." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

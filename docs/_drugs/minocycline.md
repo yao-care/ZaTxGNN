@@ -101,7 +101,13 @@ Showing 5 of 15 registrations (valid registrations first).
 
 <!-- licenses:end -->
 
-Only an oral tablet is registered. No ophthalmic or other topical formulation is registered, which would be relevant for any eye-surface use. Essential Medicines List status could not be determined from the data compiled.
+Only oral forms (capsules and tablets) are registered. No ophthalmic or other topical formulation is registered, which would be relevant for any eye-surface use. Essential Medicines List status could not be determined from the data compiled.
+
+<!-- review:begin za-lic-20261124b-minocycline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Only an oral tablet is registered." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-minocycline-1 -->
 
 ## Safety Considerations
 
@@ -143,6 +149,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "The registered product is an oral tablet, and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb) |
+| 2026-11-24 | Corrected: "Only an oral tablet is registered." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -113,7 +113,13 @@ The prediction rests on a model score alone. There are no trials or publications
 - Published or registered studies that directly address diphenhydramine in rosacea conjunctivitis
 - Mechanism of action data and a clear rationale for ocular rosacea
 - Safety information from the SAHPRA PI (warnings and contraindications)
-- Assessment of route and formulation, since the registered products are oral or syrup forms and no ocular formulation is recorded
+- Assessment of route and formulation, since no ocular formulation is recorded
+
+<!-- review:begin za-lic-20261124b-diphenhydramine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the registered products are oral or syrup forms and no ocular formulation is recorded" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-diphenhydramine-1 -->
 
 <!-- review:begin log -->
 
@@ -125,6 +131,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "The data compiled for this report lists 19 valid single-ingredient registrations and none cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4) |
+| 2026-11-24 | Corrected: "since the registered products are oral or syrup forms and no ocular formulation is recorded" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -72,13 +72,33 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
-Approved-indication text and manufacturer details are not recorded in the local data, so inclusion on the Essential Medicines List could not be assessed from the data compiled for this report. The registration table is generated separately from the licence records.
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 29/15.4/0766 | Trusopt 5ml owi | drops | Valid |
+| 32/15.4/0525 | Cosopt 5ml | drops | Valid |
+| 45/15.4/1035 | Glaucopress 5ml | drops | Valid |
+| 46/15.4/0684 | Glaumide-co 5ml | drops | Valid |
+| 51/15.4/0066 | Glautidor | drops | Valid |
+
+Showing 5 of 34 registrations (valid registrations first).
+
+<!-- licenses:end -->
+
+Approved-indication text and manufacturer details are not recorded in the local data, so inclusion on the Essential Medicines List could not be assessed from the data compiled for this report.
 
 <!-- review:begin za-lic-20261105-dorzolamide-1 -->
 
 > **Review correction (2026-11-05)**: Originally stated: "Two SAHPRA registrations are recorded as valid, both single-ingredient products supplied as drops. No registration is cancelled. Approved-indication text and manufacturer details are not recorded in the local data, so inclusion on the Essential Medicines List could not be assessed from the data compiled for this report." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-dorzolamide-1 -->
+
+<!-- review:begin za-lic-20261124b-dorzolamide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The registration table is generated separately from the licence records." Removed: it said the registration table is provided separately; the programme-generated registration table is now shown at the start of South Africa Market Information. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-dorzolamide-1 -->
 
 ## Safety Considerations
 
@@ -115,6 +135,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Two SAHPRA registrations are recorded as valid, both single-ingredient products supplied as drops. No registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
+| 2026-11-24 | Removed: "The registration table is generated separately from the licence records." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

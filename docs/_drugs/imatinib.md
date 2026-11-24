@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Imatinib is an oral tyrosine kinase inhibitor that blocks the ABL, KIT and PDGFR kinases and is registered in South Africa as a single-ingredient capsule.
+Imatinib is an oral tyrosine kinase inhibitor that blocks the ABL, KIT and PDGFR kinases and is registered in South Africa as single-ingredient capsules and tablets.
 The TxGNN model predicts it may be effective for **heart fibrosarcoma**, with a prediction score of 0.9994.
 For this specific disease there are **no registered clinical trials** and only **one general review** in the data compiled for this report, so the prediction rests on model output and indirect biological reasoning.
+
+<!-- review:begin za-lic-20261124b-imatinib-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and is registered in South Africa as a single-ingredient capsule." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-imatinib-1 -->
 
 ## Quick Overview
 
@@ -135,6 +141,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "One valid single-ingredient registration is listed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
+| 2026-11-24 | Corrected: "and is registered in South Africa as a single-ingredient capsule." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

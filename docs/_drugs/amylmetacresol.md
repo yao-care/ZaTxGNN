@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 40
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Amylmetacresol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "Amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Amylmetacresol is a mild antiseptic, typically used in throat lozenges. In South Africa it is registered as a single-ingredient oral tablet product.
+Amylmetacresol is a mild antiseptic, typically used in throat lozenges. In South Africa it is registered in combination lozenges with dichlorobenzyl alcohol.
 The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are **0 clinical trials** and **0 publications** supporting this direction. It is a model prediction only.
+
+<!-- review:begin za-lic-20261124b-amylmetacresol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "In South Africa it is registered as a single-ingredient oral tablet product." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-amylmetacresol-1 -->
 
 ## Quick Overview
 
@@ -116,6 +122,19 @@ The prediction rests only on a TxGNN model (deep learning) score. There are no c
 - Confirmation of the approved indication and active ingredients of the registered product, as the registration record lacks indication text
 - Any preclinical or clinical evidence for the predicted indication, plus a route and exposure assessment showing the drug could reach the target tissue
 - A review of whether the higher-ranked predictions (such as the obsolete neurogenic bladder term) are TxGNN model (deep learning) artefacts
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "In South Africa it is registered as a single-ingredient oral tablet product." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

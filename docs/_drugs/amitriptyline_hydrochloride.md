@@ -92,6 +92,20 @@ Currently no related literature available in this Evidence Pack.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 49/1.2/1017 | Amitriptyline 10Mg Austell | Fct | Valid |
+| 54/1.2/0681 | Veikirin 10 | tablet | Valid (status not confirmed by SAHPRA) |
+| 54/1.2/0682 | Veikirin 25 | tablet | Valid (status not confirmed by SAHPRA) |
+| 54/1.2/0684.681 | Amderip 10 | tablet | Valid (status not confirmed by SAHPRA) |
+| 54/1.2/0685.682 | Amderip 25 | tablet | Valid (status not confirmed by SAHPRA) |
+
+Showing 5 of 28 registrations (valid registrations first).
+
+<!-- licenses:end -->
+
 > **Verification recommended:** Amitriptyline is an established medicine included on the WHO Essential Medicines List (EML) and is widely registered globally. Healthcare professionals should confirm current SAHPRA registration status directly via the [SAHPRA online medicines register](https://www.sahpra.org.za) before drawing conclusions from this data.
 
 <!-- review:begin za-lic-20261105-amitriptyline_hydrochloride-2 -->

@@ -82,9 +82,22 @@ Currently no related literature available for brain stem infarction.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 36/7.1/0480 | Norcard | tablet | Valid |
+| 36/7.1/0481 | Norcard | tablet | Valid |
+| 37/7.1/0376 | Amlodipine 5 oethmaan | tablet | Valid |
+| 37/7.1/0377 | Amlodipine 10 oethmaan | tablet | Valid |
+| 37/7.1/0378 | Amlodipine 5 Biotech | tablet | Valid |
+
+Showing 5 of 318 registrations (valid registrations first).
+
+<!-- licenses:end -->
+
 - Amlodipine is **marketed** in South Africa.
 - Approved indication text is not recorded in the local data.
-- The detailed registration table is added by the site programme from the licence records.
 - Essential Medicines List status is not available in the data compiled for this report.
 
 <!-- review:begin za-lic-20261105-amlodipine-1 -->
@@ -92,6 +105,12 @@ Currently no related literature available for brain stem infarction.
 > **Review correction (2026-11-05)**: Originally stated: "The local data show 20 valid SAHPRA registrations and no cancelled ones. All are single-ingredient records, but the records may be partial. / Approved indication text is not recorded in the local data." Removed: it said the registrations were cancelled, not registered, or not valid, which did not match the SAHPRA registration data as of 2026-11-05. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261105-amlodipine-1 -->
+
+<!-- review:begin za-lic-20261124b-amlodipine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The detailed registration table is added by the site programme from the licence records." Removed: it said the registration table is provided separately; the programme-generated registration table is now shown at the start of South Africa Market Information. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-amlodipine-1 -->
 
 ---
 
@@ -130,6 +149,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "The local data show 20 valid SAHPRA registrations and no cancelled ones. All are single-ingredient records, but the records may be partial" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
+| 2026-11-24 | Removed: "The detailed registration table is added by the site programme from the licence records." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

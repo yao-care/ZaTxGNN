@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Haloperidol is a butyrophenone antipsychotic that blocks dopamine D2 receptors and is marketed in South Africa as oral tablets.
+Haloperidol is a butyrophenone antipsychotic that blocks dopamine D2 receptors and is marketed in South Africa as oral tablets and an injection.
 The TxGNN model predicts it may be relevant for **congenital disorder of glycosylation with defective fucosylation**,
 but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
+
+<!-- review:begin za-lic-20261124b-haloperidol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and is marketed in South Africa as oral tablets." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-haloperidol-1 -->
 
 ---
 
@@ -136,6 +142,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient oral tablet products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c) |
+| 2026-11-24 | Corrected: "and is marketed in South Africa as oral tablets." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

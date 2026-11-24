@@ -15,6 +15,7 @@ dump_license_facts_20261021.py（事實）與 license_table_sync 的 sync_market
 --mark-existing 只替現有程式區塊補標記、不改內容；carry_block 給 sync_notes_to_docs.py 重寫頁面時移植程式區塊；rows_of 給快照用。
 用法（repo 根目錄）：python3 scripts/sync_license_pages.py --ws <工作目錄> [--dry-run] [--log out.tsv] [頁 ...]
              python3 scripts/sync_license_pages.py --mark-existing [--dry-run]
+             python3 scripts/sync_license_pages.py --add-missing [--dry-run]（市場段落沒有表、證據包有紀錄的頁補程式區塊，2026-11-24）
 """
 import importlib.util
 import json
@@ -373,6 +374,26 @@ def carry_block(old_text, new_text):
     return re.sub(r"\n{3,}", "\n\n", "\n".join(out))
 
 
+def add_missing(text, bundle):
+    """市場段落沒有程式區塊、證據包有紀錄的頁（2026-11-24 第二輪，用戶決定「缺表的頁補程式表」）：在段落開頭補程式區塊
+    （列數 min(5, 總數)，總數多於列數時加 SHOW 句），之後由 resync_table 照常每週重排。段落裡已有表格或程式區塊的不動。"""
+    lines = text.split("\n")
+    if BEGIN in lines:
+        return text
+    a, b = _section(lines)
+    if a is None or any(lines[k].startswith("|") for k in range(a, b)):
+        return text
+    recs = (bundle.get("tfda") or {}).get("records") or []
+    total = len({r.get("license_id") for r in recs if r.get("license_id")})
+    if not total:
+        return text
+    nrows = min(5, total)
+    tb, total = table_block(recs, nrows)
+    blk = ["", BEGIN, ""] + tb + (["", SHOW.format(n=nrows, m=total)] if total > nrows else []) + ["", END, ""]
+    out = lines[:a] + blk + lines[a:]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(out))
+
+
 def process(ck, page, fc, bundle, manual):
     raw = page.read_bytes().decode("utf-8")
     crlf = "\r\n" in raw[:500]
@@ -563,6 +584,25 @@ def resync_tables(bundles):
 
 
 def main(argv):
+    if "--add-missing" in argv:
+        n = 0
+        for page in sorted((ROOT / "docs/_drugs").glob("*.md")):
+            raw = page.read_bytes().decode("utf-8")
+            if "layout: id_redirect" in raw[:3000] or 'http-equiv="refresh"' in raw[:3000]:
+                continue
+            bf = ROOT / "data/bundles" / page.stem / "drug_bundle.json"
+            if not bf.exists():
+                continue
+            crlf = "\r\n" in raw[:500]
+            t0 = raw.replace("\r\n", "\n")
+            new = add_missing(t0, json.loads(bf.read_text(encoding="utf-8")))
+            if new != t0:
+                n += 1
+                print("補程式表：", page.stem)
+                if "--dry-run" not in argv:
+                    page.write_bytes((new.replace("\n", "\r\n") if crlf else new).encode("utf-8"))
+        print(f"缺表的頁補程式區塊：{n} 頁")
+        return
     if "--mark-existing" in argv:
         n = 0
         for page in sorted((ROOT / "docs/_drugs").glob("*.md")):

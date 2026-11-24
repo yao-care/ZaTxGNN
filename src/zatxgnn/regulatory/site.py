@@ -97,6 +97,9 @@ def program_block_problems(sec_lines, entry):
     if not has_b:
         if any(l.strip() == hd[0] for l in sec_lines) or any(l.strip() == S.NONE_LINE for l in sec_lines):
             return ["程式表沒有程式區塊標記（跑 python3 scripts/sync_license_pages.py --mark-existing）"]
+        if (entry.get("rows") or []) and not any(l.startswith("|") for l in sec_lines):
+            # 2026-11-24 第二輪：市場段落沒有任何表、證據包卻有註冊的頁要補程式表
+            return ["市場段落沒有程式表（跑 python3 scripts/sync_license_pages.py --add-missing）"]
         return []
     i, j = sec_lines.index(S.BEGIN), sec_lines.index(S.END)
     blk = [x for x in sec_lines[i + 1:j] if x.strip()]

@@ -125,8 +125,14 @@ The prediction for papillary conjunctivitis rests only on a computational score,
 - SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data, for example from DrugBank
 - A systematic literature search on salicylates in allergic and papillary conjunctivitis, and a separate review for spondyloarthropathy
-- Assessment of ocular tolerability and of whether a suitable ophthalmic formulation exists, since the registered products are topical skin preparations (lotion and ointment) only
+- Assessment of ocular tolerability and of whether a suitable ophthalmic formulation exists, since the registered products are mainly topical skin preparations
 - Approved indication text for the registered Diprosalic products
+
+<!-- review:begin za-lic-20261124b-salicylic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the registered products are topical skin preparations (lotion and ointment) only" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-salicylic_acid-1 -->
 
 <!-- review:begin log -->
 
@@ -138,6 +144,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid and are topical products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
+| 2026-11-24 | Corrected: "since the registered products are topical skin preparations (lotion and ointment) only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

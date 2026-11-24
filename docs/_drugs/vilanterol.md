@@ -143,11 +143,17 @@ Warnings and contraindications from the SAHPRA-approved Professional Information
 Multiple completed Phase 3 randomised trials and large RCT publications support vilanterol-containing regimens in COPD and asthma. The other nine predicted indications have no or only indirect evidence and should stay on **Hold**, except bronchial neoplasm, which is a research question only.
 
 **To proceed, the following is needed:**
-- The SAHPRA Professional Information (indications, warnings, contraindications) for both registered products, which was not available in the data compiled for this report
+- The SAHPRA Professional Information (indications, warnings, contraindications) for the registered products, which was not available in the data compiled for this report
 - Confirmation that use stays within the approved COPD and asthma populations, particularly for the mono-component and triple-therapy products
 - Monitoring of cardiovascular risk and pneumonia risk associated with LABA/ICS combinations
 - Glycaemic monitoring in patients on antidiabetic medicines
 - Mechanism of action data from DrugBank to complete the mechanistic analysis
+
+<!-- review:begin za-lic-20261124b-vilanterol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "contraindications) for both registered products," Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-vilanterol-1 -->
 
 <!-- review:begin log -->
 
@@ -159,6 +165,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
+| 2026-11-24 | Corrected: "contraindications) for both registered products," | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

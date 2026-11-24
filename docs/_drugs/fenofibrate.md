@@ -142,13 +142,19 @@ For full warnings and contraindications, refer to the SAHPRA-approved Profession
 - Clear clinical justification that CETP deficiency requires treatment, and a defined therapeutic goal
 - Human data (case series or trials) in patients with CETP deficiency
 - Mechanism of action data for fenofibrate
-- SAHPRA Professional Information warnings and contraindications for the single-ingredient product
+- SAHPRA Professional Information warnings and contraindications for the single-ingredient products
 
 <!-- review:begin za-lic-20261112-fenofibrate-1 -->
 
 > **Review correction (2026-11-12)**: Originally stated: ", as the only local registration appears to be for a product that may contain more than one active ingredient" Removed: the number or status of registrations stated here did not match the SAHPRA registration data as of 2026-11-06. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261112-fenofibrate-1 -->
+
+<!-- review:begin za-lic-20261124b-fenofibrate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "SAHPRA Professional Information warnings and contraindications for the single-ingredient product" Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-fenofibrate-1 -->
 
 <!-- review:begin log -->
 
@@ -161,6 +167,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | 2026-11-05 | Removed: "Note: the data compiled for this report records one valid registration. The product name suggests it may contain more than one active ingred" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-12 | Removed: "as the only local registration appears to be for a product that may contain more than one active ingredient" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
+| 2026-11-24 | Corrected: "SAHPRA Professional Information warnings and contraindications for the single-ingredient product" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

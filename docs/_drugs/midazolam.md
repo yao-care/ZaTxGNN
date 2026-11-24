@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 325
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L2). In South Africa: 55 SAHPRA registrations (40 valid)"
@@ -72,7 +72,13 @@ Important limitations:
 - Next-day psychomotor impairment
 - High drug interaction burden (100 recorded interacting drugs, largely via CYP3A4), which constrains chronic use
 
-The only SAHPRA registration found is an injectable product, so the oral routes studied in the older insomnia literature are not matched locally.
+The SAHPRA registrations found are mainly injectable products; oral tablets (Dormicum) and nasal sprays are also registered.
+
+<!-- review:begin za-lic-20261124b-midazolam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only SAHPRA registration found is an injectable product, so the oral routes studied in the older insomnia literature are not matched locally." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-midazolam-1 -->
 
 ---
 
@@ -139,7 +145,13 @@ Concomitant CNS depressants (such as opioids) warrant particular caution. Please
 **Decision: Hold**
 
 **Rationale:**
-The biological plausibility is good and older studies (1981–1990) show hypnotic activity of oral midazolam. However, the only local registration is an injectable, the registered trials are indirect, the supporting insomnia studies are dated, and safety limits (dependence, next-day impairment, heavy CYP3A4 interaction burden) restrict chronic use. Alternatives already exist for insomnia.
+The biological plausibility is good and older studies (1981–1990) show hypnotic activity of oral midazolam. However, most local registrations are injectables, the registered trials are indirect, the supporting insomnia studies are dated, and safety limits (dependence, next-day impairment, heavy CYP3A4 interaction burden) restrict chronic use. Alternatives already exist for insomnia.
+
+<!-- review:begin za-lic-20261124b-midazolam-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "the only local registration is an injectable," Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-midazolam-2 -->
 
 **To proceed, the following is needed:**
 - SAHPRA package insert warnings and contraindications (a blocking gap for safety screening)
@@ -152,11 +164,13 @@ The biological plausibility is good and older studies (1981–1990) show hypnoti
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data for midazolam is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
+| 2026-11-24 | Corrected: "The only SAHPRA registration found is an injectable product, so the oral routes studied in the older insomnia literature are not matched locally." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "the only local registration is an injectable," | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

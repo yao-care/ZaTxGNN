@@ -196,10 +196,16 @@ The SAHPRA package insert warnings and contraindications have not been retrieved
 **To proceed, the following is needed:**
 - SAHPRA package insert warnings and contraindications (a blocking data gap for safety screening)
 - Mechanism of action data from DrugBank
-- Indication text for the three SAHPRA registrations, and EML status
+- Indication text for the SAHPRA registrations, and EML status
 - For trigeminal nerve neoplasm: preclinical or clinical evidence of antitumour activity in this tumour type, otherwise no further work
 - For visual epilepsy: confirmation that photosensitive and reflex epilepsy are covered by the registered epilepsy indication, plus a pregnancy prevention and monitoring plan for women of childbearing potential
 - For trigeminal neuralgia: a comparison against carbamazepine and oxcarbazepine
+
+<!-- review:begin za-lic-20261124b-valproic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Indication text for the three SAHPRA registrations" Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-valproic_acid-1 -->
 
 <!-- review:begin log -->
 
@@ -211,6 +217,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient products, and none are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f) |
+| 2026-11-24 | Corrected: "Indication text for the three SAHPRA registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

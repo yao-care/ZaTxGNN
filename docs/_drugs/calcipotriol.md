@@ -38,7 +38,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Calcipotriol is a topical vitamin D3 analogue, registered in South Africa in combination dermatological products (Dovobet ointment and Xamiol gel). The TxGNN model predicts it may be effective for **seborrheic keratosis**, with **no registered clinical trials** but **4 publications** (mostly small clinical studies and case reports) supporting this direction.
+Calcipotriol is a topical vitamin D3 analogue, registered in South Africa as single-ingredient products (Dovonex) and in combinations with betamethasone (for example Dovobet). The TxGNN model predicts it may be effective for **seborrheic keratosis**, with **no registered clinical trials** but **4 publications** (mostly small clinical studies and case reports) supporting this direction.
+
+<!-- review:begin za-lic-20261124b-calcipotriol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "registered in South Africa in combination dermatological products (Dovobet ointment and Xamiol gel)." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-calcipotriol-1 -->
 
 ## Quick Overview
 
@@ -132,6 +138,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Removed: "Calcipotriol is registered in South Africa only in two products, both listed as valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "registered in South Africa in combination dermatological products (Dovobet ointment and Xamiol gel)." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -109,8 +109,14 @@ The prediction has a very high model score (0.9992) but no registered trials and
 **To proceed, the following is needed:**
 - Studies of levofloxacin, preferably controlled, in punctate epithelial keratoconjunctivitis of confirmed bacterial cause
 - Mechanism of action data and a clear mechanistic rationale for this ocular condition
-- Review of ophthalmic formulation availability in South Africa, since the registered products are oral and intravenous
+- Review of ophthalmic formulation availability in South Africa, since the registered products are oral and intravenous, apart from one combination eye drop with dexamethasone (Voxidex)
 - The SAHPRA-approved Professional Information (PI) for warnings and contraindications
+
+<!-- review:begin za-lic-20261124b-levofloxacin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the registered products are oral and intravenous" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-levofloxacin-1 -->
 
 <!-- review:begin log -->
 
@@ -122,6 +128,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Three of the four registrations are valid and one is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: levofloxacin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814450ae-439e-4a5d-8c60-9b21b6f14be5) |
+| 2026-11-24 | Corrected: "since the registered products are oral and intravenous" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

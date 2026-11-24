@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Misoprostol is a prostaglandin E1 analogue, registered in South Africa in combination tablets (Arthrotec and Arthrotec 50). The registered indication text is not available in the data compiled for this report.
+Misoprostol is a prostaglandin E1 analogue, registered in South Africa as single-ingredient tablets (for example Cytotec) and in combination products (for example Arthrotec). The registered indication text is not available in the data compiled for this report.
 The TxGNN model predicts it may be effective for **amenorrhea**, but there are **no registered clinical trials** and only **7 publications** retrieved. These concern pregnancy termination and uterine bleeding rather than treatment of amenorrhea itself, so the prediction is supported by **model output only**.
+
+<!-- review:begin za-lic-20261124b-misoprostol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "registered in South Africa in combination tablets (Arthrotec and Arthrotec 50)." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-misoprostol-1 -->
 
 ## Quick Overview
 
@@ -149,6 +155,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient entries" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
+| 2026-11-24 | Corrected: "registered in South Africa in combination tablets (Arthrotec and Arthrotec 50)." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

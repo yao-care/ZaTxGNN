@@ -38,9 +38,15 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Clobetasol is a super-potent topical corticosteroid that is currently registered in South Africa as a cream and an ointment.
+Clobetasol is a super-potent topical corticosteroid that is currently registered in South Africa as creams, ointments, scalp lotions, foams, a shampoo and spray solutions.
 The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma** (mainly early-stage mycosis fungoides).
 No registered clinical trials were found for this indication, but **16 publications** support the direction, including several cohort studies.
+
+<!-- review:begin za-lic-20261124b-clobetasol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "that is currently registered in South Africa as a cream and an ointment." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-clobetasol-1 -->
 
 ## Quick Overview
 
@@ -146,6 +152,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
+| 2026-11-24 | Corrected: "that is currently registered in South Africa as a cream and an ointment." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

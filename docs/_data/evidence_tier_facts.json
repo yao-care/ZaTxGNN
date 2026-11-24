@@ -128,8 +128,8 @@
     "i": "alopecia areata",
     "lt": 67,
     "lv": 42,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are valid single-ingredient products in cream (topical) form\"",
+    "r": 3,
+    "rs": "Corrected: \"(the registered products are creams only, while the older literature describes intralesional…",
     "x": 0
    },
    {
@@ -150,8 +150,8 @@
     "i": "insomnia (disease)",
     "lt": 55,
     "lv": 40,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data for midazolam is not available in the data compiled for this report\"…",
+    "r": 3,
+    "rs": "Corrected: \"the only local registration is an injectable,\"",
     "x": 0
    },
    {
@@ -183,8 +183,8 @@
     "i": "HIV infectious disease",
     "lt": 29,
     "lv": 23,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"that is registered in South Africa as an oral capsule (Mycocept).\"",
     "x": 0
    },
    {
@@ -260,8 +260,8 @@
     "i": "seborrheic keratosis",
     "lt": 9,
     "lv": 8,
-    "r": 1,
-    "rs": "Removed: \"Calcipotriol is registered in South Africa only in two products, both listed as valid\"",
+    "r": 2,
+    "rs": "Corrected: \"registered in South Africa in combination dermatological products (Dovobet ointment and Xamiol…",
     "x": 0
    },
    {
@@ -271,8 +271,8 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 19,
     "lv": 18,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
+    "r": 3,
+    "rs": "Corrected: \"that is currently registered in South Africa as a cream and an ointment.\"",
     "x": 0
    },
    {
@@ -304,8 +304,8 @@
     "i": "pulmonary hypertension",
     "lt": 4,
     "lv": 3,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"registered in South Africa as the Nitrolingual inhaler.\"",
     "x": 0
    },
    {
@@ -359,8 +359,8 @@
     "i": "gastroparesis (disease)",
     "lt": 54,
     "lv": 35,
-    "r": 4,
-    "rs": "Removed: \"(current registrations are parenteral only)\"",
+    "r": 5,
+    "rs": "Corrected: \"(all 10 registered products are amino acid-containing nutrition or dialysis preparations)\"",
     "x": 0
    },
    {
@@ -425,8 +425,8 @@
     "i": "postmenopausal osteoporosis",
     "lt": 26,
     "lv": 21,
-    "r": 2,
-    "rs": "Removed: \"only\"",
+    "r": 4,
+    "rs": "Corrected: \"since current local products are infusions only\"",
     "x": 0
    },
    {
@@ -436,8 +436,8 @@
     "i": "acne (disease)",
     "lt": 10,
     "lv": 3,
-    "r": 2,
-    "rs": "Removed: \"One of the two registrations is currently valid and both are single-ingredient products. The only…",
+    "r": 3,
+    "rs": "Corrected: \"Ketoconazole is an azole antifungal that is marketed in South Africa as a topical cream.\"",
     "x": 0
    },
    {
@@ -535,8 +535,8 @@
     "i": "nasal cavity disease",
     "lt": 15,
     "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"All three registrations are valid single-ingredient entries and all are infusion products. These…",
+    "r": 4,
+    "rs": "Corrected: \"The locally registered products are infusion formulations, not suited to nasal use.\"",
     "x": 0
    },
    {
@@ -557,8 +557,8 @@
     "i": "methemoglobinemia",
     "lt": 22,
     "lv": 17,
-    "r": 1,
-    "rs": "Removed: \"Only one registration (single-ingredient, valid) was identified, and it is for an injectable…",
+    "r": 2,
+    "rs": "Corrected: \"(the single SAHPRA registration lists no approved indication text)\"",
     "x": 0
    },
    {
@@ -568,8 +568,8 @@
     "i": "breast fibrocystic disease",
     "lt": 11,
     "lv": 10,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"that is marketed in South Africa as an oral capsule.\"",
     "x": 0
    },
    {
@@ -579,8 +579,8 @@
     "i": "sclerosing cholangitis",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "Removed: \"Both entries are listed as valid single-ingredient products. Their registration identifiers are…",
+    "r": 2,
+    "rs": "Corrected: \"In South Africa it is registered only in parenteral nutrition (TPN) products,\"",
     "x": 0
    },
    {
@@ -612,8 +612,8 @@
     "i": "alopecia mucinosa",
     "lt": 12,
     "lv": 3,
-    "r": 2,
-    "rs": "Removed: \"All five registrations are single-ingredient products with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"(paste, nasal spray, cream, ointment)\"",
     "x": 0
    },
    {
@@ -634,8 +634,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 255,
     "lv": 216,
-    "r": 2,
-    "rs": "Removed: \"All 20 registrations are valid single-ingredient registrations according to the data compiled\"",
+    "r": 3,
+    "rs": "Corrected: \"approved indications for the 20 registrations\"",
     "x": 0
    },
    {
@@ -645,8 +645,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 74,
     "lv": 39,
-    "r": 3,
-    "rs": "Removed: \"Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named…",
+    "r": 4,
+    "rs": "Removed: \"Verification of the \"Simayla Simvastatin 40\" entry in the registration list\"",
     "x": 0
    },
    {
@@ -679,7 +679,7 @@
   "with_current": 281,
   "none_current": 5,
   "without_data": 1,
-  "with_reviews": 281,
+  "with_reviews": 283,
   "rows": [
    {
     "t": "Amlodipine",
@@ -688,8 +688,8 @@
     "i": "brain stem infarction",
     "lt": 318,
     "lv": 287,
-    "r": 2,
-    "rs": "Removed: \"The local data show 20 valid SAHPRA registrations and no cancelled ones. All are single-ingredient…",
+    "r": 3,
+    "rs": "Removed: \"The detailed registration table is added by the site programme from the licence records.\"",
     "x": 0
    },
    {
@@ -809,8 +809,8 @@
     "i": "Ureaplasma urethritis",
     "lt": 140,
     "lv": 115,
-    "r": 2,
-    "rs": "Removed: \"Note: several other licences in the source records (for example Ventolin inhaler, Trandate, Kivexa…",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the SAHPRA licence list, since several entries appear to be unrelated products.\"",
     "x": 0
    },
    {
@@ -820,8 +820,8 @@
     "i": "rheumatoid arthritis",
     "lt": 119,
     "lv": 109,
-    "r": 1,
-    "rs": "\"The data compiled for this report contain no detailed mechanism-of-action entry, so this description is…",
+    "r": 2,
+    "rs": "Corrected: \"(the approved indication text in both SAHPRA registrations is empty)\"",
     "x": 0
    },
    {
@@ -1007,8 +1007,8 @@
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
     "lt": 87,
     "lv": 69,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data for aripiprazole are not available in the data compiled for this report\"…",
+    "r": 3,
+    "rs": "Corrected: \"that is currently marketed in South Africa as an injectable product.\"",
     "x": 0
    },
    {
@@ -1051,8 +1051,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 106,
     "lv": 67,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report lists 19 valid single-ingredient registrations and none cancelled\"",
+    "r": 3,
+    "rs": "Corrected: \"since the registered products are oral or syrup forms and no ocular formulation is recorded\"",
     "x": 0
    },
    {
@@ -1084,8 +1084,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 83,
     "lv": 65,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: \"since only oral capsules are registered\"",
     "x": 0
    },
    {
@@ -1106,8 +1106,8 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 88,
     "lv": 63,
-    "r": 2,
-    "rs": "Removed: \"All four registrations are single-ingredient products and are currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"marketed in South Africa as injectable products.\"",
     "x": 0
    },
    {
@@ -1227,8 +1227,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 82,
     "lv": 51,
-    "r": 2,
-    "rs": "Removed: \"Three of the four registrations are valid and one is cancelled\"",
+    "r": 3,
+    "rs": "Corrected: \"since the registered products are oral and intravenous\"",
     "x": 0
    },
    {
@@ -1337,8 +1337,8 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 50,
     "lv": 46,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 4,
+    "rs": "Corrected: \"marketed in South Africa as a topical cream and as nasal sprays.\"",
     "x": 0
    },
    {
@@ -1436,8 +1436,8 @@
     "i": "dyspepsia",
     "lt": 43,
     "lv": 39,
-    "r": 1,
-    "rs": "Removed: \"All four listed registrations are currently valid\"",
+    "r": 2,
+    "rs": "Corrected: \"Route and formulation assessment, since the registered products are injectable or parenteral…",
     "x": 0
    },
    {
@@ -1469,8 +1469,8 @@
     "i": "papillary conjunctivitis",
     "lt": 59,
     "lv": 37,
-    "r": 1,
-    "rs": "Removed: \"Both registrations are currently valid and are single-ingredient records\"",
+    "r": 2,
+    "rs": "Corrected: \"the registered products are oral or \"other\" forms, and no topical ocular formulation is recorded.\"",
     "x": 0
    },
    {
@@ -1502,8 +1502,8 @@
     "i": "gastroparesis (disease)",
     "lt": 55,
     "lv": 36,
-    "r": 3,
-    "rs": "Removed: \"The Adco-ipratropium entry looks inconsistent with an alanine-containing product. Its registration…",
+    "r": 5,
+    "rs": "Corrected: \"all registrations are parenteral combination nutrition products,\"",
     "x": 0
    },
    {
@@ -1524,8 +1524,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 40,
     "lv": 36,
-    "r": 1,
-    "rs": "Removed: \"A single valid single-ingredient registration is recorded.\"",
+    "r": 3,
+    "rs": "Corrected: \"(oral tablet versus a possible ocular formulation)\"",
     "x": 0
    },
    {
@@ -1535,8 +1535,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 37,
     "lv": 36,
-    "r": 2,
-    "rs": "Removed: \"All four registrations are valid, single-ingredient products\"",
+    "r": 4,
+    "rs": "Corrected: \"in South Africa it is registered as a single-ingredient product.\"",
     "x": 0
    },
    {
@@ -1557,8 +1557,8 @@
     "i": "nasal cavity disease",
     "lt": 59,
     "lv": 35,
-    "r": 1,
-    "rs": "Removed: \"SAHPRA records show 11 valid single-ingredient registrations; none carry approved-indication text…",
+    "r": 2,
+    "rs": "Corrected: \"(all current registrations are for infusion, powder or vial forms, not nasal use)\"",
     "x": 0
    },
    {
@@ -1590,8 +1590,8 @@
     "i": "papillary conjunctivitis",
     "lt": 57,
     "lv": 33,
-    "r": 2,
-    "rs": "Removed: \"Salbutamol has 10 SAHPRA registration records in the compiled data, of which 8 are valid and 2 are…",
+    "r": 3,
+    "rs": "Corrected: \"All of these are oral or inhaled products.\"",
     "x": 0
    },
    {
@@ -1601,8 +1601,8 @@
     "i": "cauda equina syndrome",
     "lt": 32,
     "lv": 32,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"In South Africa it is registered as a single-ingredient oral tablet product.\"",
     "x": 0
    },
    {
@@ -1667,8 +1667,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 31,
     "lv": 31,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"injection registered in South Africa as Precedex.\"",
     "x": 0
    },
    {
@@ -1700,8 +1700,8 @@
     "i": "papillary conjunctivitis",
     "lt": 38,
     "lv": 30,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are valid and are topical products\"",
+    "r": 3,
+    "rs": "Corrected: \"since the registered products are topical skin preparations (lotion and ointment) only\"",
     "x": 0
    },
    {
@@ -1711,8 +1711,8 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 34,
     "lv": 29,
-    "r": 2,
-    "rs": "Removed: \"Two SAHPRA registrations are recorded as valid, both single-ingredient products supplied as drops.…",
+    "r": 3,
+    "rs": "Removed: \"The registration table is generated separately from the licence records.\"",
     "x": 0
    },
    {
@@ -1744,8 +1744,8 @@
     "i": "brain small vessel disease 1 with or without ocular anomalies",
     "lt": 32,
     "lv": 29,
-    "r": 2,
-    "rs": "Removed: \"Status: valid, single-ingredient product.\"",
+    "r": 3,
+    "rs": "Corrected: \"that is registered in South Africa as a single-ingredient tablet,\"",
     "x": 0
    },
    {
@@ -1777,8 +1777,8 @@
     "i": "biotin metabolic disease",
     "lt": 44,
     "lv": 27,
-    "r": 3,
-    "rs": "Removed: \"The list shows 5 of 11 registrations\"",
+    "r": 4,
+    "rs": "Corrected: \"Dosage forms include injection, capsule, tablet, infusion, parenteral nutrition (TPN) and…",
     "x": 0
    },
    {
@@ -1788,8 +1788,8 @@
     "i": "respiratory malformation",
     "lt": 31,
     "lv": 27,
-    "r": 2,
-    "rs": "Removed: \"Two single-ingredient registrations are listed, both valid.\"",
+    "r": 3,
+    "rs": "Corrected: \"Review of the product records, since one listed registration (Seroquel, a tablet) should be…",
     "x": 0
    },
    {
@@ -1821,8 +1821,8 @@
     "i": "nasal cavity disease",
     "lt": 56,
     "lv": 26,
-    "r": 1,
-    "rs": "Removed: \"Eight valid single-ingredient registrations exist in total; the five above are shown. The remaining…",
+    "r": 2,
+    "rs": "Corrected: \"All eight South African products are multi-purpose cough, cold and teething preparations, not…",
     "x": 0
    },
    {
@@ -1986,8 +1986,8 @@
     "i": "gastroduodenitis",
     "lt": 39,
     "lv": 24,
-    "r": 2,
-    "rs": "Removed: \"All four registrations are single-ingredient products with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"approved indications) for the four registered products\"",
     "x": 0
    },
    {
@@ -2052,8 +2052,8 @@
     "i": "heart fibrosarcoma",
     "lt": 26,
     "lv": 23,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient registration is listed\"",
+    "r": 3,
+    "rs": "Corrected: \"and is registered in South Africa as a single-ingredient capsule.\"",
     "x": 0
    },
    {
@@ -2074,8 +2074,8 @@
     "i": "acrodermatitis chronica atrophicans",
     "lt": 39,
     "lv": 23,
-    "r": 1,
-    "rs": "Removed: \"The only registered product is a syrup, an oral form. This does not match the topical or local use…",
+    "r": 2,
+    "rs": "Corrected: \"The only registered South African product is an oral syrup, and the label safety review is…",
     "x": 0
    },
    {
@@ -2118,8 +2118,8 @@
     "i": "gout",
     "lt": 36,
     "lv": 22,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"marketed in South Africa as a single-ingredient syrup.\"",
     "x": 0
    },
    {
@@ -2162,8 +2162,8 @@
     "i": "visceral calciphylaxis",
     "lt": 28,
     "lv": 21,
-    "r": 2,
-    "rs": "Removed: \"All three registrations are valid single-ingredient products in drop form\"",
+    "r": 3,
+    "rs": "Corrected: \"approved indications) for the three registered products\"",
     "x": 0
    },
    {
@@ -2195,8 +2195,8 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 20,
     "lv": 20,
-    "r": 2,
-    "rs": "Removed: \"All three registrations are valid single-ingredient products, and none are cancelled\"",
+    "r": 3,
+    "rs": "Corrected: \"Indication text for the three SAHPRA registrations\"",
     "x": 0
    },
    {
@@ -2250,8 +2250,8 @@
     "i": "post-bacterial disorder",
     "lt": 26,
     "lv": 18,
-    "r": 2,
-    "rs": "Removed: \"All 4 registrations are valid and single-ingredient\"",
+    "r": 3,
+    "rs": "Corrected: \"registered in South Africa in several single-ingredient products, mainly haemodialysis…",
     "x": 0
    },
    {
@@ -2305,8 +2305,8 @@
     "i": "chronic rhinosinusitis",
     "lt": 29,
     "lv": 18,
-    "r": 2,
-    "rs": "Removed: \"All three registrations are valid single-ingredient products. One is oral (capsule) and two are…",
+    "r": 3,
+    "rs": "Corrected: \"approved indications) for all three registered products\"",
     "x": 0
    },
    {
@@ -2371,8 +2371,8 @@
     "i": "nasal cavity disease",
     "lt": 31,
     "lv": 17,
-    "r": 2,
-    "rs": "Removed: \"The local records show 14 valid single-ingredient licences and no cancelled ones\"",
+    "r": 5,
+    "rs": "Corrected: \"(for example, those with tablet or capsule forms)\"",
     "x": 0
    },
    {
@@ -2382,8 +2382,8 @@
     "i": "sclerosing cholangitis",
     "lt": 26,
     "lv": 17,
-    "r": 2,
-    "rs": "Removed: \"Other registrations include Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega…",
+    "r": 3,
+    "rs": "Corrected: \"(all 11 SAHPRA registrations are amino acid-containing infusion products)\"",
     "x": 0
    },
    {
@@ -2481,8 +2481,8 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 18,
     "lv": 16,
-    "r": 1,
-    "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
+    "r": 2,
+    "rs": "Corrected: \"(currently only ophthalmic drops are registered)\"",
     "x": 0
    },
    {
@@ -2492,8 +2492,8 @@
     "i": "anorectal stricture",
     "lt": 19,
     "lv": 15,
-    "r": 1,
-    "rs": "Removed: \"This is the only registration, and it is valid. The available dosage form is injectable (infusion)…",
+    "r": 2,
+    "rs": "Corrected: \"The only local registration is an infusion product, which does not match the likely route of use…",
     "x": 0
    },
    {
@@ -2547,8 +2547,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 14,
     "lv": 14,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
+    "r": 4,
+    "rs": "Corrected: \"No injectable formulation is registered in the data compiled for this report. The intralesional…",
     "x": 0
    },
    {
@@ -2569,8 +2569,8 @@
     "i": "mature cataract",
     "lt": 20,
     "lv": 14,
-    "r": 1,
-    "rs": "Removed: \"only\"",
+    "r": 2,
+    "rs": "Corrected: \"since the only local product is an intravenous infusion and no ocular or oral single-ingredient…",
     "x": 10
    },
    {
@@ -2591,8 +2591,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 15,
     "lv": 14,
-    "r": 2,
-    "rs": "Removed: \"The registered product is an oral tablet, and\"",
+    "r": 3,
+    "rs": "Corrected: \"Only an oral tablet is registered.\"",
     "x": 0
    },
    {
@@ -2613,8 +2613,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Corrected: \"The only local registration is Ryaltris, a spray whose approved indication text is not available.\"",
     "x": 0
    },
    {
@@ -2624,8 +2624,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 13,
     "lv": 13,
-    "r": 3,
-    "rs": "Removed: \"as the only local registration appears to be for a product that may contain more than one active…",
+    "r": 4,
+    "rs": "Corrected: \"SAHPRA Professional Information warnings and contraindications for the single-ingredient product\"",
     "x": 0
    },
    {
@@ -2657,8 +2657,8 @@
     "i": "vulvar inverted follicular keratosis",
     "lt": 22,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are valid single-ingredient products\"",
+    "r": 3,
+    "rs": "Corrected: \"EML status of the two registered products (Deriva Co and Acneclear)\"",
     "x": 0
    },
    {
@@ -2712,8 +2712,8 @@
     "i": "inborn disorder of bilirubin metabolism",
     "lt": 17,
     "lv": 12,
-    "r": 1,
-    "rs": "Removed: \"All four registrations are valid and are parenteral (infusion or parenteral nutrition) products\"",
+    "r": 2,
+    "rs": "Corrected: \"as the registered South African products are all parenteral\"",
     "x": 0
    },
    {
@@ -2734,8 +2734,8 @@
     "i": "lichen planus pemphigoides",
     "lt": 16,
     "lv": 11,
-    "r": 2,
-    "rs": "Removed: \"under one valid single-ingredient registration\"",
+    "r": 3,
+    "rs": "Corrected: \"is available locally, since the registered product is a drop\"",
     "x": 0
    },
    {
@@ -2767,8 +2767,8 @@
     "i": "renal tubular acidosis",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "Removed: \"All five registrations are valid single-ingredient products\"",
+    "r": 4,
+    "rs": "Corrected: \"Potassium acetate in these products is a component of parenteral nutrition or infusion…",
     "x": 0
    },
    {
@@ -2822,8 +2822,8 @@
     "i": "exposure keratitis",
     "lt": 10,
     "lv": 10,
-    "r": 4,
-    "rs": "Removed: \"since current South African registrations are topical skin products only\"",
+    "r": 5,
+    "rs": "Corrected: \"and is marketed in South Africa as topical products.\"",
     "x": 0
    },
    {
@@ -2866,8 +2866,8 @@
     "i": "rheumatoid nodulosis",
     "lt": 10,
     "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"All three registrations are valid, single-ingredient entries and all are topical formulations. This…",
+    "r": 4,
+    "rs": "Corrected: \"since the registered products are topical only\"",
     "x": 0
    },
    {
@@ -2943,8 +2943,8 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 8,
     "lv": 8,
-    "r": 2,
-    "rs": "Removed: \"All four registrations are valid single-ingredient entries, and all are injectable or parenteral…",
+    "r": 3,
+    "rs": "Corrected: \"the registered forms are parenteral, and an oral\"",
     "x": 0
    },
    {
@@ -3053,8 +3053,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 14,
     "lv": 7,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action statement",
+    "r": 2,
+    "rs": "Corrected: \"since the only registered product is an oral tablet\"",
     "x": 0
    },
    {
@@ -3097,8 +3097,8 @@
     "i": "PLA2G6-associated neurodegeneration",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are valid and none are cancelled\"",
+    "r": 3,
+    "rs": "Corrected: \"Both registered South African products are Stalevo tablets (see the market table below).\"",
     "x": 0
    },
    {
@@ -3163,8 +3163,8 @@
     "i": "amenorrhea (disease)",
     "lt": 7,
     "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are valid single-ingredient entries\"",
+    "r": 3,
+    "rs": "Corrected: \"registered in South Africa in combination tablets (Arthrotec and Arthrotec 50).\"",
     "x": 0
    },
    {
@@ -3174,8 +3174,8 @@
     "i": "acne keloid",
     "lt": 9,
     "lv": 6,
-    "r": 1,
-    "rs": "Removed: \"Only one registration (single-ingredient, valid) was identified. The registered product is a…",
+    "r": 2,
+    "rs": "Corrected: \"The only local product is a suppository, which does not match a topical dermatological use.\"",
     "x": 0
    },
    {
@@ -3196,8 +3196,8 @@
     "i": "hyperlucent lung",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"contraindications) for both registered products,\"",
     "x": 0
    },
    {
@@ -3207,8 +3207,8 @@
     "i": "erectile dysfunction (disease)",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"The only registered product is a topical cream, and\"",
+    "r": 3,
+    "rs": "Corrected: \"Assessment of route compatibility, since only a topical cream is registered in South Africa\"",
     "x": 0
    },
    {
@@ -3273,8 +3273,8 @@
     "i": "nasal cavity disease",
     "lt": 9,
     "lv": 5,
-    "r": 1,
-    "rs": "Removed: \"This is the only SAHPRA registration, and it is a valid single-ingredient product\"",
+    "r": 2,
+    "rs": "Corrected: \"Route compatibility assessment (only an oral effervescent tablet is currently registered)\"",
     "x": 0
    },
    {
@@ -3295,8 +3295,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 11,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"The registration is a single-ingredient product and is currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"and is registered in South Africa as a powder.\"",
     "x": 0
    },
    {
@@ -3350,8 +3350,8 @@
     "i": "ectothrix infectious disease",
     "lt": 8,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are currently valid\"",
+    "r": 4,
+    "rs": "Corrected: \"A cream-only product may therefore be a poor fit for this indication.\"",
     "x": 0
    },
    {
@@ -3383,8 +3383,8 @@
     "i": "congenital disorder of glycosylation with defective fucosylation",
     "lt": 16,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"Both registrations are valid single-ingredient oral tablet products\"",
+    "r": 3,
+    "rs": "Corrected: \"and is marketed in South Africa as oral tablets.\"",
     "x": 0
    },
    {
@@ -3537,8 +3537,8 @@
     "i": "acquired angioedema",
     "lt": 3,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"Coartem is the only registered product in the data\"",
+    "r": 3,
+    "rs": "Corrected: \"that is registered in South Africa as a single-ingredient product.\"",
     "x": 0
    },
    {
@@ -3625,8 +3625,8 @@
     "i": "vulvovaginal candidiasis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: \"No oral ivermectin registration appears in the data compiled for this report. This matters…",
     "x": 0
    },
    {

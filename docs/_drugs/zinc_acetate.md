@@ -126,8 +126,14 @@ The prediction rests on a model score alone (L5). No clinical trials or literatu
 - Mechanism of action data for zinc acetate
 - SAHPRA Professional Information (warnings, contraindications), and verification that the listed registrations actually contain zinc acetate
 - A targeted literature search on zinc and diabetic retinopathy, including zinc status in diabetic patients
-- Route and formulation assessment: the registered forms are parenteral, and an oral or other form may be needed for this use
+- Route and formulation assessment: the registered forms are mainly parenteral (plus a topical lotion, Zineryt), and an oral or other form may be needed for this use
 - Review of the porphyria contraindication signal and the interactions listed above
+
+<!-- review:begin za-lic-20261124b-zinc_acetate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "the registered forms are parenteral, and an oral" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-zinc_acetate-1 -->
 
 <!-- review:begin log -->
 
@@ -139,6 +145,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four registrations are valid single-ingredient entries, and all are injectable or parenteral nutrition forms" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+| 2026-11-24 | Corrected: "the registered forms are parenteral, and an oral" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

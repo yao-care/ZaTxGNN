@@ -137,12 +137,18 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 The top-ranked prediction, chronic rhinosinusitis, rests only on a model score (L5), with no trials or publications. The only prediction with literature, otitis externa, reaches L3 at best. Its evidence comes from older studies of combination products, and the contribution of oxytetracycline itself is unclear. Because the SAHPRA label safety information is also missing, the safety screen cannot be completed.
 
 **To proceed, the following is needed:**
-- SAHPRA Professional Information (warnings, contraindications and approved indications) for all three registered products
+- SAHPRA Professional Information (warnings, contraindications and approved indications) for all registered products
 - Mechanism of action data from DrugBank
 - A targeted literature review for chronic rhinosinusitis and chronic sinusitis
 - For otitis externa, a review separating oxytetracycline's contribution from polymyxin B and hydrocortisone, and a check of whether a topical ear formulation is registered in South Africa
 - Review of South African antimicrobial resistance and current guidelines before any repurposing
 - Verification of study types, since they were inferred from titles only
+
+<!-- review:begin za-lic-20261124b-oxytetracycline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "approved indications) for all three registered products" Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-oxytetracycline-1 -->
 
 <!-- review:begin log -->
 
@@ -154,6 +160,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All three registrations are valid single-ingredient products. One is oral (capsule) and two are topical (ointments)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
+| 2026-11-24 | Corrected: "approved indications) for all three registered products" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

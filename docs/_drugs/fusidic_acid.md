@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Fusidic acid is an antibacterial that acts mainly against Gram-positive bacteria such as *Staphylococcus aureus* and is marketed in South Africa as topical products.
+Fusidic acid is an antibacterial that acts mainly against Gram-positive bacteria such as *Staphylococcus aureus* and is marketed in South Africa mainly as topical products (creams, ointments and eye drops), with oral and intravenous forms also registered.
 The TxGNN model predicts it may be effective for **exposure keratitis**, but there are currently **no registered clinical trials** and only **1 indirect publication** (a case series on ocular infections), so the evidence is very limited.
+
+<!-- review:begin za-lic-20261124b-fusidic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and is marketed in South Africa as topical products." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-fusidic_acid-1 -->
 
 ## Quick Overview
 
@@ -138,6 +144,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | 2026-11-05 | Removed: "Because the registered products are not ophthalmic formulations, safety in the eye cannot be assumed from the existing skin products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "since current South African registrations are topical skin products only" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
+| 2026-11-24 | Corrected: "and is marketed in South Africa as topical products." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

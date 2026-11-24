@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 description: "Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not stated in the SAHPRA registration data compiled for this report (…"
 monitor_inn: "Mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Mometasone is a potent corticosteroid, marketed in South Africa as a topical cream and as nasal sprays. The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**. Currently there are **no registered clinical trials** and only **2 case reports**, both indirectly relevant, so this remains a model prediction with little supporting evidence.
+Mometasone is a potent corticosteroid, marketed in South Africa as topical products (cream, ointment and lotion), nasal sprays and inhalers. The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**. Currently there are **no registered clinical trials** and only **2 case reports**, both indirectly relevant, so this remains a model prediction with little supporting evidence.
+
+<!-- review:begin za-lic-20261124b-mometasone-3 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in South Africa as a topical cream and as nasal sprays." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-mometasone-3 -->
 
 ## Quick Overview
 
@@ -87,7 +93,13 @@ Showing 5 of 50 registrations (valid registrations first).
 
 <!-- licenses:end -->
 
-Only the cream is a topical formulation relevant to skin-directed therapy. Essential Medicines List (EML) status is not covered in the compiled data.
+The cream, ointment and lotion are the topical formulations relevant to skin-directed therapy. Essential Medicines List (EML) status is not covered in the compiled data.
+
+<!-- review:begin za-lic-20261124b-mometasone-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Only the cream is a topical formulation relevant to skin-directed therapy." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-mometasone-2 -->
 
 ## Safety Considerations
 
@@ -105,19 +117,28 @@ The mechanistic rationale (topical corticosteroids in early-stage mycosis fungoi
 **To proceed, the following is needed:**
 - Mometasone-specific clinical data in early-stage mycosis fungoides or cutaneous T-cell lymphoma (trials, series or comparative studies against other topical corticosteroids)
 - Safety information from the SAHPRA Professional Information (warnings and contraindications), which is required before safety screening
-- Approved indication text for the three SAHPRA registrations
+- Approved indication text for the SAHPRA registrations
 - Mechanism of action data from DrugBank
 - Assessment of route compatibility, since only the topical cream is relevant to skin lymphoma
+
+<!-- review:begin za-lic-20261124b-mometasone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication text for the three SAHPRA registrations" Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-mometasone-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
+| 2026-11-24 | Corrected: "Approved indication text for the three SAHPRA registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "Only the cream is a topical formulation relevant to skin-directed therapy." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "marketed in South Africa as a topical cream and as nasal sprays." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

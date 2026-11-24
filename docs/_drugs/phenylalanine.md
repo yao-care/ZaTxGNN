@@ -48,13 +48,19 @@ The prediction is therefore computational only.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data compiled for this report (all 11 SAHPRA registrations are amino acid-containing infusion products) |
+| Original Indication | Not stated in the registration data compiled for this report (the SAHPRA registrations are amino acid-containing infusion products) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
 | South Africa Market Status | Marketed (valid licences: 17 of 26; 5 of the valid not confirmed by SAHPRA) |
 | Number of SAHPRA Registrations | 26 (valid: 17, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
+
+<!-- review:begin za-lic-20261124b-phenylalanine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(all 11 SAHPRA registrations are amino acid-containing infusion products)" Corrected: the number of registrations stated in this cell did not match the SAHPRA registration data as of 2026-11-23; the number was removed (the product description was checked against every registration). The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-phenylalanine-1 -->
 
 ---
 
@@ -155,6 +161,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 11 registrations are currently valid single-entity registrations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Other registrations include Numeta G16E, Smofkabiven, Smofkabiven Peripheral, Nutriflex Omega Specialized, Nutriflex Lipid Special 625ml and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "(all 11 SAHPRA registrations are amino acid-containing infusion products)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

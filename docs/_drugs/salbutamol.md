@@ -102,7 +102,13 @@ Showing 5 of 57 registrations (valid registrations first).
 
 <!-- licenses:end -->
 
-All of these are oral or inhaled products. No ophthalmic formulation appears among the registrations, so route compatibility with an eye condition is unresolved.
+The registered products are mainly oral or inhaled; a salbutamol injection and an intravenous infusion (Ventolin) are also registered. No ophthalmic formulation appears among the registrations, so route compatibility with an eye condition is unresolved.
+
+<!-- review:begin za-lic-20261124b-salbutamol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "All of these are oral or inhaled products." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-salbutamol-1 -->
 
 ---
 
@@ -138,6 +144,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Salbutamol has 10 SAHPRA registration records in the compiled data, of which 8 are valid and 2 are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
+| 2026-11-24 | Corrected: "All of these are oral or inhaled products." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

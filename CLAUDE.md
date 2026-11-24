@@ -655,3 +655,15 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   另寫一支更寬的獨立偵測全量掃（正文、快速總覽格裡寫死張數／狀態跟事實層不符）：改前 32 句（其中 8 句是「single-ingredient product(s)」泛稱、「At least one」被當成 1 張的誤中），改後 26 句（8 句誤中＋18 句列待查）；以 7 筆 `za-lic-20261124-*` 更正（ezetimibe、formoterol 的單方張數、fexofenadine「A single valid single-ingredient registration」、sacubitril「single-ingredient」實為 sacubitril–valsartan 複方、flucloxacillin「under six SAHPRA registrations」、emtricitabine 舊表說明句與快速總覽「Number of Approvals」列），
   19 句列待查（寬偵測 18 句＋potassium_acetate 劑型句：「five local registrations」剛好等於程式表列數、寬偵測沒算進去；待辦條目寫死張數 13 句、快速總覽 Original Indication 格括號張數 4 句、potassium_acetate 劑型句、mepyramine「All eight South African products」）。checker 全量前後都是 0；gate exit 0。
 - 已知、沒處理（A 的範圍）：公開頁有 6 頁市場段落沒有許可證表（amlodipine、clioquinol、clotrimazole、dorzolamide、dutasteride、ipratropium；amlodipine 正文還寫「The detailed registration table is added by the site programme」），程式照舊不新增表。
+
+## 第二輪：待查舊錯句、劑型說法、缺表頁（2026-11-24）
+
+用戶 2026-11-24 決定（第二輪，30 站逐站做）：第一輪（程式許可證表＋正文張數程式改寫）列進待查的舊錯句逐句寫紀錄、劑型說法全站掃、市場段落沒有程式表的頁補表。全部逐句對照證據包（Release data-20261123-184252）全部紀錄與快照事實層，新紀錄 id `za-lic-20261124b-<藥>-N`，更正文字不寫死張數。
+- 缺表的頁補程式表：`scripts/sync_license_pages.py --add-missing`（市場段落沒有任何表、證據包有紀錄的頁，在段落開頭補程式區塊，列數 min(5, 總數)，之後照常由每週排程 resync_table 重排）；補了 7 頁（amlodipine、clioquinol、clotrimazole、dorzolamide、dutasteride、ipratropium 6 個公開頁＋noindex 的 amitriptyline_hydrochloride）。
+  gate（site.program_block_problems）另擋「市場段落沒有程式表、快照有註冊」。跟新表矛盾的說明句（amlodipine「The detailed registration table is added by the site programme…」、dorzolamide「The registration table is generated separately…」）以紀錄刪掉；ipratropium 的劑型句（寫有錠劑、沒有鼻噴劑，實際有 3 張 xylometazoline 複方鼻噴劑、沒有錠劑）3 筆更正；clotrimazole 11-05 刪句留下的「They are mainly…」主語改寫（za-lic-20261105-clotrimazole-1 同 id 重發）。
+- 待查清單 19 項（第一輪寬偵測與 count_prose 判斷不了的句子）：待辦條目寫死張數 11 句只拿掉張數（「for the three registered products」→「for the registered products」），快速總覽原適應症格括號裡的張數 4 句拿掉張數（類型說法逐張確認成立），formoterol 待辦的 Seroquel 前提（已不在證據包）拿掉，glycine、potassium_acetate、mepyramine 的全稱說法照證據包改寫；19 項全部標 resolved 附 record_ids。
+- 劑型／產品類型說法全站掃：兩支獨立偵測（全稱字樣＋劑型詞＋註冊語境 156 句；「registered as／marketed as／component of／no oral…」等另一組 68 句）全量掃公開頁，逐句對照證據包全部品項的劑型、品名與成分欄：不成立的 66 句以新紀錄、5 句以舊紀錄同 id 重發更正
+  （例：aripiprazole「marketed as a single-ingredient injectable」實為以錠劑為主、amylmetacresol「single-ingredient oral tablet」實為複方含錠、ivermectin「No oral ivermectin registration」實有 Iladek 3 錠、midazolam「the only SAHPRA registration is an injectable」另有 Dormicum 錠與鼻噴劑、sacubitril「single-ingredient tablet」實為全部含 valsartan 的複方）；
+  待辦條目只拿掉錯的前提，建議內容不動；成立的（atenolol「All registered products are oral tablets」、dorzolamide「eye drops only」等）不改。另 6 頁表下的「Only part of the licence list is held in the data…」（10-22 known_use_pages 程式句，快照事實層 partial＝False）刪掉；zidovudine「Simayla Simvastatin 40」、clavulanic_acid「several entries appear to be unrelated」兩條待辦的前提已不在證據包，拿掉。
+- 錨在被改句子上的舊紀錄：同 id 重發（aspartic_acid、clotrimazole、dl-alpha-tocopherol、fexofenadine、threonine、vitamin_e）或改錨（fenofibrate 11-12 紀錄），前版存 history。紀錄說明的張數樣板（site._fig）第一輪已改成不寫數字，確認無誤。
+- 合計新紀錄 99 筆（82 頁）、同 id 重發／改錨 7 筆；checker 全量前後都是 0、gate exit 0；正文有變的頁 last_modified_at 改 2026-11-24。

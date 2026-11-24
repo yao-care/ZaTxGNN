@@ -113,7 +113,13 @@ Please refer to the SAHPRA-approved Professional Information (PI) for label warn
 **Decision: Hold**
 
 **Rationale:**
-The acne keloid prediction rests only on a model score and indirect biological similarity to acne. There are no registered trials, no publications, no mechanism data, and no label-based safety information. The only local product is a suppository, which does not match a topical dermatological use.
+The acne keloid prediction rests only on a model score and indirect biological similarity to acne. There are no registered trials, no publications, no mechanism data, and no label-based safety information. The local products include suppositories as well as topical skin preparations (for example Eskamel Acne And Pimple Ointment and PIMPIL-GO Medicated Cream).
+
+<!-- review:begin za-lic-20261124b-resorcinol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only local product is a suppository, which does not match a topical dermatological use." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-resorcinol-1 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data for resorcinol
@@ -132,6 +138,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Only one registration (single-ingredient, valid) was identified. The registered product is a suppository, not a topical skin formulation. It" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "The only local product is a suppository, which does not match a topical dermatological use." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

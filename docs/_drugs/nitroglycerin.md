@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 345
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the SAHPRA registration data compiled for this report"
 monitor_inn: "nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -38,7 +38,13 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Nitroglycerin is a nitric oxide (NO)-donating vasodilator, registered in South Africa as the Nitrolingual inhaler. The SAHPRA registration data compiled for this report do not state an approved indication. The TxGNN model predicts it may be effective for **pulmonary hypertension**, with **3 registered clinical trials** and **20 publications** currently supporting this direction. Most of these are reviews, small haemodynamic studies or small trials of nebulized nitroglycerin.
+Nitroglycerin is a nitric oxide (NO)-donating vasodilator, registered in South Africa as tablets (Angised), an injection (Nitrocine) and the Nitrolingual inhaler. The SAHPRA registration data compiled for this report do not state an approved indication. The TxGNN model predicts it may be effective for **pulmonary hypertension**, with **3 registered clinical trials** and **20 publications** currently supporting this direction. Most of these are reviews, small haemodynamic studies or small trials of nebulized nitroglycerin.
+
+<!-- review:begin za-lic-20261124b-nitroglycerin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "registered in South Africa as the Nitrolingual inhaler." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-nitroglycerin-1 -->
 
 ## Quick Overview
 
@@ -134,11 +140,12 @@ The mechanism is plausible and there is a body of small studies and reviews on n
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300) |
+| 2026-11-24 | Corrected: "registered in South Africa as the Nitrolingual inhaler." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 88
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-17
+last_modified_at: 2026-11-24
 description: "Calcium: known uses and market status in South Africa; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -81,11 +81,27 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 <!-- licenses:end -->
 
-Only part of the licence list is held in the data; the list may be incomplete.
+<!-- review:begin za-lic-20261124b-calcium-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Only part of the licence list is held in the data; the list may be incomplete." Removed: it said only part of the registration list was held in the data; the SAHPRA registration data as of 2026-11-23 compiled for this report cover all registrations matched to this medicine, and the line under the table shows how many are listed. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-calcium-1 -->
 
 ## Safety Considerations
 
 Please refer to the SAHPRA-approved Professional Information (PI) for safety information. Report adverse drug reactions to SAHPRA.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Removed: "Only part of the licence list is held in the data; the list may be incomplete." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

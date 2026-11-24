@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
 description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). In South Africa: 2 SAHPRA registrations (2 valid)"
@@ -87,7 +87,13 @@ No publications directly support ivermectin for vulvovaginal candidiasis. The on
 
 <!-- licenses:end -->
 
-Soolantra is a topical cream registered as a single-ingredient product. No oral ivermectin registration appears in the data compiled for this report. This matters because the original indications (strongyloidiasis, onchocerciasis) are conventionally treated with oral ivermectin. Essential Medicines List status was not available in the data.
+Soolantra is a topical cream registered as a single-ingredient product. An oral ivermectin tablet (Iladek 3) is also registered in the data compiled for this report; oral ivermectin is the conventional treatment for the original indications (strongyloidiasis, onchocerciasis). Essential Medicines List status was not available in the data.
+
+<!-- review:begin za-lic-20261124b-ivermectin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "No oral ivermectin registration appears in the data compiled for this report. This matters because the original indications (strongyloidiasis, onchocerciasis) are conventionally treated with oral ivermectin." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-ivermectin-1 -->
 
 ## Safety Considerations
 
@@ -127,11 +133,12 @@ The prediction rests on a model score alone (Evidence Level L5). There are no cl
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
+| 2026-11-24 | Corrected: "No oral ivermectin registration appears in the data compiled for this report. This matters because the original indications (strongyloidiasis, onchocerciasis) are conventionally treated wi | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

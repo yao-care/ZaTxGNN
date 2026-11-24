@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Fexofenadine is a selective peripheral H1-receptor antagonist (antihistamine) that is marketed in South Africa as an oral tablet.
+Fexofenadine is a selective peripheral H1-receptor antagonist (antihistamine) that is marketed in South Africa as oral tablets and an oral suspension.
 The TxGNN model predicts it may be relevant for **rosacea conjunctivitis**, but **no clinical trials and no publications** were found in the data compiled for this report to support this direction.
+
+<!-- review:begin za-lic-20261124b-fexofenadine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "that is marketed in South Africa as an oral tablet." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-fexofenadine-1 -->
 
 ---
 
@@ -93,11 +99,11 @@ Showing 5 of 40 registrations (valid registrations first).
 
 <!-- licenses:end -->
 
-The drug is available as an oral tablet.
+The drug is available as oral tablets and an oral suspension.
 
 <!-- review:begin za-lic-20261124-fexofenadine-1 -->
 
-> **Review correction (2026-11-24)**: Originally stated: "The drug is available as an oral tablet. A single valid single-ingredient registration is recorded." Removed: it said there is a single valid single-ingredient registration, which did not match the SAHPRA registration data as of 2026-11-23. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+> **Review correction (2026-11-24)**: Originally stated: "The drug is available as an oral tablet. A single valid single-ingredient registration is recorded." Removed: it said there is a single valid single-ingredient registration, which did not match the SAHPRA registration data as of 2026-11-23. The Quick Overview and the table under South Africa Market Information show the current figures. Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
 
 <!-- review:end za-lic-20261124-fexofenadine-1 -->
 
@@ -127,8 +133,14 @@ The prediction rests only on model output (Evidence Level L5). No trial or publi
 - A literature and trial registry search (including SANCTR and PACTR) specifically for antihistamines in rosacea-related ocular disease
 - Detailed mechanism of action data
 - The SAHPRA Professional Information (warnings and contraindications) for safety screening
-- Assessment of route compatibility (oral tablet versus a possible ocular formulation)
+- Assessment of route compatibility (oral tablets and suspension versus a possible ocular formulation)
 - Specialist ophthalmology and dermatology input on the plausibility of use as an adjunct
+
+<!-- review:begin za-lic-20261124b-fexofenadine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(oral tablet versus a possible ocular formulation)" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-fexofenadine-2 -->
 
 <!-- review:begin log -->
 
@@ -138,7 +150,9 @@ Below is the review log for this page: statements checked against SAHPRA registr
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | Removed: "A single valid single-ingredient registration is recorded." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Removed: "A single valid single-ingredient registration is recorded." | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "that is marketed in South Africa as an oral tablet." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "(oral tablet versus a possible ocular formulation)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

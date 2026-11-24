@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Acetic acid is a topical acidifying antimicrobial agent that is registered in South Africa in several single-ingredient products, mainly haemodialysis concentrates.
+Acetic acid is a topical acidifying antimicrobial agent that is registered in South Africa in several products, mainly haemodialysis concentrates.
 The TxGNN model predicts it may be relevant to **post-bacterial disorder**, but **no clinical trials and no publications** currently support this prediction.
 The prediction rests on the model score alone.
+
+<!-- review:begin za-lic-20261124b-acetic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "registered in South Africa in several single-ingredient products, mainly haemodialysis concentrates." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-acetic_acid-1 -->
 
 ---
 
@@ -136,6 +142,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 4 registrations are valid and single-ingredient" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
+| 2026-11-24 | Corrected: "registered in South Africa in several single-ingredient products, mainly haemodialysis concentrates." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

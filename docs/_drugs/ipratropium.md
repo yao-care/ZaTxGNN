@@ -85,6 +85,20 @@ Currently no related clinical trials registered. No SANCTR or PACTR entries were
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/10.2.1/0273 | Atrovent HFA 200dose | inhaler | Valid |
+| 41/10.2.1/0699 | Tropivent 1ml | vial | Valid (status not confirmed by SAHPRA) |
+| 30/10.2.1/0476 | Combivent udv | vial | Valid |
+| 33/10.2.1/0270 | Adco-ipratropium  (ni101) | vial | Valid |
+| 33/10.2.1/0271 | Adco-ipratropium  (ni201) | vial | Valid |
+
+Showing 5 of 31 registrations (valid registrations first).
+
+<!-- licenses:end -->
+
 Ipratropium is **marketed** in South Africa. The licence status has been verified.
 
 <!-- review:begin za-lic-20261105-ipratropium-1 -->
@@ -93,11 +107,29 @@ Ipratropium is **marketed** in South Africa. The licence status has been verifie
 
 <!-- review:end za-lic-20261105-ipratropium-1 -->
 
-- Registered dosage forms are inhaler, nebuliser solution, vial (inhalation solution), tablet and capsule.
-- No nasal spray is among the registered dosage forms, so a nasal use would need a suitable formulation or route to be confirmed.
+- Registered dosage forms are mainly inhalers, nebuliser solutions and inhalation vials, plus nasal sprays.
+- The registered nasal sprays (for example Otrivin Plus and Sinustat Duo Nasal Spray) combine ipratropium with xylometazoline, so a single-ingredient nasal use would need a suitable formulation or route to be confirmed.
 - The approved indication text is not recorded in the local data.
-- A few product names in the records (for example, those with tablet or capsule forms) do not clearly look like ipratropium products. Check these against the SAHPRA register before relying on them.
+- A few product names in the records (for example, the one with a capsule form) do not clearly look like ipratropium products. Check these against the SAHPRA register before relying on them.
 - Essential Medicines List (EML) status is not covered in the data compiled for this report.
+
+<!-- review:begin za-lic-20261124b-ipratropium-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Registered dosage forms are inhaler, nebuliser solution, vial (inhalation solution), tablet and capsule." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-ipratropium-1 -->
+
+<!-- review:begin za-lic-20261124b-ipratropium-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "No nasal spray is among the registered dosage forms, so a nasal use would need a suitable formulation or route to be confirmed." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-ipratropium-2 -->
+
+<!-- review:begin za-lic-20261124b-ipratropium-3 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(for example, those with tablet or capsule forms)" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-ipratropium-3 -->
 
 ---
 
@@ -135,6 +167,9 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "The local records show 14 valid single-ingredient licences and no cancelled ones" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
+| 2026-11-24 | Corrected: "Registered dosage forms are inhaler, nebuliser solution, vial (inhalation solution), tablet and capsule." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "No nasal spray is among the registered dosage forms, so a nasal use would need a suitable formulation or route to be confirmed." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "(for example, those with tablet or capsule forms)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

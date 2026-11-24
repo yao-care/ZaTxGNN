@@ -141,8 +141,13 @@ Support for SIV infection is limited to animal and in vitro work (Evidence Level
 **To proceed, the following is needed:**
 - Product label information (approved indications, warnings, contraindications) from the SAHPRA package inserts
 - Detailed mechanism of action data
-- Verification of the "Simayla Simvastatin 40" entry in the registration list
 - A clear research or veterinary purpose, if this prediction is to be pursued at all
+
+<!-- review:begin za-lic-20261124b-zidovudine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the "Simayla Simvastatin 40" entry in the registration list" Corrected: the product named here is no longer among the registrations matched to this medicine in the SAHPRA registration data as of 2026-11-23, so that reason was removed; the suggested step is unchanged. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-zidovudine-1 -->
 
 Two other predictions in the same analysis, congenital HIV and AIDS-related complex, have much stronger clinical evidence. Both overlap with the existing HIV label, so they are not true repurposing.
 
@@ -157,6 +162,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | 2026-11-05 | Removed: "Nine valid SAHPRA registrations were found, all in tablet or kit form" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Four further registrations are on file: Mivirdo, Sonke-abaclamizid, Trizivar, and an entry named "Simayla Simvastatin 40" (Reg. No. 36/7.5/0" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
+| 2026-11-24 | Removed: "Verification of the "Simayla Simvastatin 40" entry in the registration list" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

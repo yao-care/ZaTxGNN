@@ -128,7 +128,13 @@ The prediction is mechanistically plausible, but it largely duplicates an existi
 - Mechanism of action data for pheniramine
 - Clinical evidence in allergic urticaria, such as comparative trials against other antihistamines
 - For the nasal cavity disease and laryngopharyngitis predictions, narrowing to specific conditions and gathering supporting studies
-- Route compatibility assessment (only an oral effervescent tablet is currently registered)
+- Route compatibility assessment
+
+<!-- review:begin za-lic-20261124b-pheniramine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Route compatibility assessment (only an oral effervescent tablet is currently registered)" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-pheniramine-1 -->
 
 <!-- review:begin log -->
 
@@ -139,6 +145,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "This is the only SAHPRA registration, and it is a valid single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "Route compatibility assessment (only an oral effervescent tablet is currently registered)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

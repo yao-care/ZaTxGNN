@@ -157,8 +157,14 @@ Label-based warnings and contraindications could not be retrieved. Please refer 
 - The SAHPRA package insert warnings and contraindications (a blocking data gap for safety screening).
 - Mechanism of action data from DrugBank.
 - Current local gonococcal susceptibility data for South Africa, to determine whether amoxicillin-clavulanate has any role.
-- Verification of the SAHPRA licence list, since several entries appear to be unrelated products.
+- Verification of the SAHPRA licence list.
 - For any further pursuit, a critical appraisal of the 1980s gonococcal studies against current resistance patterns.
+
+<!-- review:begin za-lic-20261124b-clavulanic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the SAHPRA licence list, since several entries appear to be unrelated products." Corrected: the product named here is no longer among the registrations matched to this medicine in the SAHPRA registration data as of 2026-11-23, so that reason was removed; the suggested step is unchanged. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-clavulanic_acid-1 -->
 
 <!-- review:begin log -->
 
@@ -170,6 +176,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "in 14 valid single-ingredient licences" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "Note: several other licences in the source records (for example Ventolin inhaler, Trandate, Kivexa, Trizivar, Stiemycin lotion, and Simayla " | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "Verification of the SAHPRA licence list, since several entries appear to be unrelated products." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

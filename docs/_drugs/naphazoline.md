@@ -134,7 +134,13 @@ All predictions are model-based only (L5), with no supporting trials or publicat
 - Obtain mechanism of action data from DrugBank
 - A systematic literature search for naphazoline in hair disorders (and glaucoma) to look for any direct evidence
 - Preclinical or mechanistic evidence showing a plausible biological link before any clinical consideration
-- Confirmation of formulation and route suitability for any new indication (currently only ophthalmic drops are registered)
+- Confirmation of formulation and route suitability for any new indication (currently eye drops and nasal drops or sprays are registered)
+
+<!-- review:begin za-lic-20261124b-naphazoline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(currently only ophthalmic drops are registered)" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-naphazoline-1 -->
 
 <!-- review:begin log -->
 
@@ -145,6 +151,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "(currently only ophthalmic drops are registered)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

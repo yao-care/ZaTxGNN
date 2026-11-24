@@ -101,7 +101,13 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but no study addresses anorectal stricture directly, so the evidence level is L5. The only local registration is an infusion product, which does not match the likely route of use for this condition.
+The prediction score is high, but no study addresses anorectal stricture directly, so the evidence level is L5. The local registrations are dexpanthenol ointments, multi-ingredient syrups and oral liquids, and injection or infusion products.
+
+<!-- review:begin za-lic-20261124b-dexpanthenol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only local registration is an infusion product, which does not match the likely route of use for this condition." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-dexpanthenol-1 -->
 
 **To proceed, the following is needed:**
 - Clinical or preclinical studies of dexpanthenol in anorectal stricture or anorectal mucosal healing
@@ -118,6 +124,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "This is the only registration, and it is valid. The available dosage form is injectable (infusion) only. No topical or rectal form is record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "The only local registration is an infusion product, which does not match the likely route of use for this condition." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

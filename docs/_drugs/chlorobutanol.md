@@ -114,8 +114,14 @@ The prediction is supported only by the TxGNN model score, with no clinical tria
 - The SAHPRA package insert (warnings, contraindications and approved indication), to complete safety screening
 - Mechanism of action data for chlorobutanol, to assess any link to erectile dysfunction
 - A systematic search of PubMed, ClinicalTrials.gov, SANCTR and PACTR for any existing studies
-- Assessment of route compatibility, since only a topical cream is registered in South Africa
+- Assessment of route compatibility
 - Review of the other predicted indications for any with better mechanistic plausibility
+
+<!-- review:begin za-lic-20261124b-chlorobutanol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Assessment of route compatibility, since only a topical cream is registered in South Africa" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-chlorobutanol-1 -->
 
 <!-- review:begin log -->
 
@@ -127,6 +133,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Chlorobutanol is registered as a single-ingredient product in this one valid registration" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "The only registered product is a topical cream, and" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "Assessment of route compatibility, since only a topical cream is registered in South Africa" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

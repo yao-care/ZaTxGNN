@@ -96,7 +96,13 @@ The Essential Medicines List (EML) status is not available in the data compiled 
 
 Please refer to the SAHPRA-approved Professional Information (PI) for warnings, contraindications and other safety information. Report adverse drug reactions to SAHPRA.
 
-Note on route compatibility: the registered products are oral or "other" forms, and no topical ocular formulation is recorded. Any ocular use would therefore need a suitable, separately assessed formulation.
+Note on route compatibility: the registered products are mainly lozenges and throat, skin or ear preparations, and no topical ocular formulation is recorded. Any ocular use would therefore need a suitable, separately assessed formulation.
+
+<!-- review:begin za-lic-20261124b-benzocaine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "the registered products are oral or "other" forms, and no topical ocular formulation is recorded." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-benzocaine-1 -->
 
 ## Conclusion and Next Steps
 
@@ -121,6 +127,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid and are single-ingredient records" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "the registered products are oral or "other" forms, and no topical ocular formulation is recorded." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

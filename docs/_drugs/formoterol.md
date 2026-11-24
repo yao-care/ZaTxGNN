@@ -130,7 +130,13 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 - Any direct clinical or preclinical evidence in respiratory malformation
 - A plausible mechanistic rationale beyond airway smooth muscle relaxation
 - Mechanism of action data and the SAHPRA Professional Information warnings and contraindications
-- Review of the product records, since one listed registration (Seroquel, a tablet) should be verified as a formoterol product
+- Review of the product records
+
+<!-- review:begin za-lic-20261124b-formoterol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Review of the product records, since one listed registration (Seroquel, a tablet) should be verified as a formoterol product" Corrected: the product named here is no longer among the registrations matched to this medicine in the SAHPRA registration data as of 2026-11-23, so that reason was removed; the suggested step is unchanged. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-formoterol-1 -->
 
 <!-- review:begin log -->
 
@@ -142,6 +148,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
 | 2026-11-24 | Removed: "Two single-ingredient registrations are listed, both valid." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "Review of the product records, since one listed registration (Seroquel, a tablet) should be verified as a formoterol product" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

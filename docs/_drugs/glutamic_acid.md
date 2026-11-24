@@ -139,14 +139,26 @@ Please refer to the SAHPRA-approved Professional Information (PI) for warnings a
 **Decision: Hold**
 
 **Rationale:**
-The prediction is a research question. The TxGNN score is high, but no clinical trials are registered. The literature on postmenopausal osteoporosis consists of one mouse study and indirect vitamin K and D papers, and none shows that glutamic acid is effective. The only local products are parenteral nutrition formulations, which are not designed for osteoporosis treatment.
+The prediction is a research question. The TxGNN score is high, but no clinical trials are registered. The literature on postmenopausal osteoporosis consists of one mouse study and indirect vitamin K and D papers, and none shows that glutamic acid is effective. The local products are mainly parenteral nutrition formulations, which are not designed for osteoporosis treatment.
+
+<!-- review:begin za-lic-20261124b-glutamic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only local products are parenteral nutrition formulations, which are not designed for osteoporosis treatment." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-glutamic_acid-1 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data for glutamic acid, particularly its role in bone metabolism
 - Preclinical studies of glutamic acid itself in bone loss models
 - Safety review of the SAHPRA Professional Information, including warnings and contraindications, given the renal, cardiac and calcium-related signals from the knowledge graph
-- Assessment of whether a suitable oral formulation and route exist, since current local products are infusions only
+- Assessment of whether a suitable oral formulation and route exist, since current local products are mainly infusions
 - A registered clinical trial, once preclinical support is established
+
+<!-- review:begin za-lic-20261124b-glutamic_acid-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since current local products are infusions only" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-glutamic_acid-2 -->
 
 <!-- review:begin log -->
 
@@ -158,6 +170,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All five registrations are single-ingredient, valid, and listed as infusion or total parenteral nutrition (TPN) products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-05 | Removed: "only" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "The only local products are parenteral nutrition formulations, which are not designed for osteoporosis treatment." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "since current local products are infusions only" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

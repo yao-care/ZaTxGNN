@@ -68,6 +68,20 @@ Currently no related literature available.
 
 ## South Africa Market Information
 
+<!-- licenses:begin -->
+
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 37/21.12/0282 | Avodart | capsule | Valid |
+| 54/21.12/0491 | Zedrast | Cap | Valid |
+| 44/21.12/0850 | Duodart 0.5mg/0.4mg | capsule | Valid |
+| 54/18.10/0097 | Uromax Co | capsule | Valid |
+| 55/21.12/0032 | Swifsul | Cap | Valid |
+
+Showing 5 of 10 registrations (valid registrations first).
+
+<!-- licenses:end -->
+
 Dutasteride is marketed in South Africa. Dosage forms are oral capsules. The local records contain no approved-indication text. Essential Medicines List status was not available in the data compiled for this report.
 
 <!-- review:begin za-lic-20261105-dutasteride-1 -->

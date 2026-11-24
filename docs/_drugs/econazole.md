@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Econazole is a topical imidazole antifungal that is marketed in South Africa as cream products.
+Econazole is a topical imidazole antifungal that is marketed in South Africa as creams, a spray solution and vaginal suppositories.
 The TxGNN model predicts it may be effective for **ectothrix infectious disease**, a dermatophyte infection of the hair shaft.
 Currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
+
+<!-- review:begin za-lic-20261124b-econazole-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Econazole is a topical imidazole antifungal that is marketed in South Africa as cream products." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-econazole-1 -->
 
 ---
 
@@ -64,7 +70,13 @@ According to the Mechanism of Action and Microbiology sections of the US FDA-app
 
 Ectothrix infections are caused by dermatophytes such as *Microsporum* and *Trichophyton* species, which form spores on the outside of the hair shaft. These organisms fall within the general antifungal spectrum of imidazoles, which is the likely reason the model gave a high score.
 
-There is an important practical limit. Topical agents penetrate the hair shaft and follicle poorly, so infections of the hair usually need systemic therapy. A cream-only product may therefore be a poor fit for this indication. The data compiled for this report contain no studies that test econazole in this disease, and the route compatibility assessment is still pending.
+There is an important practical limit. Topical agents penetrate the hair shaft and follicle poorly, so infections of the hair usually need systemic therapy. A product range limited to topical and vaginal forms may therefore be a poor fit for this indication. The data compiled for this report contain no studies that test econazole in this disease, and the route compatibility assessment is still pending.
+
+<!-- review:begin za-lic-20261124b-econazole-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "A cream-only product may therefore be a poor fit for this indication." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-econazole-2 -->
 
 ---
 
@@ -138,6 +150,8 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577) |
+| 2026-11-24 | Corrected: "Econazole is a topical imidazole antifungal that is marketed in South Africa as cream products." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "A cream-only product may therefore be a poor fit for this indication." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

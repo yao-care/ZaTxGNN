@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections, including urinary tract infection, bronchitis…"
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
@@ -111,8 +111,14 @@ The prediction score is high, but the evidence is limited to one two-patient cas
 **To proceed, the following is needed:**
 - Review of the SAHPRA-approved PI (indications, warnings, contraindications), as this safety information was not available
 - Mechanism of action data
-- Controlled clinical evidence in punctate epithelial keratoconjunctivitis, including whether an ocular formulation is needed, since the only registered product is an oral tablet
+- Controlled clinical evidence in punctate epithelial keratoconjunctivitis, including whether an ocular formulation is needed, since the registered products are oral forms
 - A comparison with the alternative candidates, which may have stronger evidence (see below)
+
+<!-- review:begin za-lic-20261124b-tetracycline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the only registered product is an oral tablet" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-tetracycline-1 -->
 
 ### Other Predicted Indications Reviewed
 
@@ -128,11 +134,12 @@ Of these alternatives, only the post-treatment Lyme disease pilot (NCT05219929) 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440) |
+| 2026-11-24 | Corrected: "since the only registered product is an oral tablet" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

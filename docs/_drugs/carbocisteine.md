@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 description: "Carbocisteine: predicted new indication gout (evidence level L5). In South Africa: 36 SAHPRA registrations (22 valid)"
 ---
 
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Carbocisteine is a mucoregulating medicine with antioxidant activity, marketed in South Africa as a single-ingredient syrup.
+Carbocisteine is a mucoregulating medicine with antioxidant activity, marketed in South Africa as single-ingredient syrups and capsules.
 The TxGNN model predicts it may be relevant to **gout**, with a score of 0.9967.
 **No clinical trials and no publications** currently support this prediction.
+
+<!-- review:begin za-lic-20261124b-carbocisteine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in South Africa as a single-ingredient syrup." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-carbocisteine-1 -->
 
 ## Quick Overview
 
@@ -96,6 +102,19 @@ The prediction has no supporting trials or literature and no plausible mechanist
 - Mechanism of action data for carbocisteine, and any evidence linking it to urate handling or gout inflammation
 - Pre-clinical or observational studies that directly examine carbocisteine in gout
 - The SAHPRA Professional Information (warnings and contraindications) for a safety screen
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "marketed in South Africa as a single-ingredient syrup." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

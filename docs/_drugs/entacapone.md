@@ -56,7 +56,13 @@ The evidence is model-based only, so this top prediction should be treated as a 
 
 ## Why is This Prediction Reasonable?
 
-According to the Mechanism of Action section of the US FDA-approved prescribing information for entacapone: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), label version 2026-02-16; accessed 2026-11-19.) Entacapone is generally known as a peripheral COMT inhibitor. By slowing the breakdown of levodopa, it prolongs levodopa's effect. Both registered South African products are Stalevo tablets (see the market table below).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for entacapone: "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), label version 2026-02-16; accessed 2026-11-19.) Entacapone is generally known as a peripheral COMT inhibitor. By slowing the breakdown of levodopa, it prolongs levodopa's effect. The registered South African products are entacapone tablets (Comtan, Enkobist 200) and Stalevo combination tablets (see the market table below).
+
+<!-- review:begin za-lic-20261124b-entacapone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Both registered South African products are Stalevo tablets (see the market table below)." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-entacapone-1 -->
 
 PLA2G6-associated neurodegeneration covers a spectrum of disorders, including infantile neuroaxonal dystrophy and an adult-onset dystonia-parkinsonism form. A plausible link is symptomatic relief of parkinsonism in the adult-onset form, by extending levodopa benefit. Entacapone would not address the underlying disease processes (disrupted phospholipid metabolism and brain iron accumulation).
 
@@ -166,6 +172,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "Both registrations are valid and none are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
+| 2026-11-24 | Corrected: "Both registered South African products are Stalevo tablets (see the market table below)." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

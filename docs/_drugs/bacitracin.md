@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Bacitracin is a polypeptide antibiotic that acts against Gram-positive bacteria and is registered in South Africa as a powder.
+Bacitracin is a polypeptide antibiotic that acts against Gram-positive bacteria and is registered in South Africa in combination topical products (a powder, ointments and a tulle).
 The TxGNN model predicts it may be useful for **punctate epithelial keratoconjunctivitis**, but **no clinical trials and no publications** directly support this prediction at present.
+
+<!-- review:begin za-lic-20261124b-bacitracin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and is registered in South Africa as a powder." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-bacitracin-1 -->
 
 ## Quick Overview
 
@@ -125,6 +131,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "The registration is a single-ingredient product and is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
+| 2026-11-24 | Corrected: "and is registered in South Africa as a powder." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

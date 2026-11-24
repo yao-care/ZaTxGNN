@@ -131,7 +131,13 @@ The mechanistic basis (RAAS blockade in malignant hypertensive renal disease) is
 - SAHPRA package insert warnings and contraindications (not yet obtained, and needed for safety screening)
 - Detailed mechanism of action data
 - A renal safety plan, including monitoring of renal function and potassium, and screening for renal artery stenosis
-- Review of the product-specific approved indications for the 20 registrations
+- Review of the product-specific approved indications for the registrations
+
+<!-- review:begin za-lic-20261124b-valsartan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "approved indications for the 20 registrations" Corrected: this next-step item stated a fixed number of registrations that does not match the SAHPRA registration data as of 2026-11-23; the number was removed and the suggested step is unchanged. The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-valsartan-1 -->
 
 <!-- review:begin log -->
 
@@ -143,6 +149,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "All 20 registrations are valid single-ingredient registrations according to the data compiled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diovan (valsartan) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ddba454-f3e6-43c2-a7a6-58365d297213) |
+| 2026-11-24 | Corrected: "approved indications for the 20 registrations" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

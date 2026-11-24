@@ -108,9 +108,15 @@ The prediction has a high model score and a plausible corticosteroid mechanism, 
 **To proceed, the following is needed:**
 - A literature search for case reports or case series of corticosteroid use in lichen planus pemphigoides
 - Review of the SAHPRA Professional Information for warnings and contraindications
-- Confirmation of whether a topical formulation is available locally, since the registered product is a drop
+- Confirmation of whether a topical formulation is available locally
 - Clarification of the role of topical versus systemic therapy in this rare disease
 - Detailed mechanism-of-action data
+
+<!-- review:begin za-lic-20261124b-fluocinolone_acetonide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "is available locally, since the registered product is a drop" Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-fluocinolone_acetonide-1 -->
 
 <!-- review:begin log -->
 
@@ -122,6 +128,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 |------|------|------|------|
 | 2026-11-05 | Removed: "under one valid single-ingredient registration" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-20 | "Detailed mechanism-of-action data are not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Derma-Smoothe/Fs (fluocinolone acetonide) prescribing information, Royal Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=113e167a-a9fe-440e-9446-d6d87963ef46) |
+| 2026-11-24 | Corrected: "is available locally, since the registered product is a drop" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

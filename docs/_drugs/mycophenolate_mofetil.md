@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 335
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-21
+last_modified_at: 2026-11-24
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not stated in the registration data compiled for this report"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -38,8 +38,14 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Mycophenolate mofetil (MMF) is an immunosuppressant that is registered in South Africa as an oral capsule (Mycocept). The registration data compiled for this report do not state an approved indication.
+Mycophenolate mofetil (MMF) is an immunosuppressant that is registered in South Africa mainly as oral capsules (for example Mycocept), with tablets, an oral suspension and an intravenous infusion also registered. The registration data compiled for this report do not state an approved indication.
 The TxGNN model predicts it may be effective for **HIV infectious disease**, with **4 registered clinical trials** (none showing a demonstrated benefit) and **20 publications**, including one RCT, currently touching on this direction.
+
+<!-- review:begin za-lic-20261124b-mycophenolate_mofetil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "that is registered in South Africa as an oral capsule (Mycocept)." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-mycophenolate_mofetil-1 -->
 
 ---
 
@@ -164,11 +170,12 @@ The mechanistic rationale (IMPDH inhibition and potentiation of nucleoside analo
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
+| 2026-11-24 | Corrected: "that is registered in South Africa as an oral capsule (Mycocept)." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

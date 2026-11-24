@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). In South Africa: 14 SAHPRA registrations (14 valid)"
@@ -118,7 +118,13 @@ SAHPRA package insert warnings and contraindications were not available. Please 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (L5). There are no clinical trials or publications for rosacea conjunctivitis, and the mechanistic link is weak because the disease is driven mainly by meibomian gland dysfunction and *Demodex* rather than histamine. The only local registration is Ryaltris, a spray whose approved indication text is not available. Ocular route compatibility has not been assessed.
+The prediction is supported only by the model score (L5). There are no clinical trials or publications for rosacea conjunctivitis, and the mechanistic link is weak because the disease is driven mainly by meibomian gland dysfunction and *Demodex* rather than histamine. The local registrations are mainly eye drops, plus Ryaltris (a nasal spray combined with mometasone); their approved indication text is not available. Ocular route compatibility has not been assessed.
+
+<!-- review:begin za-lic-20261124b-olopatadine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only local registration is Ryaltris, a spray whose approved indication text is not available." Corrected: the dosage forms or product types described here did not match the SAHPRA registration data as of 2026-11-23 (checked against the product name, dosage form and ingredient fields of every registration compiled for this report). The table under South Africa Market Information lists the registrations. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-olopatadine-1 -->
 
 **To proceed, the following is needed:**
 - The SAHPRA package insert (warnings, contraindications and approved indications), which is a blocking gap for safety screening
@@ -131,11 +137,12 @@ The prediction is supported only by the model score (L5). There are no clinical 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against SAHPRA registration data (the SAHPRA medicine register export). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
+| 2026-11-24 | Corrected: "The only local registration is Ryaltris, a spray whose approved indication text is not available." | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 

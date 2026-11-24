@@ -44,13 +44,19 @@ Arginine is an amino acid used as a component of parenteral nutrition and perito
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data compiled for this report (all 10 registered products are amino acid-containing nutrition or dialysis preparations) |
+| Original Indication | Not stated in the registration data compiled for this report (the registered products are amino acid-containing nutrition or dialysis preparations) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
 | South Africa Market Status | Marketed (valid licences: 35 of 54; 5 of the valid not confirmed by SAHPRA) |
 | Number of SAHPRA Registrations | 54 (valid: 35, of which 5 not confirmed by SAHPRA) |
 | Recommended Decision | Hold |
+
+<!-- review:begin za-lic-20261124b-arginine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(all 10 registered products are amino acid-containing nutrition or dialysis preparations)" Corrected: the number of registrations stated in this cell did not match the SAHPRA registration data as of 2026-11-23; the number was removed (the product description was checked against every registration). The Quick Overview and the table under South Africa Market Information show the current figures. Source: [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/).
+
+<!-- review:end za-lic-20261124b-arginine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -170,6 +176,7 @@ Below is the review log for this page: statements checked against SAHPRA registr
 | 2026-11-05 | Removed: "Other registrations include Smofkabiven (46/32.2/0518), Smofkabiven Peripheral (47/32.2/0036), Nutriflex Omega Specialized (49/25/0065), Nut" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-06 | Removed: "All products are parenteral (infusion) formulations. No oral arginine product was identified, so" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 | 2026-11-06 | Removed: "(current registrations are parenteral only)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
+| 2026-11-24 | Corrected: "(all 10 registered products are amino acid-containing nutrition or dialysis preparations)" | Corrected | [SAHPRA medicine register (medapps export)](https://medapps.sahpra.org.za:6006/DateSearch/ExportData); [SAHPRA](https://www.sahpra.org.za/) |
 
 <!-- review:end log -->
 
