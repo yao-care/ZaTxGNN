@@ -667,3 +667,8 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   待辦條目只拿掉錯的前提，建議內容不動；成立的（atenolol「All registered products are oral tablets」、dorzolamide「eye drops only」等）不改。另 6 頁表下的「Only part of the licence list is held in the data…」（10-22 known_use_pages 程式句，快照事實層 partial＝False）刪掉；zidovudine「Simayla Simvastatin 40」、clavulanic_acid「several entries appear to be unrelated」兩條待辦的前提已不在證據包，拿掉。
 - 錨在被改句子上的舊紀錄：同 id 重發（aspartic_acid、clotrimazole、dl-alpha-tocopherol、fexofenadine、threonine、vitamin_e）或改錨（fenofibrate 11-12 紀錄），前版存 history。紀錄說明的張數樣板（site._fig）第一輪已改成不寫數字，確認無誤。
 - 合計新紀錄 99 筆（82 頁）、同 id 重發／改錨 7 筆；checker 全量前後都是 0、gate exit 0；正文有變的頁 last_modified_at 改 2026-11-24。
+
+## 缺市場段落的公開頁（2026-11-24 第三輪）
+
+用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落（## South Africa Market Information）、證據包卻有許可證紀錄的，要補段落與程式表。
+2026-11-24 全量量測本站 0 頁，所以只加 gate：`src/zatxgnn/regulatory/licenses.py` 的 page_problems 擋「公開頁快照有程式表列卻沒有市場段落」（之後若出現，再比照 Jp 在 `scripts/sync_license_tables.py` 加 add_section）。gate exit 0。
