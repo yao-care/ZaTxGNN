@@ -671,4 +671,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 ## 缺市場段落的公開頁（2026-11-24 第三輪）
 
 用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落（## South Africa Market Information）、證據包卻有許可證紀錄的，要補段落與程式表。
-2026-11-24 全量量測本站 0 頁，所以只加 gate：`src/zatxgnn/regulatory/licenses.py` 的 page_problems 擋「公開頁快照有程式表列卻沒有市場段落」（之後若出現，再比照 Jp 在 `scripts/sync_license_tables.py` 加 add_section）。gate exit 0。
+2026-11-24 全量量測本站 0 頁，所以只加 gate：`src/zatxgnn/regulatory/licenses.py` 的 page_problems 擋「公開頁快照有程式表列卻沒有市場段落」（之後若出現，再比照 Jp 在本站的 `scripts/sync_license_pages.py` 加 add_section）。gate exit 0。
